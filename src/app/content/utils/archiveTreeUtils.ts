@@ -12,6 +12,7 @@ export function flattenArchiveTree(tree: LinkedArchiveTree): LinkedArchiveTreeSe
     id: stripIdVersion(section.id),
     parent: section.parent,
     shortId: stripIdVersion(section.shortId),
+    slug: section.slug,
     title: section.title,
     version: getIdVersion(section.id),
   }));

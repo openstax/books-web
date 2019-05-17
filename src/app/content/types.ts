@@ -58,6 +58,7 @@ export interface ArchiveTreeSection {
   id: string;
   shortId: string;
   title: string;
+  slug: string;
 }
 
 export interface LinkedArchiveTree extends ArchiveTree {
