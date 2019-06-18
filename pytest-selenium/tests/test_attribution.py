@@ -76,5 +76,3 @@ def test_attribution_collapses_on_navigating_to_new_page(selenium, base_url, boo
 
     # THEN: The citation/attribution section is not open on the new page
     assert not attribution.is_open
-
-    attribution.click_attribution_link()

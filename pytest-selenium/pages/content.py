@@ -19,14 +19,6 @@ class Content(Page):
         return self.find_element(*self._body_locator).get_attribute("data-rex-loaded")
 
     @property
-    def title(self):
-        return self.find_element(*self._title_locator)
-
-    @property
-    def title_before_click(self):
-        return self.title.get_attribute("innerHTML")
-
-    @property
     def next_link(self):
         return self.find_element(*self._next_locator)
 
@@ -37,6 +29,10 @@ class Content(Page):
     @property
     def navbar(self):
         return self.NavBar(self)
+
+    @property
+    def bookbanner(self):
+        return self.BookBanner(self)
 
     @property
     def toolbar(self):
@@ -55,10 +51,10 @@ class Content(Page):
         return self.find_element(*self._section_url_locator)
 
     def click_next_link(self):
-        self.offscreen_click_and_wait_for_new_title_to_load(self.next_link)
+        return self.offscreen_click(self.next_link)
 
     def click_previous_link(self):
-        self.offscreen_click_and_wait_for_new_title_to_load(self.previous_link)
+        return self.offscreen_click(self.previous_link)
 
     class NavBar(Region):
         _root_locator = (By.CSS_SELECTOR, '[data-testid="navbar"]')
@@ -67,6 +63,14 @@ class Content(Page):
         @property
         def openstax_logo_link(self):
             return self.find_element(*self._openstax_logo_link_locator).get_attribute("href")
+
+    class BookBanner(Region):
+        _root_locator = (By.CSS_SELECTOR, '[data-testid="bookbanner"]')
+        _book_title_locator = (By.CSS_SELECTOR, "div > a")
+
+        @property
+        def book_title(self):
+            return self.find_element(*self._book_title_locator).text
 
     class ToolBar(Region):
         _root_locator = (By.CSS_SELECTOR, '[data-testid="toolbar"]')
@@ -90,6 +94,10 @@ class Content(Page):
         def header(self):
             return self.Header(self.page)
 
+        @property
+        def toc(self):
+            return self.TableOfContents(self.page)
+
         class Header(Region):
             _root_locator = (By.CSS_SELECTOR, '[data-testid="tocheader"]')
             _toc_toggle_button_locator = (
@@ -106,6 +114,14 @@ class Content(Page):
                 return self.wait.until(
                     expected.invisibility_of_element_located(self.toc_toggle_button)
                 )
+
+        class TableOfContents(Region):
+            _root_locator = (By.CSS_SELECTOR, "ol")
+            _active_page_locator = (By.CSS_SELECTOR, "[aria-label='Current Page']")
+
+            @property
+            def active_title(self):
+                return self.find_element(*self._active_page_locator).text
 
     class Attribution(Region):
         _root_locator = (By.CSS_SELECTOR, '[data-testid="attribution-details"]')

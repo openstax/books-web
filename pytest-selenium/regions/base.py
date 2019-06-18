@@ -20,6 +20,4 @@ class Region(pypom.Region):
         """
         # We actually navigate using the ENTER key because scrolling the page can be flaky
         # https://stackoverflow.com/a/39918249
-        # return self.page.offscreen_click(element or self.root)
-        element.send_keys(Keys.ENTER)
-        return element
+        return self.page.offscreen_click(element or self.root)

@@ -34,6 +34,10 @@ class Page(pypom.Page):
         self.wait.until(lambda _: region.is_displayed)
         return self
 
+    @property
+    def loaded(self):
+        return self.page.book_title == self.content.sidebar.active_title
+
     def offscreen_click(self, element):
         """Clicks an offscreen element.
 
@@ -43,16 +47,4 @@ class Page(pypom.Page):
         # We actually navigate using the ENTER key because scrolling the page can be flaky
         # https://stackoverflow.com/a/39918249
         element.send_keys(Keys.ENTER)
-        return element
-
-    def offscreen_click_and_wait_for_new_title_to_load(self, element):
-        """Clicks an offscreen element and waits for title to load.
-
-        Clicks the given element, even if it is offscreen, by sending the ENTER key.
-        Returns after loading the last element (title) of the page).
-        """
-        title_before_click = self.title_before_click
-        self.offscreen_click(element)
-        return self.wait.until(
-            lambda _: title_before_click != (self.title.get_attribute("innerHTML") or "")
-        )
+        return self.loaded
