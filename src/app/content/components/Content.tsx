@@ -1,5 +1,4 @@
 import React from 'react';
-import { createGlobalStyle } from 'styled-components';
 import styled, { css } from 'styled-components/macro';
 import Layout from '../../components/Layout';
 import Notifications from '../../notifications/components/Notifications';
@@ -28,22 +27,20 @@ import Wrapper from './Wrapper';
 import { wrapperPadding } from './Wrapper';
 
 // tslint:disable-next-line:variable-name
-const GlobalStyle = createGlobalStyle`
-  html {
-    scroll-padding-top: ${(bookBannerDesktopMiniHeight + toolbarDesktopHeight)}em;
-    ${theme.breakpoints.mobile(css`
-      scroll-padding-top: ${(bookBannerMobileMiniHeight + toolbarMobileHeight)}em;
-    `)}
-  }
-`;
-
-// tslint:disable-next-line:variable-name
 const Background = styled.div`
   @media screen {
     overflow: visible; /* so sidebar position: sticky works */
     background-color: ${theme.color.neutral.darker};
     width: 100%;
     height: 100%;
+  }
+`;
+
+// tslint:disable-next-line:variable-name
+const ScrollContainer = styled.div`
+  @media screen {
+    overflow: auto;
+    height: calc(100vh - 240px);
   }
 `;
 
@@ -160,28 +157,29 @@ const HideOverflowAndRedoPadding = isOpenConnector(styled.div`
  */
 // tslint:disable-next-line:variable-name
 const Content: React.SFC = () => <Layout>
-  <GlobalStyle />
   <Background>
     <BookBanner/>
     <Toolbar />
-    <Wrapper>
-      <CenteredContentRow>
-        <Sidebar />
-        <ContentPane>
-          <UndoPadding>
-            <MainContentWrapper>
-              <ContentNotifications />
-              <HideOverflowAndRedoPadding>
-                <Page />
-                <PrevNextBar />
-              </HideOverflowAndRedoPadding>
-              <Attribution />
-              <Footer/>
-            </MainContentWrapper>
-          </UndoPadding>
-        </ContentPane>
-      </CenteredContentRow>
-    </Wrapper>
+    <ScrollContainer>
+      <Wrapper>
+        <CenteredContentRow>
+          <Sidebar />
+          <ContentPane>
+            <UndoPadding>
+              <MainContentWrapper>
+                <ContentNotifications />
+                <HideOverflowAndRedoPadding>
+                  <Page />
+                  <PrevNextBar />
+                </HideOverflowAndRedoPadding>
+                <Attribution />
+                <Footer/>
+              </MainContentWrapper>
+            </UndoPadding>
+          </ContentPane>
+        </CenteredContentRow>
+      </Wrapper>
+    </ScrollContainer>
   </Background>
 </Layout>;
 

@@ -44,8 +44,7 @@ const sidebarClosedStyle = css`
 // tslint:disable-next-line:variable-name
 export const SidebarBody = styled.div<{isOpen: State['tocOpen']}>`
   position: sticky;
-  top: ${bookBannerDesktopMiniHeight}rem;
-  margin-top: -${toolbarDesktopHeight}rem;
+  top: 0;
   overflow-y: auto;
   height: calc(100vh - ${navDesktopHeight + bookBannerDesktopMiniHeight}rem);
   transition:
