@@ -1,0 +1,1037 @@
+<div class="os-eoc os-exercises-container" data-type="composite-page" data-uuid-key=".exercises"><section class="exercises" data-depth="1" id="fs-idm87178096"><h3 data-type="document-title" id="[redacted for uniqueness]"><span class="os-number">12.1</span><span class="os-divider"> </span><span class="os-text">Chemical Reaction Rates</span></h3>
+<div class=" os-hasSolution " data-type="exercise" id="fs-idp53700320">
+<div data-type="problem" id="fs-idm16361552"><a class="os-number" href="chapter-12#fs-idp53700320-solution">1</a><span class="os-divider">. </span><div class="os-problem-container">
+<p id="fs-idp78829424">What is the difference between average rate, initial rate, and instantaneous rate?</p>
+</div></div>
+
+</div>
+<div class=" " data-type="exercise" id="fs-idp77962352">
+<div data-type="problem" id="fs-idp193118640"><span class="os-number">2</span><span class="os-divider">. </span><div class="os-problem-container">
+<p id="fs-idp34774480">Ozone decomposes to oxygen according to the equation <math display="inline"><semantics><mrow><mrow><msub><mrow><mtext>2O</mtext></mrow><mn>3</mn></msub><mo stretchy="false">(</mo><mi>g</mi><mo stretchy="false">)</mo><mspace width="0.2em"/><mo stretchy="false">⟶</mo><mspace width="0.2em"/><msub><mrow><mtext>3O</mtext></mrow><mn>2</mn></msub><mo stretchy="false">(</mo><mi>g</mi><mo stretchy="false">)</mo><mo>.</mo></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><msub><mrow><mtext>2O</mtext></mrow><mn>3</mn></msub><mo stretchy="false">(</mo><mi>g</mi><mo stretchy="false">)</mo><mspace width="0.2em"/><mo stretchy="false">⟶</mo><mspace width="0.2em"/><msub><mrow><mtext>3O</mtext></mrow><mn>2</mn></msub><mo stretchy="false">(</mo><mi>g</mi><mo stretchy="false">)</mo><mo>.</mo></mrow></annotation-xml></semantics></math> Write the equation that relates the rate expressions for this reaction in terms of the disappearance of O<sub>3</sub> and the formation of oxygen.</p>
+</div></div>
+</div>
+<div class=" os-hasSolution " data-type="exercise" id="fs-idm82430624">
+<div data-type="problem" id="fs-idp215220304"><a class="os-number" href="chapter-12#fs-idm82430624-solution">3</a><span class="os-divider">. </span><div class="os-problem-container">
+<p id="fs-idm53585440">In the nuclear industry, chlorine trifluoride is used to prepare uranium hexafluoride, a volatile compound of uranium used in the separation of uranium isotopes. Chlorine trifluoride is prepared by the reaction <math display="inline"><semantics><mrow><mrow><msub><mrow><mtext>Cl</mtext></mrow><mn>2</mn></msub><mo stretchy="false">(</mo><mi>g</mi><mo stretchy="false">)</mo><mo>+</mo><msub><mrow><mtext>3F</mtext></mrow><mn>2</mn></msub><mo stretchy="false">(</mo><mi>g</mi><mo stretchy="false">)</mo><mspace width="0.2em"/><mo stretchy="false">⟶</mo><mspace width="0.2em"/><msub><mrow><mtext>2ClF</mtext></mrow><mn>3</mn></msub><mo stretchy="false">(</mo><mi>g</mi><mo stretchy="false">)</mo><mo>.</mo></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><msub><mrow><mtext>Cl</mtext></mrow><mn>2</mn></msub><mo stretchy="false">(</mo><mi>g</mi><mo stretchy="false">)</mo><mo>+</mo><msub><mrow><mtext>3F</mtext></mrow><mn>2</mn></msub><mo stretchy="false">(</mo><mi>g</mi><mo stretchy="false">)</mo><mspace width="0.2em"/><mo stretchy="false">⟶</mo><mspace width="0.2em"/><msub><mrow><mtext>2ClF</mtext></mrow><mn>3</mn></msub><mo stretchy="false">(</mo><mi>g</mi><mo stretchy="false">)</mo><mo>.</mo></mrow></annotation-xml></semantics></math> Write the equation that relates the rate expressions for this reaction in terms of the disappearance of Cl<sub>2</sub> and F<sub>2</sub> and the formation of ClF<sub>3</sub>.</p>
+</div></div>
+
+</div>
+<div class=" " data-type="exercise" id="fs-idp24119136">
+<div data-type="problem" id="fs-idm61565696"><span class="os-number">4</span><span class="os-divider">. </span><div class="os-problem-container">
+<p id="fs-idm5164144">A study of the rate of dimerization of C<sub>4</sub>H<sub>6</sub> gave the data shown in the table:<span data-type="newline"><br/></span><math display="inline"><semantics><mrow><mrow><msub><mrow><mtext>2C</mtext></mrow><mn>4</mn></msub><msub><mtext>H</mtext><mn>6</mn></msub><mspace width="0.2em"/><mo stretchy="false">⟶</mo><mspace width="0.2em"/><msub><mrow><mtext>C</mtext></mrow><mn>8</mn></msub><msub><mtext>H</mtext><mrow><mn>12</mn></mrow></msub></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><msub><mrow><mtext>2C</mtext></mrow><mn>4</mn></msub><msub><mtext>H</mtext><mn>6</mn></msub><mspace width="0.2em"/><mo stretchy="false">⟶</mo><mspace width="0.2em"/><msub><mrow><mtext>C</mtext></mrow><mn>8</mn></msub><msub><mtext>H</mtext><mrow><mn>12</mn></mrow></msub></mrow></annotation-xml></semantics></math></p>
+<div class="os-table" id="fs-idm53738576"><table class="column-header medium unnumbered" data-label="" data-id="fs-idm53738576" summary="Table 12.3  "><tbody>
+<tr valign="middle">
+<td data-align="left">Time (s)</td>
+<td data-align="left">0</td>
+<td data-align="left">1600</td>
+<td data-align="left">3200</td>
+<td data-align="left">4800</td>
+<td data-align="left">6200</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">[C<sub>4</sub>H<sub>6</sub>] (<em data-effect="italics">M</em>)</td>
+<td data-align="left">1.00 <math display="inline"><semantics><mrow><mo>×</mo></mrow><annotation-xml encoding="MathML-Content"><mo>×</mo></annotation-xml></semantics></math> 10<sup>−2</sup></td>
+<td data-align="left">5.04 <math display="inline"><semantics><mrow><mo>×</mo></mrow><annotation-xml encoding="MathML-Content"><mo>×</mo></annotation-xml></semantics></math> 10<sup>−3</sup></td>
+<td data-align="left">3.37 <math display="inline"><semantics><mrow><mo>×</mo></mrow><annotation-xml encoding="MathML-Content"><mo>×</mo></annotation-xml></semantics></math> 10<sup>−3</sup></td>
+<td data-align="left">2.53 <math display="inline"><semantics><mrow><mo>×</mo></mrow><annotation-xml encoding="MathML-Content"><mo>×</mo></annotation-xml></semantics></math> 10<sup>−3</sup></td>
+<td data-align="left">2.08 <math display="inline"><semantics><mrow><mo>×</mo></mrow><annotation-xml encoding="MathML-Content"><mo>×</mo></annotation-xml></semantics></math> 10<sup>−3</sup></td>
+</tr>
+</tbody></table></div>
+<p id="fs-idp8530000">(a) Determine the average rate of dimerization between 0 s and 1600 s, and between 1600 s and 3200 s.</p>
+<p id="fs-idp4423248">(b) Estimate the instantaneous rate of dimerization at 3200 s from a graph of time versus [C<sub>4</sub>H<sub>6</sub>]. What are the units of this rate?</p>
+<p id="fs-idp17436544">(c) Determine the average rate of formation of C<sub>8</sub>H<sub>12</sub> at 1600 s and the instantaneous rate of formation at 3200 s from the rates found in parts (a) and (b).</p>
+</div></div>
+</div>
+<div class=" os-hasSolution " data-type="exercise" id="fs-idm57147216">
+<div data-type="problem" id="fs-idp71103072"><a class="os-number" href="chapter-12#fs-idm57147216-solution">5</a><span class="os-divider">. </span><div class="os-problem-container">
+<p id="fs-idp79128192">A study of the rate of the reaction represented as <math display="inline"><semantics><mrow><mrow><mn>2</mn><mi>A</mi><mspace width="0.2em"/><mo stretchy="false">⟶</mo><mspace width="0.2em"/><mi>B</mi></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><mn>2</mn><mi>A</mi><mspace width="0.2em"/><mo stretchy="false">⟶</mo><mspace width="0.2em"/><mi>B</mi></mrow></annotation-xml></semantics></math> gave the following data:</p>
+<div class="os-table" id="fs-idp108292976"><table class="column-header medium unnumbered" data-label="" data-id="fs-idp108292976" summary="Table 12.3  "><tbody>
+<tr valign="middle">
+<td data-align="left">Time (s)</td>
+<td data-align="left">0.0</td>
+<td data-align="left">5.0</td>
+<td data-align="left">10.0</td>
+<td data-align="left">15.0</td>
+<td data-align="left">20.0</td>
+<td data-align="left">25.0</td>
+<td data-align="left">35.0</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">[<em data-effect="italics">A</em>] (<em data-effect="italics">M</em>)</td>
+<td data-align="left">1.00</td>
+<td data-align="left">0.775</td>
+<td data-align="left">0.625</td>
+<td data-align="left">0.465</td>
+<td data-align="left">0.360</td>
+<td data-align="left">0.285</td>
+<td data-align="left">0.230</td>
+</tr>
+</tbody></table></div><p id="fs-idm73606544">(a) Determine the average rate of disappearance of <em data-effect="italics">A</em> between 0.0 s and 10.0 s, and between 10.0 s and 20.0 s.</p>
+<p id="fs-idm51132096">(b) Estimate the instantaneous rate of disappearance of <em data-effect="italics">A</em> at 15.0 s from a graph of time versus [<em data-effect="italics">A</em>]. What are the units of this rate?</p>
+<p id="fs-idm80091760">(c) Use the rates found in parts (a) and (b) to determine the average rate of formation of <em data-effect="italics">B</em> between 0.00 s and 10.0 s, and the instantaneous rate of formation of <em data-effect="italics">B</em> at 15.0 s.</p>
+</div></div>
+
+</div>
+<div class=" " data-type="exercise" id="fs-idm40595504">
+<div data-type="problem" id="fs-idm26000224"><span class="os-number">6</span><span class="os-divider">. </span><div class="os-problem-container">
+<p id="fs-idm31731440">Consider the following reaction in aqueous solution:<span data-type="newline"><br/></span><math display="inline"><semantics><mrow><mrow><msup><mrow><mtext>5Br</mtext></mrow><mtext>−</mtext></msup><mo stretchy="false">(</mo><mtext mathvariant="italic">aq</mtext><mo stretchy="false">)</mo><mo>+</mo><msub><mtext>BrO</mtext><mn>3</mn></msub><msup><mrow/><mtext>−</mtext></msup><mo stretchy="false">(</mo><mtext mathvariant="italic">aq</mtext><mo stretchy="false">)</mo><mo>+</mo><msup><mrow><mtext>6H</mtext></mrow><mtext>+</mtext></msup><mo stretchy="false">(</mo><mtext mathvariant="italic">aq</mtext><mo stretchy="false">)</mo><mspace width="0.2em"/><mo stretchy="false">⟶</mo><mspace width="0.2em"/><msub><mrow><mtext>3Br</mtext></mrow><mn>2</mn></msub><mo stretchy="false">(</mo><mtext mathvariant="italic">aq</mtext><mo stretchy="false">)</mo><mo>+</mo><msub><mrow><mtext>3H</mtext></mrow><mn>2</mn></msub><mtext>O(</mtext><mi>l</mi><mo stretchy="false">)</mo></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><msup><mrow><mtext>5Br</mtext></mrow><mtext>−</mtext></msup><mo stretchy="false">(</mo><mtext mathvariant="italic">aq</mtext><mo stretchy="false">)</mo><mo>+</mo><msub><mtext>BrO</mtext><mn>3</mn></msub><msup><mrow/><mtext>−</mtext></msup><mo stretchy="false">(</mo><mtext mathvariant="italic">aq</mtext><mo stretchy="false">)</mo><mo>+</mo><msup><mrow><mtext>6H</mtext></mrow><mtext>+</mtext></msup><mo stretchy="false">(</mo><mtext mathvariant="italic">aq</mtext><mo stretchy="false">)</mo><mspace width="0.2em"/><mo stretchy="false">⟶</mo><mspace width="0.2em"/><msub><mrow><mtext>3Br</mtext></mrow><mn>2</mn></msub><mo stretchy="false">(</mo><mtext mathvariant="italic">aq</mtext><mo stretchy="false">)</mo><mo>+</mo><msub><mrow><mtext>3H</mtext></mrow><mn>2</mn></msub><mtext>O(</mtext><mi>l</mi><mo stretchy="false">)</mo></mrow></annotation-xml></semantics></math></p>
+<p id="fs-idp2868784">If the rate of disappearance of Br<sup>–</sup>(<em data-effect="italics">aq</em>) at a particular moment during the reaction is 3.5 <math display="inline"><semantics><mrow><mo>×</mo></mrow><annotation-xml encoding="MathML-Content"><mo>×</mo></annotation-xml></semantics></math> 10<sup>−4</sup> mol L<sup>−1</sup> <em data-effect="italics">s</em><sup>−1</sup>, what is the rate of appearance of Br<sub>2</sub>(<em data-effect="italics">aq</em>) at that moment?</p>
+</div></div>
+</div>
+</section><section class="exercises" data-depth="1" id="fs-idm87447680"><h3 data-type="document-title" id="[redacted for uniqueness]"><span class="os-number">12.2</span><span class="os-divider"> </span><span class="os-text">Factors Affecting Reaction Rates</span></h3>
+<div class=" os-hasSolution " data-type="exercise" id="fs-idm30837936">
+<div data-type="problem" id="fs-idm121876480"><a class="os-number" href="chapter-12#fs-idm30837936-solution">7</a><span class="os-divider">. </span><div class="os-problem-container">
+<p id="fs-idm151736608">Describe the effect of each of the following on the rate of the reaction of magnesium metal with a solution of hydrochloric acid: the molarity of the hydrochloric acid, the temperature of the solution, and the size of the pieces of magnesium.</p>
+</div></div>
+
+</div>
+<div class=" " data-type="exercise" id="fs-idm86018304">
+<div data-type="problem" id="fs-idm39468176"><span class="os-number">8</span><span class="os-divider">. </span><div class="os-problem-container">
+<p id="fs-idm102912640">Explain why an egg cooks more slowly in boiling water in Denver than in New York City. (Hint: Consider the effect of temperature on reaction rate and the effect of pressure on boiling point.)</p>
+</div></div>
+</div>
+<div class=" os-hasSolution " data-type="exercise" id="fs-idm66513728">
+<div data-type="problem" id="fs-idm154819360"><a class="os-number" href="chapter-12#fs-idm66513728-solution">9</a><span class="os-divider">. </span><div class="os-problem-container">
+<p id="fs-idm176952992">Go to the <a target="_blank" rel="noopener nofollow" href="http://openstaxcollege.org/l/16PHETreaction">PhET Reactions &amp; Rates</a> interactive. Use the Single Collision tab to represent how the collision between monatomic oxygen (O) and carbon monoxide (CO) results in the breaking of one bond and the formation of another. Pull back on the red plunger to release the atom and observe the results. Then, click on “Reload Launcher” and change to “Angled shot” to see the difference.</p>
+<p id="fs-idm60742624">(a) What happens when the angle of the collision is changed?</p>
+<p id="fs-idm63859552">(b) Explain how this is relevant to rate of reaction.</p>
+</div></div>
+
+</div>
+<div class=" " data-type="exercise" id="fs-idm66455280">
+<div data-type="problem" id="fs-idm85258160"><span class="os-number">10</span><span class="os-divider">. </span><div class="os-problem-container">
+<p id="fs-idm63416144">In the <a target="_blank" rel="noopener nofollow" href="http://openstaxcollege.org/l/16PHETreaction">PhET Reactions &amp; Rates</a> interactive, use the “Many Collisions” tab to observe how multiple atoms and molecules interact under varying conditions. Select a molecule to pump into the chamber. Set the initial temperature and select the current amounts of each reactant. Select “Show bonds” under Options. How is the rate of the reaction affected by concentration and temperature?</p>
+</div></div>
+</div>
+<div class=" os-hasSolution " data-type="exercise" id="fs-idm49710224">
+<div data-type="problem" id="fs-idm118152512"><a class="os-number" href="chapter-12#fs-idm49710224-solution">11</a><span class="os-divider">. </span><div class="os-problem-container">
+<p id="fs-idm26937872">In the <a target="_blank" rel="noopener nofollow" href="http://openstaxcollege.org/l/16PHETreaction">PhET Reactions &amp; Rates</a> interactive, on the Many Collisions tab, set up a simulation with 15 molecules of A and 10 molecules of BC. Select “Show Bonds” under Options.</p>
+<p id="fs-idm148287808">(a) Leave the Initial Temperature at the default setting. Observe the reaction. Is the rate of reaction fast or slow?</p>
+<p id="fs-idm144569264">(b) Click “Pause” and then “Reset All,” and then enter 15 molecules of A and 10 molecules of BC once again. Select “Show Bonds” under Options. This time, increase the initial temperature until, on the graph, the total average energy line is completely above the potential energy curve. Describe what happens to the reaction.</p>
+</div></div>
+
+</div>
+</section><section class="exercises" data-depth="1" id="fs-idm273385984"><h3 data-type="document-title" id="[redacted for uniqueness]"><span class="os-number">12.3</span><span class="os-divider"> </span><span class="os-text">Rate Laws</span></h3>
+<div class=" " data-type="exercise" id="fs-idm181252208">
+<div data-type="problem" id="fs-idm263515632"><span class="os-number">12</span><span class="os-divider">. </span><div class="os-problem-container">
+<p id="fs-idm262018416">How do the rate of a reaction and its rate constant differ?</p>
+</div></div>
+</div>
+<div class=" os-hasSolution " data-type="exercise" id="fs-idm256410736">
+<div data-type="problem" id="fs-idm123795104"><a class="os-number" href="chapter-12#fs-idm256410736-solution">13</a><span class="os-divider">. </span><div class="os-problem-container">
+<p id="fs-idm271487376">Doubling the concentration of a reactant increases the rate of a reaction four times. With this knowledge, answer the following questions:</p>
+<p id="fs-idm152653536">(a) What is the order of the reaction with respect to that reactant?</p>
+<p id="fs-idm273518816">(b) Tripling the concentration of a different reactant increases the rate of a reaction three times. What is the order of the reaction with respect to that reactant?</p>
+</div></div>
+
+</div>
+<div class=" " data-type="exercise" id="fs-idm211287824">
+<div data-type="problem" id="fs-idm272280256"><span class="os-number">14</span><span class="os-divider">. </span><div class="os-problem-container">
+<p id="fs-idm241985680">Tripling the concentration of a reactant increases the rate of a reaction nine-fold. With this knowledge, answer the following questions:</p>
+<p id="fs-idm194420784">(a) What is the order of the reaction with respect to that reactant?</p>
+<p id="fs-idm207624880">(b) Increasing the concentration of a reactant by a factor of four increases the rate of a reaction four-fold. What is the order of the reaction with respect to that reactant?</p>
+</div></div>
+</div>
+<div class=" os-hasSolution " data-type="exercise" id="fs-idm291799584">
+<div data-type="problem" id="fs-idm224202064"><a class="os-number" href="chapter-12#fs-idm291799584-solution">15</a><span class="os-divider">. </span><div class="os-problem-container">
+<p id="fs-idm222859792">How much and in what direction will each of the following affect the rate of the reaction: <math display="inline"><semantics><mrow><mrow><mtext>CO(</mtext><mi>g</mi><mo stretchy="false">)</mo><mo>+</mo><msub><mrow><mtext>NO</mtext></mrow><mn>2</mn></msub><mo stretchy="false">(</mo><mi>g</mi><mo stretchy="false">)</mo><mspace width="0.2em"/><mo stretchy="false">⟶</mo><mspace width="0.2em"/><msub><mrow><mtext>CO</mtext></mrow><mn>2</mn></msub><mo stretchy="false">(</mo><mi>g</mi><mo stretchy="false">)</mo><mo>+</mo><mtext>NO(</mtext><mi>g</mi><mo stretchy="false">)</mo></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><mtext>CO(</mtext><mi>g</mi><mo stretchy="false">)</mo><mo>+</mo><msub><mrow><mtext>NO</mtext></mrow><mn>2</mn></msub><mo stretchy="false">(</mo><mi>g</mi><mo stretchy="false">)</mo><mspace width="0.2em"/><mo stretchy="false">⟶</mo><mspace width="0.2em"/><msub><mrow><mtext>CO</mtext></mrow><mn>2</mn></msub><mo stretchy="false">(</mo><mi>g</mi><mo stretchy="false">)</mo><mo>+</mo><mtext>NO(</mtext><mi>g</mi><mo stretchy="false">)</mo></mrow></annotation-xml></semantics></math> if the rate law for the reaction is <math display="inline"><semantics><mrow><mrow><mtext>rate</mtext><mo>=</mo><mi>k</mi><msup><mrow><mrow><mo>[</mo><mrow><msub><mrow><mtext>NO</mtext></mrow><mn>2</mn></msub></mrow><mo>]</mo></mrow></mrow><mn>2</mn></msup></mrow><mo>?</mo></mrow><annotation-xml encoding="MathML-Content"><mrow><mtext>rate</mtext><mo>=</mo><mi>k</mi><msup><mrow><mrow><mo>[</mo><mrow><msub><mrow><mtext>NO</mtext></mrow><mn>2</mn></msub></mrow><mo>]</mo></mrow></mrow><mn>2</mn></msup></mrow><mo>?</mo></annotation-xml></semantics></math></p>
+<p id="fs-idm178016176">(a) Decreasing the pressure of NO<sub>2</sub> from 0.50 atm to 0.250 atm.</p>
+<p id="fs-idp38847392">(b) Increasing the concentration of CO from 0.01 <em data-effect="italics">M</em> to 0.03 <em data-effect="italics">M</em>.</p>
+</div></div>
+
+</div>
+<div class=" " data-type="exercise" id="fs-idm207653024">
+<div data-type="problem" id="fs-idm32510432"><span class="os-number">16</span><span class="os-divider">. </span><div class="os-problem-container">
+<p id="fs-idm176826112">How will each of the following affect the rate of the reaction: <math display="inline"><semantics><mrow><mrow><mtext>CO(</mtext><mi>g</mi><mo stretchy="false">)</mo><mo>+</mo><msub><mrow><mtext>NO</mtext></mrow><mn>2</mn></msub><mo stretchy="false">(</mo><mi>g</mi><mo stretchy="false">)</mo><mspace width="0.2em"/><mo stretchy="false">⟶</mo><mspace width="0.2em"/><msub><mrow><mtext>CO</mtext></mrow><mn>2</mn></msub><mo stretchy="false">(</mo><mi>g</mi><mo stretchy="false">)</mo><mo>+</mo><mtext>NO(</mtext><mi>g</mi><mo stretchy="false">)</mo></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><mtext>CO(</mtext><mi>g</mi><mo stretchy="false">)</mo><mo>+</mo><msub><mrow><mtext>NO</mtext></mrow><mn>2</mn></msub><mo stretchy="false">(</mo><mi>g</mi><mo stretchy="false">)</mo><mspace width="0.2em"/><mo stretchy="false">⟶</mo><mspace width="0.2em"/><msub><mrow><mtext>CO</mtext></mrow><mn>2</mn></msub><mo stretchy="false">(</mo><mi>g</mi><mo stretchy="false">)</mo><mo>+</mo><mtext>NO(</mtext><mi>g</mi><mo stretchy="false">)</mo></mrow></annotation-xml></semantics></math> if the rate law for the reaction is <math display="inline"><semantics><mrow><mrow><mtext>rate</mtext><mo>=</mo><mi>k</mi><mrow><mo>[</mo><mrow><msub><mrow><mtext>NO</mtext></mrow><mn>2</mn></msub></mrow><mo>]</mo></mrow><mrow><mo>[</mo><mrow><mtext>CO</mtext></mrow><mo>]</mo></mrow></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><mtext>rate</mtext><mo>=</mo><mi>k</mi><mrow><mo>[</mo><mrow><msub><mrow><mtext>NO</mtext></mrow><mn>2</mn></msub></mrow><mo>]</mo></mrow><mrow><mo>[</mo><mrow><mtext>CO</mtext></mrow><mo>]</mo></mrow></mrow></annotation-xml></semantics></math>?</p>
+<p id="fs-idm170891328">(a) Increasing the pressure of NO<sub>2</sub> from 0.1 atm to 0.3 atm</p>
+<p id="fs-idm178794544">(b) Increasing the concentration of CO from 0.02 <em data-effect="italics">M</em> to 0.06 <em data-effect="italics">M</em>.</p>
+</div></div>
+</div>
+<div class=" os-hasSolution " data-type="exercise" id="fs-idm222164384">
+<div data-type="problem" id="fs-idm111393920"><a class="os-number" href="chapter-12#fs-idm222164384-solution">17</a><span class="os-divider">. </span><div class="os-problem-container">
+<p id="fs-idm192992480">Regular flights of supersonic aircraft in the stratosphere are of concern because such aircraft produce nitric oxide, NO, as a byproduct in the exhaust of their engines. Nitric oxide reacts with ozone, and it has been suggested that this could contribute to depletion of the ozone layer. The reaction <math display="inline"><semantics><mrow><mrow><mtext>NO</mtext><mo>+</mo><msub><mtext>O</mtext><mn>3</mn></msub><mspace width="0.2em"/><mo stretchy="false">⟶</mo><mspace width="0.2em"/><msub><mrow><mtext>NO</mtext></mrow><mn>2</mn></msub><mo>+</mo><msub><mtext>O</mtext><mn>2</mn></msub></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><mtext>NO</mtext><mo>+</mo><msub><mtext>O</mtext><mn>3</mn></msub><mspace width="0.2em"/><mo stretchy="false">⟶</mo><mspace width="0.2em"/><msub><mrow><mtext>NO</mtext></mrow><mn>2</mn></msub><mo>+</mo><msub><mtext>O</mtext><mn>2</mn></msub></mrow></annotation-xml></semantics></math> is first order with respect to both NO and O<sub>3</sub> with a rate constant of 2.20 <math display="inline"><semantics><mrow><mo>×</mo></mrow><annotation-xml encoding="MathML-Content"><mo>×</mo></annotation-xml></semantics></math> 10<sup>7</sup> L/mol/s. What is the instantaneous rate of disappearance of NO when [NO] = 3.3 <math display="inline"><semantics><mrow><mo>×</mo></mrow><annotation-xml encoding="MathML-Content"><mo>×</mo></annotation-xml></semantics></math> 10<sup>−6</sup> <em data-effect="italics">M</em> and [O<sub>3</sub>] = 5.9 <math display="inline"><semantics><mrow><mo>×</mo></mrow><annotation-xml encoding="MathML-Content"><mo>×</mo></annotation-xml></semantics></math> 10<sup>−7</sup> <em data-effect="italics">M</em>?</p>
+</div></div>
+
+</div>
+<div class=" " data-type="exercise" id="fs-idm53134032">
+<div data-type="problem" id="fs-idm158374656"><span class="os-number">18</span><span class="os-divider">. </span><div class="os-problem-container">
+<p id="fs-idm275577216">Radioactive phosphorus is used in the study of biochemical reaction mechanisms because phosphorus atoms are components of many biochemical molecules. The location of the phosphorus (and the location of the molecule it is bound in) can be detected from the electrons (beta particles) it produces:<span data-type="newline"><br/></span>
+<math display="inline"><semantics><mrow><mrow><msubsup><mrow/><mtext>15</mtext><mtext>32</mtext></msubsup><mtext>P</mtext><mspace width="0.2em"/><mo stretchy="false">⟶</mo><mspace width="0.2em"/>
+<msubsup><mrow/><mn>16</mn><mn>32</mn></msubsup><mtext>S</mtext><mo>+</mo><msup><mtext>e</mtext><mo>−</mo></msup></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><msubsup><mrow/><mtext>15</mtext><mtext>32</mtext></msubsup><mtext>P</mtext><mspace width="0.2em"/><mo stretchy="false">⟶</mo><mspace width="0.2em"/>
+<msubsup><mrow/><mn>16</mn><mn>32</mn></msubsup><mtext>S</mtext><mo>+</mo><msup><mtext>e</mtext><mo>−</mo></msup></mrow></annotation-xml></semantics></math>
+<span data-type="newline"><br/></span>
+rate = 4.85 <math display="inline"><semantics><mrow><mo>×</mo></mrow><annotation-xml encoding="MathML-Content"><mo>×</mo></annotation-xml></semantics></math> 10<sup>−2</sup> <math display="inline"><semantics><mrow><msup><mtext>day</mtext><mrow><mo>−</mo><mn>1</mn></mrow></msup><mo>[</mo><msup><mrow/><mn>32</mn></msup><mtext>P</mtext><mo>]</mo></mrow><annotation-xml encoding="MathML-Content"><msup><mtext>day</mtext><mrow><mo>−</mo><mn>1</mn></mrow></msup><mo>[</mo><msup><mrow/><mn>32</mn></msup><mtext>P</mtext><mo>]</mo></annotation-xml></semantics></math></p>
+<p id="fs-idm122111920">What is the instantaneous rate of production of electrons in a sample with a phosphorus concentration of 0.0033 <em data-effect="italics">M</em>?</p>
+</div></div>
+</div>
+<div class=" os-hasSolution " data-type="exercise" id="fs-idm140350624">
+<div data-type="problem" id="fs-idm84975536"><a class="os-number" href="chapter-12#fs-idm140350624-solution">19</a><span class="os-divider">. </span><div class="os-problem-container">
+<p id="fs-idm234311904">The rate constant for the radioactive decay of <sup>14</sup>C is 1.21 <math display="inline"><semantics><mrow><mo>×</mo></mrow><annotation-xml encoding="MathML-Content"><mo>×</mo></annotation-xml></semantics></math> 10<sup>−4</sup> year<sup>−1</sup>. The products of the decay are nitrogen atoms and electrons (beta particles):<span data-type="newline"><br/></span>
+<math display="inline"><semantics><mrow><msubsup><mrow/><mn>6</mn><mrow><mn>14</mn></mrow></msubsup><mtext>C</mtext><mspace width="0.2em"/><mo stretchy="false">⟶</mo><mspace width="0.2em"/><msubsup><mrow/><mn>7</mn><mrow><mn>14</mn></mrow></msubsup><mtext>N</mtext><mo>+</mo><msup><mtext>e</mtext><mo>−</mo></msup></mrow><annotation-xml encoding="MathML-Content"><msubsup><mrow/><mn>6</mn><mrow><mn>14</mn></mrow></msubsup><mtext>C</mtext><mspace width="0.2em"/><mo stretchy="false">⟶</mo><mspace width="0.2em"/><msubsup><mrow/><mn>7</mn><mrow><mn>14</mn></mrow></msubsup><mtext>N</mtext><mo>+</mo><msup><mtext>e</mtext><mo>−</mo></msup></annotation-xml></semantics></math><span data-type="newline"><br/></span>
+<math display="inline"><semantics><mrow><mtext>rate</mtext><mo>=</mo><mi>k</mi><mo>[</mo><msubsup><mrow/><mn>6</mn><mrow><mn>14</mn></mrow></msubsup><mtext>C</mtext><mo>]</mo></mrow><annotation-xml encoding="MathML-Content"><mtext>rate</mtext><mo>=</mo><mi>k</mi><mo>[</mo><msubsup><mrow/><mn>6</mn><mrow><mn>14</mn></mrow></msubsup><mtext>C</mtext><mo>]</mo></annotation-xml></semantics></math></p><p id="fs-idm233654624">What is the instantaneous rate of production of N atoms in a sample with a carbon-14 content of 6.5 <math display="inline"><semantics><mrow><mo>×</mo></mrow><annotation-xml encoding="MathML-Content"><mo>×</mo></annotation-xml></semantics></math> 10<sup>−9</sup> <em data-effect="italics">M</em>?</p>
+</div></div>
+
+</div>
+<div class=" " data-type="exercise" id="fs-idm147604432">
+<div data-type="problem" id="fs-idm197731520"><span class="os-number">20</span><span class="os-divider">. </span><div class="os-problem-container">
+<p id="fs-idm278447280">The decomposition of acetaldehyde is a second order reaction with a rate constant of 4.71 <math display="inline"><semantics><mrow><mo>×</mo></mrow><annotation-xml encoding="MathML-Content"><mo>×</mo></annotation-xml></semantics></math> 10<sup>−8</sup> L mol<sup>−1</sup> s<sup>−1</sup>. What is the instantaneous rate of decomposition of acetaldehyde in a solution with a concentration of 5.55 <math display="inline"><semantics><mrow><mo>×</mo></mrow><annotation-xml encoding="MathML-Content"><mo>×</mo></annotation-xml></semantics></math> 10<sup>−4</sup> <em data-effect="italics">M</em>?</p>
+</div></div>
+</div>
+<div class=" os-hasSolution " data-type="exercise" id="fs-idm32841312">
+<div data-type="problem" id="fs-idm176201552"><a class="os-number" href="chapter-12#fs-idm32841312-solution">21</a><span class="os-divider">. </span><div class="os-problem-container">
+<p id="fs-idm84914160">Alcohol is removed from the bloodstream by a series of metabolic reactions. The first reaction produces acetaldehyde; then other products are formed. The following data have been determined for the rate at which alcohol is removed from the blood of an average male, although individual rates can vary by 25–30%. Women metabolize alcohol a little more slowly than men:<span data-type="newline"><br/></span>
+</p><div class="os-table" id="fs-idm121830912"><table class="column-header medium unnumbered" data-label="" data-id="fs-idm121830912" summary="Table 12.3  "><tbody>
+<tr valign="middle">
+<td data-align="left">[C<sub>2</sub>H<sub>5</sub>OH] (<em data-effect="italics">M</em>)</td>
+<td data-align="left">4.4 <math display="inline"><semantics><mrow><mo>×</mo></mrow><annotation-xml encoding="MathML-Content"><mo>×</mo></annotation-xml></semantics></math> 10<sup>−2</sup></td>
+<td data-align="left">3.3 <math display="inline"><semantics><mrow><mo>×</mo></mrow><annotation-xml encoding="MathML-Content"><mo>×</mo></annotation-xml></semantics></math> 10<sup>−2</sup></td>
+<td data-align="left">2.2 <math display="inline"><semantics><mrow><mo>×</mo></mrow><annotation-xml encoding="MathML-Content"><mo>×</mo></annotation-xml></semantics></math> 10<sup>−2</sup></td>
+</tr>
+<tr valign="middle">
+<td data-align="left">Rate (mol L<sup>−1</sup> h<sup>−1</sup>)</td>
+<td data-align="left">2.0 <math display="inline"><semantics><mrow><mo>×</mo></mrow><annotation-xml encoding="MathML-Content"><mo>×</mo></annotation-xml></semantics></math> 10<sup>−2</sup></td>
+<td data-align="left">2.0 <math display="inline"><semantics><mrow><mo>×</mo></mrow><annotation-xml encoding="MathML-Content"><mo>×</mo></annotation-xml></semantics></math> 10<sup>−2</sup></td>
+<td data-align="left">2.0 <math display="inline"><semantics><mrow><mo>×</mo></mrow><annotation-xml encoding="MathML-Content"><mo>×</mo></annotation-xml></semantics></math> 10<sup>−2</sup></td>
+</tr>
+</tbody></table></div>
+<p id="fs-idm233198896">Determine the rate law, the rate constant, and the overall order for this reaction.</p>
+</div></div>
+
+</div>
+<div class=" " data-type="exercise" id="fs-idm233306880">
+<div data-type="problem" id="fs-idm254597216"><span class="os-number">22</span><span class="os-divider">. </span><div class="os-problem-container">
+<p id="fs-idm222957616">Under certain conditions the decomposition of ammonia on a metal surface gives the following data:</p>
+<div class="os-table" id="fs-idm155842464"><table class="column-header medium unnumbered" data-label="" data-id="fs-idm155842464" summary="Table 12.3  "><tbody>
+<tr valign="middle">
+<td data-align="left">[NH<sub>3</sub>] (<em data-effect="italics">M</em>)</td>
+<td data-align="left">1.0 <math display="inline"><semantics><mrow><mo>×</mo></mrow><annotation-xml encoding="MathML-Content"><mo>×</mo></annotation-xml></semantics></math> 10<sup>−3</sup></td>
+<td data-align="left">2.0 <math display="inline"><semantics><mrow><mo>×</mo></mrow><annotation-xml encoding="MathML-Content"><mo>×</mo></annotation-xml></semantics></math> 10<sup>−3</sup></td>
+<td data-align="left">3.0 <math display="inline"><semantics><mrow><mo>×</mo></mrow><annotation-xml encoding="MathML-Content"><mo>×</mo></annotation-xml></semantics></math> 10<sup>−3</sup></td>
+</tr>
+<tr valign="middle">
+<td data-align="left">Rate (mol L<sup>−1</sup> h<sup>−1</sup>)</td>
+<td data-align="left">1.5 <math display="inline"><semantics><mrow><mo>×</mo></mrow><annotation-xml encoding="MathML-Content"><mo>×</mo></annotation-xml></semantics></math> 10<sup>−6</sup></td>
+<td data-align="left">1.5 <math display="inline"><semantics><mrow><mo>×</mo></mrow><annotation-xml encoding="MathML-Content"><mo>×</mo></annotation-xml></semantics></math> 10<sup>−6</sup></td>
+<td data-align="left">1.5 <math display="inline"><semantics><mrow><mo>×</mo></mrow><annotation-xml encoding="MathML-Content"><mo>×</mo></annotation-xml></semantics></math> 10<sup>−6</sup></td>
+</tr>
+</tbody></table></div>
+<p id="fs-idm279312480">Determine the rate law, the rate constant, and the overall order for this reaction.</p>
+</div></div>
+</div>
+<div class=" os-hasSolution " data-type="exercise" id="fs-idm263803776">
+<div data-type="problem" id="fs-idm219334592"><a class="os-number" href="chapter-12#fs-idm263803776-solution">23</a><span class="os-divider">. </span><div class="os-problem-container">
+<p id="fs-idm217433968">Nitrosyl chloride, NOCl, decomposes to NO and Cl<sub>2</sub>.<span data-type="newline"><br/></span>
+<math display="inline"><semantics><mrow><mrow><mtext>2NOCl(</mtext><mi>g</mi><mo stretchy="false">)</mo><mspace width="0.2em"/><mo stretchy="false">⟶</mo><mspace width="0.2em"/><mtext>2NO(</mtext><mi>g</mi><mo stretchy="false">)</mo><mo>+</mo><msub><mrow><mtext>Cl</mtext></mrow><mn>2</mn></msub><mo stretchy="false">(</mo><mi>g</mi><mo stretchy="false">)</mo></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><mtext>2NOCl(</mtext><mi>g</mi><mo stretchy="false">)</mo><mspace width="0.2em"/><mo stretchy="false">⟶</mo><mspace width="0.2em"/><mtext>2NO(</mtext><mi>g</mi><mo stretchy="false">)</mo><mo>+</mo><msub><mrow><mtext>Cl</mtext></mrow><mn>2</mn></msub><mo stretchy="false">(</mo><mi>g</mi><mo stretchy="false">)</mo></mrow></annotation-xml></semantics></math></p>
+<p id="fs-idm105942144">Determine the rate law, the rate constant, and the overall order for this reaction from the following data:</p>
+<div class="os-table" id="fs-idm176170864"><table class="column-header medium unnumbered" data-label="" data-id="fs-idm176170864" summary="Table 12.3  "><tbody>
+<tr valign="middle">
+<td data-align="left">[NOCl] (<em data-effect="italics">M</em>)</td>
+<td data-align="left">0.10</td>
+<td data-align="left">0.20</td>
+<td data-align="left">0.30</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">Rate (mol L<sup>−1</sup> h<sup>−1</sup>)</td>
+<td data-align="left">8.0 <math display="inline"><semantics><mrow><mo>×</mo></mrow><annotation-xml encoding="MathML-Content"><mo>×</mo></annotation-xml></semantics></math> 10<sup>−10</sup></td>
+<td data-align="left">3.2 <math display="inline"><semantics><mrow><mo>×</mo></mrow><annotation-xml encoding="MathML-Content"><mo>×</mo></annotation-xml></semantics></math> 10<sup>−9</sup></td>
+<td data-align="left">7.2 <math display="inline"><semantics><mrow><mo>×</mo></mrow><annotation-xml encoding="MathML-Content"><mo>×</mo></annotation-xml></semantics></math> 10<sup>−9</sup></td>
+</tr>
+</tbody></table></div>
+</div></div>
+
+</div>
+<div class=" " data-type="exercise" id="fs-idm146074112">
+<div data-type="problem" id="fs-idm176758704"><span class="os-number">24</span><span class="os-divider">. </span><div class="os-problem-container">
+<p id="fs-idm254308880">From the following data, determine the rate law, the rate constant, and the order with respect to <em data-effect="italics">A</em> for the reaction <math display="inline"><semantics><mrow><mrow><mi>A</mi><mspace width="0.2em"/><mo stretchy="false">⟶</mo><mspace width="0.2em"/><mn>2</mn><mi>C</mi><mo>.</mo></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><mi>A</mi><mspace width="0.2em"/><mo stretchy="false">⟶</mo><mspace width="0.2em"/><mn>2</mn><mi>C</mi><mo>.</mo></mrow></annotation-xml></semantics></math></p>
+<div class="os-table" id="fs-idm146675536"><table class="column-header medium unnumbered" data-label="" data-id="fs-idm146675536" summary="Table 12.3  "><tbody>
+<tr valign="middle">
+<td data-align="left">[<em data-effect="italics">A</em>] (<em data-effect="italics">M</em>)</td>
+<td data-align="left">1.33 <math display="inline"><semantics><mrow><mo>×</mo></mrow><annotation-xml encoding="MathML-Content"><mo>×</mo></annotation-xml></semantics></math> 10<sup>−2</sup></td>
+<td data-align="left">2.66 <math display="inline"><semantics><mrow><mo>×</mo></mrow><annotation-xml encoding="MathML-Content"><mo>×</mo></annotation-xml></semantics></math> 10<sup>−2</sup></td>
+<td data-align="left">3.99 <math display="inline"><semantics><mrow><mo>×</mo></mrow><annotation-xml encoding="MathML-Content"><mo>×</mo></annotation-xml></semantics></math> 10<sup>−2</sup></td>
+</tr>
+<tr valign="middle">
+<td data-align="left">Rate (mol L<sup>−1</sup> h<sup>−1</sup>)</td>
+<td data-align="left">3.80 <math display="inline"><semantics><mrow><mo>×</mo></mrow><annotation-xml encoding="MathML-Content"><mo>×</mo></annotation-xml></semantics></math> 10<sup>−7</sup></td>
+<td data-align="left">1.52 <math display="inline"><semantics><mrow><mo>×</mo></mrow><annotation-xml encoding="MathML-Content"><mo>×</mo></annotation-xml></semantics></math> 10<sup>−6</sup></td>
+<td data-align="left">3.42 <math display="inline"><semantics><mrow><mo>×</mo></mrow><annotation-xml encoding="MathML-Content"><mo>×</mo></annotation-xml></semantics></math> 10<sup>−6</sup></td>
+</tr>
+</tbody></table></div>
+</div></div>
+</div>
+<div class=" os-hasSolution " data-type="exercise" id="fs-idm238094880">
+<div data-type="problem" id="fs-idm219633024"><a class="os-number" href="chapter-12#fs-idm238094880-solution">25</a><span class="os-divider">. </span><div class="os-problem-container">
+<p id="fs-idm262783024">Nitrogen monoxide reacts with chlorine according to the equation:<span data-type="newline"><br/></span>
+<math display="inline"><semantics><mrow><mrow><mtext>2NO(</mtext><mi>g</mi><mo stretchy="false">)</mo><mo>+</mo><msub><mrow><mtext>Cl</mtext></mrow><mn>2</mn></msub><mo stretchy="false">(</mo><mi>g</mi><mo stretchy="false">)</mo><mspace width="0.2em"/><mo stretchy="false">⟶</mo><mspace width="0.2em"/><mtext>2NOCl(</mtext><mi>g</mi><mo stretchy="false">)</mo></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><mtext>2NO(</mtext><mi>g</mi><mo stretchy="false">)</mo><mo>+</mo><msub><mrow><mtext>Cl</mtext></mrow><mn>2</mn></msub><mo stretchy="false">(</mo><mi>g</mi><mo stretchy="false">)</mo><mspace width="0.2em"/><mo stretchy="false">⟶</mo><mspace width="0.2em"/><mtext>2NOCl(</mtext><mi>g</mi><mo stretchy="false">)</mo></mrow></annotation-xml></semantics></math></p><p id="fs-idm268051184">The following initial rates of reaction have been observed for certain reactant concentrations:</p>
+<div class="os-table" id="fs-idp1859024"><table class="medium unnumbered" data-label="" data-id="fs-idp1859024" summary="Table 12.3  "><thead>
+<tr valign="middle">
+<th data-align="left">[NO] (mol/L<sup>1</sup>)</th>
+<th data-align="left">[Cl<sub>2</sub>] (mol/L)</th>
+<th data-align="left">Rate (mol L<sup>−1</sup> h<sup>−1</sup>)</th>
+</tr>
+</thead><tbody>
+<tr valign="middle">
+<td data-align="left">0.50</td>
+<td data-align="left">0.50</td>
+<td data-align="left">1.14</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">1.00</td>
+<td data-align="left">0.50</td>
+<td data-align="left">4.56</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">1.00</td>
+<td data-align="left">1.00</td>
+<td data-align="left">9.12</td>
+</tr>
+</tbody></table></div>
+<p id="fs-idm185311088">What is the rate law that describes the rate’s dependence on the concentrations of NO and Cl<sub>2</sub>? What is the rate constant? What are the orders with respect to each reactant?</p>
+</div></div>
+
+</div>
+<div class=" " data-type="exercise" id="fs-idm168734944">
+<div data-type="problem" id="fs-idm114198000"><span class="os-number">26</span><span class="os-divider">. </span><div class="os-problem-container">
+<p id="fs-idm219404160">Hydrogen reacts with nitrogen monoxide to form dinitrogen monoxide (laughing gas) according to the equation: <math display="inline"><semantics><mrow><mrow><msub><mtext>H</mtext><mn>2</mn></msub><mo stretchy="false">(</mo><mi>g</mi><mo stretchy="false">)</mo><mo>+</mo><mtext>2NO(</mtext><mi>g</mi><mo stretchy="false">)</mo><mspace width="0.2em"/><mo stretchy="false">⟶</mo><mspace width="0.2em"/><msub><mtext>N</mtext><mn>2</mn></msub><mtext>O(</mtext><mi>g</mi><mo stretchy="false">)</mo><mo>+</mo><msub><mtext>H</mtext><mn>2</mn></msub><mtext>O(</mtext><mi>g</mi><mo stretchy="false">)</mo></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><msub><mtext>H</mtext><mn>2</mn></msub><mo stretchy="false">(</mo><mi>g</mi><mo stretchy="false">)</mo><mo>+</mo><mtext>2NO(</mtext><mi>g</mi><mo stretchy="false">)</mo><mspace width="0.2em"/><mo stretchy="false">⟶</mo><mspace width="0.2em"/><msub><mtext>N</mtext><mn>2</mn></msub><mtext>O(</mtext><mi>g</mi><mo stretchy="false">)</mo><mo>+</mo><msub><mtext>H</mtext><mn>2</mn></msub><mtext>O(</mtext><mi>g</mi><mo stretchy="false">)</mo></mrow></annotation-xml></semantics></math></p>
+<p id="fs-idm148410512">Determine the rate law, the rate constant, and the orders with respect to each reactant from the following data:</p>
+<div class="os-table" id="fs-idm261821504"><table class="column-header medium unnumbered" data-label="" data-id="fs-idm261821504" summary="Table 12.3  "><tbody>
+<tr valign="middle">
+<td data-align="left">[NO] (<em data-effect="italics">M</em>)</td>
+<td data-align="left">0.30</td>
+<td data-align="left">0.60</td>
+<td data-align="left">0.60</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">[H<sub>2</sub>] (<em data-effect="italics">M</em>)</td>
+<td data-align="left">0.35</td>
+<td data-align="left">0.35</td>
+<td data-align="left">0.70</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">Rate (mol L<sup>−1</sup> s<sup>−1</sup>)</td>
+<td data-align="left">2.835 <math display="inline"><semantics><mrow><mo>×</mo></mrow><annotation-xml encoding="MathML-Content"><mo>×</mo></annotation-xml></semantics></math> 10<sup>−3</sup></td>
+<td data-align="left">1.134 <math display="inline"><semantics><mrow><mo>×</mo></mrow><annotation-xml encoding="MathML-Content"><mo>×</mo></annotation-xml></semantics></math> 10<sup>−2</sup></td>
+<td data-align="left">2.268 <math display="inline"><semantics><mrow><mo>×</mo></mrow><annotation-xml encoding="MathML-Content"><mo>×</mo></annotation-xml></semantics></math> 10<sup>−2</sup></td>
+</tr>
+</tbody></table></div>
+</div></div>
+</div>
+<div class=" os-hasSolution " data-type="exercise" id="fs-idm49483024">
+<div data-type="problem" id="fs-idm215926240"><a class="os-number" href="chapter-12#fs-idm49483024-solution">27</a><span class="os-divider">. </span><div class="os-problem-container">
+<p id="fs-idm253875200">For the reaction <math display="inline"><semantics><mrow><mrow><mi>A</mi><mspace width="0.2em"/><mo stretchy="false">⟶</mo><mspace width="0.2em"/><mi>B</mi><mo>+</mo><mi>C</mi><mo>,</mo></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><mi>A</mi><mspace width="0.2em"/><mo stretchy="false">⟶</mo><mspace width="0.2em"/><mi>B</mi><mo>+</mo><mi>C</mi><mo>,</mo></mrow></annotation-xml></semantics></math> the following data were obtained at 30 °C:</p>
+<div class="os-table" id="fs-idm262119440"><table class="column-header medium unnumbered" data-label="" data-id="fs-idm262119440" summary="Table 12.3  "><tbody>
+<tr valign="middle">
+<td data-align="left">[<em data-effect="italics">A</em>] (<em data-effect="italics">M</em>)</td>
+<td data-align="left">0.230</td>
+<td data-align="left">0.356</td>
+<td data-align="left">0.557</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">Rate (mol L<sup>−1</sup> s<sup>−1</sup>)</td>
+<td data-align="left">4.17 <math display="inline"><semantics><mrow><mo>×</mo></mrow><annotation-xml encoding="MathML-Content"><mo>×</mo></annotation-xml></semantics></math> 10<sup>−4</sup></td>
+<td data-align="left">9.99 <math display="inline"><semantics><mrow><mo>×</mo></mrow><annotation-xml encoding="MathML-Content"><mo>×</mo></annotation-xml></semantics></math> 10<sup>−4</sup></td>
+<td data-align="left">2.44 <math display="inline"><semantics><mrow><mo>×</mo></mrow><annotation-xml encoding="MathML-Content"><mo>×</mo></annotation-xml></semantics></math> 10<sup>−3</sup></td>
+</tr>
+</tbody></table></div>
+<p id="fs-idm356651248">(a) What is the order of the reaction with respect to [<em data-effect="italics">A</em>], and what is the rate law?</p>
+<p id="fs-idm110876512">(b) What is the rate constant?</p>
+</div></div>
+
+</div>
+<div class=" " data-type="exercise" id="fs-idm140371280">
+<div data-type="problem" id="fs-idm189702064"><span class="os-number">28</span><span class="os-divider">. </span><div class="os-problem-container">
+<p id="fs-idm189701808">For the reaction <math display="inline"><semantics><mrow><mrow><mi>Q</mi><mspace width="0.2em"/><mo stretchy="false">⟶</mo><mspace width="0.2em"/><mi>W</mi><mo>+</mo><mi>X</mi><mo>,</mo></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><mi>Q</mi><mspace width="0.2em"/><mo stretchy="false">⟶</mo><mspace width="0.2em"/><mi>W</mi><mo>+</mo><mi>X</mi><mo>,</mo></mrow></annotation-xml></semantics></math> the following data were obtained at 30 °C:</p>
+<div class="os-table" id="fs-idm53317088"><table class="column-header medium unnumbered" data-label="" data-id="fs-idm53317088" summary="Table 12.3  "><tbody>
+<tr valign="middle">
+<td data-align="left">[<em data-effect="italics">Q</em>]<sub>initial</sub> (<em data-effect="italics">M</em>)</td>
+<td data-align="left">0.170</td>
+<td data-align="left">0.212</td>
+<td data-align="left">0.357</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">Rate (mol L<sup>−1</sup> s<sup>−1</sup>)</td>
+<td data-align="left">6.68 <math display="inline"><semantics><mrow><mo>×</mo></mrow><annotation-xml encoding="MathML-Content"><mo>×</mo></annotation-xml></semantics></math> 10<sup>−3</sup></td>
+<td data-align="left">1.04 <math display="inline"><semantics><mrow><mo>×</mo></mrow><annotation-xml encoding="MathML-Content"><mo>×</mo></annotation-xml></semantics></math> 10<sup>−2</sup></td>
+<td data-align="left">2.94 <math display="inline"><semantics><mrow><mo>×</mo></mrow><annotation-xml encoding="MathML-Content"><mo>×</mo></annotation-xml></semantics></math> 10<sup>−2</sup></td>
+</tr>
+</tbody></table></div>
+<p id="fs-idm157857072">(a) What is the order of the reaction with respect to [<em data-effect="italics">Q</em>], and what is the rate law?</p>
+<p id="fs-idm187916448">(b) What is the rate constant?</p>
+</div></div>
+</div>
+<div class=" os-hasSolution " data-type="exercise" id="fs-idm57376432">
+<div data-type="problem" id="fs-idm245906208"><a class="os-number" href="chapter-12#fs-idm57376432-solution">29</a><span class="os-divider">. </span><div class="os-problem-container">
+<p id="fs-idm245905952">The rate constant for the first-order decomposition at 45 °C of dinitrogen pentoxide, N<sub>2</sub>O<sub>5</sub>, dissolved in chloroform, CHCl<sub>3</sub>, is 6.2 <math display="inline"><semantics><mrow><mo>×</mo></mrow><annotation-xml encoding="MathML-Content"><mo>×</mo></annotation-xml></semantics></math> 10<sup>−4</sup> min<sup>−1</sup>.<span data-type="newline"><br/></span>
+<math display="inline"><semantics><mrow><mrow><msub><mrow><mtext>2N</mtext></mrow><mn>2</mn></msub><msub><mtext>O</mtext><mn>5</mn></msub><mspace width="0.2em"/><mo stretchy="false">⟶</mo><mspace width="0.2em"/><msub><mrow><mtext>4NO</mtext></mrow><mn>2</mn></msub><mo>+</mo><msub><mtext>O</mtext><mn>2</mn></msub></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><msub><mrow><mtext>2N</mtext></mrow><mn>2</mn></msub><msub><mtext>O</mtext><mn>5</mn></msub><mspace width="0.2em"/><mo stretchy="false">⟶</mo><mspace width="0.2em"/><msub><mrow><mtext>4NO</mtext></mrow><mn>2</mn></msub><mo>+</mo><msub><mtext>O</mtext><mn>2</mn></msub></mrow></annotation-xml></semantics></math></p>
+<p id="fs-idm287521616">What is the rate of the reaction when [N<sub>2</sub>O<sub>5</sub>] = 0.40 <em data-effect="italics">M</em>?</p>
+</div></div>
+
+</div>
+<div class=" " data-type="exercise" id="fs-idm152420960">
+<div data-type="problem" id="fs-idm152420704"><span class="os-number">30</span><span class="os-divider">. </span><div class="os-problem-container">
+<p id="fs-idm122065680">The annual production of HNO<sub>3</sub> in 2013 was 60 million metric tons Most of that was prepared by the following sequence of reactions, each run in a separate reaction vessel.</p>
+<p id="fs-idm119022896">(a) <math display="inline"><semantics><mrow><mrow><msub><mrow><mtext>4NH</mtext></mrow><mn>3</mn></msub><mo stretchy="false">(</mo><mi>g</mi><mo stretchy="false">)</mo><mo>+</mo><msub><mrow><mtext>5O</mtext></mrow><mn>2</mn></msub><mo stretchy="false">(</mo><mi>g</mi><mo stretchy="false">)</mo><mspace width="0.2em"/><mo stretchy="false">⟶</mo><mspace width="0.2em"/><mtext>4NO(</mtext><mi>g</mi><mo stretchy="false">)</mo><mo>+</mo><msub><mrow><mtext>6H</mtext></mrow><mn>2</mn></msub><mtext>O(</mtext><mi>g</mi><mo stretchy="false">)</mo></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><msub><mrow><mtext>4NH</mtext></mrow><mn>3</mn></msub><mo stretchy="false">(</mo><mi>g</mi><mo stretchy="false">)</mo><mo>+</mo><msub><mrow><mtext>5O</mtext></mrow><mn>2</mn></msub><mo stretchy="false">(</mo><mi>g</mi><mo stretchy="false">)</mo><mspace width="0.2em"/><mo stretchy="false">⟶</mo><mspace width="0.2em"/><mtext>4NO(</mtext><mi>g</mi><mo stretchy="false">)</mo><mo>+</mo><msub><mrow><mtext>6H</mtext></mrow><mn>2</mn></msub><mtext>O(</mtext><mi>g</mi><mo stretchy="false">)</mo></mrow></annotation-xml></semantics></math></p>
+<p id="fs-idm193369040">(b) <math display="inline"><semantics><mrow><mrow><mtext>2NO(</mtext><mi>g</mi><mo stretchy="false">)</mo><mo>+</mo><msub><mtext>O</mtext><mn>2</mn></msub><mo stretchy="false">(</mo><mi>g</mi><mo stretchy="false">)</mo><mspace width="0.2em"/><mo stretchy="false">⟶</mo><mspace width="0.2em"/><msub><mrow><mtext>2NO</mtext></mrow><mn>2</mn></msub><mo stretchy="false">(</mo><mi>g</mi><mo stretchy="false">)</mo></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><mtext>2NO(</mtext><mi>g</mi><mo stretchy="false">)</mo><mo>+</mo><msub><mtext>O</mtext><mn>2</mn></msub><mo stretchy="false">(</mo><mi>g</mi><mo stretchy="false">)</mo><mspace width="0.2em"/><mo stretchy="false">⟶</mo><mspace width="0.2em"/><msub><mrow><mtext>2NO</mtext></mrow><mn>2</mn></msub><mo stretchy="false">(</mo><mi>g</mi><mo stretchy="false">)</mo></mrow></annotation-xml></semantics></math></p>
+<p id="fs-idm207045120">(c) <math display="inline"><semantics><mrow><mrow><msub><mrow><mtext>3NO</mtext></mrow><mn>2</mn></msub><mo stretchy="false">(</mo><mi>g</mi><mo stretchy="false">)</mo><mo>+</mo><msub><mtext>H</mtext><mn>2</mn></msub><mtext>O(</mtext><mi>l</mi><mo stretchy="false">)</mo><mspace width="0.2em"/><mo stretchy="false">⟶</mo><mspace width="0.2em"/><msub><mrow><mtext>2HNO</mtext></mrow><mn>3</mn></msub><mo stretchy="false">(</mo><mi>a</mi><mi>q</mi><mo stretchy="false">)</mo><mo>+</mo><mtext>NO(</mtext><mi>g</mi><mo stretchy="false">)</mo></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><msub><mrow><mtext>3NO</mtext></mrow><mn>2</mn></msub><mo stretchy="false">(</mo><mi>g</mi><mo stretchy="false">)</mo><mo>+</mo><msub><mtext>H</mtext><mn>2</mn></msub><mtext>O(</mtext><mi>l</mi><mo stretchy="false">)</mo><mspace width="0.2em"/><mo stretchy="false">⟶</mo><mspace width="0.2em"/><msub><mrow><mtext>2HNO</mtext></mrow><mn>3</mn></msub><mo stretchy="false">(</mo><mi>a</mi><mi>q</mi><mo stretchy="false">)</mo><mo>+</mo><mtext>NO(</mtext><mi>g</mi><mo stretchy="false">)</mo></mrow></annotation-xml></semantics></math></p>
+<p id="fs-idm179213568">The first reaction is run by burning ammonia in air over a platinum catalyst. This reaction is fast. The reaction in equation (c) is also fast. The second reaction limits the rate at which nitric acid can be prepared from ammonia. If equation (b) is second order in NO and first order in O<sub>2</sub>, what is the rate of formation of NO<sub>2</sub> when the oxygen concentration is 0.50 <em data-effect="italics">M</em> and the nitric oxide concentration is 0.75 <em data-effect="italics">M</em>? The rate constant for the reaction is 5.8 <math display="inline"><semantics><mrow><mo>×</mo></mrow><annotation-xml encoding="MathML-Content"><mo>×</mo></annotation-xml></semantics></math> 10<sup>−6</sup> L<sup>2</sup> mol<sup>−2</sup> s<sup>−1</sup>.</p>
+</div></div>
+</div>
+<div class=" os-hasSolution " data-type="exercise" id="fs-idm237267424">
+<div data-type="problem" id="fs-idm237267168"><a class="os-number" href="chapter-12#fs-idm237267424-solution">31</a><span class="os-divider">. </span><div class="os-problem-container">
+<p id="fs-idm136971952">The following data have been determined for the reaction:<span data-type="newline"><br/></span>
+<math display="inline"><semantics><mrow><mrow><msup><mtext>I</mtext><mtext>−</mtext></msup><mo>+</mo><msup><mrow><mtext>OCl</mtext></mrow><mtext>−</mtext></msup><mspace width="0.2em"/><mo stretchy="false">⟶</mo><mspace width="0.2em"/><msup><mrow><mtext>IO</mtext></mrow><mtext>−</mtext></msup><mo>+</mo><msup><mrow><mtext>Cl</mtext></mrow><mtext>−</mtext></msup></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><msup><mtext>I</mtext><mtext>−</mtext></msup><mo>+</mo><msup><mrow><mtext>OCl</mtext></mrow><mtext>−</mtext></msup><mspace width="0.2em"/><mo stretchy="false">⟶</mo><mspace width="0.2em"/><msup><mrow><mtext>IO</mtext></mrow><mtext>−</mtext></msup><mo>+</mo><msup><mrow><mtext>Cl</mtext></mrow><mtext>−</mtext></msup></mrow></annotation-xml></semantics></math></p>
+<div class="os-table" id="fs-idm189410736"><table class="medium unnumbered" data-label="" data-id="fs-idm189410736" summary="Table 12.3  "><thead>
+<tr valign="middle">
+<th data-align="left"/>
+<th data-align="left">1</th>
+<th data-align="left">2</th>
+<th data-align="left">3</th>
+</tr>
+</thead><tbody>
+<tr valign="middle">
+<td data-align="left"><math display="inline"><semantics><mrow><mrow><msub><mrow><mo stretchy="false">[</mo><msup><mtext>I</mtext><mtext>−</mtext></msup><mo stretchy="false">]</mo></mrow><mrow><mtext>initial</mtext></mrow></msub></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><msub><mrow><mo stretchy="false">[</mo><msup><mtext>I</mtext><mtext>−</mtext></msup><mo stretchy="false">]</mo></mrow><mrow><mtext>initial</mtext></mrow></msub></mrow></annotation-xml></semantics></math> (<em data-effect="italics">M</em>)</td>
+<td data-align="left">0.10</td>
+<td data-align="left">0.20</td>
+<td data-align="left">0.30</td>
+</tr>
+<tr valign="middle">
+<td data-align="left"><math display="inline"><semantics><mrow><mrow><msub><mrow><mo stretchy="false">[</mo><msup><mrow><mtext>OCl</mtext></mrow><mtext>−</mtext></msup><mo stretchy="false">]</mo></mrow><mrow><mtext>initial</mtext></mrow></msub></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><msub><mrow><mo stretchy="false">[</mo><msup><mrow><mtext>OCl</mtext></mrow><mtext>−</mtext></msup><mo stretchy="false">]</mo></mrow><mrow><mtext>initial</mtext></mrow></msub></mrow></annotation-xml></semantics></math> (<em data-effect="italics">M</em>)</td>
+<td data-align="left">0.050</td>
+<td data-align="left">0.050</td>
+<td data-align="left">0.010</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">Rate (mol L<sup>−1</sup> s<sup>−1</sup>)</td>
+<td data-align="left">3.05 <math display="inline"><semantics><mrow><mo>×</mo></mrow><annotation-xml encoding="MathML-Content"><mo>×</mo></annotation-xml></semantics></math> 10<sup>−4</sup></td>
+<td data-align="left">6.20 <math display="inline"><semantics><mrow><mo>×</mo></mrow><annotation-xml encoding="MathML-Content"><mo>×</mo></annotation-xml></semantics></math> 10<sup>−4</sup></td>
+<td data-align="left">1.83 <math display="inline"><semantics><mrow><mo>×</mo></mrow><annotation-xml encoding="MathML-Content"><mo>×</mo></annotation-xml></semantics></math> 10<sup>−4</sup></td>
+</tr>
+</tbody></table></div>
+<p id="fs-idm152575552">Determine the rate law and the rate constant for this reaction.</p>
+</div></div>
+
+</div>
+</section><section class="exercises" data-depth="1" id="fs-idm92366464"><h3 data-type="document-title" id="[redacted for uniqueness]"><span class="os-number">12.4</span><span class="os-divider"> </span><span class="os-text">Integrated Rate Laws</span></h3>
+<div class=" " data-type="exercise" id="fs-idp11885680">
+<div data-type="problem" id="fs-idp7965424"><span class="os-number">32</span><span class="os-divider">. </span><div class="os-problem-container">
+<p id="fs-idm141317296">Describe how graphical methods can be used to determine the order of a reaction and its rate constant from a series of data that includes the concentration of <em data-effect="italics">A</em> at varying times.</p>
+</div></div>
+</div>
+<div class=" os-hasSolution " data-type="exercise" id="fs-idp145037952">
+<div data-type="problem" id="fs-idm115349200"><a class="os-number" href="chapter-12#fs-idp145037952-solution">33</a><span class="os-divider">. </span><div class="os-problem-container">
+<p id="fs-idm145856736">Use the data provided to graphically determine the order and rate constant of the following reaction: <math display="inline"><semantics><mrow><mrow><msub><mrow><mtext>SO</mtext></mrow><mn>2</mn></msub><msub><mrow><mtext>Cl</mtext></mrow><mn>2</mn></msub><mspace width="0.2em"/><mo stretchy="false">⟶</mo><mspace width="0.2em"/><msub><mrow><mspace width="0.2em"/><mtext>SO</mtext></mrow><mn>2</mn></msub><mo>+</mo><msub><mrow><mtext>Cl</mtext></mrow><mn>2</mn></msub></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><msub><mrow><mtext>SO</mtext></mrow><mn>2</mn></msub><msub><mrow><mtext>Cl</mtext></mrow><mn>2</mn></msub><mspace width="0.2em"/><mo stretchy="false">⟶</mo><mspace width="0.2em"/><msub><mrow><mspace width="0.2em"/><mtext>SO</mtext></mrow><mn>2</mn></msub><mo>+</mo><msub><mrow><mtext>Cl</mtext></mrow><mn>2</mn></msub></mrow></annotation-xml></semantics></math></p>
+<div class="os-table" id="fs-idp120830736"><table class="column-header medium unnumbered" data-label="" data-id="fs-idp120830736" summary="Table 12.3  "><tbody>
+<tr valign="middle">
+<td data-align="left">Time (s)</td>
+<td data-align="left">0</td>
+<td data-align="left">5.00 <math display="inline"><semantics><mrow><mo>×</mo></mrow><annotation-xml encoding="MathML-Content"><mo>×</mo></annotation-xml></semantics></math> 10<sup>3</sup></td>
+<td data-align="left">1.00 <math display="inline"><semantics><mrow><mo>×</mo></mrow><annotation-xml encoding="MathML-Content"><mo>×</mo></annotation-xml></semantics></math> 10<sup>4</sup></td>
+<td data-align="left">1.50 <math display="inline"><semantics><mrow><mo>×</mo></mrow><annotation-xml encoding="MathML-Content"><mo>×</mo></annotation-xml></semantics></math> 10<sup>4</sup></td>
+</tr>
+<tr valign="middle">
+<td data-align="left">[SO<sub>2</sub>Cl<sub>2</sub>] (<em data-effect="italics">M</em>)</td>
+<td data-align="left">0.100</td>
+<td data-align="left">0.0896</td>
+<td data-align="left">0.0802</td>
+<td data-align="left">0.0719</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">Time (s)</td>
+<td data-align="left">2.50 <math display="inline"><semantics><mrow><mo>×</mo></mrow><annotation-xml encoding="MathML-Content"><mo>×</mo></annotation-xml></semantics></math> 10<sup>4</sup></td>
+<td data-align="left">3.00 <math display="inline"><semantics><mrow><mo>×</mo></mrow><annotation-xml encoding="MathML-Content"><mo>×</mo></annotation-xml></semantics></math> 10<sup>4</sup></td>
+<td data-align="left">4.00 <math display="inline"><semantics><mrow><mo>×</mo></mrow><annotation-xml encoding="MathML-Content"><mo>×</mo></annotation-xml></semantics></math> 10<sup>4</sup></td>
+<td rowspan="2"/>
+</tr>
+<tr valign="middle">
+<td data-align="left">[SO<sub>2</sub>Cl<sub>2</sub>] (<em data-effect="italics">M</em>)</td>
+<td data-align="left">0.0577</td>
+<td data-align="left">0.0517</td>
+<td data-align="left">0.0415</td>
+</tr>
+</tbody></table></div>
+</div></div>
+
+</div>
+<div class=" os-hasSolution " data-type="exercise" id="fs-idp27819360">
+<div data-type="problem" id="fs-idp79344736"><a class="os-number" href="chapter-12#fs-idp27819360-solution">34</a><span class="os-divider">. </span><div class="os-problem-container">
+<p id="fs-idp79344992">Pure ozone decomposes slowly to oxygen, <math display="inline"><semantics><mrow><mrow><msub><mrow><mtext>2O</mtext></mrow><mn>3</mn></msub><mo stretchy="false">(</mo><mi>g</mi><mo stretchy="false">)</mo><mspace width="0.2em"/><mo stretchy="false">⟶</mo><mspace width="0.2em"/><msub><mrow><mtext>3O</mtext></mrow><mn>2</mn></msub><mo stretchy="false">(</mo><mi>g</mi><mo stretchy="false">)</mo><mo>.</mo></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><msub><mrow><mtext>2O</mtext></mrow><mn>3</mn></msub><mo stretchy="false">(</mo><mi>g</mi><mo stretchy="false">)</mo><mspace width="0.2em"/><mo stretchy="false">⟶</mo><mspace width="0.2em"/><msub><mrow><mtext>3O</mtext></mrow><mn>2</mn></msub><mo stretchy="false">(</mo><mi>g</mi><mo stretchy="false">)</mo><mo>.</mo></mrow></annotation-xml></semantics></math> Use the data provided in a graphical method and determine the order and rate constant of the reaction.<span data-type="newline"><br/></span>
+</p><div class="os-table" id="fs-idp72766816"><table class="column-header medium unnumbered" data-label="" data-id="fs-idp72766816" summary="Table 12.3  "><tbody>
+<tr valign="middle">
+<td data-align="left">Time (h)</td>
+<td data-align="left">0</td>
+<td data-align="left">2.0 <math display="inline"><semantics><mrow><mo>×</mo></mrow><annotation-xml encoding="MathML-Content"><mo>×</mo></annotation-xml></semantics></math> 10<sup>3</sup></td>
+<td data-align="left">7.6 <math display="inline"><semantics><mrow><mo>×</mo></mrow><annotation-xml encoding="MathML-Content"><mo>×</mo></annotation-xml></semantics></math> 10<sup>3</sup></td>
+<td data-align="left">1.00 <math display="inline"><semantics><mrow><mo>×</mo></mrow><annotation-xml encoding="MathML-Content"><mo>×</mo></annotation-xml></semantics></math> 10<sup>4</sup></td>
+</tr>
+<tr valign="middle">
+<td data-align="left">[O<sub>3</sub>] (<em data-effect="italics">M</em>)</td>
+<td data-align="left">1.00 <math display="inline"><semantics><mrow><mo>×</mo></mrow><annotation-xml encoding="MathML-Content"><mo>×</mo></annotation-xml></semantics></math> 10<sup>−5</sup></td>
+<td data-align="left">4.98 <math display="inline"><semantics><mrow><mo>×</mo></mrow><annotation-xml encoding="MathML-Content"><mo>×</mo></annotation-xml></semantics></math> 10<sup>−6</sup></td>
+<td data-align="left">2.07 <math display="inline"><semantics><mrow><mo>×</mo></mrow><annotation-xml encoding="MathML-Content"><mo>×</mo></annotation-xml></semantics></math> 10<sup>−6</sup></td>
+<td data-align="left">1.66 <math display="inline"><semantics><mrow><mo>×</mo></mrow><annotation-xml encoding="MathML-Content"><mo>×</mo></annotation-xml></semantics></math> 10<sup>−6</sup></td>
+</tr>
+<tr valign="middle">
+<td data-align="left">Time (h)</td>
+<td data-align="left">1.23 <math display="inline"><semantics><mrow><mo>×</mo></mrow><annotation-xml encoding="MathML-Content"><mo>×</mo></annotation-xml></semantics></math> 10<sup>4</sup></td>
+<td data-align="left">1.43 <math display="inline"><semantics><mrow><mo>×</mo></mrow><annotation-xml encoding="MathML-Content"><mo>×</mo></annotation-xml></semantics></math> 10<sup>4</sup></td>
+<td data-align="left">1.70 <math display="inline"><semantics><mrow><mo>×</mo></mrow><annotation-xml encoding="MathML-Content"><mo>×</mo></annotation-xml></semantics></math> 10<sup>4</sup></td>
+<td rowspan="2"/>
+</tr>
+<tr valign="middle">
+<td data-align="left">[O<sub>3</sub>] (<em data-effect="italics">M</em>)</td>
+<td data-align="left">1.39 <math display="inline"><semantics><mrow><mo>×</mo></mrow><annotation-xml encoding="MathML-Content"><mo>×</mo></annotation-xml></semantics></math> 10<sup>−6</sup></td>
+<td data-align="left">1.22 <math display="inline"><semantics><mrow><mo>×</mo></mrow><annotation-xml encoding="MathML-Content"><mo>×</mo></annotation-xml></semantics></math> 10<sup>−6</sup></td>
+<td data-align="left">1.05 <math display="inline"><semantics><mrow><mo>×</mo></mrow><annotation-xml encoding="MathML-Content"><mo>×</mo></annotation-xml></semantics></math> 10<sup>−6</sup></td>
+</tr>
+</tbody></table></div>
+</div></div>
+
+</div>
+<div class=" " data-type="exercise" id="fs-idm81797520">
+<div data-type="problem" id="fs-idp122307216"><span class="os-number">35</span><span class="os-divider">. </span><div class="os-problem-container">
+<p id="fs-idp122307472">From the given data, use a graphical method to determine the order and rate constant of the following reaction:<span data-type="newline"><br/></span>
+<math display="inline"><semantics><mrow><mrow><mn>2</mn><mi>X</mi><mspace width="0.2em"/><mo stretchy="false">⟶</mo><mspace width="0.2em"/><mi>Y</mi><mo>+</mo><mi>Z</mi></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><mn>2</mn><mi>X</mi><mspace width="0.2em"/><mo stretchy="false">⟶</mo><mspace width="0.2em"/><mi>Y</mi><mo>+</mo><mi>Z</mi></mrow></annotation-xml></semantics></math><span data-type="newline"><br/></span>
+</p><div class="os-table" id="fs-idm133654768"><table class="column-header medium unnumbered" data-label="" data-id="fs-idm133654768" summary="Table 12.3  "><tbody>
+<tr valign="middle">
+<td data-align="left">Time (s)</td>
+<td data-align="left">5.0</td>
+<td data-align="left">10.0</td>
+<td data-align="left">15.0</td>
+<td data-align="left">20.0</td>
+<td data-align="left">25.0</td>
+<td data-align="left">30.0</td>
+<td data-align="left">35.0</td>
+<td data-align="left">40.0</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">[<em data-effect="italics">X</em>] (<em data-effect="italics">M</em>)</td>
+<td data-align="left">0.0990</td>
+<td data-align="left">0.0497</td>
+<td data-align="left">0.0332</td>
+<td data-align="left">0.0249</td>
+<td data-align="left">0.0200</td>
+<td data-align="left">0.0166</td>
+<td data-align="left">0.0143</td>
+<td data-align="left">0.0125</td>
+</tr>
+</tbody></table></div>
+</div></div>
+</div>
+<div class=" os-hasSolution " data-type="exercise" id="fs-idm81821952">
+<div data-type="problem" id="fs-idm81821696"><a class="os-number" href="chapter-12#fs-idm81821952-solution">36</a><span class="os-divider">. </span><div class="os-problem-container">
+<p id="fs-idp75257216">What is the half-life for the first-order decay of phosphorus-32? <math display="inline"><semantics><mrow>
+<mo>(</mo>
+
+
+<msubsup><mrow/><mn>15</mn><mn>32</mn></msubsup><mtext>P</mtext>
+
+<mspace width="0.2em"/><mo stretchy="false">⟶</mo><mspace width="0.2em"/>
+
+<msubsup><mrow/><mn>16</mn><mn>32</mn></msubsup><mtext>S</mtext>
+
+<mo>+</mo><msup><mtext>e</mtext><mo>−</mo></msup><mo>)</mo></mrow><annotation-xml encoding="MathML-Content"><mo>(</mo><msubsup><mrow/><mn>15</mn><mn>32</mn></msubsup><mtext>P</mtext><mspace width="0.2em"/><mo stretchy="false">⟶</mo><mspace width="0.2em"/><msubsup><mrow/><mn>16</mn><mn>32</mn></msubsup><mtext>S</mtext><mo>+</mo><msup><mtext>e</mtext><mo>−</mo></msup><mo>)</mo></annotation-xml></semantics></math> The rate constant for the decay is 4.85 <math display="inline"><semantics><mrow><mo>×</mo></mrow><annotation-xml encoding="MathML-Content"><mo>×</mo></annotation-xml></semantics></math> 10<sup>−2</sup> day<sup>−1</sup>.</p>
+</div></div>
+
+</div>
+<div class=" " data-type="exercise" id="fs-idp123052496">
+<div data-type="problem" id="fs-idp123052752"><span class="os-number">37</span><span class="os-divider">. </span><div class="os-problem-container">
+<p id="fs-idp123053008">What is the half-life for the first-order decay of carbon-14? <math display="inline"><semantics><mrow><mo>(</mo>
+
+
+
+<msubsup><mrow/><mrow><mspace width="0.5em"/><mn>6</mn></mrow><mrow><mn>14</mn></mrow></msubsup><mtext>C</mtext>
+
+
+
+
+<mo stretchy="false">⟶</mo>
+
+
+<msubsup><mrow/><mrow><mspace width="0.5em"/><mn>7</mn></mrow><mrow><mn>14</mn></mrow></msubsup><mrow><mtext>N</mtext></mrow>
+
+
+
+<mo>+</mo><msup><mtext>e</mtext><mo>−</mo></msup><mo>)</mo></mrow><annotation-xml encoding="MathML-Content"><mo>(</mo><msubsup><mrow/><mrow><mspace width="0.5em"/><mn>6</mn></mrow><mrow><mn>14</mn></mrow></msubsup><mtext>C</mtext><mo stretchy="false">⟶</mo><msubsup><mrow/><mrow><mspace width="0.5em"/><mn>7</mn></mrow><mrow><mn>14</mn></mrow></msubsup><mrow><mtext>N</mtext></mrow><mo>+</mo><msup><mtext>e</mtext><mo>−</mo></msup><mo>)</mo></annotation-xml></semantics></math> The rate constant for the decay is 1.21 <math display="inline"><semantics><mrow><mo>×</mo></mrow><annotation-xml encoding="MathML-Content"><mo>×</mo></annotation-xml></semantics></math> 10<sup>−4</sup> year<sup>−1</sup>.</p></div></div>
+</div>
+<div class=" os-hasSolution " data-type="exercise" id="fs-idm86787888">
+<div data-type="problem" id="fs-idp120043024"><a class="os-number" href="chapter-12#fs-idm86787888-solution">38</a><span class="os-divider">. </span><div class="os-problem-container">
+<p id="fs-idp120043280">What is the half-life for the decomposition of NOCl when the concentration of NOCl is 0.15 <em data-effect="italics">M</em>? The rate constant for this second-order reaction is 8.0 <math display="inline"><semantics><mrow><mo>×</mo></mrow><annotation-xml encoding="MathML-Content"><mo>×</mo></annotation-xml></semantics></math> 10<sup>−8</sup> L mol<sup>−1</sup> s<sup>−1</sup>.</p>
+</div></div>
+
+</div>
+<div class=" " data-type="exercise" id="fs-idm71090800">
+<div data-type="problem" id="fs-idm71090544"><span class="os-number">39</span><span class="os-divider">. </span><div class="os-problem-container">
+<p id="fs-idm71090288">What is the half-life for the decomposition of O<sub>3</sub> when the concentration of O<sub>3</sub> is 2.35 <math display="inline"><semantics><mrow><mo>×</mo></mrow><annotation-xml encoding="MathML-Content"><mo>×</mo></annotation-xml></semantics></math> 10<sup>−6</sup> <em data-effect="italics">M</em>? The rate constant for this second-order reaction is 50.4 L mol<sup>−1</sup> h<sup>−1</sup>.</p>
+</div></div>
+</div>
+<div class=" os-hasSolution " data-type="exercise" id="fs-idm110943344">
+<div data-type="problem" id="fs-idm110943088"><a class="os-number" href="chapter-12#fs-idm110943344-solution">40</a><span class="os-divider">. </span><div class="os-problem-container">
+<p id="fs-idm110942832">The reaction of compound  <em data-effect="italics">A</em> to give compounds  <em data-effect="italics">C</em> and  <em data-effect="italics">D</em> was found to be second-order in  <em data-effect="italics">A</em>. The rate constant for the reaction was determined to be 2.42 L mol<sup>−1</sup> s<sup>−1</sup>. If the initial concentration is 0.500 mol/L, what is the value of t<sub>1/2</sub>?</p>
+</div></div>
+
+</div>
+<div class=" " data-type="exercise" id="fs-idm82644240">
+<div data-type="problem" id="fs-idm82643984"><span class="os-number">41</span><span class="os-divider">. </span><div class="os-problem-container">
+<p id="fs-idm82643728">The half-life of a reaction of compound <em data-effect="italics">A</em> to give compounds <em data-effect="italics">D</em> and <em data-effect="italics">E</em> is 8.50 min when the initial concentration of <em data-effect="italics">A</em> is 0.150 M. How long will it take for the concentration to drop to 0.0300 M if the reaction is (a) first order with respect to <em data-effect="italics">A</em> or (b) second order with respect to <em data-effect="italics">A</em>?</p>
+</div></div>
+</div>
+<div class=" os-hasSolution " data-type="exercise" id="fs-idp55838576">
+<div data-type="problem" id="fs-idp55838832"><a class="os-number" href="chapter-12#fs-idp55838576-solution">42</a><span class="os-divider">. </span><div class="os-problem-container">
+<p id="fs-idp55839088">Some bacteria are resistant to the antibiotic penicillin because they produce penicillinase, an enzyme with a molecular weight of 3 <math display="inline"><semantics><mrow><mo>×</mo></mrow><annotation-xml encoding="MathML-Content"><mo>×</mo></annotation-xml></semantics></math> 10<sup>4</sup> g/mol that converts penicillin into inactive molecules. Although the kinetics of enzyme-catalyzed reactions can be complex, at low concentrations this reaction can be described by a rate law that is first order in the catalyst (penicillinase) and that also involves the concentration of penicillin. From the following data: 1.0 L of a solution containing 0.15 µg (0.15 <math display="inline"><semantics><mrow><mo>×</mo></mrow><annotation-xml encoding="MathML-Content"><mo>×</mo></annotation-xml></semantics></math> 10<sup>−6</sup> g) of penicillinase, determine the order of the reaction with respect to penicillin and the value of the rate constant.<span data-type="newline"><br/></span>
+</p><div class="os-table" id="fs-idp79245440"><table class="medium unnumbered" data-label="" data-id="fs-idp79245440" summary="Table 12.3  "><thead>
+<tr valign="middle">
+<th data-align="left">[Penicillin] (<em data-effect="italics">M</em>)</th>
+<th data-align="left">Rate (mol L<sup>−1</sup> min<sup>−1</sup>)</th>
+</tr>
+</thead><tbody>
+<tr valign="middle">
+<td data-align="left">2.0 <math display="inline"><semantics><mrow><mo>×</mo></mrow><annotation-xml encoding="MathML-Content"><mo>×</mo></annotation-xml></semantics></math> 10<sup>−6</sup></td>
+<td data-align="left">1.0 <math display="inline"><semantics><mrow><mo>×</mo></mrow><annotation-xml encoding="MathML-Content"><mo>×</mo></annotation-xml></semantics></math> 10<sup>−10</sup></td>
+</tr>
+<tr valign="middle">
+<td data-align="left">3.0 <math display="inline"><semantics><mrow><mo>×</mo></mrow><annotation-xml encoding="MathML-Content"><mo>×</mo></annotation-xml></semantics></math> 10<sup>−6</sup></td>
+<td data-align="left">1.5 <math display="inline"><semantics><mrow><mo>×</mo></mrow><annotation-xml encoding="MathML-Content"><mo>×</mo></annotation-xml></semantics></math> 10<sup>−10</sup></td>
+</tr>
+<tr valign="middle">
+<td data-align="left">4.0 <math display="inline"><semantics><mrow><mo>×</mo></mrow><annotation-xml encoding="MathML-Content"><mo>×</mo></annotation-xml></semantics></math> 10<sup>−6</sup></td>
+<td data-align="left">2.0 <math display="inline"><semantics><mrow><mo>×</mo></mrow><annotation-xml encoding="MathML-Content"><mo>×</mo></annotation-xml></semantics></math> 10<sup>−10</sup></td>
+</tr>
+</tbody></table></div>
+</div></div>
+
+</div>
+<div class=" " data-type="exercise" id="fs-idm22532944">
+<div data-type="problem" id="fs-idm22532688"><span class="os-number">43</span><span class="os-divider">. </span><div class="os-problem-container">
+<p id="fs-idm22532432">Both technetium-99 and thallium-201 are used to image heart muscle in patients with suspected heart problems. The half-lives are 6 h and 73 h, respectively. What percent of the radioactivity would remain for each of the isotopes after 2 days (48 h)?</p>
+</div></div>
+</div>
+<div class=" os-hasSolution " data-type="exercise" id="fs-idm84405632">
+<div data-type="problem" id="fs-idm84405376"><a class="os-number" href="chapter-12#fs-idm84405632-solution">44</a><span class="os-divider">. </span><div class="os-problem-container">
+<p id="fs-idm84405120">There are two molecules with the formula C<sub>3</sub>H<sub>6</sub>. Propene, <math display="inline"><semantics><mrow><mrow><msub><mrow><mtext>CH</mtext></mrow><mn>3</mn></msub><mtext>CH</mtext><mo>=</mo><msub><mrow><mtext>CH</mtext></mrow><mn>2</mn></msub><mo>,</mo></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><msub><mrow><mtext>CH</mtext></mrow><mn>3</mn></msub><mtext>CH</mtext><mo>=</mo><msub><mrow><mtext>CH</mtext></mrow><mn>2</mn></msub><mo>,</mo></mrow></annotation-xml></semantics></math> is the monomer of the polymer polypropylene, which is used for indoor-outdoor carpets. Cyclopropane is used as an anesthetic:<span data-type="newline"><br/></span>
+</p><span data-alt="A structural formula for cyclopropane is shown. Three C H subscript 2 groups are positioned as vertices of an equilateral triangle connected with single bonds represented by line segments." data-type="media" id="fs-idm21764176">
+<img alt="A structural formula for cyclopropane is shown. Three C H subscript 2 groups are positioned as vertices of an equilateral triangle connected with single bonds represented by line segments." data-media-type="image/jpeg" id="[redacted for uniqueness]" src="/resources/91f111904cc7802ca4bd8f7943d8440a54e1e255"/>
+</span>
+<p id="fs-idm21762608">When heated to 499 °C, cyclopropane rearranges (isomerizes) and forms propene with a rate constant of<span data-type="newline"><br/></span>5.95 <math display="inline"><semantics><mrow><mo>×</mo></mrow><annotation-xml encoding="MathML-Content"><mo>×</mo></annotation-xml></semantics></math> 10<sup>−4</sup> s<sup>−1</sup>. What is the half-life of this reaction? What fraction of the cyclopropane remains after 0.75 h at 499 °C?</p></div></div>
+
+</div>
+<div class=" " data-type="exercise" id="fs-idm45932336">
+<div data-type="problem" id="fs-idm45932080"><span class="os-number">45</span><span class="os-divider">. </span><div class="os-problem-container">
+<p id="fs-idm45931824">Fluorine-18 is a radioactive isotope that decays by positron emission to form oxygen-18 with a half-life of 109.7 min. (A positron is a particle with the mass of an electron and a single unit of positive charge; the equation is <math display="inline"><semantics><mrow>
+<mspace width="0.5em"/><msubsup><mrow/><mn>9</mn><mrow><mspace width="-0.5em"/><mn>18</mn></mrow></msubsup><mtext>F</mtext>
+<mo stretchy="false">⟶</mo>
+<msubsup><mrow/><mn>18</mn><mrow><mspace width="0.5em"/><mn>8</mn></mrow></msubsup><mtext>O</mtext>
+<mo>+</mo><msubsup><mrow/><mn>+1</mn><mrow><mspace width="0.5em"/><mn>0</mn></mrow></msubsup><mtext>e</mtext><mo stretchy="false">)</mo></mrow><annotation-xml encoding="MathML-Content"><mspace width="0.5em"/><msubsup><mrow/><mn>9</mn><mrow><mspace width="-0.5em"/><mn>18</mn></mrow></msubsup><mtext>F</mtext><mo stretchy="false">⟶</mo><msubsup><mrow/><mn>18</mn><mrow><mspace width="0.5em"/><mn>8</mn></mrow></msubsup><mtext>O</mtext><mo>+</mo><msubsup><mrow/><mn>+1</mn><mrow><mspace width="0.5em"/><mn>0</mn></mrow></msubsup><mtext>e</mtext><mo stretchy="false">)</mo></annotation-xml></semantics></math>
+
+Physicians use <sup>18</sup>F to study the brain by injecting a quantity of fluoro-substituted glucose into the blood of a patient. The glucose accumulates in the regions where the brain is active and needs nourishment.</p><p id="fs-idm57070352">(a) What is the rate constant for the decomposition of fluorine-18?</p>
+<p id="fs-idm57069968">(b) If a sample of glucose containing radioactive fluorine-18 is injected into the blood, what percent of the radioactivity will remain after 5.59 h?</p>
+<p id="fs-idm57069424">(c) How long does it take for 99.99% of the <sup>18</sup>F to decay?</p>
+</div></div>
+</div>
+<div class=" os-hasSolution " data-type="exercise" id="fs-idp89138768">
+<div data-type="problem" id="fs-idp89139024"><a class="os-number" href="chapter-12#fs-idp89138768-solution">46</a><span class="os-divider">. </span><div class="os-problem-container">
+<p id="fs-idp89139280">Suppose that the half-life of steroids taken by an athlete is 42 days. Assuming that the steroids biodegrade by a first-order process, how long would it take for <math display="inline"><semantics><mrow><mrow><mfrac><mn>1</mn><mrow><mn>64</mn></mrow></mfrac></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><mfrac><mn>1</mn><mrow><mn>64</mn></mrow></mfrac></mrow></annotation-xml></semantics></math> of the initial dose to remain in the athlete’s body?</p>
+</div></div>
+
+</div>
+<div class=" " data-type="exercise" id="fs-idp120051200">
+<div data-type="problem" id="fs-idp120051456"><span class="os-number">47</span><span class="os-divider">. </span><div class="os-problem-container">
+<p id="fs-idp120051712">Recently, the skeleton of King Richard III was found under a parking lot in England. If tissue samples from the skeleton contain about 93.79% of the carbon-14 expected in living tissue, what year did King Richard III die? The half-life for carbon-14 is 5730 years.</p>
+</div></div>
+</div>
+<div class=" os-hasSolution " data-type="exercise" id="fs-idp157675232">
+<div data-type="problem" id="fs-idp121893408"><a class="os-number" href="chapter-12#fs-idp157675232-solution">48</a><span class="os-divider">. </span><div class="os-problem-container">
+<p id="fs-idp121893664">Nitroglycerine is an extremely sensitive explosive. In a series of carefully controlled experiments, samples of the explosive were heated to 160 °C and their first-order decomposition studied. Determine the average rate constants for each experiment using the following data:<span data-type="newline"><br/></span>
+</p><div class="os-table" id="fs-idp121895360"><table class="column-header medium unnumbered" data-label="" data-id="fs-idp121895360" summary="Table 12.3  "><tbody>
+<tr valign="middle">
+<td data-align="left">Initial [C<sub>3</sub>H<sub>5</sub>N<sub>3</sub>O<sub>9</sub>] (<em data-effect="italics">M</em>)</td>
+<td data-align="left">4.88</td>
+<td data-align="left">3.52</td>
+<td data-align="left">2.29</td>
+<td data-align="left">1.81</td>
+<td data-align="left">5.33</td>
+<td data-align="left">4.05</td>
+<td data-align="left">2.95</td>
+<td data-align="left">1.72</td>
+</tr>
+<tr valign="middle">
+<td data-align="left"><em data-effect="italics">t</em> (s)</td>
+<td data-align="left">300</td>
+<td data-align="left">300</td>
+<td data-align="left">300</td>
+<td data-align="left">300</td>
+<td data-align="left">180</td>
+<td data-align="left">180</td>
+<td data-align="left">180</td>
+<td data-align="left">180</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">% Decomposed</td>
+<td data-align="left">52.0</td>
+<td data-align="left">52.9</td>
+<td data-align="left">53.2</td>
+<td data-align="left">53.9</td>
+<td data-align="left">34.6</td>
+<td data-align="left">35.9</td>
+<td data-align="left">36.0</td>
+<td data-align="left">35.4</td>
+</tr>
+</tbody></table></div>
+</div></div>
+
+</div>
+<div class=" " data-type="exercise" id="fs-idm43018880">
+<div data-type="problem" id="fs-idm43018624"><span class="os-number">49</span><span class="os-divider">. </span><div class="os-problem-container">
+<p id="fs-idm43018368">For the past 10 years, the unsaturated hydrocarbon 1,3-butadiene <math display="inline"><semantics><mrow><mrow><mo stretchy="false">(</mo><msub><mrow><mtext>CH</mtext></mrow><mtext>2</mtext></msub><mo>=</mo><mtext>CH</mtext><mo>–</mo><mtext>CH</mtext><mo>=</mo><msub><mrow><mtext>CH</mtext></mrow><mn>2</mn></msub><mo stretchy="false">)</mo></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><mo stretchy="false">(</mo><msub><mrow><mtext>CH</mtext></mrow><mtext>2</mtext></msub><mo>=</mo><mtext>CH</mtext><mo>–</mo><mtext>CH</mtext><mo>=</mo><msub><mrow><mtext>CH</mtext></mrow><mn>2</mn></msub><mo stretchy="false">)</mo></mrow></annotation-xml></semantics></math> has ranked 38th among the top 50 industrial chemicals. It is used primarily for the manufacture of synthetic rubber. An isomer exists also as cyclobutene:<span data-type="newline"><br/></span>
+</p><span data-alt="A structural formula for cyclobutene is shown. The figure has two C H subscript 2 groups as the upper two vertices of a square structure. These groups are connected by a single, short line segment. Line segments extend below each of these C H subscript 2 groups to C H groups positioned at the lower two vertices of the square structure. The C H groups are connected with a double line segment indicating a double bond." data-type="media" id="fs-idp18440944">
+<img alt="A structural formula for cyclobutene is shown. The figure has two C H subscript 2 groups as the upper two vertices of a square structure. These groups are connected by a single, short line segment. Line segments extend below each of these C H subscript 2 groups to C H groups positioned at the lower two vertices of the square structure. The C H groups are connected with a double line segment indicating a double bond." data-media-type="image/jpeg" id="[redacted for uniqueness]" src="/resources/afb6a9140cf0d232f89a13aed7382f07a91fea33"/>
+</span>
+<p id="fs-idp18442736">The isomerization of cyclobutene to butadiene is first-order and the rate constant has been measured as 2.0 <math display="inline"><semantics><mrow><mo>×</mo></mrow><annotation-xml encoding="MathML-Content"><mo>×</mo></annotation-xml></semantics></math> 10<sup>−4</sup> s<sup>−1</sup> at 150 °C in a 0.53-L flask. Determine the partial pressure of cyclobutene and its concentration after 30.0 minutes if an isomerization reaction is carried out at 150 °C with an initial pressure of 55 torr.</p>
+</div></div>
+</div>
+</section><section class="exercises" data-depth="1" id="fs-idm193786736"><h3 data-type="document-title" id="[redacted for uniqueness]"><span class="os-number">12.5</span><span class="os-divider"> </span><span class="os-text">Collision Theory</span></h3>
+<div class=" os-hasSolution " data-type="exercise" id="fs-idp801808">
+<div data-type="problem" id="fs-idm111422448"><a class="os-number" href="chapter-12#fs-idp801808-solution">50</a><span class="os-divider">. </span><div class="os-problem-container">
+<p id="fs-idm138313152">Chemical reactions occur when reactants collide. What are two factors that may prevent a collision from producing a chemical reaction?</p>
+</div></div>
+
+</div>
+<div class=" " data-type="exercise" id="fs-idm147445136">
+<div data-type="problem" id="fs-idm196665952"><span class="os-number">51</span><span class="os-divider">. </span><div class="os-problem-container">
+<p id="fs-idm80456160">When every collision between reactants leads to a reaction, what determines the rate at which the reaction occurs?</p>
+</div></div>
+</div>
+<div class=" os-hasSolution " data-type="exercise" id="fs-idm141471856">
+<div data-type="problem" id="fs-idm117247392"><a class="os-number" href="chapter-12#fs-idm141471856-solution">52</a><span class="os-divider">. </span><div class="os-problem-container">
+<p id="fs-idm166625232">What is the activation energy of a reaction, and how is this energy related to the activated complex of the reaction?</p>
+</div></div>
+
+</div>
+<div class=" " data-type="exercise" id="fs-idm190953584">
+<div data-type="problem" id="fs-idm226629184"><span class="os-number">53</span><span class="os-divider">. </span><div class="os-problem-container">
+<p id="fs-idm157823696">Account for the relationship between the rate of a reaction and its activation energy.</p>
+</div></div>
+</div>
+<div class=" os-hasSolution " data-type="exercise" id="fs-idm162997840">
+<div data-type="problem" id="fs-idm111355312"><a class="os-number" href="chapter-12#fs-idm162997840-solution">54</a><span class="os-divider">. </span><div class="os-problem-container">
+<p id="fs-idm200002080">Describe how graphical methods can be used to determine the activation energy of a reaction from a series of data that includes the rate of reaction at varying temperatures.</p>
+</div></div>
+
+</div>
+<div class=" " data-type="exercise" id="fs-idm122581792">
+<div data-type="problem" id="fs-idm96856672"><span class="os-number">55</span><span class="os-divider">. </span><div class="os-problem-container">
+<p id="fs-idp66405264">How does an increase in temperature affect rate of reaction? Explain this effect in terms of the collision theory of the reaction rate.</p>
+</div></div>
+</div>
+<div class=" os-hasSolution " data-type="exercise" id="fs-idm166001648">
+<div data-type="problem" id="fs-idm112163216"><a class="os-number" href="chapter-12#fs-idm166001648-solution">56</a><span class="os-divider">. </span><div class="os-problem-container">
+<p id="fs-idm148748368">The rate of a certain reaction doubles for every 10 °C rise in temperature.</p>
+<p id="fs-idm89923680">(a) How much faster does the reaction proceed at 45 °C than at 25 °C?</p>
+<p id="fs-idp8809520">(b) How much faster does the reaction proceed at 95 °C than at 25 °C?</p>
+</div></div>
+
+</div>
+<div class=" " data-type="exercise" id="fs-idm67340288">
+<div data-type="problem" id="fs-idm132914128"><span class="os-number">57</span><span class="os-divider">. </span><div class="os-problem-container">
+<p id="fs-idm128098912">In an experiment, a sample of NaClO<sub>3</sub> was 90% decomposed in 48 min. Approximately how long would this decomposition have taken if the sample had been heated 20 °C higher? (Hint: Assume the rate doubles for each 10 °C rise in temperature.)</p></div></div>
+</div>
+<div class=" os-hasSolution " data-type="exercise" id="fs-idm128511072">
+<div data-type="problem" id="fs-idm146373568"><a class="os-number" href="chapter-12#fs-idm128511072-solution">58</a><span class="os-divider">. </span><div class="os-problem-container">
+<p id="fs-idm217872032">The rate constant at 325 °C for the decomposition reaction <math display="inline"><semantics><mrow><mrow><msub><mtext>C</mtext><mn>4</mn></msub><msub><mtext>H</mtext><mn>8</mn></msub><mspace width="0.2em"/><mo stretchy="false">⟶</mo><mspace width="0.2em"/><msub><mrow><mn>2</mn><mtext>C</mtext></mrow><mn>2</mn></msub><msub><mtext>H</mtext><mn>4</mn></msub></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><msub><mtext>C</mtext><mn>4</mn></msub><msub><mtext>H</mtext><mn>8</mn></msub><mspace width="0.2em"/><mo stretchy="false">⟶</mo><mspace width="0.2em"/><msub><mrow><mn>2</mn><mtext>C</mtext></mrow><mn>2</mn></msub><msub><mtext>H</mtext><mn>4</mn></msub></mrow></annotation-xml></semantics></math> is 6.1 <math display="inline"><semantics><mrow><mo>×</mo></mrow><annotation-xml encoding="MathML-Content"><mo>×</mo></annotation-xml></semantics></math> 10<sup>−8</sup> s<sup>−1</sup>, and the activation energy is 261 kJ per mole of C<sub>4</sub>H<sub>8</sub>. Determine the frequency factor for the reaction.</p>
+</div></div>
+
+</div>
+<div class=" " data-type="exercise" id="fs-idm129065792">
+<div data-type="problem" id="fs-idm151360688"><span class="os-number">59</span><span class="os-divider">. </span><div class="os-problem-container">
+<p id="fs-idm149341008">The rate constant for the decomposition of acetaldehyde, CH<sub>3</sub>CHO, to methane, CH<sub>4</sub>, and carbon monoxide, CO, in the gas phase is 1.1 <math display="inline"><semantics><mrow><mo>×</mo></mrow><annotation-xml encoding="MathML-Content"><mo>×</mo></annotation-xml></semantics></math> 10<sup>−2</sup> L mol<sup>−1</sup> s<sup>−1</sup> at 703 K and 4.95 L mol<sup>−1</sup> s<sup>−1</sup> at 865 K. Determine the activation energy for this decomposition.</p>
+</div></div>
+</div>
+<div class=" os-hasSolution " data-type="exercise" id="fs-idm131383728">
+<div data-type="problem" id="fs-idp9104560"><a class="os-number" href="chapter-12#fs-idm131383728-solution">60</a><span class="os-divider">. </span><div class="os-problem-container">
+<p id="fs-idp9104816">An elevated level of the enzyme alkaline phosphatase (ALP) in human serum is an indication of possible liver or bone disorder. The level of serum ALP is so low that it is very difficult to measure directly. However, ALP catalyzes a number of reactions, and its relative concentration can be determined by measuring the rate of one of these reactions under controlled conditions. One such reaction is the conversion of p-nitrophenyl phosphate (PNPP) to p-nitrophenoxide ion (PNP) and phosphate ion. Control of temperature during the test is very important; the rate of the reaction increases 1.47 times if the temperature changes from 30 °C to 37 °C. What is the activation energy for the ALP–catalyzed conversion of PNPP to PNP and phosphate?</p></div></div>
+
+</div>
+<div class=" " data-type="exercise" id="fs-idm3600240">
+<div data-type="problem" id="fs-idm167826112"><span class="os-number">61</span><span class="os-divider">. </span><div class="os-problem-container">
+<p id="fs-idm167825856">In terms of collision theory, to which of the following is the rate of a chemical reaction proportional?</p>
+<p id="fs-idm59720032">(a) the change in free energy per second</p>
+<p id="fs-idm54796736">(b) the change in temperature per second</p>
+<p id="fs-idm154039232">(c) the number of collisions per second</p>
+<p id="fs-idm154038848">(d) the number of product molecules</p>
+</div></div>
+</div>
+<div class=" os-hasSolution " data-type="exercise" id="fs-idm58458096">
+<div data-type="problem" id="fs-idm93524944"><a class="os-number" href="chapter-12#fs-idm58458096-solution">62</a><span class="os-divider">. </span><div class="os-problem-container">
+<p id="fs-idm93524688">Hydrogen iodide, HI, decomposes in the gas phase to produce hydrogen, H<sub>2</sub>, and iodine, I<sub>2</sub>. The value of the rate constant, <em data-effect="italics">k</em>, for the reaction was measured at several different temperatures and the data are shown here:<span data-type="newline"><br/></span>
+</p><div class="os-table" id="fs-idm124800496"><table class="medium unnumbered" data-label="" data-id="fs-idm124800496" summary="Table 12.3  "><thead>
+<tr valign="middle">
+<th data-align="left">Temperature (K)</th>
+<th data-align="left"><em data-effect="italics">k</em> (L mol<sup>−1</sup> s<sup>−1</sup>)</th>
+</tr>
+</thead><tbody>
+<tr valign="middle">
+<td data-align="left">555</td>
+<td data-align="left">6.23 <math display="inline"><semantics><mrow><mo>×</mo></mrow><annotation-xml encoding="MathML-Content"><mo>×</mo></annotation-xml></semantics></math> 10<sup>−7</sup></td>
+</tr>
+<tr valign="middle">
+<td data-align="left">575</td>
+<td data-align="left">2.42 <math display="inline"><semantics><mrow><mo>×</mo></mrow><annotation-xml encoding="MathML-Content"><mo>×</mo></annotation-xml></semantics></math> 10<sup>−6</sup></td>
+</tr>
+<tr valign="middle">
+<td data-align="left">645</td>
+<td data-align="left">1.44 <math display="inline"><semantics><mrow><mo>×</mo></mrow><annotation-xml encoding="MathML-Content"><mo>×</mo></annotation-xml></semantics></math> 10<sup>−4</sup></td>
+</tr>
+<tr valign="middle">
+<td data-align="left">700</td>
+<td data-align="left">2.01 <math display="inline"><semantics><mrow><mo>×</mo></mrow><annotation-xml encoding="MathML-Content"><mo>×</mo></annotation-xml></semantics></math> 10<sup>−3</sup></td>
+</tr>
+</tbody></table></div>
+<p id="fs-idm134024464">What is the value of the activation energy (in kJ/mol) for this reaction?</p>
+</div></div>
+
+</div>
+<div class=" " data-type="exercise" id="fs-idm166518032">
+<div data-type="problem" id="fs-idm166517776"><span class="os-number">63</span><span class="os-divider">. </span><div class="os-problem-container">
+<p id="fs-idm93329056">The element Co exists in two oxidation states, Co(II) and Co(III), and the ions form many complexes. The rate at which one of the complexes of Co(III) was reduced by Fe(II) in water was measured. Determine the activation energy of the reaction from the following data:<span data-type="newline"><br/></span>
+</p><div class="os-table" id="fs-idm163198896"><table class="medium unnumbered" data-label="" data-id="fs-idm163198896" summary="Table 12.3  "><thead>
+<tr valign="middle">
+<th data-align="left"><em data-effect="italics">T</em> (K)</th>
+<th data-align="left"><em data-effect="italics">k</em> (s<sup>−1</sup>)</th>
+</tr>
+</thead><tbody>
+<tr valign="middle">
+<td data-align="left">293</td>
+<td data-align="left">0.054</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">298</td>
+<td data-align="left">0.100</td>
+</tr>
+</tbody></table></div>
+</div></div>
+</div>
+<div class=" os-hasSolution " data-type="exercise" id="fs-idm167771040">
+<div data-type="problem" id="fs-idm167770784"><a class="os-number" href="chapter-12#fs-idm167771040-solution">64</a><span class="os-divider">. </span><div class="os-problem-container">
+<p id="fs-idm65384176">The hydrolysis of the sugar sucrose to the sugars glucose and fructose,<span data-type="newline"><br/></span>
+<math display="inline"><semantics><mrow><mrow><msub><mtext>C</mtext><mrow><mn>12</mn></mrow></msub><msub><mtext>H</mtext><mrow><mn>22</mn></mrow></msub><msub><mtext>O</mtext><mrow><mn>11</mn></mrow></msub><mo>+</mo><msub><mtext>H</mtext><mn>2</mn></msub><mtext>O</mtext><mspace width="0.2em"/><mo stretchy="false">⟶</mo><mspace width="0.2em"/><msub><mtext>C</mtext><mn>6</mn></msub><msub><mtext>H</mtext><mrow><mn>12</mn></mrow></msub><msub><mtext>O</mtext><mn>6</mn></msub><mo>+</mo><msub><mtext>C</mtext><mn>6</mn></msub><msub><mtext>H</mtext><mrow><mn>12</mn></mrow></msub><msub><mtext>O</mtext><mn>6</mn></msub></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><msub><mtext>C</mtext><mrow><mn>12</mn></mrow></msub><msub><mtext>H</mtext><mrow><mn>22</mn></mrow></msub><msub><mtext>O</mtext><mrow><mn>11</mn></mrow></msub><mo>+</mo><msub><mtext>H</mtext><mn>2</mn></msub><mtext>O</mtext><mspace width="0.2em"/><mo stretchy="false">⟶</mo><mspace width="0.2em"/><msub><mtext>C</mtext><mn>6</mn></msub><msub><mtext>H</mtext><mrow><mn>12</mn></mrow></msub><msub><mtext>O</mtext><mn>6</mn></msub><mo>+</mo><msub><mtext>C</mtext><mn>6</mn></msub><msub><mtext>H</mtext><mrow><mn>12</mn></mrow></msub><msub><mtext>O</mtext><mn>6</mn></msub></mrow></annotation-xml></semantics></math></p>
+<p id="fs-idm106774224">follows a first-order rate law for the disappearance of sucrose: rate = <em data-effect="italics">k</em>[C<sub>12</sub>H<sub>22</sub>O<sub>11</sub>] (The products of the reaction, glucose and fructose, have the same molecular formulas but differ in the arrangement of the atoms in their molecules.)</p>
+<p id="fs-idm1605904">(a) In neutral solution, <em data-effect="italics">k</em> = 2.1 <math display="inline"><semantics><mrow><mo>×</mo></mrow><annotation-xml encoding="MathML-Content"><mo>×</mo></annotation-xml></semantics></math> 10<sup>−11</sup> s<sup>−1</sup> at 27 °C and 8.5 <math display="inline"><semantics><mrow><mo>×</mo></mrow><annotation-xml encoding="MathML-Content"><mo>×</mo></annotation-xml></semantics></math> 10<sup>−11</sup> s<sup>−1</sup> at 37 °C. Determine the activation energy, the frequency factor, and the rate constant for this equation at 47 °C (assuming the kinetics remain consistent with the Arrhenius equation at this temperature).</p>
+<p id="fs-idm94994288">(b) When a solution of sucrose with an initial concentration of 0.150 <em data-effect="italics">M</em> reaches equilibrium, the concentration of sucrose is 1.65 <math display="inline"><semantics><mrow><mo>×</mo></mrow><annotation-xml encoding="MathML-Content"><mo>×</mo></annotation-xml></semantics></math> 10<sup>−7</sup> <em data-effect="italics">M</em>. How long will it take the solution to reach equilibrium at 27 °C in the absence of a catalyst? Because the concentration of sucrose at equilibrium is so low, assume that the reaction is irreversible.</p>
+<p id="fs-idm124435200">(c) Why does assuming that the reaction is irreversible simplify the calculation in part (b)?</p>
+</div></div>
+
+</div>
+<div class=" " data-type="exercise" id="fs-idp179196768">
+<div data-type="problem" id="fs-idm100372752"><span class="os-number">65</span><span class="os-divider">. </span><div class="os-problem-container">
+<p id="fs-idm100372496">Use the <a target="_blank" rel="noopener nofollow" href="http://openstaxcollege.org/l/16PHETreaction">PhET Reactions &amp; Rates interactive simulation</a> to simulate a system. On the “Single collision” tab of the simulation applet, enable the “Energy view” by clicking the “+” icon. Select the first <math display="inline"><semantics><mrow><mrow><mi>A</mi><mo>+</mo><mi>B</mi><mi>C</mi><mspace width="0.2em"/><mo stretchy="false">⟶</mo><mspace width="0.2em"/><mi>A</mi><mi>B</mi><mo>+</mo><mi>C</mi></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><mi>A</mi><mo>+</mo><mi>B</mi><mi>C</mi><mspace width="0.2em"/><mo stretchy="false">⟶</mo><mspace width="0.2em"/><mi>A</mi><mi>B</mi><mo>+</mo><mi>C</mi></mrow></annotation-xml></semantics></math> reaction (A is yellow, B is purple, and C is navy blue). Using the “straight shot” default option, try launching the <em data-effect="italics">A</em> atom with varying amounts of energy. What changes when the Total Energy line at launch is below the transition state of the Potential Energy line? Why? What happens when it is above the transition state? Why?</p>
+</div></div>
+</div>
+<div class=" os-hasSolution " data-type="exercise" id="fs-idp11390128">
+<div data-type="problem" id="fs-idp11390384"><a class="os-number" href="chapter-12#fs-idp11390128-solution">66</a><span class="os-divider">. </span><div class="os-problem-container">
+<p id="fs-idp46127280">Use the <a target="_blank" rel="noopener nofollow" href="http://openstaxcollege.org/l/16PHETreaction">PhET Reactions &amp; Rates interactive simulation</a> to simulate a system. On the “Single collision” tab of the simulation applet, enable the “Energy view” by clicking the “+” icon. Select the first <math display="inline"><semantics><mrow><mrow><mi>A</mi><mo>+</mo><mi>B</mi><mi>C</mi><mspace width="0.2em"/><mo stretchy="false">⟶</mo><mspace width="0.2em"/><mi>A</mi><mi>B</mi><mo>+</mo><mi>C</mi></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><mi>A</mi><mo>+</mo><mi>B</mi><mi>C</mi><mspace width="0.2em"/><mo stretchy="false">⟶</mo><mspace width="0.2em"/><mi>A</mi><mi>B</mi><mo>+</mo><mi>C</mi></mrow></annotation-xml></semantics></math> reaction (A is yellow, B is purple, and C is navy blue). Using the “angled shot” option, try launching the <em data-effect="italics">A</em> atom with varying angles, but with more Total energy than the transition state. What happens when the <em data-effect="italics">A</em> atom hits the <em data-effect="italics">BC</em> molecule from different directions? Why?</p>
+</div></div>
+
+</div>
+</section><section class="exercises" data-depth="1" id="fs-idm483184"><h3 data-type="document-title" id="[redacted for uniqueness]"><span class="os-number">12.6</span><span class="os-divider"> </span><span class="os-text">Reaction Mechanisms</span></h3>
+<div class=" " data-type="exercise" id="fs-idm14620304">
+<div data-type="problem" id="fs-idp30088816"><span class="os-number">67</span><span class="os-divider">. </span><div class="os-problem-container">
+<p id="fs-idp78909952">Why are elementary reactions involving three or more reactants very uncommon?</p>
+</div></div>
+</div>
+<div class=" os-hasSolution " data-type="exercise" id="fs-idp146992064">
+<div data-type="problem" id="fs-idp164463488"><a class="os-number" href="chapter-12#fs-idp146992064-solution">68</a><span class="os-divider">. </span><div class="os-problem-container">
+<p id="fs-idp253834368">In general, can we predict the effect of doubling the concentration of <em data-effect="italics">A</em> on the rate of the overall reaction <math display="inline"><semantics><mrow><mrow><mi>A</mi><mo>+</mo><mi>B</mi><mspace width="0.2em"/><mo stretchy="false">⟶</mo><mspace width="0.2em"/><mi>C</mi></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><mi>A</mi><mo>+</mo><mi>B</mi><mspace width="0.2em"/><mo stretchy="false">⟶</mo><mspace width="0.2em"/><mi>C</mi></mrow></annotation-xml></semantics></math>? Can we predict the effect if the reaction is known to be an elementary reaction?</p>
+</div></div>
+
+</div>
+<div class=" " data-type="exercise" id="fs-idp48807664">
+<div data-type="problem" id="fs-idp199939888"><span class="os-number">69</span><span class="os-divider">. </span><div class="os-problem-container">
+<p id="fs-idp192842416">Define these terms:</p>
+<p id="fs-idp147769328">(a) unimolecular reaction</p>
+<p id="fs-idm14282208">(b) bimolecular reaction</p>
+<p id="fs-idm33506976">(c) elementary reaction</p>
+<p id="fs-idp19671456">(d) overall reaction</p>
+</div></div>
+</div>
+<div class=" os-hasSolution " data-type="exercise" id="fs-idm4441216">
+<div data-type="problem" id="fs-idp131250560"><a class="os-number" href="chapter-12#fs-idm4441216-solution">70</a><span class="os-divider">. </span><div class="os-problem-container">
+<p id="fs-idm33972032">What is the rate law for the elementary termolecular reaction <math display="inline"><semantics><mrow><mrow><mi>A</mi><mo>+</mo><mn>2</mn><mi>B</mi><mspace width="0.2em"/><mo stretchy="false">⟶</mo><mspace width="0.2em"/><mtext>products?</mtext></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><mi>A</mi><mo>+</mo><mn>2</mn><mi>B</mi><mspace width="0.2em"/><mo stretchy="false">⟶</mo><mspace width="0.2em"/><mtext>products?</mtext></mrow></annotation-xml></semantics></math> For <math display="inline"><semantics><mrow><mrow><mn>3</mn><mi>A</mi><mspace width="0.2em"/><mo stretchy="false">⟶</mo><mspace width="0.2em"/><mtext>products?</mtext></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><mn>3</mn><mi>A</mi><mspace width="0.2em"/><mo stretchy="false">⟶</mo><mspace width="0.2em"/><mtext>products?</mtext></mrow></annotation-xml></semantics></math></p>
+</div></div>
+
+</div>
+<div class=" " data-type="exercise" id="fs-idp38703248">
+<div data-type="problem" id="fs-idp135813952"><span class="os-number">71</span><span class="os-divider">. </span><div class="os-problem-container">
+<p id="fs-idp46432976">Given the following reactions and the corresponding rate laws, in which of the reactions might the elementary reaction and the overall reaction be the same?</p>
+<p id="fs-idp67815216"><math display="inline"><semantics><mrow><mtable columnalign="left"><mtr><mtd><mtext>(a)</mtext></mtd><mtd><msub><mtext>Cl</mtext><mn>2</mn></msub><mo>+</mo><mtext>CO</mtext><mspace width="0.2em"/><mo stretchy="false">⟶</mo><mspace width="0.2em"/><msub><mtext>Cl</mtext><mn>2</mn></msub><mtext>CO</mtext></mtd></mtr><mtr><mtd/><mtd><mtext>rate</mtext><mo>=</mo><mi>k</mi><msup><mrow><mo>[</mo><mrow><msub><mrow><mtext>Cl</mtext></mrow><mn>2</mn></msub></mrow><mo>]</mo></mrow><mrow><mtext>3/2</mtext></mrow></msup><mrow><mo>[</mo><mrow><mtext>CO</mtext></mrow><mo>]</mo></mrow></mtd></mtr></mtable></mrow><annotation-xml encoding="MathML-Content"><mtable columnalign="left"><mtr><mtd><mtext>(a)</mtext></mtd><mtd><msub><mtext>Cl</mtext><mn>2</mn></msub><mo>+</mo><mtext>CO</mtext><mspace width="0.2em"/><mo stretchy="false">⟶</mo><mspace width="0.2em"/><msub><mtext>Cl</mtext><mn>2</mn></msub><mtext>CO</mtext></mtd></mtr><mtr><mtd/><mtd><mtext>rate</mtext><mo>=</mo><mi>k</mi><msup><mrow><mo>[</mo><mrow><msub><mrow><mtext>Cl</mtext></mrow><mn>2</mn></msub></mrow><mo>]</mo></mrow><mrow><mtext>3/2</mtext></mrow></msup><mrow><mo>[</mo><mrow><mtext>CO</mtext></mrow><mo>]</mo></mrow></mtd></mtr></mtable></annotation-xml></semantics></math></p>
+<p id="fs-idp74086640"><math display="inline"><semantics><mrow><mtable columnalign="left"><mtr><mtd><mtext>(b)</mtext></mtd><mtd><msub><mtext>PCl</mtext><mn>3</mn></msub><mo>+</mo><msub><mtext>Cl</mtext><mn>2</mn></msub><mspace width="0.2em"/><mo stretchy="false">⟶</mo><mspace width="0.2em"/><msub><mtext>PCl</mtext><mn>5</mn></msub></mtd></mtr><mtr><mtd/><mtd><mtext>rate</mtext><mo>=</mo><mi>k</mi><mrow><mo>[</mo><mrow><msub><mrow><mtext>PCl</mtext></mrow><mn>3</mn></msub></mrow><mo>]</mo></mrow><mrow><mo>[</mo><mrow><msub><mrow><mtext>Cl</mtext></mrow><mn>2</mn></msub></mrow><mo>]</mo></mrow></mtd></mtr></mtable></mrow><annotation-xml encoding="MathML-Content"><mtable columnalign="left"><mtr><mtd><mtext>(b)</mtext></mtd><mtd><msub><mtext>PCl</mtext><mn>3</mn></msub><mo>+</mo><msub><mtext>Cl</mtext><mn>2</mn></msub><mspace width="0.2em"/><mo stretchy="false">⟶</mo><mspace width="0.2em"/><msub><mtext>PCl</mtext><mn>5</mn></msub></mtd></mtr><mtr><mtd/><mtd><mtext>rate</mtext><mo>=</mo><mi>k</mi><mrow><mo>[</mo><mrow><msub><mrow><mtext>PCl</mtext></mrow><mn>3</mn></msub></mrow><mo>]</mo></mrow><mrow><mo>[</mo><mrow><msub><mrow><mtext>Cl</mtext></mrow><mn>2</mn></msub></mrow><mo>]</mo></mrow></mtd></mtr></mtable></annotation-xml></semantics></math></p>
+<p id="fs-idp6788416"><math display="inline"><semantics><mrow><mtable columnalign="left"><mtr><mtd><mtext>(c)</mtext></mtd><mtd><mn>2</mn><mtext>NO</mtext><mo>+</mo><msub><mtext>H</mtext><mn>2</mn></msub><mspace width="0.2em"/><mo stretchy="false">⟶</mo><mspace width="0.2em"/><msub><mtext>N</mtext><mn>2</mn></msub><mo>+</mo><msub><mtext>H</mtext><mn>2</mn></msub><mtext>O</mtext></mtd></mtr><mtr><mtd/><mtd><mtext>rate</mtext><mo>=</mo><mi>k</mi><mrow><mo>[</mo><mrow><mtext>NO</mtext></mrow><mo>]</mo></mrow><mrow><mo>[</mo><mrow><msub><mtext>H</mtext><mn>2</mn></msub></mrow><mo>]</mo></mrow></mtd></mtr></mtable></mrow><annotation-xml encoding="MathML-Content"><mtable columnalign="left"><mtr><mtd><mtext>(c)</mtext></mtd><mtd><mn>2</mn><mtext>NO</mtext><mo>+</mo><msub><mtext>H</mtext><mn>2</mn></msub><mspace width="0.2em"/><mo stretchy="false">⟶</mo><mspace width="0.2em"/><msub><mtext>N</mtext><mn>2</mn></msub><mo>+</mo><msub><mtext>H</mtext><mn>2</mn></msub><mtext>O</mtext></mtd></mtr><mtr><mtd/><mtd><mtext>rate</mtext><mo>=</mo><mi>k</mi><mrow><mo>[</mo><mrow><mtext>NO</mtext></mrow><mo>]</mo></mrow><mrow><mo>[</mo><mrow><msub><mtext>H</mtext><mn>2</mn></msub></mrow><mo>]</mo></mrow></mtd></mtr></mtable></annotation-xml></semantics></math></p>
+<p id="fs-idp196669424"><math display="inline"><semantics><mrow><mtable columnalign="left"><mtr><mtd><mtext>(d)</mtext></mtd><mtd><mn>2</mn><mtext>NO</mtext><mo>+</mo><msub><mtext>O</mtext><mn>2</mn></msub><mspace width="0.2em"/><mo stretchy="false">⟶</mo><mspace width="0.2em"/><mn>2</mn><msub><mtext>NO</mtext><mn>2</mn></msub></mtd></mtr><mtr><mtd/><mtd><mtext>rate</mtext><mo>=</mo><mi>k</mi><msup><mrow><mtext>[NO]</mtext></mrow><mn>2</mn></msup><mrow><mo>[</mo><mrow><msub><mtext>O</mtext><mn>2</mn></msub></mrow><mo>]</mo></mrow></mtd></mtr></mtable></mrow><annotation-xml encoding="MathML-Content"><mtable columnalign="left"><mtr><mtd><mtext>(d)</mtext></mtd><mtd><mn>2</mn><mtext>NO</mtext><mo>+</mo><msub><mtext>O</mtext><mn>2</mn></msub><mspace width="0.2em"/><mo stretchy="false">⟶</mo><mspace width="0.2em"/><mn>2</mn><msub><mtext>NO</mtext><mn>2</mn></msub></mtd></mtr><mtr><mtd/><mtd><mtext>rate</mtext><mo>=</mo><mi>k</mi><msup><mrow><mtext>[NO]</mtext></mrow><mn>2</mn></msup><mrow><mo>[</mo><mrow><msub><mtext>O</mtext><mn>2</mn></msub></mrow><mo>]</mo></mrow></mtd></mtr></mtable></annotation-xml></semantics></math></p>
+<p id="fs-idp16831200"><math display="inline"><semantics><mrow><mtable columnalign="left"><mtr><mtd><mtext>(e)</mtext></mtd><mtd><mtext>NO</mtext><mo>+</mo><msub><mtext>O</mtext><mn>3</mn></msub><mspace width="0.2em"/><mo stretchy="false">⟶</mo><mspace width="0.2em"/><msub><mtext>NO</mtext><mn>2</mn></msub><mo>+</mo><msub><mtext>O</mtext><mn>2</mn></msub></mtd></mtr><mtr><mtd/><mtd><mtext>rate</mtext><mo>=</mo><mi>k</mi><mrow><mo>[</mo><mrow><mtext>NO</mtext></mrow><mo>]</mo></mrow><mrow><mo>[</mo><mrow><msub><mtext>O</mtext><mn>3</mn></msub></mrow><mo>]</mo></mrow></mtd></mtr></mtable></mrow><annotation-xml encoding="MathML-Content"><mtable columnalign="left"><mtr><mtd><mtext>(e)</mtext></mtd><mtd><mtext>NO</mtext><mo>+</mo><msub><mtext>O</mtext><mn>3</mn></msub><mspace width="0.2em"/><mo stretchy="false">⟶</mo><mspace width="0.2em"/><msub><mtext>NO</mtext><mn>2</mn></msub><mo>+</mo><msub><mtext>O</mtext><mn>2</mn></msub></mtd></mtr><mtr><mtd/><mtd><mtext>rate</mtext><mo>=</mo><mi>k</mi><mrow><mo>[</mo><mrow><mtext>NO</mtext></mrow><mo>]</mo></mrow><mrow><mo>[</mo><mrow><msub><mtext>O</mtext><mn>3</mn></msub></mrow><mo>]</mo></mrow></mtd></mtr></mtable></annotation-xml></semantics></math></p>
+</div></div>
+</div>
+<div class=" os-hasSolution " data-type="exercise" id="fs-idp199466816">
+<div data-type="problem" id="fs-idp65295552"><a class="os-number" href="chapter-12#fs-idp199466816-solution">72</a><span class="os-divider">. </span><div class="os-problem-container">
+<p id="fs-idp232339888">Write the rate law for each of the following elementary reactions:</p>
+<p id="fs-idp19897360">(a) <math display="inline"><semantics><mrow><mrow><msub><mtext>O</mtext><mn>3</mn></msub><mover><mo>→</mo><mrow><mspace width="0.2em"/><mtext>sunlight</mtext><mspace width="0.2em"/></mrow></mover><msub><mtext>O</mtext><mn>2</mn></msub><mo>+</mo><mtext>O</mtext></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><msub><mtext>O</mtext><mn>3</mn></msub><mover><mo>→</mo><mrow><mspace width="0.2em"/><mtext>sunlight</mtext><mspace width="0.2em"/></mrow></mover><msub><mtext>O</mtext><mn>2</mn></msub><mo>+</mo><mtext>O</mtext></mrow></annotation-xml></semantics></math></p>
+<p id="fs-idm10573776">(b) <math display="inline"><semantics><mrow><mrow><msub><mtext>O</mtext><mn>3</mn></msub><mo>+</mo><mtext>Cl</mtext><mspace width="0.2em"/><mo stretchy="false">⟶</mo><mspace width="0.2em"/><msub><mtext>O</mtext><mn>2</mn></msub><mo>+</mo><mtext>ClO</mtext></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><msub><mtext>O</mtext><mn>3</mn></msub><mo>+</mo><mtext>Cl</mtext><mspace width="0.2em"/><mo stretchy="false">⟶</mo><mspace width="0.2em"/><msub><mtext>O</mtext><mn>2</mn></msub><mo>+</mo><mtext>ClO</mtext></mrow></annotation-xml></semantics></math></p>
+<p id="fs-idp84028352">(c) <math display="inline"><semantics><mrow><mrow><mtext>ClO</mtext><mo>+</mo><mtext>O</mtext><mspace width="0.2em"/><mo stretchy="false">⟶</mo><mspace width="0.2em"/><mtext>Cl</mtext><mo>+</mo><msub><mtext>O</mtext><mn>2</mn></msub></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><mtext>ClO</mtext><mo>+</mo><mtext>O</mtext><mspace width="0.2em"/><mo stretchy="false">⟶</mo><mspace width="0.2em"/><mtext>Cl</mtext><mo>+</mo><msub><mtext>O</mtext><mn>2</mn></msub></mrow></annotation-xml></semantics></math></p>
+<p id="fs-idp138181888">(d) <math display="inline"><semantics><mrow><mrow><msub><mtext>O</mtext><mn>3</mn></msub><mo>+</mo><mtext>NO</mtext><mspace width="0.2em"/><mo stretchy="false">⟶</mo><mspace width="0.2em"/><msub><mrow><mtext>NO</mtext></mrow><mn>2</mn></msub><mo>+</mo><msub><mtext>O</mtext><mn>2</mn></msub></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><msub><mtext>O</mtext><mn>3</mn></msub><mo>+</mo><mtext>NO</mtext><mspace width="0.2em"/><mo stretchy="false">⟶</mo><mspace width="0.2em"/><msub><mrow><mtext>NO</mtext></mrow><mn>2</mn></msub><mo>+</mo><msub><mtext>O</mtext><mn>2</mn></msub></mrow></annotation-xml></semantics></math></p>
+<p id="fs-idp252526240">(e) <math display="inline"><semantics><mrow><mrow><msub><mrow><mtext>NO</mtext></mrow><mn>2</mn></msub><mo>+</mo><mtext>O</mtext><mspace width="0.2em"/><mo stretchy="false">⟶</mo><mspace width="0.2em"/><mtext>NO</mtext><mo>+</mo><msub><mtext>O</mtext><mn>2</mn></msub></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><msub><mrow><mtext>NO</mtext></mrow><mn>2</mn></msub><mo>+</mo><mtext>O</mtext><mspace width="0.2em"/><mo stretchy="false">⟶</mo><mspace width="0.2em"/><mtext>NO</mtext><mo>+</mo><msub><mtext>O</mtext><mn>2</mn></msub></mrow></annotation-xml></semantics></math></p>
+</div></div>
+
+</div>
+<div class=" " data-type="exercise" id="fs-idp63617152">
+<div data-type="problem" id="fs-idp202037216"><span class="os-number">73</span><span class="os-divider">. </span><div class="os-problem-container">
+<p id="fs-idm34461424">Nitrogen monoxide, NO, reacts with hydrogen, H<sub>2</sub>, according to the following equation:<span data-type="newline"><br/></span>
+<math display="inline"><semantics><mrow><mrow><mn>2</mn><mtext>NO</mtext><mo>+</mo><mn>2</mn><msub><mtext>H</mtext><mn>2</mn></msub><mspace width="0.2em"/><mo stretchy="false">⟶</mo><mspace width="0.2em"/><msub><mtext>N</mtext><mn>2</mn></msub><mo>+</mo><mn>2</mn><msub><mtext>H</mtext><mn>2</mn></msub><mtext>O</mtext></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><mn>2</mn><mtext>NO</mtext><mo>+</mo><mn>2</mn><msub><mtext>H</mtext><mn>2</mn></msub><mspace width="0.2em"/><mo stretchy="false">⟶</mo><mspace width="0.2em"/><msub><mtext>N</mtext><mn>2</mn></msub><mo>+</mo><mn>2</mn><msub><mtext>H</mtext><mn>2</mn></msub><mtext>O</mtext></mrow></annotation-xml></semantics></math></p><p id="fs-idp105142944">What would the rate law be if the mechanism for this reaction were:<span data-type="newline"><br/></span>
+<math display="inline"><semantics><mrow><mtable columnalign="left"><mtr><mtd><mn>2</mn><mtext>NO</mtext><mo>+</mo><msub><mtext>H</mtext><mn>2</mn></msub><mspace width="0.2em"/><mo stretchy="false">⟶</mo><mspace width="0.2em"/><msub><mtext>N</mtext><mn>2</mn></msub><mo>+</mo><msub><mtext>H</mtext><mn>2</mn></msub><msub><mtext>O</mtext><mn>2</mn></msub><mrow><mo>(</mo><mrow><mtext>slow</mtext></mrow><mo>)</mo></mrow></mtd></mtr><mtr><mtd><msub><mtext>H</mtext><mn>2</mn></msub><msub><mtext>O</mtext><mn>2</mn></msub><mo>+</mo><msub><mtext>H</mtext><mn>2</mn></msub><mspace width="0.2em"/><mo stretchy="false">⟶</mo><mspace width="0.2em"/><mn>2</mn><msub><mtext>H</mtext><mn>2</mn></msub><mtext>O</mtext><mspace width="0.2em"/><mrow><mo>(</mo><mrow><mtext>fast</mtext></mrow><mo>)</mo></mrow></mtd></mtr></mtable></mrow><annotation-xml encoding="MathML-Content"><mtable columnalign="left"><mtr><mtd><mn>2</mn><mtext>NO</mtext><mo>+</mo><msub><mtext>H</mtext><mn>2</mn></msub><mspace width="0.2em"/><mo stretchy="false">⟶</mo><mspace width="0.2em"/><msub><mtext>N</mtext><mn>2</mn></msub><mo>+</mo><msub><mtext>H</mtext><mn>2</mn></msub><msub><mtext>O</mtext><mn>2</mn></msub><mrow><mo>(</mo><mrow><mtext>slow</mtext></mrow><mo>)</mo></mrow></mtd></mtr><mtr><mtd><msub><mtext>H</mtext><mn>2</mn></msub><msub><mtext>O</mtext><mn>2</mn></msub><mo>+</mo><msub><mtext>H</mtext><mn>2</mn></msub><mspace width="0.2em"/><mo stretchy="false">⟶</mo><mspace width="0.2em"/><mn>2</mn><msub><mtext>H</mtext><mn>2</mn></msub><mtext>O</mtext><mspace width="0.2em"/><mrow><mo>(</mo><mrow><mtext>fast</mtext></mrow><mo>)</mo></mrow></mtd></mtr></mtable></annotation-xml></semantics></math></p>
+</div></div>
+</div>
+<div class=" os-hasSolution " data-type="exercise" id="fs-idm20987200">
+<div data-type="problem" id="fs-idp157852080"><a class="os-number" href="chapter-12#fs-idm20987200-solution">74</a><span class="os-divider">. </span><div class="os-problem-container">
+<p id="fs-idp105816432">Experiments were conducted to study the rate of the reaction represented by this equation.<sup data-type="footnote-number" id="footnote-ref1"><a data-type="footnote-link" href="12-6-reaction-mechanisms#footnote1">1</a></sup><span data-type="newline"><br/></span>
+<math display="inline"><semantics><mrow><mrow><mtext>2NO</mtext><mo stretchy="false">(</mo><mi>g</mi><mo stretchy="false">)</mo><mo>+</mo><mn>2</mn><msub><mtext>H</mtext><mn>2</mn></msub><mo stretchy="false">(</mo><mi>g</mi><mo stretchy="false">)</mo><mspace width="0.2em"/><mo stretchy="false">⟶</mo><mspace width="0.2em"/><msub><mtext>N</mtext><mn>2</mn></msub><mo stretchy="false">(</mo><mi>g</mi><mo stretchy="false">)</mo><mo>+</mo><mn>2</mn><msub><mtext>H</mtext><mn>2</mn></msub><mtext>O</mtext><mo stretchy="false">(</mo><mi>g</mi><mo stretchy="false">)</mo></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><mtext>2NO</mtext><mo stretchy="false">(</mo><mi>g</mi><mo stretchy="false">)</mo><mo>+</mo><mn>2</mn><msub><mtext>H</mtext><mn>2</mn></msub><mo stretchy="false">(</mo><mi>g</mi><mo stretchy="false">)</mo><mspace width="0.2em"/><mo stretchy="false">⟶</mo><mspace width="0.2em"/><msub><mtext>N</mtext><mn>2</mn></msub><mo stretchy="false">(</mo><mi>g</mi><mo stretchy="false">)</mo><mo>+</mo><mn>2</mn><msub><mtext>H</mtext><mn>2</mn></msub><mtext>O</mtext><mo stretchy="false">(</mo><mi>g</mi><mo stretchy="false">)</mo></mrow></annotation-xml></semantics></math></p>
+<p id="fs-idp138927296">Initial concentrations and rates of reaction are given here.</p>
+<div class="os-table" id="fs-idp16941152"><table class="medium unnumbered" data-label="" data-id="fs-idp16941152" summary="Table 12.3  "><thead>
+<tr valign="middle">
+<th data-align="left">Experiment</th>
+<th data-align="left">Initial Concentration [NO] (mol L<sup>−1</sup>)</th>
+<th data-align="left">Initial Concentration, [H<sub>2</sub>] (mol L<sup>−1</sup> min<sup>−1</sup>)</th>
+<th data-align="left">Initial Rate of Formation of N<sub>2</sub> (mol L<sup>−1</sup> min<sup>−1</sup>)</th>
+</tr>
+</thead><tbody>
+<tr valign="middle">
+<td data-align="left">1</td>
+<td data-align="left">0.0060</td>
+<td data-align="left">0.0010</td>
+<td data-align="left">1.8 <math display="inline"><semantics><mrow><mo>×</mo></mrow><annotation-xml encoding="MathML-Content"><mo>×</mo></annotation-xml></semantics></math> 10<sup>−4</sup></td>
+</tr>
+<tr valign="middle">
+<td data-align="left">2</td>
+<td data-align="left">0.0060</td>
+<td data-align="left">0.0020</td>
+<td data-align="left">3.6 <math display="inline"><semantics><mrow><mo>×</mo></mrow><annotation-xml encoding="MathML-Content"><mo>×</mo></annotation-xml></semantics></math> 10<sup>−4</sup></td>
+</tr>
+<tr valign="middle">
+<td data-align="left">3</td>
+<td data-align="left">0.0010</td>
+<td data-align="left">0.0060</td>
+<td data-align="left">0.30 <math display="inline"><semantics><mrow><mo>×</mo></mrow><annotation-xml encoding="MathML-Content"><mo>×</mo></annotation-xml></semantics></math> 10<sup>−4</sup></td>
+</tr>
+<tr valign="middle">
+<td data-align="left">4</td>
+<td data-align="left">0.0020</td>
+<td data-align="left">0.0060</td>
+<td data-align="left">1.2 <math display="inline"><semantics><mrow><mo>×</mo></mrow><annotation-xml encoding="MathML-Content"><mo>×</mo></annotation-xml></semantics></math> 10<sup>−4</sup></td>
+</tr>
+</tbody></table></div>
+<p id="fs-idp12567072">Consider the following questions:</p>
+<p id="fs-idp65094304">(a) Determine the order for each of the reactants, NO and H<sub>2</sub>, from the data given and show your reasoning.</p>
+<p id="fs-idp59515264">(b) Write the overall rate law for the reaction.</p>
+<p id="fs-idp219904240">(c) Calculate the value of the rate constant, <em data-effect="italics">k</em>, for the reaction. Include units.</p>
+<p id="fs-idp37050608">(d) For experiment 2, calculate the concentration of NO remaining when exactly one-half of the original amount of H<sub>2</sub> had been consumed.</p>
+<p id="fs-idp79345216">(e) The following sequence of elementary steps is a proposed mechanism for the reaction.</p>
+<p id="fs-idp196835696">Step 1: <math display="inline"><semantics><mrow><mrow><mtext>NO</mtext><mo>+</mo><mtext>NO</mtext><mspace width="0.2em"/><mo stretchy="false">⇌</mo><mspace width="0.2em"/><msub><mtext>N</mtext><mn>2</mn></msub><msub><mtext>O</mtext><mn>2</mn></msub></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><mtext>NO</mtext><mo>+</mo><mtext>NO</mtext><mspace width="0.2em"/><mo stretchy="false">⇌</mo><mspace width="0.2em"/><msub><mtext>N</mtext><mn>2</mn></msub><msub><mtext>O</mtext><mn>2</mn></msub></mrow></annotation-xml></semantics></math></p>
+<p id="fs-idp65580160">Step 2: <math display="inline"><semantics><mrow><mrow><msub><mtext>N</mtext><mn>2</mn></msub><msub><mtext>O</mtext><mn>2</mn></msub><mo>+</mo><msub><mtext>H</mtext><mn>2</mn></msub><mspace width="0.2em"/><mo stretchy="false">⇌</mo><mspace width="0.2em"/><msub><mtext>H</mtext><mn>2</mn></msub><mtext>O</mtext><mo>+</mo><msub><mtext>N</mtext><mn>2</mn></msub><mtext>O</mtext></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><msub><mtext>N</mtext><mn>2</mn></msub><msub><mtext>O</mtext><mn>2</mn></msub><mo>+</mo><msub><mtext>H</mtext><mn>2</mn></msub><mspace width="0.2em"/><mo stretchy="false">⇌</mo><mspace width="0.2em"/><msub><mtext>H</mtext><mn>2</mn></msub><mtext>O</mtext><mo>+</mo><msub><mtext>N</mtext><mn>2</mn></msub><mtext>O</mtext></mrow></annotation-xml></semantics></math></p>
+<p id="fs-idp265543072">Step 3: <math display="inline"><semantics><mrow><mrow><msub><mtext>N</mtext><mn>2</mn></msub><mtext>O</mtext><mo>+</mo><msub><mtext>H</mtext><mn>2</mn></msub><mspace width="0.2em"/><mo stretchy="false">⇌</mo><mspace width="0.2em"/><msub><mtext>N</mtext><mn>2</mn></msub><mo>+</mo><msub><mtext>H</mtext><mn>2</mn></msub><mtext>O</mtext></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><msub><mtext>N</mtext><mn>2</mn></msub><mtext>O</mtext><mo>+</mo><msub><mtext>H</mtext><mn>2</mn></msub><mspace width="0.2em"/><mo stretchy="false">⇌</mo><mspace width="0.2em"/><msub><mtext>N</mtext><mn>2</mn></msub><mo>+</mo><msub><mtext>H</mtext><mn>2</mn></msub><mtext>O</mtext></mrow></annotation-xml></semantics></math></p>
+<p id="fs-idp72418144">Based on the data presented, which of these is the rate determining step? Show that the mechanism is consistent with the observed rate law for the reaction and the overall stoichiometry of the reaction.</p>
+</div></div>
+
+</div>
+<div class=" " data-type="exercise" id="fs-idp225129424">
+<div data-type="problem" id="fs-idp107377632"><span class="os-number">75</span><span class="os-divider">. </span><div class="os-problem-container">
+<p id="fs-idp244877904">The reaction of CO with Cl<sub>2</sub> gives phosgene (COCl<sub>2</sub>), a nerve gas that was used in World War I. Use the mechanism shown here to complete the following exercises:<span data-type="newline"><br/></span>
+<math display="inline"><semantics><mrow><mrow><msub><mrow><mtext>Cl</mtext></mrow><mn>2</mn></msub><mo stretchy="false">(</mo><mi>g</mi><mo stretchy="false">)</mo><mspace width="0.2em"/><mo stretchy="false">⇌</mo><mspace width="0.2em"/><mn>2</mn><mtext>Cl</mtext><mo stretchy="false">(</mo><mi>g</mi><mo stretchy="false">)</mo></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><msub><mrow><mtext>Cl</mtext></mrow><mn>2</mn></msub><mo stretchy="false">(</mo><mi>g</mi><mo stretchy="false">)</mo><mspace width="0.2em"/><mo stretchy="false">⇌</mo><mspace width="0.2em"/><mn>2</mn><mtext>Cl</mtext><mo stretchy="false">(</mo><mi>g</mi><mo stretchy="false">)</mo></mrow></annotation-xml></semantics></math> (fast, k<sub>1</sub> represents the forward rate constant, <em data-effect="italics">k</em><sub>−1</sub> the reverse rate constant)<span data-type="newline"><br/></span>
+<math display="inline"><semantics><mrow><mrow><mtext>CO</mtext><mo stretchy="false">(</mo><mi>g</mi><mo stretchy="false">)</mo><mo>+</mo><mtext>Cl</mtext><mo stretchy="false">(</mo><mi>g</mi><mo stretchy="false">)</mo><mspace width="0.2em"/><mo stretchy="false">⟶</mo><mspace width="0.2em"/><mtext>COCl</mtext><mo stretchy="false">(</mo><mi>g</mi><mo stretchy="false">)</mo></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><mtext>CO</mtext><mo stretchy="false">(</mo><mi>g</mi><mo stretchy="false">)</mo><mo>+</mo><mtext>Cl</mtext><mo stretchy="false">(</mo><mi>g</mi><mo stretchy="false">)</mo><mspace width="0.2em"/><mo stretchy="false">⟶</mo><mspace width="0.2em"/><mtext>COCl</mtext><mo stretchy="false">(</mo><mi>g</mi><mo stretchy="false">)</mo></mrow></annotation-xml></semantics></math> (slow, <em data-effect="italics">k</em><sub>2</sub> the rate constant)<span data-type="newline"><br/></span>
+<math display="inline"><semantics><mrow><mrow><mtext>COCl</mtext><mo stretchy="false">(</mo><mi>g</mi><mo stretchy="false">)</mo><mo>+</mo><mtext>Cl</mtext><mo stretchy="false">(</mo><mi>g</mi><mo stretchy="false">)</mo><mspace width="0.2em"/><mo stretchy="false">⟶</mo><mspace width="0.2em"/><msub><mrow><mtext>COCl</mtext></mrow><mn>2</mn></msub><mo stretchy="false">(</mo><mi>g</mi><mo stretchy="false">)</mo></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><mtext>COCl</mtext><mo stretchy="false">(</mo><mi>g</mi><mo stretchy="false">)</mo><mo>+</mo><mtext>Cl</mtext><mo stretchy="false">(</mo><mi>g</mi><mo stretchy="false">)</mo><mspace width="0.2em"/><mo stretchy="false">⟶</mo><mspace width="0.2em"/><msub><mrow><mtext>COCl</mtext></mrow><mn>2</mn></msub><mo stretchy="false">(</mo><mi>g</mi><mo stretchy="false">)</mo></mrow></annotation-xml></semantics></math> (fast, <em data-effect="italics">k</em><sub>3</sub> the rate constant)</p>
+<p id="fs-idp38932624">(a) Write the overall reaction.</p>
+<p id="fs-idp180368">(b) Identify all intermediates.</p>
+<p id="fs-idp106886192">(c) Write the rate law for each elementary reaction.</p>
+<p id="fs-idp107103328">(d) Write the overall rate law expression.</p>
+</div></div>
+</div>
+</section><section class="exercises" data-depth="1" id="fs-idm32536608"><h3 data-type="document-title" id="[redacted for uniqueness]"><span class="os-number">12.7</span><span class="os-divider"> </span><span class="os-text">Catalysis</span></h3>
+<div class=" os-hasSolution " data-type="exercise" id="fs-idm121944048">
+<div data-type="problem" id="fs-idm262670608"><a class="os-number" href="chapter-12#fs-idm121944048-solution">76</a><span class="os-divider">. </span><div class="os-problem-container">
+<p id="fs-idm127239504">Account for the increase in reaction rate brought about by a catalyst.</p>
+</div></div>
+
+</div>
+<div class=" " data-type="exercise" id="fs-idm119808848">
+<div data-type="problem" id="fs-idm209867568"><span class="os-number">77</span><span class="os-divider">. </span><div class="os-problem-container">
+<p id="fs-idm221201728">Compare the functions of homogeneous and heterogeneous catalysts.</p>
+</div></div>
+</div>
+<div class=" os-hasSolution " data-type="exercise" id="fs-idm268031984">
+<div data-type="problem" id="fs-idm121870880"><a class="os-number" href="chapter-12#fs-idm268031984-solution">78</a><span class="os-divider">. </span><div class="os-problem-container">
+<p id="fs-idm224601824">Consider this scenario and answer the following questions: Chlorine atoms resulting from decomposition of chlorofluoromethanes, such as CCl<sub>2</sub>F<sub>2</sub>, catalyze the decomposition of ozone in the atmosphere. One simplified mechanism for the decomposition is:<span data-type="newline"><br/></span>
+<math display="inline"><semantics><mrow><mtable columnalign="left"><mtr/><mtr/><mtr><mtd><msub><mtext>O</mtext><mn>3</mn></msub><mover><mo>→</mo><mrow><mspace width="0.2em"/><mtext>sunlight</mtext><mspace width="0.2em"/></mrow></mover><msub><mtext>O</mtext><mn>2</mn></msub><mo>+</mo><mtext>O</mtext></mtd></mtr><mtr><mtd><msub><mtext>O</mtext><mn>3</mn></msub><mo>+</mo><mtext>Cl</mtext><mspace width="0.2em"/><mo stretchy="false">⟶</mo><mspace width="0.2em"/><msub><mtext>O</mtext><mn>2</mn></msub><mo>+</mo><mtext>ClO</mtext></mtd></mtr><mtr><mtd><mtext>ClO</mtext><mo>+</mo><mtext>O</mtext><mspace width="0.2em"/><mo stretchy="false">⟶</mo><mspace width="0.2em"/><mtext>Cl</mtext><mo>+</mo><msub><mtext>O</mtext><mn>2</mn></msub></mtd></mtr></mtable></mrow><annotation-xml encoding="MathML-Content"><mtable columnalign="left"><mtr/><mtr/><mtr><mtd><msub><mtext>O</mtext><mn>3</mn></msub><mover><mo>→</mo><mrow><mspace width="0.2em"/><mtext>sunlight</mtext><mspace width="0.2em"/></mrow></mover><msub><mtext>O</mtext><mn>2</mn></msub><mo>+</mo><mtext>O</mtext></mtd></mtr><mtr><mtd><msub><mtext>O</mtext><mn>3</mn></msub><mo>+</mo><mtext>Cl</mtext><mspace width="0.2em"/><mo stretchy="false">⟶</mo><mspace width="0.2em"/><msub><mtext>O</mtext><mn>2</mn></msub><mo>+</mo><mtext>ClO</mtext></mtd></mtr><mtr><mtd><mtext>ClO</mtext><mo>+</mo><mtext>O</mtext><mspace width="0.2em"/><mo stretchy="false">⟶</mo><mspace width="0.2em"/><mtext>Cl</mtext><mo>+</mo><msub><mtext>O</mtext><mn>2</mn></msub></mtd></mtr></mtable></annotation-xml></semantics></math></p>
+<p id="fs-idm174347728">(a) Explain why chlorine atoms are catalysts in the gas-phase transformation:<span data-type="newline"><br/></span>
+<math display="inline"><semantics><mrow><mrow><mn>2</mn><msub><mtext>O</mtext><mn>3</mn></msub><mspace width="0.2em"/><mo stretchy="false">⟶</mo><mspace width="0.2em"/><mn>3</mn><msub><mtext>O</mtext><mn>2</mn></msub></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><mn>2</mn><msub><mtext>O</mtext><mn>3</mn></msub><mspace width="0.2em"/><mo stretchy="false">⟶</mo><mspace width="0.2em"/><mn>3</mn><msub><mtext>O</mtext><mn>2</mn></msub></mrow></annotation-xml></semantics></math></p>
+<p id="fs-idm280039520">(b) Nitric oxide is also involved in the decomposition of ozone by the mechanism:<span data-type="newline"><br/></span>
+<math display="inline"><semantics><mrow><mtable columnalign="left"><mtr/><mtr><mtd><msub><mtext>O</mtext><mn>3</mn></msub><mover><mo>→</mo><mrow><mspace width="0.2em"/><mtext>sunlight</mtext><mspace width="0.2em"/></mrow></mover><msub><mtext>O</mtext><mn>2</mn></msub><mo>+</mo><mtext>O</mtext></mtd></mtr><mtr><mtd><msub><mtext>O</mtext><mn>3</mn></msub><mo>+</mo><mtext>NO</mtext><mspace width="0.2em"/><mo stretchy="false">⟶</mo><mspace width="0.2em"/><msub><mtext>NO</mtext><mn>2</mn></msub><mo>+</mo><msub><mtext>O</mtext><mn>2</mn></msub></mtd></mtr><mtr><mtd><msub><mtext>NO</mtext><mn>2</mn></msub><mo>+</mo><mtext>O</mtext><mspace width="0.2em"/><mo stretchy="false">⟶</mo><mspace width="0.2em"/><mtext>NO</mtext><mo>+</mo><msub><mtext>O</mtext><mn>2</mn></msub></mtd></mtr></mtable></mrow><annotation-xml encoding="MathML-Content"><mtable columnalign="left"><mtr/><mtr><mtd><msub><mtext>O</mtext><mn>3</mn></msub><mover><mo>→</mo><mrow><mspace width="0.2em"/><mtext>sunlight</mtext><mspace width="0.2em"/></mrow></mover><msub><mtext>O</mtext><mn>2</mn></msub><mo>+</mo><mtext>O</mtext></mtd></mtr><mtr><mtd><msub><mtext>O</mtext><mn>3</mn></msub><mo>+</mo><mtext>NO</mtext><mspace width="0.2em"/><mo stretchy="false">⟶</mo><mspace width="0.2em"/><msub><mtext>NO</mtext><mn>2</mn></msub><mo>+</mo><msub><mtext>O</mtext><mn>2</mn></msub></mtd></mtr><mtr><mtd><msub><mtext>NO</mtext><mn>2</mn></msub><mo>+</mo><mtext>O</mtext><mspace width="0.2em"/><mo stretchy="false">⟶</mo><mspace width="0.2em"/><mtext>NO</mtext><mo>+</mo><msub><mtext>O</mtext><mn>2</mn></msub></mtd></mtr></mtable></annotation-xml></semantics></math></p>
+<p id="fs-idm271887104">Is NO a catalyst for the decomposition? Explain your answer.</p>
+</div></div>
+
+</div>
+<div class=" " data-type="exercise" id="fs-idm194307024">
+<div data-type="problem" id="fs-idm126642096"><span class="os-number">79</span><span class="os-divider">. </span><div class="os-problem-container">
+<p id="fs-idm279414832">For each of the following pairs of reaction diagrams, identify which of the pair is catalyzed:</p>
+<p id="fs-idm3297152">(a)<span data-type="newline"><br/></span>
+</p><span data-alt="In this figure, two graphs are shown. The x-axes are labeled, “Extent of reaction,” and the y-axes are labeled, “Energy (k J).” The y-axis of the first graph is marked off from 0 to 30 in intervals of 5. The y-axis of the second graph is marked off from 0 to 25 by intervals of 5. In a, a blue curve is shown. It begins with a horizontal region at about 12. The curve then rises sharply near the middle to reach a maximum of about 24 and similarly falls to another horizontal segment at 5. In b, the curve begins and ends similarly, but the maximum reached near the center of the graph is only 20." data-type="media" id="fs-idm228138944">
+<img alt="In this figure, two graphs are shown. The x-axes are labeled, “Extent of reaction,” and the y-axes are labeled, “Energy (k J).” The y-axis of the first graph is marked off from 0 to 30 in intervals of 5. The y-axis of the second graph is marked off from 0 to 25 by intervals of 5. In a, a blue curve is shown. It begins with a horizontal region at about 12. The curve then rises sharply near the middle to reach a maximum of about 24 and similarly falls to another horizontal segment at 5. In b, the curve begins and ends similarly, but the maximum reached near the center of the graph is only 20." data-media-type="image/jpeg" id="[redacted for uniqueness]" src="/resources/411f2c25f015973c89d7bb5059f94ad61fa64484"/>
+</span>
+<p id="fs-idm188080944">(b)<span data-type="newline"><br/></span>
+</p><span data-alt="In this figure, two graphs are shown. The x-axes are labeled, “Extent of reaction,” and the y-axes are labeled, “Energy.” The y-axes are marked off from 0 to 50 in intervals of 5. In a, a blue curve is shown. It begins with a horizontal region at about 2. The curve then rises sharply near the middle to reach a maximum of about 43 and similarly falls to another horizontal segment at 15. In b, the curve begins and ends similarly, but the maximum reached near the center of the graph is only about 32." data-type="media" id="fs-idm190586416">
+<img alt="In this figure, two graphs are shown. The x-axes are labeled, “Extent of reaction,” and the y-axes are labeled, “Energy.” The y-axes are marked off from 0 to 50 in intervals of 5. In a, a blue curve is shown. It begins with a horizontal region at about 2. The curve then rises sharply near the middle to reach a maximum of about 43 and similarly falls to another horizontal segment at 15. In b, the curve begins and ends similarly, but the maximum reached near the center of the graph is only about 32." data-media-type="image/jpeg" id="[redacted for uniqueness]" src="/resources/59bc8b937189697082d556dd1cf0c1a20143295a"/>
+</span>
+</div></div>
+</div>
+<div class=" os-hasSolution " data-type="exercise" id="fs-idm219276192">
+<div data-type="problem" id="fs-idm152746480"><a class="os-number" href="chapter-12#fs-idm219276192-solution">80</a><span class="os-divider">. </span><div class="os-problem-container">
+<p id="fs-idm178760704">For each of the following pairs of reaction diagrams, identify which of the pairs is catalyzed:</p>
+<p id="fs-idm338845344">(a)<span data-type="newline"><br/></span>
+</p><span data-alt="In this figure, two graphs are shown. The x-axes are labeled, “Extent of reaction” and the y-axes are labeled, “Energy (k J).” The y-axes are marked off from 0 to 50 at intervals of 5. In a, a blue curve is shown. It begins with a horizontal segment at about 2J. The curve then rises sharply near the middle to reach a maximum of about 46, then sharply falls to about 35, again rises to about 38 and falls to another horizontal segment at about 15. In b, the curve begins and ends similarly, but the first peak reaches about 46, drops to about 35, then rises to about 43 before falling to the horizontal region at about 15." data-type="media" id="fs-idm241665200">
+<img alt="In this figure, two graphs are shown. The x-axes are labeled, “Extent of reaction” and the y-axes are labeled, “Energy (k J).” The y-axes are marked off from 0 to 50 at intervals of 5. In a, a blue curve is shown. It begins with a horizontal segment at about 2J. The curve then rises sharply near the middle to reach a maximum of about 46, then sharply falls to about 35, again rises to about 38 and falls to another horizontal segment at about 15. In b, the curve begins and ends similarly, but the first peak reaches about 46, drops to about 35, then rises to about 43 before falling to the horizontal region at about 15." data-media-type="image/jpeg" id="[redacted for uniqueness]" src="/resources/fb4a150fa0bb4a3757d9366770d16003863a9224"/>
+</span>
+<p id="fs-idm210073232">(b)<span data-type="newline"><br/></span>
+</p><span data-alt="In this figure, two graphs are shown. The x-axes are labeled, “Extent of reaction,” and the y-axes are labeled, “Energy (k J).” The y-axes are marked off from 0 to 50 at intervals of 5. In a, a blue curve is shown. It begins with a horizontal segment at about 34. The curve then rises sharply near the middle to reach a maximum of about 45, then sharply falls to about 25, again rises sharply to about 35 and falls to another horizontal segment at about 15. In b, the curve begins and ends similarly, but the first peak reaches about 40, drops to 25, then rises to 35 before falling to the horizontal region at about 15." data-type="media" id="fs-idm274120656">
+<img alt="In this figure, two graphs are shown. The x-axes are labeled, “Extent of reaction,” and the y-axes are labeled, “Energy (k J).” The y-axes are marked off from 0 to 50 at intervals of 5. In a, a blue curve is shown. It begins with a horizontal segment at about 34. The curve then rises sharply near the middle to reach a maximum of about 45, then sharply falls to about 25, again rises sharply to about 35 and falls to another horizontal segment at about 15. In b, the curve begins and ends similarly, but the first peak reaches about 40, drops to 25, then rises to 35 before falling to the horizontal region at about 15." data-media-type="image/jpeg" id="[redacted for uniqueness]" src="/resources/05377a1b15b163ebc6cdeac2df3807d8591b3624"/>
+</span>
+</div></div>
+
+</div>
+<div class=" " data-type="exercise" id="fs-idm260004768">
+<div data-type="problem" id="fs-idm224432608"><span class="os-number">81</span><span class="os-divider">. </span><div class="os-problem-container">
+<p id="fs-idm245642464">For each of the following reaction diagrams, estimate the activation energy (<em data-effect="italics">E</em><sub>a</sub>) of the reaction:</p>
+<p id="fs-idm211017072">(a)<span data-type="newline"><br/></span>
+</p><span class="scaled-down" data-alt="This figure shows a graph. The x-axis is labeled, “Extent of reaction,” and the y-axis is labeled, “Energy (k J).” The y-axis is marked off from 0 to 40 at intervals of 5. A blue curve is shown. It begins with a horizontal region at 10. The curve then rises sharply near the middle to reach a maximum of 35 and similarly falls to another horizontal segment at 5." data-type="media" id="fs-idm271936272">
+<img alt="This figure shows a graph. The x-axis is labeled, “Extent of reaction,” and the y-axis is labeled, “Energy (k J).” The y-axis is marked off from 0 to 40 at intervals of 5. A blue curve is shown. It begins with a horizontal region at 10. The curve then rises sharply near the middle to reach a maximum of 35 and similarly falls to another horizontal segment at 5." data-media-type="image/jpeg" id="[redacted for uniqueness]" src="/resources/ff9b354e8cbc71388e650e1a235ddd5155e22a30"/>
+</span>
+<p id="fs-idm220847584">(b)<span data-type="newline"><br/></span>
+</p><span class="scaled-down" data-alt="This figure shows a graph. The x-axis is labeled, “Extent of reaction,” and the y-axis is labeled, “Energy (k J).” The y-axis is marked off from 0 to 40 at intervals of 5. A blue curve is shown. It begins with a horizontal region at 10. The curve then rises sharply near the middle to reach a maximum of 20 and similarly falls to another horizontal segment at 5." data-type="media" id="fs-idm239333712">
+<img alt="This figure shows a graph. The x-axis is labeled, “Extent of reaction,” and the y-axis is labeled, “Energy (k J).” The y-axis is marked off from 0 to 40 at intervals of 5. A blue curve is shown. It begins with a horizontal region at 10. The curve then rises sharply near the middle to reach a maximum of 20 and similarly falls to another horizontal segment at 5." data-media-type="image/jpeg" id="[redacted for uniqueness]" src="/resources/78e1db8ef492847c1f703f29c8396a87288faae3"/>
+</span>
+</div></div>
+</div>
+<div class=" os-hasSolution " data-type="exercise" id="fs-idm218836096">
+<div data-type="problem" id="fs-idm224927248"><a class="os-number" href="chapter-12#fs-idm218836096-solution">82</a><span class="os-divider">. </span><div class="os-problem-container">
+<p id="fs-idm159516400">For each of the following reaction diagrams, estimate the activation energy (<em data-effect="italics">E</em><sub>a</sub>) of the reaction:</p>
+<p id="fs-idm197289104">(a)<span data-type="newline"><br/></span>
+</p><span class="scaled-down" data-alt="In this figure, a graph is shown. The x-axis is labeled, “Extent of reaction,” and the y-axis is labeled, “Energy (k J).” A blue curve is shown. It begins with a horizontal segment at about 35. The curve then rises sharply near the middle to reach a maximum of about 45, then sharply falls to about 24, again rises to about 30 and falls to another horizontal segment at about 15." data-type="media" id="fs-idm235765824">
+<img alt="In this figure, a graph is shown. The x-axis is labeled, “Extent of reaction,” and the y-axis is labeled, “Energy (k J).” A blue curve is shown. It begins with a horizontal segment at about 35. The curve then rises sharply near the middle to reach a maximum of about 45, then sharply falls to about 24, again rises to about 30 and falls to another horizontal segment at about 15." data-media-type="image/jpeg" id="[redacted for uniqueness]" src="/resources/4ba5082cb1435afac7eb7fd5230f54952b3e7dab"/>
+</span><p id="fs-idm290032736">(b)<span data-type="newline"><br/></span>
+</p><span class="scaled-down" data-alt="In this figure, a graph is shown. The x-axis is labeled, “Extent of reaction,” and the y-axis is labeled, “Energy (k J).” A blue curve is shown. It begins with a horizontal segment at about 35. The curve then rises sharply near the middle to reach a maximum of about 45, then sharply falls to about 40, again rises to about 45 and falls to another horizontal segment at about 20." data-type="media" id="fs-idm266488640">
+<img alt="In this figure, a graph is shown. The x-axis is labeled, “Extent of reaction,” and the y-axis is labeled, “Energy (k J).” A blue curve is shown. It begins with a horizontal segment at about 35. The curve then rises sharply near the middle to reach a maximum of about 45, then sharply falls to about 40, again rises to about 45 and falls to another horizontal segment at about 20." data-media-type="image/jpeg" id="[redacted for uniqueness]" src="/resources/85a94c6488b08bfc37fa9c1a6d2f769d69b04671"/>
+</span></div></div>
+
+</div>
+<div class=" " data-type="exercise" id="fs-idm189363504">
+<div data-type="problem" id="fs-idm152738576"><span class="os-number">83</span><span class="os-divider">. </span><div class="os-problem-container">
+<p id="fs-idm252327824">Assuming the diagrams in <a class="autogenerated-content" href="#fs-idm260004768">Exercise 12.81</a> represent different mechanisms for the same reaction, which of the reactions has the faster rate?</p></div></div>
+</div>
+<div class=" os-hasSolution " data-type="exercise" id="fs-idm225889216">
+<div data-type="problem" id="fs-idm209352752"><a class="os-number" href="chapter-12#fs-idm225889216-solution">84</a><span class="os-divider">. </span><div class="os-problem-container">
+<p id="fs-idm286704000">Consider the similarities and differences in the two reaction diagrams shown in <a class="autogenerated-content" href="#fs-idm218836096">Exercise 12.82</a>. Do these diagrams represent two different overall reactions, or do they represent the same overall reaction taking place by two different mechanisms? Explain your answer.</p></div></div>
+
+</div>
+</section></div></div>

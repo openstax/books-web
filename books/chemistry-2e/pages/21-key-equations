@@ -1,0 +1,15 @@
+<div class="os-eoc os-key-equations-container" data-type="composite-page" data-uuid-key=".key-equations"><section class="key-equations" data-depth="1" id="fs-idp28539744">
+<ul data-bullet-style="bullet" id="fs-idp120038128">
+<li><em data-effect="italics">E</em> = <em data-effect="italics">mc</em><sup>2</sup></li>
+</ul>
+</section><section class="key-equations" data-depth="1" id="fs-idm2719024">
+<ul data-bullet-style="bullet" id="fs-idp39927040">
+<li>decay rate = <em data-effect="italics">λN</em></li>
+<li><math display="inline"><semantics><mrow><mrow><msub><mi>t</mi><mrow><mn>1</mn><mtext>/</mtext><mn>2</mn></mrow></msub><mspace width="0.2em"/><mo>=</mo><mspace width="0.2em"/><mfrac><mrow><mtext>ln 2</mtext></mrow><mi>λ</mi></mfrac><mspace width="0.2em"/><mo>=</mo><mspace width="0.2em"/><mfrac><mrow><mn>0.693</mn></mrow><mi>λ</mi></mfrac><mspace width="0.2em"/></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><msub><mi>t</mi><mrow><mn>1</mn><mtext>/</mtext><mn>2</mn></mrow></msub><mspace width="0.2em"/><mo>=</mo><mspace width="0.2em"/><mfrac><mrow><mtext>ln 2</mtext></mrow><mi>λ</mi></mfrac><mspace width="0.2em"/><mo>=</mo><mspace width="0.2em"/><mfrac><mrow><mn>0.693</mn></mrow><mi>λ</mi></mfrac><mspace width="0.2em"/></mrow></annotation-xml></semantics></math></li>
+</ul>
+</section><section class="key-equations" data-depth="1" id="fs-idp6038480">
+<ul data-bullet-style="bullet" id="fs-idp110781424">
+<li>rem = RBE <math display="inline"><semantics><mrow><mo>×</mo></mrow><annotation-xml encoding="MathML-Content"><mo>×</mo></annotation-xml></semantics></math> rad</li>
+<li>Sv = RBE <math display="inline"><semantics><mrow><mo>×</mo></mrow><annotation-xml encoding="MathML-Content"><mo>×</mo></annotation-xml></semantics></math> Gy</li>
+</ul>
+</section></div></div>

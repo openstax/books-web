@@ -1,0 +1,2397 @@
+<div class="appendix" data-cnxml-to-html-ver="[redacted for uniqueness]" data-type="page" id="667adccf-f900-4d86-a13d-409c014086ea">
+
+<div class="os-table" id="fs-idp78188768"><table class="span-all" data-id="fs-idp78188768" summary="Table G1  "><thead>
+<tr valign="middle">
+<th colspan="4">Standard Thermodynamic Properties for Selected Substances</th>
+</tr>
+<tr valign="middle">
+<th data-align="left">Substance</th>
+<th data-align="left"><math display="inline"><semantics><mrow><mrow><mtext>Δ</mtext><msubsup><mi>H</mi><mn>f</mn><mo>°</mo></msubsup></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><mtext>Δ</mtext><msubsup><mi>H</mi><mn>f</mn><mo>°</mo></msubsup></mrow></annotation-xml></semantics></math> (kJ mol<sup>–</sup>)</th>
+<th data-align="left"><math display="inline"><semantics><mrow><mrow><mtext>Δ</mtext><msubsup><mi>G</mi><mn>f</mn><mo>°</mo></msubsup></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><mtext>Δ</mtext><msubsup><mi>G</mi><mn>f</mn><mo>°</mo></msubsup></mrow></annotation-xml></semantics></math> (kJ mol<sup>–1</sup>)</th>
+<th data-align="left"><math display="inline"><semantics><mrow><mrow><mi>S</mi><mtext>°</mtext></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><mi>S</mi><mtext>°</mtext></mrow></annotation-xml></semantics></math> (J K<sup>–1</sup> mol<sup>–1</sup>)</th>
+</tr>
+</thead><tbody>
+<tr valign="middle">
+<td colspan="4" data-align="left">aluminum</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">Al(<em data-effect="italics">s</em>)</td>
+<td data-align="left">0</td>
+<td data-align="left">0</td>
+<td data-align="left">28.3</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">Al(<em data-effect="italics">g</em>)</td>
+<td data-align="left">324.4</td>
+<td data-align="left">285.7</td>
+<td data-align="left">164.54</td>
+</tr>
+
+<tr valign="middle">
+<td data-align="left">Al<sup>3+</sup>(<em data-effect="italics">aq</em>)</td>
+<td data-align="left">–531</td>
+<td data-align="left">–485</td>
+<td data-align="left">–321.7</td>
+</tr>
+
+<tr valign="middle">
+<td data-align="left">Al<sub>2</sub>O<sub>3</sub>(<em data-effect="italics">s</em>)</td>
+<td data-align="left">–1676</td>
+<td data-align="left">–1582</td>
+<td data-align="left">50.92</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">AlF<sub>3</sub>(<em data-effect="italics">s</em>)</td>
+<td data-align="left">–1510.4</td>
+<td data-align="left">–1425</td>
+<td data-align="left">66.5</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">AlCl<sub>3</sub>(<em data-effect="italics">s</em>)</td>
+<td data-align="left">–704.2</td>
+<td data-align="left">–628.8</td>
+<td data-align="left">110.67</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">AlCl<sub>3</sub>·6H<sub>2</sub>O(<em data-effect="italics">s</em>)</td>
+<td data-align="left">–2691.57</td>
+<td data-align="left">–2269.40</td>
+<td data-align="left">376.56</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">Al<sub>2</sub>S<sub>3</sub>(<em data-effect="italics">s</em>)</td>
+<td data-align="left">–724.0</td>
+<td data-align="left">–492.4</td>
+<td data-align="left">116.9</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">Al<sub>2</sub>(SO<sub>4</sub>)<sub>3</sub>(<em data-effect="italics">s</em>)</td>
+<td data-align="left">–3445.06</td>
+<td data-align="left">–3506.61</td>
+<td data-align="left">239.32</td>
+</tr>
+<tr valign="middle">
+<td colspan="4" data-align="left">antimony</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">Sb(<em data-effect="italics">s</em>)</td>
+<td data-align="left">0</td>
+<td data-align="left">0</td>
+<td data-align="left">45.69</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">Sb(<em data-effect="italics">g</em>)</td>
+<td data-align="left">262.34</td>
+<td data-align="left">222.17</td>
+<td data-align="left">180.16</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">Sb<sub>4</sub>O<sub>6</sub>(<em data-effect="italics">s</em>)</td>
+<td data-align="left">–1440.55</td>
+<td data-align="left">–1268.17</td>
+<td data-align="left">220.92</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">SbCl<sub>3</sub>(<em data-effect="italics">g</em>)</td>
+<td data-align="left">–313.8</td>
+<td data-align="left">–301.2</td>
+<td data-align="left">337.80</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">SbCl<sub>5</sub>(<em data-effect="italics">g</em>)</td>
+<td data-align="left">–394.34</td>
+<td data-align="left">–334.29</td>
+<td data-align="left">401.94</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">Sb<sub>2</sub>S<sub>3</sub>(s)</td>
+<td data-align="left">–174.89</td>
+<td data-align="left">–173.64</td>
+<td data-align="left">182.00</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">SbCl<sub>3</sub>(s)</td>
+<td data-align="left">–382.17</td>
+<td data-align="left">–323.72</td>
+<td data-align="left">184.10</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">SbOCl(s)</td>
+<td data-align="left">–374.0</td>
+<td data-align="left">—</td>
+<td data-align="left">—</td>
+</tr>
+<tr valign="middle">
+<td colspan="4" data-align="left">arsenic</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">As(<em data-effect="italics">s</em>)</td>
+<td data-align="left">0</td>
+<td data-align="left">0</td>
+<td data-align="left">35.1</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">As(<em data-effect="italics">g</em>)</td>
+<td data-align="left">302.5</td>
+<td data-align="left">261.0</td>
+<td data-align="left">174.21</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">As<sub>4</sub>(<em data-effect="italics">g</em>)</td>
+<td data-align="left">143.9</td>
+<td data-align="left">92.4</td>
+<td data-align="left">314</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">As<sub>4</sub>O<sub>6</sub>(<em data-effect="italics">s</em>)</td>
+<td data-align="left">–1313.94</td>
+<td data-align="left">–1152.52</td>
+<td data-align="left">214.22</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">As<sub>2</sub>O<sub>5</sub>(<em data-effect="italics">s</em>)</td>
+<td data-align="left">–924.87</td>
+<td data-align="left">–782.41</td>
+<td data-align="left">105.44</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">AsCl<sub>3</sub>(<em data-effect="italics">g</em>)</td>
+<td data-align="left">–261.50</td>
+<td data-align="left">–248.95</td>
+<td data-align="left">327.06</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">As<sub>2</sub>S<sub>3</sub>(<em data-effect="italics">s</em>)</td>
+<td data-align="left">–169.03</td>
+<td data-align="left">–168.62</td>
+<td data-align="left">163.59</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">AsH<sub>3</sub>(<em data-effect="italics">g</em>)</td>
+<td data-align="left">66.44</td>
+<td data-align="left">68.93</td>
+<td data-align="left">222.78</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">H<sub>3</sub>AsO<sub>4</sub>(<em data-effect="italics">s</em>)</td>
+<td data-align="left">–906.3</td>
+<td data-align="left">—</td>
+<td data-align="left">—</td>
+</tr>
+<tr valign="middle">
+<td colspan="4" data-align="left">barium</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">Ba(<em data-effect="italics">s</em>)</td>
+<td data-align="left">0</td>
+<td data-align="left">0</td>
+<td data-align="left">62.5</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">Ba(<em data-effect="italics">g</em>)</td>
+<td data-align="left">180</td>
+<td data-align="left">146</td>
+<td data-align="left">170.24</td>
+</tr>
+
+<tr valign="middle">
+<td data-align="left">Ba<sup>2+</sup>(<em data-effect="italics">aq</em>)</td>
+<td data-align="left">–537.6</td>
+<td data-align="left">–560.8</td>
+<td data-align="left">9.6</td>
+</tr>
+
+<tr valign="middle">
+<td data-align="left">BaO(<em data-effect="italics">s</em>)</td>
+<td data-align="left">–548.0</td>
+<td data-align="left">–520.3</td>
+<td data-align="left">72.1</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">BaCl<sub>2</sub>(<em data-effect="italics">s</em>)</td>
+<td data-align="left">–855.0</td>
+<td data-align="left">–806.7</td>
+<td data-align="left">123.7</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">BaSO<sub>4</sub>(<em data-effect="italics">s</em>)</td>
+<td data-align="left">–1473.2</td>
+<td data-align="left">–1362.3</td>
+<td data-align="left">132.2</td>
+</tr>
+<tr valign="middle">
+<td colspan="4" data-align="left">beryllium</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">Be(<em data-effect="italics">s</em>)</td>
+<td data-align="left">0</td>
+<td data-align="left">0</td>
+<td data-align="left">9.50</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">Be(<em data-effect="italics">g</em>)</td>
+<td data-align="left">324.3</td>
+<td data-align="left">286.6</td>
+<td data-align="left">136.27</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">BeO(<em data-effect="italics">s</em>)</td>
+<td data-align="left">–609.4</td>
+<td data-align="left">–580.1</td>
+<td data-align="left">13.8</td>
+</tr>
+<tr valign="middle">
+<td colspan="4" data-align="left">bismuth</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">Bi(<em data-effect="italics">s</em>)</td>
+<td data-align="left">0</td>
+<td data-align="left">0</td>
+<td data-align="left">56.74</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">Bi(<em data-effect="italics">g</em>)</td>
+<td data-align="left">207.1</td>
+<td data-align="left">168.2</td>
+<td data-align="left">187.00</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">Bi<sub>2</sub>O<sub>3</sub>(<em data-effect="italics">s</em>)</td>
+<td data-align="left">–573.88</td>
+<td data-align="left">–493.7</td>
+<td data-align="left">151.5</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">BiCl<sub>3</sub>(<em data-effect="italics">s</em>)</td>
+<td data-align="left">–379.07</td>
+<td data-align="left">–315.06</td>
+<td data-align="left">176.98</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">Bi<sub>2</sub>S<sub>3</sub>(<em data-effect="italics">s</em>)</td>
+<td data-align="left">–143.1</td>
+<td data-align="left">–140.6</td>
+<td data-align="left">200.4</td>
+</tr>
+<tr valign="middle">
+<td colspan="4" data-align="left">boron</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">B(<em data-effect="italics">s</em>)</td>
+<td data-align="left">0</td>
+<td data-align="left">0</td>
+<td data-align="left">5.86</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">B(<em data-effect="italics">g</em>)</td>
+<td data-align="left">565.0</td>
+<td data-align="left">521.0</td>
+<td data-align="left">153.4</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">B<sub>2</sub>O<sub>3</sub>(<em data-effect="italics">s</em>)</td>
+<td data-align="left">–1273.5</td>
+<td data-align="left">–1194.3</td>
+<td data-align="left">53.97</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">B<sub>2</sub>H<sub>6</sub>(<em data-effect="italics">g</em>)</td>
+<td data-align="left">36.4</td>
+<td data-align="left">87.6</td>
+<td data-align="left">232.1</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">H<sub>3</sub>BO<sub>3</sub>(<em data-effect="italics">s</em>)</td>
+<td data-align="left">–1094.33</td>
+<td data-align="left">–968.92</td>
+<td data-align="left">88.83</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">BF<sub>3</sub>(<em data-effect="italics">g</em>)</td>
+<td data-align="left">–1136.0</td>
+<td data-align="left">–1119.4</td>
+<td data-align="left">254.4</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">BCl<sub>3</sub>(<em data-effect="italics">g</em>)</td>
+<td data-align="left">–403.8</td>
+<td data-align="left">–388.7</td>
+<td data-align="left">290.1</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">B<sub>3</sub>N<sub>3</sub>H<sub>6</sub>(<em data-effect="italics">l</em>)</td>
+<td data-align="left">–540.99</td>
+<td data-align="left">–392.79</td>
+<td data-align="left">199.58</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">HBO<sub>2</sub>(<em data-effect="italics">s</em>)</td>
+<td data-align="left">–794.25</td>
+<td data-align="left">–723.41</td>
+<td data-align="left">37.66</td>
+</tr>
+<tr valign="middle">
+<td colspan="4" data-align="left">bromine</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">Br<sub>2</sub>(<em data-effect="italics">l</em>)</td>
+<td data-align="left">0</td>
+<td data-align="left">0</td>
+<td data-align="left">152.23</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">Br<sub>2</sub>(<em data-effect="italics">g</em>)</td>
+<td data-align="left">30.91</td>
+<td data-align="left">3.142</td>
+<td data-align="left">245.5</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">Br(<em data-effect="italics">g</em>)</td>
+<td data-align="left">111.88</td>
+<td data-align="left">82.429</td>
+<td data-align="left">175.0</td>
+</tr>
+
+<tr valign="middle">
+<td data-align="left">Br<sup>–</sup>(<em data-effect="italics">aq</em>)</td>
+<td data-align="left">–120.9</td>
+<td data-align="left">–102.82</td>
+<td data-align="left">80.71</td>
+</tr>
+
+<tr valign="middle">
+<td data-align="left">BrF<sub>3</sub>(<em data-effect="italics">g</em>)</td>
+<td data-align="left">–255.60</td>
+<td data-align="left">–229.45</td>
+<td data-align="left">292.42</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">HBr(<em data-effect="italics">g</em>)</td>
+<td data-align="left">–36.3</td>
+<td data-align="left">–53.43</td>
+<td data-align="left">198.7</td>
+</tr>
+<tr valign="middle">
+<td colspan="4" data-align="left">cadmium</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">Cd(<em data-effect="italics">s</em>)</td>
+<td data-align="left">0</td>
+<td data-align="left">0</td>
+<td data-align="left">51.76</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">Cd(<em data-effect="italics">g</em>)</td>
+<td data-align="left">112.01</td>
+<td data-align="left">77.41</td>
+<td data-align="left">167.75</td>
+</tr>
+
+<tr valign="middle">
+<td data-align="left">Cd<sup>2+</sup>(<em data-effect="italics">aq</em>)</td>
+<td data-align="left">–75.90</td>
+<td data-align="left">–77.61</td>
+<td data-align="left">–73.2</td>
+</tr>
+
+<tr valign="middle">
+<td data-align="left">CdO(<em data-effect="italics">s</em>)</td>
+<td data-align="left">–258.2</td>
+<td data-align="left">–228.4</td>
+<td data-align="left">54.8</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">CdCl<sub>2</sub>(<em data-effect="italics">s</em>)</td>
+<td data-align="left">–391.5</td>
+<td data-align="left">–343.9</td>
+<td data-align="left">115.3</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">CdSO<sub>4</sub>(<em data-effect="italics">s</em>)</td>
+<td data-align="left">–933.3</td>
+<td data-align="left">–822.7</td>
+<td data-align="left">123.0</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">CdS(<em data-effect="italics">s</em>)</td>
+<td data-align="left">–161.9</td>
+<td data-align="left">–156.5</td>
+<td data-align="left">64.9</td>
+</tr>
+<tr valign="middle">
+<td colspan="4" data-align="left">calcium</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">Ca(<em data-effect="italics">s</em>)</td>
+<td data-align="left">0</td>
+<td data-align="left">0</td>
+<td data-align="left">41.6</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">Ca(<em data-effect="italics">g</em>)</td>
+<td data-align="left">178.2</td>
+<td data-align="left">144.3</td>
+<td data-align="left">154.88</td>
+</tr>
+
+<tr valign="middle">
+<td data-align="left">Ca<sup>2+</sup>(<em data-effect="italics">aq</em>)</td>
+<td data-align="left">–542.96</td>
+<td data-align="left">–553.04</td>
+<td data-align="left">–55.2</td>
+</tr>
+
+<tr valign="middle">
+<td data-align="left">CaO(<em data-effect="italics">s</em>)</td>
+<td data-align="left">–634.9</td>
+<td data-align="left">–603.3</td>
+<td data-align="left">38.1</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">Ca(OH)<sub>2</sub>(<em data-effect="italics">s</em>)</td>
+<td data-align="left">–985.2</td>
+<td data-align="left">–897.5</td>
+<td data-align="left">83.4</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">CaSO<sub>4</sub>(s)</td>
+<td data-align="left">–1434.5</td>
+<td data-align="left">–1322.0</td>
+<td data-align="left">106.5</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">CaSO<sub>4</sub>·2H<sub>2</sub>O(<em data-effect="italics">s</em>)</td>
+<td data-align="left">–2022.63</td>
+<td data-align="left">–1797.45</td>
+<td data-align="left">194.14</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">CaCO<sub>3</sub>(<em data-effect="italics">s</em>) (calcite)</td>
+<td data-align="left">–1220.0</td>
+<td data-align="left">–1081.4</td>
+<td data-align="left">110.0</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">CaSO<sub>3</sub>·H<sub>2</sub>O(<em data-effect="italics">s</em>)</td>
+<td data-align="left">–1752.68</td>
+<td data-align="left">–1555.19</td>
+<td data-align="left">184.10</td>
+</tr>
+<tr valign="middle">
+<td colspan="4" data-align="left">carbon</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">C(<em data-effect="italics">s</em>) (graphite)</td>
+<td data-align="left">0</td>
+<td data-align="left">0</td>
+<td data-align="left">5.740</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">C(<em data-effect="italics">s</em>) (diamond)</td>
+<td data-align="left">1.89</td>
+<td data-align="left">2.90</td>
+<td data-align="left">2.38</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">C(<em data-effect="italics">g</em>)</td>
+<td data-align="left">716.681</td>
+<td data-align="left">671.2</td>
+<td data-align="left">158.1</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">CO(<em data-effect="italics">g</em>)</td>
+<td data-align="left">–110.52</td>
+<td data-align="left">–137.15</td>
+<td data-align="left">197.7</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">CO<sub>2</sub>(<em data-effect="italics">g</em>)</td>
+<td data-align="left">–393.51</td>
+<td data-align="left">–394.36</td>
+<td data-align="left">213.8</td>
+</tr>
+
+<tr valign="middle">
+<td data-align="left">CO<sub>3</sub> <sup>2–</sup>(<em data-effect="italics">aq</em>)</td>
+<td data-align="left">–677.1</td>
+<td data-align="left">–527.8</td>
+<td data-align="left">–56.9</td>
+</tr>
+
+<tr valign="middle">
+<td data-align="left">CH<sub>4</sub>(<em data-effect="italics">g</em>)</td>
+<td data-align="left">–74.6</td>
+<td data-align="left">–50.5</td>
+<td data-align="left">186.3</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">CH<sub>3</sub>OH(<em data-effect="italics">l</em>)</td>
+<td data-align="left">–239.2</td>
+<td data-align="left">–166.6</td>
+<td data-align="left">126.8</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">CH<sub>3</sub>OH(<em data-effect="italics">g</em>)</td>
+<td data-align="left">–201.0</td>
+<td data-align="left">–162.3</td>
+<td data-align="left">239.9</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">CCl<sub>4</sub>(<em data-effect="italics">l</em>)</td>
+<td data-align="left">–128.2</td>
+<td data-align="left">–62.5</td>
+<td data-align="left">214.4</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">CCl<sub>4</sub>(<em data-effect="italics">g</em>)</td>
+<td data-align="left">–95.7</td>
+<td data-align="left">–58.2</td>
+<td data-align="left">309.7</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">CHCl<sub>3</sub>(<em data-effect="italics">l</em>)</td>
+<td data-align="left">–134.1</td>
+<td data-align="left">–73.7</td>
+<td data-align="left">201.7</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">CHCl<sub>3</sub>(<em data-effect="italics">g</em>)</td>
+<td data-align="left">–103.14</td>
+<td data-align="left">–70.34</td>
+<td data-align="left">295.71</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">CS<sub>2</sub>(<em data-effect="italics">l</em>)</td>
+<td data-align="left">89.70</td>
+<td data-align="left">65.27</td>
+<td data-align="left">151.34</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">CS<sub>2</sub>(<em data-effect="italics">g</em>)</td>
+<td data-align="left">116.9</td>
+<td data-align="left">66.8</td>
+<td data-align="left">238.0</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">C<sub>2</sub>H<sub>2</sub>(<em data-effect="italics">g</em>)</td>
+<td data-align="left">227.4</td>
+<td data-align="left">209.2</td>
+<td data-align="left">200.9</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">C<sub>2</sub>H<sub>4</sub>(<em data-effect="italics">g</em>)</td>
+<td data-align="left">52.4</td>
+<td data-align="left">68.4</td>
+<td data-align="left">219.3</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">C<sub>2</sub>H<sub>6</sub>(<em data-effect="italics">g</em>)</td>
+<td data-align="left">–84.0</td>
+<td data-align="left">–32.0</td>
+<td data-align="left">229.2</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">CH<sub>3</sub>CO<sub>2</sub>H(<em data-effect="italics">l</em>)</td>
+<td data-align="left">–484.3</td>
+<td data-align="left">–389.9</td>
+<td data-align="left">159.8</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">CH<sub>3</sub>CO<sub>2</sub>H(<em data-effect="italics">g</em>)</td>
+<td data-align="left">–434.84</td>
+<td data-align="left">–376.69</td>
+<td data-align="left">282.50</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">C<sub>2</sub>H<sub>5</sub>OH(<em data-effect="italics">l</em>)</td>
+<td data-align="left">–277.6</td>
+<td data-align="left">–174.8</td>
+<td data-align="left">160.7</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">C<sub>2</sub>H<sub>5</sub>OH(<em data-effect="italics">g</em>)</td>
+<td data-align="left">–234.8</td>
+<td data-align="left">–167.9</td>
+<td data-align="left">281.6</td>
+</tr>
+
+<tr valign="middle">
+<td data-align="left">HCO<sub>3</sub> <sup>–</sup>(<em data-effect="italics">aq</em>)</td>
+<td data-align="left">–691.11</td>
+<td data-align="left">–587.06</td>
+<td data-align="left">95</td>
+</tr>
+
+<tr valign="middle">
+<td data-align="left">C<sub>3</sub>H<sub>8</sub>(<em data-effect="italics">g</em>)</td>
+<td data-align="left">–103.8</td>
+<td data-align="left">–23.4</td>
+<td data-align="left">270.3</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">C<sub>6</sub>H<sub>6</sub>(<em data-effect="italics">g</em>)</td>
+<td data-align="left">82.927</td>
+<td data-align="left">129.66</td>
+<td data-align="left">269.2</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">C<sub>6</sub>H<sub>6</sub>(<em data-effect="italics">l</em>)</td>
+<td data-align="left">49.1</td>
+<td data-align="left">124.50</td>
+<td data-align="left">173.4</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">CH<sub>2</sub>Cl<sub>2</sub>(<em data-effect="italics">l</em>)</td>
+<td data-align="left">–124.2</td>
+<td data-align="left">–63.2</td>
+<td data-align="left">177.8</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">CH<sub>2</sub>Cl<sub>2</sub>(<em data-effect="italics">g</em>)</td>
+<td data-align="left">–95.4</td>
+<td data-align="left">–65.90</td>
+<td data-align="left">270.2</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">CH<sub>3</sub>Cl(<em data-effect="italics">g</em>)</td>
+<td data-align="left">–81.9</td>
+<td data-align="left">–60.2</td>
+<td data-align="left">234.6</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">C<sub>2</sub>H<sub>5</sub>Cl(<em data-effect="italics">l</em>)</td>
+<td data-align="left">–136.52</td>
+<td data-align="left">–59.31</td>
+<td data-align="left">190.79</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">C<sub>2</sub>H<sub>5</sub>Cl(<em data-effect="italics">g</em>)</td>
+<td data-align="left">–112.17</td>
+<td data-align="left">–60.39</td>
+<td data-align="left">276.00</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">C<sub>2</sub>N<sub>2</sub>(<em data-effect="italics">g</em>)</td>
+<td data-align="left">308.98</td>
+<td data-align="left">297.36</td>
+<td data-align="left">241.90</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">HCN(<em data-effect="italics">l</em>)</td>
+<td data-align="left">108.9</td>
+<td data-align="left">125.0</td>
+<td data-align="left">112.8</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">HCN(<em data-effect="italics">g</em>)</td>
+<td data-align="left">135.5</td>
+<td data-align="left">124.7</td>
+<td data-align="left">201.8</td>
+
+</tr>
+<tr valign="middle">
+<td colspan="4" data-align="left">cesium</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">Cs<sup>+</sup>(<em data-effect="italics">aq</em>)</td>
+<td data-align="left">–248</td>
+<td data-align="left">–282.0</td>
+<td data-align="left">133</td>
+
+</tr>
+<tr valign="middle">
+<td colspan="4" data-align="left">chlorine</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">Cl<sub>2</sub>(<em data-effect="italics">g</em>)</td>
+<td data-align="left">0</td>
+<td data-align="left">0</td>
+<td data-align="left">223.1</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">Cl(<em data-effect="italics">g</em>)</td>
+<td data-align="left">121.3</td>
+<td data-align="left">105.70</td>
+<td data-align="left">165.2</td>
+</tr>
+
+<tr valign="middle">
+<td data-align="left">Cl<sup>–</sup>(<em data-effect="italics">aq</em>)</td>
+<td data-align="left">–167.2</td>
+<td data-align="left">–131.2</td>
+<td data-align="left">56.5</td>
+</tr>
+
+<tr valign="middle">
+<td data-align="left">ClF(<em data-effect="italics">g</em>)</td>
+<td data-align="left">–54.48</td>
+<td data-align="left">–55.94</td>
+<td data-align="left">217.78</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">ClF<sub>3</sub>(<em data-effect="italics">g</em>)</td>
+<td data-align="left">–158.99</td>
+<td data-align="left">–118.83</td>
+<td data-align="left">281.50</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">Cl<sub>2</sub>O(<em data-effect="italics">g</em>)</td>
+<td data-align="left">80.3</td>
+<td data-align="left">97.9</td>
+<td data-align="left">266.2</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">Cl<sub>2</sub>O<sub>7</sub>(<em data-effect="italics">l</em>)</td>
+<td data-align="left">238.1</td>
+<td data-align="left">—</td>
+<td data-align="left">—</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">Cl<sub>2</sub>O<sub>7</sub>(<em data-effect="italics">g</em>)</td>
+<td data-align="left">272.0</td>
+<td data-align="left">—</td>
+<td data-align="left">—</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">HCl(<em data-effect="italics">g</em>)</td>
+<td data-align="left">–92.307</td>
+<td data-align="left">–95.299</td>
+<td data-align="left">186.9</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">HClO<sub>4</sub>(<em data-effect="italics">l</em>)</td>
+<td data-align="left">–40.58</td>
+<td data-align="left">—</td>
+<td data-align="left">—</td>
+</tr>
+<tr valign="middle">
+<td colspan="4" data-align="left">chromium</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">Cr(<em data-effect="italics">s</em>)</td>
+<td data-align="left">0</td>
+<td data-align="left">0</td>
+<td data-align="left">23.77</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">Cr(<em data-effect="italics">g</em>)</td>
+<td data-align="left">396.6</td>
+<td data-align="left">351.8</td>
+<td data-align="left">174.50</td>
+</tr>
+
+<tr valign="middle">
+<td data-align="left">CrO<sub>4</sub> <sup>2–</sup>(<em data-effect="italics">aq</em>)</td>
+<td data-align="left">–881.2</td>
+<td data-align="left">–727.8</td>
+<td data-align="left">50.21</td>
+</tr>
+
+
+<tr valign="middle">
+<td data-align="left">Cr<sub>2</sub>O<sub>7</sub> <sup>2–</sup>(<em data-effect="italics">aq</em>)</td>
+<td data-align="left">–1490.3</td>
+<td data-align="left">–1301.1</td>
+<td data-align="left">261.9</td>
+</tr>
+
+
+<tr valign="middle">
+<td data-align="left">Cr<sub>2</sub>O<sub>3</sub>(<em data-effect="italics">s</em>)</td>
+<td data-align="left">–1139.7</td>
+<td data-align="left">–1058.1</td>
+<td data-align="left">81.2</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">CrO<sub>3</sub>(<em data-effect="italics">s</em>)</td>
+<td data-align="left">–589.5</td>
+<td data-align="left">—</td>
+<td data-align="left">—</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">(NH<sub>4</sub>)<sub>2</sub>Cr<sub>2</sub>O<sub>7</sub>(<em data-effect="italics">s</em>)</td>
+<td data-align="left">–1806.7</td>
+<td data-align="left">—</td>
+<td data-align="left">—</td>
+</tr>
+<tr valign="middle">
+<td colspan="4" data-align="left">cobalt</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">Co(<em data-effect="italics">s</em>)</td>
+<td data-align="left">0</td>
+<td data-align="left">0</td>
+<td data-align="left">30.0</td>
+</tr>
+
+<tr valign="middle">
+<td data-align="left">Co<sup>2+</sup>(<em data-effect="italics">aq</em>)</td>
+<td data-align="left">–67.4</td>
+<td data-align="left">–51.5</td>
+<td data-align="left">–155</td>
+</tr>
+
+<tr valign="middle">
+<td data-align="left">Co<sup>3+</sup>(<em data-effect="italics">aq</em>)</td>
+<td data-align="left">92</td>
+<td data-align="left">134</td>
+<td data-align="left">–305.0</td>
+</tr>
+
+<tr valign="middle">
+<td data-align="left">CoO(<em data-effect="italics">s</em>)</td>
+<td data-align="left">–237.9</td>
+<td data-align="left">–214.2</td>
+<td data-align="left">52.97</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">Co<sub>3</sub>O<sub>4</sub>(<em data-effect="italics">s</em>)</td>
+<td data-align="left">–910.02</td>
+<td data-align="left">–794.98</td>
+<td data-align="left">114.22</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">Co(NO<sub>3</sub>)<sub>2</sub>(<em data-effect="italics">s</em>)</td>
+<td data-align="left">–420.5</td>
+<td data-align="left">—</td>
+<td data-align="left">—</td>
+</tr>
+<tr valign="middle">
+<td colspan="4" data-align="left">copper</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">Cu(<em data-effect="italics">s</em>)</td>
+<td data-align="left">0</td>
+<td data-align="left">0</td>
+<td data-align="left">33.15</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">Cu(<em data-effect="italics">g</em>)</td>
+<td data-align="left">338.32</td>
+<td data-align="left">298.58</td>
+<td data-align="left">166.38</td>
+</tr>
+
+
+<tr valign="middle">
+<td data-align="left">Cu<sup>+</sup>(<em data-effect="italics">aq</em>)</td>
+<td data-align="left">51.9</td>
+<td data-align="left">50.2</td>
+<td data-align="left">–26</td>
+</tr>
+
+<tr valign="middle">
+<td data-align="left">Cu<sup>2+</sup>(<em data-effect="italics">aq</em>)</td>
+<td data-align="left">64.77</td>
+<td data-align="left">65.49</td>
+<td data-align="left">–99.6</td>
+</tr>
+
+<tr valign="middle">
+<td data-align="left">CuO(<em data-effect="italics">s</em>)</td>
+<td data-align="left">–157.3</td>
+<td data-align="left">–129.7</td>
+<td data-align="left">42.63</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">Cu<sub>2</sub>O(<em data-effect="italics">s</em>)</td>
+<td data-align="left">–168.6</td>
+<td data-align="left">–146.0</td>
+<td data-align="left">93.14</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">CuS(<em data-effect="italics">s</em>)</td>
+<td data-align="left">–53.1</td>
+<td data-align="left">–53.6</td>
+<td data-align="left">66.5</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">Cu<sub>2</sub>S(<em data-effect="italics">s</em>)</td>
+<td data-align="left">–79.5</td>
+<td data-align="left">–86.2</td>
+<td data-align="left">120.9</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">CuSO<sub>4</sub>(<em data-effect="italics">s</em>)</td>
+<td data-align="left">–771.36</td>
+<td data-align="left">–662.2</td>
+<td data-align="left">109.2</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">Cu(NO<sub>3</sub>)<sub>2</sub>(<em data-effect="italics">s</em>)</td>
+<td data-align="left">–302.9</td>
+<td data-align="left">—</td>
+<td data-align="left">—</td>
+</tr>
+<tr valign="middle">
+<td colspan="4" data-align="left">fluorine</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">F<sub>2</sub>(<em data-effect="italics">g</em>)</td>
+<td data-align="left">0</td>
+<td data-align="left">0</td>
+<td data-align="left">202.8</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">F(<em data-effect="italics">g</em>)</td>
+<td data-align="left">79.4</td>
+<td data-align="left">62.3</td>
+<td data-align="left">158.8</td>
+</tr>
+
+<tr valign="middle">
+<td data-align="left">F<sup>–</sup>(<em data-effect="italics">aq</em>)</td>
+<td data-align="left">–332.6</td>
+<td data-align="left">–278.8</td>
+<td data-align="left">–13.8</td>
+</tr>
+
+<tr valign="middle">
+<td data-align="left">F<sub>2</sub>O(<em data-effect="italics">g</em>)</td>
+<td data-align="left">24.7</td>
+<td data-align="left">41.9</td>
+<td data-align="left">247.43</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">HF(<em data-effect="italics">g</em>)</td>
+<td data-align="left">–273.3</td>
+<td data-align="left">–275.4</td>
+<td data-align="left">173.8</td>
+</tr>
+<tr valign="middle">
+<td colspan="4" data-align="left">hydrogen</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">H<sub>2</sub>(<em data-effect="italics">g</em>)</td>
+<td data-align="left">0</td>
+<td data-align="left">0</td>
+<td data-align="left">130.7</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">H(<em data-effect="italics">g</em>)</td>
+<td data-align="left">217.97</td>
+<td data-align="left">203.26</td>
+<td data-align="left">114.7</td>
+</tr>
+
+<tr valign="middle">
+<td data-align="left">H<sup>+</sup>(<em data-effect="italics">aq</em>)</td>
+<td data-align="left">0</td>
+<td data-align="left">0</td>
+<td data-align="left">0</td>
+</tr>
+
+<tr valign="middle">
+<td data-align="left">OH<sup>–</sup>(<em data-effect="italics">aq</em>)</td>
+<td data-align="left">–230.0</td>
+<td data-align="left">–157.2</td>
+<td data-align="left">–10.75</td>
+</tr>
+
+
+
+<tr valign="middle">
+<td data-align="left">H<sub>3</sub>O<sup>+</sup>(<em data-effect="italics">aq</em>)</td>
+<td data-align="left">–285.8</td>
+<td data-align="left"/>
+<td data-align="left">69.91</td>
+</tr>
+
+<tr valign="middle">
+<td data-align="left">H<sub>2</sub>O(<em data-effect="italics">l</em>)</td>
+<td data-align="left">–285.83</td>
+<td data-align="left">–237.1</td>
+<td data-align="left">70.0</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">H<sub>2</sub>O(<em data-effect="italics">g</em>)</td>
+<td data-align="left">–241.82</td>
+<td data-align="left">–228.59</td>
+<td data-align="left">188.8</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">H<sub>2</sub>O<sub>2</sub>(<em data-effect="italics">l</em>)</td>
+<td data-align="left">–187.78</td>
+<td data-align="left">–120.35</td>
+<td data-align="left">109.6</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">H<sub>2</sub>O<sub>2</sub>(<em data-effect="italics">g</em>)</td>
+<td data-align="left">–136.3</td>
+<td data-align="left">–105.6</td>
+<td data-align="left">232.7</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">HF(<em data-effect="italics">g</em>)</td>
+<td data-align="left">–273.3</td>
+<td data-align="left">–275.4</td>
+<td data-align="left">173.8</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">HCl(<em data-effect="italics">g</em>)</td>
+<td data-align="left">–92.307</td>
+<td data-align="left">–95.299</td>
+<td data-align="left">186.9</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">HBr(<em data-effect="italics">g</em>)</td>
+<td data-align="left">–36.3</td>
+<td data-align="left">–53.43</td>
+<td data-align="left">198.7</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">HI(<em data-effect="italics">g</em>)</td>
+<td data-align="left">26.48</td>
+<td data-align="left">1.70</td>
+<td data-align="left">206.59</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">H<sub>2</sub>S(<em data-effect="italics">g</em>)</td>
+<td data-align="left">–20.6</td>
+<td data-align="left">–33.4</td>
+<td data-align="left">205.8</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">H<sub>2</sub>Se(<em data-effect="italics">g)</em></td>
+<td data-align="left">29.7</td>
+<td data-align="left">15.9</td>
+<td data-align="left">219.0</td>
+</tr>
+<tr valign="middle">
+<td colspan="4" data-align="left">iodine</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">I<sub>2</sub>(<em data-effect="italics">s</em>)</td>
+<td data-align="left">0</td>
+<td data-align="left">0</td>
+<td data-align="left">116.14</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">I<sub>2</sub>(<em data-effect="italics">g</em>)</td>
+<td data-align="left">62.438</td>
+<td data-align="left">19.3</td>
+<td data-align="left">260.7</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">I(<em data-effect="italics">g</em>)</td>
+<td data-align="left">106.84</td>
+<td data-align="left">70.2</td>
+<td data-align="left">180.8</td>
+</tr>
+
+<tr valign="middle">
+<td data-align="left">I<sup>–</sup>(<em data-effect="italics">aq</em>)</td>
+<td data-align="left">–55.19</td>
+<td data-align="left">–51.57</td>
+<td data-align="left">11.13</td>
+</tr>
+
+
+<tr valign="middle">
+<td data-align="left">IF(<em data-effect="italics">g</em>)</td>
+<td data-align="left">95.65</td>
+<td data-align="left">–118.49</td>
+<td data-align="left">236.06</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">ICl(<em data-effect="italics">g</em>)</td>
+<td data-align="left">17.78</td>
+<td data-align="left">–5.44</td>
+<td data-align="left">247.44</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">IBr(<em data-effect="italics">g</em>)</td>
+<td data-align="left">40.84</td>
+<td data-align="left">3.72</td>
+<td data-align="left">258.66</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">IF<sub>7</sub>(<em data-effect="italics">g</em>)</td>
+<td data-align="left">–943.91</td>
+<td data-align="left">–818.39</td>
+<td data-align="left">346.44</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">HI(<em data-effect="italics">g</em>)</td>
+<td data-align="left">26.48</td>
+<td data-align="left">1.70</td>
+<td data-align="left">206.59</td>
+</tr>
+<tr valign="middle">
+<td colspan="4" data-align="left">iron</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">Fe(<em data-effect="italics">s</em>)</td>
+<td data-align="left">0</td>
+<td data-align="left">0</td>
+<td data-align="left">27.3</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">Fe(<em data-effect="italics">g</em>)</td>
+<td data-align="left">416.3</td>
+<td data-align="left">370.7</td>
+<td data-align="left">180.5</td>
+</tr>
+
+<tr valign="middle">
+<td data-align="left">Fe<sup>2+</sup>(<em data-effect="italics">aq</em>)</td>
+<td data-align="left">–89.1</td>
+<td data-align="left">–78.90</td>
+<td data-align="left">–137.7</td>
+</tr>
+
+<tr valign="middle">
+<td data-align="left">Fe<sup>3+</sup>(<em data-effect="italics">aq</em>)</td>
+<td data-align="left">–48.5</td>
+<td data-align="left">–4.7</td>
+<td data-align="left">–315.9</td>
+</tr>
+
+
+<tr valign="middle">
+<td data-align="left">Fe<sub>2</sub>O<sub>3</sub>(<em data-effect="italics">s</em>)</td>
+<td data-align="left">–824.2</td>
+<td data-align="left">–742.2</td>
+<td data-align="left">87.40</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">Fe<sub>3</sub>O<sub>4</sub>(<em data-effect="italics">s</em>)</td>
+<td data-align="left">–1118.4</td>
+<td data-align="left">–1015.4</td>
+<td data-align="left">146.4</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">Fe(CO)<sub>5</sub>(<em data-effect="italics">l</em>)</td>
+<td data-align="left">–774.04</td>
+<td data-align="left">–705.42</td>
+<td data-align="left">338.07</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">Fe(CO)<sub>5</sub>(<em data-effect="italics">g</em>)</td>
+<td data-align="left">–733.87</td>
+<td data-align="left">–697.26</td>
+<td data-align="left">445.18</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">FeCl<sub>2</sub>(<em data-effect="italics">s</em>)</td>
+<td data-align="left">–341.79</td>
+<td data-align="left">–302.30</td>
+<td data-align="left">117.95</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">FeCl<sub>3</sub>(<em data-effect="italics">s</em>)</td>
+<td data-align="left">–399.49</td>
+<td data-align="left">–334.00</td>
+<td data-align="left">142.3</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">FeO(<em data-effect="italics">s</em>)</td>
+<td data-align="left">–272.0</td>
+<td data-align="left">–255.2</td>
+<td data-align="left">60.75</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">Fe(OH)<sub>2</sub>(<em data-effect="italics">s</em>)</td>
+<td data-align="left">–569.0</td>
+<td data-align="left">–486.5</td>
+<td data-align="left">88.</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">Fe(OH)<sub>3</sub>(<em data-effect="italics">s)</em></td>
+<td data-align="left">–823.0</td>
+<td data-align="left">–696.5</td>
+<td data-align="left">106.7</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">FeS(<em data-effect="italics">s</em>)</td>
+<td data-align="left">–100.0</td>
+<td data-align="left">–100.4</td>
+<td data-align="left">60.29</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">Fe<sub>3</sub>C(<em data-effect="italics">s</em>)</td>
+<td data-align="left">25.10</td>
+<td data-align="left">20.08</td>
+<td data-align="left">104.60</td>
+</tr>
+<tr valign="middle">
+<td colspan="4" data-align="left">lead</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">Pb(<em data-effect="italics">s</em>)</td>
+<td data-align="left">0</td>
+<td data-align="left">0</td>
+<td data-align="left">64.81</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">Pb(<em data-effect="italics">g</em>)</td>
+<td data-align="left">195.2</td>
+<td data-align="left">162.</td>
+<td data-align="left">175.4</td>
+</tr>
+
+<tr valign="middle">
+<td data-align="left">Pb<sup>2+</sup>(<em data-effect="italics">aq</em>)</td>
+<td data-align="left">–1.7</td>
+<td data-align="left">–24.43</td>
+<td data-align="left">10.5</td>
+</tr>
+
+<tr valign="middle">
+<td data-align="left">PbO(<em data-effect="italics">s</em>) (yellow)</td>
+<td data-align="left">–217.32</td>
+<td data-align="left">–187.89</td>
+<td data-align="left">68.70</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">PbO(<em data-effect="italics">s</em>) (red)</td>
+<td data-align="left">–218.99</td>
+<td data-align="left">–188.93</td>
+<td data-align="left">66.5</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">Pb(OH)<sub>2</sub>(<em data-effect="italics">s</em>)</td>
+<td data-align="left">–515.9</td>
+<td data-align="left">—</td>
+<td data-align="left">—</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">PbS(<em data-effect="italics">s</em>)</td>
+<td data-align="left">–100.4</td>
+<td data-align="left">–98.7</td>
+<td data-align="left">91.2</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">Pb(NO<sub>3</sub>)<sub>2</sub>(<em data-effect="italics">s</em>)</td>
+<td data-align="left">–451.9</td>
+<td data-align="left">—</td>
+<td data-align="left">—</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">PbO<sub>2</sub>(<em data-effect="italics">s</em>)</td>
+<td data-align="left">–277.4</td>
+<td data-align="left">–217.3</td>
+<td data-align="left">68.6</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">PbCl<sub>2</sub>(<em data-effect="italics">s</em>)</td>
+<td data-align="left">–359.4</td>
+<td data-align="left">–314.1</td>
+<td data-align="left">136.0</td>
+</tr>
+<tr valign="middle">
+<td colspan="4" data-align="left">lithium</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">Li(<em data-effect="italics">s</em>)</td>
+<td data-align="left">0</td>
+<td data-align="left">0</td>
+<td data-align="left">29.1</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">Li(<em data-effect="italics">g</em>)</td>
+<td data-align="left">159.3</td>
+<td data-align="left">126.6</td>
+<td data-align="left">138.8</td>
+</tr>
+
+<tr valign="middle">
+<td data-align="left">Li<sup>+</sup>(<em data-effect="italics">aq</em>)</td>
+<td data-align="left">–278.5</td>
+<td data-align="left">–293.3</td>
+<td data-align="left">13.4</td>
+</tr>
+
+<tr valign="middle">
+<td data-align="left">LiH(<em data-effect="italics">s</em>)</td>
+<td data-align="left">–90.5</td>
+<td data-align="left">–68.3</td>
+<td data-align="left">20.0</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">Li(OH)(<em data-effect="italics">s</em>)</td>
+<td data-align="left">–487.5</td>
+<td data-align="left">–441.5</td>
+<td data-align="left">42.8</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">LiF(<em data-effect="italics">s</em>)</td>
+<td data-align="left">–616.0</td>
+<td data-align="left">–587.5</td>
+<td data-align="left">35.7</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">Li<sub>2</sub>CO<sub>3</sub>(<em data-effect="italics">s</em>)</td>
+<td data-align="left">–1216.04</td>
+<td data-align="left">–1132.19</td>
+<td data-align="left">90.17</td>
+</tr>
+
+<tr valign="middle">
+<td colspan="4" data-align="left">magnesium</td>
+</tr>
+
+
+<tr valign="middle">
+<td data-align="left">Mg<sup>2+</sup>(<em data-effect="italics">aq</em>)</td>
+<td data-align="left">–466.9</td>
+<td data-align="left">–454.8</td>
+<td data-align="left">–138.1</td>
+</tr>
+
+
+
+<tr valign="middle">
+<td colspan="4" data-align="left">manganese</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">Mn(<em data-effect="italics">s</em>)</td>
+<td data-align="left">0</td>
+<td data-align="left">0</td>
+<td data-align="left">32.0</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">Mn(<em data-effect="italics">g</em>)</td>
+<td data-align="left">280.7</td>
+<td data-align="left">238.5</td>
+<td data-align="left">173.7</td>
+</tr>
+
+<tr valign="middle">
+<td data-align="left">Mn<sup>2+</sup>(<em data-effect="italics">aq</em>)</td>
+<td data-align="left">–220.8</td>
+<td data-align="left">–228.1</td>
+<td data-align="left">–73.6</td>
+</tr>
+
+
+
+<tr valign="middle">
+<td data-align="left">MnO(<em data-effect="italics">s</em>)</td>
+<td data-align="left">–385.2</td>
+<td data-align="left">–362.9</td>
+<td data-align="left">59.71</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">MnO<sub>2</sub>(<em data-effect="italics">s</em>)</td>
+<td data-align="left">–520.03</td>
+<td data-align="left">–465.1</td>
+<td data-align="left">53.05</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">Mn<sub>2</sub>O<sub>3</sub>(<em data-effect="italics">s</em>)</td>
+<td data-align="left">–958.97</td>
+<td data-align="left">–881.15</td>
+<td data-align="left">110.46</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">Mn<sub>3</sub>O<sub>4</sub>(<em data-effect="italics">s</em>)</td>
+<td data-align="left">–1378.83</td>
+<td data-align="left">–1283.23</td>
+<td data-align="left">155.64</td>
+</tr>
+
+
+<tr valign="middle">
+<td data-align="left">MnO<sub>4</sub> <sup>–</sup>(<em data-effect="italics">aq</em>)</td>
+<td data-align="left">–541.4</td>
+<td data-align="left">–447.2</td>
+<td data-align="left">191.2</td>
+</tr>
+
+<tr valign="middle">
+<td data-align="left">MnO<sub>4</sub> <sup>2–</sup>(<em data-effect="italics">aq</em>)</td>
+<td data-align="left">–653.0</td>
+<td data-align="left">–500.7</td>
+<td data-align="left">59</td>
+</tr>
+
+
+
+<tr valign="middle">
+<td colspan="4" data-align="left">mercury</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">Hg(<em data-effect="italics">l</em>)</td>
+<td data-align="left">0</td>
+<td data-align="left">0</td>
+<td data-align="left">75.9</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">Hg(<em data-effect="italics">g</em>)</td>
+<td data-align="left">61.4</td>
+<td data-align="left">31.8</td>
+<td data-align="left">175.0</td>
+</tr>
+
+
+<tr valign="middle">
+<td data-align="left">Hg<sup>2+</sup>(<em data-effect="italics">aq</em>)</td>
+<td data-align="left"/>
+<td data-align="left">164.8</td>
+<td data-align="left"/>
+</tr>
+
+<tr valign="middle">
+<td data-align="left">Hg<sup>2+</sup>(<em data-effect="italics">aq</em>)</td>
+<td data-align="left">172.4</td>
+<td data-align="left">153.9</td>
+<td data-align="left">84.5</td>
+</tr>
+
+
+<tr valign="middle">
+<td data-align="left">HgO(<em data-effect="italics">s</em>) (red)</td>
+<td data-align="left">–90.83</td>
+<td data-align="left">–58.5</td>
+<td data-align="left">70.29</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">HgO(<em data-effect="italics">s</em>) (yellow)</td>
+<td data-align="left">–90.46</td>
+<td data-align="left">–58.43</td>
+<td data-align="left">71.13</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">HgCl<sub>2</sub>(<em data-effect="italics">s</em>)</td>
+<td data-align="left">–224.3</td>
+<td data-align="left">–178.6</td>
+<td data-align="left">146.0</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">Hg<sub>2</sub>Cl<sub>2</sub>(<em data-effect="italics">s</em>)</td>
+<td data-align="left">–265.4</td>
+<td data-align="left">–210.7</td>
+<td data-align="left">191.6</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">HgS(<em data-effect="italics">s</em>) (red)</td>
+<td data-align="left">–58.16</td>
+<td data-align="left">–50.6</td>
+<td data-align="left">82.4</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">HgS(<em data-effect="italics">s</em>) (black)</td>
+<td data-align="left">–53.56</td>
+<td data-align="left">–47.70</td>
+<td data-align="left">88.28</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">HgSO<sub>4</sub>(<em data-effect="italics">s)</em></td>
+<td data-align="left">–707.51</td>
+<td data-align="left">–594.13</td>
+<td data-align="left">0.00</td>
+</tr>
+
+<tr valign="middle">
+<td colspan="4" data-align="left">nickel</td>
+</tr>
+
+
+<tr valign="middle">
+<td data-align="left">Ni<sup>2+</sup>(<em data-effect="italics">aq</em>)</td>
+<td data-align="left">–64.0</td>
+<td data-align="left">–46.4</td>
+<td data-align="left">–159</td>
+</tr>
+
+
+<tr valign="middle">
+<td colspan="4" data-align="left">nitrogen</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">N<sub>2</sub>(<em data-effect="italics">g</em>)</td>
+<td data-align="left">0</td>
+<td data-align="left">0</td>
+<td data-align="left">191.6</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">N(<em data-effect="italics">g</em>)</td>
+<td data-align="left">472.704</td>
+<td data-align="left">455.5</td>
+<td data-align="left">153.3</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">NO(<em data-effect="italics">g</em>)</td>
+<td data-align="left">90.25</td>
+<td data-align="left">87.6</td>
+<td data-align="left">210.8</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">NO<sub>2</sub>(<em data-effect="italics">g</em>)</td>
+<td data-align="left">33.2</td>
+<td data-align="left">51.30</td>
+<td data-align="left">240.1</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">N<sub>2</sub>O(<em data-effect="italics">g</em>)</td>
+<td data-align="left">81.6</td>
+<td data-align="left">103.7</td>
+<td data-align="left">220.0</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">N<sub>2</sub>O<sub>3</sub>(<em data-effect="italics">g</em>)</td>
+<td data-align="left">83.72</td>
+<td data-align="left">139.41</td>
+<td data-align="left">312.17</td>
+</tr>
+
+
+<tr valign="middle">
+<td data-align="left">NO<sub>3</sub> <sup>–</sup>(<em data-effect="italics">aq</em>)</td>
+<td data-align="left">–205.0</td>
+<td data-align="left">–108.7</td>
+<td data-align="left">146.4</td>
+</tr>
+
+<tr valign="middle">
+<td data-align="left">N<sub>2</sub>O<sub>4</sub>(<em data-effect="italics">g</em>)</td>
+<td data-align="left">11.1</td>
+<td data-align="left">99.8</td>
+<td data-align="left">304.4</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">N<sub>2</sub>O<sub>5</sub>(<em data-effect="italics">g</em>)</td>
+<td data-align="left">11.3</td>
+<td data-align="left">115.1</td>
+<td data-align="left">355.7</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">NH<sub>3</sub>(<em data-effect="italics">g</em>)</td>
+<td data-align="left">–45.9</td>
+<td data-align="left">–16.5</td>
+<td data-align="left">192.8</td>
+</tr>
+
+<tr valign="middle">
+<td data-align="left">NH<sub>4</sub> <sup>+</sup>(<em data-effect="italics">aq</em>)</td>
+<td data-align="left">–132.5</td>
+<td data-align="left">–79.31</td>
+<td data-align="left">113.4</td>
+</tr>
+
+<tr valign="middle">
+<td data-align="left">N<sub>2</sub>H<sub>4</sub>(<em data-effect="italics">l</em>)</td>
+<td data-align="left">50.63</td>
+<td data-align="left">149.43</td>
+<td data-align="left">121.21</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">N<sub>2</sub>H<sub>4</sub>(<em data-effect="italics">g</em>)</td>
+<td data-align="left">95.4</td>
+<td data-align="left">159.4</td>
+<td data-align="left">238.5</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">NH<sub>4</sub>NO<sub>3</sub>(<em data-effect="italics">s</em>)</td>
+<td data-align="left">–365.56</td>
+<td data-align="left">–183.87</td>
+<td data-align="left">151.08</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">NH<sub>4</sub>Cl(<em data-effect="italics">s</em>)</td>
+<td data-align="left">–314.43</td>
+<td data-align="left">–202.87</td>
+<td data-align="left">94.6</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">NH<sub>4</sub>Br(<em data-effect="italics">s)</em></td>
+<td data-align="left">–270.8</td>
+<td data-align="left">–175.2</td>
+<td data-align="left">113.0</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">NH<sub>4</sub>I(<em data-effect="italics">s</em>)</td>
+<td data-align="left">–201.4</td>
+<td data-align="left">–112.5</td>
+<td data-align="left">117.0</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">NH<sub>4</sub>NO<sub>2</sub>(<em data-effect="italics">s</em>)</td>
+<td data-align="left">–256.5</td>
+<td data-align="left">—</td>
+<td data-align="left">—</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">HNO<sub>3</sub>(<em data-effect="italics">l</em>)</td>
+<td data-align="left">–174.1</td>
+<td data-align="left">–80.7</td>
+<td data-align="left">155.6</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">HNO<sub>3</sub>(<em data-effect="italics">g</em>)</td>
+<td data-align="left">–133.9</td>
+<td data-align="left">–73.5</td>
+<td data-align="left">266.9</td>
+</tr>
+<tr valign="middle">
+<td colspan="4" data-align="left">oxygen</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">O<sub>2</sub>(<em data-effect="italics">g</em>)</td>
+<td data-align="left">0</td>
+<td data-align="left">0</td>
+<td data-align="left">205.2</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">O(<em data-effect="italics">g</em>)</td>
+<td data-align="left">249.17</td>
+<td data-align="left">231.7</td>
+<td data-align="left">161.1</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">O<sub>3</sub>(<em data-effect="italics">g</em>)</td>
+<td data-align="left">142.7</td>
+<td data-align="left">163.2</td>
+<td data-align="left">238.9</td>
+</tr>
+<tr valign="middle">
+<td colspan="4" data-align="left">phosphorus</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">P<sub>4</sub>(<em data-effect="italics">s</em>)</td>
+<td data-align="left">0</td>
+<td data-align="left">0</td>
+<td data-align="left">164.4</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">P<sub>4</sub>(<em data-effect="italics">g</em>)</td>
+<td data-align="left">58.91</td>
+<td data-align="left">24.4</td>
+<td data-align="left">280.0</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">P(<em data-effect="italics">g</em>)</td>
+<td data-align="left">314.64</td>
+<td data-align="left">278.25</td>
+<td data-align="left">163.19</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">PH<sub>3</sub>(<em data-effect="italics">g</em>)</td>
+<td data-align="left">5.4</td>
+<td data-align="left">13.5</td>
+<td data-align="left">210.2</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">PCl<sub>3</sub>(<em data-effect="italics">g</em>)</td>
+<td data-align="left">–287.0</td>
+<td data-align="left">–267.8</td>
+<td data-align="left">311.78</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">PCl<sub>5</sub>(<em data-effect="italics">g</em>)</td>
+<td data-align="left">–374.9</td>
+<td data-align="left">–305.0</td>
+<td data-align="left">364.4</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">P<sub>4</sub>O<sub>6</sub>(<em data-effect="italics">s</em>)</td>
+<td data-align="left">–1640.1</td>
+<td data-align="left">—</td>
+<td data-align="left">—</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">P<sub>4</sub>O<sub>10</sub>(<em data-effect="italics">s</em>)</td>
+<td data-align="left">–2984.0</td>
+<td data-align="left">–2697.0</td>
+<td data-align="left">228.86</td>
+</tr>
+
+<tr valign="middle">
+<td data-align="left">PO<sub>4</sub> <sup>3–</sup>(<em data-effect="italics">aq</em>)</td>
+<td data-align="left">–1277</td>
+<td data-align="left">–1019</td>
+<td data-align="left">–222</td>
+</tr>
+
+
+<tr valign="middle">
+<td data-align="left">HPO<sub>3</sub>(<em data-effect="italics">s</em>)</td>
+<td data-align="left">–948.5</td>
+<td data-align="left">—</td>
+<td data-align="left">—</td>
+</tr>
+
+<tr valign="middle">
+<td data-align="left">HPO<sub>4</sub> <sup>2–</sup>(<em data-effect="italics">aq</em>)</td>
+<td data-align="left">–1292.1</td>
+<td data-align="left">–1089.3</td>
+<td data-align="left">–33</td>
+</tr>
+
+<tr valign="middle">
+<td data-align="left">H<sub>2</sub>PO<sub>4</sub> <sup>2–</sup>(<em data-effect="italics">aq</em>)</td>
+<td data-align="left">–1296.3</td>
+<td data-align="left">–1130.4</td>
+<td data-align="left">90.4</td>
+</tr>
+
+<tr valign="middle">
+<td data-align="left">H<sub>3</sub>PO<sub>2</sub>(<em data-effect="italics">s</em>)</td>
+<td data-align="left">–604.6</td>
+<td data-align="left">—</td>
+<td data-align="left">—</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">H<sub>3</sub>PO<sub>3</sub>(<em data-effect="italics">s</em>)</td>
+<td data-align="left">–964.4</td>
+<td data-align="left">—</td>
+<td data-align="left">—</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">H<sub>3</sub>PO<sub>4</sub>(<em data-effect="italics">s</em>)</td>
+<td data-align="left">–1279.0</td>
+<td data-align="left">–1119.1</td>
+<td data-align="left">110.50</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">H<sub>3</sub>PO<sub>4</sub><em data-effect="italics">(l</em>)</td>
+<td data-align="left">–1266.9</td>
+<td data-align="left">–1124.3</td>
+<td data-align="left">110.5</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">H<sub>4</sub>P<sub>2</sub>O<sub>7</sub>(<em data-effect="italics">s</em>)</td>
+<td data-align="left">–2241.0</td>
+<td data-align="left">—</td>
+<td data-align="left">—</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">POCl<sub>3</sub>(<em data-effect="italics">l</em>)</td>
+<td data-align="left">–597.1</td>
+<td data-align="left">–520.8</td>
+<td data-align="left">222.5</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">POCl<sub>3</sub>(<em data-effect="italics">g</em>)</td>
+<td data-align="left">–558.5</td>
+<td data-align="left">–512.9</td>
+<td data-align="left">325.5</td>
+</tr>
+<tr valign="middle">
+<td colspan="4" data-align="left">potassium</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">K(<em data-effect="italics">s</em>)</td>
+<td data-align="left">0</td>
+<td data-align="left">0</td>
+<td data-align="left">64.7</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">K(<em data-effect="italics">g</em>)</td>
+<td data-align="left">89.0</td>
+<td data-align="left">60.5</td>
+<td data-align="left">160.3</td>
+</tr>
+
+<tr valign="middle">
+<td data-align="left">K<sup>+</sup>(<em data-effect="italics">aq</em>)</td>
+<td data-align="left">–252.4</td>
+<td data-align="left">–283.3</td>
+<td data-align="left">102.5</td>
+</tr>
+
+
+<tr valign="middle">
+<td data-align="left">KF(<em data-effect="italics">s</em>)</td>
+<td data-align="left">–576.27</td>
+<td data-align="left">–537.75</td>
+<td data-align="left">66.57</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">KCl(<em data-effect="italics">s</em>)</td>
+<td data-align="left">–436.5</td>
+<td data-align="left">–408.5</td>
+<td data-align="left">82.6</td>
+</tr>
+<tr valign="middle">
+<td colspan="4" data-align="left">rubidium</td>
+</tr>
+
+<tr valign="middle">
+<td data-align="left">Rb<sup>+</sup>(<em data-effect="italics">aq</em>)</td>
+<td data-align="left">–246</td>
+<td data-align="left">–282.2</td>
+<td data-align="left">124</td>
+</tr>
+
+<tr valign="middle">
+<td colspan="4" data-align="left">silicon</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">Si(<em data-effect="italics">s</em>)</td>
+<td data-align="left">0</td>
+<td data-align="left">0</td>
+<td data-align="left">18.8</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">Si(<em data-effect="italics">g)</em></td>
+<td data-align="left">450.0</td>
+<td data-align="left">405.5</td>
+<td data-align="left">168.0</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">SiO<sub>2</sub>(<em data-effect="italics">s</em>)</td>
+<td data-align="left">–910.7</td>
+<td data-align="left">–856.3</td>
+<td data-align="left">41.5</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">SiH<sub>4</sub>(<em data-effect="italics">g</em>)</td>
+<td data-align="left">34.3</td>
+<td data-align="left">56.9</td>
+<td data-align="left">204.6</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">H<sub>2</sub>SiO<sub>3</sub>(<em data-effect="italics">s</em>)</td>
+<td data-align="left">–1188.67</td>
+<td data-align="left">–1092.44</td>
+<td data-align="left">133.89</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">H<sub>4</sub>SiO<sub>4</sub>(<em data-effect="italics">s</em>)</td>
+<td data-align="left">–1481.14</td>
+<td data-align="left">–1333.02</td>
+<td data-align="left">192.46</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">SiF<sub>4</sub>(<em data-effect="italics">g</em>)</td>
+<td data-align="left">–1615.0</td>
+<td data-align="left">–1572.8</td>
+<td data-align="left">282.8</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">SiCl<sub>4</sub>(<em data-effect="italics">l</em>)</td>
+<td data-align="left">–687.0</td>
+<td data-align="left">–619.8</td>
+<td data-align="left">239.7</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">SiCl<sub>4</sub>(<em data-effect="italics">g</em>)</td>
+<td data-align="left">–662.75</td>
+<td data-align="left">–622.58</td>
+<td data-align="left">330.62</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">SiC(<em data-effect="italics">s, beta cubic</em>)</td>
+<td data-align="left">–73.22</td>
+<td data-align="left">–70.71</td>
+<td data-align="left">16.61</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">SiC(<em data-effect="italics">s, alpha hexagonal</em>)</td>
+<td data-align="left">–71.55</td>
+<td data-align="left">–69.04</td>
+<td data-align="left">16.48</td>
+</tr>
+<tr valign="middle">
+<td colspan="4" data-align="left">silver</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">Ag(<em data-effect="italics">s</em>)</td>
+<td data-align="left">0</td>
+<td data-align="left">0</td>
+<td data-align="left">42.55</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">Ag(<em data-effect="italics">g</em>)</td>
+<td data-align="left">284.9</td>
+<td data-align="left">246.0</td>
+<td data-align="left">172.89</td>
+</tr>
+
+<tr valign="middle">
+<td data-align="left">Ag<sup>+</sup>(<em data-effect="italics">aq</em>)</td>
+<td data-align="left">105.6</td>
+<td data-align="left">77.11</td>
+<td data-align="left">72.68</td>
+</tr>
+
+<tr valign="middle">
+<td data-align="left">Ag<sub>2</sub>O(<em data-effect="italics">s</em>)</td>
+<td data-align="left">–31.05</td>
+<td data-align="left">–11.20</td>
+<td data-align="left">121.3</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">AgCl(<em data-effect="italics">s</em>)</td>
+<td data-align="left">–127.0</td>
+<td data-align="left">–109.8</td>
+<td data-align="left">96.3</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">Ag<sub>2</sub>S(<em data-effect="italics">s</em>)</td>
+<td data-align="left">–32.6</td>
+<td data-align="left">–40.7</td>
+<td data-align="left">144.0</td>
+</tr>
+<tr valign="middle">
+<td colspan="4" data-align="left">sodium</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">Na(<em data-effect="italics">s</em>)</td>
+<td data-align="left">0</td>
+<td data-align="left">0</td>
+<td data-align="left">51.3</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">Na(<em data-effect="italics">g</em>)</td>
+<td data-align="left">107.5</td>
+<td data-align="left">77.0</td>
+<td data-align="left">153.7</td>
+</tr>
+
+<tr valign="middle">
+<td data-align="left">Na<sup>+</sup>(<em data-effect="italics">aq</em>)</td>
+<td data-align="left">–240.1</td>
+<td data-align="left">–261.9</td>
+<td data-align="left">59</td>
+</tr>
+
+<tr valign="middle">
+<td data-align="left">Na<sub>2</sub>O(<em data-effect="italics">s</em>)</td>
+<td data-align="left">–414.2</td>
+<td data-align="left">–375.5</td>
+<td data-align="left">75.1</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">NaCl(<em data-effect="italics">s</em>)</td>
+<td data-align="left">–411.2</td>
+<td data-align="left">–384.1</td>
+<td data-align="left">72.1</td>
+</tr>
+
+<tr valign="middle">
+<td colspan="4" data-align="left">strontium</td>
+</tr>
+
+<tr valign="middle">
+<td data-align="left">Sr<sup>2+</sup>(<em data-effect="italics">aq</em>)</td>
+<td data-align="left">–545.8</td>
+<td data-align="left">–557.3</td>
+<td data-align="left">–32.6</td>
+</tr>
+
+<tr valign="middle">
+<td colspan="4" data-align="left">sulfur</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">S<sub>8</sub>(<em data-effect="italics">s</em>) (rhombic)</td>
+<td data-align="left">0</td>
+<td data-align="left">0</td>
+<td data-align="left">256.8</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">S(<em data-effect="italics">g</em>)</td>
+<td data-align="left">278.81</td>
+<td data-align="left">238.25</td>
+<td data-align="left">167.82</td>
+</tr>
+
+<tr valign="middle">
+<td data-align="left">S<sup>2–</sup>(<em data-effect="italics">aq</em>)</td>
+<td data-align="left">41.8</td>
+<td data-align="left">83.7</td>
+<td data-align="left">22</td>
+</tr>
+
+
+<tr valign="middle">
+<td data-align="left">SO<sub>2</sub>(<em data-effect="italics">g</em>)</td>
+<td data-align="left">–296.83</td>
+<td data-align="left">–300.1</td>
+<td data-align="left">248.2</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">SO<sub>3</sub>(<em data-effect="italics">g</em>)</td>
+<td data-align="left">–395.72</td>
+<td data-align="left">–371.06</td>
+<td data-align="left">256.76</td>
+</tr>
+
+<tr valign="middle">
+<td data-align="left">SO<sub>4</sub> <sup>2–</sup>(<em data-effect="italics">aq</em>)</td>
+<td data-align="left">–909.3</td>
+<td data-align="left">–744.5</td>
+<td data-align="left">20.1</td>
+</tr>
+
+<tr valign="middle">
+<td data-align="left">S<sub>2</sub>O<sub>3</sub> <sup>2–</sup>(<em data-effect="italics">aq</em>)</td>
+<td data-align="left">–648.5</td>
+<td data-align="left">–522.5</td>
+<td data-align="left">67</td>
+</tr>
+
+<tr valign="middle">
+<td data-align="left">H<sub>2</sub>S(<em data-effect="italics">g</em>)</td>
+<td data-align="left">–20.6</td>
+<td data-align="left">–33.4</td>
+<td data-align="left">205.8</td>
+</tr>
+
+<tr valign="middle">
+<td data-align="left">HS<sup>–</sup>(<em data-effect="italics">aq</em>)</td>
+<td data-align="left">–17.7</td>
+<td data-align="left">12.6</td>
+<td data-align="left">61.1</td>
+</tr>
+
+<tr valign="middle">
+<td data-align="left">H<sub>2</sub>SO<sub>4</sub>(<em data-effect="italics">l</em>)</td>
+<td data-align="left">–813.989</td>
+<td data-align="left">690.00</td>
+<td data-align="left">156.90</td>
+</tr>
+
+<tr valign="middle">
+<td data-align="left">HSO<sub>4</sub> <sup>2–</sup>(<em data-effect="italics">aq</em>)</td>
+<td data-align="left">–885.75</td>
+<td data-align="left">–752.87</td>
+<td data-align="left">126.9</td>
+</tr>
+
+
+<tr valign="middle">
+<td data-align="left">H<sub>2</sub>S<sub>2</sub>O<sub>7</sub>(<em data-effect="italics">s</em>)</td>
+<td data-align="left">–1273.6</td>
+<td data-align="left">—</td>
+<td data-align="left">—</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">SF<sub>4</sub>(<em data-effect="italics">g</em>)</td>
+<td data-align="left">–728.43</td>
+<td data-align="left">–684.84</td>
+<td data-align="left">291.12</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">SF<sub>6</sub>(<em data-effect="italics">g</em>)</td>
+<td data-align="left">–1220.5</td>
+<td data-align="left">–1116.5</td>
+<td data-align="left">291.5</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">SCl<sub>2</sub>(<em data-effect="italics">l</em>)</td>
+<td data-align="left">–50</td>
+<td data-align="left">—</td>
+<td data-align="left">—</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">SCl<sub>2</sub>(<em data-effect="italics">g)</em></td>
+<td data-align="left">–19.7</td>
+<td data-align="left">—</td>
+<td data-align="left">—</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">S<sub>2</sub>Cl<sub>2</sub>(<em data-effect="italics">l</em>)</td>
+<td data-align="left">–59.4</td>
+<td data-align="left">—</td>
+<td data-align="left">—</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">S<sub>2</sub>Cl<sub>2</sub>(<em data-effect="italics">g</em>)</td>
+<td data-align="left">–19.50</td>
+<td data-align="left">–29.25</td>
+<td data-align="left">319.45</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">SOCl<sub>2</sub>(<em data-effect="italics">g</em>)</td>
+<td data-align="left">–212.55</td>
+<td data-align="left">–198.32</td>
+<td data-align="left">309.66</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">SOCl<sub>2</sub>(<em data-effect="italics">l</em>)</td>
+<td data-align="left">–245.6</td>
+<td data-align="left">—</td>
+<td data-align="left">—</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">SO<sub>2</sub>Cl<sub>2</sub>(<em data-effect="italics">l</em>)</td>
+<td data-align="left">–394.1</td>
+<td data-align="left">—</td>
+<td data-align="left">—</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">SO<sub>2</sub>Cl<sub>2</sub>(g)</td>
+<td data-align="left">–354.80</td>
+<td data-align="left">–310.45</td>
+<td data-align="left">311.83</td>
+</tr>
+<tr valign="middle">
+<td colspan="4" data-align="left">tin</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">Sn(<em data-effect="italics">s</em>)</td>
+<td data-align="left">0</td>
+<td data-align="left">0</td>
+<td data-align="left">51.2</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">Sn(<em data-effect="italics">g</em>)</td>
+<td data-align="left">301.2</td>
+<td data-align="left">266.2</td>
+<td data-align="left">168.5</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">SnO(<em data-effect="italics">s</em>)</td>
+<td data-align="left">–285.8</td>
+<td data-align="left">–256.9</td>
+<td data-align="left">56.5</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">SnO<sub>2</sub>(<em data-effect="italics">s</em>)</td>
+<td data-align="left">–577.6</td>
+<td data-align="left">–515.8</td>
+<td data-align="left">49.0</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">SnCl<sub>4</sub>(<em data-effect="italics">l</em>)</td>
+<td data-align="left">–511.3</td>
+<td data-align="left">–440.1</td>
+<td data-align="left">258.6</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">SnCl<sub>4</sub>(<em data-effect="italics">g</em>)</td>
+<td data-align="left">–471.5</td>
+<td data-align="left">–432.2</td>
+<td data-align="left">365.8</td>
+</tr>
+<tr valign="middle">
+<td colspan="4" data-align="left">titanium</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">Ti(<em data-effect="italics">s</em>)</td>
+<td data-align="left">0</td>
+<td data-align="left">0</td>
+<td data-align="left">30.7</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">Ti(<em data-effect="italics">g</em>)</td>
+<td data-align="left">473.0</td>
+<td data-align="left">428.4</td>
+<td data-align="left">180.3</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">TiO<sub>2</sub>(<em data-effect="italics">s</em>)</td>
+<td data-align="left">–944.0</td>
+<td data-align="left">–888.8</td>
+<td data-align="left">50.6</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">TiCl<sub>4</sub>(<em data-effect="italics">l</em>)</td>
+<td data-align="left">–804.2</td>
+<td data-align="left">–737.2</td>
+<td data-align="left">252.4</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">TiCl<sub>4</sub>(<em data-effect="italics">g</em>)</td>
+<td data-align="left">–763.2</td>
+<td data-align="left">–726.3</td>
+<td data-align="left">353.2</td>
+</tr>
+<tr valign="middle">
+<td colspan="4" data-align="left">tungsten</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">W(<em data-effect="italics">s</em>)</td>
+<td data-align="left">0</td>
+<td data-align="left">0</td>
+<td data-align="left">32.6</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">W(<em data-effect="italics">g</em>)</td>
+<td data-align="left">849.4</td>
+<td data-align="left">807.1</td>
+<td data-align="left">174.0</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">WO<sub>3</sub>(<em data-effect="italics">s</em>)</td>
+<td data-align="left">–842.9</td>
+<td data-align="left">–764.0</td>
+<td data-align="left">75.9</td>
+</tr>
+<tr valign="middle">
+<td colspan="4" data-align="left">zinc</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">Zn(<em data-effect="italics">s</em>)</td>
+<td data-align="left">0</td>
+<td data-align="left">0</td>
+<td data-align="left">41.6</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">Zn(<em data-effect="italics">g</em>)</td>
+<td data-align="left">130.73</td>
+<td data-align="left">95.14</td>
+<td data-align="left">160.98</td>
+</tr>
+
+<tr valign="middle">
+<td data-align="left">Zn<sup>2+</sup>(<em data-effect="italics">aq</em>)</td>
+<td data-align="left">–153.9</td>
+<td data-align="left">–147.1</td>
+<td data-align="left">–112.1</td>
+</tr>
+
+<tr valign="middle">
+<td data-align="left">ZnO(<em data-effect="italics">s</em>)</td>
+<td data-align="left">–350.5</td>
+<td data-align="left">–320.5</td>
+<td data-align="left">43.7</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">ZnCl<sub>2</sub>(<em data-effect="italics">s</em>)</td>
+<td data-align="left">–415.1</td>
+<td data-align="left">–369.43</td>
+<td data-align="left">111.5</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">ZnS(<em data-effect="italics">s</em>)</td>
+<td data-align="left">–206.0</td>
+<td data-align="left">–201.3</td>
+<td data-align="left">57.7</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">ZnSO<sub>4</sub>(<em data-effect="italics">s</em>)</td>
+<td data-align="left">–982.8</td>
+<td data-align="left">–871.5</td>
+<td data-align="left">110.5</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">ZnCO<sub>3</sub>(<em data-effect="italics">s</em>)</td>
+<td data-align="left">–812.78</td>
+<td data-align="left">–731.57</td>
+<td data-align="left">82.42</td>
+</tr>
+<tr valign="middle">
+<td colspan="4" data-align="left">complexes</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">[Co(NH<sub>3</sub>)<sub>4</sub>(NO<sub>2</sub>)<sub>2</sub>]NO<sub>3</sub>, <em data-effect="italics">cis</em></td>
+<td data-align="left">–898.7</td>
+<td data-align="left">—</td>
+<td data-align="left">—</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">[Co(NH<sub>3</sub>)<sub>4</sub>(NO<sub>2</sub>)<sub>2</sub>]NO<sub>3</sub>, <em data-effect="italics">trans</em></td>
+<td data-align="left">–896.2</td>
+<td data-align="left">—</td>
+<td data-align="left">—</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">NH<sub>4</sub>[Co(NH<sub>3</sub>)<sub>2</sub>(NO<sub>2</sub>)<sub>4</sub>]</td>
+<td data-align="left">–837.6</td>
+<td data-align="left">—</td>
+<td data-align="left">—</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">[Co(NH<sub>3</sub>)<sub>6</sub>][Co(NH<sub>3</sub>)<sub>2</sub>(NO<sub>2</sub>)<sub>4</sub>]<sub>3</sub></td>
+<td data-align="left">–2733.0</td>
+<td data-align="left">—</td>
+<td data-align="left">—</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">[Co(NH<sub>3</sub>)<sub>4</sub>Cl<sub>2</sub>]Cl, <em data-effect="italics">cis</em></td>
+<td data-align="left">–874.9</td>
+<td data-align="left">—</td>
+<td data-align="left">—</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">[Co(NH<sub>3</sub>)<sub>4</sub>Cl<sub>2</sub>]Cl, <em data-effect="italics">trans</em></td>
+<td data-align="left">–877.4</td>
+<td data-align="left">—</td>
+<td data-align="left">—</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">[Co(en)<sub>2</sub>(NO<sub>2</sub>)<sub>2</sub>]NO<sub>3</sub>, <em data-effect="italics">cis</em></td>
+<td data-align="left">–689.5</td>
+<td data-align="left">—</td>
+<td data-align="left">—</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">[Co(en)<sub>2</sub>Cl<sub>2</sub>]Cl, <em data-effect="italics">cis</em></td>
+<td data-align="left">–681.2</td>
+<td data-align="left">—</td>
+<td data-align="left">—</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">[Co(en)<sub>2</sub>Cl<sub>2</sub>]Cl, <em data-effect="italics">trans</em></td>
+<td data-align="left">–677.4</td>
+<td data-align="left">—</td>
+<td data-align="left">—</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">[Co(en)<sub>3</sub>](ClO<sub>4</sub>)<sub>3</sub></td>
+<td data-align="left">–762.7</td>
+<td data-align="left">—</td>
+<td data-align="left">—</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">[Co(en)<sub>3</sub>]Br<sub>2</sub></td>
+<td data-align="left">–595.8</td>
+<td data-align="left">—</td>
+<td data-align="left">—</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">[Co(en)<sub>3</sub>]I<sub>2</sub></td>
+<td data-align="left">–475.3</td>
+<td data-align="left">—</td>
+<td data-align="left">—</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">[Co(en)<sub>3</sub>]I<sub>3</sub></td>
+<td data-align="left">–519.2</td>
+<td data-align="left">—</td>
+<td data-align="left">—</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">[Co(NH<sub>3</sub>)<sub>6</sub>](ClO<sub>4</sub>)<sub>3</sub></td>
+<td data-align="left">–1034.7</td>
+<td data-align="left">–221.1</td>
+<td data-align="left">615</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">[Co(NH<sub>3</sub>)<sub>5</sub>NO<sub>2</sub>](NO<sub>3</sub>)<sub>2</sub></td>
+<td data-align="left">–1088.7</td>
+<td data-align="left">–412.9</td>
+<td data-align="left">331</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">[Co(NH<sub>3</sub>)<sub>6</sub>](NO<sub>3</sub>)<sub>3</sub></td>
+<td data-align="left">–1282.0</td>
+<td data-align="left">–524.5</td>
+<td data-align="left">448</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">[Co(NH<sub>3</sub>)<sub>5</sub>Cl]Cl<sub>2</sub></td>
+<td data-align="left">–1017.1</td>
+<td data-align="left">–582.5</td>
+<td data-align="left">366.1</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">[Pt(NH<sub>3</sub>)<sub>4</sub>]Cl<sub>2</sub></td>
+<td data-align="left">–725.5</td>
+<td data-align="left">—</td>
+<td data-align="left">—</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">[Ni(NH<sub>3</sub>)<sub>6</sub>]Cl<sub>2</sub></td>
+<td data-align="left">–994.1</td>
+<td data-align="left">—</td>
+<td data-align="left">—</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">[Ni(NH<sub>3</sub>)<sub>6</sub>]Br<sub>2</sub></td>
+<td data-align="left">–923.8</td>
+<td data-align="left">—</td>
+<td data-align="left">—</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">[Ni(NH<sub>3</sub>)<sub>6</sub>]I<sub>2</sub></td>
+<td data-align="left">–808.3</td>
+<td data-align="left">—</td>
+<td data-align="left">—</td>
+</tr>
+</tbody></table><div class="os-caption-container"><span class="os-title-label">Table </span><span class="os-number">G1</span><span class="os-divider"> </span><span class="os-divider"> </span></div></div>
+  </div></div>

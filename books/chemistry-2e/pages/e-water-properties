@@ -1,0 +1,332 @@
+<div class="appendix" data-cnxml-to-html-ver="[redacted for uniqueness]" data-type="page" id="99f9a1dc-5a53-4300-af88-5529ddcd7fd1">
+
+<div class="os-table" id="fs-idm240880336"><table class="span-all" data-id="fs-idm240880336" summary="Table E1  "><thead>
+<tr valign="middle">
+<th colspan="2">Water Density (g/mL) at Different Temperatures (°C)</th>
+</tr>
+<tr valign="middle">
+<th data-align="left">Temperature</th>
+<th data-align="left">Density (g/mL)</th>
+</tr>
+</thead><tbody>
+<tr valign="middle">
+<td data-align="left">0</td>
+<td data-align="left">0.9998395</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">4</td>
+<td data-align="left">0.9999720 (density maximum)</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">10</td>
+<td data-align="left">0.9997026</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">15</td>
+<td data-align="left">0.9991026</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">20</td>
+<td data-align="left">0.9982071</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">22</td>
+<td data-align="left">0.9977735</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">25</td>
+<td data-align="left">0.9970479</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">30</td>
+<td data-align="left">0.9956502</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">40</td>
+<td data-align="left">0.9922</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">60</td>
+<td data-align="left">0.9832</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">80</td>
+<td data-align="left">0.9718</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">100</td>
+<td data-align="left">0.9584</td>
+</tr>
+</tbody></table><div class="os-caption-container"><span class="os-title-label">Table </span><span class="os-number">E1</span><span class="os-divider"> </span><span class="os-divider"> </span></div></div>
+
+<span class="scaled-down" data-alt="A line graph is titled “Density of Water as a Function of Temperature.” The x-axis is titled “Temperature, degrees Celsius,” and the y-axis is titled “Density, Kilograms per cubic meter.” A line connects plot points at the coordinates 0 and 999.8395, 4 and 999.9720, 10 and 999.7026, 15 and 999.1026, 20 and 998.2071, 22 and 997.7735, 25 and 997.0479, 30 and 995.6502, 40 and 992.2, 60 and 983.2, 80 and 971.8, and 100 and 958.4. " data-type="media" id="fs-idm271037008">
+<img alt="A line graph is titled “Density of Water as a Function of Temperature.” The x-axis is titled “Temperature, degrees Celsius,” and the y-axis is titled “Density, Kilograms per cubic meter.” A line connects plot points at the coordinates 0 and 999.8395, 4 and 999.9720, 10 and 999.7026, 15 and 999.1026, 20 and 998.2071, 22 and 997.7735, 25 and 997.0479, 30 and 995.6502, 40 and 992.2, 60 and 983.2, 80 and 971.8, and 100 and 958.4. " data-media-type="image/jpeg" id="[redacted for uniqueness]" src="/resources/62a89368c9aabbefeab759149b151c402bc2c4d5"/>
+</span>
+
+<div class="os-table" id="fs-idm352250464"><table class="span-all" data-id="fs-idm352250464" summary="Table E2  "><thead>
+<tr valign="middle">
+<th colspan="3">Water Vapor Pressure at Different Temperatures (°C)</th>
+</tr>
+<tr valign="middle">
+<th data-align="left">Temperature</th>
+<th data-align="left">Vapor Pressure (torr)</th>
+<th data-align="left">Vapor Pressure (Pa)</th>
+</tr>
+</thead><tbody>
+<tr valign="middle">
+<td data-align="left">0</td>
+<td data-align="left">4.6</td>
+<td data-align="left">613.2812</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">4</td>
+<td data-align="left">6.1</td>
+<td data-align="left">813.2642</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">10</td>
+<td data-align="left">9.2</td>
+<td data-align="left">1226.562</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">15</td>
+<td data-align="left">12.8</td>
+<td data-align="left">1706.522</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">20</td>
+<td data-align="left">17.5</td>
+<td data-align="left">2333.135</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">22</td>
+<td data-align="left">19.8</td>
+<td data-align="left">2639.776</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">25</td>
+<td data-align="left">23.8</td>
+<td data-align="left">3173.064</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">30</td>
+<td data-align="left">31.8</td>
+<td data-align="left">4239.64</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">35</td>
+<td data-align="left">42.2</td>
+<td data-align="left">5626.188</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">40</td>
+<td data-align="left">55.3</td>
+<td data-align="left">7372.707</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">45</td>
+<td data-align="left">71.9</td>
+<td data-align="left">9585.852</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">50</td>
+<td data-align="left">92.5</td>
+<td data-align="left">12332.29</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">55</td>
+<td data-align="left">118.0</td>
+<td data-align="left">15732</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">60</td>
+<td data-align="left">149.4</td>
+<td data-align="left">19918.31</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">65</td>
+<td data-align="left">187.5</td>
+<td data-align="left">24997.88</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">70</td>
+<td data-align="left">233.7</td>
+<td data-align="left">31157.35</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">75</td>
+<td data-align="left">289.1</td>
+<td data-align="left">38543.39</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">80</td>
+<td data-align="left">355.1</td>
+<td data-align="left">47342.64</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">85</td>
+<td data-align="left">433.6</td>
+<td data-align="left">57808.42</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">90</td>
+<td data-align="left">525.8</td>
+<td data-align="left">70100.71</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">95</td>
+<td data-align="left">633.9</td>
+<td data-align="left">84512.82</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">100</td>
+<td data-align="left">760.0</td>
+<td data-align="left">101324.7</td>
+</tr>
+</tbody></table><div class="os-caption-container"><span class="os-title-label">Table </span><span class="os-number">E2</span><span class="os-divider"> </span><span class="os-divider"> </span></div></div>
+
+<span class="scaled-down" data-alt="A line graph is titled “Vapor Pressure as a Function of Temperature.” The x-axis is titled “Temperature, degrees Celsius,” and the y-axis is titled “Vapor pressure, torr.” A line connects plot points at the coordinates 0 and 4.6, 4 and 6.1, 10 and 9.2, 15 and 12.8, 20 and 17.5, 22 and 19.8, 25 and 23.8, 30 and 31.8, 35 and 42.2, 40 and 55.3, 45 and 71.9, 50 and 92.5, 55 and 118.0, 60 and 149.4, 65 and 187.5, 70 and 233.7, 75 and 289.1, 80 and 355.1, 85 and 433.6, 90 and 525.8, 95 and 633.9, and 100 and 760.0." data-type="media" id="fs-idm60922784">
+<img alt="A line graph is titled “Vapor Pressure as a Function of Temperature.” The x-axis is titled “Temperature, degrees Celsius,” and the y-axis is titled “Vapor pressure, torr.” A line connects plot points at the coordinates 0 and 4.6, 4 and 6.1, 10 and 9.2, 15 and 12.8, 20 and 17.5, 22 and 19.8, 25 and 23.8, 30 and 31.8, 35 and 42.2, 40 and 55.3, 45 and 71.9, 50 and 92.5, 55 and 118.0, 60 and 149.4, 65 and 187.5, 70 and 233.7, 75 and 289.1, 80 and 355.1, 85 and 433.6, 90 and 525.8, 95 and 633.9, and 100 and 760.0." data-media-type="image/jpeg" id="[redacted for uniqueness]" src="/resources/d97a91c4f6c46cdc121ae10bc16525c4da19a203"/>
+</span>
+
+<div class="os-table" id="fs-idm245013232"><table class="span-all" data-id="fs-idm245013232" summary="Table E3  "><thead>
+<tr valign="middle">
+<th colspan="3">Water K<sub>w</sub> and pK<sub>w</sub> at Different Temperatures (°C)</th>
+</tr>
+<tr valign="middle">
+<th data-align="left">Temperature</th>
+<th data-align="left">K<sub>w</sub> 10<sup>–14</sup></th>
+<th data-align="left">pK<sub>w</sub><sup data-type="footnote-number" id="footnote-ref1"><a data-type="footnote-link" href="#footnote1">1</a></sup></th>
+</tr>
+</thead><tbody>
+<tr valign="middle">
+<td data-align="left">0</td>
+<td data-align="left">0.112</td>
+<td data-align="left">14.95</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">5</td>
+<td data-align="left">0.182</td>
+<td data-align="left">14.74</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">10</td>
+<td data-align="left">0.288</td>
+<td data-align="left">14.54</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">15</td>
+<td data-align="left">0.465</td>
+<td data-align="left">14.33</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">20</td>
+<td data-align="left">0.671</td>
+<td data-align="left">14.17</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">25</td>
+<td data-align="left">0.991</td>
+<td data-align="left">14.00</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">30</td>
+<td data-align="left">1.432</td>
+<td data-align="left">13.84</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">35</td>
+<td data-align="left">2.042</td>
+<td data-align="left">13.69</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">40</td>
+<td data-align="left">2.851</td>
+<td data-align="left">13.55</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">45</td>
+<td data-align="left">3.917</td>
+<td data-align="left">13.41</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">50</td>
+<td data-align="left">5.297</td>
+<td data-align="left">13.28</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">55</td>
+<td data-align="left">7.080</td>
+<td data-align="left">13.15</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">60</td>
+<td data-align="left">9.311</td>
+<td data-align="left">13.03</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">75</td>
+<td data-align="left">19.95</td>
+<td data-align="left">12.70</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">100</td>
+<td data-align="left">56.23</td>
+<td data-align="left">12.25</td>
+</tr>
+</tbody></table><div class="os-caption-container"><span class="os-title-label">Table </span><span class="os-number">E3</span><span class="os-divider"> </span><span class="os-divider"> </span></div></div><span class="scaled-down" data-alt="A line graph is titled “Water pK subscript W as a Function of Temperature.” The x-axis is titled “Temperature, degrees Celsius,” and the y-axis is titled “pK subscript W.” A line connects plot points at the coordinates 0 and 14.95, 5 and 14.74, 10 and 14.54, 15 and 14.33, 20 and 14.17, 25 and 14, 30 and 13.84, 35 and 13.69, 40 and 13.55, 45 and 13.41, 50 and 13.28, 55 and 13.15, 60 and 13.03, 75 and 12.7, and 100 and 12.25." data-type="media" id="fs-idm370140880">
+<img alt="A line graph is titled “Water pK subscript W as a Function of Temperature.” The x-axis is titled “Temperature, degrees Celsius,” and the y-axis is titled “pK subscript W.” A line connects plot points at the coordinates 0 and 14.95, 5 and 14.74, 10 and 14.54, 15 and 14.33, 20 and 14.17, 25 and 14, 30 and 13.84, 35 and 13.69, 40 and 13.55, 45 and 13.41, 50 and 13.28, 55 and 13.15, 60 and 13.03, 75 and 12.7, and 100 and 12.25." data-media-type="image/jpeg" id="[redacted for uniqueness]" src="/resources/3383b90614fdf640c7f3f9f150a0a2e77713dbe8"/>
+</span>
+
+<div class="os-table" id="fs-idm170933296"><table class="span-all" data-id="fs-idm170933296" summary="Table E4  "><thead>
+<tr valign="middle">
+<th data-align="center">Specific Heat Capacity for Water</th>
+</tr>
+</thead><tbody>
+<tr valign="middle">
+<td data-align="left">C°(H<sub>2</sub>O(<em data-effect="italics">l</em>)) = 4.184 J∙g<sup>-1</sup>∙°C<sup>-1</sup></td>
+</tr>
+<tr valign="middle">
+<td data-align="left">C°(H<sub>2</sub>O(<em data-effect="italics">s</em>)) = 1.864 J∙K<sup>−1</sup>∙g<sup>−1</sup></td>
+</tr>
+<tr valign="middle">
+<td data-align="left">C°(H<sub>2</sub>O(<em data-effect="italics">g</em>)) = 2.093 J∙K<sup>−1</sup>∙g<sup>−1</sup></td>
+</tr>
+</tbody></table><div class="os-caption-container"><span class="os-title-label">Table </span><span class="os-number">E4</span><span class="os-divider"> </span><span class="os-divider"> </span></div></div><div class="os-table" id="fs-idm404907328"><table class="span-all" data-id="fs-idm404907328" summary="Table E5  "><thead>
+<tr valign="middle">
+<th colspan="3">Standard Water Melting and Boiling Temperatures and Enthalpies of the Transitions</th>
+</tr>
+<tr valign="middle">
+<th data-align="left"/>
+<th data-align="left">Temperature (K)</th>
+<th data-align="left">Δ<em data-effect="italics">H</em> (kJ/mol)</th>
+</tr>
+</thead><tbody>
+<tr valign="middle">
+<td data-align="left">melting</td>
+<td data-align="left">273.15</td>
+<td data-align="left">6.088</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">boiling</td>
+<td data-align="left">373.15</td>
+<td data-align="left">40.656 (44.016 at 298 K)</td>
+</tr>
+</tbody></table><div class="os-caption-container"><span class="os-title-label">Table </span><span class="os-number">E5</span><span class="os-divider"> </span><span class="os-divider"> </span></div></div>
+
+<div class="os-table" id="fs-idm315598976"><table class="span-all" data-id="fs-idm315598976" summary="Table E6  "><thead>
+<tr valign="middle">
+<th data-align="center">Water Cryoscopic (Freezing Point Depression) and Ebullioscopic (Boiling Point Elevation) Constants</th>
+</tr>
+</thead><tbody>
+<tr valign="middle">
+<td data-align="left">K<sub>f</sub> = 1.86°C∙kg∙mol<sup>−1</sup> (cryoscopic constant)</td>
+</tr>
+<tr valign="middle">
+<td data-align="left">K<sub>b</sub> = 0.51°C∙kg∙mol<sup>−1</sup> (ebullioscopic constant)</td>
+</tr>
+</tbody></table><div class="os-caption-container"><span class="os-title-label">Table </span><span class="os-number">E6</span><span class="os-divider"> </span><span class="os-divider"> </span></div></div><div class="os-figure" id="CNX_Chem_00_EE_LiqWatAbso"><figure data-id="CNX_Chem_00_EE_LiqWatAbso"><span data-alt="A line graph is titled “Water Full-Range Spectral Absorption Curve.” The x-axis is titled “Wavelength” and the y-axis is titled “Absorption ( 1 per meter ).” Evenly spaced tick marks on the x-axis denote 10 nanometers, 100 nanometers, 1 micrometer, 10 micrometers, 100 micrometers, 1 millimeter, and 10 millimeters. Evenly spaced tick marks on the y-axis denote 10 superscript negative two, 10 superscript negative one, 10 superscript zero, 10 superscript one, 10 superscript two, 10 superscript three, 10 superscript four, 10 superscript five, 10 superscript six, 10 superscript seven, and 10 superscript eight. Above the graph, horizontal lines indicate the range of wavelengths for U V, V I S, near I R , mid I R , far I R , and E H F. The graph contains one line that begins at 10 nanometers and a little more than 10 superscript six. Moving from left to right, this line ascends gradually until it reaches a point near 100 nanometers and 10 superscript eight. From this point, the line steeply descends to a point a little more than halfway between 100 nanometers and 1 micrometer, and slightly more than 10 superscript two. This point indicates the end of the range labeled “U V” and the beginning of the range labeled “V I S.” The range labeled “V I S” is shaded with a color spectrum including the full range of Roy G Biv colors. Here, the line briefly descends in the same path as before, and then steeply ascends to a point near 1 micrometer and 10 superscript zero. This point indicates the end of the range labeled “V I S” and the beginning of the range labeled “near I R.” The line continues its steep ascent, with short, abrupt descents in between, until it reaches a point a little more than halfway between 1 micrometer and 10 micrometers, and a little more than 10 superscript six. This point indicates the end of the range labeled “near I R” and the beginning of the range labeled “mid I R.” Here, the line moves steeply and sporadically up and down until it reaches a point a little more than halfway between 10 micrometers and 100 micrometers, and slightly more than 10 superscript five. This point indicates the end of the range labeled “Mid I R” and the beginning of the range labeled “Far I R.” The line descends very gradually to a point slightly more than 1 millimeter and slightly more than 10 superscript four. This point indicates the end of the range labeled “Far I R” and the beginning of the range labeled “E H F.” The line continues its gradual descent to 10 millimeters and slightly more than 10 superscript three. This point indicates the end of the range labeled “E H F.”" data-type="media" id="fs-idm364999968">
+<img alt="A line graph is titled “Water Full-Range Spectral Absorption Curve.” The x-axis is titled “Wavelength” and the y-axis is titled “Absorption ( 1 per meter ).” Evenly spaced tick marks on the x-axis denote 10 nanometers, 100 nanometers, 1 micrometer, 10 micrometers, 100 micrometers, 1 millimeter, and 10 millimeters. Evenly spaced tick marks on the y-axis denote 10 superscript negative two, 10 superscript negative one, 10 superscript zero, 10 superscript one, 10 superscript two, 10 superscript three, 10 superscript four, 10 superscript five, 10 superscript six, 10 superscript seven, and 10 superscript eight. Above the graph, horizontal lines indicate the range of wavelengths for U V, V I S, near I R , mid I R , far I R , and E H F. The graph contains one line that begins at 10 nanometers and a little more than 10 superscript six. Moving from left to right, this line ascends gradually until it reaches a point near 100 nanometers and 10 superscript eight. From this point, the line steeply descends to a point a little more than halfway between 100 nanometers and 1 micrometer, and slightly more than 10 superscript two. This point indicates the end of the range labeled “U V” and the beginning of the range labeled “V I S.” The range labeled “V I S” is shaded with a color spectrum including the full range of Roy G Biv colors. Here, the line briefly descends in the same path as before, and then steeply ascends to a point near 1 micrometer and 10 superscript zero. This point indicates the end of the range labeled “V I S” and the beginning of the range labeled “near I R.” The line continues its steep ascent, with short, abrupt descents in between, until it reaches a point a little more than halfway between 1 micrometer and 10 micrometers, and a little more than 10 superscript six. This point indicates the end of the range labeled “near I R” and the beginning of the range labeled “mid I R.” Here, the line moves steeply and sporadically up and down until it reaches a point a little more than halfway between 10 micrometers and 100 micrometers, and slightly more than 10 superscript five. This point indicates the end of the range labeled “Mid I R” and the beginning of the range labeled “Far I R.” The line descends very gradually to a point slightly more than 1 millimeter and slightly more than 10 superscript four. This point indicates the end of the range labeled “Far I R” and the beginning of the range labeled “E H F.” The line continues its gradual descent to 10 millimeters and slightly more than 10 superscript three. This point indicates the end of the range labeled “E H F.”" data-media-type="image/jpeg" id="[redacted for uniqueness]" src="/resources/9e80b5758ba32e5594f5d8fbc711714b9ea1adf7"/>
+</span>
+</figure><div class="os-caption-container"><span class="os-title-label">Figure </span><span class="os-number">E1</span><span class="os-divider"> </span><span class="os-divider"> </span><span class="os-caption">The plot shows the extent of light absorption versus wavelength for water. Absorption is reported in reciprocal meters and corresponds to the inverse of the distance light may travel through water before its intensity is diminished by 1/<em data-effect="italics">e</em> (~37%).</span></div></div><div data-type="footnote-refs" id="[redacted for uniqueness]"><h3 data-type="footnote-refs-title">Footnotes</h3><ul data-bullet-style="none" data-list-type="bulleted"><li data-type="footnote-ref" id="footnote1"><a data-type="footnote-ref-link" href="#footnote-ref1">1</a> <span data-type="footnote-ref-content">pK<sub>w</sub> = –log<sub>10</sub>(K<sub>w</sub>)</span></li></ul></div>
+  </div></div>

@@ -1,0 +1,715 @@
+<div class="os-eoc os-exercises-container" data-type="composite-page" data-uuid-key=".exercises"><section class="exercises" data-depth="1" id="fs-idp54308864"><h3 data-type="document-title" id="[redacted for uniqueness]"><span class="os-number">14.1</span><span class="os-divider"> </span><span class="os-text">Brønsted-Lowry Acids and Bases</span></h3>
+<div class=" os-hasSolution " data-type="exercise" id="fs-idm60626080">
+<div data-type="problem" id="fs-idp162036144"><a class="os-number" href="chapter-14#fs-idm60626080-solution">1</a><span class="os-divider">. </span><div class="os-problem-container">
+<p id="fs-idp39429472">Write equations that show NH<sub>3</sub> as both a conjugate acid and a conjugate base.</p>
+</div></div>
+
+</div>
+<div class=" " data-type="exercise" id="fs-idm85056096">
+<div data-type="problem" id="fs-idm122543856"><span class="os-number">2</span><span class="os-divider">. </span><div class="os-problem-container">
+<p id="fs-idm76240592">Write equations that show <math display="inline"><semantics><mrow><mrow><msub><mtext>H</mtext><mn>2</mn></msub><msub><mrow><mtext>PO</mtext></mrow><mn>4</mn></msub><msup><mrow/><mtext>−</mtext></msup></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><msub><mtext>H</mtext><mn>2</mn></msub><msub><mrow><mtext>PO</mtext></mrow><mn>4</mn></msub><msup><mrow/><mtext>−</mtext></msup></mrow></annotation-xml></semantics></math> acting both as an acid and as a base.</p>
+</div></div>
+</div>
+<div class=" os-hasSolution " data-type="exercise" id="fs-idm113554592">
+<div data-type="problem" id="fs-idm156498544"><a class="os-number" href="chapter-14#fs-idm113554592-solution">3</a><span class="os-divider">. </span><div class="os-problem-container">
+<p id="fs-idm131188800">Show by suitable net ionic equations that each of the following species can act as a Brønsted-Lowry acid:</p>
+<p id="fs-idm63991168">(a) <math display="inline"><semantics><mrow><mrow><msub><mtext>H</mtext><mn>3</mn></msub><msup><mtext>O</mtext><mtext>+</mtext></msup></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><msub><mtext>H</mtext><mn>3</mn></msub><msup><mtext>O</mtext><mtext>+</mtext></msup></mrow></annotation-xml></semantics></math></p>
+<p id="fs-idm142339888">(b) HCl</p>
+<p id="fs-idp110497056">(c) NH<sub>3</sub></p>
+<p id="fs-idm38085392">(d) CH<sub>3</sub>CO<sub>2</sub>H</p>
+<p id="fs-idm9604048">(e) <math display="inline"><semantics><mrow><mrow><msub><mrow><mtext>NH</mtext></mrow><mn>4</mn></msub><msup><mrow/><mtext>+</mtext></msup></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><msub><mrow><mtext>NH</mtext></mrow><mn>4</mn></msub><msup><mrow/><mtext>+</mtext></msup></mrow></annotation-xml></semantics></math></p>
+<p id="fs-idm110555120">(f) <math display="inline"><semantics><mrow><mrow><msub><mrow><mtext>HSO</mtext></mrow><mn>4</mn></msub><msup><mrow/><mtext>−</mtext></msup></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><msub><mrow><mtext>HSO</mtext></mrow><mn>4</mn></msub><msup><mrow/><mtext>−</mtext></msup></mrow></annotation-xml></semantics></math></p>
+</div></div>
+
+</div>
+<div class=" " data-type="exercise" id="fs-idm76406352">
+<div data-type="problem" id="fs-idp63177056"><span class="os-number">4</span><span class="os-divider">. </span><div class="os-problem-container">
+<p id="fs-idp39629680">Show by suitable net ionic equations that each of the following species can act as a Brønsted-Lowry acid:</p>
+<p id="fs-idm111824352">(a) HNO<sub>3</sub></p>
+<p id="fs-idp65428064">(b) <math display="inline"><semantics><mrow><mrow><msub><mrow><mtext>PH</mtext></mrow><mn>4</mn></msub><msup><mrow/><mtext>+</mtext></msup></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><msub><mrow><mtext>PH</mtext></mrow><mn>4</mn></msub><msup><mrow/><mtext>+</mtext></msup></mrow></annotation-xml></semantics></math></p>
+<p id="fs-idp108440016">(c) H<sub>2</sub>S</p>
+<p id="fs-idm26011568">(d) CH<sub>3</sub>CH<sub>2</sub>COOH</p>
+<p id="fs-idp45752304">(e) <math display="inline"><semantics><mrow><mrow><msub><mtext>H</mtext><mn>2</mn></msub><msub><mrow><mtext>PO</mtext></mrow><mn>4</mn></msub><msup><mrow/><mtext>−</mtext></msup></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><msub><mtext>H</mtext><mn>2</mn></msub><msub><mrow><mtext>PO</mtext></mrow><mn>4</mn></msub><msup><mrow/><mtext>−</mtext></msup></mrow></annotation-xml></semantics></math></p>
+<p id="fs-idp2334688">(f) HS<sup>−</sup></p>
+</div></div>
+</div>
+<div class=" os-hasSolution " data-type="exercise" id="fs-idm62968960">
+<div data-type="problem" id="fs-idp42216528"><a class="os-number" href="chapter-14#fs-idm62968960-solution">5</a><span class="os-divider">. </span><div class="os-problem-container">
+<p id="fs-idp64543248">Show by suitable net ionic equations that each of the following species can act as a Brønsted-Lowry base:</p>
+<p id="fs-idm140465632">(a) H<sub>2</sub>O</p>
+<p id="fs-idp7944192">(b) OH<sup>−</sup></p>
+<p id="fs-idm15603728">(c) NH<sub>3</sub></p>
+<p id="fs-idm52853984">(d) CN<sup>−</sup></p>
+<p id="fs-idp57542176">(e) S<sup>2−</sup></p>
+<p id="fs-idm103657360">(f) <math display="inline"><semantics><mrow><mrow><msub><mtext>H</mtext><mn>2</mn></msub><msub><mrow><mtext>PO</mtext></mrow><mn>4</mn></msub><msup><mrow/><mtext>−</mtext></msup></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><msub><mtext>H</mtext><mn>2</mn></msub><msub><mrow><mtext>PO</mtext></mrow><mn>4</mn></msub><msup><mrow/><mtext>−</mtext></msup></mrow></annotation-xml></semantics></math></p>
+</div></div>
+
+</div>
+<div class=" " data-type="exercise" id="fs-idm3064240">
+<div data-type="problem" id="fs-idm78845376"><span class="os-number">6</span><span class="os-divider">. </span><div class="os-problem-container">
+<p id="fs-idm58949056">Show by suitable net ionic equations that each of the following species can act as a Brønsted-Lowry base:</p>
+<p id="fs-idp78211840">(a) HS<sup>−</sup></p>
+<p id="fs-idm164428640">(b) <math display="inline"><semantics><mrow><mrow><msub><mrow><mtext>PO</mtext></mrow><mn>4</mn></msub><msup><mrow/><mtext>3−</mtext></msup></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><msub><mrow><mtext>PO</mtext></mrow><mn>4</mn></msub><msup><mrow/><mtext>3−</mtext></msup></mrow></annotation-xml></semantics></math></p>
+<p id="fs-idm101619504">(c) <math display="inline"><semantics><mrow><mrow><msub><mrow><mtext>NH</mtext></mrow><mn>2</mn></msub><msup><mrow/><mtext>−</mtext></msup></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><msub><mrow><mtext>NH</mtext></mrow><mn>2</mn></msub><msup><mrow/><mtext>−</mtext></msup></mrow></annotation-xml></semantics></math></p>
+<p id="fs-idm40609664">(d) C<sub>2</sub>H<sub>5</sub>OH</p>
+<p id="fs-idm24630304">(e) O<sup>2−</sup></p>
+<p id="fs-idp6810144">(f) <math display="inline"><semantics><mrow><mrow><msub><mtext>H</mtext><mn>2</mn></msub><msub><mrow><mtext>PO</mtext></mrow><mn>4</mn></msub><msup><mrow/><mtext>−</mtext></msup></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><msub><mtext>H</mtext><mn>2</mn></msub><msub><mrow><mtext>PO</mtext></mrow><mn>4</mn></msub><msup><mrow/><mtext>−</mtext></msup></mrow></annotation-xml></semantics></math></p>
+</div></div>
+</div>
+<div class=" os-hasSolution " data-type="exercise" id="fs-idm53911232">
+<div data-type="problem" id="fs-idm111242864"><a class="os-number" href="chapter-14#fs-idm53911232-solution">7</a><span class="os-divider">. </span><div class="os-problem-container">
+<p id="fs-idp43035984">What is the conjugate acid of each of the following? What is the conjugate base of each?</p>
+<p id="fs-idp92519136">(a) OH<sup>−</sup></p>
+<p id="fs-idp108422592">(b) H<sub>2</sub>O</p>
+<p id="fs-idm29493664">(c) <math display="inline"><semantics><mrow><mrow><msub><mrow><mtext>HCO</mtext></mrow><mn>3</mn></msub><msup><mrow/><mtext>−</mtext></msup></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><msub><mrow><mtext>HCO</mtext></mrow><mn>3</mn></msub><msup><mrow/><mtext>−</mtext></msup></mrow></annotation-xml></semantics></math></p>
+<p id="fs-idp105168352">(d) NH<sub>3</sub></p>
+<p id="fs-idm129147968">(e) <math display="inline"><semantics><mrow><mrow><msub><mrow><mtext>HSO</mtext></mrow><mn>4</mn></msub><msup><mrow/><mtext>−</mtext></msup></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><msub><mrow><mtext>HSO</mtext></mrow><mn>4</mn></msub><msup><mrow/><mtext>−</mtext></msup></mrow></annotation-xml></semantics></math></p>
+<p id="fs-idm14571504">(f) H<sub>2</sub>O<sub>2</sub></p>
+<p id="fs-idm9941120">(g) HS<sup>−</sup></p>
+<p id="fs-idm41248960">(h) <math display="inline"><semantics><mrow><mrow><msub><mtext>H</mtext><mn>5</mn></msub><msub><mtext>N</mtext><mn>2</mn></msub><msup><mrow/><mtext>+</mtext></msup></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><msub><mtext>H</mtext><mn>5</mn></msub><msub><mtext>N</mtext><mn>2</mn></msub><msup><mrow/><mtext>+</mtext></msup></mrow></annotation-xml></semantics></math></p>
+</div></div>
+
+</div>
+<div class=" " data-type="exercise" id="fs-idm70827280">
+<div data-type="problem" id="fs-idp99643680"><span class="os-number">8</span><span class="os-divider">. </span><div class="os-problem-container">
+<p id="fs-idp121488752">What is the conjugate acid of each of the following? What is the conjugate base of each?</p>
+<p id="fs-idp114804192">(a) H<sub>2</sub>S</p>
+<p id="fs-idp11917136">(b) <math display="inline"><semantics><mrow><mrow><msub><mtext>H</mtext><mn>2</mn></msub><msub><mrow><mtext>PO</mtext></mrow><mn>4</mn></msub><msup><mrow/><mtext>−</mtext></msup></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><msub><mtext>H</mtext><mn>2</mn></msub><msub><mrow><mtext>PO</mtext></mrow><mn>4</mn></msub><msup><mrow/><mtext>−</mtext></msup></mrow></annotation-xml></semantics></math></p>
+<p id="fs-idp124267344">(c) PH<sub>3</sub></p>
+<p id="fs-idp45943440">(d) HS<sup>−</sup></p>
+<p id="fs-idm168208">(e) <math display="inline"><semantics><mrow><mrow><msub><mrow><mtext>HSO</mtext></mrow><mn>3</mn></msub><msup><mrow/><mtext>−</mtext></msup></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><msub><mrow><mtext>HSO</mtext></mrow><mn>3</mn></msub><msup><mrow/><mtext>−</mtext></msup></mrow></annotation-xml></semantics></math></p>
+<p id="fs-idm121135808">(f) <math display="inline"><semantics><mrow><mrow><msub><mtext>H</mtext><mn>3</mn></msub><msub><mtext>O</mtext><mn>2</mn></msub><msup><mrow/><mtext>+</mtext></msup></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><msub><mtext>H</mtext><mn>3</mn></msub><msub><mtext>O</mtext><mn>2</mn></msub><msup><mrow/><mtext>+</mtext></msup></mrow></annotation-xml></semantics></math></p>
+<p id="fs-idm61545104">(g) H<sub>4</sub>N<sub>2</sub></p>
+<p id="fs-idp113941264">(h) CH<sub>3</sub>OH</p>
+</div></div>
+</div>
+<div class=" os-hasSolution " data-type="exercise" id="fs-idp110525216">
+<div data-type="problem" id="fs-idp91598560"><a class="os-number" href="chapter-14#fs-idp110525216-solution">9</a><span class="os-divider">. </span><div class="os-problem-container">
+<p id="fs-idm70879264">Identify and label the Brønsted-Lowry acid, its conjugate base, the Brønsted-Lowry base, and its conjugate acid in each of the following equations:</p>
+<p id="fs-idm43665216">(a) <math display="inline"><semantics><mrow><mrow><msub><mrow><mtext>HNO</mtext></mrow><mn>3</mn></msub><mo>+</mo><msub><mtext>H</mtext><mn>2</mn></msub><mtext>O</mtext><mspace width="0.2em"/><mo stretchy="false">⟶</mo><mspace width="0.2em"/><msub><mtext>H</mtext><mn>3</mn></msub><msup><mtext>O</mtext><mtext>+</mtext></msup><mo>+</mo><msub><mrow><mtext>NO</mtext></mrow><mn>3</mn></msub><msup><mrow/><mtext>−</mtext></msup></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><msub><mrow><mtext>HNO</mtext></mrow><mn>3</mn></msub><mo>+</mo><msub><mtext>H</mtext><mn>2</mn></msub><mtext>O</mtext><mspace width="0.2em"/><mo stretchy="false">⟶</mo><mspace width="0.2em"/><msub><mtext>H</mtext><mn>3</mn></msub><msup><mtext>O</mtext><mtext>+</mtext></msup><mo>+</mo><msub><mrow><mtext>NO</mtext></mrow><mn>3</mn></msub><msup><mrow/><mtext>−</mtext></msup></mrow></annotation-xml></semantics></math></p>
+<p id="fs-idm102634736">(b) <math display="inline"><semantics><mrow><mrow><msup><mrow><mtext>CN</mtext></mrow><mtext>−</mtext></msup><mo>+</mo><msub><mtext>H</mtext><mn>2</mn></msub><mtext>O</mtext><mspace width="0.2em"/><mo stretchy="false">⟶</mo><mspace width="0.2em"/><mtext>HCN</mtext><mo>+</mo><msup><mrow><mtext>OH</mtext></mrow><mtext>−</mtext></msup></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><msup><mrow><mtext>CN</mtext></mrow><mtext>−</mtext></msup><mo>+</mo><msub><mtext>H</mtext><mn>2</mn></msub><mtext>O</mtext><mspace width="0.2em"/><mo stretchy="false">⟶</mo><mspace width="0.2em"/><mtext>HCN</mtext><mo>+</mo><msup><mrow><mtext>OH</mtext></mrow><mtext>−</mtext></msup></mrow></annotation-xml></semantics></math></p>
+<p id="fs-idp63202032">(c) <math display="inline"><semantics><mrow><mrow><msub><mtext>H</mtext><mn>2</mn></msub><msub><mrow><mtext>SO</mtext></mrow><mn>4</mn></msub><mo>+</mo><msup><mrow><mtext>Cl</mtext></mrow><mtext>−</mtext></msup><mspace width="0.2em"/><mo stretchy="false">⟶</mo><mspace width="0.2em"/><mtext>HCl</mtext><mo>+</mo><msub><mrow><mtext>HSO</mtext></mrow><mn>4</mn></msub><msup><mrow/><mtext>−</mtext></msup></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><msub><mtext>H</mtext><mn>2</mn></msub><msub><mrow><mtext>SO</mtext></mrow><mn>4</mn></msub><mo>+</mo><msup><mrow><mtext>Cl</mtext></mrow><mtext>−</mtext></msup><mspace width="0.2em"/><mo stretchy="false">⟶</mo><mspace width="0.2em"/><mtext>HCl</mtext><mo>+</mo><msub><mrow><mtext>HSO</mtext></mrow><mn>4</mn></msub><msup><mrow/><mtext>−</mtext></msup></mrow></annotation-xml></semantics></math></p>
+<p id="fs-idm69025392">(d) <math display="inline"><semantics><mrow><mrow><msub><mrow><mtext>HSO</mtext></mrow><mn>4</mn></msub><msup><mrow/><mtext>−</mtext></msup><mo>+</mo><msup><mrow><mtext>OH</mtext></mrow><mtext>−</mtext></msup><mspace width="0.2em"/><mo stretchy="false">⟶</mo><mspace width="0.2em"/><msub><mrow><mtext>SO</mtext></mrow><mn>4</mn></msub><msup><mrow/><mtext>2−</mtext></msup><mo>+</mo><msub><mtext>H</mtext><mn>2</mn></msub><mtext>O</mtext></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><msub><mrow><mtext>HSO</mtext></mrow><mn>4</mn></msub><msup><mrow/><mtext>−</mtext></msup><mo>+</mo><msup><mrow><mtext>OH</mtext></mrow><mtext>−</mtext></msup><mspace width="0.2em"/><mo stretchy="false">⟶</mo><mspace width="0.2em"/><msub><mrow><mtext>SO</mtext></mrow><mn>4</mn></msub><msup><mrow/><mtext>2−</mtext></msup><mo>+</mo><msub><mtext>H</mtext><mn>2</mn></msub><mtext>O</mtext></mrow></annotation-xml></semantics></math></p>
+<p id="fs-idm83877664">(e) <math display="inline"><semantics><mrow><mrow><msup><mtext>O</mtext><mrow><mn>2−</mn></mrow></msup><mo>+</mo><msub><mtext>H</mtext><mn>2</mn></msub><mtext>O</mtext><mspace width="0.2em"/><mo stretchy="false">⟶</mo><mspace width="0.2em"/><mn>2</mn><msup><mrow><mi>OH</mi></mrow><mtext>−</mtext></msup></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><msup><mtext>O</mtext><mrow><mn>2−</mn></mrow></msup><mo>+</mo><msub><mtext>H</mtext><mn>2</mn></msub><mtext>O</mtext><mspace width="0.2em"/><mo stretchy="false">⟶</mo><mspace width="0.2em"/><mn>2</mn><msup><mrow><mi>OH</mi></mrow><mtext>−</mtext></msup></mrow></annotation-xml></semantics></math></p>
+<p id="fs-idp54858608">(f) <math display="inline"><semantics><mrow><mrow><msup><mrow><mo stretchy="false">[</mo><mtext>Cu</mtext><msub><mrow><mo stretchy="false">(</mo><msub><mtext>H</mtext><mn>2</mn></msub><mtext>O</mtext><mo stretchy="false">)</mo></mrow><mn>3</mn></msub><mo stretchy="false">(</mo><mtext>OH</mtext><mo stretchy="false">)</mo><mo stretchy="false">]</mo></mrow><mtext>+</mtext></msup><mo>+</mo><msup><mrow><mo stretchy="false">[</mo><mtext>Al</mtext><msub><mrow><mo stretchy="false">(</mo><msub><mtext>H</mtext><mn>2</mn></msub><mtext>O</mtext><mo stretchy="false">)</mo></mrow><mn>6</mn></msub><mo stretchy="false">]</mo></mrow><mrow><mn>3+</mn></mrow></msup><mspace width="0.2em"/><mo stretchy="false">⟶</mo><mspace width="0.2em"/><msup><mrow><mo stretchy="false">[</mo><mtext>Cu</mtext><msub><mrow><mo stretchy="false">(</mo><msub><mtext>H</mtext><mn>2</mn></msub><mtext>O</mtext><mo stretchy="false">)</mo></mrow><mn>4</mn></msub><mo stretchy="false">]</mo></mrow><mrow><mn>2+</mn></mrow></msup><mo>+</mo><msup><mrow><mo stretchy="false">[</mo><mtext>Al</mtext><msub><mrow><mo stretchy="false">(</mo><msub><mtext>H</mtext><mn>2</mn></msub><mtext>O</mtext><mo stretchy="false">)</mo></mrow><mn>5</mn></msub><mo stretchy="false">(</mo><mtext>OH</mtext><mo stretchy="false">)</mo><mo stretchy="false">]</mo></mrow><mrow><mn>2+</mn></mrow></msup></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><msup><mrow><mo stretchy="false">[</mo><mtext>Cu</mtext><msub><mrow><mo stretchy="false">(</mo><msub><mtext>H</mtext><mn>2</mn></msub><mtext>O</mtext><mo stretchy="false">)</mo></mrow><mn>3</mn></msub><mo stretchy="false">(</mo><mtext>OH</mtext><mo stretchy="false">)</mo><mo stretchy="false">]</mo></mrow><mtext>+</mtext></msup><mo>+</mo><msup><mrow><mo stretchy="false">[</mo><mtext>Al</mtext><msub><mrow><mo stretchy="false">(</mo><msub><mtext>H</mtext><mn>2</mn></msub><mtext>O</mtext><mo stretchy="false">)</mo></mrow><mn>6</mn></msub><mo stretchy="false">]</mo></mrow><mrow><mn>3+</mn></mrow></msup><mspace width="0.2em"/><mo stretchy="false">⟶</mo><mspace width="0.2em"/><msup><mrow><mo stretchy="false">[</mo><mtext>Cu</mtext><msub><mrow><mo stretchy="false">(</mo><msub><mtext>H</mtext><mn>2</mn></msub><mtext>O</mtext><mo stretchy="false">)</mo></mrow><mn>4</mn></msub><mo stretchy="false">]</mo></mrow><mrow><mn>2+</mn></mrow></msup><mo>+</mo><msup><mrow><mo stretchy="false">[</mo><mtext>Al</mtext><msub><mrow><mo stretchy="false">(</mo><msub><mtext>H</mtext><mn>2</mn></msub><mtext>O</mtext><mo stretchy="false">)</mo></mrow><mn>5</mn></msub><mo stretchy="false">(</mo><mtext>OH</mtext><mo stretchy="false">)</mo><mo stretchy="false">]</mo></mrow><mrow><mn>2+</mn></mrow></msup></mrow></annotation-xml></semantics></math></p>
+<p id="fs-idp162027888">(g) <math display="inline"><semantics><mrow><mrow><msub><mtext>H</mtext><mn>2</mn></msub><mtext>S</mtext><mo>+</mo><msub><mrow><mtext>NH</mtext></mrow><mn>2</mn></msub><msup><mrow/><mtext>−</mtext></msup><mspace width="0.2em"/><mo stretchy="false">⟶</mo><mspace width="0.2em"/><msup><mrow><mtext>HS</mtext></mrow><mtext>−</mtext></msup><mo>+</mo><msub><mrow><mtext>NH</mtext></mrow><mn>3</mn></msub></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><msub><mtext>H</mtext><mn>2</mn></msub><mtext>S</mtext><mo>+</mo><msub><mrow><mtext>NH</mtext></mrow><mn>2</mn></msub><msup><mrow/><mtext>−</mtext></msup><mspace width="0.2em"/><mo stretchy="false">⟶</mo><mspace width="0.2em"/><msup><mrow><mtext>HS</mtext></mrow><mtext>−</mtext></msup><mo>+</mo><msub><mrow><mtext>NH</mtext></mrow><mn>3</mn></msub></mrow></annotation-xml></semantics></math></p>
+</div></div>
+
+</div>
+<div class=" " data-type="exercise" id="fs-idp141145072">
+<div data-type="problem" id="fs-idp54730512"><span class="os-number">10</span><span class="os-divider">. </span><div class="os-problem-container">
+<p id="fs-idm10626272">Identify and label the Brønsted-Lowry acid, its conjugate base, the Brønsted-Lowry base, and its conjugate acid in each of the following equations:</p>
+<p id="fs-idm22065776">(a) <math display="inline"><semantics><mrow><mrow><msub><mrow><mtext>NO</mtext></mrow><mn>2</mn></msub><msup><mrow/><mtext>−</mtext></msup><mo>+</mo><msub><mtext>H</mtext><mn>2</mn></msub><mtext>O</mtext><mspace width="0.2em"/><mo stretchy="false">⟶</mo><mspace width="0.2em"/><msub><mrow><mtext>HNO</mtext></mrow><mn>2</mn></msub><mo>+</mo><msup><mrow><mtext>OH</mtext></mrow><mtext>−</mtext></msup></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><msub><mrow><mtext>NO</mtext></mrow><mn>2</mn></msub><msup><mrow/><mtext>−</mtext></msup><mo>+</mo><msub><mtext>H</mtext><mn>2</mn></msub><mtext>O</mtext><mspace width="0.2em"/><mo stretchy="false">⟶</mo><mspace width="0.2em"/><msub><mrow><mtext>HNO</mtext></mrow><mn>2</mn></msub><mo>+</mo><msup><mrow><mtext>OH</mtext></mrow><mtext>−</mtext></msup></mrow></annotation-xml></semantics></math></p>
+<p id="fs-idm39326416">(b) <math display="inline"><semantics><mrow><mrow><mtext>HBr</mtext><mo>+</mo><msub><mtext>H</mtext><mn>2</mn></msub><mtext>O</mtext><mspace width="0.2em"/><mo stretchy="false">⟶</mo><mspace width="0.2em"/><msub><mtext>H</mtext><mn>3</mn></msub><msup><mtext>O</mtext><mtext>+</mtext></msup><mo>+</mo><msup><mrow><mtext>Br</mtext></mrow><mtext>−</mtext></msup></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><mtext>HBr</mtext><mo>+</mo><msub><mtext>H</mtext><mn>2</mn></msub><mtext>O</mtext><mspace width="0.2em"/><mo stretchy="false">⟶</mo><mspace width="0.2em"/><msub><mtext>H</mtext><mn>3</mn></msub><msup><mtext>O</mtext><mtext>+</mtext></msup><mo>+</mo><msup><mrow><mtext>Br</mtext></mrow><mtext>−</mtext></msup></mrow></annotation-xml></semantics></math></p>
+<p id="fs-idp65242432">(c) <math display="inline"><semantics><mrow><mrow><msup><mrow><mtext>HS</mtext></mrow><mtext>−</mtext></msup><mo>+</mo><msub><mtext>H</mtext><mn>2</mn></msub><mtext>O</mtext><mspace width="0.2em"/><mo stretchy="false">⟶</mo><mspace width="0.2em"/><msub><mtext>H</mtext><mn>2</mn></msub><mtext>S</mtext><mo>+</mo><msup><mrow><mtext>OH</mtext></mrow><mtext>−</mtext></msup></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><msup><mrow><mtext>HS</mtext></mrow><mtext>−</mtext></msup><mo>+</mo><msub><mtext>H</mtext><mn>2</mn></msub><mtext>O</mtext><mspace width="0.2em"/><mo stretchy="false">⟶</mo><mspace width="0.2em"/><msub><mtext>H</mtext><mn>2</mn></msub><mtext>S</mtext><mo>+</mo><msup><mrow><mtext>OH</mtext></mrow><mtext>−</mtext></msup></mrow></annotation-xml></semantics></math></p>
+<p id="fs-idm107019184">(d) <math display="inline"><semantics><mrow><mrow><msub><mtext>H</mtext><mn>2</mn></msub><msub><mrow><mtext>PO</mtext></mrow><mn>4</mn></msub><msup><mrow/><mtext>−</mtext></msup><mo>+</mo><msup><mrow><mtext>OH</mtext></mrow><mtext>−</mtext></msup><mspace width="0.2em"/><mo stretchy="false">⟶</mo><mspace width="0.2em"/><msub><mrow><mtext>HPO</mtext></mrow><mn>4</mn></msub><msup><mrow/><mtext>2−</mtext></msup><mo>+</mo><msub><mtext>H</mtext><mn>2</mn></msub><mtext>O</mtext></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><msub><mtext>H</mtext><mn>2</mn></msub><msub><mrow><mtext>PO</mtext></mrow><mn>4</mn></msub><msup><mrow/><mtext>−</mtext></msup><mo>+</mo><msup><mrow><mtext>OH</mtext></mrow><mtext>−</mtext></msup><mspace width="0.2em"/><mo stretchy="false">⟶</mo><mspace width="0.2em"/><msub><mrow><mtext>HPO</mtext></mrow><mn>4</mn></msub><msup><mrow/><mtext>2−</mtext></msup><mo>+</mo><msub><mtext>H</mtext><mn>2</mn></msub><mtext>O</mtext></mrow></annotation-xml></semantics></math></p>
+<p id="fs-idm103505504">(e) <math display="inline"><semantics><mrow><mrow><msub><mtext>H</mtext><mn>2</mn></msub><msub><mrow><mtext>PO</mtext></mrow><mn>4</mn></msub><msup><mrow/><mtext>−</mtext></msup><mo>+</mo><mtext>HCl</mtext><mspace width="0.2em"/><mo stretchy="false">⟶</mo><mspace width="0.2em"/><msub><mtext>H</mtext><mn>3</mn></msub><msub><mrow><mtext>PO</mtext></mrow><mn>4</mn></msub><mo>+</mo><msup><mrow><mtext>Cl</mtext></mrow><mtext>−</mtext></msup></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><msub><mtext>H</mtext><mn>2</mn></msub><msub><mrow><mtext>PO</mtext></mrow><mn>4</mn></msub><msup><mrow/><mtext>−</mtext></msup><mo>+</mo><mtext>HCl</mtext><mspace width="0.2em"/><mo stretchy="false">⟶</mo><mspace width="0.2em"/><msub><mtext>H</mtext><mn>3</mn></msub><msub><mrow><mtext>PO</mtext></mrow><mn>4</mn></msub><mo>+</mo><msup><mrow><mtext>Cl</mtext></mrow><mtext>−</mtext></msup></mrow></annotation-xml></semantics></math></p>
+<p id="fs-idm69318576">(f) <math display="inline"><semantics><mrow><mrow><msup><mrow><mo stretchy="false">[</mo><mtext>Fe</mtext><msub><mrow><mo stretchy="false">(</mo><msub><mtext>H</mtext><mn>2</mn></msub><mtext>O</mtext><mo stretchy="false">)</mo></mrow><mn>5</mn></msub><mo stretchy="false">(</mo><mtext>OH</mtext><mo stretchy="false">)</mo><mo stretchy="false">]</mo></mrow><mrow><mn>2+</mn></mrow></msup><mo>+</mo><msup><mrow><mo stretchy="false">[</mo><mtext>Al</mtext><msub><mrow><mo stretchy="false">(</mo><msub><mtext>H</mtext><mn>2</mn></msub><mtext>O</mtext><mo stretchy="false">)</mo></mrow><mn>6</mn></msub><mo stretchy="false">]</mo></mrow><mrow><mn>3+</mn></mrow></msup><mspace width="0.2em"/><mo stretchy="false">⟶</mo><mspace width="0.2em"/><msup><mrow><mtext>[Fe</mtext><msub><mrow><mo stretchy="false">(</mo><msub><mtext>H</mtext><mn>2</mn></msub><mtext>O</mtext><mo stretchy="false">)</mo></mrow><mn>6</mn></msub><mo stretchy="false">]</mo></mrow><mrow><mn>3+</mn></mrow></msup><mo>+</mo><msup><mrow><mo stretchy="false">[</mo><mtext>Al</mtext><msub><mrow><mo stretchy="false">(</mo><msub><mtext>H</mtext><mn>2</mn></msub><mtext>O</mtext><mo stretchy="false">)</mo></mrow><mn>5</mn></msub><mo stretchy="false">(</mo><mtext>OH</mtext><mo stretchy="false">)</mo><mo stretchy="false">]</mo></mrow><mrow><mn>2+</mn></mrow></msup></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><msup><mrow><mo stretchy="false">[</mo><mtext>Fe</mtext><msub><mrow><mo stretchy="false">(</mo><msub><mtext>H</mtext><mn>2</mn></msub><mtext>O</mtext><mo stretchy="false">)</mo></mrow><mn>5</mn></msub><mo stretchy="false">(</mo><mtext>OH</mtext><mo stretchy="false">)</mo><mo stretchy="false">]</mo></mrow><mrow><mn>2+</mn></mrow></msup><mo>+</mo><msup><mrow><mo stretchy="false">[</mo><mtext>Al</mtext><msub><mrow><mo stretchy="false">(</mo><msub><mtext>H</mtext><mn>2</mn></msub><mtext>O</mtext><mo stretchy="false">)</mo></mrow><mn>6</mn></msub><mo stretchy="false">]</mo></mrow><mrow><mn>3+</mn></mrow></msup><mspace width="0.2em"/><mo stretchy="false">⟶</mo><mspace width="0.2em"/><msup><mrow><mtext>[Fe</mtext><msub><mrow><mo stretchy="false">(</mo><msub><mtext>H</mtext><mn>2</mn></msub><mtext>O</mtext><mo stretchy="false">)</mo></mrow><mn>6</mn></msub><mo stretchy="false">]</mo></mrow><mrow><mn>3+</mn></mrow></msup><mo>+</mo><msup><mrow><mo stretchy="false">[</mo><mtext>Al</mtext><msub><mrow><mo stretchy="false">(</mo><msub><mtext>H</mtext><mn>2</mn></msub><mtext>O</mtext><mo stretchy="false">)</mo></mrow><mn>5</mn></msub><mo stretchy="false">(</mo><mtext>OH</mtext><mo stretchy="false">)</mo><mo stretchy="false">]</mo></mrow><mrow><mn>2+</mn></mrow></msup></mrow></annotation-xml></semantics></math></p>
+<p id="fs-idm53538832">(g) <math display="inline"><semantics><mrow><mrow><msub><mrow><mtext>CH</mtext></mrow><mn>3</mn></msub><mtext>OH</mtext><mo>+</mo><msup><mtext>H</mtext><mtext>−</mtext></msup><mspace width="0.2em"/><mo stretchy="false">⟶</mo><mspace width="0.2em"/><msub><mrow><mtext>CH</mtext></mrow><mn>3</mn></msub><msup><mtext>O</mtext><mtext>−</mtext></msup><mo>+</mo><msub><mtext>H</mtext><mn>2</mn></msub></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><msub><mrow><mtext>CH</mtext></mrow><mn>3</mn></msub><mtext>OH</mtext><mo>+</mo><msup><mtext>H</mtext><mtext>−</mtext></msup><mspace width="0.2em"/><mo stretchy="false">⟶</mo><mspace width="0.2em"/><msub><mrow><mtext>CH</mtext></mrow><mn>3</mn></msub><msup><mtext>O</mtext><mtext>−</mtext></msup><mo>+</mo><msub><mtext>H</mtext><mn>2</mn></msub></mrow></annotation-xml></semantics></math></p>
+</div></div>
+</div>
+<div class=" os-hasSolution " data-type="exercise" id="fs-idm62869120">
+<div data-type="problem" id="fs-idm62868864"><a class="os-number" href="chapter-14#fs-idm62869120-solution">11</a><span class="os-divider">. </span><div class="os-problem-container">
+<p id="fs-idm62868608">What are amphiprotic species? Illustrate with suitable equations.</p>
+</div></div>
+
+</div>
+<div class=" " data-type="exercise" id="fs-idp122889456">
+<div data-type="problem" id="fs-idp122889712"><span class="os-number">12</span><span class="os-divider">. </span><div class="os-problem-container">
+<p id="fs-idp122889968">State which of the following species are amphiprotic and write chemical equations illustrating the amphiprotic character of these species:</p>
+<p id="fs-idp122890512">(a) H<sub>2</sub>O</p>
+<p id="fs-idp12568192">(b) <math display="inline"><semantics><mrow><mrow><msub><mtext>H</mtext><mn>2</mn></msub><msub><mrow><mtext>PO</mtext></mrow><mn>4</mn></msub><msup><mrow/><mtext>−</mtext></msup></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><msub><mtext>H</mtext><mn>2</mn></msub><msub><mrow><mtext>PO</mtext></mrow><mn>4</mn></msub><msup><mrow/><mtext>−</mtext></msup></mrow></annotation-xml></semantics></math></p>
+<p id="fs-idp11928784">(c) S<sup>2−</sup></p>
+<p id="fs-idp11929424">(d) <math display="inline"><semantics><mrow><mrow><msub><mrow><mtext>CO</mtext></mrow><mn>3</mn></msub><msup><mrow/><mtext>2−</mtext></msup></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><msub><mrow><mtext>CO</mtext></mrow><mn>3</mn></msub><msup><mrow/><mtext>2−</mtext></msup></mrow></annotation-xml></semantics></math></p>
+<p id="fs-idm17584640">(e) <math display="inline"><semantics><mrow><mrow><msub><mrow><mtext>HSO</mtext></mrow><mn>4</mn></msub><msup><mrow/><mtext>−</mtext></msup></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><msub><mrow><mtext>HSO</mtext></mrow><mn>4</mn></msub><msup><mrow/><mtext>−</mtext></msup></mrow></annotation-xml></semantics></math></p>
+</div></div>
+</div>
+<div class=" os-hasSolution " data-type="exercise" id="fs-idp125665056">
+<div data-type="problem" id="fs-idp125665312"><a class="os-number" href="chapter-14#fs-idp125665056-solution">13</a><span class="os-divider">. </span><div class="os-problem-container">
+<p id="fs-idp125665568">State which of the following species are amphiprotic and write chemical equations illustrating the amphiprotic character of these species.</p>
+<p id="fs-idp53469744">(a) NH<sub>3</sub></p>
+<p id="fs-idp53470384">(b) <math display="inline"><semantics><mrow><mrow><msub><mrow><mtext>HPO</mtext></mrow><mn>4</mn></msub><msup><mrow/><mtext>−</mtext></msup></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><msub><mrow><mtext>HPO</mtext></mrow><mn>4</mn></msub><msup><mrow/><mtext>−</mtext></msup></mrow></annotation-xml></semantics></math></p>
+<p id="fs-idp9766480">(c) Br<sup>−</sup></p>
+<p id="fs-idp59202208">(d) <math display="inline"><semantics><mrow><mrow><msub><mrow><mtext>NH</mtext></mrow><mn>4</mn></msub><msup><mrow/><mtext>+</mtext></msup></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><msub><mrow><mtext>NH</mtext></mrow><mn>4</mn></msub><msup><mrow/><mtext>+</mtext></msup></mrow></annotation-xml></semantics></math></p>
+<p id="fs-idp83159632">(e) <math display="inline"><semantics><mrow><mrow><msub><mrow><mtext>ASO</mtext></mrow><mn>4</mn></msub><msup><mrow/><mtext>3−</mtext></msup></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><msub><mrow><mtext>ASO</mtext></mrow><mn>4</mn></msub><msup><mrow/><mtext>3−</mtext></msup></mrow></annotation-xml></semantics></math></p>
+</div></div>
+
+</div>
+<div class=" " data-type="exercise" id="fs-idp42982384">
+<div data-type="problem" id="fs-idp42982640"><span class="os-number">14</span><span class="os-divider">. </span><div class="os-problem-container">
+<p id="fs-idp42982896">Is the self-ionization of water endothermic or exothermic? The ionization constant for water (<em data-effect="italics">K</em><sub>w</sub>) is 2.9 <math display="inline"><semantics><mrow><mo>×</mo></mrow><annotation-xml encoding="MathML-Content"><mo>×</mo></annotation-xml></semantics></math> 10<sup>−14</sup> at 40 °C and 9.3 <math display="inline"><semantics><mrow><mo>×</mo></mrow><annotation-xml encoding="MathML-Content"><mo>×</mo></annotation-xml></semantics></math> 10<sup>−14</sup> at 60 °C.</p></div></div>
+</div>
+</section><section class="exercises" data-depth="1" id="fs-idm61137872"><h3 data-type="document-title" id="[redacted for uniqueness]"><span class="os-number">14.2</span><span class="os-divider"> </span><span class="os-text">pH and pOH</span></h3>
+<div class=" os-hasSolution " data-type="exercise" id="fs-idp63054032"><div data-type="problem" id="fs-idp57993664"><a class="os-number" href="chapter-14#fs-idp63054032-solution">15</a><span class="os-divider">. </span><div class="os-problem-container">
+<p id="fs-idm105009936">Explain why a sample of pure water at 40 °C is neutral even though [H<sub>3</sub>O<sup>+</sup>] = 1.7 <math display="inline"><semantics><mrow><mo>×</mo></mrow><annotation-xml encoding="MathML-Content"><mo>×</mo></annotation-xml></semantics></math> 10<sup>−7</sup> <em data-effect="italics">M</em>. <em data-effect="italics">K</em><sub>w</sub> is 2.9 <math display="inline"><semantics><mrow><mo>×</mo></mrow><annotation-xml encoding="MathML-Content"><mo>×</mo></annotation-xml></semantics></math> 10<sup>−14</sup> at 40 °C.</p>
+</div></div>
+
+</div><div class=" " data-type="exercise" id="fs-idm59232064">
+<div data-type="problem" id="fs-idm111412048"><span class="os-number">16</span><span class="os-divider">. </span><div class="os-problem-container">
+<p id="fs-idm103446336">The ionization constant for water (<em data-effect="italics">K</em><sub>w</sub>) is 2.9 <math display="inline"><semantics><mrow><mo>×</mo></mrow><annotation-xml encoding="MathML-Content"><mo>×</mo></annotation-xml></semantics></math> 10<sup>−14</sup> at 40 °C. Calculate [H<sub>3</sub>O<sup>+</sup>], [OH<sup>−</sup>], pH, and pOH for pure water at 40 °C.</p>
+</div></div>
+</div>
+<div class=" os-hasSolution " data-type="exercise" id="fs-idp62460480">
+<div data-type="problem" id="fs-idm118037232"><a class="os-number" href="chapter-14#fs-idp62460480-solution">17</a><span class="os-divider">. </span><div class="os-problem-container">
+<p id="fs-idm58452160">The ionization constant for water (<em data-effect="italics">K</em><sub>w</sub>) is 9.311 <math display="inline"><semantics><mrow><mo>×</mo></mrow><annotation-xml encoding="MathML-Content"><mo>×</mo></annotation-xml></semantics></math> 10<sup>−14</sup> at 60 °C. Calculate [H<sub>3</sub>O<sup>+</sup>], [OH<sup>−</sup>], pH, and pOH for pure water at 60 °C.</p></div></div>
+
+</div>
+<div class=" " data-type="exercise" id="fs-idp100037936">
+<div data-type="problem" id="fs-idm133230528"><span class="os-number">18</span><span class="os-divider">. </span><div class="os-problem-container">
+<p id="fs-idm193547792">Calculate the pH and the pOH of each of the following solutions at 25 °C for which the substances ionize completely:</p>
+<p id="fs-idm62343936">(a) 0.200 <em data-effect="italics">M</em> HCl</p>
+<p id="fs-idm110199712">(b) 0.0143 <em data-effect="italics">M</em> NaOH</p>
+<p id="fs-idm139511424">(c) 3.0 <em data-effect="italics">M</em> HNO<sub>3</sub></p>
+<p id="fs-idm85222640">(d) 0.0031 <em data-effect="italics">M</em> Ca(OH)<sub>2</sub></p>
+</div></div>
+</div>
+<div class=" os-hasSolution " data-type="exercise" id="fs-idm78388032">
+<div data-type="problem" id="fs-idp5531424"><a class="os-number" href="chapter-14#fs-idm78388032-solution">19</a><span class="os-divider">. </span><div class="os-problem-container">
+<p id="fs-idm103266944">Calculate the pH and the pOH of each of the following solutions at 25 °C for which the substances ionize completely:</p>
+<p id="fs-idm85929872">(a) 0.000259 <em data-effect="italics">M</em> HClO<sub>4</sub></p>
+<p id="fs-idm105046336">(b) 0.21 <em data-effect="italics">M</em> NaOH</p>
+<p id="fs-idm71623520">(c) 0.000071 <em data-effect="italics">M</em> Ba(OH)<sub>2</sub></p>
+<p id="fs-idm90266032">(d) 2.5 <em data-effect="italics">M</em> KOH</p>
+</div></div>
+
+</div>
+<div class=" " data-type="exercise" id="fs-idm113520992">
+<div data-type="problem" id="fs-idm96702128"><span class="os-number">20</span><span class="os-divider">. </span><div class="os-problem-container">
+<p id="fs-idp57446720">What are the pH and pOH of a solution of 2.0 M HCl, which ionizes completely?</p>
+</div></div>
+</div>
+<div class=" os-hasSolution " data-type="exercise" id="fs-idp61935360">
+<div data-type="problem" id="fs-idp46399056"><a class="os-number" href="chapter-14#fs-idp61935360-solution">21</a><span class="os-divider">. </span><div class="os-problem-container">
+<p id="fs-idm68044912">What are the hydronium and hydroxide ion concentrations in a solution whose pH is 6.52?</p>
+</div></div>
+
+</div>
+<div class=" " data-type="exercise" id="fs-idm93267520">
+<div data-type="problem" id="fs-idp62546496"><span class="os-number">22</span><span class="os-divider">. </span><div class="os-problem-container">
+<p id="fs-idp137408320">Calculate the hydrogen ion concentration and the hydroxide ion concentration in wine from its pH. See <a class="autogenerated-content" href="14-2-ph-and-poh#CNX_Chem_14_02_phscale">Figure 14.2</a> for useful information.</p>
+</div></div>
+</div>
+<div class=" os-hasSolution " data-type="exercise" id="fs-idp268784">
+<div data-type="problem" id="fs-idm38151312"><a class="os-number" href="chapter-14#fs-idp268784-solution">23</a><span class="os-divider">. </span><div class="os-problem-container">
+<p id="fs-idm117014192">Calculate the hydronium ion concentration and the hydroxide ion concentration in lime juice from its pH. See <a class="autogenerated-content" href="14-2-ph-and-poh#CNX_Chem_14_02_phscale">Figure 14.2</a> for useful information.</p>
+</div></div>
+
+</div>
+<div class=" " data-type="exercise" id="fs-idm60999568">
+<div data-type="problem" id="fs-idm95843200"><span class="os-number">24</span><span class="os-divider">. </span><div class="os-problem-container">
+<p id="fs-idp10174528">The hydronium ion concentration in a sample of rainwater is found to be 1.7 <math display="inline"><semantics><mrow><mo>×</mo></mrow><annotation-xml encoding="MathML-Content"><mo>×</mo></annotation-xml></semantics></math> 10<sup>−6</sup> <em data-effect="italics">M</em> at 25 °C. What is the concentration of hydroxide ions in the rainwater?</p>
+</div></div>
+</div>
+<div class=" os-hasSolution " data-type="exercise" id="fs-idm209904880">
+<div data-type="problem" id="fs-idp143540592"><a class="os-number" href="chapter-14#fs-idm209904880-solution">25</a><span class="os-divider">. </span><div class="os-problem-container">
+<p id="fs-idm121774336">The hydroxide ion concentration in household ammonia is 3.2 <math display="inline"><semantics><mrow><mo>×</mo></mrow><annotation-xml encoding="MathML-Content"><mo>×</mo></annotation-xml></semantics></math> 10<sup>−3</sup> <em data-effect="italics">M</em> at 25 °C. What is the concentration of hydronium ions in the solution?</p>
+</div></div>
+
+</div>
+</section><section class="exercises" data-depth="1" id="fs-idm94405216"><h3 data-type="document-title" id="[redacted for uniqueness]"><span class="os-number">14.3</span><span class="os-divider"> </span><span class="os-text">Relative Strengths of Acids and Bases</span></h3>
+<div class=" " data-type="exercise" id="fs-idm94404336">
+<div data-type="problem" id="fs-idm94404080"><span class="os-number">26</span><span class="os-divider">. </span><div class="os-problem-container">
+<p id="fs-idm94403824">Explain why the neutralization reaction of a strong acid and a weak base gives a weakly acidic solution.</p>
+</div></div>
+</div>
+<div class=" os-hasSolution " data-type="exercise" id="fs-idm94046624">
+<div data-type="problem" id="fs-idm94046368"><a class="os-number" href="chapter-14#fs-idm94046624-solution">27</a><span class="os-divider">. </span><div class="os-problem-container">
+<p id="fs-idm94046112">Explain why the neutralization reaction of a weak acid and a strong base gives a weakly basic solution.</p>
+</div></div>
+
+</div>
+<div class=" " data-type="exercise" id="fs-idm97090576">
+<div data-type="problem" id="fs-idm97090320"><span class="os-number">28</span><span class="os-divider">. </span><div class="os-problem-container">
+<p id="fs-idm97090064">Use this list of important industrial compounds (and <a class="autogenerated-content" href="14-3-relative-strengths-of-acids-and-bases#CNX_Chem_14_03_Corresp">Figure 14.8</a>) to answer the following questions regarding: CaO, Ca(OH)<sub>2</sub>, CH<sub>3</sub>CO<sub>2</sub>H, CO<sub>2,</sub> HCl, H<sub>2</sub>CO<sub>3</sub>, HF, HNO<sub>2</sub>, HNO<sub>3</sub>, H<sub>3</sub>PO<sub>4</sub>, H<sub>2</sub>SO<sub>4</sub>, NH<sub>3</sub>, NaOH, Na<sub>2</sub>CO<sub>3</sub>.</p>
+<p id="fs-idm5843184">(a) Identify the strong Brønsted-Lowry acids and strong Brønsted-Lowry bases.</p>
+<p id="fs-idm5842624">(b) List those compounds in (a) that can behave as Brønsted-Lowry acids with strengths lying between those of H<sub>3</sub>O<sup>+</sup> and H<sub>2</sub>O.</p>
+<p id="fs-idm5839824">(c) List those compounds in (a) that can behave as Brønsted-Lowry bases with strengths lying between those of H<sub>2</sub>O and OH<sup>−</sup>.</p>
+</div></div>
+</div>
+<div class=" os-hasSolution " data-type="exercise" id="fs-idm102500528">
+<div data-type="problem" id="fs-idm102500272"><a class="os-number" href="chapter-14#fs-idm102500528-solution">29</a><span class="os-divider">. </span><div class="os-problem-container">
+<p id="fs-idm102500016">The odor of vinegar is due to the presence of acetic acid, CH<sub>3</sub>CO<sub>2</sub>H, a weak acid. List, in order of descending concentration, all of the ionic and molecular species present in a 1-<em data-effect="italics">M</em> aqueous solution of this acid.</p>
+</div></div>
+
+</div>
+<div class=" " data-type="exercise" id="fs-idm81289984">
+<div data-type="problem" id="fs-idm81289728"><span class="os-number">30</span><span class="os-divider">. </span><div class="os-problem-container">
+<p id="fs-idm81289472">Household ammonia is a solution of the weak base NH<sub>3</sub> in water. List, in order of descending concentration, all of the ionic and molecular species present in a 1-<em data-effect="italics">M</em> aqueous solution of this base.</p>
+</div></div>
+</div>
+<div class=" os-hasSolution " data-type="exercise" id="fs-idm82919280">
+<div data-type="problem" id="fs-idm82919024"><a class="os-number" href="chapter-14#fs-idm82919280-solution">31</a><span class="os-divider">. </span><div class="os-problem-container">
+<p id="fs-idm82918768">Explain why the ionization constant, <em data-effect="italics">K</em><sub>a</sub>, for H<sub>2</sub>SO<sub>4</sub> is larger than the ionization constant for H<sub>2</sub>SO<sub>3</sub>.</p>
+</div></div>
+
+</div>
+<div class=" " data-type="exercise" id="fs-idm98073520">
+<div data-type="problem" id="fs-idm98073264"><span class="os-number">32</span><span class="os-divider">. </span><div class="os-problem-container">
+<p id="fs-idm98073008">Explain why the ionization constant, <em data-effect="italics">K</em><sub>a</sub>, for HI is larger than the ionization constant for HF.</p>
+</div></div>
+</div>
+<div class=" os-hasSolution " data-type="exercise" id="fs-idm98070544">
+<div data-type="problem" id="fs-idm98070288"><a class="os-number" href="chapter-14#fs-idm98070544-solution">33</a><span class="os-divider">. </span><div class="os-problem-container">
+<p id="fs-idm98070032">Gastric juice, the digestive fluid produced in the stomach, contains hydrochloric acid, HCl. Milk of Magnesia, a suspension of solid Mg(OH)<sub>2</sub> in an aqueous medium, is sometimes used to neutralize excess stomach acid. Write a complete balanced equation for the neutralization reaction, and identify the conjugate acid-base pairs.</p>
+</div></div>
+
+</div>
+<div class=" " data-type="exercise" id="fs-idp121913696">
+<div data-type="problem" id="fs-idp10256960"><span class="os-number">34</span><span class="os-divider">. </span><div class="os-problem-container">
+<p id="fs-idp10257216">Nitric acid reacts with insoluble copper(II) oxide to form soluble copper(II) nitrate, Cu(NO<sub>3</sub>)<sub>2</sub>, a compound that has been used to prevent the growth of algae in swimming pools. Write the balanced chemical equation for the reaction of an aqueous solution of HNO<sub>3</sub> with CuO.</p>
+</div></div>
+</div>
+<div class=" os-hasSolution " data-type="exercise" id="fs-idp54392720">
+<div data-type="problem" id="fs-idp54392976"><a class="os-number" href="chapter-14#fs-idp54392720-solution">35</a><span class="os-divider">. </span><div class="os-problem-container">
+<p id="fs-idp54393232">What is the ionization constant at 25 °C for the weak acid <math display="inline"><semantics><mrow><mrow><msub><mrow><mtext>CH</mtext></mrow><mn>3</mn></msub><mrow/><msub><mrow><mtext>NH</mtext></mrow><mn>3</mn></msub><mrow/><msup><mrow/><mtext>+</mtext></msup><mo>,</mo></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><msub><mrow><mtext>CH</mtext></mrow><mn>3</mn></msub><mrow/><msub><mrow><mtext>NH</mtext></mrow><mn>3</mn></msub><mrow/><msup><mrow/><mtext>+</mtext></msup><mo>,</mo></mrow></annotation-xml></semantics></math> the conjugate acid of the weak base CH<sub>3</sub>NH<sub>2</sub>, <em data-effect="italics">K</em><sub>b</sub> = 4.4 <math display="inline"><semantics><mrow><mo>×</mo></mrow><annotation-xml encoding="MathML-Content"><mo>×</mo></annotation-xml></semantics></math> 10<sup>−4</sup>.</p>
+</div></div>
+
+</div>
+<div class=" " data-type="exercise" id="fs-idm38113296">
+<div data-type="problem" id="fs-idm38113040"><span class="os-number">36</span><span class="os-divider">. </span><div class="os-problem-container">
+<p id="fs-idm38112784">What is the ionization constant at 25 °C for the weak acid <math display="inline"><semantics><mrow><mrow><msub><mrow><mo stretchy="false">(</mo><msub><mrow><mtext>CH</mtext></mrow><mn>3</mn></msub><mo stretchy="false">)</mo></mrow><mn>2</mn></msub><mrow/><msub><mrow><mtext>NH</mtext></mrow><mn>2</mn></msub><mrow/><msup><mrow/><mtext>+</mtext></msup><mo>,</mo></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><msub><mrow><mo stretchy="false">(</mo><msub><mrow><mtext>CH</mtext></mrow><mn>3</mn></msub><mo stretchy="false">)</mo></mrow><mn>2</mn></msub><mrow/><msub><mrow><mtext>NH</mtext></mrow><mn>2</mn></msub><mrow/><msup><mrow/><mtext>+</mtext></msup><mo>,</mo></mrow></annotation-xml></semantics></math> the conjugate acid of the weak base (CH<sub>3</sub>)<sub>2</sub>NH, <em data-effect="italics">K</em><sub>b</sub> = 5.9 <math display="inline"><semantics><mrow><mo>×</mo></mrow><annotation-xml encoding="MathML-Content"><mo>×</mo></annotation-xml></semantics></math> 10<sup>−4</sup>?</p></div></div>
+</div>
+<div class=" os-hasSolution " data-type="exercise" id="fs-idm176650240">
+<div data-type="problem" id="fs-idm176649984"><a class="os-number" href="chapter-14#fs-idm176650240-solution">37</a><span class="os-divider">. </span><div class="os-problem-container">
+<p id="fs-idm176649728">Which base, CH<sub>3</sub>NH<sub>2</sub> or (CH<sub>3</sub>)<sub>2</sub>NH, is the stronger base? Which conjugate acid, <math display="inline"><semantics><mrow><mrow><msub><mrow><mo stretchy="false">(</mo><msub><mrow><mtext>CH</mtext></mrow><mn>3</mn></msub><mo stretchy="false">)</mo></mrow><mn>2</mn></msub><mrow/><msub><mrow><mtext>NH</mtext></mrow><mn>2</mn></msub><mrow/><msup><mrow/><mtext>+</mtext></msup></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><msub><mrow><mo stretchy="false">(</mo><msub><mrow><mtext>CH</mtext></mrow><mn>3</mn></msub><mo stretchy="false">)</mo></mrow><mn>2</mn></msub><mrow/><msub><mrow><mtext>NH</mtext></mrow><mn>2</mn></msub><mrow/><msup><mrow/><mtext>+</mtext></msup></mrow></annotation-xml></semantics></math> or <math display="inline"><semantics><mrow><mrow><msub><mrow><mtext>CH</mtext></mrow><mn>3</mn></msub><msub><mrow><mtext>NH</mtext></mrow><mn>3</mn></msub><mrow/><msup><mrow/><mtext>+</mtext></msup></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><msub><mrow><mtext>CH</mtext></mrow><mn>3</mn></msub><msub><mrow><mtext>NH</mtext></mrow><mn>3</mn></msub><mrow/><msup><mrow/><mtext>+</mtext></msup></mrow></annotation-xml></semantics></math>, is the stronger acid?</p></div></div>
+
+</div>
+<div class=" " data-type="exercise" id="fs-idp82803792">
+<div data-type="problem" id="fs-idp82804048"><span class="os-number">38</span><span class="os-divider">. </span><div class="os-problem-container">
+<p id="fs-idp82804304">Which is the stronger acid, <math display="inline"><semantics><mrow><mrow><msub><mrow><mtext>NH</mtext></mrow><mn>4</mn></msub><mrow/><msup><mrow/><mtext>+</mtext></msup></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><msub><mrow><mtext>NH</mtext></mrow><mn>4</mn></msub><mrow/><msup><mrow/><mtext>+</mtext></msup></mrow></annotation-xml></semantics></math> or HBrO?</p>
+</div></div>
+</div>
+<div class=" os-hasSolution " data-type="exercise" id="fs-idp38295632">
+<div data-type="problem" id="fs-idp38295888"><a class="os-number" href="chapter-14#fs-idp38295632-solution">39</a><span class="os-divider">. </span><div class="os-problem-container">
+<p id="fs-idp38296144">Which is the stronger base, (CH<sub>3</sub>)<sub>3</sub>N or <math display="inline"><semantics><mrow><mrow><msub><mtext>H</mtext><mn>2</mn></msub><mrow/><msub><mrow><mtext>BO</mtext></mrow><mn>3</mn></msub><mrow/><msup><mrow/><mtext>−</mtext></msup><mo>?</mo></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><msub><mtext>H</mtext><mn>2</mn></msub><mrow/><msub><mrow><mtext>BO</mtext></mrow><mn>3</mn></msub><mrow/><msup><mrow/><mtext>−</mtext></msup><mo>?</mo></mrow></annotation-xml></semantics></math></p>
+</div></div>
+
+</div>
+<div class=" " data-type="exercise" id="fs-idm157978560">
+<div data-type="problem" id="fs-idm157978304"><span class="os-number">40</span><span class="os-divider">. </span><div class="os-problem-container">
+<p id="fs-idm157978048">Predict which acid in each of the following pairs is the stronger and explain your reasoning for each.</p>
+<p id="fs-idm157977552">(a) H<sub>2</sub>O or HF</p>
+<p id="fs-idm157976784">(b) B(OH)<sub>3</sub> or Al(OH)<sub>3</sub></p>
+<p id="fs-idm157975760">(c) <math display="inline"><semantics><mrow><mrow><msub><mrow><mtext>HSO</mtext></mrow><mn>3</mn></msub><mrow/><msup><mrow/><mtext>−</mtext></msup></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><msub><mrow><mtext>HSO</mtext></mrow><mn>3</mn></msub><mrow/><msup><mrow/><mtext>−</mtext></msup></mrow></annotation-xml></semantics></math> or <math display="inline"><semantics><mrow><mrow><msub><mrow><mtext>HSO</mtext></mrow><mn>4</mn></msub><mrow/><msup><mrow/><mtext>−</mtext></msup></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><msub><mrow><mtext>HSO</mtext></mrow><mn>4</mn></msub><mrow/><msup><mrow/><mtext>−</mtext></msup></mrow></annotation-xml></semantics></math></p>
+<p id="fs-idm157971920">(d) NH<sub>3</sub> or H<sub>2</sub>S</p>
+<p id="fs-idp58796160">(e) H<sub>2</sub>O or H<sub>2</sub>Te</p>
+</div></div>
+</div>
+<div class=" os-hasSolution " data-type="exercise" id="fs-idm117245456">
+<div data-type="problem" id="fs-idm117245200"><a class="os-number" href="chapter-14#fs-idm117245456-solution">41</a><span class="os-divider">. </span><div class="os-problem-container">
+<p id="fs-idm117244944">Predict which compound in each of the following pairs of compounds is more acidic and explain your reasoning for each.</p>
+<p id="fs-idm117244432">(a) <math display="inline"><semantics><mrow><mrow><msub><mrow><mtext>HSO</mtext></mrow><mn>4</mn></msub><mrow/><msup><mrow/><mtext>−</mtext></msup></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><msub><mrow><mtext>HSO</mtext></mrow><mn>4</mn></msub><mrow/><msup><mrow/><mtext>−</mtext></msup></mrow></annotation-xml></semantics></math> or <math display="inline"><semantics><mrow><mrow><msub><mrow><mtext>HSeO</mtext></mrow><mn>4</mn></msub><mrow/><msup><mrow/><mtext>−</mtext></msup></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><msub><mrow><mtext>HSeO</mtext></mrow><mn>4</mn></msub><mrow/><msup><mrow/><mtext>−</mtext></msup></mrow></annotation-xml></semantics></math></p>
+<p id="fs-idp39171888">(b) NH<sub>3</sub> or H<sub>2</sub>O</p>
+<p id="fs-idp39173040">(c) PH<sub>3</sub> or HI</p>
+<p id="fs-idp39173808">(d) NH<sub>3</sub> or PH<sub>3</sub></p>
+<p id="fs-idp39174832">(e) H<sub>2</sub>S or HBr</p>
+</div></div>
+
+</div>
+<div class=" " data-type="exercise" id="fs-idp33478144">
+<div data-type="problem" id="fs-idp33478400"><span class="os-number">42</span><span class="os-divider">. </span><div class="os-problem-container">
+<p id="fs-idp33478656">Rank the compounds in each of the following groups in order of increasing acidity or basicity, as indicated, and explain the order you assign.</p>
+<p id="fs-idp33479200">(a) acidity: HCl, HBr, HI</p>
+<p id="fs-idp33479584">(b) basicity: H<sub>2</sub>O, OH<sup>−</sup>, H<sup>−</sup>, Cl<sup>−</sup></p>
+<p id="fs-idp33481376">(c) basicity: Mg(OH)<sub>2</sub>, Si(OH)<sub>4</sub>, ClO<sub>3</sub>(OH) (Hint: Formula could also be written as HClO<sub>4</sub>.)</p><p id="fs-idm14022912">(d) acidity: HF, H<sub>2</sub>O, NH<sub>3</sub>, CH<sub>4</sub></p>
+</div></div>
+</div>
+<div class=" os-hasSolution " data-type="exercise" id="fs-idm83972448">
+<div data-type="problem" id="fs-idm83972192"><a class="os-number" href="chapter-14#fs-idm83972448-solution">43</a><span class="os-divider">. </span><div class="os-problem-container">
+<p id="fs-idm83971936">Rank the compounds in each of the following groups in order of increasing acidity or basicity, as indicated, and explain the order you assign.</p>
+<p id="fs-idm83971392">(a) acidity: NaHSO<sub>3</sub>, NaHSeO<sub>3</sub>, NaHSO<sub>4</sub></p>
+<p id="fs-idm83969984">(b) basicity: <math display="inline"><semantics><mrow><mrow><msub><mrow><mtext>BrO</mtext></mrow><mn>2</mn></msub><mrow/><msup><mrow/><mtext>−</mtext></msup><mo>,</mo></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><msub><mrow><mtext>BrO</mtext></mrow><mn>2</mn></msub><mrow/><msup><mrow/><mtext>−</mtext></msup><mo>,</mo></mrow></annotation-xml></semantics></math> <math display="inline"><semantics><mrow><mrow><msub><mrow><mtext>ClO</mtext></mrow><mn>2</mn></msub><mrow/><msup><mrow/><mtext>−</mtext></msup><mo>,</mo></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><msub><mrow><mtext>ClO</mtext></mrow><mn>2</mn></msub><mrow/><msup><mrow/><mtext>−</mtext></msup><mo>,</mo></mrow></annotation-xml></semantics></math> <math display="inline"><semantics><mrow><mrow><msub><mrow><mtext>IO</mtext></mrow><mn>2</mn></msub><mrow/><msup><mrow/><mtext>−</mtext></msup></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><msub><mrow><mtext>IO</mtext></mrow><mn>2</mn></msub><mrow/><msup><mrow/><mtext>−</mtext></msup></mrow></annotation-xml></semantics></math></p>
+<p id="fs-idp33342400">(c) acidity: HOCl, HOBr, HOI</p>
+<p id="fs-idp33342784">(d) acidity: HOCl, HOClO, HOClO<sub>2</sub>, HOClO<sub>3</sub></p>
+<p id="fs-idp33343808">(e) basicity: <math display="inline"><semantics><mrow><mrow><msub><mrow><mtext>NH</mtext></mrow><mn>2</mn></msub><mrow/><msup><mrow/><mtext>−</mtext></msup><mo>,</mo></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><msub><mrow><mtext>NH</mtext></mrow><mn>2</mn></msub><mrow/><msup><mrow/><mtext>−</mtext></msup><mo>,</mo></mrow></annotation-xml></semantics></math> HS<sup>−</sup>, HTe<sup>−</sup>, <math display="inline"><semantics><mrow><mrow><msub><mrow><mtext>PH</mtext></mrow><mn>2</mn></msub><mrow/><msup><mrow/><mtext>−</mtext></msup></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><msub><mrow><mtext>PH</mtext></mrow><mn>2</mn></msub><mrow/><msup><mrow/><mtext>−</mtext></msup></mrow></annotation-xml></semantics></math></p>
+<p id="fs-idp54362976">(f) basicity: BrO<sup>−</sup>, <math display="inline"><semantics><mrow><mrow><msub><mrow><mtext>BrO</mtext></mrow><mn>2</mn></msub><mrow/><msup><mrow/><mtext>−</mtext></msup><mo>,</mo></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><msub><mrow><mtext>BrO</mtext></mrow><mn>2</mn></msub><mrow/><msup><mrow/><mtext>−</mtext></msup><mo>,</mo></mrow></annotation-xml></semantics></math> <math display="inline"><semantics><mrow><mrow><msub><mrow><mtext>BrO</mtext></mrow><mn>3</mn></msub><mrow/><msup><mrow/><mtext>−</mtext></msup><mo>,</mo></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><msub><mrow><mtext>BrO</mtext></mrow><mn>3</mn></msub><mrow/><msup><mrow/><mtext>−</mtext></msup><mo>,</mo></mrow></annotation-xml></semantics></math> <math display="inline"><semantics><mrow><mrow><msub><mrow><mtext>BrO</mtext></mrow><mn>4</mn></msub><mrow/><msup><mrow/><mtext>−</mtext></msup></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><msub><mrow><mtext>BrO</mtext></mrow><mn>4</mn></msub><mrow/><msup><mrow/><mtext>−</mtext></msup></mrow></annotation-xml></semantics></math></p>
+</div></div>
+
+</div>
+<div class=" " data-type="exercise" id="fs-idm79428208">
+<div data-type="problem" id="fs-idm79427952"><span class="os-number">44</span><span class="os-divider">. </span><div class="os-problem-container">
+<p id="fs-idm79427696">Both HF and HCN ionize in water to a limited extent. Which of the conjugate bases, F<sup>−</sup> or CN<sup>−</sup>, is the stronger base?</p></div></div>
+</div>
+<div class=" os-hasSolution " data-type="exercise" id="fs-idm79424752">
+<div data-type="problem" id="fs-idm79424496"><a class="os-number" href="chapter-14#fs-idm79424752-solution">45</a><span class="os-divider">. </span><div class="os-problem-container">
+<p id="fs-idm79424240">The active ingredient formed by aspirin in the body is salicylic acid, C<sub>6</sub>H<sub>4</sub>OH(CO<sub>2</sub>H). The carboxyl group (−CO<sub>2</sub>H) acts as a weak acid. The phenol group (an OH group bonded to an aromatic ring) also acts as an acid but a much weaker acid. List, in order of descending concentration, all of the ionic and molecular species present in a 0.001-<em data-effect="italics">M</em> aqueous solution of C<sub>6</sub>H<sub>4</sub>OH(CO<sub>2</sub>H).</p>
+</div></div>
+
+</div>
+<div class=" " data-type="exercise" id="fs-idm81298048">
+<div data-type="problem" id="fs-idm81297792"><span class="os-number">46</span><span class="os-divider">. </span><div class="os-problem-container">
+<p id="fs-idm81297536">Are the concentrations of hydronium ion and hydroxide ion in a solution of an acid or a base in water directly proportional or inversely proportional? Explain your answer.</p>
+</div></div>
+</div>
+<div class=" os-hasSolution " data-type="exercise" id="fs-idp78760144">
+<div data-type="problem" id="fs-idp78760400"><a class="os-number" href="chapter-14#fs-idp78760144-solution">47</a><span class="os-divider">. </span><div class="os-problem-container">
+<p id="fs-idp78760656">What two common assumptions can simplify calculation of equilibrium concentrations in a solution of a weak acid or base?</p>
+</div></div>
+
+</div>
+<div class=" os-hasSolution " data-type="exercise" id="fs-idm4769600">
+<div data-type="problem" id="fs-idm4769344"><a class="os-number" href="chapter-14#fs-idm4769600-solution">48</a><span class="os-divider">. </span><div class="os-problem-container">
+<p id="fs-idm4769088">Which of the following will increase the percent of NH<sub>3</sub> that is converted to the ammonium ion in water?</p>
+<p id="fs-idm4768128">(a) addition of NaOH</p>
+<p id="fs-idm4767744">(b) addition of HCl</p>
+<p id="fs-idm4767360">(c) addition of NH<sub>4</sub>Cl</p>
+</div></div>
+
+</div>
+<div class=" " data-type="exercise" id="fs-idp75773712">
+<div data-type="problem" id="fs-idp75773968"><span class="os-number">49</span><span class="os-divider">. </span><div class="os-problem-container">
+<p id="fs-idp75774224">Which of the following will increase the percentage of HF that is converted to the fluoride ion in water?</p>
+<p id="fs-idp75774720">(a) addition of NaOH</p>
+<p id="fs-idp75775104">(b) addition of HCl</p>
+<p id="fs-idp75775488">(c) addition of NaF</p>
+</div></div>
+</div>
+<div class=" os-hasSolution " data-type="exercise" id="fs-idp5155408">
+<div data-type="problem" id="fs-idp5155664"><a class="os-number" href="chapter-14#fs-idp5155408-solution">50</a><span class="os-divider">. </span><div class="os-problem-container">
+<p id="fs-idp5155920">What is the effect on the concentrations of <math display="inline"><semantics><mrow><mrow><msub><mrow><mtext>NO</mtext></mrow><mn>2</mn></msub><mrow/><msup><mrow/><mtext>−</mtext></msup><mo>,</mo></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><msub><mrow><mtext>NO</mtext></mrow><mn>2</mn></msub><mrow/><msup><mrow/><mtext>−</mtext></msup><mo>,</mo></mrow></annotation-xml></semantics></math> HNO<sub>2</sub>, and OH<sup>−</sup> when the following are added to a solution of KNO<sub>2</sub> in water:</p>
+<p id="fs-idp5159504">(a) HCl</p>
+<p id="fs-idp5159888">(b) HNO<sub>2</sub></p>
+<p id="fs-idp5160528">(c) NaOH</p>
+<p id="fs-idp5160912">(d) NaCl</p>
+<p id="fs-idp38077152">(e) KNO</p>
+</div></div>
+
+</div>
+<div class=" " data-type="exercise" id="fs-idp58815696">
+<div data-type="problem" id="fs-idp58815952"><span class="os-number">51</span><span class="os-divider">. </span><div class="os-problem-container">
+<p id="fs-idp58816208">What is the effect on the concentration of hydrofluoric acid, hydronium ion, and fluoride ion when the following are added to separate solutions of hydrofluoric acid?</p>
+<p id="fs-idp58816768">(a) HCl</p>
+<p id="fs-idp58817152">(b) KF</p>
+<p id="fs-idp58817536">(c) NaCl</p>
+<p id="fs-idp58817920">(d) KOH</p>
+<p id="fs-idp58818304">(e) HF</p>
+</div></div>
+</div>
+<div class=" os-hasSolution " data-type="exercise" id="fs-idm13803280">
+<div data-type="problem" id="fs-idm13803024"><a class="os-number" href="chapter-14#fs-idm13803280-solution">52</a><span class="os-divider">. </span><div class="os-problem-container">
+<p id="fs-idm13802768">Why is the hydronium ion concentration in a solution that is 0.10 <em data-effect="italics">M</em> in HCl and 0.10 <em data-effect="italics">M</em> in HCOOH determined by the concentration of HCl?</p>
+</div></div>
+
+</div>
+<div class=" " data-type="exercise" id="fs-idm65088304">
+<div data-type="problem" id="fs-idm65088048"><span class="os-number">53</span><span class="os-divider">. </span><div class="os-problem-container">
+<p id="fs-idm65087792">From the equilibrium concentrations given, calculate <em data-effect="italics">K</em><sub>a</sub> for each of the weak acids and <em data-effect="italics">K</em><sub>b</sub> for each of the weak bases.</p>
+<p id="fs-idm109267584">(a) CH<sub>3</sub>CO<sub>2</sub>H: <math display="inline"><semantics><mrow><mrow><mo stretchy="false">[</mo><msub><mtext>H</mtext><mrow><mn>3</mn></mrow></msub><msup><mtext>O</mtext><mtext>+</mtext></msup><mo stretchy="false">]</mo></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><mo stretchy="false">[</mo><msub><mtext>H</mtext><mrow><mn>3</mn></mrow></msub><msup><mtext>O</mtext><mtext>+</mtext></msup><mo stretchy="false">]</mo></mrow></annotation-xml></semantics></math> = 1.34 <math display="inline"><semantics><mrow><mo>×</mo></mrow><annotation-xml encoding="MathML-Content"><mo>×</mo></annotation-xml></semantics></math> 10<sup>−3</sup> <em data-effect="italics">M</em>;<span data-type="newline"><br/></span>
+<math display="inline"><semantics><mrow><mrow><mo stretchy="false">[</mo><msub><mrow><mtext>CH</mtext></mrow><mn>3</mn></msub><mrow/><msub><mrow><mtext>CO</mtext></mrow><mn>2</mn></msub><mrow/><msup><mrow/><mtext>−</mtext></msup><mo stretchy="false">]</mo></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><mo stretchy="false">[</mo><msub><mrow><mtext>CH</mtext></mrow><mn>3</mn></msub><mrow/><msub><mrow><mtext>CO</mtext></mrow><mn>2</mn></msub><mrow/><msup><mrow/><mtext>−</mtext></msup><mo stretchy="false">]</mo></mrow></annotation-xml></semantics></math> = 1.34 <math display="inline"><semantics><mrow><mo>×</mo></mrow><annotation-xml encoding="MathML-Content"><mo>×</mo></annotation-xml></semantics></math> 10<sup>−3</sup> <em data-effect="italics">M</em>;</p>
+<p id="fs-idm113309072">[CH<sub>3</sub>CO<sub>2</sub>H] = 9.866 <math display="inline"><semantics><mrow><mo>×</mo></mrow><annotation-xml encoding="MathML-Content"><mo>×</mo></annotation-xml></semantics></math> 10<sup>−2</sup> <em data-effect="italics">M</em>;</p>
+<p id="fs-idm113306400">(b) ClO<sup>−</sup>: [OH<sup>−</sup>] = 4.0 <math display="inline"><semantics><mrow><mo>×</mo></mrow><annotation-xml encoding="MathML-Content"><mo>×</mo></annotation-xml></semantics></math> 10<sup>−4</sup> <em data-effect="italics">M</em>;</p>
+<p id="fs-idp36189824">[HClO] = 2.38 <math display="inline"><semantics><mrow><mo>×</mo></mrow><annotation-xml encoding="MathML-Content"><mo>×</mo></annotation-xml></semantics></math> 10<sup>−4</sup> <em data-effect="italics">M</em>;</p>
+<p id="fs-idp36191728">[ClO<sup>−</sup>] = 0.273 <em data-effect="italics">M</em>;</p>
+<p id="fs-idp36193120">(c) HCO<sub>2</sub>H: [HCO<sub>2</sub>H] = 0.524 <em data-effect="italics">M</em>;<span data-type="newline"><br/></span>
+<math display="inline"><semantics><mrow><mrow><mo stretchy="false">[</mo><msub><mtext>H</mtext><mrow><mn>3</mn></mrow></msub><msup><mtext>O</mtext><mtext>+</mtext></msup><mo stretchy="false">]</mo></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><mo stretchy="false">[</mo><msub><mtext>H</mtext><mrow><mn>3</mn></mrow></msub><msup><mtext>O</mtext><mtext>+</mtext></msup><mo stretchy="false">]</mo></mrow></annotation-xml></semantics></math> = 9.8 <math display="inline"><semantics><mrow><mo>×</mo></mrow><annotation-xml encoding="MathML-Content"><mo>×</mo></annotation-xml></semantics></math> 10<sup>−3</sup> <em data-effect="italics">M</em>;<span data-type="newline"><br/></span>
+<math display="inline"><semantics><mrow><mrow><mo stretchy="false">[</mo><msub><mrow><mtext>HCO</mtext></mrow><mn>2</mn></msub><mrow/><msup><mrow/><mtext>−</mtext></msup><mo stretchy="false">]</mo></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><mo stretchy="false">[</mo><msub><mrow><mtext>HCO</mtext></mrow><mn>2</mn></msub><mrow/><msup><mrow/><mtext>−</mtext></msup><mo stretchy="false">]</mo></mrow></annotation-xml></semantics></math> = 9.8 <math display="inline"><semantics><mrow><mo>×</mo></mrow><annotation-xml encoding="MathML-Content"><mo>×</mo></annotation-xml></semantics></math> 10<sup>−3</sup> <em data-effect="italics">M</em>;</p>
+<p id="fs-idm83737680">(d) <math display="inline"><semantics><mrow><mrow><msub><mtext>C</mtext><mn>6</mn></msub><mrow/><msub><mtext>H</mtext><mn>5</mn></msub><mrow/><msub><mrow><mtext>NH</mtext></mrow><mn>3</mn></msub><mrow/><msup><mrow/><mtext>+</mtext></msup><mo>:</mo></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><msub><mtext>C</mtext><mn>6</mn></msub><mrow/><msub><mtext>H</mtext><mn>5</mn></msub><mrow/><msub><mrow><mtext>NH</mtext></mrow><mn>3</mn></msub><mrow/><msup><mrow/><mtext>+</mtext></msup><mo>:</mo></mrow></annotation-xml></semantics></math> <math display="inline"><semantics><mrow><mrow><mo stretchy="false">[</mo><msub><mtext>C</mtext><mn>6</mn></msub><mrow/><msub><mtext>H</mtext><mn>5</mn></msub><mrow/><msub><mrow><mtext>NH</mtext></mrow><mn>3</mn></msub><mrow/><msup><mrow/><mtext>+</mtext></msup><mo stretchy="false">]</mo></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><mo stretchy="false">[</mo><msub><mtext>C</mtext><mn>6</mn></msub><mrow/><msub><mtext>H</mtext><mn>5</mn></msub><mrow/><msub><mrow><mtext>NH</mtext></mrow><mn>3</mn></msub><mrow/><msup><mrow/><mtext>+</mtext></msup><mo stretchy="false">]</mo></mrow></annotation-xml></semantics></math> = 0.233 <em data-effect="italics">M</em>;</p>
+<p id="fs-idm121296080">[C<sub>6</sub>H<sub>5</sub>NH<sub>2</sub>] = 2.3 <math display="inline"><semantics><mrow><mo>×</mo></mrow><annotation-xml encoding="MathML-Content"><mo>×</mo></annotation-xml></semantics></math> 10<sup>−3</sup> <em data-effect="italics">M</em>;<span data-type="newline"><br/></span>
+<math display="inline"><semantics><mrow><mrow><mo stretchy="false">[</mo><msub><mtext>H</mtext><mrow><mn>3</mn></mrow></msub><msup><mtext>O</mtext><mtext>+</mtext></msup><mo stretchy="false">]</mo></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><mo stretchy="false">[</mo><msub><mtext>H</mtext><mrow><mn>3</mn></mrow></msub><msup><mtext>O</mtext><mtext>+</mtext></msup><mo stretchy="false">]</mo></mrow></annotation-xml></semantics></math> = 2.3 <math display="inline"><semantics><mrow><mo>×</mo></mrow><annotation-xml encoding="MathML-Content"><mo>×</mo></annotation-xml></semantics></math> 10<sup>−3</sup> <em data-effect="italics">M</em></p>
+</div></div>
+</div>
+<div class=" os-hasSolution " data-type="exercise" id="fs-idp68108464">
+<div data-type="problem" id="fs-idp68108720"><a class="os-number" href="chapter-14#fs-idp68108464-solution">54</a><span class="os-divider">. </span><div class="os-problem-container">
+<p id="fs-idp68108976">From the equilibrium concentrations given, calculate <em data-effect="italics">K</em><sub>a</sub> for each of the weak acids and <em data-effect="italics">K</em><sub>b</sub> for each of the weak bases.</p>
+<p id="fs-idp68111120">(a) NH<sub>3</sub>: [OH<sup>−</sup>] = 3.1 <math display="inline"><semantics><mrow><mo>×</mo></mrow><annotation-xml encoding="MathML-Content"><mo>×</mo></annotation-xml></semantics></math> 10<sup>−3</sup> <em data-effect="italics">M</em>;<span data-type="newline"><br/></span>
+<math display="inline"><semantics><mrow><mrow><mo stretchy="false">[</mo><msub><mrow><mtext>NH</mtext></mrow><mn>4</mn></msub><mrow/><msup><mrow/><mtext>+</mtext></msup><mo stretchy="false">]</mo></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><mo stretchy="false">[</mo><msub><mrow><mtext>NH</mtext></mrow><mn>4</mn></msub><mrow/><msup><mrow/><mtext>+</mtext></msup><mo stretchy="false">]</mo></mrow></annotation-xml></semantics></math> = 3.1 <math display="inline"><semantics><mrow><mo>×</mo></mrow><annotation-xml encoding="MathML-Content"><mo>×</mo></annotation-xml></semantics></math> 10<sup>−3</sup> <em data-effect="italics">M</em>;</p>
+<p id="fs-idp69240176">[NH<sub>3</sub>] = 0.533 <em data-effect="italics">M</em>;</p>
+<p id="fs-idp69241568">(b) HNO<sub>2</sub>: <math display="inline"><semantics><mrow><mrow><mo stretchy="false">[</mo><msub><mtext>H</mtext><mrow><mn>3</mn></mrow></msub><msup><mtext>O</mtext><mtext>+</mtext></msup><mo stretchy="false">]</mo></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><mo stretchy="false">[</mo><msub><mtext>H</mtext><mrow><mn>3</mn></mrow></msub><msup><mtext>O</mtext><mtext>+</mtext></msup><mo stretchy="false">]</mo></mrow></annotation-xml></semantics></math> = 0.011 <em data-effect="italics">M</em>;<span data-type="newline"><br/></span>
+<math display="inline"><semantics><mrow><mrow><mo stretchy="false">[</mo><msub><mrow><mtext>NO</mtext></mrow><mn>2</mn></msub><mrow/><msup><mrow/><mtext>−</mtext></msup><mo stretchy="false">]</mo></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><mo stretchy="false">[</mo><msub><mrow><mtext>NO</mtext></mrow><mn>2</mn></msub><mrow/><msup><mrow/><mtext>−</mtext></msup><mo stretchy="false">]</mo></mrow></annotation-xml></semantics></math> = 0.0438 <em data-effect="italics">M</em>;</p>
+<p id="fs-idm1577296">[HNO<sub>2</sub>] = 1.07 <em data-effect="italics">M</em>;</p>
+<p id="fs-idm1575904">(c) (CH<sub>3</sub>)<sub>3</sub>N: [(CH<sub>3</sub>)<sub>3</sub>N] = 0.25 <em data-effect="italics">M</em>;<span data-type="newline"><br/></span>
+[(CH<sub>3</sub>)<sub>3</sub>NH<sup>+</sup>] = 4.3 <math display="inline"><semantics><mrow><mo>×</mo></mrow><annotation-xml encoding="MathML-Content"><mo>×</mo></annotation-xml></semantics></math> 10<sup>−3</sup> <em data-effect="italics">M</em>;</p>
+<p id="fs-idm94284096">[OH<sup>−</sup>] = 3.7 <math display="inline"><semantics><mrow><mo>×</mo></mrow><annotation-xml encoding="MathML-Content"><mo>×</mo></annotation-xml></semantics></math> 10<sup>−3</sup> <em data-effect="italics">M</em>;</p>
+<p id="fs-idm94281808">(d) <math display="inline"><semantics><mrow><mrow><msub><mrow><mtext>NH</mtext></mrow><mn>4</mn></msub><mrow/><msup><mrow/><mtext>+</mtext></msup><mo>:</mo></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><msub><mrow><mtext>NH</mtext></mrow><mn>4</mn></msub><mrow/><msup><mrow/><mtext>+</mtext></msup><mo>:</mo></mrow></annotation-xml></semantics></math> <math display="inline"><semantics><mrow><mrow><mo stretchy="false">[</mo><msub><mrow><mtext>NH</mtext></mrow><mn>4</mn></msub><mrow/><msup><mrow/><mtext>+</mtext></msup><mo stretchy="false">]</mo></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><mo stretchy="false">[</mo><msub><mrow><mtext>NH</mtext></mrow><mn>4</mn></msub><mrow/><msup><mrow/><mtext>+</mtext></msup><mo stretchy="false">]</mo></mrow></annotation-xml></semantics></math> = 0.100 <em data-effect="italics">M</em>;</p>
+<p id="fs-idp54458608">[NH<sub>3</sub>] = 7.5 <math display="inline"><semantics><mrow><mo>×</mo></mrow><annotation-xml encoding="MathML-Content"><mo>×</mo></annotation-xml></semantics></math> 10<sup>−6</sup> <em data-effect="italics">M</em>;<span data-type="newline"><br/></span>
+[H<sub>3</sub>O<sup>+</sup>] = 7.5 <math display="inline"><semantics><mrow><mo>×</mo></mrow><annotation-xml encoding="MathML-Content"><mo>×</mo></annotation-xml></semantics></math> 10<sup>−6</sup> <em data-effect="italics">M</em></p>
+</div></div>
+
+</div>
+<div class=" " data-type="exercise" id="fs-idp58811168">
+<div data-type="problem" id="fs-idp58811424"><span class="os-number">55</span><span class="os-divider">. </span><div class="os-problem-container">
+<p id="fs-idp58811680">Determine <em data-effect="italics">K</em><sub>b</sub> for the nitrite ion, <math display="inline"><semantics><mrow><mrow><msub><mrow><mtext>NO</mtext></mrow><mn>2</mn></msub><mrow/><msup><mrow/><mtext>−</mtext></msup><mo>.</mo></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><msub><mrow><mtext>NO</mtext></mrow><mn>2</mn></msub><mrow/><msup><mrow/><mtext>−</mtext></msup><mo>.</mo></mrow></annotation-xml></semantics></math> In a 0.10-<em data-effect="italics">M</em> solution this base is 0.0015% ionized.</p>
+</div></div>
+</div>
+<div class=" os-hasSolution " data-type="exercise" id="fs-idm71105088">
+<div data-type="problem" id="fs-idm71104832"><a class="os-number" href="chapter-14#fs-idm71105088-solution">56</a><span class="os-divider">. </span><div class="os-problem-container">
+<p id="fs-idm71104576">Determine <em data-effect="italics">K</em><sub>a</sub> for hydrogen sulfate ion, <math display="inline"><semantics><mrow><mrow><msub><mrow><mtext>HSO</mtext></mrow><mn>4</mn></msub><mrow/><msup><mrow/><mtext>−</mtext></msup><mo>.</mo></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><msub><mrow><mtext>HSO</mtext></mrow><mn>4</mn></msub><mrow/><msup><mrow/><mtext>−</mtext></msup><mo>.</mo></mrow></annotation-xml></semantics></math> In a 0.10-<em data-effect="italics">M</em> solution the acid is 29% ionized.</p>
+</div></div>
+
+</div>
+<div class=" " data-type="exercise" id="fs-idm5851168">
+<div data-type="problem" id="fs-idm5850912"><span class="os-number">57</span><span class="os-divider">. </span><div class="os-problem-container">
+<p id="fs-idm5850656">Calculate the ionization constant for each of the following acids or bases from the ionization constant of its conjugate base or conjugate acid:</p>
+<p id="fs-idm5850112">(a) F<sup>−</sup></p>
+<p id="fs-idm5849472">(b) <math display="inline"><semantics><mrow><mrow><msub><mrow><mtext>NH</mtext></mrow><mn>4</mn></msub><mrow/><msup><mrow/><mtext>+</mtext></msup></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><msub><mrow><mtext>NH</mtext></mrow><mn>4</mn></msub><mrow/><msup><mrow/><mtext>+</mtext></msup></mrow></annotation-xml></semantics></math></p>
+<p id="fs-idp69550272">(c) <math display="inline"><semantics><mrow><mrow><msub><mrow><mtext>AsO</mtext></mrow><mn>4</mn></msub><mrow/><msup><mrow/><mrow><mn>3−</mn></mrow></msup></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><msub><mrow><mtext>AsO</mtext></mrow><mn>4</mn></msub><mrow/><msup><mrow/><mrow><mn>3−</mn></mrow></msup></mrow></annotation-xml></semantics></math></p>
+<p id="fs-idp69552448">(d) <math display="inline"><semantics><mrow><mrow><msub><mrow><mo stretchy="false">(</mo><msub><mrow><mtext>CH</mtext></mrow><mn>3</mn></msub><mo stretchy="false">)</mo></mrow><mn>2</mn></msub><mrow/><msub><mrow><mtext>NH</mtext></mrow><mn>2</mn></msub><mrow/><msup><mrow/><mtext>+</mtext></msup></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><msub><mrow><mo stretchy="false">(</mo><msub><mrow><mtext>CH</mtext></mrow><mn>3</mn></msub><mo stretchy="false">)</mo></mrow><mn>2</mn></msub><mrow/><msub><mrow><mtext>NH</mtext></mrow><mn>2</mn></msub><mrow/><msup><mrow/><mtext>+</mtext></msup></mrow></annotation-xml></semantics></math></p>
+<p id="fs-idp69556896">(e) <math display="inline"><semantics><mrow><mrow><msub><mrow><mtext>NO</mtext></mrow><mn>2</mn></msub><mrow/><msup><mrow/><mtext>−</mtext></msup></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><msub><mrow><mtext>NO</mtext></mrow><mn>2</mn></msub><mrow/><msup><mrow/><mtext>−</mtext></msup></mrow></annotation-xml></semantics></math></p>
+<p id="fs-idp69558944">(f) <math display="inline"><semantics><mrow><mrow><msub><mrow><mtext>HC</mtext></mrow><mn>2</mn></msub><mrow/><msub><mtext>O</mtext><mn>4</mn></msub><mrow/><msup><mrow/><mtext>−</mtext></msup></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><msub><mrow><mtext>HC</mtext></mrow><mn>2</mn></msub><mrow/><msub><mtext>O</mtext><mn>4</mn></msub><mrow/><msup><mrow/><mtext>−</mtext></msup></mrow></annotation-xml></semantics></math> (as a base)</p>
+</div></div>
+</div>
+<div class=" os-hasSolution " data-type="exercise" id="fs-idm82380304">
+<div data-type="problem" id="fs-idm82380048"><a class="os-number" href="chapter-14#fs-idm82380304-solution">58</a><span class="os-divider">. </span><div class="os-problem-container">
+<p id="fs-idm82379792">Calculate the ionization constant for each of the following acids or bases from the ionization constant of its conjugate base or conjugate acid:</p>
+<p id="fs-idm82379248">(a) HTe<sup>−</sup> (as a base)</p>
+<p id="fs-idm82378480">(b) <math display="inline"><semantics><mrow><mrow><msub><mrow><mo stretchy="false">(</mo><msub><mrow><mtext>CH</mtext></mrow><mn>3</mn></msub><mo stretchy="false">)</mo></mrow><mn>3</mn></msub><mrow/><msup><mrow><mtext>NH</mtext></mrow><mtext>+</mtext></msup></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><msub><mrow><mo stretchy="false">(</mo><msub><mrow><mtext>CH</mtext></mrow><mn>3</mn></msub><mo stretchy="false">)</mo></mrow><mn>3</mn></msub><mrow/><msup><mrow><mtext>NH</mtext></mrow><mtext>+</mtext></msup></mrow></annotation-xml></semantics></math></p>
+<p id="fs-idm82374672">(c) <math display="inline"><semantics><mrow><mrow><msub><mrow><mtext>HAsO</mtext></mrow><mn>4</mn></msub><mrow/><msup><mrow/><mrow><mn>3−</mn></mrow></msup></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><msub><mrow><mtext>HAsO</mtext></mrow><mn>4</mn></msub><mrow/><msup><mrow/><mrow><mn>3−</mn></mrow></msup></mrow></annotation-xml></semantics></math> (as a base)</p>
+<p id="fs-idm82372368">(d) <math display="inline"><semantics><mrow><mrow><msub><mrow><mtext>HO</mtext></mrow><mn>2</mn></msub><mrow/><msup><mrow/><mtext>−</mtext></msup></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><msub><mrow><mtext>HO</mtext></mrow><mn>2</mn></msub><mrow/><msup><mrow/><mtext>−</mtext></msup></mrow></annotation-xml></semantics></math> (as a base)</p>
+<p id="fs-idm82370192">(e) <math display="inline"><semantics><mrow><mrow><msub><mtext>C</mtext><mn>6</mn></msub><mrow/><msub><mtext>H</mtext><mn>5</mn></msub><mrow/><msub><mrow><mtext>NH</mtext></mrow><mn>3</mn></msub><mrow/><msup><mrow/><mtext>+</mtext></msup></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><msub><mtext>C</mtext><mn>6</mn></msub><mrow/><msub><mtext>H</mtext><mn>5</mn></msub><mrow/><msub><mrow><mtext>NH</mtext></mrow><mn>3</mn></msub><mrow/><msup><mrow/><mtext>+</mtext></msup></mrow></annotation-xml></semantics></math></p>
+<p id="fs-idp30723328">(f) <math display="inline"><semantics><mrow><mrow><msub><mrow><mtext>HSO</mtext></mrow><mn>3</mn></msub><mrow/><msup><mrow/><mtext>−</mtext></msup></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><msub><mrow><mtext>HSO</mtext></mrow><mn>3</mn></msub><mrow/><msup><mrow/><mtext>−</mtext></msup></mrow></annotation-xml></semantics></math> (as a base)</p>
+</div></div>
+
+</div>
+<div class=" " data-type="exercise" id="fs-idm8587472">
+<div data-type="problem" id="fs-idm8587216"><span class="os-number">59</span><span class="os-divider">. </span><div class="os-problem-container">
+<p id="fs-idm8586960">Using the <em data-effect="italics">K</em><sub>a</sub> value of 1.4 <math display="inline"><semantics><mrow><mo>×</mo></mrow><annotation-xml encoding="MathML-Content"><mo>×</mo></annotation-xml></semantics></math> 10<sup>−5</sup>, place <math display="inline"><semantics><mrow><mrow><mtext>Al</mtext><msub><mrow><mo stretchy="false">(</mo><msub><mtext>H</mtext><mn>2</mn></msub><mtext>O</mtext><mo stretchy="false">)</mo></mrow><mn>6</mn></msub><mrow/><msup><mrow/><mrow><mn>3+</mn></mrow></msup></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><mtext>Al</mtext><msub><mrow><mo stretchy="false">(</mo><msub><mtext>H</mtext><mn>2</mn></msub><mtext>O</mtext><mo stretchy="false">)</mo></mrow><mn>6</mn></msub><mrow/><msup><mrow/><mrow><mn>3+</mn></mrow></msup></mrow></annotation-xml></semantics></math> in the correct location in <a class="autogenerated-content" href="14-3-relative-strengths-of-acids-and-bases#CNX_Chem_14_03_strengths">Figure 14.7</a>.</p></div></div>
+</div>
+<div class=" os-hasSolution " data-type="exercise" id="fs-idp3008704">
+<div data-type="problem" id="fs-idp3008960"><a class="os-number" href="chapter-14#fs-idp3008704-solution">60</a><span class="os-divider">. </span><div class="os-problem-container">
+<p id="fs-idp3009216">Calculate the concentration of all solute species in each of the following solutions of acids or bases. Assume that the ionization of water can be neglected, and show that the change in the initial concentrations can be neglected.</p>
+<p id="fs-idp3011616">(a) 0.0092 <em data-effect="italics">M</em> HClO, a weak acid</p>
+<p id="fs-idp3012624">(b) 0.0784 <em data-effect="italics">M</em> C<sub>6</sub>H<sub>5</sub>NH<sub>2</sub>, a weak base</p>
+<p id="fs-idp3014784">(c) 0.0810 <em data-effect="italics">M</em> HCN, a weak acid</p>
+<p id="fs-idp3015792">(d) 0.11 <em data-effect="italics">M</em> (CH<sub>3</sub>)<sub>3</sub>N, a weak base</p>
+<p id="fs-idp3017568">(e) 0.120 <em data-effect="italics">M</em> <math display="inline"><semantics><mrow><mrow><mtext>Fe</mtext><msub><mrow><mo stretchy="false">(</mo><msub><mtext>H</mtext><mn>2</mn></msub><mtext>O</mtext><mo stretchy="false">)</mo></mrow><mn>6</mn></msub><mrow/><msup><mrow/><mrow><mn>2+</mn></mrow></msup></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><mtext>Fe</mtext><msub><mrow><mo stretchy="false">(</mo><msub><mtext>H</mtext><mn>2</mn></msub><mtext>O</mtext><mo stretchy="false">)</mo></mrow><mn>6</mn></msub><mrow/><msup><mrow/><mrow><mn>2+</mn></mrow></msup></mrow></annotation-xml></semantics></math> a weak acid, <em data-effect="italics">K</em><sub>a</sub> = 1.6 <math display="inline"><semantics><mrow><mo>×</mo></mrow><annotation-xml encoding="MathML-Content"><mo>×</mo></annotation-xml></semantics></math> 10<sup>−7</sup></p>
+</div></div>
+
+</div>
+<div class=" " data-type="exercise" id="fs-idm78141920">
+<div data-type="problem" id="fs-idm78141664"><span class="os-number">61</span><span class="os-divider">. </span><div class="os-problem-container">
+<p id="fs-idm78141408">Propionic acid, C<sub>2</sub>H<sub>5</sub>CO<sub>2</sub>H (<em data-effect="italics">K</em><sub>a</sub> = 1.34 <math display="inline"><semantics><mrow><mo>×</mo></mrow><annotation-xml encoding="MathML-Content"><mo>×</mo></annotation-xml></semantics></math> 10<sup>−5</sup>), is used in the manufacture of calcium propionate, a food preservative. What is the pH of a 0.698-<em data-effect="italics">M</em> solution of C<sub>2</sub>H<sub>5</sub>CO<sub>2</sub>H?</p>
+</div></div>
+</div>
+<div class=" os-hasSolution " data-type="exercise" id="fs-idp35201920">
+<div data-type="problem" id="fs-idp35202176"><a class="os-number" href="chapter-14#fs-idp35201920-solution">62</a><span class="os-divider">. </span><div class="os-problem-container">
+<p id="fs-idp35202432">White vinegar is a 5.0% by mass solution of acetic acid in water. If the density of white vinegar is 1.007 g/cm<sup>3</sup>, what is the pH?</p>
+</div></div>
+
+</div>
+<div class=" " data-type="exercise" id="fs-idm68637072">
+<div data-type="problem" id="fs-idm68636816"><span class="os-number">63</span><span class="os-divider">. </span><div class="os-problem-container">
+<p id="fs-idm68636560">The ionization constant of lactic acid, CH<sub>3</sub>CH(OH)CO<sub>2</sub>H, an acid found in the blood after strenuous exercise, is 1.36 <math display="inline"><semantics><mrow><mo>×</mo></mrow><annotation-xml encoding="MathML-Content"><mo>×</mo></annotation-xml></semantics></math> 10<sup>−4</sup>. If 20.0 g of lactic acid is used to make a solution with a volume of 1.00 L, what is the concentration of hydronium ion in the solution?</p>
+</div></div>
+</div>
+<div class=" os-hasSolution " data-type="exercise" id="fs-idm75310368">
+<div data-type="problem" id="fs-idm75310112"><a class="os-number" href="chapter-14#fs-idm75310368-solution">64</a><span class="os-divider">. </span><div class="os-problem-container">
+<p id="fs-idm75309856">Nicotine, C<sub>10</sub>H<sub>14</sub>N<sub>2</sub>, is a base that will accept two protons (<em data-effect="italics">K</em><sub>b1</sub> = 7 <math display="inline"><semantics><mrow><mo>×</mo></mrow><annotation-xml encoding="MathML-Content"><mo>×</mo></annotation-xml></semantics></math> 10<sup>−7</sup>, <em data-effect="italics">K</em><sub>b2</sub> = 1.4 <math display="inline"><semantics><mrow><mo>×</mo></mrow><annotation-xml encoding="MathML-Content"><mo>×</mo></annotation-xml></semantics></math> 10<sup>−11</sup>). What is the concentration of each species present in a 0.050-<em data-effect="italics">M</em> solution of nicotine?</p>
+</div></div>
+
+</div>
+<div class=" " data-type="exercise" id="fs-idp85725440">
+<div data-type="problem" id="fs-idp85725696"><span class="os-number">65</span><span class="os-divider">. </span><div class="os-problem-container">
+<p id="fs-idp85725952">The pH of a 0.23-<em data-effect="italics">M</em> solution of HF is 1.92. Determine <em data-effect="italics">K</em><sub>a</sub> for HF from these data.</p>
+</div></div>
+</div>
+<div class=" os-hasSolution " data-type="exercise" id="fs-idm95676256">
+<div data-type="problem" id="fs-idm95676000"><a class="os-number" href="chapter-14#fs-idm95676256-solution">66</a><span class="os-divider">. </span><div class="os-problem-container">
+<p id="fs-idm95675744">The pH of a 0.15-<em data-effect="italics">M</em> solution of <math display="inline"><semantics><mrow><mrow><msub><mrow><mtext>HSO</mtext></mrow><mn>4</mn></msub><mrow/><msup><mrow/><mtext>−</mtext></msup></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><msub><mrow><mtext>HSO</mtext></mrow><mn>4</mn></msub><mrow/><msup><mrow/><mtext>−</mtext></msup></mrow></annotation-xml></semantics></math> is 1.43. Determine <em data-effect="italics">K</em><sub>a</sub> for <math display="inline"><semantics><mrow><mrow><msub><mrow><mtext>HSO</mtext></mrow><mn>4</mn></msub><mrow/><msup><mrow/><mtext>−</mtext></msup></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><msub><mrow><mtext>HSO</mtext></mrow><mn>4</mn></msub><mrow/><msup><mrow/><mtext>−</mtext></msup></mrow></annotation-xml></semantics></math> from these data.</p>
+</div></div>
+
+</div>
+<div class=" " data-type="exercise" id="fs-idm82940432">
+<div data-type="problem" id="fs-idm82940176"><span class="os-number">67</span><span class="os-divider">. </span><div class="os-problem-container">
+<p id="fs-idm82939920">The pH of a 0.10-<em data-effect="italics">M</em> solution of caffeine is 11.70. Determine <em data-effect="italics">K</em><sub>b</sub> for caffeine from these data:<span data-type="newline"><br/></span>
+<math display="inline"><semantics><mrow><mrow><msub><mtext>C</mtext><mn>8</mn></msub><mrow/><msub><mtext>H</mtext><mrow><mn>10</mn></mrow></msub><mrow/><msub><mtext>N</mtext><mn>4</mn></msub><mrow/><msub><mtext>O</mtext><mn>2</mn></msub><mo stretchy="false">(</mo><mi>a</mi><mi>q</mi><mo stretchy="false">)</mo><mo>+</mo><msub><mtext>H</mtext><mn>2</mn></msub><mtext>O</mtext><mo stretchy="false">(</mo><mi>l</mi><mo stretchy="false">)</mo><mspace width="0.2em"/><mo stretchy="false">⇌</mo><mspace width="0.2em"/><msub><mtext>C</mtext><mn>8</mn></msub><mrow/><msub><mtext>H</mtext><mrow><mn>10</mn></mrow></msub><mrow/><msub><mtext>N</mtext><mn>4</mn></msub><mrow/><msub><mtext>O</mtext><mn>2</mn></msub><mrow/><msup><mtext>H</mtext><mtext>+</mtext></msup><mo stretchy="false">(</mo><mi>a</mi><mi>q</mi><mo stretchy="false">)</mo><mo>+</mo><msup><mrow><mtext>OH</mtext></mrow><mtext>−</mtext></msup><mo stretchy="false">(</mo><mi>a</mi><mi>q</mi><mo stretchy="false">)</mo></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><msub><mtext>C</mtext><mn>8</mn></msub><mrow/><msub><mtext>H</mtext><mrow><mn>10</mn></mrow></msub><mrow/><msub><mtext>N</mtext><mn>4</mn></msub><mrow/><msub><mtext>O</mtext><mn>2</mn></msub><mo stretchy="false">(</mo><mi>a</mi><mi>q</mi><mo stretchy="false">)</mo><mo>+</mo><msub><mtext>H</mtext><mn>2</mn></msub><mtext>O</mtext><mo stretchy="false">(</mo><mi>l</mi><mo stretchy="false">)</mo><mspace width="0.2em"/><mo stretchy="false">⇌</mo><mspace width="0.2em"/><msub><mtext>C</mtext><mn>8</mn></msub><mrow/><msub><mtext>H</mtext><mrow><mn>10</mn></mrow></msub><mrow/><msub><mtext>N</mtext><mn>4</mn></msub><mrow/><msub><mtext>O</mtext><mn>2</mn></msub><mrow/><msup><mtext>H</mtext><mtext>+</mtext></msup><mo stretchy="false">(</mo><mi>a</mi><mi>q</mi><mo stretchy="false">)</mo><mo>+</mo><msup><mrow><mtext>OH</mtext></mrow><mtext>−</mtext></msup><mo stretchy="false">(</mo><mi>a</mi><mi>q</mi><mo stretchy="false">)</mo></mrow></annotation-xml></semantics></math></p>
+</div></div>
+</div>
+<div class=" os-hasSolution " data-type="exercise" id="fs-idm93044768">
+<div data-type="problem" id="fs-idm93044512"><a class="os-number" href="chapter-14#fs-idm93044768-solution">68</a><span class="os-divider">. </span><div class="os-problem-container">
+<p id="fs-idm93044256">The pH of a solution of household ammonia, a 0.950 M solution of NH<sub>3,</sub> is 11.612. Determine <em data-effect="italics">K</em><sub>b</sub> for NH<sub>3</sub> from these data.</p>
+</div></div>
+
+</div>
+</section><section class="exercises" data-depth="1" id="fs-idm46050816"><h3 data-type="document-title" id="[redacted for uniqueness]"><span class="os-number">14.4</span><span class="os-divider"> </span><span class="os-text">Hydrolysis of Salts</span></h3>
+<div class=" " data-type="exercise" id="fs-idm95651552">
+<div data-type="problem" id="fs-idm116458960"><span class="os-number">69</span><span class="os-divider">. </span><div class="os-problem-container">
+<p id="fs-idm280233072">Determine whether aqueous solutions of the following salts are acidic, basic, or neutral:</p>
+<p id="fs-idm142584336">(a) Al(NO<sub>3</sub>)<sub>3</sub></p>
+<p id="fs-idm136682096">(b) RbI</p>
+<p id="fs-idp68276672">(c) KHCO<sub>2</sub></p>
+<p id="fs-idm121100032">(d) CH<sub>3</sub>NH<sub>3</sub>Br</p>
+</div></div>
+</div>
+<div class=" os-hasSolution " data-type="exercise" id="fs-idm161278480">
+<div data-type="problem" id="fs-idm30137504"><a class="os-number" href="chapter-14#fs-idm161278480-solution">70</a><span class="os-divider">. </span><div class="os-problem-container">
+<p id="fs-idm245309936">Determine whether aqueous solutions of the following salts are acidic, basic, or neutral:</p>
+<p id="fs-idm118859616">(a) FeCl<sub>3</sub></p>
+<p id="fs-idm120181856">(b) K<sub>2</sub>CO<sub>3</sub></p>
+<p id="fs-idm127849104">(c) NH<sub>4</sub>Br</p>
+<p id="fs-idm10166912">(d) KClO<sub>4</sub></p>
+</div></div>
+
+</div>
+<div class=" " data-type="exercise" id="fs-idm1823584">
+<div data-type="problem" id="fs-idm138043888"><span class="os-number">71</span><span class="os-divider">. </span><div class="os-problem-container">
+<p id="fs-idp30279488">Novocaine, C<sub>13</sub>H<sub>21</sub>O<sub>2</sub>N<sub>2</sub>Cl, is the salt of the base procaine and hydrochloric acid. The ionization constant for procaine is 7 <math display="inline"><semantics><mrow><mo>×</mo></mrow><annotation-xml encoding="MathML-Content"><mo>×</mo></annotation-xml></semantics></math> 10<sup>−6</sup>. Is a solution of novocaine acidic or basic? What are [H<sub>3</sub>O<sup>+</sup>], [OH<sup>−</sup>], and pH of a 2.0% solution by mass of novocaine, assuming that the density of the solution is 1.0 g/mL.</p>
+</div></div>
+</div>
+</section><section class="exercises" data-depth="1" id="fs-idm45487824"><h3 data-type="document-title" id="[redacted for uniqueness]"><span class="os-number">14.5</span><span class="os-divider"> </span><span class="os-text">Polyprotic Acids</span></h3>
+<div class=" os-hasSolution " data-type="exercise" id="fs-idp94973072">
+<div data-type="problem" id="fs-idp149185520"><a class="os-number" href="chapter-14#fs-idp94973072-solution">72</a><span class="os-divider">. </span><div class="os-problem-container">
+<p id="fs-idm49321712">Which of the following concentrations would be practically equal in a calculation of the equilibrium concentrations in a 0.134-<em data-effect="italics">M</em> solution of H<sub>2</sub>CO<sub>3</sub>, a diprotic acid: <math display="inline"><semantics><mrow><mrow><mo stretchy="false">[</mo><msub><mrow><mtext>H</mtext></mrow><mn>3</mn></msub><msup><mtext>O</mtext><mtext>+</mtext></msup><mo stretchy="false">]</mo><mo>,</mo></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><mo stretchy="false">[</mo><msub><mrow><mtext>H</mtext></mrow><mn>3</mn></msub><msup><mtext>O</mtext><mtext>+</mtext></msup><mo stretchy="false">]</mo><mo>,</mo></mrow></annotation-xml></semantics></math> [OH<sup>−</sup>], [H<sub>2</sub>CO<sub>3</sub>], <math display="inline"><semantics><mrow><mrow><mrow><mo stretchy="false">[</mo><mrow><msub><mrow><mtext>HCO</mtext></mrow><mn>3</mn></msub><msup><mrow/><mtext>−</mtext></msup></mrow><mo stretchy="false">]</mo></mrow><mo>,</mo></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><mrow><mo stretchy="false">[</mo><mrow><msub><mrow><mtext>HCO</mtext></mrow><mn>3</mn></msub><msup><mrow/><mtext>−</mtext></msup></mrow><mo stretchy="false">]</mo></mrow><mo>,</mo></mrow></annotation-xml></semantics></math> <math display="inline"><semantics><mrow><mrow><mrow><mo stretchy="false">[</mo><mrow><msub><mrow><mtext>CO</mtext></mrow><mn>3</mn></msub><msup><mrow/><mrow><mn>2−</mn></mrow></msup></mrow><mo stretchy="false">]</mo></mrow><mo>?</mo></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><mrow><mo stretchy="false">[</mo><mrow><msub><mrow><mtext>CO</mtext></mrow><mn>3</mn></msub><msup><mrow/><mrow><mn>2−</mn></mrow></msup></mrow><mo stretchy="false">]</mo></mrow><mo>?</mo></mrow></annotation-xml></semantics></math> No calculations are needed to answer this question.</p>
+</div></div>
+
+</div>
+<div class=" " data-type="exercise" id="fs-idp108710816">
+<div data-type="problem" id="fs-idm57239184"><span class="os-number">73</span><span class="os-divider">. </span><div class="os-problem-container">
+<p id="fs-idm54573072">Calculate the concentration of each species present in a 0.050-<em data-effect="italics">M</em> solution of H<sub>2</sub>S.</p>
+</div></div>
+</div>
+<div class=" os-hasSolution " data-type="exercise" id="fs-idm125378656">
+<div data-type="problem" id="fs-idp202714928"><a class="os-number" href="chapter-14#fs-idm125378656-solution">74</a><span class="os-divider">. </span><div class="os-problem-container">
+<p id="fs-idm17589920">Calculate the concentration of each species present in a 0.010-<em data-effect="italics">M</em> solution of phthalic acid, C<sub>6</sub>H<sub>4</sub>(CO<sub>2</sub>H)<sub>2</sub>.<span data-type="newline"><br/></span>
+<math display="inline"><semantics><mrow><mtable columnalign="left"><mtr/><mtr/><mtr><mtd><msub><mtext>C</mtext><mn>6</mn></msub><msub><mtext>H</mtext><mn>4</mn></msub><msub><mrow><mo>(</mo><msub><mrow><mtext>CO</mtext></mrow><mrow><mn>2</mn></mrow></msub><mtext>H</mtext><mo>)</mo></mrow><mrow><mn>2</mn></mrow></msub><mo stretchy="false">(</mo><mi>a</mi><mi>q</mi><mo stretchy="false">)</mo><mo>+</mo><msub><mtext>H</mtext><mn>2</mn></msub><mtext>O</mtext><mo stretchy="false">(</mo><mi>l</mi><mo stretchy="false">)</mo><mo stretchy="false">⇌</mo><msub><mtext>H</mtext><mn>3</mn></msub><msup><mtext>O</mtext><mtext>+</mtext></msup><mo stretchy="false">(</mo><mi>a</mi><mi>q</mi><mo stretchy="false">)</mo><mo>+</mo><msub><mtext>C</mtext><mn>6</mn></msub><msub><mtext>H</mtext><mn>4</mn></msub><mo>(</mo><msub><mtext>CO</mtext><mn>2</mn></msub><mtext>H</mtext><mo>)</mo><mspace width="0.2em"/><msup><mrow><mo>(</mo><msub><mrow><mtext>CO</mtext></mrow><mrow><mn>2</mn></mrow></msub><mo>)</mo></mrow><mrow><mtext>−</mtext></mrow></msup><mo stretchy="false">(</mo><mi>a</mi><mi>q</mi><mo stretchy="false">)</mo><mspace width="4em"/><msub><mi>K</mi><mtext>a</mtext></msub><mo>=</mo><mn>1.1</mn><mspace width="0.2em"/><mo>×</mo><mspace width="0.2em"/><msup><mn>10</mn><mrow><mn>−3</mn></mrow></msup></mtd></mtr><mtr><mtd><msub><mtext>C</mtext><mn>6</mn></msub><msub><mtext>H</mtext><mn>4</mn></msub><mo>(</mo><msub><mtext>CO</mtext><mn>2</mn></msub><mtext>H</mtext><mo>)</mo><mo>(</mo><msub><mtext>CO</mtext><mn>2</mn></msub><mo>)</mo><mspace width="0.2em"/><mo stretchy="false">(</mo><mi>a</mi><mi>q</mi><mo stretchy="false">)</mo><mo>+</mo><msub><mtext>H</mtext><mn>2</mn></msub><mtext>O</mtext><mo stretchy="false">(</mo><mi>l</mi><mo stretchy="false">)</mo><mo stretchy="false">⇌</mo><msub><mtext>H</mtext><mn>3</mn></msub><msup><mtext>O</mtext><mtext>+</mtext></msup><mo stretchy="false">(</mo><mi>a</mi><mi>q</mi><mo stretchy="false">)</mo><mo>+</mo><msub><mtext>C</mtext><mn>6</mn></msub><msub><mtext>H</mtext><mn>4</mn></msub><msub><mrow><mo>(</mo><msub><mrow><mtext>CO</mtext></mrow><mrow><mn>2</mn></mrow></msub><mo>)</mo></mrow><mrow><mn>2</mn></mrow></msub><msup><mrow/><mrow><mn>2−</mn></mrow></msup><mo stretchy="false">(</mo><mi>a</mi><mi>q</mi><mo stretchy="false">)</mo><mspace width="5em"/><msub><mi>K</mi><mtext>a</mtext></msub><mo>=</mo><mn>3.9</mn><mspace width="0.2em"/><mo>×</mo><mspace width="0.2em"/><msup><mn>10</mn><mrow><mn>−6</mn></mrow></msup></mtd></mtr></mtable></mrow><annotation-xml encoding="MathML-Content"><mtable columnalign="left"><mtr/><mtr/><mtr><mtd><msub><mtext>C</mtext><mn>6</mn></msub><msub><mtext>H</mtext><mn>4</mn></msub><msub><mrow><mo>(</mo><msub><mrow><mtext>CO</mtext></mrow><mrow><mn>2</mn></mrow></msub><mtext>H</mtext><mo>)</mo></mrow><mrow><mn>2</mn></mrow></msub><mo stretchy="false">(</mo><mi>a</mi><mi>q</mi><mo stretchy="false">)</mo><mo>+</mo><msub><mtext>H</mtext><mn>2</mn></msub><mtext>O</mtext><mo stretchy="false">(</mo><mi>l</mi><mo stretchy="false">)</mo><mo stretchy="false">⇌</mo><msub><mtext>H</mtext><mn>3</mn></msub><msup><mtext>O</mtext><mtext>+</mtext></msup><mo stretchy="false">(</mo><mi>a</mi><mi>q</mi><mo stretchy="false">)</mo><mo>+</mo><msub><mtext>C</mtext><mn>6</mn></msub><msub><mtext>H</mtext><mn>4</mn></msub><mo>(</mo><msub><mtext>CO</mtext><mn>2</mn></msub><mtext>H</mtext><mo>)</mo><mspace width="0.2em"/><msup><mrow><mo>(</mo><msub><mrow><mtext>CO</mtext></mrow><mrow><mn>2</mn></mrow></msub><mo>)</mo></mrow><mrow><mtext>−</mtext></mrow></msup><mo stretchy="false">(</mo><mi>a</mi><mi>q</mi><mo stretchy="false">)</mo><mspace width="4em"/><msub><mi>K</mi><mtext>a</mtext></msub><mo>=</mo><mn>1.1</mn><mspace width="0.2em"/><mo>×</mo><mspace width="0.2em"/><msup><mn>10</mn><mrow><mn>−3</mn></mrow></msup></mtd></mtr><mtr><mtd><msub><mtext>C</mtext><mn>6</mn></msub><msub><mtext>H</mtext><mn>4</mn></msub><mo>(</mo><msub><mtext>CO</mtext><mn>2</mn></msub><mtext>H</mtext><mo>)</mo><mo>(</mo><msub><mtext>CO</mtext><mn>2</mn></msub><mo>)</mo><mspace width="0.2em"/><mo stretchy="false">(</mo><mi>a</mi><mi>q</mi><mo stretchy="false">)</mo><mo>+</mo><msub><mtext>H</mtext><mn>2</mn></msub><mtext>O</mtext><mo stretchy="false">(</mo><mi>l</mi><mo stretchy="false">)</mo><mo stretchy="false">⇌</mo><msub><mtext>H</mtext><mn>3</mn></msub><msup><mtext>O</mtext><mtext>+</mtext></msup><mo stretchy="false">(</mo><mi>a</mi><mi>q</mi><mo stretchy="false">)</mo><mo>+</mo><msub><mtext>C</mtext><mn>6</mn></msub><msub><mtext>H</mtext><mn>4</mn></msub><msub><mrow><mo>(</mo><msub><mrow><mtext>CO</mtext></mrow><mrow><mn>2</mn></mrow></msub><mo>)</mo></mrow><mrow><mn>2</mn></mrow></msub><msup><mrow/><mrow><mn>2−</mn></mrow></msup><mo stretchy="false">(</mo><mi>a</mi><mi>q</mi><mo stretchy="false">)</mo><mspace width="5em"/><msub><mi>K</mi><mtext>a</mtext></msub><mo>=</mo><mn>3.9</mn><mspace width="0.2em"/><mo>×</mo><mspace width="0.2em"/><msup><mn>10</mn><mrow><mn>−6</mn></mrow></msup></mtd></mtr></mtable></annotation-xml></semantics></math></p>
+</div></div>
+
+</div>
+<div class=" " data-type="exercise" id="fs-idp33679104">
+<div data-type="problem" id="fs-idm17198416"><span class="os-number">75</span><span class="os-divider">. </span><div class="os-problem-container">
+<p id="fs-idm71902576">Salicylic acid, HOC<sub>6</sub>H<sub>4</sub>CO<sub>2</sub>H, and its derivatives have been used as pain relievers for a long time. Salicylic acid occurs in small amounts in the leaves, bark, and roots of some vegetation (most notably historically in the bark of the willow tree). Extracts of these plants have been used as medications for centuries. The acid was first isolated in the laboratory in 1838.</p>
+<p id="fs-idm57292128">(a) Both functional groups of salicylic acid ionize in water, with <em data-effect="italics">K</em><sub>a</sub> = 1.0 <math display="inline"><semantics><mrow><mrow><mspace width="0.2em"/><mo>×</mo><mspace width="0.2em"/></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><mspace width="0.2em"/><mo>×</mo><mspace width="0.2em"/></mrow></annotation-xml></semantics></math> 10<sup>−3</sup> for the—CO<sub>2</sub>H group and 4.2 <math display="inline"><semantics><mrow><mrow><mspace width="0.2em"/><mo>×</mo><mspace width="0.2em"/></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><mspace width="0.2em"/><mo>×</mo><mspace width="0.2em"/></mrow></annotation-xml></semantics></math> 10<sup>−13</sup> for the −OH group. What is the pH of a saturated solution of the acid (solubility = 1.8 g/L).</p>
+<p id="fs-idm9714880">(b) Aspirin was discovered as a result of efforts to produce a derivative of salicylic acid that would not be irritating to the stomach lining. Aspirin is acetylsalicylic acid, CH<sub>3</sub>CO<sub>2</sub>C<sub>6</sub>H<sub>4</sub>CO<sub>2</sub>H. The −CO<sub>2</sub>H functional group is still present, but its acidity is reduced, <em data-effect="italics">K</em><sub>a</sub> = 3.0 <math display="inline"><semantics><mrow><mrow><mspace width="0.2em"/><mo>×</mo><mspace width="0.2em"/></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><mspace width="0.2em"/><mo>×</mo><mspace width="0.2em"/></mrow></annotation-xml></semantics></math> 10<sup>−4</sup>. What is the pH of a solution of aspirin with the same concentration as a saturated solution of salicylic acid (See Part a).</p>
+</div></div>
+</div>
+<div class=" os-hasSolution " data-type="exercise" id="fs-idp153083664">
+<div data-type="problem" id="fs-idp138096048"><a class="os-number" href="chapter-14#fs-idp153083664-solution">76</a><span class="os-divider">. </span><div class="os-problem-container">
+<p id="fs-idp51100224">The ion HTe<sup>−</sup> is an amphiprotic species; it can act as either an acid or a base.</p>
+<p id="fs-idm18295328">(a) What is <em data-effect="italics">K</em><sub>a</sub> for the acid reaction of HTe<sup>−</sup> with H<sub>2</sub>O?</p>
+<p id="fs-idp102730016">(b) What is <em data-effect="italics">K</em><sub>b</sub> for the reaction in which HTe<sup>−</sup> functions as a base in water?</p>
+<p id="fs-idp3251712">(c) Demonstrate whether or not the second ionization of H<sub>2</sub>Te can be neglected in the calculation of [HTe<sup>−</sup>] in a 0.10 M solution of H<sub>2</sub>Te.</p>
+</div></div>
+
+</div>
+</section><section class="exercises" data-depth="1" id="fs-idp119412416"><h3 data-type="document-title" id="[redacted for uniqueness]"><span class="os-number">14.6</span><span class="os-divider"> </span><span class="os-text">Buffers</span></h3>
+<div class=" " data-type="exercise" id="fs-idm2126064">
+<div data-type="problem" id="fs-idm143472640"><span class="os-number">77</span><span class="os-divider">. </span><div class="os-problem-container">
+<p id="fs-idp15824512">Explain why a buffer can be prepared from a mixture of NH<sub>4</sub>Cl and NaOH but not from NH<sub>3</sub> and NaOH.</p>
+</div></div>
+</div>
+<div class=" os-hasSolution " data-type="exercise" id="fs-idm81726160">
+<div data-type="problem" id="fs-idp14857472"><a class="os-number" href="chapter-14#fs-idm81726160-solution">78</a><span class="os-divider">. </span><div class="os-problem-container">
+<p id="fs-idm103659360">Explain why the pH does not change significantly when a small amount of an acid or a base is added to a solution that contains equal amounts of the acid H<sub>3</sub>PO<sub>4</sub> and a salt of its conjugate base NaH<sub>2</sub>PO<sub>4</sub>.</p>
+</div></div>
+
+</div>
+<div class=" " data-type="exercise" id="fs-idp21075184">
+<div data-type="problem" id="fs-idm162152320"><span class="os-number">79</span><span class="os-divider">. </span><div class="os-problem-container">
+<p id="fs-idm25948352">Explain why the pH does not change significantly when a small amount of an acid or a base is added to a solution that contains equal amounts of the base NH<sub>3</sub> and a salt of its conjugate acid NH<sub>4</sub>Cl.</p>
+</div></div>
+</div>
+<div class=" os-hasSolution " data-type="exercise" id="fs-idp10424992">
+<div data-type="problem" id="fs-idm113996224"><a class="os-number" href="chapter-14#fs-idp10424992-solution">80</a><span class="os-divider">. </span><div class="os-problem-container">
+<p id="fs-idm118172320">What is [H<sub>3</sub>O<sup>+</sup>] in a solution of 0.25 <em data-effect="italics">M</em> CH<sub>3</sub>CO<sub>2</sub>H and 0.030 <em data-effect="italics">M</em> NaCH<sub>3</sub>CO<sub>2</sub>?<span data-type="newline"><br/></span>
+<math display="inline"><semantics><mrow><mrow><msub><mrow><mtext>CH</mtext></mrow><mn>3</mn></msub><msub><mrow><mtext>CO</mtext></mrow><mn>2</mn></msub><mtext>H</mtext><mo stretchy="false">(</mo><mi>a</mi><mi>q</mi><mo stretchy="false">)</mo><mo>+</mo><msub><mtext>H</mtext><mn>2</mn></msub><mtext>O</mtext><mo stretchy="false">(</mo><mi>l</mi><mo stretchy="false">)</mo><mspace width="0.2em"/><mo stretchy="false">⇌</mo><mspace width="0.2em"/><msub><mtext>H</mtext><mn>3</mn></msub><msup><mtext>O</mtext><mtext>+</mtext></msup><mo stretchy="false">(</mo><mi>a</mi><mi>q</mi><mo stretchy="false">)</mo><mo>+</mo><msub><mrow><mtext>CH</mtext></mrow><mn>3</mn></msub><msub><mrow><mtext>CO</mtext></mrow><mn>2</mn></msub><msup><mrow/><mtext>−</mtext></msup><mo stretchy="false">(</mo><mi>a</mi><mi>q</mi><mo stretchy="false">)</mo><mspace width="5em"/><msub><mi>K</mi><mtext>a</mtext></msub><mo>=</mo><mn>1.8</mn><mspace width="0.2em"/><mo>×</mo><mspace width="0.2em"/><msup><mrow><mn>10</mn></mrow><mrow><mn>−5</mn></mrow></msup></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><msub><mrow><mtext>CH</mtext></mrow><mn>3</mn></msub><msub><mrow><mtext>CO</mtext></mrow><mn>2</mn></msub><mtext>H</mtext><mo stretchy="false">(</mo><mi>a</mi><mi>q</mi><mo stretchy="false">)</mo><mo>+</mo><msub><mtext>H</mtext><mn>2</mn></msub><mtext>O</mtext><mo stretchy="false">(</mo><mi>l</mi><mo stretchy="false">)</mo><mspace width="0.2em"/><mo stretchy="false">⇌</mo><mspace width="0.2em"/><msub><mtext>H</mtext><mn>3</mn></msub><msup><mtext>O</mtext><mtext>+</mtext></msup><mo stretchy="false">(</mo><mi>a</mi><mi>q</mi><mo stretchy="false">)</mo><mo>+</mo><msub><mrow><mtext>CH</mtext></mrow><mn>3</mn></msub><msub><mrow><mtext>CO</mtext></mrow><mn>2</mn></msub><msup><mrow/><mtext>−</mtext></msup><mo stretchy="false">(</mo><mi>a</mi><mi>q</mi><mo stretchy="false">)</mo><mspace width="5em"/><msub><mi>K</mi><mtext>a</mtext></msub><mo>=</mo><mn>1.8</mn><mspace width="0.2em"/><mo>×</mo><mspace width="0.2em"/><msup><mrow><mn>10</mn></mrow><mrow><mn>−5</mn></mrow></msup></mrow></annotation-xml></semantics></math></p>
+</div></div>
+
+</div>
+<div class=" " data-type="exercise" id="fs-idm163403536">
+<div data-type="problem" id="fs-idm57321696"><span class="os-number">81</span><span class="os-divider">. </span><div class="os-problem-container">
+<p id="fs-idm63656480">What is [H<sub>3</sub>O<sup>+</sup>] in a solution of 0.075 <em data-effect="italics">M</em> HNO<sub>2</sub> and 0.030 <em data-effect="italics">M</em> NaNO<sub>2</sub>?<span data-type="newline"><br/></span>
+<math display="inline"><semantics><mrow><mrow><msub><mrow><mtext>HNO</mtext></mrow><mn>2</mn></msub><mo stretchy="false">(</mo><mi>a</mi><mi>q</mi><mo stretchy="false">)</mo><mo>+</mo><msub><mtext>H</mtext><mn>2</mn></msub><mtext>O</mtext><mo stretchy="false">(</mo><mi>l</mi><mo stretchy="false">)</mo><mspace width="0.2em"/><mo stretchy="false">⇌</mo><mspace width="0.2em"/><msub><mtext>H</mtext><mn>3</mn></msub><msup><mtext>O</mtext><mtext>+</mtext></msup><mo stretchy="false">(</mo><mi>a</mi><mi>q</mi><mo stretchy="false">)</mo><mo>+</mo><msub><mrow><mtext>NO</mtext></mrow><mn>2</mn></msub><msup><mrow/><mtext>−</mtext></msup><mo stretchy="false">(</mo><mi>a</mi><mi>q</mi><mo stretchy="false">)</mo><mspace width="5em"/><msub><mi>K</mi><mtext>a</mtext></msub><mo>=</mo><mn>4.5</mn><mspace width="0.2em"/><mo>×</mo><mspace width="0.2em"/><msup><mrow><mn>10</mn></mrow><mrow><mn>−5</mn></mrow></msup></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><msub><mrow><mtext>HNO</mtext></mrow><mn>2</mn></msub><mo stretchy="false">(</mo><mi>a</mi><mi>q</mi><mo stretchy="false">)</mo><mo>+</mo><msub><mtext>H</mtext><mn>2</mn></msub><mtext>O</mtext><mo stretchy="false">(</mo><mi>l</mi><mo stretchy="false">)</mo><mspace width="0.2em"/><mo stretchy="false">⇌</mo><mspace width="0.2em"/><msub><mtext>H</mtext><mn>3</mn></msub><msup><mtext>O</mtext><mtext>+</mtext></msup><mo stretchy="false">(</mo><mi>a</mi><mi>q</mi><mo stretchy="false">)</mo><mo>+</mo><msub><mrow><mtext>NO</mtext></mrow><mn>2</mn></msub><msup><mrow/><mtext>−</mtext></msup><mo stretchy="false">(</mo><mi>a</mi><mi>q</mi><mo stretchy="false">)</mo><mspace width="5em"/><msub><mi>K</mi><mtext>a</mtext></msub><mo>=</mo><mn>4.5</mn><mspace width="0.2em"/><mo>×</mo><mspace width="0.2em"/><msup><mrow><mn>10</mn></mrow><mrow><mn>−5</mn></mrow></msup></mrow></annotation-xml></semantics></math></p>
+</div></div>
+</div>
+<div class=" os-hasSolution " data-type="exercise" id="fs-idp11460800">
+<div data-type="problem" id="fs-idm87207664"><a class="os-number" href="chapter-14#fs-idp11460800-solution">82</a><span class="os-divider">. </span><div class="os-problem-container">
+<p id="fs-idm165406368">What is [OH<sup>−</sup>] in a solution of 0.125 <em data-effect="italics">M</em> CH<sub>3</sub>NH<sub>2</sub> and 0.130 <em data-effect="italics">M</em> CH<sub>3</sub>NH<sub>3</sub>Cl?<span data-type="newline"><br/></span>
+<math display="inline"><semantics><mrow><mrow><msub><mrow><mtext>CH</mtext></mrow><mn>3</mn></msub><msub><mrow><mtext>NH</mtext></mrow><mn>2</mn></msub><mo stretchy="false">(</mo><mi>a</mi><mi>q</mi><mo stretchy="false">)</mo><mo>+</mo><msub><mtext>H</mtext><mn>2</mn></msub><mtext>O</mtext><mo stretchy="false">(</mo><mi>l</mi><mo stretchy="false">)</mo><mspace width="0.2em"/><mo stretchy="false">⇌</mo><mspace width="0.2em"/><msub><mrow><mtext>CH</mtext></mrow><mn>3</mn></msub><msub><mrow><mtext>NH</mtext></mrow><mn>3</mn></msub><msup><mrow/><mtext>+</mtext></msup><mo stretchy="false">(</mo><mi>a</mi><mi>q</mi><mo stretchy="false">)</mo><mo>+</mo><msup><mrow><mtext>OH</mtext></mrow><mtext>−</mtext></msup><mo stretchy="false">(</mo><mi>a</mi><mi>q</mi><mo stretchy="false">)</mo><mspace width="5em"/><msub><mi>K</mi><mtext>b</mtext></msub><mo>=</mo><mn>4.4</mn><mspace width="0.2em"/><mo>×</mo><mspace width="0.2em"/><msup><mrow><mn>10</mn></mrow><mrow><mn>−4</mn></mrow></msup></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><msub><mrow><mtext>CH</mtext></mrow><mn>3</mn></msub><msub><mrow><mtext>NH</mtext></mrow><mn>2</mn></msub><mo stretchy="false">(</mo><mi>a</mi><mi>q</mi><mo stretchy="false">)</mo><mo>+</mo><msub><mtext>H</mtext><mn>2</mn></msub><mtext>O</mtext><mo stretchy="false">(</mo><mi>l</mi><mo stretchy="false">)</mo><mspace width="0.2em"/><mo stretchy="false">⇌</mo><mspace width="0.2em"/><msub><mrow><mtext>CH</mtext></mrow><mn>3</mn></msub><msub><mrow><mtext>NH</mtext></mrow><mn>3</mn></msub><msup><mrow/><mtext>+</mtext></msup><mo stretchy="false">(</mo><mi>a</mi><mi>q</mi><mo stretchy="false">)</mo><mo>+</mo><msup><mrow><mtext>OH</mtext></mrow><mtext>−</mtext></msup><mo stretchy="false">(</mo><mi>a</mi><mi>q</mi><mo stretchy="false">)</mo><mspace width="5em"/><msub><mi>K</mi><mtext>b</mtext></msub><mo>=</mo><mn>4.4</mn><mspace width="0.2em"/><mo>×</mo><mspace width="0.2em"/><msup><mrow><mn>10</mn></mrow><mrow><mn>−4</mn></mrow></msup></mrow></annotation-xml></semantics></math></p>
+</div></div>
+
+</div>
+<div class=" " data-type="exercise" id="fs-idm111908400">
+<div data-type="problem" id="fs-idm68209600"><span class="os-number">83</span><span class="os-divider">. </span><div class="os-problem-container">
+<p id="fs-idm57608480">What is [OH<sup>−</sup>] in a solution of 1.25 <em data-effect="italics">M</em> NH<sub>3</sub> and 0.78 <em data-effect="italics">M</em> NH<sub>4</sub>NO<sub>3</sub>?<span data-type="newline"><br/></span>
+<math display="inline"><semantics><mrow><mrow><msub><mrow><mtext>NH</mtext></mrow><mn>3</mn></msub><mo stretchy="false">(</mo><mi>a</mi><mi>q</mi><mo stretchy="false">)</mo><mo>+</mo><msub><mtext>H</mtext><mn>2</mn></msub><mtext>O</mtext><mo stretchy="false">(</mo><mi>l</mi><mo stretchy="false">)</mo><mspace width="0.2em"/><mo stretchy="false">⇌</mo><mspace width="0.2em"/><msub><mrow><mtext>NH</mtext></mrow><mn>4</mn></msub><msup><mrow/><mtext>+</mtext></msup><mo stretchy="false">(</mo><mi>a</mi><mi>q</mi><mo stretchy="false">)</mo><mo>+</mo><msup><mrow><mtext>OH</mtext></mrow><mtext>−</mtext></msup><mo stretchy="false">(</mo><mi>a</mi><mi>q</mi><mo stretchy="false">)</mo><mspace width="5em"/><msub><mi>K</mi><mtext>b</mtext></msub><mo>=</mo><mn>1.8</mn><mspace width="0.2em"/><mo>×</mo><mspace width="0.2em"/><msup><mrow><mn>10</mn></mrow><mrow><mn>−5</mn></mrow></msup></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><msub><mrow><mtext>NH</mtext></mrow><mn>3</mn></msub><mo stretchy="false">(</mo><mi>a</mi><mi>q</mi><mo stretchy="false">)</mo><mo>+</mo><msub><mtext>H</mtext><mn>2</mn></msub><mtext>O</mtext><mo stretchy="false">(</mo><mi>l</mi><mo stretchy="false">)</mo><mspace width="0.2em"/><mo stretchy="false">⇌</mo><mspace width="0.2em"/><msub><mrow><mtext>NH</mtext></mrow><mn>4</mn></msub><msup><mrow/><mtext>+</mtext></msup><mo stretchy="false">(</mo><mi>a</mi><mi>q</mi><mo stretchy="false">)</mo><mo>+</mo><msup><mrow><mtext>OH</mtext></mrow><mtext>−</mtext></msup><mo stretchy="false">(</mo><mi>a</mi><mi>q</mi><mo stretchy="false">)</mo><mspace width="5em"/><msub><mi>K</mi><mtext>b</mtext></msub><mo>=</mo><mn>1.8</mn><mspace width="0.2em"/><mo>×</mo><mspace width="0.2em"/><msup><mrow><mn>10</mn></mrow><mrow><mn>−5</mn></mrow></msup></mrow></annotation-xml></semantics></math></p>
+</div></div>
+</div>
+<div class=" os-hasSolution " data-type="exercise" id="fs-idm108992432">
+<div data-type="problem" id="fs-idm108992176"><a class="os-number" href="chapter-14#fs-idm108992432-solution">84</a><span class="os-divider">. </span><div class="os-problem-container">
+<p id="fs-idp157984">What is the effect on the concentration of acetic acid, hydronium ion, and acetate ion when the following are added to an acidic buffer solution of equal concentrations of acetic acid and sodium acetate:</p>
+<p id="fs-idm109613408">(a) HCl</p>
+<p id="fs-idm109613024">(b) KCH<sub>3</sub>CO<sub>2</sub></p>
+<p id="fs-idm152181744">(c) NaCl</p>
+<p id="fs-idm152181360">(d) KOH</p>
+<p id="fs-idm105458864">(e) CH<sub>3</sub>CO<sub>2</sub>H</p>
+</div></div>
+
+</div>
+<div class=" " data-type="exercise" id="fs-idm126903712">
+<div data-type="problem" id="fs-idp55794496"><span class="os-number">85</span><span class="os-divider">. </span><div class="os-problem-container">
+<p id="fs-idp55794752">What is the effect on the concentration of ammonia, hydroxide ion, and ammonium ion when the following are added to a basic buffer solution of equal concentrations of ammonia and ammonium nitrate:</p>
+<p id="fs-idp70891616">(a) KI</p>
+<p id="fs-idp55795008">(b) NH<sub>3</sub></p>
+<p id="fs-idp49994400">(c) HI</p>
+<p id="fs-idm69978240">(d) NaOH</p>
+<p id="fs-idm69977856">(e) NH<sub>4</sub>Cl</p>
+</div></div>
+</div>
+<div class=" os-hasSolution " data-type="exercise" id="fs-idp11558384">
+<div data-type="problem" id="fs-idp11558640"><a class="os-number" href="chapter-14#fs-idp11558384-solution">86</a><span class="os-divider">. </span><div class="os-problem-container">
+<p id="fs-idm1392768">What will be the pH of a buffer solution prepared from 0.20 mol NH<sub>3</sub>, 0.40 mol NH<sub>4</sub>NO<sub>3</sub>, and just enough water to give 1.00 L of solution?</p>
+</div></div>
+
+</div>
+<div class=" " data-type="exercise" id="fs-idm128715952">
+<div data-type="problem" id="fs-idm128715696"><span class="os-number">87</span><span class="os-divider">. </span><div class="os-problem-container">
+<p id="fs-idm128715440">Calculate the pH of a buffer solution prepared from 0.155 mol of phosphoric acid, 0.250 mole of KH<sub>2</sub>PO<sub>4</sub>, and enough water to make 0.500 L of solution.</p>
+</div></div>
+</div>
+<div class=" os-hasSolution " data-type="exercise" id="fs-idm105355104">
+<div data-type="problem" id="fs-idm105354848"><a class="os-number" href="chapter-14#fs-idm105355104-solution">88</a><span class="os-divider">. </span><div class="os-problem-container">
+<p id="fs-idm146630688">How much solid NaCH<sub>3</sub>CO<sub>2</sub>•3H<sub>2</sub>O must be added to 0.300 L of a 0.50-<em data-effect="italics">M</em> acetic acid solution to give a buffer with a pH of 5.00? (Hint: Assume a negligible change in volume as the solid is added.)</p>
+</div></div>
+
+</div>
+<div class=" " data-type="exercise" id="fs-idp80593472">
+<div data-type="problem" id="fs-idp55194448"><span class="os-number">89</span><span class="os-divider">. </span><div class="os-problem-container">
+<p id="fs-idp55194704">What mass of NH<sub>4</sub>Cl must be added to 0.750 L of a 0.100-<em data-effect="italics">M</em> solution of NH<sub>3</sub> to give a buffer solution with a pH of 9.26? (Hint: Assume a negligible change in volume as the solid is added.)</p>
+</div></div>
+</div>
+<div class=" os-hasSolution " data-type="exercise" id="fs-idm148474576">
+<div data-type="problem" id="fs-idm64046784"><a class="os-number" href="chapter-14#fs-idm148474576-solution">90</a><span class="os-divider">. </span><div class="os-problem-container">
+<p id="fs-idm64046528">A buffer solution is prepared from equal volumes of 0.200 <em data-effect="italics">M</em> acetic acid and 0.600 <em data-effect="italics">M</em> sodium acetate. Use 1.80 <math display="inline"><semantics><mrow><mo>×</mo></mrow><annotation-xml encoding="MathML-Content"><mo>×</mo></annotation-xml></semantics></math> 10<sup>−5</sup> as <em data-effect="italics">K</em><sub>a</sub> for acetic acid.</p>
+<p id="fs-idm28191808">(a) What is the pH of the solution?</p>
+<p id="fs-idm96193136">(b) Is the solution acidic or basic?</p>
+<p id="fs-idm96192752">(c) What is the pH of a solution that results when 3.00 mL of 0.034 <em data-effect="italics">M</em> HCl is added to 0.200 L of the original buffer?</p>
+</div></div>
+
+</div>
+<div class=" " data-type="exercise" id="fs-idm111629776">
+<div data-type="problem" id="fs-idm104905504"><span class="os-number">91</span><span class="os-divider">. </span><div class="os-problem-container">
+<p id="fs-idm104905248">A 5.36–g sample of NH<sub>4</sub>Cl was added to 25.0 mL of 1.00 <em data-effect="italics">M</em> NaOH and the resulting solution</p>
+<p id="fs-idm2218160">diluted to 0.100 L.</p>
+<p id="fs-idm105728688">(a) What is the pH of this buffer solution?</p>
+<p id="fs-idm105728304">(b) Is the solution acidic or basic?</p>
+<p id="fs-idm105727920">(c) What is the pH of a solution that results when 3.00 mL of 0.034 <em data-effect="italics">M</em> HCl is added to the solution?</p>
+</div></div>
+</div>
+</section><section class="exercises" data-depth="1" id="fs-idp63641264"><h3 data-type="document-title" id="[redacted for uniqueness]"><span class="os-number">14.7</span><span class="os-divider"> </span><span class="os-text">Acid-Base Titrations</span></h3>
+<div class=" os-hasSolution " data-type="exercise" id="fs-idm5595328">
+<div data-type="problem" id="fs-idp5936080"><a class="os-number" href="chapter-14#fs-idm5595328-solution">92</a><span class="os-divider">. </span><div class="os-problem-container">
+<p id="fs-idp67232528">Explain how to choose the appropriate acid-base indicator for the titration of a weak base with a strong acid.</p>
+</div></div>
+
+</div>
+<div class=" " data-type="exercise" id="fs-idm81056688">
+<div data-type="problem" id="fs-idm86623888"><span class="os-number">93</span><span class="os-divider">. </span><div class="os-problem-container">
+<p id="fs-idp73771216">Explain why an acid-base indicator changes color over a range of pH values rather than at a specific pH.</p>
+</div></div>
+</div>
+<div class=" os-hasSolution " data-type="exercise" id="fs-idp255636208">
+<div data-type="problem" id="fs-idp255636464"><a class="os-number" href="chapter-14#fs-idp255636208-solution">94</a><span class="os-divider">. </span><div class="os-problem-container">
+<p id="fs-idp255636720">Calculate the pH at the following points in a titration of 40 mL (0.040 L) of 0.100 <em data-effect="italics">M</em> barbituric acid (<em data-effect="italics">K</em><sub>a</sub> = 9.8 <math display="inline"><semantics><mrow><mo>×</mo></mrow><annotation-xml encoding="MathML-Content"><mo>×</mo></annotation-xml></semantics></math> 10<sup>−5</sup>) with 0.100 <em data-effect="italics">M</em> KOH.</p>
+<p id="fs-idp164478416">(a) no KOH added</p>
+<p id="fs-idp164478800">(b) 20 mL of KOH solution added</p>
+<p id="fs-idp164479184">(c) 39 mL of KOH solution added</p>
+<p id="fs-idp164479568">(d) 40 mL of KOH solution added</p>
+<p id="fs-idp177607408">(e) 41 mL of KOH solution added</p>
+</div></div>
+
+</div>
+<div class=" " data-type="exercise" id="fs-idp105330480">
+<div data-type="problem" id="fs-idp105330736"><span class="os-number">95</span><span class="os-divider">. </span><div class="os-problem-container">
+<p id="fs-idp105330992">The indicator dinitrophenol is an acid with a <em data-effect="italics">K</em><sub>a</sub> of 1.1 <math display="inline"><semantics><mrow><mo>×</mo></mrow><annotation-xml encoding="MathML-Content"><mo>×</mo></annotation-xml></semantics></math> 10<sup>−4</sup>. In a 1.0 <math display="inline"><semantics><mrow><mo>×</mo></mrow><annotation-xml encoding="MathML-Content"><mo>×</mo></annotation-xml></semantics></math> 10<sup>−4</sup>-<em data-effect="italics">M</em> solution, it is colorless in acid and yellow in base. Calculate the pH range over which it goes from 10% ionized (colorless) to 90% ionized (yellow).</p>
+</div></div>
+</div>
+</section></div></div>

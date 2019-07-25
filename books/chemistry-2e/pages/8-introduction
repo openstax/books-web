@@ -1,0 +1,27 @@
+<div class="introduction" data-cnxml-to-html-ver="[redacted for uniqueness]" data-type="page" id="cb3e22a8-dfda-4ded-ab42-823c0ff96e1d"><div class="os-chapter-outline"><h3 class="os-title">Chapter Outline</h3><div class="os-chapter-objective"><a class="os-chapter-objective" href="8-1-valence-bond-theory#[redacted for uniqueness]"><span class="os-number">8.1</span><span class="os-divider"> </span><span class="os-text">Valence Bond Theory</span></a></div><div class="os-chapter-objective"><a class="os-chapter-objective" href="8-2-hybrid-atomic-orbitals#[redacted for uniqueness]"><span class="os-number">8.2</span><span class="os-divider"> </span><span class="os-text">Hybrid Atomic Orbitals</span></a></div><div class="os-chapter-objective"><a class="os-chapter-objective" href="8-3-multiple-bonds#[redacted for uniqueness]"><span class="os-number">8.3</span><span class="os-divider"> </span><span class="os-text">Multiple Bonds</span></a></div><div class="os-chapter-objective"><a class="os-chapter-objective" href="8-4-molecular-orbital-theory#[redacted for uniqueness]"><span class="os-number">8.4</span><span class="os-divider"> </span><span class="os-text">Molecular Orbital Theory</span></a></div></div>
+
+
+
+
+
+
+
+
+
+<div class="os-figure" id="CNX_Chem_08_00_LiqO2"><figure class="splash" data-id="CNX_Chem_08_00_LiqO2">
+<span data-alt="A pitcher is shown pouring liquid oxygen through the gap between two magnets, where it has formed a solid disk. A call out box near the stream of liquid oxygen shows an image of six pairs of spheres, spread apart from one another. Another call out box near the solid disk shows ten pairs of spheres much closer together." data-type="media" id="fs-idp76967904">
+<img alt="A pitcher is shown pouring liquid oxygen through the gap between two magnets, where it has formed a solid disk. A call out box near the stream of liquid oxygen shows an image of six pairs of spheres, spread apart from one another. Another call out box near the solid disk shows ten pairs of spheres much closer together." data-media-type="image/jpeg" id="[redacted for uniqueness]" src="/resources/4dcd64e61697dfb34f8a4fc0cce5e0a714006203"/>
+</span>
+
+</figure><div class="os-caption-container"><span class="os-title-label">Figure </span><span class="os-number">8.1</span><span class="os-divider"> </span><span class="os-divider"> </span><span class="os-caption">Oxygen molecules orient randomly most of the time, as shown in the top magnified view. However, when we pour liquid oxygen through a magnet, the molecules line up with the magnetic field, and the attraction allows them to stay suspended between the poles of the magnet where the magnetic field is strongest. Other diatomic molecules (like N<sub>2</sub>) flow past the magnet. The detailed explanation of bonding described in this chapter allows us to understand this phenomenon. (credit: modification of work by Jefferson Lab)</span></div></div>
+
+<p id="fs-idp262340496">We have examined the basic ideas of bonding, showing that atoms share electrons to form molecules with stable Lewis structures and that we can predict the shapes of those molecules by valence shell electron pair repulsion (VSEPR) theory. These ideas provide an important starting point for understanding chemical bonding. But these models sometimes fall short in their abilities to predict the behavior of real substances. How can we reconcile the geometries of <em data-effect="italics">s, p,</em> and <em data-effect="italics">d</em> atomic orbitals with molecular shapes that show angles like 120° and 109.5°? Furthermore, we know that electrons and magnetic behavior are related through electromagnetic fields. Both N<sub>2</sub> and O<sub>2</sub> have fairly similar Lewis structures that contain lone pairs of electrons.</p>
+
+<span class="scaled-down" data-alt="Two Lewis diagrams are shown. The diagram on the left shows two nitrogen atoms, represented by the letter N connected by three lines and with a lone pair of electrons on each end of the structure. The diagram on the right shows two oxygen atoms, depicted by the letter O, connected by two lines. Two pairs of electrons surround each oxygen to the top and ends of the structure." data-type="media" id="fs-idp82346208">
+<img alt="Two Lewis diagrams are shown. The diagram on the left shows two nitrogen atoms, represented by the letter N connected by three lines and with a lone pair of electrons on each end of the structure. The diagram on the right shows two oxygen atoms, depicted by the letter O, connected by two lines. Two pairs of electrons surround each oxygen to the top and ends of the structure." data-media-type="image/jpeg" id="[redacted for uniqueness]" src="/resources/6b95a9c202ff4997c086835c1b3b8eac79e357ec"/>
+</span>
+
+<p id="fs-idm1216176">Yet oxygen demonstrates very different magnetic behavior than nitrogen. We can pour liquid nitrogen through a magnetic field with no visible interactions, while liquid oxygen (shown in <a class="autogenerated-content" href="#CNX_Chem_08_00_LiqO2">Figure 8.1</a>) is attracted to the magnet and floats in the magnetic field. We need to understand the additional concepts of valence bond theory, orbital hybridization, and molecular orbital theory to understand these observations.</p>
+
+
+  </div></div>
