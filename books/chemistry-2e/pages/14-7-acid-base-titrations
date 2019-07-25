@@ -85,7 +85,7 @@ Calculate the pH for the weak acid/strong base titration between 50.0 mL of 0.10
 <p id="fs-idm444217232">pre-equivalence point (0 mL &lt; <em data-effect="italics">V</em> &lt; 25 mL): solution pH increases gradually and the acid is consumed by reaction with added titrant; composition includes unreacted acid and the reaction product, its conjugate base</p>
 <p id="fs-idm183388016">equivalence point (<em data-effect="italics">V</em> = 25 mL): a drastic rise in pH is observed as the solution composition transitions from acidic to either neutral (for the strong acid sample) or basic (for the weak acid sample), with pH determined by ionization of the conjugate base of the acid</p>
 <p id="fs-idm183509856">postequivalence point (<em data-effect="italics">V</em> &gt; 25 mL): pH is determined by the amount of excess strong base titrant added; since both samples are titrated with the same titrant, both titration curves appear similar at this stage.</p>
-<div class="os-table" id="fs-idm87178400"><table data-id="fs-idm87178400" summary="Table 14.2  "><thead>
+<div class="os-table" id="fs-idm87178400"><table class="top-titled" data-id="fs-idm87178400" summary="Table 14.2  "><thead>
 <tr>
 <th colspan="4" data-align="center">pH Values in the Titrations of a Strong Acid and of a Weak Acid</th>
 </tr>

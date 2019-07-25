@@ -1,6 +1,6 @@
 <div class="appendix" data-cnxml-to-html-ver="[redacted for uniqueness]" data-type="page" id="99f9a1dc-5a53-4300-af88-5529ddcd7fd1">
 
-<div class="os-table" id="fs-idm240880336"><table class="span-all" data-id="fs-idm240880336" summary="Table E1  "><thead>
+<div class="os-table" id="fs-idm240880336"><table class="top-titled" data-id="fs-idm240880336" summary="Table E1  "><thead>
 <tr valign="middle">
 <th colspan="2">Water Density (g/mL) at Different Temperatures (°C)</th>
 </tr>
@@ -63,7 +63,7 @@
 <img alt="A line graph is titled “Density of Water as a Function of Temperature.” The x-axis is titled “Temperature, degrees Celsius,” and the y-axis is titled “Density, Kilograms per cubic meter.” A line connects plot points at the coordinates 0 and 999.8395, 4 and 999.9720, 10 and 999.7026, 15 and 999.1026, 20 and 998.2071, 22 and 997.7735, 25 and 997.0479, 30 and 995.6502, 40 and 992.2, 60 and 983.2, 80 and 971.8, and 100 and 958.4. " data-media-type="image/jpeg" id="[redacted for uniqueness]" src="/resources/62a89368c9aabbefeab759149b151c402bc2c4d5"/>
 </span>
 
-<div class="os-table" id="fs-idm352250464"><table class="span-all" data-id="fs-idm352250464" summary="Table E2  "><thead>
+<div class="os-table" id="fs-idm352250464"><table class="top-titled" data-id="fs-idm352250464" summary="Table E2  "><thead>
 <tr valign="middle">
 <th colspan="3">Water Vapor Pressure at Different Temperatures (°C)</th>
 </tr>
@@ -189,7 +189,7 @@
 <img alt="A line graph is titled “Vapor Pressure as a Function of Temperature.” The x-axis is titled “Temperature, degrees Celsius,” and the y-axis is titled “Vapor pressure, torr.” A line connects plot points at the coordinates 0 and 4.6, 4 and 6.1, 10 and 9.2, 15 and 12.8, 20 and 17.5, 22 and 19.8, 25 and 23.8, 30 and 31.8, 35 and 42.2, 40 and 55.3, 45 and 71.9, 50 and 92.5, 55 and 118.0, 60 and 149.4, 65 and 187.5, 70 and 233.7, 75 and 289.1, 80 and 355.1, 85 and 433.6, 90 and 525.8, 95 and 633.9, and 100 and 760.0." data-media-type="image/jpeg" id="[redacted for uniqueness]" src="/resources/d97a91c4f6c46cdc121ae10bc16525c4da19a203"/>
 </span>
 
-<div class="os-table" id="fs-idm245013232"><table class="span-all" data-id="fs-idm245013232" summary="Table E3  "><thead>
+<div class="os-table" id="fs-idm245013232"><table class="top-titled" data-id="fs-idm245013232" summary="Table E3  "><thead>
 <tr valign="middle">
 <th colspan="3">Water K<sub>w</sub> and pK<sub>w</sub> at Different Temperatures (°C)</th>
 </tr>
@@ -278,7 +278,7 @@
 <img alt="A line graph is titled “Water pK subscript W as a Function of Temperature.” The x-axis is titled “Temperature, degrees Celsius,” and the y-axis is titled “pK subscript W.” A line connects plot points at the coordinates 0 and 14.95, 5 and 14.74, 10 and 14.54, 15 and 14.33, 20 and 14.17, 25 and 14, 30 and 13.84, 35 and 13.69, 40 and 13.55, 45 and 13.41, 50 and 13.28, 55 and 13.15, 60 and 13.03, 75 and 12.7, and 100 and 12.25." data-media-type="image/jpeg" id="[redacted for uniqueness]" src="/resources/3383b90614fdf640c7f3f9f150a0a2e77713dbe8"/>
 </span>
 
-<div class="os-table" id="fs-idm170933296"><table class="span-all" data-id="fs-idm170933296" summary="Table E4  "><thead>
+<div class="os-table" id="fs-idm170933296"><table class="top-titled" data-id="fs-idm170933296" summary="Table E4  "><thead>
 <tr valign="middle">
 <th data-align="center">Specific Heat Capacity for Water</th>
 </tr>
@@ -292,7 +292,7 @@
 <tr valign="middle">
 <td data-align="left">C°(H<sub>2</sub>O(<em data-effect="italics">g</em>)) = 2.093 J∙K<sup>−1</sup>∙g<sup>−1</sup></td>
 </tr>
-</tbody></table><div class="os-caption-container"><span class="os-title-label">Table </span><span class="os-number">E4</span><span class="os-divider"> </span><span class="os-divider"> </span></div></div><div class="os-table" id="fs-idm404907328"><table class="span-all" data-id="fs-idm404907328" summary="Table E5  "><thead>
+</tbody></table><div class="os-caption-container"><span class="os-title-label">Table </span><span class="os-number">E4</span><span class="os-divider"> </span><span class="os-divider"> </span></div></div><div class="os-table" id="fs-idm404907328"><table class="top-titled" data-id="fs-idm404907328" summary="Table E5  "><thead>
 <tr valign="middle">
 <th colspan="3">Standard Water Melting and Boiling Temperatures and Enthalpies of the Transitions</th>
 </tr>
@@ -314,7 +314,7 @@
 </tr>
 </tbody></table><div class="os-caption-container"><span class="os-title-label">Table </span><span class="os-number">E5</span><span class="os-divider"> </span><span class="os-divider"> </span></div></div>
 
-<div class="os-table" id="fs-idm315598976"><table class="span-all" data-id="fs-idm315598976" summary="Table E6  "><thead>
+<div class="os-table" id="fs-idm315598976"><table class="top-titled" data-id="fs-idm315598976" summary="Table E6  "><thead>
 <tr valign="middle">
 <th data-align="center">Water Cryoscopic (Freezing Point Depression) and Ebullioscopic (Boiling Point Elevation) Constants</th>
 </tr>
