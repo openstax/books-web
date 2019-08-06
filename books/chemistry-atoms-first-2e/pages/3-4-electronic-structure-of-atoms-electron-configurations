@@ -734,7 +734,9 @@
                           <em data-effect="italics">s</em> subshell and calcium has an electron configuration of [Ar]4
                           <em data-effect="italics">s</em>
                           <sup>2</sup>. This gives calcium an outer-shell electron configuration corresponding to that of beryllium and magnesium.
-                          <em data-effect="italics"></em>
+                          <em data-effect="italics">
+                            <!-- no-selfclose -->
+                          </em>
                         </p>
                         <p id="fs-idp7806208">
                           Beginning with the transition metal scandium (atomic number 21), additional electrons are added successively to the 3

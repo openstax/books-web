@@ -128,7 +128,8 @@
                           >
                         </span>
                         <p id="fs-idm262013360">
-                          The leading zeros in this example are not significant. We could use exponential notation (as described in Appendix B) and express the number as 8.32407
+                          The leading zeros in this example are not significant. We could use exponential notation (as described in
+                          <a href="b-essential-mathematics">Appendix B</a>) and express the number as 8.32407
                           <math display="inline">
                             <semantics>
                               <mrow>

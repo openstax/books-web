@@ -2252,7 +2252,9 @@
                             and the result is
                             <em data-effect="italics">E</em>
                             <sub>a</sub>
-                            <em data-effect="italics"></em> = 1.8
+                            <em data-effect="italics">
+                              <!-- no-selfclose -->
+                            </em> = 1.8
                             <math display="inline">
                               <semantics>
                                 <mrow>

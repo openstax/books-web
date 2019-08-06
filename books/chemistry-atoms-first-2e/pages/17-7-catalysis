@@ -1861,7 +1861,11 @@
                             >How Sciences Interconnect</span>
                           </h3>
                           <div class="os-note-body">
-                            <h4 class="os-subtitle" data-type="title" id="[redacted for uniqueness]">
+                            <h4
+                              class="os-subtitle"
+                              data-type="title"
+                              id="[redacted for uniqueness]"
+                            >
                               <span
                                 class="os-subtitle-label"
                               >Enzyme Structure and Function</span>

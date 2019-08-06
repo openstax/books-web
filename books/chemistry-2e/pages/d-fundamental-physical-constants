@@ -41,7 +41,7 @@
                             <tr valign="middle">
                               <td data-align="left">Avogadro’s number</td>
                               <td data-align="left">
-                                6.0221367
+                                6.02214076
                                 <math display="inline">
                                   <semantics>
                                     <mrow>
@@ -62,7 +62,7 @@
                                 <em data-effect="italics">k</em>)
                               </td>
                               <td data-align="left">
-                                1.380658
+                                1.380649
                                 <math display="inline">
                                   <semantics>
                                     <mrow>
@@ -103,11 +103,11 @@
                             </tr>
                             <tr valign="middle">
                               <td data-align="left">
-                                electron charge (
+                                fundamental unit of charge (
                                 <em data-effect="italics">e</em>)
                               </td>
                               <td data-align="left">
-                                1.60217733
+                                1.602176634
                                 <math display="inline">
                                   <semantics>
                                     <mrow>
@@ -236,7 +236,7 @@
                                 <em data-effect="italics">h</em>)
                               </td>
                               <td data-align="left">
-                                6.6260755
+                                6.62607015
                                 <math display="inline">
                                   <semantics>
                                     <mrow>

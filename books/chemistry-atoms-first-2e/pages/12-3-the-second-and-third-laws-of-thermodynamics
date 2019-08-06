@@ -1326,7 +1326,9 @@
                           </math>
                         </div>
                         <p id="fs-idp113461024">
-                          <em data-effect="italics"></em>
+                          <em data-effect="italics">
+                            <!-- no-selfclose -->
+                          </em>
                         </p>
                         <p id="fs-idm15206896">
                           This limiting condition for a system’s entropy represents the

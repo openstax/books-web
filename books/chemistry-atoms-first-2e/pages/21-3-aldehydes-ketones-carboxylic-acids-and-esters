@@ -539,7 +539,9 @@
                           The simplest carboxylic acid is formic acid, HCO
                           <sub>2</sub>H, known since 1670. Its name comes from the Latin word
                           <em data-effect="italics">formicus</em>,
-                          <em data-effect="italics"></em>which means “ant”; it was first isolated by the distillation of red ants. It is partially responsible for the pain and irritation of ant and wasp stings, and is responsible for a characteristic odor of ants that can be sometimes detected in their nests.
+                          <em data-effect="italics">
+                            <!-- no-selfclose -->
+                          </em>which means “ant”; it was first isolated by the distillation of red ants. It is partially responsible for the pain and irritation of ant and wasp stings, and is responsible for a characteristic odor of ants that can be sometimes detected in their nests.
                         </p>
                         <p id="fs-idp55932432">
                           Acetic acid, CH

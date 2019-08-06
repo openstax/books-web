@@ -1748,7 +1748,9 @@
                             <sub>2</sub>, N
                             <sub>2</sub>, O
                             <sub>2</sub>,
-                            <em data-effect="italics"></em> F
+                            <em data-effect="italics">
+                              <!-- no-selfclose -->
+                            </em> F
                             <sub>2</sub>, and Ne
                             <sub>2</sub>. However, we can predict that the Be
                             <sub>2</sub> molecule and the Ne

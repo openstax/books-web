@@ -874,7 +874,9 @@
                         <div class="os-solution-container">
                           <p id="fs-idm21203088">
                             (a)
-                            <em data-effect="italics"></em> 3
+                            <em data-effect="italics">
+                              <!-- no-selfclose -->
+                            </em> 3
                             <em data-effect="italics">d;</em> (b) 1
                             <em data-effect="italics">s;</em> (c) 4
                             <em data-effect="italics">f</em>

@@ -38,12 +38,12 @@
                       <div class="os-figure" id="CNX_Chem_11_05_Colloid">
                         <figure data-id="CNX_Chem_11_05_Colloid">
                           <span
-                            data-alt="This figure contains three photos and correponding particle diagrams. In a, a photo of an aquarium containing fish is shown. The particle diagram beneath it shows 90 tiny red spheres. In b, a photo is shown of milk being poured into a cup. The corresponding particle diagram shows about 25 medium sized red spheres.In c, a photo is shown of two pairs of sandal clad feet in mud. The particle diagram below shows 10 fairly large red spheres."
+                            data-alt="This figure contains three photos and corresponding particle diagrams. In a, a photo of an aquarium containing fish is shown. The particle diagram beneath it shows 90 tiny red spheres. In b, a photo is shown of milk being poured into a cup. The corresponding particle diagram shows about 25 medium sized red spheres.In c, a photo is shown of two pairs of sandal clad feet in mud. The particle diagram below shows 10 fairly large red spheres."
                             data-type="media"
                             id="fs-idm111369104"
                           >
                             <img
-                              alt="This figure contains three photos and correponding particle diagrams. In a, a photo of an aquarium containing fish is shown. The particle diagram beneath it shows 90 tiny red spheres. In b, a photo is shown of milk being poured into a cup. The corresponding particle diagram shows about 25 medium sized red spheres.In c, a photo is shown of two pairs of sandal clad feet in mud. The particle diagram below shows 10 fairly large red spheres."
+                              alt="This figure contains three photos and corresponding particle diagrams. In a, a photo of an aquarium containing fish is shown. The particle diagram beneath it shows 90 tiny red spheres. In b, a photo is shown of milk being poured into a cup. The corresponding particle diagram shows about 25 medium sized red spheres.In c, a photo is shown of two pairs of sandal clad feet in mud. The particle diagram below shows 10 fairly large red spheres."
                               data-media-type="image/jpeg"
                               id="[redacted for uniqueness]"
                               src="/resources/2c4b148b7731149b49c0d8f282664ae8817e2b80"
@@ -60,7 +60,6 @@
                           >(a) A solution is a homogeneous mixture that appears clear, such as the saltwater in this aquarium. (b) In a colloid, such as milk, the particles are much larger but remain dispersed and do not settle. (c) A suspension, such as mud, is a heterogeneous mixture of suspended particles that appears cloudy and in which the particles can settle. (credit a photo: modification of work by Adam Wimsatt; credit b photo: modification of work by Melissa Wiese; credit c photo: modification of work by Peter Burgess)</span>
                         </div>
                       </div>
-
                       <p id="fs-idm77182288">
                         The particles in a colloid are large enough to scatter light, a phenomenon called the
                         <span
@@ -128,7 +127,11 @@
                       </p>
 
                       <div class="os-table" id="fs-idm28163488">
-                        <table data-id="fs-idm28163488" summary="Table 11.4  ">
+                        <table
+                          class="top-titled"
+                          data-id="fs-idm28163488"
+                          summary="Table 11.4  "
+                        >
                           <thead>
                             <tr valign="middle">
                               <th

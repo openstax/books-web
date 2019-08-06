@@ -1363,7 +1363,11 @@
                           </div>
                         </div>
                         <div class="os-table" id="fs-idp55395904">
-                          <table data-id="fs-idp55395904" summary="Table 4.2  ">
+                          <table
+                            class="top-titled"
+                            data-id="fs-idp55395904"
+                            summary="Table 4.2  "
+                          >
                             <thead>
                               <tr>
                                 <th
@@ -2233,11 +2237,7 @@
                             >Chemistry in Everyday Life</span>
                           </h3>
                           <div class="os-note-body">
-                            <h4
-                              class="os-subtitle"
-                              data-type="title"
-                              id="[redacted for uniqueness]"
-                            >
+                            <h4 class="os-subtitle" data-type="title" id="[redacted for uniqueness]">
                               <span class="os-subtitle-label">Stomach Antacids</span>
                             </h4>
                             <p id="fs-idm55572160">
@@ -4898,7 +4898,9 @@
                               <p id="fs-idm50940704">
                                 Yes, a single-replacement reaction. Sn(
                                 <em data-effect="italics">s</em>)
-                                <em data-effect="italics"></em>is the reductant, HCl(
+                                <em data-effect="italics">
+                                  <!-- no-selfclose -->
+                                </em>is the reductant, HCl(
                                 <em data-effect="italics">g</em>) is the oxidant.
                               </p>
                             </div>

@@ -1327,7 +1327,9 @@
                             <div class="os-note-body">
                               <p id="fs-idm146844672">
                                 41,360 J/mol or 41.4 kJ/mol
-                                <em data-effect="italics"></em>
+                                <em data-effect="italics">
+                                  <!-- no-selfclose -->
+                                </em>
                               </p>
                             </div>
                           </div>

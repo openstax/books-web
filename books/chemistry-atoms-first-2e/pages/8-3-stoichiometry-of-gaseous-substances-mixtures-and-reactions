@@ -3704,7 +3704,9 @@
                           <sub>2</sub>, and the volume of NH
                           <sub>3</sub> produced is two times the volume of N
                           <sub>2</sub>.
-                          <sub></sub>
+                          <sub>
+                            <!-- no-selfclose -->
+                          </sub>
                         </p>
                         <div class="os-figure" id="CNX_Chem_09_03_Ammonia">
                           <figure data-id="CNX_Chem_09_03_Ammonia">
@@ -4933,7 +4935,11 @@
                             >How Sciences Interconnect</span>
                           </h3>
                           <div class="os-note-body">
-                            <h4 class="os-subtitle" data-type="title" id="[redacted for uniqueness]">
+                            <h4
+                              class="os-subtitle"
+                              data-type="title"
+                              id="[redacted for uniqueness]"
+                            >
                               <span
                                 class="os-subtitle-label"
                               >Greenhouse Gases and Climate Change</span>

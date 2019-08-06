@@ -2296,7 +2296,9 @@
                                 (a) 3
                                 <em data-effect="italics">p</em> (b) 5
                                 <em data-effect="italics">f</em> (c) 2
-                                <em data-effect="italics"></em>s
+                                <em data-effect="italics">
+                                  <!-- no-selfclose -->
+                                </em>s
                               </p>
                             </div>
                           </div>

@@ -945,21 +945,6 @@
                                     <mspace width="0.2em"/>
                                     <mo>=</mo>
                                     <mspace width="0.2em"/>
-                                    <mfrac>
-                                      <mrow>
-                                        <mtext>11.3 g</mtext>
-                                      </mrow>
-                                      <mrow>
-                                        <msup>
-                                          <mrow>
-                                            <mtext>1.00 cm</mtext>
-                                          </mrow>
-                                          <mn>3</mn>
-                                        </msup>
-                                      </mrow>
-                                    </mfrac>
-                                    <mspace width="0.2em"/>
-                                    <mo>=</mo>
                                     <msup>
                                       <mrow>
                                         <mtext>11.3 g/cm</mtext>
@@ -1000,21 +985,6 @@
                                     <mspace width="0.2em"/>
                                     <mo>=</mo>
                                     <mspace width="0.2em"/>
-                                    <mfrac>
-                                      <mrow>
-                                        <mtext>11.3 g</mtext>
-                                      </mrow>
-                                      <mrow>
-                                        <msup>
-                                          <mrow>
-                                            <mtext>1.00 cm</mtext>
-                                          </mrow>
-                                          <mn>3</mn>
-                                        </msup>
-                                      </mrow>
-                                    </mfrac>
-                                    <mspace width="0.2em"/>
-                                    <mo>=</mo>
                                     <msup>
                                       <mrow>
                                         <mtext>11.3 g/cm</mtext>

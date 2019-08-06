@@ -526,7 +526,9 @@
                         <em data-effect="italics">t</em>
                         <sub>
                           2
-                          <em data-effect="italics"></em>
+                          <em data-effect="italics">
+                            <!-- no-selfclose -->
+                          </em>
                         </sub> −
                         <em data-effect="italics">t</em>
                         <sub>1</sub>). Since the reactant concentration decreases as the reaction proceeds, Δ[H

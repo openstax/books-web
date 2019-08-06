@@ -1176,8 +1176,12 @@
                           The name of an alkene is derived from the name of the alkane with the same number of carbon atoms. The presence of the double bond is signified by replacing the suffix
                           <em data-effect="italics">-ane</em> with the suffix
                           <em data-effect="italics">-ene</em>.
-                          <em data-effect="italics"></em> The location of the double bond
-                          <em data-effect="italics"></em> is identified by naming the smaller of the numbers of the carbon atoms participating in the double bond:
+                          <em data-effect="italics">
+                            <!-- no-selfclose -->
+                          </em> The location of the double bond
+                          <em data-effect="italics">
+                            <!-- no-selfclose -->
+                          </em> is identified by naming the smaller of the numbers of the carbon atoms participating in the double bond:
                         </p>
                         <span
                           data-alt="Four structural formulas and names are shown. The first shows two red C atoms connected by a red double bond illustrated with two parallel line segments. H atoms are bonded above and below to the left of the left-most C atom. Two more H atoms are similarly bonded to the right of the C atom on the right. Beneath this structure the name ethene and alternate name ethylene are shown. The second shows three C atoms bonded together with a red double bond between the red first and second C atoms moving left to right across the three-carbon chain. H atoms are bonded above and below to the left of the C atom to the left. A single H is bonded above the middle C atom. Three more H atoms are bonded above, below, and to the right of the third C atom. Beneath this structure the name propene and alternate name propylene is shown. The third shows four C atoms bonded together, numbered one through four moving left to right with a red double bond between the red first and second carbon in the chain. H atoms are bonded above and below to the left of the C atom to the left. A single H is bonded above the second C atom. H atoms are bonded above and below the third C atom. Three more H atoms are bonded above, below, and to the right of the fourth C atom. Beneath this structure the name 1 dash butene is shown. The fourth shows four C atoms bonded together, numbered one through four moving left to right with a red double bond between the red second and third C atoms in the chain. H atoms are bonded above, below, and to the left of the left-most C atom. A single H atom is bonded above the second C atom. A single H atom is bonded above the third C atom. Three more H atoms are bonded above, below, and to the right of the fourth C atom. Beneath this structure the name 2 dash butene is shown."
@@ -1219,7 +1223,9 @@
                           </p>
                           <p id="fs-idp47842704">
                             Carbon atoms are free to rotate around a single bond but not around a double bond; a double bond is rigid. This makes it possible to have two isomers of 2-butene, one with both methyl groups on the same side of the double bond and one with the methyl groups on opposite sides. When structures of butene are drawn with 120°
-                            <sup></sup> bond angles around the
+                            <sup>
+                              <!-- no-selfclose -->
+                            </sup> bond angles around the
                             <em data-effect="italics">sp</em>
                             <sup>2</sup>-hybridized carbon atoms participating in the double bond, the isomers are apparent. The 2-butene isomer in which the two methyl groups are on the same side is called a
                             <em data-effect="italics">cis</em>-isomer; the one in which the two methyl groups are on opposite sides is called a
