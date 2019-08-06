@@ -1,0 +1,375 @@
+
+                    <div
+                      class="os-eoc os-key-equations-container"
+                      data-type="composite-page"
+                      data-uuid-key=".key-equations"
+                    >
+                      <section
+                        class="key-equations"
+                        data-depth="1"
+                        id="fs-idm31673664"
+                      >
+                        <ul data-bullet-style="bullet" id="fs-idm133641280">
+                          <li>
+                            <math display="inline">
+                              <semantics>
+                                <mrow>
+                                  <mrow>
+                                    <mi>h</mi>
+                                    <mo>=</mo>
+                                    <mspace width="0.2em"/>
+                                    <mfrac>
+                                      <mrow>
+                                        <mn>2</mn>
+                                        <mi>T</mi>
+                                        <mspace width="0.2em"/>
+                                        <mtext>cos</mtext>
+                                        <mspace width="0.2em"/>
+                                        <mi>θ</mi>
+                                      </mrow>
+                                      <mrow>
+                                        <mi>r</mi>
+                                        <mi>ρ</mi>
+                                        <mi>g</mi>
+                                      </mrow>
+                                    </mfrac>
+                                  </mrow>
+                                </mrow>
+                                <annotation-xml encoding="MathML-Content">
+                                  <mrow>
+                                    <mi>h</mi>
+                                    <mo>=</mo>
+                                    <mspace width="0.2em"/>
+                                    <mfrac>
+                                      <mrow>
+                                        <mn>2</mn>
+                                        <mi>T</mi>
+                                        <mspace width="0.2em"/>
+                                        <mtext>cos</mtext>
+                                        <mspace width="0.2em"/>
+                                        <mi>θ</mi>
+                                      </mrow>
+                                      <mrow>
+                                        <mi>r</mi>
+                                        <mi>ρ</mi>
+                                        <mi>g</mi>
+                                      </mrow>
+                                    </mfrac>
+                                  </mrow>
+                                </annotation-xml>
+                              </semantics>
+                            </math>
+                          </li>
+                        </ul>
+                      </section>
+                      <section
+                        class="key-equations"
+                        data-depth="1"
+                        id="fs-idp14058304"
+                      >
+                        <ul data-bullet-style="bullet" id="fs-idm91812448">
+                          <li>
+                            <math display="inline">
+                              <semantics>
+                                <mrow>
+                                  <mrow>
+                                    <mi>P</mi>
+                                    <mo>=</mo>
+                                    <mi>A</mi>
+                                    <msup>
+                                      <mi>e</mi>
+                                      <mrow>
+                                        <mo>−</mo>
+                                        <mtext>Δ</mtext>
+                                        <msub>
+                                          <mi>H</mi>
+                                          <mrow>
+                                            <mtext>vap</mtext>
+                                          </mrow>
+                                        </msub>
+                                        <mtext>/</mtext>
+                                        <mi>R</mi>
+                                        <mi>T</mi>
+                                      </mrow>
+                                    </msup>
+                                  </mrow>
+                                </mrow>
+                                <annotation-xml encoding="MathML-Content">
+                                  <mrow>
+                                    <mi>P</mi>
+                                    <mo>=</mo>
+                                    <mi>A</mi>
+                                    <msup>
+                                      <mi>e</mi>
+                                      <mrow>
+                                        <mo>−</mo>
+                                        <mtext>Δ</mtext>
+                                        <msub>
+                                          <mi>H</mi>
+                                          <mrow>
+                                            <mtext>vap</mtext>
+                                          </mrow>
+                                        </msub>
+                                        <mtext>/</mtext>
+                                        <mi>R</mi>
+                                        <mi>T</mi>
+                                      </mrow>
+                                    </msup>
+                                  </mrow>
+                                </annotation-xml>
+                              </semantics>
+                            </math>
+                          </li>
+                          <li>
+                            <math display="inline">
+                              <semantics>
+                                <mrow>
+                                  <mrow>
+                                    <mtext>ln</mtext>
+                                    <mspace width="0.2em"/>
+                                    <mi>P</mi>
+                                    <mo>=</mo>
+                                    <mo>−</mo>
+                                    <mfrac>
+                                      <mrow>
+                                        <mtext>Δ</mtext>
+                                        <msub>
+                                          <mi>H</mi>
+                                          <mrow>
+                                            <mtext>vap</mtext>
+                                          </mrow>
+                                        </msub>
+                                      </mrow>
+                                      <mrow>
+                                        <mi>R</mi>
+                                        <mi>T</mi>
+                                      </mrow>
+                                    </mfrac>
+                                    <mspace width="0.2em"/>
+                                    <mo>+</mo>
+                                    <mtext>ln</mtext>
+                                    <mspace width="0.2em"/>
+                                    <mi>A</mi>
+                                  </mrow>
+                                </mrow>
+                                <annotation-xml encoding="MathML-Content">
+                                  <mrow>
+                                    <mtext>ln</mtext>
+                                    <mspace width="0.2em"/>
+                                    <mi>P</mi>
+                                    <mo>=</mo>
+                                    <mo>−</mo>
+                                    <mfrac>
+                                      <mrow>
+                                        <mtext>Δ</mtext>
+                                        <msub>
+                                          <mi>H</mi>
+                                          <mrow>
+                                            <mtext>vap</mtext>
+                                          </mrow>
+                                        </msub>
+                                      </mrow>
+                                      <mrow>
+                                        <mi>R</mi>
+                                        <mi>T</mi>
+                                      </mrow>
+                                    </mfrac>
+                                    <mspace width="0.2em"/>
+                                    <mo>+</mo>
+                                    <mtext>ln</mtext>
+                                    <mspace width="0.2em"/>
+                                    <mi>A</mi>
+                                  </mrow>
+                                </annotation-xml>
+                              </semantics>
+                            </math>
+                          </li>
+                          <li>
+                            <math display="inline">
+                              <semantics>
+                                <mrow>
+                                  <mrow>
+                                    <mtext>ln</mtext>
+                                    <mspace width="0.2em"/>
+                                    <mrow>
+                                      <mo>(</mo>
+                                      <mrow>
+                                        <mfrac>
+                                          <mrow>
+                                            <msub>
+                                              <mi>P</mi>
+                                              <mn>2</mn>
+                                            </msub>
+                                          </mrow>
+                                          <mrow>
+                                            <msub>
+                                              <mi>P</mi>
+                                              <mn>1</mn>
+                                            </msub>
+                                          </mrow>
+                                        </mfrac>
+                                      </mrow>
+                                      <mo>)</mo>
+                                    </mrow>
+                                    <mspace width="0.2em"/>
+                                    <mo>=</mo>
+                                    <mspace width="0.2em"/>
+                                    <mfrac>
+                                      <mrow>
+                                        <mtext>Δ</mtext>
+                                        <msub>
+                                          <mi>H</mi>
+                                          <mrow>
+                                            <mtext>vap</mtext>
+                                          </mrow>
+                                        </msub>
+                                      </mrow>
+                                      <mi>R</mi>
+                                    </mfrac>
+                                    <mspace width="0.2em"/>
+                                    <mrow>
+                                      <mo>(</mo>
+                                      <mrow>
+                                        <mfrac>
+                                          <mn>1</mn>
+                                          <mrow>
+                                            <msub>
+                                              <mi>T</mi>
+                                              <mn>1</mn>
+                                            </msub>
+                                          </mrow>
+                                        </mfrac>
+                                        <mspace width="0.2em"/>
+                                        <mo>−</mo>
+                                        <mspace width="0.2em"/>
+                                        <mfrac>
+                                          <mn>1</mn>
+                                          <mrow>
+                                            <msub>
+                                              <mi>T</mi>
+                                              <mn>2</mn>
+                                            </msub>
+                                          </mrow>
+                                        </mfrac>
+                                      </mrow>
+                                      <mo>)</mo>
+                                    </mrow>
+                                  </mrow>
+                                </mrow>
+                                <annotation-xml encoding="MathML-Content">
+                                  <mrow>
+                                    <mtext>ln</mtext>
+                                    <mspace width="0.2em"/>
+                                    <mrow>
+                                      <mo>(</mo>
+                                      <mrow>
+                                        <mfrac>
+                                          <mrow>
+                                            <msub>
+                                              <mi>P</mi>
+                                              <mn>2</mn>
+                                            </msub>
+                                          </mrow>
+                                          <mrow>
+                                            <msub>
+                                              <mi>P</mi>
+                                              <mn>1</mn>
+                                            </msub>
+                                          </mrow>
+                                        </mfrac>
+                                      </mrow>
+                                      <mo>)</mo>
+                                    </mrow>
+                                    <mspace width="0.2em"/>
+                                    <mo>=</mo>
+                                    <mspace width="0.2em"/>
+                                    <mfrac>
+                                      <mrow>
+                                        <mtext>Δ</mtext>
+                                        <msub>
+                                          <mi>H</mi>
+                                          <mrow>
+                                            <mtext>vap</mtext>
+                                          </mrow>
+                                        </msub>
+                                      </mrow>
+                                      <mi>R</mi>
+                                    </mfrac>
+                                    <mspace width="0.2em"/>
+                                    <mrow>
+                                      <mo>(</mo>
+                                      <mrow>
+                                        <mfrac>
+                                          <mn>1</mn>
+                                          <mrow>
+                                            <msub>
+                                              <mi>T</mi>
+                                              <mn>1</mn>
+                                            </msub>
+                                          </mrow>
+                                        </mfrac>
+                                        <mspace width="0.2em"/>
+                                        <mo>−</mo>
+                                        <mspace width="0.2em"/>
+                                        <mfrac>
+                                          <mn>1</mn>
+                                          <mrow>
+                                            <msub>
+                                              <mi>T</mi>
+                                              <mn>2</mn>
+                                            </msub>
+                                          </mrow>
+                                        </mfrac>
+                                      </mrow>
+                                      <mo>)</mo>
+                                    </mrow>
+                                  </mrow>
+                                </annotation-xml>
+                              </semantics>
+                            </math>
+                          </li>
+                        </ul>
+                      </section>
+                      <section
+                        class="key-equations"
+                        data-depth="1"
+                        id="fs-idp29862416"
+                      >
+                        <ul data-bullet-style="bullet" id="fs-idp51688928">
+                          <li>
+                            <math display="inline">
+                              <semantics>
+                                <mrow>
+                                  <mrow>
+                                    <mi>n</mi>
+                                    <mi>λ</mi>
+                                    <mo>=</mo>
+                                    <mn>2</mn>
+                                    <mi>d</mi>
+                                    <mspace width="0.2em"/>
+                                    <mtext>sin</mtext>
+                                    <mspace width="0.2em"/>
+                                    <mi>θ</mi>
+                                  </mrow>
+                                </mrow>
+                                <annotation-xml encoding="MathML-Content">
+                                  <mrow>
+                                    <mi>n</mi>
+                                    <mi>λ</mi>
+                                    <mo>=</mo>
+                                    <mn>2</mn>
+                                    <mi>d</mi>
+                                    <mspace width="0.2em"/>
+                                    <mtext>sin</mtext>
+                                    <mspace width="0.2em"/>
+                                    <mi>θ</mi>
+                                  </mrow>
+                                </annotation-xml>
+                              </semantics>
+                            </math>
+                          </li>
+                        </ul>
+                      </section>
+                    </div>
+                  </div>
+                  

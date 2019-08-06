@@ -1,0 +1,2073 @@
+
+                    <div
+                      data-cnxml-to-html-ver="[redacted for uniqueness]"
+                      data-type="page"
+                      id="8868d0bc-22c9-4dff-abcd-28ed4c40aae2"
+                    >
+                      <div data-type="abstract" id="[redacted for uniqueness]">
+                        By the end of this section, you will be able to:
+                        <ul>
+                          <li>Describe the preparation, properties, and uses of halogens</li>
+                          <li>Describe the properties, preparation, and uses of halogen compounds</li>
+                        </ul>
+                      </div>
+
+                      <p
+                        id="fs-idp88544400"
+                      >The elements in group 17 are the halogens. These are the elements fluorine, chlorine, bromine, iodine, and astatine. These elements are too reactive to occur freely in nature, but their compounds are widely distributed. Chlorides are the most abundant; although fluorides, bromides, and iodides are less common, they are reasonably available. In this section, we will examine the occurrence, preparation, and properties of halogens. Next, we will examine halogen compounds with the representative metals followed by an examination of the interhalogens. This section will conclude with some applications of halogens.</p>
+
+                      <section data-depth="1" id="fs-idm138184896">
+                        <h3 data-type="title">Occurrence and Preparation</h3>
+                        <p id="fs-idm11606784">
+                          All of the halogens occur in seawater as halide ions. The concentration of the chloride ion is 0.54
+                          <em data-effect="italics">M</em>; that of the other halides is less than 10
+                          <sup>–4</sup>
+                          <em data-effect="italics">M</em>. Fluoride also occurs in minerals such as CaF
+                          <sub>2</sub>, Ca(PO
+                          <sub>4</sub>)
+                          <sub>3</sub>F, and Na
+                          <sub>3</sub>AlF
+                          <sub>6</sub>. Chloride also occurs in the Great Salt Lake and the Dead Sea, and in extensive salt beds that contain NaCl, KCl, or MgCl
+                          <sub>2</sub>. Part of the chlorine in your body is present as hydrochloric acid, which is a component of stomach acid. Bromine compounds occur in the Dead Sea and underground brines. Iodine compounds are found in small quantities in Chile saltpeter, underground brines, and sea kelp. Iodine is essential to the function of the thyroid gland.
+                        </p>
+                        <p
+                          id="fs-idp21138960"
+                        >The best sources of halogens (except iodine) are halide salts. It is possible to oxidize the halide ions to free diatomic halogen molecules by various methods, depending on the ease of oxidation of the halide ion. Fluoride is the most difficult to oxidize, whereas iodide is the easiest.</p>
+                        <p id="fs-idm125605584">
+                          The major method for preparing fluorine is electrolytic oxidation. The most common electrolysis procedure is to use a molten mixture of potassium hydrogen fluoride, KHF
+                          <sub>2</sub>, and anhydrous hydrogen fluoride. Electrolysis causes HF to decompose, forming fluorine gas at the anode and hydrogen at the cathode. It is necessary to keep the two gases separated to prevent their explosive recombination to reform hydrogen fluoride.
+                        </p>
+                        <p id="fs-idm16552608">
+                          Most commercial chlorine comes from the electrolysis of the chloride ion in aqueous solutions of sodium chloride; this is the chlor-alkali process discussed previously. Chlorine is also a product of the electrolytic production of metals such as sodium, calcium, and magnesium from their fused chlorides. It is also possible to prepare chlorine by the chemical oxidation of the chloride ion in acid solution with strong oxidizing agents such as manganese dioxide (MnO
+                          <sub>2</sub>) or sodium dichromate (Na
+                          <sub>2</sub>Cr
+                          <sub>2</sub>O
+                          <sub>7</sub>). The reaction with manganese dioxide is:
+                        </p>
+                        <div data-type="equation" id="fs-idp985520">
+                          <math display="block">
+                            <semantics>
+                              <mrow>
+                                <mrow>
+                                  <msub>
+                                    <mrow>
+                                      <mtext>MnO</mtext>
+                                    </mrow>
+                                    <mn>2</mn>
+                                  </msub>
+                                  <mo stretchy="false">(</mo>
+                                  <mi>s</mi>
+                                  <mo stretchy="false">)</mo>
+                                  <mo>+</mo>
+                                  <mn>2</mn>
+                                  <msup>
+                                    <mrow>
+                                      <mtext>Cl</mtext>
+                                    </mrow>
+                                    <mtext>−</mtext>
+                                  </msup>
+                                  <mo stretchy="false">(</mo>
+                                  <mi>a</mi>
+                                  <mi>q</mi>
+                                  <mo stretchy="false">)</mo>
+                                  <mo>+</mo>
+                                  <mn>4</mn>
+                                  <msub>
+                                    <mtext>H</mtext>
+                                    <mn>3</mn>
+                                  </msub>
+                                  <msup>
+                                    <mtext>O</mtext>
+                                    <mtext>+</mtext>
+                                  </msup>
+                                  <mo stretchy="false">(</mo>
+                                  <mi>a</mi>
+                                  <mi>q</mi>
+                                  <mo stretchy="false">)</mo>
+                                  <mspace width="0.2em"/>
+                                  <mo stretchy="false">⟶</mo>
+                                  <mspace width="0.2em"/>
+                                  <msup>
+                                    <mrow>
+                                      <mtext>Mn</mtext>
+                                    </mrow>
+                                    <mrow>
+                                      <mn>2+</mn>
+                                    </mrow>
+                                  </msup>
+                                  <mo stretchy="false">(</mo>
+                                  <mi>a</mi>
+                                  <mi>q</mi>
+                                  <mo stretchy="false">)</mo>
+                                  <mo>+</mo>
+                                  <msub>
+                                    <mrow>
+                                      <mtext>Cl</mtext>
+                                    </mrow>
+                                    <mn>2</mn>
+                                  </msub>
+                                  <mo stretchy="false">(</mo>
+                                  <mi>g</mi>
+                                  <mo stretchy="false">)</mo>
+                                  <mo>+</mo>
+                                  <mn>6</mn>
+                                  <msub>
+                                    <mtext>H</mtext>
+                                    <mn>2</mn>
+                                  </msub>
+                                  <mtext>O</mtext>
+                                  <mo stretchy="false">(</mo>
+                                  <mi>l</mi>
+                                  <mo stretchy="false">)</mo>
+                                </mrow>
+                              </mrow>
+                              <annotation-xml encoding="MathML-Content">
+                                <mrow>
+                                  <msub>
+                                    <mrow>
+                                      <mtext>MnO</mtext>
+                                    </mrow>
+                                    <mn>2</mn>
+                                  </msub>
+                                  <mo stretchy="false">(</mo>
+                                  <mi>s</mi>
+                                  <mo stretchy="false">)</mo>
+                                  <mo>+</mo>
+                                  <mn>2</mn>
+                                  <msup>
+                                    <mrow>
+                                      <mtext>Cl</mtext>
+                                    </mrow>
+                                    <mtext>−</mtext>
+                                  </msup>
+                                  <mo stretchy="false">(</mo>
+                                  <mi>a</mi>
+                                  <mi>q</mi>
+                                  <mo stretchy="false">)</mo>
+                                  <mo>+</mo>
+                                  <mn>4</mn>
+                                  <msub>
+                                    <mtext>H</mtext>
+                                    <mn>3</mn>
+                                  </msub>
+                                  <msup>
+                                    <mtext>O</mtext>
+                                    <mtext>+</mtext>
+                                  </msup>
+                                  <mo stretchy="false">(</mo>
+                                  <mi>a</mi>
+                                  <mi>q</mi>
+                                  <mo stretchy="false">)</mo>
+                                  <mspace width="0.2em"/>
+                                  <mo stretchy="false">⟶</mo>
+                                  <mspace width="0.2em"/>
+                                  <msup>
+                                    <mrow>
+                                      <mtext>Mn</mtext>
+                                    </mrow>
+                                    <mrow>
+                                      <mn>2+</mn>
+                                    </mrow>
+                                  </msup>
+                                  <mo stretchy="false">(</mo>
+                                  <mi>a</mi>
+                                  <mi>q</mi>
+                                  <mo stretchy="false">)</mo>
+                                  <mo>+</mo>
+                                  <msub>
+                                    <mrow>
+                                      <mtext>Cl</mtext>
+                                    </mrow>
+                                    <mn>2</mn>
+                                  </msub>
+                                  <mo stretchy="false">(</mo>
+                                  <mi>g</mi>
+                                  <mo stretchy="false">)</mo>
+                                  <mo>+</mo>
+                                  <mn>6</mn>
+                                  <msub>
+                                    <mtext>H</mtext>
+                                    <mn>2</mn>
+                                  </msub>
+                                  <mtext>O</mtext>
+                                  <mo stretchy="false">(</mo>
+                                  <mi>l</mi>
+                                  <mo stretchy="false">)</mo>
+                                </mrow>
+                              </annotation-xml>
+                            </semantics>
+                          </math>
+                        </div>
+                        <p
+                          id="fs-idp30169840"
+                        >The commercial preparation of bromine involves the oxidation of bromide ion by chlorine:</p>
+                        <div data-type="equation" id="fs-idm43776">
+                          <math display="block">
+                            <semantics>
+                              <mrow>
+                                <mrow>
+                                  <mn>2</mn>
+                                  <msup>
+                                    <mrow>
+                                      <mtext>Br</mtext>
+                                    </mrow>
+                                    <mtext>−</mtext>
+                                  </msup>
+                                  <mo stretchy="false">(</mo>
+                                  <mi>a</mi>
+                                  <mi>q</mi>
+                                  <mo stretchy="false">)</mo>
+                                  <mo>+</mo>
+                                  <msub>
+                                    <mrow>
+                                      <mtext>Cl</mtext>
+                                    </mrow>
+                                    <mn>2</mn>
+                                  </msub>
+                                  <mo stretchy="false">(</mo>
+                                  <mi>g</mi>
+                                  <mo stretchy="false">)</mo>
+                                  <mspace width="0.2em"/>
+                                  <mo stretchy="false">⟶</mo>
+                                  <mspace width="0.2em"/>
+                                  <msub>
+                                    <mrow>
+                                      <mtext>Br</mtext>
+                                    </mrow>
+                                    <mn>2</mn>
+                                  </msub>
+                                  <mo stretchy="false">(</mo>
+                                  <mi>l</mi>
+                                  <mo stretchy="false">)</mo>
+                                  <mo>+</mo>
+                                  <mn>2</mn>
+                                  <msup>
+                                    <mrow>
+                                      <mtext>Cl</mtext>
+                                    </mrow>
+                                    <mtext>−</mtext>
+                                  </msup>
+                                  <mo stretchy="false">(</mo>
+                                  <mi>a</mi>
+                                  <mi>q</mi>
+                                  <mo stretchy="false">)</mo>
+                                </mrow>
+                              </mrow>
+                              <annotation-xml encoding="MathML-Content">
+                                <mrow>
+                                  <mn>2</mn>
+                                  <msup>
+                                    <mrow>
+                                      <mtext>Br</mtext>
+                                    </mrow>
+                                    <mtext>−</mtext>
+                                  </msup>
+                                  <mo stretchy="false">(</mo>
+                                  <mi>a</mi>
+                                  <mi>q</mi>
+                                  <mo stretchy="false">)</mo>
+                                  <mo>+</mo>
+                                  <msub>
+                                    <mrow>
+                                      <mtext>Cl</mtext>
+                                    </mrow>
+                                    <mn>2</mn>
+                                  </msub>
+                                  <mo stretchy="false">(</mo>
+                                  <mi>g</mi>
+                                  <mo stretchy="false">)</mo>
+                                  <mspace width="0.2em"/>
+                                  <mo stretchy="false">⟶</mo>
+                                  <mspace width="0.2em"/>
+                                  <msub>
+                                    <mrow>
+                                      <mtext>Br</mtext>
+                                    </mrow>
+                                    <mn>2</mn>
+                                  </msub>
+                                  <mo stretchy="false">(</mo>
+                                  <mi>l</mi>
+                                  <mo stretchy="false">)</mo>
+                                  <mo>+</mo>
+                                  <mn>2</mn>
+                                  <msup>
+                                    <mrow>
+                                      <mtext>Cl</mtext>
+                                    </mrow>
+                                    <mtext>−</mtext>
+                                  </msup>
+                                  <mo stretchy="false">(</mo>
+                                  <mi>a</mi>
+                                  <mi>q</mi>
+                                  <mo stretchy="false">)</mo>
+                                </mrow>
+                              </annotation-xml>
+                            </semantics>
+                          </math>
+                        </div>
+                        <p
+                          id="fs-idm62537296"
+                        >Chlorine is a stronger oxidizing agent than bromine. This method is important for the production of essentially all domestic bromine.</p>
+                        <p id="fs-idp93873520">
+                          Some iodine comes from the oxidation of iodine chloride, ICl, or iodic acid, HlO
+                          <sub>3</sub>. The commercial preparation of iodine utilizes the reduction of sodium iodate, NaIO
+                          <sub>3,</sub> an impurity in deposits of Chile saltpeter, with sodium hydrogen sulfite:
+                        </p>
+                        <div data-type="equation" id="fs-idp148704">
+                          <math display="block">
+                            <semantics>
+                              <mrow>
+                                <mrow>
+                                  <mn>2</mn>
+                                  <msub>
+                                    <mrow>
+                                      <mtext>IO</mtext>
+                                    </mrow>
+                                    <mn>3</mn>
+                                  </msub>
+                                  <msup>
+                                    <mrow/>
+                                    <mtext>−</mtext>
+                                  </msup>
+                                  <mo stretchy="false">(</mo>
+                                  <mi>a</mi>
+                                  <mi>q</mi>
+                                  <mo stretchy="false">)</mo>
+                                  <mo>+</mo>
+                                  <mn>5</mn>
+                                  <msub>
+                                    <mrow>
+                                      <mtext>HSO</mtext>
+                                    </mrow>
+                                    <mn>3</mn>
+                                  </msub>
+                                  <msup>
+                                    <mrow/>
+                                    <mtext>−</mtext>
+                                  </msup>
+                                  <mo stretchy="false">(</mo>
+                                  <mi>a</mi>
+                                  <mi>q</mi>
+                                  <mo stretchy="false">)</mo>
+                                  <mspace width="0.2em"/>
+                                  <mo stretchy="false">⟶</mo>
+                                  <mspace width="0.2em"/>
+                                  <mn>3</mn>
+                                  <msub>
+                                    <mrow>
+                                      <mtext>HSO</mtext>
+                                    </mrow>
+                                    <mn>4</mn>
+                                  </msub>
+                                  <msup>
+                                    <mrow/>
+                                    <mtext>−</mtext>
+                                  </msup>
+                                  <mo stretchy="false">(</mo>
+                                  <mi>a</mi>
+                                  <mi>q</mi>
+                                  <mo stretchy="false">)</mo>
+                                  <mo>+</mo>
+                                  <mn>2</mn>
+                                  <msub>
+                                    <mrow>
+                                      <mtext>SO</mtext>
+                                    </mrow>
+                                    <mn>4</mn>
+                                  </msub>
+                                  <msup>
+                                    <mrow/>
+                                    <mrow>
+                                      <mn>2−</mn>
+                                    </mrow>
+                                  </msup>
+                                  <mo stretchy="false">(</mo>
+                                  <mi>a</mi>
+                                  <mi>q</mi>
+                                  <mo stretchy="false">)</mo>
+                                  <mo>+</mo>
+                                  <msub>
+                                    <mtext>H</mtext>
+                                    <mn>2</mn>
+                                  </msub>
+                                  <mtext>O</mtext>
+                                  <mo stretchy="false">(</mo>
+                                  <mi>l</mi>
+                                  <mo stretchy="false">)</mo>
+                                  <mo>+</mo>
+                                  <msub>
+                                    <mtext>I</mtext>
+                                    <mn>2</mn>
+                                  </msub>
+                                  <mo stretchy="false">(</mo>
+                                  <mi>s</mi>
+                                  <mo stretchy="false">)</mo>
+                                </mrow>
+                              </mrow>
+                              <annotation-xml encoding="MathML-Content">
+                                <mrow>
+                                  <mn>2</mn>
+                                  <msub>
+                                    <mrow>
+                                      <mtext>IO</mtext>
+                                    </mrow>
+                                    <mn>3</mn>
+                                  </msub>
+                                  <msup>
+                                    <mrow/>
+                                    <mtext>−</mtext>
+                                  </msup>
+                                  <mo stretchy="false">(</mo>
+                                  <mi>a</mi>
+                                  <mi>q</mi>
+                                  <mo stretchy="false">)</mo>
+                                  <mo>+</mo>
+                                  <mn>5</mn>
+                                  <msub>
+                                    <mrow>
+                                      <mtext>HSO</mtext>
+                                    </mrow>
+                                    <mn>3</mn>
+                                  </msub>
+                                  <msup>
+                                    <mrow/>
+                                    <mtext>−</mtext>
+                                  </msup>
+                                  <mo stretchy="false">(</mo>
+                                  <mi>a</mi>
+                                  <mi>q</mi>
+                                  <mo stretchy="false">)</mo>
+                                  <mspace width="0.2em"/>
+                                  <mo stretchy="false">⟶</mo>
+                                  <mspace width="0.2em"/>
+                                  <mn>3</mn>
+                                  <msub>
+                                    <mrow>
+                                      <mtext>HSO</mtext>
+                                    </mrow>
+                                    <mn>4</mn>
+                                  </msub>
+                                  <msup>
+                                    <mrow/>
+                                    <mtext>−</mtext>
+                                  </msup>
+                                  <mo stretchy="false">(</mo>
+                                  <mi>a</mi>
+                                  <mi>q</mi>
+                                  <mo stretchy="false">)</mo>
+                                  <mo>+</mo>
+                                  <mn>2</mn>
+                                  <msub>
+                                    <mrow>
+                                      <mtext>SO</mtext>
+                                    </mrow>
+                                    <mn>4</mn>
+                                  </msub>
+                                  <msup>
+                                    <mrow/>
+                                    <mrow>
+                                      <mn>2−</mn>
+                                    </mrow>
+                                  </msup>
+                                  <mo stretchy="false">(</mo>
+                                  <mi>a</mi>
+                                  <mi>q</mi>
+                                  <mo stretchy="false">)</mo>
+                                  <mo>+</mo>
+                                  <msub>
+                                    <mtext>H</mtext>
+                                    <mn>2</mn>
+                                  </msub>
+                                  <mtext>O</mtext>
+                                  <mo stretchy="false">(</mo>
+                                  <mi>l</mi>
+                                  <mo stretchy="false">)</mo>
+                                  <mo>+</mo>
+                                  <msub>
+                                    <mtext>I</mtext>
+                                    <mn>2</mn>
+                                  </msub>
+                                  <mo stretchy="false">(</mo>
+                                  <mi>s</mi>
+                                  <mo stretchy="false">)</mo>
+                                </mrow>
+                              </annotation-xml>
+                            </semantics>
+                          </math>
+                        </div>
+                      </section>
+
+                      <section data-depth="1" id="fs-idm131647904">
+                        <h3 data-type="title">Properties of the Halogens</h3>
+                        <p id="fs-idm48830656">
+                          Fluorine is a pale yellow gas, chlorine is a greenish-yellow gas, bromine is a deep reddish-brown liquid, and iodine is a grayish-black crystalline solid. Liquid bromine has a high vapor pressure, and the reddish vapor is readily visible in
+                          <a
+                            class="autogenerated-content"
+                            href="#CNX_Chem_18_11_Gases"
+                          >Figure 18.60</a>. Iodine crystals have a noticeable vapor pressure. When gently heated, these crystals sublime and form a beautiful deep violet vapor.
+                        </p>
+                        <div class="os-figure" id="CNX_Chem_18_11_Gases">
+                          <figure
+                            class="scaled-down"
+                            data-id="CNX_Chem_18_11_Gases"
+                          >
+                            <span
+                              data-alt="Three sealed glass vials are shown. The left vial contains a pale yellow gas and a colorless liquid, the middle contains an orange gas and solid, and the right contains a purple gas and solid."
+                              data-type="media"
+                              id="fs-idm254641200"
+                            >
+                              <img
+                                alt="Three sealed glass vials are shown. The left vial contains a pale yellow gas and a colorless liquid, the middle contains an orange gas and solid, and the right contains a purple gas and solid."
+                                data-media-type="image/jpeg"
+                                id="[redacted for uniqueness]"
+                                src="/resources/de649330777c0a955c5eac9cc45ceed9f8c0ff87"
+                              >
+                            </span>
+                          </figure>
+                          <div class="os-caption-container">
+                            <span class="os-title-label">Figure</span>
+                            <span class="os-number">18.60</span>
+                            <span class="os-divider"></span>
+                            <span class="os-divider"></span>
+                            <span
+                              class="os-caption"
+                            >Chlorine is a pale yellow-green gas (left), gaseous bromine is deep orange (center), and gaseous iodine is purple (right). (Fluorine is so reactive that it is too dangerous to handle.) (credit: Sahar Atwa)</span>
+                          </div>
+                        </div>
+                        <p
+                          id="fs-idp30544480"
+                        >Bromine is only slightly soluble in water, but it is miscible in all proportions in less polar (or nonpolar) solvents such as chloroform, carbon tetrachloride, and carbon disulfide, forming solutions that vary from yellow to reddish-brown, depending on the concentration.</p>
+                        <p id="fs-idm83258560">
+                          Iodine is soluble in chloroform, carbon tetrachloride, carbon disulfide, and many hydrocarbons, giving violet solutions of I
+                          <sub>2</sub> molecules. Iodine dissolves only slightly in water, giving brown solutions. It is quite soluble in aqueous solutions of iodides, with which it forms brown solutions. These brown solutions result because iodine molecules have empty valence
+                          <em data-effect="italics">d</em> orbitals and can act as weak Lewis acids towards the iodide ion. The equation for the reversible reaction of iodine (Lewis acid) with the iodide ion (Lewis base) to form triiodide ion,
+                          <math display="inline">
+                            <semantics>
+                              <mrow>
+                                <mrow>
+                                  <msub>
+                                    <mtext>I</mtext>
+                                    <mn>3</mn>
+                                  </msub>
+                                  <msup>
+                                    <mrow/>
+                                    <mtext>−</mtext>
+                                  </msup>
+                                  <mo>,</mo>
+                                </mrow>
+                              </mrow>
+                              <annotation-xml encoding="MathML-Content">
+                                <mrow>
+                                  <msub>
+                                    <mtext>I</mtext>
+                                    <mn>3</mn>
+                                  </msub>
+                                  <msup>
+                                    <mrow/>
+                                    <mtext>−</mtext>
+                                  </msup>
+                                  <mo>,</mo>
+                                </mrow>
+                              </annotation-xml>
+                            </semantics>
+                          </math> is:
+                        </p>
+                        <div data-type="equation" id="fs-idp3652848">
+                          <math display="block">
+                            <semantics>
+                              <mrow>
+                                <mrow>
+                                  <msub>
+                                    <mtext>I</mtext>
+                                    <mn>2</mn>
+                                  </msub>
+                                  <mo stretchy="false">(</mo>
+                                  <mi>s</mi>
+                                  <mo stretchy="false">)</mo>
+                                  <mo>+</mo>
+                                  <msup>
+                                    <mtext>I</mtext>
+                                    <mtext>−</mtext>
+                                  </msup>
+                                  <mo stretchy="false">(</mo>
+                                  <mi>a</mi>
+                                  <mi>q</mi>
+                                  <mo stretchy="false">)</mo>
+                                  <mspace width="0.2em"/>
+                                  <mo stretchy="false">⟶</mo>
+                                  <mspace width="0.2em"/>
+                                  <msub>
+                                    <mtext>I</mtext>
+                                    <mn>3</mn>
+                                  </msub>
+                                  <msup>
+                                    <mrow/>
+                                    <mtext>−</mtext>
+                                  </msup>
+                                  <mo stretchy="false">(</mo>
+                                  <mi>a</mi>
+                                  <mi>q</mi>
+                                  <mo stretchy="false">)</mo>
+                                </mrow>
+                              </mrow>
+                              <annotation-xml encoding="MathML-Content">
+                                <mrow>
+                                  <msub>
+                                    <mtext>I</mtext>
+                                    <mn>2</mn>
+                                  </msub>
+                                  <mo stretchy="false">(</mo>
+                                  <mi>s</mi>
+                                  <mo stretchy="false">)</mo>
+                                  <mo>+</mo>
+                                  <msup>
+                                    <mtext>I</mtext>
+                                    <mtext>−</mtext>
+                                  </msup>
+                                  <mo stretchy="false">(</mo>
+                                  <mi>a</mi>
+                                  <mi>q</mi>
+                                  <mo stretchy="false">)</mo>
+                                  <mspace width="0.2em"/>
+                                  <mo stretchy="false">⟶</mo>
+                                  <mspace width="0.2em"/>
+                                  <msub>
+                                    <mtext>I</mtext>
+                                    <mn>3</mn>
+                                  </msub>
+                                  <msup>
+                                    <mrow/>
+                                    <mtext>−</mtext>
+                                  </msup>
+                                  <mo stretchy="false">(</mo>
+                                  <mi>a</mi>
+                                  <mi>q</mi>
+                                  <mo stretchy="false">)</mo>
+                                </mrow>
+                              </annotation-xml>
+                            </semantics>
+                          </math>
+                        </div>
+                        <p id="fs-idm71841200">
+                          The easier it is to oxidize the halide ion, the more difficult it is for the halogen to act as an oxidizing agent. Fluorine generally oxidizes an element to its highest oxidation state, whereas the heavier halogens may not. For example, when excess fluorine reacts with sulfur, SF
+                          <sub>6</sub> forms. Chlorine gives SCl
+                          <sub>2</sub> and bromine, S
+                          <sub>2</sub>Br
+                          <sub>2</sub>. Iodine does not react with sulfur.
+                        </p>
+                        <p id="fs-idm119894736">
+                          Fluorine is the most powerful oxidizing agent of the known elements. It spontaneously oxidizes most other elements; therefore, the reverse reaction, the oxidation of fluorides, is very difficult to accomplish. Fluorine reacts directly and forms binary fluorides with all of the elements except the lighter noble gases (He, Ne, and Ar). Fluorine is such a strong oxidizing agent that many substances ignite on contact with it. Drops of water inflame in fluorine and form O
+                          <sub>2</sub>, OF
+                          <sub>2</sub>, H
+                          <sub>2</sub>O
+                          <sub>2</sub>, O
+                          <sub>3</sub>, and HF. Wood and asbestos ignite and burn in fluorine gas. Most hot metals burn vigorously in fluorine. However, it is possible to handle fluorine in copper, iron, or nickel containers because an adherent film of the fluoride salt passivates their surfaces. Fluorine is the only element that reacts directly with the noble gas xenon.
+                        </p>
+                        <p id="fs-idm27649840">
+                          Although it is a strong oxidizing agent, chlorine is less active than fluorine. Mixing chlorine and hydrogen in the dark makes the reaction between them to be imperceptibly slow. Exposure of the mixture to light causes the two to react explosively. Chlorine is also less active towards metals than fluorine, and oxidation reactions usually require higher temperatures. Molten sodium ignites in chlorine. Chlorine attacks most nonmetals (C, N
+                          <sub>2</sub>, and O
+                          <sub>2</sub> are notable exceptions), forming covalent molecular compounds. Chlorine generally reacts with compounds that contain only carbon and hydrogen (hydrocarbons) by adding to multiple bonds or by substitution.
+                        </p>
+                        <p
+                          id="fs-idp102709104"
+                        >In cold water, chlorine undergoes a disproportionation reaction:</p>
+                        <div data-type="equation" id="fs-idp324416">
+                          <math display="block">
+                            <semantics>
+                              <mrow>
+                                <mrow>
+                                  <msub>
+                                    <mrow>
+                                      <mtext>Cl</mtext>
+                                    </mrow>
+                                    <mn>2</mn>
+                                  </msub>
+                                  <mo stretchy="false">(</mo>
+                                  <mi>a</mi>
+                                  <mi>q</mi>
+                                  <mo stretchy="false">)</mo>
+                                  <mo>+</mo>
+                                  <mn>2</mn>
+                                  <msub>
+                                    <mtext>H</mtext>
+                                    <mn>2</mn>
+                                  </msub>
+                                  <mtext>O</mtext>
+                                  <mo stretchy="false">(</mo>
+                                  <mi>l</mi>
+                                  <mo stretchy="false">)</mo>
+                                  <mspace width="0.2em"/>
+                                  <mo stretchy="false">⟶</mo>
+                                  <mspace width="0.2em"/>
+                                  <mtext>HOCl</mtext>
+                                  <mo stretchy="false">(</mo>
+                                  <mi>a</mi>
+                                  <mi>q</mi>
+                                  <mo stretchy="false">)</mo>
+                                  <mo>+</mo>
+                                  <msub>
+                                    <mtext>H</mtext>
+                                    <mn>3</mn>
+                                  </msub>
+                                  <msup>
+                                    <mtext>O</mtext>
+                                    <mtext>+</mtext>
+                                  </msup>
+                                  <mo stretchy="false">(</mo>
+                                  <mi>a</mi>
+                                  <mi>q</mi>
+                                  <mo stretchy="false">)</mo>
+                                  <mo>+</mo>
+                                  <msup>
+                                    <mrow>
+                                      <mtext>Cl</mtext>
+                                    </mrow>
+                                    <mtext>−</mtext>
+                                  </msup>
+                                  <mo stretchy="false">(</mo>
+                                  <mi>a</mi>
+                                  <mi>q</mi>
+                                  <mo stretchy="false">)</mo>
+                                </mrow>
+                              </mrow>
+                              <annotation-xml encoding="MathML-Content">
+                                <mrow>
+                                  <msub>
+                                    <mrow>
+                                      <mtext>Cl</mtext>
+                                    </mrow>
+                                    <mn>2</mn>
+                                  </msub>
+                                  <mo stretchy="false">(</mo>
+                                  <mi>a</mi>
+                                  <mi>q</mi>
+                                  <mo stretchy="false">)</mo>
+                                  <mo>+</mo>
+                                  <mn>2</mn>
+                                  <msub>
+                                    <mtext>H</mtext>
+                                    <mn>2</mn>
+                                  </msub>
+                                  <mtext>O</mtext>
+                                  <mo stretchy="false">(</mo>
+                                  <mi>l</mi>
+                                  <mo stretchy="false">)</mo>
+                                  <mspace width="0.2em"/>
+                                  <mo stretchy="false">⟶</mo>
+                                  <mspace width="0.2em"/>
+                                  <mtext>HOCl</mtext>
+                                  <mo stretchy="false">(</mo>
+                                  <mi>a</mi>
+                                  <mi>q</mi>
+                                  <mo stretchy="false">)</mo>
+                                  <mo>+</mo>
+                                  <msub>
+                                    <mtext>H</mtext>
+                                    <mn>3</mn>
+                                  </msub>
+                                  <msup>
+                                    <mtext>O</mtext>
+                                    <mtext>+</mtext>
+                                  </msup>
+                                  <mo stretchy="false">(</mo>
+                                  <mi>a</mi>
+                                  <mi>q</mi>
+                                  <mo stretchy="false">)</mo>
+                                  <mo>+</mo>
+                                  <msup>
+                                    <mrow>
+                                      <mtext>Cl</mtext>
+                                    </mrow>
+                                    <mtext>−</mtext>
+                                  </msup>
+                                  <mo stretchy="false">(</mo>
+                                  <mi>a</mi>
+                                  <mi>q</mi>
+                                  <mo stretchy="false">)</mo>
+                                </mrow>
+                              </annotation-xml>
+                            </semantics>
+                          </math>
+                        </div>
+                        <p
+                          id="fs-idp93944416"
+                        >Half the chlorine atoms oxidize to the 1+ oxidation state (hypochlorous acid), and the other half reduce to the 1− oxidation state (chloride ion). This disproportionation is incomplete, so chlorine water is an equilibrium mixture of chlorine molecules, hypochlorous acid molecules, hydronium ions, and chloride ions. When exposed to light, this solution undergoes a photochemical decomposition:</p>
+                        <div data-type="equation" id="fs-idp9758032">
+                          <math display="block">
+                            <semantics>
+                              <mrow>
+                                <mrow>
+                                  <mtext>2HOCl</mtext>
+                                  <mo stretchy="false">(</mo>
+                                  <mi>a</mi>
+                                  <mi>q</mi>
+                                  <mo stretchy="false">)</mo>
+                                  <mo>+</mo>
+                                  <mn>2</mn>
+                                  <msub>
+                                    <mtext>H</mtext>
+                                    <mn>2</mn>
+                                  </msub>
+                                  <mtext>O</mtext>
+                                  <mo stretchy="false">(</mo>
+                                  <mi>l</mi>
+                                  <mo stretchy="false">)</mo>
+                                  <mspace width="0.2em"/>
+                                  <mover>
+                                    <mo>→</mo>
+                                    <mrow>
+                                      <mspace width="0.5em"/>
+                                      <mtext>sunlight</mtext>
+                                      <mspace width="0.5em"/>
+                                    </mrow>
+                                  </mover>
+                                  <mspace width="0.2em"/>
+                                  <mn>2</mn>
+                                  <msub>
+                                    <mtext>H</mtext>
+                                    <mn>3</mn>
+                                  </msub>
+                                  <msup>
+                                    <mtext>O</mtext>
+                                    <mtext>+</mtext>
+                                  </msup>
+                                  <mo stretchy="false">(</mo>
+                                  <mi>a</mi>
+                                  <mi>q</mi>
+                                  <mo stretchy="false">)</mo>
+                                  <mo>+</mo>
+                                  <mn>2</mn>
+                                  <msup>
+                                    <mrow>
+                                      <mtext>Cl</mtext>
+                                    </mrow>
+                                    <mtext>−</mtext>
+                                  </msup>
+                                  <mo stretchy="false">(</mo>
+                                  <mi>a</mi>
+                                  <mi>q</mi>
+                                  <mo stretchy="false">)</mo>
+                                  <mo>+</mo>
+                                  <msub>
+                                    <mtext>O</mtext>
+                                    <mn>2</mn>
+                                  </msub>
+                                  <mo stretchy="false">(</mo>
+                                  <mi>g</mi>
+                                  <mo stretchy="false">)</mo>
+                                </mrow>
+                              </mrow>
+                              <annotation-xml encoding="MathML-Content">
+                                <mrow>
+                                  <mtext>2HOCl</mtext>
+                                  <mo stretchy="false">(</mo>
+                                  <mi>a</mi>
+                                  <mi>q</mi>
+                                  <mo stretchy="false">)</mo>
+                                  <mo>+</mo>
+                                  <mn>2</mn>
+                                  <msub>
+                                    <mtext>H</mtext>
+                                    <mn>2</mn>
+                                  </msub>
+                                  <mtext>O</mtext>
+                                  <mo stretchy="false">(</mo>
+                                  <mi>l</mi>
+                                  <mo stretchy="false">)</mo>
+                                  <mspace width="0.2em"/>
+                                  <mover>
+                                    <mo>→</mo>
+                                    <mrow>
+                                      <mspace width="0.5em"/>
+                                      <mtext>sunlight</mtext>
+                                      <mspace width="0.5em"/>
+                                    </mrow>
+                                  </mover>
+                                  <mspace width="0.2em"/>
+                                  <mn>2</mn>
+                                  <msub>
+                                    <mtext>H</mtext>
+                                    <mn>3</mn>
+                                  </msub>
+                                  <msup>
+                                    <mtext>O</mtext>
+                                    <mtext>+</mtext>
+                                  </msup>
+                                  <mo stretchy="false">(</mo>
+                                  <mi>a</mi>
+                                  <mi>q</mi>
+                                  <mo stretchy="false">)</mo>
+                                  <mo>+</mo>
+                                  <mn>2</mn>
+                                  <msup>
+                                    <mrow>
+                                      <mtext>Cl</mtext>
+                                    </mrow>
+                                    <mtext>−</mtext>
+                                  </msup>
+                                  <mo stretchy="false">(</mo>
+                                  <mi>a</mi>
+                                  <mi>q</mi>
+                                  <mo stretchy="false">)</mo>
+                                  <mo>+</mo>
+                                  <msub>
+                                    <mtext>O</mtext>
+                                    <mn>2</mn>
+                                  </msub>
+                                  <mo stretchy="false">(</mo>
+                                  <mi>g</mi>
+                                  <mo stretchy="false">)</mo>
+                                </mrow>
+                              </annotation-xml>
+                            </semantics>
+                          </math>
+                        </div>
+                        <p
+                          id="fs-idm72954880"
+                        >The nonmetal chlorine is more electronegative than any other element except fluorine, oxygen, and nitrogen. In general, very electronegative elements are good oxidizing agents; therefore, we would expect elemental chlorine to oxidize all of the other elements except for these three (and the nonreactive noble gases). Its oxidizing property, in fact, is responsible for its principal use. For example, phosphorus(V) chloride, an important intermediate in the preparation of insecticides and chemical weapons, is manufactured by oxidizing the phosphorus with chlorine:</p>
+                        <div data-type="equation" id="fs-idp3718640">
+                          <math display="block">
+                            <semantics>
+                              <mrow>
+                                <mrow>
+                                  <msub>
+                                    <mtext>P</mtext>
+                                    <mn>4</mn>
+                                  </msub>
+                                  <mo stretchy="false">(</mo>
+                                  <mi>s</mi>
+                                  <mo stretchy="false">)</mo>
+                                  <mo>+</mo>
+                                  <mn>10</mn>
+                                  <msub>
+                                    <mrow>
+                                      <mtext>Cl</mtext>
+                                    </mrow>
+                                    <mn>2</mn>
+                                  </msub>
+                                  <mo stretchy="false">(</mo>
+                                  <mi>g</mi>
+                                  <mo stretchy="false">)</mo>
+                                  <mspace width="0.2em"/>
+                                  <mo stretchy="false">⟶</mo>
+                                  <mspace width="0.2em"/>
+                                  <mn>4</mn>
+                                  <msub>
+                                    <mrow>
+                                      <mtext>PCl</mtext>
+                                    </mrow>
+                                    <mn>5</mn>
+                                  </msub>
+                                  <mo stretchy="false">(</mo>
+                                  <mi>l</mi>
+                                  <mo stretchy="false">)</mo>
+                                </mrow>
+                              </mrow>
+                              <annotation-xml encoding="MathML-Content">
+                                <mrow>
+                                  <msub>
+                                    <mtext>P</mtext>
+                                    <mn>4</mn>
+                                  </msub>
+                                  <mo stretchy="false">(</mo>
+                                  <mi>s</mi>
+                                  <mo stretchy="false">)</mo>
+                                  <mo>+</mo>
+                                  <mn>10</mn>
+                                  <msub>
+                                    <mrow>
+                                      <mtext>Cl</mtext>
+                                    </mrow>
+                                    <mn>2</mn>
+                                  </msub>
+                                  <mo stretchy="false">(</mo>
+                                  <mi>g</mi>
+                                  <mo stretchy="false">)</mo>
+                                  <mspace width="0.2em"/>
+                                  <mo stretchy="false">⟶</mo>
+                                  <mspace width="0.2em"/>
+                                  <mn>4</mn>
+                                  <msub>
+                                    <mrow>
+                                      <mtext>PCl</mtext>
+                                    </mrow>
+                                    <mn>5</mn>
+                                  </msub>
+                                  <mo stretchy="false">(</mo>
+                                  <mi>l</mi>
+                                  <mo stretchy="false">)</mo>
+                                </mrow>
+                              </annotation-xml>
+                            </semantics>
+                          </math>
+                        </div>
+                        <p
+                          id="fs-idp74013808"
+                        >A great deal of chlorine is also used to oxidize, and thus to destroy, organic or biological materials in water purification and in bleaching.</p>
+                        <p
+                          id="fs-idp135635584"
+                        >The chemical properties of bromine are similar to those of chlorine, although bromine is the weaker oxidizing agent and its reactivity is less than that of chlorine.</p>
+                        <p
+                          id="fs-idm71712560"
+                        >Iodine is the least reactive of the halogens. It is the weakest oxidizing agent, and the iodide ion is the most easily oxidized halide ion. Iodine reacts with metals, but heating is often required. It does not oxidize other halide ions.</p>
+                        <p
+                          id="fs-idm13792496"
+                        >Compared with the other halogens, iodine reacts only slightly with water. Traces of iodine in water react with a mixture of starch and iodide ion, forming a deep blue color. This reaction is a very sensitive test for the presence of iodine in water.</p>
+                      </section>
+
+                      <section data-depth="1" id="fs-idp115160752">
+                        <h3
+                          data-type="title"
+                        >Halides of the Representative Metals</h3>
+                        <p
+                          id="fs-idp13779456"
+                        >Thousands of salts of the representative metals have been prepared. The binary halides are an important subclass of salts. A salt is an ionic compound composed of cations and anions, other than hydroxide or oxide ions. In general, it is possible to prepare these salts from the metals or from oxides, hydroxides, or carbonates. We will illustrate the general types of reactions for preparing salts through reactions used to prepare binary halides.</p>
+                        <p id="fs-idp78956208">
+                          The binary compounds of a metal with the halogens are the
+                          <span
+                            data-type="term"
+                            group-by="h"
+                            id="[redacted for uniqueness]"
+                          >halides</span>. Most binary halides are ionic. However, mercury, the elements of group 13 with oxidation states of 3+, tin(IV), and lead(IV) form covalent binary halides.
+                        </p>
+                        <p
+                          id="fs-idm99323744"
+                        >The direct reaction of a metal and a halogen produce the halide of the metal. Examples of these oxidation-reduction reactions include:</p>
+                        <div data-type="equation" id="fs-idp3643552">
+                          <math display="block">
+                            <semantics>
+                              <mrow>
+                                <mrow>
+                                  <mtext>Cd</mtext>
+                                  <mo stretchy="false">(</mo>
+                                  <mi>s</mi>
+                                  <mo stretchy="false">)</mo>
+                                  <mo>+</mo>
+                                  <msub>
+                                    <mrow>
+                                      <mtext>Cl</mtext>
+                                    </mrow>
+                                    <mn>2</mn>
+                                  </msub>
+                                  <mo stretchy="false">(</mo>
+                                  <mi>g</mi>
+                                  <mo stretchy="false">)</mo>
+                                  <mspace width="0.2em"/>
+                                  <mo stretchy="false">⟶</mo>
+                                  <mspace width="0.2em"/>
+                                  <msub>
+                                    <mrow>
+                                      <mtext>CdCl</mtext>
+                                    </mrow>
+                                    <mn>2</mn>
+                                  </msub>
+                                  <mo stretchy="false">(</mo>
+                                  <mi>s</mi>
+                                  <mo stretchy="false">)</mo>
+                                </mrow>
+                              </mrow>
+                              <annotation-xml encoding="MathML-Content">
+                                <mrow>
+                                  <mtext>Cd</mtext>
+                                  <mo stretchy="false">(</mo>
+                                  <mi>s</mi>
+                                  <mo stretchy="false">)</mo>
+                                  <mo>+</mo>
+                                  <msub>
+                                    <mrow>
+                                      <mtext>Cl</mtext>
+                                    </mrow>
+                                    <mn>2</mn>
+                                  </msub>
+                                  <mo stretchy="false">(</mo>
+                                  <mi>g</mi>
+                                  <mo stretchy="false">)</mo>
+                                  <mspace width="0.2em"/>
+                                  <mo stretchy="false">⟶</mo>
+                                  <mspace width="0.2em"/>
+                                  <msub>
+                                    <mrow>
+                                      <mtext>CdCl</mtext>
+                                    </mrow>
+                                    <mn>2</mn>
+                                  </msub>
+                                  <mo stretchy="false">(</mo>
+                                  <mi>s</mi>
+                                  <mo stretchy="false">)</mo>
+                                </mrow>
+                              </annotation-xml>
+                            </semantics>
+                          </math>
+                        </div>
+                        <div data-type="equation" id="fs-idp10322128">
+                          <math display="block">
+                            <semantics>
+                              <mrow>
+                                <mrow>
+                                  <mtext>2Ga</mtext>
+                                  <mo stretchy="false">(</mo>
+                                  <mi>l</mi>
+                                  <mo stretchy="false">)</mo>
+                                  <mo>+</mo>
+                                  <mn>3</mn>
+                                  <msub>
+                                    <mrow>
+                                      <mtext>Br</mtext>
+                                    </mrow>
+                                    <mn>2</mn>
+                                  </msub>
+                                  <mo stretchy="false">(</mo>
+                                  <mi>l</mi>
+                                  <mo stretchy="false">)</mo>
+                                  <mspace width="0.2em"/>
+                                  <mo stretchy="false">⟶</mo>
+                                  <mspace width="0.2em"/>
+                                  <mn>2</mn>
+                                  <msub>
+                                    <mrow>
+                                      <mtext>GaBr</mtext>
+                                    </mrow>
+                                    <mn>3</mn>
+                                  </msub>
+                                  <mo stretchy="false">(</mo>
+                                  <mi>s</mi>
+                                  <mo stretchy="false">)</mo>
+                                </mrow>
+                              </mrow>
+                              <annotation-xml encoding="MathML-Content">
+                                <mrow>
+                                  <mtext>2Ga</mtext>
+                                  <mo stretchy="false">(</mo>
+                                  <mi>l</mi>
+                                  <mo stretchy="false">)</mo>
+                                  <mo>+</mo>
+                                  <mn>3</mn>
+                                  <msub>
+                                    <mrow>
+                                      <mtext>Br</mtext>
+                                    </mrow>
+                                    <mn>2</mn>
+                                  </msub>
+                                  <mo stretchy="false">(</mo>
+                                  <mi>l</mi>
+                                  <mo stretchy="false">)</mo>
+                                  <mspace width="0.2em"/>
+                                  <mo stretchy="false">⟶</mo>
+                                  <mspace width="0.2em"/>
+                                  <mn>2</mn>
+                                  <msub>
+                                    <mrow>
+                                      <mtext>GaBr</mtext>
+                                    </mrow>
+                                    <mn>3</mn>
+                                  </msub>
+                                  <mo stretchy="false">(</mo>
+                                  <mi>s</mi>
+                                  <mo stretchy="false">)</mo>
+                                </mrow>
+                              </annotation-xml>
+                            </semantics>
+                          </math>
+                        </div>
+                        <div
+                          class="chemistry link-to-learning"
+                          data-type="note"
+                          id="fs-idp18915520"
+                        >
+                          <h3 class="os-title" data-type="title">
+                            <span class="os-title-label">Link to Learning</span>
+                          </h3>
+                          <div class="os-note-body">
+                            <p id="fs-idm131537424">
+                              Reactions of the alkali metals with elemental halogens are very exothermic and often quite violent. Under controlled conditions, they provide exciting demonstrations for budding students of chemistry. You can view the
+                              <a
+                                href="http://openstaxcollege.org/l/16sodium"
+                                rel="noopener nofollow"
+                                target="_blank"
+                              >initial heating</a> of the sodium that removes the coating of sodium hydroxide, sodium peroxide, and residual mineral oil to expose the reactive surface. The reaction with chlorine gas then proceeds very nicely.
+                            </p>
+                          </div>
+                        </div>
+                        <p id="fs-idm67915760">
+                          If a metal can exhibit two oxidation states, it may be necessary to control the stoichiometry in order to obtain the halide with the lower oxidation state. For example, preparation of tin(II) chloride requires a 1:1 ratio of Sn to Cl
+                          <sub>2</sub>, whereas preparation of tin(IV) chloride requires a 1:2 ratio:
+                        </p>
+                        <div data-type="equation" id="fs-idp10257376">
+                          <math display="block">
+                            <semantics>
+                              <mrow>
+                                <mrow>
+                                  <mtext>Sn</mtext>
+                                  <mo stretchy="false">(</mo>
+                                  <mi>s</mi>
+                                  <mo stretchy="false">)</mo>
+                                  <mo>+</mo>
+                                  <msub>
+                                    <mrow>
+                                      <mtext>Cl</mtext>
+                                    </mrow>
+                                    <mn>2</mn>
+                                  </msub>
+                                  <mo stretchy="false">(</mo>
+                                  <mi>g</mi>
+                                  <mo stretchy="false">)</mo>
+                                  <mspace width="0.2em"/>
+                                  <mo stretchy="false">⟶</mo>
+                                  <mspace width="0.2em"/>
+                                  <msub>
+                                    <mrow>
+                                      <mtext>SnCl</mtext>
+                                    </mrow>
+                                    <mn>2</mn>
+                                  </msub>
+                                  <mo stretchy="false">(</mo>
+                                  <mi>s</mi>
+                                  <mo stretchy="false">)</mo>
+                                </mrow>
+                              </mrow>
+                              <annotation-xml encoding="MathML-Content">
+                                <mrow>
+                                  <mtext>Sn</mtext>
+                                  <mo stretchy="false">(</mo>
+                                  <mi>s</mi>
+                                  <mo stretchy="false">)</mo>
+                                  <mo>+</mo>
+                                  <msub>
+                                    <mrow>
+                                      <mtext>Cl</mtext>
+                                    </mrow>
+                                    <mn>2</mn>
+                                  </msub>
+                                  <mo stretchy="false">(</mo>
+                                  <mi>g</mi>
+                                  <mo stretchy="false">)</mo>
+                                  <mspace width="0.2em"/>
+                                  <mo stretchy="false">⟶</mo>
+                                  <mspace width="0.2em"/>
+                                  <msub>
+                                    <mrow>
+                                      <mtext>SnCl</mtext>
+                                    </mrow>
+                                    <mn>2</mn>
+                                  </msub>
+                                  <mo stretchy="false">(</mo>
+                                  <mi>s</mi>
+                                  <mo stretchy="false">)</mo>
+                                </mrow>
+                              </annotation-xml>
+                            </semantics>
+                          </math>
+                        </div>
+                        <div data-type="equation" id="fs-idp111280">
+                          <math display="block">
+                            <semantics>
+                              <mrow>
+                                <mrow>
+                                  <mtext>Sn</mtext>
+                                  <mo stretchy="false">(</mo>
+                                  <mi>s</mi>
+                                  <mo stretchy="false">)</mo>
+                                  <mo>+</mo>
+                                  <mn>2</mn>
+                                  <msub>
+                                    <mrow>
+                                      <mtext>Cl</mtext>
+                                    </mrow>
+                                    <mn>2</mn>
+                                  </msub>
+                                  <mo stretchy="false">(</mo>
+                                  <mi>g</mi>
+                                  <mo stretchy="false">)</mo>
+                                  <mspace width="0.2em"/>
+                                  <mo stretchy="false">⟶</mo>
+                                  <mspace width="0.2em"/>
+                                  <msub>
+                                    <mrow>
+                                      <mtext>SnCl</mtext>
+                                    </mrow>
+                                    <mn>4</mn>
+                                  </msub>
+                                  <mo stretchy="false">(</mo>
+                                  <mi>l</mi>
+                                  <mo stretchy="false">)</mo>
+                                </mrow>
+                              </mrow>
+                              <annotation-xml encoding="MathML-Content">
+                                <mrow>
+                                  <mtext>Sn</mtext>
+                                  <mo stretchy="false">(</mo>
+                                  <mi>s</mi>
+                                  <mo stretchy="false">)</mo>
+                                  <mo>+</mo>
+                                  <mn>2</mn>
+                                  <msub>
+                                    <mrow>
+                                      <mtext>Cl</mtext>
+                                    </mrow>
+                                    <mn>2</mn>
+                                  </msub>
+                                  <mo stretchy="false">(</mo>
+                                  <mi>g</mi>
+                                  <mo stretchy="false">)</mo>
+                                  <mspace width="0.2em"/>
+                                  <mo stretchy="false">⟶</mo>
+                                  <mspace width="0.2em"/>
+                                  <msub>
+                                    <mrow>
+                                      <mtext>SnCl</mtext>
+                                    </mrow>
+                                    <mn>4</mn>
+                                  </msub>
+                                  <mo stretchy="false">(</mo>
+                                  <mi>l</mi>
+                                  <mo stretchy="false">)</mo>
+                                </mrow>
+                              </annotation-xml>
+                            </semantics>
+                          </math>
+                        </div>
+                        <p
+                          id="fs-idm69190672"
+                        >The active representative metals—those that are easier to oxidize than hydrogen—react with gaseous hydrogen halides to produce metal halides and hydrogen. The reaction of zinc with hydrogen fluoride is:</p>
+                        <div data-type="equation" id="fs-idp10302192">
+                          <math display="block">
+                            <semantics>
+                              <mrow>
+                                <mrow>
+                                  <mtext>Zn</mtext>
+                                  <mo stretchy="false">(</mo>
+                                  <mi>s</mi>
+                                  <mo stretchy="false">)</mo>
+                                  <mo>+</mo>
+                                  <mtext>2HF</mtext>
+                                  <mo stretchy="false">(</mo>
+                                  <mi>g</mi>
+                                  <mo stretchy="false">)</mo>
+                                  <mspace width="0.2em"/>
+                                  <mo stretchy="false">⟶</mo>
+                                  <mspace width="0.2em"/>
+                                  <msub>
+                                    <mrow>
+                                      <mtext>ZnF</mtext>
+                                    </mrow>
+                                    <mn>2</mn>
+                                  </msub>
+                                  <mo stretchy="false">(</mo>
+                                  <mi>s</mi>
+                                  <mo stretchy="false">)</mo>
+                                  <mo>+</mo>
+                                  <msub>
+                                    <mtext>H</mtext>
+                                    <mn>2</mn>
+                                  </msub>
+                                  <mo stretchy="false">(</mo>
+                                  <mi>g</mi>
+                                  <mo stretchy="false">)</mo>
+                                </mrow>
+                              </mrow>
+                              <annotation-xml encoding="MathML-Content">
+                                <mrow>
+                                  <mtext>Zn</mtext>
+                                  <mo stretchy="false">(</mo>
+                                  <mi>s</mi>
+                                  <mo stretchy="false">)</mo>
+                                  <mo>+</mo>
+                                  <mtext>2HF</mtext>
+                                  <mo stretchy="false">(</mo>
+                                  <mi>g</mi>
+                                  <mo stretchy="false">)</mo>
+                                  <mspace width="0.2em"/>
+                                  <mo stretchy="false">⟶</mo>
+                                  <mspace width="0.2em"/>
+                                  <msub>
+                                    <mrow>
+                                      <mtext>ZnF</mtext>
+                                    </mrow>
+                                    <mn>2</mn>
+                                  </msub>
+                                  <mo stretchy="false">(</mo>
+                                  <mi>s</mi>
+                                  <mo stretchy="false">)</mo>
+                                  <mo>+</mo>
+                                  <msub>
+                                    <mtext>H</mtext>
+                                    <mn>2</mn>
+                                  </msub>
+                                  <mo stretchy="false">(</mo>
+                                  <mi>g</mi>
+                                  <mo stretchy="false">)</mo>
+                                </mrow>
+                              </annotation-xml>
+                            </semantics>
+                          </math>
+                        </div>
+                        <p
+                          id="fs-idp79545648"
+                        >The active representative metals also react with solutions of hydrogen halides to form hydrogen and solutions of the corresponding halides. Examples of such reactions include:</p>
+                        <div data-type="equation" id="fs-idp374880">
+                          <math display="block">
+                            <semantics>
+                              <mrow>
+                                <mrow>
+                                  <mtext>Cd</mtext>
+                                  <mo stretchy="false">(</mo>
+                                  <mi>s</mi>
+                                  <mo stretchy="false">)</mo>
+                                  <mo>+</mo>
+                                  <mtext>2HBr</mtext>
+                                  <mo stretchy="false">(</mo>
+                                  <mi>a</mi>
+                                  <mi>q</mi>
+                                  <mo stretchy="false">)</mo>
+                                  <mspace width="0.2em"/>
+                                  <mo stretchy="false">⟶</mo>
+                                  <mspace width="0.2em"/>
+                                  <msub>
+                                    <mrow>
+                                      <mtext>CdBr</mtext>
+                                    </mrow>
+                                    <mn>2</mn>
+                                  </msub>
+                                  <mo stretchy="false">(</mo>
+                                  <mi>a</mi>
+                                  <mi>q</mi>
+                                  <mo stretchy="false">)</mo>
+                                  <mo>+</mo>
+                                  <msub>
+                                    <mtext>H</mtext>
+                                    <mn>2</mn>
+                                  </msub>
+                                  <mo stretchy="false">(</mo>
+                                  <mi>g</mi>
+                                  <mo stretchy="false">)</mo>
+                                </mrow>
+                              </mrow>
+                              <annotation-xml encoding="MathML-Content">
+                                <mrow>
+                                  <mtext>Cd</mtext>
+                                  <mo stretchy="false">(</mo>
+                                  <mi>s</mi>
+                                  <mo stretchy="false">)</mo>
+                                  <mo>+</mo>
+                                  <mtext>2HBr</mtext>
+                                  <mo stretchy="false">(</mo>
+                                  <mi>a</mi>
+                                  <mi>q</mi>
+                                  <mo stretchy="false">)</mo>
+                                  <mspace width="0.2em"/>
+                                  <mo stretchy="false">⟶</mo>
+                                  <mspace width="0.2em"/>
+                                  <msub>
+                                    <mrow>
+                                      <mtext>CdBr</mtext>
+                                    </mrow>
+                                    <mn>2</mn>
+                                  </msub>
+                                  <mo stretchy="false">(</mo>
+                                  <mi>a</mi>
+                                  <mi>q</mi>
+                                  <mo stretchy="false">)</mo>
+                                  <mo>+</mo>
+                                  <msub>
+                                    <mtext>H</mtext>
+                                    <mn>2</mn>
+                                  </msub>
+                                  <mo stretchy="false">(</mo>
+                                  <mi>g</mi>
+                                  <mo stretchy="false">)</mo>
+                                </mrow>
+                              </annotation-xml>
+                            </semantics>
+                          </math>
+                        </div>
+                        <div data-type="equation" id="fs-idp509264">
+                          <math display="block">
+                            <semantics>
+                              <mrow>
+                                <mrow>
+                                  <mtext>Sn</mtext>
+                                  <mo stretchy="false">(</mo>
+                                  <mi>s</mi>
+                                  <mo stretchy="false">)</mo>
+                                  <mo>+</mo>
+                                  <mtext>2HI</mtext>
+                                  <mo stretchy="false">(</mo>
+                                  <mi>a</mi>
+                                  <mi>q</mi>
+                                  <mo stretchy="false">)</mo>
+                                  <mspace width="0.2em"/>
+                                  <mo stretchy="false">⟶</mo>
+                                  <mspace width="0.2em"/>
+                                  <msub>
+                                    <mrow>
+                                      <mtext>SnI</mtext>
+                                    </mrow>
+                                    <mn>2</mn>
+                                  </msub>
+                                  <mo stretchy="false">(</mo>
+                                  <mi>a</mi>
+                                  <mi>q</mi>
+                                  <mo stretchy="false">)</mo>
+                                  <mo>+</mo>
+                                  <msub>
+                                    <mtext>H</mtext>
+                                    <mn>2</mn>
+                                  </msub>
+                                  <mo stretchy="false">(</mo>
+                                  <mi>g</mi>
+                                  <mo stretchy="false">)</mo>
+                                </mrow>
+                              </mrow>
+                              <annotation-xml encoding="MathML-Content">
+                                <mrow>
+                                  <mtext>Sn</mtext>
+                                  <mo stretchy="false">(</mo>
+                                  <mi>s</mi>
+                                  <mo stretchy="false">)</mo>
+                                  <mo>+</mo>
+                                  <mtext>2HI</mtext>
+                                  <mo stretchy="false">(</mo>
+                                  <mi>a</mi>
+                                  <mi>q</mi>
+                                  <mo stretchy="false">)</mo>
+                                  <mspace width="0.2em"/>
+                                  <mo stretchy="false">⟶</mo>
+                                  <mspace width="0.2em"/>
+                                  <msub>
+                                    <mrow>
+                                      <mtext>SnI</mtext>
+                                    </mrow>
+                                    <mn>2</mn>
+                                  </msub>
+                                  <mo stretchy="false">(</mo>
+                                  <mi>a</mi>
+                                  <mi>q</mi>
+                                  <mo stretchy="false">)</mo>
+                                  <mo>+</mo>
+                                  <msub>
+                                    <mtext>H</mtext>
+                                    <mn>2</mn>
+                                  </msub>
+                                  <mo stretchy="false">(</mo>
+                                  <mi>g</mi>
+                                  <mo stretchy="false">)</mo>
+                                </mrow>
+                              </annotation-xml>
+                            </semantics>
+                          </math>
+                        </div>
+                        <p
+                          id="fs-idm72711872"
+                        >Hydroxides, carbonates, and some oxides react with solutions of the hydrogen halides to form solutions of halide salts. It is possible to prepare additional salts by the reaction of these hydroxides, carbonates, and oxides with aqueous solution of other acids:</p>
+                        <div data-type="equation" id="fs-idp10600384">
+                          <math display="block">
+                            <semantics>
+                              <mrow>
+                                <mrow>
+                                  <msub>
+                                    <mrow>
+                                      <mtext>CaCo</mtext>
+                                    </mrow>
+                                    <mn>3</mn>
+                                  </msub>
+                                  <mo stretchy="false">(</mo>
+                                  <mi>s</mi>
+                                  <mo stretchy="false">)</mo>
+                                  <mo>+</mo>
+                                  <mtext>2HCl</mtext>
+                                  <mo stretchy="false">(</mo>
+                                  <mi>a</mi>
+                                  <mi>q</mi>
+                                  <mo stretchy="false">)</mo>
+                                  <mspace width="0.2em"/>
+                                  <mo stretchy="false">⟶</mo>
+                                  <mspace width="0.2em"/>
+                                  <msub>
+                                    <mrow>
+                                      <mtext>CaCl</mtext>
+                                    </mrow>
+                                    <mn>2</mn>
+                                  </msub>
+                                  <mo stretchy="false">(</mo>
+                                  <mi>a</mi>
+                                  <mi>q</mi>
+                                  <mo stretchy="false">)</mo>
+                                  <mo>+</mo>
+                                  <msub>
+                                    <mrow>
+                                      <mtext>CO</mtext>
+                                    </mrow>
+                                    <mn>2</mn>
+                                  </msub>
+                                  <mo stretchy="false">(</mo>
+                                  <mi>g</mi>
+                                  <mo stretchy="false">)</mo>
+                                  <mo>+</mo>
+                                  <msub>
+                                    <mtext>H</mtext>
+                                    <mn>2</mn>
+                                  </msub>
+                                  <mtext>O</mtext>
+                                  <mo stretchy="false">(</mo>
+                                  <mi>l</mi>
+                                  <mo stretchy="false">)</mo>
+                                </mrow>
+                              </mrow>
+                              <annotation-xml encoding="MathML-Content">
+                                <mrow>
+                                  <msub>
+                                    <mrow>
+                                      <mtext>CaCo</mtext>
+                                    </mrow>
+                                    <mn>3</mn>
+                                  </msub>
+                                  <mo stretchy="false">(</mo>
+                                  <mi>s</mi>
+                                  <mo stretchy="false">)</mo>
+                                  <mo>+</mo>
+                                  <mtext>2HCl</mtext>
+                                  <mo stretchy="false">(</mo>
+                                  <mi>a</mi>
+                                  <mi>q</mi>
+                                  <mo stretchy="false">)</mo>
+                                  <mspace width="0.2em"/>
+                                  <mo stretchy="false">⟶</mo>
+                                  <mspace width="0.2em"/>
+                                  <msub>
+                                    <mrow>
+                                      <mtext>CaCl</mtext>
+                                    </mrow>
+                                    <mn>2</mn>
+                                  </msub>
+                                  <mo stretchy="false">(</mo>
+                                  <mi>a</mi>
+                                  <mi>q</mi>
+                                  <mo stretchy="false">)</mo>
+                                  <mo>+</mo>
+                                  <msub>
+                                    <mrow>
+                                      <mtext>CO</mtext>
+                                    </mrow>
+                                    <mn>2</mn>
+                                  </msub>
+                                  <mo stretchy="false">(</mo>
+                                  <mi>g</mi>
+                                  <mo stretchy="false">)</mo>
+                                  <mo>+</mo>
+                                  <msub>
+                                    <mtext>H</mtext>
+                                    <mn>2</mn>
+                                  </msub>
+                                  <mtext>O</mtext>
+                                  <mo stretchy="false">(</mo>
+                                  <mi>l</mi>
+                                  <mo stretchy="false">)</mo>
+                                </mrow>
+                              </annotation-xml>
+                            </semantics>
+                          </math>
+                        </div>
+                        <div data-type="equation" id="fs-idp8139904">
+                          <math display="block">
+                            <semantics>
+                              <mrow>
+                                <mrow>
+                                  <mtext>TlOH</mtext>
+                                  <mo stretchy="false">(</mo>
+                                  <mi>a</mi>
+                                  <mi>q</mi>
+                                  <mo stretchy="false">)</mo>
+                                  <mo>+</mo>
+                                  <mtext>HF</mtext>
+                                  <mo stretchy="false">(</mo>
+                                  <mi>a</mi>
+                                  <mi>q</mi>
+                                  <mo stretchy="false">)</mo>
+                                  <mspace width="0.2em"/>
+                                  <mo stretchy="false">⟶</mo>
+                                  <mspace width="0.2em"/>
+                                  <mtext>TlF</mtext>
+                                  <mo stretchy="false">(</mo>
+                                  <mi>a</mi>
+                                  <mi>q</mi>
+                                  <mo stretchy="false">)</mo>
+                                  <mo>+</mo>
+                                  <msub>
+                                    <mtext>H</mtext>
+                                    <mn>2</mn>
+                                  </msub>
+                                  <mtext>O</mtext>
+                                  <mo stretchy="false">(</mo>
+                                  <mi>l</mi>
+                                  <mo stretchy="false">)</mo>
+                                </mrow>
+                              </mrow>
+                              <annotation-xml encoding="MathML-Content">
+                                <mrow>
+                                  <mtext>TlOH</mtext>
+                                  <mo stretchy="false">(</mo>
+                                  <mi>a</mi>
+                                  <mi>q</mi>
+                                  <mo stretchy="false">)</mo>
+                                  <mo>+</mo>
+                                  <mtext>HF</mtext>
+                                  <mo stretchy="false">(</mo>
+                                  <mi>a</mi>
+                                  <mi>q</mi>
+                                  <mo stretchy="false">)</mo>
+                                  <mspace width="0.2em"/>
+                                  <mo stretchy="false">⟶</mo>
+                                  <mspace width="0.2em"/>
+                                  <mtext>TlF</mtext>
+                                  <mo stretchy="false">(</mo>
+                                  <mi>a</mi>
+                                  <mi>q</mi>
+                                  <mo stretchy="false">)</mo>
+                                  <mo>+</mo>
+                                  <msub>
+                                    <mtext>H</mtext>
+                                    <mn>2</mn>
+                                  </msub>
+                                  <mtext>O</mtext>
+                                  <mo stretchy="false">(</mo>
+                                  <mi>l</mi>
+                                  <mo stretchy="false">)</mo>
+                                </mrow>
+                              </annotation-xml>
+                            </semantics>
+                          </math>
+                        </div>
+                        <p id="fs-idm12706304">
+                          A few halides and many of the other salts of the representative metals are insoluble. It is possible to prepare these soluble salts by metathesis reactions that occur when solutions of soluble salts are mixed (see
+                          <a
+                            class="autogenerated-content"
+                            href="#CNX_Chem_18_11_PercipHgI2"
+                          >Figure 18.61</a>). Metathesis reactions are examined in the chapter on the stoichiometry of chemical reactions.
+                        </p>
+                        <div class="os-figure" id="CNX_Chem_18_11_PercipHgI2">
+                          <figure
+                            class="scaled-down"
+                            data-id="CNX_Chem_18_11_PercipHgI2"
+                          >
+                            <span
+                              data-alt="This figure shows three bottles and one bowl. All the bottles have lids. The first bottle is filled with a clear liquid. The second bottle is filled with a similarly clear liquid, but only about three-quarters of the way. The third bottle contains a red or pink liquid. The bowl contains a red or pink solid."
+                              data-type="media"
+                              id="fs-idm36383744"
+                            >
+                              <img
+                                alt="This figure shows three bottles and one bowl. All the bottles have lids. The first bottle is filled with a clear liquid. The second bottle is filled with a similarly clear liquid, but only about three-quarters of the way. The third bottle contains a red or pink liquid. The bowl contains a red or pink solid."
+                                data-media-type="image/jpeg"
+                                id="[redacted for uniqueness]"
+                                src="/resources/6e534711d7841d28f5d15bec44aa61eb3686c274"
+                              >
+                            </span>
+                          </figure>
+                          <div class="os-caption-container">
+                            <span class="os-title-label">Figure</span>
+                            <span class="os-number">18.61</span>
+                            <span class="os-divider"></span>
+                            <span class="os-divider"></span>
+                            <span class="os-caption">
+                              Solid HgI
+                              <sub>2</sub> forms when solutions of KI and Hg(NO
+                              <sub>3</sub>)
+                              <sub>2</sub> are mixed. (credit: Sahar Atwa)
+                            </span>
+                          </div>
+                        </div>
+                        <p id="fs-idm16247664">
+                          Several halides occur in large quantities in nature. The ocean and underground brines contain many halides. For example, magnesium chloride in the ocean is the source of magnesium ions used in the production of magnesium. Large underground deposits of sodium chloride, like the salt mine shown in
+                          <a
+                            class="autogenerated-content"
+                            href="#CNX_Chem_18_11_SaltMine"
+                          >Figure 18.62</a>, occur in many parts of the world. These deposits serve as the source of sodium and chlorine in almost all other compounds containing these elements. The chlor-alkali process is one example.
+                        </p>
+                        <div class="os-figure" id="CNX_Chem_18_11_SaltMine">
+                          <figure
+                            class="scaled-down"
+                            data-id="CNX_Chem_18_11_SaltMine"
+                          >
+                            <span
+                              data-alt="A photograph of a mine shaft is shown."
+                              data-type="media"
+                              id="fs-idm53776832"
+                            >
+                              <img
+                                alt="A photograph of a mine shaft is shown."
+                                data-media-type="image/jpeg"
+                                id="[redacted for uniqueness]"
+                                src="/resources/f8ae178463227069e073b3f4bec3587ffa8969fe"
+                              >
+                            </span>
+                          </figure>
+                          <div class="os-caption-container">
+                            <span class="os-title-label">Figure</span>
+                            <span class="os-number">18.62</span>
+                            <span class="os-divider"></span>
+                            <span class="os-divider"></span>
+                            <span
+                              class="os-caption"
+                            >Underground deposits of sodium chloride are found throughout the world and are often mined. This is a tunnel in the Kłodawa salt mine in Poland. (credit: Jarek Zok)</span>
+                          </div>
+                        </div>
+                      </section>
+
+                      <section data-depth="1" id="fs-idm71704144">
+                        <h3 data-type="title">Interhalogens</h3>
+                        <p id="fs-idm123500464">
+                          Compounds formed from two or more different halogens are
+                          <span
+                            data-type="term"
+                            group-by="i"
+                            id="[redacted for uniqueness]"
+                          >interhalogens</span>. Interhalogen molecules consist of one atom of the heavier halogen bonded by single bonds to an odd number of atoms of the lighter halogen. The structures of IF
+                          <sub>3</sub>, IF
+                          <sub>5</sub>, and IF
+                          <sub>7</sub> are illustrated in
+                          <a
+                            class="autogenerated-content"
+                            href="#CNX_Chem_18_11_IF3IF5IF7"
+                          >Figure 18.63</a>. Formulas for other interhalogens, each of which comes from the reaction of the respective halogens, are in
+                          <a
+                            class="autogenerated-content"
+                            href="#fs-idm73111648"
+                          >Table 18.3</a>.
+                        </p>
+                        <div class="os-figure" id="CNX_Chem_18_11_IF3IF5IF7">
+                          <figure data-id="CNX_Chem_18_11_IF3IF5IF7">
+                            <span
+                              data-alt="Three ball-and-stick models are shown. The left structure, labeled, “I F subscript 3,” shows a purple atom labeled, “I,” bonded to three green atoms labeled, “F,” and with two lone pairs of electrons. The middle structure, labeled, “I F subscript 5,” shows a purple atom labeled, “I,” bonded to five green atoms labeled, “F,” and with one lone pair of electrons. The right image, labeled, “I F subscript 7,” shows a purple atom labeled, “I,” bonded to seven green atoms labeled, “F.”"
+                              data-type="media"
+                              id="fs-idm69260048"
+                            >
+                              <img
+                                alt="Three ball-and-stick models are shown. The left structure, labeled, “I F subscript 3,” shows a purple atom labeled, “I,” bonded to three green atoms labeled, “F,” and with two lone pairs of electrons. The middle structure, labeled, “I F subscript 5,” shows a purple atom labeled, “I,” bonded to five green atoms labeled, “F,” and with one lone pair of electrons. The right image, labeled, “I F subscript 7,” shows a purple atom labeled, “I,” bonded to seven green atoms labeled, “F.”"
+                                data-media-type="image/jpeg"
+                                id="[redacted for uniqueness]"
+                                src="/resources/15428d9e98c3b8a0c27e421df46396aa2adafb3e"
+                              >
+                            </span>
+                          </figure>
+                          <div class="os-caption-container">
+                            <span class="os-title-label">Figure</span>
+                            <span class="os-number">18.63</span>
+                            <span class="os-divider"></span>
+                            <span class="os-divider"></span>
+                            <span class="os-caption">
+                              The structure of IF
+                              <sub>3</sub> is T-shaped (left), IF
+                              <sub>5</sub>is square pyramidal (center), and IF
+                              <sub>7</sub> is pentagonal bipyramidal (right).
+                            </span>
+                          </div>
+                        </div>
+                        <p id="fs-idm127930720">
+                          Note from
+                          <a
+                            class="autogenerated-content"
+                            href="#fs-idm73111648"
+                          >Table 18.3</a> that fluorine is able to oxidize iodine to its maximum oxidation state, 7+, whereas bromine and chlorine, which are more difficult to oxidize, achieve only the 5+-oxidation state. A 7+-oxidation state is the limit for the halogens. Because smaller halogens are grouped about a larger one, the maximum number of smaller atoms possible increases as the radius of the larger atom increases. Many of these compounds are unstable, and most are extremely reactive. The interhalogens react like their component halides; halogen fluorides, for example, are stronger oxidizing agents than are halogen chlorides.
+                        </p>
+                        <p id="fs-idm19980944">
+                          The ionic polyhalides of the alkali metals, such as KI
+                          <sub>3</sub>, KICl
+                          <sub>2</sub>, KICl
+                          <sub>4</sub>, CsIBr
+                          <sub>2</sub>, and CsBrCl
+                          <sub>2</sub>, which contain an anion composed of at least three halogen atoms, are closely related to the interhalogens. As seen previously, the formation of the polyhalide anion
+                          <math display="inline">
+                            <semantics>
+                              <mrow>
+                                <mrow>
+                                  <msub>
+                                    <mtext>I</mtext>
+                                    <mrow>
+                                      <mn>3</mn>
+                                    </mrow>
+                                  </msub>
+                                  <msup>
+                                    <mrow/>
+                                    <mrow>
+                                      <mo>−</mo>
+                                    </mrow>
+                                  </msup>
+                                </mrow>
+                              </mrow>
+                              <annotation-xml encoding="MathML-Content">
+                                <mrow>
+                                  <msub>
+                                    <mtext>I</mtext>
+                                    <mrow>
+                                      <mn>3</mn>
+                                    </mrow>
+                                  </msub>
+                                  <msup>
+                                    <mrow/>
+                                    <mrow>
+                                      <mo>−</mo>
+                                    </mrow>
+                                  </msup>
+                                </mrow>
+                              </annotation-xml>
+                            </semantics>
+                          </math> is responsible for the solubility of iodine in aqueous solutions containing an iodide ion.
+                        </p>
+                        <div class="os-table" id="fs-idm73111648">
+                          <table
+                            class="top-titled"
+                            data-id="fs-idm73111648"
+                            summary="Table 18.3  "
+                          >
+                            <thead>
+                              <tr>
+                                <th
+                                  colspan="4"
+                                  data-align="center"
+                                >Interhalogens</th>
+                              </tr>
+                              <tr valign="top">
+                                <th data-align="left">YX</th>
+                                <th data-align="left">
+                                  YX
+                                  <sub>3</sub>
+                                </th>
+                                <th data-align="left">
+                                  YX
+                                  <sub>5</sub>
+                                </th>
+                                <th data-align="left">
+                                  YX
+                                  <sub>7</sub>
+                                </th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr valign="top">
+                                <td data-align="left">
+                                  ClF(
+                                  <em data-effect="italics">g</em>)
+                                </td>
+                                <td data-align="left">
+                                  ClF
+                                  <sub>3</sub>(
+                                  <em data-effect="italics">g</em>)
+                                </td>
+                                <td data-align="left">
+                                  ClF
+                                  <sub>5</sub>(
+                                  <em data-effect="italics">g</em>)
+                                </td>
+                                <td data-align="left"/>
+                              </tr>
+                              <tr valign="top">
+                                <td data-align="left">
+                                  BrF(
+                                  <em data-effect="italics">g</em>)
+                                </td>
+                                <td data-align="left">
+                                  BrF
+                                  <sub>3</sub>(
+                                  <em data-effect="italics">l</em>)
+                                </td>
+                                <td data-align="left">
+                                  BrF
+                                  <sub>5</sub>(
+                                  <em data-effect="italics">l</em>)
+                                </td>
+                                <td data-align="left"/>
+                              </tr>
+                              <tr valign="top">
+                                <td data-align="left">
+                                  BrCl(
+                                  <em data-effect="italics">g</em>)
+                                </td>
+                                <td data-align="left"/>
+                                <td data-align="left"/>
+                                <td data-align="left"/>
+                              </tr>
+                              <tr valign="top">
+                                <td data-align="left">
+                                  IF(
+                                  <em data-effect="italics">s</em>)
+                                </td>
+                                <td data-align="left">
+                                  IF
+                                  <sub>3</sub>(
+                                  <em data-effect="italics">s</em>)
+                                </td>
+                                <td data-align="left">
+                                  IF
+                                  <sub>5</sub>(
+                                  <em data-effect="italics">l</em>)
+                                </td>
+                                <td data-align="left">
+                                  IF
+                                  <sub>7</sub>(
+                                  <em data-effect="italics">g</em>)
+                                </td>
+                              </tr>
+                              <tr valign="top">
+                                <td data-align="left">
+                                  ICl(
+                                  <em data-effect="italics">l</em>)
+                                </td>
+                                <td data-align="left">
+                                  ICl
+                                  <sub>3</sub>(
+                                  <em data-effect="italics">s</em>)
+                                </td>
+                                <td data-align="left"/>
+                                <td data-align="left"/>
+                              </tr>
+                              <tr valign="top">
+                                <td data-align="left">
+                                  IBr(
+                                  <em data-effect="italics">s</em>)
+                                </td>
+                                <td data-align="left"/>
+                                <td data-align="left"/>
+                                <td data-align="left"/>
+                              </tr>
+                            </tbody>
+                          </table>
+                          <div class="os-caption-container">
+                            <span class="os-title-label">Table</span>
+                            <span class="os-number">18.3</span>
+                            <span class="os-divider"></span>
+                            <span class="os-divider"></span>
+                          </div>
+                        </div>
+                      </section>
+
+                      <section data-depth="1" id="fs-idm72031536">
+                        <h3 data-type="title">Applications</h3>
+                        <p id="fs-idm83294896">
+                          The fluoride ion and fluorine compounds have many important uses. Compounds of carbon, hydrogen, and fluorine are replacing Freons (compounds of carbon, chlorine, and fluorine) as refrigerants. Teflon is a polymer composed of –CF
+                          <sub>2</sub>CF
+                          <sub>2</sub>– units. Fluoride ion is added to water supplies and to some toothpastes as SnF
+                          <sub>2</sub> or NaF to fight tooth decay. Fluoride partially converts teeth from Ca
+                          <sub>5</sub>(PO
+                          <sub>4</sub>)
+                          <sub>3</sub>(OH) into Ca
+                          <sub>5</sub>(PO
+                          <sub>4</sub>)
+                          <sub>3</sub>F.
+                        </p>
+                        <p id="fs-idm85520736">
+                          Chlorine is important to bleach wood pulp and cotton cloth. The chlorine reacts with water to form hypochlorous acid, which oxidizes colored substances to colorless ones. Large quantities of chlorine are important in chlorinating hydrocarbons (replacing hydrogen with chlorine) to produce compounds such as tetrachloride (CCl
+                          <sub>4</sub>), chloroform (CHCl
+                          <sub>3</sub>), and ethyl chloride (C
+                          <sub>2</sub>H
+                          <sub>5</sub>Cl), and in the production of polyvinyl chloride (PVC) and other polymers. Chlorine is also important to kill the bacteria in community water supplies.
+                        </p>
+                        <p
+                          id="fs-idm8160688"
+                        >Bromine is important in the production of certain dyes, and sodium and potassium bromides are used as sedatives. At one time, light-sensitive silver bromide was a component of photographic film.</p>
+                        <p id="fs-idp13468160">
+                          Iodine in alcohol solution with potassium iodide is an antiseptic (tincture of iodine). Iodide salts are essential for the proper functioning of the thyroid gland; an iodine deficiency may lead to the development of a goiter. Iodized table salt contains 0.023% potassium iodide. Silver iodide is useful in the seeding of clouds to induce rain; it was important in the production of photographic film and iodoform, CHI
+                          <sub>3</sub>, is an antiseptic.
+                        </p>
+                      </section>
+                    </div>
+                  </div>
+                  

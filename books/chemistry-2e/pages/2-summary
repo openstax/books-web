@@ -1,0 +1,171 @@
+
+                    <div
+                      class="os-eoc os-summary-container"
+                      data-type="composite-page"
+                      data-uuid-key=".summary"
+                    >
+                      <section
+                        class="summary"
+                        data-depth="1"
+                        id="fs-idp7570768"
+                      >
+                        <h3 data-type="document-title" id="[redacted for uniqueness]">
+                          <span class="os-number">2.1</span>
+                          <span class="os-divider"></span>
+                          <span class="os-text">Early Ideas in Atomic Theory</span>
+                        </h3>
+                        <p
+                          id="fs-idm8092064"
+                        >The ancient Greeks proposed that matter consists of extremely small particles called atoms. Dalton postulated that each element has a characteristic type of atom that differs in properties from atoms of all other elements, and that atoms of different elements can combine in fixed, small, whole-number ratios to form compounds. Samples of a particular compound all have the same elemental proportions by mass. When two elements form different compounds, a given mass of one element will combine with masses of the other element in a small, whole-number ratio. During any chemical change, atoms are neither created nor destroyed.</p>
+                      </section>
+                      <section
+                        class="summary"
+                        data-depth="1"
+                        id="fs-idp11422832"
+                      >
+                        <h3 data-type="document-title" id="[redacted for uniqueness]">
+                          <span class="os-number">2.2</span>
+                          <span class="os-divider"></span>
+                          <span class="os-text">Evolution of Atomic Theory</span>
+                        </h3>
+                        <p
+                          id="fs-idp1682080"
+                        >Although no one has actually seen the inside of an atom, experiments have demonstrated much about atomic structure. Thomson’s cathode ray tube showed that atoms contain small, negatively charged particles called electrons. Millikan discovered that there is a fundamental electric charge—the charge of an electron. Rutherford’s gold foil experiment showed that atoms have a small, dense, positively charged nucleus; the positively charged particles within the nucleus are called protons. Chadwick discovered that the nucleus also contains neutral particles called neutrons. Soddy demonstrated that atoms of the same element can differ in mass; these are called isotopes.</p>
+                      </section>
+                      <section
+                        class="summary"
+                        data-depth="1"
+                        id="fs-idm131201632"
+                      >
+                        <h3 data-type="document-title" id="[redacted for uniqueness]">
+                          <span class="os-number">2.3</span>
+                          <span class="os-divider"></span>
+                          <span class="os-text">Atomic Structure and Symbolism</span>
+                        </h3>
+                        <p id="fs-idm148166800">
+                          An atom consists of a small, positively charged nucleus surrounded by electrons. The nucleus contains protons and neutrons; its diameter is about 100,000 times smaller than that of the atom. The mass of one atom is usually expressed in atomic mass units (amu), which is referred to as the atomic mass. An amu is defined as exactly
+                          <math display="inline">
+                            <semantics>
+                              <mrow>
+                                <mrow>
+                                  <mfrac>
+                                    <mn>1</mn>
+                                    <mrow>
+                                      <mn>12</mn>
+                                    </mrow>
+                                  </mfrac>
+                                </mrow>
+                              </mrow>
+                              <annotation-xml encoding="MathML-Content">
+                                <mrow>
+                                  <mfrac>
+                                    <mn>1</mn>
+                                    <mrow>
+                                      <mn>12</mn>
+                                    </mrow>
+                                  </mfrac>
+                                </mrow>
+                              </annotation-xml>
+                            </semantics>
+                          </math> of the mass of a carbon-12 atom and is equal to 1.6605
+                          <math display="inline">
+                            <semantics>
+                              <mrow>
+                                <mrow>
+                                  <mo>×</mo>
+                                </mrow>
+                              </mrow>
+                              <annotation-xml encoding="MathML-Content">
+                                <mrow>
+                                  <mo>×</mo>
+                                </mrow>
+                              </annotation-xml>
+                            </semantics>
+                          </math> 10
+                          <sup>−24</sup> g.
+                        </p>
+                        <p
+                          id="fs-idp228494288"
+                        >Protons are relatively heavy particles with a charge of 1+ and a mass of 1.0073 amu. Neutrons are relatively heavy particles with no charge and a mass of 1.0087 amu. Electrons are light particles with a charge of 1− and a mass of 0.00055 amu. The number of protons in the nucleus is called the atomic number (Z) and is the property that defines an atom’s elemental identity. The sum of the numbers of protons and neutrons in the nucleus is called the mass number and, expressed in amu, is approximately equal to the mass of the atom. An atom is neutral when it contains equal numbers of electrons and protons.</p>
+                        <p
+                          id="fs-idm194069072"
+                        >Isotopes of an element are atoms with the same atomic number but different mass numbers; isotopes of an element, therefore, differ from each other only in the number of neutrons within the nucleus. When a naturally occurring element is composed of several isotopes, the atomic mass of the element represents the average of the masses of the isotopes involved. A chemical symbol identifies the atoms in a substance using symbols, which are one-, two-, or three-letter abbreviations for the atoms.</p>
+                      </section>
+                      <section
+                        class="summary"
+                        data-depth="1"
+                        id="fs-idm97603328"
+                      >
+                        <h3 data-type="document-title" id="[redacted for uniqueness]">
+                          <span class="os-number">2.4</span>
+                          <span class="os-divider"></span>
+                          <span class="os-text">Chemical Formulas</span>
+                        </h3>
+                        <p
+                          id="fs-idm100378720"
+                        >A molecular formula uses chemical symbols and subscripts to indicate the exact numbers of different atoms in a molecule or compound. An empirical formula gives the simplest, whole-number ratio of atoms in a compound. A structural formula indicates the bonding arrangement of the atoms in the molecule. Ball-and-stick and space-filling models show the geometric arrangement of atoms in a molecule. Isomers are compounds with the same molecular formula but different arrangements of atoms.</p>
+                      </section>
+                      <section
+                        class="summary"
+                        data-depth="1"
+                        id="fs-idm7568752"
+                      >
+                        <h3 data-type="document-title" id="[redacted for uniqueness]">
+                          <span class="os-number">2.5</span>
+                          <span class="os-divider"></span>
+                          <span class="os-text">The Periodic Table</span>
+                        </h3>
+                        <p
+                          id="fs-idm431899680"
+                        >The discovery of the periodic recurrence of similar properties among the elements led to the formulation of the periodic table, in which the elements are arranged in order of increasing atomic number in rows known as periods and columns known as groups. Elements in the same group of the periodic table have similar chemical properties. Elements can be classified as metals, metalloids, and nonmetals, or as a main-group elements, transition metals, and inner transition metals. Groups are numbered 1–18 from left to right. The elements in group 1 are known as the alkali metals; those in group 2 are the alkaline earth metals; those in 15 are the pnictogens; those in 16 are the chalcogens; those in 17 are the halogens; and those in 18 are the noble gases.</p>
+                      </section>
+                      <section
+                        class="summary"
+                        data-depth="1"
+                        id="fs-idp184156752"
+                      >
+                        <h3 data-type="document-title" id="[redacted for uniqueness]">
+                          <span class="os-number">2.6</span>
+                          <span class="os-divider"></span>
+                          <span class="os-text">Molecular and Ionic Compounds</span>
+                        </h3>
+                        <p
+                          id="fs-idp122679888"
+                        >Metals (particularly those in groups 1 and 2) tend to lose the number of electrons that would leave them with the same number of electrons as in the preceding noble gas in the periodic table. By this means, a positively charged ion is formed. Similarly, nonmetals (especially those in groups 16 and 17, and, to a lesser extent, those in Group 15) can gain the number of electrons needed to provide atoms with the same number of electrons as in the next noble gas in the periodic table. Thus, nonmetals tend to form negative ions. Positively charged ions are called cations, and negatively charged ions are called anions. Ions can be either monatomic (containing only one atom) or polyatomic (containing more than one atom).</p>
+                        <p
+                          id="fs-idp57422256"
+                        >Compounds that contain ions are called ionic compounds. Ionic compounds generally form from metals and nonmetals. Compounds that do not contain ions, but instead consist of atoms bonded tightly together in molecules (uncharged groups of atoms that behave as a single unit), are called covalent compounds. Covalent compounds usually form from two nonmetals.</p>
+                      </section>
+                      <section
+                        class="summary"
+                        data-depth="1"
+                        id="fs-idp282340144"
+                      >
+                        <h3 data-type="document-title" id="[redacted for uniqueness]">
+                          <span class="os-number">2.7</span>
+                          <span class="os-divider"></span>
+                          <span class="os-text">Chemical Nomenclature</span>
+                        </h3>
+                        <p id="fs-idp282340912">
+                          Chemists use nomenclature rules to clearly name compounds. Ionic and molecular compounds are named using somewhat-different methods. Binary ionic compounds typically consist of a metal and a nonmetal. The name of the metal is written first, followed by the name of the nonmetal with its ending changed to –
+                          <em data-effect="italics">ide</em>. For example, K
+                          <sub>2</sub>O is called potassium oxide. If the metal can form ions with different charges, a Roman numeral in parentheses follows the name of the metal to specify its charge. Thus, FeCl
+                          <sub>2</sub> is iron(II) chloride and FeCl
+                          <sub>3</sub> is iron(III) chloride. Some compounds contain polyatomic ions; the names of common polyatomic ions should be memorized. Molecular compounds can form compounds with different ratios of their elements, so prefixes are used to specify the numbers of atoms of each element in a molecule of the compound. Examples include SF
+                          <sub>6</sub>, sulfur hexafluoride, and N
+                          <sub>2</sub>O
+                          <sub>4</sub>, dinitrogen tetroxide. Acids are an important class of compounds containing hydrogen and having special nomenclature rules. Binary acids are named using the prefix
+                          <em data-effect="italics">hydro-</em>, changing the –
+                          <em data-effect="italics">ide</em> suffix to –
+                          <em data-effect="italics">ic</em>, and adding “acid;” HCl is hydrochloric acid. Oxyacids are named by changing the ending of the anion (–
+                          <em data-effect="italics">ate</em> to –
+                          <em data-effect="italics">ic</em> and –
+                          <em data-effect="italics">ite</em> to –
+                          <em data-effect="italics">ous</em>), and adding “acid;” H
+                          <sub>2</sub>CO
+                          <sub>3</sub> is carbonic acid.
+                        </p>
+                      </section>
+                    </div>
+                  </div>
+                  

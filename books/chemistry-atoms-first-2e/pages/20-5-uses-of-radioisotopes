@@ -1,0 +1,823 @@
+
+                    <div
+                      data-cnxml-to-html-ver="[redacted for uniqueness]"
+                      data-type="page"
+                      id="15be4435-4470-4cb9-b6ce-fdb871aba9f1"
+                    >
+                      <div data-type="abstract" id="[redacted for uniqueness]">
+                        By the end of this section, you will be able to:
+                        <ul>
+                          <li>List common applications of radioactive isotopes</li>
+                        </ul>
+                      </div>
+
+                      <p id="fs-idp54341648">
+                        Radioactive isotopes have the same chemical properties as stable isotopes of the same element, but they emit radiation, which can be detected. If we replace one (or more) atom(s) with radioisotope(s) in a compound, we can track them by monitoring their radioactive emissions. This type of compound is called a
+                        <span
+                          data-type="term"
+                          group-by="r"
+                          id="[redacted for uniqueness]"
+                        >radioactive tracer</span> (or
+                        <span
+                          data-type="term"
+                          group-by="r"
+                          id="[redacted for uniqueness]"
+                        >radioactive label</span>). Radioisotopes are used to follow the paths of biochemical reactions or to determine how a substance is distributed within an organism. Radioactive tracers are also used in many medical applications, including both diagnosis and treatment. They are used to measure engine wear, analyze the geological formation around oil wells, and much more.
+                      </p>
+
+                      <p id="fs-idp247341312">
+                        Radioisotopes have revolutionized medical practice (see
+                        <a
+                          class="target-chapter"
+                          href="m-half-lives-for-several-radioactive-isotopes"
+                        >Appendix M</a>
+), where they are used extensively. Over 10 million nuclear medicine procedures and more than 100 million nuclear medicine tests are performed annually in the United States. Four typical examples of radioactive tracers used in medicine are technetium-99
+                        <math
+                          display="inline"
+                        >
+                          <semantics>
+                            <mrow>
+                              <mrow>
+                                <mo stretchy="false">(</mo>
+                                <msubsup>
+                                  <mrow/>
+                                  <mn>43</mn>
+                                  <mn>99</mn>
+                                </msubsup>
+                                <mtext>Tc</mtext>
+                                <mo stretchy="false">)</mo>
+                              </mrow>
+                            </mrow>
+                            <annotation-xml encoding="MathML-Content">
+                              <mrow>
+                                <mo stretchy="false">(</mo>
+                                <msubsup>
+                                  <mrow/>
+                                  <mn>43</mn>
+                                  <mn>99</mn>
+                                </msubsup>
+                                <mtext>Tc</mtext>
+                                <mo stretchy="false">)</mo>
+                              </mrow>
+                            </annotation-xml>
+                          </semantics>
+                        </math>
+, thallium-201
+                        <math display="inline">
+                          <semantics>
+                            <mrow>
+                              <mrow>
+                                <mo stretchy="false">(</mo>
+                                <msubsup>
+                                  <mrow/>
+                                  <mrow>
+                                    <mspace width="0.5em"/>
+                                    <mn>81</mn>
+                                  </mrow>
+                                  <mn>201</mn>
+                                </msubsup>
+                                <mtext>Tl</mtext>
+                                <mo stretchy="false">)</mo>
+                              </mrow>
+                            </mrow>
+                            <annotation-xml encoding="MathML-Content">
+                              <mrow>
+                                <mo stretchy="false">(</mo>
+                                <msubsup>
+                                  <mrow/>
+                                  <mrow>
+                                    <mspace width="0.5em"/>
+                                    <mn>81</mn>
+                                  </mrow>
+                                  <mn>201</mn>
+                                </msubsup>
+                                <mtext>Tl</mtext>
+                                <mo stretchy="false">)</mo>
+                              </mrow>
+                            </annotation-xml>
+                          </semantics>
+                        </math>
+, iodine-131
+                        <math display="inline">
+                          <semantics>
+                            <mrow>
+                              <mrow>
+                                <mo stretchy="false">(</mo>
+                                <msubsup>
+                                  <mrow/>
+                                  <mrow>
+                                    <mspace width="0.5em"/>
+                                    <mn>53</mn>
+                                  </mrow>
+                                  <mn>131</mn>
+                                </msubsup>
+                                <mtext>I</mtext>
+                                <mo stretchy="false">)</mo>
+                              </mrow>
+                            </mrow>
+                            <annotation-xml encoding="MathML-Content">
+                              <mrow>
+                                <mo stretchy="false">(</mo>
+                                <msubsup>
+                                  <mrow/>
+                                  <mrow>
+                                    <mspace width="0.5em"/>
+                                    <mn>53</mn>
+                                  </mrow>
+                                  <mn>131</mn>
+                                </msubsup>
+                                <mtext>I</mtext>
+                                <mo stretchy="false">)</mo>
+                              </mrow>
+                            </annotation-xml>
+                          </semantics>
+                        </math>
+, and sodium-24
+                        <math display="inline">
+                          <semantics>
+                            <mrow>
+                              <mrow>
+                                <mo stretchy="false">(</mo>
+                                <msubsup>
+                                  <mrow/>
+                                  <mn>11</mn>
+                                  <mn>24</mn>
+                                </msubsup>
+                                <mtext>Na</mtext>
+                                <mo stretchy="false">)</mo>
+                              </mrow>
+                            </mrow>
+                            <annotation-xml encoding="MathML-Content">
+                              <mrow>
+                                <mo stretchy="false">(</mo>
+                                <msubsup>
+                                  <mrow/>
+                                  <mn>11</mn>
+                                  <mn>24</mn>
+                                </msubsup>
+                                <mtext>Na</mtext>
+                                <mo stretchy="false">)</mo>
+                              </mrow>
+                            </annotation-xml>
+                          </semantics>
+                        </math>
+                        . Damaged tissues in the heart, liver, and lungs absorb certain compounds of technetium-99 preferentially. After it is injected, the location of the technetium compound, and hence the damaged tissue, can be determined by detecting the γ rays emitted by the Tc-99 isotope. Thallium-201 (
+                        <a
+                          class="autogenerated-content"
+                          href="#CNX_Chem_21_05_Thallium"
+                        >Figure 20.24</a>) becomes concentrated in healthy heart tissue, so the two isotopes, Tc-99 and Tl-201, are used together to study heart tissue. Iodine-131 concentrates in the thyroid gland, the liver, and some parts of the brain. It can therefore be used to monitor goiter and treat thyroid conditions, such as Grave’s disease, as well as liver and brain tumors. Salt solutions containing compounds of sodium-24 are injected into the bloodstream to help locate obstructions to the flow of blood.
+                      </p>
+                      <div class="os-figure" id="CNX_Chem_21_05_Thallium">
+                        <figure data-id="CNX_Chem_21_05_Thallium">
+                          <span
+                            class="scaled-down"
+                            data-alt="A photo is shown of two men, one walking on a treadmill with various wires connected to his torso region, and the other collecting blood pressure data from the first man."
+                            data-type="media"
+                            id="fs-idp42838624"
+                          >
+                            <img
+                              alt="A photo is shown of two men, one walking on a treadmill with various wires connected to his torso region, and the other collecting blood pressure data from the first man."
+                              data-media-type="image/jpeg"
+                              id="[redacted for uniqueness]"
+                              src="/resources/ade278d6572c8cd406164d119bdebf240068c822"
+                            >
+                          </span>
+                        </figure>
+                        <div class="os-caption-container">
+                          <span class="os-title-label">Figure</span>
+                          <span class="os-number">20.24</span>
+                          <span class="os-divider"></span>
+                          <span class="os-divider"></span>
+                          <span
+                            class="os-caption"
+                          >Administering thallium-201 to a patient and subsequently performing a stress test offer medical professionals an opportunity to visually analyze heart function and blood flow. (credit: modification of work by “Blue0ctane”/Wikimedia Commons)</span>
+                        </div>
+                      </div>
+
+                      <p id="fs-idp117263328">
+                        Radioisotopes used in medicine typically have short half-lives—for example, the ubiquitous Tc-99m has a half-life of 6.01 hours. This makes Tc-99m essentially impossible to store and prohibitively expensive to transport, so it is made on-site instead. Hospitals and other medical facilities use Mo-99 (which is primarily extracted from U-235 fission products) to generate Tc-99. Mo-99 undergoes β decay with a half-life of 66 hours, and the Tc-99 is then chemically extracted (
+                        <a
+                          class="autogenerated-content"
+                          href="#CNX_Chem_21_05_Tc-99"
+                        >Figure 20.25</a>). The parent nuclide Mo-99 is part of a molybdate ion,
+                        <math display="inline">
+                          <semantics>
+                            <mrow>
+                              <mrow>
+                                <msub>
+                                  <mrow>
+                                    <mtext>MoO</mtext>
+                                  </mrow>
+                                  <mn>4</mn>
+                                </msub>
+                                <msup>
+                                  <mrow/>
+                                  <mrow>
+                                    <mn>2−</mn>
+                                  </mrow>
+                                </msup>
+                                <mo>;</mo>
+                              </mrow>
+                            </mrow>
+                            <annotation-xml encoding="MathML-Content">
+                              <mrow>
+                                <msub>
+                                  <mrow>
+                                    <mtext>MoO</mtext>
+                                  </mrow>
+                                  <mn>4</mn>
+                                </msub>
+                                <msup>
+                                  <mrow/>
+                                  <mrow>
+                                    <mn>2−</mn>
+                                  </mrow>
+                                </msup>
+                                <mo>;</mo>
+                              </mrow>
+                            </annotation-xml>
+                          </semantics>
+                        </math> when it decays, it forms the pertechnetate ion,
+                        <math display="inline">
+                          <semantics>
+                            <mrow>
+                              <mrow>
+                                <msub>
+                                  <mrow>
+                                    <mtext>TcO</mtext>
+                                  </mrow>
+                                  <mn>4</mn>
+                                </msub>
+                                <msup>
+                                  <mrow/>
+                                  <mtext>−</mtext>
+                                </msup>
+                                <mo>.</mo>
+                              </mrow>
+                            </mrow>
+                            <annotation-xml encoding="MathML-Content">
+                              <mrow>
+                                <msub>
+                                  <mrow>
+                                    <mtext>TcO</mtext>
+                                  </mrow>
+                                  <mn>4</mn>
+                                </msub>
+                                <msup>
+                                  <mrow/>
+                                  <mtext>−</mtext>
+                                </msup>
+                                <mo>.</mo>
+                              </mrow>
+                            </annotation-xml>
+                          </semantics>
+                        </math> These two water-soluble ions are separated by column chromatography, with the higher charge molybdate ion adsorbing onto the alumina in the column, and the lower charge pertechnetate ion passing through the column in the solution. A few micrograms of Mo-99 can produce enough Tc-99 to perform as many as 10,000 tests.
+                      </p>
+
+                      <div class="os-figure" id="CNX_Chem_21_05_Tc-99">
+                        <figure
+                          class="scaled-down"
+                          data-id="CNX_Chem_21_05_Tc-99"
+                        >
+                          <span
+                            data-alt="A photograph and a microscopic image are shown and labeled “a” and “b.” Photo a shows a person’s hand holding a graduated cylinder that contains a clear, colorless liquid and tilting the cylinder to pour it into a vertical, cylindrical glass tube. The tube has many separate glass components and is held in place by a test tube clamp. Image b shows a multitude of tiny, red dots on a black background. The dots are collected in four regions and dispersed elsewhere."
+                            data-type="media"
+                            id="fs-idp19157312"
+                          >
+                            <img
+                              alt="A photograph and a microscopic image are shown and labeled “a” and “b.” Photo a shows a person’s hand holding a graduated cylinder that contains a clear, colorless liquid and tilting the cylinder to pour it into a vertical, cylindrical glass tube. The tube has many separate glass components and is held in place by a test tube clamp. Image b shows a multitude of tiny, red dots on a black background. The dots are collected in four regions and dispersed elsewhere."
+                              data-media-type="image/jpeg"
+                              id="[redacted for uniqueness]"
+                              src="/resources/5ae872bf2bc8b43dd4791c4907ead144c8d00916"
+                            >
+                          </span>
+                        </figure>
+                        <div class="os-caption-container">
+                          <span class="os-title-label">Figure</span>
+                          <span class="os-number">20.25</span>
+                          <span class="os-divider"></span>
+                          <span class="os-divider"></span>
+                          <span class="os-caption">
+                            (a) The first Tc-99m generator (circa 1958) is used to separate Tc-99 from Mo-99. The
+                            <math display="inline">
+                              <semantics>
+                                <mrow>
+                                  <mrow>
+                                    <msub>
+                                      <mrow>
+                                        <mtext>MoO</mtext>
+                                      </mrow>
+                                      <mn>4</mn>
+                                    </msub>
+                                    <msup>
+                                      <mrow/>
+                                      <mrow>
+                                        <mn>2−</mn>
+                                      </mrow>
+                                    </msup>
+                                  </mrow>
+                                </mrow>
+                                <annotation-xml encoding="MathML-Content">
+                                  <mrow>
+                                    <msub>
+                                      <mrow>
+                                        <mtext>MoO</mtext>
+                                      </mrow>
+                                      <mn>4</mn>
+                                    </msub>
+                                    <msup>
+                                      <mrow/>
+                                      <mrow>
+                                        <mn>2−</mn>
+                                      </mrow>
+                                    </msup>
+                                  </mrow>
+                                </annotation-xml>
+                              </semantics>
+                            </math> is retained by the matrix in the column, whereas the
+                            <math display="inline">
+                              <semantics>
+                                <mrow>
+                                  <mrow>
+                                    <msub>
+                                      <mrow>
+                                        <mtext>TcO</mtext>
+                                      </mrow>
+                                      <mn>4</mn>
+                                    </msub>
+                                    <msup>
+                                      <mrow/>
+                                      <mtext>−</mtext>
+                                    </msup>
+                                  </mrow>
+                                </mrow>
+                                <annotation-xml encoding="MathML-Content">
+                                  <mrow>
+                                    <msub>
+                                      <mrow>
+                                        <mtext>TcO</mtext>
+                                      </mrow>
+                                      <mn>4</mn>
+                                    </msub>
+                                    <msup>
+                                      <mrow/>
+                                      <mtext>−</mtext>
+                                    </msup>
+                                  </mrow>
+                                </annotation-xml>
+                              </semantics>
+                            </math> passes through and is collected. (b) Tc-99 was used in this scan of the neck of a patient with Grave’s disease. The scan shows the location of high concentrations of Tc-99. (credit a: modification of work by the Department of Energy; credit b: modification of work by “MBq”/Wikimedia Commons)
+                          </span>
+                        </div>
+                      </div>
+
+                      <p id="fs-idp240963344">
+                        Radioisotopes can also be used, typically in higher doses than as a tracer, as treatment.
+                        <span
+                          data-type="term"
+                          group-by="R"
+                          id="[redacted for uniqueness]"
+                        >Radiation therapy</span> is the use of high-energy radiation to damage the DNA of cancer cells, which kills them or keeps them from dividing (
+                        <a
+                          class="autogenerated-content"
+                          href="#CNX_Chem_21_05_RadTherapy"
+                        >Figure 20.26</a>). A cancer patient may receive
+                        <span
+                          data-type="term"
+                          group-by="e"
+                          id="[redacted for uniqueness]"
+                        >external beam radiation therapy</span> delivered by a machine outside the body, or
+                        <span
+                          data-type="term"
+                          group-by="i"
+                          id="[redacted for uniqueness]"
+                        >internal radiation therapy (brachytherapy)</span> from a radioactive substance that has been introduced into the body. Note that
+                        <span
+                          data-type="term"
+                          group-by="c"
+                          id="[redacted for uniqueness]"
+                        >chemotherapy</span> is similar to internal radiation therapy in that the cancer treatment is injected into the body, but differs in that chemotherapy uses chemical rather than radioactive substances to kill the cancer cells.
+                      </p>
+
+                      <div class="os-figure" id="CNX_Chem_21_05_RadTherapy">
+                        <figure
+                          class="scaled-down"
+                          data-id="CNX_Chem_21_05_RadTherapy"
+                        >
+                          <span
+                            data-alt="Two diagrams are shown and labeled “a” and “b.” Diagram a shows a woman lying on a horizontal table with is being inserted into a dome-shaped machine. Diagram b shows a closer view of the woman’s head and upper torso in the machine. A series of beams, labeled “Gamma rays,” are shown to exit from slits in the edges of the machine, labeled “Radioactive cobalt,” and to penetrate her head, which is labeled “Target.”"
+                            data-type="media"
+                            id="fs-idp151344384"
+                          >
+                            <img
+                              alt="Two diagrams are shown and labeled “a” and “b.” Diagram a shows a woman lying on a horizontal table with is being inserted into a dome-shaped machine. Diagram b shows a closer view of the woman’s head and upper torso in the machine. A series of beams, labeled “Gamma rays,” are shown to exit from slits in the edges of the machine, labeled “Radioactive cobalt,” and to penetrate her head, which is labeled “Target.”"
+                              data-media-type="image/jpeg"
+                              id="[redacted for uniqueness]"
+                              src="/resources/54f161e8b56f182b95e631b7bf62b025dbb366e4"
+                            >
+                          </span>
+                        </figure>
+                        <div class="os-caption-container">
+                          <span class="os-title-label">Figure</span>
+                          <span class="os-number">20.26</span>
+                          <span class="os-divider"></span>
+                          <span class="os-divider"></span>
+                          <span
+                            class="os-caption"
+                          >The cartoon in (a) shows a cobalt-60 machine used in the treatment of cancer. The diagram in (b) shows how the gantry of the Co-60 machine swings through an arc, focusing radiation on the targeted region (tumor) and minimizing the amount of radiation that passes through nearby regions.</span>
+                        </div>
+                      </div>
+
+                      <p
+                        id="fs-idp202530192"
+                      >Cobalt-60 is a synthetic radioisotope produced by the neutron activation of Co-59, which then undergoes β decay to form Ni-60, along with the emission of γ radiation. The overall process is:</p>
+
+                      <div data-type="equation" id="fs-idp40314416">
+                        <math display="block">
+                          <semantics>
+                            <mrow>
+                              <mrow>
+                                <msubsup>
+                                  <mrow/>
+                                  <mn>27</mn>
+                                  <mn>59</mn>
+                                </msubsup>
+
+                                <mtext>Co</mtext>
+                                <mo>+</mo>
+
+                                <msubsup>
+                                  <mrow/>
+                                  <mn>0</mn>
+                                  <mn>1</mn>
+                                </msubsup>
+
+                                <mtext>n</mtext>
+                                <mspace width="0.2em"/>
+                                <mo stretchy="false">⟶</mo>
+                                <mspace width="0.2em"/>
+
+                                <msubsup>
+                                  <mrow/>
+                                  <mn>27</mn>
+                                  <mn>60</mn>
+                                </msubsup>
+
+                                <mtext>Co</mtext>
+                                <mspace width="0.2em"/>
+                                <mo stretchy="false">⟶</mo>
+                                <mspace width="0.2em"/>
+
+                                <msubsup>
+                                  <mrow/>
+                                  <mn>28</mn>
+                                  <mn>60</mn>
+                                </msubsup>
+
+                                <mtext>Ni</mtext>
+                                <mo>+</mo>
+
+                                <msubsup>
+                                  <mrow/>
+                                  <mn>−1</mn>
+                                  <mrow>
+                                    <mn>0</mn>
+                                  </mrow>
+                                </msubsup>
+
+                                <mtext>β</mtext>
+                                <mo>+</mo>
+                                <mn>2</mn>
+
+                                <msubsup>
+                                  <mrow/>
+                                  <mn>0</mn>
+                                  <mn>0</mn>
+                                </msubsup>
+
+                                <mtext>γ</mtext>
+                              </mrow>
+                            </mrow>
+                            <annotation-xml encoding="MathML-Content">
+                              <mrow>
+                                <msubsup>
+                                  <mrow/>
+                                  <mn>27</mn>
+                                  <mn>59</mn>
+                                </msubsup>
+
+                                <mtext>Co</mtext>
+                                <mo>+</mo>
+
+                                <msubsup>
+                                  <mrow/>
+                                  <mn>0</mn>
+                                  <mn>1</mn>
+                                </msubsup>
+
+                                <mtext>n</mtext>
+                                <mspace width="0.2em"/>
+                                <mo stretchy="false">⟶</mo>
+                                <mspace width="0.2em"/>
+
+                                <msubsup>
+                                  <mrow/>
+                                  <mn>27</mn>
+                                  <mn>60</mn>
+                                </msubsup>
+
+                                <mtext>Co</mtext>
+                                <mspace width="0.2em"/>
+                                <mo stretchy="false">⟶</mo>
+                                <mspace width="0.2em"/>
+
+                                <msubsup>
+                                  <mrow/>
+                                  <mn>28</mn>
+                                  <mn>60</mn>
+                                </msubsup>
+
+                                <mtext>Ni</mtext>
+                                <mo>+</mo>
+
+                                <msubsup>
+                                  <mrow/>
+                                  <mn>−1</mn>
+                                  <mrow>
+                                    <mn>0</mn>
+                                  </mrow>
+                                </msubsup>
+
+                                <mtext>β</mtext>
+                                <mo>+</mo>
+                                <mn>2</mn>
+
+                                <msubsup>
+                                  <mrow/>
+                                  <mn>0</mn>
+                                  <mn>0</mn>
+                                </msubsup>
+
+                                <mtext>γ</mtext>
+                              </mrow>
+                            </annotation-xml>
+                          </semantics>
+                        </math>
+                      </div>
+
+                      <p id="fs-idp130664688">
+                        The overall decay scheme for this is shown graphically in
+                        <a
+                          class="autogenerated-content"
+                          href="#CNX_Chem_21_05_Co60Decay"
+                        >Figure 20.27</a>.
+                      </p>
+
+                      <div class="os-figure" id="CNX_Chem_21_05_Co60Decay">
+                        <figure data-id="CNX_Chem_21_05_Co60Decay">
+                          <span
+                            data-alt="A chart shows a horizontal line in the upper left corner labeled “superscript 60 subscript 27 C o” and “5.272 a” with two arrows facing right and downward leading from it. These arrows are labeled “1.48 M e v beta 0.12 percent sign” and “0.31 M e v beta 99.88 percent sign.” The upper of the two arrows points to a horizontal line and the lower arrow points to a second horizontal line. A downward facing arrow lies in between these two horizontal lines and is labeled “1.1732 M e V gamma.” A fourth horizontal line lies at the bottom of the diagram below the second and third lines. A downward facing arrow lies in between it and the third horizontal line. It is labeled “1.3325 M e V gamma.” Below the last horizontal line is the label “superscript 60 subscript 28 N i.”"
+                            data-type="media"
+                            id="fs-idp82360800"
+                          >
+                            <img
+                              alt="A chart shows a horizontal line in the upper left corner labeled “superscript 60 subscript 27 C o” and “5.272 a” with two arrows facing right and downward leading from it. These arrows are labeled “1.48 M e v beta 0.12 percent sign” and “0.31 M e v beta 99.88 percent sign.” The upper of the two arrows points to a horizontal line and the lower arrow points to a second horizontal line. A downward facing arrow lies in between these two horizontal lines and is labeled “1.1732 M e V gamma.” A fourth horizontal line lies at the bottom of the diagram below the second and third lines. A downward facing arrow lies in between it and the third horizontal line. It is labeled “1.3325 M e V gamma.” Below the last horizontal line is the label “superscript 60 subscript 28 N i.”"
+                              data-media-type="image/jpeg"
+                              id="[redacted for uniqueness]"
+                              src="/resources/3ae6e7dc0080a5091978556b70c4f08f2a181da8"
+                            >
+                          </span>
+                        </figure>
+                        <div class="os-caption-container">
+                          <span class="os-title-label">Figure</span>
+                          <span class="os-number">20.27</span>
+                          <span class="os-divider"></span>
+                          <span class="os-divider"></span>
+                          <span
+                            class="os-caption"
+                          >Co-60 undergoes a series of radioactive decays. The γ emissions are used for radiation therapy.</span>
+                        </div>
+                      </div>
+
+                      <p
+                        id="fs-idp115972800"
+                      >Radioisotopes are used in diverse ways to study the mechanisms of chemical reactions in plants and animals. These include labeling fertilizers in studies of nutrient uptake by plants and crop growth, investigations of digestive and milk-producing processes in cows, and studies on the growth and metabolism of animals and plants.</p>
+
+                      <p
+                        id="fs-idm4363456"
+                      >For example, the radioisotope C-14 was used to elucidate the details of how photosynthesis occurs. The overall reaction is:</p>
+
+                      <div data-type="equation" id="fs-idp161500800">
+                        <math display="block">
+                          <semantics>
+                            <mrow>
+                              <mrow>
+                                <msub>
+                                  <mrow>
+                                    <mtext>6CO</mtext>
+                                  </mrow>
+                                  <mn>2</mn>
+                                </msub>
+                                <mo stretchy="false">(</mo>
+                                <mi>g</mi>
+                                <mo stretchy="false">)</mo>
+                                <mo>+</mo>
+                                <msub>
+                                  <mtext>6H</mtext>
+                                  <mn>2</mn>
+                                </msub>
+                                <mtext>O</mtext>
+                                <mo stretchy="false">(</mo>
+                                <mi>l</mi>
+                                <mo stretchy="false">)</mo>
+                                <mspace width="0.2em"/>
+                                <mo stretchy="false">⟶</mo>
+                                <mspace width="0.2em"/>
+                                <msub>
+                                  <mtext>C</mtext>
+                                  <mn>6</mn>
+                                </msub>
+                                <msub>
+                                  <mtext>H</mtext>
+                                  <mrow>
+                                    <mn>12</mn>
+                                  </mrow>
+                                </msub>
+                                <msub>
+                                  <mtext>O</mtext>
+                                  <mn>6</mn>
+                                </msub>
+                                <mo stretchy="false">(</mo>
+                                <mi>s</mi>
+                                <mo stretchy="false">)</mo>
+                                <mo>+</mo>
+                                <msub>
+                                  <mtext>6O</mtext>
+                                  <mn>2</mn>
+                                </msub>
+                                <mo stretchy="false">(</mo>
+                                <mi>g</mi>
+                                <mo stretchy="false">)</mo>
+                                <mo>,</mo>
+                              </mrow>
+                            </mrow>
+                            <annotation-xml encoding="MathML-Content">
+                              <mrow>
+                                <msub>
+                                  <mrow>
+                                    <mtext>6CO</mtext>
+                                  </mrow>
+                                  <mn>2</mn>
+                                </msub>
+                                <mo stretchy="false">(</mo>
+                                <mi>g</mi>
+                                <mo stretchy="false">)</mo>
+                                <mo>+</mo>
+                                <msub>
+                                  <mtext>6H</mtext>
+                                  <mn>2</mn>
+                                </msub>
+                                <mtext>O</mtext>
+                                <mo stretchy="false">(</mo>
+                                <mi>l</mi>
+                                <mo stretchy="false">)</mo>
+                                <mspace width="0.2em"/>
+                                <mo stretchy="false">⟶</mo>
+                                <mspace width="0.2em"/>
+                                <msub>
+                                  <mtext>C</mtext>
+                                  <mn>6</mn>
+                                </msub>
+                                <msub>
+                                  <mtext>H</mtext>
+                                  <mrow>
+                                    <mn>12</mn>
+                                  </mrow>
+                                </msub>
+                                <msub>
+                                  <mtext>O</mtext>
+                                  <mn>6</mn>
+                                </msub>
+                                <mo stretchy="false">(</mo>
+                                <mi>s</mi>
+                                <mo stretchy="false">)</mo>
+                                <mo>+</mo>
+                                <msub>
+                                  <mtext>6O</mtext>
+                                  <mn>2</mn>
+                                </msub>
+                                <mo stretchy="false">(</mo>
+                                <mi>g</mi>
+                                <mo stretchy="false">)</mo>
+                                <mo>,</mo>
+                              </mrow>
+                            </annotation-xml>
+                          </semantics>
+                        </math>
+                      </div>
+
+                      <p id="fs-idp103955008">
+                        but the process is much more complex, proceeding through a series of steps in which various organic compounds are produced. In studies of the pathway of this reaction, plants were exposed to CO
+                        <sub>2</sub> containing a high concentration of
+                        <math display="inline">
+                          <semantics>
+                            <mrow>
+                              <mrow>
+                                <msubsup>
+                                  <mrow/>
+                                  <mrow>
+                                    <mspace width="0.5em"/>
+                                    <mn>6</mn>
+                                  </mrow>
+                                  <mn>14</mn>
+                                </msubsup>
+                                <mtext>C</mtext>
+                              </mrow>
+                            </mrow>
+                            <annotation-xml encoding="MathML-Content">
+                              <mrow>
+                                <msubsup>
+                                  <mrow/>
+                                  <mrow>
+                                    <mspace width="0.5em"/>
+                                    <mn>6</mn>
+                                  </mrow>
+                                  <mn>14</mn>
+                                </msubsup>
+                                <mtext>C</mtext>
+                              </mrow>
+                            </annotation-xml>
+                          </semantics>
+                        </math>. At regular intervals, the plants were analyzed to determine which organic compounds contained carbon-14 and how much of each compound was present. From the time sequence in which the compounds appeared and the amount of each present at given time intervals, scientists learned more about the pathway of the reaction.
+                      </p>
+
+                      <p id="fs-idp7560688">
+                        Commercial applications of radioactive materials are equally diverse (
+                        <a
+                          class="autogenerated-content"
+                          href="#CNX_Chem_21_05_UsesOfRad"
+                        >Figure 20.28</a>). They include determining the thickness of films and thin metal sheets by exploiting the penetration power of various types of radiation. Flaws in metals used for structural purposes can be detected using high-energy gamma rays from cobalt-60 in a fashion similar to the way X-rays are used to examine the human body. In one form of pest control, flies are controlled by sterilizing male flies with γ radiation so that females breeding with them do not produce offspring. Many foods are preserved by radiation that kills microorganisms that cause the foods to spoil.
+                      </p>
+
+                      <div class="os-figure" id="CNX_Chem_21_05_UsesOfRad">
+                        <figure data-id="CNX_Chem_21_05_UsesOfRad">
+                          <span
+                            data-alt="Two photographs are shown and labeled “a” and “b.” Photo a shows a man looking at a lighted image on the wall. Photo b shows strawberries on a conveyor belt dropping into a series of collection chambers."
+                            data-type="media"
+                            id="fs-idp105478400"
+                          >
+                            <img
+                              alt="Two photographs are shown and labeled “a” and “b.” Photo a shows a man looking at a lighted image on the wall. Photo b shows strawberries on a conveyor belt dropping into a series of collection chambers."
+                              data-media-type="image/jpeg"
+                              id="[redacted for uniqueness]"
+                              src="/resources/fabbc467af869f39f60b6c858417ed9fc4429a70"
+                            >
+                          </span>
+                        </figure>
+                        <div class="os-caption-container">
+                          <span class="os-title-label">Figure</span>
+                          <span class="os-number">20.28</span>
+                          <span class="os-divider"></span>
+                          <span class="os-divider"></span>
+                          <span
+                            class="os-caption"
+                          >Common commercial uses of radiation include (a) X-ray examination of luggage at an airport and (b) preservation of food. (credit a: modification of work by the Department of the Navy; credit b: modification of work by the US Department of Agriculture)</span>
+                        </div>
+                      </div>
+
+                      <p id="fs-idp105479248">
+                        Americium-241, an α emitter with a half-life of 458 years, is used in tiny amounts in ionization-type smoke detectors (
+                        <a
+                          class="autogenerated-content"
+                          href="#CNX_Chem_21_05_SmokeAlarm"
+                        >Figure 20.29</a>). The α emissions from Am-241 ionize the air between two electrode plates in the ionizing chamber. A battery supplies a potential that causes movement of the ions, thus creating a small electric current. When smoke enters the chamber, the movement of the ions is impeded, reducing the conductivity of the air. This causes a marked drop in the current, triggering an alarm.
+                      </p>
+
+                      <div class="os-figure" id="CNX_Chem_21_05_SmokeAlarm">
+                        <figure data-id="CNX_Chem_21_05_SmokeAlarm">
+                          <span
+                            data-alt="A photograph and a diagram are shown. The photograph shows the interior of a smoke detector. A circular piece of plastic in the lower section of the detector is labeled “Alarm” while a metal disk in the top left of the photo is labeled “Ionization chamber.” A battery is on the top right of the detector. The diagram shows an expanded view of the ionization chamber. Inside of the cylindrical casing are two horizontal, circular plates labeled “Metal plates”; the top is labeled with a positive sign and the bottom with a negative sign. Wires are shown connected to the plates and the terminals of a battery on the exterior of the chamber. A disk in the bottom of the chamber is labeled “Americium source” and four arrows, labeled “Alpha particles,” face vertically from this disk, through a hole in the negative plate, and into the upper space of the chamber. Two molecules, with positive signs, made up of two blue spheres and two molecules, with positive signs, made up of two red spheres are in this space, as well as two yellow spheres labeled with negative signs and arrows facing downward. Eleven white dots surround two of the molecules on the right of the image and are labeled “smoke particles. Above the left side of the image is the phrase “No smoke, charged particles complete the circuit” while a phrase above the right side of the image states “Smoke uncharges the particles, circuit is broken, alarm is triggered.”"
+                            data-type="media"
+                            id="fs-idp22507536"
+                          >
+                            <img
+                              alt="A photograph and a diagram are shown. The photograph shows the interior of a smoke detector. A circular piece of plastic in the lower section of the detector is labeled “Alarm” while a metal disk in the top left of the photo is labeled “Ionization chamber.” A battery is on the top right of the detector. The diagram shows an expanded view of the ionization chamber. Inside of the cylindrical casing are two horizontal, circular plates labeled “Metal plates”; the top is labeled with a positive sign and the bottom with a negative sign. Wires are shown connected to the plates and the terminals of a battery on the exterior of the chamber. A disk in the bottom of the chamber is labeled “Americium source” and four arrows, labeled “Alpha particles,” face vertically from this disk, through a hole in the negative plate, and into the upper space of the chamber. Two molecules, with positive signs, made up of two blue spheres and two molecules, with positive signs, made up of two red spheres are in this space, as well as two yellow spheres labeled with negative signs and arrows facing downward. Eleven white dots surround two of the molecules on the right of the image and are labeled “smoke particles. Above the left side of the image is the phrase “No smoke, charged particles complete the circuit” while a phrase above the right side of the image states “Smoke uncharges the particles, circuit is broken, alarm is triggered.”"
+                              data-media-type="image/jpeg"
+                              id="[redacted for uniqueness]"
+                              src="/resources/ff66865b4fb3a98acf88be54f28d176b9fb4e18e"
+                            >
+                          </span>
+                        </figure>
+                        <div class="os-caption-container">
+                          <span class="os-title-label">Figure</span>
+                          <span class="os-number">20.29</span>
+                          <span class="os-divider"></span>
+                          <span class="os-divider"></span>
+                          <span
+                            class="os-caption"
+                          >Inside a smoke detector, Am-241 emits α particles that ionize the air, creating a small electric current. During a fire, smoke particles impede the flow of ions, reducing the current and triggering an alarm. (credit a: modification of work by “Muffet”/Wikimedia Commons)</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  

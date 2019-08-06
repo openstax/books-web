@@ -1,0 +1,6 @@
+{
+  "name": "create-test-plan-configs",
+  "dependencies": {
+    "node-fetch": "^2.3.0"
+  }
+}

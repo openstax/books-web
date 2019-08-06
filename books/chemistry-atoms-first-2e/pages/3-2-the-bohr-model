@@ -1,0 +1,1879 @@
+
+                    <div
+                      data-cnxml-to-html-ver="[redacted for uniqueness]"
+                      data-type="page"
+                      id="7af45a79-c893-4289-9ecb-13be48b76983"
+                    >
+                      <div data-type="abstract" id="[redacted for uniqueness]">
+                        By the end of this section, you will be able to:
+                        <ul>
+                          <li>Describe the Bohr model of the hydrogen atom</li>
+                          <li>Use the Rydberg equation to calculate energies of light emitted or absorbed by hydrogen atoms</li>
+                        </ul>
+                      </div>
+
+                      <p id="fs-idp245260368">
+                        Following the work of Ernest
+                        <span
+                          class="no-emphasis"
+                          data-type="term"
+                          group-by="R"
+                          id="[redacted for uniqueness]"
+                        >Rutherford</span> and his colleagues in the early twentieth century, the picture of atoms consisting of tiny dense nuclei surrounded by lighter and even tinier electrons continually moving about the nucleus was well established. This picture was called the planetary model, since it pictured the atom as a miniature “solar system” with the electrons orbiting the nucleus like planets orbiting the sun. The simplest atom is hydrogen, consisting of a single proton as the nucleus about which a single electron moves. The electrostatic force attracting the electron to the proton depends only on the distance between the two particles. This classical mechanics description of the atom is incomplete, however, since an electron moving in an elliptical orbit would be accelerating (by changing direction) and, according to classical electromagnetism, it should continuously emit electromagnetic radiation. This loss in orbital energy should result in the electron’s orbit getting continually smaller until it spirals into the nucleus, implying that atoms are inherently unstable.
+                      </p>
+
+                      <p id="fs-idp150495696">
+                        In 1913, Niels
+                        <span
+                          class="no-emphasis"
+                          data-type="term"
+                          group-by="B"
+                          id="[redacted for uniqueness]"
+                        >Bohr</span> attempted to resolve the atomic paradox by ignoring classical electromagnetism’s prediction that the orbiting electron in hydrogen would continuously emit light. Instead, he incorporated into the classical mechanics description of the atom Planck’s ideas of quantization and Einstein’s finding that light consists of photons whose energy is proportional to their frequency. Bohr assumed that the electron orbiting the nucleus would not normally emit any radiation (the stationary state hypothesis), but it would emit or absorb a photon if it moved to a different orbit. The energy absorbed or emitted would reflect differences in the orbital energies according to this equation:
+                      </p>
+
+                      <div data-type="equation" id="fs-idp16889056">
+                        <math display="block">
+                          <semantics>
+                            <mrow>
+                              <mrow>
+                                <mrow>
+                                  <mo stretchy="false">∣</mo>
+                                  <mrow>
+                                    <mtext>Δ</mtext>
+                                    <mi>E</mi>
+                                  </mrow>
+                                  <mo stretchy="false">∣</mo>
+                                </mrow>
+                                <mo>=</mo>
+                                <mrow>
+                                  <mo stretchy="false">∣</mo>
+                                  <mrow>
+                                    <msub>
+                                      <mi>E</mi>
+                                      <mtext>f</mtext>
+                                    </msub>
+                                    <mo>−</mo>
+                                    <msub>
+                                      <mi>E</mi>
+                                      <mtext>i</mtext>
+                                    </msub>
+                                  </mrow>
+                                  <mo stretchy="false">∣</mo>
+                                </mrow>
+                                <mo>=</mo>
+                                <mi>h</mi>
+                                <mi>ν</mi>
+                                <mo>=</mo>
+                                <mspace width="0.2em"/>
+                                <mfrac>
+                                  <mrow>
+                                    <mi>h</mi>
+                                    <mi>c</mi>
+                                  </mrow>
+                                  <mi>λ</mi>
+                                </mfrac>
+                              </mrow>
+                            </mrow>
+                            <annotation-xml encoding="MathML-Content">
+                              <mrow>
+                                <mrow>
+                                  <mo stretchy="false">∣</mo>
+                                  <mrow>
+                                    <mtext>Δ</mtext>
+                                    <mi>E</mi>
+                                  </mrow>
+                                  <mo stretchy="false">∣</mo>
+                                </mrow>
+                                <mo>=</mo>
+                                <mrow>
+                                  <mo stretchy="false">∣</mo>
+                                  <mrow>
+                                    <msub>
+                                      <mi>E</mi>
+                                      <mtext>f</mtext>
+                                    </msub>
+                                    <mo>−</mo>
+                                    <msub>
+                                      <mi>E</mi>
+                                      <mtext>i</mtext>
+                                    </msub>
+                                  </mrow>
+                                  <mo stretchy="false">∣</mo>
+                                </mrow>
+                                <mo>=</mo>
+                                <mi>h</mi>
+                                <mi>ν</mi>
+                                <mo>=</mo>
+                                <mspace width="0.2em"/>
+                                <mfrac>
+                                  <mrow>
+                                    <mi>h</mi>
+                                    <mi>c</mi>
+                                  </mrow>
+                                  <mi>λ</mi>
+                                </mfrac>
+                              </mrow>
+                            </annotation-xml>
+                          </semantics>
+                        </math>
+                      </div>
+                      <p id="fs-idp36624368">
+                        In this equation,
+                        <em data-effect="italics">h</em> is Planck’s constant and
+                        <em data-effect="italics">
+                          E
+                          <sub>i</sub>
+                        </em> and
+                        <em data-effect="italics">
+                          E
+                          <sub>f</sub>
+                        </em> are the initial and final orbital energies, respectively. The absolute value of the energy difference is used, since frequencies and wavelengths are always positive. Instead of allowing for continuous values of energy, Bohr assumed the energies of these electron orbitals were quantized:
+                      </p>
+
+                      <div data-type="equation" id="fs-idp5268000">
+                        <math display="block">
+                          <semantics>
+                            <mrow>
+                              <mrow>
+                                <msub>
+                                  <mi>E</mi>
+                                  <mi>n</mi>
+                                </msub>
+                                <mo>=</mo>
+                                <mtext>−</mtext>
+                                <mfrac>
+                                  <mi>k</mi>
+                                  <mrow>
+                                    <msup>
+                                      <mi>n</mi>
+                                      <mn>2</mn>
+                                    </msup>
+                                  </mrow>
+                                </mfrac>
+                                <mspace width="0.2em"/>
+                                <mo>,</mo>
+                                <mspace width="0.2em"/>
+                                <mi>n</mi>
+                                <mo>=</mo>
+                                <mn>1</mn>
+                                <mo>,</mo>
+                                <mspace width="0.2em"/>
+                                <mn>2</mn>
+                                <mo>,</mo>
+                                <mspace width="0.2em"/>
+                                <mn>3</mn>
+                                <mo>,</mo>
+                                <mspace width="0.2em"/>
+                                <mo>…</mo>
+                              </mrow>
+                            </mrow>
+                            <annotation-xml encoding="MathML-Content">
+                              <mrow>
+                                <msub>
+                                  <mi>E</mi>
+                                  <mi>n</mi>
+                                </msub>
+                                <mo>=</mo>
+                                <mtext>−</mtext>
+                                <mfrac>
+                                  <mi>k</mi>
+                                  <mrow>
+                                    <msup>
+                                      <mi>n</mi>
+                                      <mn>2</mn>
+                                    </msup>
+                                  </mrow>
+                                </mfrac>
+                                <mspace width="0.2em"/>
+                                <mo>,</mo>
+                                <mspace width="0.2em"/>
+                                <mi>n</mi>
+                                <mo>=</mo>
+                                <mn>1</mn>
+                                <mo>,</mo>
+                                <mspace width="0.2em"/>
+                                <mn>2</mn>
+                                <mo>,</mo>
+                                <mspace width="0.2em"/>
+                                <mn>3</mn>
+                                <mo>,</mo>
+                                <mspace width="0.2em"/>
+                                <mo>…</mo>
+                              </mrow>
+                            </annotation-xml>
+                          </semantics>
+                        </math>
+                      </div>
+
+                      <p id="fs-idp27649904">
+                        In this expression,
+                        <em data-effect="italics">k</em> is a constant comprising fundamental constants such as the electron mass and charge and Planck’s constant. Inserting the expression for the orbit energies into the equation for Δ
+                        <em data-effect="italics">E</em> gives
+                      </p>
+
+                      <div data-type="equation" id="fs-idp32100960">
+                        <math display="block">
+                          <semantics>
+                            <mrow>
+                              <mrow>
+                                <mtext>Δ</mtext>
+                                <mi>E</mi>
+                                <mo>=</mo>
+                                <mi>k</mi>
+                                <mrow>
+                                  <mo>(</mo>
+                                  <mrow>
+                                    <mspace width="0.2em"/>
+                                    <mfrac>
+                                      <mn>1</mn>
+                                      <mrow>
+                                        <msubsup>
+                                          <mi>n</mi>
+                                          <mn>1</mn>
+                                          <mn>2</mn>
+                                        </msubsup>
+                                      </mrow>
+                                    </mfrac>
+                                    <mspace width="0.2em"/>
+                                    <mo>−</mo>
+                                    <mspace width="0.2em"/>
+                                    <mfrac>
+                                      <mn>1</mn>
+                                      <mrow>
+                                        <msubsup>
+                                          <mi>n</mi>
+                                          <mn>2</mn>
+                                          <mn>2</mn>
+                                        </msubsup>
+                                      </mrow>
+                                    </mfrac>
+                                    <mspace width="0.2em"/>
+                                  </mrow>
+                                  <mo>)</mo>
+                                </mrow>
+                                <mo>=</mo>
+                                <mspace width="0.2em"/>
+                                <mfrac>
+                                  <mrow>
+                                    <mi>h</mi>
+                                    <mi>c</mi>
+                                  </mrow>
+                                  <mi>λ</mi>
+                                </mfrac>
+                              </mrow>
+                            </mrow>
+                            <annotation-xml encoding="MathML-Content">
+                              <mrow>
+                                <mtext>Δ</mtext>
+                                <mi>E</mi>
+                                <mo>=</mo>
+                                <mi>k</mi>
+                                <mrow>
+                                  <mo>(</mo>
+                                  <mrow>
+                                    <mspace width="0.2em"/>
+                                    <mfrac>
+                                      <mn>1</mn>
+                                      <mrow>
+                                        <msubsup>
+                                          <mi>n</mi>
+                                          <mn>1</mn>
+                                          <mn>2</mn>
+                                        </msubsup>
+                                      </mrow>
+                                    </mfrac>
+                                    <mspace width="0.2em"/>
+                                    <mo>−</mo>
+                                    <mspace width="0.2em"/>
+                                    <mfrac>
+                                      <mn>1</mn>
+                                      <mrow>
+                                        <msubsup>
+                                          <mi>n</mi>
+                                          <mn>2</mn>
+                                          <mn>2</mn>
+                                        </msubsup>
+                                      </mrow>
+                                    </mfrac>
+                                    <mspace width="0.2em"/>
+                                  </mrow>
+                                  <mo>)</mo>
+                                </mrow>
+                                <mo>=</mo>
+                                <mspace width="0.2em"/>
+                                <mfrac>
+                                  <mrow>
+                                    <mi>h</mi>
+                                    <mi>c</mi>
+                                  </mrow>
+                                  <mi>λ</mi>
+                                </mfrac>
+                              </mrow>
+                            </annotation-xml>
+                          </semantics>
+                        </math>
+                      </div>
+
+                      <p id="fs-idp83979872">or</p>
+
+                      <div data-type="equation" id="fs-idp54922944">
+                        <math display="block">
+                          <semantics>
+                            <mrow>
+                              <mrow>
+                                <mspace width="0.2em"/>
+                                <mfrac>
+                                  <mn>1</mn>
+                                  <mi>λ</mi>
+                                </mfrac>
+                                <mspace width="0.2em"/>
+                                <mo>=</mo>
+                                <mspace width="0.2em"/>
+                                <mfrac>
+                                  <mi>k</mi>
+                                  <mrow>
+                                    <mi>h</mi>
+                                    <mi>c</mi>
+                                  </mrow>
+                                </mfrac>
+                                <mspace width="0.2em"/>
+                                <mrow>
+                                  <mo>(</mo>
+                                  <mrow>
+                                    <mspace width="0.2em"/>
+                                    <mfrac>
+                                      <mn>1</mn>
+                                      <mrow>
+                                        <msubsup>
+                                          <mi>n</mi>
+                                          <mn>1</mn>
+                                          <mn>2</mn>
+                                        </msubsup>
+                                      </mrow>
+                                    </mfrac>
+                                    <mspace width="0.2em"/>
+                                    <mo>−</mo>
+                                    <mspace width="0.2em"/>
+                                    <mfrac>
+                                      <mn>1</mn>
+                                      <mrow>
+                                        <msubsup>
+                                          <mi>n</mi>
+                                          <mn>2</mn>
+                                          <mn>2</mn>
+                                        </msubsup>
+                                      </mrow>
+                                    </mfrac>
+                                    <mspace width="0.2em"/>
+                                  </mrow>
+                                  <mo>)</mo>
+                                </mrow>
+                              </mrow>
+                            </mrow>
+                            <annotation-xml encoding="MathML-Content">
+                              <mrow>
+                                <mspace width="0.2em"/>
+                                <mfrac>
+                                  <mn>1</mn>
+                                  <mi>λ</mi>
+                                </mfrac>
+                                <mspace width="0.2em"/>
+                                <mo>=</mo>
+                                <mspace width="0.2em"/>
+                                <mfrac>
+                                  <mi>k</mi>
+                                  <mrow>
+                                    <mi>h</mi>
+                                    <mi>c</mi>
+                                  </mrow>
+                                </mfrac>
+                                <mspace width="0.2em"/>
+                                <mrow>
+                                  <mo>(</mo>
+                                  <mrow>
+                                    <mspace width="0.2em"/>
+                                    <mfrac>
+                                      <mn>1</mn>
+                                      <mrow>
+                                        <msubsup>
+                                          <mi>n</mi>
+                                          <mn>1</mn>
+                                          <mn>2</mn>
+                                        </msubsup>
+                                      </mrow>
+                                    </mfrac>
+                                    <mspace width="0.2em"/>
+                                    <mo>−</mo>
+                                    <mspace width="0.2em"/>
+                                    <mfrac>
+                                      <mn>1</mn>
+                                      <mrow>
+                                        <msubsup>
+                                          <mi>n</mi>
+                                          <mn>2</mn>
+                                          <mn>2</mn>
+                                        </msubsup>
+                                      </mrow>
+                                    </mfrac>
+                                    <mspace width="0.2em"/>
+                                  </mrow>
+                                  <mo>)</mo>
+                                </mrow>
+                              </mrow>
+                            </annotation-xml>
+                          </semantics>
+                        </math>
+                      </div>
+
+                      <p id="fs-idp154507488">
+                        which is identical to the Rydberg equation in which
+                        <math display="inline">
+                          <semantics>
+                            <mrow>
+                              <mrow>
+                                <msub>
+                                  <mi>R</mi>
+                                  <mi>∞</mi>
+                                </msub>
+                                <mo>=</mo>
+                                <mspace width="0.2em"/>
+                                <mfrac>
+                                  <mi>k</mi>
+                                  <mrow>
+                                    <mi>h</mi>
+                                    <mi>c</mi>
+                                  </mrow>
+                                </mfrac>
+                                <mo>.</mo>
+                              </mrow>
+                            </mrow>
+                            <annotation-xml encoding="MathML-Content">
+                              <mrow>
+                                <msub>
+                                  <mi>R</mi>
+                                  <mi>∞</mi>
+                                </msub>
+                                <mo>=</mo>
+                                <mspace width="0.2em"/>
+                                <mfrac>
+                                  <mi>k</mi>
+                                  <mrow>
+                                    <mi>h</mi>
+                                    <mi>c</mi>
+                                  </mrow>
+                                </mfrac>
+                                <mo>.</mo>
+                              </mrow>
+                            </annotation-xml>
+                          </semantics>
+                        </math> When Bohr calculated his theoretical value for the Rydberg constant,
+                        <math display="inline">
+                          <semantics>
+                            <mrow>
+                              <mrow>
+                                <msub>
+                                  <mi>R</mi>
+                                  <mi>∞</mi>
+                                </msub>
+                                <mo>,</mo>
+                              </mrow>
+                            </mrow>
+                            <annotation-xml encoding="MathML-Content">
+                              <mrow>
+                                <msub>
+                                  <mi>R</mi>
+                                  <mi>∞</mi>
+                                </msub>
+                                <mo>,</mo>
+                              </mrow>
+                            </annotation-xml>
+                          </semantics>
+                        </math> and compared it with the experimentally accepted value, he got excellent agreement. Since the Rydberg constant was one of the most precisely measured constants at that time, this level of agreement was astonishing and meant that
+                        <span
+                          data-type="term"
+                          group-by="B"
+                          id="[redacted for uniqueness]"
+                        >Bohr’s model</span> was taken seriously, despite the many assumptions that Bohr needed to derive it.
+                      </p>
+
+                      <p id="fs-idm70061856">
+                        The lowest few energy levels are shown in
+                        <a
+                          class="autogenerated-content"
+                          href="#CNX_Chem_06_02_Hlevels"
+                        >Figure 3.14</a>. One of the fundamental laws of physics is that matter is most stable with the lowest possible energy. Thus, the electron in a hydrogen atom usually moves in the
+                        <em data-effect="italics">n</em> = 1 orbit, the orbit in which it has the lowest energy. When the electron is in this lowest energy orbit, the atom is said to be in its
+                        <span
+                          data-type="term"
+                          group-by="g"
+                          id="[redacted for uniqueness]"
+                        >ground electronic state</span> (or simply ground state). If the atom receives energy from an outside source, it is possible for the electron to move to an orbit with a higher
+                        <em data-effect="italics">n</em> value and the atom is now in an
+                        <span
+                          data-type="term"
+                          group-by="e"
+                          id="[redacted for uniqueness]"
+                        >excited electronic state</span> (or simply an excited state) with a higher energy. When an electron transitions from an excited state (higher energy orbit) to a less excited state, or ground state, the difference in energy is emitted as a photon. Similarly, if a photon is absorbed by an atom, the energy of the photon moves an electron from a lower energy orbit up to a more excited one. We can relate the energy of electrons in atoms to what we learned previously about energy. The law of conservation of energy says that we can neither create nor destroy energy. Thus, if a certain amount of external energy is required to excite an electron from one energy level to another, that same amount of energy will be liberated when the electron returns to its initial state (
+                        <a
+                          class="autogenerated-content"
+                          href="#CNX_Chem_06_02_BohrArrows"
+                        >Figure 3.15</a>).
+                      </p>
+
+                      <p id="fs-idp56080096">
+                        Since Bohr’s model involved only a single electron, it could also be applied to the single electron ions He
+                        <sup>+</sup>, Li
+                        <sup>2+</sup>, Be
+                        <sup>3+</sup>, and so forth, which differ from hydrogen only in their nuclear charges, and so one-electron atoms and ions are collectively referred to as hydrogen-like atoms. The energy expression for hydrogen-like atoms is a generalization of the hydrogen atom energy, in which
+                        <em data-effect="italics">Z</em> is the nuclear charge (+1 for hydrogen, +2 for He, +3 for Li, and so on) and
+                        <em data-effect="italics">k</em> has a value of 2.179
+                        <math display="inline">
+                          <semantics>
+                            <mrow>
+                              <mspace width="0.2em"/>
+                              <mo>×</mo>
+                              <mspace width="0.2em"/>
+                            </mrow>
+                            <annotation-xml encoding="MathML-Content">
+                              <mspace width="0.2em"/>
+                              <mo>×</mo>
+                              <mspace width="0.2em"/>
+                            </annotation-xml>
+                          </semantics>
+                        </math> 10
+                        <sup>–18</sup> J.
+                      </p>
+
+                      <div data-type="equation" id="fs-idp15289616">
+                        <math display="block">
+                          <semantics>
+                            <mrow>
+                              <mrow>
+                                <msub>
+                                  <mi>E</mi>
+                                  <mi>n</mi>
+                                </msub>
+                                <mo>=</mo>
+                                <mtext>−</mtext>
+                                <mfrac>
+                                  <mrow>
+                                    <mi>k</mi>
+                                    <msup>
+                                      <mi>Z</mi>
+                                      <mn>2</mn>
+                                    </msup>
+                                  </mrow>
+                                  <mrow>
+                                    <msup>
+                                      <mi>n</mi>
+                                      <mn>2</mn>
+                                    </msup>
+                                  </mrow>
+                                </mfrac>
+                              </mrow>
+                            </mrow>
+                            <annotation-xml encoding="MathML-Content">
+                              <mrow>
+                                <msub>
+                                  <mi>E</mi>
+                                  <mi>n</mi>
+                                </msub>
+                                <mo>=</mo>
+                                <mtext>−</mtext>
+                                <mfrac>
+                                  <mrow>
+                                    <mi>k</mi>
+                                    <msup>
+                                      <mi>Z</mi>
+                                      <mn>2</mn>
+                                    </msup>
+                                  </mrow>
+                                  <mrow>
+                                    <msup>
+                                      <mi>n</mi>
+                                      <mn>2</mn>
+                                    </msup>
+                                  </mrow>
+                                </mfrac>
+                              </mrow>
+                            </annotation-xml>
+                          </semantics>
+                        </math>
+                      </div>
+
+                      <p id="fs-idp4750336">
+                        The sizes of the circular orbits for hydrogen-like atoms are given in terms of their radii by the following expression, in which
+                        <math display="inline">
+                          <semantics>
+                            <mrow>
+                              <mrow>
+                                <msub>
+                                  <mtext>α</mtext>
+                                  <mn>0</mn>
+                                </msub>
+                              </mrow>
+                            </mrow>
+                            <annotation-xml encoding="MathML-Content">
+                              <mrow>
+                                <msub>
+                                  <mtext>α</mtext>
+                                  <mn>0</mn>
+                                </msub>
+                              </mrow>
+                            </annotation-xml>
+                          </semantics>
+                        </math> is a constant called the Bohr radius, with a value of 5.292
+                        <math display="inline">
+                          <semantics>
+                            <mrow>
+                              <mo>×</mo>
+                            </mrow>
+                            <annotation-xml encoding="MathML-Content">
+                              <mo>×</mo>
+                            </annotation-xml>
+                          </semantics>
+                        </math> 10
+                        <sup>−11</sup> m:
+                      </p>
+
+                      <div data-type="equation" id="fs-idp28555616">
+                        <math display="block">
+                          <semantics>
+                            <mrow>
+                              <mrow>
+                                <mi>r</mi>
+                                <mo>=</mo>
+                                <mspace width="0.2em"/>
+                                <mfrac>
+                                  <mrow>
+                                    <msup>
+                                      <mi>n</mi>
+                                      <mn>2</mn>
+                                    </msup>
+                                  </mrow>
+                                  <mi>Z</mi>
+                                </mfrac>
+                                <mspace width="0.2em"/>
+                                <msub>
+                                  <mi>a</mi>
+                                  <mn>0</mn>
+                                </msub>
+                              </mrow>
+                            </mrow>
+                            <annotation-xml encoding="MathML-Content">
+                              <mrow>
+                                <mi>r</mi>
+                                <mo>=</mo>
+                                <mspace width="0.2em"/>
+                                <mfrac>
+                                  <mrow>
+                                    <msup>
+                                      <mi>n</mi>
+                                      <mn>2</mn>
+                                    </msup>
+                                  </mrow>
+                                  <mi>Z</mi>
+                                </mfrac>
+                                <mspace width="0.2em"/>
+                                <msub>
+                                  <mi>a</mi>
+                                  <mn>0</mn>
+                                </msub>
+                              </mrow>
+                            </annotation-xml>
+                          </semantics>
+                        </math>
+                      </div>
+
+                      <p id="fs-idp4874752">
+                        The equation also shows us that as the electron’s energy increases (as
+                        <em data-effect="italics">n</em> increases), the electron is found at greater distances from the nucleus. This is implied by the inverse dependence of electrostatic attraction on distance, since, as the electron moves away from the nucleus, the electrostatic attraction between it and the nucleus decreases and it is held less tightly in the atom. Note that as
+                        <em data-effect="italics">n</em> gets larger and the orbits get larger, their energies get closer to zero, and so the limits
+                        <math display="inline">
+                          <semantics>
+                            <mrow>
+                              <mrow>
+                                <mi>n</mi>
+                                <mspace width="0.2em"/>
+                                <mo stretchy="false">⟶</mo>
+                                <mspace width="0.2em"/>
+                                <mi>∞</mi>
+                              </mrow>
+                            </mrow>
+                            <annotation-xml encoding="MathML-Content">
+                              <mrow>
+                                <mi>n</mi>
+                                <mspace width="0.2em"/>
+                                <mo stretchy="false">⟶</mo>
+                                <mspace width="0.2em"/>
+                                <mi>∞</mi>
+                              </mrow>
+                            </annotation-xml>
+                          </semantics>
+                        </math> and
+                        <math display="inline">
+                          <semantics>
+                            <mrow>
+                              <mrow>
+                                <mi>r</mi>
+                                <mspace width="0.2em"/>
+                                <mo stretchy="false">⟶</mo>
+                                <mspace width="0.2em"/>
+                                <mi>∞</mi>
+                              </mrow>
+                            </mrow>
+                            <annotation-xml encoding="MathML-Content">
+                              <mrow>
+                                <mi>r</mi>
+                                <mspace width="0.2em"/>
+                                <mo stretchy="false">⟶</mo>
+                                <mspace width="0.2em"/>
+                                <mi>∞</mi>
+                              </mrow>
+                            </annotation-xml>
+                          </semantics>
+                        </math> imply that
+                        <em data-effect="italics">E</em> = 0 corresponds to the ionization limit where the electron is completely removed from the nucleus. Thus, for hydrogen in the ground state
+                        <em data-effect="italics">n</em> = 1, the ionization energy would be:
+                      </p>
+
+                      <div data-type="equation" id="fs-idp200125968">
+                        <math display="block">
+                          <semantics>
+                            <mrow>
+                              <mrow>
+                                <mtext>Δ</mtext>
+                                <mi>E</mi>
+                                <mo>=</mo>
+                                <msub>
+                                  <mi>E</mi>
+                                  <mrow>
+                                    <mi>n</mi>
+                                    <mspace width="0.2em"/>
+                                    <mo stretchy="false">⟶</mo>
+                                    <mspace width="0.2em"/>
+                                    <mi>∞</mi>
+                                  </mrow>
+                                </msub>
+                                <mo>−</mo>
+                                <msub>
+                                  <mi>E</mi>
+                                  <mn>1</mn>
+                                </msub>
+                                <mo>=</mo>
+                                <mn>0</mn>
+                                <mspace width="0.2em"/>
+                                <mo>+</mo>
+                                <mspace width="0.2em"/>
+                                <mi>k</mi>
+                                <mo>=</mo>
+                                <mi>k</mi>
+                              </mrow>
+                            </mrow>
+                            <annotation-xml encoding="MathML-Content">
+                              <mrow>
+                                <mtext>Δ</mtext>
+                                <mi>E</mi>
+                                <mo>=</mo>
+                                <msub>
+                                  <mi>E</mi>
+                                  <mrow>
+                                    <mi>n</mi>
+                                    <mspace width="0.2em"/>
+                                    <mo stretchy="false">⟶</mo>
+                                    <mspace width="0.2em"/>
+                                    <mi>∞</mi>
+                                  </mrow>
+                                </msub>
+                                <mo>−</mo>
+                                <msub>
+                                  <mi>E</mi>
+                                  <mn>1</mn>
+                                </msub>
+                                <mo>=</mo>
+                                <mn>0</mn>
+                                <mspace width="0.2em"/>
+                                <mo>+</mo>
+                                <mspace width="0.2em"/>
+                                <mi>k</mi>
+                                <mo>=</mo>
+                                <mi>k</mi>
+                              </mrow>
+                            </annotation-xml>
+                          </semantics>
+                        </math>
+                      </div>
+
+                      <p
+                        id="fs-idp245170224"
+                      >With three extremely puzzling paradoxes now solved (blackbody radiation, the photoelectric effect, and the hydrogen atom), and all involving Planck’s constant in a fundamental manner, it became clear to most physicists at that time that the classical theories that worked so well in the macroscopic world were fundamentally flawed and could not be extended down into the microscopic domain of atoms and molecules. Unfortunately, despite Bohr’s remarkable achievement in deriving a theoretical expression for the Rydberg constant, he was unable to extend his theory to the next simplest atom, He, which only has two electrons. Bohr’s model was severely flawed, since it was still based on the classical mechanics notion of precise orbits, a concept that was later found to be untenable in the microscopic domain, when a proper model of quantum mechanics was developed to supersede classical mechanics.</p>
+
+                      <div class="os-figure" id="CNX_Chem_06_02_Hlevels">
+                        <figure
+                          class="scaled-down"
+                          data-id="CNX_Chem_06_02_Hlevels"
+                        >
+                          <span
+                            data-alt="The figure includes a diagram representing the relative energy levels of the quantum numbers of the hydrogen atom. An upward pointing arrow at the left of the diagram is labeled, “E.” A grey shaded vertically-oriented rectangle is placed just right of the arrow. The rectangle height matches the arrow length. Colored horizontal line segments are placed inside the rectangle and labels are placed to the right of the box and arranged in a column with the heading, “Energy, n.” At the very base of the rectangle, a purple horizontal line segment is drawn. A black line segment extends to the right to the label, “negative 2.18 times 10 superscript negative 18 J, 1.” At a level approximately three-quarters of the distance to the top of the rectangle, a blue horizontal line segment is drawn. A black line segment extends to the right to the label, “negative 5.45 times 10 superscript negative 19 J, 2.” At a level approximately seven-eighths the distance from the base of the rectangle, a green horizontal line segment is drawn. A black line segment extends to the right to the label, “negative 2.42 times 10 superscript negative 19 J, 3.” Just a short distance above this segment, an orange horizontal line segment is drawn. A black line segment extends to the right to the label, “negative 1.36 times 10 superscript negative 19 J, 4.” Just above this segment, a red horizontal line segment is drawn. A black line segment extends to the right to the label, “negative 8.72 times 10 superscript negative 20 J, 5.” Just a short distance above this segment, a brown horizontal line segment is drawn. A black line segment extends to the right to the label, “0.00 J, infinity.”"
+                            data-type="media"
+                            id="fs-idp29515312"
+                          >
+                            <img
+                              alt="The figure includes a diagram representing the relative energy levels of the quantum numbers of the hydrogen atom. An upward pointing arrow at the left of the diagram is labeled, “E.” A grey shaded vertically-oriented rectangle is placed just right of the arrow. The rectangle height matches the arrow length. Colored horizontal line segments are placed inside the rectangle and labels are placed to the right of the box and arranged in a column with the heading, “Energy, n.” At the very base of the rectangle, a purple horizontal line segment is drawn. A black line segment extends to the right to the label, “negative 2.18 times 10 superscript negative 18 J, 1.” At a level approximately three-quarters of the distance to the top of the rectangle, a blue horizontal line segment is drawn. A black line segment extends to the right to the label, “negative 5.45 times 10 superscript negative 19 J, 2.” At a level approximately seven-eighths the distance from the base of the rectangle, a green horizontal line segment is drawn. A black line segment extends to the right to the label, “negative 2.42 times 10 superscript negative 19 J, 3.” Just a short distance above this segment, an orange horizontal line segment is drawn. A black line segment extends to the right to the label, “negative 1.36 times 10 superscript negative 19 J, 4.” Just above this segment, a red horizontal line segment is drawn. A black line segment extends to the right to the label, “negative 8.72 times 10 superscript negative 20 J, 5.” Just a short distance above this segment, a brown horizontal line segment is drawn. A black line segment extends to the right to the label, “0.00 J, infinity.”"
+                              data-media-type="image/jpeg"
+                              id="[redacted for uniqueness]"
+                              src="/resources/5fa8e14434776a2c016e902629c69eb46565f4a5"
+                            >
+                          </span>
+                        </figure>
+                        <div class="os-caption-container">
+                          <span class="os-title-label">Figure</span>
+                          <span class="os-number">3.14</span>
+                          <span class="os-divider"></span>
+                          <span class="os-divider"></span>
+                          <span
+                            class="os-caption"
+                          >Quantum numbers and energy levels in a hydrogen atom. The more negative the calculated value, the lower the energy.</span>
+                        </div>
+                      </div>
+
+                      <div data-type="example" id="fs-idp247735616">
+                        <h3 class="os-title">
+                          <span class="os-title-label">Example</span>
+                          <span class="os-number">3.4</span>
+                          <span class="os-divider"></span>
+                        </h3>
+                        <p id="fs-idp89066240">
+                          <span
+                            data-type="title"
+                          >Calculating the Energy of an Electron in a Bohr Orbit</span>
+                          Early researchers were very excited when they were able to predict the energy of an electron at a particular distance from the nucleus in a hydrogen atom. If a spark promotes the electron in a hydrogen atom into an orbit with
+                          <em data-effect="italics">n</em> = 3, what is the calculated energy, in joules, of the electron?
+                        </p>
+                        <p id="fs-idp40593920">
+                          <span data-type="title">Solution</span>
+                          The energy of the electron is given by this equation:
+                        </p>
+                        <div data-type="equation" id="fs-idp20573264">
+                          <math display="block">
+                            <semantics>
+                              <mrow>
+                                <mrow>
+                                  <mi>E</mi>
+                                  <mo>=</mo>
+                                  <mspace width="0.2em"/>
+                                  <mfrac>
+                                    <mrow>
+                                      <mo>−</mo>
+                                      <mi>k</mi>
+                                      <msup>
+                                        <mi>Z</mi>
+                                        <mn>2</mn>
+                                      </msup>
+                                    </mrow>
+                                    <mrow>
+                                      <msup>
+                                        <mi>n</mi>
+                                        <mn>2</mn>
+                                      </msup>
+                                    </mrow>
+                                  </mfrac>
+                                </mrow>
+                              </mrow>
+                              <annotation-xml encoding="MathML-Content">
+                                <mrow>
+                                  <mi>E</mi>
+                                  <mo>=</mo>
+                                  <mspace width="0.2em"/>
+                                  <mfrac>
+                                    <mrow>
+                                      <mo>−</mo>
+                                      <mi>k</mi>
+                                      <msup>
+                                        <mi>Z</mi>
+                                        <mn>2</mn>
+                                      </msup>
+                                    </mrow>
+                                    <mrow>
+                                      <msup>
+                                        <mi>n</mi>
+                                        <mn>2</mn>
+                                      </msup>
+                                    </mrow>
+                                  </mfrac>
+                                </mrow>
+                              </annotation-xml>
+                            </semantics>
+                          </math>
+                        </div>
+                        <p id="fs-idp4204032">
+                          The atomic number,
+                          <em data-effect="italics">Z</em>, of hydrogen is 1;
+                          <em data-effect="italics">k</em> = 2.179
+                          <math display="inline">
+                            <semantics>
+                              <mrow>
+                                <mspace width="0.2em"/>
+                                <mo>×</mo>
+                                <mspace width="0.2em"/>
+                              </mrow>
+                              <annotation-xml encoding="MathML-Content">
+                                <mspace width="0.2em"/>
+                                <mo>×</mo>
+                                <mspace width="0.2em"/>
+                              </annotation-xml>
+                            </semantics>
+                          </math> 10
+                          <sup>–18</sup> J; and the electron is characterized by an
+                          <em data-effect="italics">n</em> value of 3. Thus,
+                        </p>
+                        <div data-type="equation" id="fs-idp199624080">
+                          <math display="block">
+                            <semantics>
+                              <mrow>
+                                <mrow>
+                                  <mi>E</mi>
+                                  <mo>=</mo>
+                                  <mspace width="0.2em"/>
+                                  <mfrac>
+                                    <mrow>
+                                      <mo>−</mo>
+                                      <mo stretchy="false">(</mo>
+                                      <mn>2.179</mn>
+                                      <mspace width="0.2em"/>
+                                      <mo>×</mo>
+                                      <mspace width="0.2em"/>
+                                      <msup>
+                                        <mrow>
+                                          <mn>10</mn>
+                                        </mrow>
+                                        <mrow>
+                                          <mn>−18</mn>
+                                        </mrow>
+                                      </msup>
+                                      <mspace width="0.2em"/>
+                                      <mtext>J</mtext>
+                                      <mo stretchy="false">)</mo>
+                                      <mspace width="0.2em"/>
+                                      <mo>×</mo>
+                                      <mspace width="0.2em"/>
+                                      <msup>
+                                        <mrow>
+                                          <mo stretchy="false">(</mo>
+                                          <mn>1</mn>
+                                          <mo stretchy="false">)</mo>
+                                        </mrow>
+                                        <mn>2</mn>
+                                      </msup>
+                                    </mrow>
+                                    <mrow>
+                                      <msup>
+                                        <mrow>
+                                          <mo stretchy="false">(</mo>
+                                          <mn>3</mn>
+                                          <mo stretchy="false">)</mo>
+                                        </mrow>
+                                        <mn>2</mn>
+                                      </msup>
+                                    </mrow>
+                                  </mfrac>
+                                  <mspace width="0.2em"/>
+                                  <mo>=</mo>
+                                  <mn>−2.421</mn>
+                                  <mspace width="0.2em"/>
+                                  <mo>×</mo>
+                                  <mspace width="0.2em"/>
+                                  <msup>
+                                    <mn>10</mn>
+                                    <mrow>
+                                      <mn>−19</mn>
+                                    </mrow>
+                                  </msup>
+                                  <mspace width="0.2em"/>
+                                  <mtext>J</mtext>
+                                </mrow>
+                              </mrow>
+                              <annotation-xml encoding="MathML-Content">
+                                <mrow>
+                                  <mi>E</mi>
+                                  <mo>=</mo>
+                                  <mspace width="0.2em"/>
+                                  <mfrac>
+                                    <mrow>
+                                      <mo>−</mo>
+                                      <mo stretchy="false">(</mo>
+                                      <mn>2.179</mn>
+                                      <mspace width="0.2em"/>
+                                      <mo>×</mo>
+                                      <mspace width="0.2em"/>
+                                      <msup>
+                                        <mrow>
+                                          <mn>10</mn>
+                                        </mrow>
+                                        <mrow>
+                                          <mn>−18</mn>
+                                        </mrow>
+                                      </msup>
+                                      <mspace width="0.2em"/>
+                                      <mtext>J</mtext>
+                                      <mo stretchy="false">)</mo>
+                                      <mspace width="0.2em"/>
+                                      <mo>×</mo>
+                                      <mspace width="0.2em"/>
+                                      <msup>
+                                        <mrow>
+                                          <mo stretchy="false">(</mo>
+                                          <mn>1</mn>
+                                          <mo stretchy="false">)</mo>
+                                        </mrow>
+                                        <mn>2</mn>
+                                      </msup>
+                                    </mrow>
+                                    <mrow>
+                                      <msup>
+                                        <mrow>
+                                          <mo stretchy="false">(</mo>
+                                          <mn>3</mn>
+                                          <mo stretchy="false">)</mo>
+                                        </mrow>
+                                        <mn>2</mn>
+                                      </msup>
+                                    </mrow>
+                                  </mfrac>
+                                  <mspace width="0.2em"/>
+                                  <mo>=</mo>
+                                  <mn>−2.421</mn>
+                                  <mspace width="0.2em"/>
+                                  <mo>×</mo>
+                                  <mspace width="0.2em"/>
+                                  <msup>
+                                    <mn>10</mn>
+                                    <mrow>
+                                      <mn>−19</mn>
+                                    </mrow>
+                                  </msup>
+                                  <mspace width="0.2em"/>
+                                  <mtext>J</mtext>
+                                </mrow>
+                              </annotation-xml>
+                            </semantics>
+                          </math>
+                        </div>
+                        <p id="fs-idp16142080">
+                          <span data-type="title">Check Your Learning</span>
+                          The electron in
+                          <a
+                            class="autogenerated-content"
+                            href="#CNX_Chem_06_02_BohrArrows"
+                          >Figure 3.15</a> is promoted even further to an orbit with
+                          <em data-effect="italics">n</em> = 6. What is its new energy?
+                        </p>
+                        <div data-type="note" id="fs-idp230904800">
+                          <h3 class="os-title" data-type="title">
+                            <span
+                              class="os-title-label"
+                              data-type
+                              id="[redacted for uniqueness]"
+                            >Answer:</span>
+                          </h3>
+                          <div class="os-note-body">
+                            <p id="fs-idp107506336">
+                              −6.053
+                              <math display="inline">
+                                <semantics>
+                                  <mrow>
+                                    <mo>×</mo>
+                                  </mrow>
+                                  <annotation-xml encoding="MathML-Content">
+                                    <mo>×</mo>
+                                  </annotation-xml>
+                                </semantics>
+                              </math> 10
+                              <sup>–20</sup> J
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="os-figure" id="CNX_Chem_06_02_BohrArrows">
+                        <figure
+                          class="scaled-down"
+                          data-id="CNX_Chem_06_02_BohrArrows"
+                        >
+                          <span
+                            data-alt="The figure includes a diagram representing the relative energy levels of the quantum numbers of the hydrogen atom. An upward pointing arrow at the left of the diagram is labeled, “E.” A grey shaded vertically oriented rectangle is placed just right of the arrow. The rectangle height matches the arrow length. Colored, horizontal line segments are placed inside the rectangle and labels are placed to the right of the box, arranged in a column with the heading, “Energy, n.” At the very base of the rectangle, a purple horizontal line segment is drawn. A black line extends to the right to the label, “1.” At a level approximately three-quarters of the distance to the top of the rectangle, a blue horizontal line segment is drawn. A black line extends to the right to the label, “2.” At a level approximately seven-eighths the distance from the base of the rectangle, a green horizontal line segment is drawn. A black line extends to the right to the label, “3.” Just a short distance above this segment, an orange horizontal line segment is drawn. A black line segment extends to the right to the label, “4.” Just above this segment, a red horizontal line segment is drawn. A black line extends to the right to the label, “5.” Just a short distance above this segment, a brown horizontal line segment is drawn. A black line extends to the right to the label, “infinity.” Arrows are drawn to depict energies of photons absorbed, as shown by upward pointing arrows on the left, or released as shown by downward pointing arrows on the right side of the diagram between the colored line segments. The label, “Electron moves to higher energy as light is absorbed,” is placed beneath the upward pointing arrows. Similarly, the label, “Electron moves to lower energy as light is emitted,” appears beneath the downward pointing arrows. Moving left to right across the diagram, arrows extend from one colored line segment to the next in the following order: purple to blue, purple to green, purple to orange, purple to red, purple to brown, blue to green, blue to orange, and blue to red. The arrows originating from the same colored segment are grouped together by close placement of the arrows. Similarly, the downward arrows follow in this sequence; brown to purple, red to purple, orange to purple, green to purple, blue to purple, red to blue, orange to blue, and green to blue. Arrows are again grouped by close placement according to the color at which the arrows end."
+                            data-type="media"
+                            id="fs-idp153188464"
+                          >
+                            <img
+                              alt="The figure includes a diagram representing the relative energy levels of the quantum numbers of the hydrogen atom. An upward pointing arrow at the left of the diagram is labeled, “E.” A grey shaded vertically oriented rectangle is placed just right of the arrow. The rectangle height matches the arrow length. Colored, horizontal line segments are placed inside the rectangle and labels are placed to the right of the box, arranged in a column with the heading, “Energy, n.” At the very base of the rectangle, a purple horizontal line segment is drawn. A black line extends to the right to the label, “1.” At a level approximately three-quarters of the distance to the top of the rectangle, a blue horizontal line segment is drawn. A black line extends to the right to the label, “2.” At a level approximately seven-eighths the distance from the base of the rectangle, a green horizontal line segment is drawn. A black line extends to the right to the label, “3.” Just a short distance above this segment, an orange horizontal line segment is drawn. A black line segment extends to the right to the label, “4.” Just above this segment, a red horizontal line segment is drawn. A black line extends to the right to the label, “5.” Just a short distance above this segment, a brown horizontal line segment is drawn. A black line extends to the right to the label, “infinity.” Arrows are drawn to depict energies of photons absorbed, as shown by upward pointing arrows on the left, or released as shown by downward pointing arrows on the right side of the diagram between the colored line segments. The label, “Electron moves to higher energy as light is absorbed,” is placed beneath the upward pointing arrows. Similarly, the label, “Electron moves to lower energy as light is emitted,” appears beneath the downward pointing arrows. Moving left to right across the diagram, arrows extend from one colored line segment to the next in the following order: purple to blue, purple to green, purple to orange, purple to red, purple to brown, blue to green, blue to orange, and blue to red. The arrows originating from the same colored segment are grouped together by close placement of the arrows. Similarly, the downward arrows follow in this sequence; brown to purple, red to purple, orange to purple, green to purple, blue to purple, red to blue, orange to blue, and green to blue. Arrows are again grouped by close placement according to the color at which the arrows end."
+                              data-media-type="image/jpeg"
+                              id="[redacted for uniqueness]"
+                              src="/resources/891b9e268c1c4182fed7f4f8bf60887390d15dcf"
+                            >
+                          </span>
+                        </figure>
+                        <div class="os-caption-container">
+                          <span class="os-title-label">Figure</span>
+                          <span class="os-number">3.15</span>
+                          <span class="os-divider"></span>
+                          <span class="os-divider"></span>
+                          <span
+                            class="os-caption"
+                          >The horizontal lines show the relative energy of orbits in the Bohr model of the hydrogen atom, and the vertical arrows depict the energy of photons absorbed (left) or emitted (right) as electrons move between these orbits.</span>
+                        </div>
+                      </div>
+
+                      <div data-type="example" id="fs-idp30549440">
+                        <h3 class="os-title">
+                          <span class="os-title-label">Example</span>
+                          <span class="os-number">3.5</span>
+                          <span class="os-divider"></span>
+                        </h3>
+                        <p id="fs-idp19229392">
+                          <span
+                            data-type="title"
+                          >Calculating the Energy and Wavelength of Electron Transitions in a One–electron (Bohr) System</span>
+                          What is the energy (in joules) and the wavelength (in meters) of the line in the spectrum of hydrogen that represents the movement of an electron from Bohr orbit with
+                          <em data-effect="italics">n</em> = 4 to the orbit with
+                          <em data-effect="italics">n</em> = 6? In what part of the electromagnetic spectrum do we find this radiation?
+                        </p>
+                        <p id="fs-idp19670528">
+                          <span data-type="title">Solution</span>
+                          In this case, the electron starts out with
+                          <em data-effect="italics">n</em> = 4, so
+                          <em data-effect="italics">n</em>
+                          <sub>1</sub> = 4. It comes to rest in the
+                          <em data-effect="italics">n</em> = 6 orbit, so
+                          <em data-effect="italics">n</em>
+                          <sub>2</sub> = 6. The difference in energy between the two states is given by this expression:
+                        </p>
+                        <div data-type="equation" id="fs-idp12132608">
+                          <math display="block">
+                            <semantics>
+                              <mrow>
+                                <mrow>
+                                  <mtext>Δ</mtext>
+                                  <mi>E</mi>
+                                  <mo>=</mo>
+                                  <msub>
+                                    <mi>E</mi>
+                                    <mn>1</mn>
+                                  </msub>
+                                  <mo>−</mo>
+                                  <msub>
+                                    <mi>E</mi>
+                                    <mn>2</mn>
+                                  </msub>
+                                  <mo>=</mo>
+                                  <mn>2.179</mn>
+                                  <mspace width="0.2em"/>
+                                  <mo>×</mo>
+                                  <mspace width="0.2em"/>
+                                  <msup>
+                                    <mrow>
+                                      <mn>10</mn>
+                                    </mrow>
+                                    <mrow>
+                                      <mn>−18</mn>
+                                    </mrow>
+                                  </msup>
+                                  <mrow>
+                                    <mo>(</mo>
+                                    <mrow>
+                                      <mspace width="0.2em"/>
+                                      <mfrac>
+                                        <mn>1</mn>
+                                        <mrow>
+                                          <msubsup>
+                                            <mi>n</mi>
+                                            <mn>1</mn>
+                                            <mn>2</mn>
+                                          </msubsup>
+                                        </mrow>
+                                      </mfrac>
+                                      <mspace width="0.2em"/>
+                                      <mo>−</mo>
+                                      <mspace width="0.2em"/>
+                                      <mfrac>
+                                        <mn>1</mn>
+                                        <mrow>
+                                          <msubsup>
+                                            <mi>n</mi>
+                                            <mn>2</mn>
+                                            <mn>2</mn>
+                                          </msubsup>
+                                        </mrow>
+                                      </mfrac>
+                                      <mspace width="0.2em"/>
+                                    </mrow>
+                                    <mo>)</mo>
+                                  </mrow>
+                                </mrow>
+                              </mrow>
+                              <annotation-xml encoding="MathML-Content">
+                                <mrow>
+                                  <mtext>Δ</mtext>
+                                  <mi>E</mi>
+                                  <mo>=</mo>
+                                  <msub>
+                                    <mi>E</mi>
+                                    <mn>1</mn>
+                                  </msub>
+                                  <mo>−</mo>
+                                  <msub>
+                                    <mi>E</mi>
+                                    <mn>2</mn>
+                                  </msub>
+                                  <mo>=</mo>
+                                  <mn>2.179</mn>
+                                  <mspace width="0.2em"/>
+                                  <mo>×</mo>
+                                  <mspace width="0.2em"/>
+                                  <msup>
+                                    <mrow>
+                                      <mn>10</mn>
+                                    </mrow>
+                                    <mrow>
+                                      <mn>−18</mn>
+                                    </mrow>
+                                  </msup>
+                                  <mrow>
+                                    <mo>(</mo>
+                                    <mrow>
+                                      <mspace width="0.2em"/>
+                                      <mfrac>
+                                        <mn>1</mn>
+                                        <mrow>
+                                          <msubsup>
+                                            <mi>n</mi>
+                                            <mn>1</mn>
+                                            <mn>2</mn>
+                                          </msubsup>
+                                        </mrow>
+                                      </mfrac>
+                                      <mspace width="0.2em"/>
+                                      <mo>−</mo>
+                                      <mspace width="0.2em"/>
+                                      <mfrac>
+                                        <mn>1</mn>
+                                        <mrow>
+                                          <msubsup>
+                                            <mi>n</mi>
+                                            <mn>2</mn>
+                                            <mn>2</mn>
+                                          </msubsup>
+                                        </mrow>
+                                      </mfrac>
+                                      <mspace width="0.2em"/>
+                                    </mrow>
+                                    <mo>)</mo>
+                                  </mrow>
+                                </mrow>
+                              </annotation-xml>
+                            </semantics>
+                          </math>
+                        </div>
+                        <div data-type="equation" id="fs-idp66123152">
+                          <math display="block">
+                            <semantics>
+                              <mrow>
+                                <mrow>
+                                  <mtext>Δ</mtext>
+                                  <mi>E</mi>
+                                  <mo>=</mo>
+                                  <mn>2.179</mn>
+                                  <mspace width="0.2em"/>
+                                  <mo>×</mo>
+                                  <mspace width="0.2em"/>
+                                  <msup>
+                                    <mrow>
+                                      <mn>10</mn>
+                                    </mrow>
+                                    <mrow>
+                                      <mn>−18</mn>
+                                    </mrow>
+                                  </msup>
+                                  <mrow>
+                                    <mo>(</mo>
+                                    <mrow>
+                                      <mspace width="0.2em"/>
+                                      <mfrac>
+                                        <mn>1</mn>
+                                        <mrow>
+                                          <msup>
+                                            <mn>4</mn>
+                                            <mn>2</mn>
+                                          </msup>
+                                        </mrow>
+                                      </mfrac>
+                                      <mspace width="0.2em"/>
+                                      <mo>−</mo>
+                                      <mspace width="0.2em"/>
+                                      <mfrac>
+                                        <mn>1</mn>
+                                        <mrow>
+                                          <msup>
+                                            <mn>6</mn>
+                                            <mn>2</mn>
+                                          </msup>
+                                        </mrow>
+                                      </mfrac>
+                                      <mspace width="0.2em"/>
+                                    </mrow>
+                                    <mo>)</mo>
+                                  </mrow>
+                                  <mspace width="0.2em"/>
+                                  <mtext>J</mtext>
+                                </mrow>
+                              </mrow>
+                              <annotation-xml encoding="MathML-Content">
+                                <mrow>
+                                  <mtext>Δ</mtext>
+                                  <mi>E</mi>
+                                  <mo>=</mo>
+                                  <mn>2.179</mn>
+                                  <mspace width="0.2em"/>
+                                  <mo>×</mo>
+                                  <mspace width="0.2em"/>
+                                  <msup>
+                                    <mrow>
+                                      <mn>10</mn>
+                                    </mrow>
+                                    <mrow>
+                                      <mn>−18</mn>
+                                    </mrow>
+                                  </msup>
+                                  <mrow>
+                                    <mo>(</mo>
+                                    <mrow>
+                                      <mspace width="0.2em"/>
+                                      <mfrac>
+                                        <mn>1</mn>
+                                        <mrow>
+                                          <msup>
+                                            <mn>4</mn>
+                                            <mn>2</mn>
+                                          </msup>
+                                        </mrow>
+                                      </mfrac>
+                                      <mspace width="0.2em"/>
+                                      <mo>−</mo>
+                                      <mspace width="0.2em"/>
+                                      <mfrac>
+                                        <mn>1</mn>
+                                        <mrow>
+                                          <msup>
+                                            <mn>6</mn>
+                                            <mn>2</mn>
+                                          </msup>
+                                        </mrow>
+                                      </mfrac>
+                                      <mspace width="0.2em"/>
+                                    </mrow>
+                                    <mo>)</mo>
+                                  </mrow>
+                                  <mspace width="0.2em"/>
+                                  <mtext>J</mtext>
+                                </mrow>
+                              </annotation-xml>
+                            </semantics>
+                          </math>
+                        </div>
+                        <div data-type="equation" id="fs-idp116600672">
+                          <math display="block">
+                            <semantics>
+                              <mrow>
+                                <mrow>
+                                  <mtext>Δ</mtext>
+                                  <mi>E</mi>
+                                  <mo>=</mo>
+                                  <mn>2.179</mn>
+                                  <mspace width="0.2em"/>
+                                  <mo>×</mo>
+                                  <mspace width="0.2em"/>
+                                  <msup>
+                                    <mn>10</mn>
+                                    <mrow>
+                                      <mn>−18</mn>
+                                    </mrow>
+                                  </msup>
+                                  <mrow>
+                                    <mo>(</mo>
+                                    <mrow>
+                                      <mspace width="0.2em"/>
+                                      <mfrac>
+                                        <mn>1</mn>
+                                        <mrow>
+                                          <mn>16</mn>
+                                        </mrow>
+                                      </mfrac>
+                                      <mspace width="0.2em"/>
+                                      <mo>−</mo>
+                                      <mspace width="0.2em"/>
+                                      <mfrac>
+                                        <mn>1</mn>
+                                        <mrow>
+                                          <mn>36</mn>
+                                        </mrow>
+                                      </mfrac>
+                                      <mspace width="0.2em"/>
+                                    </mrow>
+                                    <mo>)</mo>
+                                  </mrow>
+                                  <mspace width="0.2em"/>
+                                  <mtext>J</mtext>
+                                </mrow>
+                              </mrow>
+                              <annotation-xml encoding="MathML-Content">
+                                <mrow>
+                                  <mtext>Δ</mtext>
+                                  <mi>E</mi>
+                                  <mo>=</mo>
+                                  <mn>2.179</mn>
+                                  <mspace width="0.2em"/>
+                                  <mo>×</mo>
+                                  <mspace width="0.2em"/>
+                                  <msup>
+                                    <mn>10</mn>
+                                    <mrow>
+                                      <mn>−18</mn>
+                                    </mrow>
+                                  </msup>
+                                  <mrow>
+                                    <mo>(</mo>
+                                    <mrow>
+                                      <mspace width="0.2em"/>
+                                      <mfrac>
+                                        <mn>1</mn>
+                                        <mrow>
+                                          <mn>16</mn>
+                                        </mrow>
+                                      </mfrac>
+                                      <mspace width="0.2em"/>
+                                      <mo>−</mo>
+                                      <mspace width="0.2em"/>
+                                      <mfrac>
+                                        <mn>1</mn>
+                                        <mrow>
+                                          <mn>36</mn>
+                                        </mrow>
+                                      </mfrac>
+                                      <mspace width="0.2em"/>
+                                    </mrow>
+                                    <mo>)</mo>
+                                  </mrow>
+                                  <mspace width="0.2em"/>
+                                  <mtext>J</mtext>
+                                </mrow>
+                              </annotation-xml>
+                            </semantics>
+                          </math>
+                        </div>
+                        <div data-type="equation" id="fs-idp32209616">
+                          <math display="block">
+                            <semantics>
+                              <mrow>
+                                <mrow>
+                                  <mtext>Δ</mtext>
+                                  <mi>E</mi>
+                                  <mo>=</mo>
+                                  <mn>7.566</mn>
+                                  <mspace width="0.2em"/>
+                                  <mo>×</mo>
+                                  <mspace width="0.2em"/>
+                                  <msup>
+                                    <mn>10</mn>
+                                    <mrow>
+                                      <mn>−20</mn>
+                                    </mrow>
+                                  </msup>
+                                  <mspace width="0.2em"/>
+                                  <mtext>J</mtext>
+                                </mrow>
+                              </mrow>
+                              <annotation-xml encoding="MathML-Content">
+                                <mrow>
+                                  <mtext>Δ</mtext>
+                                  <mi>E</mi>
+                                  <mo>=</mo>
+                                  <mn>7.566</mn>
+                                  <mspace width="0.2em"/>
+                                  <mo>×</mo>
+                                  <mspace width="0.2em"/>
+                                  <msup>
+                                    <mn>10</mn>
+                                    <mrow>
+                                      <mn>−20</mn>
+                                    </mrow>
+                                  </msup>
+                                  <mspace width="0.2em"/>
+                                  <mtext>J</mtext>
+                                </mrow>
+                              </annotation-xml>
+                            </semantics>
+                          </math>
+                        </div>
+                        <p id="fs-idp160141472">
+                          This energy difference is positive, indicating a photon enters the system (is absorbed) to excite the electron from the
+                          <em data-effect="italics">n</em> = 4 orbit up to the
+                          <em data-effect="italics">n</em> = 6 orbit. The wavelength of a photon with this energy is found by the expression
+                          <math display="inline">
+                            <semantics>
+                              <mrow>
+                                <mrow>
+                                  <mi>E</mi>
+                                  <mtext>=</mtext>
+                                  <mspace width="0.2em"/>
+                                  <mfrac>
+                                    <mrow>
+                                      <mi>h</mi>
+                                      <mi>c</mi>
+                                    </mrow>
+                                    <mi>λ</mi>
+                                  </mfrac>
+                                  <mo>.</mo>
+                                </mrow>
+                              </mrow>
+                              <annotation-xml encoding="MathML-Content">
+                                <mrow>
+                                  <mi>E</mi>
+                                  <mtext>=</mtext>
+                                  <mspace width="0.2em"/>
+                                  <mfrac>
+                                    <mrow>
+                                      <mi>h</mi>
+                                      <mi>c</mi>
+                                    </mrow>
+                                    <mi>λ</mi>
+                                  </mfrac>
+                                  <mo>.</mo>
+                                </mrow>
+                              </annotation-xml>
+                            </semantics>
+                          </math> Rearrangement gives:
+                        </p>
+                        <div data-type="equation" id="fs-idp78342240">
+                          <math display="block">
+                            <semantics>
+                              <mrow>
+                                <mrow>
+                                  <mi>λ</mi>
+                                  <mo>=</mo>
+                                  <mspace width="0.2em"/>
+                                  <mfrac>
+                                    <mrow>
+                                      <mi>h</mi>
+                                      <mi>c</mi>
+                                    </mrow>
+                                    <mi>E</mi>
+                                  </mfrac>
+                                </mrow>
+                              </mrow>
+                              <annotation-xml encoding="MathML-Content">
+                                <mrow>
+                                  <mi>λ</mi>
+                                  <mo>=</mo>
+                                  <mspace width="0.2em"/>
+                                  <mfrac>
+                                    <mrow>
+                                      <mi>h</mi>
+                                      <mi>c</mi>
+                                    </mrow>
+                                    <mi>E</mi>
+                                  </mfrac>
+                                </mrow>
+                              </annotation-xml>
+                            </semantics>
+                          </math>
+                        </div>
+                        <div data-type="equation" id="fs-idp78060624">
+                          <math display="block">
+                            <semantics>
+                              <mrow>
+                                <mtable columnalign="left">
+                                  <mtr/>
+                                  <mtr/>
+                                  <mtr>
+                                    <mtd>
+                                      <mo>=</mo>
+                                      <mrow>
+                                        <mo>(</mo>
+                                        <mrow>
+                                          <mn>6.626</mn>
+                                          <mspace width="0.2em"/>
+                                          <mo>×</mo>
+                                          <mspace width="0.2em"/>
+                                          <msup>
+                                            <mrow>
+                                              <mn>10</mn>
+                                            </mrow>
+                                            <mrow>
+                                              <mn>−34</mn>
+                                            </mrow>
+                                          </msup>
+                                          <mspace width="0.2em"/>
+                                          <menclose notation="horizontalstrike">
+                                            <mtext>J</mtext>
+                                          </menclose>
+                                          <mspace width="0.2em"/>
+                                          <menclose notation="horizontalstrike">
+                                            <mtext>s</mtext>
+                                          </menclose>
+                                        </mrow>
+                                        <mo>)</mo>
+                                      </mrow>
+                                      <mspace width="0.4em"/>
+                                      <mo>×</mo>
+                                      <mspace width="0.3em"/>
+                                      <mfrac>
+                                        <mrow>
+                                          <mn>2.998</mn>
+                                          <mspace width="0.2em"/>
+                                          <mo>×</mo>
+                                          <mspace width="0.2em"/>
+                                          <msup>
+                                            <mrow>
+                                              <mn>10</mn>
+                                            </mrow>
+                                            <mn>8</mn>
+                                          </msup>
+                                          <mspace width="0.2em"/>
+                                          <mtext>m</mtext>
+                                          <mspace width="0.2em"/>
+                                          <msup>
+                                            <mrow>
+                                              <menclose
+                                                notation="horizontalstrike"
+                                              >
+                                                <mtext>s</mtext>
+                                              </menclose>
+                                            </mrow>
+                                            <mrow>
+                                              <mn>−1</mn>
+                                            </mrow>
+                                          </msup>
+                                        </mrow>
+                                        <mrow>
+                                          <mn>7.566</mn>
+                                          <mspace width="0.2em"/>
+                                          <mo>×</mo>
+                                          <mspace width="0.2em"/>
+                                          <msup>
+                                            <mrow>
+                                              <mn>10</mn>
+                                            </mrow>
+                                            <mrow>
+                                              <mn>−20</mn>
+                                            </mrow>
+                                          </msup>
+                                          <mspace width="0.2em"/>
+                                          <menclose notation="horizontalstrike">
+                                            <mtext>J</mtext>
+                                          </menclose>
+                                        </mrow>
+                                      </mfrac>
+                                      <mspace width="0.2em"/>
+                                    </mtd>
+                                  </mtr>
+                                  <mtr>
+                                    <mtd>
+                                      <mo>=</mo>
+                                      <mn>2.626</mn>
+                                      <mspace width="0.2em"/>
+                                      <mo>×</mo>
+                                      <mspace width="0.2em"/>
+                                      <msup>
+                                        <mn>10</mn>
+                                        <mrow>
+                                          <mn>−6</mn>
+                                        </mrow>
+                                      </msup>
+                                      <mspace width="0.2em"/>
+                                      <mtext>m</mtext>
+                                    </mtd>
+                                  </mtr>
+                                </mtable>
+                              </mrow>
+                              <annotation-xml encoding="MathML-Content">
+                                <mtable columnalign="left">
+                                  <mtr/>
+                                  <mtr/>
+                                  <mtr>
+                                    <mtd>
+                                      <mo>=</mo>
+                                      <mrow>
+                                        <mo>(</mo>
+                                        <mrow>
+                                          <mn>6.626</mn>
+                                          <mspace width="0.2em"/>
+                                          <mo>×</mo>
+                                          <mspace width="0.2em"/>
+                                          <msup>
+                                            <mrow>
+                                              <mn>10</mn>
+                                            </mrow>
+                                            <mrow>
+                                              <mn>−34</mn>
+                                            </mrow>
+                                          </msup>
+                                          <mspace width="0.2em"/>
+                                          <menclose notation="horizontalstrike">
+                                            <mtext>J</mtext>
+                                          </menclose>
+                                          <mspace width="0.2em"/>
+                                          <menclose notation="horizontalstrike">
+                                            <mtext>s</mtext>
+                                          </menclose>
+                                        </mrow>
+                                        <mo>)</mo>
+                                      </mrow>
+                                      <mspace width="0.4em"/>
+                                      <mo>×</mo>
+                                      <mspace width="0.3em"/>
+                                      <mfrac>
+                                        <mrow>
+                                          <mn>2.998</mn>
+                                          <mspace width="0.2em"/>
+                                          <mo>×</mo>
+                                          <mspace width="0.2em"/>
+                                          <msup>
+                                            <mrow>
+                                              <mn>10</mn>
+                                            </mrow>
+                                            <mn>8</mn>
+                                          </msup>
+                                          <mspace width="0.2em"/>
+                                          <mtext>m</mtext>
+                                          <mspace width="0.2em"/>
+                                          <msup>
+                                            <mrow>
+                                              <menclose
+                                                notation="horizontalstrike"
+                                              >
+                                                <mtext>s</mtext>
+                                              </menclose>
+                                            </mrow>
+                                            <mrow>
+                                              <mn>−1</mn>
+                                            </mrow>
+                                          </msup>
+                                        </mrow>
+                                        <mrow>
+                                          <mn>7.566</mn>
+                                          <mspace width="0.2em"/>
+                                          <mo>×</mo>
+                                          <mspace width="0.2em"/>
+                                          <msup>
+                                            <mrow>
+                                              <mn>10</mn>
+                                            </mrow>
+                                            <mrow>
+                                              <mn>−20</mn>
+                                            </mrow>
+                                          </msup>
+                                          <mspace width="0.2em"/>
+                                          <menclose notation="horizontalstrike">
+                                            <mtext>J</mtext>
+                                          </menclose>
+                                        </mrow>
+                                      </mfrac>
+                                      <mspace width="0.2em"/>
+                                    </mtd>
+                                  </mtr>
+                                  <mtr>
+                                    <mtd>
+                                      <mo>=</mo>
+                                      <mn>2.626</mn>
+                                      <mspace width="0.2em"/>
+                                      <mo>×</mo>
+                                      <mspace width="0.2em"/>
+                                      <msup>
+                                        <mn>10</mn>
+                                        <mrow>
+                                          <mn>−6</mn>
+                                        </mrow>
+                                      </msup>
+                                      <mspace width="0.2em"/>
+                                      <mtext>m</mtext>
+                                    </mtd>
+                                  </mtr>
+                                </mtable>
+                              </annotation-xml>
+                            </semantics>
+                          </math>
+                        </div>
+                        <p
+                          id="fs-idp193645760"
+                        >From the illustration of the electromagnetic spectrum in Electromagnetic Energy, we can see that this wavelength is found in the infrared portion of the electromagnetic spectrum.</p>
+                        <p id="fs-idp93343568">
+                          <span data-type="title">Check Your Learning</span>
+                          What is the energy in joules and the wavelength in meters of the photon produced when an electron falls from the
+                          <em data-effect="italics">n</em> = 5 to the
+                          <em data-effect="italics">n</em> = 3 level in a He
+                          <sup>+</sup> ion (
+                          <em data-effect="italics">Z</em> = 2 for He
+                          <sup>+</sup>)?
+                        </p>
+                        <div data-type="note" id="fs-idp162376768">
+                          <h3 class="os-title" data-type="title">
+                            <span
+                              class="os-title-label"
+                              data-type
+                              id="[redacted for uniqueness]"
+                            >Answer:</span>
+                          </h3>
+                          <div class="os-note-body">
+                            <p id="fs-idp165556464">
+                              6.198
+                              <math display="inline">
+                                <semantics>
+                                  <mrow>
+                                    <mo>×</mo>
+                                  </mrow>
+                                  <annotation-xml encoding="MathML-Content">
+                                    <mo>×</mo>
+                                  </annotation-xml>
+                                </semantics>
+                              </math> 10
+                              <sup>–19</sup> J; 3.205
+                              <math display="inline">
+                                <semantics>
+                                  <mrow>
+                                    <mo>×</mo>
+                                  </mrow>
+                                  <annotation-xml encoding="MathML-Content">
+                                    <mo>×</mo>
+                                  </annotation-xml>
+                                </semantics>
+                              </math> 10
+                              <sup>−7</sup> m
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+
+                      <p
+                        id="fs-idp45577312"
+                      >Bohr’s model of the hydrogen atom provides insight into the behavior of matter at the microscopic level, but it is does not account for electron–electron interactions in atoms with more than one electron. It does introduce several important features of all models used to describe the distribution of electrons in an atom. These features include the following:</p>
+
+                      <ul data-bullet-style="bullet" id="fs-idp161748720">
+                        <li>
+                          The energies of electrons (energy levels) in an atom are quantized, described by
+                          <span
+                            data-type="term"
+                            group-by="q"
+                            id="[redacted for uniqueness]"
+                          >quantum numbers</span>: integer numbers having only specific allowed value and used to characterize the arrangement of electrons in an atom.
+                        </li>
+                        <li>An electron’s energy increases with increasing distance from the nucleus.</li>
+                        <li>The discrete energies (lines) in the spectra of the elements result from quantized electronic energies.</li>
+                      </ul>
+
+                      <p
+                        id="fs-idp152059472"
+                      >Of these features, the most important is the postulate of quantized energy levels for an electron in an atom. As a consequence, the model laid the foundation for the quantum mechanical model of the atom. Bohr won a Nobel Prize in Physics for his contributions to our understanding of the structure of atoms and how that is related to line spectra emissions.</p>
+                    </div>
+                  </div>
+                  

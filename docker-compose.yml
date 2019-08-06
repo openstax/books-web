@@ -1,0 +1,18 @@
+version: '3.5'
+services:
+  test:
+    command: bash -c "yarn install && yarn test"
+    build:
+      context: .
+      target: puppeteer
+    working_dir: /code
+    volumes:
+      - ./src:/code/src
+      - ./yarn.lock:/code/yarn.lock
+      - ./tslint.json:/code/tslint.json
+      - ./tsconfig.json:/code/tsconfig.json
+      - ./package.json:/code/package.json
+      - ./public:/code/public
+      - ./script:/code/script
+      - ./jest-puppeteer.config.js:/code/jest-puppeteer.config.js
+      - ./generic-styles:/code/generic-styles

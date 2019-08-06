@@ -1,0 +1,1511 @@
+
+                    <div
+                      data-cnxml-to-html-ver="[redacted for uniqueness]"
+                      data-type="page"
+                      id="92f7d520-699c-4ac6-8fc7-8f99c4aaee33"
+                    >
+                      <div data-type="abstract" id="[redacted for uniqueness]">
+                        By the end of this module, you will be able to:
+                        <ul>
+                          <li>Describe the effects of temperature and pressure on solubility</li>
+                          <li>State Henry’s law and use it in calculations involving the solubility of a gas in a liquid</li>
+                          <li>Explain the degrees of solubility possible for liquid-liquid solutions</li>
+                        </ul>
+                      </div>
+
+                      <p
+                        id="fs-idp45815680"
+                      >Imagine adding a small amount of sugar to a glass of water, stirring until all the sugar has dissolved, and then adding a bit more. You can repeat this process until the sugar concentration of the solution reaches its natural limit, a limit determined primarily by the relative strengths of the solute-solute, solute-solvent, and solvent-solvent attractive forces discussed in the previous two modules of this chapter. You can be certain that you have reached this limit because, no matter how long you stir the solution, undissolved sugar remains. The concentration of sugar in the solution at this point is known as its solubility.</p>
+
+                      <p id="fs-idp110015984">
+                        The
+                        <span
+                          data-type="term"
+                          group-by="s"
+                          id="[redacted for uniqueness]"
+                        >solubility</span> of a solute in a particular solvent is the maximum concentration that may be achieved under given conditions when the dissolution process is
+                        <em data-effect="italics">at equilibrium</em>.
+                      </p>
+
+                      <p id="fs-idp30743824">
+                        When a solute’s concentration is equal to its solubility, the solution is said to be
+                        <span
+                          data-type="term"
+                          group-by="s"
+                          id="[redacted for uniqueness]"
+                        >saturated</span> with that solute. If the solute’s concentration is less than its solubility, the solution is said to be
+                        <span
+                          data-type="term"
+                          group-by="u"
+                          id="[redacted for uniqueness]"
+                        >unsaturated</span>. A solution that contains a relatively low concentration of solute is called dilute, and one with a relatively high concentration is called concentrated.
+                      </p>
+
+                      <div
+                        class="chemistry link-to-learning"
+                        data-type="note"
+                        id="fs-idp37372608"
+                      >
+                        <h3 class="os-title" data-type="title">
+                          <span class="os-title-label">Link to Learning</span>
+                        </h3>
+                        <div class="os-note-body">
+                          <p id="fs-idp75533376">
+                            Use this
+                            <a
+                              href="http://openstaxcollege.org/l/16Phetsoluble"
+                              rel="noopener nofollow"
+                              target="_blank"
+                            >interactive simulation</a> to prepare various saturated solutions.
+                          </p>
+                        </div>
+                      </div>
+                      <p id="fs-idp69648624">
+                        Solutions may be prepared in which a solute concentration
+                        <em data-effect="italics">exceeds</em> its solubility. Such solutions are said to be
+                        <span
+                          data-type="term"
+                          group-by="s"
+                          id="[redacted for uniqueness]"
+                        >supersaturated</span>, and they are interesting examples of
+                        <em data-effect="italics">nonequilibrium</em> states (a detailed treatment of this important concept is provided in the text chapters on equilibrium). For example, the carbonated beverage in an open container that has not yet “gone flat” is supersaturated with carbon dioxide gas; given time, the CO
+                        <sub>2</sub> concentration will decrease until it reaches its solubility.
+                      </p>
+
+                      <div
+                        class="chemistry link-to-learning"
+                        data-type="note"
+                        id="fs-idp38905248"
+                      >
+                        <h3 class="os-title" data-type="title">
+                          <span class="os-title-label">Link to Learning</span>
+                        </h3>
+                        <div class="os-note-body">
+                          <p id="fs-idp34793776">
+                            Watch this
+                            <a
+                              href="http://openstaxcollege.org/l/16NaAcetate"
+                              rel="noopener nofollow"
+                              target="_blank"
+                            >impressive video</a> showing the precipitation of sodium acetate from a supersaturated solution.
+                          </p>
+                        </div>
+                      </div>
+                      <section data-depth="1" id="fs-idp106949904">
+                        <h3 data-type="title">Solutions of Gases in Liquids</h3>
+                        <p id="fs-idp65103440">
+                          As for any solution, the solubility of a gas in a liquid is affected by the intermolecular attractive forces between solute and solvent species. Unlike solid and liquid solutes, however, there is no solute-solute intermolecular attraction to overcome when a gaseous solute dissolves in a liquid solvent (see
+                          <a
+                            class="autogenerated-content"
+                            href="11-1-the-dissolution-process#CNX_Chem_11_01_solusolv"
+                          >Figure 11.4</a>) since the atoms or molecules comprising a gas are far separated and experience negligible interactions. Consequently, solute-solvent interactions are the sole energetic factor affecting solubility. For example, the water solubility of oxygen is approximately three times greater than that of helium (there are greater dispersion forces between water and the larger oxygen molecules) but 100 times less than the solubility of chloromethane, CHCl
+                          <sub>3</sub> (polar chloromethane molecules experience dipole–dipole attraction to polar water molecules). Likewise note the solubility of oxygen in hexane, C
+                          <sub>6</sub>H
+                          <sub>14</sub>, is approximately 20 times greater than it is in water because greater dispersion forces exist between oxygen and the larger hexane molecules.
+                        </p>
+                        <p id="fs-idp39461568">
+                          Temperature is another factor affecting solubility, with gas solubility typically decreasing as temperature increases (
+                          <a
+                            class="autogenerated-content"
+                            href="#CNX_Chem_11_03_gasdissolv"
+                          >Figure 11.8</a>). This inverse relation between temperature and dissolved gas concentration is responsible for one of the major impacts of thermal pollution in natural waters.
+                        </p>
+                        <div class="os-figure" id="CNX_Chem_11_03_gasdissolv">
+                          <figure
+                            class="scaled-down"
+                            data-id="CNX_Chem_11_03_gasdissolv"
+                          >
+                            <span
+                              data-alt="This graph shows solubilities of methane, oxygen, carbon monoxide, nitrogen, and helium in 10 superscript negative 3 mol L superscript negative 1 at temperatures ranging from 0 to 30 degrees Celsius. Solubilities as indicated on the graph in decreasing order are methane, oxygen, carbon monoxide, nitrogen, and helium. At ten degrees, solubilities in 10 superscript negative 3mol L superscript negative 1 are approximately as follows; methane 1.9, oxygen 1.8, carbon monoxide 1.2, nitrogen 0.7, and helium 0.4. At twenty degrees, solubilities in 10 superscript negative 3 mol L superscript negative 1 are approximately as follows; methane 1.2, oxygen 1.1, carbon monoxide 0.9, nitrogen 0.5, and helium 0.35."
+                              data-type="media"
+                              id="fs-idp17757392"
+                            >
+                              <img
+                                alt="This graph shows solubilities of methane, oxygen, carbon monoxide, nitrogen, and helium in 10 superscript negative 3 mol L superscript negative 1 at temperatures ranging from 0 to 30 degrees Celsius. Solubilities as indicated on the graph in decreasing order are methane, oxygen, carbon monoxide, nitrogen, and helium. At ten degrees, solubilities in 10 superscript negative 3mol L superscript negative 1 are approximately as follows; methane 1.9, oxygen 1.8, carbon monoxide 1.2, nitrogen 0.7, and helium 0.4. At twenty degrees, solubilities in 10 superscript negative 3 mol L superscript negative 1 are approximately as follows; methane 1.2, oxygen 1.1, carbon monoxide 0.9, nitrogen 0.5, and helium 0.35."
+                                data-media-type="image/jpeg"
+                                id="[redacted for uniqueness]"
+                                src="/resources/67d5f48fb800c7a72c4b549d636fb054a9980e1e"
+                              >
+                            </span>
+                          </figure>
+                          <div class="os-caption-container">
+                            <span class="os-title-label">Figure</span>
+                            <span class="os-number">11.8</span>
+                            <span class="os-divider"></span>
+                            <span class="os-divider"></span>
+                            <span
+                              class="os-caption"
+                            >The solubilities of these gases in water decrease as the temperature increases. All solubilities were measured with a constant pressure of 101.3 kPa (1 atm) of gas above the solutions.</span>
+                          </div>
+                        </div>
+                        <p id="fs-idp14325648">
+                          When the temperature of a river, lake, or stream is raised, the solubility of oxygen in the water is decreased. Decreased levels of dissolved oxygen may have serious consequences for the health of the water’s ecosystems and, in severe cases, can result in large-scale fish kills (
+                          <a
+                            class="autogenerated-content"
+                            href="#CNX_Chem_11_03_O2dissolv"
+                          >Figure 11.9</a>).
+                        </p>
+                        <div class="os-figure" id="CNX_Chem_11_03_O2dissolv">
+                          <figure data-id="CNX_Chem_11_03_O2dissolv">
+                            <span
+                              data-alt="Two photos are shown. The first shows the top portion of a transparent colorless glass of a clear colorless liquid with small bubbles near the interface of the liquid with the container. The second photo shows a portion of a partially frozen body of water with dead fish appearing on in the water and on an icy surface."
+                              data-type="media"
+                              id="fs-idp18668432"
+                            >
+                              <img
+                                alt="Two photos are shown. The first shows the top portion of a transparent colorless glass of a clear colorless liquid with small bubbles near the interface of the liquid with the container. The second photo shows a portion of a partially frozen body of water with dead fish appearing on in the water and on an icy surface."
+                                data-media-type="image/jpeg"
+                                id="[redacted for uniqueness]"
+                                src="/resources/b6f9115dd800b1c24b7ea3375002bb200c70b3e1"
+                              >
+                            </span>
+                          </figure>
+                          <div class="os-caption-container">
+                            <span class="os-title-label">Figure</span>
+                            <span class="os-number">11.9</span>
+                            <span class="os-divider"></span>
+                            <span class="os-divider"></span>
+                            <span
+                              class="os-caption"
+                            >(a) The small bubbles of air in this glass of chilled water formed when the water warmed to room temperature and the solubility of its dissolved air decreased. (b) The decreased solubility of oxygen in natural waters subjected to thermal pollution can result in large-scale fish kills. (credit a: modification of work by Liz West; credit b: modification of work by U.S. Fish and Wildlife Service)</span>
+                          </div>
+                        </div>
+                        <p id="fs-idp30867024">
+                          The solubility of a gaseous solute is also affected by the partial pressure of solute in the gas to which the solution is exposed. Gas solubility increases as the pressure of the gas increases. Carbonated beverages provide a nice illustration of this relationship. The carbonation process involves exposing the beverage to a relatively high pressure of carbon dioxide gas and then sealing the beverage container, thus saturating the beverage with CO
+                          <sub>2</sub> at this pressure. When the beverage container is opened, a familiar hiss is heard as the carbon dioxide gas pressure is released, and some of the dissolved carbon dioxide is typically seen leaving solution in the form of small bubbles (
+                          <a
+                            class="autogenerated-content"
+                            href="#CNX_Chem_11_03_beverage"
+                          >Figure 11.10</a>). At this point, the beverage is
+                          <em data-effect="italics">supersaturated</em> with carbon dioxide and, with time, the dissolved carbon dioxide concentration will decrease to its equilibrium value and the beverage will become “flat.”
+                        </p>
+                        <div class="os-figure" id="CNX_Chem_11_03_beverage">
+                          <figure
+                            class="scaled-down"
+                            data-id="CNX_Chem_11_03_beverage"
+                          >
+                            <span
+                              data-alt="A dark brown liquid is shown in a clear, colorless container. A thick layer of beige bubbles appear at the surface of the liquid. In the liquid, thirteen small clusters of single black spheres with two red spheres attached to the left and right are shown. Red spheres represent oxygen atoms and black represent carbon atoms. Seven white arrows point upward in the container from these clusters to the bubble layer at the top of the liquid."
+                              data-type="media"
+                              id="fs-idp66125536"
+                            >
+                              <img
+                                alt="A dark brown liquid is shown in a clear, colorless container. A thick layer of beige bubbles appear at the surface of the liquid. In the liquid, thirteen small clusters of single black spheres with two red spheres attached to the left and right are shown. Red spheres represent oxygen atoms and black represent carbon atoms. Seven white arrows point upward in the container from these clusters to the bubble layer at the top of the liquid."
+                                data-media-type="image/jpeg"
+                                id="[redacted for uniqueness]"
+                                src="/resources/61f521cc894c17855dcc50839f75522b7d819b06"
+                              >
+                            </span>
+                          </figure>
+                          <div class="os-caption-container">
+                            <span class="os-title-label">Figure</span>
+                            <span class="os-number">11.10</span>
+                            <span class="os-divider"></span>
+                            <span class="os-divider"></span>
+                            <span class="os-caption">
+                              Opening the bottle of carbonated beverage reduces the pressure of the
+                              <em data-effect="italics">gaseous</em> carbon dioxide above the beverage. The solubility of CO
+                              <sub>2</sub> is thus lowered, and some
+                              <em data-effect="italics">dissolved</em> carbon dioxide may be seen leaving the solution as small gas bubbles. (credit: modification of work by Derrick Coetzee)
+                            </span>
+                          </div>
+                        </div>
+                        <p id="fs-idp86085408">
+                          For many gaseous solutes, the relation between solubility,
+                          <em data-effect="italics">C</em>
+                          <sub>g</sub>, and partial pressure,
+                          <em data-effect="italics">P</em>
+                          <sub>g</sub>, is a proportional one:
+                        </p>
+                        <div data-type="equation" id="fs-idm57709472">
+                          <math display="block">
+                            <semantics>
+                              <mrow>
+                                <mrow>
+                                  <msub>
+                                    <mi>C</mi>
+                                    <mtext>g</mtext>
+                                  </msub>
+                                  <mo>=</mo>
+                                  <mi>k</mi>
+                                  <msub>
+                                    <mi>P</mi>
+                                    <mtext>g</mtext>
+                                  </msub>
+                                </mrow>
+                              </mrow>
+                              <annotation-xml encoding="MathML-Content">
+                                <mrow>
+                                  <msub>
+                                    <mi>C</mi>
+                                    <mtext>g</mtext>
+                                  </msub>
+                                  <mo>=</mo>
+                                  <mi>k</mi>
+                                  <msub>
+                                    <mi>P</mi>
+                                    <mtext>g</mtext>
+                                  </msub>
+                                </mrow>
+                              </annotation-xml>
+                            </semantics>
+                          </math>
+                        </div>
+                        <p id="fs-idp72770704">
+                          where
+                          <em data-effect="italics">k</em> is a proportionality constant that depends on the identities of the gaseous solute and solvent, and on the solution temperature. This is a mathematical statement of
+                          <span
+                            data-type="term"
+                            group-by="H"
+                            id="[redacted for uniqueness]"
+                          >Henry’s law</span>:
+                          <em
+                            data-effect="italics"
+                          >The quantity of an ideal gas that dissolves in a definite volume of liquid is directly proportional to the pressure of the gas.</em>
+                        </p>
+                        <div data-type="example" id="fs-idp3359488">
+                          <h3 class="os-title">
+                            <span class="os-title-label">Example</span>
+                            <span class="os-number">11.1</span>
+                            <span class="os-divider"></span>
+                          </h3>
+                          <p id="fs-idm1765696">
+                            <span data-type="title">Application of Henry’s Law</span>
+                            At 20 °C, the concentration of dissolved oxygen in water exposed to gaseous oxygen at a partial pressure of 101.3 kPa is 1.38
+                            <math display="inline">
+                              <semantics>
+                                <mrow>
+                                  <mrow>
+                                    <mo>×</mo>
+                                  </mrow>
+                                </mrow>
+                                <annotation-xml encoding="MathML-Content">
+                                  <mrow>
+                                    <mo>×</mo>
+                                  </mrow>
+                                </annotation-xml>
+                              </semantics>
+                            </math> 10
+                            <sup>−3</sup> mol L
+                            <sup>−1</sup>. Use Henry’s law to determine the solubility of oxygen when its partial pressure is 20.7 kPa, the approximate pressure of oxygen in earth’s atmosphere.
+                          </p>
+                          <p id="fs-idp69198064">
+                            <span data-type="title">Solution</span>
+                            According to Henry’s law, for an ideal solution the solubility,
+                            <em data-effect="italics">C</em>
+                            <sub>g</sub>, of a gas (1.38
+                            <math display="inline">
+                              <semantics>
+                                <mrow>
+                                  <mrow>
+                                    <mo>×</mo>
+                                  </mrow>
+                                </mrow>
+                                <annotation-xml encoding="MathML-Content">
+                                  <mrow>
+                                    <mo>×</mo>
+                                  </mrow>
+                                </annotation-xml>
+                              </semantics>
+                            </math> 10
+                            <sup>−3</sup> mol L
+                            <sup>−1</sup>, in this case) is directly proportional to the pressure,
+                            <em data-effect="italics">P</em>
+                            <sub>g</sub>, of the undissolved gas above the solution (101.3 kPa in this case). Because both
+                            <em data-effect="italics">C</em>
+                            <sub>g</sub> and
+                            <em data-effect="italics">P</em>
+                            <sub>g</sub> are known, this relation can be rearragned and used to solve for
+                            <em data-effect="italics">k</em>.
+                          </p>
+                          <div data-type="equation" id="fs-idm48683328">
+                            <math display="block">
+                              <semantics>
+                                <mrow>
+                                  <mtable>
+                                    <mtr>
+                                      <mtd columnalign="right">
+                                        <msub>
+                                          <mi>C</mi>
+                                          <mtext>g</mtext>
+                                        </msub>
+                                      </mtd>
+                                      <mtd>
+                                        <mo>=</mo>
+                                      </mtd>
+                                      <mtd columnalign="left">
+                                        <mi>k</mi>
+                                        <msub>
+                                          <mi>P</mi>
+                                          <mtext>g</mtext>
+                                        </msub>
+                                      </mtd>
+                                    </mtr>
+                                    <mtr>
+                                      <mtd columnalign="right">
+                                        <mi>k</mi>
+                                      </mtd>
+                                      <mtd>
+                                        <mo>=</mo>
+                                      </mtd>
+                                      <mtd columnalign="left">
+                                        <mspace width="0.2em"/>
+                                        <mfrac>
+                                          <mrow>
+                                            <msub>
+                                              <mi>C</mi>
+                                              <mtext>g</mtext>
+                                            </msub>
+                                          </mrow>
+                                          <mrow>
+                                            <msub>
+                                              <mi>P</mi>
+                                              <mtext>g</mtext>
+                                            </msub>
+                                          </mrow>
+                                        </mfrac>
+                                      </mtd>
+                                    </mtr>
+                                    <mtr>
+                                      <mtd/>
+                                      <mtd>
+                                        <mo>=</mo>
+                                      </mtd>
+                                      <mtd columnalign="left">
+                                        <mspace width="0.2em"/>
+                                        <mfrac>
+                                          <mrow>
+                                            <mn>1.38</mn>
+                                            <mspace width="0.2em"/>
+                                            <mo>×</mo>
+                                            <mspace width="0.2em"/>
+                                            <msup>
+                                              <mrow>
+                                                <mn>10</mn>
+                                              </mrow>
+                                              <mrow>
+                                                <mn>−3</mn>
+                                              </mrow>
+                                            </msup>
+                                            <mspace width="0.2em"/>
+                                            <mtext>mol</mtext>
+                                            <mspace width="0.2em"/>
+                                            <msup>
+                                              <mtext>L</mtext>
+                                              <mrow>
+                                                <mn>−1</mn>
+                                              </mrow>
+                                            </msup>
+                                          </mrow>
+                                          <mrow>
+                                            <mn>101.3</mn>
+                                            <mspace width="0.2em"/>
+                                            <mtext>kPa</mtext>
+                                          </mrow>
+                                        </mfrac>
+                                      </mtd>
+                                    </mtr>
+                                    <mtr>
+                                      <mtd/>
+                                      <mtd>
+                                        <mo>=</mo>
+                                      </mtd>
+                                      <mtd columnalign="left">
+                                        <mn>1.36</mn>
+                                        <mspace width="0.2em"/>
+                                        <mo>×</mo>
+                                        <mspace width="0.2em"/>
+                                        <msup>
+                                          <mn>10</mn>
+                                          <mrow>
+                                            <mn>−5</mn>
+                                          </mrow>
+                                        </msup>
+                                        <mspace width="0.2em"/>
+                                        <mtext>mol</mtext>
+                                        <mspace width="0.2em"/>
+                                        <msup>
+                                          <mtext>L</mtext>
+                                          <mrow>
+                                            <mn>−1</mn>
+                                          </mrow>
+                                        </msup>
+                                        <mspace width="0.2em"/>
+                                        <msup>
+                                          <mtext>kPa</mtext>
+                                          <mrow>
+                                            <mn>−1</mn>
+                                          </mrow>
+                                        </msup>
+                                      </mtd>
+                                    </mtr>
+                                  </mtable>
+                                </mrow>
+                                <annotation-xml encoding="MathML-Content">
+                                  <mtable>
+                                    <mtr>
+                                      <mtd columnalign="right">
+                                        <msub>
+                                          <mi>C</mi>
+                                          <mtext>g</mtext>
+                                        </msub>
+                                      </mtd>
+                                      <mtd>
+                                        <mo>=</mo>
+                                      </mtd>
+                                      <mtd columnalign="left">
+                                        <mi>k</mi>
+                                        <msub>
+                                          <mi>P</mi>
+                                          <mtext>g</mtext>
+                                        </msub>
+                                      </mtd>
+                                    </mtr>
+                                    <mtr>
+                                      <mtd columnalign="right">
+                                        <mi>k</mi>
+                                      </mtd>
+                                      <mtd>
+                                        <mo>=</mo>
+                                      </mtd>
+                                      <mtd columnalign="left">
+                                        <mspace width="0.2em"/>
+                                        <mfrac>
+                                          <mrow>
+                                            <msub>
+                                              <mi>C</mi>
+                                              <mtext>g</mtext>
+                                            </msub>
+                                          </mrow>
+                                          <mrow>
+                                            <msub>
+                                              <mi>P</mi>
+                                              <mtext>g</mtext>
+                                            </msub>
+                                          </mrow>
+                                        </mfrac>
+                                      </mtd>
+                                    </mtr>
+                                    <mtr>
+                                      <mtd/>
+                                      <mtd>
+                                        <mo>=</mo>
+                                      </mtd>
+                                      <mtd columnalign="left">
+                                        <mspace width="0.2em"/>
+                                        <mfrac>
+                                          <mrow>
+                                            <mn>1.38</mn>
+                                            <mspace width="0.2em"/>
+                                            <mo>×</mo>
+                                            <mspace width="0.2em"/>
+                                            <msup>
+                                              <mrow>
+                                                <mn>10</mn>
+                                              </mrow>
+                                              <mrow>
+                                                <mn>−3</mn>
+                                              </mrow>
+                                            </msup>
+                                            <mspace width="0.2em"/>
+                                            <mtext>mol</mtext>
+                                            <mspace width="0.2em"/>
+                                            <msup>
+                                              <mtext>L</mtext>
+                                              <mrow>
+                                                <mn>−1</mn>
+                                              </mrow>
+                                            </msup>
+                                          </mrow>
+                                          <mrow>
+                                            <mn>101.3</mn>
+                                            <mspace width="0.2em"/>
+                                            <mtext>kPa</mtext>
+                                          </mrow>
+                                        </mfrac>
+                                      </mtd>
+                                    </mtr>
+                                    <mtr>
+                                      <mtd/>
+                                      <mtd>
+                                        <mo>=</mo>
+                                      </mtd>
+                                      <mtd columnalign="left">
+                                        <mn>1.36</mn>
+                                        <mspace width="0.2em"/>
+                                        <mo>×</mo>
+                                        <mspace width="0.2em"/>
+                                        <msup>
+                                          <mn>10</mn>
+                                          <mrow>
+                                            <mn>−5</mn>
+                                          </mrow>
+                                        </msup>
+                                        <mspace width="0.2em"/>
+                                        <mtext>mol</mtext>
+                                        <mspace width="0.2em"/>
+                                        <msup>
+                                          <mtext>L</mtext>
+                                          <mrow>
+                                            <mn>−1</mn>
+                                          </mrow>
+                                        </msup>
+                                        <mspace width="0.2em"/>
+                                        <msup>
+                                          <mtext>kPa</mtext>
+                                          <mrow>
+                                            <mn>−1</mn>
+                                          </mrow>
+                                        </msup>
+                                      </mtd>
+                                    </mtr>
+                                  </mtable>
+                                </annotation-xml>
+                              </semantics>
+                            </math>
+                          </div>
+                          <p id="fs-idp69566528">
+                            Now, use
+                            <em data-effect="italics">k</em> to find the solubility at the lower pressure.
+                          </p>
+                          <div data-type="equation" id="fs-idp38123664">
+                            <math display="block">
+                              <semantics>
+                                <mrow>
+                                  <mtable>
+                                    <mtr>
+                                      <mtd/>
+                                      <mtd columnalign="right">
+                                        <msub>
+                                          <mi>C</mi>
+                                          <mtext>g</mtext>
+                                        </msub>
+                                      </mtd>
+                                      <mtd>
+                                        <mo>=</mo>
+                                      </mtd>
+                                      <mtd columnalign="left">
+                                        <mi>k</mi>
+                                        <msub>
+                                          <mi>P</mi>
+                                          <mtext>g</mtext>
+                                        </msub>
+                                      </mtd>
+                                    </mtr>
+                                    <mtr>
+                                      <mtd/>
+                                      <mtd/>
+                                      <mtd/>
+                                      <mtd columnalign="left">
+                                        <mn>1.36</mn>
+                                        <mspace width="0.2em"/>
+                                        <mo>×</mo>
+                                        <mspace width="0.2em"/>
+                                        <msup>
+                                          <mn>10</mn>
+                                          <mrow>
+                                            <mn>−5</mn>
+                                          </mrow>
+                                        </msup>
+                                        <mspace width="0.2em"/>
+                                        <mtext>mol</mtext>
+                                        <mspace width="0.2em"/>
+                                        <msup>
+                                          <mtext>L</mtext>
+                                          <mrow>
+                                            <mn>−1</mn>
+                                          </mrow>
+                                        </msup>
+                                        <mspace width="0.2em"/>
+                                        <msup>
+                                          <mtext>kPa</mtext>
+                                          <mrow>
+                                            <mn>−1</mn>
+                                          </mrow>
+                                        </msup>
+                                        <mspace width="0.2em"/>
+                                        <mo>×</mo>
+                                        <mspace width="0.2em"/>
+                                        <mn>20.7</mn>
+                                        <mspace width="0.2em"/>
+                                        <mtext>kPa</mtext>
+                                      </mtd>
+                                    </mtr>
+                                    <mtr>
+                                      <mtd/>
+                                      <mtd/>
+                                      <mtd>
+                                        <mo>=</mo>
+                                      </mtd>
+                                      <mtd columnalign="left">
+                                        <mn>2.82</mn>
+                                        <mspace width="0.2em"/>
+                                        <mo>×</mo>
+                                        <mspace width="0.2em"/>
+                                        <msup>
+                                          <mn>10</mn>
+                                          <mrow>
+                                            <mn>−4</mn>
+                                          </mrow>
+                                        </msup>
+                                        <mspace width="0.2em"/>
+                                        <mtext>mol</mtext>
+                                        <mspace width="0.2em"/>
+                                        <msup>
+                                          <mtext>L</mtext>
+                                          <mrow>
+                                            <mn>−1</mn>
+                                          </mrow>
+                                        </msup>
+                                      </mtd>
+                                    </mtr>
+                                  </mtable>
+                                </mrow>
+                                <annotation-xml encoding="MathML-Content">
+                                  <mtable>
+                                    <mtr>
+                                      <mtd/>
+                                      <mtd columnalign="right">
+                                        <msub>
+                                          <mi>C</mi>
+                                          <mtext>g</mtext>
+                                        </msub>
+                                      </mtd>
+                                      <mtd>
+                                        <mo>=</mo>
+                                      </mtd>
+                                      <mtd columnalign="left">
+                                        <mi>k</mi>
+                                        <msub>
+                                          <mi>P</mi>
+                                          <mtext>g</mtext>
+                                        </msub>
+                                      </mtd>
+                                    </mtr>
+                                    <mtr>
+                                      <mtd/>
+                                      <mtd/>
+                                      <mtd/>
+                                      <mtd columnalign="left">
+                                        <mn>1.36</mn>
+                                        <mspace width="0.2em"/>
+                                        <mo>×</mo>
+                                        <mspace width="0.2em"/>
+                                        <msup>
+                                          <mn>10</mn>
+                                          <mrow>
+                                            <mn>−5</mn>
+                                          </mrow>
+                                        </msup>
+                                        <mspace width="0.2em"/>
+                                        <mtext>mol</mtext>
+                                        <mspace width="0.2em"/>
+                                        <msup>
+                                          <mtext>L</mtext>
+                                          <mrow>
+                                            <mn>−1</mn>
+                                          </mrow>
+                                        </msup>
+                                        <mspace width="0.2em"/>
+                                        <msup>
+                                          <mtext>kPa</mtext>
+                                          <mrow>
+                                            <mn>−1</mn>
+                                          </mrow>
+                                        </msup>
+                                        <mspace width="0.2em"/>
+                                        <mo>×</mo>
+                                        <mspace width="0.2em"/>
+                                        <mn>20.7</mn>
+                                        <mspace width="0.2em"/>
+                                        <mtext>kPa</mtext>
+                                      </mtd>
+                                    </mtr>
+                                    <mtr>
+                                      <mtd/>
+                                      <mtd/>
+                                      <mtd>
+                                        <mo>=</mo>
+                                      </mtd>
+                                      <mtd columnalign="left">
+                                        <mn>2.82</mn>
+                                        <mspace width="0.2em"/>
+                                        <mo>×</mo>
+                                        <mspace width="0.2em"/>
+                                        <msup>
+                                          <mn>10</mn>
+                                          <mrow>
+                                            <mn>−4</mn>
+                                          </mrow>
+                                        </msup>
+                                        <mspace width="0.2em"/>
+                                        <mtext>mol</mtext>
+                                        <mspace width="0.2em"/>
+                                        <msup>
+                                          <mtext>L</mtext>
+                                          <mrow>
+                                            <mn>−1</mn>
+                                          </mrow>
+                                        </msup>
+                                      </mtd>
+                                    </mtr>
+                                  </mtable>
+                                </annotation-xml>
+                              </semantics>
+                            </math>
+                          </div>
+                          <p
+                            id="fs-idp14065136"
+                          >Note that various units may be used to express the quantities involved in these sorts of computations. Any combination of units that yield to the constraints of dimensional analysis are acceptable.</p>
+                          <p id="fs-idp911728">
+                            <span data-type="title">Check Your Learning</span>
+                            Exposing a 100.0 mL sample of water at 0 °C to an atmosphere containing a gaseous solute at 152 torr resulted in the dissolution of 1.45
+                            <math display="inline">
+                              <semantics>
+                                <mrow>
+                                  <mrow>
+                                    <mo>×</mo>
+                                  </mrow>
+                                </mrow>
+                                <annotation-xml encoding="MathML-Content">
+                                  <mrow>
+                                    <mo>×</mo>
+                                  </mrow>
+                                </annotation-xml>
+                              </semantics>
+                            </math> 10
+                            <sup>−3</sup> g of the solute. Use Henry’s law to determine the solubility of this gaseous solute when its pressure is 760 torr.
+                          </p>
+                          <div data-type="note" id="fs-idm23741504">
+                            <h3 class="os-title" data-type="title">
+                              <span
+                                class="os-title-label"
+                                data-type
+                                id="[redacted for uniqueness]"
+                              >Answer:</span>
+                            </h3>
+                            <div class="os-note-body">
+                              <p id="fs-idp7203840">
+                                7.25
+                                <math display="inline">
+                                  <semantics>
+                                    <mrow>
+                                      <mrow>
+                                        <mo>×</mo>
+                                      </mrow>
+                                    </mrow>
+                                    <annotation-xml encoding="MathML-Content">
+                                      <mrow>
+                                        <mo>×</mo>
+                                      </mrow>
+                                    </annotation-xml>
+                                  </semantics>
+                                </math> 10
+                                <sup>−3</sup> in 100.0 mL or 0.0725 g/L
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div data-type="example" id="fs-idm260338832">
+                          <h3 class="os-title">
+                            <span class="os-title-label">Example</span>
+                            <span class="os-number">11.2</span>
+                            <span class="os-divider"></span>
+                          </h3>
+                          <p id="fs-idm246086304">
+                            <span
+                              data-type="title"
+                            >Thermal Pollution and Oxygen Solubility</span>
+                            A certain species of freshwater trout requires a dissolved oxygen concentration of 7.5 mg/L. Could these fish thrive in a thermally polluted mountain stream (water temperature is 30.0 °C, partial pressure of atmospheric oxygen is 0.17 atm)?
+                          </p>
+                          <p id="fs-idm252501088">
+                            <span data-type="title">Solution</span>
+                            First, compute the Henry’s law constant for oxygen in water at the specified temperature of 30.0 °C (see
+                            <a
+                              class="autogenerated-content"
+                              href="11-4-colligative-properties#CNX_Chem_11_04_LabDistill"
+                            >Figure 11.19</a>).
+                          </p>
+                          <div data-type="equation" id="fs-idm262307104">
+                            <math display="block">
+                              <semantics>
+                                <mrow>
+                                  <mrow>
+                                    <mi>k</mi>
+                                    <mspace width="0.2em"/>
+                                    <mo>=</mo>
+                                    <mspace width="0.2em"/>
+                                    <mfrac>
+                                      <mrow>
+                                        <msub>
+                                          <mi>C</mi>
+                                          <mtext>g</mtext>
+                                        </msub>
+                                      </mrow>
+                                      <mrow>
+                                        <msub>
+                                          <mi>P</mi>
+                                          <mtext>g</mtext>
+                                        </msub>
+                                      </mrow>
+                                    </mfrac>
+                                    <mspace width="0.2em"/>
+                                    <mo>=</mo>
+                                    <mspace width="0.2em"/>
+                                    <mn>1.15</mn>
+                                    <mspace width="0.2em"/>
+                                    <mo>×</mo>
+                                    <mspace width="0.2em"/>
+                                    <msup>
+                                      <mn>10</mn>
+                                      <mrow>
+                                        <mn>−3</mn>
+                                      </mrow>
+                                    </msup>
+                                    <mspace width="0.2em"/>
+                                    <mtext>mol/L/1.00 atm</mtext>
+                                    <mspace width="0.2em"/>
+                                    <mo>=</mo>
+                                    <mspace width="0.2em"/>
+                                    <mn>1.15</mn>
+                                    <mspace width="0.2em"/>
+                                    <mo>×</mo>
+                                    <mspace width="0.2em"/>
+                                    <msup>
+                                      <mn>10</mn>
+                                      <mrow>
+                                        <mn>−3</mn>
+                                      </mrow>
+                                    </msup>
+                                    <mspace width="0.2em"/>
+                                    <mtext>mol/L atm</mtext>
+                                  </mrow>
+                                </mrow>
+                                <annotation-xml encoding="MathML-Content">
+                                  <mrow>
+                                    <mi>k</mi>
+                                    <mspace width="0.2em"/>
+                                    <mo>=</mo>
+                                    <mspace width="0.2em"/>
+                                    <mfrac>
+                                      <mrow>
+                                        <msub>
+                                          <mi>C</mi>
+                                          <mtext>g</mtext>
+                                        </msub>
+                                      </mrow>
+                                      <mrow>
+                                        <msub>
+                                          <mi>P</mi>
+                                          <mtext>g</mtext>
+                                        </msub>
+                                      </mrow>
+                                    </mfrac>
+                                    <mspace width="0.2em"/>
+                                    <mo>=</mo>
+                                    <mspace width="0.2em"/>
+                                    <mn>1.15</mn>
+                                    <mspace width="0.2em"/>
+                                    <mo>×</mo>
+                                    <mspace width="0.2em"/>
+                                    <msup>
+                                      <mn>10</mn>
+                                      <mrow>
+                                        <mn>−3</mn>
+                                      </mrow>
+                                    </msup>
+                                    <mspace width="0.2em"/>
+                                    <mtext>mol/L/1.00 atm</mtext>
+                                    <mspace width="0.2em"/>
+                                    <mo>=</mo>
+                                    <mspace width="0.2em"/>
+                                    <mn>1.15</mn>
+                                    <mspace width="0.2em"/>
+                                    <mo>×</mo>
+                                    <mspace width="0.2em"/>
+                                    <msup>
+                                      <mn>10</mn>
+                                      <mrow>
+                                        <mn>−3</mn>
+                                      </mrow>
+                                    </msup>
+                                    <mspace width="0.2em"/>
+                                    <mtext>mol/L atm</mtext>
+                                  </mrow>
+                                </annotation-xml>
+                              </semantics>
+                            </math>
+                          </div>
+                          <p id="fs-idm246607712">
+                            Then, use this
+                            <em data-effect="italics">k</em> value to compute the oxygen solubility at the specified oxygen partial pressure, 0.17 atm.
+                          </p>
+                          <div data-type="equation" id="fs-idm270799504">
+                            <math display="block">
+                              <semantics>
+                                <mrow>
+                                  <mrow>
+                                    <msub>
+                                      <mi>C</mi>
+                                      <mi>g</mi>
+                                    </msub>
+                                    <mspace width="0.2em"/>
+                                    <mo>=</mo>
+                                    <mspace width="0.2em"/>
+                                    <msub>
+                                      <mrow>
+                                        <mi>k</mi>
+                                        <mi>P</mi>
+                                      </mrow>
+                                      <mrow>
+                                        <mi>g</mi>
+                                      </mrow>
+                                    </msub>
+                                    <mspace width="0.2em"/>
+                                    <mo>=</mo>
+                                    <mspace width="0.2em"/>
+                                    <mo stretchy="false">(</mo>
+                                    <mn>1.15</mn>
+                                    <mspace width="0.2em"/>
+                                    <mo>×</mo>
+                                    <mspace width="0.2em"/>
+                                    <msup>
+                                      <mn>10</mn>
+                                      <mrow>
+                                        <mn>−3</mn>
+                                      </mrow>
+                                    </msup>
+                                    <mspace width="0.2em"/>
+                                    <mtext>mol/L atm</mtext>
+                                    <mo stretchy="false">)</mo>
+                                    <mspace width="0.2em"/>
+                                    <mo stretchy="false">(</mo>
+                                    <mn>0.17</mn>
+                                    <mspace width="0.2em"/>
+                                    <mtext>atm</mtext>
+                                    <mo stretchy="false">)</mo>
+                                    <mspace width="0.2em"/>
+                                    <mo>=</mo>
+                                    <mspace width="0.2em"/>
+                                    <mn>1.95</mn>
+                                    <mspace width="0.2em"/>
+                                    <mo>×</mo>
+                                    <mspace width="0.2em"/>
+                                    <msup>
+                                      <mn>10</mn>
+                                      <mrow>
+                                        <mn>−4</mn>
+                                      </mrow>
+                                    </msup>
+                                    <mspace width="0.2em"/>
+                                    <mtext>mol/L</mtext>
+                                  </mrow>
+                                </mrow>
+                                <annotation-xml encoding="MathML-Content">
+                                  <mrow>
+                                    <msub>
+                                      <mi>C</mi>
+                                      <mi>g</mi>
+                                    </msub>
+                                    <mspace width="0.2em"/>
+                                    <mo>=</mo>
+                                    <mspace width="0.2em"/>
+                                    <msub>
+                                      <mrow>
+                                        <mi>k</mi>
+                                        <mi>P</mi>
+                                      </mrow>
+                                      <mrow>
+                                        <mi>g</mi>
+                                      </mrow>
+                                    </msub>
+                                    <mspace width="0.2em"/>
+                                    <mo>=</mo>
+                                    <mspace width="0.2em"/>
+                                    <mo stretchy="false">(</mo>
+                                    <mn>1.15</mn>
+                                    <mspace width="0.2em"/>
+                                    <mo>×</mo>
+                                    <mspace width="0.2em"/>
+                                    <msup>
+                                      <mn>10</mn>
+                                      <mrow>
+                                        <mn>−3</mn>
+                                      </mrow>
+                                    </msup>
+                                    <mspace width="0.2em"/>
+                                    <mtext>mol/L atm</mtext>
+                                    <mo stretchy="false">)</mo>
+                                    <mspace width="0.2em"/>
+                                    <mo stretchy="false">(</mo>
+                                    <mn>0.17</mn>
+                                    <mspace width="0.2em"/>
+                                    <mtext>atm</mtext>
+                                    <mo stretchy="false">)</mo>
+                                    <mspace width="0.2em"/>
+                                    <mo>=</mo>
+                                    <mspace width="0.2em"/>
+                                    <mn>1.95</mn>
+                                    <mspace width="0.2em"/>
+                                    <mo>×</mo>
+                                    <mspace width="0.2em"/>
+                                    <msup>
+                                      <mn>10</mn>
+                                      <mrow>
+                                        <mn>−4</mn>
+                                      </mrow>
+                                    </msup>
+                                    <mspace width="0.2em"/>
+                                    <mtext>mol/L</mtext>
+                                  </mrow>
+                                </annotation-xml>
+                              </semantics>
+                            </math>
+                          </div>
+                          <p
+                            id="fs-idm243822832"
+                          >Finally, convert this dissolved oxygen concentration from mol/L to mg/L.</p>
+                          <div data-type="equation" id="fs-idm269049024">
+                            <math display="block">
+                              <semantics>
+                                <mrow>
+                                  <mrow>
+                                    <mo stretchy="false">(</mo>
+                                    <mn>1.95</mn>
+                                    <mspace width="0.2em"/>
+                                    <mo>×</mo>
+                                    <mspace width="0.2em"/>
+                                    <msup>
+                                      <mn>10</mn>
+                                      <mrow>
+                                        <mn>−4</mn>
+                                      </mrow>
+                                    </msup>
+                                    <mspace width="0.2em"/>
+                                    <mtext>mol/L</mtext>
+                                    <mo stretchy="false">)</mo>
+                                    <mspace width="0.2em"/>
+                                    <mo stretchy="false">(</mo>
+                                    <mn>32.0</mn>
+                                    <mspace width="0.2em"/>
+                                    <mtext>g/1 mol</mtext>
+                                    <mo stretchy="false">)</mo>
+                                    <mspace width="0.2em"/>
+                                    <mo stretchy="false">(</mo>
+                                    <mn>1000</mn>
+                                    <mspace width="0.2em"/>
+                                    <mtext>mg/g</mtext>
+                                    <mo stretchy="false">)</mo>
+                                    <mspace width="0.2em"/>
+                                    <mo>=</mo>
+                                    <mspace width="0.2em"/>
+                                    <mn>6.2</mn>
+                                    <mspace width="0.2em"/>
+                                    <mtext>mg/L</mtext>
+                                    <mo>.</mo>
+                                  </mrow>
+                                </mrow>
+                                <annotation-xml encoding="MathML-Content">
+                                  <mrow>
+                                    <mo stretchy="false">(</mo>
+                                    <mn>1.95</mn>
+                                    <mspace width="0.2em"/>
+                                    <mo>×</mo>
+                                    <mspace width="0.2em"/>
+                                    <msup>
+                                      <mn>10</mn>
+                                      <mrow>
+                                        <mn>−4</mn>
+                                      </mrow>
+                                    </msup>
+                                    <mspace width="0.2em"/>
+                                    <mtext>mol/L</mtext>
+                                    <mo stretchy="false">)</mo>
+                                    <mspace width="0.2em"/>
+                                    <mo stretchy="false">(</mo>
+                                    <mn>32.0</mn>
+                                    <mspace width="0.2em"/>
+                                    <mtext>g/1 mol</mtext>
+                                    <mo stretchy="false">)</mo>
+                                    <mspace width="0.2em"/>
+                                    <mo stretchy="false">(</mo>
+                                    <mn>1000</mn>
+                                    <mspace width="0.2em"/>
+                                    <mtext>mg/g</mtext>
+                                    <mo stretchy="false">)</mo>
+                                    <mspace width="0.2em"/>
+                                    <mo>=</mo>
+                                    <mspace width="0.2em"/>
+                                    <mn>6.2</mn>
+                                    <mspace width="0.2em"/>
+                                    <mtext>mg/L</mtext>
+                                    <mo>.</mo>
+                                  </mrow>
+                                </annotation-xml>
+                              </semantics>
+                            </math>
+                          </div>
+                          <p
+                            id="fs-idm330843216"
+                          >This concentration is lesser than the required minimum value of 7.5 mg/L, and so these trout would likely not thrive in the polluted stream.</p>
+                          <p id="fs-idm251562192">
+                            <span data-type="title">Check Your Learning</span>
+                            What dissolved oxygen concentration is expected for the stream above when it returns to a normal summer time temperature of 15 °C?
+                          </p>
+                          <div data-type="note" id="fs-idm252531248">
+                            <h3 class="os-title" data-type="title">
+                              <span
+                                class="os-title-label"
+                                data-type
+                                id="[redacted for uniqueness]"
+                              >Answer:</span>
+                            </h3>
+                            <div class="os-note-body">
+                              <p id="fs-idm245998528">8.2 mg/L</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="chemistry everyday-life"
+                          data-type="note"
+                          id="fs-idp99321632"
+                        >
+                          <h3 class="os-title" data-type="title">
+                            <span
+                              class="os-title-label"
+                            >Chemistry in Everyday Life</span>
+                          </h3>
+                          <div class="os-note-body">
+                            <h4
+                              class="os-subtitle"
+                              data-type="title"
+                              id="[redacted for uniqueness]"
+                            >
+                              <span
+                                class="os-subtitle-label"
+                              >Decompression Sickness or “The Bends”</span>
+                            </h4>
+                            <p
+                              id="fs-idp40268320"
+                            >Decompression sickness (DCS), or “the bends,” is an effect of the increased pressure of the air inhaled by scuba divers when swimming underwater at considerable depths. In addition to the pressure exerted by the atmosphere, divers are subjected to additional pressure due to the water above them, experiencing an increase of approximately 1 atm for each 10 m of depth. Therefore, the air inhaled by a diver while submerged contains gases at the corresponding higher ambient pressure, and the concentrations of the gases dissolved in the diver’s blood are proportionally higher per Henry’s law.</p>
+                            <p id="fs-idm1466432">
+                              As the diver ascends to the surface of the water, the ambient pressure decreases and the dissolved gases becomes less soluble. If the ascent is too rapid, the gases escaping from the diver’s blood may form bubbles that can cause a variety of symptoms ranging from rashes and joint pain to paralysis and death. To avoid DCS, divers must ascend from depths at relatively slow speeds (10 or 20 m/min) or otherwise make several decompression stops, pausing for several minutes at given depths during the ascent. When these preventive measures are unsuccessful, divers with DCS are often provided hyperbaric oxygen therapy in pressurized vessels called decompression (or recompression) chambers (
+                              <a
+                                class="autogenerated-content"
+                                href="#CNX_Chem_11_03_recompress"
+                              >Figure 11.11</a>).
+                            </p>
+                            <div
+                              class="os-figure"
+                              id="CNX_Chem_11_03_recompress"
+                            >
+                              <figure
+                                class="scaled-down"
+                                data-id="CNX_Chem_11_03_recompress"
+                              >
+                                <span
+                                  data-alt="Two photos are shown. The first shows two people seated in a steel chamber on benches that run length of the chamber on each side. The chamber has a couple of small circular windows and an open hatch-type door. One of the two people is giving a thumbs up gesture. The second image provides a view through a small, circular window. Inside the two people can be seen with masks over their mouths and noses. The people appear to be reading."
+                                  data-type="media"
+                                  id="fs-idm21151808"
+                                >
+                                  <img
+                                    alt="Two photos are shown. The first shows two people seated in a steel chamber on benches that run length of the chamber on each side. The chamber has a couple of small circular windows and an open hatch-type door. One of the two people is giving a thumbs up gesture. The second image provides a view through a small, circular window. Inside the two people can be seen with masks over their mouths and noses. The people appear to be reading."
+                                    data-media-type="image/jpeg"
+                                    id="[redacted for uniqueness]"
+                                    src="/resources/59d35db1a80241acfe09e3a6bb63072cec5a2739"
+                                  >
+                                </span>
+                              </figure>
+                              <div class="os-caption-container">
+                                <span class="os-title-label">Figure</span>
+                                <span class="os-number">11.11</span>
+                                <span class="os-divider"></span>
+                                <span class="os-divider"></span>
+                                <span
+                                  class="os-caption"
+                                >(a) US Navy divers undergo training in a recompression chamber. (b) Divers receive hyperbaric oxygen therapy.</span>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <p id="fs-idm18427536">
+                          Deviations from
+                          <span
+                            class="no-emphasis"
+                            data-type="term"
+                            group-by="H"
+                            id="[redacted for uniqueness]"
+                          >Henry’s law</span> are observed when a chemical reaction takes place between the gaseous solute and the solvent. Thus, for example, the solubility of ammonia in water increases more rapidly with increasing pressure than predicted by the law because ammonia, being a base, reacts to some extent with water to form ammonium ions and hydroxide ions.
+                        </p>
+                        <span
+                          class="scaled-down"
+                          data-alt="This reaction diagram shows three H atoms bonded to an N atom above, below, and two the left of the N. A single pair of dots is present on the right side of the N. This is followed by a plus, then two H atoms bonded to an O atom to the left and below the O. Two pairs of dots are present on the O, one above and the other to the right of the O. A double arrow, with a top arrow pointing right and a bottom arrow pointing left follows. To the right of the double arrow, four H atoms are shown bonded to a central N atom. These 5 atoms are enclosed in brackets with a superscript plus outside. A plus follows, then an O atom linked by a bond to an H atom on its right. The O atom has pairs of dots above, to the left, and below the atom. The linked O and H are enclosed in brackets with superscript minus outside."
+                          data-type="media"
+                          id="fs-idp36245120"
+                        >
+                          <img
+                            alt="This reaction diagram shows three H atoms bonded to an N atom above, below, and two the left of the N. A single pair of dots is present on the right side of the N. This is followed by a plus, then two H atoms bonded to an O atom to the left and below the O. Two pairs of dots are present on the O, one above and the other to the right of the O. A double arrow, with a top arrow pointing right and a bottom arrow pointing left follows. To the right of the double arrow, four H atoms are shown bonded to a central N atom. These 5 atoms are enclosed in brackets with a superscript plus outside. A plus follows, then an O atom linked by a bond to an H atom on its right. The O atom has pairs of dots above, to the left, and below the atom. The linked O and H are enclosed in brackets with superscript minus outside."
+                            data-media-type="image/jpeg"
+                            id="[redacted for uniqueness]"
+                            src="/resources/d037f2cdf75d06927bb56513fdde68f47318daf1"
+                          >
+                        </span>
+                        <p id="fs-idm48937408">
+                          Gases can form supersaturated solutions. If a solution of a gas in a liquid is prepared either at low temperature or under pressure (or both), then as the solution warms or as the gas pressure is reduced, the solution may become supersaturated. In 1986, more than 1700 people in Cameroon were killed when a cloud of gas, almost certainly carbon dioxide, bubbled from Lake Nyos (
+                          <a
+                            class="autogenerated-content"
+                            href="#CNX_Chem_11_03_LakeNyos"
+                          >Figure 11.12</a>), a deep lake in a volcanic crater. The water at the bottom of Lake Nyos is saturated with carbon dioxide by volcanic activity beneath the lake. It is believed that the lake underwent a turnover due to gradual heating from below the lake, and the warmer, less-dense water saturated with carbon dioxide reached the surface. Consequently, tremendous quantities of dissolved CO
+                          <sub>2</sub> were released, and the colorless gas, which is denser than air, flowed down the valley below the lake and suffocated humans and animals living in the valley.
+                        </p>
+                        <div class="os-figure" id="CNX_Chem_11_03_LakeNyos">
+                          <figure data-id="CNX_Chem_11_03_LakeNyos">
+                            <span
+                              data-alt="Two photos are shown. The first is an aerial view of a lake surrounded by green hills. The second shows a large body of water with a fountain sending liquid up into the air several yards or meters above the surface of the water."
+                              data-type="media"
+                              id="fs-idp108534848"
+                            >
+                              <img
+                                alt="Two photos are shown. The first is an aerial view of a lake surrounded by green hills. The second shows a large body of water with a fountain sending liquid up into the air several yards or meters above the surface of the water."
+                                data-media-type="image/jpeg"
+                                id="[redacted for uniqueness]"
+                                src="/resources/d66edd042c41fa9859089e99eff47e8b8de40a7f"
+                              >
+                            </span>
+                          </figure>
+                          <div class="os-caption-container">
+                            <span class="os-title-label">Figure</span>
+                            <span class="os-number">11.12</span>
+                            <span class="os-divider"></span>
+                            <span class="os-divider"></span>
+                            <span class="os-caption">
+                              (a) It is believed that the 1986 disaster that killed more than 1700 people near Lake Nyos in Cameroon resulted when a large volume of carbon dioxide gas was released from the lake. (b) A CO
+                              <sub>2</sub> vent has since been installed to help outgas the lake in a slow, controlled fashion and prevent a similar catastrophe from happening in the future. (credit a: modification of work by Jack Lockwood; credit b: modification of work by Bill Evans)
+                            </span>
+                          </div>
+                        </div>
+                      </section>
+
+                      <section data-depth="1" id="fs-idp64799168">
+                        <h3 data-type="title">Solutions of Liquids in Liquids</h3>
+                        <p id="fs-idm22997312">
+                          Some liquids may be mixed in any proportions to yield solutions; in other words, they have infinite mutual solubility and are said to be
+                          <span
+                            data-type="term"
+                            group-by="m"
+                            id="[redacted for uniqueness]"
+                          >miscible</span>. Ethanol, sulfuric acid, and ethylene glycol (popular for use as antifreeze, pictured in
+                          <a
+                            class="autogenerated-content"
+                            href="#CNX_Chem_11_03_antifreeze"
+                          >Figure 11.13</a>) are examples of liquids that are completely miscible with water. Two-cycle motor oil is miscible with gasoline, mixtures of which are used as lubricating fuels for various types of outdoor power equipment (chainsaws, leaf blowers, and so on).
+                        </p>
+                        <div class="os-figure" id="CNX_Chem_11_03_antifreeze">
+                          <figure
+                            class="scaled-down"
+                            data-id="CNX_Chem_11_03_antifreeze"
+                          >
+                            <span
+                              data-alt="This is a photo of a 1 gallon yellow plastic jug of Preston 50/50 Prediluted Antifreeze/Coolant."
+                              data-type="media"
+                              id="fs-idp105848592"
+                            >
+                              <img
+                                alt="This is a photo of a 1 gallon yellow plastic jug of Preston 50/50 Prediluted Antifreeze/Coolant."
+                                data-media-type="image/jpeg"
+                                id="[redacted for uniqueness]"
+                                src="/resources/b633c4c9da3b6c325f72a89c9c2b3640a4f8639b"
+                              >
+                            </span>
+                          </figure>
+                          <div class="os-caption-container">
+                            <span class="os-title-label">Figure</span>
+                            <span class="os-number">11.13</span>
+                            <span class="os-divider"></span>
+                            <span class="os-divider"></span>
+                            <span
+                              class="os-caption"
+                            >Water and antifreeze are miscible; mixtures of the two are homogeneous in all proportions. (credit: “dno1967”/Wikimedia commons)</span>
+                          </div>
+                        </div>
+                        <p
+                          id="fs-idp48405280"
+                        >Miscible liquids are typically those with very similar polarities. Consider, for example, liquids that are polar or capable of hydrogen bonding. For such liquids, the dipole-dipole attractions (or hydrogen bonding) of the solute molecules with the solvent molecules are at least as strong as those between molecules in the pure solute or in the pure solvent. Hence, the two kinds of molecules mix easily. Likewise, nonpolar liquids are miscible with each other because there is no appreciable difference in the strengths of solute-solute, solvent-solvent, and solute-solvent intermolecular attractions. The solubility of polar molecules in polar solvents and of nonpolar molecules in nonpolar solvents is, again, an illustration of the chemical axiom “like dissolves like.”</p>
+                        <p id="fs-idp37300448">
+                          Two liquids that do not mix to an appreciable extent are called
+                          <span
+                            data-type="term"
+                            group-by="i"
+                            id="[redacted for uniqueness]"
+                          >immiscible</span>. Separate layers are formed when immiscible liquids are poured into the same container. Gasoline, oil (
+                          <a
+                            class="autogenerated-content"
+                            href="#CNX_Chem_11_03_oilwater2"
+                          >Figure 11.14</a>), benzene, carbon tetrachloride, some paints, and many other nonpolar liquids are immiscible with water. Relatively weak attractive forces between the polar water molecules and the nonpolar liquid molecules are not adequate to overcome much stronger hydrogen bonding between water molecules. The distinction between immiscibility and miscibility is really one of extent, so that miscible liquids are of infinite mutual solubility, while liquids said to be immiscible are of very low (though not zero) mutual solubility.
+                        </p>
+                        <div class="os-figure" id="CNX_Chem_11_03_oilwater2">
+                          <figure
+                            class="scaled-down"
+                            data-id="CNX_Chem_11_03_oilwater2"
+                          >
+                            <span
+                              data-alt="This is a photo of a clear, colorless martini glass containing a golden colored liquid layer resting on top of a clear, colorless liquid."
+                              data-type="media"
+                              id="fs-idp48883952"
+                            >
+                              <img
+                                alt="This is a photo of a clear, colorless martini glass containing a golden colored liquid layer resting on top of a clear, colorless liquid."
+                                data-media-type="image/jpeg"
+                                id="[redacted for uniqueness]"
+                                src="/resources/945173d0492f8e064452dcb294f038aa421837b0"
+                              >
+                            </span>
+                          </figure>
+                          <div class="os-caption-container">
+                            <span class="os-title-label">Figure</span>
+                            <span class="os-number">11.14</span>
+                            <span class="os-divider"></span>
+                            <span class="os-divider"></span>
+                            <span
+                              class="os-caption"
+                            >Water and oil are immiscible. Mixtures of these two substances will form two separate layers with the less dense oil floating on top of the water. (credit: “Yortw”/Flickr)</span>
+                          </div>
+                        </div>
+                        <p id="fs-idp49738352">
+                          Two liquids, such as bromine and water, that are of
+                          <em data-effect="italics">moderate</em> mutual solubility are said to be
+                          <span
+                            data-type="term"
+                            group-by="p"
+                            id="[redacted for uniqueness]"
+                          >partially miscible</span>. Two partially miscible liquids usually form two layers when mixed. In the case of the bromine and water mixture, the upper layer is water, saturated with bromine, and the lower layer is bromine saturated with water. Since bromine is nonpolar, and, thus, not very soluble in water, the water layer is only slightly discolored by the bright orange bromine dissolved in it. Since the solubility of water in bromine is very low, there is no noticeable effect on the dark color of the bromine layer (
+                          <a
+                            class="autogenerated-content"
+                            href="#CNX_Chem_11_03_bromine"
+                          >Figure 11.15</a>).
+                        </p>
+                        <div class="os-figure" id="CNX_Chem_11_03_bromine">
+                          <figure
+                            class="scaled-down"
+                            data-id="CNX_Chem_11_03_bromine"
+                          >
+                            <span
+                              data-alt="This figure shows three test tubes. The first test tube holds a dark orange-brown substance. The second test tube holds a clear substance. The amount of substance in both test tubes is the same. The third test tube holds a dark orange-brown substance on the bottom with a lighter orange substance on top. The amount of substance in the third test tube is almost double of the first two."
+                              data-type="media"
+                              id="fs-idp40449744"
+                            >
+                              <img
+                                alt="This figure shows three test tubes. The first test tube holds a dark orange-brown substance. The second test tube holds a clear substance. The amount of substance in both test tubes is the same. The third test tube holds a dark orange-brown substance on the bottom with a lighter orange substance on top. The amount of substance in the third test tube is almost double of the first two."
+                                data-media-type="image/jpeg"
+                                id="[redacted for uniqueness]"
+                                src="/resources/7c6af8158a1378b38d40b71abebc194cdfa0fad6"
+                              >
+                            </span>
+                          </figure>
+                          <div class="os-caption-container">
+                            <span class="os-title-label">Figure</span>
+                            <span class="os-number">11.15</span>
+                            <span class="os-divider"></span>
+                            <span class="os-divider"></span>
+                            <span
+                              class="os-caption"
+                            >Bromine (the deep orange liquid on the left) and water (the clear liquid in the middle) are partially miscible. The top layer in the mixture on the right is a saturated solution of bromine in water; the bottom layer is a saturated solution of water in bromine. (credit: Paul Flowers)</span>
+                          </div>
+                        </div>
+                      </section>
+
+                      <section data-depth="1" id="fs-idp38976176">
+                        <h3 data-type="title">Solutions of Solids in Liquids</h3>
+                        <p id="fs-idp49095104">
+                          The dependence of solubility on temperature for a number of solids in water is shown by the solubility curves in
+                          <a
+                            class="autogenerated-content"
+                            href="#CNX_Chem_11_03_solubility"
+                          >Figure 11.16</a>. Reviewing these data indicates a general trend of increasing solubility with temperature, although there are exceptions, as illustrated by the ionic compound cerium sulfate.
+                        </p>
+                        <div class="os-figure" id="CNX_Chem_11_03_solubility">
+                          <figure
+                            class="scaled-down"
+                            data-id="CNX_Chem_11_03_solubility"
+                          >
+                            <span
+                              data-alt="This shows a graph of the solubility of sugar C subscript 12 H subscript 22 O subscript 11, K N O subscript 3, N a N O subscript 3, N a B r, K B r, N a subscript 2 S O subscript 4, K C l, and C e subscript 2 left parenthesis S O subscript 4 right parenthesis subscript 3 in g solute per 100 g H subscript 2 O at temperatures ranging from 0 degrees Celsius to 100 degrees Celsius. At 0 degrees Celsius, solubilities are approximately 180 for sugar C subscript 12 H subscript 22 O subscript 11, 115 for K N O subscript 3, 75 for N a N O subscript 3, 115 for N a B r, 55 for K B r, 7 for N a subscript 2 S O subscript 4, 25 for K C l, and 20 for C e subscript 2 left parenthesis S O subscript 4 right parenthesis subscript 3. At 0 degrees Celsius, solubilities are approximately 180 for sugar C subscript 12 H subscript 22 O subscript 11, 115 for K N O subscript 3, 75 for N a N O subscript 3, 115 for N a B r, 55 for K B r, 7 for N a subscript 2 S O subscript 4, 25 for K C l, and 20 for C e subscript 2 left parenthesis S O subscript 4 right parenthesis subscript 3. At 100 degrees Celsius, sugar C subscript 12 H subscript 22 O subscript 11 has exceeded the upper limit of solubility indicated on the graph, 240 for K N O subscript 3, 178 for N a N O subscript 3, 123 for N a B r, 105 for K B r, 52 for N a subscript 2 S O subscript 4, 58 for K C l, and the graph for C e subscript 2 left parenthesis S O subscript 4 right parenthesis subscript 3 stops at about 92 degrees Celsius where the solubility is nearly zero. The graph for N a subscript 2 S O subscript 4 is shown in red. All others substances are shown in blue. The solubility of this substance increases until about 30 degrees Celsius and declines beyond that point with increasing temperature."
+                              data-type="media"
+                              id="fs-idp19558160"
+                            >
+                              <img
+                                alt="This shows a graph of the solubility of sugar C subscript 12 H subscript 22 O subscript 11, K N O subscript 3, N a N O subscript 3, N a B r, K B r, N a subscript 2 S O subscript 4, K C l, and C e subscript 2 left parenthesis S O subscript 4 right parenthesis subscript 3 in g solute per 100 g H subscript 2 O at temperatures ranging from 0 degrees Celsius to 100 degrees Celsius. At 0 degrees Celsius, solubilities are approximately 180 for sugar C subscript 12 H subscript 22 O subscript 11, 115 for K N O subscript 3, 75 for N a N O subscript 3, 115 for N a B r, 55 for K B r, 7 for N a subscript 2 S O subscript 4, 25 for K C l, and 20 for C e subscript 2 left parenthesis S O subscript 4 right parenthesis subscript 3. At 0 degrees Celsius, solubilities are approximately 180 for sugar C subscript 12 H subscript 22 O subscript 11, 115 for K N O subscript 3, 75 for N a N O subscript 3, 115 for N a B r, 55 for K B r, 7 for N a subscript 2 S O subscript 4, 25 for K C l, and 20 for C e subscript 2 left parenthesis S O subscript 4 right parenthesis subscript 3. At 100 degrees Celsius, sugar C subscript 12 H subscript 22 O subscript 11 has exceeded the upper limit of solubility indicated on the graph, 240 for K N O subscript 3, 178 for N a N O subscript 3, 123 for N a B r, 105 for K B r, 52 for N a subscript 2 S O subscript 4, 58 for K C l, and the graph for C e subscript 2 left parenthesis S O subscript 4 right parenthesis subscript 3 stops at about 92 degrees Celsius where the solubility is nearly zero. The graph for N a subscript 2 S O subscript 4 is shown in red. All others substances are shown in blue. The solubility of this substance increases until about 30 degrees Celsius and declines beyond that point with increasing temperature."
+                                data-media-type="image/jpeg"
+                                id="[redacted for uniqueness]"
+                                src="/resources/21b32fae3c8f5219871f13618e2358ba59d6cec2"
+                              >
+                            </span>
+                          </figure>
+                          <div class="os-caption-container">
+                            <span class="os-title-label">Figure</span>
+                            <span class="os-number">11.16</span>
+                            <span class="os-divider"></span>
+                            <span class="os-divider"></span>
+                            <span
+                              class="os-caption"
+                            >This graph shows how the solubility of several solids changes with temperature.</span>
+                          </div>
+                        </div>
+                        <p id="fs-idp72000144">
+                          The temperature dependence of solubility can be exploited to prepare supersaturated solutions of certain compounds. A solution may be saturated with the compound at an elevated temperature (where the solute is more soluble) and subsequently cooled to a lower temperature without precipitating the solute. The resultant solution contains solute at a concentration greater than its equilibrium solubility at the lower temperature (i.e., it is supersaturated) and is relatively stable. Precipitation of the excess solute can be initiated by adding a seed crystal (see the video in the Link to Learning earlier in this module) or by mechanically agitating the solution. Some hand warmers, such as the one pictured in
+                          <a
+                            class="autogenerated-content"
+                            href="#CNX_Chem_11_03_handwarmer"
+                          >Figure 11.17</a>, take advantage of this behavior.
+                        </p>
+                        <div class="os-figure" id="CNX_Chem_11_03_handwarmer">
+                          <figure
+                            class="scaled-down"
+                            data-id="CNX_Chem_11_03_handwarmer"
+                          >
+                            <span
+                              data-alt="Three photos of hand warmers are shown side by side with an arrow pointing from the first photo to the second, and another arrow pointing from the second photo to the third. The first packet contains a clear colorless liquid and a small metal disc can be seen. In the second packet, the disc can’t be seen and a dispersion of white liquid is beginning. In the third packet, all of the liquid is white."
+                              data-type="media"
+                              id="fs-idm20585264"
+                            >
+                              <img
+                                alt="Three photos of hand warmers are shown side by side with an arrow pointing from the first photo to the second, and another arrow pointing from the second photo to the third. The first packet contains a clear colorless liquid and a small metal disc can be seen. In the second packet, the disc can’t be seen and a dispersion of white liquid is beginning. In the third packet, all of the liquid is white."
+                                data-media-type="image/jpeg"
+                                id="[redacted for uniqueness]"
+                                src="/resources/6d8adf5ed3c8e9cc21a196551abf220b7a9431b7"
+                              >
+                            </span>
+                          </figure>
+                          <div class="os-caption-container">
+                            <span class="os-title-label">Figure</span>
+                            <span class="os-number">11.17</span>
+                            <span class="os-divider"></span>
+                            <span class="os-divider"></span>
+                            <span
+                              class="os-caption"
+                            >This hand warmer produces heat when the sodium acetate in a supersaturated solution precipitates. Precipitation of the solute is initiated by a mechanical shockwave generated when the flexible metal disk within the solution is “clicked.” (credit: modification of work by “Velela”/Wikimedia Commons)</span>
+                          </div>
+                        </div>
+                        <div
+                          class="chemistry link-to-learning"
+                          data-type="note"
+                          id="fs-idp72233568"
+                        >
+                          <h3 class="os-title" data-type="title">
+                            <span class="os-title-label">Link to Learning</span>
+                          </h3>
+                          <div class="os-note-body">
+                            <p id="fs-idp19123632">
+                              This
+                              <a
+                                href="http://openstaxcollege.org/l/16handwarmer"
+                                rel="noopener nofollow"
+                                target="_blank"
+                              >video</a> shows the crystallization process occurring in a hand warmer.
+                            </p>
+                          </div>
+                        </div>
+                      </section>
+                    </div>
+                  </div>
+                  

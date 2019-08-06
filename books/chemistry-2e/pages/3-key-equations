@@ -1,0 +1,401 @@
+
+                    <div
+                      class="os-eoc os-key-equations-container"
+                      data-type="composite-page"
+                      data-uuid-key=".key-equations"
+                    >
+                      <section
+                        class="key-equations"
+                        data-depth="1"
+                        id="fs-idp39993248"
+                      >
+                        <ul data-bullet-style="bullet" id="fs-idp21790816">
+                          <li>
+                            <math display="inline">
+                              <semantics>
+                                <mrow>
+                                  <mrow>
+                                    <mi>%</mi>
+                                    <mspace width="0.2em"/>
+                                    <mtext>X</mtext>
+                                    <mo>=</mo>
+                                    <mspace width="0.2em"/>
+                                    <mfrac>
+                                      <mrow>
+                                        <mtext>mass X</mtext>
+                                      </mrow>
+                                      <mrow>
+                                        <mtext>mass compound</mtext>
+                                      </mrow>
+                                    </mfrac>
+                                    <mspace width="0.2em"/>
+                                    <mo>×</mo>
+                                    <mspace width="0.2em"/>
+                                    <mn>100</mn>
+                                    <mi>%</mi>
+                                  </mrow>
+                                </mrow>
+                                <annotation-xml encoding="MathML-Content">
+                                  <mrow>
+                                    <mi>%</mi>
+                                    <mspace width="0.2em"/>
+                                    <mtext>X</mtext>
+                                    <mo>=</mo>
+                                    <mspace width="0.2em"/>
+                                    <mfrac>
+                                      <mrow>
+                                        <mtext>mass X</mtext>
+                                      </mrow>
+                                      <mrow>
+                                        <mtext>mass compound</mtext>
+                                      </mrow>
+                                    </mfrac>
+                                    <mspace width="0.2em"/>
+                                    <mo>×</mo>
+                                    <mspace width="0.2em"/>
+                                    <mn>100</mn>
+                                    <mi>%</mi>
+                                  </mrow>
+                                </annotation-xml>
+                              </semantics>
+                            </math>
+                          </li>
+                          <li>
+                            <math display="inline">
+                              <semantics>
+                                <mrow>
+                                  <mrow>
+                                    <mspace width="0.2em"/>
+                                    <mfrac>
+                                      <mrow>
+                                        <mtext>molecular or molar mass</mtext>
+                                        <mspace width="0.2em"/>
+                                        <mrow>
+                                          <mo>(</mo>
+                                          <mrow>
+                                            <mtext>amu or</mtext>
+                                            <mspace width="0.4em"/>
+                                            <mfrac>
+                                              <mtext>g</mtext>
+                                              <mrow>
+                                                <mtext>mol</mtext>
+                                              </mrow>
+                                            </mfrac>
+                                          </mrow>
+                                          <mo>)</mo>
+                                        </mrow>
+                                      </mrow>
+                                      <mrow>
+                                        <mtext>empirical formula mass</mtext>
+                                        <mspace width="0.2em"/>
+                                        <mrow>
+                                          <mo>(</mo>
+                                          <mrow>
+                                            <mtext>amu or</mtext>
+                                            <mspace width="0.4em"/>
+                                            <mfrac>
+                                              <mtext>g</mtext>
+                                              <mrow>
+                                                <mtext>mol</mtext>
+                                              </mrow>
+                                            </mfrac>
+                                          </mrow>
+                                          <mo>)</mo>
+                                        </mrow>
+                                      </mrow>
+                                    </mfrac>
+                                    <mspace width="0.2em"/>
+                                    <mo>=</mo>
+                                    <mi>n</mi>
+                                    <mspace width="0.2em"/>
+                                    <mtext>formula units/molecule</mtext>
+                                  </mrow>
+                                </mrow>
+                                <annotation-xml encoding="MathML-Content">
+                                  <mrow>
+                                    <mspace width="0.2em"/>
+                                    <mfrac>
+                                      <mrow>
+                                        <mtext>molecular or molar mass</mtext>
+                                        <mspace width="0.2em"/>
+                                        <mrow>
+                                          <mo>(</mo>
+                                          <mrow>
+                                            <mtext>amu or</mtext>
+                                            <mspace width="0.4em"/>
+                                            <mfrac>
+                                              <mtext>g</mtext>
+                                              <mrow>
+                                                <mtext>mol</mtext>
+                                              </mrow>
+                                            </mfrac>
+                                          </mrow>
+                                          <mo>)</mo>
+                                        </mrow>
+                                      </mrow>
+                                      <mrow>
+                                        <mtext>empirical formula mass</mtext>
+                                        <mspace width="0.2em"/>
+                                        <mrow>
+                                          <mo>(</mo>
+                                          <mrow>
+                                            <mtext>amu or</mtext>
+                                            <mspace width="0.4em"/>
+                                            <mfrac>
+                                              <mtext>g</mtext>
+                                              <mrow>
+                                                <mtext>mol</mtext>
+                                              </mrow>
+                                            </mfrac>
+                                          </mrow>
+                                          <mo>)</mo>
+                                        </mrow>
+                                      </mrow>
+                                    </mfrac>
+                                    <mspace width="0.2em"/>
+                                    <mo>=</mo>
+                                    <mi>n</mi>
+                                    <mspace width="0.2em"/>
+                                    <mtext>formula units/molecule</mtext>
+                                  </mrow>
+                                </annotation-xml>
+                              </semantics>
+                            </math>
+                          </li>
+                          <li>
+                            (A
+                            <sub>x</sub>B
+                            <sub>y</sub>)
+                            <sub>n</sub> = A
+                            <sub>nx</sub>B
+                            <sub>ny</sub>
+                          </li>
+                        </ul>
+                      </section>
+                      <section
+                        class="key-equations"
+                        data-depth="1"
+                        id="fs-idm26459312"
+                      >
+                        <ul data-bullet-style="bullet" id="fs-idm26458432">
+                          <li>
+                            <math display="inline">
+                              <semantics>
+                                <mrow>
+                                  <mrow>
+                                    <mi>M</mi>
+                                    <mo>=</mo>
+                                    <mspace width="0.2em"/>
+                                    <mfrac>
+                                      <mrow>
+                                        <mtext>mol solute</mtext>
+                                      </mrow>
+                                      <mrow>
+                                        <mtext>L solution</mtext>
+                                      </mrow>
+                                    </mfrac>
+                                    <mspace width="0.2em"/>
+                                  </mrow>
+                                </mrow>
+                                <annotation-xml encoding="MathML-Content">
+                                  <mrow>
+                                    <mi>M</mi>
+                                    <mo>=</mo>
+                                    <mspace width="0.2em"/>
+                                    <mfrac>
+                                      <mrow>
+                                        <mtext>mol solute</mtext>
+                                      </mrow>
+                                      <mrow>
+                                        <mtext>L solution</mtext>
+                                      </mrow>
+                                    </mfrac>
+                                    <mspace width="0.2em"/>
+                                  </mrow>
+                                </annotation-xml>
+                              </semantics>
+                            </math>
+                          </li>
+                          <li>
+                            <em data-effect="italics">C</em>
+                            <sub>1</sub>
+                            <em data-effect="italics">V</em>
+                            <sub>1</sub> =
+                            <em data-effect="italics">C</em>
+                            <sub>2</sub>
+                            <em data-effect="italics">V</em>
+                            <sub>2</sub>
+                          </li>
+                        </ul>
+                      </section>
+                      <section
+                        class="key-equations"
+                        data-depth="1"
+                        id="fs-idm8172720"
+                      >
+                        <ul data-bullet-style="bullet" id="fs-idm12408000">
+                          <li>
+                            <math display="inline">
+                              <semantics>
+                                <mrow>
+                                  <mrow>
+                                    <mtext>Percent by mass</mtext>
+                                    <mo>=</mo>
+                                    <mspace width="0.2em"/>
+                                    <mfrac>
+                                      <mrow>
+                                        <mtext>mass of solute</mtext>
+                                      </mrow>
+                                      <mrow>
+                                        <mtext>mass of solution</mtext>
+                                      </mrow>
+                                    </mfrac>
+                                    <mspace width="0.2em"/>
+                                    <mo>×</mo>
+                                    <mspace width="0.2em"/>
+                                    <mn>100</mn>
+                                  </mrow>
+                                </mrow>
+                                <annotation-xml encoding="MathML-Content">
+                                  <mrow>
+                                    <mtext>Percent by mass</mtext>
+                                    <mo>=</mo>
+                                    <mspace width="0.2em"/>
+                                    <mfrac>
+                                      <mrow>
+                                        <mtext>mass of solute</mtext>
+                                      </mrow>
+                                      <mrow>
+                                        <mtext>mass of solution</mtext>
+                                      </mrow>
+                                    </mfrac>
+                                    <mspace width="0.2em"/>
+                                    <mo>×</mo>
+                                    <mspace width="0.2em"/>
+                                    <mn>100</mn>
+                                  </mrow>
+                                </annotation-xml>
+                              </semantics>
+                            </math>
+                          </li>
+                          <li>
+                            <math display="inline">
+                              <semantics>
+                                <mrow>
+                                  <mrow>
+                                    <mtext>ppm</mtext>
+                                    <mo>=</mo>
+                                    <mspace width="0.2em"/>
+                                    <mfrac>
+                                      <mrow>
+                                        <mtext>mass solute</mtext>
+                                      </mrow>
+                                      <mrow>
+                                        <mtext>mass solution</mtext>
+                                      </mrow>
+                                    </mfrac>
+                                    <mspace width="0.2em"/>
+                                    <mo>×</mo>
+                                    <mspace width="0.2em"/>
+                                    <msup>
+                                      <mrow>
+                                        <mn>10</mn>
+                                      </mrow>
+                                      <mn>6</mn>
+                                    </msup>
+                                    <mspace width="0.2em"/>
+                                    <mtext>ppm</mtext>
+                                  </mrow>
+                                </mrow>
+                                <annotation-xml encoding="MathML-Content">
+                                  <mrow>
+                                    <mtext>ppm</mtext>
+                                    <mo>=</mo>
+                                    <mspace width="0.2em"/>
+                                    <mfrac>
+                                      <mrow>
+                                        <mtext>mass solute</mtext>
+                                      </mrow>
+                                      <mrow>
+                                        <mtext>mass solution</mtext>
+                                      </mrow>
+                                    </mfrac>
+                                    <mspace width="0.2em"/>
+                                    <mo>×</mo>
+                                    <mspace width="0.2em"/>
+                                    <msup>
+                                      <mrow>
+                                        <mn>10</mn>
+                                      </mrow>
+                                      <mn>6</mn>
+                                    </msup>
+                                    <mspace width="0.2em"/>
+                                    <mtext>ppm</mtext>
+                                  </mrow>
+                                </annotation-xml>
+                              </semantics>
+                            </math>
+                          </li>
+                          <li>
+                            <math display="inline">
+                              <semantics>
+                                <mrow>
+                                  <mrow>
+                                    <mtext>ppb</mtext>
+                                    <mo>=</mo>
+                                    <mspace width="0.2em"/>
+                                    <mfrac>
+                                      <mrow>
+                                        <mtext>mass solute</mtext>
+                                      </mrow>
+                                      <mrow>
+                                        <mtext>mass solution</mtext>
+                                      </mrow>
+                                    </mfrac>
+                                    <mspace width="0.2em"/>
+                                    <mo>×</mo>
+                                    <mspace width="0.2em"/>
+                                    <msup>
+                                      <mrow>
+                                        <mn>10</mn>
+                                      </mrow>
+                                      <mn>9</mn>
+                                    </msup>
+                                    <mspace width="0.2em"/>
+                                    <mtext>ppb</mtext>
+                                  </mrow>
+                                </mrow>
+                                <annotation-xml encoding="MathML-Content">
+                                  <mrow>
+                                    <mtext>ppb</mtext>
+                                    <mo>=</mo>
+                                    <mspace width="0.2em"/>
+                                    <mfrac>
+                                      <mrow>
+                                        <mtext>mass solute</mtext>
+                                      </mrow>
+                                      <mrow>
+                                        <mtext>mass solution</mtext>
+                                      </mrow>
+                                    </mfrac>
+                                    <mspace width="0.2em"/>
+                                    <mo>×</mo>
+                                    <mspace width="0.2em"/>
+                                    <msup>
+                                      <mrow>
+                                        <mn>10</mn>
+                                      </mrow>
+                                      <mn>9</mn>
+                                    </msup>
+                                    <mspace width="0.2em"/>
+                                    <mtext>ppb</mtext>
+                                  </mrow>
+                                </annotation-xml>
+                              </semantics>
+                            </math>
+                          </li>
+                        </ul>
+                      </section>
+                    </div>
+                  </div>
+                  

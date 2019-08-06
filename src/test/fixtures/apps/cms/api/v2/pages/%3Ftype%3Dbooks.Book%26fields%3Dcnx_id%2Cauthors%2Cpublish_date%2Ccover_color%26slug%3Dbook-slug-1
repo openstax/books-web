@@ -1,0 +1,18 @@
+{
+    "meta": {
+        "total_count": 1
+    },
+    "items": [
+        {
+            "id": 1,
+            "meta": {
+                "slug": "book-slug-1"
+            },
+            "title": "Test Book 1",
+            "cnx_id": "testbook1-uuid",
+            "cover_color": "blue",
+            "authors": [{"value": {"name": "Bam Bammerson"}}],
+            "publish_date": "2012-06-21"
+        }
+    ]
+}

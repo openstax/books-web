@@ -1,0 +1,2593 @@
+
+                    <div
+                      data-cnxml-to-html-ver="[redacted for uniqueness]"
+                      data-type="page"
+                      id="5e902df9-c745-4aa6-a971-669706f327a2"
+                    >
+                      <div data-type="abstract" id="[redacted for uniqueness]">
+                        By the end of this section, you will be able to:
+                        <ul>
+                          <li>Distinguish net reactions from elementary reactions (steps)</li>
+                          <li>Identify the molecularity of elementary reactions</li>
+                          <li>Write a balanced chemical equation for a process given its reaction mechanism</li>
+                          <li>Derive the rate law consistent with a given reaction mechanism</li>
+                        </ul>
+                      </div>
+
+                      <p id="fs-idp19792192">
+                        Chemical reactions very often occur in a step-wise fashion, involving two or more distinct reactions taking place in sequence. A balanced equation indicates what is reacting and what is produced, but it reveals no details about how the reaction actually takes place. The
+                        <span
+                          data-type="term"
+                          group-by="r"
+                          id="[redacted for uniqueness]"
+                        >reaction mechanism</span> (or reaction path) provides details regarding the precise, step-by-step process by which a reaction occurs.
+                      </p>
+
+                      <p
+                        id="fs-idm10360272"
+                      >The decomposition of ozone, for example, appears to follow a mechanism with two steps:</p>
+
+                      <div data-type="equation" id="fs-idp10305696">
+                        <math display="block">
+                          <semantics>
+                            <mrow>
+                              <mtable columnalign="left">
+                                <mtr>
+                                  <mtd>
+                                    <msub>
+                                      <mtext>O</mtext>
+                                      <mn>3</mn>
+                                    </msub>
+                                    <mo stretchy="false">(</mo>
+                                    <mi>g</mi>
+                                    <mo stretchy="false">)</mo>
+                                    <mspace width="0.2em"/>
+                                    <mo stretchy="false">⟶</mo>
+                                    <mspace width="0.2em"/>
+                                    <msub>
+                                      <mtext>O</mtext>
+                                      <mn>2</mn>
+                                    </msub>
+                                    <mo stretchy="false">(</mo>
+                                    <mi>g</mi>
+                                    <mo stretchy="false">)</mo>
+                                    <mo>+</mo>
+                                    <mtext>O</mtext>
+                                  </mtd>
+                                </mtr>
+                                <mtr>
+                                  <mtd>
+                                    <mtext>O</mtext>
+                                    <mo>+</mo>
+                                    <msub>
+                                      <mtext>O</mtext>
+                                      <mn>3</mn>
+                                    </msub>
+                                    <mo stretchy="false">(</mo>
+                                    <mi>g</mi>
+                                    <mo stretchy="false">)</mo>
+                                    <mspace width="0.2em"/>
+                                    <mo stretchy="false">⟶</mo>
+                                    <mspace width="0.2em"/>
+                                    <mn>2</mn>
+                                    <msub>
+                                      <mtext>O</mtext>
+                                      <mn>2</mn>
+                                    </msub>
+                                    <mo stretchy="false">(</mo>
+                                    <mi>g</mi>
+                                    <mo stretchy="false">)</mo>
+                                  </mtd>
+                                </mtr>
+                              </mtable>
+                            </mrow>
+                            <annotation-xml encoding="MathML-Content">
+                              <mtable columnalign="left">
+                                <mtr>
+                                  <mtd>
+                                    <msub>
+                                      <mtext>O</mtext>
+                                      <mn>3</mn>
+                                    </msub>
+                                    <mo stretchy="false">(</mo>
+                                    <mi>g</mi>
+                                    <mo stretchy="false">)</mo>
+                                    <mspace width="0.2em"/>
+                                    <mo stretchy="false">⟶</mo>
+                                    <mspace width="0.2em"/>
+                                    <msub>
+                                      <mtext>O</mtext>
+                                      <mn>2</mn>
+                                    </msub>
+                                    <mo stretchy="false">(</mo>
+                                    <mi>g</mi>
+                                    <mo stretchy="false">)</mo>
+                                    <mo>+</mo>
+                                    <mtext>O</mtext>
+                                  </mtd>
+                                </mtr>
+                                <mtr>
+                                  <mtd>
+                                    <mtext>O</mtext>
+                                    <mo>+</mo>
+                                    <msub>
+                                      <mtext>O</mtext>
+                                      <mn>3</mn>
+                                    </msub>
+                                    <mo stretchy="false">(</mo>
+                                    <mi>g</mi>
+                                    <mo stretchy="false">)</mo>
+                                    <mspace width="0.2em"/>
+                                    <mo stretchy="false">⟶</mo>
+                                    <mspace width="0.2em"/>
+                                    <mn>2</mn>
+                                    <msub>
+                                      <mtext>O</mtext>
+                                      <mn>2</mn>
+                                    </msub>
+                                    <mo stretchy="false">(</mo>
+                                    <mi>g</mi>
+                                    <mo stretchy="false">)</mo>
+                                  </mtd>
+                                </mtr>
+                              </mtable>
+                            </annotation-xml>
+                          </semantics>
+                        </math>
+                      </div>
+
+                      <p id="fs-idm40865648">
+                        Each of the steps in a reaction mechanism is an
+                        <span
+                          data-type="term"
+                          group-by="e"
+                          id="[redacted for uniqueness]"
+                        >elementary reaction</span>. These elementary reactions occur precisely as represented in the step equations, and they must sum to yield the balanced chemical equation representing the overall reaction:
+                      </p>
+
+                      <div data-type="equation" id="fs-idp143616928">
+                        <math display="block">
+                          <semantics>
+                            <mrow>
+                              <mrow>
+                                <mn>2</mn>
+                                <msub>
+                                  <mtext>O</mtext>
+                                  <mn>3</mn>
+                                </msub>
+                                <mo stretchy="false">(</mo>
+                                <mi>g</mi>
+                                <mo stretchy="false">)</mo>
+                                <mspace width="0.2em"/>
+                                <mo stretchy="false">⟶</mo>
+                                <mspace width="0.2em"/>
+                                <mn>3</mn>
+                                <msub>
+                                  <mtext>O</mtext>
+                                  <mn>2</mn>
+                                </msub>
+                                <mo stretchy="false">(</mo>
+                                <mi>g</mi>
+                                <mo stretchy="false">)</mo>
+                              </mrow>
+                            </mrow>
+                            <annotation-xml encoding="MathML-Content">
+                              <mrow>
+                                <mn>2</mn>
+                                <msub>
+                                  <mtext>O</mtext>
+                                  <mn>3</mn>
+                                </msub>
+                                <mo stretchy="false">(</mo>
+                                <mi>g</mi>
+                                <mo stretchy="false">)</mo>
+                                <mspace width="0.2em"/>
+                                <mo stretchy="false">⟶</mo>
+                                <mspace width="0.2em"/>
+                                <mn>3</mn>
+                                <msub>
+                                  <mtext>O</mtext>
+                                  <mn>2</mn>
+                                </msub>
+                                <mo stretchy="false">(</mo>
+                                <mi>g</mi>
+                                <mo stretchy="false">)</mo>
+                              </mrow>
+                            </annotation-xml>
+                          </semantics>
+                        </math>
+                      </div>
+
+                      <p id="fs-idp205634512">
+                        Notice that the oxygen atom produced in the first step of this mechanism is consumed in the second step and therefore does not appear as a product in the overall reaction. Species that are produced in one step and consumed in a subsequent step are called
+                        <span
+                          data-type="term"
+                          group-by="i"
+                          id="[redacted for uniqueness]"
+                        >intermediates</span>.
+                      </p>
+
+                      <p id="fs-idp6340064">
+                        While the overall reaction equation for the decomposition of ozone indicates that two molecules of ozone react to give three molecules of oxygen, the mechanism of the reaction
+                        <em
+                          data-effect="italics"
+                        >does not involve the direct collision and reaction of two ozone molecules</em>. Instead, one O
+                        <sub>3</sub> decomposes to yield O
+                        <sub>2</sub> and an oxygen atom, and a second O
+                        <sub>3</sub> molecule subsequently reacts with the oxygen atom to yield two additional O
+                        <sub>2</sub> molecules.
+                      </p>
+
+                      <p id="fs-idm500275472">
+                        Unlike balanced equations representing an overall reaction, the equations for elementary reactions are explicit representations of the chemical change taking place. The reactant(s) in an elementary reaction’s equation undergo only the bond-breaking and/or making events depicted to yield the product(s). For this reason,
+                        <em
+                          data-effect="italics"
+                        >the rate law for an elementary reaction may be derived directly from the balanced chemical equation describing the reaction</em>. This is not the case for typical chemical reactions, for which rate laws may be reliably determined only via experimentation.
+                      </p>
+
+                      <section data-depth="1" id="fs-idp262348128">
+                        <h3 data-type="title">Unimolecular Elementary Reactions</h3>
+                        <p id="fs-idp205522704">
+                          The
+                          <span
+                            data-type="term"
+                            group-by="m"
+                            id="[redacted for uniqueness]"
+                          >molecularity</span> of an elementary reaction is the number of reactant species (atoms, molecules, or ions). For example, a
+                          <span
+                            data-type="term"
+                            group-by="u"
+                            id="[redacted for uniqueness]"
+                          >unimolecular reaction</span> involves the reaction of a
+                          <em data-effect="italics">single</em> reactant species to produce one or more molecules of product:
+                        </p>
+                        <div data-type="equation" id="fs-idp34074352">
+                          <math display="block">
+                            <semantics>
+                              <mrow>
+                                <mrow>
+                                  <mi>A</mi>
+                                  <mspace width="0.2em"/>
+                                  <mo stretchy="false">⟶</mo>
+                                  <mspace width="0.2em"/>
+                                  <mtext>products</mtext>
+                                </mrow>
+                              </mrow>
+                              <annotation-xml encoding="MathML-Content">
+                                <mrow>
+                                  <mi>A</mi>
+                                  <mspace width="0.2em"/>
+                                  <mo stretchy="false">⟶</mo>
+                                  <mspace width="0.2em"/>
+                                  <mtext>products</mtext>
+                                </mrow>
+                              </annotation-xml>
+                            </semantics>
+                          </math>
+                        </div>
+                        <p
+                          id="fs-idp13674832"
+                        >The rate law for a unimolecular reaction is first order:</p>
+                        <div data-type="equation" id="fs-idm26736096">
+                          <math display="block">
+                            <semantics>
+                              <mrow>
+                                <mrow>
+                                  <mtext>rate</mtext>
+                                  <mo>=</mo>
+                                  <mi>k</mi>
+                                  <mo stretchy="false">[</mo>
+                                  <mi>A</mi>
+                                  <mo stretchy="false">]</mo>
+                                </mrow>
+                              </mrow>
+                              <annotation-xml encoding="MathML-Content">
+                                <mrow>
+                                  <mtext>rate</mtext>
+                                  <mo>=</mo>
+                                  <mi>k</mi>
+                                  <mo stretchy="false">[</mo>
+                                  <mi>A</mi>
+                                  <mo stretchy="false">]</mo>
+                                </mrow>
+                              </annotation-xml>
+                            </semantics>
+                          </math>
+                        </div>
+                        <p
+                          id="fs-idp203524640"
+                        >A unimolecular reaction may be one of several elementary reactions in a complex mechanism. For example, the reaction:</p>
+                        <div data-type="equation" id="fs-idp16624720">
+                          <math display="block">
+                            <semantics>
+                              <mrow>
+                                <mrow>
+                                  <msub>
+                                    <mtext>O</mtext>
+                                    <mn>3</mn>
+                                  </msub>
+                                  <mspace width="0.2em"/>
+                                  <mo stretchy="false">⟶</mo>
+                                  <mspace width="0.2em"/>
+                                  <msub>
+                                    <mtext>O</mtext>
+                                    <mn>2</mn>
+                                  </msub>
+                                  <mo>+</mo>
+                                  <mtext>O</mtext>
+                                </mrow>
+                              </mrow>
+                              <annotation-xml encoding="MathML-Content">
+                                <mrow>
+                                  <msub>
+                                    <mtext>O</mtext>
+                                    <mn>3</mn>
+                                  </msub>
+                                  <mspace width="0.2em"/>
+                                  <mo stretchy="false">⟶</mo>
+                                  <mspace width="0.2em"/>
+                                  <msub>
+                                    <mtext>O</mtext>
+                                    <mn>2</mn>
+                                  </msub>
+                                  <mo>+</mo>
+                                  <mtext>O</mtext>
+                                </mrow>
+                              </annotation-xml>
+                            </semantics>
+                          </math>
+                        </div>
+                        <p id="fs-idp196763520">
+                          illustrates a unimolecular elementary reaction that occurs as one part of a two-step reaction mechanism as described above. However, some unimolecular reactions may be the only step of a single-step reaction mechanism. (In other words, an “overall” reaction may also be an elementary reaction in some cases.) For example, the gas-phase decomposition of cyclobutane, C
+                          <sub>4</sub>H
+                          <sub>8</sub>, to ethylene, C
+                          <sub>2</sub>H
+                          <sub>4</sub>, is represented by the following chemical equation:
+                        </p>
+                        <span
+                          class="scaled-down"
+                          data-alt="In this figure, structural formulas are used to illustrate a chemical reaction. On the left, a structural formula for cyclobutane is shown. This structure is composed of 4 C atoms connected with single bonds in a square shape. Each C atom is bonded to two other C atoms in the structure, leaving two bonds for H atoms pointing outward above, below, left, and right. An arrow points right to two identical ethane molecules with a plus symbol between them. Each of these molecules contains two C atoms connected with a double bond oriented vertically between them. The C atom at the top of these molecules has H atoms bonded above to the right and left. Similarly, the lower C atom has two H atoms bonded below to the right and left."
+                          data-type="media"
+                          id="fs-idp32755824"
+                        >
+                          <img
+                            alt="In this figure, structural formulas are used to illustrate a chemical reaction. On the left, a structural formula for cyclobutane is shown. This structure is composed of 4 C atoms connected with single bonds in a square shape. Each C atom is bonded to two other C atoms in the structure, leaving two bonds for H atoms pointing outward above, below, left, and right. An arrow points right to two identical ethane molecules with a plus symbol between them. Each of these molecules contains two C atoms connected with a double bond oriented vertically between them. The C atom at the top of these molecules has H atoms bonded above to the right and left. Similarly, the lower C atom has two H atoms bonded below to the right and left."
+                            data-media-type="image/jpeg"
+                            id="[redacted for uniqueness]"
+                            src="/resources/00526c142fde6b98b91f541dae631a4122abbe22"
+                          >
+                        </span>
+                        <p
+                          id="fs-idp100963616"
+                        >This equation represents the overall reaction observed, and it might also represent a legitimate unimolecular elementary reaction. The rate law predicted from this equation, assuming it is an elementary reaction, turns out to be the same as the rate law derived experimentally for the overall reaction, namely, one showing first-order behavior:</p>
+                        <div data-type="equation" id="fs-idp67724640">
+                          <math display="block">
+                            <semantics>
+                              <mrow>
+                                <mrow>
+                                  <mtext>rate</mtext>
+                                  <mo>=</mo>
+                                  <mo>−</mo>
+                                  <mspace width="0.2em"/>
+                                  <mfrac>
+                                    <mrow>
+                                      <mtext>Δ</mtext>
+                                      <mo stretchy="false">[</mo>
+                                      <msub>
+                                        <mtext>C</mtext>
+                                        <mn>4</mn>
+                                      </msub>
+                                      <msub>
+                                        <mtext>H</mtext>
+                                        <mn>8</mn>
+                                      </msub>
+                                      <mo stretchy="false">]</mo>
+                                    </mrow>
+                                    <mrow>
+                                      <mtext>Δ</mtext>
+                                      <mi>t</mi>
+                                    </mrow>
+                                  </mfrac>
+                                  <mspace width="0.1em"/>
+                                  <mo>=</mo>
+                                  <mi>k</mi>
+                                  <mo stretchy="false">[</mo>
+                                  <msub>
+                                    <mtext>C</mtext>
+                                    <mn>4</mn>
+                                  </msub>
+                                  <msub>
+                                    <mtext>H</mtext>
+                                    <mn>8</mn>
+                                  </msub>
+                                  <mo stretchy="false">]</mo>
+                                </mrow>
+                              </mrow>
+                              <annotation-xml encoding="MathML-Content">
+                                <mrow>
+                                  <mtext>rate</mtext>
+                                  <mo>=</mo>
+                                  <mo>−</mo>
+                                  <mspace width="0.2em"/>
+                                  <mfrac>
+                                    <mrow>
+                                      <mtext>Δ</mtext>
+                                      <mo stretchy="false">[</mo>
+                                      <msub>
+                                        <mtext>C</mtext>
+                                        <mn>4</mn>
+                                      </msub>
+                                      <msub>
+                                        <mtext>H</mtext>
+                                        <mn>8</mn>
+                                      </msub>
+                                      <mo stretchy="false">]</mo>
+                                    </mrow>
+                                    <mrow>
+                                      <mtext>Δ</mtext>
+                                      <mi>t</mi>
+                                    </mrow>
+                                  </mfrac>
+                                  <mspace width="0.1em"/>
+                                  <mo>=</mo>
+                                  <mi>k</mi>
+                                  <mo stretchy="false">[</mo>
+                                  <msub>
+                                    <mtext>C</mtext>
+                                    <mn>4</mn>
+                                  </msub>
+                                  <msub>
+                                    <mtext>H</mtext>
+                                    <mn>8</mn>
+                                  </msub>
+                                  <mo stretchy="false">]</mo>
+                                </mrow>
+                              </annotation-xml>
+                            </semantics>
+                          </math>
+                        </div>
+                        <p
+                          id="fs-idp128923296"
+                        >This agreement between observed and predicted rate laws is interpreted to mean that the proposed unimolecular, single-step process is a reasonable mechanism for the butadiene reaction.</p>
+                      </section>
+
+                      <section data-depth="1" id="fs-idp108234736">
+                        <h3 data-type="title">Bimolecular Elementary Reactions</h3>
+                        <p id="fs-idp87793216">
+                          A
+                          <span
+                            data-type="term"
+                            group-by="b"
+                            id="[redacted for uniqueness]"
+                          >bimolecular reaction</span> involves two reactant species, for example:
+                        </p>
+                        <div data-type="equation" id="fs-idp211065760">
+                          <math display="block">
+                            <semantics>
+                              <mrow>
+                                <mtable>
+                                  <mtr>
+                                    <mtd>
+                                      <mi>A</mi>
+                                      <mo>+</mo>
+                                      <mi>B</mi>
+                                      <mspace width="0.2em"/>
+                                      <mo stretchy="false">⟶</mo>
+                                      <mspace width="0.2em"/>
+                                      <mtext>products</mtext>
+                                    </mtd>
+                                  </mtr>
+                                  <mtr>
+                                    <mtd>
+                                      <mtext>and</mtext>
+                                    </mtd>
+                                  </mtr>
+                                  <mtr>
+                                    <mtd>
+                                      <mn>2</mn>
+                                      <mi>A</mi>
+                                      <mspace width="0.2em"/>
+                                      <mo stretchy="false">⟶</mo>
+                                      <mspace width="0.2em"/>
+                                      <mtext>products</mtext>
+                                    </mtd>
+                                  </mtr>
+                                </mtable>
+                              </mrow>
+                              <annotation-xml encoding="MathML-Content">
+                                <mtable>
+                                  <mtr>
+                                    <mtd>
+                                      <mi>A</mi>
+                                      <mo>+</mo>
+                                      <mi>B</mi>
+                                      <mspace width="0.2em"/>
+                                      <mo stretchy="false">⟶</mo>
+                                      <mspace width="0.2em"/>
+                                      <mtext>products</mtext>
+                                    </mtd>
+                                  </mtr>
+                                  <mtr>
+                                    <mtd>
+                                      <mtext>and</mtext>
+                                    </mtd>
+                                  </mtr>
+                                  <mtr>
+                                    <mtd>
+                                      <mn>2</mn>
+                                      <mi>A</mi>
+                                      <mspace width="0.2em"/>
+                                      <mo stretchy="false">⟶</mo>
+                                      <mspace width="0.2em"/>
+                                      <mtext>products</mtext>
+                                    </mtd>
+                                  </mtr>
+                                </mtable>
+                              </annotation-xml>
+                            </semantics>
+                          </math>
+                        </div>
+                        <p id="fs-idm80729584">
+                          For the first type, in which the two reactant molecules are different, the rate law is first-order in
+                          <em data-effect="italics">A</em> and first order in
+                          <em data-effect="italics">B</em> (second-order overall):
+                        </p>
+                        <div data-type="equation" id="fs-idm26928768">
+                          <math display="block">
+                            <semantics>
+                              <mrow>
+                                <mtext>rate</mtext>
+                                <mo>=</mo>
+                                <mi>k</mi>
+                                <mo stretchy="false">[</mo>
+                                <mi>A</mi>
+                                <mo stretchy="false">]</mo>
+                                <mo stretchy="false">[</mo>
+                                <mi>B</mi>
+                                <mo stretchy="false">]</mo>
+                              </mrow>
+                              <annotation-xml encoding="MathML-Content">
+                                <mtext>rate</mtext>
+                                <mo>=</mo>
+                                <mi>k</mi>
+                                <mo stretchy="false">[</mo>
+                                <mi>A</mi>
+                                <mo stretchy="false">]</mo>
+                                <mo stretchy="false">[</mo>
+                                <mi>B</mi>
+                                <mo stretchy="false">]</mo>
+                              </annotation-xml>
+                            </semantics>
+                          </math>
+                        </div>
+                        <p id="fs-idp220120832">
+                          For the second type, in which two identical molecules collide and react, the rate law is second order in
+                          <em data-effect="italics">A</em>:
+                        </p>
+                        <div data-type="equation" id="fs-idp93993280">
+                          <math display="block">
+                            <semantics>
+                              <mrow>
+                                <mtext>rate</mtext>
+                                <mo>=</mo>
+                                <mi>k</mi>
+                                <mo stretchy="false">[</mo>
+                                <mi>A</mi>
+                                <mo stretchy="false">]</mo>
+                                <mo stretchy="false">[</mo>
+                                <mi>A</mi>
+                                <mo stretchy="false">]</mo>
+                                <mo>=</mo>
+                                <mi>k</mi>
+                                <mo stretchy="false">[</mo>
+                                <mi>A</mi>
+                                <msup>
+                                  <mo stretchy="false">]</mo>
+                                  <mn>2</mn>
+                                </msup>
+                              </mrow>
+                              <annotation-xml encoding="MathML-Content">
+                                <mtext>rate</mtext>
+                                <mo>=</mo>
+                                <mi>k</mi>
+                                <mo stretchy="false">[</mo>
+                                <mi>A</mi>
+                                <mo stretchy="false">]</mo>
+                                <mo stretchy="false">[</mo>
+                                <mi>A</mi>
+                                <mo stretchy="false">]</mo>
+                                <mo>=</mo>
+                                <mi>k</mi>
+                                <mo stretchy="false">[</mo>
+                                <mi>A</mi>
+                                <msup>
+                                  <mo stretchy="false">]</mo>
+                                  <mn>2</mn>
+                                </msup>
+                              </annotation-xml>
+                            </semantics>
+                          </math>
+                        </div>
+                        <p
+                          id="fs-idp43609744"
+                        >Some chemical reactions occur by mechanisms that consist of a single bimolecular elementary reaction. One example is the reaction of nitrogen dioxide with carbon monoxide:</p>
+                        <div data-type="equation" id="fs-idm24253872">
+                          <math display="block">
+                            <semantics>
+                              <mrow>
+                                <mrow>
+                                  <msub>
+                                    <mrow>
+                                      <mtext>NO</mtext>
+                                    </mrow>
+                                    <mn>2</mn>
+                                  </msub>
+                                  <mo stretchy="false">(</mo>
+                                  <mi>g</mi>
+                                  <mo stretchy="false">)</mo>
+                                  <mo>+</mo>
+                                  <mtext>CO</mtext>
+                                  <mo stretchy="false">(</mo>
+                                  <mi>g</mi>
+                                  <mo stretchy="false">)</mo>
+                                  <mspace width="0.2em"/>
+                                  <mo stretchy="false">⟶</mo>
+                                  <mspace width="0.2em"/>
+                                  <mtext>NO</mtext>
+                                  <mo stretchy="false">(</mo>
+                                  <mi>g</mi>
+                                  <mo stretchy="false">)</mo>
+                                  <mo>+</mo>
+                                  <msub>
+                                    <mrow>
+                                      <mtext>CO</mtext>
+                                    </mrow>
+                                    <mn>2</mn>
+                                  </msub>
+                                  <mo stretchy="false">(</mo>
+                                  <mi>g</mi>
+                                  <mo stretchy="false">)</mo>
+                                </mrow>
+                              </mrow>
+                              <annotation-xml encoding="MathML-Content">
+                                <mrow>
+                                  <msub>
+                                    <mrow>
+                                      <mtext>NO</mtext>
+                                    </mrow>
+                                    <mn>2</mn>
+                                  </msub>
+                                  <mo stretchy="false">(</mo>
+                                  <mi>g</mi>
+                                  <mo stretchy="false">)</mo>
+                                  <mo>+</mo>
+                                  <mtext>CO</mtext>
+                                  <mo stretchy="false">(</mo>
+                                  <mi>g</mi>
+                                  <mo stretchy="false">)</mo>
+                                  <mspace width="0.2em"/>
+                                  <mo stretchy="false">⟶</mo>
+                                  <mspace width="0.2em"/>
+                                  <mtext>NO</mtext>
+                                  <mo stretchy="false">(</mo>
+                                  <mi>g</mi>
+                                  <mo stretchy="false">)</mo>
+                                  <mo>+</mo>
+                                  <msub>
+                                    <mrow>
+                                      <mtext>CO</mtext>
+                                    </mrow>
+                                    <mn>2</mn>
+                                  </msub>
+                                  <mo stretchy="false">(</mo>
+                                  <mi>g</mi>
+                                  <mo stretchy="false">)</mo>
+                                </mrow>
+                              </annotation-xml>
+                            </semantics>
+                          </math>
+                        </div>
+                        <p id="fs-idp38254032">
+                          (see
+                          <a
+                            class="autogenerated-content"
+                            href="#CNX_Chem_12_06_BimoElRe"
+                          >Figure 12.17</a>)
+                        </p>
+                        <div class="os-figure" id="CNX_Chem_12_06_BimoElRe">
+                          <figure
+                            class="scaled-down"
+                            data-id="CNX_Chem_12_06_BimoElRe"
+                          >
+                            <span
+                              data-alt="This figure provides an illustration of a reaction between two H I molecules using space filling models. H atoms are shown as white spheres, and I atoms are shown as purple spheres. On the left, two H I molecules are shownwith a small white sphere bonded to a much larger purple sphere. The label, “Two H I molecules,” appears below. An arrow points right to a similar structure in which the two molecules appear pushed together, so that the purple spheres of the two molecules are touching. Below appears the label, “Transition state.” Following another arrow, two white spheres are shown vertically oriented and bonded together with the label, “H subscript 2” above. The H subscript 2 molecule is followed by a plus sign and two purple spheres bonded together with the label, “I subscript 2” above. Below these structures is the label, “Hydrogen iodide molecules decompose to produce hydrogen H subscript 2 and iodine I subscript 2.”"
+                              data-type="media"
+                              id="fs-idp70495312"
+                            >
+                              <img
+                                alt="This figure provides an illustration of a reaction between two H I molecules using space filling models. H atoms are shown as white spheres, and I atoms are shown as purple spheres. On the left, two H I molecules are shownwith a small white sphere bonded to a much larger purple sphere. The label, “Two H I molecules,” appears below. An arrow points right to a similar structure in which the two molecules appear pushed together, so that the purple spheres of the two molecules are touching. Below appears the label, “Transition state.” Following another arrow, two white spheres are shown vertically oriented and bonded together with the label, “H subscript 2” above. The H subscript 2 molecule is followed by a plus sign and two purple spheres bonded together with the label, “I subscript 2” above. Below these structures is the label, “Hydrogen iodide molecules decompose to produce hydrogen H subscript 2 and iodine I subscript 2.”"
+                                data-media-type="image/jpeg"
+                                id="[redacted for uniqueness]"
+                                src="/resources/9786aed35d8e9f6d86771aad63ad5543b409678e"
+                              >
+                            </span>
+                          </figure>
+                          <div class="os-caption-container">
+                            <span class="os-title-label">Figure</span>
+                            <span class="os-number">12.17</span>
+                            <span class="os-divider"></span>
+                            <span class="os-divider"></span>
+                            <span class="os-caption">
+                              The probable mechanism for the reaction between NO
+                              <sub>2</sub> and CO to yield NO and CO
+                              <sub>2</sub>.
+                            </span>
+                          </div>
+                        </div>
+                        <p
+                          id="fs-idp38432416"
+                        >Bimolecular elementary reactions may also be involved as steps in a multistep reaction mechanism. The reaction of atomic oxygen with ozone is the second step of the two-step ozone decomposition mechanism discussed earlier in this section:</p>
+                        <div data-type="equation" id="fs-idp100763440">
+                          <math display="block">
+                            <semantics>
+                              <mrow>
+                                <mrow>
+                                  <mtext>O</mtext>
+                                  <mo stretchy="false">(</mo>
+                                  <mi>g</mi>
+                                  <mo stretchy="false">)</mo>
+                                  <mo>+</mo>
+                                  <msub>
+                                    <mtext>O</mtext>
+                                    <mn>3</mn>
+                                  </msub>
+                                  <mo stretchy="false">(</mo>
+                                  <mi>g</mi>
+                                  <mo stretchy="false">)</mo>
+                                  <mspace width="0.2em"/>
+                                  <mo stretchy="false">⟶</mo>
+                                  <mspace width="0.2em"/>
+                                  <msub>
+                                    <mtext>2O</mtext>
+                                    <mn>2</mn>
+                                  </msub>
+                                  <mo stretchy="false">(</mo>
+                                  <mi>g</mi>
+                                  <mo stretchy="false">)</mo>
+                                </mrow>
+                              </mrow>
+                              <annotation-xml encoding="MathML-Content">
+                                <mrow>
+                                  <mtext>O</mtext>
+                                  <mo stretchy="false">(</mo>
+                                  <mi>g</mi>
+                                  <mo stretchy="false">)</mo>
+                                  <mo>+</mo>
+                                  <msub>
+                                    <mtext>O</mtext>
+                                    <mn>3</mn>
+                                  </msub>
+                                  <mo stretchy="false">(</mo>
+                                  <mi>g</mi>
+                                  <mo stretchy="false">)</mo>
+                                  <mspace width="0.2em"/>
+                                  <mo stretchy="false">⟶</mo>
+                                  <mspace width="0.2em"/>
+                                  <msub>
+                                    <mtext>2O</mtext>
+                                    <mn>2</mn>
+                                  </msub>
+                                  <mo stretchy="false">(</mo>
+                                  <mi>g</mi>
+                                  <mo stretchy="false">)</mo>
+                                </mrow>
+                              </annotation-xml>
+                            </semantics>
+                          </math>
+                        </div>
+                      </section>
+
+                      <section data-depth="1" id="fs-idp38909440">
+                        <h3 data-type="title">Termolecular Elementary Reactions</h3>
+                        <p id="fs-idm9155392">
+                          An elementary
+                          <span
+                            data-type="term"
+                            group-by="t"
+                            id="[redacted for uniqueness]"
+                          >termolecular reaction</span> involves the simultaneous collision of three atoms, molecules, or ions. Termolecular elementary reactions are uncommon because the probability of three particles colliding simultaneously is less than one one-thousandth of the probability of two particles colliding. There are, however, a few established termolecular elementary reactions. The reaction of nitric oxide with oxygen appears to involve termolecular steps:
+                        </p>
+                        <div data-type="equation" id="fs-idp196238032">
+                          <math display="block">
+                            <semantics>
+                              <mrow>
+                                <mtable columnalign="left">
+                                  <mtr>
+                                    <mtd>
+                                      <mtext>2NO</mtext>
+                                      <mo>+</mo>
+                                      <msub>
+                                        <mtext>O</mtext>
+                                        <mn>2</mn>
+                                      </msub>
+                                      <mspace width="0.2em"/>
+                                      <mo stretchy="false">⟶</mo>
+                                      <mspace width="0.2em"/>
+                                      <mn>2</mn>
+                                      <msub>
+                                        <mtext>NO</mtext>
+                                        <mn>2</mn>
+                                      </msub>
+                                    </mtd>
+                                  </mtr>
+                                  <mtr>
+                                    <mtd>
+                                      <mtext>rate</mtext>
+                                      <mo>=</mo>
+                                      <mi>k</mi>
+                                      <msup>
+                                        <mrow>
+                                          <mo stretchy="false">[</mo>
+                                          <mtext>NO</mtext>
+                                          <mo stretchy="false">]</mo>
+                                        </mrow>
+                                        <mrow>
+                                          <mn>2</mn>
+                                        </mrow>
+                                      </msup>
+                                      <mo stretchy="false">[</mo>
+                                      <msub>
+                                        <mtext>O</mtext>
+                                        <mn>2</mn>
+                                      </msub>
+                                      <mo stretchy="false">]</mo>
+                                    </mtd>
+                                  </mtr>
+                                </mtable>
+                              </mrow>
+                              <annotation-xml encoding="MathML-Content">
+                                <mtable columnalign="left">
+                                  <mtr>
+                                    <mtd>
+                                      <mtext>2NO</mtext>
+                                      <mo>+</mo>
+                                      <msub>
+                                        <mtext>O</mtext>
+                                        <mn>2</mn>
+                                      </msub>
+                                      <mspace width="0.2em"/>
+                                      <mo stretchy="false">⟶</mo>
+                                      <mspace width="0.2em"/>
+                                      <mn>2</mn>
+                                      <msub>
+                                        <mtext>NO</mtext>
+                                        <mn>2</mn>
+                                      </msub>
+                                    </mtd>
+                                  </mtr>
+                                  <mtr>
+                                    <mtd>
+                                      <mtext>rate</mtext>
+                                      <mo>=</mo>
+                                      <mi>k</mi>
+                                      <msup>
+                                        <mrow>
+                                          <mo stretchy="false">[</mo>
+                                          <mtext>NO</mtext>
+                                          <mo stretchy="false">]</mo>
+                                        </mrow>
+                                        <mrow>
+                                          <mn>2</mn>
+                                        </mrow>
+                                      </msup>
+                                      <mo stretchy="false">[</mo>
+                                      <msub>
+                                        <mtext>O</mtext>
+                                        <mn>2</mn>
+                                      </msub>
+                                      <mo stretchy="false">]</mo>
+                                    </mtd>
+                                  </mtr>
+                                </mtable>
+                              </annotation-xml>
+                            </semantics>
+                          </math>
+                        </div>
+                        <p
+                          id="fs-idp136937056"
+                        >Likewise, the reaction of nitric oxide with chlorine appears to involve termolecular steps:</p>
+                        <div data-type="equation" id="fs-idp128771280">
+                          <math display="block">
+                            <semantics>
+                              <mrow>
+                                <mtable columnalign="left">
+                                  <mtr>
+                                    <mtd>
+                                      <mtext>2NO</mtext>
+                                      <mo>+</mo>
+                                      <msub>
+                                        <mtext>Cl</mtext>
+                                        <mn>2</mn>
+                                      </msub>
+                                      <mspace width="0.2em"/>
+                                      <mo stretchy="false">⟶</mo>
+                                      <mspace width="0.2em"/>
+                                      <mn>2</mn>
+                                      <mtext>NOCl</mtext>
+                                    </mtd>
+                                  </mtr>
+                                  <mtr>
+                                    <mtd>
+                                      <mtext>rate</mtext>
+                                      <mo>=</mo>
+                                      <mi>k</mi>
+                                      <msup>
+                                        <mrow>
+                                          <mtext>[NO]</mtext>
+                                        </mrow>
+                                        <mn>2</mn>
+                                      </msup>
+                                      <mo stretchy="false">[</mo>
+                                      <msub>
+                                        <mrow>
+                                          <mtext>Cl</mtext>
+                                        </mrow>
+                                        <mn>2</mn>
+                                      </msub>
+                                      <mo stretchy="false">]</mo>
+                                    </mtd>
+                                  </mtr>
+                                </mtable>
+                              </mrow>
+                              <annotation-xml encoding="MathML-Content">
+                                <mtable columnalign="left">
+                                  <mtr>
+                                    <mtd>
+                                      <mtext>2NO</mtext>
+                                      <mo>+</mo>
+                                      <msub>
+                                        <mtext>Cl</mtext>
+                                        <mn>2</mn>
+                                      </msub>
+                                      <mspace width="0.2em"/>
+                                      <mo stretchy="false">⟶</mo>
+                                      <mspace width="0.2em"/>
+                                      <mn>2</mn>
+                                      <mtext>NOCl</mtext>
+                                    </mtd>
+                                  </mtr>
+                                  <mtr>
+                                    <mtd>
+                                      <mtext>rate</mtext>
+                                      <mo>=</mo>
+                                      <mi>k</mi>
+                                      <msup>
+                                        <mrow>
+                                          <mtext>[NO]</mtext>
+                                        </mrow>
+                                        <mn>2</mn>
+                                      </msup>
+                                      <mo stretchy="false">[</mo>
+                                      <msub>
+                                        <mrow>
+                                          <mtext>Cl</mtext>
+                                        </mrow>
+                                        <mn>2</mn>
+                                      </msub>
+                                      <mo stretchy="false">]</mo>
+                                    </mtd>
+                                  </mtr>
+                                </mtable>
+                              </annotation-xml>
+                            </semantics>
+                          </math>
+                        </div>
+                      </section>
+
+                      <section data-depth="1" id="fs-idp270477600">
+                        <h3
+                          data-type="title"
+                        >Relating Reaction Mechanisms to Rate Laws</h3>
+                        <p id="fs-idp253615520">
+                          It’s often the case that one step in a multistep reaction mechanism is significantly slower than the others. Because a reaction cannot proceed faster than its slowest step, this step will limit the rate at which the overall reaction occurs. The slowest step is therefore called the
+                          <span
+                            data-type="term"
+                            group-by="r"
+                            id="[redacted for uniqueness]"
+                          >rate-limiting step</span> (or rate-determining step) of the reaction
+                          <a
+                            class="autogenerated-content"
+                            href="#CNX_Chem_12_06_Cattle"
+                          >Figure 12.18</a>.
+                        </p>
+                        <div class="os-figure" id="CNX_Chem_12_06_Cattle">
+                          <figure
+                            class="scaled-down"
+                            data-id="CNX_Chem_12_06_Cattle"
+                          >
+                            <span
+                              data-alt="A photo is shown of cattle passing through a narrow chute into a holding pen. A person directs them through the gate with a long white and red pole."
+                              data-type="media"
+                              id="fs-idp96445120"
+                            >
+                              <img
+                                alt="A photo is shown of cattle passing through a narrow chute into a holding pen. A person directs them through the gate with a long white and red pole."
+                                data-media-type="image/jpeg"
+                                id="[redacted for uniqueness]"
+                                src="/resources/9884d705ce9e4a73f0438ed191cb8ed7e6869af1"
+                              >
+                            </span>
+                          </figure>
+                          <div class="os-caption-container">
+                            <span class="os-title-label">Figure</span>
+                            <span class="os-number">12.18</span>
+                            <span class="os-divider"></span>
+                            <span class="os-divider"></span>
+                            <span
+                              class="os-caption"
+                            >A cattle chute is a nonchemical example of a rate-determining step. Cattle can only be moved from one holding pen to another as quickly as one animal can make its way through the chute. (credit: Loren Kerns)</span>
+                          </div>
+                        </div>
+                        <p id="fs-idp41680064">
+                          As described earlier, rate laws may be derived directly from the chemical equations for elementary reactions. This is not the case, however, for ordinary chemical reactions. The balanced equations most often encountered represent the overall change for some chemical system, and very often this is the result of some multistep reaction mechanisms. In every case, the rate law must be determined from experimental data and the reaction mechanism subsequently deduced from the rate law (and sometimes from other data). The reaction of NO
+                          <sub>2</sub> and CO provides an illustrative example:
+                        </p>
+                        <div data-type="equation" id="fs-idp193034480">
+                          <math display="block">
+                            <semantics>
+                              <mrow>
+                                <mrow>
+                                  <msub>
+                                    <mrow>
+                                      <mtext>NO</mtext>
+                                    </mrow>
+                                    <mn>2</mn>
+                                  </msub>
+                                  <mo stretchy="false">(</mo>
+                                  <mi>g</mi>
+                                  <mo stretchy="false">)</mo>
+                                  <mo>+</mo>
+                                  <mtext>CO</mtext>
+                                  <mo stretchy="false">(</mo>
+                                  <mi>g</mi>
+                                  <mo stretchy="false">)</mo>
+                                  <mspace width="0.2em"/>
+                                  <mo stretchy="false">⟶</mo>
+                                  <mspace width="0.2em"/>
+                                  <msub>
+                                    <mrow>
+                                      <mtext>CO</mtext>
+                                    </mrow>
+                                    <mn>2</mn>
+                                  </msub>
+                                  <mo stretchy="false">(</mo>
+                                  <mi>g</mi>
+                                  <mo stretchy="false">)</mo>
+                                  <mo>+</mo>
+                                  <mtext>NO</mtext>
+                                  <mo stretchy="false">(</mo>
+                                  <mi>g</mi>
+                                  <mo stretchy="false">)</mo>
+                                </mrow>
+                              </mrow>
+                              <annotation-xml encoding="MathML-Content">
+                                <mrow>
+                                  <msub>
+                                    <mrow>
+                                      <mtext>NO</mtext>
+                                    </mrow>
+                                    <mn>2</mn>
+                                  </msub>
+                                  <mo stretchy="false">(</mo>
+                                  <mi>g</mi>
+                                  <mo stretchy="false">)</mo>
+                                  <mo>+</mo>
+                                  <mtext>CO</mtext>
+                                  <mo stretchy="false">(</mo>
+                                  <mi>g</mi>
+                                  <mo stretchy="false">)</mo>
+                                  <mspace width="0.2em"/>
+                                  <mo stretchy="false">⟶</mo>
+                                  <mspace width="0.2em"/>
+                                  <msub>
+                                    <mrow>
+                                      <mtext>CO</mtext>
+                                    </mrow>
+                                    <mn>2</mn>
+                                  </msub>
+                                  <mo stretchy="false">(</mo>
+                                  <mi>g</mi>
+                                  <mo stretchy="false">)</mo>
+                                  <mo>+</mo>
+                                  <mtext>NO</mtext>
+                                  <mo stretchy="false">(</mo>
+                                  <mi>g</mi>
+                                  <mo stretchy="false">)</mo>
+                                </mrow>
+                              </annotation-xml>
+                            </semantics>
+                          </math>
+                        </div>
+                        <p
+                          id="fs-idp18907792"
+                        >For temperatures above 225 °C, the rate law has been found to be:</p>
+                        <div data-type="equation" id="fs-idp70556928">
+                          <math display="block">
+                            <semantics>
+                              <mrow>
+                                <mrow>
+                                  <mtext>rate</mtext>
+                                  <mo>=</mo>
+                                  <mi>k</mi>
+                                  <mrow>
+                                    <mo>[</mo>
+                                    <mrow>
+                                      <msub>
+                                        <mrow>
+                                          <mtext>NO</mtext>
+                                        </mrow>
+                                        <mn>2</mn>
+                                      </msub>
+                                    </mrow>
+                                    <mo>]</mo>
+                                  </mrow>
+                                  <mrow>
+                                    <mo>[</mo>
+                                    <mrow>
+                                      <mtext>CO</mtext>
+                                    </mrow>
+                                    <mo>]</mo>
+                                  </mrow>
+                                </mrow>
+                              </mrow>
+                              <annotation-xml encoding="MathML-Content">
+                                <mrow>
+                                  <mtext>rate</mtext>
+                                  <mo>=</mo>
+                                  <mi>k</mi>
+                                  <mrow>
+                                    <mo>[</mo>
+                                    <mrow>
+                                      <msub>
+                                        <mrow>
+                                          <mtext>NO</mtext>
+                                        </mrow>
+                                        <mn>2</mn>
+                                      </msub>
+                                    </mrow>
+                                    <mo>]</mo>
+                                  </mrow>
+                                  <mrow>
+                                    <mo>[</mo>
+                                    <mrow>
+                                      <mtext>CO</mtext>
+                                    </mrow>
+                                    <mo>]</mo>
+                                  </mrow>
+                                </mrow>
+                              </annotation-xml>
+                            </semantics>
+                          </math>
+                        </div>
+                        <p id="fs-idp43466688">
+                          The reaction is first order with respect to NO
+                          <sub>2</sub> and first-order with respect to CO. This is consistent with a single-step bimolecular mechanism and it is
+                          <em data-effect="italics">possible</em> that this is the mechanism for this reaction at high temperatures.
+                        </p>
+                        <p id="fs-idp232335904">
+                          At temperatures below 225 °C
+                          <em data-effect="italics">,</em> the reaction is described by a rate law that is second order with respect to NO
+                          <sub>2</sub>:
+                        </p>
+                        <div data-type="equation" id="fs-idm80864896">
+                          <math display="block">
+                            <semantics>
+                              <mrow>
+                                <mrow>
+                                  <mtext>rate</mtext>
+                                  <mo>=</mo>
+                                  <mi>k</mi>
+                                  <msup>
+                                    <mrow>
+                                      <mrow>
+                                        <mo>[</mo>
+                                        <mrow>
+                                          <msub>
+                                            <mrow>
+                                              <mtext>NO</mtext>
+                                            </mrow>
+                                            <mn>2</mn>
+                                          </msub>
+                                        </mrow>
+                                        <mo>]</mo>
+                                      </mrow>
+                                    </mrow>
+                                    <mn>2</mn>
+                                  </msup>
+                                </mrow>
+                              </mrow>
+                              <annotation-xml encoding="MathML-Content">
+                                <mrow>
+                                  <mtext>rate</mtext>
+                                  <mo>=</mo>
+                                  <mi>k</mi>
+                                  <msup>
+                                    <mrow>
+                                      <mrow>
+                                        <mo>[</mo>
+                                        <mrow>
+                                          <msub>
+                                            <mrow>
+                                              <mtext>NO</mtext>
+                                            </mrow>
+                                            <mn>2</mn>
+                                          </msub>
+                                        </mrow>
+                                        <mo>]</mo>
+                                      </mrow>
+                                    </mrow>
+                                    <mn>2</mn>
+                                  </msup>
+                                </mrow>
+                              </annotation-xml>
+                            </semantics>
+                          </math>
+                        </div>
+                        <p
+                          id="fs-idp70725520"
+                        >This rate law is not consistent with the single-step mechanism, but is consistent with the following two-step mechanism:</p>
+                        <div data-type="equation" id="fs-idp34145072">
+                          <math display="block">
+                            <semantics>
+                              <mrow>
+                                <mtable columnalign="left">
+                                  <mtr>
+                                    <mtd>
+                                      <msub>
+                                        <mtext>NO</mtext>
+                                        <mn>2</mn>
+                                      </msub>
+                                      <mo stretchy="false">(</mo>
+                                      <mi>g</mi>
+                                      <mo stretchy="false">)</mo>
+                                      <mo>+</mo>
+                                      <msub>
+                                        <mtext>NO</mtext>
+                                        <mn>2</mn>
+                                      </msub>
+                                      <mo stretchy="false">(</mo>
+                                      <mi>g</mi>
+                                      <mo stretchy="false">)</mo>
+                                      <mspace width="0.2em"/>
+                                      <mo stretchy="false">⟶</mo>
+                                      <mspace width="0.2em"/>
+                                      <msub>
+                                        <mtext>NO</mtext>
+                                        <mn>3</mn>
+                                      </msub>
+                                      <mo stretchy="false">(</mo>
+                                      <mi>g</mi>
+                                      <mo stretchy="false">)</mo>
+                                      <mo>+</mo>
+                                      <mtext>NO</mtext>
+                                      <mo stretchy="false">(</mo>
+                                      <mi>g</mi>
+                                      <mo stretchy="false">)</mo>
+                                      <mspace width="0.2em"/>
+                                      <mrow>
+                                        <mo>(</mo>
+                                        <mrow>
+                                          <mtext>slow</mtext>
+                                        </mrow>
+                                        <mo>)</mo>
+                                      </mrow>
+                                    </mtd>
+                                  </mtr>
+                                  <mtr>
+                                    <mtd>
+                                      <msub>
+                                        <mtext>NO</mtext>
+                                        <mn>3</mn>
+                                      </msub>
+                                      <mo stretchy="false">(</mo>
+                                      <mi>g</mi>
+                                      <mo stretchy="false">)</mo>
+                                      <mo>+</mo>
+                                      <mtext>CO</mtext>
+                                      <mo stretchy="false">(</mo>
+                                      <mi>g</mi>
+                                      <mo stretchy="false">)</mo>
+                                      <mspace width="0.2em"/>
+                                      <mo stretchy="false">⟶</mo>
+                                      <mspace width="0.2em"/>
+                                      <msub>
+                                        <mtext>NO</mtext>
+                                        <mn>2</mn>
+                                      </msub>
+                                      <mo stretchy="false">(</mo>
+                                      <mi>g</mi>
+                                      <mo stretchy="false">)</mo>
+                                      <mo>+</mo>
+                                      <msub>
+                                        <mtext>CO</mtext>
+                                        <mn>2</mn>
+                                      </msub>
+                                      <mo stretchy="false">(</mo>
+                                      <mi>g</mi>
+                                      <mo stretchy="false">)</mo>
+                                      <mspace width="0.2em"/>
+                                      <mrow>
+                                        <mo>(</mo>
+                                        <mrow>
+                                          <mtext>fast</mtext>
+                                        </mrow>
+                                        <mo>)</mo>
+                                      </mrow>
+                                    </mtd>
+                                  </mtr>
+                                </mtable>
+                              </mrow>
+                              <annotation-xml encoding="MathML-Content">
+                                <mtable columnalign="left">
+                                  <mtr>
+                                    <mtd>
+                                      <msub>
+                                        <mtext>NO</mtext>
+                                        <mn>2</mn>
+                                      </msub>
+                                      <mo stretchy="false">(</mo>
+                                      <mi>g</mi>
+                                      <mo stretchy="false">)</mo>
+                                      <mo>+</mo>
+                                      <msub>
+                                        <mtext>NO</mtext>
+                                        <mn>2</mn>
+                                      </msub>
+                                      <mo stretchy="false">(</mo>
+                                      <mi>g</mi>
+                                      <mo stretchy="false">)</mo>
+                                      <mspace width="0.2em"/>
+                                      <mo stretchy="false">⟶</mo>
+                                      <mspace width="0.2em"/>
+                                      <msub>
+                                        <mtext>NO</mtext>
+                                        <mn>3</mn>
+                                      </msub>
+                                      <mo stretchy="false">(</mo>
+                                      <mi>g</mi>
+                                      <mo stretchy="false">)</mo>
+                                      <mo>+</mo>
+                                      <mtext>NO</mtext>
+                                      <mo stretchy="false">(</mo>
+                                      <mi>g</mi>
+                                      <mo stretchy="false">)</mo>
+                                      <mspace width="0.2em"/>
+                                      <mrow>
+                                        <mo>(</mo>
+                                        <mrow>
+                                          <mtext>slow</mtext>
+                                        </mrow>
+                                        <mo>)</mo>
+                                      </mrow>
+                                    </mtd>
+                                  </mtr>
+                                  <mtr>
+                                    <mtd>
+                                      <msub>
+                                        <mtext>NO</mtext>
+                                        <mn>3</mn>
+                                      </msub>
+                                      <mo stretchy="false">(</mo>
+                                      <mi>g</mi>
+                                      <mo stretchy="false">)</mo>
+                                      <mo>+</mo>
+                                      <mtext>CO</mtext>
+                                      <mo stretchy="false">(</mo>
+                                      <mi>g</mi>
+                                      <mo stretchy="false">)</mo>
+                                      <mspace width="0.2em"/>
+                                      <mo stretchy="false">⟶</mo>
+                                      <mspace width="0.2em"/>
+                                      <msub>
+                                        <mtext>NO</mtext>
+                                        <mn>2</mn>
+                                      </msub>
+                                      <mo stretchy="false">(</mo>
+                                      <mi>g</mi>
+                                      <mo stretchy="false">)</mo>
+                                      <mo>+</mo>
+                                      <msub>
+                                        <mtext>CO</mtext>
+                                        <mn>2</mn>
+                                      </msub>
+                                      <mo stretchy="false">(</mo>
+                                      <mi>g</mi>
+                                      <mo stretchy="false">)</mo>
+                                      <mspace width="0.2em"/>
+                                      <mrow>
+                                        <mo>(</mo>
+                                        <mrow>
+                                          <mtext>fast</mtext>
+                                        </mrow>
+                                        <mo>)</mo>
+                                      </mrow>
+                                    </mtd>
+                                  </mtr>
+                                </mtable>
+                              </annotation-xml>
+                            </semantics>
+                          </math>
+                        </div>
+                        <p id="fs-idp107509104">
+                          The rate-determining (slower) step gives a rate law showing second-order dependence on the NO
+                          <sub>2</sub> concentration, and the sum of the two equations gives the net overall reaction.
+                        </p>
+                        <p
+                          id="fs-idp37457664"
+                        >In general, when the rate-determining (slower) step is the first step in a mechanism, the rate law for the overall reaction is the same as the rate law for this step. However, when the rate-determining step is preceded by a step involving a rapidly reversible reaction the rate law for the overall reaction may be more difficult to derive.</p>
+                        <p id="fs-idp17102832">
+                          As discussed in several chapters of this text, a reversible reaction is at
+                          <em data-effect="italics">equilibrium</em> when the rates of the forward and reverse processes are equal. Consider the reversible elementary reaction in which NO dimerizes to yield an intermediate species N
+                          <sub>2</sub>O
+                          <sub>2</sub>. When this reaction is at equilibrium:
+                        </p>
+                        <div data-type="equation" id="fs-idp65516752">
+                          <math display="block">
+                            <semantics>
+                              <mrow>
+                                <mtable columnalign="left">
+                                  <mtr>
+                                    <mtd>
+                                      <mtext>NO</mtext>
+                                      <mo>+</mo>
+                                      <mtext>NO</mtext>
+                                      <mspace width="0.2em"/>
+                                      <mo stretchy="false">⇌</mo>
+                                      <mspace width="0.2em"/>
+                                      <msub>
+                                        <mtext>N</mtext>
+                                        <mn>2</mn>
+                                      </msub>
+                                      <msub>
+                                        <mtext>O</mtext>
+                                        <mn>2</mn>
+                                      </msub>
+                                    </mtd>
+                                  </mtr>
+                                  <mtr>
+                                    <mtd>
+                                      <msub>
+                                        <mtext>rate</mtext>
+                                        <mrow>
+                                          <mtext>forward</mtext>
+                                        </mrow>
+                                      </msub>
+                                      <mo>=</mo>
+                                      <msub>
+                                        <mtext>rate</mtext>
+                                        <mrow>
+                                          <mtext>reverse</mtext>
+                                        </mrow>
+                                      </msub>
+                                    </mtd>
+                                  </mtr>
+                                  <mtr>
+                                    <mtd>
+                                      <msub>
+                                        <mi>k</mi>
+                                        <mn>1</mn>
+                                      </msub>
+                                      <mo stretchy="false">[</mo>
+                                      <mtext>NO</mtext>
+                                      <msup>
+                                        <mo stretchy="false">]</mo>
+                                        <mrow>
+                                          <mn>2</mn>
+                                        </mrow>
+                                      </msup>
+                                      <mo>=</mo>
+                                      <msub>
+                                        <mi>k</mi>
+                                        <mrow>
+                                          <mn>−1</mn>
+                                        </mrow>
+                                      </msub>
+                                      <mrow>
+                                        <mo>[</mo>
+                                        <mrow>
+                                          <msub>
+                                            <mtext>N</mtext>
+                                            <mn>2</mn>
+                                          </msub>
+                                          <msub>
+                                            <mtext>O</mtext>
+                                            <mn>2</mn>
+                                          </msub>
+                                        </mrow>
+                                        <mo>]</mo>
+                                      </mrow>
+                                    </mtd>
+                                  </mtr>
+                                </mtable>
+                              </mrow>
+                              <annotation-xml encoding="MathML-Content">
+                                <mtable columnalign="left">
+                                  <mtr>
+                                    <mtd>
+                                      <mtext>NO</mtext>
+                                      <mo>+</mo>
+                                      <mtext>NO</mtext>
+                                      <mspace width="0.2em"/>
+                                      <mo stretchy="false">⇌</mo>
+                                      <mspace width="0.2em"/>
+                                      <msub>
+                                        <mtext>N</mtext>
+                                        <mn>2</mn>
+                                      </msub>
+                                      <msub>
+                                        <mtext>O</mtext>
+                                        <mn>2</mn>
+                                      </msub>
+                                    </mtd>
+                                  </mtr>
+                                  <mtr>
+                                    <mtd>
+                                      <msub>
+                                        <mtext>rate</mtext>
+                                        <mrow>
+                                          <mtext>forward</mtext>
+                                        </mrow>
+                                      </msub>
+                                      <mo>=</mo>
+                                      <msub>
+                                        <mtext>rate</mtext>
+                                        <mrow>
+                                          <mtext>reverse</mtext>
+                                        </mrow>
+                                      </msub>
+                                    </mtd>
+                                  </mtr>
+                                  <mtr>
+                                    <mtd>
+                                      <msub>
+                                        <mi>k</mi>
+                                        <mn>1</mn>
+                                      </msub>
+                                      <mo stretchy="false">[</mo>
+                                      <mtext>NO</mtext>
+                                      <msup>
+                                        <mo stretchy="false">]</mo>
+                                        <mrow>
+                                          <mn>2</mn>
+                                        </mrow>
+                                      </msup>
+                                      <mo>=</mo>
+                                      <msub>
+                                        <mi>k</mi>
+                                        <mrow>
+                                          <mn>−1</mn>
+                                        </mrow>
+                                      </msub>
+                                      <mrow>
+                                        <mo>[</mo>
+                                        <mrow>
+                                          <msub>
+                                            <mtext>N</mtext>
+                                            <mn>2</mn>
+                                          </msub>
+                                          <msub>
+                                            <mtext>O</mtext>
+                                            <mn>2</mn>
+                                          </msub>
+                                        </mrow>
+                                        <mo>]</mo>
+                                      </mrow>
+                                    </mtd>
+                                  </mtr>
+                                </mtable>
+                              </annotation-xml>
+                            </semantics>
+                          </math>
+                        </div>
+                        <p
+                          id="fs-idm76069968"
+                        >This expression may be rearranged to express the concentration of the intermediate in terms of the reactant NO:</p>
+                        <div data-type="equation" id="fs-idp95214240">
+                          <math display="block">
+                            <semantics>
+                              <mrow>
+                                <mrow>
+                                  <mrow>
+                                    <mo>(</mo>
+                                    <mrow>
+                                      <mfrac>
+                                        <mrow>
+                                          <msub>
+                                            <mtext>k</mtext>
+                                            <mn>1</mn>
+                                          </msub>
+                                          <mo stretchy="false">[</mo>
+                                          <mtext>NO</mtext>
+                                          <msup>
+                                            <mrow>
+                                              <mo stretchy="false">]</mo>
+                                            </mrow>
+                                            <mn>2</mn>
+                                          </msup>
+                                        </mrow>
+                                        <mrow>
+                                          <msub>
+                                            <mtext>k</mtext>
+                                            <mrow>
+                                              <mn>−1</mn>
+                                            </mrow>
+                                          </msub>
+                                        </mrow>
+                                      </mfrac>
+                                    </mrow>
+                                    <mo>)</mo>
+                                  </mrow>
+                                  <mo>=</mo>
+                                  <mrow>
+                                    <mo>[</mo>
+                                    <mrow>
+                                      <msub>
+                                        <mtext>N</mtext>
+                                        <mn>2</mn>
+                                      </msub>
+                                      <msub>
+                                        <mtext>O</mtext>
+                                        <mn>2</mn>
+                                      </msub>
+                                    </mrow>
+                                    <mo>]</mo>
+                                  </mrow>
+                                </mrow>
+                              </mrow>
+                              <annotation-xml encoding="MathML-Content">
+                                <mrow>
+                                  <mrow>
+                                    <mo>(</mo>
+                                    <mrow>
+                                      <mfrac>
+                                        <mrow>
+                                          <msub>
+                                            <mtext>k</mtext>
+                                            <mn>1</mn>
+                                          </msub>
+                                          <mo stretchy="false">[</mo>
+                                          <mtext>NO</mtext>
+                                          <msup>
+                                            <mrow>
+                                              <mo stretchy="false">]</mo>
+                                            </mrow>
+                                            <mn>2</mn>
+                                          </msup>
+                                        </mrow>
+                                        <mrow>
+                                          <msub>
+                                            <mtext>k</mtext>
+                                            <mrow>
+                                              <mn>−1</mn>
+                                            </mrow>
+                                          </msub>
+                                        </mrow>
+                                      </mfrac>
+                                    </mrow>
+                                    <mo>)</mo>
+                                  </mrow>
+                                  <mo>=</mo>
+                                  <mrow>
+                                    <mo>[</mo>
+                                    <mrow>
+                                      <msub>
+                                        <mtext>N</mtext>
+                                        <mn>2</mn>
+                                      </msub>
+                                      <msub>
+                                        <mtext>O</mtext>
+                                        <mn>2</mn>
+                                      </msub>
+                                    </mrow>
+                                    <mo>]</mo>
+                                  </mrow>
+                                </mrow>
+                              </annotation-xml>
+                            </semantics>
+                          </math>
+                        </div>
+                        <p
+                          id="fs-idp32322000"
+                        >Since intermediate species concentrations are not used in formulating rate laws for overall reactions, this approach is sometimes necessary, as illustrated in the following example exercise.</p>
+                        <div data-type="example" id="fs-idp252983408">
+                          <h3 class="os-title">
+                            <span class="os-title-label">Example</span>
+                            <span class="os-number">12.14</span>
+                            <span class="os-divider"></span>
+                          </h3>
+                          <p id="fs-idm378927696">
+                            <span
+                              data-type="title"
+                            >Deriving a Rate Law from a Reaction Mechanism</span>
+                            The two-step mechanism below has been proposed for a reaction between nitrogen monoxide and molecular chlorine:
+                          </p>
+                          <div data-type="equation" id="fs-idm496065264">
+                            <math display="block">
+                              <semantics>
+                                <mrow>
+                                  <mtable>
+                                    <mtr>
+                                      <mtd columnalign="left">
+                                        <mtext>Step 1:</mtext>
+                                        <mspace width="0.2em"/>
+                                        <mtext>NO</mtext>
+                                        <mo stretchy="false">(</mo>
+                                        <mi>g</mi>
+                                        <mo stretchy="false">)</mo>
+                                        <mo>+</mo>
+                                        <msub>
+                                          <mtext>Cl</mtext>
+                                          <mn>2</mn>
+                                        </msub>
+                                        <mo stretchy="false">(</mo>
+                                        <mi>g</mi>
+                                        <mo stretchy="false">)</mo>
+                                        <mo>=</mo>
+                                        <msub>
+                                          <mtext>NOCl</mtext>
+                                          <mn>2</mn>
+                                        </msub>
+                                        <mo stretchy="false">(</mo>
+                                        <mi>g</mi>
+                                        <mo stretchy="false">)</mo>
+                                      </mtd>
+                                      <mtd columnalign="left">
+                                        <mtext>fast</mtext>
+                                      </mtd>
+                                    </mtr>
+                                    <mtr>
+                                      <mtd columnalign="left">
+                                        <mtext>Step 2:</mtext>
+                                        <mspace width="0.2em"/>
+                                        <msub>
+                                          <mtext>NOCl</mtext>
+                                          <mn>2</mn>
+                                        </msub>
+                                        <mo stretchy="false">(</mo>
+                                        <mi>g</mi>
+                                        <mo stretchy="false">)</mo>
+                                        <mo>+</mo>
+                                        <mtext>NO</mtext>
+                                        <mo stretchy="false">(</mo>
+                                        <mi>g</mi>
+                                        <mo stretchy="false">)</mo>
+                                        <mspace width="0.2em"/>
+                                        <mo stretchy="false">⟶</mo>
+                                        <mspace width="0.2em"/>
+                                        <mtext>2NOCl</mtext>
+                                        <mo stretchy="false">(</mo>
+                                        <mi>g</mi>
+                                        <mo stretchy="false">)</mo>
+                                      </mtd>
+                                      <mtd columnalign="left">
+                                        <mtext>slow</mtext>
+                                      </mtd>
+                                    </mtr>
+                                  </mtable>
+                                </mrow>
+                                <annotation-xml encoding="MathML-Content">
+                                  <mtable>
+                                    <mtr>
+                                      <mtd columnalign="left">
+                                        <mtext>Step 1:</mtext>
+                                        <mspace width="0.2em"/>
+                                        <mtext>NO</mtext>
+                                        <mo stretchy="false">(</mo>
+                                        <mi>g</mi>
+                                        <mo stretchy="false">)</mo>
+                                        <mo>+</mo>
+                                        <msub>
+                                          <mtext>Cl</mtext>
+                                          <mn>2</mn>
+                                        </msub>
+                                        <mo stretchy="false">(</mo>
+                                        <mi>g</mi>
+                                        <mo stretchy="false">)</mo>
+                                        <mo>=</mo>
+                                        <msub>
+                                          <mtext>NOCl</mtext>
+                                          <mn>2</mn>
+                                        </msub>
+                                        <mo stretchy="false">(</mo>
+                                        <mi>g</mi>
+                                        <mo stretchy="false">)</mo>
+                                      </mtd>
+                                      <mtd columnalign="left">
+                                        <mtext>fast</mtext>
+                                      </mtd>
+                                    </mtr>
+                                    <mtr>
+                                      <mtd columnalign="left">
+                                        <mtext>Step 2:</mtext>
+                                        <mspace width="0.2em"/>
+                                        <msub>
+                                          <mtext>NOCl</mtext>
+                                          <mn>2</mn>
+                                        </msub>
+                                        <mo stretchy="false">(</mo>
+                                        <mi>g</mi>
+                                        <mo stretchy="false">)</mo>
+                                        <mo>+</mo>
+                                        <mtext>NO</mtext>
+                                        <mo stretchy="false">(</mo>
+                                        <mi>g</mi>
+                                        <mo stretchy="false">)</mo>
+                                        <mspace width="0.2em"/>
+                                        <mo stretchy="false">⟶</mo>
+                                        <mspace width="0.2em"/>
+                                        <mtext>2NOCl</mtext>
+                                        <mo stretchy="false">(</mo>
+                                        <mi>g</mi>
+                                        <mo stretchy="false">)</mo>
+                                      </mtd>
+                                      <mtd columnalign="left">
+                                        <mtext>slow</mtext>
+                                      </mtd>
+                                    </mtr>
+                                  </mtable>
+                                </annotation-xml>
+                              </semantics>
+                            </math>
+                          </div>
+                          <p
+                            id="fs-idm352158848"
+                          >Use this mechanism to derive the equation and predicted rate law for the overall reaction.</p>
+                          <p id="fs-idm359312208">
+                            <span data-type="title">Solution</span>
+                            The equation for the overall reaction is obtained by adding the two elementary reactions:
+                          </p>
+                          <div data-type="equation" id="fs-idm345484992">
+                            <math display="block">
+                              <semantics>
+                                <mrow>
+                                  <mrow>
+                                    <mtext>2NO</mtext>
+                                    <mo stretchy="false">(</mo>
+                                    <mi>g</mi>
+                                    <mo stretchy="false">)</mo>
+                                    <mo>+</mo>
+                                    <msub>
+                                      <mtext>Cl</mtext>
+                                      <mn>2</mn>
+                                    </msub>
+                                    <mo stretchy="false">(</mo>
+                                    <mi>g</mi>
+                                    <mo stretchy="false">)</mo>
+                                    <mspace width="0.2em"/>
+                                    <mtext>2NOCl</mtext>
+                                    <mo stretchy="false">(</mo>
+                                    <mi>g</mi>
+                                    <mo stretchy="false">)</mo>
+                                  </mrow>
+                                </mrow>
+                                <annotation-xml encoding="MathML-Content">
+                                  <mrow>
+                                    <mtext>2NO</mtext>
+                                    <mo stretchy="false">(</mo>
+                                    <mi>g</mi>
+                                    <mo stretchy="false">)</mo>
+                                    <mo>+</mo>
+                                    <msub>
+                                      <mtext>Cl</mtext>
+                                      <mn>2</mn>
+                                    </msub>
+                                    <mo stretchy="false">(</mo>
+                                    <mi>g</mi>
+                                    <mo stretchy="false">)</mo>
+                                    <mspace width="0.2em"/>
+                                    <mtext>2NOCl</mtext>
+                                    <mo stretchy="false">(</mo>
+                                    <mi>g</mi>
+                                    <mo stretchy="false">)</mo>
+                                  </mrow>
+                                </annotation-xml>
+                              </semantics>
+                            </math>
+                          </div>
+                          <p
+                            id="fs-idm345501040"
+                          >To derive a rate law from this mechanism, first write rates laws for each of the two steps.</p>
+                          <div data-type="equation" id="fs-idm514969616">
+                            <math display="block">
+                              <semantics>
+                                <mrow>
+                                  <mtable>
+                                    <mtr>
+                                      <mtd columnalign="left">
+                                        <mrow>
+                                          <msub>
+                                            <mtext>rate</mtext>
+                                            <mn>1</mn>
+                                          </msub>
+                                        </mrow>
+                                      </mtd>
+                                      <mtd columnalign="left">
+                                        <mo>=</mo>
+                                      </mtd>
+                                      <mtd columnalign="left">
+                                        <mrow>
+                                          <msub>
+                                            <mi>k</mi>
+                                            <mn>1</mn>
+                                          </msub>
+                                          <mo stretchy="false">[</mo>
+                                          <mtext>NO</mtext>
+                                          <mo stretchy="false">]</mo>
+                                          <mo stretchy="false">[</mo>
+                                          <msub>
+                                            <mtext>Cl</mtext>
+                                            <mn>2</mn>
+                                          </msub>
+                                          <mo stretchy="false">]</mo>
+                                          <mspace width="0.2em"/>
+                                          <mtext>for the forward reaction of step 1</mtext>
+                                        </mrow>
+                                      </mtd>
+                                    </mtr>
+                                    <mtr>
+                                      <mtd columnalign="left">
+                                        <mrow>
+                                          <msub>
+                                            <mtext>rate</mtext>
+                                            <mn>−1</mn>
+                                          </msub>
+                                        </mrow>
+                                      </mtd>
+                                      <mtd columnalign="left">
+                                        <mo>=</mo>
+                                      </mtd>
+                                      <mtd columnalign="left">
+                                        <mrow>
+                                          <msub>
+                                            <mi>k</mi>
+                                            <mn>−1</mn>
+                                          </msub>
+                                          <mo stretchy="false">[</mo>
+                                          <msub>
+                                            <mtext>NOCl</mtext>
+                                            <mn>2</mn>
+                                          </msub>
+                                          <mo stretchy="false">]</mo>
+                                          <mspace width="0.2em"/>
+                                          <mtext>for the reverse reaction of step 1</mtext>
+                                        </mrow>
+                                      </mtd>
+                                    </mtr>
+                                    <mtr>
+                                      <mtd columnalign="left">
+                                        <mrow>
+                                          <msub>
+                                            <mtext>rate</mtext>
+                                            <mn>2</mn>
+                                          </msub>
+                                        </mrow>
+                                      </mtd>
+                                      <mtd columnalign="left">
+                                        <mo>=</mo>
+                                      </mtd>
+                                      <mtd columnalign="left">
+                                        <mrow>
+                                          <msub>
+                                            <mi>k</mi>
+                                            <mn>2</mn>
+                                          </msub>
+                                          <mo stretchy="false">[</mo>
+                                          <msub>
+                                            <mtext>NOCl</mtext>
+                                            <mn>2</mn>
+                                          </msub>
+                                          <mo stretchy="false">]</mo>
+                                          <mo stretchy="false">[</mo>
+                                          <mtext>NO</mtext>
+                                          <mo stretchy="false">]</mo>
+                                          <mspace width="0.2em"/>
+                                          <mtext>for step 2</mtext>
+                                        </mrow>
+                                      </mtd>
+                                    </mtr>
+                                  </mtable>
+                                </mrow>
+                                <annotation-xml encoding="MathML-Content">
+                                  <mtable>
+                                    <mtr>
+                                      <mtd columnalign="left">
+                                        <mrow>
+                                          <msub>
+                                            <mtext>rate</mtext>
+                                            <mn>1</mn>
+                                          </msub>
+                                        </mrow>
+                                      </mtd>
+                                      <mtd columnalign="left">
+                                        <mo>=</mo>
+                                      </mtd>
+                                      <mtd columnalign="left">
+                                        <mrow>
+                                          <msub>
+                                            <mi>k</mi>
+                                            <mn>1</mn>
+                                          </msub>
+                                          <mo stretchy="false">[</mo>
+                                          <mtext>NO</mtext>
+                                          <mo stretchy="false">]</mo>
+                                          <mo stretchy="false">[</mo>
+                                          <msub>
+                                            <mtext>Cl</mtext>
+                                            <mn>2</mn>
+                                          </msub>
+                                          <mo stretchy="false">]</mo>
+                                          <mspace width="0.2em"/>
+                                          <mtext>for the forward reaction of step 1</mtext>
+                                        </mrow>
+                                      </mtd>
+                                    </mtr>
+                                    <mtr>
+                                      <mtd columnalign="left">
+                                        <mrow>
+                                          <msub>
+                                            <mtext>rate</mtext>
+                                            <mn>−1</mn>
+                                          </msub>
+                                        </mrow>
+                                      </mtd>
+                                      <mtd columnalign="left">
+                                        <mo>=</mo>
+                                      </mtd>
+                                      <mtd columnalign="left">
+                                        <mrow>
+                                          <msub>
+                                            <mi>k</mi>
+                                            <mn>−1</mn>
+                                          </msub>
+                                          <mo stretchy="false">[</mo>
+                                          <msub>
+                                            <mtext>NOCl</mtext>
+                                            <mn>2</mn>
+                                          </msub>
+                                          <mo stretchy="false">]</mo>
+                                          <mspace width="0.2em"/>
+                                          <mtext>for the reverse reaction of step 1</mtext>
+                                        </mrow>
+                                      </mtd>
+                                    </mtr>
+                                    <mtr>
+                                      <mtd columnalign="left">
+                                        <mrow>
+                                          <msub>
+                                            <mtext>rate</mtext>
+                                            <mn>2</mn>
+                                          </msub>
+                                        </mrow>
+                                      </mtd>
+                                      <mtd columnalign="left">
+                                        <mo>=</mo>
+                                      </mtd>
+                                      <mtd columnalign="left">
+                                        <mrow>
+                                          <msub>
+                                            <mi>k</mi>
+                                            <mn>2</mn>
+                                          </msub>
+                                          <mo stretchy="false">[</mo>
+                                          <msub>
+                                            <mtext>NOCl</mtext>
+                                            <mn>2</mn>
+                                          </msub>
+                                          <mo stretchy="false">]</mo>
+                                          <mo stretchy="false">[</mo>
+                                          <mtext>NO</mtext>
+                                          <mo stretchy="false">]</mo>
+                                          <mspace width="0.2em"/>
+                                          <mtext>for step 2</mtext>
+                                        </mrow>
+                                      </mtd>
+                                    </mtr>
+                                  </mtable>
+                                </annotation-xml>
+                              </semantics>
+                            </math>
+                          </div>
+                          <p id="fs-idm328804768">
+                            Step 2 is the rate-determining step, and so the rate law for the overall reaction should be the same as for this step. However, the step 2 rate law, as written, contains an intermediate species concentration, [NOCl
+                            <sub>2</sub>]. To remedy this, use the first step’s rate laws to derive an expression for the intermediate concentration in terms of the reactant concentrations.
+                          </p>
+                          <p
+                            id="fs-idm328530432"
+                          >Assuming step 1 is at equilibrium:</p>
+                          <div data-type="equation" id="fs-idm386271152">
+                            <math display="block">
+                              <semantics>
+                                <mrow>
+                                  <mtable>
+                                    <mtr>
+                                      <mtd columnalign="right">
+                                        <mrow>
+                                          <msub>
+                                            <mtext>rate</mtext>
+                                            <mn>1</mn>
+                                          </msub>
+                                        </mrow>
+                                      </mtd>
+                                      <mtd columnalign="left">
+                                        <mo>=</mo>
+                                      </mtd>
+                                      <mtd columnalign="left">
+                                        <mrow>
+                                          <msub>
+                                            <mtext>rate</mtext>
+                                            <mn>−1</mn>
+                                          </msub>
+                                        </mrow>
+                                      </mtd>
+                                    </mtr>
+                                    <mtr>
+                                      <mtd columnalign="right">
+                                        <mrow>
+                                          <msub>
+                                            <mi>k</mi>
+                                            <mn>1</mn>
+                                          </msub>
+                                          <mrow>
+                                            <mo stretchy="false">[</mo>
+                                            <mtext>NO</mtext>
+                                            <mo stretchy="false">]</mo>
+                                          </mrow>
+                                          <mrow>
+                                            <mo stretchy="false">[</mo>
+                                            <msub>
+                                              <mtext>Cl</mtext>
+                                              <mn>2</mn>
+                                            </msub>
+                                            <mo stretchy="false">]</mo>
+                                          </mrow>
+                                        </mrow>
+                                      </mtd>
+                                      <mtd columnalign="left">
+                                        <mo>=</mo>
+                                      </mtd>
+                                      <mtd columnalign="left">
+                                        <mrow>
+                                          <msub>
+                                            <mi>k</mi>
+                                            <mn>−1</mn>
+                                          </msub>
+                                          <mrow>
+                                            <mo stretchy="false">[</mo>
+                                            <msub>
+                                              <mtext>NOCl</mtext>
+                                              <mn>2</mn>
+                                            </msub>
+                                            <mo stretchy="false">]</mo>
+                                          </mrow>
+                                        </mrow>
+                                      </mtd>
+                                    </mtr>
+                                    <mtr>
+                                      <mtd columnalign="right">
+                                        <mo stretchy="false">[</mo>
+                                        <msub>
+                                          <mtext>NOCl</mtext>
+                                          <mn>2</mn>
+                                        </msub>
+                                        <mo stretchy="false">]</mo>
+                                      </mtd>
+                                      <mtd columnalign="left">
+                                        <mo>=</mo>
+                                      </mtd>
+                                      <mtd columnalign="left">
+                                        <mrow>
+                                          <mo>(</mo>
+                                          <mfrac>
+                                            <mrow>
+                                              <msub>
+                                                <mi>k</mi>
+                                                <mn>1</mn>
+                                              </msub>
+                                            </mrow>
+                                            <mrow>
+                                              <msub>
+                                                <mi>k</mi>
+                                                <mn>−1</mn>
+                                              </msub>
+                                            </mrow>
+                                          </mfrac>
+                                          <mo>)</mo>
+                                        </mrow>
+                                        <mrow>
+                                          <mspace width="0.2em"/>
+                                          <mo stretchy="false">[</mo>
+                                          <mtext>NO</mtext>
+                                          <mo stretchy="false">]</mo>
+                                        </mrow>
+                                        <mrow>
+                                          <mo stretchy="false">[</mo>
+                                          <msub>
+                                            <mtext>Cl</mtext>
+                                            <mn>2</mn>
+                                          </msub>
+                                          <mo stretchy="false">]</mo>
+                                        </mrow>
+                                      </mtd>
+                                    </mtr>
+                                  </mtable>
+                                </mrow>
+                                <annotation-xml encoding="MathML-Content">
+                                  <mtable>
+                                    <mtr>
+                                      <mtd columnalign="right">
+                                        <mrow>
+                                          <msub>
+                                            <mtext>rate</mtext>
+                                            <mn>1</mn>
+                                          </msub>
+                                        </mrow>
+                                      </mtd>
+                                      <mtd columnalign="left">
+                                        <mo>=</mo>
+                                      </mtd>
+                                      <mtd columnalign="left">
+                                        <mrow>
+                                          <msub>
+                                            <mtext>rate</mtext>
+                                            <mn>−1</mn>
+                                          </msub>
+                                        </mrow>
+                                      </mtd>
+                                    </mtr>
+                                    <mtr>
+                                      <mtd columnalign="right">
+                                        <mrow>
+                                          <msub>
+                                            <mi>k</mi>
+                                            <mn>1</mn>
+                                          </msub>
+                                          <mrow>
+                                            <mo stretchy="false">[</mo>
+                                            <mtext>NO</mtext>
+                                            <mo stretchy="false">]</mo>
+                                          </mrow>
+                                          <mrow>
+                                            <mo stretchy="false">[</mo>
+                                            <msub>
+                                              <mtext>Cl</mtext>
+                                              <mn>2</mn>
+                                            </msub>
+                                            <mo stretchy="false">]</mo>
+                                          </mrow>
+                                        </mrow>
+                                      </mtd>
+                                      <mtd columnalign="left">
+                                        <mo>=</mo>
+                                      </mtd>
+                                      <mtd columnalign="left">
+                                        <mrow>
+                                          <msub>
+                                            <mi>k</mi>
+                                            <mn>−1</mn>
+                                          </msub>
+                                          <mrow>
+                                            <mo stretchy="false">[</mo>
+                                            <msub>
+                                              <mtext>NOCl</mtext>
+                                              <mn>2</mn>
+                                            </msub>
+                                            <mo stretchy="false">]</mo>
+                                          </mrow>
+                                        </mrow>
+                                      </mtd>
+                                    </mtr>
+                                    <mtr>
+                                      <mtd columnalign="right">
+                                        <mo stretchy="false">[</mo>
+                                        <msub>
+                                          <mtext>NOCl</mtext>
+                                          <mn>2</mn>
+                                        </msub>
+                                        <mo stretchy="false">]</mo>
+                                      </mtd>
+                                      <mtd columnalign="left">
+                                        <mo>=</mo>
+                                      </mtd>
+                                      <mtd columnalign="left">
+                                        <mrow>
+                                          <mo>(</mo>
+                                          <mfrac>
+                                            <mrow>
+                                              <msub>
+                                                <mi>k</mi>
+                                                <mn>1</mn>
+                                              </msub>
+                                            </mrow>
+                                            <mrow>
+                                              <msub>
+                                                <mi>k</mi>
+                                                <mn>−1</mn>
+                                              </msub>
+                                            </mrow>
+                                          </mfrac>
+                                          <mo>)</mo>
+                                        </mrow>
+                                        <mrow>
+                                          <mspace width="0.2em"/>
+                                          <mo stretchy="false">[</mo>
+                                          <mtext>NO</mtext>
+                                          <mo stretchy="false">]</mo>
+                                        </mrow>
+                                        <mrow>
+                                          <mo stretchy="false">[</mo>
+                                          <msub>
+                                            <mtext>Cl</mtext>
+                                            <mn>2</mn>
+                                          </msub>
+                                          <mo stretchy="false">]</mo>
+                                        </mrow>
+                                      </mtd>
+                                    </mtr>
+                                  </mtable>
+                                </annotation-xml>
+                              </semantics>
+                            </math>
+                          </div>
+                          <p
+                            id="fs-idm385514496"
+                          >Substituting this expression into the rate law for step 2 yields:</p>
+                          <div data-type="equation" id="fs-idm373566368">
+                            <math display="block">
+                              <semantics>
+                                <mrow>
+                                  <mrow>
+                                    <msub>
+                                      <mtext>rate</mtext>
+                                      <mn>2</mn>
+                                    </msub>
+                                    <mo>=</mo>
+                                    <msub>
+                                      <mtext>rate</mtext>
+                                      <mtext>overall</mtext>
+                                    </msub>
+                                    <mo>=</mo>
+                                    <mo>(</mo>
+                                    <mfrac>
+                                      <mrow>
+                                        <msub>
+                                          <mi>k</mi>
+                                          <mn>2</mn>
+                                        </msub>
+                                        <msub>
+                                          <mi>k</mi>
+                                          <mn>1</mn>
+                                        </msub>
+                                      </mrow>
+                                      <mrow>
+                                        <msub>
+                                          <mi>k</mi>
+                                          <mn>−1</mn>
+                                        </msub>
+                                      </mrow>
+                                    </mfrac>
+                                    <mo>)</mo>
+                                    <mo stretchy="false">[</mo>
+                                    <mtext>NO</mtext>
+                                    <msup>
+                                      <mo stretchy="false">]</mo>
+                                      <mn>2</mn>
+                                    </msup>
+                                    <mo stretchy="false">[</mo>
+                                    <msub>
+                                      <mtext>Cl</mtext>
+                                      <mn>2</mn>
+                                    </msub>
+                                    <mo stretchy="false">]</mo>
+                                  </mrow>
+                                </mrow>
+                                <annotation-xml encoding="MathML-Content">
+                                  <mrow>
+                                    <msub>
+                                      <mtext>rate</mtext>
+                                      <mn>2</mn>
+                                    </msub>
+                                    <mo>=</mo>
+                                    <msub>
+                                      <mtext>rate</mtext>
+                                      <mtext>overall</mtext>
+                                    </msub>
+                                    <mo>=</mo>
+                                    <mo>(</mo>
+                                    <mfrac>
+                                      <mrow>
+                                        <msub>
+                                          <mi>k</mi>
+                                          <mn>2</mn>
+                                        </msub>
+                                        <msub>
+                                          <mi>k</mi>
+                                          <mn>1</mn>
+                                        </msub>
+                                      </mrow>
+                                      <mrow>
+                                        <msub>
+                                          <mi>k</mi>
+                                          <mn>−1</mn>
+                                        </msub>
+                                      </mrow>
+                                    </mfrac>
+                                    <mo>)</mo>
+                                    <mo stretchy="false">[</mo>
+                                    <mtext>NO</mtext>
+                                    <msup>
+                                      <mo stretchy="false">]</mo>
+                                      <mn>2</mn>
+                                    </msup>
+                                    <mo stretchy="false">[</mo>
+                                    <msub>
+                                      <mtext>Cl</mtext>
+                                      <mn>2</mn>
+                                    </msub>
+                                    <mo stretchy="false">]</mo>
+                                  </mrow>
+                                </annotation-xml>
+                              </semantics>
+                            </math>
+                          </div>
+                          <p id="fs-idm328658256">
+                            <span data-type="title">Check Your Learning</span>
+                            The first step of a proposed multistep mechanism is:
+                          </p>
+                          <div data-type="equation" id="fs-idm389297024">
+                            <math display="block">
+                              <semantics>
+                                <mrow>
+                                  <mrow>
+                                    <msub>
+                                      <mtext>F</mtext>
+                                      <mn>2</mn>
+                                    </msub>
+                                    <mo stretchy="false">(</mo>
+                                    <mi>g</mi>
+                                    <mo stretchy="false">)</mo>
+                                    <mo>=</mo>
+                                    <mtext>2F</mtext>
+                                    <mo stretchy="false">(</mo>
+                                    <mi>g</mi>
+                                    <mo stretchy="false">)</mo>
+                                    <mspace width="0.2em"/>
+                                    <mtext>fast</mtext>
+                                  </mrow>
+                                </mrow>
+                                <annotation-xml encoding="MathML-Content">
+                                  <mrow>
+                                    <msub>
+                                      <mtext>F</mtext>
+                                      <mn>2</mn>
+                                    </msub>
+                                    <mo stretchy="false">(</mo>
+                                    <mi>g</mi>
+                                    <mo stretchy="false">)</mo>
+                                    <mo>=</mo>
+                                    <mtext>2F</mtext>
+                                    <mo stretchy="false">(</mo>
+                                    <mi>g</mi>
+                                    <mo stretchy="false">)</mo>
+                                    <mspace width="0.2em"/>
+                                    <mtext>fast</mtext>
+                                  </mrow>
+                                </annotation-xml>
+                              </semantics>
+                            </math>
+                          </div>
+                          <p
+                            id="fs-idm373041168"
+                          >Derive the equation relating atomic fluorine concentration to molecular fluorine concentration.</p>
+                          <div data-type="note" id="fs-idm330964176">
+                            <h3 class="os-title" data-type="title">
+                              <span
+                                class="os-title-label"
+                                data-type
+                                id="[redacted for uniqueness]"
+                              >Answer:</span>
+                            </h3>
+                            <div class="os-note-body">
+                              <p id="fs-idm361032656">
+                                <math display="inline">
+                                  <semantics>
+                                    <mrow>
+                                      <mrow>
+                                        <mo stretchy="false">[</mo>
+                                        <mtext>F</mtext>
+                                        <mo stretchy="false">]</mo>
+                                        <mo>=</mo>
+                                        <mo>(</mo>
+                                        <mfrac>
+                                          <mrow>
+                                            <msub>
+                                              <mi>k</mi>
+                                              <mn>1</mn>
+                                            </msub>
+                                            <mo stretchy="false">[</mo>
+                                            <msub>
+                                              <mtext>F</mtext>
+                                              <mn>2</mn>
+                                            </msub>
+                                            <mo stretchy="false">]</mo>
+                                          </mrow>
+                                          <mrow>
+                                            <msub>
+                                              <mi>k</mi>
+                                              <mn>−1</mn>
+                                            </msub>
+                                          </mrow>
+                                        </mfrac>
+                                        <msup>
+                                          <mo>)</mo>
+                                          <mn>1/2</mn>
+                                        </msup>
+                                      </mrow>
+                                    </mrow>
+                                    <annotation-xml encoding="MathML-Content">
+                                      <mrow>
+                                        <mo stretchy="false">[</mo>
+                                        <mtext>F</mtext>
+                                        <mo stretchy="false">]</mo>
+                                        <mo>=</mo>
+                                        <mo>(</mo>
+                                        <mfrac>
+                                          <mrow>
+                                            <msub>
+                                              <mi>k</mi>
+                                              <mn>1</mn>
+                                            </msub>
+                                            <mo stretchy="false">[</mo>
+                                            <msub>
+                                              <mtext>F</mtext>
+                                              <mn>2</mn>
+                                            </msub>
+                                            <mo stretchy="false">]</mo>
+                                          </mrow>
+                                          <mrow>
+                                            <msub>
+                                              <mi>k</mi>
+                                              <mn>−1</mn>
+                                            </msub>
+                                          </mrow>
+                                        </mfrac>
+                                        <msup>
+                                          <mo>)</mo>
+                                          <mn>1/2</mn>
+                                        </msup>
+                                      </mrow>
+                                    </annotation-xml>
+                                  </semantics>
+                                </math>
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </section>
+
+                      <div data-type="footnote-refs" id="[redacted for uniqueness]">
+                        <h3 data-type="footnote-refs-title">Footnotes</h3>
+                        <ul data-bullet-style="none" data-list-type="bulleted">
+                          <li data-type="footnote-ref" id="footnote1">
+                            <a
+                              data-type="footnote-ref-link"
+                              href="12-exercises#footnote-ref1"
+                            >1</a>
+                            <span
+                              data-type="footnote-ref-content"
+                            >This question is taken from the Chemistry Advanced Placement Examination and is used with the permission of the Educational Testing Service.</span>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  

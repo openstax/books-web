@@ -1,0 +1,3100 @@
+
+                    <div
+                      class="os-eoc os-exercises-container"
+                      data-type="composite-page"
+                      data-uuid-key=".exercises"
+                    >
+                      <section
+                        class="exercises"
+                        data-depth="1"
+                        id="fs-idm20163680"
+                      >
+                        <h3 data-type="document-title" id="[redacted for uniqueness]">
+                          <span class="os-number">8.1</span>
+                          <span class="os-divider"></span>
+                          <span class="os-text">Gas Pressure</span>
+                        </h3>
+                        <div
+                          class="os-hasSolution"
+                          data-type="exercise"
+                          id="fs-idm21197344"
+                        >
+                          <div data-type="problem" id="fs-idm57060672">
+                            <a
+                              class="os-number"
+                              href="chapter-8#fs-idm21197344-solution"
+                            >1</a>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p
+                                id="fs-idm19553744"
+                              >Why are sharp knives more effective than dull knives? (Hint: Think about the definition of pressure.)</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class data-type="exercise" id="fs-idp152253216">
+                          <div data-type="problem" id="fs-idp37040256">
+                            <span class="os-number">2</span>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p
+                                id="fs-idp62697024"
+                              >Why do some small bridges have weight limits that depend on how many wheels or axles the crossing vehicle has?</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="os-hasSolution"
+                          data-type="exercise"
+                          id="fs-idp44372288"
+                        >
+                          <div data-type="problem" id="fs-idm79676256">
+                            <a
+                              class="os-number"
+                              href="chapter-8#fs-idp44372288-solution"
+                            >3</a>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p
+                                id="fs-idm50132240"
+                              >Why should you roll or belly-crawl rather than walk across a thinly-frozen pond?</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class data-type="exercise" id="fs-idp74012224">
+                          <div data-type="problem" id="fs-idm648288">
+                            <span class="os-number">4</span>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p
+                                id="fs-idm137597392"
+                              >A typical barometric pressure in Redding, California, is about 750 mm Hg. Calculate this pressure in atm and kPa.</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="os-hasSolution"
+                          data-type="exercise"
+                          id="fs-idm32613120"
+                        >
+                          <div data-type="problem" id="fs-idm70646416">
+                            <a
+                              class="os-number"
+                              href="chapter-8#fs-idm32613120-solution"
+                            >5</a>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p
+                                id="fs-idp3670784"
+                              >A typical barometric pressure in Denver, Colorado, is 615 mm Hg. What is this pressure in atmospheres and kilopascals?</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class data-type="exercise" id="fs-idp30544832">
+                          <div data-type="problem" id="fs-idp184951584">
+                            <span class="os-number">6</span>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p
+                                id="fs-idp135739664"
+                              >A typical barometric pressure in Kansas City is 740 torr. What is this pressure in atmospheres, in millimeters of mercury, and in kilopascals?</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="os-hasSolution"
+                          data-type="exercise"
+                          id="fs-idm87042080"
+                        >
+                          <div data-type="problem" id="fs-idm45863536">
+                            <a
+                              class="os-number"
+                              href="chapter-8#fs-idm87042080-solution"
+                            >7</a>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p
+                                id="fs-idp38342496"
+                              >Canadian tire pressure gauges are marked in units of kilopascals. What reading on such a gauge corresponds to 32 psi?</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class data-type="exercise" id="fs-idp128422496">
+                          <div data-type="problem" id="fs-idp8514416">
+                            <span class="os-number">8</span>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p
+                                id="fs-idm38508352"
+                              >During the Viking landings on Mars, the atmospheric pressure was determined to be on the average about 6.50 millibars (1 bar = 0.987 atm). What is that pressure in torr and kPa?</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="os-hasSolution"
+                          data-type="exercise"
+                          id="fs-idm51193840"
+                        >
+                          <div data-type="problem" id="fs-idp202273744">
+                            <a
+                              class="os-number"
+                              href="chapter-8#fs-idm51193840-solution"
+                            >9</a>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p
+                                id="fs-idm88643488"
+                              >The pressure of the atmosphere on the surface of the planet Venus is about 88.8 atm. Compare that pressure in psi to the normal pressure on earth at sea level in psi.</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class data-type="exercise" id="fs-idm81032176">
+                          <div data-type="problem" id="fs-idm50270928">
+                            <span class="os-number">10</span>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p
+                                id="fs-idm38299280"
+                              >A medical laboratory catalog describes the pressure in a cylinder of a gas as 14.82 MPa. What is the pressure of this gas in atmospheres and torr?</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="os-hasSolution"
+                          data-type="exercise"
+                          id="fs-idm35019472"
+                        >
+                          <div data-type="problem" id="fs-idp170653984">
+                            <a
+                              class="os-number"
+                              href="chapter-8#fs-idm35019472-solution"
+                            >11</a>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p
+                                id="fs-idp39879760"
+                              >Consider this scenario and answer the following questions: On a mid-August day in the northeastern United States, the following information appeared in the local newspaper: atmospheric pressure at sea level 29.97 in. Hg, 1013.9 mbar.</p>
+                              <p
+                                id="fs-idm50271520"
+                              >(a) What was the pressure in kPa?</p>
+                              <p
+                                id="fs-idp189723312"
+                              >(b) The pressure near the seacoast in the northeastern United States is usually reported near 30.0 in. Hg. During a hurricane, the pressure may fall to near 28.0 in. Hg. Calculate the drop in pressure in torr.</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class data-type="exercise" id="fs-idp32052448">
+                          <div data-type="problem" id="fs-idm91940192">
+                            <span class="os-number">12</span>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p
+                                id="fs-idp26220160"
+                              >Why is it necessary to use a nonvolatile liquid in a barometer or manometer?</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="os-hasSolution"
+                          data-type="exercise"
+                          id="fs-idm55768576"
+                        >
+                          <div data-type="problem" id="fs-idm62139584">
+                            <a
+                              class="os-number"
+                              href="chapter-8#fs-idm55768576-solution"
+                            >13</a>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p
+                                id="fs-idm29763808"
+                              >The pressure of a sample of gas is measured at sea level with a closed-end manometer. The liquid in the manometer is mercury. Determine the pressure of the gas in:</p>
+                              <p id="fs-idp89607040">(a) torr</p>
+                              <p id="fs-idm95742832">(b) Pa</p>
+                              <p id="fs-idm80328752">(c) bar</p>
+                              <span
+                                class="scaled-down"
+                                data-alt="A diagram of a closed-end manometer is shown. To the upper left is a spherical container labeled, “gas.” This container is connected by a valve to a U-shaped tube which is labeled “closed end” at the upper right end. The container and a portion of tube that follows are shaded pink. The lower portion of the U-shaped tube is shaded grey with the height of the gray region being greater on the right side than on the left. The difference in height of 26.4 c m is indicated with horizontal line segments and arrows."
+                                data-type="media"
+                                id="fs-idm92729728"
+                              >
+                                <img
+                                  alt="A diagram of a closed-end manometer is shown. To the upper left is a spherical container labeled, “gas.” This container is connected by a valve to a U-shaped tube which is labeled “closed end” at the upper right end. The container and a portion of tube that follows are shaded pink. The lower portion of the U-shaped tube is shaded grey with the height of the gray region being greater on the right side than on the left. The difference in height of 26.4 c m is indicated with horizontal line segments and arrows."
+                                  data-media-type="image/jpeg"
+                                  id="[redacted for uniqueness]"
+                                  src="/resources/9d785522b7791c98a9ce878b65918ab2c4a7a561"
+                                >
+                              </span>
+                            </div>
+                          </div>
+                        </div>
+                        <div class data-type="exercise" id="fs-idp27847856">
+                          <div data-type="problem" id="fs-idp17600752">
+                            <span class="os-number">14</span>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p
+                                id="fs-idp185367488"
+                              >The pressure of a sample of gas is measured with an open-end manometer, partially shown to the right. The liquid in the manometer is mercury. Assuming atmospheric pressure is 29.92 in. Hg, determine the pressure of the gas in:</p>
+                              <p id="fs-idm39627648">(a) torr</p>
+                              <p id="fs-idp27090112">(b) Pa</p>
+                              <p id="fs-idm69293536">(c) bar</p>
+                              <span
+                                class="scaled-down-30"
+                                data-alt="A diagram of an open-end manometer is shown. To the upper left is a spherical container labeled, “gas.” This container is connected by a valve to a U-shaped tube which is labeled “open end” at the upper right end. The container and a portion of tube that follows are shaded pink. The lower portion of the U-shaped tube is shaded grey with the height of the gray region being greater on the left side than on the right. The difference in height of 6.00 i n is indicated with horizontal line segments and arrows."
+                                data-type="media"
+                                id="fs-idm26453536"
+                              >
+                                <img
+                                  alt="A diagram of an open-end manometer is shown. To the upper left is a spherical container labeled, “gas.” This container is connected by a valve to a U-shaped tube which is labeled “open end” at the upper right end. The container and a portion of tube that follows are shaded pink. The lower portion of the U-shaped tube is shaded grey with the height of the gray region being greater on the left side than on the right. The difference in height of 6.00 i n is indicated with horizontal line segments and arrows."
+                                  data-media-type="image/jpeg"
+                                  id="[redacted for uniqueness]"
+                                  src="/resources/1a0476687ca71a6e6cccbcb8b9f5b05b5eb01690"
+                                >
+                              </span>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="os-hasSolution"
+                          data-type="exercise"
+                          id="fs-idm77194176"
+                        >
+                          <div data-type="problem" id="fs-idp38649952">
+                            <a
+                              class="os-number"
+                              href="chapter-8#fs-idm77194176-solution"
+                            >15</a>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p
+                                id="fs-idm86041584"
+                              >The pressure of a sample of gas is measured at sea level with an open-end mercury manometer. Assuming atmospheric pressure is 760.0 mm Hg, determine the pressure of the gas in:</p>
+                              <p id="fs-idp164256000">(a) mm Hg</p>
+                              <p id="fs-idp142813824">(b) atm</p>
+                              <p id="fs-idp30379328">(c) kPa</p>
+                              <span
+                                class="scaled-down-30"
+                                data-alt="A diagram of an open-end manometer is shown. To the upper left is a spherical container labeled, “gas.” This container is connected by a valve to a U-shaped tube which is labeled “open end” at the upper right end. The container and a portion of tube that follows are shaded pink. The lower portion of the U-shaped tube is shaded grey with the height of the gray region being greater on the left side than on the right. The difference in height of 13.7 c m is indicated with horizontal line segments and arrows."
+                                data-type="media"
+                                id="fs-idm1196240"
+                              >
+                                <img
+                                  alt="A diagram of an open-end manometer is shown. To the upper left is a spherical container labeled, “gas.” This container is connected by a valve to a U-shaped tube which is labeled “open end” at the upper right end. The container and a portion of tube that follows are shaded pink. The lower portion of the U-shaped tube is shaded grey with the height of the gray region being greater on the left side than on the right. The difference in height of 13.7 c m is indicated with horizontal line segments and arrows."
+                                  data-media-type="image/jpeg"
+                                  id="[redacted for uniqueness]"
+                                  src="/resources/e306ce09f31a76fadeeeea5616cf011bd0f7e767"
+                                >
+                              </span>
+                            </div>
+                          </div>
+                        </div>
+                        <div class data-type="exercise" id="fs-idm35876656">
+                          <div data-type="problem" id="fs-idp133323424">
+                            <span class="os-number">16</span>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p
+                                id="fs-idp58526352"
+                              >The pressure of a sample of gas is measured at sea level with an open-end mercury manometer. Assuming atmospheric pressure is 760 mm Hg, determine the pressure of the gas in:</p>
+                              <p id="fs-idm77467552">(a) mm Hg</p>
+                              <p id="fs-idm90142112">(b) atm</p>
+                              <p id="fs-idp189802448">(c) kPa</p>
+                              <span
+                                class="scaled-down-30"
+                                data-alt="A diagram of an open-end manometer is shown. To the upper left is a spherical container labeled, “gas.” This container is connected by a valve to a U-shaped tube which is labeled “open end” at the upper right end. The container and a portion of tube that follows are shaded pink. The lower portion of the U-shaped tube is shaded grey with the height of the gray region being greater on the right side than on the left. The difference in height of 26.4 c m is indicated with horizontal line segments and arrows."
+                                data-type="media"
+                                id="fs-idm82208512"
+                              >
+                                <img
+                                  alt="A diagram of an open-end manometer is shown. To the upper left is a spherical container labeled, “gas.” This container is connected by a valve to a U-shaped tube which is labeled “open end” at the upper right end. The container and a portion of tube that follows are shaded pink. The lower portion of the U-shaped tube is shaded grey with the height of the gray region being greater on the right side than on the left. The difference in height of 26.4 c m is indicated with horizontal line segments and arrows."
+                                  data-media-type="image/jpeg"
+                                  id="[redacted for uniqueness]"
+                                  src="/resources/325c7f0f2b397347ad3be906b7708da6f7dda45b"
+                                >
+                              </span>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="os-hasSolution"
+                          data-type="exercise"
+                          id="fs-idm25727664"
+                        >
+                          <div data-type="problem" id="fs-idm125997536">
+                            <a
+                              class="os-number"
+                              href="chapter-8#fs-idm25727664-solution"
+                            >17</a>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p
+                                id="fs-idm79130144"
+                              >How would the use of a volatile liquid affect the measurement of a gas using open-ended manometers vs. closed-end manometers?</p>
+                            </div>
+                          </div>
+                        </div>
+                      </section>
+                      <section
+                        class="exercises"
+                        data-depth="1"
+                        id="fs-idm132049520"
+                      >
+                        <h3 data-type="document-title" id="[redacted for uniqueness]">
+                          <span class="os-number">8.2</span>
+                          <span class="os-divider"></span>
+                          <span
+                            class="os-text"
+                          >Relating Pressure, Volume, Amount, and Temperature: The Ideal Gas Law</span>
+                        </h3>
+                        <div class data-type="exercise" id="fs-idm6254784">
+                          <div data-type="problem" id="fs-idm79480432">
+                            <span class="os-number">18</span>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p
+                                id="fs-idm226964944"
+                              >Sometimes leaving a bicycle in the sun on a hot day will cause a blowout. Why?</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="os-hasSolution"
+                          data-type="exercise"
+                          id="fs-idp16137760"
+                        >
+                          <div data-type="problem" id="fs-idm190058640">
+                            <a
+                              class="os-number"
+                              href="chapter-8#fs-idp16137760-solution"
+                            >19</a>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p id="fs-idm232268528">
+                                Explain how the volume of the bubbles exhausted by a scuba diver (
+                                <a
+                                  class="autogenerated-content"
+                                  href="8-2-relating-pressure-volume-amount-and-temperature-the-ideal-gas-law#CNX_Chem_09_02_Scuba"
+                                >Figure 8.16</a>) change as they rise to the surface, assuming that they remain intact.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class data-type="exercise" id="fs-idm228222512">
+                          <div data-type="problem" id="fs-idm56983200">
+                            <span class="os-number">20</span>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p
+                                id="fs-idm240310992"
+                              >One way to state Boyle’s law is “All other things being equal, the pressure of a gas is inversely proportional to its volume.” (a) What is the meaning of the term “inversely proportional?” (b) What are the “other things” that must be equal?</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="os-hasSolution"
+                          data-type="exercise"
+                          id="fs-idm153017968"
+                        >
+                          <div data-type="problem" id="fs-idm250301104">
+                            <a
+                              class="os-number"
+                              href="chapter-8#fs-idm153017968-solution"
+                            >21</a>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p
+                                id="fs-idm68690704"
+                              >An alternate way to state Avogadro’s law is “All other things being equal, the number of molecules in a gas is directly proportional to the volume of the gas.” (a) What is the meaning of the term “directly proportional?” (b) What are the “other things” that must be equal?</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class data-type="exercise" id="fs-idm119503088">
+                          <div data-type="problem" id="fs-idm122972656">
+                            <span class="os-number">22</span>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p id="fs-idm26964784">
+                                How would the graph in
+                                <a
+                                  class="autogenerated-content"
+                                  href="8-2-relating-pressure-volume-amount-and-temperature-the-ideal-gas-law#CNX_Chem_09_02_Charles2"
+                                >Figure 8.12</a> change if the number of moles of gas in the sample used to determine the curve were doubled?
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="os-hasSolution"
+                          data-type="exercise"
+                          id="fs-idm150329120"
+                        >
+                          <div data-type="problem" id="fs-idm188427552">
+                            <a
+                              class="os-number"
+                              href="chapter-8#fs-idm150329120-solution"
+                            >23</a>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p id="fs-idm241276032">
+                                How would the graph in
+                                <a
+                                  class="autogenerated-content"
+                                  href="8-2-relating-pressure-volume-amount-and-temperature-the-ideal-gas-law#CNX_Chem_09_03_BoylesLaw1"
+                                >Figure 8.13</a> change if the number of moles of gas in the sample used to determine the curve were doubled?
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class data-type="exercise" id="fs-idm221266736">
+                          <div data-type="problem" id="fs-idm227817104">
+                            <span class="os-number">24</span>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p id="fs-idm190325632">
+                                In addition to the data found in
+                                <a
+                                  class="autogenerated-content"
+                                  href="8-2-relating-pressure-volume-amount-and-temperature-the-ideal-gas-law#CNX_Chem_09_03_BoylesLaw1"
+                                >Figure 8.13</a>, what other information do we need to find the mass of the sample of air used to determine the graph?
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="os-hasSolution"
+                          data-type="exercise"
+                          id="fs-idm162722032"
+                        >
+                          <div data-type="problem" id="fs-idm129289120">
+                            <a
+                              class="os-number"
+                              href="chapter-8#fs-idm162722032-solution"
+                            >25</a>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p id="fs-idm223838704">
+                                Determine the volume of 1 mol of CH
+                                <sub>4</sub> gas at 150 K and 1 atm, using
+                                <a
+                                  class="autogenerated-content"
+                                  href="8-2-relating-pressure-volume-amount-and-temperature-the-ideal-gas-law#CNX_Chem_09_02_Charles2"
+                                >Figure 8.12</a>.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class data-type="exercise" id="fs-idm179450656">
+                          <div data-type="problem" id="fs-idm235612144">
+                            <span class="os-number">26</span>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p id="fs-idm118272896">
+                                Determine the pressure of the gas in the syringe shown in
+                                <a
+                                  class="autogenerated-content"
+                                  href="8-2-relating-pressure-volume-amount-and-temperature-the-ideal-gas-law#CNX_Chem_09_03_BoylesLaw1"
+                                >Figure 8.13</a> when its volume is 12.5 mL, using:
+                              </p>
+                              <p id="fs-idm163780992">(a) the appropriate graph</p>
+                              <p id="fs-idm234849104">(b) Boyle’s law</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="os-hasSolution"
+                          data-type="exercise"
+                          id="fs-idm211017328"
+                        >
+                          <div data-type="problem" id="fs-idm109304128">
+                            <a
+                              class="os-number"
+                              href="chapter-8#fs-idm211017328-solution"
+                            >27</a>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p
+                                id="fs-idm138731120"
+                              >A spray can is used until it is empty except for the propellant gas, which has a pressure of 1344 torr at 23 °C. If the can is thrown into a fire (T = 475 °C), what will be the pressure in the hot can?</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class data-type="exercise" id="fs-idm244984432">
+                          <div data-type="problem" id="fs-idm220274224">
+                            <span class="os-number">28</span>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p
+                                id="fs-idm188609648"
+                              >What is the temperature of an 11.2-L sample of carbon monoxide, CO, at 744 torr if it occupies 13.3 L at 55 °C and 744 torr?</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="os-hasSolution"
+                          data-type="exercise"
+                          id="fs-idm221278704"
+                        >
+                          <div data-type="problem" id="fs-idm83914304">
+                            <a
+                              class="os-number"
+                              href="chapter-8#fs-idm221278704-solution"
+                            >29</a>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p
+                                id="fs-idm207552272"
+                              >A 2.50-L volume of hydrogen measured at –196 °C is warmed to 100 °C. Calculate the volume of the gas at the higher temperature, assuming no change in pressure.</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class data-type="exercise" id="fs-idm179333888">
+                          <div data-type="problem" id="fs-idm248411792">
+                            <span class="os-number">30</span>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p
+                                id="fs-idm246603456"
+                              >A balloon inflated with three breaths of air has a volume of 1.7 L. At the same temperature and pressure, what is the volume of the balloon if five more same-sized breaths are added to the balloon?</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="os-hasSolution"
+                          data-type="exercise"
+                          id="fs-idm24946256"
+                        >
+                          <div data-type="problem" id="fs-idm126307840">
+                            <a
+                              class="os-number"
+                              href="chapter-8#fs-idm24946256-solution"
+                            >31</a>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p
+                                id="fs-idp28199904"
+                              >A weather balloon contains 8.80 moles of helium at a pressure of 0.992 atm and a temperature of 25 °C at ground level. What is the volume of the balloon under these conditions?</p>
+                              <span
+                                class="scaled-down"
+                                data-alt="This image shows a white balloon that appears to have an attached white card. The balloon is being held by a person in an outdoor setting."
+                                data-type="media"
+                                id="fs-idm227684464"
+                              >
+                                <img
+                                  alt="This image shows a white balloon that appears to have an attached white card. The balloon is being held by a person in an outdoor setting."
+                                  data-media-type="image/jpeg"
+                                  id="[redacted for uniqueness]"
+                                  src="/resources/16701a9643a38305f76aaabe16ae59c7ca4e8422"
+                                >
+                              </span>
+                            </div>
+                          </div>
+                        </div>
+                        <div class data-type="exercise" id="fs-idm207691136">
+                          <div data-type="problem" id="fs-idm329170336">
+                            <span class="os-number">32</span>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p
+                                id="fs-idm288109888"
+                              >The volume of an automobile air bag was 66.8 L when inflated at 25 °C with 77.8 g of nitrogen gas. What was the pressure in the bag in kPa?</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="os-hasSolution"
+                          data-type="exercise"
+                          id="fs-idm95690800"
+                        >
+                          <div data-type="problem" id="fs-idm130104720">
+                            <a
+                              class="os-number"
+                              href="chapter-8#fs-idm95690800-solution"
+                            >33</a>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p id="fs-idm72005728">
+                                How many moles of gaseous boron trifluoride, BF
+                                <sub>3</sub>, are contained in a 4.3410-L bulb at 788.0 K if the pressure is 1.220 atm? How many grams of BF
+                                <sub>3</sub>?
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class data-type="exercise" id="fs-idm171506192">
+                          <div data-type="problem" id="fs-idm198324288">
+                            <span class="os-number">34</span>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p id="fs-idm130364096">
+                                Iodine, I
+                                <sub>2</sub>, is a solid at room temperature but sublimes (converts from a solid into a gas) when warmed. What is the temperature in a 73.3-mL bulb that contains 0.292 g of I
+                                <sub>2</sub> vapor at a pressure of 0.462 atm?
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="os-hasSolution"
+                          data-type="exercise"
+                          id="fs-idm192798240"
+                        >
+                          <div data-type="problem" id="fs-idm26608320">
+                            <a
+                              class="os-number"
+                              href="chapter-8#fs-idm192798240-solution"
+                            >35</a>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p
+                                id="fs-idm141545152"
+                              >How many grams of gas are present in each of the following cases?</p>
+                              <p id="fs-idm78787920">
+                                (a) 0.100 L of CO
+                                <sub>2</sub> at 307 torr and 26 °C
+                              </p>
+                              <p id="fs-idm162758736">
+                                (b) 8.75 L of C
+                                <sub>2</sub>H
+                                <sub>4</sub>, at 378.3 kPa and 483 K
+                              </p>
+                              <p
+                                id="fs-idm197462832"
+                              >(c) 221 mL of Ar at 0.23 torr and –54 °C</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class data-type="exercise" id="fs-idm87206720">
+                          <div data-type="problem" id="fs-idm240294896">
+                            <span class="os-number">36</span>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p id="fs-idm151037808">
+                                A high altitude balloon is filled with 1.41
+                                <math display="inline">
+                                  <semantics>
+                                    <mrow>
+                                      <mo>×</mo>
+                                    </mrow>
+                                    <annotation-xml encoding="MathML-Content">
+                                      <mo>×</mo>
+                                    </annotation-xml>
+                                  </semantics>
+                                </math> 10
+                                <sup>4</sup> L of hydrogen at a temperature of 21 °C and a pressure of 745 torr. What is the volume of the balloon at a height of 20 km, where the temperature is –48 °C and the pressure is 63.1 torr?
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="os-hasSolution"
+                          data-type="exercise"
+                          id="fs-idm71892416"
+                        >
+                          <div data-type="problem" id="fs-idm188094080">
+                            <a
+                              class="os-number"
+                              href="chapter-8#fs-idm71892416-solution"
+                            >37</a>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p id="fs-idm226416640">
+                                A cylinder of medical oxygen has a volume of 35.4 L, and contains O
+                                <sub>2</sub> at a pressure of 151 atm and a temperature of 25 °C. What volume of O
+                                <sub>2</sub> does this correspond to at normal body conditions, that is, 1 atm and 37 °C?
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class data-type="exercise" id="fs-idm131888352">
+                          <div data-type="problem" id="fs-idm207038512">
+                            <span class="os-number">38</span>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p id="fs-idm183236768">
+                                A large scuba tank (
+                                <a
+                                  class="autogenerated-content"
+                                  href="8-2-relating-pressure-volume-amount-and-temperature-the-ideal-gas-law#CNX_Chem_09_02_Scuba"
+                                >Figure 8.16</a>) with a volume of 18 L is rated for a pressure of 220 bar. The tank is filled at 20 °C and contains enough air to supply 1860 L of air to a diver at a pressure of 2.37 atm (a depth of 45 feet). Was the tank filled to capacity at 20 °C?
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="os-hasSolution"
+                          data-type="exercise"
+                          id="fs-idm247077296"
+                        >
+                          <div data-type="problem" id="fs-idm241031792">
+                            <a
+                              class="os-number"
+                              href="chapter-8#fs-idm247077296-solution"
+                            >39</a>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p id="fs-idm242471664">
+                                A 20.0-L cylinder containing 11.34 kg of butane, C
+                                <sub>4</sub>H
+                                <sub>10</sub>, was opened to the atmosphere. Calculate the mass of the gas remaining in the cylinder if it were opened and the gas escaped until the pressure in the cylinder was equal to the atmospheric pressure, 0.983 atm, and a temperature of 27 °C.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class data-type="exercise" id="fs-idp25823920">
+                          <div data-type="problem" id="fs-idm127911872">
+                            <span class="os-number">40</span>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p id="fs-idm211956816">
+                                While resting, the average 70-kg human male consumes 14 L of pure O
+                                <sub>2</sub> per hour at 25 °C and 100 kPa. How many moles of O
+                                <sub>2</sub> are consumed by a 70 kg man while resting for 1.0 h?
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="os-hasSolution"
+                          data-type="exercise"
+                          id="fs-idm188679440"
+                        >
+                          <div data-type="problem" id="fs-idm166948240">
+                            <a
+                              class="os-number"
+                              href="chapter-8#fs-idm188679440-solution"
+                            >41</a>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p
+                                id="fs-idm33917680"
+                              >For a given amount of gas showing ideal behavior, draw labeled graphs of:</p>
+                              <p id="fs-idm187706512">
+                                (a) the variation of
+                                <em data-effect="italics">P</em> with
+                                <em data-effect="italics">V</em>
+                              </p>
+                              <p id="fs-idm118579008">
+                                (b) the variation of
+                                <em data-effect="italics">V</em> with
+                                <em data-effect="italics">T</em>
+                              </p>
+                              <p id="fs-idm247454720">
+                                (c) the variation of
+                                <em data-effect="italics">P</em> with
+                                <em data-effect="italics">T</em>
+                              </p>
+                              <p id="fs-idm149859408">
+                                (d) the variation of
+                                <math display="inline">
+                                  <semantics>
+                                    <mrow>
+                                      <mrow>
+                                        <mfrac>
+                                          <mn>1</mn>
+                                          <mi>P</mi>
+                                        </mfrac>
+                                      </mrow>
+                                    </mrow>
+                                    <annotation-xml encoding="MathML-Content">
+                                      <mrow>
+                                        <mfrac>
+                                          <mn>1</mn>
+                                          <mi>P</mi>
+                                        </mfrac>
+                                      </mrow>
+                                    </annotation-xml>
+                                  </semantics>
+                                </math> with
+                                <em data-effect="italics">V</em>
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class data-type="exercise" id="fs-idm259995696">
+                          <div data-type="problem" id="fs-idm190622512">
+                            <span class="os-number">42</span>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p id="fs-idm158397552">
+                                A liter of methane gas, CH
+                                <sub>4</sub>, at STP contains more atoms of hydrogen than does a liter of pure hydrogen gas, H
+                                <sub>2</sub>, at STP. Using Avogadro’s law as a starting point, explain why.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="os-hasSolution"
+                          data-type="exercise"
+                          id="fs-idp25675936"
+                        >
+                          <div data-type="problem" id="fs-idm210098944">
+                            <a
+                              class="os-number"
+                              href="chapter-8#fs-idp25675936-solution"
+                            >43</a>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p id="fs-idm180268096">
+                                The effect of chlorofluorocarbons (such as CCl
+                                <sub>2</sub>F
+                                <sub>2</sub>) on the depletion of the ozone layer is well known. The use of substitutes, such as CH
+                                <sub>3</sub>CH
+                                <sub>2</sub>F(
+                                <em data-effect="italics">g</em>), for the chlorofluorocarbons, has largely corrected the problem. Calculate the volume occupied by 10.0 g of each of these compounds at STP:
+                              </p>
+                              <p id="fs-idm198422416">
+                                (a) CCl
+                                <sub>2</sub>F
+                                <sub>2</sub>(
+                                <em data-effect="italics">g</em>)
+                              </p>
+                              <p id="fs-idm139801328">
+                                (b) CH
+                                <sub>3</sub>CH
+                                <sub>2</sub>F(
+                                <em data-effect="italics">g</em>)
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class data-type="exercise" id="fs-idm26646416">
+                          <div data-type="problem" id="fs-idm213950816">
+                            <span class="os-number">44</span>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p id="fs-idm192031120">
+                                As 1 g of the radioactive element radium decays over 1 year, it produces 1.16
+                                <math display="inline">
+                                  <semantics>
+                                    <mrow>
+                                      <mo>×</mo>
+                                    </mrow>
+                                    <annotation-xml encoding="MathML-Content">
+                                      <mo>×</mo>
+                                    </annotation-xml>
+                                  </semantics>
+                                </math> 10
+                                <sup>18</sup> alpha particles (helium nuclei). Each alpha particle becomes an atom of helium gas. What is the pressure in pascal of the helium gas produced if it occupies a volume of 125 mL at a temperature of 25 °C?
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="os-hasSolution"
+                          data-type="exercise"
+                          id="fs-idm23005472"
+                        >
+                          <div data-type="problem" id="fs-idm19206048">
+                            <a
+                              class="os-number"
+                              href="chapter-8#fs-idm23005472-solution"
+                            >45</a>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p
+                                id="fs-idm19205792"
+                              >A balloon with a volume of 100.21 L at 21 °C and 0.981 atm is released and just barely clears the top of Mount Crumpet in British Columbia. If the final volume of the balloon is 144.53 L at a temperature of 5.24 °C, what is the pressure experienced by the balloon as it clears Mount Crumpet?</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class data-type="exercise" id="fs-idm189510384">
+                          <div data-type="problem" id="fs-idm5787616">
+                            <span class="os-number">46</span>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p
+                                id="fs-idm157793824"
+                              >If the temperature of a fixed amount of a gas is doubled at constant volume, what happens to the pressure?</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="os-hasSolution"
+                          data-type="exercise"
+                          id="fs-idm136587680"
+                        >
+                          <div data-type="problem" id="fs-idm136587424">
+                            <a
+                              class="os-number"
+                              href="chapter-8#fs-idm136587680-solution"
+                            >47</a>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p
+                                id="fs-idm193016160"
+                              >If the volume of a fixed amount of a gas is tripled at constant temperature, what happens to the pressure?</p>
+                            </div>
+                          </div>
+                        </div>
+                      </section>
+                      <section
+                        class="exercises"
+                        data-depth="1"
+                        id="fs-idp118960256"
+                      >
+                        <h3 data-type="document-title" id="[redacted for uniqueness]">
+                          <span class="os-number">8.3</span>
+                          <span class="os-divider"></span>
+                          <span
+                            class="os-text"
+                          >Stoichiometry of Gaseous Substances, Mixtures, and Reactions</span>
+                        </h3>
+                        <div class data-type="exercise" id="fs-idp231956592">
+                          <div data-type="problem" id="fs-idp8716432">
+                            <span class="os-number">48</span>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p id="fs-idp5305888">
+                                What is the density of laughing gas, dinitrogen monoxide, N
+                                <sub>2</sub>O, at a temperature of 325 K and a pressure of 113.0 kPa?
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="os-hasSolution"
+                          data-type="exercise"
+                          id="fs-idp64305520"
+                        >
+                          <div data-type="problem" id="fs-idp232411056">
+                            <a
+                              class="os-number"
+                              href="chapter-8#fs-idp64305520-solution"
+                            >49</a>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p id="fs-idp65538752">
+                                Calculate the density of Freon 12, CF
+                                <sub>2</sub>Cl
+                                <sub>2</sub>, at 30.0 °C and 0.954 atm.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class data-type="exercise" id="fs-idp50300640">
+                          <div data-type="problem" id="fs-idp256429264">
+                            <span class="os-number">50</span>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p
+                                id="fs-idp101996016"
+                              >Which is denser at the same temperature and pressure, dry air or air saturated with water vapor? Explain.</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="os-hasSolution"
+                          data-type="exercise"
+                          id="fs-idm31331424"
+                        >
+                          <div data-type="problem" id="fs-idp98108704">
+                            <a
+                              class="os-number"
+                              href="chapter-8#fs-idm31331424-solution"
+                            >51</a>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p id="fs-idp212774384">
+                                A cylinder of O
+                                <sub>2</sub>(
+                                <em data-effect="italics">g</em>) used in breathing by patients with emphysema has a volume of 3.00 L at a pressure of 10.0 atm. If the temperature of the cylinder is 28.0 °C, what mass of oxygen is in the cylinder?
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class data-type="exercise" id="fs-idp20795744">
+                          <div data-type="problem" id="fs-idp47024752">
+                            <span class="os-number">52</span>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p
+                                id="fs-idm32935856"
+                              >What is the molar mass of a gas if 0.0494 g of the gas occupies a volume of 0.100 L at a temperature 26 °C and a pressure of 307 torr?</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="os-hasSolution"
+                          data-type="exercise"
+                          id="fs-idp19006560"
+                        >
+                          <div data-type="problem" id="fs-idp149442448">
+                            <a
+                              class="os-number"
+                              href="chapter-8#fs-idp19006560-solution"
+                            >53</a>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p
+                                id="fs-idp49541504"
+                              >What is the molar mass of a gas if 0.281 g of the gas occupies a volume of 125 mL at a temperature 126 °C and a pressure of 777 torr?</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class data-type="exercise" id="fs-idp39361600">
+                          <div data-type="problem" id="fs-idp65471504">
+                            <span class="os-number">54</span>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p id="fs-idm25604064">
+                                How could you show experimentally that the molecular formula of propene is C
+                                <sub>3</sub>H
+                                <sub>6</sub>, not CH
+                                <sub>2</sub>?
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="os-hasSolution"
+                          data-type="exercise"
+                          id="fs-idp37043264"
+                        >
+                          <div data-type="problem" id="fs-idp86685088">
+                            <a
+                              class="os-number"
+                              href="chapter-8#fs-idp37043264-solution"
+                            >55</a>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p
+                                id="fs-idp36886592"
+                              >The density of a certain gaseous fluoride of phosphorus is 3.93 g/L at STP. Calculate the molar mass of this fluoride and determine its molecular formula.</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class data-type="exercise" id="fs-idm10841488">
+                          <div data-type="problem" id="fs-idp20304688">
+                            <span class="os-number">56</span>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p
+                                id="fs-idp118959200"
+                              >Consider this question: What is the molecular formula of a compound that contains 39% C, 45% N, and 16% H if 0.157 g of the compound occupies 125 mL with a pressure of 99.5 kPa at 22 °C?</p>
+                              <p
+                                id="fs-idp31689456"
+                              >(a) Outline the steps necessary to answer the question.</p>
+                              <p id="fs-idm7368784">(b) Answer the question.</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="os-hasSolution"
+                          data-type="exercise"
+                          id="fs-idp13701424"
+                        >
+                          <div data-type="problem" id="fs-idp13701680">
+                            <a
+                              class="os-number"
+                              href="chapter-8#fs-idp13701424-solution"
+                            >57</a>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p id="fs-idp96863072">
+                                A 36.0–L cylinder of a gas used for calibration of blood gas analyzers in medical laboratories contains 350 g CO
+                                <sub>2</sub>, 805 g O
+                                <sub>2</sub>, and 4,880 g N
+                                <sub>2</sub>. At 25 degrees C, what is the pressure in the cylinder in atmospheres?
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class data-type="exercise" id="fs-idp106657088">
+                          <div data-type="problem" id="fs-idp198510832">
+                            <span class="os-number">58</span>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p id="fs-idp198511088">
+                                A cylinder of a gas mixture used for calibration of blood gas analyzers in medical laboratories contains 5.0% CO
+                                <sub>2</sub>, 12.0% O
+                                <sub>2</sub>, and the remainder N
+                                <sub>2</sub> at a total pressure of 146 atm. What is the partial pressure of each component of this gas? (The percentages given indicate the percent of the total pressure that is due to each component.)
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="os-hasSolution"
+                          data-type="exercise"
+                          id="fs-idp207682832"
+                        >
+                          <div data-type="problem" id="fs-idp207683088">
+                            <a
+                              class="os-number"
+                              href="chapter-8#fs-idp207682832-solution"
+                            >59</a>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p id="fs-idp1788992">
+                                A sample of gas isolated from unrefined petroleum contains 90.0% CH
+                                <sub>4</sub>, 8.9% C
+                                <sub>2</sub>H
+                                <sub>6</sub>, and 1.1% C
+                                <sub>3</sub>H
+                                <sub>8</sub> at a total pressure of 307.2 kPa. What is the partial pressure of each component of this gas? (The percentages given indicate the percent of the total pressure that is due to each component.)
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class data-type="exercise" id="fs-idp19919472">
+                          <div data-type="problem" id="fs-idp108398688">
+                            <span class="os-number">60</span>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p id="fs-idp108398944">
+                                A mixture of 0.200 g of H
+                                <sub>2</sub>, 1.00 g of N
+                                <sub>2</sub>, and 0.820 g of Ar is stored in a closed container at STP. Find the volume of the container, assuming that the gases exhibit ideal behavior.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="os-hasSolution"
+                          data-type="exercise"
+                          id="fs-idp86142480"
+                        >
+                          <div data-type="problem" id="fs-idp164624896">
+                            <a
+                              class="os-number"
+                              href="chapter-8#fs-idp86142480-solution"
+                            >61</a>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p id="fs-idp164625152">
+                                Most mixtures of hydrogen gas with oxygen gas are explosive. However, a mixture that contains less than 3.0 % O
+                                <sub>2</sub> is not. If enough O
+                                <sub>2</sub> is added to a cylinder of H
+                                <sub>2</sub> at 33.2 atm to bring the total pressure to 34.5 atm, is the mixture explosive?
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class data-type="exercise" id="fs-idp100299232">
+                          <div data-type="problem" id="fs-idp48834848">
+                            <span class="os-number">62</span>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p id="fs-idp48835104">
+                                A commercial mercury vapor analyzer can detect, in air, concentrations of gaseous Hg atoms (which are poisonous) as low as 2
+                                <math display="inline">
+                                  <semantics>
+                                    <mrow>
+                                      <mo>×</mo>
+                                    </mrow>
+                                    <annotation-xml encoding="MathML-Content">
+                                      <mo>×</mo>
+                                    </annotation-xml>
+                                  </semantics>
+                                </math> 10
+                                <sup>−6</sup> mg/L of air. At this concentration, what is the partial pressure of gaseous mercury if the atmospheric pressure is 733 torr at 26 °C?
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="os-hasSolution"
+                          data-type="exercise"
+                          id="fs-idm12594800"
+                        >
+                          <div data-type="problem" id="fs-idm12594544">
+                            <a
+                              class="os-number"
+                              href="chapter-8#fs-idm12594800-solution"
+                            >63</a>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p id="fs-idp69022144">
+                                A sample of carbon monoxide was collected over water at a total pressure of 756 torr and a temperature of 18 °C. What is the pressure of the carbon monoxide? (See
+                                <a
+                                  class="autogenerated-content"
+                                  href="8-3-stoichiometry-of-gaseous-substances-mixtures-and-reactions#fs-idm68841392"
+                                >Table 8.2</a> for the vapor pressure of water.)
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class data-type="exercise" id="fs-idp38931136">
+                          <div data-type="problem" id="fs-idp29952">
+                            <span class="os-number">64</span>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p
+                                id="fs-idp30208"
+                              >In an experiment in a general chemistry laboratory, a student collected a sample of a gas over water. The volume of the gas was 265 mL at a pressure of 753 torr and a temperature of 27 °C. The mass of the gas was 0.472 g. What was the molar mass of the gas?</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="os-hasSolution"
+                          data-type="exercise"
+                          id="fs-idp211830176"
+                        >
+                          <div data-type="problem" id="fs-idp144350864">
+                            <a
+                              class="os-number"
+                              href="chapter-8#fs-idp211830176-solution"
+                            >65</a>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p id="fs-idp144351120">
+                                Joseph Priestley first prepared pure oxygen by heating mercuric oxide, HgO:
+                                <span data-type="newline">
+                                  <br>
+                                </span>
+                                <math display="inline">
+                                  <semantics>
+                                    <mrow>
+                                      <mrow>
+                                        <mn>2</mn>
+                                        <mtext>HgO</mtext>
+                                        <mrow>
+                                          <mo>(</mo>
+                                          <mi>s</mi>
+                                          <mo>)</mo>
+                                        </mrow>
+                                        <mspace width="0.2em"/>
+                                        <mo stretchy="false">⟶</mo>
+                                        <mspace width="0.2em"/>
+                                        <mn>2</mn>
+                                        <mtext>Hg</mtext>
+                                        <mrow>
+                                          <mo>(</mo>
+                                          <mi>l</mi>
+                                          <mo>)</mo>
+                                        </mrow>
+                                        <mo>+</mo>
+                                        <msub>
+                                          <mtext>O</mtext>
+                                          <mn>2</mn>
+                                        </msub>
+                                        <mo stretchy="false">(</mo>
+                                        <mi>g</mi>
+                                        <mo stretchy="false">)</mo>
+                                      </mrow>
+                                    </mrow>
+                                    <annotation-xml encoding="MathML-Content">
+                                      <mrow>
+                                        <mn>2</mn>
+                                        <mtext>HgO</mtext>
+                                        <mrow>
+                                          <mo>(</mo>
+                                          <mi>s</mi>
+                                          <mo>)</mo>
+                                        </mrow>
+                                        <mspace width="0.2em"/>
+                                        <mo stretchy="false">⟶</mo>
+                                        <mspace width="0.2em"/>
+                                        <mn>2</mn>
+                                        <mtext>Hg</mtext>
+                                        <mrow>
+                                          <mo>(</mo>
+                                          <mi>l</mi>
+                                          <mo>)</mo>
+                                        </mrow>
+                                        <mo>+</mo>
+                                        <msub>
+                                          <mtext>O</mtext>
+                                          <mn>2</mn>
+                                        </msub>
+                                        <mo stretchy="false">(</mo>
+                                        <mi>g</mi>
+                                        <mo stretchy="false">)</mo>
+                                      </mrow>
+                                    </annotation-xml>
+                                  </semantics>
+                                </math>
+                              </p>
+                              <p id="fs-idp73629408">
+                                (a) Outline the steps necessary to answer the following question: What volume of O
+                                <sub>2</sub> at 23 °C and 0.975 atm is produced by the decomposition of 5.36 g of HgO?
+                              </p>
+                              <p id="fs-idm98106000">(b) Answer the question.</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class data-type="exercise" id="fs-idp46179152">
+                          <div data-type="problem" id="fs-idp40636416">
+                            <span class="os-number">66</span>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p id="fs-idp40636672">
+                                Cavendish prepared hydrogen in 1766 by the novel method of passing steam through a red-hot gun barrel:
+                                <span data-type="newline">
+                                  <br>
+                                </span>
+                                <math display="inline">
+                                  <semantics>
+                                    <mrow>
+                                      <mrow>
+                                        <mn>4</mn>
+                                        <msub>
+                                          <mtext>H</mtext>
+                                          <mn>2</mn>
+                                        </msub>
+                                        <mtext>O</mtext>
+                                        <mrow>
+                                          <mo>(</mo>
+                                          <mi>g</mi>
+                                          <mo>)</mo>
+                                        </mrow>
+                                        <mo>+</mo>
+                                        <mn>3</mn>
+                                        <mtext>Fe</mtext>
+                                        <mrow>
+                                          <mo>(</mo>
+                                          <mi>s</mi>
+                                          <mo>)</mo>
+                                        </mrow>
+                                        <mspace width="0.2em"/>
+                                        <mo stretchy="false">⟶</mo>
+                                        <mspace width="0.2em"/>
+                                        <msub>
+                                          <mrow>
+                                            <mtext>Fe</mtext>
+                                          </mrow>
+                                          <mn>3</mn>
+                                        </msub>
+                                        <msub>
+                                          <mtext>O</mtext>
+                                          <mn>4</mn>
+                                        </msub>
+                                        <mo stretchy="false">(</mo>
+                                        <mi>s</mi>
+                                        <mo stretchy="false">)</mo>
+                                        <mo>+</mo>
+                                        <mn>4</mn>
+                                        <msub>
+                                          <mtext>H</mtext>
+                                          <mn>2</mn>
+                                        </msub>
+                                        <mo stretchy="false">(</mo>
+                                        <mi>g</mi>
+                                        <mo stretchy="false">)</mo>
+                                      </mrow>
+                                    </mrow>
+                                    <annotation-xml encoding="MathML-Content">
+                                      <mrow>
+                                        <mn>4</mn>
+                                        <msub>
+                                          <mtext>H</mtext>
+                                          <mn>2</mn>
+                                        </msub>
+                                        <mtext>O</mtext>
+                                        <mrow>
+                                          <mo>(</mo>
+                                          <mi>g</mi>
+                                          <mo>)</mo>
+                                        </mrow>
+                                        <mo>+</mo>
+                                        <mn>3</mn>
+                                        <mtext>Fe</mtext>
+                                        <mrow>
+                                          <mo>(</mo>
+                                          <mi>s</mi>
+                                          <mo>)</mo>
+                                        </mrow>
+                                        <mspace width="0.2em"/>
+                                        <mo stretchy="false">⟶</mo>
+                                        <mspace width="0.2em"/>
+                                        <msub>
+                                          <mrow>
+                                            <mtext>Fe</mtext>
+                                          </mrow>
+                                          <mn>3</mn>
+                                        </msub>
+                                        <msub>
+                                          <mtext>O</mtext>
+                                          <mn>4</mn>
+                                        </msub>
+                                        <mo stretchy="false">(</mo>
+                                        <mi>s</mi>
+                                        <mo stretchy="false">)</mo>
+                                        <mo>+</mo>
+                                        <mn>4</mn>
+                                        <msub>
+                                          <mtext>H</mtext>
+                                          <mn>2</mn>
+                                        </msub>
+                                        <mo stretchy="false">(</mo>
+                                        <mi>g</mi>
+                                        <mo stretchy="false">)</mo>
+                                      </mrow>
+                                    </annotation-xml>
+                                  </semantics>
+                                </math>
+                              </p>
+                              <p id="fs-idp86341120">
+                                (a) Outline the steps necessary to answer the following question: What volume of H
+                                <sub>2</sub> at a pressure of 745 torr and a temperature of 20 °C can be prepared from the reaction of 15.O g of H
+                                <sub>2</sub>O?
+                              </p>
+                              <p id="fs-idp45810384">(b) Answer the question.</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="os-hasSolution"
+                          data-type="exercise"
+                          id="fs-idp39473616"
+                        >
+                          <div data-type="problem" id="fs-idp98992032">
+                            <a
+                              class="os-number"
+                              href="chapter-8#fs-idp39473616-solution"
+                            >67</a>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p id="fs-idp98992288">
+                                The chlorofluorocarbon CCl
+                                <sub>2</sub>F
+                                <sub>2</sub> can be recycled into a different compound by reaction with hydrogen to produce CH
+                                <sub>2</sub>F
+                                <sub>2</sub>(
+                                <em data-effect="italics">g</em>), a compound useful in chemical manufacturing:
+                                <span data-type="newline">
+                                  <br>
+                                </span>
+                                <math display="inline">
+                                  <semantics>
+                                    <mrow>
+                                      <mrow>
+                                        <msub>
+                                          <mrow>
+                                            <mtext>CCl</mtext>
+                                          </mrow>
+                                          <mn>2</mn>
+                                        </msub>
+                                        <msub>
+                                          <mtext>F</mtext>
+                                          <mn>2</mn>
+                                        </msub>
+                                        <mo stretchy="false">(</mo>
+                                        <mi>g</mi>
+                                        <mo stretchy="false">)</mo>
+                                        <mo>+</mo>
+                                        <mn>4</mn>
+                                        <msub>
+                                          <mtext>H</mtext>
+                                          <mn>2</mn>
+                                        </msub>
+                                        <mo stretchy="false">(</mo>
+                                        <mi>g</mi>
+                                        <mo stretchy="false">)</mo>
+                                        <mspace width="0.2em"/>
+                                        <mo stretchy="false">⟶</mo>
+                                        <mspace width="0.2em"/>
+                                        <msub>
+                                          <mrow>
+                                            <mtext>CH</mtext>
+                                          </mrow>
+                                          <mn>2</mn>
+                                        </msub>
+                                        <msub>
+                                          <mtext>F</mtext>
+                                          <mn>2</mn>
+                                        </msub>
+                                        <mo stretchy="false">(</mo>
+                                        <mi>g</mi>
+                                        <mo stretchy="false">)</mo>
+                                        <mo>+</mo>
+                                        <mn>2</mn>
+                                        <mtext>HCl</mtext>
+                                        <mrow>
+                                          <mo>(</mo>
+                                          <mi>g</mi>
+                                          <mo>)</mo>
+                                        </mrow>
+                                      </mrow>
+                                    </mrow>
+                                    <annotation-xml encoding="MathML-Content">
+                                      <mrow>
+                                        <msub>
+                                          <mrow>
+                                            <mtext>CCl</mtext>
+                                          </mrow>
+                                          <mn>2</mn>
+                                        </msub>
+                                        <msub>
+                                          <mtext>F</mtext>
+                                          <mn>2</mn>
+                                        </msub>
+                                        <mo stretchy="false">(</mo>
+                                        <mi>g</mi>
+                                        <mo stretchy="false">)</mo>
+                                        <mo>+</mo>
+                                        <mn>4</mn>
+                                        <msub>
+                                          <mtext>H</mtext>
+                                          <mn>2</mn>
+                                        </msub>
+                                        <mo stretchy="false">(</mo>
+                                        <mi>g</mi>
+                                        <mo stretchy="false">)</mo>
+                                        <mspace width="0.2em"/>
+                                        <mo stretchy="false">⟶</mo>
+                                        <mspace width="0.2em"/>
+                                        <msub>
+                                          <mrow>
+                                            <mtext>CH</mtext>
+                                          </mrow>
+                                          <mn>2</mn>
+                                        </msub>
+                                        <msub>
+                                          <mtext>F</mtext>
+                                          <mn>2</mn>
+                                        </msub>
+                                        <mo stretchy="false">(</mo>
+                                        <mi>g</mi>
+                                        <mo stretchy="false">)</mo>
+                                        <mo>+</mo>
+                                        <mn>2</mn>
+                                        <mtext>HCl</mtext>
+                                        <mrow>
+                                          <mo>(</mo>
+                                          <mi>g</mi>
+                                          <mo>)</mo>
+                                        </mrow>
+                                      </mrow>
+                                    </annotation-xml>
+                                  </semantics>
+                                </math>
+                              </p>
+                              <p id="fs-idp144355856">
+                                (a) Outline the steps necessary to answer the following question: What volume of hydrogen at 225 atm and 35.5 °C would be required to react with 1 ton (1.000
+                                <math display="inline">
+                                  <semantics>
+                                    <mrow>
+                                      <mo>×</mo>
+                                    </mrow>
+                                    <annotation-xml encoding="MathML-Content">
+                                      <mo>×</mo>
+                                    </annotation-xml>
+                                  </semantics>
+                                </math> 10
+                                <sup>3</sup> kg) of CCl
+                                <sub>2</sub>F
+                                <sub>2</sub>?
+                              </p>
+                              <p id="fs-idp69374608">(b) Answer the question.</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class data-type="exercise" id="fs-idp152416544">
+                          <div data-type="problem" id="fs-idp203755840">
+                            <span class="os-number">68</span>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p id="fs-idp203756096">
+                                Automobile air bags are inflated with nitrogen gas, which is formed by the decomposition of solid sodium azide (NaN
+                                <sub>3</sub>). The other product is sodium metal. Calculate the volume of nitrogen gas at 27 °C and 756 torr formed by the decomposition of 125 g of sodium azide.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="os-hasSolution"
+                          data-type="exercise"
+                          id="fs-idp169761136"
+                        >
+                          <div data-type="problem" id="fs-idp169761392">
+                            <a
+                              class="os-number"
+                              href="chapter-8#fs-idp169761136-solution"
+                            >69</a>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p id="fs-idp56791712">
+                                Lime, CaO, is produced by heating calcium carbonate, CaCO
+                                <sub>3</sub>; carbon dioxide is the other product.
+                              </p>
+                              <p id="fs-idp114235888">
+                                (a) Outline the steps necessary to answer the following question: What volume of carbon dioxide at 875° and 0.966 atm is produced by the decomposition of 1 ton (1.000
+                                <math display="inline">
+                                  <semantics>
+                                    <mrow>
+                                      <mo>×</mo>
+                                    </mrow>
+                                    <annotation-xml encoding="MathML-Content">
+                                      <mo>×</mo>
+                                    </annotation-xml>
+                                  </semantics>
+                                </math> 10
+                                <sup>3</sup> kg) of calcium carbonate?
+                              </p>
+                              <p id="fs-idm7280816">(b) Answer the question.</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class data-type="exercise" id="fs-idp228232112">
+                          <div data-type="problem" id="fs-idp228232368">
+                            <span class="os-number">70</span>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p id="fs-idp228232624">
+                                Before small batteries were available, carbide lamps were used for bicycle lights. Acetylene gas, C
+                                <sub>2</sub>H
+                                <sub>2</sub>, and solid calcium hydroxide were formed by the reaction of calcium carbide, CaC
+                                <sub>2</sub>, with water. The ignition of the acetylene gas provided the light. Currently, the same lamps are used by some cavers, and calcium carbide is used to produce acetylene for carbide cannons.
+                              </p>
+                              <p id="fs-idp156883024">
+                                (a) Outline the steps necessary to answer the following question: What volume of C
+                                <sub>2</sub>H
+                                <sub>2</sub> at 1.005 atm and 12.2 °C is formed by the reaction of 15.48 g of CaC
+                                <sub>2</sub> with water?
+                              </p>
+                              <p id="fs-idm16186128">(b) Answer the question.</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="os-hasSolution"
+                          data-type="exercise"
+                          id="fs-idp197293648"
+                        >
+                          <div data-type="problem" id="fs-idp197293904">
+                            <a
+                              class="os-number"
+                              href="chapter-8#fs-idp197293648-solution"
+                            >71</a>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p id="fs-idp197294160">
+                                Calculate the volume of oxygen required to burn 12.00 L of ethane gas, C
+                                <sub>2</sub>H
+                                <sub>6</sub>, to produce carbon dioxide and water, if the volumes of C
+                                <sub>2</sub>H
+                                <sub>6</sub> and O
+                                <sub>2</sub> are measured under the same conditions of temperature and pressure.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class data-type="exercise" id="fs-idp88428400">
+                          <div data-type="problem" id="fs-idp88428656">
+                            <span class="os-number">72</span>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p id="fs-idp85524496">
+                                What volume of O
+                                <sub>2</sub> at STP is required to oxidize 8.0 L of NO at STP to NO
+                                <sub>2</sub>? What volume of NO
+                                <sub>2</sub> is produced at STP?
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="os-hasSolution"
+                          data-type="exercise"
+                          id="fs-idp259668928"
+                        >
+                          <div data-type="problem" id="fs-idp259669184">
+                            <a
+                              class="os-number"
+                              href="chapter-8#fs-idp259668928-solution"
+                            >73</a>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p
+                                id="fs-idp259669440"
+                              >Consider the following questions:</p>
+                              <p id="fs-idm79444368">
+                                (a) What is the total volume of the CO
+                                <sub>2</sub>(
+                                <em data-effect="italics">g</em>) and H
+                                <sub>2</sub>O(
+                                <em data-effect="italics">g</em>) at 600 °C and 0.888 atm produced by the combustion of 1.00 L of C
+                                <sub>2</sub>H
+                                <sub>6</sub>(
+                                <em data-effect="italics">g</em>) measured at STP?
+                              </p>
+                              <p id="fs-idp143036432">
+                                (b) What is the partial pressure of H
+                                <sub>2</sub>O in the product gases?
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class data-type="exercise" id="fs-idp68901248">
+                          <div data-type="problem" id="fs-idp224793920">
+                            <span class="os-number">74</span>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p id="fs-idp224794176">
+                                Methanol, CH
+                                <sub>3</sub>OH, is produced industrially by the following reaction:
+                                <span data-type="newline">
+                                  <br>
+                                </span>
+                                <math display="inline">
+                                  <semantics>
+                                    <mrow>
+                                      <mrow>
+                                        <mtext>CO</mtext>
+                                        <mrow>
+                                          <mo>(</mo>
+                                          <mi>g</mi>
+                                          <mo>)</mo>
+                                        </mrow>
+                                        <mo>+</mo>
+                                        <mn>2</mn>
+                                        <msub>
+                                          <mtext>H</mtext>
+                                          <mn>2</mn>
+                                        </msub>
+                                        <mo stretchy="false">(</mo>
+                                        <mi>g</mi>
+                                        <mo stretchy="false">)</mo>
+                                        <mspace width="0.2em"/>
+                                        <mover>
+                                          <mo>→</mo>
+                                          <mrow>
+                                            <mspace width="2em"/>
+                                            <mtext>copper catalyst 300 °C, 300 atm</mtext>
+                                            <mspace width="2em"/>
+                                          </mrow>
+                                        </mover>
+                                        <mspace width="0.2em"/>
+                                        <msub>
+                                          <mrow>
+                                            <mtext>CH</mtext>
+                                          </mrow>
+                                          <mn>3</mn>
+                                        </msub>
+                                        <mtext>OH</mtext>
+                                        <mrow>
+                                          <mo>(</mo>
+                                          <mi>g</mi>
+                                          <mo>)</mo>
+                                        </mrow>
+                                      </mrow>
+                                    </mrow>
+                                    <annotation-xml encoding="MathML-Content">
+                                      <mrow>
+                                        <mtext>CO</mtext>
+                                        <mrow>
+                                          <mo>(</mo>
+                                          <mi>g</mi>
+                                          <mo>)</mo>
+                                        </mrow>
+                                        <mo>+</mo>
+                                        <mn>2</mn>
+                                        <msub>
+                                          <mtext>H</mtext>
+                                          <mn>2</mn>
+                                        </msub>
+                                        <mo stretchy="false">(</mo>
+                                        <mi>g</mi>
+                                        <mo stretchy="false">)</mo>
+                                        <mspace width="0.2em"/>
+                                        <mover>
+                                          <mo>→</mo>
+                                          <mrow>
+                                            <mspace width="2em"/>
+                                            <mtext>copper catalyst 300 °C, 300 atm</mtext>
+                                            <mspace width="2em"/>
+                                          </mrow>
+                                        </mover>
+                                        <mspace width="0.2em"/>
+                                        <msub>
+                                          <mrow>
+                                            <mtext>CH</mtext>
+                                          </mrow>
+                                          <mn>3</mn>
+                                        </msub>
+                                        <mtext>OH</mtext>
+                                        <mrow>
+                                          <mo>(</mo>
+                                          <mi>g</mi>
+                                          <mo>)</mo>
+                                        </mrow>
+                                      </mrow>
+                                    </annotation-xml>
+                                  </semantics>
+                                </math>
+                              </p>
+                              <p
+                                id="fs-idp107257056"
+                              >Assuming that the gases behave as ideal gases, find the ratio of the total volume of the reactants to the final volume.</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="os-hasSolution"
+                          data-type="exercise"
+                          id="fs-idp41440272"
+                        >
+                          <div data-type="problem" id="fs-idp41440528">
+                            <a
+                              class="os-number"
+                              href="chapter-8#fs-idp41440272-solution"
+                            >75</a>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p id="fs-idp41440784">
+                                What volume of oxygen at 423.0 K and a pressure of 127.4 kPa is produced by the decomposition of 129.7 g of BaO
+                                <sub>2</sub> to BaO and O
+                                <sub>2</sub>?
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class data-type="exercise" id="fs-idp86448160">
+                          <div data-type="problem" id="fs-idp86448416">
+                            <span class="os-number">76</span>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p id="fs-idp39928096">
+                                A 2.50-L sample of a colorless gas at STP decomposed to give 2.50 L of N
+                                <sub>2</sub> and 1.25 L of O
+                                <sub>2</sub> at STP. What is the colorless gas?
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="os-hasSolution"
+                          data-type="exercise"
+                          id="fs-idm29455728"
+                        >
+                          <div data-type="problem" id="fs-idm29455472">
+                            <a
+                              class="os-number"
+                              href="chapter-8#fs-idm29455728-solution"
+                            >77</a>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p id="fs-idm29455216">
+                                Ethanol, C
+                                <sub>2</sub>H
+                                <sub>5</sub>OH, is produced industrially from ethylene, C
+                                <sub>2</sub>H
+                                <sub>4</sub>, by the following sequence of reactions:
+                                <span data-type="newline">
+                                  <br>
+                                </span>
+                                <math display="inline">
+                                  <semantics>
+                                    <mrow>
+                                      <mrow>
+                                        <mn>3</mn>
+                                        <msub>
+                                          <mtext>C</mtext>
+                                          <mn>2</mn>
+                                        </msub>
+                                        <msub>
+                                          <mtext>H</mtext>
+                                          <mn>4</mn>
+                                        </msub>
+                                        <mo>+</mo>
+                                        <mn>2</mn>
+                                        <msub>
+                                          <mtext>H</mtext>
+                                          <mn>2</mn>
+                                        </msub>
+                                        <msub>
+                                          <mrow>
+                                            <mtext>SO</mtext>
+                                          </mrow>
+                                          <mn>4</mn>
+                                        </msub>
+                                        <mspace width="0.2em"/>
+                                        <mo stretchy="false">⟶</mo>
+                                        <mspace width="0.2em"/>
+                                        <msub>
+                                          <mtext>C</mtext>
+                                          <mn>2</mn>
+                                        </msub>
+                                        <msub>
+                                          <mtext>H</mtext>
+                                          <mn>5</mn>
+                                        </msub>
+                                        <msub>
+                                          <mrow>
+                                            <mtext>HSO</mtext>
+                                          </mrow>
+                                          <mn>4</mn>
+                                        </msub>
+                                        <mo>+</mo>
+                                        <msub>
+                                          <mrow>
+                                            <mrow>
+                                              <mo>(</mo>
+                                              <mrow>
+                                                <msub>
+                                                  <mtext>C</mtext>
+                                                  <mn>2</mn>
+                                                </msub>
+                                                <msub>
+                                                  <mtext>H</mtext>
+                                                  <mn>5</mn>
+                                                </msub>
+                                              </mrow>
+                                              <mo>)</mo>
+                                            </mrow>
+                                          </mrow>
+                                          <mn>2</mn>
+                                        </msub>
+                                        <msub>
+                                          <mrow>
+                                            <mtext>SO</mtext>
+                                          </mrow>
+                                          <mn>4</mn>
+                                        </msub>
+                                      </mrow>
+                                    </mrow>
+                                    <annotation-xml encoding="MathML-Content">
+                                      <mrow>
+                                        <mn>3</mn>
+                                        <msub>
+                                          <mtext>C</mtext>
+                                          <mn>2</mn>
+                                        </msub>
+                                        <msub>
+                                          <mtext>H</mtext>
+                                          <mn>4</mn>
+                                        </msub>
+                                        <mo>+</mo>
+                                        <mn>2</mn>
+                                        <msub>
+                                          <mtext>H</mtext>
+                                          <mn>2</mn>
+                                        </msub>
+                                        <msub>
+                                          <mrow>
+                                            <mtext>SO</mtext>
+                                          </mrow>
+                                          <mn>4</mn>
+                                        </msub>
+                                        <mspace width="0.2em"/>
+                                        <mo stretchy="false">⟶</mo>
+                                        <mspace width="0.2em"/>
+                                        <msub>
+                                          <mtext>C</mtext>
+                                          <mn>2</mn>
+                                        </msub>
+                                        <msub>
+                                          <mtext>H</mtext>
+                                          <mn>5</mn>
+                                        </msub>
+                                        <msub>
+                                          <mrow>
+                                            <mtext>HSO</mtext>
+                                          </mrow>
+                                          <mn>4</mn>
+                                        </msub>
+                                        <mo>+</mo>
+                                        <msub>
+                                          <mrow>
+                                            <mrow>
+                                              <mo>(</mo>
+                                              <mrow>
+                                                <msub>
+                                                  <mtext>C</mtext>
+                                                  <mn>2</mn>
+                                                </msub>
+                                                <msub>
+                                                  <mtext>H</mtext>
+                                                  <mn>5</mn>
+                                                </msub>
+                                              </mrow>
+                                              <mo>)</mo>
+                                            </mrow>
+                                          </mrow>
+                                          <mn>2</mn>
+                                        </msub>
+                                        <msub>
+                                          <mrow>
+                                            <mtext>SO</mtext>
+                                          </mrow>
+                                          <mn>4</mn>
+                                        </msub>
+                                      </mrow>
+                                    </annotation-xml>
+                                  </semantics>
+                                </math>
+                                <span data-type="newline">
+                                  <br>
+                                </span>
+                                <math display="inline">
+                                  <semantics>
+                                    <mrow>
+                                      <mrow>
+                                        <msub>
+                                          <mtext>C</mtext>
+                                          <mn>2</mn>
+                                        </msub>
+                                        <msub>
+                                          <mtext>H</mtext>
+                                          <mn>5</mn>
+                                        </msub>
+                                        <msub>
+                                          <mrow>
+                                            <mtext>HSO</mtext>
+                                          </mrow>
+                                          <mn>4</mn>
+                                        </msub>
+                                        <mo>+</mo>
+                                        <msub>
+                                          <mrow>
+                                            <mrow>
+                                              <mo>(</mo>
+                                              <mrow>
+                                                <msub>
+                                                  <mtext>C</mtext>
+                                                  <mn>2</mn>
+                                                </msub>
+                                                <msub>
+                                                  <mtext>H</mtext>
+                                                  <mn>5</mn>
+                                                </msub>
+                                              </mrow>
+                                              <mo>)</mo>
+                                            </mrow>
+                                          </mrow>
+                                          <mn>2</mn>
+                                        </msub>
+                                        <msub>
+                                          <mrow>
+                                            <mtext>SO</mtext>
+                                          </mrow>
+                                          <mn>4</mn>
+                                        </msub>
+                                        <mo>+</mo>
+                                        <mn>3</mn>
+                                        <msub>
+                                          <mtext>H</mtext>
+                                          <mn>2</mn>
+                                        </msub>
+                                        <mtext>O</mtext>
+                                        <mspace width="0.2em"/>
+                                        <mo stretchy="false">⟶</mo>
+                                        <mspace width="0.2em"/>
+                                        <mn>3</mn>
+                                        <msub>
+                                          <mtext>C</mtext>
+                                          <mn>2</mn>
+                                        </msub>
+                                        <msub>
+                                          <mtext>H</mtext>
+                                          <mn>5</mn>
+                                        </msub>
+                                        <mtext>OH</mtext>
+                                        <mo>+</mo>
+                                        <mn>2</mn>
+                                        <msub>
+                                          <mtext>H</mtext>
+                                          <mn>2</mn>
+                                        </msub>
+                                        <msub>
+                                          <mrow>
+                                            <mtext>SO</mtext>
+                                          </mrow>
+                                          <mn>4</mn>
+                                        </msub>
+                                      </mrow>
+                                    </mrow>
+                                    <annotation-xml encoding="MathML-Content">
+                                      <mrow>
+                                        <msub>
+                                          <mtext>C</mtext>
+                                          <mn>2</mn>
+                                        </msub>
+                                        <msub>
+                                          <mtext>H</mtext>
+                                          <mn>5</mn>
+                                        </msub>
+                                        <msub>
+                                          <mrow>
+                                            <mtext>HSO</mtext>
+                                          </mrow>
+                                          <mn>4</mn>
+                                        </msub>
+                                        <mo>+</mo>
+                                        <msub>
+                                          <mrow>
+                                            <mrow>
+                                              <mo>(</mo>
+                                              <mrow>
+                                                <msub>
+                                                  <mtext>C</mtext>
+                                                  <mn>2</mn>
+                                                </msub>
+                                                <msub>
+                                                  <mtext>H</mtext>
+                                                  <mn>5</mn>
+                                                </msub>
+                                              </mrow>
+                                              <mo>)</mo>
+                                            </mrow>
+                                          </mrow>
+                                          <mn>2</mn>
+                                        </msub>
+                                        <msub>
+                                          <mrow>
+                                            <mtext>SO</mtext>
+                                          </mrow>
+                                          <mn>4</mn>
+                                        </msub>
+                                        <mo>+</mo>
+                                        <mn>3</mn>
+                                        <msub>
+                                          <mtext>H</mtext>
+                                          <mn>2</mn>
+                                        </msub>
+                                        <mtext>O</mtext>
+                                        <mspace width="0.2em"/>
+                                        <mo stretchy="false">⟶</mo>
+                                        <mspace width="0.2em"/>
+                                        <mn>3</mn>
+                                        <msub>
+                                          <mtext>C</mtext>
+                                          <mn>2</mn>
+                                        </msub>
+                                        <msub>
+                                          <mtext>H</mtext>
+                                          <mn>5</mn>
+                                        </msub>
+                                        <mtext>OH</mtext>
+                                        <mo>+</mo>
+                                        <mn>2</mn>
+                                        <msub>
+                                          <mtext>H</mtext>
+                                          <mn>2</mn>
+                                        </msub>
+                                        <msub>
+                                          <mrow>
+                                            <mtext>SO</mtext>
+                                          </mrow>
+                                          <mn>4</mn>
+                                        </msub>
+                                      </mrow>
+                                    </annotation-xml>
+                                  </semantics>
+                                </math>
+                              </p>
+                              <p
+                                id="fs-idp77265168"
+                              >What volume of ethylene at STP is required to produce 1.000 metric ton (1000 kg) of ethanol if the overall yield of ethanol is 90.1%?</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class data-type="exercise" id="fs-idp55931680">
+                          <div data-type="problem" id="fs-idp61931504">
+                            <span class="os-number">78</span>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p
+                                id="fs-idp61931760"
+                              >One molecule of hemoglobin will combine with four molecules of oxygen. If 1.0 g of hemoglobin combines with 1.53 mL of oxygen at body temperature (37 °C) and a pressure of 743 torr, what is the molar mass of hemoglobin?</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="os-hasSolution"
+                          data-type="exercise"
+                          id="fs-idp69237328"
+                        >
+                          <div data-type="problem" id="fs-idp69237584">
+                            <a
+                              class="os-number"
+                              href="chapter-8#fs-idp69237328-solution"
+                            >79</a>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p
+                                id="fs-idp69237840"
+                              >A sample of a compound of xenon and fluorine was confined in a bulb with a pressure of 18 torr. Hydrogen was added to the bulb until the pressure was 72 torr. Passage of an electric spark through the mixture produced Xe and HF. After the HF was removed by reaction with solid KOH, the final pressure of xenon and unreacted hydrogen in the bulb was 36 torr. What is the empirical formula of the xenon fluoride in the original sample? (Note: Xenon fluorides contain only one xenon atom per molecule.)</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class data-type="exercise" id="fs-idp224745536">
+                          <div data-type="problem" id="fs-idp224745792">
+                            <span class="os-number">80</span>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p id="fs-idp224746048">
+                                One method of analyzing amino acids is the van Slyke method. The characteristic amino groups (−NH
+                                <sub>2</sub>) in protein material are allowed to react with nitrous acid, HNO
+                                <sub>2</sub>, to form N
+                                <sub>2</sub> gas. From the volume of the gas, the amount of amino acid can be determined. A 0.0604-g sample of a biological sample containing glycine, CH
+                                <sub>2</sub>(NH
+                                <sub>2</sub>)COOH, was analyzed by the van Slyke method and yielded 3.70 mL of N
+                                <sub>2</sub> collected over water at a pressure of 735 torr and 29 °C. What was the percentage of glycine in the sample?
+                                <span data-type="newline">
+                                  <br>
+                                </span>
+                                <math display="inline">
+                                  <semantics>
+                                    <mrow>
+                                      <mrow>
+                                        <msub>
+                                          <mrow>
+                                            <mtext>CH</mtext>
+                                          </mrow>
+                                          <mn>2</mn>
+                                        </msub>
+                                        <mrow>
+                                          <mo>(</mo>
+                                          <mrow>
+                                            <msub>
+                                              <mrow>
+                                                <mtext>NH</mtext>
+                                              </mrow>
+                                              <mn>2</mn>
+                                            </msub>
+                                          </mrow>
+                                          <mo>)</mo>
+                                        </mrow>
+                                        <msub>
+                                          <mrow>
+                                            <mtext>CO</mtext>
+                                          </mrow>
+                                          <mn>2</mn>
+                                        </msub>
+                                        <mtext>H</mtext>
+                                        <mo>+</mo>
+                                        <msub>
+                                          <mrow>
+                                            <mtext>HNO</mtext>
+                                          </mrow>
+                                          <mn>2</mn>
+                                        </msub>
+                                        <mspace width="0.2em"/>
+                                        <mo stretchy="false">⟶</mo>
+                                        <mspace width="0.2em"/>
+                                        <msub>
+                                          <mrow>
+                                            <mtext>CH</mtext>
+                                          </mrow>
+                                          <mn>2</mn>
+                                        </msub>
+                                        <mrow>
+                                          <mo>(</mo>
+                                          <mrow>
+                                            <mtext>OH</mtext>
+                                          </mrow>
+                                          <mo>)</mo>
+                                        </mrow>
+                                        <msub>
+                                          <mrow>
+                                            <mtext>CO</mtext>
+                                          </mrow>
+                                          <mn>2</mn>
+                                        </msub>
+                                        <mtext>H</mtext>
+                                        <mo>+</mo>
+                                        <msub>
+                                          <mtext>H</mtext>
+                                          <mn>2</mn>
+                                        </msub>
+                                        <mtext>O</mtext>
+                                        <mo>+</mo>
+                                        <msub>
+                                          <mtext>N</mtext>
+                                          <mn>2</mn>
+                                        </msub>
+                                      </mrow>
+                                    </mrow>
+                                    <annotation-xml encoding="MathML-Content">
+                                      <mrow>
+                                        <msub>
+                                          <mrow>
+                                            <mtext>CH</mtext>
+                                          </mrow>
+                                          <mn>2</mn>
+                                        </msub>
+                                        <mrow>
+                                          <mo>(</mo>
+                                          <mrow>
+                                            <msub>
+                                              <mrow>
+                                                <mtext>NH</mtext>
+                                              </mrow>
+                                              <mn>2</mn>
+                                            </msub>
+                                          </mrow>
+                                          <mo>)</mo>
+                                        </mrow>
+                                        <msub>
+                                          <mrow>
+                                            <mtext>CO</mtext>
+                                          </mrow>
+                                          <mn>2</mn>
+                                        </msub>
+                                        <mtext>H</mtext>
+                                        <mo>+</mo>
+                                        <msub>
+                                          <mrow>
+                                            <mtext>HNO</mtext>
+                                          </mrow>
+                                          <mn>2</mn>
+                                        </msub>
+                                        <mspace width="0.2em"/>
+                                        <mo stretchy="false">⟶</mo>
+                                        <mspace width="0.2em"/>
+                                        <msub>
+                                          <mrow>
+                                            <mtext>CH</mtext>
+                                          </mrow>
+                                          <mn>2</mn>
+                                        </msub>
+                                        <mrow>
+                                          <mo>(</mo>
+                                          <mrow>
+                                            <mtext>OH</mtext>
+                                          </mrow>
+                                          <mo>)</mo>
+                                        </mrow>
+                                        <msub>
+                                          <mrow>
+                                            <mtext>CO</mtext>
+                                          </mrow>
+                                          <mn>2</mn>
+                                        </msub>
+                                        <mtext>H</mtext>
+                                        <mo>+</mo>
+                                        <msub>
+                                          <mtext>H</mtext>
+                                          <mn>2</mn>
+                                        </msub>
+                                        <mtext>O</mtext>
+                                        <mo>+</mo>
+                                        <msub>
+                                          <mtext>N</mtext>
+                                          <mn>2</mn>
+                                        </msub>
+                                      </mrow>
+                                    </annotation-xml>
+                                  </semantics>
+                                </math>
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </section>
+                      <section
+                        class="exercises"
+                        data-depth="1"
+                        id="fs-idm54662752"
+                      >
+                        <h3 data-type="document-title" id="[redacted for uniqueness]">
+                          <span class="os-number">8.4</span>
+                          <span class="os-divider"></span>
+                          <span class="os-text">Effusion and Diffusion of Gases</span>
+                        </h3>
+                        <div
+                          class="os-hasSolution"
+                          data-type="exercise"
+                          id="fs-idp190361360"
+                        >
+                          <div data-type="problem" id="fs-idp68001824">
+                            <a
+                              class="os-number"
+                              href="chapter-8#fs-idp190361360-solution"
+                            >81</a>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p
+                                id="fs-idm41721952"
+                              >A balloon filled with helium gas takes 6 hours to deflate to 50% of its original volume. How long will it take for an identical balloon filled with the same volume of hydrogen gas (instead of helium) to decrease its volume by 50%?</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class data-type="exercise" id="fs-idm51619904">
+                          <div data-type="problem" id="fs-idm34475424">
+                            <span class="os-number">82</span>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p id="fs-idp113189264">
+                                Explain why the numbers of molecules are not identical in the left- and right-hand bulbs shown in the center illustration of
+                                <a
+                                  class="autogenerated-content"
+                                  href="8-4-effusion-and-diffusion-of-gases#CNX_Chem_09_04_Diffusion"
+                                >Figure 8.27</a>.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="os-hasSolution"
+                          data-type="exercise"
+                          id="fs-idp44111184"
+                        >
+                          <div data-type="problem" id="fs-idp42326496">
+                            <a
+                              class="os-number"
+                              href="chapter-8#fs-idp44111184-solution"
+                            >83</a>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p
+                                id="fs-idm56418560"
+                              >Starting with the definition of rate of effusion and Graham’s finding relating rate and molar mass, show how to derive the Graham’s law equation, relating the relative rates of effusion for two gases to their molecular masses.</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class data-type="exercise" id="fs-idm54751408">
+                          <div data-type="problem" id="fs-idp39143984">
+                            <span class="os-number">84</span>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p id="fs-idm47335648">
+                                Heavy water, D
+                                <sub>2</sub>O (molar mass = 20.03 g mol
+                                <sup>–1</sup>), can be separated from ordinary water, H
+                                <sub>2</sub>O (molar mass = 18.01), as a result of the difference in the relative rates of diffusion of the molecules in the gas phase. Calculate the relative rates of diffusion of H
+                                <sub>2</sub>O and D
+                                <sub>2</sub>O.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="os-hasSolution"
+                          data-type="exercise"
+                          id="fs-idm14659040"
+                        >
+                          <div data-type="problem" id="fs-idp96536624">
+                            <a
+                              class="os-number"
+                              href="chapter-8#fs-idm14659040-solution"
+                            >85</a>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p id="fs-idp67237568">
+                                Which of the following gases diffuse more slowly than oxygen? F
+                                <sub>2</sub>, Ne, N
+                                <sub>2</sub>O, C
+                                <sub>2</sub>H
+                                <sub>2</sub>, NO, Cl
+                                <sub>2</sub>, H
+                                <sub>2</sub>S
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class data-type="exercise" id="fs-idm82361856">
+                          <div data-type="problem" id="fs-idm108214960">
+                            <span class="os-number">86</span>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p id="fs-idp170749584">
+                                During the discussion of gaseous diffusion for enriching uranium, it was claimed that
+                                <sup>235</sup>UF
+                                <sub>6</sub> diffuses 0.4% faster than
+                                <sup>238</sup>UF
+                                <sub>6</sub>. Show the calculation that supports this value. The molar mass of
+                                <sup>235</sup>UF
+                                <sub>6</sub> = 235.043930 + 6
+                                <math display="inline">
+                                  <semantics>
+                                    <mrow>
+                                      <mo>×</mo>
+                                    </mrow>
+                                    <annotation-xml encoding="MathML-Content">
+                                      <mo>×</mo>
+                                    </annotation-xml>
+                                  </semantics>
+                                </math> 18.998403 = 349.034348 g/mol, and the molar mass of
+                                <sup>238</sup>UF
+                                <sub>6</sub> = 238.050788 + 6
+                                <math display="inline">
+                                  <semantics>
+                                    <mrow>
+                                      <mo>×</mo>
+                                    </mrow>
+                                    <annotation-xml encoding="MathML-Content">
+                                      <mo>×</mo>
+                                    </annotation-xml>
+                                  </semantics>
+                                </math> 18.998403 = 352.041206 g/mol.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="os-hasSolution"
+                          data-type="exercise"
+                          id="fs-idm4750352"
+                        >
+                          <div data-type="problem" id="fs-idm14966576">
+                            <a
+                              class="os-number"
+                              href="chapter-8#fs-idm4750352-solution"
+                            >87</a>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p id="fs-idp235733152">
+                                Calculate the relative rate of diffusion of
+                                <sup>1</sup>H
+                                <sub>2</sub> (molar mass 2.0 g/mol) compared with
+                                <sup>2</sup>H
+                                <sub>2</sub> (molar mass 4.0 g/mol) and the relative rate of diffusion of O
+                                <sub>2</sub> (molar mass 32 g/mol) compared with O
+                                <sub>3</sub> (molar mass 48 g/mol).
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class data-type="exercise" id="fs-idm32668896">
+                          <div data-type="problem" id="fs-idp36129392">
+                            <span class="os-number">88</span>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p
+                                id="fs-idp46648992"
+                              >A gas of unknown identity diffuses at a rate of 83.3 mL/s in a diffusion apparatus in which carbon dioxide diffuses at the rate of 102 mL/s. Calculate the molecular mass of the unknown gas.</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="os-hasSolution"
+                          data-type="exercise"
+                          id="fs-idp1096352"
+                        >
+                          <div data-type="problem" id="fs-idp83411760">
+                            <a
+                              class="os-number"
+                              href="chapter-8#fs-idp1096352-solution"
+                            >89</a>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p id="fs-idm45552304">
+                                When two cotton plugs, one moistened with ammonia and the other with hydrochloric acid, are simultaneously inserted into opposite ends of a glass tube that is 87.0 cm long, a white ring of NH
+                                <sub>4</sub>Cl forms where gaseous NH
+                                <sub>3</sub> and gaseous HCl first come into contact.
+                                <math
+                                  display="inline"
+                                >
+                                  <semantics>
+                                    <mrow>
+                                      <mrow>
+                                        <msub>
+                                          <mrow>
+                                            <mtext>NH</mtext>
+                                          </mrow>
+                                          <mn>3</mn>
+                                        </msub>
+                                        <mo stretchy="false">(</mo>
+                                        <mi>g</mi>
+                                        <mo stretchy="false">)</mo>
+                                        <mo>+</mo>
+                                        <mtext>HCl</mtext>
+                                        <mrow>
+                                          <mo stretchy="false">(</mo>
+                                          <mi>g</mi>
+                                          <mo stretchy="false">)</mo>
+                                        </mrow>
+                                        <mspace width="0.2em"/>
+                                        <mo stretchy="false">⟶</mo>
+                                        <mspace width="0.2em"/>
+                                        <msub>
+                                          <mrow>
+                                            <mtext>NH</mtext>
+                                          </mrow>
+                                          <mn>4</mn>
+                                        </msub>
+                                        <mtext>Cl</mtext>
+                                        <mrow>
+                                          <mo stretchy="false">(</mo>
+                                          <mi>s</mi>
+                                          <mo stretchy="false">)</mo>
+                                        </mrow>
+                                      </mrow>
+                                    </mrow>
+                                    <annotation-xml encoding="MathML-Content">
+                                      <mrow>
+                                        <msub>
+                                          <mrow>
+                                            <mtext>NH</mtext>
+                                          </mrow>
+                                          <mn>3</mn>
+                                        </msub>
+                                        <mo stretchy="false">(</mo>
+                                        <mi>g</mi>
+                                        <mo stretchy="false">)</mo>
+                                        <mo>+</mo>
+                                        <mtext>HCl</mtext>
+                                        <mrow>
+                                          <mo stretchy="false">(</mo>
+                                          <mi>g</mi>
+                                          <mo stretchy="false">)</mo>
+                                        </mrow>
+                                        <mspace width="0.2em"/>
+                                        <mo stretchy="false">⟶</mo>
+                                        <mspace width="0.2em"/>
+                                        <msub>
+                                          <mrow>
+                                            <mtext>NH</mtext>
+                                          </mrow>
+                                          <mn>4</mn>
+                                        </msub>
+                                        <mtext>Cl</mtext>
+                                        <mrow>
+                                          <mo stretchy="false">(</mo>
+                                          <mi>s</mi>
+                                          <mo stretchy="false">)</mo>
+                                        </mrow>
+                                      </mrow>
+                                    </annotation-xml>
+                                  </semantics>
+                                </math> At approximately what distance from the ammonia moistened plug does this occur? (Hint: Calculate the rates of diffusion for both NH
+                                <sub>3</sub> and HCl, and find out how much faster NH
+                                <sub>3</sub> diffuses than HCl.)
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </section>
+                      <section
+                        class="exercises"
+                        data-depth="1"
+                        id="fs-idm162733696"
+                      >
+                        <h3 data-type="document-title" id="[redacted for uniqueness]">
+                          <span class="os-number">8.5</span>
+                          <span class="os-divider"></span>
+                          <span class="os-text">The Kinetic-Molecular Theory</span>
+                        </h3>
+                        <div class data-type="exercise" id="fs-idm159823744">
+                          <div data-type="problem" id="fs-idm150949648">
+                            <span class="os-number">90</span>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p
+                                id="fs-idm212848544"
+                              >Using the postulates of the kinetic molecular theory, explain why a gas uniformly fills a container of any shape.</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="os-hasSolution"
+                          data-type="exercise"
+                          id="fs-idm178556768"
+                        >
+                          <div data-type="problem" id="fs-idm146263632">
+                            <a
+                              class="os-number"
+                              href="chapter-8#fs-idm178556768-solution"
+                            >91</a>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p
+                                id="fs-idm196791600"
+                              >Can the speed of a given molecule in a gas double at constant temperature? Explain your answer.</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class data-type="exercise" id="fs-idm213877296">
+                          <div data-type="problem" id="fs-idm204603328">
+                            <span class="os-number">92</span>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p
+                                id="fs-idm59208640"
+                              >Describe what happens to the average kinetic energy of ideal gas molecules when the conditions are changed as follows:</p>
+                              <p
+                                id="fs-idm175667504"
+                              >(a) The pressure of the gas is increased by reducing the volume at constant temperature.</p>
+                              <p
+                                id="fs-idm148561248"
+                              >(b) The pressure of the gas is increased by increasing the temperature at constant volume.</p>
+                              <p
+                                id="fs-idp12415536"
+                              >(c) The average velocity of the molecules is increased by a factor of 2.</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="os-hasSolution"
+                          data-type="exercise"
+                          id="fs-idp16129152"
+                        >
+                          <div data-type="problem" id="fs-idm136526752">
+                            <a
+                              class="os-number"
+                              href="chapter-8#fs-idp16129152-solution"
+                            >93</a>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p id="fs-idm89452736">
+                                The distribution of molecular velocities in a sample of helium is shown in
+                                <a
+                                  class="autogenerated-content"
+                                  href="8-5-the-kinetic-molecular-theory#CNX_Chem_09_05_MolSpeed3"
+                                >Figure 8.34</a>. If the sample is cooled, will the distribution of velocities look more like that of H
+                                <sub>2</sub> or of H
+                                <sub>2</sub>O? Explain your answer.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class data-type="exercise" id="fs-idp62923856">
+                          <div data-type="problem" id="fs-idm123179728">
+                            <span class="os-number">94</span>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p id="fs-idm214348288">
+                                What is the ratio of the average kinetic energy of a SO
+                                <sub>2</sub> molecule to that of an O
+                                <sub>2</sub> molecule in a mixture of two gases? What is the ratio of the root mean square speeds,
+                                <em data-effect="italics">u</em>
+                                <sub>rms</sub>, of the two gases?
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="os-hasSolution"
+                          data-type="exercise"
+                          id="fs-idm124543936"
+                        >
+                          <div data-type="problem" id="fs-idm49064864">
+                            <a
+                              class="os-number"
+                              href="chapter-8#fs-idm124543936-solution"
+                            >95</a>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p
+                                id="fs-idm153083536"
+                              >A 1-L sample of CO initially at STP is heated to 546 K, and its volume is increased to 2 L.</p>
+                              <p
+                                id="fs-idm216426960"
+                              >(a) What effect do these changes have on the number of collisions of the molecules of the gas per unit area of the container wall?</p>
+                              <p
+                                id="fs-idm124781200"
+                              >(b) What is the effect on the average kinetic energy of the molecules?</p>
+                              <p
+                                id="fs-idm151776736"
+                              >(c) What is the effect on the root mean square speed of the molecules?</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class data-type="exercise" id="fs-idm98413904">
+                          <div data-type="problem" id="fs-idm163726944">
+                            <span class="os-number">96</span>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p id="fs-idm110524464">
+                                The root mean square speed of H
+                                <sub>2</sub> molecules at 25 °C is about 1.6 km/s. What is the root mean square speed of a N
+                                <sub>2</sub> molecule at 25 °C?
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="os-hasSolution"
+                          data-type="exercise"
+                          id="fs-idm150122880"
+                        >
+                          <div data-type="problem" id="fs-idm109601088">
+                            <a
+                              class="os-number"
+                              href="chapter-8#fs-idm150122880-solution"
+                            >97</a>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p
+                                id="fs-idm161408528"
+                              >Answer the following questions:</p>
+                              <p
+                                id="fs-idm184026432"
+                              >(a) Is the pressure of the gas in the hot-air balloon shown at the opening of this chapter greater than, less than, or equal to that of the atmosphere outside the balloon?</p>
+                              <p
+                                id="fs-idm277950240"
+                              >(b) Is the density of the gas in the hot-air balloon shown at the opening of this chapter greater than, less than, or equal to that of the atmosphere outside the balloon?</p>
+                              <p
+                                id="fs-idm184047024"
+                              >(c) At a pressure of 1 atm and a temperature of 20 °C, dry air has a density of 1.2256 g/L. What is the (average) molar mass of dry air?</p>
+                              <p id="fs-idm205391088">
+                                (d) The average temperature of the gas in a hot-air balloon is 1.30
+                                <math display="inline">
+                                  <semantics>
+                                    <mrow>
+                                      <mo>×</mo>
+                                    </mrow>
+                                    <annotation-xml encoding="MathML-Content">
+                                      <mo>×</mo>
+                                    </annotation-xml>
+                                  </semantics>
+                                </math> 10
+                                <sup>2</sup> °F. Calculate its density, assuming the molar mass equals that of dry air.
+                              </p>
+                              <p
+                                id="fs-idm182287728"
+                              >(e) The lifting capacity of a hot-air balloon is equal to the difference in the mass of the cool air displaced by the balloon and the mass of the gas in the balloon. What is the difference in the mass of 1.00 L of the cool air in part (c) and the hot air in part (d)?</p>
+                              <p id="fs-idm79081968">
+                                (f) An average balloon has a diameter of 60 feet and a volume of 1.1
+                                <math display="inline">
+                                  <semantics>
+                                    <mrow>
+                                      <mo>×</mo>
+                                    </mrow>
+                                    <annotation-xml encoding="MathML-Content">
+                                      <mo>×</mo>
+                                    </annotation-xml>
+                                  </semantics>
+                                </math> 10
+                                <sup>5</sup> ft
+                                <sup>3</sup>. What is the lifting power of such a balloon? If the weight of the balloon and its rigging is 500 pounds, what is its capacity for carrying passengers and cargo?
+                              </p>
+                              <p id="fs-idm148488336">
+                                (g) A balloon carries 40.0 gallons of liquid propane (density 0.5005 g/L). What volume of CO
+                                <sub>2</sub> and H
+                                <sub>2</sub>O gas is produced by the combustion of this propane?
+                              </p>
+                              <p
+                                id="fs-idp4425184"
+                              >(h) A balloon flight can last about 90 minutes. If all of the fuel is burned during this time, what is the approximate rate of heat loss (in kJ/min) from the hot air in the bag during the flight?</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class data-type="exercise" id="fs-idm194405232">
+                          <div data-type="problem" id="fs-idp25041248">
+                            <span class="os-number">98</span>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p id="fs-idm156558944">
+                                Show that the ratio of the rate of diffusion of Gas 1 to the rate of diffusion of Gas 2,
+                                <math display="inline">
+                                  <semantics>
+                                    <mrow>
+                                      <mrow>
+                                        <mfrac>
+                                          <mrow>
+                                            <msub>
+                                              <mi>R</mi>
+                                              <mn>1</mn>
+                                            </msub>
+                                          </mrow>
+                                          <mrow>
+                                            <msub>
+                                              <mi>R</mi>
+                                              <mn>2</mn>
+                                            </msub>
+                                          </mrow>
+                                        </mfrac>
+                                        <mo>,</mo>
+                                      </mrow>
+                                    </mrow>
+                                    <annotation-xml encoding="MathML-Content">
+                                      <mrow>
+                                        <mfrac>
+                                          <mrow>
+                                            <msub>
+                                              <mi>R</mi>
+                                              <mn>1</mn>
+                                            </msub>
+                                          </mrow>
+                                          <mrow>
+                                            <msub>
+                                              <mi>R</mi>
+                                              <mn>2</mn>
+                                            </msub>
+                                          </mrow>
+                                        </mfrac>
+                                        <mo>,</mo>
+                                      </mrow>
+                                    </annotation-xml>
+                                  </semantics>
+                                </math> is the same at 0 °C and 100 °C.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </section>
+                      <section
+                        class="exercises"
+                        data-depth="1"
+                        id="fs-idp25013184"
+                      >
+                        <h3 data-type="document-title" id="[redacted for uniqueness]">
+                          <span class="os-number">8.6</span>
+                          <span class="os-divider"></span>
+                          <span class="os-text">Non-Ideal Gas Behavior</span>
+                        </h3>
+                        <div
+                          class="os-hasSolution"
+                          data-type="exercise"
+                          id="fs-idm14870688"
+                        >
+                          <div data-type="problem" id="fs-idp141055504">
+                            <a
+                              class="os-number"
+                              href="chapter-8#fs-idm14870688-solution"
+                            >99</a>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p
+                                id="fs-idm139673280"
+                              >Graphs showing the behavior of several different gases follow. Which of these gases exhibit behavior significantly different from that expected for ideal gases?</p>
+                              <span
+                                data-alt="This figure includes 6 graphs. The first, which is labeled, “Gas A,” has a horizontal axis labeled, “Temperature,” and a vertical axis labeled, “Volume.” A straight blue line segment extends from the lower left to the upper right of this graph. The open area in the lower right portion of the graph contains the label, “n, P constant.” The second, which is labeled, “Gas B,” has a horizontal axis labeled, “P,” and a vertical axis labeled, “P V.” A straight blue line segment extends horizontally across the center of this graph. The open area in the lower right portion of the graph contains the label, “n, T constant.” The third, which is labeled, “Gas C,” has a horizontal axis labeled,“P V divided by R T,” and a vertical axis labeled, “Moles.” A blue curve begins about halfway up the vertical axis, dips slightly, then increases steadily to the upper right region of the graph. The fourth, which is labeled, “Gas D,” has a horizontal axis labeled, “P V divided by R T,” and a vertical axis labeled, “Moles.” A straight blue line segment extends horizontally across the center of this graph. The open area in the lower right portion of the graph contains the label “n, P constant.” The fifth, which is labeled, “Gas E,” has a horizontal axis labeled, “Temperature,” and a vertical axis labeled, “Volume.” A blue curve extends from the lower left to the upper right of this graph. The open area in the lower right portion of the graph contains the label “n, P constant.” The sixth graph, which is labeled, “Gas F,” has a horizontal axis labeled, “Temperature,” and a vertical axis labeled, “Pressure.” A blue curve begins toward the lower left region of the graph, increases at a rapid rate, then continues to increase at a relatively slow rate moving left to right across the graph. The open area in the lower right portion of the graph contains the label, “n, V constant.”"
+                                data-type="media"
+                                id="fs-idp4796912"
+                              >
+                                <img
+                                  alt="This figure includes 6 graphs. The first, which is labeled, “Gas A,” has a horizontal axis labeled, “Temperature,” and a vertical axis labeled, “Volume.” A straight blue line segment extends from the lower left to the upper right of this graph. The open area in the lower right portion of the graph contains the label, “n, P constant.” The second, which is labeled, “Gas B,” has a horizontal axis labeled, “P,” and a vertical axis labeled, “P V.” A straight blue line segment extends horizontally across the center of this graph. The open area in the lower right portion of the graph contains the label, “n, T constant.” The third, which is labeled, “Gas C,” has a horizontal axis labeled,“P V divided by R T,” and a vertical axis labeled, “Moles.” A blue curve begins about halfway up the vertical axis, dips slightly, then increases steadily to the upper right region of the graph. The fourth, which is labeled, “Gas D,” has a horizontal axis labeled, “P V divided by R T,” and a vertical axis labeled, “Moles.” A straight blue line segment extends horizontally across the center of this graph. The open area in the lower right portion of the graph contains the label “n, P constant.” The fifth, which is labeled, “Gas E,” has a horizontal axis labeled, “Temperature,” and a vertical axis labeled, “Volume.” A blue curve extends from the lower left to the upper right of this graph. The open area in the lower right portion of the graph contains the label “n, P constant.” The sixth graph, which is labeled, “Gas F,” has a horizontal axis labeled, “Temperature,” and a vertical axis labeled, “Pressure.” A blue curve begins toward the lower left region of the graph, increases at a rapid rate, then continues to increase at a relatively slow rate moving left to right across the graph. The open area in the lower right portion of the graph contains the label, “n, V constant.”"
+                                  data-media-type="image/jpeg"
+                                  id="[redacted for uniqueness]"
+                                  src="/resources/e40e798536ef762344493fdce6b9f67827275dc6"
+                                >
+                              </span>
+                            </div>
+                          </div>
+                        </div>
+                        <div class data-type="exercise" id="fs-idp200327600">
+                          <div data-type="problem" id="fs-idm12532832">
+                            <span class="os-number">100</span>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p id="fs-idp99769680">
+                                Explain why the plot of
+                                <em data-effect="italics">PV</em> for CO
+                                <sub>2</sub> differs from that of an ideal gas.
+                              </p>
+                              <span
+                                class="scaled-down"
+                                data-alt="A graph is shown. The horizontal axis is labeled, “P ( a t m ).” Its scale is marked at 0, 1, and 2. The vertical axis is labeled, “P V ( a t m L ).” This scale includes markings at 0, 22.4, 22.5, and 22.6. Two curves and two lines are drawn of varying colors. One line is a horizontal, blue line extending right from about 22.42 a t m L on the vertical axis, and is labeled, “Ideal gas.” The remaining two curves and one line start at the same point on the vertical axis. A green line extends up and to the right slightly on the graph, reaching a value of approximately 22.46 a t m L at 2 a t m. This green line is labeled, “H e.” An orange curve dips below the horizontal ideal gas line initially, then increases to cross the line just past 1 a t m. This curve reaches a value of about 22.52 a t m L at 2 a t m. This curve is labeled, “C H subscript 4.” A purple curve dips below the horizontal ideal gas line initially, then increases to cross the line at about 0.8 a t m. This curve reaches a value of nearly 22.62 a t m L at nearly 1.2 a t m. This curve is labeled, “C O subscript 2.”"
+                                data-type="media"
+                                id="fs-idp12016592"
+                              >
+                                <img
+                                  alt="A graph is shown. The horizontal axis is labeled, “P ( a t m ).” Its scale is marked at 0, 1, and 2. The vertical axis is labeled, “P V ( a t m L ).” This scale includes markings at 0, 22.4, 22.5, and 22.6. Two curves and two lines are drawn of varying colors. One line is a horizontal, blue line extending right from about 22.42 a t m L on the vertical axis, and is labeled, “Ideal gas.” The remaining two curves and one line start at the same point on the vertical axis. A green line extends up and to the right slightly on the graph, reaching a value of approximately 22.46 a t m L at 2 a t m. This green line is labeled, “H e.” An orange curve dips below the horizontal ideal gas line initially, then increases to cross the line just past 1 a t m. This curve reaches a value of about 22.52 a t m L at 2 a t m. This curve is labeled, “C H subscript 4.” A purple curve dips below the horizontal ideal gas line initially, then increases to cross the line at about 0.8 a t m. This curve reaches a value of nearly 22.62 a t m L at nearly 1.2 a t m. This curve is labeled, “C O subscript 2.”"
+                                  data-media-type="image/jpeg"
+                                  id="[redacted for uniqueness]"
+                                  src="/resources/e855cca1d603f455d09e954ca0beda29412d13d9"
+                                >
+                              </span>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="os-hasSolution"
+                          data-type="exercise"
+                          id="fs-idm29887312"
+                        >
+                          <div data-type="problem" id="fs-idm22648064">
+                            <a
+                              class="os-number"
+                              href="chapter-8#fs-idm29887312-solution"
+                            >101</a>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p
+                                id="fs-idm67092976"
+                              >Under which of the following sets of conditions does a real gas behave most like an ideal gas, and for which conditions is a real gas expected to deviate from ideal behavior? Explain.</p>
+                              <p
+                                id="fs-idm93192160"
+                              >(a) high pressure, small volume</p>
+                              <p
+                                id="fs-idp46639136"
+                              >(b) high temperature, low pressure</p>
+                              <p
+                                id="fs-idm50151104"
+                              >(c) low temperature, high pressure</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class data-type="exercise" id="fs-idm58636672">
+                          <div data-type="problem" id="fs-idp20572816">
+                            <span class="os-number">102</span>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p
+                                id="fs-idm25283104"
+                              >Describe the factors responsible for the deviation of the behavior of real gases from that of an</p>
+                              <p id="fs-idp20157600">ideal gas.</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="os-hasSolution"
+                          data-type="exercise"
+                          id="fs-idp137909616"
+                        >
+                          <div data-type="problem" id="fs-idp145170976">
+                            <a
+                              class="os-number"
+                              href="chapter-8#fs-idp137909616-solution"
+                            >103</a>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p
+                                id="fs-idp14775088"
+                              >For which of the following gases should the correction for the molecular volume be largest:</p>
+                              <p id="fs-idp183905312">
+                                CO, CO
+                                <sub>2</sub>, H
+                                <sub>2</sub>, He, NH
+                                <sub>3</sub>, SF
+                                <sub>6</sub>?
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class data-type="exercise" id="fs-idm23432208">
+                          <div data-type="problem" id="fs-idm14492800">
+                            <span class="os-number">104</span>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p id="fs-idm21675952">
+                                A 0.245-L flask contains 0.467 mol CO
+                                <sub>2</sub> at 159 °C. Calculate the pressure:
+                              </p>
+                              <p id="fs-idm25312816">(a) using the ideal gas law</p>
+                              <p
+                                id="fs-idp82472240"
+                              >(b) using the van der Waals equation</p>
+                              <p
+                                id="fs-idm50198336"
+                              >(c) Explain the reason for the difference.</p>
+                              <p
+                                id="fs-idm91663776"
+                              >(d) Identify which correction (that for P or V) is dominant and why.</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="os-hasSolution"
+                          data-type="exercise"
+                          id="fs-idm89275552"
+                        >
+                          <div data-type="problem" id="fs-idp45753600">
+                            <a
+                              class="os-number"
+                              href="chapter-8#fs-idm89275552-solution"
+                            >105</a>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p
+                                id="fs-idp35689520"
+                              >Answer the following questions:</p>
+                              <p
+                                id="fs-idp40148288"
+                              >(a) If XX behaved as an ideal gas, what would its graph of Z vs. P look like?</p>
+                              <p
+                                id="fs-idm51678160"
+                              >(b) For most of this chapter, we performed calculations treating gases as ideal. Was this justified?</p>
+                              <p
+                                id="fs-idm94302800"
+                              >(c) What is the effect of the volume of gas molecules on Z? Under what conditions is this effect small? When is it large? Explain using an appropriate diagram.</p>
+                              <p
+                                id="fs-idp70053648"
+                              >(d) What is the effect of intermolecular attractions on the value of Z? Under what conditions is this effect small? When is it large? Explain using an appropriate diagram.</p>
+                              <p
+                                id="fs-idm60019952"
+                              >(e) In general, under what temperature conditions would you expect Z to have the largest deviations from the Z for an ideal gas?</p>
+                            </div>
+                          </div>
+                        </div>
+                      </section>
+                    </div>
+                  </div>
+                  

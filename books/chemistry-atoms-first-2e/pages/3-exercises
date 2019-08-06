@@ -1,0 +1,2845 @@
+
+                    <div
+                      class="os-eoc os-exercises-container"
+                      data-type="composite-page"
+                      data-uuid-key=".exercises"
+                    >
+                      <section
+                        class="exercises"
+                        data-depth="1"
+                        id="fs-idm48282912"
+                      >
+                        <h3 data-type="document-title" id="[redacted for uniqueness]">
+                          <span class="os-number">3.1</span>
+                          <span class="os-divider"></span>
+                          <span class="os-text">Electromagnetic Energy</span>
+                        </h3>
+                        <div
+                          class="os-hasSolution"
+                          data-type="exercise"
+                          id="fs-idm27661840"
+                        >
+                          <div data-type="problem" id="fs-idp104526928">
+                            <a
+                              class="os-number"
+                              href="chapter-3#fs-idm27661840-solution"
+                            >1</a>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p
+                                id="fs-idp15006992"
+                              >The light produced by a red neon sign is due to the emission of light by excited neon atoms. Qualitatively describe the spectrum produced by passing light from a neon lamp through a prism.</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class data-type="exercise" id="fs-idm65612800">
+                          <div data-type="problem" id="fs-idm80213360">
+                            <span class="os-number">2</span>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p id="fs-idp84657824">
+                                An FM radio station found at 103.1 on the FM dial broadcasts at a frequency of 1.031
+                                <math display="inline">
+                                  <semantics>
+                                    <mrow>
+                                      <mo>×</mo>
+                                    </mrow>
+                                    <annotation-xml encoding="MathML-Content">
+                                      <mo>×</mo>
+                                    </annotation-xml>
+                                  </semantics>
+                                </math> 10
+                                <sup>8</sup> s
+                                <sup>−1</sup> (103.1 MHz). What is the wavelength of these radio waves in meters?
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="os-hasSolution"
+                          data-type="exercise"
+                          id="fs-idm14736000"
+                        >
+                          <div data-type="problem" id="fs-idm36074704">
+                            <a
+                              class="os-number"
+                              href="chapter-3#fs-idm14736000-solution"
+                            >3</a>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p id="fs-idp23479520">
+                                FM-95, an FM radio station, broadcasts at a frequency of 9.51
+                                <math display="inline">
+                                  <semantics>
+                                    <mrow>
+                                      <mo>×</mo>
+                                    </mrow>
+                                    <annotation-xml encoding="MathML-Content">
+                                      <mo>×</mo>
+                                    </annotation-xml>
+                                  </semantics>
+                                </math> 10
+                                <sup>7</sup> s
+                                <sup>−1</sup> (95.1 MHz). What is the wavelength of these radio waves in meters?
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class data-type="exercise" id="fs-idp23451200">
+                          <div data-type="problem" id="fs-idp25412944">
+                            <span class="os-number">4</span>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p
+                                id="fs-idm61612944"
+                              >A bright violet line occurs at 435.8 nm in the emission spectrum of mercury vapor. What amount of energy, in joules, must be released by an electron in a mercury atom to produce a photon of this light?</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="os-hasSolution"
+                          data-type="exercise"
+                          id="fs-idm74775376"
+                        >
+                          <div data-type="problem" id="fs-idp115774640">
+                            <a
+                              class="os-number"
+                              href="chapter-3#fs-idm74775376-solution"
+                            >5</a>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p id="fs-idm85592784">
+                                Light with a wavelength of 614.5 nm looks orange. What is the energy, in joules, per photon of this orange light? What is the energy in eV (1 eV = 1.602
+                                <math display="inline">
+                                  <semantics>
+                                    <mrow>
+                                      <mo>×</mo>
+                                    </mrow>
+                                    <annotation-xml encoding="MathML-Content">
+                                      <mo>×</mo>
+                                    </annotation-xml>
+                                  </semantics>
+                                </math> 10
+                                <sup>−19</sup> J)?
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class data-type="exercise" id="fs-idp158798576">
+                          <div data-type="problem" id="fs-idm80851216">
+                            <span class="os-number">6</span>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p id="fs-idm1476208">
+                                Heated lithium atoms emit photons of light with an energy of 2.961
+                                <math display="inline">
+                                  <semantics>
+                                    <mrow>
+                                      <mo>×</mo>
+                                    </mrow>
+                                    <annotation-xml encoding="MathML-Content">
+                                      <mo>×</mo>
+                                    </annotation-xml>
+                                  </semantics>
+                                </math> 10
+                                <sup>−19</sup> J. Calculate the frequency and wavelength of one of these photons. What is the total energy in 1 mole of these photons? What is the color of the emitted light?
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="os-hasSolution"
+                          data-type="exercise"
+                          id="fs-idm60446336"
+                        >
+                          <div data-type="problem" id="fs-idm49857072">
+                            <a
+                              class="os-number"
+                              href="chapter-3#fs-idm60446336-solution"
+                            >7</a>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p id="fs-idm71031072">
+                                A photon of light produced by a surgical laser has an energy of 3.027
+                                <math display="inline">
+                                  <semantics>
+                                    <mrow>
+                                      <mo>×</mo>
+                                    </mrow>
+                                    <annotation-xml encoding="MathML-Content">
+                                      <mo>×</mo>
+                                    </annotation-xml>
+                                  </semantics>
+                                </math> 10
+                                <sup>−19</sup> J. Calculate the frequency and wavelength of the photon. What is the total energy in 1 mole of photons? What is the color of the emitted light?
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class data-type="exercise" id="fs-idm74058400">
+                          <div data-type="problem" id="fs-idm45075952">
+                            <span class="os-number">8</span>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p id="fs-idp66304512">
+                                When rubidium ions are heated to a high temperature, two lines are observed in its line spectrum at wavelengths (a) 7.9
+                                <math display="inline">
+                                  <semantics>
+                                    <mrow>
+                                      <mo>×</mo>
+                                    </mrow>
+                                    <annotation-xml encoding="MathML-Content">
+                                      <mo>×</mo>
+                                    </annotation-xml>
+                                  </semantics>
+                                </math> 10
+                                <sup>−7</sup> m and (b) 4.2
+                                <math display="inline">
+                                  <semantics>
+                                    <mrow>
+                                      <mo>×</mo>
+                                    </mrow>
+                                    <annotation-xml encoding="MathML-Content">
+                                      <mo>×</mo>
+                                    </annotation-xml>
+                                  </semantics>
+                                </math> 10
+                                <sup>−7</sup> m. What are the frequencies of the two lines? What color do we see when we heat a rubidium compound?
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="os-hasSolution"
+                          data-type="exercise"
+                          id="fs-idm104859984"
+                        >
+                          <div data-type="problem" id="fs-idp148547120">
+                            <a
+                              class="os-number"
+                              href="chapter-3#fs-idm104859984-solution"
+                            >9</a>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p id="fs-idp8734240">
+                                The emission spectrum of cesium contains two lines whose frequencies are (a) 3.45
+                                <math display="inline">
+                                  <semantics>
+                                    <mrow>
+                                      <mo>×</mo>
+                                    </mrow>
+                                    <annotation-xml encoding="MathML-Content">
+                                      <mo>×</mo>
+                                    </annotation-xml>
+                                  </semantics>
+                                </math> 10
+                                <sup>14</sup> Hz and (b) 6.53
+                                <math display="inline">
+                                  <semantics>
+                                    <mrow>
+                                      <mo>×</mo>
+                                    </mrow>
+                                    <annotation-xml encoding="MathML-Content">
+                                      <mo>×</mo>
+                                    </annotation-xml>
+                                  </semantics>
+                                </math> 10
+                                <sup>14</sup> Hz. What are the wavelengths and energies per photon of the two lines? What color are the lines?
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class data-type="exercise" id="fs-idp80961152">
+                          <div data-type="problem" id="fs-idm2707808">
+                            <span class="os-number">10</span>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p id="fs-idm98717568">
+                                Photons of infrared radiation are responsible for much of the warmth we feel when holding our hands before a fire. These photons will also warm other objects. How many infrared photons with a wavelength of 1.5
+                                <math display="inline">
+                                  <semantics>
+                                    <mrow>
+                                      <mo>×</mo>
+                                    </mrow>
+                                    <annotation-xml encoding="MathML-Content">
+                                      <mo>×</mo>
+                                    </annotation-xml>
+                                  </semantics>
+                                </math> 10
+                                <sup>−6</sup> m must be absorbed by the water to warm a cup of water (175 g) from 25.0 °C to 40 °C?
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="os-hasSolution"
+                          data-type="exercise"
+                          id="fs-idp28548400"
+                        >
+                          <div data-type="problem" id="fs-idm142960896">
+                            <a
+                              class="os-number"
+                              href="chapter-3#fs-idp28548400-solution"
+                            >11</a>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p id="fs-idp78856624">
+                                One of the radiographic devices used in a dentist's office emits an X-ray of wavelength 2.090
+                                <math display="inline">
+                                  <semantics>
+                                    <mrow>
+                                      <mo>×</mo>
+                                    </mrow>
+                                    <annotation-xml encoding="MathML-Content">
+                                      <mo>×</mo>
+                                    </annotation-xml>
+                                  </semantics>
+                                </math> 10
+                                <sup>−11</sup> m. What is the energy, in joules, and frequency of this X-ray?
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class data-type="exercise" id="fs-idp181189472">
+                          <div data-type="problem" id="fs-idm45546768">
+                            <span class="os-number">12</span>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p id="fs-idp37952256">
+                                The eyes of certain reptiles pass a single visual signal to the brain when the visual receptors are struck by photons of a wavelength of 850 nm. If a total energy of 3.15
+                                <math display="inline">
+                                  <semantics>
+                                    <mrow>
+                                      <mo>×</mo>
+                                    </mrow>
+                                    <annotation-xml encoding="MathML-Content">
+                                      <mo>×</mo>
+                                    </annotation-xml>
+                                  </semantics>
+                                </math> 10
+                                <sup>−14</sup> J is required to trip the signal, what is the minimum number of photons that must strike the receptor?
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="os-hasSolution"
+                          data-type="exercise"
+                          id="fs-idm83382672"
+                        >
+                          <div data-type="problem" id="fs-idm77033776">
+                            <a
+                              class="os-number"
+                              href="chapter-3#fs-idm83382672-solution"
+                            >13</a>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p
+                                id="fs-idp83696304"
+                              >RGB color television and computer displays use cathode ray tubes that produce colors by mixing red, green, and blue light. If we look at the screen with a magnifying glass, we can see individual dots turn on and off as the colors change. Using a spectrum of visible light, determine the approximate wavelength of each of these colors. What is the frequency and energy of a photon of each of these colors?</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class data-type="exercise" id="fs-idp156427216">
+                          <div data-type="problem" id="fs-idm34612976">
+                            <span class="os-number">14</span>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p
+                                id="fs-idm4131680"
+                              >Answer the following questions about a Blu-ray laser:</p>
+                              <p
+                                id="fs-idp90293488"
+                              >(a) The laser on a Blu-ray player has a wavelength of 405 nm. In what region of the electromagnetic spectrum is this radiation? What is its frequency?</p>
+                              <p id="fs-idp75619696">
+                                (b) A Blu-ray laser has a power of 5 milliwatts (1 watt = 1 J s
+                                <sup>−1</sup>). How many photons of light are produced by the laser in 1 hour?
+                              </p>
+                              <p id="fs-idm17735728">
+                                (c) The ideal resolution of a player using a laser (such as a Blu-ray player), which determines how close together data can be stored on a compact disk, is determined using the following formula: Resolution = 0.60(
+                                <em data-effect="italics">λ</em>/NA), where
+                                <em data-effect="italics">λ</em> is the wavelength of the laser and NA is the numerical aperture. Numerical aperture is a measure of the size of the spot of light on the disk; the larger the NA, the smaller the spot. In a typical Blu-ray system, NA = 0.95. If the 405-nm laser is used in a Blu-ray player, what is the closest that information can be stored on a Blu-ray disk?
+                              </p>
+                              <p id="fs-idp67291152">
+                                (d) The data density of a Blu-ray disk using a 405-nm laser is 1.5
+                                <math display="inline">
+                                  <semantics>
+                                    <mrow>
+                                      <mo>×</mo>
+                                    </mrow>
+                                    <annotation-xml encoding="MathML-Content">
+                                      <mo>×</mo>
+                                    </annotation-xml>
+                                  </semantics>
+                                </math> 10
+                                <sup>7</sup> bits mm
+                                <sup>−2</sup>. Disks have an outside diameter of 120 mm and a hole of 15-mm diameter. How many data bits can be contained on the disk? If a Blu-ray disk can hold 9,400,000 pages of text, how many data bits are needed for a typed page? (Hint: Determine the area of the disk that is available to hold data. The area inside a circle is given by A =
+                                <em data-effect="italics">πr</em>
+                                <sup>2</sup>, where the radius
+                                <em data-effect="italics">r</em> is one-half of the diameter.)
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="os-hasSolution"
+                          data-type="exercise"
+                          id="fs-idm115982512"
+                        >
+                          <div data-type="problem" id="fs-idp166780896">
+                            <a
+                              class="os-number"
+                              href="chapter-3#fs-idm115982512-solution"
+                            >15</a>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p id="fs-idp102868112">
+                                What is the threshold frequency for sodium metal if a photon with frequency 6.66
+                                <math display="inline">
+                                  <semantics>
+                                    <mrow>
+                                      <mo>×</mo>
+                                    </mrow>
+                                    <annotation-xml encoding="MathML-Content">
+                                      <mo>×</mo>
+                                    </annotation-xml>
+                                  </semantics>
+                                </math> 10
+                                <sup>14</sup> s
+                                <sup>−1</sup> ejects an electron with 7.74
+                                <math display="inline">
+                                  <semantics>
+                                    <mrow>
+                                      <mo>×</mo>
+                                    </mrow>
+                                    <annotation-xml encoding="MathML-Content">
+                                      <mo>×</mo>
+                                    </annotation-xml>
+                                  </semantics>
+                                </math> 10
+                                <sup>−20</sup> J kinetic energy? Will the photoelectric effect be observed if sodium is exposed to orange light?
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </section>
+                      <section
+                        class="exercises"
+                        data-depth="1"
+                        id="fs-idp53264832"
+                      >
+                        <h3 data-type="document-title" id="[redacted for uniqueness]">
+                          <span class="os-number">3.2</span>
+                          <span class="os-divider"></span>
+                          <span class="os-text">The Bohr Model</span>
+                        </h3>
+                        <div class data-type="exercise" id="fs-idp230795648">
+                          <div data-type="problem" id="fs-idp63973552">
+                            <span class="os-number">16</span>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p
+                                id="fs-idp163164256"
+                              >Why is the electron in a Bohr hydrogen atom bound less tightly when it has a quantum number of 3 than when it has a quantum number of 1?</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="os-hasSolution"
+                          data-type="exercise"
+                          id="fs-idp105537776"
+                        >
+                          <div data-type="problem" id="fs-idm61779856">
+                            <a
+                              class="os-number"
+                              href="chapter-3#fs-idp105537776-solution"
+                            >17</a>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p
+                                id="fs-idp93301392"
+                              >What does it mean to say that the energy of the electrons in an atom is quantized?</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class data-type="exercise" id="fs-idp5349488">
+                          <div data-type="problem" id="fs-idp19271008">
+                            <span class="os-number">18</span>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p
+                                id="fs-idp44264704"
+                              >Using the Bohr model, determine the energy, in joules, necessary to ionize a ground-state hydrogen atom. Show your calculations.</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="os-hasSolution"
+                          data-type="exercise"
+                          id="fs-idp21050416"
+                        >
+                          <div data-type="problem" id="fs-idp107102224">
+                            <a
+                              class="os-number"
+                              href="chapter-3#fs-idp21050416-solution"
+                            >19</a>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p id="fs-idp214119760">
+                                The electron volt (eV) is a convenient unit of energy for expressing atomic-scale energies. It is the amount of energy that an electron gains when subjected to a potential of 1 volt; 1 eV = 1.602
+                                <math display="inline">
+                                  <semantics>
+                                    <mrow>
+                                      <mo>×</mo>
+                                    </mrow>
+                                    <annotation-xml encoding="MathML-Content">
+                                      <mo>×</mo>
+                                    </annotation-xml>
+                                  </semantics>
+                                </math> 10
+                                <sup>–19</sup> J. Using the Bohr model, determine the energy, in electron volts, of the photon produced when an electron in a hydrogen atom moves from the orbit with
+                                <em data-effect="italics">n</em> = 5 to the orbit with
+                                <em data-effect="italics">n</em> = 2. Show your calculations.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class data-type="exercise" id="fs-idp205846816">
+                          <div data-type="problem" id="fs-idp151199888">
+                            <span class="os-number">20</span>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p id="fs-idp104480288">
+                                Using the Bohr model, determine the lowest possible energy, in joules, for the electron in the Li
+                                <sup>2+</sup> ion.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="os-hasSolution"
+                          data-type="exercise"
+                          id="fs-idp171106816"
+                        >
+                          <div data-type="problem" id="fs-idp147619360">
+                            <a
+                              class="os-number"
+                              href="chapter-3#fs-idp171106816-solution"
+                            >21</a>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p id="fs-idp9798640">
+                                Using the Bohr model, determine the lowest possible energy for the electron in the He
+                                <sup>+</sup> ion.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class data-type="exercise" id="fs-idm55982592">
+                          <div data-type="problem" id="fs-idp171876544">
+                            <span class="os-number">22</span>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p id="fs-idp45751328">
+                                Using the Bohr model, determine the energy of an electron with
+                                <em data-effect="italics">n</em> = 6 in a hydrogen atom.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="os-hasSolution"
+                          data-type="exercise"
+                          id="fs-idp44268800"
+                        >
+                          <div data-type="problem" id="fs-idp8006176">
+                            <a
+                              class="os-number"
+                              href="chapter-3#fs-idp44268800-solution"
+                            >23</a>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p id="fs-idp46960368">
+                                Using the Bohr model, determine the energy of an electron with
+                                <em data-effect="italics">n</em> = 8 in a hydrogen atom.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class data-type="exercise" id="fs-idp48379808">
+                          <div data-type="problem" id="fs-idm8560912">
+                            <span class="os-number">24</span>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p id="fs-idp77326272">
+                                How far from the nucleus in angstroms (1 angstrom = 1
+                                <math display="inline">
+                                  <semantics>
+                                    <mrow>
+                                      <mspace width="0.2em"/>
+                                      <mo>×</mo>
+                                      <mspace width="0.2em"/>
+                                    </mrow>
+                                    <annotation-xml encoding="MathML-Content">
+                                      <mspace width="0.2em"/>
+                                      <mo>×</mo>
+                                      <mspace width="0.2em"/>
+                                    </annotation-xml>
+                                  </semantics>
+                                </math> 10
+                                <sup>–10</sup> m) is the electron in a hydrogen atom if it has an energy of –8.72
+                                <math display="inline">
+                                  <semantics>
+                                    <mrow>
+                                      <mspace width="0.2em"/>
+                                      <mo>×</mo>
+                                      <mspace width="0.2em"/>
+                                    </mrow>
+                                    <annotation-xml encoding="MathML-Content">
+                                      <mspace width="0.2em"/>
+                                      <mo>×</mo>
+                                      <mspace width="0.2em"/>
+                                    </annotation-xml>
+                                  </semantics>
+                                </math> 10
+                                <sup>–20</sup> J?
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="os-hasSolution"
+                          data-type="exercise"
+                          id="fs-idm7154736"
+                        >
+                          <div data-type="problem" id="fs-idm3041536">
+                            <a
+                              class="os-number"
+                              href="chapter-3#fs-idm7154736-solution"
+                            >25</a>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p id="fs-idp38515680">
+                                What is the radius, in angstroms, of the orbital of an electron with
+                                <em data-effect="italics">n</em> = 8 in a hydrogen atom?
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class data-type="exercise" id="fs-idp40494944">
+                          <div data-type="problem" id="fs-idm5121456">
+                            <span class="os-number">26</span>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p id="fs-idm9017840">
+                                Using the Bohr model, determine the energy in joules of the photon produced when an electron in a He
+                                <sup>+</sup> ion moves from the orbit with
+                                <em data-effect="italics">n</em> = 5 to the orbit with
+                                <em data-effect="italics">n</em> = 2.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="os-hasSolution"
+                          data-type="exercise"
+                          id="fs-idp90797744"
+                        >
+                          <div data-type="problem" id="fs-idp64262080">
+                            <a
+                              class="os-number"
+                              href="chapter-3#fs-idp90797744-solution"
+                            >27</a>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p id="fs-idp166753856">
+                                Using the Bohr model, determine the energy in joules of the photon produced when an electron in a Li
+                                <sup>2+</sup> ion moves from the orbit with
+                                <em data-effect="italics">n</em> = 2 to the orbit with
+                                <em data-effect="italics">n</em> = 1.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class data-type="exercise" id="fs-idp165455056">
+                          <div data-type="problem" id="fs-idp5919040">
+                            <span class="os-number">28</span>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p id="fs-idm890384">
+                                Consider a large number of hydrogen atoms with electrons randomly distributed in the
+                                <em data-effect="italics">n</em> = 1, 2, 3, and 4 orbits.
+                              </p>
+                              <p
+                                id="fs-idp447984"
+                              >(a) How many different wavelengths of light are emitted by these atoms as the electrons fall into lower-energy orbitals?</p>
+                              <p
+                                id="fs-idm61725056"
+                              >(b) Calculate the lowest and highest energies of light produced by the transitions described in part (a).</p>
+                              <p
+                                id="fs-idp40605856"
+                              >(c) Calculate the frequencies and wavelengths of the light produced by the transitions described in part (b).</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="os-hasSolution"
+                          data-type="exercise"
+                          id="fs-idp24507936"
+                        >
+                          <div data-type="problem" id="fs-idp33839744">
+                            <a
+                              class="os-number"
+                              href="chapter-3#fs-idp24507936-solution"
+                            >29</a>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p
+                                id="fs-idp9802800"
+                              >How are the Bohr model and the Rutherford model of the atom similar? How are they different?</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class data-type="exercise" id="fs-idp97637648">
+                          <div data-type="problem" id="fs-idp92473088">
+                            <span class="os-number">30</span>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p id="fs-idm40536912">
+                                The spectra of hydrogen and of calcium are shown here.
+                                <span data-type="newline">
+                                  <br>
+                                </span>
+                              </p>
+                              <span
+                                data-alt="An image is shown with 5 rows. Across the top and bottom of the image is a scale that begins at 4000 angstroms at the left and extends to 740 angstroms at the far right. The top row is a continuous band of the visible spectrum, showing the colors from violet at the far left through indigo, blue, green, yellow, orange, and red at the far right. The second row, labeled, “N a,” shows the emission spectrum for the element sodium, which includes two narrow vertical bands in the blue range, two narrow bands in the yellow-green range, two narrow bands in the yellow range, and one narrow band in the orange range. The third row, labeled, “H,” shows the emission spectrum for hydrogen. This spectrum shows single bands in the violet, indigo, blue, and orange regions. The fourth row, labeled, “C a,” shows the emission spectrum for calcium. This spectrum shows bands in the following colors and frequencies; one violet, five indigo, one blue, two green, two yellow-green, one yellow, two yellow-orange, one orange, and one red. The fifth row, labeled, “H g,” shows the emission spectrum for mercury. This spectrum shows bands in the following colors and frequencies; two violet, one indigo, two blue, one green, two yellow, two orange, and one orange-red. It is important to note that each of the color bands for the emission spectra of the elements matches to a specific wavelength of light. Extending a vertical line from the bands to the scale above or below the diagram will match the band to a specific measurement on the scale."
+                                data-type="media"
+                                id="fs-exercise"
+                              >
+                                <img
+                                  alt="An image is shown with 5 rows. Across the top and bottom of the image is a scale that begins at 4000 angstroms at the left and extends to 740 angstroms at the far right. The top row is a continuous band of the visible spectrum, showing the colors from violet at the far left through indigo, blue, green, yellow, orange, and red at the far right. The second row, labeled, “N a,” shows the emission spectrum for the element sodium, which includes two narrow vertical bands in the blue range, two narrow bands in the yellow-green range, two narrow bands in the yellow range, and one narrow band in the orange range. The third row, labeled, “H,” shows the emission spectrum for hydrogen. This spectrum shows single bands in the violet, indigo, blue, and orange regions. The fourth row, labeled, “C a,” shows the emission spectrum for calcium. This spectrum shows bands in the following colors and frequencies; one violet, five indigo, one blue, two green, two yellow-green, one yellow, two yellow-orange, one orange, and one red. The fifth row, labeled, “H g,” shows the emission spectrum for mercury. This spectrum shows bands in the following colors and frequencies; two violet, one indigo, two blue, one green, two yellow, two orange, and one orange-red. It is important to note that each of the color bands for the emission spectra of the elements matches to a specific wavelength of light. Extending a vertical line from the bands to the scale above or below the diagram will match the band to a specific measurement on the scale."
+                                  data-media-type="image/jpeg"
+                                  id="[redacted for uniqueness]"
+                                  src="/resources/c2eb6d1d74c494617f209e801d0b933417a62415"
+                                >
+                              </span>
+                              <p
+                                id="[redacted for uniqueness]"
+                              >What causes the lines in these spectra? Why are the colors of the lines different? Suggest a reason for the observation that the spectrum of calcium is more complicated than the spectrum of hydrogen.</p>
+                            </div>
+                          </div>
+                        </div>
+                      </section>
+                      <section
+                        class="exercises"
+                        data-depth="1"
+                        id="fs-idm162744496"
+                      >
+                        <h3 data-type="document-title" id="[redacted for uniqueness]">
+                          <span class="os-number">3.3</span>
+                          <span class="os-divider"></span>
+                          <span class="os-text">Development of Quantum Theory</span>
+                        </h3>
+                        <div
+                          class="os-hasSolution"
+                          data-type="exercise"
+                          id="fs-idp68295120"
+                        >
+                          <div data-type="problem" id="fs-idp43503936">
+                            <a
+                              class="os-number"
+                              href="chapter-3#fs-idp68295120-solution"
+                            >31</a>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p
+                                id="fs-idm56354048"
+                              >How are the Bohr model and the quantum mechanical model of the hydrogen atom similar? How are they different?</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class data-type="exercise" id="fs-idm185773696">
+                          <div data-type="problem" id="fs-idp66815744">
+                            <span class="os-number">32</span>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p id="fs-idm76135056">
+                                What are the allowed values for each of the four quantum numbers:
+                                <em data-effect="italics">n</em>,
+                                <em data-effect="italics">l</em>,
+                                <em data-effect="italics">
+                                  m
+                                  <sub>l</sub>
+                                </em>, and
+                                <em data-effect="italics">
+                                  m
+                                  <sub>s</sub>
+                                </em>?
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="os-hasSolution"
+                          data-type="exercise"
+                          id="fs-idm127368704"
+                        >
+                          <div data-type="problem" id="fs-idm128669984">
+                            <a
+                              class="os-number"
+                              href="chapter-3#fs-idm127368704-solution"
+                            >33</a>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p id="fs-idm21185232">
+                                Describe the properties of an electron associated with each of the following four quantum numbers:
+                                <em data-effect="italics">n</em>,
+                                <em data-effect="italics">l</em>,
+                                <em data-effect="italics">
+                                  m
+                                  <sub>l</sub>
+                                </em>, and
+                                <em data-effect="italics">
+                                  m
+                                  <sub>s</sub>
+                                </em>.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class data-type="exercise" id="fs-idp16534928">
+                          <div data-type="problem" id="fs-idp20951104">
+                            <span class="os-number">34</span>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p
+                                id="fs-idm9901216"
+                              >Answer the following questions:</p>
+                              <p
+                                id="fs-idm109883392"
+                              >(a) Without using quantum numbers, describe the differences between the shells, subshells, and orbitals of an atom.</p>
+                              <p
+                                id="fs-idm132276800"
+                              >(b) How do the quantum numbers of the shells, subshells, and orbitals of an atom differ?</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="os-hasSolution"
+                          data-type="exercise"
+                          id="fs-idm226431552"
+                        >
+                          <div data-type="problem" id="fs-idm65695376">
+                            <a
+                              class="os-number"
+                              href="chapter-3#fs-idm226431552-solution"
+                            >35</a>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p
+                                id="fs-idm214520128"
+                              >Identify the subshell in which electrons with the following quantum numbers are found:</p>
+                              <p id="fs-idp56428624">
+                                (a)
+                                <em data-effect="italics">n</em> = 2,
+                                <em data-effect="italics">l</em> = 1
+                              </p>
+                              <p id="fs-idm187643104">
+                                (b)
+                                <em data-effect="italics">n</em> = 4,
+                                <em data-effect="italics">l</em> = 2
+                              </p>
+                              <p id="fs-idm22374672">
+                                (c)
+                                <em data-effect="italics">n</em> = 6,
+                                <em data-effect="italics">l</em> = 0
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class data-type="exercise" id="fs-idm65709728">
+                          <div data-type="problem" id="fs-idm139613104">
+                            <span class="os-number">36</span>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p
+                                id="fs-idp34462880"
+                              >Which of the subshells described in the previous question contain degenerate orbitals? How many degenerate orbitals are in each?</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="os-hasSolution"
+                          data-type="exercise"
+                          id="fs-idm5890656"
+                        >
+                          <div data-type="problem" id="fs-idm79110656">
+                            <a
+                              class="os-number"
+                              href="chapter-3#fs-idm5890656-solution"
+                            >37</a>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p
+                                id="fs-idm109115616"
+                              >Identify the subshell in which electrons with the following quantum numbers are found:</p>
+                              <p id="fs-idm151987104">
+                                (a)
+                                <em data-effect="italics">n</em> = 3,
+                                <em data-effect="italics">l</em> = 2
+                              </p>
+                              <p id="fs-idm161053968">
+                                (b)
+                                <em data-effect="italics">n</em> = 1,
+                                <em data-effect="italics">l</em> = 0
+                              </p>
+                              <p id="fs-idm57606112">
+                                (c)
+                                <em data-effect="italics">n</em> = 4,
+                                <em data-effect="italics">l</em> = 3
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class data-type="exercise" id="fs-idm109521552">
+                          <div data-type="problem" id="fs-idm137252288">
+                            <span class="os-number">38</span>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p
+                                id="fs-idm119068896"
+                              >Which of the subshells described in the previous question contain degenerate orbitals? How many degenerate orbitals are in each?</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="os-hasSolution"
+                          data-type="exercise"
+                          id="fs-idm153995968"
+                        >
+                          <div data-type="problem" id="fs-idm196566880">
+                            <a
+                              class="os-number"
+                              href="chapter-3#fs-idm153995968-solution"
+                            >39</a>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p id="fs-idm94929024">
+                                Sketch the boundary surface of a
+                                <math display="inline">
+                                  <semantics>
+                                    <mrow>
+                                      <mrow>
+                                        <msub>
+                                          <mi>d</mi>
+                                          <mrow>
+                                            <msup>
+                                              <mi>x</mi>
+                                              <mn>2</mn>
+                                            </msup>
+                                            <mtext>−</mtext>
+                                            <msup>
+                                              <mi>y</mi>
+                                              <mn>2</mn>
+                                            </msup>
+                                          </mrow>
+                                        </msub>
+                                      </mrow>
+                                    </mrow>
+                                    <annotation-xml encoding="MathML-Content">
+                                      <mrow>
+                                        <msub>
+                                          <mi>d</mi>
+                                          <mrow>
+                                            <msup>
+                                              <mi>x</mi>
+                                              <mn>2</mn>
+                                            </msup>
+                                            <mtext>−</mtext>
+                                            <msup>
+                                              <mi>y</mi>
+                                              <mn>2</mn>
+                                            </msup>
+                                          </mrow>
+                                        </msub>
+                                      </mrow>
+                                    </annotation-xml>
+                                  </semantics>
+                                </math> and a
+                                <em data-effect="italics">
+                                  p
+                                  <sub>y</sub>
+                                </em> orbital. Be sure to show and label the axes.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class data-type="exercise" id="fs-idm109481472">
+                          <div data-type="problem" id="fs-idm136699376">
+                            <span class="os-number">40</span>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p id="fs-idp70405328">
+                                Sketch the
+                                <em data-effect="italics">
+                                  p
+                                  <sub>x</sub>
+                                </em> and
+                                <em data-effect="italics">
+                                  d
+                                  <sub>xz</sub>
+                                </em> orbitals. Be sure to show and label the coordinates.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="os-hasSolution"
+                          data-type="exercise"
+                          id="fs-idm139949520"
+                        >
+                          <div data-type="problem" id="fs-idm137614176">
+                            <a
+                              class="os-number"
+                              href="chapter-3#fs-idm139949520-solution"
+                            >41</a>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p
+                                id="fs-idm139601840"
+                              >Consider the orbitals shown here in outline.</p>
+                              <span
+                                class="scaled-down"
+                                data-alt="This figure contains three diagrams. In x, a circle is drawn with a dot at the center. In y, two nearly ellipsoid shapes are oriented horizontally with a dot between them. In z, four shapes like those in y are oriented in an x shape with a dot at the center."
+                                data-type="media"
+                                id="fs-idm55642896"
+                              >
+                                <img
+                                  alt="This figure contains three diagrams. In x, a circle is drawn with a dot at the center. In y, two nearly ellipsoid shapes are oriented horizontally with a dot between them. In z, four shapes like those in y are oriented in an x shape with a dot at the center."
+                                  data-media-type="image/jpeg"
+                                  id="[redacted for uniqueness]"
+                                  src="/resources/5eed3a0d6a877a567c38b39f3191390053c62e38"
+                                >
+                              </span>
+                              <p
+                                id="fs-idm9922432"
+                              >(a) What is the maximum number of electrons contained in an orbital of type (x)? Of type (y)? Of type (z)?</p>
+                              <p id="fs-idm66251616">
+                                (b) How many orbitals of type (x) are found in a shell with
+                                <em data-effect="italics">n</em> = 2? How many of type (y)? How many of type (z)?
+                              </p>
+                              <p id="fs-idm95832304">
+                                (c) Write a set of quantum numbers for an electron in an orbital of type (x) in a shell with
+                                <em data-effect="italics">n</em> = 4. Of an orbital of type (y) in a shell with
+                                <em data-effect="italics">n</em> = 2. Of an orbital of type (z) in a shell with
+                                <em data-effect="italics">n</em> = 3.
+                              </p>
+                              <p id="fs-idm165503392">
+                                (d) What is the smallest possible
+                                <em data-effect="italics">n</em> value for an orbital of type (x)? Of type (y)? Of type (z)?
+                              </p>
+                              <p id="fs-idm63155984">
+                                (e) What are the possible
+                                <em data-effect="italics">l</em> and
+                                <em data-effect="italics">
+                                  m
+                                  <sub>l</sub>
+                                </em> values for an orbital of type (x)? Of type (y)? Of type (z)?
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class data-type="exercise" id="fs-idm165892704">
+                          <div data-type="problem" id="fs-idm152067344">
+                            <span class="os-number">42</span>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p
+                                id="fs-idp1974272"
+                              >State the Heisenberg uncertainty principle. Describe briefly what the principle implies.</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="os-hasSolution"
+                          data-type="exercise"
+                          id="fs-idm130545344"
+                        >
+                          <div data-type="problem" id="fs-idm10062944">
+                            <a
+                              class="os-number"
+                              href="chapter-3#fs-idm130545344-solution"
+                            >43</a>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p id="fs-idm159667904">
+                                How many electrons could be held in the second shell of an atom if the spin quantum number
+                                <em data-effect="italics">
+                                  m
+                                  <sub>s</sub>
+                                </em> could have three values instead of just two? (Hint: Consider the Pauli exclusion principle.)
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class data-type="exercise" id="fs-idm68696640">
+                          <div data-type="problem" id="fs-idm10527280">
+                            <span class="os-number">44</span>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p
+                                id="fs-idm167401120"
+                              >Which of the following equations describe particle-like behavior? Which describe wavelike behavior? Do any involve both types of behavior? Describe the reasons for your choices.</p>
+                              <p id="fs-idp41728">
+                                (a)
+                                <em data-effect="italics">c</em> =
+                                <em data-effect="italics">λν</em>
+                              </p>
+                              <p id="fs-idm177928192">
+                                (b)
+                                <math display="inline">
+                                  <semantics>
+                                    <mrow>
+                                      <mrow>
+                                        <mi>E</mi>
+                                        <mo>=</mo>
+                                        <mspace width="0.2em"/>
+                                        <mfrac>
+                                          <mrow>
+                                            <mi>m</mi>
+                                            <msup>
+                                              <mi>ν</mi>
+                                              <mn>2</mn>
+                                            </msup>
+                                          </mrow>
+                                          <mn>2</mn>
+                                        </mfrac>
+                                      </mrow>
+                                    </mrow>
+                                    <annotation-xml encoding="MathML-Content">
+                                      <mrow>
+                                        <mi>E</mi>
+                                        <mo>=</mo>
+                                        <mspace width="0.2em"/>
+                                        <mfrac>
+                                          <mrow>
+                                            <mi>m</mi>
+                                            <msup>
+                                              <mi>ν</mi>
+                                              <mn>2</mn>
+                                            </msup>
+                                          </mrow>
+                                          <mn>2</mn>
+                                        </mfrac>
+                                      </mrow>
+                                    </annotation-xml>
+                                  </semantics>
+                                </math>
+                              </p>
+                              <p id="fs-idm133326496">
+                                (c)
+                                <math display="inline">
+                                  <semantics>
+                                    <mrow>
+                                      <mrow>
+                                        <mi>r</mi>
+                                        <mo>=</mo>
+                                        <mspace width="0.2em"/>
+                                        <mfrac>
+                                          <mrow>
+                                            <msup>
+                                              <mi>n</mi>
+                                              <mn>2</mn>
+                                            </msup>
+                                            <msub>
+                                              <mi>a</mi>
+                                              <mn>0</mn>
+                                            </msub>
+                                          </mrow>
+                                          <mi>Z</mi>
+                                        </mfrac>
+                                      </mrow>
+                                    </mrow>
+                                    <annotation-xml encoding="MathML-Content">
+                                      <mrow>
+                                        <mi>r</mi>
+                                        <mo>=</mo>
+                                        <mspace width="0.2em"/>
+                                        <mfrac>
+                                          <mrow>
+                                            <msup>
+                                              <mi>n</mi>
+                                              <mn>2</mn>
+                                            </msup>
+                                            <msub>
+                                              <mi>a</mi>
+                                              <mn>0</mn>
+                                            </msub>
+                                          </mrow>
+                                          <mi>Z</mi>
+                                        </mfrac>
+                                      </mrow>
+                                    </annotation-xml>
+                                  </semantics>
+                                </math>
+                              </p>
+                              <p id="fs-idm140528512">
+                                (d)
+                                <em data-effect="italics">E = hν</em>
+                              </p>
+                              <p id="fs-idm152486448">
+                                (e)
+                                <math display="inline">
+                                  <semantics>
+                                    <mrow>
+                                      <mrow>
+                                        <mi>λ</mi>
+                                        <mo>=</mo>
+                                        <mspace width="0.2em"/>
+                                        <mfrac>
+                                          <mi>h</mi>
+                                          <mrow>
+                                            <mi>m</mi>
+                                            <mi>ν</mi>
+                                          </mrow>
+                                        </mfrac>
+                                      </mrow>
+                                    </mrow>
+                                    <annotation-xml encoding="MathML-Content">
+                                      <mrow>
+                                        <mi>λ</mi>
+                                        <mo>=</mo>
+                                        <mspace width="0.2em"/>
+                                        <mfrac>
+                                          <mi>h</mi>
+                                          <mrow>
+                                            <mi>m</mi>
+                                            <mi>ν</mi>
+                                          </mrow>
+                                        </mfrac>
+                                      </mrow>
+                                    </annotation-xml>
+                                  </semantics>
+                                </math>
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="os-hasSolution"
+                          data-type="exercise"
+                          id="fs-idm24126560"
+                        >
+                          <div data-type="problem" id="fs-idm145952864">
+                            <a
+                              class="os-number"
+                              href="chapter-3#fs-idm24126560-solution"
+                            >45</a>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p id="fs-idm133893888">
+                                Write a set of quantum numbers for each of the electrons with an
+                                <em data-effect="italics">n</em> of 4 in a Se atom.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </section>
+                      <section
+                        class="exercises"
+                        data-depth="1"
+                        id="fs-idp6359712"
+                      >
+                        <h3 data-type="document-title" id="[redacted for uniqueness]">
+                          <span class="os-number">3.4</span>
+                          <span class="os-divider"></span>
+                          <span
+                            class="os-text"
+                          >Electronic Structure of Atoms (Electron Configurations)</span>
+                        </h3>
+                        <div class data-type="exercise" id="fs-idp203800544">
+                          <div data-type="problem" id="fs-idm28876624">
+                            <span class="os-number">46</span>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p
+                                id="fs-idp165788464"
+                              >Read the labels of several commercial products and identify monatomic ions of at least four transition elements contained in the products. Write the complete electron configurations of these cations.</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="os-hasSolution"
+                          data-type="exercise"
+                          id="fs-idp32862336"
+                        >
+                          <div data-type="problem" id="fs-idm12816608">
+                            <a
+                              class="os-number"
+                              href="chapter-3#fs-idp32862336-solution"
+                            >47</a>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p
+                                id="fs-idp247217392"
+                              >Read the labels of several commercial products and identify monatomic ions of at least six main group elements contained in the products. Write the complete electron configurations of these cations and anions.</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class data-type="exercise" id="fs-idp28734432">
+                          <div data-type="problem" id="fs-idp7192784">
+                            <span class="os-number">48</span>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p id="fs-idm41439904">
+                                Using complete subshell notation (not abbreviations, 1
+                                <em data-effect="italics">s</em>
+                                <sup>2</sup>2
+                                <em data-effect="italics">s</em>
+                                <sup>2</sup>2
+                                <em data-effect="italics">p</em>
+                                <sup>6</sup>, and so forth), predict the electron configuration of each of the following atoms:
+                              </p>
+                              <p id="fs-idm5976064">(a) C</p>
+                              <p id="fs-idp164353056">(b) P</p>
+                              <p id="fs-idp199844496">(c) V</p>
+                              <p id="fs-idp84688480">(d) Sb</p>
+                              <p id="fs-idm13854544">(e) Sm</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="os-hasSolution"
+                          data-type="exercise"
+                          id="fs-idp165789584"
+                        >
+                          <div data-type="problem" id="fs-idp172091216">
+                            <a
+                              class="os-number"
+                              href="chapter-3#fs-idp165789584-solution"
+                            >49</a>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p id="fs-idp171397696">
+                                Using complete subshell notation (1
+                                <em data-effect="italics">s</em>
+                                <sup>2</sup>2
+                                <em data-effect="italics">s</em>
+                                <sup>2</sup>2
+                                <em data-effect="italics">p</em>
+                                <sup>6</sup>, and so forth), predict the electron configuration of each of the following atoms:
+                              </p>
+                              <p id="fs-idm7894080">(a) N</p>
+                              <p id="fs-idp45368160">(b) Si</p>
+                              <p id="fs-idp164492944">(c) Fe</p>
+                              <p id="fs-idp117010688">(d) Te</p>
+                              <p id="fs-idp116521696">(e) Tb</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class data-type="exercise" id="fs-idp44567104">
+                          <div data-type="problem" id="fs-idp204902112">
+                            <span class="os-number">50</span>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p id="fs-idp104673360">
+                                Is 1
+                                <em data-effect="italics">s</em>
+                                <sup>2</sup>2
+                                <em data-effect="italics">s</em>
+                                <sup>2</sup>2
+                                <em data-effect="italics">p</em>
+                                <sup>6</sup> the symbol for a macroscopic property or a microscopic property of an element? Explain your answer.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="os-hasSolution"
+                          data-type="exercise"
+                          id="fs-idp108900240"
+                        >
+                          <div data-type="problem" id="fs-idp146352672">
+                            <a
+                              class="os-number"
+                              href="chapter-3#fs-idp108900240-solution"
+                            >51</a>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p id="fs-idp114895920">
+                                What additional information do we need to answer the question “Which ion has the electron configuration 1
+                                <em data-effect="italics">s</em>
+                                <sup>2</sup>2
+                                <em data-effect="italics">s</em>
+                                <sup>2</sup>2
+                                <em data-effect="italics">p</em>
+                                <sup>6</sup>3
+                                <em data-effect="italics">s</em>
+                                <sup>2</sup>3
+                                <em data-effect="italics">p</em>
+                                <sup>6</sup>”?
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class data-type="exercise" id="fs-idm11516304">
+                          <div data-type="problem" id="fs-idp37035312">
+                            <span class="os-number">52</span>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p
+                                id="fs-idp41617648"
+                              >Draw the orbital diagram for the valence shell of each of the following atoms:</p>
+                              <p id="fs-idm36543184">(a) C</p>
+                              <p id="fs-idp78898480">(b) P</p>
+                              <p id="fs-idp34680672">(c) V</p>
+                              <p id="fs-idp253440976">(d) Sb</p>
+                              <p id="fs-idp3086848">(e) Ru</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="os-hasSolution"
+                          data-type="exercise"
+                          id="fs-idp45725024"
+                        >
+                          <div data-type="problem" id="fs-idp6445184">
+                            <a
+                              class="os-number"
+                              href="chapter-3#fs-idp45725024-solution"
+                            >53</a>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p
+                                id="fs-idp62383344"
+                              >Use an orbital diagram to describe the electron configuration of the valence shell of each of the following atoms:</p>
+                              <p id="fs-idp43548048">(a) N</p>
+                              <p id="fs-idp7367888">(b) Si</p>
+                              <p id="fs-idp229641984">(c) Fe</p>
+                              <p id="fs-idm937920">(d) Te</p>
+                              <p id="fs-idp162143664">(e) Mo</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class data-type="exercise" id="fs-idp22673408">
+                          <div data-type="problem" id="fs-idp188654768">
+                            <span class="os-number">54</span>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p id="fs-idp43362176">
+                                Using complete subshell notation (1
+                                <em data-effect="italics">s</em>
+                                <sup>2</sup>2
+                                <em data-effect="italics">s</em>
+                                <sup>2</sup>2
+                                <em data-effect="italics">p</em>
+                                <sup>6</sup>, and so forth), predict the electron configurations of the following ions.
+                              </p>
+                              <p id="fs-idp96684752">
+                                (a) N
+                                <sup>3–</sup>
+                              </p>
+                              <p id="fs-idp247247040">
+                                (b) Ca
+                                <sup>2+</sup>
+                              </p>
+                              <p id="fs-idp6961760">
+                                (c) S
+                                <sup>–</sup>
+                              </p>
+                              <p id="fs-idm15928448">
+                                (d) Cs
+                                <sup>2+</sup>
+                              </p>
+                              <p id="fs-idm3888624">
+                                (e) Cr
+                                <sup>2+</sup>
+                              </p>
+                              <p id="fs-idm20409168">
+                                (f) Gd
+                                <sup>3+</sup>
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="os-hasSolution"
+                          data-type="exercise"
+                          id="fs-idp203400832"
+                        >
+                          <div data-type="problem" id="fs-idp19814896">
+                            <a
+                              class="os-number"
+                              href="chapter-3#fs-idp203400832-solution"
+                            >55</a>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p id="fs-idp77448256">
+                                Which atom has the electron configuration 1
+                                <em data-effect="italics">s</em>
+                                <sup>2</sup>2
+                                <em data-effect="italics">s</em>
+                                <sup>2</sup>2
+                                <em data-effect="italics">p</em>
+                                <sup>6</sup>3
+                                <em data-effect="italics">s</em>
+                                <sup>2</sup>3
+                                <em data-effect="italics">p</em>
+                                <sup>6</sup>4
+                                <em data-effect="italics">s</em>
+                                <sup>2</sup>3
+                                <em data-effect="italics">d</em>
+                                <sup>10</sup>4
+                                <em data-effect="italics">p</em>
+                                <sup>6</sup>5
+                                <em data-effect="italics">s</em>
+                                <sup>2</sup>4
+                                <em data-effect="italics">d</em>
+                                <sup>2</sup>?
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class data-type="exercise" id="fs-idp20553216">
+                          <div data-type="problem" id="fs-idp5141392">
+                            <span class="os-number">56</span>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p id="fs-idp24939264">
+                                Which atom has the electron configuration 1
+                                <em data-effect="italics">s</em>
+                                <sup>2</sup>2
+                                <em data-effect="italics">s</em>
+                                <sup>2</sup>2
+                                <em data-effect="italics">p</em>
+                                <sup>6</sup>3
+                                <em data-effect="italics">s</em>
+                                <sup>2</sup>3
+                                <em data-effect="italics">p</em>
+                                <sup>6</sup>3
+                                <em data-effect="italics">d</em>
+                                <sup>7</sup>4
+                                <em data-effect="italics">s</em>
+                                <sup>2</sup>?
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="os-hasSolution"
+                          data-type="exercise"
+                          id="fs-idp26092016"
+                        >
+                          <div data-type="problem" id="fs-idp88143856">
+                            <a
+                              class="os-number"
+                              href="chapter-3#fs-idp26092016-solution"
+                            >57</a>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p id="fs-idm5124864">
+                                Which ion with a +1 charge has the electron configuration 1
+                                <em data-effect="italics">s</em>
+                                <sup>2</sup>2
+                                <em data-effect="italics">s</em>
+                                <sup>2</sup>2
+                                <em data-effect="italics">p</em>
+                                <sup>6</sup>3
+                                <em data-effect="italics">s</em>
+                                <sup>2</sup>3
+                                <em data-effect="italics">p</em>
+                                <sup>6</sup>3
+                                <em data-effect="italics">d</em>
+                                <sup>10</sup>4
+                                <em data-effect="italics">s</em>
+                                <sup>2</sup>4
+                                <em data-effect="italics">p</em>
+                                <sup>6</sup>? Which ion with a –2 charge has this configuration?
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class data-type="exercise" id="fs-idp42173648">
+                          <div data-type="problem" id="fs-idp217160640">
+                            <span class="os-number">58</span>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p
+                                id="fs-idp202295808"
+                              >Which of the following atoms contains only three valence electrons: Li, B, N, F, Ne?</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="os-hasSolution"
+                          data-type="exercise"
+                          id="fs-idp162194832"
+                        >
+                          <div data-type="problem" id="fs-idm37949712">
+                            <a
+                              class="os-number"
+                              href="chapter-3#fs-idp162194832-solution"
+                            >59</a>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p
+                                id="fs-idm9880640"
+                              >Which of the following has two unpaired electrons?</p>
+                              <p id="fs-idp36721120">(a) Mg</p>
+                              <p id="fs-idp80333216">(b) Si</p>
+                              <p id="fs-idp7412592">(c) S</p>
+                              <p id="fs-idp149707504">(d) Both Mg and S</p>
+                              <p id="fs-idp82994240">(e) Both Si and S.</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class data-type="exercise" id="fs-idm7500224">
+                          <div data-type="problem" id="fs-idp81134704">
+                            <span class="os-number">60</span>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p id="fs-idm6463248">
+                                Which atom would be expected to have a half-filled 6
+                                <em data-effect="italics">p</em> subshell?
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="os-hasSolution"
+                          data-type="exercise"
+                          id="fs-idp3240128"
+                        >
+                          <div data-type="problem" id="fs-idm85182352">
+                            <a
+                              class="os-number"
+                              href="chapter-3#fs-idp3240128-solution"
+                            >61</a>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p id="fs-idp37368480">
+                                Which atom would be expected to have a half-filled 4
+                                <em data-effect="italics">s</em> subshell?
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class data-type="exercise" id="fs-idp50820528">
+                          <div data-type="problem" id="fs-idp23764928">
+                            <span class="os-number">62</span>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p id="fs-idp7807504">
+                                In one area of Australia, the cattle did not thrive despite the presence of suitable forage. An investigation showed the cause to be the absence of sufficient cobalt in the soil. Cobalt forms cations in two oxidation states, Co
+                                <sup>2+</sup> and Co
+                                <sup>3+</sup>. Write the electron structure of the two cations.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="os-hasSolution"
+                          data-type="exercise"
+                          id="fs-idp32131696"
+                        >
+                          <div data-type="problem" id="fs-idm3836800">
+                            <a
+                              class="os-number"
+                              href="chapter-3#fs-idp32131696-solution"
+                            >63</a>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p
+                                id="fs-idp247812992"
+                              >Thallium was used as a poison in the Agatha Christie mystery story “The Pale Horse.” Thallium has two possible cationic forms, +1 and +3. The +1 compounds are the more stable. Write the electron structure of the +1 cation of thallium.</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class data-type="exercise" id="fs-idm62612928">
+                          <div data-type="problem" id="fs-idp199851296">
+                            <span class="os-number">64</span>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p
+                                id="fs-idp150185184"
+                              >Write the electron configurations for the following atoms or ions:</p>
+                              <p id="fs-idm14144720">
+                                (a) B
+                                <sup>3+</sup>
+                              </p>
+                              <p id="fs-idp44810192">
+                                (b) O
+                                <sup>–</sup>
+                              </p>
+                              <p id="fs-idp18143568">
+                                (c) Cl
+                                <sup>3+</sup>
+                              </p>
+                              <p id="fs-idp88136656">
+                                (d) Ca
+                                <sup>2+</sup>
+                              </p>
+                              <p id="fs-idp36771008">(e) Ti</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="os-hasSolution"
+                          data-type="exercise"
+                          id="fs-idp81167248"
+                        >
+                          <div data-type="problem" id="fs-idp6389584">
+                            <a
+                              class="os-number"
+                              href="chapter-3#fs-idp81167248-solution"
+                            >65</a>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p
+                                id="fs-idp6389712"
+                              >Cobalt–60 and iodine–131 are radioactive isotopes commonly used in nuclear medicine. How many protons, neutrons, and electrons are in atoms of these isotopes? Write the complete electron configuration for each isotope.</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class data-type="exercise" id="fs-idm9054704">
+                          <div data-type="problem" id="fs-idm9054576">
+                            <span class="os-number">66</span>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p id="fs-idp80513232">
+                                Write a set of quantum numbers for each of the electrons with an
+                                <em data-effect="italics">n</em> of 3 in a Sc atom.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </section>
+                      <section
+                        class="exercises"
+                        data-depth="1"
+                        id="fs-idm85407248"
+                      >
+                        <h3 data-type="document-title" id="[redacted for uniqueness]">
+                          <span class="os-number">3.5</span>
+                          <span class="os-divider"></span>
+                          <span
+                            class="os-text"
+                          >Periodic Variations in Element Properties</span>
+                        </h3>
+                        <div
+                          class="os-hasSolution"
+                          data-type="exercise"
+                          id="fs-idp42367872"
+                        >
+                          <div data-type="problem" id="fs-idm44218896">
+                            <a
+                              class="os-number"
+                              href="chapter-3#fs-idp42367872-solution"
+                            >67</a>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p
+                                id="fs-idp87713840"
+                              >Based on their positions in the periodic table, predict which has the smallest atomic radius: Mg, Sr, Si, Cl, I.</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class data-type="exercise" id="fs-idp30124176">
+                          <div data-type="problem" id="fs-idm108750528">
+                            <span class="os-number">68</span>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p
+                                id="fs-idm155052000"
+                              >Based on their positions in the periodic table, predict which has the largest atomic radius: Li, Rb, N, F, I.</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="os-hasSolution"
+                          data-type="exercise"
+                          id="fs-idm155159840"
+                        >
+                          <div data-type="problem" id="fs-idm165616592">
+                            <a
+                              class="os-number"
+                              href="chapter-3#fs-idm155159840-solution"
+                            >69</a>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p
+                                id="fs-idm13478336"
+                              >Based on their positions in the periodic table, predict which has the largest first ionization energy: Mg, Ba, B, O, Te.</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class data-type="exercise" id="fs-idm54929680">
+                          <div data-type="problem" id="fs-idp67831408">
+                            <span class="os-number">70</span>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p
+                                id="fs-idm340912"
+                              >Based on their positions in the periodic table, predict which has the smallest first ionization energy: Li, Cs, N, F, I.</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="os-hasSolution"
+                          data-type="exercise"
+                          id="fs-idm155125392"
+                        >
+                          <div data-type="problem" id="fs-idp23388560">
+                            <a
+                              class="os-number"
+                              href="chapter-3#fs-idm155125392-solution"
+                            >71</a>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p
+                                id="fs-idm156789200"
+                              >Based on their positions in the periodic table, rank the following atoms in order of increasing first ionization energy: F, Li, N, Rb</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class data-type="exercise" id="fs-idm147454816">
+                          <div data-type="problem" id="fs-idm56481744">
+                            <span class="os-number">72</span>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p
+                                id="fs-idm10255376"
+                              >Based on their positions in the periodic table, rank the following atoms in order of increasing first ionization energy: Mg, O, S, Si</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="os-hasSolution"
+                          data-type="exercise"
+                          id="fs-idm150214960"
+                        >
+                          <div data-type="problem" id="fs-idp79978576">
+                            <a
+                              class="os-number"
+                              href="chapter-3#fs-idm150214960-solution"
+                            >73</a>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p id="fs-idm132427728">
+                                Atoms of which group in the periodic table have a valence shell electron configuration of
+                                <em data-effect="italics">ns</em>
+                                <sup>2</sup>
+                                <em data-effect="italics">np</em>
+                                <sup>3</sup>?
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class data-type="exercise" id="fs-idm121823200">
+                          <div data-type="problem" id="fs-idm140970272">
+                            <span class="os-number">74</span>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p id="fs-idm119024400">
+                                Atoms of which group in the periodic table have a valence shell electron configuration of
+                                <em data-effect="italics">ns</em>
+                                <sup>2</sup>?
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="os-hasSolution"
+                          data-type="exercise"
+                          id="fs-idm74793552"
+                        >
+                          <div data-type="problem" id="fs-idm66081696">
+                            <a
+                              class="os-number"
+                              href="chapter-3#fs-idm74793552-solution"
+                            >75</a>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p
+                                id="fs-idm190433936"
+                              >Based on their positions in the periodic table, list the following atoms in order of increasing radius: Mg, Ca, Rb, Cs.</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class data-type="exercise" id="fs-idm116086704">
+                          <div data-type="problem" id="fs-idm2560400">
+                            <span class="os-number">76</span>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p
+                                id="fs-idp107277632"
+                              >Based on their positions in the periodic table, list the following atoms in order of increasing radius: Sr, Ca, Si, Cl.</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="os-hasSolution"
+                          data-type="exercise"
+                          id="fs-idm107831680"
+                        >
+                          <div data-type="problem" id="fs-idm124732752">
+                            <a
+                              class="os-number"
+                              href="chapter-3#fs-idm107831680-solution"
+                            >77</a>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p id="fs-idm108600608">
+                                Based on their positions in the periodic table, list the following ions in order of increasing radius: K
+                                <sup>+</sup>, Ca
+                                <sup>2+</sup>, Al
+                                <sup>3+</sup>, Si
+                                <sup>4+</sup>.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class data-type="exercise" id="fs-idm44955136">
+                          <div data-type="problem" id="fs-idm126053136">
+                            <span class="os-number">78</span>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p id="fs-idm131827120">
+                                List the following ions in order of increasing radius: Li
+                                <sup>+</sup>, Mg
+                                <sup>2+</sup>, Br
+                                <sup>–</sup>, Te
+                                <sup>2–</sup>.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="os-hasSolution"
+                          data-type="exercise"
+                          id="fs-idm119922592"
+                        >
+                          <div data-type="problem" id="fs-idm96101792">
+                            <a
+                              class="os-number"
+                              href="chapter-3#fs-idm119922592-solution"
+                            >79</a>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p id="fs-idp2854256">
+                                Which atom and/or ion is (are) isoelectronic with Br
+                                <sup>+</sup>: Se
+                                <sup>2+</sup>, Se, As
+                                <sup>–</sup>, Kr, Ga
+                                <sup>3+</sup>, Cl
+                                <sup>–</sup>?
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class data-type="exercise" id="fs-idm176990768">
+                          <div data-type="problem" id="fs-idm163060480">
+                            <span class="os-number">80</span>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p id="fs-idp44391696">
+                                Which of the following atoms and ions is (are) isoelectronic with S
+                                <sup>2+</sup>: Si
+                                <sup>4+</sup>, Cl
+                                <sup>3+</sup>, Ar, As
+                                <sup>3+</sup>, Si, Al
+                                <sup>3+</sup>?
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="os-hasSolution"
+                          data-type="exercise"
+                          id="fs-idm64525920"
+                        >
+                          <div data-type="problem" id="fs-idm86093568">
+                            <a
+                              class="os-number"
+                              href="chapter-3#fs-idm64525920-solution"
+                            >81</a>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p id="fs-idm46185392">
+                                Compare both the numbers of protons and electrons present in each to rank the following ions in order of increasing radius: As
+                                <sup>3–</sup>, Br
+                                <sup>–</sup>, K
+                                <sup>+</sup>, Mg
+                                <sup>2+</sup>.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class data-type="exercise" id="fs-idm2181648">
+                          <div data-type="problem" id="fs-idp841136">
+                            <span class="os-number">82</span>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p id="fs-idp121484432">
+                                Of the five elements Al, Cl, I, Na, Rb, which has the most exothermic reaction? (E represents an atom.) What name is given to the energy for the reaction? Hint: Note the process depicted does
+                                <em data-effect="italics">not</em> correspond to electron affinity.)
+                                <span data-type="newline">
+                                  <br>
+                                </span>
+                                <math display="inline">
+                                  <semantics>
+                                    <mrow>
+                                      <mrow>
+                                        <msup>
+                                          <mtext>E</mtext>
+                                          <mtext>+</mtext>
+                                        </msup>
+                                        <mo stretchy="false">(</mo>
+                                        <mi>g</mi>
+                                        <mo stretchy="false">)</mo>
+                                        <mo>+</mo>
+                                        <msup>
+                                          <mtext>e</mtext>
+                                          <mtext>−</mtext>
+                                        </msup>
+                                        <mspace width="0.2em"/>
+                                        <mo stretchy="false">⟶</mo>
+                                        <mspace width="0.2em"/>
+                                        <mtext>E</mtext>
+                                        <mo stretchy="false">(</mo>
+                                        <mi>g</mi>
+                                        <mo stretchy="false">)</mo>
+                                      </mrow>
+                                    </mrow>
+                                    <annotation-xml encoding="MathML-Content">
+                                      <mrow>
+                                        <msup>
+                                          <mtext>E</mtext>
+                                          <mtext>+</mtext>
+                                        </msup>
+                                        <mo stretchy="false">(</mo>
+                                        <mi>g</mi>
+                                        <mo stretchy="false">)</mo>
+                                        <mo>+</mo>
+                                        <msup>
+                                          <mtext>e</mtext>
+                                          <mtext>−</mtext>
+                                        </msup>
+                                        <mspace width="0.2em"/>
+                                        <mo stretchy="false">⟶</mo>
+                                        <mspace width="0.2em"/>
+                                        <mtext>E</mtext>
+                                        <mo stretchy="false">(</mo>
+                                        <mi>g</mi>
+                                        <mo stretchy="false">)</mo>
+                                      </mrow>
+                                    </annotation-xml>
+                                  </semantics>
+                                </math>
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="os-hasSolution"
+                          data-type="exercise"
+                          id="fs-idm68979552"
+                        >
+                          <div data-type="problem" id="fs-idm139950960">
+                            <a
+                              class="os-number"
+                              href="chapter-3#fs-idm68979552-solution"
+                            >83</a>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p id="fs-idm164099648">
+                                Of the five elements Sn, Si, Sb, O, Te, which has the most endothermic reaction? (E represents an atom.) What name is given to the energy for the reaction?
+                                <span data-type="newline">
+                                  <br>
+                                </span>
+                                <math display="inline">
+                                  <semantics>
+                                    <mrow>
+                                      <mrow>
+                                        <mtext>E</mtext>
+                                        <mo stretchy="false">(</mo>
+                                        <mi>g</mi>
+                                        <mo stretchy="false">)</mo>
+                                        <mspace width="0.2em"/>
+                                        <mo stretchy="false">⟶</mo>
+                                        <mspace width="0.2em"/>
+                                        <msup>
+                                          <mtext>E</mtext>
+                                          <mtext>+</mtext>
+                                        </msup>
+                                        <mo stretchy="false">(</mo>
+                                        <mi>g</mi>
+                                        <mo stretchy="false">)</mo>
+                                        <mo>+</mo>
+                                        <msup>
+                                          <mtext>e</mtext>
+                                          <mo>−</mo>
+                                        </msup>
+                                      </mrow>
+                                    </mrow>
+                                    <annotation-xml encoding="MathML-Content">
+                                      <mrow>
+                                        <mtext>E</mtext>
+                                        <mo stretchy="false">(</mo>
+                                        <mi>g</mi>
+                                        <mo stretchy="false">)</mo>
+                                        <mspace width="0.2em"/>
+                                        <mo stretchy="false">⟶</mo>
+                                        <mspace width="0.2em"/>
+                                        <msup>
+                                          <mtext>E</mtext>
+                                          <mtext>+</mtext>
+                                        </msup>
+                                        <mo stretchy="false">(</mo>
+                                        <mi>g</mi>
+                                        <mo stretchy="false">)</mo>
+                                        <mo>+</mo>
+                                        <msup>
+                                          <mtext>e</mtext>
+                                          <mo>−</mo>
+                                        </msup>
+                                      </mrow>
+                                    </annotation-xml>
+                                  </semantics>
+                                </math>
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class data-type="exercise" id="fs-idm108984736">
+                          <div data-type="problem" id="fs-idm154818192">
+                            <span class="os-number">84</span>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p id="fs-idp100098560">
+                                The ionic radii of the ions S
+                                <sup>2–</sup>, Cl
+                                <sup>–</sup>, and K
+                                <sup>+</sup> are 184, 181, 138 pm respectively. Explain why these ions have different sizes even though they contain the same number of electrons.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="os-hasSolution"
+                          data-type="exercise"
+                          id="fs-idm177180640"
+                        >
+                          <div data-type="problem" id="fs-idm116439504">
+                            <a
+                              class="os-number"
+                              href="chapter-3#fs-idm177180640-solution"
+                            >85</a>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p
+                                id="fs-idm155036256"
+                              >Which main group atom would be expected to have the lowest second ionization energy?</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class data-type="exercise" id="fs-idp177066416">
+                          <div data-type="problem" id="fs-idm134245088">
+                            <span class="os-number">86</span>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p
+                                id="fs-idm69403904"
+                              >Explain why Al is a member of group 13 rather than group 3?</p>
+                            </div>
+                          </div>
+                        </div>
+                      </section>
+                      <section
+                        class="exercises"
+                        data-depth="1"
+                        id="fs-idm260226672"
+                      >
+                        <h3 data-type="document-title" id="[redacted for uniqueness]">
+                          <span class="os-number">3.6</span>
+                          <span class="os-divider"></span>
+                          <span class="os-text">The Periodic Table</span>
+                        </h3>
+                        <div
+                          class="os-hasSolution"
+                          data-type="exercise"
+                          id="fs-idm319896576"
+                        >
+                          <div data-type="problem" id="fs-idm396566560">
+                            <a
+                              class="os-number"
+                              href="chapter-3#fs-idm319896576-solution"
+                            >87</a>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p
+                                id="fs-idm358722608"
+                              >Using the periodic table, classify each of the following elements as a metal or a nonmetal, and then further classify each as a main-group (representative) element, transition metal, or inner transition metal:</p>
+                              <p id="fs-idm497533216">(a) uranium</p>
+                              <p id="fs-idm32679920">(b) bromine</p>
+                              <p id="fs-idm189284896">(c) strontium</p>
+                              <p id="fs-idm169225920">(d) neon</p>
+                              <p id="fs-idm249659984">(e) gold</p>
+                              <p id="fs-idm212673504">(f) americium</p>
+                              <p id="fs-idm338787632">(g) rhodium</p>
+                              <p id="fs-idm395979120">(h) sulfur</p>
+                              <p id="fs-idm330830800">(i) carbon</p>
+                              <p id="fs-idm213012928">(j) potassium</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class data-type="exercise" id="fs-idm430913456">
+                          <div data-type="problem" id="fs-idm258414032">
+                            <span class="os-number">88</span>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p
+                                id="fs-idm139919296"
+                              >Using the periodic table, classify each of the following elements as a metal or a nonmetal, and then further classify each as a main-group (representative) element, transition metal, or inner transition metal:</p>
+                              <p id="fs-idm212911568">(a) cobalt</p>
+                              <p id="fs-idm426996144">(b) europium</p>
+                              <p id="fs-idm42780160">(c) iodine</p>
+                              <p id="fs-idm381113264">(d) indium</p>
+                              <p id="fs-idm447823856">(e) lithium</p>
+                              <p id="fs-idm227549872">(f) oxygen</p>
+                              <p id="fs-idm301270752">(g) cadmium</p>
+                              <p id="fs-idm258625344">(h) terbium</p>
+                              <p id="fs-idm415918848">(i) rhenium</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="os-hasSolution"
+                          data-type="exercise"
+                          id="fs-idm419056816"
+                        >
+                          <div data-type="problem" id="fs-idm252042368">
+                            <a
+                              class="os-number"
+                              href="chapter-3#fs-idm419056816-solution"
+                            >89</a>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p
+                                id="fs-idm44761472"
+                              >Using the periodic table, identify the lightest member of each of the following groups:</p>
+                              <p id="fs-idm138269664">(a) noble gases</p>
+                              <p id="fs-idm316570176">(b) alkaline earth metals</p>
+                              <p id="fs-idm167150000">(c) alkali metals</p>
+                              <p id="fs-idm342309392">(d) chalcogens</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class data-type="exercise" id="fs-idm315946160">
+                          <div data-type="problem" id="fs-idm145408176">
+                            <span class="os-number">90</span>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p
+                                id="fs-idm440433264"
+                              >Using the periodic table, identify the heaviest member of each of the following groups:</p>
+                              <p id="fs-idm396223200">(a) alkali metals</p>
+                              <p id="fs-idm279376720">(b) chalcogens</p>
+                              <p id="fs-idm379211312">(c) noble gases</p>
+                              <p id="fs-idm361329392">(d) alkaline earth metals</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="os-hasSolution"
+                          data-type="exercise"
+                          id="fs-idm415648752"
+                        >
+                          <div data-type="problem" id="fs-idm219470368">
+                            <a
+                              class="os-number"
+                              href="chapter-3#fs-idm415648752-solution"
+                            >91</a>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p
+                                id="fs-idm300526784"
+                              >Use the periodic table to give the name and symbol for each of the following elements:</p>
+                              <p
+                                id="fs-idm376420112"
+                              >(a) the noble gas in the same period as germanium</p>
+                              <p
+                                id="fs-idm416960944"
+                              >(b) the alkaline earth metal in the same period as selenium</p>
+                              <p
+                                id="fs-idm203188176"
+                              >(c) the halogen in the same period as lithium</p>
+                              <p
+                                id="fs-idm181902288"
+                              >(d) the chalcogen in the same period as cadmium</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class data-type="exercise" id="fs-idm281322784">
+                          <div data-type="problem" id="fs-idm420053952">
+                            <span class="os-number">92</span>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p
+                                id="fs-idm301757904"
+                              >Use the periodic table to give the name and symbol for each of the following elements:</p>
+                              <p
+                                id="fs-idm314254512"
+                              >(a) the halogen in the same period as the alkali metal with 11 protons</p>
+                              <p
+                                id="fs-idm420764736"
+                              >(b) the alkaline earth metal in the same period with the neutral noble gas with 18 electrons</p>
+                              <p
+                                id="fs-idm197043344"
+                              >(c) the noble gas in the same row as an isotope with 30 neutrons and 25 protons</p>
+                              <p
+                                id="fs-idm380409632"
+                              >(d) the noble gas in the same period as gold</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="os-hasSolution"
+                          data-type="exercise"
+                          id="fs-idm430165648"
+                        >
+                          <div data-type="problem" id="fs-idm344749616">
+                            <a
+                              class="os-number"
+                              href="chapter-3#fs-idm430165648-solution"
+                            >93</a>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p
+                                id="fs-idm527795280"
+                              >Write a symbol for each of the following neutral isotopes. Include the atomic number and mass number for each.</p>
+                              <p
+                                id="fs-idm301531664"
+                              >(a) the alkali metal with 11 protons and a mass number of 23</p>
+                              <p
+                                id="fs-idm366583472"
+                              >(b) the noble gas element with 75 neutrons in its nucleus and 54 electrons in the neutral atom</p>
+                              <p
+                                id="fs-idm419552112"
+                              >(c) the isotope with 33 protons and 40 neutrons in its nucleus</p>
+                              <p
+                                id="fs-idm42760208"
+                              >(d) the alkaline earth metal with 88 electrons and 138 neutrons</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class data-type="exercise" id="fs-idm251902464">
+                          <div data-type="problem" id="fs-idm350455760">
+                            <span class="os-number">94</span>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p
+                                id="fs-idm412465136"
+                              >Write a symbol for each of the following neutral isotopes. Include the atomic number and mass number for each.</p>
+                              <p
+                                id="fs-idm177686064"
+                              >(a) the chalcogen with a mass number of 125</p>
+                              <p
+                                id="fs-idm196586080"
+                              >(b) the halogen whose longest-lived isotope is radioactive</p>
+                              <p
+                                id="fs-idm396189968"
+                              >(c) the noble gas, used in lighting, with 10 electrons and 10 neutrons</p>
+                              <p
+                                id="fs-idm242350400"
+                              >(d) the lightest alkali metal with three neutrons</p>
+                            </div>
+                          </div>
+                        </div>
+                      </section>
+                      <section
+                        class="exercises"
+                        data-depth="1"
+                        id="fs-idp22868752"
+                      >
+                        <h3 data-type="document-title" id="[redacted for uniqueness]">
+                          <span class="os-number">3.7</span>
+                          <span class="os-divider"></span>
+                          <span class="os-text">Molecular and Ionic Compounds</span>
+                        </h3>
+                        <div
+                          class="os-hasSolution"
+                          data-type="exercise"
+                          id="fs-idp298677568"
+                        >
+                          <div data-type="problem" id="fs-idp16592128">
+                            <a
+                              class="os-number"
+                              href="chapter-3#fs-idp298677568-solution"
+                            >95</a>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p id="fs-idm58721440">
+                                Using the periodic table, predict whether the following chlorides are ionic or covalent: KCl, NCl
+                                <sub>3</sub>, ICl, MgCl
+                                <sub>2</sub>, PCl
+                                <sub>5</sub>, and CCl
+                                <sub>4</sub>.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class data-type="exercise" id="fs-idp44267360">
+                          <div data-type="problem" id="fs-idp65122256">
+                            <span class="os-number">96</span>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p id="fs-idp119855136">
+                                Using the periodic table, predict whether the following chlorides are ionic or covalent: SiCl
+                                <sub>4</sub>, PCl
+                                <sub>3</sub>, CaCl
+                                <sub>2</sub>, CsCl, CuCl
+                                <sub>2</sub>, and CrCl
+                                <sub>3</sub>.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="os-hasSolution"
+                          data-type="exercise"
+                          id="fs-idp221295264"
+                        >
+                          <div data-type="problem" id="fs-idp278674944">
+                            <a
+                              class="os-number"
+                              href="chapter-3#fs-idp221295264-solution"
+                            >97</a>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p
+                                id="fs-idp95603488"
+                              >For each of the following compounds, state whether it is ionic or covalent. If it is ionic, write the symbols for the ions involved:</p>
+                              <p id="fs-idp63096544">
+                                (a) NF
+                                <sub>3</sub>
+                              </p>
+                              <p id="fs-idp175705168">(b) BaO,</p>
+                              <p id="fs-idp210482672">
+                                (c) (NH
+                                <sub>4</sub>)
+                                <sub>2</sub>CO
+                                <sub>3</sub>
+                              </p>
+                              <p id="fs-idm16898128">
+                                (d) Sr(H
+                                <sub>2</sub>PO
+                                <sub>4</sub>)
+                                <sub>2</sub>
+                              </p>
+                              <p id="fs-idp523680">(e) IBr</p>
+                              <p id="fs-idp18583904">
+                                (f) Na
+                                <sub>2</sub>O
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class data-type="exercise" id="fs-idp4856416">
+                          <div data-type="problem" id="fs-idp164870384">
+                            <span class="os-number">98</span>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p
+                                id="fs-idp133547504"
+                              >For each of the following compounds, state whether it is ionic or covalent, and if it is ionic, write the symbols for the ions involved:</p>
+                              <p id="fs-idm6279264">
+                                (a) KClO
+                                <sub>4</sub>
+                              </p>
+                              <p id="fs-idp14607760">
+                                (b) MgC
+                                <sub>2</sub>H
+                                <sub>3</sub>O
+                                <sub>2</sub>
+                              </p>
+                              <p id="fs-idp273174928">
+                                (c) H
+                                <sub>2</sub>S
+                              </p>
+                              <p id="fs-idp187691872">
+                                (d) Ag
+                                <sub>2</sub>S
+                              </p>
+                              <p id="fs-idp267108208">
+                                (e) N
+                                <sub>2</sub>Cl
+                                <sub>4</sub>
+                              </p>
+                              <p id="fs-idp232955488">
+                                (f) Co(NO
+                                <sub>3</sub>)
+                                <sub>2</sub>
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="os-hasSolution"
+                          data-type="exercise"
+                          id="fs-idp178456496"
+                        >
+                          <div data-type="problem" id="fs-idp286835936">
+                            <a
+                              class="os-number"
+                              href="chapter-3#fs-idp178456496-solution"
+                            >99</a>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p
+                                id="fs-idp114930880"
+                              >For each of the following pairs of ions, write the symbol for the formula of the compound they will form.</p>
+                              <p id="fs-idp93671712">
+                                (a) Ca
+                                <sup>2+</sup>, S
+                                <sup>2−</sup>
+                              </p>
+                              <p id="fs-idp65603120">
+                                (b)
+                                <math display="inline">
+                                  <semantics>
+                                    <mrow>
+                                      <mrow>
+                                        <msub>
+                                          <mrow>
+                                            <mtext>NH</mtext>
+                                          </mrow>
+                                          <mn>4</mn>
+                                        </msub>
+                                        <msup>
+                                          <mrow/>
+                                          <mo>+</mo>
+                                        </msup>
+                                        <mtext>,</mtext>
+                                      </mrow>
+                                    </mrow>
+                                    <annotation-xml encoding="MathML-Content">
+                                      <mrow>
+                                        <msub>
+                                          <mrow>
+                                            <mtext>NH</mtext>
+                                          </mrow>
+                                          <mn>4</mn>
+                                        </msub>
+                                        <msup>
+                                          <mrow/>
+                                          <mo>+</mo>
+                                        </msup>
+                                        <mtext>,</mtext>
+                                      </mrow>
+                                    </annotation-xml>
+                                  </semantics>
+                                </math>
+                                <math display="inline">
+                                  <semantics>
+                                    <mrow>
+                                      <mrow>
+                                        <msub>
+                                          <mrow>
+                                            <mtext>SO</mtext>
+                                          </mrow>
+                                          <mn>4</mn>
+                                        </msub>
+                                        <msup>
+                                          <mrow/>
+                                          <mrow>
+                                            <mn>2−</mn>
+                                          </mrow>
+                                        </msup>
+                                      </mrow>
+                                    </mrow>
+                                    <annotation-xml encoding="MathML-Content">
+                                      <mrow>
+                                        <msub>
+                                          <mrow>
+                                            <mtext>SO</mtext>
+                                          </mrow>
+                                          <mn>4</mn>
+                                        </msub>
+                                        <msup>
+                                          <mrow/>
+                                          <mrow>
+                                            <mn>2−</mn>
+                                          </mrow>
+                                        </msup>
+                                      </mrow>
+                                    </annotation-xml>
+                                  </semantics>
+                                </math>
+                              </p>
+                              <p id="fs-idp433808032">
+                                (c) Al
+                                <sup>3+</sup>, Br
+                                <sup>−</sup>
+                              </p>
+                              <p id="fs-idp95434032">
+                                (d) Na
+                                <sup>+</sup>,
+                                <math display="inline">
+                                  <semantics>
+                                    <mrow>
+                                      <mrow>
+                                        <msub>
+                                          <mrow>
+                                            <mtext>HPO</mtext>
+                                          </mrow>
+                                          <mn>4</mn>
+                                        </msub>
+                                        <msup>
+                                          <mrow/>
+                                          <mrow>
+                                            <mn>2−</mn>
+                                          </mrow>
+                                        </msup>
+                                      </mrow>
+                                    </mrow>
+                                    <annotation-xml encoding="MathML-Content">
+                                      <mrow>
+                                        <msub>
+                                          <mrow>
+                                            <mtext>HPO</mtext>
+                                          </mrow>
+                                          <mn>4</mn>
+                                        </msub>
+                                        <msup>
+                                          <mrow/>
+                                          <mrow>
+                                            <mn>2−</mn>
+                                          </mrow>
+                                        </msup>
+                                      </mrow>
+                                    </annotation-xml>
+                                  </semantics>
+                                </math>
+                              </p>
+                              <p id="fs-idp106885728">
+                                (e) Mg
+                                <sup>2+</sup>,
+                                <math display="inline">
+                                  <semantics>
+                                    <mrow>
+                                      <mrow>
+                                        <msub>
+                                          <mrow>
+                                            <mtext>PO</mtext>
+                                          </mrow>
+                                          <mn>4</mn>
+                                        </msub>
+                                        <msup>
+                                          <mrow/>
+                                          <mrow>
+                                            <mn>3−</mn>
+                                          </mrow>
+                                        </msup>
+                                      </mrow>
+                                    </mrow>
+                                    <annotation-xml encoding="MathML-Content">
+                                      <mrow>
+                                        <msub>
+                                          <mrow>
+                                            <mtext>PO</mtext>
+                                          </mrow>
+                                          <mn>4</mn>
+                                        </msub>
+                                        <msup>
+                                          <mrow/>
+                                          <mrow>
+                                            <mn>3−</mn>
+                                          </mrow>
+                                        </msup>
+                                      </mrow>
+                                    </annotation-xml>
+                                  </semantics>
+                                </math>
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class data-type="exercise" id="fs-idp286976176">
+                          <div data-type="problem" id="fs-idp65459664">
+                            <span class="os-number">100</span>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p
+                                id="fs-idp56590528"
+                              >For each of the following pairs of ions, write the symbol for the formula of the compound they will form.</p>
+                              <p id="fs-idp101562960">
+                                (a) K
+                                <sup>+</sup>, O
+                                <sup>2−</sup>
+                              </p>
+                              <p id="fs-idp236810896">
+                                (b)
+                                <math display="inline">
+                                  <semantics>
+                                    <mrow>
+                                      <mrow>
+                                        <msub>
+                                          <mrow>
+                                            <mtext>NH</mtext>
+                                          </mrow>
+                                          <mn>4</mn>
+                                        </msub>
+                                        <msup>
+                                          <mrow/>
+                                          <mo>+</mo>
+                                        </msup>
+                                        <mtext>,</mtext>
+                                      </mrow>
+                                    </mrow>
+                                    <annotation-xml encoding="MathML-Content">
+                                      <mrow>
+                                        <msub>
+                                          <mrow>
+                                            <mtext>NH</mtext>
+                                          </mrow>
+                                          <mn>4</mn>
+                                        </msub>
+                                        <msup>
+                                          <mrow/>
+                                          <mo>+</mo>
+                                        </msup>
+                                        <mtext>,</mtext>
+                                      </mrow>
+                                    </annotation-xml>
+                                  </semantics>
+                                </math>
+                                <math display="inline">
+                                  <semantics>
+                                    <mrow>
+                                      <mrow>
+                                        <msub>
+                                          <mrow>
+                                            <mtext>PO</mtext>
+                                          </mrow>
+                                          <mn>4</mn>
+                                        </msub>
+                                        <msup>
+                                          <mrow/>
+                                          <mrow>
+                                            <mn>3−</mn>
+                                          </mrow>
+                                        </msup>
+                                      </mrow>
+                                    </mrow>
+                                    <annotation-xml encoding="MathML-Content">
+                                      <mrow>
+                                        <msub>
+                                          <mrow>
+                                            <mtext>PO</mtext>
+                                          </mrow>
+                                          <mn>4</mn>
+                                        </msub>
+                                        <msup>
+                                          <mrow/>
+                                          <mrow>
+                                            <mn>3−</mn>
+                                          </mrow>
+                                        </msup>
+                                      </mrow>
+                                    </annotation-xml>
+                                  </semantics>
+                                </math>
+                              </p>
+                              <p id="fs-idp62582192">
+                                (c) Al
+                                <sup>3+</sup>, O
+                                <sup>2−</sup>
+                              </p>
+                              <p id="fs-idp19798176">
+                                (d) Na
+                                <sup>+</sup>,
+                                <math display="inline">
+                                  <semantics>
+                                    <mrow>
+                                      <mrow>
+                                        <msub>
+                                          <mrow>
+                                            <mtext>CO</mtext>
+                                          </mrow>
+                                          <mn>3</mn>
+                                        </msub>
+                                        <msup>
+                                          <mrow/>
+                                          <mrow>
+                                            <mn>2−</mn>
+                                          </mrow>
+                                        </msup>
+                                      </mrow>
+                                    </mrow>
+                                    <annotation-xml encoding="MathML-Content">
+                                      <mrow>
+                                        <msub>
+                                          <mrow>
+                                            <mtext>CO</mtext>
+                                          </mrow>
+                                          <mn>3</mn>
+                                        </msub>
+                                        <msup>
+                                          <mrow/>
+                                          <mrow>
+                                            <mn>2−</mn>
+                                          </mrow>
+                                        </msup>
+                                      </mrow>
+                                    </annotation-xml>
+                                  </semantics>
+                                </math>
+                              </p>
+                              <p id="fs-idp143769280">
+                                (e) Ba
+                                <sup>2+</sup>,
+                                <math display="inline">
+                                  <semantics>
+                                    <mrow>
+                                      <mrow>
+                                        <msub>
+                                          <mrow>
+                                            <mtext>PO</mtext>
+                                          </mrow>
+                                          <mn>4</mn>
+                                        </msub>
+                                        <msup>
+                                          <mrow/>
+                                          <mrow>
+                                            <mn>3−</mn>
+                                          </mrow>
+                                        </msup>
+                                      </mrow>
+                                    </mrow>
+                                    <annotation-xml encoding="MathML-Content">
+                                      <mrow>
+                                        <msub>
+                                          <mrow>
+                                            <mtext>PO</mtext>
+                                          </mrow>
+                                          <mn>4</mn>
+                                        </msub>
+                                        <msup>
+                                          <mrow/>
+                                          <mrow>
+                                            <mn>3−</mn>
+                                          </mrow>
+                                        </msup>
+                                      </mrow>
+                                    </annotation-xml>
+                                  </semantics>
+                                </math>
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </section>
+                    </div>
+                  </div>
+                  

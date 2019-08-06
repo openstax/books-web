@@ -1,0 +1,109 @@
+
+                    <div
+                      class="os-eoc os-summary-container"
+                      data-type="composite-page"
+                      data-uuid-key=".summary"
+                    >
+                      <section
+                        class="summary"
+                        data-depth="1"
+                        id="fs-idm333536464"
+                      >
+                        <h3 data-type="document-title" id="[redacted for uniqueness]">
+                          <span class="os-number">5.1</span>
+                          <span class="os-divider"></span>
+                          <span class="os-text">Energy Basics</span>
+                        </h3>
+                        <p
+                          id="fs-idp4734160"
+                        >Energy is the capacity to supply heat or do work (applying a force to move matter). Kinetic energy (KE) is the energy of motion; potential energy is energy due to relative position, composition, or condition. When energy is converted from one form into another, energy is neither created nor destroyed (law of conservation of energy or first law of thermodynamics).</p>
+                        <p
+                          id="fs-idp43407888"
+                        >The thermal energy of matter is due to the kinetic energies of its constituent atoms or molecules. Temperature is an intensive property of matter reflecting hotness or coldness that increases as the average kinetic energy increases. Heat is the transfer of thermal energy between objects at different temperatures. Chemical and physical processes can absorb heat (endothermic) or release heat (exothermic). The SI unit of energy, heat, and work is the joule (J).</p>
+                        <p
+                          id="fs-idp20727296"
+                        >Specific heat and heat capacity are measures of the energy needed to change the temperature of a substance or object. The amount of heat absorbed or released by a substance depends directly on the type of substance, its mass, and the temperature change it undergoes.</p>
+                      </section>
+                      <section
+                        class="summary"
+                        data-depth="1"
+                        id="fs-idm31992064"
+                      >
+                        <h3 data-type="document-title" id="[redacted for uniqueness]">
+                          <span class="os-number">5.2</span>
+                          <span class="os-divider"></span>
+                          <span class="os-text">Calorimetry</span>
+                        </h3>
+                        <p
+                          id="fs-idm25518976"
+                        >Calorimetry is used to measure the amount of thermal energy transferred in a chemical or physical process. This requires careful measurement of the temperature change that occurs during the process and the masses of the system and surroundings. These measured quantities are then used to compute the amount of heat produced or consumed in the process using known mathematical relations.</p>
+                        <p
+                          id="fs-idm11014384"
+                        >Calorimeters are designed to minimize energy exchange between their contents and the external environment. They range from simple coffee cup calorimeters used by introductory chemistry students to sophisticated bomb calorimeters used to determine the energy content of food.</p>
+                      </section>
+                      <section
+                        class="summary"
+                        data-depth="1"
+                        id="fs-idp165565104"
+                      >
+                        <h3 data-type="document-title" id="[redacted for uniqueness]">
+                          <span class="os-number">5.3</span>
+                          <span class="os-divider"></span>
+                          <span class="os-text">Enthalpy</span>
+                        </h3>
+                        <p id="fs-idp165565984">
+                          If a chemical change is carried out at constant pressure and the only work done is caused by expansion or contraction,
+                          <em data-effect="italics">q</em> for the change is called the enthalpy change with the symbol Δ
+                          <em data-effect="italics">H</em>, or
+                          <math display="inline">
+                            <semantics>
+                              <mrow>
+                                <mrow>
+                                  <mtext>Δ</mtext>
+                                  <mi>H</mi>
+                                  <mtext>°</mtext>
+                                </mrow>
+                              </mrow>
+                              <annotation-xml encoding="MathML-Content">
+                                <mrow>
+                                  <mtext>Δ</mtext>
+                                  <mi>H</mi>
+                                  <mtext>°</mtext>
+                                </mrow>
+                              </annotation-xml>
+                            </semantics>
+                          </math> for reactions occurring under standard state conditions at 298 K. The value of Δ
+                          <em data-effect="italics">H</em> for a reaction in one direction is equal in magnitude, but opposite in sign, to Δ
+                          <em data-effect="italics">H</em> for the reaction in the opposite direction, and Δ
+                          <em data-effect="italics">H</em> is directly proportional to the quantity of reactants and products. The standard enthalpy of formation,
+                          <math display="inline">
+                            <semantics>
+                              <mrow>
+                                <mrow>
+                                  <mtext>Δ</mtext>
+                                  <msubsup>
+                                    <mi>H</mi>
+                                    <mtext>f</mtext>
+                                    <mo>°</mo>
+                                  </msubsup>
+                                  <mo>,</mo>
+                                </mrow>
+                              </mrow>
+                              <annotation-xml encoding="MathML-Content">
+                                <mrow>
+                                  <mtext>Δ</mtext>
+                                  <msubsup>
+                                    <mi>H</mi>
+                                    <mtext>f</mtext>
+                                    <mo>°</mo>
+                                  </msubsup>
+                                  <mo>,</mo>
+                                </mrow>
+                              </annotation-xml>
+                            </semantics>
+                          </math> is the enthalpy change accompanying the formation of 1 mole of a substance from the elements in their most stable states at 1 bar and 298.15 K. If the enthalpies of formation are available for the reactants and products of a reaction, the enthalpy change can be calculated using Hess’s law: If a process can be written as the sum of several stepwise processes, the enthalpy change of the total process equals the sum of the enthalpy changes of the various steps.
+                        </p>
+                      </section>
+                    </div>
+                  </div>
+                  

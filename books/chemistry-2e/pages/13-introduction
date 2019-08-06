@@ -1,0 +1,90 @@
+
+                    <div
+                      class="introduction"
+                      data-cnxml-to-html-ver="[redacted for uniqueness]"
+                      data-type="page"
+                      id="907ae180-6648-46e3-9f76-1c2f7919bbe4"
+                    >
+                      <div class="os-chapter-outline">
+                        <h3 class="os-title">Chapter Outline</h3>
+                        <div class="os-chapter-objective">
+                          <a
+                            class="os-chapter-objective"
+                            href="13-1-chemical-equilibria#[redacted for uniqueness]"
+                          >
+                            <span class="os-number">13.1</span>
+                            <span class="os-divider"></span>
+                            <span class="os-text">Chemical Equilibria</span>
+                          </a>
+                        </div>
+                        <div class="os-chapter-objective">
+                          <a
+                            class="os-chapter-objective"
+                            href="13-2-equilibrium-constants#[redacted for uniqueness]"
+                          >
+                            <span class="os-number">13.2</span>
+                            <span class="os-divider"></span>
+                            <span class="os-text">Equilibrium Constants</span>
+                          </a>
+                        </div>
+                        <div class="os-chapter-objective">
+                          <a
+                            class="os-chapter-objective"
+                            href="13-3-shifting-equilibria-le-chateliers-principle#[redacted for uniqueness]"
+                          >
+                            <span class="os-number">13.3</span>
+                            <span class="os-divider"></span>
+                            <span
+                              class="os-text"
+                            >Shifting Equilibria: Le Châtelier’s Principle</span>
+                          </a>
+                        </div>
+                        <div class="os-chapter-objective">
+                          <a
+                            class="os-chapter-objective"
+                            href="13-4-equilibrium-calculations#[redacted for uniqueness]"
+                          >
+                            <span class="os-number">13.4</span>
+                            <span class="os-divider"></span>
+                            <span class="os-text">Equilibrium Calculations</span>
+                          </a>
+                        </div>
+                      </div>
+
+                      <div class="os-figure" id="CNX_Chem_13_00_Blood">
+                        <figure class="splash" data-id="CNX_Chem_13_00_Blood">
+                          <span
+                            data-alt="An image depicts three tan squares, lying side-by-side along the upper left corner. Two of the same squares also lie side-by-side in the lower right corner. Each square has a black dot in the center. One of the squares is labeled, “C O subscript 2,” and has a double-headed arrow pointing from it to a red tube-like structure that runs between the squares across the image from the upper right to the lower left. This arrow is labeled, “C O subscript 2 dissolved in plasma.” The red tube has two round red shapes in it, and the upper one is labeled, “C O subscript 2 carried in red blood cells.” The gaps between the squares and the red tube are colored light blue. One of the squares along the top of the image is labeled, “C O subscript 2,” and is connected by a double-headed arrow to an equation in the red tube that is labeled, “C O subscript 2, a plus sign, H subscript 2 O, right-facing arrow, H subscript 2 C O subscript 3, right-facing arrow, H C O subscript 3 superscript negative sign, plus sign, H superscript positive sign.” The compound “H C O subscript 3 superscript negative sign” is then connected by a double-headed arrow to the space in the red tube and is labeled, “H C O subscript 3 superscript negative sign dissolved in plasma as carbonic acid.”"
+                            data-type="media"
+                            id="fs-idm45772400"
+                          >
+                            <img
+                              alt="An image depicts three tan squares, lying side-by-side along the upper left corner. Two of the same squares also lie side-by-side in the lower right corner. Each square has a black dot in the center. One of the squares is labeled, “C O subscript 2,” and has a double-headed arrow pointing from it to a red tube-like structure that runs between the squares across the image from the upper right to the lower left. This arrow is labeled, “C O subscript 2 dissolved in plasma.” The red tube has two round red shapes in it, and the upper one is labeled, “C O subscript 2 carried in red blood cells.” The gaps between the squares and the red tube are colored light blue. One of the squares along the top of the image is labeled, “C O subscript 2,” and is connected by a double-headed arrow to an equation in the red tube that is labeled, “C O subscript 2, a plus sign, H subscript 2 O, right-facing arrow, H subscript 2 C O subscript 3, right-facing arrow, H C O subscript 3 superscript negative sign, plus sign, H superscript positive sign.” The compound “H C O subscript 3 superscript negative sign” is then connected by a double-headed arrow to the space in the red tube and is labeled, “H C O subscript 3 superscript negative sign dissolved in plasma as carbonic acid.”"
+                              data-media-type="image/jpeg"
+                              id="[redacted for uniqueness]"
+                              src="/resources/4fd44768298e0296d17f7baa52ce12169e2d4175"
+                            >
+                          </span>
+                        </figure>
+                        <div class="os-caption-container">
+                          <span class="os-title-label">Figure</span>
+                          <span class="os-number">13.1</span>
+                          <span class="os-divider"></span>
+                          <span class="os-divider"></span>
+                          <span
+                            class="os-caption"
+                          >Transport of carbon dioxide in the body involves several reversible chemical reactions, including hydrolysis and acid ionization (among others).</span>
+                        </div>
+                      </div>
+
+                      <p id="fs-idp51855856">
+                        Imagine a beach populated with sunbathers and swimmers. As those basking in the sun get too hot, they enter the surf to swim and cool off. As the swimmers tire, they return to the beach to rest. If the rate at which sunbathers enter the surf were to equal the rate at which swimmers return to the sand, then the numbers (though not the identities) of sunbathers and swimmers would remain constant. This scenario illustrates a dynamic phenomenon known as
+                        <em data-effect="italics">equilibrium</em>, in which opposing processes occur at equal rates. Chemical and physical processes are subject to this phenomenon; these processes are at equilibrium when the forward and reverse reaction rates are equal. Equilibrium systems are pervasive in nature; the various reactions involving carbon dioxide dissolved in blood are examples (see
+                        <a
+                          class="autogenerated-content"
+                          href="#CNX_Chem_13_00_Blood"
+                        >Figure 13.1</a>). This chapter provides a thorough introduction to the essential aspects of chemical equilibria.
+                      </p>
+                    </div>
+                  </div>
+                  

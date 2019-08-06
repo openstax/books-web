@@ -1,0 +1,945 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home matches snapshot 1`] = `
+Array [
+  .c0 {
+  -webkit-clip: rect(1px,1px,1px,1px);
+  clip: rect(1px,1px,1px,1px);
+  margin: 0;
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c0:focus {
+  -webkit-clip: auto;
+  clip: auto;
+  height: auto;
+  width: auto;
+  z-index: 20;
+}
+
+<a
+    className="c0"
+    href="#main-content"
+    onClick={[Function]}
+  >
+    Skip to Content
+  </a>,
+  .c1 {
+  overflow: visible;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 6rem;
+  max-width: 128rem;
+  margin: 0 auto;
+}
+
+.c2 {
+  display: block;
+  width: auto;
+  height: 3.5rem;
+}
+
+.c0 {
+  overflow: visible;
+  z-index: 5;
+  background: #fff;
+  position: relative;
+  padding: 0 3.2rem;
+  box-shadow: 0 0.2rem 0.2rem 0 rgba(0,0,0,0.1);
+}
+
+@media screen and (max-width:75em) {
+  .c1 {
+    height: 5.2rem;
+  }
+}
+
+@media print {
+  .c1 {
+    display: none;
+  }
+}
+
+@media screen and (max-width:75em) {
+  .c2 {
+    height: 2.8rem;
+  }
+}
+
+@media screen and (max-width:75em) {
+  .c0 {
+    padding: 0 1.6rem;
+  }
+}
+
+<div
+    className="c0"
+  >
+    <div
+      className="c1"
+      data-testid="navbar"
+    >
+      <a
+        href="/"
+      >
+        <img
+          alt="OpenStax Logo"
+          className="c2"
+          role="img"
+          src="logo.svg"
+        />
+      </a>
+    </div>
+  </div>,
+  .c2 {
+  font-family: Neue Helvetica W01;
+  color: #424242;
+  font-size: 4.8rem;
+  line-height: 5rem;
+  -webkit-letter-spacing: -0.02rem;
+  -moz-letter-spacing: -0.02rem;
+  -ms-letter-spacing: -0.02rem;
+  letter-spacing: -0.02rem;
+  padding: 0 0 1rem 0;
+  margin: 0;
+}
+
+.c3 {
+  font-family: Neue Helvetica W01;
+  color: #424242;
+  font-size: 3.6rem;
+  line-height: 4rem;
+  -webkit-letter-spacing: -0.02rem;
+  -moz-letter-spacing: -0.02rem;
+  -ms-letter-spacing: -0.02rem;
+  letter-spacing: -0.02rem;
+  padding: 2rem 0 1rem 0;
+  margin: 0;
+}
+
+.c5 {
+  font-family: Neue Helvetica W01;
+  color: #424242;
+  font-size: 2.4rem;
+  line-height: 3rem;
+  -webkit-letter-spacing: -0.02rem;
+  -moz-letter-spacing: -0.02rem;
+  -ms-letter-spacing: -0.02rem;
+  letter-spacing: -0.02rem;
+  padding: 1.5rem 0 1rem 0;
+  margin: 0;
+}
+
+.c7 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  font-family: Neue Helvetica W01;
+  border-radius: 0.2rem;
+  font-size: 1.6rem;
+  height: 4rem;
+  padding: 0 3rem;
+  color: #5e6062;
+  background-color: #fff;
+  border: 1px solid #d5d5d5;
+  font-weight: regular;
+}
+
+.c7:hover {
+  background-color: #fafafa;
+}
+
+.c7:active {
+  background-color: #e5e5e5;
+}
+
+.c6 {
+  color: #027EB5;
+  cursor: pointer;
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+}
+
+.c6:hover {
+  color: #0064A0;
+}
+
+.c4 {
+  padding: 1rem;
+}
+
+.c1 {
+  font-family: Neue Helvetica W01;
+  color: #424242;
+  font-size: 1.6rem;
+  line-height: 2.5rem;
+  max-width: 128rem;
+  margin: 0 auto;
+  padding: 2rem 0;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.c1 a {
+  color: #027EB5;
+  cursor: pointer;
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+}
+
+.c1 a:hover {
+  color: #0064A0;
+}
+
+.c0 {
+  width: 100%;
+  padding: 0 3.2rem;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+@media screen and (max-width:75em) {
+  .c5 {
+    font-size: 1.6rem;
+    line-height: 2rem;
+  }
+}
+
+@media screen and (max-width:75em) {
+  .c0 {
+    padding: 0 1.6rem;
+  }
+}
+
+<div
+    className="c0"
+  >
+    <div
+      className="c1"
+    >
+      <h1
+        className="c2"
+      >
+        REX Developer Homepage
+      </h1>
+      <div>
+        <h2
+          className="c3"
+        >
+          Books
+        </h2>
+        <div
+          className="c4"
+        >
+          <ul>
+            <li>
+              <h3
+                className="c5"
+              >
+                <a
+                  className="c6"
+                  href="books/book-slug-1/pages/1-introduction-to-science-and-the-realm-of-physics-physical-quantities-and-units"
+                  onClick={[Function]}
+                >
+                  Test Book 1
+                </a>
+              </h3>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div>
+        <h2
+          className="c3"
+        >
+          Notifications
+        </h2>
+        <div
+          className="c4"
+        >
+          <button
+            className="c7"
+            onClick={[Function]}
+          >
+            update available
+          </button>
+        </div>
+      </div>
+      <div>
+        <h2
+          className="c3"
+        >
+          Routes
+        </h2>
+        <div
+          className="c4"
+        >
+          <div>
+            <h3
+              className="c5"
+            >
+              Developer Home
+            </h3>
+            path: 
+            /
+          </div>
+          <div>
+            <h3
+              className="c5"
+            >
+              Content
+            </h3>
+            path: 
+            /books/:book/pages/:page
+          </div>
+          <div>
+            <h3
+              className="c5"
+            >
+              NotFound
+            </h3>
+            path: 
+            /(.*)
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  .c17 {
+  display: inline-block;
+  vertical-align: -.125em;
+  overflow: hidden;
+}
+
+.c16 {
+  height: 1em;
+}
+
+.c18 {
+  height: 1em;
+}
+
+.c20 {
+  height: 1em;
+}
+
+.c19 {
+  height: 1em;
+}
+
+.c0 {
+  font-family: Neue Helvetica W01;
+  color: #424242;
+  font-size: 1.6rem;
+  line-height: 2.5rem;
+  z-index: 0;
+  opacity: 1;
+  -webkit-transition: opacity 0.2s;
+  transition: opacity 0.2s;
+}
+
+.c1 {
+  color: #d5d5d5;
+  display: grid;
+}
+
+.c2 {
+  background-color: #424242;
+}
+
+.c3 {
+  max-width: 131rem;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: column nowrap;
+  -ms-flex-flow: column nowrap;
+  flex-flow: column nowrap;
+  margin: 0 auto;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  width: 100%;
+  display: grid;
+  grid-row-gap: 2rem;
+  overflow: visible;
+}
+
+.c4 {
+  grid-area: headline;
+}
+
+.c5 {
+  grid-area: mission;
+}
+
+.c5 a {
+  color: inherit;
+  font-weight: bold;
+  text-underline-position: under;
+}
+
+.c8 {
+  color: inherit;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c8:hover {
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+}
+
+.c21 {
+  color: inherit;
+  display: inline-grid;
+  grid-auto-flow: column;
+  grid-column-gap: 0.7rem;
+  overflow: hidden;
+}
+
+.c6 {
+  display: grid;
+  grid-gap: 0.5rem;
+  overflow: visible;
+  grid-area: col1;
+}
+
+.c9 {
+  display: grid;
+  grid-gap: 0.5rem;
+  overflow: visible;
+  grid-area: col2;
+}
+
+.c10 {
+  display: grid;
+  grid-gap: 0.5rem;
+  overflow: visible;
+  grid-area: col3;
+}
+
+.c7 {
+  font-size: 1.8rem;
+  font-weight: bold;
+  -webkit-letter-spacing: -0.072rem;
+  -moz-letter-spacing: -0.072rem;
+  -ms-letter-spacing: -0.072rem;
+  letter-spacing: -0.072rem;
+  line-height: normal;
+}
+
+.c11 {
+  font-size: 1.2rem;
+  font-weight: normal;
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  background-color: #3b3b3b;
+}
+
+.c12 {
+  max-width: 131rem;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: column nowrap;
+  -ms-flex-flow: column nowrap;
+  flex-flow: column nowrap;
+  margin: 0 auto;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  width: 100%;
+  display: grid;
+  grid-gap: 1.5rem 4rem;
+  overflow: visible;
+}
+
+.c13 {
+  display: grid;
+  grid-gap: 1rem;
+  overflow: visible;
+}
+
+.c13 [data-html="copyright"] {
+  overflow: visible;
+}
+
+.c13 a {
+  color: inherit;
+  overflow: visible;
+}
+
+.c13 sup {
+  font-size: 66%;
+  margin-left: 0.1rem;
+  position: relative;
+  top: -0.25em;
+  vertical-align: top;
+}
+
+.c14 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: grid;
+  grid-auto-flow: column;
+  grid-gap: 1rem;
+  -webkit-box-pack: end;
+  -webkit-justify-content: end;
+  -ms-flex-pack: end;
+  justify-content: end;
+  overflow: visible;
+}
+
+.c15 {
+  color: inherit;
+  font-size: 1.6rem;
+  line-height: 2.5rem;
+  background-color: #959595;
+  -webkit-align-content: center;
+  -ms-flex-line-pack: center;
+  align-content: center;
+  border-radius: 50%;
+  display: grid;
+  height: 3rem;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  overflow: hidden;
+  width: 3rem;
+}
+
+.c22 {
+  height: 4rem;
+  -webkit-transform: translateY(0.2rem);
+  -ms-transform: translateY(0.2rem);
+  transform: translateY(0.2rem);
+}
+
+@media print {
+  .c0 {
+    display: none;
+  }
+}
+
+@media (min-width:60.1em) {
+  .c2 {
+    padding: 7rem 0;
+  }
+}
+
+@media (max-width:37.5em) {
+  .c2 {
+    padding: 2rem 0;
+  }
+}
+
+@media (max-width:60.1em) and (min-width:37.6em) {
+  .c2 {
+    padding: 4rem 0;
+  }
+}
+
+@media (min-width:37.6em) {
+  .c3 {
+    -webkit-align-items: start;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: start;
+    grid-column-gap: 4rem;
+    grid-template: "headline col1 col2 col3" "mission col1 col2 col3"/minmax(auto,50rem) auto auto auto;
+  }
+}
+
+@media (max-width:37.5em) {
+  .c3 {
+    grid-template: "headline" "mission" "col1" "col2" "col3";
+  }
+}
+
+@media (min-width:60.1em) {
+  .c3 {
+    grid-column-gap: 8rem;
+  }
+}
+
+@media (min-width:37.6em) {
+  .c4 {
+    font-size: 2.4rem;
+    font-weight: bold;
+    -webkit-letter-spacing: -0.096rem;
+    -moz-letter-spacing: -0.096rem;
+    -ms-letter-spacing: -0.096rem;
+    letter-spacing: -0.096rem;
+    line-height: normal;
+  }
+}
+
+@media (max-width:37.5em) {
+  .c4 {
+    font-size: 2rem;
+    font-weight: bold;
+    -webkit-letter-spacing: -0.08rem;
+    -moz-letter-spacing: -0.08rem;
+    -ms-letter-spacing: -0.08rem;
+    letter-spacing: -0.08rem;
+    line-height: normal;
+  }
+}
+
+@media (min-width:37.6em) {
+  .c5 {
+    font-size: 1.8rem;
+    font-weight: normal;
+    -webkit-letter-spacing: normal;
+    -moz-letter-spacing: normal;
+    -ms-letter-spacing: normal;
+    letter-spacing: normal;
+    line-height: 3rem;
+  }
+}
+
+@media (max-width:37.5em) {
+  .c8 {
+    line-height: 4.5rem;
+  }
+}
+
+@media (max-width:37.5em) {
+  .c7 {
+    line-height: 4.5rem;
+  }
+}
+
+@media (min-width:37.6em) {
+  .c11 {
+    padding: 2.5rem 0;
+  }
+}
+
+@media (max-width:37.5em) {
+  .c11 {
+    padding: 1.5rem;
+  }
+}
+
+@media (min-width:37.6em) {
+  .c12 {
+    grid-auto-flow: column;
+  }
+}
+
+@media (max-width:37.5em) {
+  .c12 {
+    padding: 0;
+  }
+}
+
+<footer
+    className="c0"
+  >
+    <div
+      className="c1"
+    >
+      <div
+        className="c2"
+      >
+        <div
+          className="c3"
+        >
+          <div
+            aria-level={2}
+            className="c4"
+            role="heading"
+          >
+            OpenStax at Rice University is a 501(c)(3) nonprofit charity
+          </div>
+          <div
+            className="c5"
+            dangerouslySetInnerHTML={
+              Object {
+                "__html": "
+  It's our mission to give every student the tools they need to be successful in the classroom.
+  Help our cause by <a href=\\"/give\\" target=\\"_blank\\">donating</a> today.
+",
+              }
+            }
+          />
+          <div
+            className="c6"
+          >
+            <div
+              className="c7"
+            >
+              Help
+            </div>
+            <a
+              className="c8"
+              href="/contact"
+              rel=""
+              target="_self"
+            >
+              Contact Us
+            </a>
+            <a
+              className="c8"
+              href="https://openstax.secure.force.com/help"
+              rel="noopener"
+              target="_blank"
+            >
+              Support Center
+            </a>
+            <a
+              className="c8"
+              href="/faq"
+              rel=""
+              target="_self"
+            >
+              FAQ
+            </a>
+          </div>
+          <div
+            className="c9"
+          >
+            <div
+              className="c7"
+            >
+              OpenStax
+            </div>
+            <a
+              className="c8"
+              href="/press"
+              rel=""
+              target="_self"
+            >
+              Press
+            </a>
+            <a
+              className="c8"
+              href="http://www2.openstax.org/l/218812/2016-10-04/lvk"
+              rel="noopener"
+              target="_blank"
+            >
+              Newsletter
+            </a>
+            <a
+              className="c8"
+              href="/careers"
+              rel=""
+              target="_self"
+            >
+              Careers
+            </a>
+          </div>
+          <div
+            className="c10"
+          >
+            <div
+              className="c7"
+            >
+              Policies
+            </div>
+            <a
+              className="c8"
+              href="/accessibility-statement"
+              rel=""
+              target="_self"
+            >
+              Accessibility Statement
+            </a>
+            <a
+              className="c8"
+              href="/tos"
+              rel=""
+              target="_self"
+            >
+              Terms of Use
+            </a>
+            <a
+              className="c8"
+              href="/license"
+              rel=""
+              target="_self"
+            >
+              Licensing
+            </a>
+            <a
+              className="c8"
+              href="/privacy-policy"
+              rel=""
+              target="_self"
+            >
+              Privacy Policy
+            </a>
+          </div>
+        </div>
+      </div>
+      <div
+        className="c11"
+      >
+        <div
+          className="c12"
+        >
+          <div
+            className="c13"
+            dangerouslySetInnerHTML={
+              Object {
+                "__html": "
+  <div data-html=\\"copyright\\">© 1999-2019, Rice University. Except where otherwise noted, textbooks on this site
+    are licensed under a
+    <a href=\\"https://creativecommons.org/licenses/by/4.0/\\" target=\\"_blank\\"
+    rel=\\"noreferrer\\">Creative Commons Attribution 4.0 International License</a>.
+  </div>
+  <div data-html=\\"apStatement\\">
+    Advanced Placement<sup>®</sup> and AP<sup>®</sup> are trademarks registered and/or owned by the College Board,
+    which is not affiliated with, and does not endorse, this site.
+  </div>
+",
+              }
+            }
+          />
+          <div
+            className="c14"
+            role="directory"
+          >
+            <a
+              aria-label="facebook"
+              className="c15"
+              href="https://www.facebook.com/openstax"
+              rel="noopener"
+              target="_blank"
+            >
+              <svg
+                aria-hidden="true"
+                className="c16 c17"
+                fill="currentColor"
+                focusable="false"
+                viewBox="0 0 320 512"
+              >
+                <path
+                  d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z"
+                  fill="currentColor"
+                />
+              </svg>
+            </a>
+            <a
+              aria-label="twitter"
+              className="c15"
+              href="https://twitter.com/openstax"
+              rel="noopener"
+              target="_blank"
+            >
+              <svg
+                aria-hidden="true"
+                className="c18 c17"
+                fill="currentColor"
+                focusable="false"
+                viewBox="0 0 512 512"
+              >
+                <path
+                  d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"
+                  fill="currentColor"
+                />
+              </svg>
+            </a>
+            <a
+              aria-label="linkedin"
+              className="c15"
+              href="https://www.linkedin.com/company/openstax"
+              rel="noopener"
+              target="_blank"
+            >
+              <svg
+                aria-hidden="true"
+                className="c19 c17"
+                fill="currentColor"
+                focusable="false"
+                viewBox="0 0 448 512"
+              >
+                <path
+                  d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z"
+                  fill="currentColor"
+                />
+              </svg>
+            </a>
+            <a
+              aria-label="instagram"
+              className="c15"
+              href="https://www.instagram.com/openstax/"
+              rel="noopener"
+              target="_blank"
+            >
+              <svg
+                aria-hidden="true"
+                className="c20 c17"
+                fill="currentColor"
+                focusable="false"
+                viewBox="0 0 448 512"
+              >
+                <path
+                  d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"
+                  fill="currentColor"
+                />
+              </svg>
+            </a>
+            <a
+              className="c21"
+              href="http://www.rice.edu"
+              rel="noopener"
+              target="_blank"
+            >
+              <img
+                alt="Rice University logo"
+                className="c22"
+                src="rice-white-text.png"
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>,
+]
+`;

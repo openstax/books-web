@@ -1,0 +1,118 @@
+
+                    <div
+                      class="introduction"
+                      data-cnxml-to-html-ver="[redacted for uniqueness]"
+                      data-type="page"
+                      id="242a0400-57dd-4b92-a971-19ed2c94b9c6"
+                    >
+                      <div class="os-chapter-outline">
+                        <h3 class="os-title">Chapter Outline</h3>
+                        <div class="os-chapter-objective">
+                          <a
+                            class="os-chapter-objective"
+                            href="21-1-nuclear-structure-and-stability#[redacted for uniqueness]"
+                          >
+                            <span class="os-number">21.1</span>
+                            <span class="os-divider"></span>
+                            <span
+                              class="os-text"
+                            >Nuclear Structure and Stability</span>
+                          </a>
+                        </div>
+                        <div class="os-chapter-objective">
+                          <a
+                            class="os-chapter-objective"
+                            href="21-2-nuclear-equations#[redacted for uniqueness]"
+                          >
+                            <span class="os-number">21.2</span>
+                            <span class="os-divider"></span>
+                            <span class="os-text">Nuclear Equations</span>
+                          </a>
+                        </div>
+                        <div class="os-chapter-objective">
+                          <a
+                            class="os-chapter-objective"
+                            href="21-3-radioactive-decay#[redacted for uniqueness]"
+                          >
+                            <span class="os-number">21.3</span>
+                            <span class="os-divider"></span>
+                            <span class="os-text">Radioactive Decay</span>
+                          </a>
+                        </div>
+                        <div class="os-chapter-objective">
+                          <a
+                            class="os-chapter-objective"
+                            href="21-4-transmutation-and-nuclear-energy#[redacted for uniqueness]"
+                          >
+                            <span class="os-number">21.4</span>
+                            <span class="os-divider"></span>
+                            <span
+                              class="os-text"
+                            >Transmutation and Nuclear Energy</span>
+                          </a>
+                        </div>
+                        <div class="os-chapter-objective">
+                          <a
+                            class="os-chapter-objective"
+                            href="21-5-uses-of-radioisotopes#[redacted for uniqueness]"
+                          >
+                            <span class="os-number">21.5</span>
+                            <span class="os-divider"></span>
+                            <span class="os-text">Uses of Radioisotopes</span>
+                          </a>
+                        </div>
+                        <div class="os-chapter-objective">
+                          <a
+                            class="os-chapter-objective"
+                            href="21-6-biological-effects-of-radiation#[redacted for uniqueness]"
+                          >
+                            <span class="os-number">21.6</span>
+                            <span class="os-divider"></span>
+                            <span
+                              class="os-text"
+                            >Biological Effects of Radiation</span>
+                          </a>
+                        </div>
+                      </div>
+
+                      <div class="os-figure" id="CNX_Chem_21_00_NuclearMed">
+                        <figure
+                          class="splash"
+                          data-id="CNX_Chem_21_00_NuclearMed"
+                        >
+                          <span
+                            data-alt="An image shows four sets of medical pictures. The first is the torso and arms of a human skeleton with purple shading in the muscular regions. The second is a set of four images; the top left, labeled “Smoker,” shows an oval-shaped image that is blue on the outside rim, green as you move inward, and bright red near the center while the top right, labeled “Non-Smoker,” shows an oval-shaped image that is shaded bright green over most of the image and bright red near the center. The lower left image of the four, labeled “Alcoholic,” shows an oval-shaped image that is almost entirely blue with two small yellow-rimmed, red dots near the upper middle section while the lower right image, labeled “Normal,” looks very similar to the lower left, but the red regions are slightly larger. The final image show two scans of a human torso that is turned to face to the side. The left scan has three bright yellow-white areas; one in the throat, one in the chest and one in the head. The right scan is the same as the left except the bright regions are dim and the internal organs are more clearly defined."
+                            data-type="media"
+                            id="fs-idm8172160"
+                          >
+                            <img
+                              alt="An image shows four sets of medical pictures. The first is the torso and arms of a human skeleton with purple shading in the muscular regions. The second is a set of four images; the top left, labeled “Smoker,” shows an oval-shaped image that is blue on the outside rim, green as you move inward, and bright red near the center while the top right, labeled “Non-Smoker,” shows an oval-shaped image that is shaded bright green over most of the image and bright red near the center. The lower left image of the four, labeled “Alcoholic,” shows an oval-shaped image that is almost entirely blue with two small yellow-rimmed, red dots near the upper middle section while the lower right image, labeled “Normal,” looks very similar to the lower left, but the red regions are slightly larger. The final image show two scans of a human torso that is turned to face to the side. The left scan has three bright yellow-white areas; one in the throat, one in the chest and one in the head. The right scan is the same as the left except the bright regions are dim and the internal organs are more clearly defined."
+                              data-media-type="image/jpeg"
+                              id="[redacted for uniqueness]"
+                              src="/resources/7f2385a4ae01f71dfc9ae7b7680ac9ea465b1595"
+                            >
+                          </span>
+                        </figure>
+                        <div class="os-caption-container">
+                          <span class="os-title-label">Figure</span>
+                          <span class="os-number">21.1</span>
+                          <span class="os-divider"></span>
+                          <span class="os-divider"></span>
+                          <span
+                            class="os-caption"
+                          >Nuclear chemistry provides the basis for many useful diagnostic and therapeutic methods in medicine, such as these positron emission tomography (PET) scans. The PET/computed tomography scan on the left shows muscle activity. The brain scans in the center show chemical differences in dopamine signaling in the brains of addicts and nonaddicts. The images on the right show an oncological application of PET scans to identify lymph node metastasis.</span>
+                        </div>
+                      </div>
+
+                      <p id="fs-idp145142544">
+                        The chemical reactions that we have considered in previous chapters involve changes in the
+                        <em data-effect="italics">electronic</em> structure of the species involved, that is, the arrangement of the electrons around atoms, ions, or molecules.
+                        <em data-effect="italics">Nuclear</em> structure, the numbers of protons and neutrons within the nuclei of the atoms involved, remains unchanged during chemical reactions.
+                      </p>
+
+                      <p
+                        id="fs-idp209834320"
+                      >This chapter will introduce the topic of nuclear chemistry, which began with the discovery of radioactivity in 1896 by French physicist Antoine Becquerel and has become increasingly important during the twentieth and twenty-first centuries, providing the basis for various technologies related to energy, medicine, geology, and many other areas.</p>
+                    </div>
+                  </div>
+                  

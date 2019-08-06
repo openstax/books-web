@@ -1,0 +1,29 @@
+---
+platform: linux
+
+image_resource:
+  type: docker-image
+  source:
+    repository: node
+
+inputs:
+- name: rex-web
+
+outputs:
+- name: test-plans
+
+params:
+  TR_PROJECT_ID: ((testrail-project-id))
+  TR_INSTANCE: ((testrail-instance))
+  TR_USERNAME: ((testrail-username))
+  TR_PASSWORD: ((testrail-password))
+
+run:
+  path: /bin/bash
+  args:
+    - -c
+    - |
+      DEST=$(pwd)/test-plans
+      cd rex-web/concourse/create-test-plan-configs
+      yarn install
+      ./script.js $DEST

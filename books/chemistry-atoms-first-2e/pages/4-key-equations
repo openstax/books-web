@@ -1,0 +1,65 @@
+
+                    <div
+                      class="os-eoc os-key-equations-container"
+                      data-type="composite-page"
+                      data-uuid-key=".key-equations"
+                    >
+                      <section
+                        class="key-equations"
+                        data-depth="1"
+                        id="fs-idp77377632"
+                      >
+                        <ul data-bullet-style="bullet" id="fs-idp63226528">
+                          <li>
+                            <math display="inline">
+                              <semantics>
+                                <mrow>
+                                  <mrow>
+                                    <mtext>formal charge</mtext>
+                                    <mspace width="0.2em"/>
+                                    <mo>=</mo>
+                                    <mtext># valence shell electrons (free atom)</mtext>
+                                    <mspace width="0.1em"/>
+                                    <mo>−</mo>
+                                    <mspace width="0.2em"/>
+                                    <mtext># one pair electrons</mtext>
+                                    <mspace width="0.2em"/>
+                                    <mo>−</mo>
+                                    <mspace width="0.2em"/>
+                                    <mfrac>
+                                      <mn>1</mn>
+                                      <mn>2</mn>
+                                    </mfrac>
+                                    <mspace width="0.3em"/>
+                                    <mtext># bonding electrons</mtext>
+                                  </mrow>
+                                </mrow>
+                                <annotation-xml encoding="MathML-Content">
+                                  <mrow>
+                                    <mtext>formal charge</mtext>
+                                    <mspace width="0.2em"/>
+                                    <mo>=</mo>
+                                    <mtext># valence shell electrons (free atom)</mtext>
+                                    <mspace width="0.1em"/>
+                                    <mo>−</mo>
+                                    <mspace width="0.2em"/>
+                                    <mtext># one pair electrons</mtext>
+                                    <mspace width="0.2em"/>
+                                    <mo>−</mo>
+                                    <mspace width="0.2em"/>
+                                    <mfrac>
+                                      <mn>1</mn>
+                                      <mn>2</mn>
+                                    </mfrac>
+                                    <mspace width="0.3em"/>
+                                    <mtext># bonding electrons</mtext>
+                                  </mrow>
+                                </annotation-xml>
+                              </semantics>
+                            </math>
+                          </li>
+                        </ul>
+                      </section>
+                    </div>
+                  </div>
+                  

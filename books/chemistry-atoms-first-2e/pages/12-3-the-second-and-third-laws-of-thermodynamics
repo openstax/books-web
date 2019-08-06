@@ -1,0 +1,2668 @@
+
+                    <div
+                      data-cnxml-to-html-ver="[redacted for uniqueness]"
+                      data-type="page"
+                      id="84ae472c-bdb6-4a46-a97c-c97304f6f406"
+                    >
+                      <div data-type="abstract" id="[redacted for uniqueness]">
+                        By the end of this section, you will be able to:
+                        <ul>
+                          <li>State and explain the second and third laws of thermodynamics</li>
+                          <li>Calculate entropy changes for phase transitions and chemical reactions under standard conditions</li>
+                        </ul>
+                      </div>
+
+                      <section data-depth="1" id="fs-idm4119136">
+                        <h3 data-type="title">The Second Law of Thermodynamics</h3>
+                        <p id="fs-idp3609760">
+                          In the quest to identify a property that may reliably predict the spontaneity of a process, a promising candidate has been identified: entropy. Processes that involve an increase in entropy
+                          <em data-effect="italics">of the system</em> (Δ
+                          <em data-effect="italics">S</em> &gt; 0) are very often spontaneous; however, examples to the contrary are plentiful. By expanding consideration of entropy changes to include
+                          <em data-effect="italics">the surroundings</em>, we may reach a significant conclusion regarding the relation between this property and spontaneity. In thermodynamic models, the system and surroundings comprise everything, that is, the universe, and so the following is true:
+                        </p>
+                        <div data-type="equation" id="fs-idm7595760">
+                          <math display="block">
+                            <semantics>
+                              <mrow>
+                                <mrow>
+                                  <mtext>Δ</mtext>
+                                  <msub>
+                                    <mi>S</mi>
+                                    <mrow>
+                                      <mtext>univ</mtext>
+                                    </mrow>
+                                  </msub>
+                                  <mo>=</mo>
+                                  <mtext>Δ</mtext>
+                                  <msub>
+                                    <mi>S</mi>
+                                    <mrow>
+                                      <mtext>sys</mtext>
+                                    </mrow>
+                                  </msub>
+                                  <mo>+</mo>
+                                  <mtext>Δ</mtext>
+                                  <msub>
+                                    <mi>S</mi>
+                                    <mrow>
+                                      <mtext>surr</mtext>
+                                    </mrow>
+                                  </msub>
+                                </mrow>
+                              </mrow>
+                              <annotation-xml encoding="MathML-Content">
+                                <mrow>
+                                  <mtext>Δ</mtext>
+                                  <msub>
+                                    <mi>S</mi>
+                                    <mrow>
+                                      <mtext>univ</mtext>
+                                    </mrow>
+                                  </msub>
+                                  <mo>=</mo>
+                                  <mtext>Δ</mtext>
+                                  <msub>
+                                    <mi>S</mi>
+                                    <mrow>
+                                      <mtext>sys</mtext>
+                                    </mrow>
+                                  </msub>
+                                  <mo>+</mo>
+                                  <mtext>Δ</mtext>
+                                  <msub>
+                                    <mi>S</mi>
+                                    <mrow>
+                                      <mtext>surr</mtext>
+                                    </mrow>
+                                  </msub>
+                                </mrow>
+                              </annotation-xml>
+                            </semantics>
+                          </math>
+                        </div>
+                        <p
+                          id="fs-idp115428960"
+                        >To illustrate this relation, consider again the process of heat flow between two objects, one identified as the system and the other as the surroundings. There are three possibilities for such a process:</p>
+                        <ol id="fs-idm90348816" type="1">
+                          <li>
+                            The objects are at different temperatures, and heat flows from the hotter to the cooler object.
+                            <em
+                              data-effect="italics"
+                            >This is always observed to occur spontaneously.</em> Designating the hotter object as the system and invoking the definition of entropy yields the following:
+                            <div data-type="equation" id="fs-idp67516128">
+                              <math display="block">
+                                <semantics>
+                                  <mrow>
+                                    <mrow>
+                                      <mtext>Δ</mtext>
+                                      <msub>
+                                        <mi>S</mi>
+                                        <mrow>
+                                          <mtext>sys</mtext>
+                                        </mrow>
+                                      </msub>
+                                      <mo>=</mo>
+                                      <mspace width="0.2em"/>
+                                      <mfrac>
+                                        <mrow>
+                                          <mtext>−</mtext>
+                                          <msub>
+                                            <mi>q</mi>
+                                            <mrow>
+                                              <mtext>rev</mtext>
+                                            </mrow>
+                                          </msub>
+                                        </mrow>
+                                        <mrow>
+                                          <msub>
+                                            <mi>T</mi>
+                                            <mrow>
+                                              <mtext>sys</mtext>
+                                            </mrow>
+                                          </msub>
+                                        </mrow>
+                                      </mfrac>
+                                      <mspace width="2em"/>
+                                      <mtext>and</mtext>
+                                      <mspace width="2em"/>
+                                      <mtext>Δ</mtext>
+                                      <msub>
+                                        <mi>S</mi>
+                                        <mrow>
+                                          <mtext>surr</mtext>
+                                        </mrow>
+                                      </msub>
+                                      <mo>=</mo>
+                                      <mspace width="0.2em"/>
+                                      <mfrac>
+                                        <mrow>
+                                          <msub>
+                                            <mi>q</mi>
+                                            <mrow>
+                                              <mtext>rev</mtext>
+                                            </mrow>
+                                          </msub>
+                                        </mrow>
+                                        <mrow>
+                                          <msub>
+                                            <mi>T</mi>
+                                            <mrow>
+                                              <mtext>surr</mtext>
+                                            </mrow>
+                                          </msub>
+                                        </mrow>
+                                      </mfrac>
+                                    </mrow>
+                                  </mrow>
+                                  <annotation-xml encoding="MathML-Content">
+                                    <mrow>
+                                      <mtext>Δ</mtext>
+                                      <msub>
+                                        <mi>S</mi>
+                                        <mrow>
+                                          <mtext>sys</mtext>
+                                        </mrow>
+                                      </msub>
+                                      <mo>=</mo>
+                                      <mspace width="0.2em"/>
+                                      <mfrac>
+                                        <mrow>
+                                          <mtext>−</mtext>
+                                          <msub>
+                                            <mi>q</mi>
+                                            <mrow>
+                                              <mtext>rev</mtext>
+                                            </mrow>
+                                          </msub>
+                                        </mrow>
+                                        <mrow>
+                                          <msub>
+                                            <mi>T</mi>
+                                            <mrow>
+                                              <mtext>sys</mtext>
+                                            </mrow>
+                                          </msub>
+                                        </mrow>
+                                      </mfrac>
+                                      <mspace width="2em"/>
+                                      <mtext>and</mtext>
+                                      <mspace width="2em"/>
+                                      <mtext>Δ</mtext>
+                                      <msub>
+                                        <mi>S</mi>
+                                        <mrow>
+                                          <mtext>surr</mtext>
+                                        </mrow>
+                                      </msub>
+                                      <mo>=</mo>
+                                      <mspace width="0.2em"/>
+                                      <mfrac>
+                                        <mrow>
+                                          <msub>
+                                            <mi>q</mi>
+                                            <mrow>
+                                              <mtext>rev</mtext>
+                                            </mrow>
+                                          </msub>
+                                        </mrow>
+                                        <mrow>
+                                          <msub>
+                                            <mi>T</mi>
+                                            <mrow>
+                                              <mtext>surr</mtext>
+                                            </mrow>
+                                          </msub>
+                                        </mrow>
+                                      </mfrac>
+                                    </mrow>
+                                  </annotation-xml>
+                                </semantics>
+                              </math>
+                            </div>The magnitudes of −
+                            <em data-effect="italics">q</em>
+                            <sub>rev</sub> and
+                            <em data-effect="italics">q</em>
+                            <sub>rev</sub> are equal, their opposite arithmetic signs denoting loss of heat by the system and gain of heat by the surroundings. Since
+                            <em data-effect="italics">T</em>
+                            <sub>sys</sub> &gt;
+                            <em data-effect="italics">T</em>
+                            <sub>surr</sub> in this scenario, the entropy
+                            <em data-effect="italics">decrease</em> of the system will be less than the entropy
+                            <em data-effect="italics">increase</em> of the surroundings, and so
+                            <em
+                              data-effect="italics"
+                            >the entropy of the universe will increase</em>:
+                            <div data-type="equation" id="fs-idm241116384">
+                              <math display="block">
+                                <semantics>
+                                  <mrow>
+                                    <mtable columnalign="left">
+                                      <mtr>
+                                        <mtd>
+                                          <mrow>
+                                            <mo>|</mo>
+                                            <mrow>
+                                              <mtext>Δ</mtext>
+                                              <msub>
+                                                <mi>S</mi>
+                                                <mrow>
+                                                  <mtext>sys</mtext>
+                                                </mrow>
+                                              </msub>
+                                            </mrow>
+                                            <mo>|</mo>
+                                          </mrow>
+                                          <mo>&lt;</mo>
+                                          <mrow>
+                                            <mo>|</mo>
+                                            <mrow>
+                                              <mtext>Δ</mtext>
+                                              <msub>
+                                                <mi>S</mi>
+                                                <mrow>
+                                                  <mtext>surr</mtext>
+                                                </mrow>
+                                              </msub>
+                                            </mrow>
+                                            <mo>|</mo>
+                                          </mrow>
+                                        </mtd>
+                                      </mtr>
+                                      <mtr>
+                                        <mtd>
+                                          <mtext>Δ</mtext>
+                                          <msub>
+                                            <mi>S</mi>
+                                            <mrow>
+                                              <mtext>univ</mtext>
+                                            </mrow>
+                                          </msub>
+                                          <mo>=</mo>
+                                          <mtext>Δ</mtext>
+                                          <msub>
+                                            <mi>S</mi>
+                                            <mrow>
+                                              <mtext>sys</mtext>
+                                            </mrow>
+                                          </msub>
+                                          <mo>+</mo>
+                                          <mtext>Δ</mtext>
+                                          <msub>
+                                            <mi>S</mi>
+                                            <mrow>
+                                              <mtext>surr</mtext>
+                                            </mrow>
+                                          </msub>
+                                          <mo>&gt;</mo>
+                                          <mn>0</mn>
+                                        </mtd>
+                                      </mtr>
+                                    </mtable>
+                                  </mrow>
+                                  <annotation-xml encoding="MathML-Content">
+                                    <mtable columnalign="left">
+                                      <mtr>
+                                        <mtd>
+                                          <mrow>
+                                            <mo>|</mo>
+                                            <mrow>
+                                              <mtext>Δ</mtext>
+                                              <msub>
+                                                <mi>S</mi>
+                                                <mrow>
+                                                  <mtext>sys</mtext>
+                                                </mrow>
+                                              </msub>
+                                            </mrow>
+                                            <mo>|</mo>
+                                          </mrow>
+                                          <mo>&lt;</mo>
+                                          <mrow>
+                                            <mo>|</mo>
+                                            <mrow>
+                                              <mtext>Δ</mtext>
+                                              <msub>
+                                                <mi>S</mi>
+                                                <mrow>
+                                                  <mtext>surr</mtext>
+                                                </mrow>
+                                              </msub>
+                                            </mrow>
+                                            <mo>|</mo>
+                                          </mrow>
+                                        </mtd>
+                                      </mtr>
+                                      <mtr>
+                                        <mtd>
+                                          <mtext>Δ</mtext>
+                                          <msub>
+                                            <mi>S</mi>
+                                            <mrow>
+                                              <mtext>univ</mtext>
+                                            </mrow>
+                                          </msub>
+                                          <mo>=</mo>
+                                          <mtext>Δ</mtext>
+                                          <msub>
+                                            <mi>S</mi>
+                                            <mrow>
+                                              <mtext>sys</mtext>
+                                            </mrow>
+                                          </msub>
+                                          <mo>+</mo>
+                                          <mtext>Δ</mtext>
+                                          <msub>
+                                            <mi>S</mi>
+                                            <mrow>
+                                              <mtext>surr</mtext>
+                                            </mrow>
+                                          </msub>
+                                          <mo>&gt;</mo>
+                                          <mn>0</mn>
+                                        </mtd>
+                                      </mtr>
+                                    </mtable>
+                                  </annotation-xml>
+                                </semantics>
+                              </math>
+                            </div>
+                          </li>
+                          <li>
+                            The objects are at different temperatures, and heat flows from the cooler to the hotter object.
+                            <em
+                              data-effect="italics"
+                            >This is never observed to occur spontaneously.</em> Again designating the hotter object as the system and invoking the definition of entropy yields the following:
+                            <div data-type="equation" id="fs-idp14273600">
+                              <math display="block">
+                                <semantics>
+                                  <mrow>
+                                    <mrow>
+                                      <mtext>Δ</mtext>
+                                      <msub>
+                                        <mi>S</mi>
+                                        <mrow>
+                                          <mtext>sys</mtext>
+                                        </mrow>
+                                      </msub>
+                                      <mo>=</mo>
+                                      <mspace width="0.2em"/>
+                                      <mfrac>
+                                        <mrow>
+                                          <msub>
+                                            <mi>q</mi>
+                                            <mrow>
+                                              <mtext>rev</mtext>
+                                            </mrow>
+                                          </msub>
+                                        </mrow>
+                                        <mrow>
+                                          <msub>
+                                            <mi>T</mi>
+                                            <mrow>
+                                              <mtext>sys</mtext>
+                                            </mrow>
+                                          </msub>
+                                        </mrow>
+                                      </mfrac>
+                                      <mspace width="2em"/>
+                                      <mtext>and</mtext>
+                                      <mspace width="2em"/>
+                                      <mtext>Δ</mtext>
+                                      <msub>
+                                        <mi>S</mi>
+                                        <mrow>
+                                          <mtext>surr</mtext>
+                                        </mrow>
+                                      </msub>
+                                      <mo>=</mo>
+                                      <mspace width="0.2em"/>
+                                      <mfrac>
+                                        <mrow>
+                                          <mtext>−</mtext>
+                                          <msub>
+                                            <mi>q</mi>
+                                            <mrow>
+                                              <mtext>rev</mtext>
+                                            </mrow>
+                                          </msub>
+                                        </mrow>
+                                        <mrow>
+                                          <msub>
+                                            <mi>T</mi>
+                                            <mrow>
+                                              <mtext>surr</mtext>
+                                            </mrow>
+                                          </msub>
+                                        </mrow>
+                                      </mfrac>
+                                    </mrow>
+                                  </mrow>
+                                  <annotation-xml encoding="MathML-Content">
+                                    <mrow>
+                                      <mtext>Δ</mtext>
+                                      <msub>
+                                        <mi>S</mi>
+                                        <mrow>
+                                          <mtext>sys</mtext>
+                                        </mrow>
+                                      </msub>
+                                      <mo>=</mo>
+                                      <mspace width="0.2em"/>
+                                      <mfrac>
+                                        <mrow>
+                                          <msub>
+                                            <mi>q</mi>
+                                            <mrow>
+                                              <mtext>rev</mtext>
+                                            </mrow>
+                                          </msub>
+                                        </mrow>
+                                        <mrow>
+                                          <msub>
+                                            <mi>T</mi>
+                                            <mrow>
+                                              <mtext>sys</mtext>
+                                            </mrow>
+                                          </msub>
+                                        </mrow>
+                                      </mfrac>
+                                      <mspace width="2em"/>
+                                      <mtext>and</mtext>
+                                      <mspace width="2em"/>
+                                      <mtext>Δ</mtext>
+                                      <msub>
+                                        <mi>S</mi>
+                                        <mrow>
+                                          <mtext>surr</mtext>
+                                        </mrow>
+                                      </msub>
+                                      <mo>=</mo>
+                                      <mspace width="0.2em"/>
+                                      <mfrac>
+                                        <mrow>
+                                          <mtext>−</mtext>
+                                          <msub>
+                                            <mi>q</mi>
+                                            <mrow>
+                                              <mtext>rev</mtext>
+                                            </mrow>
+                                          </msub>
+                                        </mrow>
+                                        <mrow>
+                                          <msub>
+                                            <mi>T</mi>
+                                            <mrow>
+                                              <mtext>surr</mtext>
+                                            </mrow>
+                                          </msub>
+                                        </mrow>
+                                      </mfrac>
+                                    </mrow>
+                                  </annotation-xml>
+                                </semantics>
+                              </math>
+                            </div>The arithmetic signs of
+                            <em data-effect="italics">q</em>
+                            <sub>rev</sub> denote the gain of heat by the system and the loss of heat by the surroundings. The magnitude of the entropy change for the surroundings will again be greater than that for the system, but in this case, the signs of the heat changes (that is,
+                            <em
+                              data-effect="italics"
+                            >the direction of the heat flow</em>) will yield a negative value for Δ
+                            <em data-effect="italics">S</em>
+                            <sub>univ</sub>.
+                            <em
+                              data-effect="italics"
+                            >This process involves a decrease in the entropy of the universe.</em>
+                          </li>
+                          <li>
+                            The objects are at essentially the same temperature,
+                            <em data-effect="italics">T</em>
+                            <sub>sys</sub> ≈
+                            <em data-effect="italics">T</em>
+                            <sub>surr</sub>, and so the magnitudes of the entropy changes are essentially the same for both the system and the surroundings. In this case, the entropy change of the universe is zero, and the system is
+                            <em data-effect="italics">at equilibrium</em>.
+                            <div data-type="equation" id="fs-idm250691808">
+                              <math display="block">
+                                <semantics>
+                                  <mrow>
+                                    <mtable columnalign="left">
+                                      <mtr>
+                                        <mtd>
+                                          <mrow>
+                                            <mo>|</mo>
+                                            <mrow>
+                                              <mtext>Δ</mtext>
+                                              <msub>
+                                                <mi>S</mi>
+                                                <mrow>
+                                                  <mtext>sys</mtext>
+                                                </mrow>
+                                              </msub>
+                                            </mrow>
+                                            <mo>|</mo>
+                                          </mrow>
+                                          <mo>≈</mo>
+                                          <mrow>
+                                            <mo>|</mo>
+                                            <mrow>
+                                              <mtext>Δ</mtext>
+                                              <msub>
+                                                <mi>S</mi>
+                                                <mrow>
+                                                  <mtext>surr</mtext>
+                                                </mrow>
+                                              </msub>
+                                            </mrow>
+                                            <mo>|</mo>
+                                          </mrow>
+                                        </mtd>
+                                      </mtr>
+                                      <mtr>
+                                        <mtd>
+                                          <mtext>Δ</mtext>
+                                          <msub>
+                                            <mi>S</mi>
+                                            <mrow>
+                                              <mtext>univ</mtext>
+                                            </mrow>
+                                          </msub>
+                                          <mo>=</mo>
+                                          <mtext>Δ</mtext>
+                                          <msub>
+                                            <mi>S</mi>
+                                            <mrow>
+                                              <mtext>sys</mtext>
+                                            </mrow>
+                                          </msub>
+                                          <mo>+</mo>
+                                          <mtext>Δ</mtext>
+                                          <msub>
+                                            <mi>S</mi>
+                                            <mrow>
+                                              <mtext>surr</mtext>
+                                            </mrow>
+                                          </msub>
+                                          <mo>=</mo>
+                                          <mn>0</mn>
+                                        </mtd>
+                                      </mtr>
+                                    </mtable>
+                                  </mrow>
+                                  <annotation-xml encoding="MathML-Content">
+                                    <mtable columnalign="left">
+                                      <mtr>
+                                        <mtd>
+                                          <mrow>
+                                            <mo>|</mo>
+                                            <mrow>
+                                              <mtext>Δ</mtext>
+                                              <msub>
+                                                <mi>S</mi>
+                                                <mrow>
+                                                  <mtext>sys</mtext>
+                                                </mrow>
+                                              </msub>
+                                            </mrow>
+                                            <mo>|</mo>
+                                          </mrow>
+                                          <mo>≈</mo>
+                                          <mrow>
+                                            <mo>|</mo>
+                                            <mrow>
+                                              <mtext>Δ</mtext>
+                                              <msub>
+                                                <mi>S</mi>
+                                                <mrow>
+                                                  <mtext>surr</mtext>
+                                                </mrow>
+                                              </msub>
+                                            </mrow>
+                                            <mo>|</mo>
+                                          </mrow>
+                                        </mtd>
+                                      </mtr>
+                                      <mtr>
+                                        <mtd>
+                                          <mtext>Δ</mtext>
+                                          <msub>
+                                            <mi>S</mi>
+                                            <mrow>
+                                              <mtext>univ</mtext>
+                                            </mrow>
+                                          </msub>
+                                          <mo>=</mo>
+                                          <mtext>Δ</mtext>
+                                          <msub>
+                                            <mi>S</mi>
+                                            <mrow>
+                                              <mtext>sys</mtext>
+                                            </mrow>
+                                          </msub>
+                                          <mo>+</mo>
+                                          <mtext>Δ</mtext>
+                                          <msub>
+                                            <mi>S</mi>
+                                            <mrow>
+                                              <mtext>surr</mtext>
+                                            </mrow>
+                                          </msub>
+                                          <mo>=</mo>
+                                          <mn>0</mn>
+                                        </mtd>
+                                      </mtr>
+                                    </mtable>
+                                  </annotation-xml>
+                                </semantics>
+                              </math>
+                            </div>
+                          </li>
+                        </ol>
+                        <p id="fs-idp26583536">
+                          These results lead to a profound statement regarding the relation between entropy and spontaneity known as the
+                          <span
+                            data-type="term"
+                            group-by="s"
+                            id="[redacted for uniqueness]"
+                          >second law of thermodynamics</span>:
+                          <em
+                            data-effect="italics"
+                          >all spontaneous changes cause an increase in the entropy of the universe.</em> A summary of these three relations is provided in
+                          <a
+                            class="autogenerated-content"
+                            href="#fs-idp41455824"
+                          >Table 12.1</a>.
+                        </p>
+                        <div class="os-table" id="fs-idp41455824">
+                          <table
+                            class="top-titled"
+                            data-id="fs-idp41455824"
+                            summary="Table 12.1  "
+                          >
+                            <thead>
+                              <tr>
+                                <th
+                                  colspan="2"
+                                  data-align="center"
+                                >The Second Law of Thermodynamics</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr valign="top">
+                                <td>
+                                  Δ
+                                  <em data-effect="italics">S</em>
+                                  <sub>univ</sub> &gt; 0
+                                </td>
+                                <td>spontaneous</td>
+                              </tr>
+                              <tr valign="top">
+                                <td>
+                                  Δ
+                                  <em data-effect="italics">S</em>
+                                  <sub>univ</sub> &lt; 0
+                                </td>
+                                <td>nonspontaneous (spontaneous in opposite direction)</td>
+                              </tr>
+                              <tr valign="top">
+                                <td>
+                                  Δ
+                                  <em data-effect="italics">S</em>
+                                  <sub>univ</sub> = 0
+                                </td>
+                                <td>at equilibrium</td>
+                              </tr>
+                            </tbody>
+                          </table>
+                          <div class="os-caption-container">
+                            <span class="os-title-label">Table</span>
+                            <span class="os-number">12.1</span>
+                            <span class="os-divider"></span>
+                            <span class="os-divider"></span>
+                          </div>
+                        </div>
+                        <p id="fs-idp172517200">
+                          For many realistic applications, the surroundings are vast in comparison to the system. In such cases, the heat gained or lost by the surroundings as a result of some process represents a very small, nearly infinitesimal, fraction of its total thermal energy. For example, combustion of a fuel in air involves transfer of heat from a system (the fuel and oxygen molecules undergoing reaction) to surroundings that are infinitely more massive (the earth’s atmosphere). As a result,
+                          <em data-effect="italics">q</em>
+                          <sub>surr</sub> is a good approximation of
+                          <em data-effect="italics">q</em>
+                          <sub>rev</sub>, and the second law may be stated as the following:
+                        </p>
+                        <div data-type="equation" id="fs-idp179481536">
+                          <math display="block">
+                            <semantics>
+                              <mrow>
+                                <mrow>
+                                  <mtext>Δ</mtext>
+                                  <msub>
+                                    <mi>S</mi>
+                                    <mrow>
+                                      <mtext>univ</mtext>
+                                    </mrow>
+                                  </msub>
+                                  <mo>=</mo>
+                                  <mtext>Δ</mtext>
+                                  <msub>
+                                    <mi>S</mi>
+                                    <mrow>
+                                      <mtext>sys</mtext>
+                                    </mrow>
+                                  </msub>
+                                  <mo>+</mo>
+                                  <mtext>Δ</mtext>
+                                  <msub>
+                                    <mi>S</mi>
+                                    <mrow>
+                                      <mtext>surr</mtext>
+                                    </mrow>
+                                  </msub>
+                                  <mo>=</mo>
+                                  <mtext>Δ</mtext>
+                                  <msub>
+                                    <mi>S</mi>
+                                    <mrow>
+                                      <mtext>sys</mtext>
+                                    </mrow>
+                                  </msub>
+                                  <mo>+</mo>
+                                  <mfrac>
+                                    <mrow>
+                                      <msub>
+                                        <mi>q</mi>
+                                        <mrow>
+                                          <mtext>surr</mtext>
+                                        </mrow>
+                                      </msub>
+                                    </mrow>
+                                    <mi>T</mi>
+                                  </mfrac>
+                                </mrow>
+                              </mrow>
+                              <annotation-xml encoding="MathML-Content">
+                                <mrow>
+                                  <mtext>Δ</mtext>
+                                  <msub>
+                                    <mi>S</mi>
+                                    <mrow>
+                                      <mtext>univ</mtext>
+                                    </mrow>
+                                  </msub>
+                                  <mo>=</mo>
+                                  <mtext>Δ</mtext>
+                                  <msub>
+                                    <mi>S</mi>
+                                    <mrow>
+                                      <mtext>sys</mtext>
+                                    </mrow>
+                                  </msub>
+                                  <mo>+</mo>
+                                  <mtext>Δ</mtext>
+                                  <msub>
+                                    <mi>S</mi>
+                                    <mrow>
+                                      <mtext>surr</mtext>
+                                    </mrow>
+                                  </msub>
+                                  <mo>=</mo>
+                                  <mtext>Δ</mtext>
+                                  <msub>
+                                    <mi>S</mi>
+                                    <mrow>
+                                      <mtext>sys</mtext>
+                                    </mrow>
+                                  </msub>
+                                  <mo>+</mo>
+                                  <mfrac>
+                                    <mrow>
+                                      <msub>
+                                        <mi>q</mi>
+                                        <mrow>
+                                          <mtext>surr</mtext>
+                                        </mrow>
+                                      </msub>
+                                    </mrow>
+                                    <mi>T</mi>
+                                  </mfrac>
+                                </mrow>
+                              </annotation-xml>
+                            </semantics>
+                          </math>
+                        </div>
+                        <p id="fs-idp5341920">
+                          We may use this equation to predict the spontaneity of a process as illustrated in
+                          <a
+                            class="autogenerated-content"
+                            href="#fs-idp33042160"
+                          >Example 12.4</a>.
+                        </p>
+                        <div data-type="example" id="fs-idp33042160">
+                          <h3 class="os-title">
+                            <span class="os-title-label">Example</span>
+                            <span class="os-number">12.4</span>
+                            <span class="os-divider"></span>
+                          </h3>
+                          <p id="fs-idp271291696">
+                            <span data-type="title">Will Ice Spontaneously Melt?</span>
+                            The entropy change for the process
+                          </p>
+                          <div data-type="equation" id="fs-idp179791152">
+                            <math display="block">
+                              <semantics>
+                                <mrow>
+                                  <mrow>
+                                    <msub>
+                                      <mtext>H</mtext>
+                                      <mn>2</mn>
+                                    </msub>
+                                    <mtext>O</mtext>
+                                    <mo stretchy="false">(</mo>
+                                    <mi>s</mi>
+                                    <mo stretchy="false">)</mo>
+                                    <mspace width="0.2em"/>
+                                    <mo stretchy="false">⟶</mo>
+                                    <mspace width="0.2em"/>
+                                    <msub>
+                                      <mtext>H</mtext>
+                                      <mn>2</mn>
+                                    </msub>
+                                    <mtext>O</mtext>
+                                    <mo stretchy="false">(</mo>
+                                    <mi>l</mi>
+                                    <mo stretchy="false">)</mo>
+                                  </mrow>
+                                </mrow>
+                                <annotation-xml encoding="MathML-Content">
+                                  <mrow>
+                                    <msub>
+                                      <mtext>H</mtext>
+                                      <mn>2</mn>
+                                    </msub>
+                                    <mtext>O</mtext>
+                                    <mo stretchy="false">(</mo>
+                                    <mi>s</mi>
+                                    <mo stretchy="false">)</mo>
+                                    <mspace width="0.2em"/>
+                                    <mo stretchy="false">⟶</mo>
+                                    <mspace width="0.2em"/>
+                                    <msub>
+                                      <mtext>H</mtext>
+                                      <mn>2</mn>
+                                    </msub>
+                                    <mtext>O</mtext>
+                                    <mo stretchy="false">(</mo>
+                                    <mi>l</mi>
+                                    <mo stretchy="false">)</mo>
+                                  </mrow>
+                                </annotation-xml>
+                              </semantics>
+                            </math>
+                          </div>
+                          <p
+                            id="fs-idp175389120"
+                          >is 22.1 J/K and requires that the surroundings transfer 6.00 kJ of heat to the system. Is the process spontaneous at −10.00 °C? Is it spontaneous at +10.00 °C?</p>
+                          <p id="fs-idp54282352">
+                            <span data-type="title">Solution</span>
+                            We can assess the spontaneity of the process by calculating the entropy change of the universe. If Δ
+                            <em data-effect="italics">S</em>
+                            <sub>univ</sub> is positive, then the process is spontaneous. At both temperatures, Δ
+                            <em data-effect="italics">S</em>
+                            <sub>sys</sub> = 22.1 J/K and
+                            <em data-effect="italics">q</em>
+                            <sub>surr</sub> = −6.00 kJ.
+                          </p>
+                          <p
+                            id="fs-idp9805936"
+                          >At −10.00 °C (263.15 K), the following is true:</p>
+                          <div data-type="equation" id="fs-idp170559696">
+                            <math display="block">
+                              <semantics>
+                                <mrow>
+                                  <mtable>
+                                    <mtr>
+                                      <mtd columnalign="right">
+                                        <mtext>Δ</mtext>
+                                        <msub>
+                                          <mi>S</mi>
+                                          <mrow>
+                                            <mtext>univ</mtext>
+                                          </mrow>
+                                        </msub>
+                                      </mtd>
+                                      <mtd columnalign="left">
+                                        <mo>=</mo>
+                                        <mtext>Δ</mtext>
+                                        <msub>
+                                          <mi>S</mi>
+                                          <mrow>
+                                            <mtext>sys</mtext>
+                                          </mrow>
+                                        </msub>
+                                        <mo>+</mo>
+                                        <mtext>Δ</mtext>
+                                        <msub>
+                                          <mi>S</mi>
+                                          <mrow>
+                                            <mtext>surr</mtext>
+                                          </mrow>
+                                        </msub>
+                                        <mo>=</mo>
+                                        <mtext>Δ</mtext>
+                                        <msub>
+                                          <mi>S</mi>
+                                          <mrow>
+                                            <mtext>sys</mtext>
+                                          </mrow>
+                                        </msub>
+                                        <mo>+</mo>
+                                        <mfrac>
+                                          <mrow>
+                                            <msub>
+                                              <mi>q</mi>
+                                              <mrow>
+                                                <mtext>surr</mtext>
+                                              </mrow>
+                                            </msub>
+                                          </mrow>
+                                          <mi>T</mi>
+                                        </mfrac>
+                                      </mtd>
+                                    </mtr>
+                                    <mtr>
+                                      <mtd/>
+                                      <mtd columnalign="left">
+                                        <mo>=</mo>
+                                        <mtext>22.1 J/K</mtext>
+                                        <mo>+</mo>
+                                        <mfrac>
+                                          <mrow>
+                                            <mn>−6.00</mn>
+                                            <mspace width="0.2em"/>
+                                            <mo>×</mo>
+                                            <mspace width="0.2em"/>
+                                            <msup>
+                                              <mrow>
+                                                <mn>10</mn>
+                                              </mrow>
+                                              <mn>3</mn>
+                                            </msup>
+                                            <mspace width="0.2em"/>
+                                            <mtext>J</mtext>
+                                          </mrow>
+                                          <mrow>
+                                            <mtext>263.15 K</mtext>
+                                          </mrow>
+                                        </mfrac>
+                                        <mspace width="0.2em"/>
+                                        <mo>=</mo>
+                                        <mn>−0.7</mn>
+                                        <mspace width="0.2em"/>
+                                        <mtext>J/K</mtext>
+                                      </mtd>
+                                    </mtr>
+                                  </mtable>
+                                </mrow>
+                                <annotation-xml encoding="MathML-Content">
+                                  <mtable>
+                                    <mtr>
+                                      <mtd columnalign="right">
+                                        <mtext>Δ</mtext>
+                                        <msub>
+                                          <mi>S</mi>
+                                          <mrow>
+                                            <mtext>univ</mtext>
+                                          </mrow>
+                                        </msub>
+                                      </mtd>
+                                      <mtd columnalign="left">
+                                        <mo>=</mo>
+                                        <mtext>Δ</mtext>
+                                        <msub>
+                                          <mi>S</mi>
+                                          <mrow>
+                                            <mtext>sys</mtext>
+                                          </mrow>
+                                        </msub>
+                                        <mo>+</mo>
+                                        <mtext>Δ</mtext>
+                                        <msub>
+                                          <mi>S</mi>
+                                          <mrow>
+                                            <mtext>surr</mtext>
+                                          </mrow>
+                                        </msub>
+                                        <mo>=</mo>
+                                        <mtext>Δ</mtext>
+                                        <msub>
+                                          <mi>S</mi>
+                                          <mrow>
+                                            <mtext>sys</mtext>
+                                          </mrow>
+                                        </msub>
+                                        <mo>+</mo>
+                                        <mfrac>
+                                          <mrow>
+                                            <msub>
+                                              <mi>q</mi>
+                                              <mrow>
+                                                <mtext>surr</mtext>
+                                              </mrow>
+                                            </msub>
+                                          </mrow>
+                                          <mi>T</mi>
+                                        </mfrac>
+                                      </mtd>
+                                    </mtr>
+                                    <mtr>
+                                      <mtd/>
+                                      <mtd columnalign="left">
+                                        <mo>=</mo>
+                                        <mtext>22.1 J/K</mtext>
+                                        <mo>+</mo>
+                                        <mfrac>
+                                          <mrow>
+                                            <mn>−6.00</mn>
+                                            <mspace width="0.2em"/>
+                                            <mo>×</mo>
+                                            <mspace width="0.2em"/>
+                                            <msup>
+                                              <mrow>
+                                                <mn>10</mn>
+                                              </mrow>
+                                              <mn>3</mn>
+                                            </msup>
+                                            <mspace width="0.2em"/>
+                                            <mtext>J</mtext>
+                                          </mrow>
+                                          <mrow>
+                                            <mtext>263.15 K</mtext>
+                                          </mrow>
+                                        </mfrac>
+                                        <mspace width="0.2em"/>
+                                        <mo>=</mo>
+                                        <mn>−0.7</mn>
+                                        <mspace width="0.2em"/>
+                                        <mtext>J/K</mtext>
+                                      </mtd>
+                                    </mtr>
+                                  </mtable>
+                                </annotation-xml>
+                              </semantics>
+                            </math>
+                          </div>
+                          <p id="fs-idp43894736">
+                            <em data-effect="italics">S</em>
+                            <sub>univ</sub> &lt; 0, so melting is nonspontaneous (
+                            <em data-effect="italics">not</em> spontaneous) at −10.0 °C.
+                          </p>
+                          <p
+                            id="fs-idp156182416"
+                          >At 10.00 °C (283.15 K), the following is true:</p>
+                          <div data-type="equation" id="fs-idm42720272">
+                            <math display="block">
+                              <semantics>
+                                <mrow>
+                                  <mtable>
+                                    <mtr/>
+                                    <mtr>
+                                      <mtd>
+                                        <mtext>Δ</mtext>
+                                        <msub>
+                                          <mi>S</mi>
+                                          <mrow>
+                                            <mtext>univ</mtext>
+                                          </mrow>
+                                        </msub>
+                                        <mo>=</mo>
+                                        <mtext>Δ</mtext>
+                                        <msub>
+                                          <mi>S</mi>
+                                          <mrow>
+                                            <mtext>sys</mtext>
+                                          </mrow>
+                                        </msub>
+                                        <mo>+</mo>
+                                        <mfrac>
+                                          <mrow>
+                                            <msub>
+                                              <mi>q</mi>
+                                              <mrow>
+                                                <mtext>surr</mtext>
+                                              </mrow>
+                                            </msub>
+                                          </mrow>
+                                          <mi>T</mi>
+                                        </mfrac>
+                                      </mtd>
+                                    </mtr>
+                                    <mtr/>
+                                    <mtr>
+                                      <mtd>
+                                        <mo>=</mo>
+                                        <mn>22.1</mn>
+                                        <mspace width="0.2em"/>
+                                        <mtext>J/K</mtext>
+                                        <mo>+</mo>
+                                        <mfrac>
+                                          <mrow>
+                                            <mn>−6.00</mn>
+                                            <mspace width="0.2em"/>
+                                            <mo>×</mo>
+                                            <mspace width="0.2em"/>
+                                            <msup>
+                                              <mrow>
+                                                <mn>10</mn>
+                                              </mrow>
+                                              <mn>3</mn>
+                                            </msup>
+                                            <mspace width="0.2em"/>
+                                            <mtext>J</mtext>
+                                          </mrow>
+                                          <mrow>
+                                            <mtext>283.15 K</mtext>
+                                          </mrow>
+                                        </mfrac>
+                                        <mspace width="0.2em"/>
+                                        <mo>=</mo>
+                                        <mtext>+0.9 J/K</mtext>
+                                      </mtd>
+                                    </mtr>
+                                  </mtable>
+                                </mrow>
+                                <annotation-xml encoding="MathML-Content">
+                                  <mtable>
+                                    <mtr/>
+                                    <mtr>
+                                      <mtd>
+                                        <mtext>Δ</mtext>
+                                        <msub>
+                                          <mi>S</mi>
+                                          <mrow>
+                                            <mtext>univ</mtext>
+                                          </mrow>
+                                        </msub>
+                                        <mo>=</mo>
+                                        <mtext>Δ</mtext>
+                                        <msub>
+                                          <mi>S</mi>
+                                          <mrow>
+                                            <mtext>sys</mtext>
+                                          </mrow>
+                                        </msub>
+                                        <mo>+</mo>
+                                        <mfrac>
+                                          <mrow>
+                                            <msub>
+                                              <mi>q</mi>
+                                              <mrow>
+                                                <mtext>surr</mtext>
+                                              </mrow>
+                                            </msub>
+                                          </mrow>
+                                          <mi>T</mi>
+                                        </mfrac>
+                                      </mtd>
+                                    </mtr>
+                                    <mtr/>
+                                    <mtr>
+                                      <mtd>
+                                        <mo>=</mo>
+                                        <mn>22.1</mn>
+                                        <mspace width="0.2em"/>
+                                        <mtext>J/K</mtext>
+                                        <mo>+</mo>
+                                        <mfrac>
+                                          <mrow>
+                                            <mn>−6.00</mn>
+                                            <mspace width="0.2em"/>
+                                            <mo>×</mo>
+                                            <mspace width="0.2em"/>
+                                            <msup>
+                                              <mrow>
+                                                <mn>10</mn>
+                                              </mrow>
+                                              <mn>3</mn>
+                                            </msup>
+                                            <mspace width="0.2em"/>
+                                            <mtext>J</mtext>
+                                          </mrow>
+                                          <mrow>
+                                            <mtext>283.15 K</mtext>
+                                          </mrow>
+                                        </mfrac>
+                                        <mspace width="0.2em"/>
+                                        <mo>=</mo>
+                                        <mtext>+0.9 J/K</mtext>
+                                      </mtd>
+                                    </mtr>
+                                  </mtable>
+                                </annotation-xml>
+                              </semantics>
+                            </math>
+                          </div>
+                          <p id="fs-idp34700864">
+                            <em data-effect="italics">S</em>
+                            <sub>univ</sub> &gt; 0, so melting
+                            <em data-effect="italics">is</em> spontaneous at 10.00 °C.
+                          </p>
+                          <p id="fs-idp54808912">
+                            <span data-type="title">Check Your Learning</span>
+                            Using this information, determine if liquid water will spontaneously freeze at the same temperatures. What can you say about the values of
+                            <em data-effect="italics">S</em>
+                            <sub>univ</sub>?
+                          </p>
+                          <div data-type="note" id="fs-idp106254880">
+                            <h3 class="os-title" data-type="title">
+                              <span
+                                class="os-title-label"
+                                data-type
+                                id="[redacted for uniqueness]"
+                              >Answer:</span>
+                            </h3>
+                            <div class="os-note-body">
+                              <p id="fs-idp105321744">
+                                Entropy is a state function, so Δ
+                                <em data-effect="italics">S</em>
+                                <sub>freezing</sub> = −Δ
+                                <em data-effect="italics">S</em>
+                                <sub>melting</sub> = −22.1 J/K and
+                                <em data-effect="italics">q</em>
+                                <sub>surr</sub> = +6.00 kJ. At −10.00 °C spontaneous, +0.7 J/K; at +10.00 °C nonspontaneous, −0.9 J/K.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </section>
+
+                      <section data-depth="1" id="fs-idp45100816">
+                        <h3 data-type="title">The Third Law of Thermodynamics</h3>
+                        <p id="fs-idm3499504">
+                          The previous section described the various contributions of matter and energy dispersal that contribute to the entropy of a system. With these contributions in mind, consider the entropy of a pure, perfectly crystalline solid possessing no kinetic energy (that is, at a temperature of absolute zero, 0 K). This system may be described by a single microstate, as its purity, perfect crystallinity and complete lack of motion means there is but one possible location for each identical atom or molecule comprising the crystal (
+                          <em data-effect="italics">W</em> = 1). According to the Boltzmann equation, the entropy of this system is zero.
+                        </p>
+                        <div data-type="equation" id="fs-idp179521936">
+                          <math display="block">
+                            <semantics>
+                              <mrow>
+                                <mrow>
+                                  <mi>S</mi>
+                                  <mo>=</mo>
+                                  <mi>k</mi>
+                                  <mspace width="0.2em"/>
+                                  <mtext>ln</mtext>
+                                  <mspace width="0.2em"/>
+                                  <mi>W</mi>
+                                  <mo>=</mo>
+                                  <mi>k</mi>
+                                  <mspace width="0.2em"/>
+                                  <mtext>ln</mtext>
+                                  <mspace width="0.1em"/>
+                                  <mo stretchy="false">(</mo>
+                                  <mn>1</mn>
+                                  <mo stretchy="false">)</mo>
+                                  <mo>=</mo>
+                                  <mn>0</mn>
+                                </mrow>
+                              </mrow>
+                              <annotation-xml encoding="MathML-Content">
+                                <mrow>
+                                  <mi>S</mi>
+                                  <mo>=</mo>
+                                  <mi>k</mi>
+                                  <mspace width="0.2em"/>
+                                  <mtext>ln</mtext>
+                                  <mspace width="0.2em"/>
+                                  <mi>W</mi>
+                                  <mo>=</mo>
+                                  <mi>k</mi>
+                                  <mspace width="0.2em"/>
+                                  <mtext>ln</mtext>
+                                  <mspace width="0.1em"/>
+                                  <mo stretchy="false">(</mo>
+                                  <mn>1</mn>
+                                  <mo stretchy="false">)</mo>
+                                  <mo>=</mo>
+                                  <mn>0</mn>
+                                </mrow>
+                              </annotation-xml>
+                            </semantics>
+                          </math>
+                        </div>
+                        <p id="fs-idp113461024">
+                          <em data-effect="italics"></em>
+                        </p>
+                        <p id="fs-idm15206896">
+                          This limiting condition for a system’s entropy represents the
+                          <span
+                            data-type="term"
+                            group-by="t"
+                            id="[redacted for uniqueness]"
+                          >third law of thermodynamics</span>:
+                          <em
+                            data-effect="italics"
+                          >the entropy of a pure, perfect crystalline substance at 0 K is zero.</em>
+                        </p>
+                        <p id="fs-idp12220368">
+                          Careful calorimetric measurements can be made to determine the temperature dependence of a substance’s entropy and to derive absolute entropy values under specific conditions.
+                          <span data-type="term" group-by="S" id="[redacted for uniqueness]">
+                            Standard entropies (
+                            <em data-effect="italics">S</em>°)
+                          </span> are for one mole of substance under standard conditions (a pressure of 1 bar and a temperature of 298.15 K; see details regarding standard conditions in the thermochemistry chapter of this text). The
+                          <span data-type="term" group-by="s" id="[redacted for uniqueness]">
+                            standard entropy change (Δ
+                            <em data-effect="italics">S</em>°)
+                          </span> for a reaction may be computed using standard entropies as shown below:
+                        </p>
+                        <div data-type="equation" id="fs-idp35409536">
+                          <math display="block">
+                            <semantics>
+                              <mrow>
+                                <mrow>
+                                  <mtext>Δ</mtext>
+                                  <mi>S</mi>
+                                  <mtext>°</mtext>
+                                  <mo>=</mo>
+                                  <mo>∑</mo>
+                                  <mi>ν</mi>
+                                  <mi>S</mi>
+                                  <mtext>°</mtext>
+                                  <mtext>(products)</mtext>
+                                  <mspace width="0.2em"/>
+                                  <mo>−</mo>
+                                  <mo>∑</mo>
+                                  <mi>ν</mi>
+                                  <mi>S</mi>
+                                  <mtext>°</mtext>
+                                  <mtext>(reactants)</mtext>
+                                </mrow>
+                              </mrow>
+                              <annotation-xml encoding="MathML-Content">
+                                <mrow>
+                                  <mtext>Δ</mtext>
+                                  <mi>S</mi>
+                                  <mtext>°</mtext>
+                                  <mo>=</mo>
+                                  <mo>∑</mo>
+                                  <mi>ν</mi>
+                                  <mi>S</mi>
+                                  <mtext>°</mtext>
+                                  <mtext>(products)</mtext>
+                                  <mspace width="0.2em"/>
+                                  <mo>−</mo>
+                                  <mo>∑</mo>
+                                  <mi>ν</mi>
+                                  <mi>S</mi>
+                                  <mtext>°</mtext>
+                                  <mtext>(reactants)</mtext>
+                                </mrow>
+                              </annotation-xml>
+                            </semantics>
+                          </math>
+                        </div>
+                        <p id="fs-idm44012816">
+                          where ν represents stoichiometric coefficients in the balanced equation representing the process. For example, Δ
+                          <em data-effect="italics">S</em>° for the following reaction at room temperature
+                        </p>
+                        <div data-type="equation" id="fs-idm48571920">
+                          <math display="block">
+                            <semantics>
+                              <mrow>
+                                <mrow>
+                                  <mi>m</mi>
+                                  <mtext>A</mtext>
+                                  <mo>+</mo>
+                                  <mi>n</mi>
+                                  <mtext>B</mtext>
+                                  <mspace width="0.2em"/>
+                                  <mo stretchy="false">⟶</mo>
+                                  <mspace width="0.2em"/>
+                                  <mi>x</mi>
+                                  <mtext>C</mtext>
+                                  <mo>+</mo>
+                                  <mi>y</mi>
+                                  <mtext>D,</mtext>
+                                </mrow>
+                              </mrow>
+                              <annotation-xml encoding="MathML-Content">
+                                <mrow>
+                                  <mi>m</mi>
+                                  <mtext>A</mtext>
+                                  <mo>+</mo>
+                                  <mi>n</mi>
+                                  <mtext>B</mtext>
+                                  <mspace width="0.2em"/>
+                                  <mo stretchy="false">⟶</mo>
+                                  <mspace width="0.2em"/>
+                                  <mi>x</mi>
+                                  <mtext>C</mtext>
+                                  <mo>+</mo>
+                                  <mi>y</mi>
+                                  <mtext>D,</mtext>
+                                </mrow>
+                              </annotation-xml>
+                            </semantics>
+                          </math>
+                        </div>
+                        <p id="fs-idp156085024">is computed as:</p>
+                        <div data-type="equation" id="fs-idp34261696">
+                          <math display="block">
+                            <semantics>
+                              <mrow>
+                                <mrow>
+                                  <mo>=</mo>
+                                  <mrow>
+                                    <mo>[</mo>
+                                    <mrow>
+                                      <mi>x</mi>
+                                      <mi>S</mi>
+                                      <mo>°</mo>
+                                      <mo stretchy="false">(</mo>
+                                      <mtext>C</mtext>
+                                      <mo stretchy="false">)</mo>
+                                      <mo>+</mo>
+                                      <mi>y</mi>
+                                      <mi>S</mi>
+                                      <mtext>°</mtext>
+                                      <mo stretchy="false">(</mo>
+                                      <mtext>D</mtext>
+                                      <mo stretchy="false">)</mo>
+                                    </mrow>
+                                    <mo>]</mo>
+                                  </mrow>
+                                  <mspace width="0.2em"/>
+                                  <mo>−</mo>
+                                  <mspace width="0.2em"/>
+                                  <mrow>
+                                    <mo>[</mo>
+                                    <mrow>
+                                      <mi>m</mi>
+                                      <mi>S</mi>
+                                      <mtext>°</mtext>
+                                      <mo stretchy="false">(</mo>
+                                      <mtext>A</mtext>
+                                      <mo stretchy="false">)</mo>
+                                      <mo>+</mo>
+                                      <mi>n</mi>
+                                      <mi>S</mi>
+                                      <mtext>°</mtext>
+                                      <mo stretchy="false">(</mo>
+                                      <mtext>B</mtext>
+                                      <mo stretchy="false">)</mo>
+                                    </mrow>
+                                    <mo>]</mo>
+                                  </mrow>
+                                </mrow>
+                              </mrow>
+                              <annotation-xml encoding="MathML-Content">
+                                <mrow>
+                                  <mo>=</mo>
+                                  <mrow>
+                                    <mo>[</mo>
+                                    <mrow>
+                                      <mi>x</mi>
+                                      <mi>S</mi>
+                                      <mo>°</mo>
+                                      <mo stretchy="false">(</mo>
+                                      <mtext>C</mtext>
+                                      <mo stretchy="false">)</mo>
+                                      <mo>+</mo>
+                                      <mi>y</mi>
+                                      <mi>S</mi>
+                                      <mtext>°</mtext>
+                                      <mo stretchy="false">(</mo>
+                                      <mtext>D</mtext>
+                                      <mo stretchy="false">)</mo>
+                                    </mrow>
+                                    <mo>]</mo>
+                                  </mrow>
+                                  <mspace width="0.2em"/>
+                                  <mo>−</mo>
+                                  <mspace width="0.2em"/>
+                                  <mrow>
+                                    <mo>[</mo>
+                                    <mrow>
+                                      <mi>m</mi>
+                                      <mi>S</mi>
+                                      <mtext>°</mtext>
+                                      <mo stretchy="false">(</mo>
+                                      <mtext>A</mtext>
+                                      <mo stretchy="false">)</mo>
+                                      <mo>+</mo>
+                                      <mi>n</mi>
+                                      <mi>S</mi>
+                                      <mtext>°</mtext>
+                                      <mo stretchy="false">(</mo>
+                                      <mtext>B</mtext>
+                                      <mo stretchy="false">)</mo>
+                                    </mrow>
+                                    <mo>]</mo>
+                                  </mrow>
+                                </mrow>
+                              </annotation-xml>
+                            </semantics>
+                          </math>
+                        </div>
+                        <p id="fs-idp43524064">
+                          A partial listing of standard entropies is provided in
+                          <a
+                            class="autogenerated-content"
+                            href="#fs-idm78597984"
+                          >Table 12.2</a>, and additional values are provided in
+                          <a
+                            class="target-chapter"
+                            href="g-standard-thermodynamic-properties-for-selected-substances"
+                          >Appendix G</a>. The example exercises that follow demonstrate the use of
+                          <em data-effect="italics">S</em>° values in calculating standard entropy changes for physical and chemical processes.
+                        </p>
+                        <div class="os-table" id="fs-idm78597984">
+                          <table
+                            data-id="fs-idm78597984"
+                            summary="Table 12.2  Standard entropies for selected substances measured at 1 atm and 298.15 K. (Values are approximately equal to those measured at 1 bar, the currently accepted standard state pressure.)"
+                          >
+                            <tbody>
+                              <tr valign="top">
+                                <td data-align="left">
+                                  <strong data-effect="bold">Substance</strong>
+                                </td>
+                                <td data-align="left">
+                                  <strong data-effect="bold">
+                                    <math display="inline">
+                                      <semantics>
+                                        <mrow>
+                                          <mrow>
+                                            <mi>S</mi>
+                                            <mtext>°</mtext>
+                                          </mrow>
+                                        </mrow>
+                                        <annotation-xml
+                                          encoding="MathML-Content"
+                                        >
+                                          <mrow>
+                                            <mi>S</mi>
+                                            <mtext>°</mtext>
+                                          </mrow>
+                                        </annotation-xml>
+                                      </semantics>
+                                    </math> (J mol
+                                    <sup>−1</sup> K
+                                    <sup>−1</sup>)
+                                  </strong>
+                                </td>
+                              </tr>
+                              <tr valign="top">
+                                <td colspan="2">carbon</td>
+                              </tr>
+                              <tr valign="top">
+                                <td data-align="left">
+                                  C(
+                                  <em data-effect="italics">s</em>, graphite)
+                                </td>
+                                <td data-align="center">5.740</td>
+                              </tr>
+                              <tr valign="top">
+                                <td data-align="left">
+                                  C(
+                                  <em data-effect="italics">s</em>, diamond)
+                                </td>
+                                <td data-align="center">2.38</td>
+                              </tr>
+                              <tr valign="top">
+                                <td data-align="left">
+                                  CO(
+                                  <em data-effect="italics">g</em>)
+                                </td>
+                                <td data-align="center">197.7</td>
+                              </tr>
+                              <tr valign="top">
+                                <td data-align="left">
+                                  CO
+                                  <sub>2</sub>(
+                                  <em data-effect="italics">g</em>)
+                                </td>
+                                <td data-align="center">213.8</td>
+                              </tr>
+                              <tr valign="top">
+                                <td data-align="left">
+                                  CH
+                                  <sub>4</sub>(
+                                  <em data-effect="italics">g</em>)
+                                </td>
+                                <td data-align="center">186.3</td>
+                              </tr>
+                              <tr valign="top">
+                                <td data-align="left">
+                                  C
+                                  <sub>2</sub>H
+                                  <sub>4</sub>(
+                                  <em data-effect="italics">g</em>)
+                                </td>
+                                <td data-align="center">219.5</td>
+                              </tr>
+                              <tr valign="top">
+                                <td data-align="left">
+                                  C
+                                  <sub>2</sub>H
+                                  <sub>6</sub>(
+                                  <em data-effect="italics">g</em>)
+                                </td>
+                                <td data-align="center">229.5</td>
+                              </tr>
+                              <tr valign="top">
+                                <td data-align="left">
+                                  CH
+                                  <sub>3</sub>OH(
+                                  <em data-effect="italics">l</em>)
+                                </td>
+                                <td data-align="center">126.8</td>
+                              </tr>
+                              <tr valign="top">
+                                <td data-align="left">
+                                  C
+                                  <sub>2</sub>H
+                                  <sub>5</sub>OH(
+                                  <em data-effect="italics">l</em>)
+                                </td>
+                                <td data-align="center">160.7</td>
+                              </tr>
+                              <tr valign="top">
+                                <td colspan="2" data-align="left">hydrogen</td>
+                              </tr>
+                              <tr valign="top">
+                                <td data-align="left">
+                                  H
+                                  <sub>2</sub>(
+                                  <em data-effect="italics">g</em>)
+                                </td>
+                                <td data-align="center">130.57</td>
+                              </tr>
+                              <tr valign="top">
+                                <td data-align="left">
+                                  H(
+                                  <em data-effect="italics">g</em>)
+                                </td>
+                                <td data-align="center">114.6</td>
+                              </tr>
+                              <tr valign="top">
+                                <td data-align="left">
+                                  H
+                                  <sub>2</sub>O(
+                                  <em data-effect="italics">g</em>)
+                                </td>
+                                <td data-align="center">188.71</td>
+                              </tr>
+                              <tr valign="top">
+                                <td data-align="left">
+                                  H
+                                  <sub>2</sub>O(
+                                  <em data-effect="italics">l</em>)
+                                </td>
+                                <td data-align="center">69.91</td>
+                              </tr>
+                              <tr valign="top">
+                                <td data-align="left">
+                                  HCI(
+                                  <em data-effect="italics">g</em>)
+                                </td>
+                                <td data-align="center">186.8</td>
+                              </tr>
+                              <tr valign="top">
+                                <td data-align="left">
+                                  H
+                                  <sub>2</sub>S(
+                                  <em data-effect="italics">g</em>)
+                                </td>
+                                <td data-align="center">205.7</td>
+                              </tr>
+                              <tr valign="top">
+                                <td colspan="2" data-align="left">oxygen</td>
+                              </tr>
+                              <tr valign="top">
+                                <td data-align="left">
+                                  O
+                                  <sub>2</sub>(
+                                  <em data-effect="italics">g</em>)
+                                </td>
+                                <td data-align="center">205.03</td>
+                              </tr>
+                            </tbody>
+                          </table>
+                          <div class="os-caption-container">
+                            <span class="os-title-label">Table</span>
+                            <span class="os-number">12.2</span>
+                            <span class="os-divider"></span>
+                            <span class="os-divider"></span>
+                            <span
+                              class="os-caption"
+                            >Standard entropies for selected substances measured at 1 atm and 298.15 K. (Values are approximately equal to those measured at 1 bar, the currently accepted standard state pressure.)</span>
+                          </div>
+                        </div>
+                        <div data-type="example" id="fs-idp173892208">
+                          <h3 class="os-title">
+                            <span class="os-title-label">Example</span>
+                            <span class="os-number">12.5</span>
+                            <span class="os-divider"></span>
+                          </h3>
+                          <p id="fs-idp155406304">
+                            <span data-type="title">
+                              Determination of Δ
+                              <em data-effect="italics">S</em>°
+                            </span>
+                            Calculate the standard entropy change for the following process:
+                          </p>
+                          <div data-type="equation" id="fs-idp582800">
+                            <math display="block">
+                              <semantics>
+                                <mrow>
+                                  <mrow>
+                                    <msub>
+                                      <mtext>H</mtext>
+                                      <mn>2</mn>
+                                    </msub>
+                                    <mtext>O</mtext>
+                                    <mo stretchy="false">(</mo>
+                                    <mi>g</mi>
+                                    <mo stretchy="false">)</mo>
+                                    <mspace width="0.2em"/>
+                                    <mo stretchy="false">⟶</mo>
+                                    <mspace width="0.2em"/>
+                                    <msub>
+                                      <mtext>H</mtext>
+                                      <mn>2</mn>
+                                    </msub>
+                                    <mtext>O</mtext>
+                                    <mo stretchy="false">(</mo>
+                                    <mi>l</mi>
+                                    <mo stretchy="false">)</mo>
+                                  </mrow>
+                                </mrow>
+                                <annotation-xml encoding="MathML-Content">
+                                  <mrow>
+                                    <msub>
+                                      <mtext>H</mtext>
+                                      <mn>2</mn>
+                                    </msub>
+                                    <mtext>O</mtext>
+                                    <mo stretchy="false">(</mo>
+                                    <mi>g</mi>
+                                    <mo stretchy="false">)</mo>
+                                    <mspace width="0.2em"/>
+                                    <mo stretchy="false">⟶</mo>
+                                    <mspace width="0.2em"/>
+                                    <msub>
+                                      <mtext>H</mtext>
+                                      <mn>2</mn>
+                                    </msub>
+                                    <mtext>O</mtext>
+                                    <mo stretchy="false">(</mo>
+                                    <mi>l</mi>
+                                    <mo stretchy="false">)</mo>
+                                  </mrow>
+                                </annotation-xml>
+                              </semantics>
+                            </math>
+                          </div>
+                          <p id="fs-idp180269712">
+                            <span data-type="title">Solution</span>
+                            Calculate the entropy change using standard entropies as shown above:
+                          </p>
+                          <div data-type="equation" id="fs-idm7244112">
+                            <math display="block">
+                              <semantics>
+                                <mrow>
+                                  <mrow>
+                                    <mi>Δ</mi>
+                                    <mi>S</mi>
+                                    <mo>°</mo>
+                                    <mo>=</mo>
+                                    <mo stretchy="false">(</mo>
+                                    <mn>1</mn>
+                                    <mspace width="0.2em"/>
+                                    <mtext>mol</mtext>
+                                    <mo stretchy="false">)</mo>
+                                    <mo stretchy="false">(</mo>
+                                    <mn>70.0</mn>
+                                    <mspace width="0.2em"/>
+                                    <mtext>J</mtext>
+                                    <mspace width="0.2em"/>
+                                    <msup>
+                                      <mrow>
+                                        <mtext>mol</mtext>
+                                      </mrow>
+                                      <mrow>
+                                        <mtext>−</mtext>
+                                        <mn>1</mn>
+                                      </mrow>
+                                    </msup>
+                                    <mspace width="0.2em"/>
+                                    <msup>
+                                      <mtext>K</mtext>
+                                      <mrow>
+                                        <mtext>−</mtext>
+                                        <mn>1</mn>
+                                      </mrow>
+                                    </msup>
+                                    <mo stretchy="false">)</mo>
+                                    <mo>−</mo>
+                                    <mo stretchy="false">(</mo>
+                                    <mn>1</mn>
+                                    <mspace width="0.2em"/>
+                                    <mtext>mol</mtext>
+                                    <mo stretchy="false">)</mo>
+                                    <mo stretchy="false">(</mo>
+                                    <mn>188.8</mn>
+                                    <mspace width="0.2em"/>
+                                    <mtext>J</mtext>
+                                    <mspace width="0.2em"/>
+                                    <msup>
+                                      <mrow>
+                                        <mtext>mol</mtext>
+                                      </mrow>
+                                      <mrow>
+                                        <mtext>−</mtext>
+                                        <mn>1</mn>
+                                      </mrow>
+                                    </msup>
+                                    <mspace width="0.2em"/>
+                                    <msup>
+                                      <mtext>K</mtext>
+                                      <mrow>
+                                        <mtext>−</mtext>
+                                        <mn>1</mn>
+                                      </mrow>
+                                    </msup>
+                                    <mo stretchy="false">)</mo>
+                                    <mo>=</mo>
+                                    <mtext>−</mtext>
+                                    <mn>118.8</mn>
+                                    <mspace width="0.2em"/>
+                                    <mtext>J/K</mtext>
+                                  </mrow>
+                                </mrow>
+                                <annotation-xml encoding="MathML-Content">
+                                  <mrow>
+                                    <mi>Δ</mi>
+                                    <mi>S</mi>
+                                    <mo>°</mo>
+                                    <mo>=</mo>
+                                    <mo stretchy="false">(</mo>
+                                    <mn>1</mn>
+                                    <mspace width="0.2em"/>
+                                    <mtext>mol</mtext>
+                                    <mo stretchy="false">)</mo>
+                                    <mo stretchy="false">(</mo>
+                                    <mn>70.0</mn>
+                                    <mspace width="0.2em"/>
+                                    <mtext>J</mtext>
+                                    <mspace width="0.2em"/>
+                                    <msup>
+                                      <mrow>
+                                        <mtext>mol</mtext>
+                                      </mrow>
+                                      <mrow>
+                                        <mtext>−</mtext>
+                                        <mn>1</mn>
+                                      </mrow>
+                                    </msup>
+                                    <mspace width="0.2em"/>
+                                    <msup>
+                                      <mtext>K</mtext>
+                                      <mrow>
+                                        <mtext>−</mtext>
+                                        <mn>1</mn>
+                                      </mrow>
+                                    </msup>
+                                    <mo stretchy="false">)</mo>
+                                    <mo>−</mo>
+                                    <mo stretchy="false">(</mo>
+                                    <mn>1</mn>
+                                    <mspace width="0.2em"/>
+                                    <mtext>mol</mtext>
+                                    <mo stretchy="false">)</mo>
+                                    <mo stretchy="false">(</mo>
+                                    <mn>188.8</mn>
+                                    <mspace width="0.2em"/>
+                                    <mtext>J</mtext>
+                                    <mspace width="0.2em"/>
+                                    <msup>
+                                      <mrow>
+                                        <mtext>mol</mtext>
+                                      </mrow>
+                                      <mrow>
+                                        <mtext>−</mtext>
+                                        <mn>1</mn>
+                                      </mrow>
+                                    </msup>
+                                    <mspace width="0.2em"/>
+                                    <msup>
+                                      <mtext>K</mtext>
+                                      <mrow>
+                                        <mtext>−</mtext>
+                                        <mn>1</mn>
+                                      </mrow>
+                                    </msup>
+                                    <mo stretchy="false">)</mo>
+                                    <mo>=</mo>
+                                    <mtext>−</mtext>
+                                    <mn>118.8</mn>
+                                    <mspace width="0.2em"/>
+                                    <mtext>J/K</mtext>
+                                  </mrow>
+                                </annotation-xml>
+                              </semantics>
+                            </math>
+                          </div>
+                          <p id="fs-idm47317216">
+                            The value for Δ
+                            <em data-effect="italics">S</em>° is negative, as expected for this phase transition (condensation), which the previous section discussed.
+                          </p>
+                          <p id="fs-idp319200">
+                            <span data-type="title">Check Your Learning</span>
+                            Calculate the standard entropy change for the following process:
+                          </p>
+                          <div data-type="equation" id="fs-idp43728512">
+                            <math display="block">
+                              <semantics>
+                                <mrow>
+                                  <mrow>
+                                    <msub>
+                                      <mtext>H</mtext>
+                                      <mn>2</mn>
+                                    </msub>
+                                    <mo stretchy="false">(</mo>
+                                    <mi>g</mi>
+                                    <mo stretchy="false">)</mo>
+                                    <mo>+</mo>
+                                    <msub>
+                                      <mtext>C</mtext>
+                                      <mn>2</mn>
+                                    </msub>
+                                    <msub>
+                                      <mtext>H</mtext>
+                                      <mn>4</mn>
+                                    </msub>
+                                    <mo stretchy="false">(</mo>
+                                    <mi>g</mi>
+                                    <mo stretchy="false">)</mo>
+                                    <mspace width="0.2em"/>
+                                    <mo stretchy="false">⟶</mo>
+                                    <mspace width="0.2em"/>
+                                    <msub>
+                                      <mtext>C</mtext>
+                                      <mn>2</mn>
+                                    </msub>
+                                    <msub>
+                                      <mtext>H</mtext>
+                                      <mn>6</mn>
+                                    </msub>
+                                    <mo stretchy="false">(</mo>
+                                    <mi>g</mi>
+                                    <mo stretchy="false">)</mo>
+                                  </mrow>
+                                </mrow>
+                                <annotation-xml encoding="MathML-Content">
+                                  <mrow>
+                                    <msub>
+                                      <mtext>H</mtext>
+                                      <mn>2</mn>
+                                    </msub>
+                                    <mo stretchy="false">(</mo>
+                                    <mi>g</mi>
+                                    <mo stretchy="false">)</mo>
+                                    <mo>+</mo>
+                                    <msub>
+                                      <mtext>C</mtext>
+                                      <mn>2</mn>
+                                    </msub>
+                                    <msub>
+                                      <mtext>H</mtext>
+                                      <mn>4</mn>
+                                    </msub>
+                                    <mo stretchy="false">(</mo>
+                                    <mi>g</mi>
+                                    <mo stretchy="false">)</mo>
+                                    <mspace width="0.2em"/>
+                                    <mo stretchy="false">⟶</mo>
+                                    <mspace width="0.2em"/>
+                                    <msub>
+                                      <mtext>C</mtext>
+                                      <mn>2</mn>
+                                    </msub>
+                                    <msub>
+                                      <mtext>H</mtext>
+                                      <mn>6</mn>
+                                    </msub>
+                                    <mo stretchy="false">(</mo>
+                                    <mi>g</mi>
+                                    <mo stretchy="false">)</mo>
+                                  </mrow>
+                                </annotation-xml>
+                              </semantics>
+                            </math>
+                          </div>
+                          <div data-type="note" id="fs-idp34672944">
+                            <h3 class="os-title" data-type="title">
+                              <span
+                                class="os-title-label"
+                                data-type
+                                id="[redacted for uniqueness]"
+                              >Answer:</span>
+                            </h3>
+                            <div class="os-note-body">
+                              <p id="fs-idm48282704">−120.6 J/K</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div data-type="example" id="fs-idp34274768">
+                          <h3 class="os-title">
+                            <span class="os-title-label">Example</span>
+                            <span class="os-number">12.6</span>
+                            <span class="os-divider"></span>
+                          </h3>
+                          <p id="fs-idp44594448">
+                            <span data-type="title">
+                              Determination of Δ
+                              <em data-effect="italics">S</em>°
+                            </span>
+                            Calculate the standard entropy change for the combustion of methanol, CH
+                            <sub>3</sub>OH:
+                          </p>
+                          <div data-type="equation" id="fs-idp22586368">
+                            <math display="block">
+                              <semantics>
+                                <mrow>
+                                  <mrow>
+                                    <mn>2</mn>
+                                    <msub>
+                                      <mrow>
+                                        <mtext>CH</mtext>
+                                      </mrow>
+                                      <mn>3</mn>
+                                    </msub>
+                                    <mtext>OH</mtext>
+                                    <mo stretchy="false">(</mo>
+                                    <mi>l</mi>
+                                    <mo stretchy="false">)</mo>
+                                    <mo>+</mo>
+                                    <mn>3</mn>
+                                    <msub>
+                                      <mtext>O</mtext>
+                                      <mn>2</mn>
+                                    </msub>
+                                    <mo stretchy="false">(</mo>
+                                    <mi>g</mi>
+                                    <mo stretchy="false">)</mo>
+                                    <mspace width="0.2em"/>
+                                    <mo stretchy="false">⟶</mo>
+                                    <mspace width="0.2em"/>
+                                    <mn>2</mn>
+                                    <msub>
+                                      <mrow>
+                                        <mtext>CO</mtext>
+                                      </mrow>
+                                      <mn>2</mn>
+                                    </msub>
+                                    <mo stretchy="false">(</mo>
+                                    <mi>g</mi>
+                                    <mo stretchy="false">)</mo>
+                                    <mo>+</mo>
+                                    <mn>4</mn>
+                                    <msub>
+                                      <mtext>H</mtext>
+                                      <mn>2</mn>
+                                    </msub>
+                                    <mtext>O</mtext>
+                                    <mo stretchy="false">(</mo>
+                                    <mi>l</mi>
+                                    <mo stretchy="false">)</mo>
+                                  </mrow>
+                                </mrow>
+                                <annotation-xml encoding="MathML-Content">
+                                  <mrow>
+                                    <mn>2</mn>
+                                    <msub>
+                                      <mrow>
+                                        <mtext>CH</mtext>
+                                      </mrow>
+                                      <mn>3</mn>
+                                    </msub>
+                                    <mtext>OH</mtext>
+                                    <mo stretchy="false">(</mo>
+                                    <mi>l</mi>
+                                    <mo stretchy="false">)</mo>
+                                    <mo>+</mo>
+                                    <mn>3</mn>
+                                    <msub>
+                                      <mtext>O</mtext>
+                                      <mn>2</mn>
+                                    </msub>
+                                    <mo stretchy="false">(</mo>
+                                    <mi>g</mi>
+                                    <mo stretchy="false">)</mo>
+                                    <mspace width="0.2em"/>
+                                    <mo stretchy="false">⟶</mo>
+                                    <mspace width="0.2em"/>
+                                    <mn>2</mn>
+                                    <msub>
+                                      <mrow>
+                                        <mtext>CO</mtext>
+                                      </mrow>
+                                      <mn>2</mn>
+                                    </msub>
+                                    <mo stretchy="false">(</mo>
+                                    <mi>g</mi>
+                                    <mo stretchy="false">)</mo>
+                                    <mo>+</mo>
+                                    <mn>4</mn>
+                                    <msub>
+                                      <mtext>H</mtext>
+                                      <mn>2</mn>
+                                    </msub>
+                                    <mtext>O</mtext>
+                                    <mo stretchy="false">(</mo>
+                                    <mi>l</mi>
+                                    <mo stretchy="false">)</mo>
+                                  </mrow>
+                                </annotation-xml>
+                              </semantics>
+                            </math>
+                          </div>
+                          <p id="fs-idp118976224">
+                            <span data-type="title">Solution</span>
+                            Calculate the entropy change using standard entropies as shown above:
+                          </p>
+                          <div data-type="equation" id="fs-idp26460064">
+                            <math display="block">
+                              <semantics>
+                                <mrow>
+                                  <mrow>
+                                    <mtext>Δ</mtext>
+                                    <mi>S</mi>
+                                    <mtext>°</mtext>
+                                    <mo>=</mo>
+                                    <mo>∑</mo>
+                                    <mi>ν</mi>
+                                    <mi>S</mi>
+                                    <mtext>°</mtext>
+                                    <mtext>(products)</mtext>
+                                    <mspace width="0.2em"/>
+                                    <mo>−</mo>
+                                    <mo>∑</mo>
+                                    <mi>ν</mi>
+                                    <mi>S</mi>
+                                    <mtext>°</mtext>
+                                    <mtext>(reactants)</mtext>
+                                  </mrow>
+                                </mrow>
+                                <annotation-xml encoding="MathML-Content">
+                                  <mrow>
+                                    <mtext>Δ</mtext>
+                                    <mi>S</mi>
+                                    <mtext>°</mtext>
+                                    <mo>=</mo>
+                                    <mo>∑</mo>
+                                    <mi>ν</mi>
+                                    <mi>S</mi>
+                                    <mtext>°</mtext>
+                                    <mtext>(products)</mtext>
+                                    <mspace width="0.2em"/>
+                                    <mo>−</mo>
+                                    <mo>∑</mo>
+                                    <mi>ν</mi>
+                                    <mi>S</mi>
+                                    <mtext>°</mtext>
+                                    <mtext>(reactants)</mtext>
+                                  </mrow>
+                                </annotation-xml>
+                              </semantics>
+                            </math>
+                          </div>
+                          <div data-type="equation" id="fs-idm2438144">
+                            <math display="block">
+                              <semantics>
+                                <mrow>
+                                  <mtable>
+                                    <mtr>
+                                      <mtd>
+                                        <mrow>
+                                          <mo>[</mo>
+                                          <mrow>
+                                            <mn>2</mn>
+                                            <mspace width="0.2em"/>
+                                            <mtext>mol</mtext>
+                                            <mspace width="0.2em"/>
+                                            <mo>×</mo>
+                                            <mspace width="0.2em"/>
+                                            <mi>S</mi>
+                                            <mtext>°</mtext>
+                                            <mrow>
+                                              <mo>(</mo>
+                                              <mrow>
+                                                <msub>
+                                                  <mrow>
+                                                    <mtext>CO</mtext>
+                                                  </mrow>
+                                                  <mn>2</mn>
+                                                </msub>
+                                                <mo stretchy="false">(</mo>
+                                                <mi>g</mi>
+                                                <mo stretchy="false">)</mo>
+                                              </mrow>
+                                              <mo>)</mo>
+                                            </mrow>
+                                            <mspace width="0.2em"/>
+                                            <mo>+</mo>
+                                            <mspace width="0.2em"/>
+                                            <mn>4</mn>
+                                            <mspace width="0.2em"/>
+                                            <mtext>mol</mtext>
+                                            <mspace width="0.2em"/>
+                                            <mo>×</mo>
+                                            <mspace width="0.2em"/>
+                                            <mi>S</mi>
+                                            <mtext>°</mtext>
+                                            <mrow>
+                                              <mo>(</mo>
+                                              <mrow>
+                                                <msub>
+                                                  <mtext>H</mtext>
+                                                  <mn>2</mn>
+                                                </msub>
+                                                <mtext>O</mtext>
+                                                <mo stretchy="false">(</mo>
+                                                <mi>l</mi>
+                                                <mo stretchy="false">)</mo>
+                                              </mrow>
+                                              <mo>)</mo>
+                                            </mrow>
+                                          </mrow>
+                                          <mo>]</mo>
+                                        </mrow>
+                                        <mspace width="0.2em"/>
+                                        <mo>−</mo>
+                                        <mspace width="0.2em"/>
+                                        <mrow>
+                                          <mo>[</mo>
+                                          <mrow>
+                                            <mn>2</mn>
+                                            <mspace width="0.2em"/>
+                                            <mtext>mol</mtext>
+                                            <mspace width="0.2em"/>
+                                            <mo>×</mo>
+                                            <mspace width="0.2em"/>
+                                            <mi>S</mi>
+                                            <mtext>°</mtext>
+                                            <mrow>
+                                              <mo>(</mo>
+                                              <mrow>
+                                                <msub>
+                                                  <mrow>
+                                                    <mtext>CH</mtext>
+                                                  </mrow>
+                                                  <mn>3</mn>
+                                                </msub>
+                                                <mtext>OH</mtext>
+                                                <mo stretchy="false">(</mo>
+                                                <mi>l</mi>
+                                                <mo stretchy="false">)</mo>
+                                              </mrow>
+                                              <mo>)</mo>
+                                            </mrow>
+                                            <mspace width="0.2em"/>
+                                            <mo>+</mo>
+                                            <mn>3</mn>
+                                            <mspace width="0.2em"/>
+                                            <mtext>mol</mtext>
+                                            <mspace width="0.2em"/>
+                                            <mo>×</mo>
+                                            <mspace width="0.2em"/>
+                                            <mi>S</mi>
+                                            <mtext>°</mtext>
+                                            <mrow>
+                                              <mo>(</mo>
+                                              <mrow>
+                                                <msub>
+                                                  <mtext>O</mtext>
+                                                  <mn>2</mn>
+                                                </msub>
+                                                <mo stretchy="false">(</mo>
+                                                <mi>g</mi>
+                                                <mo stretchy="false">)</mo>
+                                              </mrow>
+                                              <mo>)</mo>
+                                            </mrow>
+                                          </mrow>
+                                          <mo>]</mo>
+                                        </mrow>
+                                      </mtd>
+                                    </mtr>
+                                    <mtr/>
+                                    <mtr>
+                                      <mtd>
+                                        <mo>=</mo>
+                                        <mrow>
+                                          <mo mathvariant="bold">{</mo>
+                                          <mrow>
+                                            <mspace width="0.1em"/>
+                                            <mrow>
+                                              <mo>[</mo>
+                                              <mrow>
+                                                <mn>2</mn>
+                                                <mo>(</mo>
+                                                <mn>213.8</mn>
+                                                <mo>)</mo>
+                                                <mo>+</mo>
+                                                <mn>4</mn>
+                                                <mspace width="0.2em"/>
+                                                <mo>×</mo>
+                                                <mspace width="0.2em"/>
+                                                <mn>70.0</mn>
+                                              </mrow>
+                                              <mo>]</mo>
+                                            </mrow>
+                                            <mspace width="0.2em"/>
+                                            <mo>−</mo>
+                                            <mspace width="0.2em"/>
+                                            <mrow>
+                                              <mo stretchy="false">[</mo>
+                                              <mrow>
+                                                <mn>2</mn>
+                                                <mrow>
+                                                  <mo>(</mo>
+                                                  <mrow>
+                                                    <mn>126.8</mn>
+                                                  </mrow>
+                                                  <mo>)</mo>
+                                                </mrow>
+                                                <mo>+</mo>
+                                                <mn>3</mn>
+                                                <mrow>
+                                                  <mo>(</mo>
+                                                  <mrow>
+                                                    <mn>205.03</mn>
+                                                  </mrow>
+                                                  <mo>)</mo>
+                                                </mrow>
+                                              </mrow>
+                                              <mo stretchy="false">]</mo>
+                                            </mrow>
+                                            <mspace width="0.2em"/>
+                                          </mrow>
+                                          <mo mathvariant="bold">}</mo>
+                                        </mrow>
+                                        <mo>=</mo>
+                                        <mn>−161.1</mn>
+                                        <mspace width="0.2em"/>
+                                        <mtext>J/K</mtext>
+                                      </mtd>
+                                    </mtr>
+                                  </mtable>
+                                </mrow>
+                                <annotation-xml encoding="MathML-Content">
+                                  <mtable>
+                                    <mtr>
+                                      <mtd>
+                                        <mrow>
+                                          <mo>[</mo>
+                                          <mrow>
+                                            <mn>2</mn>
+                                            <mspace width="0.2em"/>
+                                            <mtext>mol</mtext>
+                                            <mspace width="0.2em"/>
+                                            <mo>×</mo>
+                                            <mspace width="0.2em"/>
+                                            <mi>S</mi>
+                                            <mtext>°</mtext>
+                                            <mrow>
+                                              <mo>(</mo>
+                                              <mrow>
+                                                <msub>
+                                                  <mrow>
+                                                    <mtext>CO</mtext>
+                                                  </mrow>
+                                                  <mn>2</mn>
+                                                </msub>
+                                                <mo stretchy="false">(</mo>
+                                                <mi>g</mi>
+                                                <mo stretchy="false">)</mo>
+                                              </mrow>
+                                              <mo>)</mo>
+                                            </mrow>
+                                            <mspace width="0.2em"/>
+                                            <mo>+</mo>
+                                            <mspace width="0.2em"/>
+                                            <mn>4</mn>
+                                            <mspace width="0.2em"/>
+                                            <mtext>mol</mtext>
+                                            <mspace width="0.2em"/>
+                                            <mo>×</mo>
+                                            <mspace width="0.2em"/>
+                                            <mi>S</mi>
+                                            <mtext>°</mtext>
+                                            <mrow>
+                                              <mo>(</mo>
+                                              <mrow>
+                                                <msub>
+                                                  <mtext>H</mtext>
+                                                  <mn>2</mn>
+                                                </msub>
+                                                <mtext>O</mtext>
+                                                <mo stretchy="false">(</mo>
+                                                <mi>l</mi>
+                                                <mo stretchy="false">)</mo>
+                                              </mrow>
+                                              <mo>)</mo>
+                                            </mrow>
+                                          </mrow>
+                                          <mo>]</mo>
+                                        </mrow>
+                                        <mspace width="0.2em"/>
+                                        <mo>−</mo>
+                                        <mspace width="0.2em"/>
+                                        <mrow>
+                                          <mo>[</mo>
+                                          <mrow>
+                                            <mn>2</mn>
+                                            <mspace width="0.2em"/>
+                                            <mtext>mol</mtext>
+                                            <mspace width="0.2em"/>
+                                            <mo>×</mo>
+                                            <mspace width="0.2em"/>
+                                            <mi>S</mi>
+                                            <mtext>°</mtext>
+                                            <mrow>
+                                              <mo>(</mo>
+                                              <mrow>
+                                                <msub>
+                                                  <mrow>
+                                                    <mtext>CH</mtext>
+                                                  </mrow>
+                                                  <mn>3</mn>
+                                                </msub>
+                                                <mtext>OH</mtext>
+                                                <mo stretchy="false">(</mo>
+                                                <mi>l</mi>
+                                                <mo stretchy="false">)</mo>
+                                              </mrow>
+                                              <mo>)</mo>
+                                            </mrow>
+                                            <mspace width="0.2em"/>
+                                            <mo>+</mo>
+                                            <mn>3</mn>
+                                            <mspace width="0.2em"/>
+                                            <mtext>mol</mtext>
+                                            <mspace width="0.2em"/>
+                                            <mo>×</mo>
+                                            <mspace width="0.2em"/>
+                                            <mi>S</mi>
+                                            <mtext>°</mtext>
+                                            <mrow>
+                                              <mo>(</mo>
+                                              <mrow>
+                                                <msub>
+                                                  <mtext>O</mtext>
+                                                  <mn>2</mn>
+                                                </msub>
+                                                <mo stretchy="false">(</mo>
+                                                <mi>g</mi>
+                                                <mo stretchy="false">)</mo>
+                                              </mrow>
+                                              <mo>)</mo>
+                                            </mrow>
+                                          </mrow>
+                                          <mo>]</mo>
+                                        </mrow>
+                                      </mtd>
+                                    </mtr>
+                                    <mtr/>
+                                    <mtr>
+                                      <mtd>
+                                        <mo>=</mo>
+                                        <mrow>
+                                          <mo mathvariant="bold">{</mo>
+                                          <mrow>
+                                            <mspace width="0.1em"/>
+                                            <mrow>
+                                              <mo>[</mo>
+                                              <mrow>
+                                                <mn>2</mn>
+                                                <mo>(</mo>
+                                                <mn>213.8</mn>
+                                                <mo>)</mo>
+                                                <mo>+</mo>
+                                                <mn>4</mn>
+                                                <mspace width="0.2em"/>
+                                                <mo>×</mo>
+                                                <mspace width="0.2em"/>
+                                                <mn>70.0</mn>
+                                              </mrow>
+                                              <mo>]</mo>
+                                            </mrow>
+                                            <mspace width="0.2em"/>
+                                            <mo>−</mo>
+                                            <mspace width="0.2em"/>
+                                            <mrow>
+                                              <mo stretchy="false">[</mo>
+                                              <mrow>
+                                                <mn>2</mn>
+                                                <mrow>
+                                                  <mo>(</mo>
+                                                  <mrow>
+                                                    <mn>126.8</mn>
+                                                  </mrow>
+                                                  <mo>)</mo>
+                                                </mrow>
+                                                <mo>+</mo>
+                                                <mn>3</mn>
+                                                <mrow>
+                                                  <mo>(</mo>
+                                                  <mrow>
+                                                    <mn>205.03</mn>
+                                                  </mrow>
+                                                  <mo>)</mo>
+                                                </mrow>
+                                              </mrow>
+                                              <mo stretchy="false">]</mo>
+                                            </mrow>
+                                            <mspace width="0.2em"/>
+                                          </mrow>
+                                          <mo mathvariant="bold">}</mo>
+                                        </mrow>
+                                        <mo>=</mo>
+                                        <mn>−161.1</mn>
+                                        <mspace width="0.2em"/>
+                                        <mtext>J/K</mtext>
+                                      </mtd>
+                                    </mtr>
+                                  </mtable>
+                                </annotation-xml>
+                              </semantics>
+                            </math>
+                          </div>
+                          <p id="fs-idm27377968">
+                            <span data-type="title">Check Your Learning</span>
+                            Calculate the standard entropy change for the following reaction:
+                          </p>
+                          <div data-type="equation" id="fs-idp53679664">
+                            <math display="block">
+                              <semantics>
+                                <mrow>
+                                  <mrow>
+                                    <mtext>Ca</mtext>
+                                    <msub>
+                                      <mrow>
+                                        <mo stretchy="false">(</mo>
+                                        <mtext>OH</mtext>
+                                        <mo stretchy="false">)</mo>
+                                      </mrow>
+                                      <mn>2</mn>
+                                    </msub>
+                                    <mo stretchy="false">(</mo>
+                                    <mtext>s</mtext>
+                                    <mo stretchy="false">)</mo>
+                                    <mspace width="0.2em"/>
+                                    <mo stretchy="false">⟶</mo>
+                                    <mspace width="0.2em"/>
+                                    <mtext>CaO</mtext>
+                                    <mo stretchy="false">(</mo>
+                                    <mi>s</mi>
+                                    <mo stretchy="false">)</mo>
+                                    <mo>+</mo>
+                                    <msub>
+                                      <mtext>H</mtext>
+                                      <mn>2</mn>
+                                    </msub>
+                                    <mtext>O</mtext>
+                                    <mo stretchy="false">(</mo>
+                                    <mi>l</mi>
+                                    <mo stretchy="false">)</mo>
+                                  </mrow>
+                                </mrow>
+                                <annotation-xml encoding="MathML-Content">
+                                  <mrow>
+                                    <mtext>Ca</mtext>
+                                    <msub>
+                                      <mrow>
+                                        <mo stretchy="false">(</mo>
+                                        <mtext>OH</mtext>
+                                        <mo stretchy="false">)</mo>
+                                      </mrow>
+                                      <mn>2</mn>
+                                    </msub>
+                                    <mo stretchy="false">(</mo>
+                                    <mtext>s</mtext>
+                                    <mo stretchy="false">)</mo>
+                                    <mspace width="0.2em"/>
+                                    <mo stretchy="false">⟶</mo>
+                                    <mspace width="0.2em"/>
+                                    <mtext>CaO</mtext>
+                                    <mo stretchy="false">(</mo>
+                                    <mi>s</mi>
+                                    <mo stretchy="false">)</mo>
+                                    <mo>+</mo>
+                                    <msub>
+                                      <mtext>H</mtext>
+                                      <mn>2</mn>
+                                    </msub>
+                                    <mtext>O</mtext>
+                                    <mo stretchy="false">(</mo>
+                                    <mi>l</mi>
+                                    <mo stretchy="false">)</mo>
+                                  </mrow>
+                                </annotation-xml>
+                              </semantics>
+                            </math>
+                          </div>
+                          <div data-type="note" id="fs-idp174350576">
+                            <h3 class="os-title" data-type="title">
+                              <span
+                                class="os-title-label"
+                                data-type
+                                id="[redacted for uniqueness]"
+                              >Answer:</span>
+                            </h3>
+                            <div class="os-note-body">
+                              <p id="fs-idp170733152">24.7 J/K</p>
+                            </div>
+                          </div>
+                        </div>
+                      </section>
+                    </div>
+                  </div>
+                  

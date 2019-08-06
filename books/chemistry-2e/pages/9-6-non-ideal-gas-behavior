@@ -1,0 +1,1096 @@
+
+                    <div
+                      data-cnxml-to-html-ver="[redacted for uniqueness]"
+                      data-type="page"
+                      id="6c7ade02-773b-44d1-945a-61ae6b0cc79b"
+                    >
+                      <div data-type="abstract" id="[redacted for uniqueness]">
+                        By the end of this section, you will be able to:
+                        <ul>
+                          <li>Describe the physical factors that lead to deviations from ideal gas behavior</li>
+                          <li>Explain how these factors are represented in the van der Waals equation</li>
+                          <li>Define compressibility (Z) and describe how its variation with pressure reflects non-ideal behavior</li>
+                          <li>Quantify non-ideal behavior by comparing computations of gas properties using the ideal gas law and the van der Waals equation</li>
+                        </ul>
+                      </div>
+
+                      <p id="fs-idm10764416">
+                        Thus far, the ideal gas law,
+                        <em data-effect="italics">PV = nRT</em>, has been applied to a variety of different types of problems, ranging from reaction stoichiometry and empirical and molecular formula problems to determining the density and molar mass of a gas. As mentioned in the previous modules of this chapter, however, the behavior of a gas is often non-ideal, meaning that the observed relationships between its pressure, volume, and temperature are not accurately described by the gas laws. In this section, the reasons for these deviations from ideal gas behavior are considered.
+                      </p>
+
+                      <p id="fs-idp138594304">
+                        One way in which the accuracy of
+                        <em data-effect="italics">PV = nRT</em> can be judged is by comparing the actual volume of 1 mole of gas (its molar volume,
+                        <em data-effect="italics">V</em>
+                        <sub>m</sub>) to the molar volume of an ideal gas at the same temperature and pressure. This ratio is called the
+                        <span
+                          data-type="term"
+                          group-by="c"
+                          id="[redacted for uniqueness]"
+                        >compressibility factor (Z)</span> with:
+                      </p>
+
+                      <div data-type="equation" id="fs-idp41001616">
+                        <math display="block">
+                          <semantics>
+                            <mrow>
+                              <mrow>
+                                <mtext>Z</mtext>
+                                <mo>=</mo>
+                                <mspace width="0.2em"/>
+                                <mfrac>
+                                  <mrow>
+                                    <mtext>molar volume of gas at same</mtext>
+                                    <mspace width="0.2em"/>
+                                    <mi>T</mi>
+                                    <mspace width="0.2em"/>
+                                    <mtext>and</mtext>
+                                    <mspace width="0.2em"/>
+                                    <mi>P</mi>
+                                  </mrow>
+                                  <mrow>
+                                    <mtext>molar volume of ideal gas at same</mtext>
+                                    <mspace width="0.2em"/>
+                                    <mi>T</mi>
+                                    <mspace width="0.2em"/>
+                                    <mtext>and</mtext>
+                                    <mspace width="0.2em"/>
+                                    <mi>P</mi>
+                                  </mrow>
+                                </mfrac>
+                                <mspace width="0.2em"/>
+                                <mo>=</mo>
+                                <msub>
+                                  <mrow>
+                                    <mrow>
+                                      <mo>(</mo>
+                                      <mrow>
+                                        <mfrac>
+                                          <mrow>
+                                            <mi>P</mi>
+                                            <msub>
+                                              <mi>V</mi>
+                                              <mi>m</mi>
+                                            </msub>
+                                          </mrow>
+                                          <mrow>
+                                            <mi>R</mi>
+                                            <mi>T</mi>
+                                          </mrow>
+                                        </mfrac>
+                                      </mrow>
+                                      <mo>)</mo>
+                                    </mrow>
+                                  </mrow>
+                                  <mrow>
+                                    <mtext>measured</mtext>
+                                  </mrow>
+                                </msub>
+                              </mrow>
+                            </mrow>
+                            <annotation-xml encoding="MathML-Content">
+                              <mrow>
+                                <mtext>Z</mtext>
+                                <mo>=</mo>
+                                <mspace width="0.2em"/>
+                                <mfrac>
+                                  <mrow>
+                                    <mtext>molar volume of gas at same</mtext>
+                                    <mspace width="0.2em"/>
+                                    <mi>T</mi>
+                                    <mspace width="0.2em"/>
+                                    <mtext>and</mtext>
+                                    <mspace width="0.2em"/>
+                                    <mi>P</mi>
+                                  </mrow>
+                                  <mrow>
+                                    <mtext>molar volume of ideal gas at same</mtext>
+                                    <mspace width="0.2em"/>
+                                    <mi>T</mi>
+                                    <mspace width="0.2em"/>
+                                    <mtext>and</mtext>
+                                    <mspace width="0.2em"/>
+                                    <mi>P</mi>
+                                  </mrow>
+                                </mfrac>
+                                <mspace width="0.2em"/>
+                                <mo>=</mo>
+                                <msub>
+                                  <mrow>
+                                    <mrow>
+                                      <mo>(</mo>
+                                      <mrow>
+                                        <mfrac>
+                                          <mrow>
+                                            <mi>P</mi>
+                                            <msub>
+                                              <mi>V</mi>
+                                              <mi>m</mi>
+                                            </msub>
+                                          </mrow>
+                                          <mrow>
+                                            <mi>R</mi>
+                                            <mi>T</mi>
+                                          </mrow>
+                                        </mfrac>
+                                      </mrow>
+                                      <mo>)</mo>
+                                    </mrow>
+                                  </mrow>
+                                  <mrow>
+                                    <mtext>measured</mtext>
+                                  </mrow>
+                                </msub>
+                              </mrow>
+                            </annotation-xml>
+                          </semantics>
+                        </math>
+                      </div>
+
+                      <p id="fs-idm92799184">
+                        Ideal gas behavior is therefore indicated when this ratio is equal to 1, and any deviation from 1 is an indication of non-ideal behavior.
+                        <a
+                          class="autogenerated-content"
+                          href="#CNX_Chem_09_06_ZvsPgraph"
+                        >Figure 9.35</a> shows plots of Z over a large pressure range for several common gases.
+                      </p>
+
+                      <div class="os-figure" id="CNX_Chem_09_06_ZvsPgraph">
+                        <figure
+                          class="scaled-down"
+                          data-id="CNX_Chem_09_06_ZvsPgraph"
+                        >
+                          <span
+                            data-alt="A graph is shown. The horizontal axis is labeled, “P ( a t m ).” Its scale begins at zero with markings provided by multiples of 200 up to 1000. The vertical axis is labeled, “Z le( k P a ).” This scale begins at zero and includes multiples of 0.5 up to 2.0. Six curves are drawn of varying colors. One of these curves is a horizontal, light purple line extending right from 1.0 k P a on the vertical axis, which is labeled “Ideal gas.” The region of the graph beneath this line is shaded tan. The remaining curves also start at the same point on the vertical axis. An orange line extends to the upper right corner of the graph, reaching a value of approximately 1.7 k P a at 1000 a t m. This orange curve is labeled, “H subscript 2.” A blue curve dips below the horizontal ideal gas line initially, then increases to cross the line just past 200 a t m. This curve reaches a value of nearly 2.0 k P a at about 800 a t m. This curve is labeled, “N subscript 2.” A red curve dips below the horizontal ideal gas line initially, then increases to cross the line just past 400 a t m. This curve reaches a value of nearly 1.5 k P a at about 750 a t m. This curve is labeled, “O subscript 2.” A purple curve dips below the horizontal ideal gas line, dipping even lower than the O subscript 2 curve initially, then increases to cross the ideal gas line at about 400 a t m. This curve reaches a value of nearly 2.0 k P a at about 850 a t m. This curve is labeled, “C H subscript 4.” A yellow curve dips below the horizontal ideal gas line, dipping lower than the other curves to a minimum of about 0.4 k P a at about 0.75 a t m, then increases to cross the ideal gas line at about 500 a t m. This curve reaches a value of about 1.6 k P a at about 900 a t m. This curve is labeled, “C O subscript 2.”"
+                            data-type="media"
+                            id="fs-idp194949440"
+                          >
+                            <img
+                              alt="A graph is shown. The horizontal axis is labeled, “P ( a t m ).” Its scale begins at zero with markings provided by multiples of 200 up to 1000. The vertical axis is labeled, “Z le( k P a ).” This scale begins at zero and includes multiples of 0.5 up to 2.0. Six curves are drawn of varying colors. One of these curves is a horizontal, light purple line extending right from 1.0 k P a on the vertical axis, which is labeled “Ideal gas.” The region of the graph beneath this line is shaded tan. The remaining curves also start at the same point on the vertical axis. An orange line extends to the upper right corner of the graph, reaching a value of approximately 1.7 k P a at 1000 a t m. This orange curve is labeled, “H subscript 2.” A blue curve dips below the horizontal ideal gas line initially, then increases to cross the line just past 200 a t m. This curve reaches a value of nearly 2.0 k P a at about 800 a t m. This curve is labeled, “N subscript 2.” A red curve dips below the horizontal ideal gas line initially, then increases to cross the line just past 400 a t m. This curve reaches a value of nearly 1.5 k P a at about 750 a t m. This curve is labeled, “O subscript 2.” A purple curve dips below the horizontal ideal gas line, dipping even lower than the O subscript 2 curve initially, then increases to cross the ideal gas line at about 400 a t m. This curve reaches a value of nearly 2.0 k P a at about 850 a t m. This curve is labeled, “C H subscript 4.” A yellow curve dips below the horizontal ideal gas line, dipping lower than the other curves to a minimum of about 0.4 k P a at about 0.75 a t m, then increases to cross the ideal gas line at about 500 a t m. This curve reaches a value of about 1.6 k P a at about 900 a t m. This curve is labeled, “C O subscript 2.”"
+                              data-media-type="image/jpeg"
+                              id="[redacted for uniqueness]"
+                              src="/resources/35629cf58010ae84038a47dface8343fb22a207e"
+                            >
+                          </span>
+                        </figure>
+                        <div class="os-caption-container">
+                          <span class="os-title-label">Figure</span>
+                          <span class="os-number">9.35</span>
+                          <span class="os-divider"></span>
+                          <span class="os-divider"></span>
+                          <span
+                            class="os-caption"
+                          >A graph of the compressibility factor (Z) vs. pressure shows that gases can exhibit significant deviations from the behavior predicted by the ideal gas law.</span>
+                        </div>
+                      </div>
+
+                      <p id="fs-idp70317840">
+                        As is apparent from
+                        <a
+                          class="autogenerated-content"
+                          href="#CNX_Chem_09_06_ZvsPgraph"
+                        >Figure 9.35</a>, the ideal gas law does not describe gas behavior well at relatively high pressures. To determine why this is, consider the differences between real gas properties and what is expected of a hypothetical ideal gas.
+                      </p>
+
+                      <p id="fs-idp26015584">
+                        Particles of a hypothetical ideal gas have no significant volume and do not attract or repel each other. In general, real gases approximate this behavior at relatively low pressures and high temperatures. However, at high pressures, the molecules of a gas are crowded closer together, and the amount of empty space between the molecules is reduced. At these higher pressures, the volume of the gas molecules themselves becomes appreciable relative to the total volume occupied by the gas. The gas therefore becomes less compressible at these high pressures, and although its volume continues to decrease with increasing pressure, this decrease is not
+                        <em data-effect="italics">proportional</em> as predicted by Boyle’s law.
+                      </p>
+
+                      <p id="fs-idp46559584">
+                        At relatively low pressures, gas molecules have practically no attraction for one another because they are (on average) so far apart, and they behave almost like particles of an ideal gas. At higher pressures, however, the force of attraction is also no longer insignificant. This force pulls the molecules a little closer together, slightly decreasing the pressure (if the volume is constant) or decreasing the volume (at constant pressure) (
+                        <a
+                          class="autogenerated-content"
+                          href="#CNX_Chem_09_06_RealGas2"
+                        >Figure 9.36</a>). This change is more pronounced at low temperatures because the molecules have lower KE relative to the attractive forces, and so they are less effective in overcoming these attractions after colliding with one another.
+                      </p>
+
+                      <div class="os-figure" id="CNX_Chem_09_06_RealGas2">
+                        <figure data-id="CNX_Chem_09_06_RealGas2">
+                          <span
+                            data-alt="This figure includes two diagrams. Each involves two lavender shaded boxes that contain 14 relatively evenly distributed, purple spheres. The first box in a on the left is labeled “ideal.” In the second slightly smaller box, on the right, a nearly centrally located purple sphere has 6 double-headed arrows extending outward from it to nearby spheres. This box is labeled “real.” In b, in the first box on the left, a single arrow points to a purple sphere at the right side that appears to be moving and impacting the right side of the box. There are no other spheres positioned near the right edge. This box is labeled “ideal.” The second box, on the right, shows the same image but has 5 double-headed arrows radiating out to the top, bottom, and left to other spheres. This box is labeled “real.”"
+                            data-type="media"
+                            id="fs-idm161409328"
+                          >
+                            <img
+                              alt="This figure includes two diagrams. Each involves two lavender shaded boxes that contain 14 relatively evenly distributed, purple spheres. The first box in a on the left is labeled “ideal.” In the second slightly smaller box, on the right, a nearly centrally located purple sphere has 6 double-headed arrows extending outward from it to nearby spheres. This box is labeled “real.” In b, in the first box on the left, a single arrow points to a purple sphere at the right side that appears to be moving and impacting the right side of the box. There are no other spheres positioned near the right edge. This box is labeled “ideal.” The second box, on the right, shows the same image but has 5 double-headed arrows radiating out to the top, bottom, and left to other spheres. This box is labeled “real.”"
+                              data-media-type="image/jpeg"
+                              id="[redacted for uniqueness]"
+                              src="/resources/5752639a578e7e8d23c329379f02ec28c66c410f"
+                            >
+                          </span>
+                        </figure>
+                        <div class="os-caption-container">
+                          <span class="os-title-label">Figure</span>
+                          <span class="os-number">9.36</span>
+                          <span class="os-divider"></span>
+                          <span class="os-divider"></span>
+                          <span
+                            class="os-caption"
+                          >(a) Attractions between gas molecules serve to decrease the gas volume at constant pressure compared to an ideal gas whose molecules experience no attractive forces. (b) These attractive forces will decrease the force of collisions between the molecules and container walls, therefore reducing the pressure exerted at constant volume compared to an ideal gas.</span>
+                        </div>
+                      </div>
+
+                      <p id="fs-idm16170960">
+                        There are several different equations that better approximate gas behavior than does the ideal gas law. The first, and simplest, of these was developed by the Dutch scientist Johannes van der Waals in 1879. The
+                        <span
+                          data-type="term"
+                          group-by="v"
+                          id="[redacted for uniqueness]"
+                        >van der Waals equation</span> improves upon the ideal gas law by adding two terms: one to account for the volume of the gas molecules and another for the attractive forces between them.
+                      </p>
+
+                      <span
+                        class="scaled-down"
+                        data-alt="This figure shows the equation P V equals n R T, with the P in blue text and the V in red text. This equation is followed by a right pointing arrow. Following this arrow, to the right in blue text appears the equation ( P minus a n superscript 2 divided by V squared ),” which is followed by the red text ( V minus n b ). This is followed in black text with equals n R T. Beneath the second equation appears the label, “Correction for molecular attraction” which is connected with a line segment to V squared. A second label, “Correction for volume of molecules,” is similarly connected to n b which appears in red."
+                        data-type="media"
+                        id="fs-idm139964416"
+                      >
+                        <img
+                          alt="This figure shows the equation P V equals n R T, with the P in blue text and the V in red text. This equation is followed by a right pointing arrow. Following this arrow, to the right in blue text appears the equation ( P minus a n superscript 2 divided by V squared ),” which is followed by the red text ( V minus n b ). This is followed in black text with equals n R T. Beneath the second equation appears the label, “Correction for molecular attraction” which is connected with a line segment to V squared. A second label, “Correction for volume of molecules,” is similarly connected to n b which appears in red."
+                          data-media-type="image/jpeg"
+                          id="[redacted for uniqueness]"
+                          src="/resources/8d07dbd052dd8119656825459af9c64b07c09775"
+                        >
+                      </span>
+
+                      <p id="fs-idm12594352">
+                        The constant
+                        <em data-effect="italics">a</em> corresponds to the strength of the attraction between molecules of a particular gas, and the constant
+                        <em data-effect="italics">b</em> corresponds to the size of the molecules of a particular gas. The “correction” to the pressure term in the ideal gas law is
+                        <math display="inline">
+                          <semantics>
+                            <mrow>
+                              <mrow>
+                                <mfrac>
+                                  <mrow>
+                                    <msup>
+                                      <mi>n</mi>
+                                      <mn>2</mn>
+                                    </msup>
+                                    <mi>a</mi>
+                                  </mrow>
+                                  <mrow>
+                                    <msup>
+                                      <mi>V</mi>
+                                      <mn>2</mn>
+                                    </msup>
+                                  </mrow>
+                                </mfrac>
+                                <mo>,</mo>
+                              </mrow>
+                            </mrow>
+                            <annotation-xml encoding="MathML-Content">
+                              <mrow>
+                                <mfrac>
+                                  <mrow>
+                                    <msup>
+                                      <mi>n</mi>
+                                      <mn>2</mn>
+                                    </msup>
+                                    <mi>a</mi>
+                                  </mrow>
+                                  <mrow>
+                                    <msup>
+                                      <mi>V</mi>
+                                      <mn>2</mn>
+                                    </msup>
+                                  </mrow>
+                                </mfrac>
+                                <mo>,</mo>
+                              </mrow>
+                            </annotation-xml>
+                          </semantics>
+                        </math> and the “correction” to the volume is
+                        <em data-effect="italics">nb</em>. Note that when
+                        <em data-effect="italics">V</em> is relatively large and
+                        <em data-effect="italics">n</em> is relatively small, both of these correction terms become negligible, and the van der Waals equation reduces to the ideal gas law,
+                        <em data-effect="italics">PV = nRT</em>. Such a condition corresponds to a gas in which a relatively low number of molecules is occupying a relatively large volume, that is, a gas at a relatively low pressure. Experimental values for the van der Waals constants of some common gases are given in
+                        <a
+                          class="autogenerated-content"
+                          href="#fs-idm15100464"
+                        >Table 9.3</a>.
+                      </p>
+
+                      <div class="os-table" id="fs-idm15100464">
+                        <table
+                          class="top-titled"
+                          data-id="fs-idm15100464"
+                          summary="Table 9.3  "
+                        >
+                          <thead>
+                            <tr valign="top">
+                              <th
+                                colspan="3"
+                                data-align="center"
+                              >Values of van der Waals Constants for Some Common Gases</th>
+                            </tr>
+                            <tr valign="top">
+                              <th data-align="left">Gas</th>
+                              <th data-align="left">
+                                <em data-effect="italics">a</em> (L
+                                <sup>2</sup> atm/mol
+                                <sup>2</sup>)
+                              </th>
+                              <th data-align="left">
+                                <em data-effect="italics">b</em> (L/mol)
+                              </th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr valign="top">
+                              <td data-align="left">
+                                N
+                                <sub>2</sub>
+                              </td>
+                              <td data-align="left">1.39</td>
+                              <td data-align="left">0.0391</td>
+                            </tr>
+                            <tr valign="top">
+                              <td data-align="left">
+                                O
+                                <sub>2</sub>
+                              </td>
+                              <td data-align="left">1.36</td>
+                              <td data-align="left">0.0318</td>
+                            </tr>
+                            <tr valign="top">
+                              <td data-align="left">
+                                CO
+                                <sub>2</sub>
+                              </td>
+                              <td data-align="left">3.59</td>
+                              <td data-align="left">0.0427</td>
+                            </tr>
+                            <tr valign="top">
+                              <td data-align="left">
+                                H
+                                <sub>2</sub>O
+                              </td>
+                              <td data-align="left">5.46</td>
+                              <td data-align="left">0.0305</td>
+                            </tr>
+                            <tr valign="top">
+                              <td data-align="left">He</td>
+                              <td data-align="left">0.0342</td>
+                              <td data-align="left">0.0237</td>
+                            </tr>
+                            <tr valign="top">
+                              <td data-align="left">
+                                CCl
+                                <sub>4</sub>
+                              </td>
+                              <td data-align="left">20.4</td>
+                              <td data-align="left">0.1383</td>
+                            </tr>
+                          </tbody>
+                        </table>
+                        <div class="os-caption-container">
+                          <span class="os-title-label">Table</span>
+                          <span class="os-number">9.3</span>
+                          <span class="os-divider"></span>
+                          <span class="os-divider"></span>
+                        </div>
+                      </div>
+
+                      <p id="fs-idp95888368">
+                        At low pressures, the correction for intermolecular attraction,
+                        <em data-effect="italics">a</em>, is more important than the one for molecular volume,
+                        <em data-effect="italics">b</em>. At high pressures and small volumes, the correction for the volume of the molecules becomes important because the molecules themselves are incompressible and constitute an appreciable fraction of the total volume. At some intermediate pressure, the two corrections have opposing influences and the gas appears to follow the relationship given by
+                        <em data-effect="italics">PV = nRT</em> over a small range of pressures. This behavior is reflected by the “dips” in several of the compressibility curves shown in
+                        <a
+                          class="autogenerated-content"
+                          href="#CNX_Chem_09_06_ZvsPgraph"
+                        >Figure 9.35</a>. The attractive force between molecules initially makes the gas more compressible than an ideal gas, as pressure is raised (Z decreases with increasing
+                        <em data-effect="italics">P</em>). At very high pressures, the gas becomes less compressible (Z increases with
+                        <em data-effect="italics">P</em>), as the gas molecules begin to occupy an increasingly significant fraction of the total gas volume.
+                      </p>
+
+                      <p id="fs-idp87631424">
+                        Strictly speaking, the ideal gas equation functions well when intermolecular attractions between gas molecules are negligible and the gas molecules themselves do not occupy an appreciable part of the whole volume. These criteria are satisfied under conditions of
+                        <em
+                          data-effect="italics"
+                        >low pressure and high temperature</em>. Under such conditions, the gas is said to behave ideally, and deviations from the gas laws are small enough that they may be disregarded—this is, however, very often not the case.
+                      </p>
+
+                      <div data-type="example" id="fs-idp133812128">
+                        <h3 class="os-title">
+                          <span class="os-title-label">Example</span>
+                          <span class="os-number">9.24</span>
+                          <span class="os-divider"></span>
+                        </h3>
+                        <p id="fs-idm26240">
+                          <span
+                            data-type="title"
+                          >Comparison of Ideal Gas Law and van der Waals Equation</span>
+                          A 4.25-L flask contains 3.46 mol CO
+                          <sub>2</sub> at 229 °C. Calculate the pressure of this sample of CO
+                          <sub>2</sub>:
+                        </p>
+                        <p id="fs-idm66840432">(a) from the ideal gas law</p>
+                        <p
+                          id="fs-idp5462416"
+                        >(b) from the van der Waals equation</p>
+                        <p
+                          id="fs-idm139915872"
+                        >(c) Explain the reason(s) for the difference.</p>
+                        <p id="fs-idp71956336">
+                          <span data-type="title">Solution</span>
+                          (a) From the ideal gas law:
+                        </p>
+                        <div data-type="equation" id="fs-idm23230176">
+                          <math display="block">
+                            <semantics>
+                              <mrow>
+                                <mrow>
+                                  <mi>P</mi>
+                                  <mo>=</mo>
+                                  <mspace width="0.2em"/>
+                                  <mfrac>
+                                    <mrow>
+                                      <mi>n</mi>
+                                      <mi>R</mi>
+                                      <mi>T</mi>
+                                    </mrow>
+                                    <mi>V</mi>
+                                  </mfrac>
+                                  <mspace width="0.2em"/>
+                                  <mo>=</mo>
+                                  <mspace width="0.2em"/>
+                                  <mfrac>
+                                    <mrow>
+                                      <mn>3.46</mn>
+                                      <mspace width="0.2em"/>
+                                      <menclose notation="horizontalstrike">
+                                        <mrow>
+                                          <mtext>mol</mtext>
+                                        </mrow>
+                                      </menclose>
+                                      <mspace width="0.2em"/>
+                                      <mo>×</mo>
+                                      <mspace width="0.2em"/>
+                                      <mn>0.08206</mn>
+                                      <mspace width="0.2em"/>
+                                      <menclose notation="horizontalstrike">
+                                        <mtext>L</mtext>
+                                      </menclose>
+                                      <mspace width="0.2em"/>
+                                      <mtext>atm</mtext>
+                                      <mspace width="0.2em"/>
+                                      <menclose notation="horizontalstrike">
+                                        <mrow>
+                                          <msup>
+                                            <mrow>
+                                              <mtext>mol</mtext>
+                                            </mrow>
+                                            <mrow>
+                                              <mtext>−1</mtext>
+                                            </mrow>
+                                          </msup>
+                                        </mrow>
+                                      </menclose>
+                                      <mspace width="0.2em"/>
+                                      <menclose notation="horizontalstrike">
+                                        <mrow>
+                                          <msup>
+                                            <mtext>K</mtext>
+                                            <mrow>
+                                              <mtext>−1</mtext>
+                                            </mrow>
+                                          </msup>
+                                        </mrow>
+                                      </menclose>
+                                      <mspace width="0.2em"/>
+                                      <mo>×</mo>
+                                      <mspace width="0.2em"/>
+                                      <mn>502</mn>
+                                      <mspace width="0.2em"/>
+                                      <menclose notation="horizontalstrike">
+                                        <mtext>K</mtext>
+                                      </menclose>
+                                    </mrow>
+                                    <mrow>
+                                      <mn>4.25</mn>
+                                      <mspace width="0.2em"/>
+                                      <menclose notation="horizontalstrike">
+                                        <mtext>L</mtext>
+                                      </menclose>
+                                    </mrow>
+                                  </mfrac>
+                                  <mspace width="0.2em"/>
+                                  <mo>=</mo>
+                                  <mn>33.5</mn>
+                                  <mspace width="0.2em"/>
+                                  <mtext>atm</mtext>
+                                </mrow>
+                              </mrow>
+                              <annotation-xml encoding="MathML-Content">
+                                <mrow>
+                                  <mi>P</mi>
+                                  <mo>=</mo>
+                                  <mspace width="0.2em"/>
+                                  <mfrac>
+                                    <mrow>
+                                      <mi>n</mi>
+                                      <mi>R</mi>
+                                      <mi>T</mi>
+                                    </mrow>
+                                    <mi>V</mi>
+                                  </mfrac>
+                                  <mspace width="0.2em"/>
+                                  <mo>=</mo>
+                                  <mspace width="0.2em"/>
+                                  <mfrac>
+                                    <mrow>
+                                      <mn>3.46</mn>
+                                      <mspace width="0.2em"/>
+                                      <menclose notation="horizontalstrike">
+                                        <mrow>
+                                          <mtext>mol</mtext>
+                                        </mrow>
+                                      </menclose>
+                                      <mspace width="0.2em"/>
+                                      <mo>×</mo>
+                                      <mspace width="0.2em"/>
+                                      <mn>0.08206</mn>
+                                      <mspace width="0.2em"/>
+                                      <menclose notation="horizontalstrike">
+                                        <mtext>L</mtext>
+                                      </menclose>
+                                      <mspace width="0.2em"/>
+                                      <mtext>atm</mtext>
+                                      <mspace width="0.2em"/>
+                                      <menclose notation="horizontalstrike">
+                                        <mrow>
+                                          <msup>
+                                            <mrow>
+                                              <mtext>mol</mtext>
+                                            </mrow>
+                                            <mrow>
+                                              <mtext>−1</mtext>
+                                            </mrow>
+                                          </msup>
+                                        </mrow>
+                                      </menclose>
+                                      <mspace width="0.2em"/>
+                                      <menclose notation="horizontalstrike">
+                                        <mrow>
+                                          <msup>
+                                            <mtext>K</mtext>
+                                            <mrow>
+                                              <mtext>−1</mtext>
+                                            </mrow>
+                                          </msup>
+                                        </mrow>
+                                      </menclose>
+                                      <mspace width="0.2em"/>
+                                      <mo>×</mo>
+                                      <mspace width="0.2em"/>
+                                      <mn>502</mn>
+                                      <mspace width="0.2em"/>
+                                      <menclose notation="horizontalstrike">
+                                        <mtext>K</mtext>
+                                      </menclose>
+                                    </mrow>
+                                    <mrow>
+                                      <mn>4.25</mn>
+                                      <mspace width="0.2em"/>
+                                      <menclose notation="horizontalstrike">
+                                        <mtext>L</mtext>
+                                      </menclose>
+                                    </mrow>
+                                  </mfrac>
+                                  <mspace width="0.2em"/>
+                                  <mo>=</mo>
+                                  <mn>33.5</mn>
+                                  <mspace width="0.2em"/>
+                                  <mtext>atm</mtext>
+                                </mrow>
+                              </annotation-xml>
+                            </semantics>
+                          </math>
+                        </div>
+                        <p
+                          id="fs-idp14703728"
+                        >(b) From the van der Waals equation:</p>
+                        <div data-type="equation" id="fs-idm122220784">
+                          <math display="block">
+                            <semantics>
+                              <mrow>
+                                <mrow>
+                                  <mrow>
+                                    <mo>(</mo>
+                                    <mrow>
+                                      <mi>P</mi>
+                                      <mo>+</mo>
+                                      <mfrac>
+                                        <mrow>
+                                          <msup>
+                                            <mi>n</mi>
+                                            <mn>2</mn>
+                                          </msup>
+                                          <mi>a</mi>
+                                        </mrow>
+                                        <mrow>
+                                          <msup>
+                                            <mi>V</mi>
+                                            <mn>2</mn>
+                                          </msup>
+                                        </mrow>
+                                      </mfrac>
+                                    </mrow>
+                                    <mo>)</mo>
+                                  </mrow>
+                                  <mspace width="0.2em"/>
+                                  <mo>×</mo>
+                                  <mspace width="0.2em"/>
+                                  <mrow>
+                                    <mo>(</mo>
+                                    <mrow>
+                                      <mi>V</mi>
+                                      <mo>−</mo>
+                                      <mi>n</mi>
+                                      <mi>b</mi>
+                                    </mrow>
+                                    <mo>)</mo>
+                                  </mrow>
+                                  <mo>=</mo>
+                                  <mi>n</mi>
+                                  <mi>R</mi>
+                                  <mi>T</mi>
+                                  <mspace width="0.2em"/>
+                                  <mo stretchy="false">⟶</mo>
+                                  <mspace width="0.2em"/>
+                                  <mi>P</mi>
+                                  <mo>=</mo>
+                                  <mspace width="0.2em"/>
+                                  <mfrac>
+                                    <mrow>
+                                      <mi>n</mi>
+                                      <mi>R</mi>
+                                      <mi>T</mi>
+                                    </mrow>
+                                    <mrow>
+                                      <mrow>
+                                        <mo>(</mo>
+                                        <mrow>
+                                          <mi>V</mi>
+                                          <mo>−</mo>
+                                          <mi>n</mi>
+                                          <mi>b</mi>
+                                        </mrow>
+                                        <mo>)</mo>
+                                      </mrow>
+                                    </mrow>
+                                  </mfrac>
+                                  <mspace width="0.2em"/>
+                                  <mo>−</mo>
+                                  <mspace width="0.2em"/>
+                                  <mfrac>
+                                    <mrow>
+                                      <msup>
+                                        <mi>n</mi>
+                                        <mn>2</mn>
+                                      </msup>
+                                      <mi>a</mi>
+                                    </mrow>
+                                    <mrow>
+                                      <msup>
+                                        <mi>V</mi>
+                                        <mn>2</mn>
+                                      </msup>
+                                    </mrow>
+                                  </mfrac>
+                                </mrow>
+                              </mrow>
+                              <annotation-xml encoding="MathML-Content">
+                                <mrow>
+                                  <mrow>
+                                    <mo>(</mo>
+                                    <mrow>
+                                      <mi>P</mi>
+                                      <mo>+</mo>
+                                      <mfrac>
+                                        <mrow>
+                                          <msup>
+                                            <mi>n</mi>
+                                            <mn>2</mn>
+                                          </msup>
+                                          <mi>a</mi>
+                                        </mrow>
+                                        <mrow>
+                                          <msup>
+                                            <mi>V</mi>
+                                            <mn>2</mn>
+                                          </msup>
+                                        </mrow>
+                                      </mfrac>
+                                    </mrow>
+                                    <mo>)</mo>
+                                  </mrow>
+                                  <mspace width="0.2em"/>
+                                  <mo>×</mo>
+                                  <mspace width="0.2em"/>
+                                  <mrow>
+                                    <mo>(</mo>
+                                    <mrow>
+                                      <mi>V</mi>
+                                      <mo>−</mo>
+                                      <mi>n</mi>
+                                      <mi>b</mi>
+                                    </mrow>
+                                    <mo>)</mo>
+                                  </mrow>
+                                  <mo>=</mo>
+                                  <mi>n</mi>
+                                  <mi>R</mi>
+                                  <mi>T</mi>
+                                  <mspace width="0.2em"/>
+                                  <mo stretchy="false">⟶</mo>
+                                  <mspace width="0.2em"/>
+                                  <mi>P</mi>
+                                  <mo>=</mo>
+                                  <mspace width="0.2em"/>
+                                  <mfrac>
+                                    <mrow>
+                                      <mi>n</mi>
+                                      <mi>R</mi>
+                                      <mi>T</mi>
+                                    </mrow>
+                                    <mrow>
+                                      <mrow>
+                                        <mo>(</mo>
+                                        <mrow>
+                                          <mi>V</mi>
+                                          <mo>−</mo>
+                                          <mi>n</mi>
+                                          <mi>b</mi>
+                                        </mrow>
+                                        <mo>)</mo>
+                                      </mrow>
+                                    </mrow>
+                                  </mfrac>
+                                  <mspace width="0.2em"/>
+                                  <mo>−</mo>
+                                  <mspace width="0.2em"/>
+                                  <mfrac>
+                                    <mrow>
+                                      <msup>
+                                        <mi>n</mi>
+                                        <mn>2</mn>
+                                      </msup>
+                                      <mi>a</mi>
+                                    </mrow>
+                                    <mrow>
+                                      <msup>
+                                        <mi>V</mi>
+                                        <mn>2</mn>
+                                      </msup>
+                                    </mrow>
+                                  </mfrac>
+                                </mrow>
+                              </annotation-xml>
+                            </semantics>
+                          </math>
+                        </div>
+
+                        <div data-type="equation" id="fs-idp204240560">
+                          <math display="block">
+                            <semantics>
+                              <mrow>
+                                <mrow>
+                                  <mi>P</mi>
+                                  <mo>=</mo>
+                                  <mspace width="0.2em"/>
+                                  <mfrac>
+                                    <mrow>
+                                      <mn>3.46</mn>
+                                      <mspace width="0.2em"/>
+                                      <mtext>mol</mtext>
+                                      <mspace width="0.2em"/>
+                                      <mo>×</mo>
+                                      <mspace width="0.2em"/>
+                                      <mn>0.08206</mn>
+                                      <mspace width="0.2em"/>
+                                      <mtext>L</mtext>
+                                      <mspace width="0.2em"/>
+                                      <mtext>atm</mtext>
+                                      <mspace width="0.2em"/>
+                                      <msup>
+                                        <mrow>
+                                          <mtext>mol</mtext>
+                                        </mrow>
+                                        <mrow>
+                                          <mtext>−1</mtext>
+                                        </mrow>
+                                      </msup>
+                                      <mspace width="0.2em"/>
+                                      <msup>
+                                        <mtext>K</mtext>
+                                        <mrow>
+                                          <mtext>−1</mtext>
+                                        </mrow>
+                                      </msup>
+                                      <mspace width="0.2em"/>
+                                      <mo>×</mo>
+                                      <mspace width="0.2em"/>
+                                      <mtext>502 K</mtext>
+                                    </mrow>
+                                    <mrow>
+                                      <mrow>
+                                        <mo>(</mo>
+                                        <mrow>
+                                          <mn>4.25</mn>
+                                          <mspace width="0.2em"/>
+                                          <mtext>L</mtext>
+                                          <mo>−</mo>
+                                          <mn>3.46</mn>
+                                          <mspace width="0.2em"/>
+                                          <mtext>mol</mtext>
+                                          <mspace width="0.2em"/>
+                                          <mo>×</mo>
+                                          <mspace width="0.2em"/>
+                                          <mn>0.0427</mn>
+                                          <mspace width="0.2em"/>
+                                          <mtext>L</mtext>
+                                          <mspace width="0.2em"/>
+                                          <msup>
+                                            <mrow>
+                                              <mtext>mol</mtext>
+                                            </mrow>
+                                            <mrow>
+                                              <mtext>−1</mtext>
+                                            </mrow>
+                                          </msup>
+                                        </mrow>
+                                        <mo>)</mo>
+                                      </mrow>
+                                    </mrow>
+                                  </mfrac>
+                                  <mspace width="0.2em"/>
+                                  <mo>−</mo>
+                                  <mspace width="0.2em"/>
+                                  <mfrac>
+                                    <mrow>
+                                      <msup>
+                                        <mrow>
+                                          <mrow>
+                                            <mo>(</mo>
+                                            <mrow>
+                                              <mn>3.46</mn>
+                                              <mspace width="0.2em"/>
+                                              <mtext>mol</mtext>
+                                            </mrow>
+                                            <mo>)</mo>
+                                          </mrow>
+                                        </mrow>
+                                        <mn>2</mn>
+                                      </msup>
+                                      <mspace width="0.2em"/>
+                                      <mo>×</mo>
+                                      <mspace width="0.2em"/>
+                                      <mn>3.59</mn>
+                                      <mspace width="0.2em"/>
+                                      <msup>
+                                        <mtext>L</mtext>
+                                        <mn>2</mn>
+                                      </msup>
+                                      <mspace width="0.2em"/>
+                                      <mtext>atm</mtext>
+                                      <mspace width="0.2em"/>
+                                      <msup>
+                                        <mrow>
+                                          <mtext>mol</mtext>
+                                        </mrow>
+                                        <mn>2</mn>
+                                      </msup>
+                                    </mrow>
+                                    <mrow>
+                                      <msup>
+                                        <mrow>
+                                          <mrow>
+                                            <mo>(</mo>
+                                            <mrow>
+                                              <mn>4.25</mn>
+                                              <mspace width="0.2em"/>
+                                              <mtext>L</mtext>
+                                            </mrow>
+                                            <mo>)</mo>
+                                          </mrow>
+                                        </mrow>
+                                        <mn>2</mn>
+                                      </msup>
+                                    </mrow>
+                                  </mfrac>
+                                </mrow>
+                              </mrow>
+                              <annotation-xml encoding="MathML-Content">
+                                <mrow>
+                                  <mi>P</mi>
+                                  <mo>=</mo>
+                                  <mspace width="0.2em"/>
+                                  <mfrac>
+                                    <mrow>
+                                      <mn>3.46</mn>
+                                      <mspace width="0.2em"/>
+                                      <mtext>mol</mtext>
+                                      <mspace width="0.2em"/>
+                                      <mo>×</mo>
+                                      <mspace width="0.2em"/>
+                                      <mn>0.08206</mn>
+                                      <mspace width="0.2em"/>
+                                      <mtext>L</mtext>
+                                      <mspace width="0.2em"/>
+                                      <mtext>atm</mtext>
+                                      <mspace width="0.2em"/>
+                                      <msup>
+                                        <mrow>
+                                          <mtext>mol</mtext>
+                                        </mrow>
+                                        <mrow>
+                                          <mtext>−1</mtext>
+                                        </mrow>
+                                      </msup>
+                                      <mspace width="0.2em"/>
+                                      <msup>
+                                        <mtext>K</mtext>
+                                        <mrow>
+                                          <mtext>−1</mtext>
+                                        </mrow>
+                                      </msup>
+                                      <mspace width="0.2em"/>
+                                      <mo>×</mo>
+                                      <mspace width="0.2em"/>
+                                      <mtext>502 K</mtext>
+                                    </mrow>
+                                    <mrow>
+                                      <mrow>
+                                        <mo>(</mo>
+                                        <mrow>
+                                          <mn>4.25</mn>
+                                          <mspace width="0.2em"/>
+                                          <mtext>L</mtext>
+                                          <mo>−</mo>
+                                          <mn>3.46</mn>
+                                          <mspace width="0.2em"/>
+                                          <mtext>mol</mtext>
+                                          <mspace width="0.2em"/>
+                                          <mo>×</mo>
+                                          <mspace width="0.2em"/>
+                                          <mn>0.0427</mn>
+                                          <mspace width="0.2em"/>
+                                          <mtext>L</mtext>
+                                          <mspace width="0.2em"/>
+                                          <msup>
+                                            <mrow>
+                                              <mtext>mol</mtext>
+                                            </mrow>
+                                            <mrow>
+                                              <mtext>−1</mtext>
+                                            </mrow>
+                                          </msup>
+                                        </mrow>
+                                        <mo>)</mo>
+                                      </mrow>
+                                    </mrow>
+                                  </mfrac>
+                                  <mspace width="0.2em"/>
+                                  <mo>−</mo>
+                                  <mspace width="0.2em"/>
+                                  <mfrac>
+                                    <mrow>
+                                      <msup>
+                                        <mrow>
+                                          <mrow>
+                                            <mo>(</mo>
+                                            <mrow>
+                                              <mn>3.46</mn>
+                                              <mspace width="0.2em"/>
+                                              <mtext>mol</mtext>
+                                            </mrow>
+                                            <mo>)</mo>
+                                          </mrow>
+                                        </mrow>
+                                        <mn>2</mn>
+                                      </msup>
+                                      <mspace width="0.2em"/>
+                                      <mo>×</mo>
+                                      <mspace width="0.2em"/>
+                                      <mn>3.59</mn>
+                                      <mspace width="0.2em"/>
+                                      <msup>
+                                        <mtext>L</mtext>
+                                        <mn>2</mn>
+                                      </msup>
+                                      <mspace width="0.2em"/>
+                                      <mtext>atm</mtext>
+                                      <mspace width="0.2em"/>
+                                      <msup>
+                                        <mrow>
+                                          <mtext>mol</mtext>
+                                        </mrow>
+                                        <mn>2</mn>
+                                      </msup>
+                                    </mrow>
+                                    <mrow>
+                                      <msup>
+                                        <mrow>
+                                          <mrow>
+                                            <mo>(</mo>
+                                            <mrow>
+                                              <mn>4.25</mn>
+                                              <mspace width="0.2em"/>
+                                              <mtext>L</mtext>
+                                            </mrow>
+                                            <mo>)</mo>
+                                          </mrow>
+                                        </mrow>
+                                        <mn>2</mn>
+                                      </msup>
+                                    </mrow>
+                                  </mfrac>
+                                </mrow>
+                              </annotation-xml>
+                            </semantics>
+                          </math>
+                        </div>
+                        <p id="fs-idp24938016">
+                          This finally yields
+                          <em data-effect="italics">P</em> = 32.4 atm.
+                        </p>
+                        <p id="fs-idp70504128">
+                          (c) This is not very different from the value from the ideal gas law because the pressure is not very high and the temperature is not very low. The value is somewhat different because CO
+                          <sub>2</sub> molecules do have some volume and attractions between molecules, and the ideal gas law assumes they do not have volume or attractions.
+                        </p>
+                        <p id="fs-idp8228960">
+                          <span data-type="title">Check your Learning</span>
+                          A 560-mL flask contains 21.3 g N
+                          <sub>2</sub> at 145 °C. Calculate the pressure of N
+                          <sub>2</sub>:
+                        </p>
+                        <p id="fs-idm52984064">(a) from the ideal gas law</p>
+                        <p
+                          id="fs-idp68055984"
+                        >(b) from the van der Waals equation</p>
+                        <p
+                          id="fs-idm24430976"
+                        >(c) Explain the reason(s) for the difference.</p>
+                        <div data-type="note" id="fs-idm71592544">
+                          <h3 class="os-title" data-type="title">
+                            <span
+                              class="os-title-label"
+                              data-type
+                              id="[redacted for uniqueness]"
+                            >Answer:</span>
+                          </h3>
+                          <div class="os-note-body">
+                            <p
+                              id="fs-idp6517264"
+                            >(a) 46.562 atm; (b) 46.594 atm; (c) The van der Waals equation takes into account the volume of the gas molecules themselves as well as intermolecular attractions.</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  

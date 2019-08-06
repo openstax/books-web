@@ -1,0 +1,236 @@
+
+                    <div
+                      class="os-eoc os-summary-container"
+                      data-type="composite-page"
+                      data-uuid-key=".summary"
+                    >
+                      <section
+                        class="summary"
+                        data-depth="1"
+                        id="fs-idp13497520"
+                      >
+                        <h3 data-type="document-title" id="[redacted for uniqueness]">
+                          <span class="os-number">15.1</span>
+                          <span class="os-divider"></span>
+                          <span class="os-text">Precipitation and Dissolution</span>
+                        </h3>
+                        <p id="fs-idp13498448">
+                          The equilibrium constant for an equilibrium involving the precipitation or dissolution of a slightly soluble ionic solid is called the solubility product,
+                          <em data-effect="italics">K</em>
+                          <sub>sp</sub>, of the solid. For a heterogeneous equilibrium involving the slightly soluble solid M
+                          <sub>
+                            <em data-effect="italics">p</em>
+                          </sub>X
+                          <sub>
+                            <em data-effect="italics">q</em>
+                          </sub> and its ions M
+                          <sup>m+</sup> and X
+                          <sup>n–</sup>:
+                        </p>
+                        <div data-type="equation" id="fs-idp13501568">
+                          <math display="block">
+                            <semantics>
+                              <mrow>
+                                <mrow>
+                                  <msub>
+                                    <mtext>M</mtext>
+                                    <mi>p</mi>
+                                  </msub>
+                                  <msub>
+                                    <mtext>X</mtext>
+                                    <mi>q</mi>
+                                  </msub>
+                                  <mo stretchy="false">(</mo>
+                                  <mi>s</mi>
+                                  <mo stretchy="false">)</mo>
+                                  <mo stretchy="false">⇌</mo>
+                                  <mi>p</mi>
+                                  <msup>
+                                    <mtext>M</mtext>
+                                    <mrow>
+                                      <mtext>m+</mtext>
+                                    </mrow>
+                                  </msup>
+                                  <mo stretchy="false">(</mo>
+                                  <mi>a</mi>
+                                  <mi>q</mi>
+                                  <mo stretchy="false">)</mo>
+                                  <mo>+</mo>
+                                  <mi>q</mi>
+                                  <msup>
+                                    <mtext>X</mtext>
+                                    <mrow>
+                                      <mtext>n−</mtext>
+                                    </mrow>
+                                  </msup>
+                                  <mo stretchy="false">(</mo>
+                                  <mi>a</mi>
+                                  <mi>q</mi>
+                                  <mo stretchy="false">)</mo>
+                                </mrow>
+                              </mrow>
+                              <annotation-xml encoding="MathML-Content">
+                                <mrow>
+                                  <msub>
+                                    <mtext>M</mtext>
+                                    <mi>p</mi>
+                                  </msub>
+                                  <msub>
+                                    <mtext>X</mtext>
+                                    <mi>q</mi>
+                                  </msub>
+                                  <mo stretchy="false">(</mo>
+                                  <mi>s</mi>
+                                  <mo stretchy="false">)</mo>
+                                  <mo stretchy="false">⇌</mo>
+                                  <mi>p</mi>
+                                  <msup>
+                                    <mtext>M</mtext>
+                                    <mrow>
+                                      <mtext>m+</mtext>
+                                    </mrow>
+                                  </msup>
+                                  <mo stretchy="false">(</mo>
+                                  <mi>a</mi>
+                                  <mi>q</mi>
+                                  <mo stretchy="false">)</mo>
+                                  <mo>+</mo>
+                                  <mi>q</mi>
+                                  <msup>
+                                    <mtext>X</mtext>
+                                    <mrow>
+                                      <mtext>n−</mtext>
+                                    </mrow>
+                                  </msup>
+                                  <mo stretchy="false">(</mo>
+                                  <mi>a</mi>
+                                  <mi>q</mi>
+                                  <mo stretchy="false">)</mo>
+                                </mrow>
+                              </annotation-xml>
+                            </semantics>
+                          </math>
+                        </div>
+                        <p
+                          id="fs-idp13510416"
+                        >the solubility product expression is:</p>
+                        <div data-type="equation" id="fs-idp13510864">
+                          <math display="block">
+                            <semantics>
+                              <mrow>
+                                <mrow>
+                                  <msub>
+                                    <mi>K</mi>
+                                    <mrow>
+                                      <mtext>sp</mtext>
+                                    </mrow>
+                                  </msub>
+                                  <mo>=</mo>
+                                  <msup>
+                                    <mrow>
+                                      <msup>
+                                        <mrow>
+                                          <mtext>[M</mtext>
+                                        </mrow>
+                                        <mrow>
+                                          <mtext>m+</mtext>
+                                        </mrow>
+                                      </msup>
+                                      <mo stretchy="false">]</mo>
+                                    </mrow>
+                                    <mi>p</mi>
+                                  </msup>
+                                  <msup>
+                                    <mrow>
+                                      <msup>
+                                        <mrow>
+                                          <mtext>[X</mtext>
+                                        </mrow>
+                                        <mrow>
+                                          <mtext>n−</mtext>
+                                        </mrow>
+                                      </msup>
+                                      <mo stretchy="false">]</mo>
+                                    </mrow>
+                                    <mi>q</mi>
+                                  </msup>
+                                </mrow>
+                              </mrow>
+                              <annotation-xml encoding="MathML-Content">
+                                <mrow>
+                                  <msub>
+                                    <mi>K</mi>
+                                    <mrow>
+                                      <mtext>sp</mtext>
+                                    </mrow>
+                                  </msub>
+                                  <mo>=</mo>
+                                  <msup>
+                                    <mrow>
+                                      <msup>
+                                        <mrow>
+                                          <mtext>[M</mtext>
+                                        </mrow>
+                                        <mrow>
+                                          <mtext>m+</mtext>
+                                        </mrow>
+                                      </msup>
+                                      <mo stretchy="false">]</mo>
+                                    </mrow>
+                                    <mi>p</mi>
+                                  </msup>
+                                  <msup>
+                                    <mrow>
+                                      <msup>
+                                        <mrow>
+                                          <mtext>[X</mtext>
+                                        </mrow>
+                                        <mrow>
+                                          <mtext>n−</mtext>
+                                        </mrow>
+                                      </msup>
+                                      <mo stretchy="false">]</mo>
+                                    </mrow>
+                                    <mi>q</mi>
+                                  </msup>
+                                </mrow>
+                              </annotation-xml>
+                            </semantics>
+                          </math>
+                        </div>
+                        <p id="fs-idp13516480">
+                          The solubility product of a slightly soluble electrolyte can be calculated from its solubility; conversely, its solubility can be calculated from its
+                          <em data-effect="italics">K</em>
+                          <sub>sp</sub>, provided the only significant reaction that occurs when the solid dissolves is the formation of its ions.
+                        </p>
+                        <p
+                          id="fs-idp13518032"
+                        >A slightly soluble electrolyte begins to precipitate when the magnitude of the reaction quotient for the dissolution reaction exceeds the magnitude of the solubility product. Precipitation continues until the reaction quotient equals the solubility product.</p>
+                      </section>
+                      <section
+                        class="summary"
+                        data-depth="1"
+                        id="fs-idp45945376"
+                      >
+                        <h3 data-type="document-title" id="[redacted for uniqueness]">
+                          <span class="os-number">15.2</span>
+                          <span class="os-divider"></span>
+                          <span class="os-text">Lewis Acids and Bases</span>
+                        </h3>
+                        <p
+                          id="fs-idm14023472"
+                        >A Lewis acid is a species that can accept an electron pair, whereas a Lewis base has an electron pair available for donation to a Lewis acid. Complex ions are examples of Lewis acid-base adducts and comprise central metal atoms or ions acting as Lewis acids bonded to molecules or ions called ligands that act as Lewis bases. The equilibrium constant for the reaction between a metal ion and ligands produces a complex ion called a formation constant; for the reverse reaction, it is called a dissociation constant.</p>
+                      </section>
+                      <section class="summary" data-depth="1" id="fs-idm305648">
+                        <h3 data-type="document-title" id="[redacted for uniqueness]">
+                          <span class="os-number">15.3</span>
+                          <span class="os-divider"></span>
+                          <span class="os-text">Coupled Equilibria</span>
+                        </h3>
+                        <p
+                          id="fs-idm304720"
+                        >Systems involving two or more chemical equilibria that share one or more reactant or product are called coupled equilibria. Common examples of coupled equilibria include the increased solubility of some compounds in acidic solutions (coupled dissolution and neutralization equilibria) and in solutions containing ligands (coupled dissolution and complex formation). The equilibrium tools from other chapters may be applied to describe and perform calculations on these systems.</p>
+                      </section>
+                    </div>
+                  </div>
+                  

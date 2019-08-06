@@ -1,0 +1,87 @@
+
+                    <div
+                      class="os-eoc os-summary-container"
+                      data-type="composite-page"
+                      data-uuid-key=".summary"
+                    >
+                      <section
+                        class="summary"
+                        data-depth="1"
+                        id="fs-idp205751344"
+                      >
+                        <h3 data-type="document-title" id="[redacted for uniqueness]">
+                          <span class="os-number">16.1</span>
+                          <span class="os-divider"></span>
+                          <span class="os-text">Spontaneity</span>
+                        </h3>
+                        <p
+                          id="fs-idp119937936"
+                        >Chemical and physical processes have a natural tendency to occur in one direction under certain conditions. A spontaneous process occurs without the need for a continual input of energy from some external source, while a nonspontaneous process requires such. Systems undergoing a spontaneous process may or may not experience a gain or loss of energy, but they will experience a change in the way matter and/or energy is distributed within the system.</p>
+                      </section>
+                      <section
+                        class="summary"
+                        data-depth="1"
+                        id="fs-idm166431584"
+                      >
+                        <h3 data-type="document-title" id="[redacted for uniqueness]">
+                          <span class="os-number">16.2</span>
+                          <span class="os-divider"></span>
+                          <span class="os-text">Entropy</span>
+                        </h3>
+                        <p id="fs-idm12417328">
+                          Entropy (
+                          <em data-effect="italics">S</em>) is a state function that can be related to the number of microstates for a system (the number of ways the system can be arranged) and to the ratio of reversible heat to kelvin temperature. It may be interpreted as a measure of the dispersal or distribution of matter and/or energy in a system, and it is often described as representing the “disorder” of the system.
+                        </p>
+                        <p id="fs-idm1916912">
+                          For a given substance, entropy depends on phase with
+                          <em data-effect="italics">S</em>
+                          <sub>solid</sub> &lt;
+                          <em data-effect="italics">S</em>
+                          <sub>liquid</sub> &lt;
+                          <em data-effect="italics">S</em>
+                          <sub>gas</sub>. For different substances in the same physical state at a given temperature, entropy is typically greater for heavier atoms or more complex molecules. Entropy increases when a system is heated and when solutions form. Using these guidelines, the sign of entropy changes for some chemical reactions and physical changes may be reliably predicted.
+                        </p>
+                      </section>
+                      <section
+                        class="summary"
+                        data-depth="1"
+                        id="fs-idp139289936"
+                      >
+                        <h3 data-type="document-title" id="[redacted for uniqueness]">
+                          <span class="os-number">16.3</span>
+                          <span class="os-divider"></span>
+                          <span
+                            class="os-text"
+                          >The Second and Third Laws of Thermodynamics</span>
+                        </h3>
+                        <p id="fs-idp116042384">
+                          The second law of thermodynamics states that a spontaneous process increases the entropy of the universe,
+                          <em data-effect="italics">S</em>
+                          <sub>univ</sub> &gt; 0. If Δ
+                          <em data-effect="italics">S</em>
+                          <sub>univ</sub> &lt; 0, the process is nonspontaneous, and if Δ
+                          <em data-effect="italics">S</em>
+                          <sub>univ</sub> = 0, the system is at equilibrium. The third law of thermodynamics establishes the zero for entropy as that of a perfect, pure crystalline solid at 0 K. With only one possible microstate, the entropy is zero. We may compute the standard entropy change for a process by using standard entropy values for the reactants and products involved in the process.
+                        </p>
+                      </section>
+                      <section
+                        class="summary"
+                        data-depth="1"
+                        id="fs-idm220227936"
+                      >
+                        <h3 data-type="document-title" id="[redacted for uniqueness]">
+                          <span class="os-number">16.4</span>
+                          <span class="os-divider"></span>
+                          <span class="os-text">Free Energy</span>
+                        </h3>
+                        <p id="fs-idm197297904">
+                          Gibbs free energy (
+                          <em data-effect="italics">G</em>) is a state function defined with regard to system quantities only and may be used to predict the spontaneity of a process. A negative value for Δ
+                          <em data-effect="italics">G</em> indicates a spontaneous process; a positive Δ
+                          <em data-effect="italics">G</em> indicates a nonspontaneous process; and a Δ
+                          <em data-effect="italics">G</em> of zero indicates that the system is at equilibrium. A number of approaches to the computation of free energy changes are possible.
+                        </p>
+                      </section>
+                    </div>
+                  </div>
+                  

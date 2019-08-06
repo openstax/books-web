@@ -1,0 +1,481 @@
+@table-cell-padding: 0.5em 1em;
+@base-font: 14px;
+
+// Styles for the contents of a page.
+// This should **only** be imported inside a containing selector like:
+//
+//     #content { @import 'this_file.less'; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: @gray-dark;
+}
+
+p {
+  margin: 1rem 0 0;
+  color: @gray;
+
+  > [data-type="title"],
+  > .title {
+    display: block;
+    font-weight: bold;
+  }
+}
+
+a:not([role="button"]) {
+  text-decoration: underline;
+}
+
+img {
+  max-width: 100%;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+pre {
+  text-align: left;
+}
+
+> section,
+> figure,
+> p,
+> .abstract,
+> table {
+  &:first-child {
+    margin-top: 0 !important; // Ensure first element has no top margin
+  }
+}
+
+section > section,
+section > figure {
+  margin-top: 3rem;
+}
+
+> figure,
+:not(figure) > figure {
+  counter-increment: figure;
+  counter-reset: subfigure;
+}
+
+figure {
+  position: relative;
+  color: @gray;
+  text-align: center;
+
+  > figcaption {
+    padding: 1rem;
+    font-size: 1.3rem;
+  }
+
+  // do not wrap this in a .media so it applies to editing in Aloha
+  img {
+    max-width: 100%;
+    padding: 0; //overrides top&bott padding on img, all img EXCEPT those in figure tags should have 1em top&bott padding
+  }
+
+  > [data-type="media"],
+  > .media {
+    display: block;
+    margin: 0;
+    text-align: center;
+  }
+
+  // Subfigures
+  > figure {
+    counter-increment: subfigure;
+
+    &:not(.ui-has-child-figcaption)::after {
+      display: block;
+      position: relative;
+      font-weight: bold;
+      text-align: center;
+      // content: '(' counter(subfigure,lower-alpha) ')';
+    }
+
+  }
+}
+
+// By default, figures are laid out horizontally
+// unless they have the data-orient="vertical" attribute.
+figure:not([data-orient="vertical"]) {
+  display: table;
+  position: relative;
+  // width: 100%;
+  top: 0;
+  table-layout: fixed;
+
+  > [data-type="title"],
+  > .title {
+    font-weight: bold;
+  }
+
+  > figcaption {
+    display: table-caption;
+    margin-bottom: 1.5rem;
+    caption-side: bottom;
+  }
+
+  // Subfigures
+  > figure {
+    display: table-cell;
+
+    > figcaption {
+      display: block;
+    }
+  }
+}
+
+figure[data-orient="vertical"] {
+  // The display defaults are correct for figures and subfigures
+  // that are displayed vertically.
+}
+
+[data-type="term"],
+.term {
+  font-weight: bold;
+}
+
+// Teachers Edition
+.os-teacher {
+  display: none;
+}
+
+// ----------------------
+// Lists
+// ----------------------
+
+// A list with a title
+[data-type="list"],
+.list {
+  overflow-wrap: break-word;
+
+  > [data-type="title"],
+  > .title {
+    font-weight: bold;
+  }
+}
+
+.footnote {
+  font-size: 1rem;
+}
+
+[data-type="footnote-ref"] {
+  padding-left: 27px;
+  text-indent: -27px;
+}
+
+.abstract {
+  position: relative;
+  margin: 3rem 6rem 0 6rem;
+  padding: 4.5rem 1.5rem 1.5rem 1.5rem;
+  background-color: @gray-lightest;
+
+  ul {
+    margin: 1.5rem 0 0 0;
+
+    &::after {
+      position: absolute;
+      top: 1.5rem;
+      left: 1.5rem;
+      color: @gray;
+      font-size: 1.5rem;
+      font-weight: bold;
+      letter-spacing: 0.1rem;
+      text-transform: uppercase;
+      content: "Abstract";
+    }
+  }
+}
+
+// --------------------------------
+// Blockish things (note, example, exercise)
+// --------------------------------
+
+// Slots for various blockish pieces of content (things with a label, title, and body)
+// This **ONLY** contains rules, no selectors.
+#blockish {
+
+  // Slot descriptions:
+  //
+  // - `@type` can be something like `note`, `exercise`, `example`, etc
+  // - `.style()` : styling for the blockish element
+  // - `.default-label()` : the default text if there is no custom label (@has-title is used to put a colon)
+  // - `.label()` : styling for the label part; @has-title is true if there is a title child
+  // - `.title()` : styling for the title (if there is one since they are optional)
+  // - `.body()` : styling for the rest
+
+  .style(@type) { }
+  .default-label(@type; @has-title) { }
+  .title(@type) {
+    display: inline-block;
+  }
+  .body(@type) { }
+
+  // Style the note
+  .default-label(note; false) {
+    content: "Note";
+  }
+  .default-label(note; true) {
+    content: "Note: ";
+  }
+  .style(note) {
+    margin: 3rem 6rem 0 6rem;
+    padding: 1.5rem;
+    background-color: @gray-lightest;
+
+    @media (max-width: @screen-xs-max) {
+      margin-right: 0;
+      margin-left: 0;
+    }
+  }
+  .title(note) {
+    color: @gray;
+    font-size: 1.5rem;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+  }
+  .body(note) {
+    padding: 0.5rem 1.5rem;
+    border-top: 0.1rem solid @gray;
+    background-color: @gray-lightest;
+  }
+
+  // Style the example
+  .default-label(example; false) {
+    content: "Example";
+  }
+  .default-label(example; true)  {
+    content: "Example: ";
+  }
+
+  // .style(example) { margin-top: 3rem; }
+  // .title(example) {
+  //   padding: 0.1em 1em;
+  //   font-weight: bold;
+  //   color: @gray-lightest;
+  //   background-color: @gray;
+  // }
+  // Style the body of an example the same as a note
+
+  .body(example) {
+    .body(note);
+  }
+
+  //Style the exercise the same as an example
+  .default-label(exercise; false) {
+    content: "Exercise";
+  }
+  .default-label(exercise; true)  {
+    content: "Exercise: ";
+  }
+  .style(exercise) {
+    .style(example);
+  }
+  .title(exercise) {
+    .title(example);
+  }
+  .body(exercise)  {
+    .body(example);
+  }
+}
+
+blockquote {
+  font-size: @base-font;
+}
+
+.mixin-exercise() {
+  [data-type="problem"],
+  [data-type="solution"],
+  .problem,
+  .solution {
+    padding: 0.5em 1em;
+  }
+
+  // Exercise Solutions contain a button to toggle showing or hiding the solution
+  [data-type="solution"],
+  .solution {
+    border-top: 0.1rem solid @gray;
+
+    // The Show/Hide Solution text
+    > .ui-toggle-wrapper {
+      text-align: center;
+
+      > .ui-toggle {
+        outline: 0;
+        font-weight: bold;
+        text-align: center;
+      }
+    }
+
+    &:not(.ui-solution-visible) {
+      > .ui-toggle-wrapper > button.ui-toggle::before {
+        content: "[Show Solution]";
+      }
+      > section {
+        display: none;
+      }
+    }
+
+    &.ui-solution-visible {
+      > .ui-toggle-wrapper > button.ui-toggle::before {
+        content: "[Hide Solution]";
+      }
+    }
+  }
+
+  &.check-understanding [data-type="title"]::before,
+  &[data-type="check-understanding"] .title::before {
+    margin-right: 0;
+    content: "";
+  }
+
+  &.conceptual-questions [data-type="problem"],
+  &[data-type="conceptual-questions"] .problem {
+    border-top: none;
+
+    p {
+      margin: 0;
+    }
+  }
+
+  &.problems-exercises,
+  &[data-type="problems-exercises"] {
+
+    [data-type="problem"]::before,
+    [data-type="solution"]::before,
+    .problem::before, .solution::before {
+      color: @gray;
+      font-weight: bold;
+      letter-spacing: 0.1rem;
+      text-transform: uppercase;
+    }
+
+    [data-type="problem"]::before,
+    .problem::before {
+      content: "Problem";
+    }
+
+    [data-type="solution"]::before,
+    .solution::before {
+      content: "Solution";
+    }
+  }
+
+}
+
+[data-type="example"],
+[data-type="exercise"],
+.example,
+.exercise {
+
+  .mixin-exercise();
+}
+
+//
+// Tables
+// --------------------------------------------------
+
+.table-wrapper {
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  max-width: 100%;
+  margin-top: 6rem;
+  margin-bottom: @line-height-computed;
+  background-color: @table-bg;
+  counter-increment: table;
+
+  caption {
+    margin-top: 0.5rem;
+    font-size: 1.3rem;
+    text-align: left;
+    caption-side: bottom;
+
+    sup {
+      top: auto;
+      line-height: inherit;
+    }
+
+    > .title {
+      display: block;
+      font-size: 1.6rem;
+      font-weight: bold;
+
+      &::before {
+        margin-right: 0.5rem;
+        color: @gray-medium;
+        font-weight: bold;
+        content: "Table " counter(table) ".";
+      }
+    }
+  }
+
+  // Cells
+  thead {
+    tr > th { 
+      padding: @table-cell-padding;
+    }
+  }
+  tbody {
+    tr > td[data-align="right"]{
+      text-align: right;
+    }
+    tr > td {
+      padding: @table-cell-padding;
+      border: 0.1rem solid @table-border-color;
+  }
+}
+  tfoot {
+    > tr {
+      > th,
+      > td {
+        padding: @table-cell-padding;
+        border: 0.1rem solid @table-border-color;
+        line-height: @line-height-base;
+        vertical-align: top;
+      }
+    }
+  }
+
+  // Bottom align for column headings
+  thead > tr > th,
+  thead > tr > td {
+    border: 0.2rem solid @table-border-color;
+    font-weight: bold;
+    text-align: left;
+    vertical-align: bottom;
+  }
+
+  // Account for multiple tbody instances
+  tbody + tbody {
+    border: 0.2rem solid @table-border-color;
+  }
+
+  // Nesting
+  table {
+    background-color: @body-bg;
+  }
+}
+
+//
+// Glossary
+// --------------------------------------------------
+
+[data-type="glossary"] {
+  [data-type="definition"] {
+    margin: 1rem 3rem;
+  }
+}
+
+//
+// Equations
+// --------------------------------------------------
+[data-type="equation"] {
+  overflow: auto;
+}

@@ -1,0 +1,232 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button matches snapshot - default 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  font-family: Neue Helvetica W01;
+  border-radius: 0.2rem;
+  font-size: 1.6rem;
+  height: 4rem;
+  padding: 0 3rem;
+  color: #5e6062;
+  background-color: #fff;
+  border: 1px solid #d5d5d5;
+  font-weight: regular;
+}
+
+.c0:hover {
+  background-color: #fafafa;
+}
+
+.c0:active {
+  background-color: #e5e5e5;
+}
+
+<button
+  className="c0"
+/>
+`;
+
+exports[`Button matches snapshot - large 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  font-family: Neue Helvetica W01;
+  border-radius: 0.2rem;
+  font-size: 1.6rem;
+  height: 5rem;
+  padding: 0 3rem;
+  color: #5e6062;
+  background-color: #fff;
+  border: 1px solid #d5d5d5;
+  font-weight: regular;
+}
+
+.c0:hover {
+  background-color: #fafafa;
+}
+
+.c0:active {
+  background-color: #e5e5e5;
+}
+
+<button
+  className="c0"
+  size="large"
+/>
+`;
+
+exports[`Button matches snapshot - medium 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  font-family: Neue Helvetica W01;
+  border-radius: 0.2rem;
+  font-size: 1.6rem;
+  height: 4rem;
+  padding: 0 3rem;
+  color: #5e6062;
+  background-color: #fff;
+  border: 1px solid #d5d5d5;
+  font-weight: regular;
+}
+
+.c0:hover {
+  background-color: #fafafa;
+}
+
+.c0:active {
+  background-color: #e5e5e5;
+}
+
+<button
+  className="c0"
+  size="medium"
+/>
+`;
+
+exports[`Button matches snapshot - primary 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  font-family: Neue Helvetica W01;
+  border-radius: 0.2rem;
+  font-size: 1.6rem;
+  height: 4rem;
+  padding: 0 3rem;
+  color: #fff;
+  background-color: #f36b32;
+  font-weight: bold;
+  border: none;
+}
+
+.c0:hover {
+  background-color: #e96128;
+}
+
+.c0:active {
+  background-color: #df571e;
+}
+
+<button
+  className="c0"
+/>
+`;
+
+exports[`Button matches snapshot - secondary 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  font-family: Neue Helvetica W01;
+  border-radius: 0.2rem;
+  font-size: 1.6rem;
+  height: 4rem;
+  padding: 0 3rem;
+  color: #fff;
+  background-color: #959595;
+  font-weight: bold;
+  border: none;
+}
+
+.c0:hover {
+  background-color: #8b8b8b;
+}
+
+.c0:active {
+  background-color: #818181;
+}
+
+<button
+  className="c0"
+/>
+`;
+
+exports[`Button matches snapshot - small 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  font-family: Neue Helvetica W01;
+  border-radius: 0.2rem;
+  font-size: 1.4rem;
+  height: 3rem;
+  padding: 0 2rem;
+  color: #5e6062;
+  background-color: #fff;
+  border: 1px solid #d5d5d5;
+  font-weight: regular;
+}
+
+.c0:hover {
+  background-color: #fafafa;
+}
+
+.c0:active {
+  background-color: #e5e5e5;
+}
+
+<button
+  className="c0"
+  size="small"
+/>
+`;

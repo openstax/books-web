@@ -1,0 +1,2019 @@
+
+                    <div
+                      data-cnxml-to-html-ver="[redacted for uniqueness]"
+                      data-type="page"
+                      id="2417915b-962d-4273-8f79-a8744124a6a5"
+                    >
+                      <div data-type="abstract" id="[redacted for uniqueness]">
+                        By the end of this section, you will be able to:
+                        <ul>
+                          <li>Identify acids, bases, and conjugate acid-base pairs according to the Brønsted-Lowry definition</li>
+                          <li>Write equations for acid and base ionization reactions</li>
+                          <li>Use the ion-product constant for water to calculate hydronium and hydroxide ion concentrations</li>
+                          <li>Describe the acid-base behavior of amphiprotic substances</li>
+                        </ul>
+                      </div>
+
+                      <p id="fs-idm196456848">
+                        The acid-base reaction class has been studied for quite some time. In 1680, Robert
+                        <span
+                          class="no-emphasis"
+                          data-type="term"
+                          group-by="B"
+                          id="[redacted for uniqueness]"
+                        >Boyle</span> reported traits of acid solutions that included their ability to dissolve many substances, to change the colors of certain natural dyes, and to lose these traits after coming in contact with alkali (base) solutions. In the eighteenth century, it was recognized that acids have a sour taste, react with limestone to liberate a gaseous substance (now known to be CO
+                        <sub>2</sub>), and interact with alkalis to form neutral substances. In 1815, Humphry
+                        <span
+                          class="no-emphasis"
+                          data-type="term"
+                          group-by="D"
+                          id="[redacted for uniqueness]"
+                        >Davy</span> contributed greatly to the development of the modern acid-base concept by demonstrating that hydrogen is the essential constituent of acids. Around that same time, Joseph Louis Gay-Lussac concluded that acids are substances that can neutralize bases and that these two classes of substances can be defined only in terms of each other. The significance of hydrogen was reemphasized in 1884 when Svante
+                        <span
+                          class="no-emphasis"
+                          data-type="term"
+                          group-by="A"
+                          id="[redacted for uniqueness]"
+                        >Arrhenius</span> defined an acid as a compound that dissolves in water to yield hydrogen cations (now recognized to be hydronium ions) and a base as a compound that dissolves in water to yield hydroxide anions.
+                      </p>
+
+                      <p id="fs-idm26037424">
+                        Johannes Brønsted and Thomas Lowry proposed a more general description in 1923 in which acids and bases were defined in terms of the transfer of hydrogen ions, H
+                        <sup>+</sup>. (Note that these hydrogen ions are often referred to simply as
+                        <em data-effect="italics">protons</em>, since that subatomic particle is the only component of cations derived from the most abundant hydrogen isotope,
+                        <sup>1</sup>H.) A compound that donates a proton to another compound is called a
+                        <span
+                          data-type="term"
+                          group-by="B"
+                          id="[redacted for uniqueness]"
+                        >Brønsted-Lowry acid</span>, and a compound that accepts a proton is called a
+                        <span
+                          data-type="term"
+                          group-by="B"
+                          id="[redacted for uniqueness]"
+                        >Brønsted-Lowry base</span>. An acid-base reaction is, thus, the transfer of a proton from a donor (acid) to an acceptor (base).
+                      </p>
+
+                      <p id="fs-idm56373376">
+                        The concept of
+                        <em data-effect="italics">conjugate pairs</em> is useful in describing Brønsted-Lowry acid-base reactions (and other reversible reactions, as well). When an acid donates H
+                        <sup>+</sup>, the species that remains is called the
+                        <strong data-effect="bold">conjugate base</strong> of the acid because it reacts as a proton acceptor in the reverse reaction. Likewise, when a base accepts H
+                        <sup>+</sup>, it is converted to its
+                        <strong data-effect="bold">conjugate acid</strong>. The reaction between water and ammonia illustrates this idea. In the forward direction, water acts as an acid by donating a proton to ammonia and subsequently becoming a hydroxide ion, OH
+                        <sup>−</sup>, the conjugate base of water. The ammonia acts as a base in accepting this proton, becoming an ammonium ion,
+                        <math display="inline">
+                          <semantics>
+                            <mrow>
+                              <mrow>
+                                <msup>
+                                  <mrow>
+                                    <msub>
+                                      <mrow>
+                                        <mtext>NH</mtext>
+                                      </mrow>
+                                      <mrow>
+                                        <mn>4</mn>
+                                      </mrow>
+                                    </msub>
+                                  </mrow>
+                                  <mrow>
+                                    <mtext>+</mtext>
+                                  </mrow>
+                                </msup>
+                                <mtext>,</mtext>
+                              </mrow>
+                            </mrow>
+                            <annotation-xml encoding="MathML-Content">
+                              <mrow>
+                                <msup>
+                                  <mrow>
+                                    <msub>
+                                      <mrow>
+                                        <mtext>NH</mtext>
+                                      </mrow>
+                                      <mrow>
+                                        <mn>4</mn>
+                                      </mrow>
+                                    </msub>
+                                  </mrow>
+                                  <mrow>
+                                    <mtext>+</mtext>
+                                  </mrow>
+                                </msup>
+                                <mtext>,</mtext>
+                              </mrow>
+                            </annotation-xml>
+                          </semantics>
+                        </math> the conjugate acid of ammonia. In the reverse direction, a hydroxide ion acts as a base in accepting a proton from ammonium ion, which acts as an acid.
+                      </p>
+
+                      <span
+                        class="scaled-down"
+                        data-alt="This figure has two rows. In both rows, a chemical reaction is shown. In the first, structural formulas are provided. In this model, in red, an H atom is connected to an F atom with a single bond. The F atom has pairs of electron dots at the top, right, and bottom. This is followed by a plus sign, which is followed in blue by an O atom which has H atoms singly bonded above and to the right. The O atom has pairs of electron dots on its left and lower sides. A double arrow follows. To the right, in brackets is a structure with a central O atom in blue, with blue H atoms singly bonded above and to the right. A pair of blue electron dots is on the lower side of the O atom. To the left of the blue O atom, a red H atom is singly bonded. This is followed by a plus sign and an F atom in red with pairs of electron dots above, right, below, and to the left. This atom also has a superscript negative sign. The reaction is written in symbolic form below. H F is labeled in red below as “Acid.” This is followed by plus H subscript 2 O, which is labeled in blue below as “Base.” A double sided arrow follows. To the right is H subscript 3 O superscript plus, which is labeled in blue below as “Acid.” This is followed by plus and F superscript negative. The label below in red reads, “Base.”"
+                        data-type="media"
+                        id="fs-idm51052736"
+                      >
+                        <img
+                          alt="This figure has two rows. In both rows, a chemical reaction is shown. In the first, structural formulas are provided. In this model, in red, an H atom is connected to an F atom with a single bond. The F atom has pairs of electron dots at the top, right, and bottom. This is followed by a plus sign, which is followed in blue by an O atom which has H atoms singly bonded above and to the right. The O atom has pairs of electron dots on its left and lower sides. A double arrow follows. To the right, in brackets is a structure with a central O atom in blue, with blue H atoms singly bonded above and to the right. A pair of blue electron dots is on the lower side of the O atom. To the left of the blue O atom, a red H atom is singly bonded. This is followed by a plus sign and an F atom in red with pairs of electron dots above, right, below, and to the left. This atom also has a superscript negative sign. The reaction is written in symbolic form below. H F is labeled in red below as “Acid.” This is followed by plus H subscript 2 O, which is labeled in blue below as “Base.” A double sided arrow follows. To the right is H subscript 3 O superscript plus, which is labeled in blue below as “Acid.” This is followed by plus and F superscript negative. The label below in red reads, “Base.”"
+                          data-media-type="image/jpeg"
+                          id="[redacted for uniqueness]"
+                          src="/resources/3b2c11eb2119ada7eef26fd299d83ca3c52031ab"
+                        >
+                      </span>
+
+                      <p id="fs-idm59705584">
+                        The reaction between a Brønsted-Lowry acid and water is called
+                        <span
+                          data-type="term"
+                          group-by="a"
+                          id="[redacted for uniqueness]"
+                        >acid ionization</span>. For example, when hydrogen fluoride dissolves in water and ionizes, protons are transferred from hydrogen fluoride molecules to water molecules, yielding hydronium ions and fluoride ions:
+                      </p>
+
+                      <span
+                        data-alt="This figure has two rows. In both rows, a chemical reaction is shown. In the first, structural formulas are provided. In this model, in red, is an O atom which has H atoms singly bonded above and to the right. The O atom has lone pairs of electron dots on its left and lower sides. This is followed by a plus sign. The plus sign is followed, in blue, by an N atom with one lone pair of electron dots. The N atom forms a double bond with a C atom, which forms a single bond with a C atom. The second C atom forms a double bond with another C atom, which forms a single bond with another C atom. The fourth C atom forms a double bond with a fifth C atom, which forms a single bond with the N atom. This creates a ring structure. Each C atom is also bonded to an H atom. An equilibrium arrow follows this structure. To the right, in brackets is a structure where an N atom bonded to an H atom, which is red, appears. The N atom forms a double bond with a C atom, which forms a single bond with a C atom. The second C atom forms a double bond with another C atom, which forms a single bond with another C atom. The fourth C atom forms a double bond with a fifth C atom, which forms a single bond with the N atom. This creates a ring structure. Each C atom is also bonded to an H atom. Outside the brackets, to the right, is a superscript positive sign. This structure is followed by a plus sign. Another structure that appears in brackets also appears. An O atom with three lone pairs of electron dots is bonded to an H atom. There is a superscript negative sign outside the brackets. Under the initial equation, is this equation: H subscript 2 plus C subscript 5 N H subscript 5 equilibrium arrow C subscript 5 N H subscript 6 superscript positive sign plus O H superscript negative sign. H subscript 2 O is labeled, “acid,” in red. C subscript 5 N H subscript 5 is labeled, “base,” in blue. C subscript 5 N H subscript 6 superscript positive sign is labeled, “acid” in blue. O H superscript negative sign is labeled, “base,” in red."
+                        data-type="media"
+                        id="fs-idm180061536"
+                      >
+                        <img
+                          alt="This figure has two rows. In both rows, a chemical reaction is shown. In the first, structural formulas are provided. In this model, in red, is an O atom which has H atoms singly bonded above and to the right. The O atom has lone pairs of electron dots on its left and lower sides. This is followed by a plus sign. The plus sign is followed, in blue, by an N atom with one lone pair of electron dots. The N atom forms a double bond with a C atom, which forms a single bond with a C atom. The second C atom forms a double bond with another C atom, which forms a single bond with another C atom. The fourth C atom forms a double bond with a fifth C atom, which forms a single bond with the N atom. This creates a ring structure. Each C atom is also bonded to an H atom. An equilibrium arrow follows this structure. To the right, in brackets is a structure where an N atom bonded to an H atom, which is red, appears. The N atom forms a double bond with a C atom, which forms a single bond with a C atom. The second C atom forms a double bond with another C atom, which forms a single bond with another C atom. The fourth C atom forms a double bond with a fifth C atom, which forms a single bond with the N atom. This creates a ring structure. Each C atom is also bonded to an H atom. Outside the brackets, to the right, is a superscript positive sign. This structure is followed by a plus sign. Another structure that appears in brackets also appears. An O atom with three lone pairs of electron dots is bonded to an H atom. There is a superscript negative sign outside the brackets. Under the initial equation, is this equation: H subscript 2 plus C subscript 5 N H subscript 5 equilibrium arrow C subscript 5 N H subscript 6 superscript positive sign plus O H superscript negative sign. H subscript 2 O is labeled, “acid,” in red. C subscript 5 N H subscript 5 is labeled, “base,” in blue. C subscript 5 N H subscript 6 superscript positive sign is labeled, “acid” in blue. O H superscript negative sign is labeled, “base,” in red."
+                          data-media-type="image/jpeg"
+                          id="[redacted for uniqueness]"
+                          src="/resources/1f9a8c21ac9da03aa5517b79f0d772d3f8fbb920"
+                        >
+                      </span>
+
+                      <p id="fs-idm185234272">
+                        <span
+                          data-type="term"
+                          group-by="B"
+                          id="[redacted for uniqueness]"
+                        >Base ionization</span> of a species occurs when it accepts protons from water molecules. In the example below, pyridine molecules, C
+                        <sub>5</sub>NH
+                        <sub>5</sub>, undergo base ionization when dissolved in water, yielding hydroxide and pyridinium ions:
+                      </p>
+                      <span
+                        data-alt="This figure has two rows. In both rows, a chemical reaction is shown. In the first, structural formulas are provided. In this model, in red, is an O atom which has H atoms singly bonded above and to the right. The O atom has lone pairs of electron dots on its left and lower sides. This is followed by a plus sign. The plus sign is followed, in blue, by an N atom with one lone pair of electron dots. The N atom forms a double bond with a C atom, which forms a single bond with a C atom. The second C atom forms a double bond with another C atom, which forms a single bond with another C atom. The fourth C atom forms a double bond with a fifth C atom, which forms a single bond with the N atom. This creates a ring structure. Each C atom is also bonded to an H atom. An equilibrium arrow follows this structure. To the right, in brackets is a structure where an N atom bonded to an H atom, which is red, appears. The N atom forms a double bond with a C atom, which forms a single bond with a C atom. The second C atom forms a double bond with another C atom, which forms a single bond with another C atom. The fourth C atom forms a double bond with a fifth C atom, which forms a single bond with the N atom. This creates a ring structure. Each C atom is also bonded to an H atom. Outside the brackets, to the right, is a superscript positive sign. This structure is followed by a plus sign. Another structure that appears in brackets also appears. An O atom with three lone pairs of electron dots is bonded to an H atom. There is a superscript negative sign outside the brackets. To the right, is the equation: k equals [ C subscript 5 N H subscript 6 superscript positive sign ] [ O H superscript negative sign] all divided by [ C subscript 5 N H subscript 5 ]. Under the initial equation, is this equation: H subscript 2 plus C subscript 5 N H subscript 5 equilibrium arrow C subscript 5 N H subscript 6 superscript positive sign plus O H superscript negative sign. H subscript 2 O is labeled, “acid,” in red. C subscript 5 N H subscript 5 is labeled, “base,” in blue. C subscript 5 N H subscript 6 superscript positive sign is labeled, “acid” in blue. O H superscript negative sign is labeled, “base,” in red."
+                        data-type="media"
+                        id="fs-idm159126864"
+                      >
+                        <img
+                          alt="This figure has two rows. In both rows, a chemical reaction is shown. In the first, structural formulas are provided. In this model, in red, is an O atom which has H atoms singly bonded above and to the right. The O atom has lone pairs of electron dots on its left and lower sides. This is followed by a plus sign. The plus sign is followed, in blue, by an N atom with one lone pair of electron dots. The N atom forms a double bond with a C atom, which forms a single bond with a C atom. The second C atom forms a double bond with another C atom, which forms a single bond with another C atom. The fourth C atom forms a double bond with a fifth C atom, which forms a single bond with the N atom. This creates a ring structure. Each C atom is also bonded to an H atom. An equilibrium arrow follows this structure. To the right, in brackets is a structure where an N atom bonded to an H atom, which is red, appears. The N atom forms a double bond with a C atom, which forms a single bond with a C atom. The second C atom forms a double bond with another C atom, which forms a single bond with another C atom. The fourth C atom forms a double bond with a fifth C atom, which forms a single bond with the N atom. This creates a ring structure. Each C atom is also bonded to an H atom. Outside the brackets, to the right, is a superscript positive sign. This structure is followed by a plus sign. Another structure that appears in brackets also appears. An O atom with three lone pairs of electron dots is bonded to an H atom. There is a superscript negative sign outside the brackets. To the right, is the equation: k equals [ C subscript 5 N H subscript 6 superscript positive sign ] [ O H superscript negative sign] all divided by [ C subscript 5 N H subscript 5 ]. Under the initial equation, is this equation: H subscript 2 plus C subscript 5 N H subscript 5 equilibrium arrow C subscript 5 N H subscript 6 superscript positive sign plus O H superscript negative sign. H subscript 2 O is labeled, “acid,” in red. C subscript 5 N H subscript 5 is labeled, “base,” in blue. C subscript 5 N H subscript 6 superscript positive sign is labeled, “acid” in blue. O H superscript negative sign is labeled, “base,” in red."
+                          data-media-type="image/jpeg"
+                          id="[redacted for uniqueness]"
+                          src="/resources/b523238d04bf275f461c36ececbc297f34fe7181"
+                        >
+                      </span>
+
+                      <p id="eip-304">
+                        The preceding ionization reactions suggest that water may function as both a base (as in its reaction with hydrogen fluoride) and an acid (as in its reaction with ammonia). Species capable of either donating or accepting protons are called
+                        <span
+                          data-type="term"
+                          group-by="a"
+                          id="[redacted for uniqueness]"
+                        >amphiprotric</span>, or more generally,
+                        <span
+                          data-type="term"
+                          group-by="a"
+                          id="[redacted for uniqueness]"
+                        >amphoteric</span>, a term that may be used for acids and bases per definitions other than the Brønsted-Lowry one. The equations below show the two possible acid-base reactions for two amphiprotic species, bicarbonate ion and water:
+                      </p>
+                      <div class="unnumbered" data-type="equation" id="eip-402">
+                        <math display="block">
+                          <semantics>
+                            <mrow>
+                              <mrow>
+                                <msub>
+                                  <mtext>HCO</mtext>
+                                  <mn>3</mn>
+                                </msub>
+                                <msup>
+                                  <mrow/>
+                                  <mo>–</mo>
+                                </msup>
+                                <mo>(</mo>
+                                <mtext fontstyle="italic">aq</mtext>
+                                <mo>)</mo>
+                                <mo>+</mo>
+                                <msub>
+                                  <mtext>H</mtext>
+                                  <mn>2</mn>
+                                </msub>
+                                <mtext>O</mtext>
+                                <mo>(</mo>
+                                <mtext fontstyle="italic">l</mtext>
+                                <mo>)</mo>
+                                <mspace width="4em"/>
+                                <msub>
+                                  <mtext>CO</mtext>
+                                  <mn>3</mn>
+                                </msub>
+                                <msup>
+                                  <mrow/>
+                                  <mo>2–</mo>
+                                </msup>
+                                <mo>(</mo>
+                                <mtext fontstyle="italic">aq</mtext>
+                                <mo>)</mo>
+                                <mo>+</mo>
+                                <msub>
+                                  <mtext>H</mtext>
+                                  <mn>3</mn>
+                                </msub>
+                                <msup>
+                                  <mtext>O</mtext>
+                                  <mo>+</mo>
+                                </msup>
+                                <mo>(</mo>
+                                <mtext fontstyle="italic">aq</mtext>
+                                <mo>)</mo>
+                              </mrow>
+                            </mrow>
+                            <annotation-xml encoding="MathML-Content">
+                              <mrow>
+                                <msub>
+                                  <mtext>HCO</mtext>
+                                  <mn>3</mn>
+                                </msub>
+                                <msup>
+                                  <mrow/>
+                                  <mo>–</mo>
+                                </msup>
+                                <mo>(</mo>
+                                <mtext fontstyle="italic">aq</mtext>
+                                <mo>)</mo>
+                                <mo>+</mo>
+                                <msub>
+                                  <mtext>H</mtext>
+                                  <mn>2</mn>
+                                </msub>
+                                <mtext>O</mtext>
+                                <mo>(</mo>
+                                <mtext fontstyle="italic">l</mtext>
+                                <mo>)</mo>
+                                <mspace width="4em"/>
+                                <msub>
+                                  <mtext>CO</mtext>
+                                  <mn>3</mn>
+                                </msub>
+                                <msup>
+                                  <mrow/>
+                                  <mo>2–</mo>
+                                </msup>
+                                <mo>(</mo>
+                                <mtext fontstyle="italic">aq</mtext>
+                                <mo>)</mo>
+                                <mo>+</mo>
+                                <msub>
+                                  <mtext>H</mtext>
+                                  <mn>3</mn>
+                                </msub>
+                                <msup>
+                                  <mtext>O</mtext>
+                                  <mo>+</mo>
+                                </msup>
+                                <mo>(</mo>
+                                <mtext fontstyle="italic">aq</mtext>
+                                <mo>)</mo>
+                              </mrow>
+                            </annotation-xml>
+                          </semantics>
+                        </math>
+                      </div>
+                      <div class="unnumbered" data-type="equation" id="eip-167">
+                        <math display="block">
+                          <semantics>
+                            <mrow>
+                              <mrow>
+                                <msub>
+                                  <mtext>HCO</mtext>
+                                  <mn>3</mn>
+                                </msub>
+                                <msup>
+                                  <mrow/>
+                                  <mo>–</mo>
+                                </msup>
+                                <mo>(</mo>
+                                <mtext fontstyle="italic">aq</mtext>
+                                <mo>)</mo>
+                                <mo>+</mo>
+                                <msub>
+                                  <mtext>H</mtext>
+                                  <mn>2</mn>
+                                </msub>
+                                <mtext>O</mtext>
+                                <mo>(</mo>
+                                <mtext fontstyle="italic">l</mtext>
+                                <mo>)</mo>
+                                <mspace width="4em"/>
+                                <msub>
+                                  <mtext>H</mtext>
+                                  <mn>2</mn>
+                                </msub>
+                                <msub>
+                                  <mtext>CO</mtext>
+                                  <mn>3</mn>
+                                </msub>
+                                <mo>(</mo>
+                                <mtext fontstyle="italic">aq</mtext>
+                                <mo>)</mo>
+                                <mo>+</mo>
+                                <msup>
+                                  <mtext>OH</mtext>
+                                  <mn>–</mn>
+                                </msup>
+                                <mo>(</mo>
+                                <mtext fontstyle="italic">aq</mtext>
+                                <mo>)</mo>
+                              </mrow>
+                            </mrow>
+                            <annotation-xml encoding="MathML-Content">
+                              <mrow>
+                                <msub>
+                                  <mtext>HCO</mtext>
+                                  <mn>3</mn>
+                                </msub>
+                                <msup>
+                                  <mrow/>
+                                  <mo>–</mo>
+                                </msup>
+                                <mo>(</mo>
+                                <mtext fontstyle="italic">aq</mtext>
+                                <mo>)</mo>
+                                <mo>+</mo>
+                                <msub>
+                                  <mtext>H</mtext>
+                                  <mn>2</mn>
+                                </msub>
+                                <mtext>O</mtext>
+                                <mo>(</mo>
+                                <mtext fontstyle="italic">l</mtext>
+                                <mo>)</mo>
+                                <mspace width="4em"/>
+                                <msub>
+                                  <mtext>H</mtext>
+                                  <mn>2</mn>
+                                </msub>
+                                <msub>
+                                  <mtext>CO</mtext>
+                                  <mn>3</mn>
+                                </msub>
+                                <mo>(</mo>
+                                <mtext fontstyle="italic">aq</mtext>
+                                <mo>)</mo>
+                                <mo>+</mo>
+                                <msup>
+                                  <mtext>OH</mtext>
+                                  <mn>–</mn>
+                                </msup>
+                                <mo>(</mo>
+                                <mtext fontstyle="italic">aq</mtext>
+                                <mo>)</mo>
+                              </mrow>
+                            </annotation-xml>
+                          </semantics>
+                        </math>
+                      </div>
+                      <p
+                        id="fs-idp176970528"
+                      >The first equation represents the reaction of bicarbonate as an acid with water as a base, whereas the second represents reaction of bicarbonate as a base with water as an acid. When bicarbonate is added to water, both these equilibria are established simultaneously and the composition of the resulting solution may be determined through appropriate equilibrium calculations, as described later in this chapter.</p>
+
+                      <p
+                        id="fs-idm206801664"
+                      >In the liquid state, molecules of an amphiprotic substance can react with one another as illustrated for water in the equations below:</p>
+
+                      <span
+                        class="scaled-down"
+                        data-alt="This figure has two rows. In both rows, a chemical reaction is shown. In the first, structural formulas are provided. In this model, in purple, O atom which has H atoms singly bonded above and to the right. The O atom has pairs of electron dots on its left and lower sides. This is followed by a plus sign, which is followed in green by an O atom which has H atoms singly bonded above and to the right. The O atom has pairs of electron dots on its left and lower sides. A double arrow follows. To the right, in brackets is a structure with a central O atom in green, with green H atoms singly bonded above and to the right. A pair of green electron dots is on the lower side of the O atom. To the left of the green O atom, a purple H atom is singly bonded. Outside the brackets to the right is a superscript plus. This is followed by a plus sign and an O atom in purple with pairs of electron dots above, left, and below. An H atom is singly bonded to the right. This atom has a superscript negative sign. The reaction is written in symbolic form below. H subscript 2 O is labeled in purple below as “Acid subscript 1.” This is followed by plus H subscript 2 O, which is labeled in green below as “Base subscript 2.” A double sided arrow follows. To the right is H subscript 3 O superscript plus, which is labeled in green as below in as “Acid subscript 2.” This is followed by plus and O with pairs of dots above, below, and to the left with a singly bonded H on the right with a superscript negative. The label below in purple reads, “ Base subscript 1.”"
+                        data-type="media"
+                        id="fs-idm27406976"
+                      >
+                        <img
+                          alt="This figure has two rows. In both rows, a chemical reaction is shown. In the first, structural formulas are provided. In this model, in purple, O atom which has H atoms singly bonded above and to the right. The O atom has pairs of electron dots on its left and lower sides. This is followed by a plus sign, which is followed in green by an O atom which has H atoms singly bonded above and to the right. The O atom has pairs of electron dots on its left and lower sides. A double arrow follows. To the right, in brackets is a structure with a central O atom in green, with green H atoms singly bonded above and to the right. A pair of green electron dots is on the lower side of the O atom. To the left of the green O atom, a purple H atom is singly bonded. Outside the brackets to the right is a superscript plus. This is followed by a plus sign and an O atom in purple with pairs of electron dots above, left, and below. An H atom is singly bonded to the right. This atom has a superscript negative sign. The reaction is written in symbolic form below. H subscript 2 O is labeled in purple below as “Acid subscript 1.” This is followed by plus H subscript 2 O, which is labeled in green below as “Base subscript 2.” A double sided arrow follows. To the right is H subscript 3 O superscript plus, which is labeled in green as below in as “Acid subscript 2.” This is followed by plus and O with pairs of dots above, below, and to the left with a singly bonded H on the right with a superscript negative. The label below in purple reads, “ Base subscript 1.”"
+                          data-media-type="image/jpeg"
+                          id="[redacted for uniqueness]"
+                          src="/resources/e01f62e2ee3d38a3a4064f62537f498b8caf0f4b"
+                        >
+                      </span>
+
+                      <p id="fs-idm114594272">
+                        The process in which like molecules react to yield ions is called
+                        <span
+                          data-type="term"
+                          group-by="a"
+                          id="[redacted for uniqueness]"
+                        >autoionization</span>. Liquid water undergoes autoionization to a very slight extent; at 25 °C, approximately two out of every billion water molecules are ionized. The extent of the water autoionization process is reflected in the value of its equilibrium constant, the
+                        <span data-type="term" group-by="i" id="[redacted for uniqueness]">
+                          ion-product constant for water,
+                          <em data-effect="italics">K</em>
+                          <sub>w</sub>
+                        </span>:
+                      </p>
+
+                      <div data-type="equation" id="fs-idm57289696">
+                        <math display="block">
+                          <semantics>
+                            <mrow>
+                              <mrow>
+                                <msub>
+                                  <mtext>H</mtext>
+                                  <mn>2</mn>
+                                </msub>
+                                <mtext>O</mtext>
+                                <mo stretchy="false">(</mo>
+                                <mi>l</mi>
+                                <mo stretchy="false">)</mo>
+                                <mo>+</mo>
+                                <msub>
+                                  <mtext>H</mtext>
+                                  <mn>2</mn>
+                                </msub>
+                                <mtext>O</mtext>
+                                <mo stretchy="false">(</mo>
+                                <mi>l</mi>
+                                <mo stretchy="false">)</mo>
+                                <mspace width="0.2em"/>
+                                <mo stretchy="false">⇌</mo>
+                                <mspace width="0.2em"/>
+                                <msub>
+                                  <mtext>H</mtext>
+                                  <mn>3</mn>
+                                </msub>
+                                <msup>
+                                  <mtext>O</mtext>
+                                  <mtext>+</mtext>
+                                </msup>
+                                <mo stretchy="false">(</mo>
+                                <mi>a</mi>
+                                <mi>q</mi>
+                                <mo stretchy="false">)</mo>
+                                <mo>+</mo>
+                                <msup>
+                                  <mrow>
+                                    <mtext>OH</mtext>
+                                  </mrow>
+                                  <mtext>−</mtext>
+                                </msup>
+                                <mo stretchy="false">(</mo>
+                                <mi>a</mi>
+                                <mi>q</mi>
+                                <mo stretchy="false">)</mo>
+                                <mspace width="5em"/>
+                                <msub>
+                                  <mi>K</mi>
+                                  <mtext>w</mtext>
+                                </msub>
+                                <mo>=</mo>
+                                <mo stretchy="false">[</mo>
+                                <msub>
+                                  <mtext>H</mtext>
+                                  <mn>3</mn>
+                                </msub>
+                                <msup>
+                                  <mtext>O</mtext>
+                                  <mtext>+</mtext>
+                                </msup>
+                                <mo stretchy="false">]</mo>
+                                <mo stretchy="false">[</mo>
+                                <msup>
+                                  <mrow>
+                                    <mtext>OH</mtext>
+                                  </mrow>
+                                  <mtext>−</mtext>
+                                </msup>
+                                <mo stretchy="false">]</mo>
+                              </mrow>
+                            </mrow>
+                            <annotation-xml encoding="MathML-Content">
+                              <mrow>
+                                <msub>
+                                  <mtext>H</mtext>
+                                  <mn>2</mn>
+                                </msub>
+                                <mtext>O</mtext>
+                                <mo stretchy="false">(</mo>
+                                <mi>l</mi>
+                                <mo stretchy="false">)</mo>
+                                <mo>+</mo>
+                                <msub>
+                                  <mtext>H</mtext>
+                                  <mn>2</mn>
+                                </msub>
+                                <mtext>O</mtext>
+                                <mo stretchy="false">(</mo>
+                                <mi>l</mi>
+                                <mo stretchy="false">)</mo>
+                                <mspace width="0.2em"/>
+                                <mo stretchy="false">⇌</mo>
+                                <mspace width="0.2em"/>
+                                <msub>
+                                  <mtext>H</mtext>
+                                  <mn>3</mn>
+                                </msub>
+                                <msup>
+                                  <mtext>O</mtext>
+                                  <mtext>+</mtext>
+                                </msup>
+                                <mo stretchy="false">(</mo>
+                                <mi>a</mi>
+                                <mi>q</mi>
+                                <mo stretchy="false">)</mo>
+                                <mo>+</mo>
+                                <msup>
+                                  <mrow>
+                                    <mtext>OH</mtext>
+                                  </mrow>
+                                  <mtext>−</mtext>
+                                </msup>
+                                <mo stretchy="false">(</mo>
+                                <mi>a</mi>
+                                <mi>q</mi>
+                                <mo stretchy="false">)</mo>
+                                <mspace width="5em"/>
+                                <msub>
+                                  <mi>K</mi>
+                                  <mtext>w</mtext>
+                                </msub>
+                                <mo>=</mo>
+                                <mo stretchy="false">[</mo>
+                                <msub>
+                                  <mtext>H</mtext>
+                                  <mn>3</mn>
+                                </msub>
+                                <msup>
+                                  <mtext>O</mtext>
+                                  <mtext>+</mtext>
+                                </msup>
+                                <mo stretchy="false">]</mo>
+                                <mo stretchy="false">[</mo>
+                                <msup>
+                                  <mrow>
+                                    <mtext>OH</mtext>
+                                  </mrow>
+                                  <mtext>−</mtext>
+                                </msup>
+                                <mo stretchy="false">]</mo>
+                              </mrow>
+                            </annotation-xml>
+                          </semantics>
+                        </math>
+                      </div>
+
+                      <p id="fs-idp31161136">
+                        The slight ionization of pure water is reflected in the small value of the equilibrium constant; at 25 °C,
+                        <em data-effect="italics">K</em>
+                        <sub>w</sub> has a value of 1.0
+                        <math display="inline">
+                          <semantics>
+                            <mrow>
+                              <mo>×</mo>
+                            </mrow>
+                            <annotation-xml encoding="MathML-Content">
+                              <mo>×</mo>
+                            </annotation-xml>
+                          </semantics>
+                        </math> 10
+                        <sup>−14</sup>. The process is endothermic, and so the extent of ionization and the resulting concentrations of hydronium ion and hydroxide ion increase with temperature. For example, at 100 °C, the value for
+                        <em data-effect="italics">K</em>
+                        <sub>w</sub> is about 5.6
+                        <math display="inline">
+                          <semantics>
+                            <mrow>
+                              <mo>×</mo>
+                            </mrow>
+                            <annotation-xml encoding="MathML-Content">
+                              <mo>×</mo>
+                            </annotation-xml>
+                          </semantics>
+                        </math> 10
+                        <sup>−13</sup>, roughly 50 times larger than the value at 25 °C.
+                      </p>
+                      <div data-type="example" id="fs-idm123712192">
+                        <h3 class="os-title">
+                          <span class="os-title-label">Example</span>
+                          <span class="os-number">14.1</span>
+                          <span class="os-divider"></span>
+                        </h3>
+                        <p id="fs-idm112349216">
+                          <span
+                            data-type="title"
+                          >Ion Concentrations in Pure Water</span>
+                          What are the hydronium ion concentration and the hydroxide ion concentration in pure water at 25 °C?
+                        </p>
+                        <p id="fs-idm173174512">
+                          <span data-type="title">Solution</span>
+                          The autoionization of water yields the same number of hydronium and hydroxide ions. Therefore, in pure water, [H
+                          <sub>3</sub>O
+                          <sup>+</sup>] = [OH
+                          <sup>−</sup>] =
+                          <em data-effect="italics">x</em>. At 25 °C:
+                        </p>
+                        <div data-type="equation" id="fs-idm124796224">
+                          <math display="block">
+                            <semantics>
+                              <mrow>
+                                <mrow>
+                                  <msub>
+                                    <mi>K</mi>
+                                    <mtext>w</mtext>
+                                  </msub>
+                                  <mo>=</mo>
+                                  <mo stretchy="false">[</mo>
+                                  <msub>
+                                    <mtext>H</mtext>
+                                    <mn>3</mn>
+                                  </msub>
+                                  <msup>
+                                    <mtext>O</mtext>
+                                    <mtext>+</mtext>
+                                  </msup>
+                                  <mo stretchy="false">]</mo>
+                                  <mo stretchy="false">[</mo>
+                                  <msup>
+                                    <mrow>
+                                      <mtext>OH</mtext>
+                                    </mrow>
+                                    <mtext>−</mtext>
+                                  </msup>
+                                  <mo stretchy="false">]</mo>
+                                  <mo>=</mo>
+                                  <mi>x</mi>
+                                  <mo>=</mo>
+                                  <mn>1.0</mn>
+                                  <mspace width="0.2em"/>
+                                  <mo>×</mo>
+                                  <mspace width="0.2em"/>
+                                  <msup>
+                                    <mrow>
+                                      <mn>10</mn>
+                                    </mrow>
+                                    <mrow>
+                                      <mn>−14</mn>
+                                    </mrow>
+                                  </msup>
+                                </mrow>
+                              </mrow>
+                              <annotation-xml encoding="MathML-Content">
+                                <mrow>
+                                  <msub>
+                                    <mi>K</mi>
+                                    <mtext>w</mtext>
+                                  </msub>
+                                  <mo>=</mo>
+                                  <mo stretchy="false">[</mo>
+                                  <msub>
+                                    <mtext>H</mtext>
+                                    <mn>3</mn>
+                                  </msub>
+                                  <msup>
+                                    <mtext>O</mtext>
+                                    <mtext>+</mtext>
+                                  </msup>
+                                  <mo stretchy="false">]</mo>
+                                  <mo stretchy="false">[</mo>
+                                  <msup>
+                                    <mrow>
+                                      <mtext>OH</mtext>
+                                    </mrow>
+                                    <mtext>−</mtext>
+                                  </msup>
+                                  <mo stretchy="false">]</mo>
+                                  <mo>=</mo>
+                                  <mi>x</mi>
+                                  <mo>=</mo>
+                                  <mn>1.0</mn>
+                                  <mspace width="0.2em"/>
+                                  <mo>×</mo>
+                                  <mspace width="0.2em"/>
+                                  <msup>
+                                    <mrow>
+                                      <mn>10</mn>
+                                    </mrow>
+                                    <mrow>
+                                      <mn>−14</mn>
+                                    </mrow>
+                                  </msup>
+                                </mrow>
+                              </annotation-xml>
+                            </semantics>
+                          </math>
+                        </div>
+                        <p id="fs-idm95588864">So:</p>
+                        <div data-type="equation" id="fs-idm116116704">
+                          <math display="block">
+                            <semantics>
+                              <mrow>
+                                <mrow>
+                                  <mi>x</mi>
+                                  <mo>=</mo>
+                                  <mo stretchy="false">[</mo>
+                                  <msub>
+                                    <mtext>H</mtext>
+                                    <mn>3</mn>
+                                  </msub>
+                                  <msup>
+                                    <mtext>O</mtext>
+                                    <mtext>+</mtext>
+                                  </msup>
+                                  <mo stretchy="false">]</mo>
+                                  <mo>=</mo>
+                                  <mo stretchy="false">[</mo>
+                                  <msup>
+                                    <mrow>
+                                      <mtext>OH</mtext>
+                                    </mrow>
+                                    <mtext>−</mtext>
+                                  </msup>
+                                  <mo stretchy="false">]</mo>
+                                  <mo>=</mo>
+                                  <msqrt>
+                                    <mrow>
+                                      <mn>1.0</mn>
+                                      <mspace width="0.2em"/>
+                                      <mo>×</mo>
+                                      <mspace width="0.2em"/>
+                                      <msup>
+                                        <mrow>
+                                          <mn>10</mn>
+                                        </mrow>
+                                        <mrow>
+                                          <mn>−14</mn>
+                                        </mrow>
+                                      </msup>
+                                    </mrow>
+                                  </msqrt>
+                                  <mo>=</mo>
+                                  <mn>1.0</mn>
+                                  <mspace width="0.2em"/>
+                                  <mo>×</mo>
+                                  <mspace width="0.2em"/>
+                                  <msup>
+                                    <mrow>
+                                      <mn>10</mn>
+                                    </mrow>
+                                    <mrow>
+                                      <mn>−7</mn>
+                                    </mrow>
+                                  </msup>
+                                  <mspace width="0.2em"/>
+                                  <mi>M</mi>
+                                </mrow>
+                              </mrow>
+                              <annotation-xml encoding="MathML-Content">
+                                <mrow>
+                                  <mi>x</mi>
+                                  <mo>=</mo>
+                                  <mo stretchy="false">[</mo>
+                                  <msub>
+                                    <mtext>H</mtext>
+                                    <mn>3</mn>
+                                  </msub>
+                                  <msup>
+                                    <mtext>O</mtext>
+                                    <mtext>+</mtext>
+                                  </msup>
+                                  <mo stretchy="false">]</mo>
+                                  <mo>=</mo>
+                                  <mo stretchy="false">[</mo>
+                                  <msup>
+                                    <mrow>
+                                      <mtext>OH</mtext>
+                                    </mrow>
+                                    <mtext>−</mtext>
+                                  </msup>
+                                  <mo stretchy="false">]</mo>
+                                  <mo>=</mo>
+                                  <msqrt>
+                                    <mrow>
+                                      <mn>1.0</mn>
+                                      <mspace width="0.2em"/>
+                                      <mo>×</mo>
+                                      <mspace width="0.2em"/>
+                                      <msup>
+                                        <mrow>
+                                          <mn>10</mn>
+                                        </mrow>
+                                        <mrow>
+                                          <mn>−14</mn>
+                                        </mrow>
+                                      </msup>
+                                    </mrow>
+                                  </msqrt>
+                                  <mo>=</mo>
+                                  <mn>1.0</mn>
+                                  <mspace width="0.2em"/>
+                                  <mo>×</mo>
+                                  <mspace width="0.2em"/>
+                                  <msup>
+                                    <mrow>
+                                      <mn>10</mn>
+                                    </mrow>
+                                    <mrow>
+                                      <mn>−7</mn>
+                                    </mrow>
+                                  </msup>
+                                  <mspace width="0.2em"/>
+                                  <mi>M</mi>
+                                </mrow>
+                              </annotation-xml>
+                            </semantics>
+                          </math>
+                        </div>
+                        <p id="fs-idm157262416">
+                          The hydronium ion concentration and the hydroxide ion concentration are the same, 1.0
+                          <math display="inline">
+                            <semantics>
+                              <mrow>
+                                <mo>×</mo>
+                              </mrow>
+                              <annotation-xml encoding="MathML-Content">
+                                <mo>×</mo>
+                              </annotation-xml>
+                            </semantics>
+                          </math> 10
+                          <sup>−7</sup>
+                          <em data-effect="italics">M</em>.
+                        </p>
+                        <p id="fs-idm86436992">
+                          <span data-type="title">Check Your Learning</span>
+                          The ion product of water at 80 °C is 2.4
+                          <math display="inline">
+                            <semantics>
+                              <mrow>
+                                <mo>×</mo>
+                              </mrow>
+                              <annotation-xml encoding="MathML-Content">
+                                <mo>×</mo>
+                              </annotation-xml>
+                            </semantics>
+                          </math> 10
+                          <sup>−13</sup>. What are the concentrations of hydronium and hydroxide ions in pure water at 80 °C?
+                        </p>
+                        <div data-type="note" id="fs-idp5038208">
+                          <h3 class="os-title" data-type="title">
+                            <span
+                              class="os-title-label"
+                              data-type
+                              id="[redacted for uniqueness]"
+                            >Answer:</span>
+                          </h3>
+                          <div class="os-note-body">
+                            <p id="fs-idm88673520">
+                              [H
+                              <sub>3</sub>O
+                              <sup>+</sup>] = [OH
+                              <sup>−</sup>] = 4.9
+                              <math display="inline">
+                                <semantics>
+                                  <mrow>
+                                    <mo>×</mo>
+                                  </mrow>
+                                  <annotation-xml encoding="MathML-Content">
+                                    <mo>×</mo>
+                                  </annotation-xml>
+                                </semantics>
+                              </math> 10
+                              <sup>−7</sup>
+                              <em data-effect="italics">M</em>
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div data-type="example" id="fs-idm136168496">
+                        <h3 class="os-title">
+                          <span class="os-title-label">Example</span>
+                          <span class="os-number">14.2</span>
+                          <span class="os-divider"></span>
+                        </h3>
+                        <p id="fs-idm176597552">
+                          <span data-type="title">
+                            The Inverse Relation between [H
+                            <sub>3</sub>O
+                            <sup>+</sup>] and [OH
+                            <sup>−</sup>]
+                          </span>
+                          A solution of an acid in water has a hydronium ion concentration of 2.0
+                          <math display="inline">
+                            <semantics>
+                              <mrow>
+                                <mo>×</mo>
+                              </mrow>
+                              <annotation-xml encoding="MathML-Content">
+                                <mo>×</mo>
+                              </annotation-xml>
+                            </semantics>
+                          </math> 10
+                          <sup>−6</sup>
+                          <em data-effect="italics">M</em>. What is the concentration of hydroxide ion at 25 °C?
+                        </p>
+                        <p id="fs-idm86437536">
+                          <span data-type="title">Solution</span>
+                          Use the value of the ion-product constant for water at 25 °C
+                        </p>
+                        <div data-type="equation" id="fs-idm153840352">
+                          <math display="block">
+                            <semantics>
+                              <mrow>
+                                <mrow>
+                                  <mn>2</mn>
+                                  <msub>
+                                    <mtext>H</mtext>
+                                    <mn>2</mn>
+                                  </msub>
+                                  <mtext>O</mtext>
+                                  <mo stretchy="false">(</mo>
+                                  <mi>l</mi>
+                                  <mo stretchy="false">)</mo>
+                                  <mspace width="0.2em"/>
+                                  <mo stretchy="false">⇌</mo>
+                                  <mspace width="0.2em"/>
+                                  <msub>
+                                    <mtext>H</mtext>
+                                    <mn>3</mn>
+                                  </msub>
+                                  <msup>
+                                    <mtext>O</mtext>
+                                    <mtext>+</mtext>
+                                  </msup>
+                                  <mo stretchy="false">(</mo>
+                                  <mi>a</mi>
+                                  <mi>q</mi>
+                                  <mo stretchy="false">)</mo>
+                                  <mo>+</mo>
+                                  <msup>
+                                    <mrow>
+                                      <mtext>OH</mtext>
+                                    </mrow>
+                                    <mtext>−</mtext>
+                                  </msup>
+                                  <mo stretchy="false">(</mo>
+                                  <mi>a</mi>
+                                  <mi>q</mi>
+                                  <mo stretchy="false">)</mo>
+                                  <mspace width="5em"/>
+                                  <msub>
+                                    <mi>K</mi>
+                                    <mtext>w</mtext>
+                                  </msub>
+                                  <mo>=</mo>
+                                  <mo stretchy="false">[</mo>
+                                  <msub>
+                                    <mtext>H</mtext>
+                                    <mn>3</mn>
+                                  </msub>
+                                  <msup>
+                                    <mtext>O</mtext>
+                                    <mtext>+</mtext>
+                                  </msup>
+                                  <mo stretchy="false">]</mo>
+                                  <mo stretchy="false">[</mo>
+                                  <msup>
+                                    <mrow>
+                                      <mtext>OH</mtext>
+                                    </mrow>
+                                    <mtext>−</mtext>
+                                  </msup>
+                                  <mo stretchy="false">]</mo>
+                                  <mo>=</mo>
+                                  <mn>1.0</mn>
+                                  <mspace width="0.2em"/>
+                                  <mo>×</mo>
+                                  <mspace width="0.2em"/>
+                                  <msup>
+                                    <mrow>
+                                      <mn>10</mn>
+                                    </mrow>
+                                    <mrow>
+                                      <mn>−14</mn>
+                                    </mrow>
+                                  </msup>
+                                </mrow>
+                              </mrow>
+                              <annotation-xml encoding="MathML-Content">
+                                <mrow>
+                                  <mn>2</mn>
+                                  <msub>
+                                    <mtext>H</mtext>
+                                    <mn>2</mn>
+                                  </msub>
+                                  <mtext>O</mtext>
+                                  <mo stretchy="false">(</mo>
+                                  <mi>l</mi>
+                                  <mo stretchy="false">)</mo>
+                                  <mspace width="0.2em"/>
+                                  <mo stretchy="false">⇌</mo>
+                                  <mspace width="0.2em"/>
+                                  <msub>
+                                    <mtext>H</mtext>
+                                    <mn>3</mn>
+                                  </msub>
+                                  <msup>
+                                    <mtext>O</mtext>
+                                    <mtext>+</mtext>
+                                  </msup>
+                                  <mo stretchy="false">(</mo>
+                                  <mi>a</mi>
+                                  <mi>q</mi>
+                                  <mo stretchy="false">)</mo>
+                                  <mo>+</mo>
+                                  <msup>
+                                    <mrow>
+                                      <mtext>OH</mtext>
+                                    </mrow>
+                                    <mtext>−</mtext>
+                                  </msup>
+                                  <mo stretchy="false">(</mo>
+                                  <mi>a</mi>
+                                  <mi>q</mi>
+                                  <mo stretchy="false">)</mo>
+                                  <mspace width="5em"/>
+                                  <msub>
+                                    <mi>K</mi>
+                                    <mtext>w</mtext>
+                                  </msub>
+                                  <mo>=</mo>
+                                  <mo stretchy="false">[</mo>
+                                  <msub>
+                                    <mtext>H</mtext>
+                                    <mn>3</mn>
+                                  </msub>
+                                  <msup>
+                                    <mtext>O</mtext>
+                                    <mtext>+</mtext>
+                                  </msup>
+                                  <mo stretchy="false">]</mo>
+                                  <mo stretchy="false">[</mo>
+                                  <msup>
+                                    <mrow>
+                                      <mtext>OH</mtext>
+                                    </mrow>
+                                    <mtext>−</mtext>
+                                  </msup>
+                                  <mo stretchy="false">]</mo>
+                                  <mo>=</mo>
+                                  <mn>1.0</mn>
+                                  <mspace width="0.2em"/>
+                                  <mo>×</mo>
+                                  <mspace width="0.2em"/>
+                                  <msup>
+                                    <mrow>
+                                      <mn>10</mn>
+                                    </mrow>
+                                    <mrow>
+                                      <mn>−14</mn>
+                                    </mrow>
+                                  </msup>
+                                </mrow>
+                              </annotation-xml>
+                            </semantics>
+                          </math>
+                        </div>
+                        <p
+                          id="fs-idm132298320"
+                        >to calculate the missing equilibrium concentration.</p>
+                        <p id="fs-idm216521216">
+                          Rearrangement of the
+                          <em data-effect="italics">K</em>
+                          <sub>w</sub> expression shows that [OH
+                          <sup>−</sup>] is inversely proportional to [H
+                          <sub>3</sub>O
+                          <sup>+</sup>]:
+                        </p>
+                        <div data-type="equation" id="fs-idm133309424">
+                          <math display="block">
+                            <semantics>
+                              <mrow>
+                                <mrow>
+                                  <mo stretchy="false">[</mo>
+                                  <msup>
+                                    <mrow>
+                                      <mtext>OH</mtext>
+                                    </mrow>
+                                    <mtext>−</mtext>
+                                  </msup>
+                                  <mo stretchy="false">]</mo>
+                                  <mo>=</mo>
+                                  <mspace width="0.2em"/>
+                                  <mfrac>
+                                    <mrow>
+                                      <msub>
+                                        <mi>K</mi>
+                                        <mtext>w</mtext>
+                                      </msub>
+                                    </mrow>
+                                    <mrow>
+                                      <mo stretchy="false">[</mo>
+                                      <msub>
+                                        <mtext>H</mtext>
+                                        <mn>3</mn>
+                                      </msub>
+                                      <msup>
+                                        <mtext>O</mtext>
+                                        <mtext>+</mtext>
+                                      </msup>
+                                      <mo stretchy="false">]</mo>
+                                    </mrow>
+                                  </mfrac>
+                                  <mspace width="0.2em"/>
+                                  <mo>=</mo>
+                                  <mspace width="0.2em"/>
+                                  <mfrac>
+                                    <mrow>
+                                      <mn>1.0</mn>
+                                      <mspace width="0.2em"/>
+                                      <mo>×</mo>
+                                      <mspace width="0.2em"/>
+                                      <msup>
+                                        <mrow>
+                                          <mn>10</mn>
+                                        </mrow>
+                                        <mrow>
+                                          <mn>−14</mn>
+                                        </mrow>
+                                      </msup>
+                                    </mrow>
+                                    <mrow>
+                                      <mn>2.0</mn>
+                                      <mspace width="0.2em"/>
+                                      <mo>×</mo>
+                                      <mspace width="0.2em"/>
+                                      <msup>
+                                        <mrow>
+                                          <mn>10</mn>
+                                        </mrow>
+                                        <mrow>
+                                          <mn>−6</mn>
+                                        </mrow>
+                                      </msup>
+                                    </mrow>
+                                  </mfrac>
+                                  <mspace width="0.2em"/>
+                                  <mo>=</mo>
+                                  <mn>5.0</mn>
+                                  <mspace width="0.2em"/>
+                                  <mo>×</mo>
+                                  <mspace width="0.2em"/>
+                                  <msup>
+                                    <mrow>
+                                      <mn>10</mn>
+                                    </mrow>
+                                    <mrow>
+                                      <mn>−9</mn>
+                                    </mrow>
+                                  </msup>
+                                </mrow>
+                              </mrow>
+                              <annotation-xml encoding="MathML-Content">
+                                <mrow>
+                                  <mo stretchy="false">[</mo>
+                                  <msup>
+                                    <mrow>
+                                      <mtext>OH</mtext>
+                                    </mrow>
+                                    <mtext>−</mtext>
+                                  </msup>
+                                  <mo stretchy="false">]</mo>
+                                  <mo>=</mo>
+                                  <mspace width="0.2em"/>
+                                  <mfrac>
+                                    <mrow>
+                                      <msub>
+                                        <mi>K</mi>
+                                        <mtext>w</mtext>
+                                      </msub>
+                                    </mrow>
+                                    <mrow>
+                                      <mo stretchy="false">[</mo>
+                                      <msub>
+                                        <mtext>H</mtext>
+                                        <mn>3</mn>
+                                      </msub>
+                                      <msup>
+                                        <mtext>O</mtext>
+                                        <mtext>+</mtext>
+                                      </msup>
+                                      <mo stretchy="false">]</mo>
+                                    </mrow>
+                                  </mfrac>
+                                  <mspace width="0.2em"/>
+                                  <mo>=</mo>
+                                  <mspace width="0.2em"/>
+                                  <mfrac>
+                                    <mrow>
+                                      <mn>1.0</mn>
+                                      <mspace width="0.2em"/>
+                                      <mo>×</mo>
+                                      <mspace width="0.2em"/>
+                                      <msup>
+                                        <mrow>
+                                          <mn>10</mn>
+                                        </mrow>
+                                        <mrow>
+                                          <mn>−14</mn>
+                                        </mrow>
+                                      </msup>
+                                    </mrow>
+                                    <mrow>
+                                      <mn>2.0</mn>
+                                      <mspace width="0.2em"/>
+                                      <mo>×</mo>
+                                      <mspace width="0.2em"/>
+                                      <msup>
+                                        <mrow>
+                                          <mn>10</mn>
+                                        </mrow>
+                                        <mrow>
+                                          <mn>−6</mn>
+                                        </mrow>
+                                      </msup>
+                                    </mrow>
+                                  </mfrac>
+                                  <mspace width="0.2em"/>
+                                  <mo>=</mo>
+                                  <mn>5.0</mn>
+                                  <mspace width="0.2em"/>
+                                  <mo>×</mo>
+                                  <mspace width="0.2em"/>
+                                  <msup>
+                                    <mrow>
+                                      <mn>10</mn>
+                                    </mrow>
+                                    <mrow>
+                                      <mn>−9</mn>
+                                    </mrow>
+                                  </msup>
+                                </mrow>
+                              </annotation-xml>
+                            </semantics>
+                          </math>
+                        </div>
+                        <p
+                          id="fs-idm156698544"
+                        >Compared with pure water, a solution of acid exhibits a higher concentration of hydronium ions (due to ionization of the acid) and a proportionally lower concentration of hydroxide ions. This may be explained via Le Châtelier’s principle as a left shift in the water autoionization equilibrium resulting from the stress of increased hydronium ion concentration.</p>
+                        <p id="fs-idm215254096">
+                          Substituting the ion concentrations into the
+                          <em data-effect="italics">K</em>
+                          <sub>w</sub> expression confirms this calculation, resulting in the expected value:
+                        </p>
+                        <div data-type="equation" id="fs-idm53700928">
+                          <math display="block">
+                            <semantics>
+                              <mrow>
+                                <mrow>
+                                  <msub>
+                                    <mi>K</mi>
+                                    <mtext>w</mtext>
+                                  </msub>
+                                  <mo>=</mo>
+                                  <mo stretchy="false">[</mo>
+                                  <msub>
+                                    <mtext>H</mtext>
+                                    <mn>3</mn>
+                                  </msub>
+                                  <msup>
+                                    <mtext>O</mtext>
+                                    <mtext>+</mtext>
+                                  </msup>
+                                  <mo stretchy="false">]</mo>
+                                  <mo stretchy="false">[</mo>
+                                  <msup>
+                                    <mrow>
+                                      <mtext>OH</mtext>
+                                    </mrow>
+                                    <mtext>−</mtext>
+                                  </msup>
+                                  <mo stretchy="false">]</mo>
+                                  <mo>=</mo>
+                                  <mo stretchy="false">(</mo>
+                                  <mn>2.0</mn>
+                                  <mspace width="0.2em"/>
+                                  <mo>×</mo>
+                                  <mspace width="0.2em"/>
+                                  <msup>
+                                    <mrow>
+                                      <mn>10</mn>
+                                    </mrow>
+                                    <mrow>
+                                      <mn>−6</mn>
+                                    </mrow>
+                                  </msup>
+                                  <mo stretchy="false">)</mo>
+                                  <mo stretchy="false">(</mo>
+                                  <mn>5.0</mn>
+                                  <mspace width="0.2em"/>
+                                  <mo>×</mo>
+                                  <mspace width="0.2em"/>
+                                  <msup>
+                                    <mrow>
+                                      <mn>10</mn>
+                                    </mrow>
+                                    <mrow>
+                                      <mn>−9</mn>
+                                    </mrow>
+                                  </msup>
+                                  <mo stretchy="false">)</mo>
+                                  <mo>=</mo>
+                                  <mn>1.0</mn>
+                                  <mspace width="0.2em"/>
+                                  <mo>×</mo>
+                                  <mspace width="0.2em"/>
+                                  <msup>
+                                    <mrow>
+                                      <mn>10</mn>
+                                    </mrow>
+                                    <mrow>
+                                      <mn>−14</mn>
+                                    </mrow>
+                                  </msup>
+                                </mrow>
+                              </mrow>
+                              <annotation-xml encoding="MathML-Content">
+                                <mrow>
+                                  <msub>
+                                    <mi>K</mi>
+                                    <mtext>w</mtext>
+                                  </msub>
+                                  <mo>=</mo>
+                                  <mo stretchy="false">[</mo>
+                                  <msub>
+                                    <mtext>H</mtext>
+                                    <mn>3</mn>
+                                  </msub>
+                                  <msup>
+                                    <mtext>O</mtext>
+                                    <mtext>+</mtext>
+                                  </msup>
+                                  <mo stretchy="false">]</mo>
+                                  <mo stretchy="false">[</mo>
+                                  <msup>
+                                    <mrow>
+                                      <mtext>OH</mtext>
+                                    </mrow>
+                                    <mtext>−</mtext>
+                                  </msup>
+                                  <mo stretchy="false">]</mo>
+                                  <mo>=</mo>
+                                  <mo stretchy="false">(</mo>
+                                  <mn>2.0</mn>
+                                  <mspace width="0.2em"/>
+                                  <mo>×</mo>
+                                  <mspace width="0.2em"/>
+                                  <msup>
+                                    <mrow>
+                                      <mn>10</mn>
+                                    </mrow>
+                                    <mrow>
+                                      <mn>−6</mn>
+                                    </mrow>
+                                  </msup>
+                                  <mo stretchy="false">)</mo>
+                                  <mo stretchy="false">(</mo>
+                                  <mn>5.0</mn>
+                                  <mspace width="0.2em"/>
+                                  <mo>×</mo>
+                                  <mspace width="0.2em"/>
+                                  <msup>
+                                    <mrow>
+                                      <mn>10</mn>
+                                    </mrow>
+                                    <mrow>
+                                      <mn>−9</mn>
+                                    </mrow>
+                                  </msup>
+                                  <mo stretchy="false">)</mo>
+                                  <mo>=</mo>
+                                  <mn>1.0</mn>
+                                  <mspace width="0.2em"/>
+                                  <mo>×</mo>
+                                  <mspace width="0.2em"/>
+                                  <msup>
+                                    <mrow>
+                                      <mn>10</mn>
+                                    </mrow>
+                                    <mrow>
+                                      <mn>−14</mn>
+                                    </mrow>
+                                  </msup>
+                                </mrow>
+                              </annotation-xml>
+                            </semantics>
+                          </math>
+                        </div>
+                        <p id="fs-idm88829680">
+                          <span data-type="title">Check Your Learning</span>
+                          What is the hydronium ion concentration in an aqueous solution with a hydroxide ion concentration of 0.001
+                          <em data-effect="italics">M</em> at 25 °C?
+                        </p>
+                        <div data-type="note" id="fs-idp123132928">
+                          <h3 class="os-title" data-type="title">
+                            <span
+                              class="os-title-label"
+                              data-type
+                              id="[redacted for uniqueness]"
+                            >Answer:</span>
+                          </h3>
+                          <div class="os-note-body">
+                            <p id="fs-idm107000608">
+                              [H
+                              <sub>3</sub>O
+                              <sup>+</sup>] = 1
+                              <math display="inline">
+                                <semantics>
+                                  <mrow>
+                                    <mo>×</mo>
+                                  </mrow>
+                                  <annotation-xml encoding="MathML-Content">
+                                    <mo>×</mo>
+                                  </annotation-xml>
+                                </semantics>
+                              </math> 10
+                              <sup>−11</sup>
+                              <em data-effect="italics">M</em>
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div data-type="example" id="fs-idp171180224">
+                        <h3 class="os-title">
+                          <span class="os-title-label">Example</span>
+                          <span class="os-number">14.3</span>
+                          <span class="os-divider"></span>
+                        </h3>
+                        <p id="fs-idm102224080">
+                          <span
+                            data-type="title"
+                          >Representing the Acid-Base Behavior of an Amphoteric Substance</span>
+                          Write separate equations representing the reaction of
+                          <math display="inline">
+                            <semantics>
+                              <mrow>
+                                <mrow>
+                                  <msub>
+                                    <mrow>
+                                      <mtext>HSO</mtext>
+                                    </mrow>
+                                    <mn>3</mn>
+                                  </msub>
+                                  <msup>
+                                    <mrow/>
+                                    <mtext>−</mtext>
+                                  </msup>
+                                </mrow>
+                              </mrow>
+                              <annotation-xml encoding="MathML-Content">
+                                <mrow>
+                                  <msub>
+                                    <mrow>
+                                      <mtext>HSO</mtext>
+                                    </mrow>
+                                    <mn>3</mn>
+                                  </msub>
+                                  <msup>
+                                    <mrow/>
+                                    <mtext>−</mtext>
+                                  </msup>
+                                </mrow>
+                              </annotation-xml>
+                            </semantics>
+                          </math>
+                        </p>
+                        <p id="fs-idm108563136">
+                          (a) as an acid with OH
+                          <sup>−</sup>
+                        </p>
+                        <p id="fs-idm65200656">(b) as a base with HI</p>
+                        <p id="fs-idp53602512">
+                          <span data-type="title">Solution</span>
+                          (a)
+                          <math display="inline">
+                            <semantics>
+                              <mrow>
+                                <mrow>
+                                  <msub>
+                                    <mrow>
+                                      <mtext>HSO</mtext>
+                                    </mrow>
+                                    <mn>3</mn>
+                                  </msub>
+                                  <msup>
+                                    <mrow/>
+                                    <mtext>−</mtext>
+                                  </msup>
+                                  <mo stretchy="false">(</mo>
+                                  <mi>a</mi>
+                                  <mi>q</mi>
+                                  <mo stretchy="false">)</mo>
+                                  <mo>+</mo>
+                                  <msup>
+                                    <mrow>
+                                      <mtext>OH</mtext>
+                                    </mrow>
+                                    <mtext>−</mtext>
+                                  </msup>
+                                  <mo stretchy="false">(</mo>
+                                  <mi>a</mi>
+                                  <mi>q</mi>
+                                  <mo stretchy="false">)</mo>
+                                  <mspace width="0.2em"/>
+                                  <mo stretchy="false">⇌</mo>
+                                  <mspace width="0.2em"/>
+                                  <msub>
+                                    <mrow>
+                                      <mtext>SO</mtext>
+                                    </mrow>
+                                    <mn>3</mn>
+                                  </msub>
+                                  <msup>
+                                    <mrow/>
+                                    <mtext>2−</mtext>
+                                  </msup>
+                                  <mo stretchy="false">(</mo>
+                                  <mi>a</mi>
+                                  <mi>q</mi>
+                                  <mo stretchy="false">)</mo>
+                                  <mo>+</mo>
+                                  <msub>
+                                    <mtext>H</mtext>
+                                    <mn>2</mn>
+                                  </msub>
+                                  <mtext>O</mtext>
+                                  <mo stretchy="false">(</mo>
+                                  <mi>l</mi>
+                                  <mo stretchy="false">)</mo>
+                                </mrow>
+                              </mrow>
+                              <annotation-xml encoding="MathML-Content">
+                                <mrow>
+                                  <msub>
+                                    <mrow>
+                                      <mtext>HSO</mtext>
+                                    </mrow>
+                                    <mn>3</mn>
+                                  </msub>
+                                  <msup>
+                                    <mrow/>
+                                    <mtext>−</mtext>
+                                  </msup>
+                                  <mo stretchy="false">(</mo>
+                                  <mi>a</mi>
+                                  <mi>q</mi>
+                                  <mo stretchy="false">)</mo>
+                                  <mo>+</mo>
+                                  <msup>
+                                    <mrow>
+                                      <mtext>OH</mtext>
+                                    </mrow>
+                                    <mtext>−</mtext>
+                                  </msup>
+                                  <mo stretchy="false">(</mo>
+                                  <mi>a</mi>
+                                  <mi>q</mi>
+                                  <mo stretchy="false">)</mo>
+                                  <mspace width="0.2em"/>
+                                  <mo stretchy="false">⇌</mo>
+                                  <mspace width="0.2em"/>
+                                  <msub>
+                                    <mrow>
+                                      <mtext>SO</mtext>
+                                    </mrow>
+                                    <mn>3</mn>
+                                  </msub>
+                                  <msup>
+                                    <mrow/>
+                                    <mtext>2−</mtext>
+                                  </msup>
+                                  <mo stretchy="false">(</mo>
+                                  <mi>a</mi>
+                                  <mi>q</mi>
+                                  <mo stretchy="false">)</mo>
+                                  <mo>+</mo>
+                                  <msub>
+                                    <mtext>H</mtext>
+                                    <mn>2</mn>
+                                  </msub>
+                                  <mtext>O</mtext>
+                                  <mo stretchy="false">(</mo>
+                                  <mi>l</mi>
+                                  <mo stretchy="false">)</mo>
+                                </mrow>
+                              </annotation-xml>
+                            </semantics>
+                          </math>
+                        </p>
+                        <p id="fs-idp141113152">
+                          (b)
+                          <math display="inline">
+                            <semantics>
+                              <mrow>
+                                <mrow>
+                                  <msub>
+                                    <mrow>
+                                      <mtext>HSO</mtext>
+                                    </mrow>
+                                    <mn>3</mn>
+                                  </msub>
+                                  <msup>
+                                    <mrow/>
+                                    <mtext>−</mtext>
+                                  </msup>
+                                  <mo stretchy="false">(</mo>
+                                  <mi>a</mi>
+                                  <mi>q</mi>
+                                  <mo stretchy="false">)</mo>
+                                  <mo>+</mo>
+                                  <mtext>HI</mtext>
+                                  <mo stretchy="false">(</mo>
+                                  <mi>a</mi>
+                                  <mi>q</mi>
+                                  <mo stretchy="false">)</mo>
+                                  <mspace width="0.2em"/>
+                                  <mo stretchy="false">⇌</mo>
+                                  <mspace width="0.2em"/>
+                                  <msub>
+                                    <mtext>H</mtext>
+                                    <mn>2</mn>
+                                  </msub>
+                                  <msub>
+                                    <mrow>
+                                      <mtext>SO</mtext>
+                                    </mrow>
+                                    <mn>3</mn>
+                                  </msub>
+                                  <mo stretchy="false">(</mo>
+                                  <mi>a</mi>
+                                  <mi>q</mi>
+                                  <mo stretchy="false">)</mo>
+                                  <mo>+</mo>
+                                  <msup>
+                                    <mtext>I</mtext>
+                                    <mtext>−</mtext>
+                                  </msup>
+                                  <mo stretchy="false">(</mo>
+                                  <mi>a</mi>
+                                  <mi>q</mi>
+                                  <mo stretchy="false">)</mo>
+                                </mrow>
+                              </mrow>
+                              <annotation-xml encoding="MathML-Content">
+                                <mrow>
+                                  <msub>
+                                    <mrow>
+                                      <mtext>HSO</mtext>
+                                    </mrow>
+                                    <mn>3</mn>
+                                  </msub>
+                                  <msup>
+                                    <mrow/>
+                                    <mtext>−</mtext>
+                                  </msup>
+                                  <mo stretchy="false">(</mo>
+                                  <mi>a</mi>
+                                  <mi>q</mi>
+                                  <mo stretchy="false">)</mo>
+                                  <mo>+</mo>
+                                  <mtext>HI</mtext>
+                                  <mo stretchy="false">(</mo>
+                                  <mi>a</mi>
+                                  <mi>q</mi>
+                                  <mo stretchy="false">)</mo>
+                                  <mspace width="0.2em"/>
+                                  <mo stretchy="false">⇌</mo>
+                                  <mspace width="0.2em"/>
+                                  <msub>
+                                    <mtext>H</mtext>
+                                    <mn>2</mn>
+                                  </msub>
+                                  <msub>
+                                    <mrow>
+                                      <mtext>SO</mtext>
+                                    </mrow>
+                                    <mn>3</mn>
+                                  </msub>
+                                  <mo stretchy="false">(</mo>
+                                  <mi>a</mi>
+                                  <mi>q</mi>
+                                  <mo stretchy="false">)</mo>
+                                  <mo>+</mo>
+                                  <msup>
+                                    <mtext>I</mtext>
+                                    <mtext>−</mtext>
+                                  </msup>
+                                  <mo stretchy="false">(</mo>
+                                  <mi>a</mi>
+                                  <mi>q</mi>
+                                  <mo stretchy="false">)</mo>
+                                </mrow>
+                              </annotation-xml>
+                            </semantics>
+                          </math>
+                        </p>
+                        <p id="fs-idm119568288">
+                          <span data-type="title">Check Your Learning</span>
+                          Write separate equations representing the reaction of
+                          <math display="inline">
+                            <semantics>
+                              <mrow>
+                                <mrow>
+                                  <msub>
+                                    <mtext>H</mtext>
+                                    <mn>2</mn>
+                                  </msub>
+                                  <msub>
+                                    <mrow>
+                                      <mtext>PO</mtext>
+                                    </mrow>
+                                    <mn>4</mn>
+                                  </msub>
+                                  <msup>
+                                    <mrow/>
+                                    <mtext>−</mtext>
+                                  </msup>
+                                </mrow>
+                              </mrow>
+                              <annotation-xml encoding="MathML-Content">
+                                <mrow>
+                                  <msub>
+                                    <mtext>H</mtext>
+                                    <mn>2</mn>
+                                  </msub>
+                                  <msub>
+                                    <mrow>
+                                      <mtext>PO</mtext>
+                                    </mrow>
+                                    <mn>4</mn>
+                                  </msub>
+                                  <msup>
+                                    <mrow/>
+                                    <mtext>−</mtext>
+                                  </msup>
+                                </mrow>
+                              </annotation-xml>
+                            </semantics>
+                          </math>
+                        </p>
+                        <p id="fs-idm102000320">(a) as a base with HBr</p>
+                        <p id="fs-idm68486720">
+                          (b) as an acid with OH
+                          <sup>−</sup>
+                        </p>
+                        <div data-type="note" id="fs-idp54496480">
+                          <h3 class="os-title" data-type="title">
+                            <span
+                              class="os-title-label"
+                              data-type
+                              id="[redacted for uniqueness]"
+                            >Answer:</span>
+                          </h3>
+                          <div class="os-note-body">
+                            <p id="fs-idp8583968">
+                              (a)
+                              <math display="inline">
+                                <semantics>
+                                  <mrow>
+                                    <mrow>
+                                      <msub>
+                                        <mtext>H</mtext>
+                                        <mn>2</mn>
+                                      </msub>
+                                      <msub>
+                                        <mrow>
+                                          <mtext>PO</mtext>
+                                        </mrow>
+                                        <mn>4</mn>
+                                      </msub>
+                                      <msup>
+                                        <mrow/>
+                                        <mtext>−</mtext>
+                                      </msup>
+                                      <mo stretchy="false">(</mo>
+                                      <mi>a</mi>
+                                      <mi>q</mi>
+                                      <mo stretchy="false">)</mo>
+                                      <mo>+</mo>
+                                      <mtext>HBr</mtext>
+                                      <mo stretchy="false">(</mo>
+                                      <mi>a</mi>
+                                      <mi>q</mi>
+                                      <mo stretchy="false">)</mo>
+                                      <mspace width="0.2em"/>
+                                      <mo stretchy="false">⇌</mo>
+                                      <mspace width="0.2em"/>
+                                      <msub>
+                                        <mtext>H</mtext>
+                                        <mn>3</mn>
+                                      </msub>
+                                      <msub>
+                                        <mrow>
+                                          <mtext>PO</mtext>
+                                        </mrow>
+                                        <mn>4</mn>
+                                      </msub>
+                                      <mo stretchy="false">(</mo>
+                                      <mi>a</mi>
+                                      <mi>q</mi>
+                                      <mo stretchy="false">)</mo>
+                                      <mo>+</mo>
+                                      <msup>
+                                        <mrow>
+                                          <mtext>Br</mtext>
+                                        </mrow>
+                                        <mtext>−</mtext>
+                                      </msup>
+                                      <mo stretchy="false">(</mo>
+                                      <mi>a</mi>
+                                      <mi>q</mi>
+                                      <mo stretchy="false">)</mo>
+                                      <mo>;</mo>
+                                    </mrow>
+                                  </mrow>
+                                  <annotation-xml encoding="MathML-Content">
+                                    <mrow>
+                                      <msub>
+                                        <mtext>H</mtext>
+                                        <mn>2</mn>
+                                      </msub>
+                                      <msub>
+                                        <mrow>
+                                          <mtext>PO</mtext>
+                                        </mrow>
+                                        <mn>4</mn>
+                                      </msub>
+                                      <msup>
+                                        <mrow/>
+                                        <mtext>−</mtext>
+                                      </msup>
+                                      <mo stretchy="false">(</mo>
+                                      <mi>a</mi>
+                                      <mi>q</mi>
+                                      <mo stretchy="false">)</mo>
+                                      <mo>+</mo>
+                                      <mtext>HBr</mtext>
+                                      <mo stretchy="false">(</mo>
+                                      <mi>a</mi>
+                                      <mi>q</mi>
+                                      <mo stretchy="false">)</mo>
+                                      <mspace width="0.2em"/>
+                                      <mo stretchy="false">⇌</mo>
+                                      <mspace width="0.2em"/>
+                                      <msub>
+                                        <mtext>H</mtext>
+                                        <mn>3</mn>
+                                      </msub>
+                                      <msub>
+                                        <mrow>
+                                          <mtext>PO</mtext>
+                                        </mrow>
+                                        <mn>4</mn>
+                                      </msub>
+                                      <mo stretchy="false">(</mo>
+                                      <mi>a</mi>
+                                      <mi>q</mi>
+                                      <mo stretchy="false">)</mo>
+                                      <mo>+</mo>
+                                      <msup>
+                                        <mrow>
+                                          <mtext>Br</mtext>
+                                        </mrow>
+                                        <mtext>−</mtext>
+                                      </msup>
+                                      <mo stretchy="false">(</mo>
+                                      <mi>a</mi>
+                                      <mi>q</mi>
+                                      <mo stretchy="false">)</mo>
+                                      <mo>;</mo>
+                                    </mrow>
+                                  </annotation-xml>
+                                </semantics>
+                              </math> (b)
+                              <math display="inline">
+                                <semantics>
+                                  <mrow>
+                                    <mrow>
+                                      <msub>
+                                        <mtext>H</mtext>
+                                        <mn>2</mn>
+                                      </msub>
+                                      <msub>
+                                        <mrow>
+                                          <mtext>PO</mtext>
+                                        </mrow>
+                                        <mn>4</mn>
+                                      </msub>
+                                      <msup>
+                                        <mrow/>
+                                        <mtext>−</mtext>
+                                      </msup>
+                                      <mo stretchy="false">(</mo>
+                                      <mi>a</mi>
+                                      <mi>q</mi>
+                                      <mo stretchy="false">)</mo>
+                                      <mo>+</mo>
+                                      <msup>
+                                        <mrow>
+                                          <mtext>OH</mtext>
+                                        </mrow>
+                                        <mtext>−</mtext>
+                                      </msup>
+                                      <mo stretchy="false">(</mo>
+                                      <mi>a</mi>
+                                      <mi>q</mi>
+                                      <mo stretchy="false">)</mo>
+                                      <mspace width="0.2em"/>
+                                      <mo stretchy="false">⇌</mo>
+                                      <mspace width="0.2em"/>
+                                      <msub>
+                                        <mrow>
+                                          <mtext>HPO</mtext>
+                                        </mrow>
+                                        <mn>4</mn>
+                                      </msub>
+                                      <msup>
+                                        <mrow/>
+                                        <mtext>2−</mtext>
+                                      </msup>
+                                      <mo stretchy="false">(</mo>
+                                      <mi>a</mi>
+                                      <mi>q</mi>
+                                      <mo stretchy="false">)</mo>
+                                      <mo>+</mo>
+                                      <msub>
+                                        <mtext>H</mtext>
+                                        <mn>2</mn>
+                                      </msub>
+                                      <mtext>O</mtext>
+                                      <mo stretchy="false">(</mo>
+                                      <mi>l</mi>
+                                      <mo stretchy="false">)</mo>
+                                    </mrow>
+                                  </mrow>
+                                  <annotation-xml encoding="MathML-Content">
+                                    <mrow>
+                                      <msub>
+                                        <mtext>H</mtext>
+                                        <mn>2</mn>
+                                      </msub>
+                                      <msub>
+                                        <mrow>
+                                          <mtext>PO</mtext>
+                                        </mrow>
+                                        <mn>4</mn>
+                                      </msub>
+                                      <msup>
+                                        <mrow/>
+                                        <mtext>−</mtext>
+                                      </msup>
+                                      <mo stretchy="false">(</mo>
+                                      <mi>a</mi>
+                                      <mi>q</mi>
+                                      <mo stretchy="false">)</mo>
+                                      <mo>+</mo>
+                                      <msup>
+                                        <mrow>
+                                          <mtext>OH</mtext>
+                                        </mrow>
+                                        <mtext>−</mtext>
+                                      </msup>
+                                      <mo stretchy="false">(</mo>
+                                      <mi>a</mi>
+                                      <mi>q</mi>
+                                      <mo stretchy="false">)</mo>
+                                      <mspace width="0.2em"/>
+                                      <mo stretchy="false">⇌</mo>
+                                      <mspace width="0.2em"/>
+                                      <msub>
+                                        <mrow>
+                                          <mtext>HPO</mtext>
+                                        </mrow>
+                                        <mn>4</mn>
+                                      </msub>
+                                      <msup>
+                                        <mrow/>
+                                        <mtext>2−</mtext>
+                                      </msup>
+                                      <mo stretchy="false">(</mo>
+                                      <mi>a</mi>
+                                      <mi>q</mi>
+                                      <mo stretchy="false">)</mo>
+                                      <mo>+</mo>
+                                      <msub>
+                                        <mtext>H</mtext>
+                                        <mn>2</mn>
+                                      </msub>
+                                      <mtext>O</mtext>
+                                      <mo stretchy="false">(</mo>
+                                      <mi>l</mi>
+                                      <mo stretchy="false">)</mo>
+                                    </mrow>
+                                  </annotation-xml>
+                                </semantics>
+                              </math>
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  

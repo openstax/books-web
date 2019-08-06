@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Prerender sanity tests has a release manifest 1`] = `
+"{
+  \\"books\\": {
+    \\"testbook1-uuid\\": {
+      \\"defaultVersion\\": \\"1.0\\"
+    }
+  },
+  \\"code\\": \\"test\\",
+  \\"id\\": \\"test\\"
+}"
+`;

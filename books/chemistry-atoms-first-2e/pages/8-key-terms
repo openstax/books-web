@@ -1,0 +1,251 @@
+
+                    <div
+                      class="os-eoc os-glossary-container"
+                      data-type="composite-page"
+                      data-uuid-key="glossary"
+                    >
+                      <dl id="fs-idp80443824">
+                        <dt id="[redacted for uniqueness]">absolute zero</dt>
+                        <dd
+                          id="fs-idm137469632"
+                        >temperature at which the volume of a gas would be zero according to Charles’s law.</dd>
+                      </dl>
+                      <dl id="fs-idp77543648">
+                        <dt id="[redacted for uniqueness]">Amontons’s law</dt>
+                        <dd
+                          id="fs-idm70769040"
+                        >(also, Gay-Lussac’s law) pressure of a given number of moles of gas is directly proportional to its kelvin temperature when the volume is held constant</dd>
+                      </dl>
+                      <dl id="fs-idm92046304">
+                        <dt id="[redacted for uniqueness]">atmosphere (atm)</dt>
+                        <dd
+                          id="fs-idm48979616"
+                        >unit of pressure; 1 atm = 101,325 Pa</dd>
+                      </dl>
+                      <dl id="fs-idm85214288">
+                        <dt id="[redacted for uniqueness]">Avogadro’s law</dt>
+                        <dd
+                          id="fs-idm108056608"
+                        >volume of a gas at constant temperature and pressure is proportional to the number of gas molecules</dd>
+                      </dl>
+                      <dl id="fs-idm49164816">
+                        <dt id="[redacted for uniqueness]">bar</dt>
+                        <dd
+                          id="fs-idm19523424"
+                        >(bar or b) unit of pressure; 1 bar = 100,000 Pa</dd>
+                      </dl>
+                      <dl id="fs-idp128557152">
+                        <dt id="[redacted for uniqueness]">barometer</dt>
+                        <dd
+                          id="fs-idp44432976"
+                        >device used to measure atmospheric pressure</dd>
+                      </dl>
+                      <dl id="fs-idm51295520">
+                        <dt id="[redacted for uniqueness]">Boyle’s law</dt>
+                        <dd
+                          id="fs-idm112415024"
+                        >volume of a given number of moles of gas held at constant temperature is inversely proportional to the pressure under which it is measured</dd>
+                      </dl>
+                      <dl id="fs-idm100735488">
+                        <dt id="[redacted for uniqueness]">Charles’s law</dt>
+                        <dd
+                          id="fs-idm47136816"
+                        >volume of a given number of moles of gas is directly proportional to its kelvin temperature when the pressure is held constant</dd>
+                      </dl>
+                      <dl id="fs-idp3716528">
+                        <dt id="[redacted for uniqueness]">compressibility factor (Z)</dt>
+                        <dd
+                          id="fs-idm15009552"
+                        >ratio of the experimentally measured molar volume for a gas to its molar volume as computed from the ideal gas equation</dd>
+                      </dl>
+                      <dl id="fs-idp142977184">
+                        <dt id="[redacted for uniqueness]">Dalton’s law of partial pressures</dt>
+                        <dd
+                          id="fs-idp1131824"
+                        >total pressure of a mixture of ideal gases is equal to the sum of the partial pressures of the component gases.</dd>
+                      </dl>
+                      <dl id="fs-idp133388272">
+                        <dt id="[redacted for uniqueness]">diffusion</dt>
+                        <dd
+                          id="fs-idp223430784"
+                        >movement of an atom or molecule from a region of relatively high concentration to one of relatively low concentration (discussed in this chapter with regard to gaseous species, but applicable to species in any phase)</dd>
+                      </dl>
+                      <dl id="fs-idp39360864">
+                        <dt id="[redacted for uniqueness]">effusion</dt>
+                        <dd
+                          id="fs-idp64133728"
+                        >transfer of gaseous atoms or molecules from a container to a vacuum through very small openings</dd>
+                      </dl>
+                      <dl id="fs-idp257364480">
+                        <dt id="[redacted for uniqueness]">Graham’s law of effusion</dt>
+                        <dd
+                          id="fs-idm13770416"
+                        >rates of diffusion and effusion of gases are inversely proportional to the square roots of their molecular masses</dd>
+                      </dl>
+                      <dl id="fs-idp1898224">
+                        <dt id="[redacted for uniqueness]">hydrostatic pressure</dt>
+                        <dd
+                          id="fs-idm78041232"
+                        >pressure exerted by a fluid due to gravity</dd>
+                      </dl>
+                      <dl id="fs-idm161542192">
+                        <dt id="[redacted for uniqueness]">ideal gas</dt>
+                        <dd
+                          id="fs-idp52155584"
+                        >hypothetical gas whose physical properties are perfectly described by the gas laws</dd>
+                      </dl>
+                      <dl id="fs-idm78852976">
+                        <dt id="[redacted for uniqueness]">
+                          ideal gas constant (
+                          <em data-effect="italics">R</em>)
+                        </dt>
+                        <dd id="fs-idp47757200">
+                          constant derived from the ideal gas equation
+                          <em data-effect="italics">R</em> = 0.08206 L atm mol
+                          <sup>–1</sup> K
+                          <sup>–1</sup> or 8.314 L kPa mol
+                          <sup>–1</sup> K
+                          <sup>–1</sup>
+                        </dd>
+                      </dl>
+                      <dl id="fs-idm111878496">
+                        <dt id="[redacted for uniqueness]">ideal gas law</dt>
+                        <dd
+                          id="fs-idm100584592"
+                        >relation between the pressure, volume, amount, and temperature of a gas under conditions derived by combination of the simple gas laws</dd>
+                      </dl>
+                      <dl id="fs-idm198763536">
+                        <dt id="[redacted for uniqueness]">kinetic molecular theory</dt>
+                        <dd
+                          id="fs-idm88108032"
+                        >theory based on simple principles and assumptions that effectively explains ideal gas behavior</dd>
+                      </dl>
+                      <dl id="fs-idm30126128">
+                        <dt id="[redacted for uniqueness]">manometer</dt>
+                        <dd
+                          id="fs-idm91258448"
+                        >device used to measure the pressure of a gas trapped in a container</dd>
+                      </dl>
+                      <dl id="fs-idp132026496">
+                        <dt id="[redacted for uniqueness]">mean free path</dt>
+                        <dd
+                          id="fs-idp40979888"
+                        >average distance a molecule travels between collisions</dd>
+                      </dl>
+                      <dl id="fs-idp1132336">
+                        <dt id="[redacted for uniqueness]">
+                          mole fraction (
+                          <em data-effect="italics">X</em>)
+                        </dt>
+                        <dd
+                          id="fs-idp104769344"
+                        >concentration unit defined as the ratio of the molar amount of a mixture component to the total number of moles of all mixture components</dd>
+                      </dl>
+                      <dl id="fs-idp104769888">
+                        <dt id="[redacted for uniqueness]">partial pressure</dt>
+                        <dd
+                          id="fs-idp57901136"
+                        >pressure exerted by an individual gas in a mixture</dd>
+                      </dl>
+                      <dl id="fs-idm69533872">
+                        <dt id="[redacted for uniqueness]">pascal (Pa)</dt>
+                        <dd id="fs-idm53495904">
+                          SI unit of pressure; 1 Pa = 1 N/m
+                          <sup>2</sup>
+                        </dd>
+                      </dl>
+                      <dl id="fs-idm87137504">
+                        <dt id="[redacted for uniqueness]">pounds per square inch (psi)</dt>
+                        <dd
+                          id="fs-idm52430016"
+                        >unit of pressure common in the US</dd>
+                      </dl>
+                      <dl id="fs-idm61385376">
+                        <dt id="[redacted for uniqueness]">pressure</dt>
+                        <dd id="fs-idm64654544">force exerted per unit area</dd>
+                      </dl>
+                      <dl id="fs-idp43914864">
+                        <dt id="[redacted for uniqueness]">rate of diffusion</dt>
+                        <dd
+                          id="fs-idp39679360"
+                        >amount of gas diffusing through a given area over a given time</dd>
+                      </dl>
+                      <dl id="fs-idm271276336">
+                        <dt id="[redacted for uniqueness]">
+                          root mean square velocity (
+                          <em data-effect="italics">u</em>
+                          <sub>rms</sub>)
+                        </dt>
+                        <dd
+                          id="fs-idm216807936"
+                        >measure of average velocity for a group of particles calculated as the square root of the average squared velocity</dd>
+                      </dl>
+                      <dl id="fs-idm158190720">
+                        <dt
+                          id="[redacted for uniqueness]"
+                        >standard conditions of temperature and pressure (STP)</dt>
+                        <dd
+                          id="fs-idm40609952"
+                        >273.15 K (0 °C) and 1 atm (101.325 kPa)</dd>
+                      </dl>
+                      <dl id="fs-idm62647600">
+                        <dt id="[redacted for uniqueness]">standard molar volume</dt>
+                        <dd
+                          id="fs-idp97069696"
+                        >volume of 1 mole of gas at STP, approximately 22.4 L for gases behaving ideally</dd>
+                      </dl>
+                      <dl id="fs-idm23965520">
+                        <dt id="[redacted for uniqueness]">torr</dt>
+                        <dd id="fs-idm55637456">
+                          unit of pressure;
+                          <math display="inline">
+                            <semantics>
+                              <mrow>
+                                <mrow>
+                                  <mtext>1 torr</mtext>
+                                  <mo>=</mo>
+                                  <mspace width="0.2em"/>
+                                  <mfrac>
+                                    <mn>1</mn>
+                                    <mrow>
+                                      <mn>760</mn>
+                                    </mrow>
+                                  </mfrac>
+                                  <mspace width="0.2em"/>
+                                  <mtext>atm</mtext>
+                                </mrow>
+                              </mrow>
+                              <annotation-xml encoding="MathML-Content">
+                                <mrow>
+                                  <mtext>1 torr</mtext>
+                                  <mo>=</mo>
+                                  <mspace width="0.2em"/>
+                                  <mfrac>
+                                    <mn>1</mn>
+                                    <mrow>
+                                      <mn>760</mn>
+                                    </mrow>
+                                  </mfrac>
+                                  <mspace width="0.2em"/>
+                                  <mtext>atm</mtext>
+                                </mrow>
+                              </annotation-xml>
+                            </semantics>
+                          </math>
+                        </dd>
+                      </dl>
+                      <dl id="fs-idm15517248">
+                        <dt id="[redacted for uniqueness]">van der Waals equation</dt>
+                        <dd
+                          id="fs-idp78092352"
+                        >modified version of the ideal gas equation containing additional terms to account for non-ideal gas behavior</dd>
+                      </dl>
+                      <dl id="fs-idp57901520">
+                        <dt id="[redacted for uniqueness]">vapor pressure of water</dt>
+                        <dd
+                          id="fs-idp57901904"
+                        >pressure exerted by water vapor in equilibrium with liquid water in a closed container at a specific temperature</dd>
+                      </dl>
+                    </div>
+                  </div>
+                  

@@ -1,0 +1,84 @@
+
+                    <div
+                      class="os-eoc os-summary-container"
+                      data-type="composite-page"
+                      data-uuid-key=".summary"
+                    >
+                      <section
+                        class="summary"
+                        data-depth="1"
+                        id="fs-idm173161328"
+                      >
+                        <h3 data-type="document-title" id="[redacted for uniqueness]">
+                          <span class="os-number">19.1</span>
+                          <span class="os-divider"></span>
+                          <span
+                            class="os-text"
+                          >Occurrence, Preparation, and Properties of Transition Metals and Their Compounds</span>
+                        </h3>
+                        <p id="fs-idm125495728">
+                          The transition metals are elements with partially filled
+                          <em data-effect="italics">d</em> orbitals, located in the
+                          <em data-effect="italics">d</em>-block of the periodic table. The reactivity of the transition elements varies widely from very active metals such as scandium and iron to almost inert elements, such as the platinum metals. The type of chemistry used in the isolation of the elements from their ores depends upon the concentration of the element in its ore and the difficulty of reducing ions of the elements to the metals. Metals that are more active are more difficult to reduce.
+                        </p>
+                        <p
+                          id="fs-idm228509360"
+                        >Transition metals exhibit chemical behavior typical of metals. For example, they oxidize in air upon heating and react with elemental halogens to form halides. Those elements that lie above hydrogen in the activity series react with acids, producing salts and hydrogen gas. Oxides, hydroxides, and carbonates of transition metal compounds in low oxidation states are basic. Halides and other salts are generally stable in water, although oxygen must be excluded in some cases. Most transition metals form a variety of stable oxidation states, allowing them to demonstrate a wide range of chemical reactivity.</p>
+                      </section>
+                      <section
+                        class="summary"
+                        data-depth="1"
+                        id="fs-idp136064256"
+                      >
+                        <h3 data-type="document-title" id="[redacted for uniqueness]">
+                          <span class="os-number">19.2</span>
+                          <span class="os-divider"></span>
+                          <span
+                            class="os-text"
+                          >Coordination Chemistry of Transition Metals</span>
+                        </h3>
+                        <p id="fs-idm3937184">
+                          The transition elements and main group elements can form coordination compounds, or complexes, in which a central metal atom or ion is bonded to one or more ligands by coordinate covalent bonds. Ligands with more than one donor atom are called polydentate ligands and form chelates. The common geometries found in complexes are tetrahedral and square planar (both with a coordination number of four) and octahedral (with a coordination number of six).
+                          <em data-effect="italics">Cis</em> and
+                          <em data-effect="italics">trans</em> configurations are possible in some octahedral and square planar complexes. In addition to these geometrical isomers, optical isomers (molecules or ions that are mirror images but not superimposable) are possible in certain octahedral complexes. Coordination complexes have a wide variety of uses including oxygen transport in blood, water purification, and pharmaceutical use.
+                        </p>
+                      </section>
+                      <section
+                        class="summary"
+                        data-depth="1"
+                        id="fs-idm106302704"
+                      >
+                        <h3 data-type="document-title" id="[redacted for uniqueness]">
+                          <span class="os-number">19.3</span>
+                          <span class="os-divider"></span>
+                          <span
+                            class="os-text"
+                          >Spectroscopic and Magnetic Properties of Coordination Compounds</span>
+                        </h3>
+                        <p id="fs-idm138698112">
+                          Crystal field theory treats interactions between the electrons on the metal and the ligands as a simple electrostatic effect. The presence of the ligands near the metal ion changes the energies of the metal
+                          <em data-effect="italics">d</em> orbitals relative to their energies in the free ion. Both the color and the magnetic properties of a complex can be attributed to this crystal field splitting. The magnitude of the splitting (Δ
+                          <sub>oct</sub>) depends on the nature of the ligands bonded to the metal. Strong-field ligands produce large splitting and favor low-spin complexes, in which the
+                          <em data-effect="italics">t</em>
+                          <sub>
+                            2
+                            <em data-effect="italics">g</em>
+                          </sub> orbitals are completely filled before any electrons occupy the
+                          <em data-effect="italics">
+                            e
+                            <sub>g</sub>
+                          </em> orbitals. Weak-field ligands favor formation of high-spin complexes. The
+                          <em data-effect="italics">t</em>
+                          <sub>
+                            2
+                            <em data-effect="italics">g</em>
+                          </sub> and the
+                          <em data-effect="italics">
+                            e
+                            <sub>g</sub>
+                          </em> orbitals are singly occupied before any are doubly occupied.
+                        </p>
+                      </section>
+                    </div>
+                  </div>
+                  

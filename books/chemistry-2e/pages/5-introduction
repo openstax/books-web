@@ -1,0 +1,99 @@
+
+                    <div
+                      class="introduction"
+                      data-cnxml-to-html-ver="[redacted for uniqueness]"
+                      data-type="page"
+                      id="cf0ef76c-34fd-4905-a755-a28d0e4a5d1a"
+                    >
+                      <div class="os-chapter-outline">
+                        <h3 class="os-title">Chapter Outline</h3>
+                        <div class="os-chapter-objective">
+                          <a
+                            class="os-chapter-objective"
+                            href="5-1-energy-basics#[redacted for uniqueness]"
+                          >
+                            <span class="os-number">5.1</span>
+                            <span class="os-divider"></span>
+                            <span class="os-text">Energy Basics</span>
+                          </a>
+                        </div>
+                        <div class="os-chapter-objective">
+                          <a
+                            class="os-chapter-objective"
+                            href="5-2-calorimetry#[redacted for uniqueness]"
+                          >
+                            <span class="os-number">5.2</span>
+                            <span class="os-divider"></span>
+                            <span class="os-text">Calorimetry</span>
+                          </a>
+                        </div>
+                        <div class="os-chapter-objective">
+                          <a
+                            class="os-chapter-objective"
+                            href="5-3-enthalpy#[redacted for uniqueness]"
+                          >
+                            <span class="os-number">5.3</span>
+                            <span class="os-divider"></span>
+                            <span class="os-text">Enthalpy</span>
+                          </a>
+                        </div>
+                      </div>
+
+                      <div class="os-figure" id="CNX_Chem_05_00_Match">
+                        <figure class="splash" data-id="CNX_Chem_05_00_Match">
+                          <span
+                            data-alt="A match held in a person’s hand is ignited as it is scratched along the rough surface of a match box."
+                            data-type="media"
+                            id="fs-idm65754480"
+                          >
+                            <img
+                              alt="A match held in a person’s hand is ignited as it is scratched along the rough surface of a match box."
+                              data-media-type="image/jpeg"
+                              id="[redacted for uniqueness]"
+                              src="/resources/dcf39cb04e3e8b2828e24e658331b5f12c7b1cfc"
+                            >
+                          </span>
+                        </figure>
+                        <div class="os-caption-container">
+                          <span class="os-title-label">Figure</span>
+                          <span class="os-number">5.1</span>
+                          <span class="os-divider"></span>
+                          <span class="os-divider"></span>
+                          <span
+                            class="os-caption"
+                          >Sliding a match head along a rough surface initiates a combustion reaction that produces energy in the form of heat and light. (credit: modification of work by Laszlo Ilyes)</span>
+                        </div>
+                      </div>
+
+                      <p id="fs-idm19082352">
+                        Chemical reactions, such as those that occur when you light a match, involve changes in energy as well as matter. Societies at all levels of development could not function without the energy released by chemical reactions. In 2012, about 85% of US energy consumption came from the combustion of petroleum products, coal, wood, and garbage. We use this energy to produce electricity (38%); to transport food, raw materials, manufactured goods, and people (27%); for industrial production (21%); and to heat and power our homes and businesses (10%).
+                        <sup data-type="footnote-number" id="footnote-ref1">
+                          <a data-type="footnote-link" href="#footnote1">1</a>
+                        </sup> While these combustion reactions help us meet our essential energy needs, they are also recognized by the majority of the scientific community as a major contributor to global climate change.
+                      </p>
+
+                      <p
+                        id="fs-idm15108400"
+                      >Useful forms of energy are also available from a variety of chemical reactions other than combustion. For example, the energy produced by the batteries in a cell phone, car, or flashlight results from chemical reactions. This chapter introduces many of the basic ideas necessary to explore the relationships between chemical changes and energy, with a focus on thermal energy.</p>
+
+                      <div data-type="footnote-refs" id="[redacted for uniqueness]">
+                        <h3 data-type="footnote-refs-title">Footnotes</h3>
+                        <ul data-bullet-style="none" data-list-type="bulleted">
+                          <li data-type="footnote-ref" id="footnote1">
+                            <a
+                              data-type="footnote-ref-link"
+                              href="#footnote-ref1"
+                            >1</a>
+                            <span data-type="footnote-ref-content">
+                              US Energy Information Administration,
+                              <em
+                                data-effect="italics"
+                              >Primary Energy Consumption by Source and Sector, 2012</em>, http://www.eia.gov/totalenergy/data/monthly/pdf/flow/css_2012_energy.pdf. Data derived from US Energy Information Administration,
+                              <em data-effect="italics">Monthly Energy Review</em> (January 2014).
+                            </span>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  

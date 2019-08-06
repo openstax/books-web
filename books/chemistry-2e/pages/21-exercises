@@ -1,0 +1,3540 @@
+
+                    <div
+                      class="os-eoc os-exercises-container"
+                      data-type="composite-page"
+                      data-uuid-key=".exercises"
+                    >
+                      <section
+                        class="exercises"
+                        data-depth="1"
+                        id="fs-idm26476112"
+                      >
+                        <h3 data-type="document-title" id="[redacted for uniqueness]">
+                          <span class="os-number">21.1</span>
+                          <span class="os-divider"></span>
+                          <span class="os-text">Nuclear Structure and Stability</span>
+                        </h3>
+                        <div
+                          class="os-hasSolution"
+                          data-type="exercise"
+                          id="fs-idm84959200"
+                        >
+                          <div data-type="problem" id="fs-idp25319184">
+                            <a
+                              class="os-number"
+                              href="chapter-21#fs-idm84959200-solution"
+                            >1</a>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p
+                                id="fs-idm5227312"
+                              >Write the following isotopes in hyphenated form (e.g., “carbon-14”)</p>
+                              <p id="fs-idp78404736">
+                                (a)
+                                <math display="inline">
+                                  <semantics>
+                                    <mrow>
+                                      <msubsup>
+                                        <mrow/>
+                                        <mrow>
+                                          <mn>11</mn>
+                                        </mrow>
+                                        <mn>24</mn>
+                                      </msubsup>
+                                      <mtext>Na</mtext>
+                                    </mrow>
+                                    <annotation-xml encoding="MathML-Content">
+                                      <msubsup>
+                                        <mrow/>
+                                        <mrow>
+                                          <mn>11</mn>
+                                        </mrow>
+                                        <mn>24</mn>
+                                      </msubsup>
+                                      <mtext>Na</mtext>
+                                    </annotation-xml>
+                                  </semantics>
+                                </math>
+                              </p>
+                              <p id="fs-idm61611792">
+                                (b)
+                                <math display="inline">
+                                  <semantics>
+                                    <mrow>
+                                      <msubsup>
+                                        <mrow/>
+                                        <mrow>
+                                          <mn>13</mn>
+                                        </mrow>
+                                        <mn>29</mn>
+                                      </msubsup>
+                                      <mtext>Al</mtext>
+                                    </mrow>
+                                    <annotation-xml encoding="MathML-Content">
+                                      <msubsup>
+                                        <mrow/>
+                                        <mrow>
+                                          <mn>13</mn>
+                                        </mrow>
+                                        <mn>29</mn>
+                                      </msubsup>
+                                      <mtext>Al</mtext>
+                                    </annotation-xml>
+                                  </semantics>
+                                </math>
+                              </p>
+                              <p id="fs-idm45129152">
+                                (c)
+                                <math display="inline">
+                                  <semantics>
+                                    <mrow>
+                                      <msubsup>
+                                        <mrow/>
+                                        <mrow>
+                                          <mn>36</mn>
+                                        </mrow>
+                                        <mn>73</mn>
+                                      </msubsup>
+                                      <mtext>Kr</mtext>
+                                    </mrow>
+                                    <annotation-xml encoding="MathML-Content">
+                                      <msubsup>
+                                        <mrow/>
+                                        <mrow>
+                                          <mn>36</mn>
+                                        </mrow>
+                                        <mn>73</mn>
+                                      </msubsup>
+                                      <mtext>Kr</mtext>
+                                    </annotation-xml>
+                                  </semantics>
+                                </math>
+                              </p>
+                              <p id="fs-idp119220976">
+                                (d)
+                                <math display="inline">
+                                  <semantics>
+                                    <mrow>
+                                      <msubsup>
+                                        <mrow/>
+                                        <mrow>
+                                          <mspace width="0.5em"/>
+                                          <mn>77</mn>
+                                        </mrow>
+                                        <mn>194</mn>
+                                      </msubsup>
+                                      <mtext>Ir</mtext>
+                                    </mrow>
+                                    <annotation-xml encoding="MathML-Content">
+                                      <msubsup>
+                                        <mrow/>
+                                        <mrow>
+                                          <mspace width="0.5em"/>
+                                          <mn>77</mn>
+                                        </mrow>
+                                        <mn>194</mn>
+                                      </msubsup>
+                                      <mtext>Ir</mtext>
+                                    </annotation-xml>
+                                  </semantics>
+                                </math>
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class data-type="exercise" id="fs-idm1122208">
+                          <div data-type="problem" id="fs-idm67376">
+                            <span class="os-number">2</span>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p id="fs-idm59548176">
+                                Write the following isotopes in nuclide notation (e.g.,
+                                <math display="inline">
+                                  <semantics>
+                                    <mrow>
+                                      <mrow>
+                                        <mtext>"</mtext>
+                                        <msubsup>
+                                          <mrow/>
+                                          <mrow>
+                                            <mspace width="0.5em"/>
+                                            <mn>6</mn>
+                                          </mrow>
+                                          <mn>14</mn>
+                                        </msubsup>
+                                        <mtext>C</mtext>
+                                        <mtext>"</mtext>
+                                        <mo>)</mo>
+                                      </mrow>
+                                    </mrow>
+                                    <annotation-xml encoding="MathML-Content">
+                                      <mrow>
+                                        <mtext>"</mtext>
+                                        <msubsup>
+                                          <mrow/>
+                                          <mrow>
+                                            <mspace width="0.5em"/>
+                                            <mn>6</mn>
+                                          </mrow>
+                                          <mn>14</mn>
+                                        </msubsup>
+                                        <mtext>C</mtext>
+                                        <mtext>"</mtext>
+                                        <mo>)</mo>
+                                      </mrow>
+                                    </annotation-xml>
+                                  </semantics>
+                                </math>
+                              </p>
+                              <p id="fs-idp78762864">(a) oxygen-14</p>
+                              <p id="fs-idp51038896">(b) copper-70</p>
+                              <p id="fs-idm60853712">(c) tantalum-175</p>
+                              <p id="fs-idm56820256">(d) francium-217</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="os-hasSolution"
+                          data-type="exercise"
+                          id="fs-idm73167408"
+                        >
+                          <div data-type="problem" id="fs-idm95583360">
+                            <a
+                              class="os-number"
+                              href="chapter-21#fs-idm73167408-solution"
+                            >3</a>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p
+                                id="fs-idp72263728"
+                              >For the following isotopes that have missing information, fill in the missing information to complete the notation</p>
+                              <p id="fs-idm36976592">
+                                (a)
+                                <math display="inline">
+                                  <semantics>
+                                    <mrow>
+                                      <msubsup>
+                                        <mrow/>
+                                        <mrow>
+                                          <mn>14</mn>
+                                        </mrow>
+                                        <mn>34</mn>
+                                      </msubsup>
+                                      <mtext>X</mtext>
+                                    </mrow>
+                                    <annotation-xml encoding="MathML-Content">
+                                      <msubsup>
+                                        <mrow/>
+                                        <mrow>
+                                          <mn>14</mn>
+                                        </mrow>
+                                        <mn>34</mn>
+                                      </msubsup>
+                                      <mtext>X</mtext>
+                                    </annotation-xml>
+                                  </semantics>
+                                </math>
+                              </p>
+                              <p id="fs-idp91657136">
+                                (b)
+                                <math display="inline">
+                                  <semantics>
+                                    <mrow>
+                                      <msubsup>
+                                        <mrow/>
+                                        <mrow>
+                                          <mspace width="0.3em"/>
+                                          <mtext>X</mtext>
+                                        </mrow>
+                                        <mn>36</mn>
+                                      </msubsup>
+                                      <mtext>P</mtext>
+                                    </mrow>
+                                    <annotation-xml encoding="MathML-Content">
+                                      <msubsup>
+                                        <mrow/>
+                                        <mrow>
+                                          <mspace width="0.3em"/>
+                                          <mtext>X</mtext>
+                                        </mrow>
+                                        <mn>36</mn>
+                                      </msubsup>
+                                      <mtext>P</mtext>
+                                    </annotation-xml>
+                                  </semantics>
+                                </math>
+                              </p>
+                              <p id="fs-idm47972736">
+                                (c)
+                                <math display="inline">
+                                  <semantics>
+                                    <mrow>
+                                      <msubsup>
+                                        <mrow/>
+                                        <mrow>
+                                          <mspace width="0.3em"/>
+                                          <mtext>X</mtext>
+                                        </mrow>
+                                        <mn>57</mn>
+                                      </msubsup>
+                                      <mtext>Mn</mtext>
+                                    </mrow>
+                                    <annotation-xml encoding="MathML-Content">
+                                      <msubsup>
+                                        <mrow/>
+                                        <mrow>
+                                          <mspace width="0.3em"/>
+                                          <mtext>X</mtext>
+                                        </mrow>
+                                        <mn>57</mn>
+                                      </msubsup>
+                                      <mtext>Mn</mtext>
+                                    </annotation-xml>
+                                  </semantics>
+                                </math>
+                              </p>
+                              <p id="fs-idm2927904">
+                                (d)
+                                <math display="inline">
+                                  <semantics>
+                                    <mrow>
+                                      <msubsup>
+                                        <mrow/>
+                                        <mrow>
+                                          <mspace width="0.5em"/>
+                                          <mn>56</mn>
+                                        </mrow>
+                                        <mn>121</mn>
+                                      </msubsup>
+                                      <mtext>X</mtext>
+                                    </mrow>
+                                    <annotation-xml encoding="MathML-Content">
+                                      <msubsup>
+                                        <mrow/>
+                                        <mrow>
+                                          <mspace width="0.5em"/>
+                                          <mn>56</mn>
+                                        </mrow>
+                                        <mn>121</mn>
+                                      </msubsup>
+                                      <mtext>X</mtext>
+                                    </annotation-xml>
+                                  </semantics>
+                                </math>
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class data-type="exercise" id="fs-idm82455680">
+                          <div data-type="problem" id="fs-idp34466176">
+                            <span class="os-number">4</span>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p id="fs-idm37442896">
+                                For each of the isotopes in
+                                <a
+                                  class="autogenerated-content"
+                                  href="#fs-idm84959200"
+                                >Exercise 21.1</a>, determine the numbers of protons, neutrons, and electrons in a neutral atom of the isotope.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="os-hasSolution"
+                          data-type="exercise"
+                          id="fs-idp89003008"
+                        >
+                          <div data-type="problem" id="fs-idm43721104">
+                            <a
+                              class="os-number"
+                              href="chapter-21#fs-idp89003008-solution"
+                            >5</a>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p
+                                id="fs-idp8334976"
+                              >Write the nuclide notation, including charge if applicable, for atoms with the following characteristics:</p>
+                              <p
+                                id="fs-idp166416416"
+                              >(a) 25 protons, 20 neutrons, 24 electrons</p>
+                              <p
+                                id="fs-idp81543856"
+                              >(b) 45 protons, 24 neutrons, 43 electrons</p>
+                              <p
+                                id="fs-idm80884112"
+                              >(c) 53 protons, 89 neutrons, 54 electrons</p>
+                              <p
+                                id="fs-idm94149728"
+                              >(d) 97 protons, 146 neutrons, 97 electrons</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class data-type="exercise" id="fs-idm91931648">
+                          <div data-type="problem" id="fs-idp16266912">
+                            <span class="os-number">6</span>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p id="fs-idp157296384">
+                                Calculate the density of the
+                                <math display="inline">
+                                  <semantics>
+                                    <mrow>
+                                      <msubsup>
+                                        <mrow/>
+                                        <mrow>
+                                          <mn>12</mn>
+                                        </mrow>
+                                        <mn>24</mn>
+                                      </msubsup>
+                                      <mtext>Mg</mtext>
+                                    </mrow>
+                                    <annotation-xml encoding="MathML-Content">
+                                      <msubsup>
+                                        <mrow/>
+                                        <mrow>
+                                          <mn>12</mn>
+                                        </mrow>
+                                        <mn>24</mn>
+                                      </msubsup>
+                                      <mtext>Mg</mtext>
+                                    </annotation-xml>
+                                  </semantics>
+                                </math> nucleus in g/mL, assuming that it has the typical nuclear diameter of 1
+                                <math display="inline">
+                                  <semantics>
+                                    <mrow>
+                                      <mo>×</mo>
+                                    </mrow>
+                                    <annotation-xml encoding="MathML-Content">
+                                      <mo>×</mo>
+                                    </annotation-xml>
+                                  </semantics>
+                                </math> 10
+                                <sup>–13</sup> cm and is spherical in shape.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="os-hasSolution"
+                          data-type="exercise"
+                          id="fs-idp167345472"
+                        >
+                          <div data-type="problem" id="fs-idm89912496">
+                            <a
+                              class="os-number"
+                              href="chapter-21#fs-idp167345472-solution"
+                            >7</a>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p
+                                id="fs-idm69331248"
+                              >What are the two principal differences between nuclear reactions and ordinary chemical changes?</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class data-type="exercise" id="fs-idm82186208">
+                          <div data-type="problem" id="fs-idm29609216">
+                            <span class="os-number">8</span>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p id="fs-idm83369984">
+                                The mass of the atom
+                                <math display="inline">
+                                  <semantics>
+                                    <mrow>
+                                      <msubsup>
+                                        <mrow/>
+                                        <mrow>
+                                          <mn>11</mn>
+                                        </mrow>
+                                        <mn>23</mn>
+                                      </msubsup>
+                                      <mtext>Na</mtext>
+                                    </mrow>
+                                    <annotation-xml encoding="MathML-Content">
+                                      <msubsup>
+                                        <mrow/>
+                                        <mrow>
+                                          <mn>11</mn>
+                                        </mrow>
+                                        <mn>23</mn>
+                                      </msubsup>
+                                      <mtext>Na</mtext>
+                                    </annotation-xml>
+                                  </semantics>
+                                </math> is 22.9898 amu.
+                              </p>
+                              <p
+                                id="fs-idm85494352"
+                              >(a) Calculate its binding energy per atom in millions of electron volts.</p>
+                              <p
+                                id="fs-idp17813712"
+                              >(b) Calculate its binding energy per nucleon.</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="os-hasSolution"
+                          data-type="exercise"
+                          id="fs-idm96451808"
+                        >
+                          <div data-type="problem" id="fs-idm403184">
+                            <a
+                              class="os-number"
+                              href="chapter-21#fs-idm96451808-solution"
+                            >9</a>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p id="fs-idm99606016">
+                                Which of the following nuclei lie within the band of stability shown in
+                                <a
+                                  class="autogenerated-content"
+                                  href="21-1-nuclear-structure-and-stability#CNX_Chem_21_01_BandStable"
+                                >Figure 21.2</a>?
+                              </p>
+                              <p id="fs-idp13838000">(a) chlorine-37</p>
+                              <p id="fs-idm34413536">(b) calcium-40</p>
+                              <p id="fs-idm71120304">
+                                (c)
+                                <sup>204</sup>Bi
+                              </p>
+                              <p id="fs-idp114508512">
+                                (d)
+                                <sup>56</sup>Fe
+                              </p>
+                              <p id="fs-idm60703664">
+                                (e)
+                                <sup>206</sup>Pb
+                              </p>
+                              <p id="fs-idm123208016">
+                                (f)
+                                <sup>211</sup>Pb
+                              </p>
+                              <p id="fs-idp36580944">
+                                (g)
+                                <sup>222</sup>Rn
+                              </p>
+                              <p id="fs-idm72521024">(h) carbon-14</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class data-type="exercise" id="fs-idp43351040">
+                          <div data-type="problem" id="fs-idm22612112">
+                            <span class="os-number">10</span>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p id="fs-idp166773904">
+                                Which of the following nuclei lie within the band of stability shown in
+                                <a
+                                  class="autogenerated-content"
+                                  href="21-1-nuclear-structure-and-stability#CNX_Chem_21_01_BandStable"
+                                >Figure 21.2</a>?
+                              </p>
+                              <p id="fs-idm118428384">(a) argon-40</p>
+                              <p id="fs-idm86111824">(b) oxygen-16</p>
+                              <p id="fs-idp181266880">
+                                (c)
+                                <sup>122</sup>Ba
+                              </p>
+                              <p id="fs-idm89699424">
+                                (d)
+                                <sup>58</sup>Ni
+                              </p>
+                              <p id="fs-idm79230544">
+                                (e)
+                                <sup>205</sup>Tl
+                              </p>
+                              <p id="fs-idm50779296">
+                                (f)
+                                <sup>210</sup>Tl
+                              </p>
+                              <p id="fs-idp80773664">
+                                (g)
+                                <sup>226</sup>Ra
+                              </p>
+                              <p id="fs-idm86405808">(h) magnesium-24</p>
+                            </div>
+                          </div>
+                        </div>
+                      </section>
+                      <section
+                        class="exercises"
+                        data-depth="1"
+                        id="fs-idp77230864"
+                      >
+                        <h3 data-type="document-title" id="[redacted for uniqueness]">
+                          <span class="os-number">21.2</span>
+                          <span class="os-divider"></span>
+                          <span class="os-text">Nuclear Equations</span>
+                        </h3>
+                        <div
+                          class="os-hasSolution"
+                          data-type="exercise"
+                          id="fs-idp161987712"
+                        >
+                          <div data-type="problem" id="fs-idp35676256">
+                            <a
+                              class="os-number"
+                              href="chapter-21#fs-idp161987712-solution"
+                            >11</a>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p
+                                id="fs-idp1411168"
+                              >Write a brief description or definition of each of the following:</p>
+                              <p id="fs-idp82665216">(a) nucleon</p>
+                              <p id="fs-idp101713008">(b) α particle</p>
+                              <p id="fs-idp15833856">(c) β particle</p>
+                              <p id="fs-idm47984912">(d) positron</p>
+                              <p id="fs-idp7335552">(e) γ ray</p>
+                              <p id="fs-idp710880">(f) nuclide</p>
+                              <p id="fs-idp51919152">(g) mass number</p>
+                              <p id="fs-idp79754624">(h) atomic number</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class data-type="exercise" id="fs-idp158311008">
+                          <div data-type="problem" id="fs-idp40874800">
+                            <span class="os-number">12</span>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p
+                                id="fs-idm19004416"
+                              >Which of the various particles (α particles, β particles, and so on) that may be produced in a nuclear reaction are actually nuclei?</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="os-hasSolution"
+                          data-type="exercise"
+                          id="fs-idp126933936"
+                        >
+                          <div data-type="problem" id="fs-idp202790224">
+                            <a
+                              class="os-number"
+                              href="chapter-21#fs-idp126933936-solution"
+                            >13</a>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p
+                                id="fs-idp50138432"
+                              >Complete each of the following equations by adding the missing species:</p>
+                              <p id="fs-idp28498560">
+                                (a)
+                                <math display="inline">
+                                  <semantics>
+                                    <mrow>
+                                      <mrow>
+                                        <msubsup>
+                                          <mrow/>
+                                          <mrow>
+                                            <mn>13</mn>
+                                          </mrow>
+                                          <mn>27</mn>
+                                        </msubsup>
+                                        <mtext>Al</mtext>
+                                        <mo>+</mo>
+                                        <msubsup>
+                                          <mrow/>
+                                          <mrow>
+                                            <mn>2</mn>
+                                          </mrow>
+                                          <mn>4</mn>
+                                        </msubsup>
+                                        <mtext>He</mtext>
+                                        <mspace width="0.2em"/>
+                                        <mo stretchy="false">⟶</mo>
+                                        <mspace width="0.2em"/>
+                                        <mo>?</mo>
+                                        <mspace width="0.2em"/>
+                                        <mo>+</mo>
+                                        <msubsup>
+                                          <mrow/>
+                                          <mrow>
+                                            <mn>0</mn>
+                                          </mrow>
+                                          <mn>1</mn>
+                                        </msubsup>
+                                        <mtext>n</mtext>
+                                      </mrow>
+                                    </mrow>
+                                    <annotation-xml encoding="MathML-Content">
+                                      <mrow>
+                                        <msubsup>
+                                          <mrow/>
+                                          <mrow>
+                                            <mn>13</mn>
+                                          </mrow>
+                                          <mn>27</mn>
+                                        </msubsup>
+                                        <mtext>Al</mtext>
+                                        <mo>+</mo>
+                                        <msubsup>
+                                          <mrow/>
+                                          <mrow>
+                                            <mn>2</mn>
+                                          </mrow>
+                                          <mn>4</mn>
+                                        </msubsup>
+                                        <mtext>He</mtext>
+                                        <mspace width="0.2em"/>
+                                        <mo stretchy="false">⟶</mo>
+                                        <mspace width="0.2em"/>
+                                        <mo>?</mo>
+                                        <mspace width="0.2em"/>
+                                        <mo>+</mo>
+                                        <msubsup>
+                                          <mrow/>
+                                          <mrow>
+                                            <mn>0</mn>
+                                          </mrow>
+                                          <mn>1</mn>
+                                        </msubsup>
+                                        <mtext>n</mtext>
+                                      </mrow>
+                                    </annotation-xml>
+                                  </semantics>
+                                </math>
+                              </p>
+                              <p id="fs-idp201885664">
+                                (b)
+                                <math display="inline">
+                                  <semantics>
+                                    <mrow>
+                                      <mrow>
+                                        <msubsup>
+                                          <mrow/>
+                                          <mrow>
+                                            <mspace width="0.4em"/>
+                                            <mn>94</mn>
+                                          </mrow>
+                                          <mn>239</mn>
+                                        </msubsup>
+                                        <mtext>Pu</mtext>
+                                        <mo>+</mo>
+                                        <mo>?</mo>
+                                        <mspace width="0.2em"/>
+                                        <mo stretchy="false">⟶</mo>
+                                        <mspace width="0.2em"/>
+                                        <msubsup>
+                                          <mrow/>
+                                          <mrow>
+                                            <mspace width="0.5em"/>
+                                            <mn>96</mn>
+                                          </mrow>
+                                          <mn>242</mn>
+                                        </msubsup>
+                                        <mtext>Cm</mtext>
+                                        <mo>+</mo>
+                                        <msubsup>
+                                          <mrow/>
+                                          <mrow>
+                                            <mn>0</mn>
+                                          </mrow>
+                                          <mn>1</mn>
+                                        </msubsup>
+                                        <mtext>n</mtext>
+                                      </mrow>
+                                    </mrow>
+                                    <annotation-xml encoding="MathML-Content">
+                                      <mrow>
+                                        <msubsup>
+                                          <mrow/>
+                                          <mrow>
+                                            <mspace width="0.4em"/>
+                                            <mn>94</mn>
+                                          </mrow>
+                                          <mn>239</mn>
+                                        </msubsup>
+                                        <mtext>Pu</mtext>
+                                        <mo>+</mo>
+                                        <mo>?</mo>
+                                        <mspace width="0.2em"/>
+                                        <mo stretchy="false">⟶</mo>
+                                        <mspace width="0.2em"/>
+                                        <msubsup>
+                                          <mrow/>
+                                          <mrow>
+                                            <mspace width="0.5em"/>
+                                            <mn>96</mn>
+                                          </mrow>
+                                          <mn>242</mn>
+                                        </msubsup>
+                                        <mtext>Cm</mtext>
+                                        <mo>+</mo>
+                                        <msubsup>
+                                          <mrow/>
+                                          <mrow>
+                                            <mn>0</mn>
+                                          </mrow>
+                                          <mn>1</mn>
+                                        </msubsup>
+                                        <mtext>n</mtext>
+                                      </mrow>
+                                    </annotation-xml>
+                                  </semantics>
+                                </math>
+                              </p>
+                              <p id="fs-idm8983536">
+                                (c)
+                                <math display="inline">
+                                  <semantics>
+                                    <mrow>
+                                      <mrow>
+                                        <msubsup>
+                                          <mrow/>
+                                          <mrow>
+                                            <mspace width="0.5em"/>
+                                            <mn>7</mn>
+                                          </mrow>
+                                          <mn>14</mn>
+                                        </msubsup>
+                                        <mtext>N</mtext>
+                                        <mo>+</mo>
+                                        <msubsup>
+                                          <mrow/>
+                                          <mrow>
+                                            <mn>2</mn>
+                                          </mrow>
+                                          <mn>4</mn>
+                                        </msubsup>
+                                        <mtext>He</mtext>
+                                        <mspace width="0.2em"/>
+                                        <mo stretchy="false">⟶</mo>
+                                        <mspace width="0.2em"/>
+                                        <mtext>?</mtext>
+                                        <mo>+</mo>
+                                        <msubsup>
+                                          <mrow/>
+                                          <mrow>
+                                            <mn>1</mn>
+                                          </mrow>
+                                          <mn>1</mn>
+                                        </msubsup>
+                                        <mtext>H</mtext>
+                                      </mrow>
+                                    </mrow>
+                                    <annotation-xml encoding="MathML-Content">
+                                      <mrow>
+                                        <msubsup>
+                                          <mrow/>
+                                          <mrow>
+                                            <mspace width="0.5em"/>
+                                            <mn>7</mn>
+                                          </mrow>
+                                          <mn>14</mn>
+                                        </msubsup>
+                                        <mtext>N</mtext>
+                                        <mo>+</mo>
+                                        <msubsup>
+                                          <mrow/>
+                                          <mrow>
+                                            <mn>2</mn>
+                                          </mrow>
+                                          <mn>4</mn>
+                                        </msubsup>
+                                        <mtext>He</mtext>
+                                        <mspace width="0.2em"/>
+                                        <mo stretchy="false">⟶</mo>
+                                        <mspace width="0.2em"/>
+                                        <mtext>?</mtext>
+                                        <mo>+</mo>
+                                        <msubsup>
+                                          <mrow/>
+                                          <mrow>
+                                            <mn>1</mn>
+                                          </mrow>
+                                          <mn>1</mn>
+                                        </msubsup>
+                                        <mtext>H</mtext>
+                                      </mrow>
+                                    </annotation-xml>
+                                  </semantics>
+                                </math>
+                              </p>
+                              <p id="fs-idp147396032">
+                                (d)
+                                <math display="inline">
+                                  <semantics>
+                                    <mrow>
+                                      <mrow>
+                                        <msubsup>
+                                          <mrow/>
+                                          <mrow>
+                                            <mspace width="0.5em"/>
+                                            <mn>92</mn>
+                                          </mrow>
+                                          <mn>235</mn>
+                                        </msubsup>
+                                        <mtext>U</mtext>
+                                        <mspace width="0.2em"/>
+                                        <mo stretchy="false">⟶</mo>
+                                        <mspace width="0.2em"/>
+                                        <mtext>?</mtext>
+                                        <mo>+</mo>
+                                        <msubsup>
+                                          <mrow/>
+                                          <mrow>
+                                            <mspace width="0.5em"/>
+                                            <mn>55</mn>
+                                          </mrow>
+                                          <mn>135</mn>
+                                        </msubsup>
+                                        <mtext>Cs</mtext>
+                                        <mo>+</mo>
+                                        <mn>4</mn>
+                                        <msubsup>
+                                          <mrow/>
+                                          <mrow>
+                                            <mn>0</mn>
+                                          </mrow>
+                                          <mn>1</mn>
+                                        </msubsup>
+                                        <mtext>n</mtext>
+                                      </mrow>
+                                    </mrow>
+                                    <annotation-xml encoding="MathML-Content">
+                                      <mrow>
+                                        <msubsup>
+                                          <mrow/>
+                                          <mrow>
+                                            <mspace width="0.5em"/>
+                                            <mn>92</mn>
+                                          </mrow>
+                                          <mn>235</mn>
+                                        </msubsup>
+                                        <mtext>U</mtext>
+                                        <mspace width="0.2em"/>
+                                        <mo stretchy="false">⟶</mo>
+                                        <mspace width="0.2em"/>
+                                        <mtext>?</mtext>
+                                        <mo>+</mo>
+                                        <msubsup>
+                                          <mrow/>
+                                          <mrow>
+                                            <mspace width="0.5em"/>
+                                            <mn>55</mn>
+                                          </mrow>
+                                          <mn>135</mn>
+                                        </msubsup>
+                                        <mtext>Cs</mtext>
+                                        <mo>+</mo>
+                                        <mn>4</mn>
+                                        <msubsup>
+                                          <mrow/>
+                                          <mrow>
+                                            <mn>0</mn>
+                                          </mrow>
+                                          <mn>1</mn>
+                                        </msubsup>
+                                        <mtext>n</mtext>
+                                      </mrow>
+                                    </annotation-xml>
+                                  </semantics>
+                                </math>
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class data-type="exercise" id="fs-idm5988192">
+                          <div data-type="problem" id="fs-idp147645296">
+                            <span class="os-number">14</span>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p
+                                id="fs-idp74159184"
+                              >Complete each of the following equations:</p>
+                              <p id="fs-idp237040000">
+                                (a)
+                                <math display="inline">
+                                  <semantics>
+                                    <mrow>
+                                      <mrow>
+                                        <msubsup>
+                                          <mrow/>
+                                          <mrow>
+                                            <mn>3</mn>
+                                          </mrow>
+                                          <mn>7</mn>
+                                        </msubsup>
+                                        <mtext>Li</mtext>
+                                        <mo>+</mo>
+                                        <mtext>?</mtext>
+                                        <mspace width="0.2em"/>
+                                        <mo stretchy="false">⟶</mo>
+                                        <mspace width="0.2em"/>
+                                        <mn>2</mn>
+                                        <msubsup>
+                                          <mrow/>
+                                          <mrow>
+                                            <mn>2</mn>
+                                          </mrow>
+                                          <mn>4</mn>
+                                        </msubsup>
+                                        <mtext>He</mtext>
+                                      </mrow>
+                                    </mrow>
+                                    <annotation-xml encoding="MathML-Content">
+                                      <mrow>
+                                        <msubsup>
+                                          <mrow/>
+                                          <mrow>
+                                            <mn>3</mn>
+                                          </mrow>
+                                          <mn>7</mn>
+                                        </msubsup>
+                                        <mtext>Li</mtext>
+                                        <mo>+</mo>
+                                        <mtext>?</mtext>
+                                        <mspace width="0.2em"/>
+                                        <mo stretchy="false">⟶</mo>
+                                        <mspace width="0.2em"/>
+                                        <mn>2</mn>
+                                        <msubsup>
+                                          <mrow/>
+                                          <mrow>
+                                            <mn>2</mn>
+                                          </mrow>
+                                          <mn>4</mn>
+                                        </msubsup>
+                                        <mtext>He</mtext>
+                                      </mrow>
+                                    </annotation-xml>
+                                  </semantics>
+                                </math>
+                              </p>
+                              <p id="fs-idp105650304">
+                                (b)
+                                <math display="inline">
+                                  <semantics>
+                                    <mrow>
+                                      <mrow>
+                                        <msubsup>
+                                          <mrow/>
+                                          <mrow>
+                                            <mspace width="0.5em"/>
+                                            <mn>6</mn>
+                                          </mrow>
+                                          <mn>14</mn>
+                                        </msubsup>
+                                        <mtext>C</mtext>
+                                        <mspace width="0.2em"/>
+                                        <mo stretchy="false">⟶</mo>
+                                        <mspace width="0.2em"/>
+                                        <msubsup>
+                                          <mrow/>
+                                          <mrow>
+                                            <mspace width="0.5em"/>
+                                            <mn>7</mn>
+                                          </mrow>
+                                          <mn>14</mn>
+                                        </msubsup>
+                                        <mtext>N</mtext>
+                                        <mo>+</mo>
+                                        <mtext>?</mtext>
+                                      </mrow>
+                                    </mrow>
+                                    <annotation-xml encoding="MathML-Content">
+                                      <mrow>
+                                        <msubsup>
+                                          <mrow/>
+                                          <mrow>
+                                            <mspace width="0.5em"/>
+                                            <mn>6</mn>
+                                          </mrow>
+                                          <mn>14</mn>
+                                        </msubsup>
+                                        <mtext>C</mtext>
+                                        <mspace width="0.2em"/>
+                                        <mo stretchy="false">⟶</mo>
+                                        <mspace width="0.2em"/>
+                                        <msubsup>
+                                          <mrow/>
+                                          <mrow>
+                                            <mspace width="0.5em"/>
+                                            <mn>7</mn>
+                                          </mrow>
+                                          <mn>14</mn>
+                                        </msubsup>
+                                        <mtext>N</mtext>
+                                        <mo>+</mo>
+                                        <mtext>?</mtext>
+                                      </mrow>
+                                    </annotation-xml>
+                                  </semantics>
+                                </math>
+                              </p>
+                              <p id="fs-idp159474384">
+                                (c)
+                                <math display="inline">
+                                  <semantics>
+                                    <mrow>
+                                      <mrow>
+                                        <msubsup>
+                                          <mrow/>
+                                          <mrow>
+                                            <mn>13</mn>
+                                          </mrow>
+                                          <mn>27</mn>
+                                        </msubsup>
+                                        <mtext>Al</mtext>
+                                        <mo>+</mo>
+                                        <msubsup>
+                                          <mrow/>
+                                          <mrow>
+                                            <mn>2</mn>
+                                          </mrow>
+                                          <mn>4</mn>
+                                        </msubsup>
+                                        <mtext>He</mtext>
+                                        <mspace width="0.2em"/>
+                                        <mo stretchy="false">⟶</mo>
+                                        <mspace width="0.2em"/>
+                                        <mtext>?</mtext>
+                                        <mo>+</mo>
+                                        <msubsup>
+                                          <mrow/>
+                                          <mrow>
+                                            <mn>0</mn>
+                                          </mrow>
+                                          <mn>1</mn>
+                                        </msubsup>
+                                        <mtext>n</mtext>
+                                      </mrow>
+                                    </mrow>
+                                    <annotation-xml encoding="MathML-Content">
+                                      <mrow>
+                                        <msubsup>
+                                          <mrow/>
+                                          <mrow>
+                                            <mn>13</mn>
+                                          </mrow>
+                                          <mn>27</mn>
+                                        </msubsup>
+                                        <mtext>Al</mtext>
+                                        <mo>+</mo>
+                                        <msubsup>
+                                          <mrow/>
+                                          <mrow>
+                                            <mn>2</mn>
+                                          </mrow>
+                                          <mn>4</mn>
+                                        </msubsup>
+                                        <mtext>He</mtext>
+                                        <mspace width="0.2em"/>
+                                        <mo stretchy="false">⟶</mo>
+                                        <mspace width="0.2em"/>
+                                        <mtext>?</mtext>
+                                        <mo>+</mo>
+                                        <msubsup>
+                                          <mrow/>
+                                          <mrow>
+                                            <mn>0</mn>
+                                          </mrow>
+                                          <mn>1</mn>
+                                        </msubsup>
+                                        <mtext>n</mtext>
+                                      </mrow>
+                                    </annotation-xml>
+                                  </semantics>
+                                </math>
+                              </p>
+                              <p id="fs-idp62900608">
+                                (d)
+                                <math display="inline">
+                                  <semantics>
+                                    <mrow>
+                                      <mrow>
+                                        <msubsup>
+                                          <mrow/>
+                                          <mrow>
+                                            <mspace width="0.5em"/>
+                                            <mn>96</mn>
+                                          </mrow>
+                                          <mn>250</mn>
+                                        </msubsup>
+                                        <mtext>Cm</mtext>
+                                        <mspace width="0.2em"/>
+                                        <mo stretchy="false">⟶</mo>
+                                        <mspace width="0.2em"/>
+                                        <mtext>?</mtext>
+                                        <mo>+</mo>
+                                        <msubsup>
+                                          <mrow/>
+                                          <mrow>
+                                            <mn>38</mn>
+                                          </mrow>
+                                          <mn>98</mn>
+                                        </msubsup>
+                                        <mtext>Sr</mtext>
+                                        <mo>+</mo>
+                                        <mn>4</mn>
+                                        <msubsup>
+                                          <mrow/>
+                                          <mrow>
+                                            <mn>0</mn>
+                                          </mrow>
+                                          <mn>1</mn>
+                                        </msubsup>
+                                        <mtext>n</mtext>
+                                      </mrow>
+                                    </mrow>
+                                    <annotation-xml encoding="MathML-Content">
+                                      <mrow>
+                                        <msubsup>
+                                          <mrow/>
+                                          <mrow>
+                                            <mspace width="0.5em"/>
+                                            <mn>96</mn>
+                                          </mrow>
+                                          <mn>250</mn>
+                                        </msubsup>
+                                        <mtext>Cm</mtext>
+                                        <mspace width="0.2em"/>
+                                        <mo stretchy="false">⟶</mo>
+                                        <mspace width="0.2em"/>
+                                        <mtext>?</mtext>
+                                        <mo>+</mo>
+                                        <msubsup>
+                                          <mrow/>
+                                          <mrow>
+                                            <mn>38</mn>
+                                          </mrow>
+                                          <mn>98</mn>
+                                        </msubsup>
+                                        <mtext>Sr</mtext>
+                                        <mo>+</mo>
+                                        <mn>4</mn>
+                                        <msubsup>
+                                          <mrow/>
+                                          <mrow>
+                                            <mn>0</mn>
+                                          </mrow>
+                                          <mn>1</mn>
+                                        </msubsup>
+                                        <mtext>n</mtext>
+                                      </mrow>
+                                    </annotation-xml>
+                                  </semantics>
+                                </math>
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="os-hasSolution"
+                          data-type="exercise"
+                          id="fs-idp225643904"
+                        >
+                          <div data-type="problem" id="fs-idp4814048">
+                            <a
+                              class="os-number"
+                              href="chapter-21#fs-idp225643904-solution"
+                            >15</a>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p
+                                id="fs-idp166353408"
+                              >Write a balanced equation for each of the following nuclear reactions:</p>
+                              <p id="fs-idp160023024">
+                                (a) the production of
+                                <sup>17</sup>O from
+                                <sup>14</sup>N by α particle bombardment
+                              </p>
+                              <p id="fs-idp167819312">
+                                (b) the production of
+                                <sup>14</sup>C from
+                                <sup>14</sup>N by neutron bombardment
+                              </p>
+                              <p id="fs-idp163053056">
+                                (c) the production of
+                                <sup>233</sup>Th from
+                                <sup>232</sup>Th by neutron bombardment
+                              </p>
+                              <p id="fs-idp25746336">
+                                (d) the production of
+                                <sup>239</sup>U from
+                                <sup>238</sup>U by
+                                <math display="inline">
+                                  <semantics>
+                                    <mrow>
+                                      <msubsup>
+                                        <mrow/>
+                                        <mrow>
+                                          <mn>1</mn>
+                                        </mrow>
+                                        <mn>2</mn>
+                                      </msubsup>
+                                      <mtext>H</mtext>
+                                    </mrow>
+                                    <annotation-xml encoding="MathML-Content">
+                                      <msubsup>
+                                        <mrow/>
+                                        <mrow>
+                                          <mn>1</mn>
+                                        </mrow>
+                                        <mn>2</mn>
+                                      </msubsup>
+                                      <mtext>H</mtext>
+                                    </annotation-xml>
+                                  </semantics>
+                                </math> bombardment
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class data-type="exercise" id="fs-idp59747856">
+                          <div data-type="problem" id="fs-idp39294832">
+                            <span class="os-number">16</span>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p id="fs-idp250174032">
+                                Technetium-99 is prepared from
+                                <sup>98</sup>Mo. Molybdenum-98 combines with a neutron to give molybdenum-99, an unstable isotope that emits a β particle to yield an excited form of technetium-99, represented as
+                                <sup>99</sup>Tc
+                                <sup>*</sup>. This excited nucleus relaxes to the ground state, represented as
+                                <sup>99</sup>Tc, by emitting a γ ray. The ground state of
+                                <sup>99</sup>Tc then emits a β particle. Write the equations for each of these nuclear reactions.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="os-hasSolution"
+                          data-type="exercise"
+                          id="fs-idp74968928"
+                        >
+                          <div data-type="problem" id="fs-idp243573632">
+                            <a
+                              class="os-number"
+                              href="chapter-21#fs-idp74968928-solution"
+                            >17</a>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p id="fs-idp201595904">
+                                The mass of the atom
+                                <math display="inline">
+                                  <semantics>
+                                    <mrow>
+                                      <msubsup>
+                                        <mrow>
+                                          <mspace width="0.5em"/>
+                                        </mrow>
+                                        <mn>9</mn>
+                                        <mn>19</mn>
+                                      </msubsup>
+                                      <mtext>F</mtext>
+                                    </mrow>
+                                    <annotation-xml encoding="MathML-Content">
+                                      <msubsup>
+                                        <mrow>
+                                          <mspace width="0.5em"/>
+                                        </mrow>
+                                        <mn>9</mn>
+                                        <mn>19</mn>
+                                      </msubsup>
+                                      <mtext>F</mtext>
+                                    </annotation-xml>
+                                  </semantics>
+                                </math> is 18.99840 amu.
+                              </p>
+                              <p
+                                id="fs-idp41347120"
+                              >(a) Calculate its binding energy per atom in millions of electron volts.</p>
+                              <p
+                                id="fs-idp37663696"
+                              >(b) Calculate its binding energy per nucleon.</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class data-type="exercise" id="fs-idp208355344">
+                          <div data-type="problem" id="fs-idp17681328">
+                            <span class="os-number">18</span>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p id="fs-idp91057312">
+                                For the reaction
+                                <math display="inline">
+                                  <semantics>
+                                    <mrow>
+                                      <mrow>
+                                        <msubsup>
+                                          <mrow/>
+                                          <mrow>
+                                            <mspace width="0.5em"/>
+                                            <mn>6</mn>
+                                          </mrow>
+                                          <mn>14</mn>
+                                        </msubsup>
+                                        <mtext>C</mtext>
+                                        <mspace width="0.2em"/>
+                                        <mo stretchy="false">⟶</mo>
+                                        <mspace width="0.2em"/>
+                                        <msubsup>
+                                          <mrow/>
+                                          <mrow>
+                                            <mspace width="0.5em"/>
+                                            <mn>7</mn>
+                                          </mrow>
+                                          <mn>14</mn>
+                                        </msubsup>
+                                        <mtext>N</mtext>
+                                        <mo>+</mo>
+                                        <mtext>?</mtext>
+                                        <mo>,</mo>
+                                      </mrow>
+                                    </mrow>
+                                    <annotation-xml encoding="MathML-Content">
+                                      <mrow>
+                                        <msubsup>
+                                          <mrow/>
+                                          <mrow>
+                                            <mspace width="0.5em"/>
+                                            <mn>6</mn>
+                                          </mrow>
+                                          <mn>14</mn>
+                                        </msubsup>
+                                        <mtext>C</mtext>
+                                        <mspace width="0.2em"/>
+                                        <mo stretchy="false">⟶</mo>
+                                        <mspace width="0.2em"/>
+                                        <msubsup>
+                                          <mrow/>
+                                          <mrow>
+                                            <mspace width="0.5em"/>
+                                            <mn>7</mn>
+                                          </mrow>
+                                          <mn>14</mn>
+                                        </msubsup>
+                                        <mtext>N</mtext>
+                                        <mo>+</mo>
+                                        <mtext>?</mtext>
+                                        <mo>,</mo>
+                                      </mrow>
+                                    </annotation-xml>
+                                  </semantics>
+                                </math> if 100.0 g of carbon reacts, what volume of nitrogen gas (N
+                                <sub>2</sub>) is produced at 273K and 1 atm?
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </section>
+                      <section
+                        class="exercises"
+                        data-depth="1"
+                        id="fs-idp25531728"
+                      >
+                        <h3 data-type="document-title" id="[redacted for uniqueness]">
+                          <span class="os-number">21.3</span>
+                          <span class="os-divider"></span>
+                          <span class="os-text">Radioactive Decay</span>
+                        </h3>
+                        <div
+                          class="os-hasSolution"
+                          data-type="exercise"
+                          id="fs-idp13838752"
+                        >
+                          <div data-type="problem" id="fs-idm89930880">
+                            <a
+                              class="os-number"
+                              href="chapter-21#fs-idp13838752-solution"
+                            >19</a>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p
+                                id="fs-idm10223552"
+                              >What are the types of radiation emitted by the nuclei of radioactive elements?</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class data-type="exercise" id="fs-idp81671360">
+                          <div data-type="problem" id="fs-idp17293680">
+                            <span class="os-number">20</span>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p
+                                id="fs-idm2773856"
+                              >What changes occur to the atomic number and mass of a nucleus during each of the following decay scenarios?</p>
+                              <p
+                                id="fs-idp137675104"
+                              >(a) an α particle is emitted</p>
+                              <p id="fs-idp36662256">(b) a β particle is emitted</p>
+                              <p id="fs-idp5160032">(c) γ radiation is emitted</p>
+                              <p id="fs-idp138318864">(d) a positron is emitted</p>
+                              <p id="fs-idp30872480">(e) an electron is captured</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="os-hasSolution"
+                          data-type="exercise"
+                          id="fs-idp50277600"
+                        >
+                          <div data-type="problem" id="fs-idp176495056">
+                            <a
+                              class="os-number"
+                              href="chapter-21#fs-idp50277600-solution"
+                            >21</a>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p
+                                id="fs-idp143657184"
+                              >What is the change in the nucleus that results from the following decay scenarios?</p>
+                              <p
+                                id="fs-idm43346352"
+                              >(a) emission of a β particle</p>
+                              <p id="fs-idp177484800">
+                                (b) emission of a β
+                                <sup>+</sup> particle
+                              </p>
+                              <p id="fs-idp122950864">(c) capture of an electron</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class data-type="exercise" id="fs-idm39924368">
+                          <div data-type="problem" id="fs-idm27712480">
+                            <span class="os-number">22</span>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p
+                                id="fs-idp190856048"
+                              >Many nuclides with atomic numbers greater than 83 decay by processes such as electron emission. Explain the observation that the emissions from these unstable nuclides also normally include α particles.</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="os-hasSolution"
+                          data-type="exercise"
+                          id="fs-idp102836704"
+                        >
+                          <div data-type="problem" id="fs-idp134914304">
+                            <a
+                              class="os-number"
+                              href="chapter-21#fs-idp102836704-solution"
+                            >23</a>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p
+                                id="fs-idp26162912"
+                              >Why is electron capture accompanied by the emission of an X-ray?</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class data-type="exercise" id="fs-idp1698768">
+                          <div data-type="problem" id="fs-idp134647152">
+                            <span class="os-number">24</span>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p id="fs-idp142495840">
+                                Explain, in terms of
+                                <a
+                                  class="autogenerated-content"
+                                  href="21-1-nuclear-structure-and-stability#CNX_Chem_21_01_BandStable"
+                                >Figure 21.2</a>, how unstable heavy nuclides (atomic number &gt; 83) may decompose to form nuclides of greater stability (a) if they are below the band of stability and (b) if they are above the band of stability.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="os-hasSolution"
+                          data-type="exercise"
+                          id="fs-idp16009760"
+                        >
+                          <div data-type="problem" id="fs-idp17984272">
+                            <a
+                              class="os-number"
+                              href="chapter-21#fs-idp16009760-solution"
+                            >25</a>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p
+                                id="fs-idp201795280"
+                              >Which of the following nuclei is most likely to decay by positron emission? Explain your choice.</p>
+                              <p id="fs-idp34995296">(a) chromium-53</p>
+                              <p id="fs-idp134866720">(b) manganese-51</p>
+                              <p id="fs-idp1557216">(c) iron-59</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class data-type="exercise" id="fs-idm82641568">
+                          <div data-type="problem" id="fs-idm29154624">
+                            <span class="os-number">26</span>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p
+                                id="fs-idp76332848"
+                              >The following nuclei do not lie in the band of stability. How would they be expected to decay? Explain your answer.</p>
+                              <p id="fs-idp138950912">
+                                (a)
+                                <math display="inline">
+                                  <semantics>
+                                    <mrow>
+                                      <mrow>
+                                        <msubsup>
+                                          <mrow/>
+                                          <mrow>
+                                            <mn>15</mn>
+                                          </mrow>
+                                          <mn>34</mn>
+                                        </msubsup>
+                                        <mtext>P</mtext>
+                                      </mrow>
+                                    </mrow>
+                                    <annotation-xml encoding="MathML-Content">
+                                      <mrow>
+                                        <msubsup>
+                                          <mrow/>
+                                          <mrow>
+                                            <mn>15</mn>
+                                          </mrow>
+                                          <mn>34</mn>
+                                        </msubsup>
+                                        <mtext>P</mtext>
+                                      </mrow>
+                                    </annotation-xml>
+                                  </semantics>
+                                </math>
+                              </p>
+                              <p id="fs-idp143538880">
+                                (b)
+                                <math display="inline">
+                                  <semantics>
+                                    <mrow>
+                                      <mrow>
+                                        <msubsup>
+                                          <mrow/>
+                                          <mrow>
+                                            <mspace width="0.5em"/>
+                                            <mn>92</mn>
+                                          </mrow>
+                                          <mn>239</mn>
+                                        </msubsup>
+                                        <mtext>U</mtext>
+                                      </mrow>
+                                    </mrow>
+                                    <annotation-xml encoding="MathML-Content">
+                                      <mrow>
+                                        <msubsup>
+                                          <mrow/>
+                                          <mrow>
+                                            <mspace width="0.5em"/>
+                                            <mn>92</mn>
+                                          </mrow>
+                                          <mn>239</mn>
+                                        </msubsup>
+                                        <mtext>U</mtext>
+                                      </mrow>
+                                    </annotation-xml>
+                                  </semantics>
+                                </math>
+                              </p>
+                              <p id="fs-idp134068000">
+                                (c)
+                                <math display="inline">
+                                  <semantics>
+                                    <mrow>
+                                      <mrow>
+                                        <msubsup>
+                                          <mrow/>
+                                          <mrow>
+                                            <mn>20</mn>
+                                          </mrow>
+                                          <mn>38</mn>
+                                        </msubsup>
+                                        <mtext>Ca</mtext>
+                                      </mrow>
+                                    </mrow>
+                                    <annotation-xml encoding="MathML-Content">
+                                      <mrow>
+                                        <msubsup>
+                                          <mrow/>
+                                          <mrow>
+                                            <mn>20</mn>
+                                          </mrow>
+                                          <mn>38</mn>
+                                        </msubsup>
+                                        <mtext>Ca</mtext>
+                                      </mrow>
+                                    </annotation-xml>
+                                  </semantics>
+                                </math>
+                              </p>
+                              <p id="fs-idp137322448">
+                                (d)
+                                <math display="inline">
+                                  <semantics>
+                                    <mrow>
+                                      <mrow>
+                                        <msubsup>
+                                          <mrow/>
+                                          <mrow>
+                                            <mn>1</mn>
+                                          </mrow>
+                                          <mn>3</mn>
+                                        </msubsup>
+                                        <mtext>H</mtext>
+                                      </mrow>
+                                    </mrow>
+                                    <annotation-xml encoding="MathML-Content">
+                                      <mrow>
+                                        <msubsup>
+                                          <mrow/>
+                                          <mrow>
+                                            <mn>1</mn>
+                                          </mrow>
+                                          <mn>3</mn>
+                                        </msubsup>
+                                        <mtext>H</mtext>
+                                      </mrow>
+                                    </annotation-xml>
+                                  </semantics>
+                                </math>
+                              </p>
+                              <p id="fs-idp179430752">
+                                (e)
+                                <math display="inline">
+                                  <semantics>
+                                    <mrow>
+                                      <mrow>
+                                        <msubsup>
+                                          <mrow/>
+                                          <mrow>
+                                            <mspace width="0.5em"/>
+                                            <mn>94</mn>
+                                          </mrow>
+                                          <mn>245</mn>
+                                        </msubsup>
+                                        <mtext>Pu</mtext>
+                                      </mrow>
+                                    </mrow>
+                                    <annotation-xml encoding="MathML-Content">
+                                      <mrow>
+                                        <msubsup>
+                                          <mrow/>
+                                          <mrow>
+                                            <mspace width="0.5em"/>
+                                            <mn>94</mn>
+                                          </mrow>
+                                          <mn>245</mn>
+                                        </msubsup>
+                                        <mtext>Pu</mtext>
+                                      </mrow>
+                                    </annotation-xml>
+                                  </semantics>
+                                </math>
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="os-hasSolution"
+                          data-type="exercise"
+                          id="fs-idp54341232"
+                        >
+                          <div data-type="problem" id="fs-idp90959696">
+                            <a
+                              class="os-number"
+                              href="chapter-21#fs-idp54341232-solution"
+                            >27</a>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p
+                                id="fs-idm5650336"
+                              >The following nuclei do not lie in the band of stability. How would they be expected to decay?</p>
+                              <p id="fs-idp92587472">
+                                (a)
+                                <math display="inline">
+                                  <semantics>
+                                    <mrow>
+                                      <mrow>
+                                        <msubsup>
+                                          <mrow/>
+                                          <mrow>
+                                            <mn>15</mn>
+                                          </mrow>
+                                          <mn>28</mn>
+                                        </msubsup>
+                                        <mtext>P</mtext>
+                                      </mrow>
+                                    </mrow>
+                                    <annotation-xml encoding="MathML-Content">
+                                      <mrow>
+                                        <msubsup>
+                                          <mrow/>
+                                          <mrow>
+                                            <mn>15</mn>
+                                          </mrow>
+                                          <mn>28</mn>
+                                        </msubsup>
+                                        <mtext>P</mtext>
+                                      </mrow>
+                                    </annotation-xml>
+                                  </semantics>
+                                </math>
+                              </p>
+                              <p id="fs-idm20106176">
+                                (b)
+                                <math display="inline">
+                                  <semantics>
+                                    <mrow>
+                                      <mrow>
+                                        <msubsup>
+                                          <mrow/>
+                                          <mrow>
+                                            <mspace width="0.5em"/>
+                                            <mn>92</mn>
+                                          </mrow>
+                                          <mn>235</mn>
+                                        </msubsup>
+                                        <mtext>U</mtext>
+                                      </mrow>
+                                    </mrow>
+                                    <annotation-xml encoding="MathML-Content">
+                                      <mrow>
+                                        <msubsup>
+                                          <mrow/>
+                                          <mrow>
+                                            <mspace width="0.5em"/>
+                                            <mn>92</mn>
+                                          </mrow>
+                                          <mn>235</mn>
+                                        </msubsup>
+                                        <mtext>U</mtext>
+                                      </mrow>
+                                    </annotation-xml>
+                                  </semantics>
+                                </math>
+                              </p>
+                              <p id="fs-idm22275216">
+                                (c)
+                                <math display="inline">
+                                  <semantics>
+                                    <mrow>
+                                      <mrow>
+                                        <msubsup>
+                                          <mrow/>
+                                          <mrow>
+                                            <mn>20</mn>
+                                          </mrow>
+                                          <mn>37</mn>
+                                        </msubsup>
+                                        <mtext>Ca</mtext>
+                                      </mrow>
+                                    </mrow>
+                                    <annotation-xml encoding="MathML-Content">
+                                      <mrow>
+                                        <msubsup>
+                                          <mrow/>
+                                          <mrow>
+                                            <mn>20</mn>
+                                          </mrow>
+                                          <mn>37</mn>
+                                        </msubsup>
+                                        <mtext>Ca</mtext>
+                                      </mrow>
+                                    </annotation-xml>
+                                  </semantics>
+                                </math>
+                              </p>
+                              <p id="fs-idp137311888">
+                                (d)
+                                <math display="inline">
+                                  <semantics>
+                                    <mrow>
+                                      <mrow>
+                                        <msubsup>
+                                          <mrow/>
+                                          <mrow>
+                                            <mn>3</mn>
+                                          </mrow>
+                                          <mn>9</mn>
+                                        </msubsup>
+                                        <mtext>L</mtext>
+
+                                        <mtext>i</mtext>
+                                      </mrow>
+                                    </mrow>
+                                    <annotation-xml encoding="MathML-Content">
+                                      <mrow>
+                                        <msubsup>
+                                          <mrow/>
+                                          <mrow>
+                                            <mn>3</mn>
+                                          </mrow>
+                                          <mn>9</mn>
+                                        </msubsup>
+                                        <mtext>L</mtext>
+
+                                        <mtext>i</mtext>
+                                      </mrow>
+                                    </annotation-xml>
+                                  </semantics>
+                                </math>
+                              </p>
+                              <p id="fs-idp137045664">
+                                (e)
+                                <math display="inline">
+                                  <semantics>
+                                    <mrow>
+                                      <mrow>
+                                        <msubsup>
+                                          <mrow/>
+                                          <mrow>
+                                            <mspace width="0.5em"/>
+                                            <mn>96</mn>
+                                          </mrow>
+                                          <mn>245</mn>
+                                        </msubsup>
+                                        <mtext>Cm</mtext>
+                                      </mrow>
+                                    </mrow>
+                                    <annotation-xml encoding="MathML-Content">
+                                      <mrow>
+                                        <msubsup>
+                                          <mrow/>
+                                          <mrow>
+                                            <mspace width="0.5em"/>
+                                            <mn>96</mn>
+                                          </mrow>
+                                          <mn>245</mn>
+                                        </msubsup>
+                                        <mtext>Cm</mtext>
+                                      </mrow>
+                                    </annotation-xml>
+                                  </semantics>
+                                </math>
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class data-type="exercise" id="fs-idp53072816">
+                          <div data-type="problem" id="fs-idm6865584">
+                            <span class="os-number">28</span>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p
+                                id="fs-idp10180544"
+                              >Predict by what mode(s) of spontaneous radioactive decay each of the following unstable isotopes might proceed:</p>
+                              <p id="fs-idm24027360">
+                                (a)
+                                <math display="inline">
+                                  <semantics>
+                                    <mrow>
+                                      <mrow>
+                                        <msubsup>
+                                          <mrow/>
+                                          <mrow>
+                                            <mn>2</mn>
+                                          </mrow>
+                                          <mn>6</mn>
+                                        </msubsup>
+                                        <mtext>H</mtext>
+
+                                        <mtext>e</mtext>
+                                      </mrow>
+                                    </mrow>
+                                    <annotation-xml encoding="MathML-Content">
+                                      <mrow>
+                                        <msubsup>
+                                          <mrow/>
+                                          <mrow>
+                                            <mn>2</mn>
+                                          </mrow>
+                                          <mn>6</mn>
+                                        </msubsup>
+                                        <mtext>H</mtext>
+
+                                        <mtext>e</mtext>
+                                      </mrow>
+                                    </annotation-xml>
+                                  </semantics>
+                                </math>
+                              </p>
+                              <p id="fs-idp7080592">
+                                (b)
+                                <math display="inline">
+                                  <semantics>
+                                    <mrow>
+                                      <mrow>
+                                        <msubsup>
+                                          <mrow/>
+                                          <mrow>
+                                            <mn>30</mn>
+                                          </mrow>
+                                          <mn>60</mn>
+                                        </msubsup>
+                                        <mtext>Zn</mtext>
+                                      </mrow>
+                                    </mrow>
+                                    <annotation-xml encoding="MathML-Content">
+                                      <mrow>
+                                        <msubsup>
+                                          <mrow/>
+                                          <mrow>
+                                            <mn>30</mn>
+                                          </mrow>
+                                          <mn>60</mn>
+                                        </msubsup>
+                                        <mtext>Zn</mtext>
+                                      </mrow>
+                                    </annotation-xml>
+                                  </semantics>
+                                </math>
+                              </p>
+                              <p id="fs-idm35115440">
+                                (c)
+                                <math display="inline">
+                                  <semantics>
+                                    <mrow>
+                                      <mrow>
+                                        <msubsup>
+                                          <mrow/>
+                                          <mrow>
+                                            <mspace width="0.5em"/>
+                                            <mn>91</mn>
+                                          </mrow>
+                                          <mn>235</mn>
+                                        </msubsup>
+                                        <mtext>Pa</mtext>
+                                      </mrow>
+                                    </mrow>
+                                    <annotation-xml encoding="MathML-Content">
+                                      <mrow>
+                                        <msubsup>
+                                          <mrow/>
+                                          <mrow>
+                                            <mspace width="0.5em"/>
+                                            <mn>91</mn>
+                                          </mrow>
+                                          <mn>235</mn>
+                                        </msubsup>
+                                        <mtext>Pa</mtext>
+                                      </mrow>
+                                    </annotation-xml>
+                                  </semantics>
+                                </math>
+                              </p>
+                              <p id="fs-idm75261408">
+                                (d)
+                                <math display="inline">
+                                  <semantics>
+                                    <mrow>
+                                      <mrow>
+                                        <msubsup>
+                                          <mrow/>
+                                          <mrow>
+                                            <mspace width="0.5em"/>
+                                            <mn>94</mn>
+                                          </mrow>
+                                          <mn>241</mn>
+                                        </msubsup>
+                                        <mtext>Np</mtext>
+                                      </mrow>
+                                    </mrow>
+                                    <annotation-xml encoding="MathML-Content">
+                                      <mrow>
+                                        <msubsup>
+                                          <mrow/>
+                                          <mrow>
+                                            <mspace width="0.5em"/>
+                                            <mn>94</mn>
+                                          </mrow>
+                                          <mn>241</mn>
+                                        </msubsup>
+                                        <mtext>Np</mtext>
+                                      </mrow>
+                                    </annotation-xml>
+                                  </semantics>
+                                </math>
+                              </p>
+                              <p id="fs-idp17960336">
+                                (e)
+                                <sup>18</sup>F
+                              </p>
+                              <p id="fs-idp7359744">
+                                (f)
+                                <sup>129</sup>Ba
+                              </p>
+                              <p id="fs-idm31917904">
+                                (g)
+                                <sup>237</sup>Pu
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="os-hasSolution"
+                          data-type="exercise"
+                          id="fs-idp48794032"
+                        >
+                          <div data-type="problem" id="fs-idp120611040">
+                            <a
+                              class="os-number"
+                              href="chapter-21#fs-idp48794032-solution"
+                            >29</a>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p id="fs-idp176277168">
+                                Write a nuclear reaction for each step in the formation of
+                                <math display="inline">
+                                  <semantics>
+                                    <mrow>
+                                      <mrow>
+                                        <msubsup>
+                                          <mrow/>
+                                          <mrow>
+                                            <mspace width="0.5em"/>
+                                            <mn>84</mn>
+                                          </mrow>
+                                          <mn>218</mn>
+                                        </msubsup>
+                                        <mtext>Po</mtext>
+                                      </mrow>
+                                    </mrow>
+                                    <annotation-xml encoding="MathML-Content">
+                                      <mrow>
+                                        <msubsup>
+                                          <mrow/>
+                                          <mrow>
+                                            <mspace width="0.5em"/>
+                                            <mn>84</mn>
+                                          </mrow>
+                                          <mn>218</mn>
+                                        </msubsup>
+                                        <mtext>Po</mtext>
+                                      </mrow>
+                                    </annotation-xml>
+                                  </semantics>
+                                </math> from
+                                <math display="inline">
+                                  <semantics>
+                                    <mrow>
+                                      <mrow>
+                                        <msubsup>
+                                          <mrow/>
+                                          <mrow>
+                                            <mspace width="0.5em"/>
+                                            <mn>98</mn>
+                                          </mrow>
+                                          <mn>238</mn>
+                                        </msubsup>
+                                        <mtext>U</mtext>
+
+                                        <mo>,</mo>
+                                      </mrow>
+                                    </mrow>
+                                    <annotation-xml encoding="MathML-Content">
+                                      <mrow>
+                                        <msubsup>
+                                          <mrow/>
+                                          <mrow>
+                                            <mspace width="0.5em"/>
+                                            <mn>98</mn>
+                                          </mrow>
+                                          <mn>238</mn>
+                                        </msubsup>
+                                        <mtext>U</mtext>
+
+                                        <mo>,</mo>
+                                      </mrow>
+                                    </annotation-xml>
+                                  </semantics>
+                                </math> which proceeds by a series of decay reactions involving the step-wise emission of α, β, β, α, α, α particles, in that order.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class data-type="exercise" id="fs-idp14930000">
+                          <div data-type="problem" id="fs-idp30511072">
+                            <span class="os-number">30</span>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p id="fs-idp25125904">
+                                Write a nuclear reaction for each step in the formation of
+                                <math display="inline">
+                                  <semantics>
+                                    <mrow>
+                                      <mrow>
+                                        <msubsup>
+                                          <mrow/>
+                                          <mrow>
+                                            <mspace width="0.5em"/>
+                                            <mn>82</mn>
+                                          </mrow>
+                                          <mn>208</mn>
+                                        </msubsup>
+                                        <mtext>Pb</mtext>
+                                      </mrow>
+                                    </mrow>
+                                    <annotation-xml encoding="MathML-Content">
+                                      <mrow>
+                                        <msubsup>
+                                          <mrow/>
+                                          <mrow>
+                                            <mspace width="0.5em"/>
+                                            <mn>82</mn>
+                                          </mrow>
+                                          <mn>208</mn>
+                                        </msubsup>
+                                        <mtext>Pb</mtext>
+                                      </mrow>
+                                    </annotation-xml>
+                                  </semantics>
+                                </math> from
+                                <math display="inline">
+                                  <semantics>
+                                    <mrow>
+                                      <mrow>
+                                        <msubsup>
+                                          <mrow/>
+                                          <mrow>
+                                            <mspace width="0.5em"/>
+                                            <mn>90</mn>
+                                          </mrow>
+                                          <mn>228</mn>
+                                        </msubsup>
+                                        <mtext>T</mtext>
+
+                                        <mtext>h,</mtext>
+                                      </mrow>
+                                    </mrow>
+                                    <annotation-xml encoding="MathML-Content">
+                                      <mrow>
+                                        <msubsup>
+                                          <mrow/>
+                                          <mrow>
+                                            <mspace width="0.5em"/>
+                                            <mn>90</mn>
+                                          </mrow>
+                                          <mn>228</mn>
+                                        </msubsup>
+                                        <mtext>T</mtext>
+
+                                        <mtext>h,</mtext>
+                                      </mrow>
+                                    </annotation-xml>
+                                  </semantics>
+                                </math>
+ which proceeds by a series of decay reactions involving the step-wise emission of α, α, α, α, β, β, α particles, in that order.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="os-hasSolution"
+                          data-type="exercise"
+                          id="fs-idp87827184"
+                        >
+                          <div data-type="problem" id="fs-idp89910000">
+                            <a
+                              class="os-number"
+                              href="chapter-21#fs-idp87827184-solution"
+                            >31</a>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p
+                                id="fs-idm43525136"
+                              >Define the term half-life and illustrate it with an example.</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class data-type="exercise" id="fs-idm20282880">
+                          <div data-type="problem" id="fs-idp137020432">
+                            <span class="os-number">32</span>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p id="fs-idm37225376">
+                                A 1.00
+                                <math display="inline">
+                                  <semantics>
+                                    <mrow>
+                                      <mo>×</mo>
+                                    </mrow>
+                                    <annotation-xml encoding="MathML-Content">
+                                      <mo>×</mo>
+                                    </annotation-xml>
+                                  </semantics>
+                                </math> 10
+                                <sup>–6</sup>-g sample of nobelium,
+                                <math display="inline">
+                                  <semantics>
+                                    <mrow>
+                                      <mrow>
+                                        <msubsup>
+                                          <mrow/>
+                                          <mrow>
+                                            <mn>102</mn>
+                                          </mrow>
+                                          <mn>254</mn>
+                                        </msubsup>
+                                        <mtext>No</mtext>
+
+                                        <mo>,</mo>
+                                      </mrow>
+                                    </mrow>
+                                    <annotation-xml encoding="MathML-Content">
+                                      <mrow>
+                                        <msubsup>
+                                          <mrow/>
+                                          <mrow>
+                                            <mn>102</mn>
+                                          </mrow>
+                                          <mn>254</mn>
+                                        </msubsup>
+                                        <mtext>No</mtext>
+
+                                        <mo>,</mo>
+                                      </mrow>
+                                    </annotation-xml>
+                                  </semantics>
+                                </math> has a half-life of 55 seconds after it is formed. What is the percentage of
+                                <math display="inline">
+                                  <semantics>
+                                    <mrow>
+                                      <mrow>
+                                        <msubsup>
+                                          <mrow/>
+                                          <mrow>
+                                            <mn>102</mn>
+                                          </mrow>
+                                          <mn>254</mn>
+                                        </msubsup>
+                                        <mtext>No</mtext>
+                                      </mrow>
+                                    </mrow>
+                                    <annotation-xml encoding="MathML-Content">
+                                      <mrow>
+                                        <msubsup>
+                                          <mrow/>
+                                          <mrow>
+                                            <mn>102</mn>
+                                          </mrow>
+                                          <mn>254</mn>
+                                        </msubsup>
+                                        <mtext>No</mtext>
+                                      </mrow>
+                                    </annotation-xml>
+                                  </semantics>
+                                </math> remaining at the following times?
+                              </p>
+                              <p id="fs-idp172348128">(a) 5.0 min after it forms</p>
+                              <p id="fs-idm38933040">(b) 1.0 h after it forms</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="os-hasSolution"
+                          data-type="exercise"
+                          id="fs-idp18159360"
+                        >
+                          <div data-type="problem" id="fs-idp18218048">
+                            <a
+                              class="os-number"
+                              href="chapter-21#fs-idp18159360-solution"
+                            >33</a>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p id="fs-idm3633744">
+                                <sup>239</sup>Pu is a nuclear waste byproduct with a half-life of 24,000 y. What fraction of the
+                                <sup>239</sup>Pu present today will be present in 1000 y?
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class data-type="exercise" id="fs-idp160912384">
+                          <div data-type="problem" id="fs-idm89629664">
+                            <span class="os-number">34</span>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p id="fs-idm33356592">
+                                The isotope
+                                <sup>208</sup>Tl undergoes β decay with a half-life of 3.1 min.
+                              </p>
+                              <p
+                                id="fs-idp143445632"
+                              >(a) What isotope is produced by the decay?</p>
+                              <p id="fs-idp78376656">
+                                (b) How long will it take for 99.0% of a sample of pure
+                                <sup>208</sup>Tl to decay?
+                              </p>
+                              <p id="fs-idp211861968">
+                                (c) What percentage of a sample of pure
+                                <sup>208</sup>Tl remains un-decayed after 1.0 h?
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="os-hasSolution"
+                          data-type="exercise"
+                          id="fs-idp120962800"
+                        >
+                          <div data-type="problem" id="fs-idp12289808">
+                            <a
+                              class="os-number"
+                              href="chapter-21#fs-idp120962800-solution"
+                            >35</a>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p id="fs-idm43874912">
+                                If 1.000 g of
+                                <math display="inline">
+                                  <semantics>
+                                    <mrow>
+                                      <mrow>
+                                        <msubsup>
+                                          <mrow/>
+                                          <mrow>
+                                            <mspace width="0.5em"/>
+                                            <mn>88</mn>
+                                          </mrow>
+                                          <mn>226</mn>
+                                        </msubsup>
+                                        <mtext>Ra</mtext>
+                                      </mrow>
+                                    </mrow>
+                                    <annotation-xml encoding="MathML-Content">
+                                      <mrow>
+                                        <msubsup>
+                                          <mrow/>
+                                          <mrow>
+                                            <mspace width="0.5em"/>
+                                            <mn>88</mn>
+                                          </mrow>
+                                          <mn>226</mn>
+                                        </msubsup>
+                                        <mtext>Ra</mtext>
+                                      </mrow>
+                                    </annotation-xml>
+                                  </semantics>
+                                </math> produces 0.0001 mL of the gas
+                                <math display="inline">
+                                  <semantics>
+                                    <mrow>
+                                      <mrow>
+                                        <msubsup>
+                                          <mrow/>
+                                          <mrow>
+                                            <mspace width="0.5em"/>
+                                            <mn>86</mn>
+                                          </mrow>
+                                          <mn>222</mn>
+                                        </msubsup>
+                                        <mtext>Rn</mtext>
+                                      </mrow>
+                                    </mrow>
+                                    <annotation-xml encoding="MathML-Content">
+                                      <mrow>
+                                        <msubsup>
+                                          <mrow/>
+                                          <mrow>
+                                            <mspace width="0.5em"/>
+                                            <mn>86</mn>
+                                          </mrow>
+                                          <mn>222</mn>
+                                        </msubsup>
+                                        <mtext>Rn</mtext>
+                                      </mrow>
+                                    </annotation-xml>
+                                  </semantics>
+                                </math> at STP (standard temperature and pressure) in 24 h, what is the half-life of
+                                <sup>226</sup>Ra in years?
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class data-type="exercise" id="fs-idp22881184">
+                          <div data-type="problem" id="fs-idp54700000">
+                            <span class="os-number">36</span>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p id="fs-idp126089680">
+                                The isotope
+                                <math display="inline">
+                                  <semantics>
+                                    <mrow>
+                                      <mrow>
+                                        <msubsup>
+                                          <mrow/>
+                                          <mrow>
+                                            <mn>38</mn>
+                                          </mrow>
+                                          <mn>90</mn>
+                                        </msubsup>
+                                        <mtext>Sr</mtext>
+                                      </mrow>
+                                    </mrow>
+                                    <annotation-xml encoding="MathML-Content">
+                                      <mrow>
+                                        <msubsup>
+                                          <mrow/>
+                                          <mrow>
+                                            <mn>38</mn>
+                                          </mrow>
+                                          <mn>90</mn>
+                                        </msubsup>
+                                        <mtext>Sr</mtext>
+                                      </mrow>
+                                    </annotation-xml>
+                                  </semantics>
+                                </math> is one of the extremely hazardous species in the residues from nuclear power generation. The strontium in a 0.500-g sample diminishes to 0.393 g in 10.0 y. Calculate the half-life.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="os-hasSolution"
+                          data-type="exercise"
+                          id="fs-idp20502256"
+                        >
+                          <div data-type="problem" id="fs-idp10055504">
+                            <a
+                              class="os-number"
+                              href="chapter-21#fs-idp20502256-solution"
+                            >37</a>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p id="fs-idp219506992">
+                                Technetium-99 is often used for assessing heart, liver, and lung damage because certain technetium compounds are absorbed by damaged tissues. It has a half-life of 6.0 h. Calculate the rate constant for the decay of
+                                <math display="inline">
+                                  <semantics>
+                                    <mrow>
+                                      <mrow>
+                                        <msubsup>
+                                          <mrow/>
+                                          <mrow>
+                                            <mn>43</mn>
+                                          </mrow>
+                                          <mn>99</mn>
+                                        </msubsup>
+                                        <mtext>Tc</mtext>
+
+                                        <mo>.</mo>
+                                      </mrow>
+                                    </mrow>
+                                    <annotation-xml encoding="MathML-Content">
+                                      <mrow>
+                                        <msubsup>
+                                          <mrow/>
+                                          <mrow>
+                                            <mn>43</mn>
+                                          </mrow>
+                                          <mn>99</mn>
+                                        </msubsup>
+                                        <mtext>Tc</mtext>
+
+                                        <mo>.</mo>
+                                      </mrow>
+                                    </annotation-xml>
+                                  </semantics>
+                                </math>
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class data-type="exercise" id="fs-idp75965808">
+                          <div data-type="problem" id="fs-idp137910768">
+                            <span class="os-number">38</span>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p id="fs-idp53369552">
+                                What is the age of mummified primate skin that contains 8.25% of the original quantity of
+                                <sup>14</sup>C?
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="os-hasSolution"
+                          data-type="exercise"
+                          id="fs-idp60953824"
+                        >
+                          <div data-type="problem" id="fs-idp54190832">
+                            <a
+                              class="os-number"
+                              href="chapter-21#fs-idp60953824-solution"
+                            >39</a>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p
+                                id="fs-idp125426976"
+                              >A sample of rock was found to contain 8.23 mg of rubidium-87 and 0.47 mg of strontium-87.</p>
+                              <p id="fs-idm22718704">
+                                (a) Calculate the age of the rock if the half-life of the decay of rubidium by β emission is 4.7
+                                <math display="inline">
+                                  <semantics>
+                                    <mrow>
+                                      <mo>×</mo>
+                                    </mrow>
+                                    <annotation-xml encoding="MathML-Content">
+                                      <mo>×</mo>
+                                    </annotation-xml>
+                                  </semantics>
+                                </math> 10
+                                <sup>10</sup> y.
+                              </p>
+                              <p id="fs-idp75993408">
+                                (b) If some
+                                <math display="inline">
+                                  <semantics>
+                                    <mrow>
+                                      <mrow>
+                                        <msubsup>
+                                          <mrow/>
+                                          <mrow>
+                                            <mn>38</mn>
+                                          </mrow>
+                                          <mn>87</mn>
+                                        </msubsup>
+                                        <mtext>Sr</mtext>
+                                      </mrow>
+                                    </mrow>
+                                    <annotation-xml encoding="MathML-Content">
+                                      <mrow>
+                                        <msubsup>
+                                          <mrow/>
+                                          <mrow>
+                                            <mn>38</mn>
+                                          </mrow>
+                                          <mn>87</mn>
+                                        </msubsup>
+                                        <mtext>Sr</mtext>
+                                      </mrow>
+                                    </annotation-xml>
+                                  </semantics>
+                                </math> was initially present in the rock, would the rock be younger, older, or the same age as the age calculated in (a)? Explain your answer.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class data-type="exercise" id="fs-idm70032656">
+                          <div data-type="problem" id="fs-idp138527680">
+                            <span class="os-number">40</span>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p id="fs-idp133778576">
+                                A laboratory investigation shows that a sample of uranium ore contains 5.37 mg of
+                                <math display="inline">
+                                  <semantics>
+                                    <mrow>
+                                      <mrow>
+                                        <msubsup>
+                                          <mrow/>
+                                          <mrow>
+                                            <mspace width="0.5em"/>
+                                            <mn>92</mn>
+                                          </mrow>
+                                          <mn>238</mn>
+                                        </msubsup>
+                                        <mtext>U</mtext>
+                                      </mrow>
+                                    </mrow>
+                                    <annotation-xml encoding="MathML-Content">
+                                      <mrow>
+                                        <msubsup>
+                                          <mrow/>
+                                          <mrow>
+                                            <mspace width="0.5em"/>
+                                            <mn>92</mn>
+                                          </mrow>
+                                          <mn>238</mn>
+                                        </msubsup>
+                                        <mtext>U</mtext>
+                                      </mrow>
+                                    </annotation-xml>
+                                  </semantics>
+                                </math> and 2.52 mg of
+                                <math display="inline">
+                                  <semantics>
+                                    <mrow>
+                                      <mrow>
+                                        <msubsup>
+                                          <mrow/>
+                                          <mrow>
+                                            <mspace width="0.5em"/>
+                                            <mn>82</mn>
+                                          </mrow>
+                                          <mn>206</mn>
+                                        </msubsup>
+                                        <mtext>Pb</mtext>
+
+                                        <mo>.</mo>
+                                      </mrow>
+                                    </mrow>
+                                    <annotation-xml encoding="MathML-Content">
+                                      <mrow>
+                                        <msubsup>
+                                          <mrow/>
+                                          <mrow>
+                                            <mspace width="0.5em"/>
+                                            <mn>82</mn>
+                                          </mrow>
+                                          <mn>206</mn>
+                                        </msubsup>
+                                        <mtext>Pb</mtext>
+
+                                        <mo>.</mo>
+                                      </mrow>
+                                    </annotation-xml>
+                                  </semantics>
+                                </math> Calculate the age of the ore. The half-life of
+                                <math display="inline">
+                                  <semantics>
+                                    <mrow>
+                                      <mrow>
+                                        <msubsup>
+                                          <mrow/>
+                                          <mrow>
+                                            <mspace width="0.5em"/>
+                                            <mn>92</mn>
+                                          </mrow>
+                                          <mn>238</mn>
+                                        </msubsup>
+                                        <mtext>U</mtext>
+                                      </mrow>
+                                    </mrow>
+                                    <annotation-xml encoding="MathML-Content">
+                                      <mrow>
+                                        <msubsup>
+                                          <mrow/>
+                                          <mrow>
+                                            <mspace width="0.5em"/>
+                                            <mn>92</mn>
+                                          </mrow>
+                                          <mn>238</mn>
+                                        </msubsup>
+                                        <mtext>U</mtext>
+                                      </mrow>
+                                    </annotation-xml>
+                                  </semantics>
+                                </math> is 4.5
+                                <math display="inline">
+                                  <semantics>
+                                    <mrow>
+                                      <mo>×</mo>
+                                    </mrow>
+                                    <annotation-xml encoding="MathML-Content">
+                                      <mo>×</mo>
+                                    </annotation-xml>
+                                  </semantics>
+                                </math> 10
+                                <sup>9</sup> yr.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="os-hasSolution"
+                          data-type="exercise"
+                          id="fs-idp226288768"
+                        >
+                          <div data-type="problem" id="fs-idp25275312">
+                            <a
+                              class="os-number"
+                              href="chapter-21#fs-idp226288768-solution"
+                            >41</a>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p id="fs-idp165416288">
+                                Plutonium was detected in trace amounts in natural uranium deposits by Glenn Seaborg and his associates in 1941. They proposed that the source of this
+                                <sup>239</sup>Pu was the capture of neutrons by
+                                <sup>238</sup>U nuclei. Why is this plutonium not likely to have been trapped at the time the solar system formed 4.7
+                                <math display="inline">
+                                  <semantics>
+                                    <mrow>
+                                      <mo>×</mo>
+                                    </mrow>
+                                    <annotation-xml encoding="MathML-Content">
+                                      <mo>×</mo>
+                                    </annotation-xml>
+                                  </semantics>
+                                </math> 10
+                                <sup>9</sup> years ago?
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class data-type="exercise" id="fs-idp172415648">
+                          <div data-type="problem" id="fs-idm4562608">
+                            <span class="os-number">42</span>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p id="fs-idp217024288">
+                                A
+                                <math display="inline">
+                                  <semantics>
+                                    <mrow>
+                                      <msubsup>
+                                        <mrow/>
+                                        <mrow>
+                                          <mn>4</mn>
+                                        </mrow>
+                                        <mn>7</mn>
+                                      </msubsup>
+                                      <mtext>Be</mtext>
+                                    </mrow>
+                                    <annotation-xml encoding="MathML-Content">
+                                      <msubsup>
+                                        <mrow/>
+                                        <mrow>
+                                          <mn>4</mn>
+                                        </mrow>
+                                        <mn>7</mn>
+                                      </msubsup>
+                                      <mtext>Be</mtext>
+                                    </annotation-xml>
+                                  </semantics>
+                                </math> atom (mass = 7.0169 amu) decays into a
+                                <math display="inline">
+                                  <semantics>
+                                    <mrow>
+                                      <mrow>
+                                        <msubsup>
+                                          <mrow/>
+                                          <mrow>
+                                            <mn>3</mn>
+                                          </mrow>
+                                          <mn>7</mn>
+                                        </msubsup>
+                                        <mtext>L</mtext>
+
+                                        <mtext>i</mtext>
+                                      </mrow>
+                                    </mrow>
+                                    <annotation-xml encoding="MathML-Content">
+                                      <mrow>
+                                        <msubsup>
+                                          <mrow/>
+                                          <mrow>
+                                            <mn>3</mn>
+                                          </mrow>
+                                          <mn>7</mn>
+                                        </msubsup>
+                                        <mtext>L</mtext>
+
+                                        <mtext>i</mtext>
+                                      </mrow>
+                                    </annotation-xml>
+                                  </semantics>
+                                </math> atom (mass = 7.0160 amu) by electron capture. How much energy (in millions of electron volts, MeV) is produced by this reaction?
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="os-hasSolution"
+                          data-type="exercise"
+                          id="fs-idp168859936"
+                        >
+                          <div data-type="problem" id="fs-idp76240592">
+                            <a
+                              class="os-number"
+                              href="chapter-21#fs-idp168859936-solution"
+                            >43</a>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p id="fs-idp71110896">
+                                A
+                                <math display="inline">
+                                  <semantics>
+                                    <mrow>
+                                      <mrow>
+                                        <msubsup>
+                                          <mrow/>
+                                          <mrow>
+                                            <mn>5</mn>
+                                          </mrow>
+                                          <mn>8</mn>
+                                        </msubsup>
+                                        <mtext>B</mtext>
+                                      </mrow>
+                                    </mrow>
+                                    <annotation-xml encoding="MathML-Content">
+                                      <mrow>
+                                        <msubsup>
+                                          <mrow/>
+                                          <mrow>
+                                            <mn>5</mn>
+                                          </mrow>
+                                          <mn>8</mn>
+                                        </msubsup>
+                                        <mtext>B</mtext>
+                                      </mrow>
+                                    </annotation-xml>
+                                  </semantics>
+                                </math> atom (mass = 8.0246 amu) decays into a
+                                <math display="inline">
+                                  <semantics>
+                                    <mrow>
+                                      <mrow>
+                                        <msubsup>
+                                          <mrow/>
+                                          <mrow>
+                                            <mn>4</mn>
+                                          </mrow>
+                                          <mn>8</mn>
+                                        </msubsup>
+                                        <mtext>B</mtext>
+                                      </mrow>
+                                    </mrow>
+                                    <annotation-xml encoding="MathML-Content">
+                                      <mrow>
+                                        <msubsup>
+                                          <mrow/>
+                                          <mrow>
+                                            <mn>4</mn>
+                                          </mrow>
+                                          <mn>8</mn>
+                                        </msubsup>
+                                        <mtext>B</mtext>
+                                      </mrow>
+                                    </annotation-xml>
+                                  </semantics>
+                                </math> atom (mass = 8.0053 amu) by loss of a β
+                                <sup>+</sup> particle (mass = 0.00055 amu) or by electron capture. How much energy (in millions of electron volts) is produced by this reaction?
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class data-type="exercise" id="fs-idp50360016">
+                          <div data-type="problem" id="fs-idm22835968">
+                            <span class="os-number">44</span>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p id="fs-idp131958896">
+                                Isotopes such as
+                                <sup>26</sup>Al (half-life: 7.2
+                                <math display="inline">
+                                  <semantics>
+                                    <mrow>
+                                      <mo>×</mo>
+                                    </mrow>
+                                    <annotation-xml encoding="MathML-Content">
+                                      <mo>×</mo>
+                                    </annotation-xml>
+                                  </semantics>
+                                </math> 10
+                                <sup>5</sup> years) are believed to have been present in our solar system as it formed, but have since decayed and are now called extinct nuclides.
+                              </p>
+                              <p id="fs-idp31169120">
+                                (a)
+                                <sup>26</sup>Al decays by β
+                                <sup>+</sup> emission or electron capture. Write the equations for these two nuclear transformations.
+                              </p>
+                              <p id="fs-idp179184448">
+                                (b) The earth was formed about 4.7
+                                <math display="inline">
+                                  <semantics>
+                                    <mrow>
+                                      <mo>×</mo>
+                                    </mrow>
+                                    <annotation-xml encoding="MathML-Content">
+                                      <mo>×</mo>
+                                    </annotation-xml>
+                                  </semantics>
+                                </math> 10
+                                <sup>9</sup> (4.7 billion) years ago. How old was the earth when 99.999999% of the
+                                <sup>26</sup>Al originally present had decayed?
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="os-hasSolution"
+                          data-type="exercise"
+                          id="fs-idp92569456"
+                        >
+                          <div data-type="problem" id="fs-idp13762432">
+                            <a
+                              class="os-number"
+                              href="chapter-21#fs-idp92569456-solution"
+                            >45</a>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p
+                                id="fs-idm28111776"
+                              >Write a balanced equation for each of the following nuclear reactions:</p>
+                              <p
+                                id="fs-idm52915712"
+                              >(a) bismuth-212 decays into polonium-212</p>
+                              <p
+                                id="fs-idp90956192"
+                              >(b) beryllium-8 and a positron are produced by the decay of an unstable nucleus</p>
+                              <p
+                                id="fs-idp18279664"
+                              >(c) neptunium-239 forms from the reaction of uranium-238 with a neutron and then spontaneously converts into plutonium-239</p>
+                              <p
+                                id="fs-idp138334608"
+                              >(d) strontium-90 decays into yttrium-90</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class data-type="exercise" id="fs-idm23721392">
+                          <div data-type="problem" id="fs-idm88394912">
+                            <span class="os-number">46</span>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p
+                                id="fs-idm29139968"
+                              >Write a balanced equation for each of the following nuclear reactions:</p>
+                              <p
+                                id="fs-idp133484688"
+                              >(a) mercury-180 decays into platinum-176</p>
+                              <p
+                                id="fs-idp136801104"
+                              >(b) zirconium-90 and an electron are produced by the decay of an unstable nucleus</p>
+                              <p
+                                id="fs-idp77337360"
+                              >(c) thorium-232 decays and produces an alpha particle and a radium-228 nucleus, which decays into actinium-228 by beta decay</p>
+                              <p
+                                id="fs-idm29267360"
+                              >(d) neon-19 decays into fluorine-19</p>
+                            </div>
+                          </div>
+                        </div>
+                      </section>
+                      <section
+                        class="exercises"
+                        data-depth="1"
+                        id="fs-idm234493952"
+                      >
+                        <h3 data-type="document-title" id="[redacted for uniqueness]">
+                          <span class="os-number">21.4</span>
+                          <span class="os-divider"></span>
+                          <span class="os-text">Transmutation and Nuclear Energy</span>
+                        </h3>
+                        <div
+                          class="os-hasSolution"
+                          data-type="exercise"
+                          id="fs-idm122155008"
+                        >
+                          <div data-type="problem" id="fs-idm194968736">
+                            <a
+                              class="os-number"
+                              href="chapter-21#fs-idm122155008-solution"
+                            >47</a>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p
+                                id="fs-idm179134416"
+                              >Write the balanced nuclear equation for the production of the following transuranium elements:</p>
+                              <p
+                                id="fs-idm202190128"
+                              >(a) berkelium-244, made by the reaction of Am-241 and He-4</p>
+                              <p
+                                id="fs-idm32448240"
+                              >(b) fermium-254, made by the reaction of Pu-239 with a large number of neutrons</p>
+                              <p
+                                id="fs-idm84813904"
+                              >(c) lawrencium-257, made by the reaction of Cf-250 and B-11</p>
+                              <p
+                                id="fs-idm30976288"
+                              >(d) dubnium-260, made by the reaction of Cf-249 and N-15</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class data-type="exercise" id="fs-idm227188304">
+                          <div data-type="problem" id="fs-idm101459920">
+                            <span class="os-number">48</span>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p
+                                id="fs-idm78153856"
+                              >How does nuclear fission differ from nuclear fusion? Why are both of these processes exothermic?</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="os-hasSolution"
+                          data-type="exercise"
+                          id="fs-idm39373072"
+                        >
+                          <div data-type="problem" id="fs-idm198329680">
+                            <a
+                              class="os-number"
+                              href="chapter-21#fs-idm39373072-solution"
+                            >49</a>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p
+                                id="fs-idm65683024"
+                              >Both fusion and fission are nuclear reactions. Why is a very high temperature required for fusion, but not for fission?</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class data-type="exercise" id="fs-idm153436832">
+                          <div data-type="problem" id="fs-idm69626800">
+                            <span class="os-number">50</span>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p
+                                id="fs-idm189138560"
+                              >Cite the conditions necessary for a nuclear chain reaction to take place. Explain how it can be controlled to produce energy, but not produce an explosion.</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="os-hasSolution"
+                          data-type="exercise"
+                          id="fs-idm213403024"
+                        >
+                          <div data-type="problem" id="fs-idp6556624">
+                            <a
+                              class="os-number"
+                              href="chapter-21#fs-idm213403024-solution"
+                            >51</a>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p
+                                id="fs-idp116280736"
+                              >Describe the components of a nuclear reactor.</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class data-type="exercise" id="fs-idm209547408">
+                          <div data-type="problem" id="fs-idm74632496">
+                            <span class="os-number">52</span>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p
+                                id="fs-idm43150496"
+                              >In usual practice, both a moderator and control rods are necessary to operate a nuclear chain reaction safely for the purpose of energy production. Cite the function of each and explain why both are necessary.</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="os-hasSolution"
+                          data-type="exercise"
+                          id="fs-idm210381584"
+                        >
+                          <div data-type="problem" id="fs-idm210381328">
+                            <a
+                              class="os-number"
+                              href="chapter-21#fs-idm210381584-solution"
+                            >53</a>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p
+                                id="fs-idm210381072"
+                              >Describe how the potential energy of uranium is converted into electrical energy in a nuclear power plant.</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class data-type="exercise" id="fs-idm210379536">
+                          <div data-type="problem" id="fs-idm210379280">
+                            <span class="os-number">54</span>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p id="fs-idm210379024">
+                                The mass of a hydrogen atom
+                                <math display="inline">
+                                  <semantics>
+                                    <mrow>
+                                      <mrow>
+                                        <mo stretchy="false">(</mo>
+                                        <msubsup>
+                                          <mrow/>
+                                          <mrow>
+                                            <mn>1</mn>
+                                          </mrow>
+                                          <mn>1</mn>
+                                        </msubsup>
+                                        <mtext>H</mtext>
+                                        <mo stretchy="false">)</mo>
+                                      </mrow>
+                                    </mrow>
+                                    <annotation-xml encoding="MathML-Content">
+                                      <mrow>
+                                        <mo stretchy="false">(</mo>
+                                        <msubsup>
+                                          <mrow/>
+                                          <mrow>
+                                            <mn>1</mn>
+                                          </mrow>
+                                          <mn>1</mn>
+                                        </msubsup>
+                                        <mtext>H</mtext>
+                                        <mo stretchy="false">)</mo>
+                                      </mrow>
+                                    </annotation-xml>
+                                  </semantics>
+                                </math> is 1.007825 amu; that of a tritium atom
+                                <math display="inline">
+                                  <semantics>
+                                    <mrow>
+                                      <mrow>
+                                        <mo stretchy="false">(</mo>
+                                        <msubsup>
+                                          <mrow/>
+                                          <mrow>
+                                            <mn>1</mn>
+                                          </mrow>
+                                          <mn>3</mn>
+                                        </msubsup>
+                                        <mtext>H</mtext>
+                                        <mo stretchy="false">)</mo>
+                                      </mrow>
+                                    </mrow>
+                                    <annotation-xml encoding="MathML-Content">
+                                      <mrow>
+                                        <mo stretchy="false">(</mo>
+                                        <msubsup>
+                                          <mrow/>
+                                          <mrow>
+                                            <mn>1</mn>
+                                          </mrow>
+                                          <mn>3</mn>
+                                        </msubsup>
+                                        <mtext>H</mtext>
+                                        <mo stretchy="false">)</mo>
+                                      </mrow>
+                                    </annotation-xml>
+                                  </semantics>
+                                </math> is 3.01605 amu; and that of an α particle is 4.00150 amu. How much energy in kilojoules per mole of
+                                <math display="inline">
+                                  <semantics>
+                                    <mrow>
+                                      <msubsup>
+                                        <mrow/>
+                                        <mrow>
+                                          <mn>2</mn>
+                                        </mrow>
+                                        <mn>4</mn>
+                                      </msubsup>
+                                      <mtext>He</mtext>
+                                    </mrow>
+                                    <annotation-xml encoding="MathML-Content">
+                                      <msubsup>
+                                        <mrow/>
+                                        <mrow>
+                                          <mn>2</mn>
+                                        </mrow>
+                                        <mn>4</mn>
+                                      </msubsup>
+                                      <mtext>He</mtext>
+                                    </annotation-xml>
+                                  </semantics>
+                                </math> produced is released by the following fusion reaction:
+                                <math display="inline">
+                                  <semantics>
+                                    <mrow>
+                                      <mrow>
+                                        <msubsup>
+                                          <mrow/>
+                                          <mrow>
+                                            <mn>1</mn>
+                                          </mrow>
+                                          <mn>1</mn>
+                                        </msubsup>
+                                        <mtext>H</mtext>
+                                        <mo>+</mo>
+                                        <msubsup>
+                                          <mrow/>
+                                          <mrow>
+                                            <mn>1</mn>
+                                          </mrow>
+                                          <mn>3</mn>
+                                        </msubsup>
+                                        <mtext>H</mtext>
+                                        <mspace width="0.2em"/>
+                                        <mo stretchy="false">⟶</mo>
+                                        <mspace width="0.2em"/>
+                                        <msubsup>
+                                          <mrow/>
+                                          <mrow>
+                                            <mn>2</mn>
+                                          </mrow>
+                                          <mn>4</mn>
+                                        </msubsup>
+                                        <mtext>He</mtext>
+                                        <mo>.</mo>
+                                      </mrow>
+                                    </mrow>
+                                    <annotation-xml encoding="MathML-Content">
+                                      <mrow>
+                                        <msubsup>
+                                          <mrow/>
+                                          <mrow>
+                                            <mn>1</mn>
+                                          </mrow>
+                                          <mn>1</mn>
+                                        </msubsup>
+                                        <mtext>H</mtext>
+                                        <mo>+</mo>
+                                        <msubsup>
+                                          <mrow/>
+                                          <mrow>
+                                            <mn>1</mn>
+                                          </mrow>
+                                          <mn>3</mn>
+                                        </msubsup>
+                                        <mtext>H</mtext>
+                                        <mspace width="0.2em"/>
+                                        <mo stretchy="false">⟶</mo>
+                                        <mspace width="0.2em"/>
+                                        <msubsup>
+                                          <mrow/>
+                                          <mrow>
+                                            <mn>2</mn>
+                                          </mrow>
+                                          <mn>4</mn>
+                                        </msubsup>
+                                        <mtext>He</mtext>
+                                        <mo>.</mo>
+                                      </mrow>
+                                    </annotation-xml>
+                                  </semantics>
+                                </math>
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </section>
+                      <section
+                        class="exercises"
+                        data-depth="1"
+                        id="fs-idp96492688"
+                      >
+                        <h3 data-type="document-title" id="[redacted for uniqueness]">
+                          <span class="os-number">21.5</span>
+                          <span class="os-divider"></span>
+                          <span class="os-text">Uses of Radioisotopes</span>
+                        </h3>
+                        <div
+                          class="os-hasSolution"
+                          data-type="exercise"
+                          id="fs-idp257856896"
+                        >
+                          <div data-type="problem" id="fs-idp32410288">
+                            <a
+                              class="os-number"
+                              href="chapter-21#fs-idp257856896-solution"
+                            >55</a>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p id="fs-idp224609904">
+                                How can a radioactive nuclide be used to show that the equilibrium:
+                                <span data-type="newline">
+                                  <br>
+                                </span>
+                                <math display="inline">
+                                  <semantics>
+                                    <mrow>
+                                      <mrow>
+                                        <mtext>AgCl</mtext>
+                                        <mo stretchy="false">(</mo>
+                                        <mi>s</mi>
+                                        <mo stretchy="false">)</mo>
+                                        <mspace width="0.2em"/>
+                                        <mo stretchy="false">⇌</mo>
+                                        <mspace width="0.2em"/>
+                                        <msup>
+                                          <mrow>
+                                            <mtext>Ag</mtext>
+                                          </mrow>
+                                          <mtext>+</mtext>
+                                        </msup>
+                                        <mo stretchy="false">(</mo>
+                                        <mi>a</mi>
+                                        <mi>q</mi>
+                                        <mo stretchy="false">)</mo>
+                                        <mo>+</mo>
+                                        <msup>
+                                          <mrow>
+                                            <mtext>Cl</mtext>
+                                          </mrow>
+                                          <mtext>−</mtext>
+                                        </msup>
+                                        <mo stretchy="false">(</mo>
+                                        <mi>a</mi>
+                                        <mi>q</mi>
+                                        <mo stretchy="false">)</mo>
+                                      </mrow>
+                                    </mrow>
+                                    <annotation-xml encoding="MathML-Content">
+                                      <mrow>
+                                        <mtext>AgCl</mtext>
+                                        <mo stretchy="false">(</mo>
+                                        <mi>s</mi>
+                                        <mo stretchy="false">)</mo>
+                                        <mspace width="0.2em"/>
+                                        <mo stretchy="false">⇌</mo>
+                                        <mspace width="0.2em"/>
+                                        <msup>
+                                          <mrow>
+                                            <mtext>Ag</mtext>
+                                          </mrow>
+                                          <mtext>+</mtext>
+                                        </msup>
+                                        <mo stretchy="false">(</mo>
+                                        <mi>a</mi>
+                                        <mi>q</mi>
+                                        <mo stretchy="false">)</mo>
+                                        <mo>+</mo>
+                                        <msup>
+                                          <mrow>
+                                            <mtext>Cl</mtext>
+                                          </mrow>
+                                          <mtext>−</mtext>
+                                        </msup>
+                                        <mo stretchy="false">(</mo>
+                                        <mi>a</mi>
+                                        <mi>q</mi>
+                                        <mo stretchy="false">)</mo>
+                                      </mrow>
+                                    </annotation-xml>
+                                  </semantics>
+                                </math>
+                                <span data-type="newline">
+                                  <br>
+                                </span>
+                                is a dynamic equilibrium?
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class data-type="exercise" id="fs-idp183594912">
+                          <div data-type="problem" id="fs-idp44440688">
+                            <span class="os-number">56</span>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p
+                                id="fs-idp3550720"
+                              >Technetium-99m has a half-life of 6.01 hours. If a patient injected with technetium-99m is safe to leave the hospital once 75% of the dose has decayed, when is the patient allowed to leave?</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="os-hasSolution"
+                          data-type="exercise"
+                          id="fs-idp88874912"
+                        >
+                          <div data-type="problem" id="fs-idm3885520">
+                            <a
+                              class="os-number"
+                              href="chapter-21#fs-idp88874912-solution"
+                            >57</a>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p id="fs-idp146873664">
+                                Iodine that enters the body is stored in the thyroid gland from which it is released to control growth and metabolism. The thyroid can be imaged if iodine-131 is injected into the body. In larger doses, I-133 is also used as a means of treating cancer of the thyroid. I-131 has a half-life of 8.70 days and decays by β
+                                <sup>−</sup> emission.
+                              </p>
+                              <p
+                                id="fs-idp150733248"
+                              >(a) Write an equation for the decay.</p>
+                              <p
+                                id="fs-idp215490544"
+                              >(b) How long will it take for 95.0% of a dose of I-131 to decay?</p>
+                            </div>
+                          </div>
+                        </div>
+                      </section>
+                      <section
+                        class="exercises"
+                        data-depth="1"
+                        id="fs-idp110761408"
+                      >
+                        <h3 data-type="document-title" id="[redacted for uniqueness]">
+                          <span class="os-number">21.6</span>
+                          <span class="os-divider"></span>
+                          <span class="os-text">Biological Effects of Radiation</span>
+                        </h3>
+                        <div class data-type="exercise" id="fs-idp29076672">
+                          <div data-type="problem" id="fs-idm16609392">
+                            <span class="os-number">58</span>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p
+                                id="fs-idp126320176"
+                              >If a hospital were storing radioisotopes, what is the minimum containment needed to protect against:</p>
+                              <p
+                                id="fs-idp74160800"
+                              >(a) cobalt-60 (a strong γ emitter used for irradiation)</p>
+                              <p
+                                id="fs-idp48563216"
+                              >(b) molybdenum-99 (a beta emitter used to produce technetium-99 for imaging)</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="os-hasSolution"
+                          data-type="exercise"
+                          id="fs-idp14911920"
+                        >
+                          <div data-type="problem" id="fs-idp225861936">
+                            <a
+                              class="os-number"
+                              href="chapter-21#fs-idp14911920-solution"
+                            >59</a>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p
+                                id="fs-idm4246992"
+                              >Based on what is known about Radon-222’s primary decay method, why is inhalation so dangerous?</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class data-type="exercise" id="fs-idp16044272">
+                          <div data-type="problem" id="fs-idp49940736">
+                            <span class="os-number">60</span>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p id="fs-idm2835312">
+                                Given specimens uranium-232 (
+                                <em data-effect="italics">t</em>
+                                <sub>1/2</sub> = 68.9 y) and uranium-233 (
+                                <em data-effect="italics">t</em>
+                                <sub>1/2</sub> = 159,200 y) of equal mass, which one would have greater activity and why?
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="os-hasSolution"
+                          data-type="exercise"
+                          id="fs-idp14100336"
+                        >
+                          <div data-type="problem" id="fs-idp228573216">
+                            <a
+                              class="os-number"
+                              href="chapter-21#fs-idp14100336-solution"
+                            >61</a>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p id="fs-idp26788448">
+                                A scientist is studying a 2.234 g sample of thorium-229 (
+                                <em data-effect="italics">t</em>
+                                <sub>1/2</sub> = 7340 y) in a laboratory.
+                              </p>
+                              <p
+                                id="fs-idp161129568"
+                              >(a) What is its activity in Bq?</p>
+                              <p
+                                id="fs-idp211118640"
+                              >(b) What is its activity in Ci?</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class data-type="exercise" id="fs-idp224139168">
+                          <div data-type="problem" id="fs-idm66424832">
+                            <span class="os-number">62</span>
+                            <span class="os-divider">.</span>
+                            <div class="os-problem-container">
+                              <p id="fs-idp100946448">
+                                Given specimens neon-24 (
+                                <em data-effect="italics">t</em>
+                                <sub>1/2</sub> = 3.38 min) and bismuth-211 (
+                                <em data-effect="italics">t</em>
+                                <sub>1/2</sub> = 2.14 min) of equal mass, which one would have greater activity and why?
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </section>
+                    </div>
+                  </div>
+                  

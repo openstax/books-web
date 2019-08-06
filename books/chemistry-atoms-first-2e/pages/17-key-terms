@@ -1,0 +1,198 @@
+
+                    <div
+                      class="os-eoc os-glossary-container"
+                      data-type="composite-page"
+                      data-uuid-key="glossary"
+                    >
+                      <dl id="fs-idm89472432">
+                        <dt id="[redacted for uniqueness]">activated complex</dt>
+                        <dd
+                          id="fs-idm162202432"
+                        >(also, transition state) unstable combination of reactant species formed during a chemical reaction</dd>
+                      </dl>
+                      <dl id="fs-idm162201904">
+                        <dt id="[redacted for uniqueness]">
+                          activation energy (
+                          <em data-effect="italics">E</em>
+                          <sub>a</sub>)
+                        </dt>
+                        <dd
+                          id="fs-idm187159968"
+                        >minimum energy necessary in order for a reaction to take place</dd>
+                      </dl>
+                      <dl id="fs-idm187159584">
+                        <dt id="[redacted for uniqueness]">Arrhenius equation</dt>
+                        <dd
+                          id="fs-idm101549248"
+                        >mathematical relationship between a reaction’s rate constant, activation energy, and temperature</dd>
+                      </dl>
+                      <dl id="fs-idp11569888">
+                        <dt id="[redacted for uniqueness]">average rate</dt>
+                        <dd
+                          id="fs-idm53764208"
+                        >rate of a chemical reaction computed as the ratio of a measured change in amount or concentration of substance to the time interval over which the change occurred</dd>
+                      </dl>
+                      <dl id="fs-idp131244384">
+                        <dt id="[redacted for uniqueness]">bimolecular reaction</dt>
+                        <dd
+                          id="fs-idm21928512"
+                        >elementary reaction involving two reactant species</dd>
+                      </dl>
+                      <dl id="fs-idp102379584">
+                        <dt id="[redacted for uniqueness]">catalyst</dt>
+                        <dd
+                          id="fs-idm32337456"
+                        >substance that increases the rate of a reaction without itself being consumed by the reaction</dd>
+                      </dl>
+                      <dl id="fs-idm101548864">
+                        <dt id="[redacted for uniqueness]">collision theory</dt>
+                        <dd
+                          id="fs-idm206488960"
+                        >model that emphasizes the energy and orientation of molecular collisions to explain and predict reaction kinetics</dd>
+                      </dl>
+                      <dl id="fs-idp36862592">
+                        <dt id="[redacted for uniqueness]">elementary reaction</dt>
+                        <dd
+                          id="fs-idp56117440"
+                        >reaction that takes place in a single step, precisely as depicted in its chemical equation</dd>
+                      </dl>
+                      <dl id="fs-idm206488448">
+                        <dt id="[redacted for uniqueness]">
+                          frequency factor (
+                          <em data-effect="italics">A</em>)
+                        </dt>
+                        <dd
+                          id="fs-idp8915568"
+                        >proportionality constant in the Arrhenius equation, related to the relative number of collisions having an orientation capable of leading to product formation</dd>
+                      </dl>
+                      <dl id="fs-idm46849712">
+                        <dt id="[redacted for uniqueness]">
+                          half-life of a reaction (
+                          <em data-effect="italics">t</em>
+                          <sub>l/2</sub>)
+                        </dt>
+                        <dd
+                          id="fs-idm46848192"
+                        >time required for half of a given amount of reactant to be consumed</dd>
+                      </dl>
+                      <dl id="fs-idm228167568">
+                        <dt id="[redacted for uniqueness]">heterogeneous catalyst</dt>
+                        <dd
+                          id="fs-idm173613040"
+                        >catalyst present in a different phase from the reactants, furnishing a surface at which a reaction can occur</dd>
+                      </dl>
+                      <dl id="fs-idm218392224">
+                        <dt id="[redacted for uniqueness]">homogeneous catalyst</dt>
+                        <dd
+                          id="fs-idm192625440"
+                        >catalyst present in the same phase as the reactants</dd>
+                      </dl>
+                      <dl id="fs-idp24984224">
+                        <dt id="[redacted for uniqueness]">initial rate</dt>
+                        <dd id="fs-idp15016160">
+                          instantaneous rate of a chemical reaction at
+                          <em data-effect="italics">t</em> = 0 s (immediately after the reaction has begun)
+                        </dd>
+                      </dl>
+                      <dl id="fs-idp70925872">
+                        <dt id="[redacted for uniqueness]">instantaneous rate</dt>
+                        <dd
+                          id="fs-idp166671184"
+                        >rate of a chemical reaction at any instant in time, determined by the slope of the line tangential to a graph of concentration as a function of time</dd>
+                      </dl>
+                      <dl id="fs-idm46847680">
+                        <dt id="[redacted for uniqueness]">integrated rate law</dt>
+                        <dd
+                          id="fs-idm46847040"
+                        >equation that relates the concentration of a reactant to elapsed time of reaction</dd>
+                      </dl>
+                      <dl id="fs-idp63453216">
+                        <dt id="[redacted for uniqueness]">intermediate</dt>
+                        <dd
+                          id="fs-idp42175008"
+                        >species produced in one step of a reaction mechanism and consumed in a subsequent step</dd>
+                      </dl>
+                      <dl id="fs-idm176826832">
+                        <dt id="[redacted for uniqueness]">method of initial rates</dt>
+                        <dd
+                          id="fs-idm176826448"
+                        >common experimental approach to determining rate laws that involves measuring reaction rates at varying initial reactant concentrations</dd>
+                      </dl>
+                      <dl id="fs-idp7133520">
+                        <dt id="[redacted for uniqueness]">molecularity</dt>
+                        <dd
+                          id="fs-idp108318064"
+                        >number of reactant species involved in an elementary reaction</dd>
+                      </dl>
+                      <dl id="fs-idm276164832">
+                        <dt id="[redacted for uniqueness]">overall reaction order</dt>
+                        <dd
+                          id="fs-idm263526528"
+                        >sum of the reaction orders for each substance represented in the rate law</dd>
+                      </dl>
+                      <dl id="fs-idm185628880">
+                        <dt id="[redacted for uniqueness]">
+                          rate constant (
+                          <em data-effect="italics">k</em>)
+                        </dt>
+                        <dd
+                          id="fs-idm213521696"
+                        >proportionality constant in a rate law</dd>
+                      </dl>
+                      <dl id="fs-idp193131840">
+                        <dt id="[redacted for uniqueness]">rate expression</dt>
+                        <dd
+                          id="fs-idm43290528"
+                        >mathematical representation defining reaction rate as change in amount, concentration, or pressure of reactant or product species per unit time</dd>
+                      </dl>
+                      <dl id="fs-idm215968704">
+                        <dt id="[redacted for uniqueness]">rate law</dt>
+                        <dd
+                          id="fs-idm215968320"
+                        >(also, rate equation) (also, differential rate laws) mathematical equation showing the dependence of reaction rate on the rate constant and the concentration of one or more reactants</dd>
+                      </dl>
+                      <dl id="fs-idp172602144">
+                        <dt id="[redacted for uniqueness]">rate of reaction</dt>
+                        <dd
+                          id="fs-idm82485008"
+                        >measure of the speed at which a chemical reaction takes place</dd>
+                      </dl>
+                      <dl id="fs-idp105000160">
+                        <dt id="[redacted for uniqueness]">rate-determining step</dt>
+                        <dd
+                          id="fs-idp105335120"
+                        >(also, rate-limiting step) slowest elementary reaction in a reaction mechanism; determines the rate of the overall reaction</dd>
+                      </dl>
+                      <dl id="fs-idm355773584">
+                        <dt id="[redacted for uniqueness]">reaction diagram</dt>
+                        <dd
+                          id="fs-idm338728240"
+                        >used in chemical kinetics to illustrate various properties of a reaction</dd>
+                      </dl>
+                      <dl id="fs-idp154473568">
+                        <dt id="[redacted for uniqueness]">reaction mechanism</dt>
+                        <dd
+                          id="fs-idp74962800"
+                        >stepwise sequence of elementary reactions by which a chemical change takes place</dd>
+                      </dl>
+                      <dl id="fs-idm333854336">
+                        <dt id="[redacted for uniqueness]">reaction order</dt>
+                        <dd
+                          id="fs-idm47186480"
+                        >value of an exponent in a rate law (for example, zero order for 0, first order for 1, second order for 2, and so on)</dd>
+                      </dl>
+                      <dl id="fs-idp251542624">
+                        <dt id="[redacted for uniqueness]">termolecular reaction</dt>
+                        <dd
+                          id="fs-idp96748560"
+                        >elementary reaction involving three reactant species</dd>
+                      </dl>
+                      <dl id="fs-idm2926992">
+                        <dt id="[redacted for uniqueness]">unimolecular reaction</dt>
+                        <dd
+                          id="fs-idp46376128"
+                        >elementary reaction involving a single reactant species</dd>
+                      </dl>
+                    </div>
+                  </div>
+                  

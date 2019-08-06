@@ -1,0 +1,64 @@
+clean: clean-eggs clean-pyc clean-test
+
+clean-eggs: ## remove build artifacts
+	rm -fr .eggs/
+	find . -name '*.egg-info' -exec rm -fr {} +
+	find . -name '*.egg' -exec rm -f {} +
+
+clean-pyc: ## remove Python file artifacts
+	find pytest-selenium -name '*.pyc' -exec rm -f {} +
+	find pytest-selenium -name '*.pyo' -exec rm -f {} +
+	find pytest-selenium -name '*~' -exec rm -f {} +
+	find pytest-selenium -name '__pycache__' -exec rm -fr {} +
+
+clean-test: ## remove test and coverage artifacts
+	rm -fr .tox/
+	rm -fr assets/
+	rm -f report.html
+
+venv:
+	python3 -m venv .venv && \
+		. .venv/bin/activate && \
+		pip install -r pytest-selenium/requirements-dev.txt
+
+help_redirect:
+	@$(MAKE) help --no-print-directory
+
+test-go: venv
+	@. .venv/bin/activate && pytest \
+		--base-url=https://localhost:3000 \
+		--driver Chrome \
+		pytest-selenium/tests
+
+test-rail-sauce: venv
+	@. .venv/bin/activate && pytest \
+		--testrail \
+		--tr-url="https://$(TR_INSTANCE).testrail.net/" \
+		--tr-email=$(TR_USERNAME) \
+		--tr-password=$(TR_PASSWORD) \
+		--tr-run-id=$(TR_RUN_ID) \
+		--tr-skip-missing \
+		--base-url=$(BASE_URL) \
+		--driver SauceLabs \
+		--capability avoidProxy True \
+		--capability browserName $(BROWSER) \
+		--capability screenResolution 1600x1200 \
+		pytest-selenium/tests
+
+test-local: venv
+	@. .venv/bin/activate && pytest \
+		--base-url http://localhost:3000 \
+		--driver Chrome \
+		pytest-selenium/tests \
+
+test: help_submake
+	exit 111
+
+help_submake:
+	@echo "clean             Remove build, test, and file artifacts"
+	@echo "clean-build       Remove build artifacts"
+	@echo "clean-pyc         Remove file artifacts"
+	@echo "clean-test        Remove test artifacts"
+	@echo "venv	             Set up a virtualenv for this project"
+	@echo "test-local        Run test suite against localhost:3000"
+	@echo "test-rail-sauce   Run test suite in Saucelabs and Testrail"

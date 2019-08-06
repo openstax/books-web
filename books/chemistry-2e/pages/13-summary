@@ -1,0 +1,74 @@
+
+                    <div
+                      class="os-eoc os-summary-container"
+                      data-type="composite-page"
+                      data-uuid-key=".summary"
+                    >
+                      <section
+                        class="summary"
+                        data-depth="1"
+                        id="fs-idp62938640"
+                      >
+                        <h3 data-type="document-title" id="[redacted for uniqueness]">
+                          <span class="os-number">13.1</span>
+                          <span class="os-divider"></span>
+                          <span class="os-text">Chemical Equilibria</span>
+                        </h3>
+                        <p
+                          id="fs-idp125631520"
+                        >A reversible reaction is at equilibrium when the forward and reverse processes occur at equal rates. Chemical equilibria are dynamic processes characterized by constant amounts of reactant and product species.</p>
+                      </section>
+                      <section
+                        class="summary"
+                        data-depth="1"
+                        id="fs-idp284371824"
+                      >
+                        <h3 data-type="document-title" id="[redacted for uniqueness]">
+                          <span class="os-number">13.2</span>
+                          <span class="os-divider"></span>
+                          <span class="os-text">Equilibrium Constants</span>
+                        </h3>
+                        <p id="fs-idp165520928">
+                          The composition of a reaction mixture may be represented by a mathematical function known as the reaction quotient,
+                          <em data-effect="italics">Q</em>. For a reaction at equilibrium, the composition is constant, and
+                          <em data-effect="italics">Q</em> is called the equilibrium constant,
+                          <em data-effect="italics">K</em>.
+                        </p>
+                        <p
+                          id="fs-idp116522496"
+                        >A homogeneous equilibrium is an equilibrium in which all components are in the same phase. A heterogeneous equilibrium is an equilibrium in which components are in two or more phases.</p>
+                      </section>
+                      <section
+                        class="summary"
+                        data-depth="1"
+                        id="fs-idm26332112"
+                      >
+                        <h3 data-type="document-title" id="[redacted for uniqueness]">
+                          <span class="os-number">13.3</span>
+                          <span class="os-divider"></span>
+                          <span
+                            class="os-text"
+                          >Shifting Equilibria: Le Châtelier’s Principle</span>
+                        </h3>
+                        <p id="fs-idp7945600">
+                          Systems at equilibrium can be disturbed by changes to temperature, concentration, and, in some cases, volume and pressure. The system’s response to these disturbances is described by Le Châtelier’s principle: An equilibrium system subjected to a disturbance will shift in a way that counters the disturbance and re-establishes equilibrium. A catalyst will increase the rate of both the forward and reverse reactions of a reversible process, increasing the rate at which equilibrium is reached but not altering the equilibrium mixture’s composition (
+                          <em data-effect="italics">K</em> does not change).
+                        </p>
+                      </section>
+                      <section
+                        class="summary"
+                        data-depth="1"
+                        id="fs-idp274270144"
+                      >
+                        <h3 data-type="document-title" id="[redacted for uniqueness]">
+                          <span class="os-number">13.4</span>
+                          <span class="os-divider"></span>
+                          <span class="os-text">Equilibrium Calculations</span>
+                        </h3>
+                        <p
+                          id="fs-idp273866592"
+                        >Calculating values for equilibrium constants and/or equilibrium concentrations is of practical benefit to many applications. A mathematical strategy that uses initial concentrations, changes in concentrations, and equilibrium concentrations (and goes by the acronym ICE) is useful for several types of equilibrium calculations.</p>
+                      </section>
+                    </div>
+                  </div>
+                  

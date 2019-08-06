@@ -1,0 +1,5 @@
+---
+# see https://pyup.io/docs/configuration/ for all available options
+schedule: "every month"
+requirements:
+  - pytest-selenium/requirements-dev.txt

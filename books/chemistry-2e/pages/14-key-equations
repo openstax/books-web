@@ -1,0 +1,538 @@
+
+                    <div
+                      class="os-eoc os-key-equations-container"
+                      data-type="composite-page"
+                      data-uuid-key=".key-equations"
+                    >
+                      <section
+                        class="key-equations"
+                        data-depth="1"
+                        id="fs-idp36036608"
+                      >
+                        <ul data-bullet-style="bullet" id="fs-idp59024960">
+                          <li>
+                            <em data-effect="italics">K</em>
+                            <sub>w</sub> = [H
+                            <sub>3</sub>O
+                            <sup>+</sup>][OH
+                            <sup>−</sup>] = 1.0
+                            <math display="inline">
+                              <semantics>
+                                <mrow>
+                                  <mo>×</mo>
+                                </mrow>
+                                <annotation-xml encoding="MathML-Content">
+                                  <mo>×</mo>
+                                </annotation-xml>
+                              </semantics>
+                            </math> 10
+                            <sup>−14</sup> (at 25 °C)
+                          </li>
+                        </ul>
+                      </section>
+                      <section
+                        class="key-equations"
+                        data-depth="1"
+                        id="fs-idp66998992"
+                      >
+                        <ul data-bullet-style="bullet" id="fs-idp46607520">
+                          <li>
+                            <math display="inline">
+                              <semantics>
+                                <mrow>
+                                  <mrow>
+                                    <mtext>pH</mtext>
+                                    <mo>=</mo>
+                                    <mtext>−log</mtext>
+                                    <mo stretchy="false">[</mo>
+                                    <msub>
+                                      <mtext>H</mtext>
+                                      <mn>3</mn>
+                                    </msub>
+                                    <msup>
+                                      <mtext>O</mtext>
+                                      <mtext>+</mtext>
+                                    </msup>
+                                    <mo stretchy="false">]</mo>
+                                  </mrow>
+                                </mrow>
+                                <annotation-xml encoding="MathML-Content">
+                                  <mrow>
+                                    <mtext>pH</mtext>
+                                    <mo>=</mo>
+                                    <mtext>−log</mtext>
+                                    <mo stretchy="false">[</mo>
+                                    <msub>
+                                      <mtext>H</mtext>
+                                      <mn>3</mn>
+                                    </msub>
+                                    <msup>
+                                      <mtext>O</mtext>
+                                      <mtext>+</mtext>
+                                    </msup>
+                                    <mo stretchy="false">]</mo>
+                                  </mrow>
+                                </annotation-xml>
+                              </semantics>
+                            </math>
+                          </li>
+                          <li>
+                            pOH = −log[OH
+                            <sup>−</sup>]
+                          </li>
+                          <li>
+                            [H
+                            <sub>3</sub>O
+                            <sup>+</sup>] = 10
+                            <sup>−pH</sup>
+                          </li>
+                          <li>
+                            [OH
+                            <sup>−</sup>] = 10
+                            <sup>−pOH</sup>
+                          </li>
+                          <li>
+                            pH + pOH = p
+                            <em data-effect="italics">K</em>
+                            <sub>w</sub> = 14.00 at 25 °C
+                          </li>
+                        </ul>
+                      </section>
+                      <section
+                        class="key-equations"
+                        data-depth="1"
+                        id="fs-idp31338208"
+                      >
+                        <ul data-bullet-style="bullet" id="fs-idp31339088">
+                          <li>
+                            <math display="inline">
+                              <semantics>
+                                <mrow>
+                                  <mrow>
+                                    <msub>
+                                      <mi>K</mi>
+                                      <mtext>a</mtext>
+                                    </msub>
+                                    <mo>=</mo>
+                                    <mspace width="0.2em"/>
+                                    <mfrac>
+                                      <mrow>
+                                        <mrow>
+                                          <mo stretchy="false">[</mo>
+                                          <mrow>
+                                            <msub>
+                                              <mtext>H</mtext>
+                                              <mrow>
+                                                <mn>3</mn>
+                                              </mrow>
+                                            </msub>
+                                            <msup>
+                                              <mtext>O</mtext>
+                                              <mrow>
+                                                <mtext>+</mtext>
+                                              </mrow>
+                                            </msup>
+                                          </mrow>
+                                          <mo stretchy="false">]</mo>
+                                        </mrow>
+                                        <mrow>
+                                          <mo>[</mo>
+                                          <mrow>
+                                            <msup>
+                                              <mtext>A</mtext>
+                                              <mtext>−</mtext>
+                                            </msup>
+                                          </mrow>
+                                          <mo>]</mo>
+                                        </mrow>
+                                      </mrow>
+                                      <mrow>
+                                        <mrow>
+                                          <mo>[</mo>
+                                          <mrow>
+                                            <mtext>HA</mtext>
+                                          </mrow>
+                                          <mo>]</mo>
+                                        </mrow>
+                                      </mrow>
+                                    </mfrac>
+                                  </mrow>
+                                </mrow>
+                                <annotation-xml encoding="MathML-Content">
+                                  <mrow>
+                                    <msub>
+                                      <mi>K</mi>
+                                      <mtext>a</mtext>
+                                    </msub>
+                                    <mo>=</mo>
+                                    <mspace width="0.2em"/>
+                                    <mfrac>
+                                      <mrow>
+                                        <mrow>
+                                          <mo stretchy="false">[</mo>
+                                          <mrow>
+                                            <msub>
+                                              <mtext>H</mtext>
+                                              <mrow>
+                                                <mn>3</mn>
+                                              </mrow>
+                                            </msub>
+                                            <msup>
+                                              <mtext>O</mtext>
+                                              <mrow>
+                                                <mtext>+</mtext>
+                                              </mrow>
+                                            </msup>
+                                          </mrow>
+                                          <mo stretchy="false">]</mo>
+                                        </mrow>
+                                        <mrow>
+                                          <mo>[</mo>
+                                          <mrow>
+                                            <msup>
+                                              <mtext>A</mtext>
+                                              <mtext>−</mtext>
+                                            </msup>
+                                          </mrow>
+                                          <mo>]</mo>
+                                        </mrow>
+                                      </mrow>
+                                      <mrow>
+                                        <mrow>
+                                          <mo>[</mo>
+                                          <mrow>
+                                            <mtext>HA</mtext>
+                                          </mrow>
+                                          <mo>]</mo>
+                                        </mrow>
+                                      </mrow>
+                                    </mfrac>
+                                  </mrow>
+                                </annotation-xml>
+                              </semantics>
+                            </math>
+                          </li>
+                          <li>
+                            <math display="inline">
+                              <semantics>
+                                <mrow>
+                                  <mrow>
+                                    <msub>
+                                      <mi>K</mi>
+                                      <mtext>b</mtext>
+                                    </msub>
+                                    <mo>=</mo>
+                                    <mspace width="0.2em"/>
+                                    <mfrac>
+                                      <mrow>
+                                        <mrow>
+                                          <mo stretchy="false">[</mo>
+                                          <mrow>
+                                            <msup>
+                                              <mrow>
+                                                <mtext>HB</mtext>
+                                              </mrow>
+                                              <mtext>+</mtext>
+                                            </msup>
+                                          </mrow>
+                                          <mo stretchy="false">]</mo>
+                                        </mrow>
+                                        <mrow>
+                                          <mo>[</mo>
+                                          <mrow>
+                                            <msup>
+                                              <mrow>
+                                                <mtext>OH</mtext>
+                                              </mrow>
+                                              <mtext>−</mtext>
+                                            </msup>
+                                          </mrow>
+                                          <mo>]</mo>
+                                        </mrow>
+                                      </mrow>
+                                      <mrow>
+                                        <mrow>
+                                          <mo>[</mo>
+                                          <mtext>B</mtext>
+                                          <mo>]</mo>
+                                        </mrow>
+                                      </mrow>
+                                    </mfrac>
+                                  </mrow>
+                                </mrow>
+                                <annotation-xml encoding="MathML-Content">
+                                  <mrow>
+                                    <msub>
+                                      <mi>K</mi>
+                                      <mtext>b</mtext>
+                                    </msub>
+                                    <mo>=</mo>
+                                    <mspace width="0.2em"/>
+                                    <mfrac>
+                                      <mrow>
+                                        <mrow>
+                                          <mo stretchy="false">[</mo>
+                                          <mrow>
+                                            <msup>
+                                              <mrow>
+                                                <mtext>HB</mtext>
+                                              </mrow>
+                                              <mtext>+</mtext>
+                                            </msup>
+                                          </mrow>
+                                          <mo stretchy="false">]</mo>
+                                        </mrow>
+                                        <mrow>
+                                          <mo>[</mo>
+                                          <mrow>
+                                            <msup>
+                                              <mrow>
+                                                <mtext>OH</mtext>
+                                              </mrow>
+                                              <mtext>−</mtext>
+                                            </msup>
+                                          </mrow>
+                                          <mo>]</mo>
+                                        </mrow>
+                                      </mrow>
+                                      <mrow>
+                                        <mrow>
+                                          <mo>[</mo>
+                                          <mtext>B</mtext>
+                                          <mo>]</mo>
+                                        </mrow>
+                                      </mrow>
+                                    </mfrac>
+                                  </mrow>
+                                </annotation-xml>
+                              </semantics>
+                            </math>
+                          </li>
+                          <li>
+                            <em data-effect="italics">K</em>
+                            <sub>a</sub>
+                            <math display="inline">
+                              <semantics>
+                                <mrow>
+                                  <mo>×</mo>
+                                </mrow>
+                                <annotation-xml encoding="MathML-Content">
+                                  <mo>×</mo>
+                                </annotation-xml>
+                              </semantics>
+                            </math>
+                            <em data-effect="italics">K</em>
+                            <sub>b</sub> = 1.0
+                            <math display="inline">
+                              <semantics>
+                                <mrow>
+                                  <mo>×</mo>
+                                </mrow>
+                                <annotation-xml encoding="MathML-Content">
+                                  <mo>×</mo>
+                                </annotation-xml>
+                              </semantics>
+                            </math> 10
+                            <sup>−14</sup> =
+                            <em data-effect="italics">K</em>
+                            <sub>w</sub>
+                          </li>
+                          <li>
+                            <math display="inline">
+                              <semantics>
+                                <mrow>
+                                  <mrow>
+                                    <mtext>Percent ionization</mtext>
+                                    <mo>=</mo>
+                                    <mspace width="0.2em"/>
+                                    <mfrac>
+                                      <mrow>
+                                        <msub>
+                                          <mrow>
+                                            <mo stretchy="false">[</mo>
+                                            <msub>
+                                              <mtext>H</mtext>
+                                              <mrow>
+                                                <mn>3</mn>
+                                              </mrow>
+                                            </msub>
+                                            <msup>
+                                              <mtext>O</mtext>
+                                              <mtext>+</mtext>
+                                            </msup>
+                                            <mo stretchy="false">]</mo>
+                                          </mrow>
+                                          <mrow>
+                                            <mtext>eq</mtext>
+                                          </mrow>
+                                        </msub>
+                                      </mrow>
+                                      <mrow>
+                                        <msub>
+                                          <mrow>
+                                            <mo stretchy="false">[</mo>
+                                            <mtext>HA]</mtext>
+                                          </mrow>
+                                          <mn>0</mn>
+                                        </msub>
+                                      </mrow>
+                                    </mfrac>
+                                    <mspace width="0.2em"/>
+                                    <mo>×</mo>
+                                    <mspace width="0.2em"/>
+                                    <mn>100</mn>
+                                  </mrow>
+                                </mrow>
+                                <annotation-xml encoding="MathML-Content">
+                                  <mrow>
+                                    <mtext>Percent ionization</mtext>
+                                    <mo>=</mo>
+                                    <mspace width="0.2em"/>
+                                    <mfrac>
+                                      <mrow>
+                                        <msub>
+                                          <mrow>
+                                            <mo stretchy="false">[</mo>
+                                            <msub>
+                                              <mtext>H</mtext>
+                                              <mrow>
+                                                <mn>3</mn>
+                                              </mrow>
+                                            </msub>
+                                            <msup>
+                                              <mtext>O</mtext>
+                                              <mtext>+</mtext>
+                                            </msup>
+                                            <mo stretchy="false">]</mo>
+                                          </mrow>
+                                          <mrow>
+                                            <mtext>eq</mtext>
+                                          </mrow>
+                                        </msub>
+                                      </mrow>
+                                      <mrow>
+                                        <msub>
+                                          <mrow>
+                                            <mo stretchy="false">[</mo>
+                                            <mtext>HA]</mtext>
+                                          </mrow>
+                                          <mn>0</mn>
+                                        </msub>
+                                      </mrow>
+                                    </mfrac>
+                                    <mspace width="0.2em"/>
+                                    <mo>×</mo>
+                                    <mspace width="0.2em"/>
+                                    <mn>100</mn>
+                                  </mrow>
+                                </annotation-xml>
+                              </semantics>
+                            </math>
+                          </li>
+                        </ul>
+                      </section>
+                      <section
+                        class="key-equations"
+                        data-depth="1"
+                        id="fs-idm101899904"
+                      >
+                        <ul data-bullet-style="bullet" id="fs-idp50124944">
+                          <li>
+                            p
+                            <em data-effect="italics">K</em>
+                            <sub>a</sub> = −log
+                            <em data-effect="italics">K</em>
+                            <sub>a</sub>
+                          </li>
+                          <li>
+                            p
+                            <em data-effect="italics">K</em>
+                            <sub>b</sub> = −log
+                            <em data-effect="italics">K</em>
+                            <sub>b</sub>
+                          </li>
+                          <li>
+                            <math display="inline">
+                              <semantics>
+                                <mrow>
+                                  <mrow>
+                                    <mtext>pH</mtext>
+                                    <mo>=</mo>
+                                    <mtext>p</mtext>
+                                    <msub>
+                                      <mi>K</mi>
+                                      <mtext>a</mtext>
+                                    </msub>
+                                    <mo>+</mo>
+                                    <mtext>log</mtext>
+                                    <mspace width="0.2em"/>
+                                    <mfrac>
+                                      <mrow>
+                                        <mrow>
+                                          <mo>[</mo>
+                                          <mrow>
+                                            <msup>
+                                              <mtext>A</mtext>
+                                              <mtext>−</mtext>
+                                            </msup>
+                                          </mrow>
+                                          <mo>]</mo>
+                                        </mrow>
+                                      </mrow>
+                                      <mrow>
+                                        <mrow>
+                                          <mo>[</mo>
+                                          <mrow>
+                                            <mtext>HA</mtext>
+                                          </mrow>
+                                          <mo>]</mo>
+                                        </mrow>
+                                      </mrow>
+                                    </mfrac>
+                                  </mrow>
+                                </mrow>
+                                <annotation-xml encoding="MathML-Content">
+                                  <mrow>
+                                    <mtext>pH</mtext>
+                                    <mo>=</mo>
+                                    <mtext>p</mtext>
+                                    <msub>
+                                      <mi>K</mi>
+                                      <mtext>a</mtext>
+                                    </msub>
+                                    <mo>+</mo>
+                                    <mtext>log</mtext>
+                                    <mspace width="0.2em"/>
+                                    <mfrac>
+                                      <mrow>
+                                        <mrow>
+                                          <mo>[</mo>
+                                          <mrow>
+                                            <msup>
+                                              <mtext>A</mtext>
+                                              <mtext>−</mtext>
+                                            </msup>
+                                          </mrow>
+                                          <mo>]</mo>
+                                        </mrow>
+                                      </mrow>
+                                      <mrow>
+                                        <mrow>
+                                          <mo>[</mo>
+                                          <mrow>
+                                            <mtext>HA</mtext>
+                                          </mrow>
+                                          <mo>]</mo>
+                                        </mrow>
+                                      </mrow>
+                                    </mfrac>
+                                  </mrow>
+                                </annotation-xml>
+                              </semantics>
+                            </math>
+                          </li>
+                        </ul>
+                      </section>
+                    </div>
+                  </div>
+                  

@@ -1,0 +1,111 @@
+
+                    <div
+                      class="os-eoc os-summary-container"
+                      data-type="composite-page"
+                      data-uuid-key=".summary"
+                    >
+                      <section
+                        class="summary"
+                        data-depth="1"
+                        id="fs-idp13680896"
+                      >
+                        <h3 data-type="document-title" id="[redacted for uniqueness]">
+                          <span class="os-number">12.1</span>
+                          <span class="os-divider"></span>
+                          <span class="os-text">Chemical Reaction Rates</span>
+                        </h3>
+                        <p
+                          id="fs-idp145842032"
+                        >The rate of a reaction can be expressed either in terms of the decrease in the amount of a reactant or the increase in the amount of a product per unit time. Relations between different rate expressions for a given reaction are derived directly from the stoichiometric coefficients of the equation representing the reaction.</p>
+                      </section>
+                      <section
+                        class="summary"
+                        data-depth="1"
+                        id="fs-idm70094032"
+                      >
+                        <h3 data-type="document-title" id="[redacted for uniqueness]">
+                          <span class="os-number">12.2</span>
+                          <span class="os-divider"></span>
+                          <span class="os-text">Factors Affecting Reaction Rates</span>
+                        </h3>
+                        <p
+                          id="fs-idm63455008"
+                        >The rate of a chemical reaction is affected by several parameters. Reactions involving two phases proceed more rapidly when there is greater surface area contact. If temperature or reactant concentration is increased, the rate of a given reaction generally increases as well. A catalyst can increase the rate of a reaction by providing an alternative pathway with a lower activation energy.</p>
+                      </section>
+                      <section
+                        class="summary"
+                        data-depth="1"
+                        id="fs-idm168364064"
+                      >
+                        <h3 data-type="document-title" id="[redacted for uniqueness]">
+                          <span class="os-number">12.3</span>
+                          <span class="os-divider"></span>
+                          <span class="os-text">Rate Laws</span>
+                        </h3>
+                        <p id="fs-idm262547408">
+                          Rate laws (
+                          <em data-effect="italics">differential rate laws</em>) provide a mathematical description of how changes in the concentration of a substance affect the rate of a chemical reaction. Rate laws are determined experimentally and cannot be predicted by reaction stoichiometry. The order of reaction describes how much a change in the concentration of each substance affects the overall rate, and the overall order of a reaction is the sum of the orders for each substance present in the reaction. Reaction orders are typically first order, second order, or zero order, but fractional and even negative orders are possible.
+                        </p>
+                      </section>
+                      <section
+                        class="summary"
+                        data-depth="1"
+                        id="fs-idm63099680"
+                      >
+                        <h3 data-type="document-title" id="[redacted for uniqueness]">
+                          <span class="os-number">12.4</span>
+                          <span class="os-divider"></span>
+                          <span class="os-text">Integrated Rate Laws</span>
+                        </h3>
+                        <p
+                          id="fs-idm85329552"
+                        >Integrated rate laws are mathematically derived from differential rate laws, and they describe the time dependence of reactant and product concentrations.</p>
+                        <p
+                          id="fs-idp258559744"
+                        >The half-life of a reaction is the time required to decrease the amount of a given reactant by one-half. A reaction’s half-life varies with rate constant and, for some reaction orders, reactant concentration. The half-life of a zero-order reaction decreases as the initial concentration of the reactant in the reaction decreases. The half-life of a first-order reaction is independent of concentration, and the half-life of a second-order reaction decreases as the concentration increases.</p>
+                      </section>
+                      <section
+                        class="summary"
+                        data-depth="1"
+                        id="fs-idm92128240"
+                      >
+                        <h3 data-type="document-title" id="[redacted for uniqueness]">
+                          <span class="os-number">12.5</span>
+                          <span class="os-divider"></span>
+                          <span class="os-text">Collision Theory</span>
+                        </h3>
+                        <p
+                          id="fs-idm197754848"
+                        >Chemical reactions typically require collisions between reactant species. These reactant collisions must be of proper orientation and sufficient energy in order to result in product formation. Collision theory provides a simple but effective explanation for the effect of many experimental parameters on reaction rates. The Arrhenius equation describes the relation between a reaction’s rate constant, activation energy, temperature, and dependence on collision orientation.</p>
+                      </section>
+                      <section
+                        class="summary"
+                        data-depth="1"
+                        id="fs-idp145811120"
+                      >
+                        <h3 data-type="document-title" id="[redacted for uniqueness]">
+                          <span class="os-number">12.6</span>
+                          <span class="os-divider"></span>
+                          <span class="os-text">Reaction Mechanisms</span>
+                        </h3>
+                        <p
+                          id="fs-idp240124176"
+                        >The sequence of individual steps, or elementary reactions, by which reactants are converted into products during the course of a reaction is called the reaction mechanism. The molecularity of an elementary reaction is the number of reactant species involved, typically one (unimolecular), two (bimolecular), or, less commonly, three (termolecular). The overall rate of a reaction is determined by the rate of the slowest in its mechanism, called the rate-determining step. Unimolecular elementary reactions have first-order rate laws, while bimolecular elementary reactions have second-order rate laws. By comparing the rate laws derived from a reaction mechanism to that determined experimentally, the mechanism may be deemed either incorrect or plausible.</p>
+                      </section>
+                      <section
+                        class="summary"
+                        data-depth="1"
+                        id="fs-idm181838416"
+                      >
+                        <h3 data-type="document-title" id="[redacted for uniqueness]">
+                          <span class="os-number">12.7</span>
+                          <span class="os-divider"></span>
+                          <span class="os-text">Catalysis</span>
+                        </h3>
+                        <p
+                          id="fs-idm186233248"
+                        >Catalysts affect the rate of a chemical reaction by altering its mechanism to provide a lower activation energy. Catalysts can be homogenous (in the same phase as the reactants) or heterogeneous (a different phase than the reactants).</p>
+                      </section>
+                    </div>
+                  </div>
+                  

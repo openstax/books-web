@@ -1,0 +1,337 @@
+
+                    <div
+                      class="appendix"
+                      data-cnxml-to-html-ver="[redacted for uniqueness]"
+                      data-type="page"
+                      id="89acae8f-68fd-4f9e-88e3-e545c290c96c"
+                    >
+                      <div class="os-table" id="fs-idm136825040">
+                        <table
+                          class="top-titled"
+                          data-id="fs-idm136825040"
+                          summary="Table D1  "
+                        >
+                          <thead>
+                            <tr valign="middle">
+                              <th colspan="2">Fundamental Physical Constants</th>
+                            </tr>
+                            <tr valign="middle">
+                              <th data-align="left">Name and Symbol</th>
+                              <th data-align="left">Value</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr valign="middle">
+                              <td data-align="left">atomic mass unit (amu)</td>
+                              <td data-align="left">
+                                1.6605402
+                                <math display="inline">
+                                  <semantics>
+                                    <mrow>
+                                      <mo>×</mo>
+                                    </mrow>
+                                    <annotation-xml encoding="MathML-Content">
+                                      <mo>×</mo>
+                                    </annotation-xml>
+                                  </semantics>
+                                </math> 10
+                                <sup>−27</sup> kg
+                              </td>
+                            </tr>
+                            <tr valign="middle">
+                              <td data-align="left">Avogadro’s number</td>
+                              <td data-align="left">
+                                6.0221367
+                                <math display="inline">
+                                  <semantics>
+                                    <mrow>
+                                      <mo>×</mo>
+                                    </mrow>
+                                    <annotation-xml encoding="MathML-Content">
+                                      <mo>×</mo>
+                                    </annotation-xml>
+                                  </semantics>
+                                </math> 10
+                                <sup>23</sup> mol
+                                <sup>−1</sup>
+                              </td>
+                            </tr>
+                            <tr valign="middle">
+                              <td data-align="left">
+                                Boltzmann’s constant (
+                                <em data-effect="italics">k</em>)
+                              </td>
+                              <td data-align="left">
+                                1.380658
+                                <math display="inline">
+                                  <semantics>
+                                    <mrow>
+                                      <mo>×</mo>
+                                    </mrow>
+                                    <annotation-xml encoding="MathML-Content">
+                                      <mo>×</mo>
+                                    </annotation-xml>
+                                  </semantics>
+                                </math> 10
+                                <sup>−23</sup> J K
+                                <sup>−1</sup>
+                              </td>
+                            </tr>
+                            <tr valign="middle">
+                              <td data-align="left">
+                                charge-to-mass ratio for electron (
+                                <em data-effect="italics">
+                                  e/m
+                                  <sub>e</sub>
+                                </em>)
+                              </td>
+                              <td data-align="left">
+                                1.75881962
+                                <math display="inline">
+                                  <semantics>
+                                    <mrow>
+                                      <mo>×</mo>
+                                    </mrow>
+                                    <annotation-xml encoding="MathML-Content">
+                                      <mo>×</mo>
+                                    </annotation-xml>
+                                  </semantics>
+                                </math> 10
+                                <sup>11</sup> C kg
+                                <sup>−1</sup>
+                              </td>
+                            </tr>
+                            <tr valign="middle">
+                              <td data-align="left">
+                                electron charge (
+                                <em data-effect="italics">e</em>)
+                              </td>
+                              <td data-align="left">
+                                1.60217733
+                                <math display="inline">
+                                  <semantics>
+                                    <mrow>
+                                      <mo>×</mo>
+                                    </mrow>
+                                    <annotation-xml encoding="MathML-Content">
+                                      <mo>×</mo>
+                                    </annotation-xml>
+                                  </semantics>
+                                </math> 10
+                                <sup>−19</sup> C
+                              </td>
+                            </tr>
+                            <tr valign="middle">
+                              <td data-align="left">
+                                electron rest mass (
+                                <em data-effect="italics">
+                                  m
+                                  <sub>e</sub>
+                                </em>)
+                              </td>
+                              <td data-align="left">
+                                9.1093897
+                                <math display="inline">
+                                  <semantics>
+                                    <mrow>
+                                      <mo>×</mo>
+                                    </mrow>
+                                    <annotation-xml encoding="MathML-Content">
+                                      <mo>×</mo>
+                                    </annotation-xml>
+                                  </semantics>
+                                </math> 10
+                                <sup>−31</sup> kg
+                              </td>
+                            </tr>
+                            <tr valign="middle">
+                              <td data-align="left">
+                                Faraday’s constant (
+                                <em data-effect="italics">F</em>)
+                              </td>
+                              <td data-align="left">
+                                9.6485309
+                                <math display="inline">
+                                  <semantics>
+                                    <mrow>
+                                      <mo>×</mo>
+                                    </mrow>
+                                    <annotation-xml encoding="MathML-Content">
+                                      <mo>×</mo>
+                                    </annotation-xml>
+                                  </semantics>
+                                </math> 10
+                                <sup>4</sup> C mol
+                                <sup>−1</sup>
+                              </td>
+                            </tr>
+                            <tr valign="middle">
+                              <td data-align="left">
+                                gas constant (
+                                <em data-effect="italics">R</em>)
+                              </td>
+                              <td data-align="left">
+                                8.205784
+                                <math display="inline">
+                                  <semantics>
+                                    <mrow>
+                                      <mo>×</mo>
+                                    </mrow>
+                                    <annotation-xml encoding="MathML-Content">
+                                      <mo>×</mo>
+                                    </annotation-xml>
+                                  </semantics>
+                                </math> 10
+                                <sup>−2</sup> L atm mol
+                                <sup>−1</sup> K
+                                <sup>−1</sup> = 8.314510 J mol
+                                <sup>−1</sup> K
+                                <sup>−1</sup>
+                              </td>
+                            </tr>
+                            <tr valign="middle">
+                              <td
+                                data-align="left"
+                              >molar volume of an ideal gas, 1 atm, 0 °C</td>
+                              <td data-align="left">
+                                22.41409 L mol
+                                <sup>–1</sup>
+                              </td>
+                            </tr>
+                            <tr valign="middle">
+                              <td
+                                data-align="left"
+                              >molar volume of an ideal gas, 1 bar, 0 °C</td>
+                              <td data-align="left">
+                                22.71108 L mol
+                                <sup>–1</sup>
+                              </td>
+                            </tr>
+                            <tr valign="middle">
+                              <td data-align="left">
+                                neutron rest mass (
+                                <em data-effect="italics">
+                                  m
+                                  <sub>n</sub>
+                                </em>)
+                              </td>
+                              <td data-align="left">
+                                1.6749274
+                                <math display="inline">
+                                  <semantics>
+                                    <mrow>
+                                      <mo>×</mo>
+                                    </mrow>
+                                    <annotation-xml encoding="MathML-Content">
+                                      <mo>×</mo>
+                                    </annotation-xml>
+                                  </semantics>
+                                </math> 10
+                                <sup>−27</sup> kg
+                              </td>
+                            </tr>
+                            <tr valign="middle">
+                              <td data-align="left">
+                                Planck’s constant (
+                                <em data-effect="italics">h</em>)
+                              </td>
+                              <td data-align="left">
+                                6.6260755
+                                <math display="inline">
+                                  <semantics>
+                                    <mrow>
+                                      <mo>×</mo>
+                                    </mrow>
+                                    <annotation-xml encoding="MathML-Content">
+                                      <mo>×</mo>
+                                    </annotation-xml>
+                                  </semantics>
+                                </math> 10
+                                <sup>−34</sup> J s
+                              </td>
+                            </tr>
+                            <tr valign="middle">
+                              <td data-align="left">
+                                proton rest mass (
+                                <em data-effect="italics">
+                                  m
+                                  <sub>p</sub>
+                                </em>)
+                              </td>
+                              <td data-align="left">
+                                1.6726231
+                                <math display="inline">
+                                  <semantics>
+                                    <mrow>
+                                      <mo>×</mo>
+                                    </mrow>
+                                    <annotation-xml encoding="MathML-Content">
+                                      <mo>×</mo>
+                                    </annotation-xml>
+                                  </semantics>
+                                </math> 10
+                                <sup>−27</sup> kg
+                              </td>
+                            </tr>
+                            <tr valign="middle">
+                              <td data-align="left">Rydberg constant (R)</td>
+                              <td data-align="left">
+                                1.0973731534
+                                <math display="inline">
+                                  <semantics>
+                                    <mrow>
+                                      <mo>×</mo>
+                                    </mrow>
+                                    <annotation-xml encoding="MathML-Content">
+                                      <mo>×</mo>
+                                    </annotation-xml>
+                                  </semantics>
+                                </math> 10
+                                <sup>7</sup> m
+                                <sup>−1</sup> = 2.1798736
+                                <math display="inline">
+                                  <semantics>
+                                    <mrow>
+                                      <mo>×</mo>
+                                    </mrow>
+                                    <annotation-xml encoding="MathML-Content">
+                                      <mo>×</mo>
+                                    </annotation-xml>
+                                  </semantics>
+                                </math> 10
+                                <sup>−18</sup> J
+                              </td>
+                            </tr>
+                            <tr valign="middle">
+                              <td data-align="left">
+                                speed of light (in vacuum) (
+                                <em data-effect="italics">c</em>)
+                              </td>
+                              <td data-align="left">
+                                2.99792458
+                                <math display="inline">
+                                  <semantics>
+                                    <mrow>
+                                      <mo>×</mo>
+                                    </mrow>
+                                    <annotation-xml encoding="MathML-Content">
+                                      <mo>×</mo>
+                                    </annotation-xml>
+                                  </semantics>
+                                </math> 10
+                                <sup>8</sup> m s
+                                <sup>−1</sup>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                        <div class="os-caption-container">
+                          <span class="os-title-label">Table</span>
+                          <span class="os-number">D1</span>
+                          <span class="os-divider"></span>
+                          <span class="os-divider"></span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  

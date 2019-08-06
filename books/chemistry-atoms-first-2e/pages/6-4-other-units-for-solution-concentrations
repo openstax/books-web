@@ -1,0 +1,1287 @@
+
+                    <div
+                      data-cnxml-to-html-ver="[redacted for uniqueness]"
+                      data-type="page"
+                      id="4fee0e14-2169-4e3b-bb15-def8b056b1a0"
+                    >
+                      <div data-type="abstract" id="[redacted for uniqueness]">
+                        By the end of this section, you will be able to:
+                        <ul>
+                          <li>Define the concentration units of mass percentage, volume percentage, mass-volume percentage, parts-per-million (ppm), and parts-per-billion (ppb)</li>
+                          <li>Perform computations relating a solution’s concentration and its components’ volumes and/or masses using these units</li>
+                        </ul>
+                      </div>
+
+                      <p
+                        id="fs-idm32304496"
+                      >The previous section introduced molarity, a very useful measurement unit for evaluating the concentration of solutions. However, molarity is only one measure of concentration. This section will describe some other units of concentration that are commonly used in various applications, either for convenience or by convention.</p>
+
+                      <section data-depth="1" id="fs-idm8277808">
+                        <h3 data-type="title">Mass Percentage</h3>
+                        <p id="fs-idm26991728">
+                          Earlier in this chapter, percent composition was introduced as a measure of the relative amount of a given element in a compound. Percentages are also commonly used to express the composition of mixtures, including solutions. The
+                          <span
+                            data-type="term"
+                            group-by="m"
+                            id="[redacted for uniqueness]"
+                          >mass percentage</span> of a solution component is defined as the ratio of the component’s mass to the solution’s mass, expressed as a percentage:
+                        </p>
+                        <div data-type="equation" id="fs-idm5911152">
+                          <math display="block">
+                            <semantics>
+                              <mrow>
+                                <mrow>
+                                  <mtext>mass percentage</mtext>
+                                  <mo>=</mo>
+                                  <mspace width="0.2em"/>
+                                  <mfrac>
+                                    <mrow>
+                                      <mtext>mass of component</mtext>
+                                    </mrow>
+                                    <mrow>
+                                      <mtext>mass of solution</mtext>
+                                    </mrow>
+                                  </mfrac>
+                                  <mspace width="0.2em"/>
+                                  <mo>×</mo>
+                                  <mspace width="0.2em"/>
+                                  <mn>100</mn>
+                                  <mi>%</mi>
+                                </mrow>
+                              </mrow>
+                              <annotation-xml encoding="MathML-Content">
+                                <mrow>
+                                  <mtext>mass percentage</mtext>
+                                  <mo>=</mo>
+                                  <mspace width="0.2em"/>
+                                  <mfrac>
+                                    <mrow>
+                                      <mtext>mass of component</mtext>
+                                    </mrow>
+                                    <mrow>
+                                      <mtext>mass of solution</mtext>
+                                    </mrow>
+                                  </mfrac>
+                                  <mspace width="0.2em"/>
+                                  <mo>×</mo>
+                                  <mspace width="0.2em"/>
+                                  <mn>100</mn>
+                                  <mi>%</mi>
+                                </mrow>
+                              </annotation-xml>
+                            </semantics>
+                          </math>
+                        </div>
+                        <p id="fs-idm3484528">
+                          Mass percentage is also referred to by similar names such as
+                          <em
+                            data-effect="italics"
+                          >percent mass, percent weight, weight/weight percent</em>, and other variations on this theme. The most common symbol for mass percentage is simply the percent sign, %, although more detailed symbols are often used including %mass, %weight, and (w/w)%. Use of these more detailed symbols can prevent confusion of mass percentages with other types of percentages, such as volume percentages (to be discussed later in this section).
+                        </p>
+                        <p id="fs-idm21823696">
+                          Mass percentages are popular concentration units for consumer products. The label of a typical liquid bleach bottle (
+                          <a
+                            class="autogenerated-content"
+                            href="#CNX_Chem_03_05_bleach"
+                          >Figure 6.11</a>) cites the concentration of its active ingredient, sodium hypochlorite (NaOCl), as being 7.4%. A 100.0-g sample of bleach would therefore contain 7.4 g of NaOCl.
+                        </p>
+                        <div class="os-figure" id="CNX_Chem_03_05_bleach">
+                          <figure
+                            class="scaled-down"
+                            data-id="CNX_Chem_03_05_bleach"
+                          >
+                            <span
+                              data-alt="The sides of two cylindrical containers are shown. Each container’s label is partially visible. The left container’s label reads “Bleach.” The right label contains more information about the product including the phrase, “Contains: Sodium hypochlorite 7.4 %.”"
+                              data-type="media"
+                              id="fs-idm21370256"
+                            >
+                              <img
+                                alt="The sides of two cylindrical containers are shown. Each container’s label is partially visible. The left container’s label reads “Bleach.” The right label contains more information about the product including the phrase, “Contains: Sodium hypochlorite 7.4 %.”"
+                                data-media-type="image/jpeg"
+                                id="[redacted for uniqueness]"
+                                src="/resources/303ba526a243c9bcedd4c1221b5748f9305365b9"
+                              >
+                            </span>
+                          </figure>
+                          <div class="os-caption-container">
+                            <span class="os-title-label">Figure</span>
+                            <span class="os-number">6.11</span>
+                            <span class="os-divider"></span>
+                            <span class="os-divider"></span>
+                            <span
+                              class="os-caption"
+                            >Liquid bleach is an aqueous solution of sodium hypochlorite (NaOCl). This brand has a concentration of 7.4% NaOCl by mass.</span>
+                          </div>
+                        </div>
+                        <div data-type="example" id="fs-idm23566960">
+                          <h3 class="os-title">
+                            <span class="os-title-label">Example</span>
+                            <span class="os-number">6.16</span>
+                            <span class="os-divider"></span>
+                          </h3>
+                          <p id="fs-idm2453280">
+                            <span
+                              data-type="title"
+                            >Calculation of Percent by Mass</span>
+                            A 5.0-g sample of spinal fluid contains 3.75 mg (0.00375 g) of glucose. What is the percent by mass of glucose in spinal fluid?
+                          </p>
+                          <p id="fs-idp19396640">
+                            <span data-type="title">Solution</span>
+                            The spinal fluid sample contains roughly 4 mg of glucose in 5000 mg of fluid, so the mass fraction of glucose should be a bit less than one part in 1000, or about 0.1%. Substituting the given masses into the equation defining mass percentage yields:
+                          </p>
+                          <div data-type="equation" id="fs-idm17789648">
+                            <math display="block">
+                              <semantics>
+                                <mrow>
+                                  <mrow>
+                                    <mi>%</mi>
+                                    <mspace width="0.2em"/>
+                                    <mtext>glucose</mtext>
+                                    <mo>=</mo>
+                                    <mspace width="0.2em"/>
+                                    <mfrac>
+                                      <mrow>
+                                        <mn>3.75</mn>
+                                        <mspace width="0.2em"/>
+                                        <mtext>mg glucose</mtext>
+                                        <mspace width="0.2em"/>
+                                        <mo>×</mo>
+                                        <mspace width="0.2em"/>
+                                        <mfrac>
+                                          <mrow>
+                                            <mn>1</mn>
+                                            <mspace width="0.2em"/>
+                                            <mtext>g</mtext>
+                                          </mrow>
+                                          <mrow>
+                                            <mn>1000</mn>
+                                            <mspace width="0.2em"/>
+                                            <mtext>mg</mtext>
+                                          </mrow>
+                                        </mfrac>
+                                        <mspace width="0.2em"/>
+                                      </mrow>
+                                      <mrow>
+                                        <mn>5.0</mn>
+                                        <mspace width="0.2em"/>
+                                        <mtext>g spinal fluid</mtext>
+                                      </mrow>
+                                    </mfrac>
+                                    <mspace width="0.2em"/>
+                                    <mo>=</mo>
+                                    <mn>0.075</mn>
+                                    <mi>%</mi>
+                                  </mrow>
+                                </mrow>
+                                <annotation-xml encoding="MathML-Content">
+                                  <mrow>
+                                    <mi>%</mi>
+                                    <mspace width="0.2em"/>
+                                    <mtext>glucose</mtext>
+                                    <mo>=</mo>
+                                    <mspace width="0.2em"/>
+                                    <mfrac>
+                                      <mrow>
+                                        <mn>3.75</mn>
+                                        <mspace width="0.2em"/>
+                                        <mtext>mg glucose</mtext>
+                                        <mspace width="0.2em"/>
+                                        <mo>×</mo>
+                                        <mspace width="0.2em"/>
+                                        <mfrac>
+                                          <mrow>
+                                            <mn>1</mn>
+                                            <mspace width="0.2em"/>
+                                            <mtext>g</mtext>
+                                          </mrow>
+                                          <mrow>
+                                            <mn>1000</mn>
+                                            <mspace width="0.2em"/>
+                                            <mtext>mg</mtext>
+                                          </mrow>
+                                        </mfrac>
+                                        <mspace width="0.2em"/>
+                                      </mrow>
+                                      <mrow>
+                                        <mn>5.0</mn>
+                                        <mspace width="0.2em"/>
+                                        <mtext>g spinal fluid</mtext>
+                                      </mrow>
+                                    </mfrac>
+                                    <mspace width="0.2em"/>
+                                    <mo>=</mo>
+                                    <mn>0.075</mn>
+                                    <mi>%</mi>
+                                  </mrow>
+                                </annotation-xml>
+                              </semantics>
+                            </math>
+                          </div>
+                          <p
+                            id="fs-idm36099936"
+                          >The computed mass percentage agrees with our rough estimate (it’s a bit less than 0.1%).</p>
+                          <p
+                            id="fs-idm6973776"
+                          >Note that while any mass unit may be used to compute a mass percentage (mg, g, kg, oz, and so on), the same unit must be used for both the solute and the solution so that the mass units cancel, yielding a dimensionless ratio. In this case, the solute mass unit in the numerator was converted from mg to g to match the units in the denominator. Alternatively, the spinal fluid mass unit in the denominator could have been converted from g to mg instead. As long as identical mass units are used for both solute and solution, the computed mass percentage will be correct.</p>
+                          <p id="fs-idm64146192">
+                            <span data-type="title">Check Your Learning</span>
+                            A bottle of a tile cleanser contains 135 g of HCl and 775 g of water. What is the percent by mass of HCl in this cleanser?
+                          </p>
+                          <div data-type="note" id="fs-idp47230144">
+                            <h3 class="os-title" data-type="title">
+                              <span
+                                class="os-title-label"
+                                data-type
+                                id="[redacted for uniqueness]"
+                              >Answer:</span>
+                            </h3>
+                            <div class="os-note-body">
+                              <p id="fs-idm9307808">14.8%</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div data-type="example" id="fs-idm27131760">
+                          <h3 class="os-title">
+                            <span class="os-title-label">Example</span>
+                            <span class="os-number">6.17</span>
+                            <span class="os-divider"></span>
+                          </h3>
+                          <p id="fs-idm32647264">
+                            <span
+                              data-type="title"
+                            >Calculations using Mass Percentage</span>
+                            “Concentrated” hydrochloric acid is an aqueous solution of 37.2% HCl that is commonly used as a laboratory reagent. The density of this solution is 1.19 g/mL. What mass of HCl is contained in 0.500 L of this solution?
+                          </p>
+                          <p id="fs-idm37499888">
+                            <span data-type="title">Solution</span>
+                            The HCl concentration is near 40%, so a 100-g portion of this solution would contain about 40 g of HCl. Since the solution density isn’t greatly different from that of water (1 g/mL), a reasonable estimate of the HCl mass in 500 g (0.5 L) of the solution is about five times greater than that in a 100 g portion, or 5
+                            <math display="inline">
+                              <semantics>
+                                <mrow>
+                                  <mo>×</mo>
+                                </mrow>
+                                <annotation-xml encoding="MathML-Content">
+                                  <mo>×</mo>
+                                </annotation-xml>
+                              </semantics>
+                            </math> 40 = 200 g. In order to derive the mass of solute in a solution from its mass percentage, the mass of the solution must be known. Using the solution density given, convert the solution’s volume to mass, and then use the given mass percentage to calculate the solute mass. This mathematical approach is outlined in this flowchart:
+                          </p>
+                          <span
+                            data-alt="A diagram of three boxes connected by a right-facing arrow in between each is shown. The box on the left contains the phrase, “Volume of solution ( m L ),” the middle box reads, “Mass of solution ( g ),” while the one on the right contains the phrase, “Mass of H C l ( g ).” There is a phrase under the left arrow that says, “Multiply by density ( g / m L )” and under the right arrow it states, “Multiply by mass percent as ratio ( g H C l / g solution ).”"
+                            data-type="media"
+                            id="fs-idm3435008"
+                          >
+                            <img
+                              alt="A diagram of three boxes connected by a right-facing arrow in between each is shown. The box on the left contains the phrase, “Volume of solution ( m L ),” the middle box reads, “Mass of solution ( g ),” while the one on the right contains the phrase, “Mass of H C l ( g ).” There is a phrase under the left arrow that says, “Multiply by density ( g / m L )” and under the right arrow it states, “Multiply by mass percent as ratio ( g H C l / g solution ).”"
+                              data-media-type="image/jpeg"
+                              id="[redacted for uniqueness]"
+                              src="/resources/7ba9e6f669090e0d1bfa48f0281cad89a126b0ff"
+                            >
+                          </span>
+                          <p
+                            id="fs-idm3493296"
+                          >For proper unit cancellation, the 0.500-L volume is converted into 500 mL, and the mass percentage is expressed as a ratio, 37.2 g HCl/g solution:</p>
+                          <div data-type="equation" id="fs-idm17430336">
+                            <math display="block">
+                              <semantics>
+                                <mrow>
+                                  <mrow>
+                                    <mtext>500 mL solution</mtext>
+                                    <mspace width="0.2em"/>
+                                    <mrow>
+                                      <mo>(</mo>
+                                      <mrow>
+                                        <mfrac>
+                                          <mrow>
+                                            <mn>1.19</mn>
+                                            <mspace width="0.2em"/>
+                                            <mtext>g solution</mtext>
+                                          </mrow>
+                                          <mrow>
+                                            <mtext>mL solution</mtext>
+                                          </mrow>
+                                        </mfrac>
+                                      </mrow>
+                                      <mo>)</mo>
+                                    </mrow>
+                                    <mspace width="0.2em"/>
+                                    <mrow>
+                                      <mo>(</mo>
+                                      <mrow>
+                                        <mfrac>
+                                          <mrow>
+                                            <mn>37.2</mn>
+                                            <mspace width="0.2em"/>
+                                            <mtext>g HCl</mtext>
+                                          </mrow>
+                                          <mrow>
+                                            <mn>100</mn>
+                                            <mspace width="0.2em"/>
+                                            <mtext>g solution</mtext>
+                                          </mrow>
+                                        </mfrac>
+                                      </mrow>
+                                      <mo>)</mo>
+                                      <mspace width="0.2em"/>
+                                    </mrow>
+                                    <mo>=</mo>
+                                    <mspace width="0.2em"/>
+                                    <mn>221</mn>
+                                    <mspace width="0.2em"/>
+                                    <mtext>g HCl</mtext>
+                                  </mrow>
+                                </mrow>
+                                <annotation-xml encoding="MathML-Content">
+                                  <mrow>
+                                    <mtext>500 mL solution</mtext>
+                                    <mspace width="0.2em"/>
+                                    <mrow>
+                                      <mo>(</mo>
+                                      <mrow>
+                                        <mfrac>
+                                          <mrow>
+                                            <mn>1.19</mn>
+                                            <mspace width="0.2em"/>
+                                            <mtext>g solution</mtext>
+                                          </mrow>
+                                          <mrow>
+                                            <mtext>mL solution</mtext>
+                                          </mrow>
+                                        </mfrac>
+                                      </mrow>
+                                      <mo>)</mo>
+                                    </mrow>
+                                    <mspace width="0.2em"/>
+                                    <mrow>
+                                      <mo>(</mo>
+                                      <mrow>
+                                        <mfrac>
+                                          <mrow>
+                                            <mn>37.2</mn>
+                                            <mspace width="0.2em"/>
+                                            <mtext>g HCl</mtext>
+                                          </mrow>
+                                          <mrow>
+                                            <mn>100</mn>
+                                            <mspace width="0.2em"/>
+                                            <mtext>g solution</mtext>
+                                          </mrow>
+                                        </mfrac>
+                                      </mrow>
+                                      <mo>)</mo>
+                                      <mspace width="0.2em"/>
+                                    </mrow>
+                                    <mo>=</mo>
+                                    <mspace width="0.2em"/>
+                                    <mn>221</mn>
+                                    <mspace width="0.2em"/>
+                                    <mtext>g HCl</mtext>
+                                  </mrow>
+                                </annotation-xml>
+                              </semantics>
+                            </math>
+                          </div>
+                          <p
+                            id="fs-idm2814416"
+                          >This mass of HCl is consistent with our rough estimate of approximately 200 g.</p>
+                          <p id="fs-idp18799968">
+                            <span data-type="title">Check Your Learning</span>
+                            What volume of concentrated HCl solution contains 125 g of HCl?
+                          </p>
+                          <div data-type="note" id="fs-idm31069568">
+                            <h3 class="os-title" data-type="title">
+                              <span
+                                class="os-title-label"
+                                data-type
+                                id="[redacted for uniqueness]"
+                              >Answer:</span>
+                            </h3>
+                            <div class="os-note-body">
+                              <p id="fs-idm33390192">282 mL</p>
+                            </div>
+                          </div>
+                        </div>
+                      </section>
+
+                      <section data-depth="1" id="fs-idm25064544">
+                        <h3 data-type="title">Volume Percentage</h3>
+                        <p id="fs-idp14105408">
+                          Liquid volumes over a wide range of magnitudes are conveniently measured using common and relatively inexpensive laboratory equipment. The concentration of a solution formed by dissolving a liquid solute in a liquid solvent is therefore often expressed as a
+                          <span
+                            data-type="term"
+                            group-by="v"
+                            id="[redacted for uniqueness]"
+                          >volume percentage</span>, %vol or (v/v)%:
+                        </p>
+                        <div data-type="equation" id="fs-idm2717488">
+                          <math display="block">
+                            <semantics>
+                              <mrow>
+                                <mrow>
+                                  <mtext>volume percentage</mtext>
+                                  <mo>=</mo>
+                                  <mspace width="0.2em"/>
+                                  <mfrac>
+                                    <mrow>
+                                      <mtext>volume solute</mtext>
+                                    </mrow>
+                                    <mrow>
+                                      <mtext>volume solution</mtext>
+                                    </mrow>
+                                  </mfrac>
+                                  <mspace width="0.2em"/>
+                                  <mo>×</mo>
+                                  <mspace width="0.2em"/>
+                                  <mn>100</mn>
+                                  <mi>%</mi>
+                                </mrow>
+                              </mrow>
+                              <annotation-xml encoding="MathML-Content">
+                                <mrow>
+                                  <mtext>volume percentage</mtext>
+                                  <mo>=</mo>
+                                  <mspace width="0.2em"/>
+                                  <mfrac>
+                                    <mrow>
+                                      <mtext>volume solute</mtext>
+                                    </mrow>
+                                    <mrow>
+                                      <mtext>volume solution</mtext>
+                                    </mrow>
+                                  </mfrac>
+                                  <mspace width="0.2em"/>
+                                  <mo>×</mo>
+                                  <mspace width="0.2em"/>
+                                  <mn>100</mn>
+                                  <mi>%</mi>
+                                </mrow>
+                              </annotation-xml>
+                            </semantics>
+                          </math>
+                        </div>
+                        <div data-type="example" id="fs-idm1441136">
+                          <h3 class="os-title">
+                            <span class="os-title-label">Example</span>
+                            <span class="os-number">6.18</span>
+                            <span class="os-divider"></span>
+                          </h3>
+                          <p id="fs-idm5072752">
+                            <span
+                              data-type="title"
+                            >Calculations using Volume Percentage</span>
+                            Rubbing alcohol (isopropanol) is usually sold as a 70%vol aqueous solution. If the density of isopropyl alcohol is 0.785 g/mL, how many grams of isopropyl alcohol are present in a 355 mL bottle of rubbing alcohol?
+                          </p>
+                          <p id="fs-idm38697728">
+                            <span data-type="title">Solution</span>
+                            Per the definition of volume percentage, the isopropanol volume is 70% of the total solution volume. Multiplying the isopropanol volume by its density yields the requested mass:
+                          </p>
+                          <div data-type="equation" id="fs-idm3502064">
+                            <math display="block">
+                              <semantics>
+                                <mrow>
+                                  <mrow>
+                                    <mrow>
+                                      <mo>(</mo>
+                                      <mrow>
+                                        <mn>355</mn>
+                                        <mspace width="0.2em"/>
+                                        <mtext>mL solution</mtext>
+                                      </mrow>
+                                      <mo>)</mo>
+                                    </mrow>
+                                    <mspace width="0.2em"/>
+                                    <mrow>
+                                      <mo>(</mo>
+                                      <mrow>
+                                        <mfrac>
+                                          <mrow>
+                                            <mn>70</mn>
+                                            <mspace width="0.2em"/>
+                                            <mtext>mL isopropyl alcohol</mtext>
+                                          </mrow>
+                                          <mrow>
+                                            <mn>100</mn>
+                                            <mspace width="0.2em"/>
+                                            <mtext>mL solution</mtext>
+                                          </mrow>
+                                        </mfrac>
+                                      </mrow>
+                                      <mo>)</mo>
+                                    </mrow>
+                                    <mspace width="0.2em"/>
+                                    <mrow>
+                                      <mo>(</mo>
+                                      <mrow>
+                                        <mfrac>
+                                          <mrow>
+                                            <mn>0.785</mn>
+                                            <mspace width="0.2em"/>
+                                            <mtext>g isopropyl alcohol</mtext>
+                                          </mrow>
+                                          <mrow>
+                                            <mn>1</mn>
+                                            <mspace width="0.2em"/>
+                                            <mtext>mL isopropyl alcohol</mtext>
+                                          </mrow>
+                                        </mfrac>
+                                      </mrow>
+                                      <mo>)</mo>
+                                      <mspace width="0.2em"/>
+                                    </mrow>
+                                    <mo>=</mo>
+                                    <mspace width="0.2em"/>
+                                    <mn>195</mn>
+                                    <mspace width="0.2em"/>
+                                    <mtext>g isopropyl alchol</mtext>
+                                  </mrow>
+                                </mrow>
+                                <annotation-xml encoding="MathML-Content">
+                                  <mrow>
+                                    <mrow>
+                                      <mo>(</mo>
+                                      <mrow>
+                                        <mn>355</mn>
+                                        <mspace width="0.2em"/>
+                                        <mtext>mL solution</mtext>
+                                      </mrow>
+                                      <mo>)</mo>
+                                    </mrow>
+                                    <mspace width="0.2em"/>
+                                    <mrow>
+                                      <mo>(</mo>
+                                      <mrow>
+                                        <mfrac>
+                                          <mrow>
+                                            <mn>70</mn>
+                                            <mspace width="0.2em"/>
+                                            <mtext>mL isopropyl alcohol</mtext>
+                                          </mrow>
+                                          <mrow>
+                                            <mn>100</mn>
+                                            <mspace width="0.2em"/>
+                                            <mtext>mL solution</mtext>
+                                          </mrow>
+                                        </mfrac>
+                                      </mrow>
+                                      <mo>)</mo>
+                                    </mrow>
+                                    <mspace width="0.2em"/>
+                                    <mrow>
+                                      <mo>(</mo>
+                                      <mrow>
+                                        <mfrac>
+                                          <mrow>
+                                            <mn>0.785</mn>
+                                            <mspace width="0.2em"/>
+                                            <mtext>g isopropyl alcohol</mtext>
+                                          </mrow>
+                                          <mrow>
+                                            <mn>1</mn>
+                                            <mspace width="0.2em"/>
+                                            <mtext>mL isopropyl alcohol</mtext>
+                                          </mrow>
+                                        </mfrac>
+                                      </mrow>
+                                      <mo>)</mo>
+                                      <mspace width="0.2em"/>
+                                    </mrow>
+                                    <mo>=</mo>
+                                    <mspace width="0.2em"/>
+                                    <mn>195</mn>
+                                    <mspace width="0.2em"/>
+                                    <mtext>g isopropyl alchol</mtext>
+                                  </mrow>
+                                </annotation-xml>
+                              </semantics>
+                            </math>
+                          </div>
+                          <p id="fs-idp44207936">
+                            <span data-type="title">Check Your Learning</span>
+                            Wine is approximately 12% ethanol (CH
+                            <sub>3</sub>CH
+                            <sub>2</sub>OH) by volume. Ethanol has a molar mass of 46.06 g/mol and a density 0.789 g/mL. How many moles of ethanol are present in a 750-mL bottle of wine?
+                          </p>
+                          <div data-type="note" id="fs-idp41917088">
+                            <h3 class="os-title" data-type="title">
+                              <span
+                                class="os-title-label"
+                                data-type
+                                id="[redacted for uniqueness]"
+                              >Answer:</span>
+                            </h3>
+                            <div class="os-note-body">
+                              <p id="fs-idm15159936">1.5 mol ethanol</p>
+                            </div>
+                          </div>
+                        </div>
+                      </section>
+
+                      <section data-depth="1" id="fs-idm6093792">
+                        <h3 data-type="title">Mass-Volume Percentage</h3>
+                        <p id="fs-idm16796176">
+                          “Mixed” percentage units, derived from the mass of solute and the volume of solution, are popular for certain biochemical and medical applications. A
+                          <span
+                            data-type="term"
+                            group-by="m"
+                            id="[redacted for uniqueness]"
+                          >mass-volume percent</span> is a ratio of a solute’s mass to the solution’s volume expressed as a percentage. The specific units used for solute mass and solution volume may vary, depending on the solution. For example, physiological saline solution, used to prepare intravenous fluids, has a concentration of 0.9% mass/volume (m/v), indicating that the composition is 0.9 g of solute per 100 mL of solution. The concentration of glucose in blood (commonly referred to as “blood sugar”) is also typically expressed in terms of a mass-volume ratio. Though not expressed explicitly as a percentage, its concentration is usually given in milligrams of glucose per deciliter (100 mL) of blood (
+                          <a
+                            class="autogenerated-content"
+                            href="#CNX_Chem_03_05_saline"
+                          >Figure 6.12</a>).
+                        </p>
+                        <div class="os-figure" id="CNX_Chem_03_05_saline">
+                          <figure data-id="CNX_Chem_03_05_saline">
+                            <span
+                              data-alt="Two pictures are shown labeled a and b. Picture a depicts a clear, colorless solution in a plastic bag being held in a person’s hand. Picture b shows a person’s hand holding a detection meter with a digital readout screen while another hand holds someone’s finger up to the end of the meter. The meter is pressed to the drop of blood that is at the end of the person’s finger."
+                              data-type="media"
+                              id="fs-idp12420736"
+                            >
+                              <img
+                                alt="Two pictures are shown labeled a and b. Picture a depicts a clear, colorless solution in a plastic bag being held in a person’s hand. Picture b shows a person’s hand holding a detection meter with a digital readout screen while another hand holds someone’s finger up to the end of the meter. The meter is pressed to the drop of blood that is at the end of the person’s finger."
+                                data-media-type="image/jpeg"
+                                id="[redacted for uniqueness]"
+                                src="/resources/4379f79d1444552d0754c1ce717385490108ac2a"
+                              >
+                            </span>
+                          </figure>
+                          <div class="os-caption-container">
+                            <span class="os-title-label">Figure</span>
+                            <span class="os-number">6.12</span>
+                            <span class="os-divider"></span>
+                            <span class="os-divider"></span>
+                            <span
+                              class="os-caption"
+                            >“Mixed” mass-volume units are commonly encountered in medical settings. (a) The NaCl concentration of physiological saline is 0.9% (m/v). (b) This device measures glucose levels in a sample of blood. The normal range for glucose concentration in blood (fasting) is around 70–100 mg/dL. (credit a: modification of work by “The National Guard”/Flickr; credit b: modification of work by Biswarup Ganguly)</span>
+                          </div>
+                        </div>
+                      </section>
+
+                      <section data-depth="1" id="fs-idm4329744">
+                        <h3
+                          data-type="title"
+                        >Parts per Million and Parts per Billion</h3>
+                        <p id="fs-idm39037584">
+                          Very low solute concentrations are often expressed using appropriately small units such as
+                          <span
+                            data-type="term"
+                            group-by="p"
+                            id="[redacted for uniqueness]"
+                          >parts per million (ppm)</span> or
+                          <span
+                            data-type="term"
+                            group-by="p"
+                            id="[redacted for uniqueness]"
+                          >parts per billion (ppb)</span>. Like percentage (“part per hundred”) units, ppm and ppb may be defined in terms of masses, volumes, or mixed mass-volume units. There are also ppm and ppb units defined with respect to numbers of atoms and molecules.
+                        </p>
+                        <p
+                          id="fs-idm18786352"
+                        >The mass-based definitions of ppm and ppb are given here:</p>
+                        <div data-type="equation" id="fs-idp17696176">
+                          <math display="block">
+                            <semantics>
+                              <mrow>
+                                <mtable columnalign="left">
+                                  <mtr>
+                                    <mtd/>
+                                  </mtr>
+                                  <mtr>
+                                    <mtd>
+                                      <mtext>ppm</mtext>
+                                      <mo>=</mo>
+                                      <mspace width="0.2em"/>
+                                      <mfrac>
+                                        <mrow>
+                                          <mtext>mass solute</mtext>
+                                        </mrow>
+                                        <mrow>
+                                          <mtext>mass solution</mtext>
+                                        </mrow>
+                                      </mfrac>
+                                      <mspace width="0.2em"/>
+                                      <mo>×</mo>
+                                      <mspace width="0.2em"/>
+                                      <msup>
+                                        <mn>10</mn>
+                                        <mn>6</mn>
+                                      </msup>
+                                      <mspace width="0.2em"/>
+                                      <mtext>ppm</mtext>
+                                    </mtd>
+                                  </mtr>
+                                  <mtr>
+                                    <mtd>
+                                      <mtext>ppb</mtext>
+                                      <mo>=</mo>
+                                      <mspace width="0.2em"/>
+                                      <mfrac>
+                                        <mrow>
+                                          <mtext>mass solute</mtext>
+                                        </mrow>
+                                        <mrow>
+                                          <mtext>mass solution</mtext>
+                                        </mrow>
+                                      </mfrac>
+                                      <mspace width="0.2em"/>
+                                      <mo>×</mo>
+                                      <mspace width="0.2em"/>
+                                      <msup>
+                                        <mn>10</mn>
+                                        <mn>9</mn>
+                                      </msup>
+                                      <mspace width="0.2em"/>
+                                      <mtext>ppb</mtext>
+                                    </mtd>
+                                  </mtr>
+                                </mtable>
+                              </mrow>
+                              <annotation-xml encoding="MathML-Content">
+                                <mtable columnalign="left">
+                                  <mtr>
+                                    <mtd/>
+                                  </mtr>
+                                  <mtr>
+                                    <mtd>
+                                      <mtext>ppm</mtext>
+                                      <mo>=</mo>
+                                      <mspace width="0.2em"/>
+                                      <mfrac>
+                                        <mrow>
+                                          <mtext>mass solute</mtext>
+                                        </mrow>
+                                        <mrow>
+                                          <mtext>mass solution</mtext>
+                                        </mrow>
+                                      </mfrac>
+                                      <mspace width="0.2em"/>
+                                      <mo>×</mo>
+                                      <mspace width="0.2em"/>
+                                      <msup>
+                                        <mn>10</mn>
+                                        <mn>6</mn>
+                                      </msup>
+                                      <mspace width="0.2em"/>
+                                      <mtext>ppm</mtext>
+                                    </mtd>
+                                  </mtr>
+                                  <mtr>
+                                    <mtd>
+                                      <mtext>ppb</mtext>
+                                      <mo>=</mo>
+                                      <mspace width="0.2em"/>
+                                      <mfrac>
+                                        <mrow>
+                                          <mtext>mass solute</mtext>
+                                        </mrow>
+                                        <mrow>
+                                          <mtext>mass solution</mtext>
+                                        </mrow>
+                                      </mfrac>
+                                      <mspace width="0.2em"/>
+                                      <mo>×</mo>
+                                      <mspace width="0.2em"/>
+                                      <msup>
+                                        <mn>10</mn>
+                                        <mn>9</mn>
+                                      </msup>
+                                      <mspace width="0.2em"/>
+                                      <mtext>ppb</mtext>
+                                    </mtd>
+                                  </mtr>
+                                </mtable>
+                              </annotation-xml>
+                            </semantics>
+                          </math>
+                        </div>
+                        <p id="fs-idm37568416">
+                          Both ppm and ppb are convenient units for reporting the concentrations of pollutants and other trace contaminants in water. Concentrations of these contaminants are typically very low in treated and natural waters, and their levels cannot exceed relatively low concentration thresholds without causing adverse effects on health and wildlife. For example, the EPA has identified the maximum safe level of fluoride ion in tap water to be 4 ppm. Inline water filters are designed to reduce the concentration of fluoride and several other trace-level contaminants in tap water (
+                          <a
+                            class="autogenerated-content"
+                            href="#CNX_Chem_03_05_faucet"
+                          >Figure 6.13</a>).
+                        </p>
+                        <div class="os-figure" id="CNX_Chem_03_05_faucet">
+                          <figure data-id="CNX_Chem_03_05_faucet">
+                            <span
+                              data-alt="Two pictures are shown labeled a and b. Picture a is a close-up shot of water coming out of a faucet. Picture b shows a machine with the words, “Filtered Water Dispenser.” This machine appears to be inside a refrigerator."
+                              data-type="media"
+                              id="fs-idm10006048"
+                            >
+                              <img
+                                alt="Two pictures are shown labeled a and b. Picture a is a close-up shot of water coming out of a faucet. Picture b shows a machine with the words, “Filtered Water Dispenser.” This machine appears to be inside a refrigerator."
+                                data-media-type="image/jpeg"
+                                id="[redacted for uniqueness]"
+                                src="/resources/dd02c0dab168431a8e695efdbd00906a7f6ba510"
+                              >
+                            </span>
+                          </figure>
+                          <div class="os-caption-container">
+                            <span class="os-title-label">Figure</span>
+                            <span class="os-number">6.13</span>
+                            <span class="os-divider"></span>
+                            <span class="os-divider"></span>
+                            <span
+                              class="os-caption"
+                            >(a) In some areas, trace-level concentrations of contaminants can render unfiltered tap water unsafe for drinking and cooking. (b) Inline water filters reduce the concentration of solutes in tap water. (credit a: modification of work by Jenn Durfey; credit b: modification of work by “vastateparkstaff”/Wikimedia commons)</span>
+                          </div>
+                        </div>
+                        <div data-type="example" id="fs-idm22950992">
+                          <h3 class="os-title">
+                            <span class="os-title-label">Example</span>
+                            <span class="os-number">6.19</span>
+                            <span class="os-divider"></span>
+                          </h3>
+                          <p id="fs-idm5826976">
+                            <span
+                              data-type="title"
+                            >Calculation of Parts per Million and Parts per Billion Concentrations</span>
+                            According to the EPA, when the concentration of lead in tap water reaches 15 ppb, certain remedial actions must be taken. What is this concentration in ppm? At this concentration, what mass of lead (μg) would be contained in a typical glass of water (300 mL)?
+                          </p>
+                          <p id="fs-idm2696240">
+                            <span data-type="title">Solution</span>
+                            The definitions of the ppm and ppb units may be used to convert the given concentration from ppb to ppm. Comparing these two unit definitions shows that ppm is 1000 times greater than ppb (1 ppm = 10
+                            <sup>3</sup> ppb). Thus:
+                          </p>
+                          <div data-type="equation" id="fs-idm1779776">
+                            <math display="block">
+                              <semantics>
+                                <mrow>
+                                  <mrow>
+                                    <mn>15</mn>
+                                    <mspace width="0.2em"/>
+                                    <mtext>ppb</mtext>
+                                    <mspace width="0.2em"/>
+                                    <mo>×</mo>
+                                    <mspace width="0.2em"/>
+                                    <mfrac>
+                                      <mrow>
+                                        <mn>1</mn>
+                                        <mspace width="0.2em"/>
+                                        <mtext>ppm</mtext>
+                                      </mrow>
+                                      <mrow>
+                                        <msup>
+                                          <mrow>
+                                            <mn>10</mn>
+                                          </mrow>
+                                          <mn>3</mn>
+                                        </msup>
+                                        <mspace width="0.2em"/>
+                                        <mtext>ppb</mtext>
+                                      </mrow>
+                                    </mfrac>
+                                    <mspace width="0.2em"/>
+                                    <mo>=</mo>
+                                    <mn>0.015</mn>
+                                    <mspace width="0.2em"/>
+                                    <mtext>ppm</mtext>
+                                  </mrow>
+                                </mrow>
+                                <annotation-xml encoding="MathML-Content">
+                                  <mrow>
+                                    <mn>15</mn>
+                                    <mspace width="0.2em"/>
+                                    <mtext>ppb</mtext>
+                                    <mspace width="0.2em"/>
+                                    <mo>×</mo>
+                                    <mspace width="0.2em"/>
+                                    <mfrac>
+                                      <mrow>
+                                        <mn>1</mn>
+                                        <mspace width="0.2em"/>
+                                        <mtext>ppm</mtext>
+                                      </mrow>
+                                      <mrow>
+                                        <msup>
+                                          <mrow>
+                                            <mn>10</mn>
+                                          </mrow>
+                                          <mn>3</mn>
+                                        </msup>
+                                        <mspace width="0.2em"/>
+                                        <mtext>ppb</mtext>
+                                      </mrow>
+                                    </mfrac>
+                                    <mspace width="0.2em"/>
+                                    <mo>=</mo>
+                                    <mn>0.015</mn>
+                                    <mspace width="0.2em"/>
+                                    <mtext>ppm</mtext>
+                                  </mrow>
+                                </annotation-xml>
+                              </semantics>
+                            </math>
+                          </div>
+                          <p
+                            id="fs-idm35694560"
+                          >The definition of the ppb unit may be used to calculate the requested mass if the mass of the solution is provided. Since the volume of solution (300 mL) is given, its density must be used to derive the corresponding mass. Assume the density of tap water to be roughly the same as that of pure water (~1.00 g/mL), since the concentrations of any dissolved substances should not be very large. Rearranging the equation defining the ppb unit and substituting the given quantities yields:</p>
+                          <div data-type="equation" id="fs-idm5250896">
+                            <math display="block">
+                              <semantics>
+                                <mrow>
+                                  <mtable>
+                                    <mtr>
+                                      <mtd/>
+                                    </mtr>
+                                    <mtr>
+                                      <mtd>
+                                        <mtext>ppb</mtext>
+                                        <mo>=</mo>
+                                        <mspace width="0.2em"/>
+                                        <mfrac>
+                                          <mrow>
+                                            <mtext>mass solute</mtext>
+                                          </mrow>
+                                          <mrow>
+                                            <mtext>mass solution</mtext>
+                                          </mrow>
+                                        </mfrac>
+                                        <mspace width="0.2em"/>
+                                        <mo>×</mo>
+                                        <mspace width="0.2em"/>
+                                        <msup>
+                                          <mn>10</mn>
+                                          <mn>9</mn>
+                                        </msup>
+                                        <mspace width="0.2em"/>
+                                        <mtext>ppb</mtext>
+                                      </mtd>
+                                    </mtr>
+                                    <mtr>
+                                      <mtd/>
+                                    </mtr>
+                                    <mtr>
+                                      <mtd>
+                                        <mtext>mass solute</mtext>
+                                        <mo>=</mo>
+                                        <mspace width="0.2em"/>
+                                        <mfrac>
+                                          <mrow>
+                                            <mtext>ppb</mtext>
+                                            <mspace width="0.2em"/>
+                                            <mo>×</mo>
+                                            <mspace width="0.2em"/>
+                                            <mtext>mass solution</mtext>
+                                          </mrow>
+                                          <mrow>
+                                            <msup>
+                                              <mrow>
+                                                <mn>10</mn>
+                                              </mrow>
+                                              <mn>9</mn>
+                                            </msup>
+                                            <mspace width="0.2em"/>
+                                            <mtext>ppb</mtext>
+                                          </mrow>
+                                        </mfrac>
+                                        <mspace width="0.2em"/>
+                                      </mtd>
+                                    </mtr>
+                                    <mtr>
+                                      <mtd/>
+                                    </mtr>
+                                    <mtr>
+                                      <mtd>
+                                        <mtext>mass solute</mtext>
+                                        <mo>=</mo>
+                                        <mspace width="0.2em"/>
+                                        <mfrac>
+                                          <mrow>
+                                            <mn>15</mn>
+                                            <mspace width="0.2em"/>
+                                            <mtext>ppb</mtext>
+                                            <mspace width="0.2em"/>
+                                            <mo>×</mo>
+                                            <mspace width="0.2em"/>
+                                            <mn>300</mn>
+                                            <mspace width="0.2em"/>
+                                            <mtext>mL</mtext>
+                                            <mspace width="0.2em"/>
+                                            <mo>×</mo>
+                                            <mspace width="0.2em"/>
+                                            <mfrac>
+                                              <mrow>
+                                                <mn>1.00</mn>
+                                                <mspace width="0.2em"/>
+                                                <mtext>g</mtext>
+                                              </mrow>
+                                              <mrow>
+                                                <mtext>mL</mtext>
+                                              </mrow>
+                                            </mfrac>
+                                            <mspace width="0.2em"/>
+                                          </mrow>
+                                          <mrow>
+                                            <msup>
+                                              <mrow>
+                                                <mn>10</mn>
+                                              </mrow>
+                                              <mn>9</mn>
+                                            </msup>
+                                            <mspace width="0.2em"/>
+                                            <mtext>ppb</mtext>
+                                          </mrow>
+                                        </mfrac>
+                                        <mspace width="0.2em"/>
+                                        <mo>=</mo>
+                                        <mn>4.5</mn>
+                                        <mspace width="0.2em"/>
+                                        <mo>×</mo>
+                                        <mspace width="0.2em"/>
+                                        <msup>
+                                          <mn>10</mn>
+                                          <mrow>
+                                            <mn>−6</mn>
+                                          </mrow>
+                                        </msup>
+                                        <mspace width="0.2em"/>
+                                        <mtext>g</mtext>
+                                      </mtd>
+                                    </mtr>
+                                  </mtable>
+                                </mrow>
+                                <annotation-xml encoding="MathML-Content">
+                                  <mtable>
+                                    <mtr>
+                                      <mtd/>
+                                    </mtr>
+                                    <mtr>
+                                      <mtd>
+                                        <mtext>ppb</mtext>
+                                        <mo>=</mo>
+                                        <mspace width="0.2em"/>
+                                        <mfrac>
+                                          <mrow>
+                                            <mtext>mass solute</mtext>
+                                          </mrow>
+                                          <mrow>
+                                            <mtext>mass solution</mtext>
+                                          </mrow>
+                                        </mfrac>
+                                        <mspace width="0.2em"/>
+                                        <mo>×</mo>
+                                        <mspace width="0.2em"/>
+                                        <msup>
+                                          <mn>10</mn>
+                                          <mn>9</mn>
+                                        </msup>
+                                        <mspace width="0.2em"/>
+                                        <mtext>ppb</mtext>
+                                      </mtd>
+                                    </mtr>
+                                    <mtr>
+                                      <mtd/>
+                                    </mtr>
+                                    <mtr>
+                                      <mtd>
+                                        <mtext>mass solute</mtext>
+                                        <mo>=</mo>
+                                        <mspace width="0.2em"/>
+                                        <mfrac>
+                                          <mrow>
+                                            <mtext>ppb</mtext>
+                                            <mspace width="0.2em"/>
+                                            <mo>×</mo>
+                                            <mspace width="0.2em"/>
+                                            <mtext>mass solution</mtext>
+                                          </mrow>
+                                          <mrow>
+                                            <msup>
+                                              <mrow>
+                                                <mn>10</mn>
+                                              </mrow>
+                                              <mn>9</mn>
+                                            </msup>
+                                            <mspace width="0.2em"/>
+                                            <mtext>ppb</mtext>
+                                          </mrow>
+                                        </mfrac>
+                                        <mspace width="0.2em"/>
+                                      </mtd>
+                                    </mtr>
+                                    <mtr>
+                                      <mtd/>
+                                    </mtr>
+                                    <mtr>
+                                      <mtd>
+                                        <mtext>mass solute</mtext>
+                                        <mo>=</mo>
+                                        <mspace width="0.2em"/>
+                                        <mfrac>
+                                          <mrow>
+                                            <mn>15</mn>
+                                            <mspace width="0.2em"/>
+                                            <mtext>ppb</mtext>
+                                            <mspace width="0.2em"/>
+                                            <mo>×</mo>
+                                            <mspace width="0.2em"/>
+                                            <mn>300</mn>
+                                            <mspace width="0.2em"/>
+                                            <mtext>mL</mtext>
+                                            <mspace width="0.2em"/>
+                                            <mo>×</mo>
+                                            <mspace width="0.2em"/>
+                                            <mfrac>
+                                              <mrow>
+                                                <mn>1.00</mn>
+                                                <mspace width="0.2em"/>
+                                                <mtext>g</mtext>
+                                              </mrow>
+                                              <mrow>
+                                                <mtext>mL</mtext>
+                                              </mrow>
+                                            </mfrac>
+                                            <mspace width="0.2em"/>
+                                          </mrow>
+                                          <mrow>
+                                            <msup>
+                                              <mrow>
+                                                <mn>10</mn>
+                                              </mrow>
+                                              <mn>9</mn>
+                                            </msup>
+                                            <mspace width="0.2em"/>
+                                            <mtext>ppb</mtext>
+                                          </mrow>
+                                        </mfrac>
+                                        <mspace width="0.2em"/>
+                                        <mo>=</mo>
+                                        <mn>4.5</mn>
+                                        <mspace width="0.2em"/>
+                                        <mo>×</mo>
+                                        <mspace width="0.2em"/>
+                                        <msup>
+                                          <mn>10</mn>
+                                          <mrow>
+                                            <mn>−6</mn>
+                                          </mrow>
+                                        </msup>
+                                        <mspace width="0.2em"/>
+                                        <mtext>g</mtext>
+                                      </mtd>
+                                    </mtr>
+                                  </mtable>
+                                </annotation-xml>
+                              </semantics>
+                            </math>
+                          </div>
+                          <p
+                            id="fs-idp31649040"
+                          >Finally, convert this mass to the requested unit of micrograms:</p>
+                          <div data-type="equation" id="fs-idm4570368">
+                            <math display="block">
+                              <semantics>
+                                <mrow>
+                                  <mrow>
+                                    <mn>4.5</mn>
+                                    <mspace width="0.2em"/>
+                                    <mo>×</mo>
+                                    <mspace width="0.2em"/>
+                                    <msup>
+                                      <mrow>
+                                        <mn>10</mn>
+                                      </mrow>
+                                      <mrow>
+                                        <mn>−6</mn>
+                                      </mrow>
+                                    </msup>
+                                    <mspace width="0.2em"/>
+                                    <mtext>g</mtext>
+                                    <mspace width="0.2em"/>
+                                    <mo>×</mo>
+                                    <mspace width="0.2em"/>
+                                    <mfrac>
+                                      <mrow>
+                                        <mn>1</mn>
+                                        <mspace width="0.2em"/>
+                                        <mtext>μg</mtext>
+                                      </mrow>
+                                      <mrow>
+                                        <msup>
+                                          <mrow>
+                                            <mn>10</mn>
+                                          </mrow>
+                                          <mrow>
+                                            <mn>−6</mn>
+                                          </mrow>
+                                        </msup>
+                                        <mspace width="0.2em"/>
+                                        <mtext>g</mtext>
+                                      </mrow>
+                                    </mfrac>
+                                    <mspace width="0.2em"/>
+                                    <mo>=</mo>
+                                    <mn>4.5</mn>
+                                    <mspace width="0.2em"/>
+                                    <mtext>μg</mtext>
+                                  </mrow>
+                                </mrow>
+                                <annotation-xml encoding="MathML-Content">
+                                  <mrow>
+                                    <mn>4.5</mn>
+                                    <mspace width="0.2em"/>
+                                    <mo>×</mo>
+                                    <mspace width="0.2em"/>
+                                    <msup>
+                                      <mrow>
+                                        <mn>10</mn>
+                                      </mrow>
+                                      <mrow>
+                                        <mn>−6</mn>
+                                      </mrow>
+                                    </msup>
+                                    <mspace width="0.2em"/>
+                                    <mtext>g</mtext>
+                                    <mspace width="0.2em"/>
+                                    <mo>×</mo>
+                                    <mspace width="0.2em"/>
+                                    <mfrac>
+                                      <mrow>
+                                        <mn>1</mn>
+                                        <mspace width="0.2em"/>
+                                        <mtext>μg</mtext>
+                                      </mrow>
+                                      <mrow>
+                                        <msup>
+                                          <mrow>
+                                            <mn>10</mn>
+                                          </mrow>
+                                          <mrow>
+                                            <mn>−6</mn>
+                                          </mrow>
+                                        </msup>
+                                        <mspace width="0.2em"/>
+                                        <mtext>g</mtext>
+                                      </mrow>
+                                    </mfrac>
+                                    <mspace width="0.2em"/>
+                                    <mo>=</mo>
+                                    <mn>4.5</mn>
+                                    <mspace width="0.2em"/>
+                                    <mtext>μg</mtext>
+                                  </mrow>
+                                </annotation-xml>
+                              </semantics>
+                            </math>
+                          </div>
+                          <p id="fs-idp21345280">
+                            <span data-type="title">Check Your Learning</span>
+                            A 50.0-g sample of industrial wastewater was determined to contain 0.48 mg of mercury. Express the mercury concentration of the wastewater in ppm and ppb units.
+                          </p>
+                          <div data-type="note" id="fs-idm45688384">
+                            <h3 class="os-title" data-type="title">
+                              <span
+                                class="os-title-label"
+                                data-type
+                                id="[redacted for uniqueness]"
+                              >Answer:</span>
+                            </h3>
+                            <div class="os-note-body">
+                              <p id="fs-idm2529904">9.6 ppm, 9600 ppb</p>
+                            </div>
+                          </div>
+                        </div>
+                      </section>
+                    </div>
+                  </div>
+                  

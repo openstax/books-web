@@ -1,0 +1,2877 @@
+
+                    <div
+                      data-cnxml-to-html-ver="[redacted for uniqueness]"
+                      data-type="page"
+                      id="9de27337-c22d-40d7-a59e-270d1a6c7b00"
+                    >
+                      <div data-type="abstract" id="[redacted for uniqueness]">
+                        By the end of this section, you will be able to:
+                        <ul>
+                          <li>Explain the dimensional analysis (factor label) approach to mathematical calculations involving quantities</li>
+                          <li>Use dimensional analysis to carry out unit conversions for a given property and computations involving two or more properties</li>
+                        </ul>
+                      </div>
+
+                      <p id="fs-idm319461744">
+                        It is often the case that a quantity of interest may not be easy (or even possible) to measure directly but instead must be calculated from other directly measured properties and appropriate mathematical relationships. For example, consider measuring the average speed of an athlete running sprints. This is typically accomplished by measuring the
+                        <em data-effect="italics">time</em> required for the athlete to run from the starting line to the finish line, and the
+                        <em data-effect="italics">distance</em> between these two lines, and then computing
+                        <em data-effect="italics">speed</em> from the equation that relates these three properties:
+                      </p>
+
+                      <div data-type="equation" id="fs-idm290867056">
+                        <math display="block">
+                          <semantics>
+                            <mrow>
+                              <mrow>
+                                <mtext>speed</mtext>
+                                <mo>=</mo>
+                                <mspace width="0.2em"/>
+                                <mfrac>
+                                  <mrow>
+                                    <mtext>distance</mtext>
+                                  </mrow>
+                                  <mrow>
+                                    <mtext>time</mtext>
+                                  </mrow>
+                                </mfrac>
+                              </mrow>
+                            </mrow>
+                            <annotation-xml encoding="MathML-Content">
+                              <mrow>
+                                <mtext>speed</mtext>
+                                <mo>=</mo>
+                                <mspace width="0.2em"/>
+                                <mfrac>
+                                  <mrow>
+                                    <mtext>distance</mtext>
+                                  </mrow>
+                                  <mrow>
+                                    <mtext>time</mtext>
+                                  </mrow>
+                                </mfrac>
+                              </mrow>
+                            </annotation-xml>
+                          </semantics>
+                        </math>
+                      </div>
+
+                      <p
+                        id="fs-idm350487392"
+                      >An Olympic-quality sprinter can run 100 m in approximately 10 s, corresponding to an average speed of</p>
+
+                      <div data-type="equation" id="fs-idm257675424">
+                        <math display="block">
+                          <semantics>
+                            <mrow>
+                              <mrow>
+                                <mfrac>
+                                  <mrow>
+                                    <mtext>100 m</mtext>
+                                  </mrow>
+                                  <mrow>
+                                    <mtext>10 s</mtext>
+                                  </mrow>
+                                </mfrac>
+                                <mspace width="0.2em"/>
+                                <mo>=</mo>
+                                <mtext>10 m/s</mtext>
+                              </mrow>
+                            </mrow>
+                            <annotation-xml encoding="MathML-Content">
+                              <mrow>
+                                <mfrac>
+                                  <mrow>
+                                    <mtext>100 m</mtext>
+                                  </mrow>
+                                  <mrow>
+                                    <mtext>10 s</mtext>
+                                  </mrow>
+                                </mfrac>
+                                <mspace width="0.2em"/>
+                                <mo>=</mo>
+                                <mtext>10 m/s</mtext>
+                              </mrow>
+                            </annotation-xml>
+                          </semantics>
+                        </math>
+                      </div>
+
+                      <p id="fs-idm308822992">
+                        Note that this simple arithmetic involves dividing the numbers of each measured quantity to yield the number of the computed quantity (100/10 = 10)
+                        <em data-effect="italics">and likewise</em> dividing the units of each measured quantity to yield the unit of the computed quantity (m/s = m/s). Now, consider using this same relation to predict the time required for a person running at this speed to travel a distance of 25 m. The same relation among the three properties is used, but in this case, the two quantities provided are a speed (10 m/s) and a distance (25 m). To yield the sought property, time, the equation must be rearranged appropriately:
+                      </p>
+
+                      <div data-type="equation" id="fs-idm219214640">
+                        <math display="block">
+                          <semantics>
+                            <mrow>
+                              <mrow>
+                                <mtext>time</mtext>
+                                <mo>=</mo>
+                                <mspace width="0.2em"/>
+                                <mfrac>
+                                  <mrow>
+                                    <mtext>distance</mtext>
+                                  </mrow>
+                                  <mrow>
+                                    <mtext>speed</mtext>
+                                  </mrow>
+                                </mfrac>
+                              </mrow>
+                            </mrow>
+                            <annotation-xml encoding="MathML-Content">
+                              <mrow>
+                                <mtext>time</mtext>
+                                <mo>=</mo>
+                                <mspace width="0.2em"/>
+                                <mfrac>
+                                  <mrow>
+                                    <mtext>distance</mtext>
+                                  </mrow>
+                                  <mrow>
+                                    <mtext>speed</mtext>
+                                  </mrow>
+                                </mfrac>
+                              </mrow>
+                            </annotation-xml>
+                          </semantics>
+                        </math>
+                      </div>
+
+                      <p id="fs-idm24572080">The time can then be computed as:</p>
+
+                      <div data-type="equation" id="fs-idp106016944">
+                        <math display="block">
+                          <semantics>
+                            <mrow>
+                              <mrow>
+                                <mfrac>
+                                  <mrow>
+                                    <mtext>25 m</mtext>
+                                  </mrow>
+                                  <mrow>
+                                    <mtext>10 m/s</mtext>
+                                  </mrow>
+                                </mfrac>
+                                <mspace width="0.2em"/>
+                                <mo>=</mo>
+                                <mtext>2.5 s</mtext>
+                              </mrow>
+                            </mrow>
+                            <annotation-xml encoding="MathML-Content">
+                              <mrow>
+                                <mfrac>
+                                  <mrow>
+                                    <mtext>25 m</mtext>
+                                  </mrow>
+                                  <mrow>
+                                    <mtext>10 m/s</mtext>
+                                  </mrow>
+                                </mfrac>
+                                <mspace width="0.2em"/>
+                                <mo>=</mo>
+                                <mtext>2.5 s</mtext>
+                              </mrow>
+                            </annotation-xml>
+                          </semantics>
+                        </math>
+                      </div>
+
+                      <p
+                        id="fs-idm316688784"
+                      >Again, arithmetic on the numbers (25/10 = 2.5) was accompanied by the same arithmetic on the units (m/m/s = s) to yield the number and unit of the result, 2.5 s. Note that, just as for numbers, when a unit is divided by an identical unit (in this case, m/m), the result is “1”—or, as commonly phrased, the units “cancel.”</p>
+
+                      <p id="fs-idp44099792">
+                        These calculations are examples of a versatile mathematical approach known as
+                        <span
+                          data-type="term"
+                          group-by="d"
+                          id="[redacted for uniqueness]"
+                        >dimensional analysis</span> (or the
+                        <span
+                          data-type="term"
+                          group-by="f"
+                          id="[redacted for uniqueness]"
+                        >factor-label method</span>). Dimensional analysis is based on this premise:
+                        <em
+                          data-effect="italics"
+                        >the units of quantities must be subjected to the same mathematical operations as their associated numbers</em>. This method can be applied to computations ranging from simple unit conversions to more complex, multi-step calculations involving several different quantities.
+                      </p>
+
+                      <section data-depth="1" id="fs-idm285086480">
+                        <h3
+                          data-type="title"
+                        >Conversion Factors and Dimensional Analysis</h3>
+                        <p id="fs-idm273312256">
+                          A ratio of two equivalent quantities expressed with different measurement units can be used as a
+                          <span
+                            data-type="term"
+                            group-by="u"
+                            id="[redacted for uniqueness]"
+                          >unit conversion factor</span>. For example, the lengths of 2.54 cm and 1 in. are equivalent (by definition), and so a unit conversion factor may be derived from the ratio,
+                        </p>
+                        <div data-type="equation" id="fs-idm256748160">
+                          <math display="block">
+                            <semantics>
+                              <mrow>
+                                <mrow>
+                                  <mfrac>
+                                    <mrow>
+                                      <mtext>2.54 cm</mtext>
+                                    </mrow>
+                                    <mrow>
+                                      <mtext>1 in.</mtext>
+                                    </mrow>
+                                  </mfrac>
+                                  <mspace width="0.2em"/>
+                                  <mtext>(2.54 cm</mtext>
+                                  <mo>=</mo>
+                                  <mtext>1 in.) or 2.54</mtext>
+                                  <mspace width="0.2em"/>
+                                  <mfrac>
+                                    <mrow>
+                                      <mtext>cm</mtext>
+                                    </mrow>
+                                    <mrow>
+                                      <mtext>in.</mtext>
+                                    </mrow>
+                                  </mfrac>
+                                </mrow>
+                              </mrow>
+                              <annotation-xml encoding="MathML-Content">
+                                <mrow>
+                                  <mfrac>
+                                    <mrow>
+                                      <mtext>2.54 cm</mtext>
+                                    </mrow>
+                                    <mrow>
+                                      <mtext>1 in.</mtext>
+                                    </mrow>
+                                  </mfrac>
+                                  <mspace width="0.2em"/>
+                                  <mtext>(2.54 cm</mtext>
+                                  <mo>=</mo>
+                                  <mtext>1 in.) or 2.54</mtext>
+                                  <mspace width="0.2em"/>
+                                  <mfrac>
+                                    <mrow>
+                                      <mtext>cm</mtext>
+                                    </mrow>
+                                    <mrow>
+                                      <mtext>in.</mtext>
+                                    </mrow>
+                                  </mfrac>
+                                </mrow>
+                              </annotation-xml>
+                            </semantics>
+                          </math>
+                        </div>
+                        <p id="fs-idm205801120">
+                          Several other commonly used conversion factors are given in
+                          <a
+                            class="autogenerated-content"
+                            href="#fs-idm222237232"
+                          >Table 1.6</a>.
+                        </p>
+                        <div class="os-table" id="fs-idm222237232">
+                          <table
+                            class="top-titled"
+                            data-id="fs-idm222237232"
+                            summary="Table 1.6  "
+                          >
+                            <thead>
+                              <tr>
+                                <th
+                                  colspan="3"
+                                  data-align="center"
+                                >Common Conversion Factors</th>
+                              </tr>
+                              <tr valign="top">
+                                <th data-align="left">Length</th>
+                                <th data-align="left">Volume</th>
+                                <th data-align="left">Mass</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr valign="top">
+                                <td data-align="left">1 m = 1.0936 yd</td>
+                                <td data-align="left">1 L = 1.0567 qt</td>
+                                <td data-align="left">1 kg = 2.2046 lb</td>
+                              </tr>
+                              <tr valign="top">
+                                <td data-align="left">1 in. = 2.54 cm (exact)</td>
+                                <td data-align="left">1 qt = 0.94635 L</td>
+                                <td data-align="left">1 lb = 453.59 g</td>
+                              </tr>
+                              <tr valign="top">
+                                <td data-align="left">1 km = 0.62137 mi</td>
+                                <td data-align="left">
+                                  1 ft
+                                  <sup>3</sup> = 28.317 L
+                                </td>
+                                <td
+                                  data-align="left"
+                                >1 (avoirdupois) oz = 28.349 g</td>
+                              </tr>
+                              <tr valign="top">
+                                <td data-align="left">1 mi = 1609.3 m</td>
+                                <td data-align="left">1 tbsp = 14.787 mL</td>
+                                <td data-align="left">1 (troy) oz = 31.103 g</td>
+                              </tr>
+                            </tbody>
+                          </table>
+                          <div class="os-caption-container">
+                            <span class="os-title-label">Table</span>
+                            <span class="os-number">1.6</span>
+                            <span class="os-divider"></span>
+                            <span class="os-divider"></span>
+                          </div>
+                        </div>
+                        <p
+                          id="fs-idm221472400"
+                        >When a quantity (such as distance in inches) is multiplied by an appropriate unit conversion factor, the quantity is converted to an equivalent value with different units (such as distance in centimeters). For example, a basketball player’s vertical jump of 34 inches can be converted to centimeters by:</p>
+                        <div data-type="equation" id="fs-idm153590912">
+                          <math display="block">
+                            <semantics>
+                              <mrow>
+                                <mrow>
+                                  <mn>34</mn>
+                                  <mspace width="0.2em"/>
+                                  <menclose notation="horizontalstrike">
+                                    <mrow>
+                                      <mtext>in.</mtext>
+                                    </mrow>
+                                  </menclose>
+                                  <mspace width="0.2em"/>
+                                  <mo>×</mo>
+                                  <mspace width="0.2em"/>
+                                  <mfrac>
+                                    <mrow>
+                                      <mtext>2.54 cm</mtext>
+                                    </mrow>
+                                    <mrow>
+                                      <mn>1</mn>
+                                      <mspace width="0.2em"/>
+                                      <menclose notation="horizontalstrike">
+                                        <mrow>
+                                          <mtext>in.</mtext>
+                                        </mrow>
+                                      </menclose>
+                                    </mrow>
+                                  </mfrac>
+                                  <mspace width="0.2em"/>
+                                  <mo>=</mo>
+                                  <mtext>86 cm</mtext>
+                                </mrow>
+                              </mrow>
+                              <annotation-xml encoding="MathML-Content">
+                                <mrow>
+                                  <mn>34</mn>
+                                  <mspace width="0.2em"/>
+                                  <menclose notation="horizontalstrike">
+                                    <mrow>
+                                      <mtext>in.</mtext>
+                                    </mrow>
+                                  </menclose>
+                                  <mspace width="0.2em"/>
+                                  <mo>×</mo>
+                                  <mspace width="0.2em"/>
+                                  <mfrac>
+                                    <mrow>
+                                      <mtext>2.54 cm</mtext>
+                                    </mrow>
+                                    <mrow>
+                                      <mn>1</mn>
+                                      <mspace width="0.2em"/>
+                                      <menclose notation="horizontalstrike">
+                                        <mrow>
+                                          <mtext>in.</mtext>
+                                        </mrow>
+                                      </menclose>
+                                    </mrow>
+                                  </mfrac>
+                                  <mspace width="0.2em"/>
+                                  <mo>=</mo>
+                                  <mtext>86 cm</mtext>
+                                </mrow>
+                              </annotation-xml>
+                            </semantics>
+                          </math>
+                        </div>
+                        <p id="fs-idm291646272">
+                          Since this simple arithmetic involves
+                          <em data-effect="italics">quantities</em>, the premise of dimensional analysis requires that we multiply both
+                          <em data-effect="italics">numbers and units</em>. The numbers of these two quantities are multiplied to yield the number of the product quantity, 86, whereas the units are multiplied to yield
+                          <math display="inline">
+                            <semantics>
+                              <mrow>
+                                <mrow>
+                                  <mfrac>
+                                    <mrow>
+                                      <mtext>in.</mtext>
+                                      <mspace width="0.2em"/>
+                                      <mo>×</mo>
+                                      <mspace width="0.2em"/>
+                                      <mtext>cm</mtext>
+                                    </mrow>
+                                    <mrow>
+                                      <mtext>in.</mtext>
+                                    </mrow>
+                                  </mfrac>
+                                </mrow>
+                              </mrow>
+                              <annotation-xml encoding="MathML-Content">
+                                <mrow>
+                                  <mfrac>
+                                    <mrow>
+                                      <mtext>in.</mtext>
+                                      <mspace width="0.2em"/>
+                                      <mo>×</mo>
+                                      <mspace width="0.2em"/>
+                                      <mtext>cm</mtext>
+                                    </mrow>
+                                    <mrow>
+                                      <mtext>in.</mtext>
+                                    </mrow>
+                                  </mfrac>
+                                </mrow>
+                              </annotation-xml>
+                            </semantics>
+                          </math>. Just as for numbers, a ratio of identical units is also numerically equal to one,
+                          <math display="inline">
+                            <semantics>
+                              <mrow>
+                                <mrow>
+                                  <mfrac>
+                                    <mrow>
+                                      <mtext>in.</mtext>
+                                    </mrow>
+                                    <mrow>
+                                      <mtext>in.</mtext>
+                                    </mrow>
+                                  </mfrac>
+                                  <mspace width="0.2em"/>
+                                  <mo>=</mo>
+                                  <mtext>1,</mtext>
+                                </mrow>
+                              </mrow>
+                              <annotation-xml encoding="MathML-Content">
+                                <mrow>
+                                  <mfrac>
+                                    <mrow>
+                                      <mtext>in.</mtext>
+                                    </mrow>
+                                    <mrow>
+                                      <mtext>in.</mtext>
+                                    </mrow>
+                                  </mfrac>
+                                  <mspace width="0.2em"/>
+                                  <mo>=</mo>
+                                  <mtext>1,</mtext>
+                                </mrow>
+                              </annotation-xml>
+                            </semantics>
+                          </math> and the unit product thus simplifies to
+                          <em data-effect="italics">cm</em>. (When identical units divide to yield a factor of 1, they are said to “cancel.”) Dimensional analysis may be used to confirm the proper application of unit conversion factors as demonstrated in the following example.
+                        </p>
+                        <div data-type="example" id="fs-idm150235328">
+                          <h3 class="os-title">
+                            <span class="os-title-label">Example</span>
+                            <span class="os-number">1.8</span>
+                            <span class="os-divider"></span>
+                          </h3>
+                          <p id="fs-idp22709840">
+                            <span
+                              data-type="title"
+                            >Using a Unit Conversion Factor</span>
+                            The mass of a competition frisbee is 125 g. Convert its mass to ounces using the unit conversion factor derived from the relationship 1 oz = 28.349 g (
+                            <a
+                              class="autogenerated-content"
+                              href="#fs-idm222237232"
+                            >Table 1.6</a>).
+                          </p>
+                          <p id="fs-idm290807904">
+                            <span data-type="title">Solution</span>
+                            Given the conversion factor, the mass in ounces may be derived using an equation similar to the one used for converting length from inches to centimeters.
+                          </p>
+                          <div data-type="equation" id="fs-idm138056288">
+                            <math display="block">
+                              <semantics>
+                                <mrow>
+                                  <mrow>
+                                    <mi>x</mi>
+                                    <mspace width="0.2em"/>
+                                    <mtext>oz</mtext>
+                                    <mo>=</mo>
+                                    <mtext>125 g</mtext>
+                                    <mspace width="0.2em"/>
+                                    <mo>×</mo>
+                                    <mspace width="0.2em"/>
+                                    <mtext>unit conversion factor</mtext>
+                                  </mrow>
+                                </mrow>
+                                <annotation-xml encoding="MathML-Content">
+                                  <mrow>
+                                    <mi>x</mi>
+                                    <mspace width="0.2em"/>
+                                    <mtext>oz</mtext>
+                                    <mo>=</mo>
+                                    <mtext>125 g</mtext>
+                                    <mspace width="0.2em"/>
+                                    <mo>×</mo>
+                                    <mspace width="0.2em"/>
+                                    <mtext>unit conversion factor</mtext>
+                                  </mrow>
+                                </annotation-xml>
+                              </semantics>
+                            </math>
+                          </div>
+                          <p
+                            id="fs-idm300877280"
+                          >The unit conversion factor may be represented as:</p>
+                          <div data-type="equation" id="fs-idm233281680">
+                            <math display="block">
+                              <semantics>
+                                <mrow>
+                                  <mrow>
+                                    <mfrac>
+                                      <mrow>
+                                        <mtext>1 oz</mtext>
+                                      </mrow>
+                                      <mrow>
+                                        <mtext>28.349 g</mtext>
+                                      </mrow>
+                                    </mfrac>
+                                    <mspace width="0.2em"/>
+                                    <mtext>and</mtext>
+                                    <mspace width="0.2em"/>
+                                    <mfrac>
+                                      <mrow>
+                                        <mtext>28.349 g</mtext>
+                                      </mrow>
+                                      <mrow>
+                                        <mtext>1 oz</mtext>
+                                      </mrow>
+                                    </mfrac>
+                                  </mrow>
+                                </mrow>
+                                <annotation-xml encoding="MathML-Content">
+                                  <mrow>
+                                    <mfrac>
+                                      <mrow>
+                                        <mtext>1 oz</mtext>
+                                      </mrow>
+                                      <mrow>
+                                        <mtext>28.349 g</mtext>
+                                      </mrow>
+                                    </mfrac>
+                                    <mspace width="0.2em"/>
+                                    <mtext>and</mtext>
+                                    <mspace width="0.2em"/>
+                                    <mfrac>
+                                      <mrow>
+                                        <mtext>28.349 g</mtext>
+                                      </mrow>
+                                      <mrow>
+                                        <mtext>1 oz</mtext>
+                                      </mrow>
+                                    </mfrac>
+                                  </mrow>
+                                </annotation-xml>
+                              </semantics>
+                            </math>
+                          </div>
+                          <p
+                            id="fs-idm369973600"
+                          >The correct unit conversion factor is the ratio that cancels the units of grams and leaves ounces.</p>
+                          <div data-type="equation" id="fs-idm222314304">
+                            <math display="block">
+                              <semantics>
+                                <mrow>
+                                  <mtable>
+                                    <mtr>
+                                      <mtd columnalign="left">
+                                        <mrow>
+                                          <mi>x</mi>
+                                          <mspace width="0.2em"/>
+                                          <mtext>oz</mtext>
+                                        </mrow>
+                                      </mtd>
+                                      <mtd>
+                                        <mo>=</mo>
+                                      </mtd>
+                                      <mtd columnalign="left">
+                                        <mn>125</mn>
+                                        <mspace width="0.2em"/>
+                                        <menclose notation="horizontalstrike">
+                                          <mtext>g</mtext>
+                                        </menclose>
+                                        <mspace width="0.2em"/>
+                                        <mo>×</mo>
+                                        <mspace width="0.2em"/>
+                                        <mfrac>
+                                          <mrow>
+                                            <mtext>1 oz</mtext>
+                                          </mrow>
+                                          <mrow>
+                                            <mtext>28.349</mtext>
+                                            <mspace width="0.2em"/>
+                                            <menclose
+                                              notation="horizontalstrike"
+                                            >
+                                              <mtext>g</mtext>
+                                            </menclose>
+                                          </mrow>
+                                        </mfrac>
+                                      </mtd>
+                                    </mtr>
+                                    <mtr>
+                                      <mtd columnalign="left"/>
+                                      <mtd columnalign="left">
+                                        <mrow>
+                                          <mo>=</mo>
+                                        </mrow>
+                                      </mtd>
+                                      <mtd columnalign="left">
+                                        <mo>(</mo>
+                                        <mfrac>
+                                          <mrow>
+                                            <mn>125</mn>
+                                          </mrow>
+                                          <mrow>
+                                            <mtext>28.349</mtext>
+                                          </mrow>
+                                        </mfrac>
+                                        <mo>)</mo>
+                                        <mspace width="0.2em"/>
+                                        <mtext>oz</mtext>
+                                      </mtd>
+                                    </mtr>
+                                    <mtr>
+                                      <mtd columnalign="left"/>
+                                      <mtd columnalign="left">
+                                        <mo>=</mo>
+                                      </mtd>
+                                      <mtd columnalign="left">
+                                        <mtext>4.41 oz (three significant figures)</mtext>
+                                      </mtd>
+                                    </mtr>
+                                  </mtable>
+                                </mrow>
+                                <annotation-xml encoding="MathML-Content">
+                                  <mtable>
+                                    <mtr>
+                                      <mtd columnalign="left">
+                                        <mrow>
+                                          <mi>x</mi>
+                                          <mspace width="0.2em"/>
+                                          <mtext>oz</mtext>
+                                        </mrow>
+                                      </mtd>
+                                      <mtd>
+                                        <mo>=</mo>
+                                      </mtd>
+                                      <mtd columnalign="left">
+                                        <mn>125</mn>
+                                        <mspace width="0.2em"/>
+                                        <menclose notation="horizontalstrike">
+                                          <mtext>g</mtext>
+                                        </menclose>
+                                        <mspace width="0.2em"/>
+                                        <mo>×</mo>
+                                        <mspace width="0.2em"/>
+                                        <mfrac>
+                                          <mrow>
+                                            <mtext>1 oz</mtext>
+                                          </mrow>
+                                          <mrow>
+                                            <mtext>28.349</mtext>
+                                            <mspace width="0.2em"/>
+                                            <menclose
+                                              notation="horizontalstrike"
+                                            >
+                                              <mtext>g</mtext>
+                                            </menclose>
+                                          </mrow>
+                                        </mfrac>
+                                      </mtd>
+                                    </mtr>
+                                    <mtr>
+                                      <mtd columnalign="left"/>
+                                      <mtd columnalign="left">
+                                        <mrow>
+                                          <mo>=</mo>
+                                        </mrow>
+                                      </mtd>
+                                      <mtd columnalign="left">
+                                        <mo>(</mo>
+                                        <mfrac>
+                                          <mrow>
+                                            <mn>125</mn>
+                                          </mrow>
+                                          <mrow>
+                                            <mtext>28.349</mtext>
+                                          </mrow>
+                                        </mfrac>
+                                        <mo>)</mo>
+                                        <mspace width="0.2em"/>
+                                        <mtext>oz</mtext>
+                                      </mtd>
+                                    </mtr>
+                                    <mtr>
+                                      <mtd columnalign="left"/>
+                                      <mtd columnalign="left">
+                                        <mo>=</mo>
+                                      </mtd>
+                                      <mtd columnalign="left">
+                                        <mtext>4.41 oz (three significant figures)</mtext>
+                                      </mtd>
+                                    </mtr>
+                                  </mtable>
+                                </annotation-xml>
+                              </semantics>
+                            </math>
+                          </div>
+                          <p id="fs-idm224226288">
+                            <span data-type="title">Check Your Learning</span>
+                            Convert a volume of 9.345 qt to liters.
+                          </p>
+                          <div data-type="note" id="fs-idm209829536">
+                            <h3 class="os-title" data-type="title">
+                              <span
+                                class="os-title-label"
+                                data-type
+                                id="[redacted for uniqueness]"
+                              >Answer:</span>
+                            </h3>
+                            <div class="os-note-body">
+                              <p id="fs-idm130267872">8.844 L</p>
+                            </div>
+                          </div>
+                        </div>
+                        <p id="fs-idm262838208">
+                          Beyond simple unit conversions, the factor-label method can be used to solve more complex problems involving computations. Regardless of the details, the basic approach is the same—all the
+                          <em data-effect="italics">factors</em> involved in the calculation must be appropriately oriented to ensure that their
+                          <em data-effect="italics">labels</em> (units) will appropriately cancel and/or combine to yield the desired unit in the result. As your study of chemistry continues, you will encounter many opportunities to apply this approach.
+                        </p>
+                        <div data-type="example" id="fs-idm305814320">
+                          <h3 class="os-title">
+                            <span class="os-title-label">Example</span>
+                            <span class="os-number">1.9</span>
+                            <span class="os-divider"></span>
+                          </h3>
+                          <p id="fs-idm280005808">
+                            <span
+                              data-type="title"
+                            >Computing Quantities from Measurement Results and Known Mathematical Relations</span>
+                            What is the density of common antifreeze in units of g/mL? A 4.00-qt sample of the antifreeze weighs 9.26 lb.
+                          </p>
+                          <p id="fs-idp14199296">
+                            <span data-type="title">Solution</span>
+                            Since
+                            <math display="inline">
+                              <semantics>
+                                <mrow>
+                                  <mrow>
+                                    <mtext>density</mtext>
+                                    <mspace width="0.2em"/>
+                                    <mo>=</mo>
+                                    <mspace width="0.2em"/>
+                                    <mfrac>
+                                      <mrow>
+                                        <mtext>mass</mtext>
+                                      </mrow>
+                                      <mrow>
+                                        <mtext>volume</mtext>
+                                      </mrow>
+                                    </mfrac>
+                                  </mrow>
+                                </mrow>
+                                <annotation-xml encoding="MathML-Content">
+                                  <mrow>
+                                    <mtext>density</mtext>
+                                    <mspace width="0.2em"/>
+                                    <mo>=</mo>
+                                    <mspace width="0.2em"/>
+                                    <mfrac>
+                                      <mrow>
+                                        <mtext>mass</mtext>
+                                      </mrow>
+                                      <mrow>
+                                        <mtext>volume</mtext>
+                                      </mrow>
+                                    </mfrac>
+                                  </mrow>
+                                </annotation-xml>
+                              </semantics>
+                            </math>, we need to divide the mass in grams by the volume in milliliters. In general: the number of units of B = the number of units of A
+                            <math display="inline">
+                              <semantics>
+                                <mrow>
+                                  <mo>×</mo>
+                                </mrow>
+                                <annotation-xml encoding="MathML-Content">
+                                  <mo>×</mo>
+                                </annotation-xml>
+                              </semantics>
+                            </math> unit conversion factor. The necessary conversion factors are given in
+                            <a
+                              class="autogenerated-content"
+                              href="#fs-idm222237232"
+                            >Table 1.6</a>: 1 lb = 453.59 g; 1 L = 1.0567 qt; 1 L = 1,000 mL. Mass may be converted from pounds to grams as follows:
+                          </p>
+                          <div data-type="equation" id="fs-idm336821696">
+                            <math display="block">
+                              <semantics>
+                                <mrow>
+                                  <mrow>
+                                    <mtext>9.26</mtext>
+                                    <mspace width="0.2em"/>
+                                    <menclose notation="horizontalstrike">
+                                      <mrow>
+                                        <mtext>lb</mtext>
+                                      </mrow>
+                                    </menclose>
+                                    <mspace width="0.2em"/>
+                                    <mo>×</mo>
+                                    <mspace width="0.2em"/>
+                                    <mfrac>
+                                      <mrow>
+                                        <mtext>453.59 g</mtext>
+                                      </mrow>
+                                      <mrow>
+                                        <mn>1</mn>
+                                        <mspace width="0.2em"/>
+                                        <menclose notation="horizontalstrike">
+                                          <mrow>
+                                            <mtext>lb</mtext>
+                                          </mrow>
+                                        </menclose>
+                                      </mrow>
+                                    </mfrac>
+                                    <mspace width="0.2em"/>
+                                    <mo>=</mo>
+                                    <mn>4.20</mn>
+                                    <mspace width="0.2em"/>
+                                    <mo>×</mo>
+                                    <mspace width="0.2em"/>
+                                    <msup>
+                                      <mrow>
+                                        <mn>10</mn>
+                                      </mrow>
+                                      <mn>3</mn>
+                                    </msup>
+                                  </mrow>
+                                  <mspace width="0.2em"/>
+                                  <mtext>g</mtext>
+                                </mrow>
+                                <annotation-xml encoding="MathML-Content">
+                                  <mrow>
+                                    <mtext>9.26</mtext>
+                                    <mspace width="0.2em"/>
+                                    <menclose notation="horizontalstrike">
+                                      <mrow>
+                                        <mtext>lb</mtext>
+                                      </mrow>
+                                    </menclose>
+                                    <mspace width="0.2em"/>
+                                    <mo>×</mo>
+                                    <mspace width="0.2em"/>
+                                    <mfrac>
+                                      <mrow>
+                                        <mtext>453.59 g</mtext>
+                                      </mrow>
+                                      <mrow>
+                                        <mn>1</mn>
+                                        <mspace width="0.2em"/>
+                                        <menclose notation="horizontalstrike">
+                                          <mrow>
+                                            <mtext>lb</mtext>
+                                          </mrow>
+                                        </menclose>
+                                      </mrow>
+                                    </mfrac>
+                                    <mspace width="0.2em"/>
+                                    <mo>=</mo>
+                                    <mn>4.20</mn>
+                                    <mspace width="0.2em"/>
+                                    <mo>×</mo>
+                                    <mspace width="0.2em"/>
+                                    <msup>
+                                      <mrow>
+                                        <mn>10</mn>
+                                      </mrow>
+                                      <mn>3</mn>
+                                    </msup>
+                                  </mrow>
+                                  <mspace width="0.2em"/>
+                                  <mtext>g</mtext>
+                                </annotation-xml>
+                              </semantics>
+                            </math>
+                          </div>
+                          <p
+                            id="fs-idm244171104"
+                          >Volume may be converted from quarts to millimeters via two steps:</p>
+                          <ol class="os-stepwise" id="fs-idm287602768" type="1">
+                            <li>
+                              <span class="os-stepwise-token">Step 1.</span>
+                              <span class="os-stepwise-content">
+                                <em
+                                  data-effect="italics"
+                                >Convert quarts to liters.</em>
+                                <div data-type="equation" id="fs-idm279137456">
+                                  <math display="block">
+                                    <semantics>
+                                      <mrow>
+                                        <mrow>
+                                          <mtext>4.00</mtext>
+                                          <mspace width="0.2em"/>
+                                          <menclose notation="horizontalstrike">
+                                            <mrow>
+                                              <mtext>qt</mtext>
+                                            </mrow>
+                                          </menclose>
+                                          <mspace width="0.2em"/>
+                                          <mo>×</mo>
+                                          <mspace width="0.2em"/>
+                                          <mfrac>
+                                            <mrow>
+                                              <mtext>1 L</mtext>
+                                            </mrow>
+                                            <mrow>
+                                              <mtext>1.0567</mtext>
+                                              <mspace width="0.2em"/>
+                                              <menclose
+                                                notation="horizontalstrike"
+                                              >
+                                                <mrow>
+                                                  <mtext>qt</mtext>
+                                                </mrow>
+                                              </menclose>
+                                            </mrow>
+                                          </mfrac>
+                                          <mspace width="0.2em"/>
+                                          <mo>=</mo>
+                                          <mtext>3.78 L</mtext>
+                                        </mrow>
+                                      </mrow>
+                                      <annotation-xml encoding="MathML-Content">
+                                        <mrow>
+                                          <mtext>4.00</mtext>
+                                          <mspace width="0.2em"/>
+                                          <menclose notation="horizontalstrike">
+                                            <mrow>
+                                              <mtext>qt</mtext>
+                                            </mrow>
+                                          </menclose>
+                                          <mspace width="0.2em"/>
+                                          <mo>×</mo>
+                                          <mspace width="0.2em"/>
+                                          <mfrac>
+                                            <mrow>
+                                              <mtext>1 L</mtext>
+                                            </mrow>
+                                            <mrow>
+                                              <mtext>1.0567</mtext>
+                                              <mspace width="0.2em"/>
+                                              <menclose
+                                                notation="horizontalstrike"
+                                              >
+                                                <mrow>
+                                                  <mtext>qt</mtext>
+                                                </mrow>
+                                              </menclose>
+                                            </mrow>
+                                          </mfrac>
+                                          <mspace width="0.2em"/>
+                                          <mo>=</mo>
+                                          <mtext>3.78 L</mtext>
+                                        </mrow>
+                                      </annotation-xml>
+                                    </semantics>
+                                  </math>
+                                </div>
+                              </span>
+                            </li>
+                            <li>
+                              <span class="os-stepwise-token">Step 2.</span>
+                              <span class="os-stepwise-content">
+                                <em
+                                  data-effect="italics"
+                                >Convert liters to milliliters.</em>
+                                <div data-type="equation" id="fs-idm289883088">
+                                  <math display="block">
+                                    <semantics>
+                                      <mrow>
+                                        <mrow>
+                                          <mtext>3.78</mtext>
+                                          <mspace width="0.2em"/>
+                                          <menclose notation="horizontalstrike">
+                                            <mtext>L</mtext>
+                                          </menclose>
+                                          <mspace width="0.2em"/>
+                                          <mo>×</mo>
+                                          <mspace width="0.2em"/>
+                                          <mfrac>
+                                            <mrow>
+                                              <mtext>1000 mL</mtext>
+                                            </mrow>
+                                            <mrow>
+                                              <mn>1</mn>
+                                              <mspace width="0.2em"/>
+                                              <menclose
+                                                notation="horizontalstrike"
+                                              >
+                                                <mtext>L</mtext>
+                                              </menclose>
+                                            </mrow>
+                                          </mfrac>
+                                          <mspace width="0.2em"/>
+                                          <mo>=</mo>
+                                          <mn>3.78</mn>
+                                          <mspace width="0.2em"/>
+                                          <mo>×</mo>
+                                          <mspace width="0.2em"/>
+                                          <msup>
+                                            <mrow>
+                                              <mn>10</mn>
+                                            </mrow>
+                                            <mn>3</mn>
+                                          </msup>
+                                          <mspace width="0.2em"/>
+                                          <mtext>mL</mtext>
+                                        </mrow>
+                                      </mrow>
+                                      <annotation-xml encoding="MathML-Content">
+                                        <mrow>
+                                          <mtext>3.78</mtext>
+                                          <mspace width="0.2em"/>
+                                          <menclose notation="horizontalstrike">
+                                            <mtext>L</mtext>
+                                          </menclose>
+                                          <mspace width="0.2em"/>
+                                          <mo>×</mo>
+                                          <mspace width="0.2em"/>
+                                          <mfrac>
+                                            <mrow>
+                                              <mtext>1000 mL</mtext>
+                                            </mrow>
+                                            <mrow>
+                                              <mn>1</mn>
+                                              <mspace width="0.2em"/>
+                                              <menclose
+                                                notation="horizontalstrike"
+                                              >
+                                                <mtext>L</mtext>
+                                              </menclose>
+                                            </mrow>
+                                          </mfrac>
+                                          <mspace width="0.2em"/>
+                                          <mo>=</mo>
+                                          <mn>3.78</mn>
+                                          <mspace width="0.2em"/>
+                                          <mo>×</mo>
+                                          <mspace width="0.2em"/>
+                                          <msup>
+                                            <mrow>
+                                              <mn>10</mn>
+                                            </mrow>
+                                            <mn>3</mn>
+                                          </msup>
+                                          <mspace width="0.2em"/>
+                                          <mtext>mL</mtext>
+                                        </mrow>
+                                      </annotation-xml>
+                                    </semantics>
+                                  </math>
+                                </div>
+                              </span>
+                            </li>
+                          </ol>
+                          <p id="fs-idm301215296">Then,</p>
+                          <div data-type="equation" id="fs-idm144640128">
+                            <math display="block">
+                              <semantics>
+                                <mrow>
+                                  <mrow>
+                                    <mtext>density</mtext>
+                                    <mo>=</mo>
+                                    <mspace width="0.2em"/>
+                                    <mfrac>
+                                      <mrow>
+                                        <mtext>4.20</mtext>
+                                        <mspace width="0.2em"/>
+                                        <mo>×</mo>
+                                        <mspace width="0.2em"/>
+                                        <msup>
+                                          <mrow>
+                                            <mn>10</mn>
+                                          </mrow>
+                                          <mn>3</mn>
+                                        </msup>
+                                        <mspace width="0.2em"/>
+                                        <mtext>g</mtext>
+                                      </mrow>
+                                      <mrow>
+                                        <mn>3.78</mn>
+                                        <mspace width="0.2em"/>
+                                        <mo>×</mo>
+                                        <mspace width="0.2em"/>
+                                        <msup>
+                                          <mrow>
+                                            <mn>10</mn>
+                                          </mrow>
+                                          <mn>3</mn>
+                                        </msup>
+                                        <mspace width="0.2em"/>
+                                        <mtext>mL</mtext>
+                                      </mrow>
+                                    </mfrac>
+                                    <mspace width="0.2em"/>
+                                    <mo>=</mo>
+                                    <mtext>1.11 g/mL</mtext>
+                                  </mrow>
+                                </mrow>
+                                <annotation-xml encoding="MathML-Content">
+                                  <mrow>
+                                    <mtext>density</mtext>
+                                    <mo>=</mo>
+                                    <mspace width="0.2em"/>
+                                    <mfrac>
+                                      <mrow>
+                                        <mtext>4.20</mtext>
+                                        <mspace width="0.2em"/>
+                                        <mo>×</mo>
+                                        <mspace width="0.2em"/>
+                                        <msup>
+                                          <mrow>
+                                            <mn>10</mn>
+                                          </mrow>
+                                          <mn>3</mn>
+                                        </msup>
+                                        <mspace width="0.2em"/>
+                                        <mtext>g</mtext>
+                                      </mrow>
+                                      <mrow>
+                                        <mn>3.78</mn>
+                                        <mspace width="0.2em"/>
+                                        <mo>×</mo>
+                                        <mspace width="0.2em"/>
+                                        <msup>
+                                          <mrow>
+                                            <mn>10</mn>
+                                          </mrow>
+                                          <mn>3</mn>
+                                        </msup>
+                                        <mspace width="0.2em"/>
+                                        <mtext>mL</mtext>
+                                      </mrow>
+                                    </mfrac>
+                                    <mspace width="0.2em"/>
+                                    <mo>=</mo>
+                                    <mtext>1.11 g/mL</mtext>
+                                  </mrow>
+                                </annotation-xml>
+                              </semantics>
+                            </math>
+                          </div>
+                          <p
+                            id="fs-idm292167648"
+                          >Alternatively, the calculation could be set up in a way that uses three unit conversion factors sequentially as follows:</p>
+                          <div data-type="equation" id="fs-idm9873904">
+                            <math display="block">
+                              <semantics>
+                                <mrow>
+                                  <mrow>
+                                    <mfrac>
+                                      <mrow>
+                                        <mtext>9.26</mtext>
+                                        <mspace width="0.2em"/>
+                                        <menclose notation="horizontalstrike">
+                                          <mrow>
+                                            <mtext>lb</mtext>
+                                          </mrow>
+                                        </menclose>
+                                      </mrow>
+                                      <mrow>
+                                        <mtext>4.00</mtext>
+                                        <mspace width="0.2em"/>
+                                        <menclose notation="horizontalstrike">
+                                          <mrow>
+                                            <mtext>qt</mtext>
+                                          </mrow>
+                                        </menclose>
+                                      </mrow>
+                                    </mfrac>
+                                    <mspace width="0.2em"/>
+                                    <mo>×</mo>
+                                    <mspace width="0.2em"/>
+                                    <mfrac>
+                                      <mrow>
+                                        <mtext>453.59 g</mtext>
+                                      </mrow>
+                                      <mrow>
+                                        <mn>1</mn>
+                                        <mspace width="0.2em"/>
+                                        <menclose notation="horizontalstrike">
+                                          <mrow>
+                                            <mtext>lb</mtext>
+                                          </mrow>
+                                        </menclose>
+                                      </mrow>
+                                    </mfrac>
+                                    <mspace width="0.2em"/>
+                                    <mo>×</mo>
+                                    <mspace width="0.2em"/>
+                                    <mfrac>
+                                      <mrow>
+                                        <mtext>1.0567</mtext>
+                                        <mspace width="0.2em"/>
+                                        <menclose notation="horizontalstrike">
+                                          <mrow>
+                                            <mtext>qt</mtext>
+                                          </mrow>
+                                        </menclose>
+                                      </mrow>
+                                      <mrow>
+                                        <mn>1</mn>
+                                        <mspace width="0.2em"/>
+                                        <menclose notation="horizontalstrike">
+                                          <mtext>L</mtext>
+                                        </menclose>
+                                      </mrow>
+                                    </mfrac>
+                                    <mspace width="0.2em"/>
+                                    <mo>×</mo>
+                                    <mspace width="0.2em"/>
+                                    <mfrac>
+                                      <mrow>
+                                        <mn>1</mn>
+                                        <mspace width="0.2em"/>
+                                        <menclose notation="horizontalstrike">
+                                          <mtext>L</mtext>
+                                        </menclose>
+                                      </mrow>
+                                      <mrow>
+                                        <mtext>1000 mL</mtext>
+                                      </mrow>
+                                    </mfrac>
+                                    <mspace width="0.2em"/>
+                                    <mo>=</mo>
+                                    <mtext>1.11 g/mL</mtext>
+                                  </mrow>
+                                </mrow>
+                                <annotation-xml encoding="MathML-Content">
+                                  <mrow>
+                                    <mfrac>
+                                      <mrow>
+                                        <mtext>9.26</mtext>
+                                        <mspace width="0.2em"/>
+                                        <menclose notation="horizontalstrike">
+                                          <mrow>
+                                            <mtext>lb</mtext>
+                                          </mrow>
+                                        </menclose>
+                                      </mrow>
+                                      <mrow>
+                                        <mtext>4.00</mtext>
+                                        <mspace width="0.2em"/>
+                                        <menclose notation="horizontalstrike">
+                                          <mrow>
+                                            <mtext>qt</mtext>
+                                          </mrow>
+                                        </menclose>
+                                      </mrow>
+                                    </mfrac>
+                                    <mspace width="0.2em"/>
+                                    <mo>×</mo>
+                                    <mspace width="0.2em"/>
+                                    <mfrac>
+                                      <mrow>
+                                        <mtext>453.59 g</mtext>
+                                      </mrow>
+                                      <mrow>
+                                        <mn>1</mn>
+                                        <mspace width="0.2em"/>
+                                        <menclose notation="horizontalstrike">
+                                          <mrow>
+                                            <mtext>lb</mtext>
+                                          </mrow>
+                                        </menclose>
+                                      </mrow>
+                                    </mfrac>
+                                    <mspace width="0.2em"/>
+                                    <mo>×</mo>
+                                    <mspace width="0.2em"/>
+                                    <mfrac>
+                                      <mrow>
+                                        <mtext>1.0567</mtext>
+                                        <mspace width="0.2em"/>
+                                        <menclose notation="horizontalstrike">
+                                          <mrow>
+                                            <mtext>qt</mtext>
+                                          </mrow>
+                                        </menclose>
+                                      </mrow>
+                                      <mrow>
+                                        <mn>1</mn>
+                                        <mspace width="0.2em"/>
+                                        <menclose notation="horizontalstrike">
+                                          <mtext>L</mtext>
+                                        </menclose>
+                                      </mrow>
+                                    </mfrac>
+                                    <mspace width="0.2em"/>
+                                    <mo>×</mo>
+                                    <mspace width="0.2em"/>
+                                    <mfrac>
+                                      <mrow>
+                                        <mn>1</mn>
+                                        <mspace width="0.2em"/>
+                                        <menclose notation="horizontalstrike">
+                                          <mtext>L</mtext>
+                                        </menclose>
+                                      </mrow>
+                                      <mrow>
+                                        <mtext>1000 mL</mtext>
+                                      </mrow>
+                                    </mfrac>
+                                    <mspace width="0.2em"/>
+                                    <mo>=</mo>
+                                    <mtext>1.11 g/mL</mtext>
+                                  </mrow>
+                                </annotation-xml>
+                              </semantics>
+                            </math>
+                          </div>
+                          <p id="fs-idm219351440">
+                            <span data-type="title">Check Your Learning</span>
+                            What is the volume in liters of 1.000 oz, given that 1 L = 1.0567 qt and 1 qt = 32 oz (exactly)?
+                          </p>
+                          <div data-type="note" id="fs-idm207792224">
+                            <h3 class="os-title" data-type="title">
+                              <span
+                                class="os-title-label"
+                                data-type
+                                id="[redacted for uniqueness]"
+                              >Answer:</span>
+                            </h3>
+                            <div class="os-note-body">
+                              <p id="fs-idm292695264">
+                                2.956 × 10
+                                <sup>−2</sup> L
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div data-type="example" id="fs-idm306560960">
+                          <h3 class="os-title">
+                            <span class="os-title-label">Example</span>
+                            <span class="os-number">1.10</span>
+                            <span class="os-divider"></span>
+                          </h3>
+                          <p id="fs-idm338996800">
+                            <span
+                              data-type="title"
+                            >Computing Quantities from Measurement Results and Known Mathematical Relations</span>
+                            While being driven from Philadelphia to Atlanta, a distance of about 1250 km, a 2014 Lamborghini Aventador Roadster uses 213 L gasoline.
+                          </p>
+                          <p
+                            id="fs-idm127359616"
+                          >(a) What (average) fuel economy, in miles per gallon, did the Roadster get during this trip?</p>
+                          <p
+                            id="fs-idm315428528"
+                          >(b) If gasoline costs $3.80 per gallon, what was the fuel cost for this trip?</p>
+                          <p id="fs-idm327742336">
+                            <span data-type="title">Solution</span>
+                            (a) First convert distance from kilometers to miles:
+                          </p>
+                          <div data-type="equation" id="fs-idm60362224">
+                            <math display="block">
+                              <semantics>
+                                <mrow>
+                                  <mrow>
+                                    <mn>1250</mn>
+                                    <mspace width="0.2em"/>
+                                    <menclose notation="horizontalstrike">
+                                      <mtext>km</mtext>
+                                    </menclose>
+                                    <mspace width="0.2em"/>
+                                    <mo>×</mo>
+                                    <mspace width="0.2em"/>
+                                    <mfrac>
+                                      <mrow>
+                                        <mtext>0.62137 mi</mtext>
+                                      </mrow>
+                                      <mrow>
+                                        <mn>1</mn>
+                                        <mspace width="0.2em"/>
+                                        <menclose notation="horizontalstrike">
+                                          <mtext>km</mtext>
+                                        </menclose>
+                                      </mrow>
+                                    </mfrac>
+                                    <mspace width="0.2em"/>
+                                    <mo>=</mo>
+                                    <mtext>777 mi</mtext>
+                                  </mrow>
+                                </mrow>
+                                <annotation-xml encoding="MathML-Content">
+                                  <mrow>
+                                    <mn>1250</mn>
+                                    <mspace width="0.2em"/>
+                                    <menclose notation="horizontalstrike">
+                                      <mtext>km</mtext>
+                                    </menclose>
+                                    <mspace width="0.2em"/>
+                                    <mo>×</mo>
+                                    <mspace width="0.2em"/>
+                                    <mfrac>
+                                      <mrow>
+                                        <mtext>0.62137 mi</mtext>
+                                      </mrow>
+                                      <mrow>
+                                        <mn>1</mn>
+                                        <mspace width="0.2em"/>
+                                        <menclose notation="horizontalstrike">
+                                          <mtext>km</mtext>
+                                        </menclose>
+                                      </mrow>
+                                    </mfrac>
+                                    <mspace width="0.2em"/>
+                                    <mo>=</mo>
+                                    <mtext>777 mi</mtext>
+                                  </mrow>
+                                </annotation-xml>
+                              </semantics>
+                            </math>
+                          </div>
+                          <p
+                            id="fs-idm142282576"
+                          >and then convert volume from liters to gallons:</p>
+                          <div data-type="equation" id="fs-idm214696672">
+                            <math display="block">
+                              <semantics>
+                                <mrow>
+                                  <mrow>
+                                    <mn>213</mn>
+                                    <mspace width="0.2em"/>
+                                    <menclose notation="horizontalstrike">
+                                      <mtext>L</mtext>
+                                    </menclose>
+                                    <mspace width="0.2em"/>
+                                    <mo>×</mo>
+                                    <mspace width="0.2em"/>
+                                    <mfrac>
+                                      <mrow>
+                                        <mtext>1.0567</mtext>
+                                        <mspace width="0.2em"/>
+                                        <menclose notation="horizontalstrike">
+                                          <mrow>
+                                            <mtext>qt</mtext>
+                                          </mrow>
+                                        </menclose>
+                                      </mrow>
+                                      <mrow>
+                                        <mn>1</mn>
+                                        <mspace width="0.2em"/>
+                                        <menclose notation="horizontalstrike">
+                                          <mtext>L</mtext>
+                                        </menclose>
+                                      </mrow>
+                                    </mfrac>
+                                    <mspace width="0.2em"/>
+                                    <mo>×</mo>
+                                    <mspace width="0.2em"/>
+                                    <mfrac>
+                                      <mrow>
+                                        <mtext>1 gal</mtext>
+                                      </mrow>
+                                      <mrow>
+                                        <mn>4</mn>
+                                        <mspace width="0.2em"/>
+                                        <menclose notation="horizontalstrike">
+                                          <mrow>
+                                            <mtext>qt</mtext>
+                                          </mrow>
+                                        </menclose>
+                                      </mrow>
+                                    </mfrac>
+                                    <mspace width="0.2em"/>
+                                    <mo>=</mo>
+                                    <mtext>56.3 gal</mtext>
+                                  </mrow>
+                                </mrow>
+                                <annotation-xml encoding="MathML-Content">
+                                  <mrow>
+                                    <mn>213</mn>
+                                    <mspace width="0.2em"/>
+                                    <menclose notation="horizontalstrike">
+                                      <mtext>L</mtext>
+                                    </menclose>
+                                    <mspace width="0.2em"/>
+                                    <mo>×</mo>
+                                    <mspace width="0.2em"/>
+                                    <mfrac>
+                                      <mrow>
+                                        <mtext>1.0567</mtext>
+                                        <mspace width="0.2em"/>
+                                        <menclose notation="horizontalstrike">
+                                          <mrow>
+                                            <mtext>qt</mtext>
+                                          </mrow>
+                                        </menclose>
+                                      </mrow>
+                                      <mrow>
+                                        <mn>1</mn>
+                                        <mspace width="0.2em"/>
+                                        <menclose notation="horizontalstrike">
+                                          <mtext>L</mtext>
+                                        </menclose>
+                                      </mrow>
+                                    </mfrac>
+                                    <mspace width="0.2em"/>
+                                    <mo>×</mo>
+                                    <mspace width="0.2em"/>
+                                    <mfrac>
+                                      <mrow>
+                                        <mtext>1 gal</mtext>
+                                      </mrow>
+                                      <mrow>
+                                        <mn>4</mn>
+                                        <mspace width="0.2em"/>
+                                        <menclose notation="horizontalstrike">
+                                          <mrow>
+                                            <mtext>qt</mtext>
+                                          </mrow>
+                                        </menclose>
+                                      </mrow>
+                                    </mfrac>
+                                    <mspace width="0.2em"/>
+                                    <mo>=</mo>
+                                    <mtext>56.3 gal</mtext>
+                                  </mrow>
+                                </annotation-xml>
+                              </semantics>
+                            </math>
+                          </div>
+                          <p id="fs-idp1583872">Finally,</p>
+                          <div data-type="equation" id="fs-idm114266320">
+                            <math display="block">
+                              <semantics>
+                                <mrow>
+                                  <mrow>
+                                    <mtext>(average) mileage</mtext>
+                                    <mo>=</mo>
+                                    <mspace width="0.2em"/>
+                                    <mfrac>
+                                      <mrow>
+                                        <mtext>777 mi</mtext>
+                                      </mrow>
+                                      <mrow>
+                                        <mtext>56.3 gal</mtext>
+                                      </mrow>
+                                    </mfrac>
+                                    <mspace width="0.2em"/>
+                                    <mo>=</mo>
+                                    <mtext>13.8 miles/gallon</mtext>
+                                    <mo>=</mo>
+                                    <mtext>13.8 mpg</mtext>
+                                  </mrow>
+                                </mrow>
+                                <annotation-xml encoding="MathML-Content">
+                                  <mrow>
+                                    <mtext>(average) mileage</mtext>
+                                    <mo>=</mo>
+                                    <mspace width="0.2em"/>
+                                    <mfrac>
+                                      <mrow>
+                                        <mtext>777 mi</mtext>
+                                      </mrow>
+                                      <mrow>
+                                        <mtext>56.3 gal</mtext>
+                                      </mrow>
+                                    </mfrac>
+                                    <mspace width="0.2em"/>
+                                    <mo>=</mo>
+                                    <mtext>13.8 miles/gallon</mtext>
+                                    <mo>=</mo>
+                                    <mtext>13.8 mpg</mtext>
+                                  </mrow>
+                                </annotation-xml>
+                              </semantics>
+                            </math>
+                          </div>
+                          <p
+                            id="fs-idm311190128"
+                          >Alternatively, the calculation could be set up in a way that uses all the conversion factors sequentially, as follows:</p>
+                          <div data-type="equation" id="fs-idm171836160">
+                            <math display="block">
+                              <semantics>
+                                <mrow>
+                                  <mrow>
+                                    <mfrac>
+                                      <mrow>
+                                        <mn>1250</mn>
+                                        <mspace width="0.2em"/>
+                                        <menclose notation="horizontalstrike">
+                                          <mrow>
+                                            <mtext>km</mtext>
+                                          </mrow>
+                                        </menclose>
+                                      </mrow>
+                                      <mrow>
+                                        <mn>213</mn>
+                                        <mspace width="0.2em"/>
+                                        <menclose notation="horizontalstrike">
+                                          <mtext>L</mtext>
+                                        </menclose>
+                                      </mrow>
+                                    </mfrac>
+                                    <mspace width="0.2em"/>
+                                    <mo>×</mo>
+                                    <mspace width="0.2em"/>
+                                    <mfrac>
+                                      <mrow>
+                                        <mtext>0.62137 mi</mtext>
+                                      </mrow>
+                                      <mrow>
+                                        <mn>1</mn>
+                                        <mspace width="0.2em"/>
+                                        <menclose notation="horizontalstrike">
+                                          <mrow>
+                                            <mtext>km</mtext>
+                                          </mrow>
+                                        </menclose>
+                                      </mrow>
+                                    </mfrac>
+                                    <mspace width="0.2em"/>
+                                    <mo>×</mo>
+                                    <mspace width="0.2em"/>
+                                    <mfrac>
+                                      <mrow>
+                                        <mn>1</mn>
+                                        <mspace width="0.2em"/>
+                                        <menclose notation="horizontalstrike">
+                                          <mtext>L</mtext>
+                                        </menclose>
+                                      </mrow>
+                                      <mrow>
+                                        <mtext>1.0567</mtext>
+                                        <mspace width="0.2em"/>
+                                        <menclose notation="horizontalstrike">
+                                          <mrow>
+                                            <mtext>qt</mtext>
+                                          </mrow>
+                                        </menclose>
+                                      </mrow>
+                                    </mfrac>
+                                    <mspace width="0.2em"/>
+                                    <mo>×</mo>
+                                    <mspace width="0.2em"/>
+                                    <mfrac>
+                                      <mrow>
+                                        <mn>4</mn>
+                                        <mspace width="0.2em"/>
+                                        <menclose notation="horizontalstrike">
+                                          <mrow>
+                                            <mtext>qt</mtext>
+                                          </mrow>
+                                        </menclose>
+                                      </mrow>
+                                      <mrow>
+                                        <mtext>1 gal</mtext>
+                                      </mrow>
+                                    </mfrac>
+                                    <mo>=</mo>
+                                    <mtext>13.8 mpg</mtext>
+                                  </mrow>
+                                </mrow>
+                                <annotation-xml encoding="MathML-Content">
+                                  <mrow>
+                                    <mfrac>
+                                      <mrow>
+                                        <mn>1250</mn>
+                                        <mspace width="0.2em"/>
+                                        <menclose notation="horizontalstrike">
+                                          <mrow>
+                                            <mtext>km</mtext>
+                                          </mrow>
+                                        </menclose>
+                                      </mrow>
+                                      <mrow>
+                                        <mn>213</mn>
+                                        <mspace width="0.2em"/>
+                                        <menclose notation="horizontalstrike">
+                                          <mtext>L</mtext>
+                                        </menclose>
+                                      </mrow>
+                                    </mfrac>
+                                    <mspace width="0.2em"/>
+                                    <mo>×</mo>
+                                    <mspace width="0.2em"/>
+                                    <mfrac>
+                                      <mrow>
+                                        <mtext>0.62137 mi</mtext>
+                                      </mrow>
+                                      <mrow>
+                                        <mn>1</mn>
+                                        <mspace width="0.2em"/>
+                                        <menclose notation="horizontalstrike">
+                                          <mrow>
+                                            <mtext>km</mtext>
+                                          </mrow>
+                                        </menclose>
+                                      </mrow>
+                                    </mfrac>
+                                    <mspace width="0.2em"/>
+                                    <mo>×</mo>
+                                    <mspace width="0.2em"/>
+                                    <mfrac>
+                                      <mrow>
+                                        <mn>1</mn>
+                                        <mspace width="0.2em"/>
+                                        <menclose notation="horizontalstrike">
+                                          <mtext>L</mtext>
+                                        </menclose>
+                                      </mrow>
+                                      <mrow>
+                                        <mtext>1.0567</mtext>
+                                        <mspace width="0.2em"/>
+                                        <menclose notation="horizontalstrike">
+                                          <mrow>
+                                            <mtext>qt</mtext>
+                                          </mrow>
+                                        </menclose>
+                                      </mrow>
+                                    </mfrac>
+                                    <mspace width="0.2em"/>
+                                    <mo>×</mo>
+                                    <mspace width="0.2em"/>
+                                    <mfrac>
+                                      <mrow>
+                                        <mn>4</mn>
+                                        <mspace width="0.2em"/>
+                                        <menclose notation="horizontalstrike">
+                                          <mrow>
+                                            <mtext>qt</mtext>
+                                          </mrow>
+                                        </menclose>
+                                      </mrow>
+                                      <mrow>
+                                        <mtext>1 gal</mtext>
+                                      </mrow>
+                                    </mfrac>
+                                    <mo>=</mo>
+                                    <mtext>13.8 mpg</mtext>
+                                  </mrow>
+                                </annotation-xml>
+                              </semantics>
+                            </math>
+                          </div>
+                          <p
+                            id="fs-idm268939440"
+                          >(b) Using the previously calculated volume in gallons, we find:</p>
+                          <div data-type="equation" id="fs-idm328491840">
+                            <math display="block">
+                              <semantics>
+                                <mrow>
+                                  <mrow>
+                                    <mn>56.3</mn>
+                                    <mspace width="0.2em"/>
+                                    <menclose notation="horizontalstrike">
+                                      <mtext>gal</mtext>
+                                    </menclose>
+                                    <mspace width="0.2em"/>
+                                    <mo>×</mo>
+                                    <mspace width="0.2em"/>
+                                    <mfrac>
+                                      <mrow>
+                                        <mtext>$3.80</mtext>
+                                      </mrow>
+                                      <mrow>
+                                        <mn>1</mn>
+                                        <mspace width="0.2em"/>
+                                        <menclose notation="horizontalstrike">
+                                          <mtext>gal</mtext>
+                                        </menclose>
+                                      </mrow>
+                                    </mfrac>
+                                    <mo>=</mo>
+                                    <mtext>$214</mtext>
+                                  </mrow>
+                                </mrow>
+                                <annotation-xml encoding="MathML-Content">
+                                  <mrow>
+                                    <mn>56.3</mn>
+                                    <mspace width="0.2em"/>
+                                    <menclose notation="horizontalstrike">
+                                      <mtext>gal</mtext>
+                                    </menclose>
+                                    <mspace width="0.2em"/>
+                                    <mo>×</mo>
+                                    <mspace width="0.2em"/>
+                                    <mfrac>
+                                      <mrow>
+                                        <mtext>$3.80</mtext>
+                                      </mrow>
+                                      <mrow>
+                                        <mn>1</mn>
+                                        <mspace width="0.2em"/>
+                                        <menclose notation="horizontalstrike">
+                                          <mtext>gal</mtext>
+                                        </menclose>
+                                      </mrow>
+                                    </mfrac>
+                                    <mo>=</mo>
+                                    <mtext>$214</mtext>
+                                  </mrow>
+                                </annotation-xml>
+                              </semantics>
+                            </math>
+                          </div>
+                          <p id="fs-idm125734208">
+                            <span data-type="title">Check Your Learning</span>
+                            A Toyota Prius Hybrid uses 59.7 L gasoline to drive from San Francisco to Seattle, a distance of 1300 km (two significant digits).
+                          </p>
+                          <p
+                            id="fs-idm247721312"
+                          >(a) What (average) fuel economy, in miles per gallon, did the Prius get during this trip?</p>
+                          <p
+                            id="fs-idm292238912"
+                          >(b) If gasoline costs $3.90 per gallon, what was the fuel cost for this trip?</p>
+                          <div data-type="note" id="fs-idp13830304">
+                            <h3 class="os-title" data-type="title">
+                              <span
+                                class="os-title-label"
+                                data-type
+                                id="[redacted for uniqueness]"
+                              >Answer:</span>
+                            </h3>
+                            <div class="os-note-body">
+                              <p id="fs-idm210440528">(a) 51 mpg; (b) $62</p>
+                            </div>
+                          </div>
+                        </div>
+                      </section>
+
+                      <section data-depth="1" id="fs-idm206910464">
+                        <h3 data-type="title">Conversion of Temperature Units</h3>
+                        <p id="fs-idm262720192">
+                          We use the word
+                          <span
+                            data-type="term"
+                            group-by="t"
+                            id="[redacted for uniqueness]"
+                          >temperature</span> to refer to the hotness or coldness of a substance. One way we measure a change in temperature is to use the fact that most substances expand when their temperature increases and contract when their temperature decreases. The mercury or alcohol in a common glass thermometer changes its volume as the temperature changes, and the position of the trapped liquid along a printed scale may be used as a measure of temperature.
+                        </p>
+                        <p id="fs-idm308860096">
+                          Temperature scales are defined relative to selected reference temperatures: Two of the most commonly used are the freezing and boiling temperatures of water at a specified atmospheric pressure. On the Celsius scale, 0 °C is defined as the freezing temperature of water and 100 °C as the boiling temperature of water. The space between the two temperatures is divided into 100 equal intervals, which we call degrees. On the
+                          <span
+                            data-type="term"
+                            group-by="F"
+                            id="[redacted for uniqueness]"
+                          >Fahrenheit</span> scale, the freezing point of water is defined as 32 °F and the boiling temperature as 212 °F. The space between these two points on a Fahrenheit thermometer is divided into 180 equal parts (degrees).
+                        </p>
+                        <p
+                          id="fs-idm288396336"
+                        >Defining the Celsius and Fahrenheit temperature scales as described in the previous paragraph results in a slightly more complex relationship between temperature values on these two scales than for different units of measure for other properties. Most measurement units for a given property are directly proportional to one another (y = mx). Using familiar length units as one example:</p>
+                        <div data-type="equation" id="fs-idm6121760">
+                          <math display="block">
+                            <semantics>
+                              <mrow>
+                                <mrow>
+                                  <mtext>length in feet</mtext>
+                                  <mo>=</mo>
+                                  <mrow>
+                                    <mo>(</mo>
+                                    <mrow>
+                                      <mfrac>
+                                        <mrow>
+                                          <mtext>1 ft</mtext>
+                                        </mrow>
+                                        <mrow>
+                                          <mtext>12 in.</mtext>
+                                        </mrow>
+                                      </mfrac>
+                                    </mrow>
+                                    <mo>)</mo>
+                                  </mrow>
+                                  <mspace width="0.2em"/>
+                                  <mo>×</mo>
+                                  <mspace width="0.2em"/>
+                                  <mtext>length in inches</mtext>
+                                </mrow>
+                              </mrow>
+                              <annotation-xml encoding="MathML-Content">
+                                <mrow>
+                                  <mtext>length in feet</mtext>
+                                  <mo>=</mo>
+                                  <mrow>
+                                    <mo>(</mo>
+                                    <mrow>
+                                      <mfrac>
+                                        <mrow>
+                                          <mtext>1 ft</mtext>
+                                        </mrow>
+                                        <mrow>
+                                          <mtext>12 in.</mtext>
+                                        </mrow>
+                                      </mfrac>
+                                    </mrow>
+                                    <mo>)</mo>
+                                  </mrow>
+                                  <mspace width="0.2em"/>
+                                  <mo>×</mo>
+                                  <mspace width="0.2em"/>
+                                  <mtext>length in inches</mtext>
+                                </mrow>
+                              </annotation-xml>
+                            </semantics>
+                          </math>
+                        </div>
+                        <p
+                          id="fs-idm161552768"
+                        >where y = length in feet, x = length in inches, and the proportionality constant, m, is the conversion factor. The Celsius and Fahrenheit temperature scales, however, do not share a common zero point, and so the relationship between these two scales is a linear one rather than a proportional one (y = mx + b). Consequently, converting a temperature from one of these scales into the other requires more than simple multiplication by a conversion factor, m, it also must take into account differences in the scales’ zero points (b).</p>
+                        <p id="fs-idm292928800">
+                          The linear equation relating Celsius and Fahrenheit temperatures is easily derived from the two temperatures used to define each scale. Representing the Celsius temperature as
+                          <em data-effect="italics">x</em> and the Fahrenheit temperature as
+                          <em data-effect="italics">y</em>, the slope,
+                          <em data-effect="italics">m</em>, is computed to be:
+                        </p>
+                        <div data-type="equation" id="fs-idm229969840">
+                          <math display="block">
+                            <semantics>
+                              <mrow>
+                                <mrow>
+                                  <mi>m</mi>
+                                  <mo>=</mo>
+                                  <mspace width="0.2em"/>
+                                  <mfrac>
+                                    <mrow>
+                                      <mtext>Δ</mtext>
+                                      <mi>y</mi>
+                                    </mrow>
+                                    <mrow>
+                                      <mtext>Δ</mtext>
+                                      <mi>x</mi>
+                                    </mrow>
+                                  </mfrac>
+                                  <mspace width="0.2em"/>
+                                  <mo>=</mo>
+                                  <mfrac>
+                                    <mrow>
+                                      <mtext>212 °F</mtext>
+                                      <mo>−</mo>
+                                      <mtext>32 °F</mtext>
+                                      <mspace width="0.2em"/>
+                                    </mrow>
+                                    <mrow>
+                                      <mtext>100 °C</mtext>
+                                      <mo>−</mo>
+                                      <mtext>0 °C</mtext>
+                                    </mrow>
+                                  </mfrac>
+                                  <mspace width="0.2em"/>
+                                  <mo>=</mo>
+                                  <mspace width="0.2em"/>
+                                  <mfrac>
+                                    <mrow>
+                                      <mtext>180 °F</mtext>
+                                    </mrow>
+                                    <mrow>
+                                      <mtext>100 °C</mtext>
+                                    </mrow>
+                                  </mfrac>
+                                  <mspace width="0.2em"/>
+                                  <mo>=</mo>
+                                  <mspace width="0.2em"/>
+                                  <mfrac>
+                                    <mrow>
+                                      <mtext>9 °F</mtext>
+                                    </mrow>
+                                    <mrow>
+                                      <mtext>5 °C</mtext>
+                                    </mrow>
+                                  </mfrac>
+                                </mrow>
+                              </mrow>
+                              <annotation-xml encoding="MathML-Content">
+                                <mrow>
+                                  <mi>m</mi>
+                                  <mo>=</mo>
+                                  <mspace width="0.2em"/>
+                                  <mfrac>
+                                    <mrow>
+                                      <mtext>Δ</mtext>
+                                      <mi>y</mi>
+                                    </mrow>
+                                    <mrow>
+                                      <mtext>Δ</mtext>
+                                      <mi>x</mi>
+                                    </mrow>
+                                  </mfrac>
+                                  <mspace width="0.2em"/>
+                                  <mo>=</mo>
+                                  <mfrac>
+                                    <mrow>
+                                      <mtext>212 °F</mtext>
+                                      <mo>−</mo>
+                                      <mtext>32 °F</mtext>
+                                      <mspace width="0.2em"/>
+                                    </mrow>
+                                    <mrow>
+                                      <mtext>100 °C</mtext>
+                                      <mo>−</mo>
+                                      <mtext>0 °C</mtext>
+                                    </mrow>
+                                  </mfrac>
+                                  <mspace width="0.2em"/>
+                                  <mo>=</mo>
+                                  <mspace width="0.2em"/>
+                                  <mfrac>
+                                    <mrow>
+                                      <mtext>180 °F</mtext>
+                                    </mrow>
+                                    <mrow>
+                                      <mtext>100 °C</mtext>
+                                    </mrow>
+                                  </mfrac>
+                                  <mspace width="0.2em"/>
+                                  <mo>=</mo>
+                                  <mspace width="0.2em"/>
+                                  <mfrac>
+                                    <mrow>
+                                      <mtext>9 °F</mtext>
+                                    </mrow>
+                                    <mrow>
+                                      <mtext>5 °C</mtext>
+                                    </mrow>
+                                  </mfrac>
+                                </mrow>
+                              </annotation-xml>
+                            </semantics>
+                          </math>
+                        </div>
+                        <p id="fs-idm206340880">
+                          The
+                          <em data-effect="italics">y</em>-intercept of the equation,
+                          <em data-effect="italics">b</em>, is then calculated using either of the equivalent temperature pairs, (100 °C, 212 °F) or (0 °C, 32 °F), as:
+                        </p>
+                        <div data-type="equation" id="fs-idm234430272">
+                          <math display="block">
+                            <semantics>
+                              <mrow>
+                                <mrow>
+                                  <mi>b</mi>
+                                  <mo>=</mo>
+                                  <mi>y</mi>
+                                  <mo>−</mo>
+                                  <mi>m</mi>
+                                  <mi>x</mi>
+                                  <mo>=</mo>
+                                  <mtext>32 °F</mtext>
+                                  <mo>−</mo>
+                                  <mspace width="0.2em"/>
+                                  <mfrac>
+                                    <mrow>
+                                      <mtext>9 °F</mtext>
+                                    </mrow>
+                                    <mrow>
+                                      <mtext>5 °C</mtext>
+                                    </mrow>
+                                  </mfrac>
+                                  <mspace width="0.2em"/>
+                                  <mo>×</mo>
+                                  <mspace width="0.2em"/>
+                                  <mtext>0 °C</mtext>
+                                  <mo>=</mo>
+                                  <mtext>32 °F</mtext>
+                                </mrow>
+                              </mrow>
+                              <annotation-xml encoding="MathML-Content">
+                                <mrow>
+                                  <mi>b</mi>
+                                  <mo>=</mo>
+                                  <mi>y</mi>
+                                  <mo>−</mo>
+                                  <mi>m</mi>
+                                  <mi>x</mi>
+                                  <mo>=</mo>
+                                  <mtext>32 °F</mtext>
+                                  <mo>−</mo>
+                                  <mspace width="0.2em"/>
+                                  <mfrac>
+                                    <mrow>
+                                      <mtext>9 °F</mtext>
+                                    </mrow>
+                                    <mrow>
+                                      <mtext>5 °C</mtext>
+                                    </mrow>
+                                  </mfrac>
+                                  <mspace width="0.2em"/>
+                                  <mo>×</mo>
+                                  <mspace width="0.2em"/>
+                                  <mtext>0 °C</mtext>
+                                  <mo>=</mo>
+                                  <mtext>32 °F</mtext>
+                                </mrow>
+                              </annotation-xml>
+                            </semantics>
+                          </math>
+                        </div>
+                        <p id="fs-idm218561008">
+                          The equation relating the temperature (
+                          <em data-effect="italics">T</em>) scales is then:
+                        </p>
+                        <div data-type="equation" id="fs-idm305465424">
+                          <math display="block">
+                            <semantics>
+                              <mrow>
+                                <mrow>
+                                  <msub>
+                                    <mi>T</mi>
+                                    <mrow>
+                                      <mtext>°F</mtext>
+                                    </mrow>
+                                  </msub>
+                                  <mo>=</mo>
+                                  <mrow>
+                                    <mo>(</mo>
+                                    <mrow>
+                                      <mfrac>
+                                        <mrow>
+                                          <mtext>9 °F</mtext>
+                                        </mrow>
+                                        <mrow>
+                                          <mtext>5 °C</mtext>
+                                        </mrow>
+                                      </mfrac>
+                                      <mspace width="0.2em"/>
+                                      <mo>×</mo>
+                                      <mspace width="0.2em"/>
+                                      <msub>
+                                        <mi>T</mi>
+                                        <mrow>
+                                          <mtext>°C</mtext>
+                                        </mrow>
+                                      </msub>
+                                    </mrow>
+                                    <mo>)</mo>
+                                  </mrow>
+                                  <mo>+</mo>
+                                  <mtext>32 °C</mtext>
+                                </mrow>
+                              </mrow>
+                              <annotation-xml encoding="MathML-Content">
+                                <mrow>
+                                  <msub>
+                                    <mi>T</mi>
+                                    <mrow>
+                                      <mtext>°F</mtext>
+                                    </mrow>
+                                  </msub>
+                                  <mo>=</mo>
+                                  <mrow>
+                                    <mo>(</mo>
+                                    <mrow>
+                                      <mfrac>
+                                        <mrow>
+                                          <mtext>9 °F</mtext>
+                                        </mrow>
+                                        <mrow>
+                                          <mtext>5 °C</mtext>
+                                        </mrow>
+                                      </mfrac>
+                                      <mspace width="0.2em"/>
+                                      <mo>×</mo>
+                                      <mspace width="0.2em"/>
+                                      <msub>
+                                        <mi>T</mi>
+                                        <mrow>
+                                          <mtext>°C</mtext>
+                                        </mrow>
+                                      </msub>
+                                    </mrow>
+                                    <mo>)</mo>
+                                  </mrow>
+                                  <mo>+</mo>
+                                  <mtext>32 °C</mtext>
+                                </mrow>
+                              </annotation-xml>
+                            </semantics>
+                          </math>
+                        </div>
+                        <p
+                          id="fs-idm208304512"
+                        >An abbreviated form of this equation that omits the measurement units is:</p>
+                        <div data-type="equation" id="fs-idm226315088">
+                          <math display="block">
+                            <semantics>
+                              <mrow>
+                                <mrow>
+                                  <msub>
+                                    <mi>T</mi>
+                                    <mrow>
+                                      <mtext>°F</mtext>
+                                    </mrow>
+                                  </msub>
+                                  <mo>=</mo>
+                                  <mspace width="0.2em"/>
+                                  <mo>(</mo>
+                                  <mfrac>
+                                    <mn>9</mn>
+                                    <mrow>
+                                      <mn>5</mn>
+                                      <mspace width="0.2em"/>
+                                    </mrow>
+                                  </mfrac>
+                                  <mspace width="0.2em"/>
+                                  <mo>×</mo>
+                                  <mspace width="0.2em"/>
+                                  <msub>
+                                    <mi>T</mi>
+                                    <mrow>
+                                      <mtext>°C</mtext>
+                                    </mrow>
+                                  </msub>
+                                  <mo>)</mo>
+                                  <mo>+</mo>
+                                  <mn>32</mn>
+                                </mrow>
+                              </mrow>
+                              <annotation-xml encoding="MathML-Content">
+                                <mrow>
+                                  <msub>
+                                    <mi>T</mi>
+                                    <mrow>
+                                      <mtext>°F</mtext>
+                                    </mrow>
+                                  </msub>
+                                  <mo>=</mo>
+                                  <mspace width="0.2em"/>
+                                  <mo>(</mo>
+                                  <mfrac>
+                                    <mn>9</mn>
+                                    <mrow>
+                                      <mn>5</mn>
+                                      <mspace width="0.2em"/>
+                                    </mrow>
+                                  </mfrac>
+                                  <mspace width="0.2em"/>
+                                  <mo>×</mo>
+                                  <mspace width="0.2em"/>
+                                  <msub>
+                                    <mi>T</mi>
+                                    <mrow>
+                                      <mtext>°C</mtext>
+                                    </mrow>
+                                  </msub>
+                                  <mo>)</mo>
+                                  <mo>+</mo>
+                                  <mn>32</mn>
+                                </mrow>
+                              </annotation-xml>
+                            </semantics>
+                          </math>
+                        </div>
+                        <p
+                          id="fs-idm356038704"
+                        >Rearrangement of this equation yields the form useful for converting from Fahrenheit to Celsius:</p>
+                        <div data-type="equation" id="fs-idm138168256">
+                          <math display="block">
+                            <semantics>
+                              <mrow>
+                                <mrow>
+                                  <msub>
+                                    <mi>T</mi>
+                                    <mrow>
+                                      <mtext>°C</mtext>
+                                    </mrow>
+                                  </msub>
+                                  <mo>=</mo>
+                                  <mspace width="0.2em"/>
+                                  <mfrac>
+                                    <mrow>
+                                      <mn>5</mn>
+                                      <mspace width="0.2em"/>
+                                    </mrow>
+                                    <mrow>
+                                      <mn>9</mn>
+                                    </mrow>
+                                  </mfrac>
+                                  <mrow>
+                                    <mo>(</mo>
+                                    <mrow>
+                                      <msub>
+                                        <mi>T</mi>
+                                        <mrow>
+                                          <mtext>°F</mtext>
+                                        </mrow>
+                                      </msub>
+                                      <mo>−</mo>
+                                      <mn>32</mn>
+                                    </mrow>
+                                    <mo>)</mo>
+                                  </mrow>
+                                </mrow>
+                              </mrow>
+                              <annotation-xml encoding="MathML-Content">
+                                <mrow>
+                                  <msub>
+                                    <mi>T</mi>
+                                    <mrow>
+                                      <mtext>°C</mtext>
+                                    </mrow>
+                                  </msub>
+                                  <mo>=</mo>
+                                  <mspace width="0.2em"/>
+                                  <mfrac>
+                                    <mrow>
+                                      <mn>5</mn>
+                                      <mspace width="0.2em"/>
+                                    </mrow>
+                                    <mrow>
+                                      <mn>9</mn>
+                                    </mrow>
+                                  </mfrac>
+                                  <mrow>
+                                    <mo>(</mo>
+                                    <mrow>
+                                      <msub>
+                                        <mi>T</mi>
+                                        <mrow>
+                                          <mtext>°F</mtext>
+                                        </mrow>
+                                      </msub>
+                                      <mo>−</mo>
+                                      <mn>32</mn>
+                                    </mrow>
+                                    <mo>)</mo>
+                                  </mrow>
+                                </mrow>
+                              </annotation-xml>
+                            </semantics>
+                          </math>
+                        </div>
+                        <p
+                          id="fs-idm131802496"
+                        >As mentioned earlier in this chapter, the SI unit of temperature is the kelvin (K). Unlike the Celsius and Fahrenheit scales, the kelvin scale is an absolute temperature scale in which 0 (zero) K corresponds to the lowest temperature that can theoretically be achieved. Since the kelvin temperature scale is absolute, a degree symbol is not included in the unit abbreviation, K. The early 19th-century discovery of the relationship between a gas’s volume and temperature suggested that the volume of a gas would be zero at −273.15 °C. In 1848, British physicist William Thompson, who later adopted the title of Lord Kelvin, proposed an absolute temperature scale based on this concept (further treatment of this topic is provided in this text’s chapter on gases).</p>
+                        <p id="fs-idm309875456">
+                          The freezing temperature of water on this scale is 273.15 K and its boiling temperature is 373.15 K. Notice the numerical difference in these two reference temperatures is 100, the same as for the Celsius scale, and so the linear relation between these two temperature scales will exhibit a slope of
+                          <math display="inline">
+                            <semantics>
+                              <mrow>
+                                <mrow>
+                                  <mn>1</mn>
+                                  <mspace width="0.2em"/>
+                                  <mfrac>
+                                    <mtext>K</mtext>
+                                    <mrow>
+                                      <mtext>°C</mtext>
+                                    </mrow>
+                                  </mfrac>
+                                </mrow>
+                              </mrow>
+                              <annotation-xml encoding="MathML-Content">
+                                <mrow>
+                                  <mn>1</mn>
+                                  <mspace width="0.2em"/>
+                                  <mfrac>
+                                    <mtext>K</mtext>
+                                    <mrow>
+                                      <mtext>°C</mtext>
+                                    </mrow>
+                                  </mfrac>
+                                </mrow>
+                              </annotation-xml>
+                            </semantics>
+                          </math>. Following the same approach, the equations for converting between the kelvin and Celsius temperature scales are derived to be:
+                        </p>
+                        <div data-type="equation" id="fs-idp289344">
+                          <math display="block">
+                            <semantics>
+                              <mrow>
+                                <mrow>
+                                  <msub>
+                                    <mi>T</mi>
+                                    <mtext>K</mtext>
+                                  </msub>
+                                  <mo>=</mo>
+                                  <msub>
+                                    <mi>T</mi>
+                                    <mrow>
+                                      <mtext>°C</mtext>
+                                    </mrow>
+                                  </msub>
+                                  <mo>+</mo>
+                                  <mtext>273.15</mtext>
+                                </mrow>
+                              </mrow>
+                              <annotation-xml encoding="MathML-Content">
+                                <mrow>
+                                  <msub>
+                                    <mi>T</mi>
+                                    <mtext>K</mtext>
+                                  </msub>
+                                  <mo>=</mo>
+                                  <msub>
+                                    <mi>T</mi>
+                                    <mrow>
+                                      <mtext>°C</mtext>
+                                    </mrow>
+                                  </msub>
+                                  <mo>+</mo>
+                                  <mtext>273.15</mtext>
+                                </mrow>
+                              </annotation-xml>
+                            </semantics>
+                          </math>
+                        </div>
+                        <div data-type="equation" id="fs-idm303916848">
+                          <math display="block">
+                            <semantics>
+                              <mrow>
+                                <mrow>
+                                  <msub>
+                                    <mi>T</mi>
+                                    <mrow>
+                                      <mtext>°C</mtext>
+                                    </mrow>
+                                  </msub>
+                                  <mo>=</mo>
+                                  <msub>
+                                    <mi>T</mi>
+                                    <mtext>K</mtext>
+                                  </msub>
+                                  <mo>−</mo>
+                                  <mtext>273.15</mtext>
+                                </mrow>
+                              </mrow>
+                              <annotation-xml encoding="MathML-Content">
+                                <mrow>
+                                  <msub>
+                                    <mi>T</mi>
+                                    <mrow>
+                                      <mtext>°C</mtext>
+                                    </mrow>
+                                  </msub>
+                                  <mo>=</mo>
+                                  <msub>
+                                    <mi>T</mi>
+                                    <mtext>K</mtext>
+                                  </msub>
+                                  <mo>−</mo>
+                                  <mtext>273.15</mtext>
+                                </mrow>
+                              </annotation-xml>
+                            </semantics>
+                          </math>
+                        </div>
+                        <p id="fs-idm288599552">
+                          The 273.15 in these equations has been determined experimentally, so it is not exact.
+                          <a
+                            class="autogenerated-content"
+                            href="#CNX_Chem_01_06_TempScales"
+                          >Figure 1.28</a> shows the relationship among the three temperature scales.
+                        </p>
+                        <div class="os-figure" id="CNX_Chem_01_06_TempScales">
+                          <figure data-id="CNX_Chem_01_06_TempScales">
+                            <span
+                              data-alt="A thermometer is shown for the Fahrenheit, Celsius and Kelvin scales. Under the Fahrenheit scale, the boiling point of water is 212 degrees while the freezing point of water is 32 degrees. Therefore, there are 180 Fahrenheit degrees between the boiling point of water and the freezing point of water. Under the Celsius scale, the boiling point of water is 100 degrees while the freezing point of water is 0 degrees. Therefore, there are 100 Celsius degrees between the boiling point and freezing point of water. Under the kelvin scale, the boiling point of water is 373.15 K, while the freezing point of water is 273.15 K. 233.15 K is equal to negative 40 degrees Celsius, which is also equal to negative 40 degrees Fahrenheit."
+                              data-type="media"
+                              id="fs-idm249665120"
+                            >
+                              <img
+                                alt="A thermometer is shown for the Fahrenheit, Celsius and Kelvin scales. Under the Fahrenheit scale, the boiling point of water is 212 degrees while the freezing point of water is 32 degrees. Therefore, there are 180 Fahrenheit degrees between the boiling point of water and the freezing point of water. Under the Celsius scale, the boiling point of water is 100 degrees while the freezing point of water is 0 degrees. Therefore, there are 100 Celsius degrees between the boiling point and freezing point of water. Under the kelvin scale, the boiling point of water is 373.15 K, while the freezing point of water is 273.15 K. 233.15 K is equal to negative 40 degrees Celsius, which is also equal to negative 40 degrees Fahrenheit."
+                                data-media-type="image/jpeg"
+                                id="[redacted for uniqueness]"
+                                src="/resources/7a81a4456ab3500d3e2cf2bb8efdde3cbce4d33f"
+                              >
+                            </span>
+                          </figure>
+                          <div class="os-caption-container">
+                            <span class="os-title-label">Figure</span>
+                            <span class="os-number">1.28</span>
+                            <span class="os-divider"></span>
+                            <span class="os-divider"></span>
+                            <span
+                              class="os-caption"
+                            >The Fahrenheit, Celsius, and kelvin temperature scales are compared.</span>
+                          </div>
+                        </div>
+                        <p
+                          id="fs-idm296725200"
+                        >Although the kelvin (absolute) temperature scale is the official SI temperature scale, Celsius is commonly used in many scientific contexts and is the scale of choice for nonscience contexts in almost all areas of the world. Very few countries (the U.S. and its territories, the Bahamas, Belize, Cayman Islands, and Palau) still use Fahrenheit for weather, medicine, and cooking.</p>
+                        <div data-type="example" id="fs-idm75569040">
+                          <h3 class="os-title">
+                            <span class="os-title-label">Example</span>
+                            <span class="os-number">1.11</span>
+                            <span class="os-divider"></span>
+                          </h3>
+                          <p id="fs-idm290946544">
+                            <span data-type="title">Conversion from Celsius</span>
+                            Normal body temperature has been commonly accepted as 37.0 °C (although it varies depending on time of day and method of measurement, as well as among individuals). What is this temperature on the kelvin scale and on the Fahrenheit scale?
+                          </p>
+                          <p id="fs-idm288550064">
+                            <span data-type="title">Solution</span>
+                          </p>
+                          <div data-type="equation" id="fs-idm223031696">
+                            <math display="block">
+                              <semantics>
+                                <mrow>
+                                  <mrow>
+                                    <mtext>K</mtext>
+                                    <mo>=</mo>
+                                    <mtext>°C</mtext>
+                                    <mo>+</mo>
+                                    <mn>273.15</mn>
+                                    <mo>=</mo>
+                                    <mn>37.0</mn>
+                                    <mo>+</mo>
+                                    <mn>273.2</mn>
+                                    <mo>=</mo>
+                                    <mtext>310.2 K</mtext>
+                                  </mrow>
+                                </mrow>
+                                <annotation-xml encoding="MathML-Content">
+                                  <mrow>
+                                    <mtext>K</mtext>
+                                    <mo>=</mo>
+                                    <mtext>°C</mtext>
+                                    <mo>+</mo>
+                                    <mn>273.15</mn>
+                                    <mo>=</mo>
+                                    <mn>37.0</mn>
+                                    <mo>+</mo>
+                                    <mn>273.2</mn>
+                                    <mo>=</mo>
+                                    <mtext>310.2 K</mtext>
+                                  </mrow>
+                                </annotation-xml>
+                              </semantics>
+                            </math>
+                          </div>
+                          <div data-type="equation" id="fs-idp114907616">
+                            <math display="block">
+                              <semantics>
+                                <mrow>
+                                  <mrow>
+                                    <mtext>°F</mtext>
+                                    <mo>=</mo>
+                                    <mfrac>
+                                      <mn>9</mn>
+                                      <mn>5</mn>
+                                    </mfrac>
+                                    <mtext>°C</mtext>
+                                    <mo>+</mo>
+                                    <mn>32.0</mn>
+                                    <mo>=</mo>
+                                    <mrow>
+                                      <mo>(</mo>
+                                      <mrow>
+                                        <mfrac>
+                                          <mn>9</mn>
+                                          <mn>5</mn>
+                                        </mfrac>
+                                        <mspace width="0.2em"/>
+                                        <mo>×</mo>
+                                        <mspace width="0.2em"/>
+                                        <mn>37.0</mn>
+                                      </mrow>
+                                      <mo>)</mo>
+                                    </mrow>
+                                    <mo>+</mo>
+                                    <mn>32.0</mn>
+                                    <mo>=</mo>
+                                    <mn>66.6</mn>
+                                    <mo>+</mo>
+                                    <mn>32.0</mn>
+                                    <mo>=</mo>
+                                    <mtext>98.6 °F</mtext>
+                                  </mrow>
+                                </mrow>
+                                <annotation-xml encoding="MathML-Content">
+                                  <mrow>
+                                    <mtext>°F</mtext>
+                                    <mo>=</mo>
+                                    <mfrac>
+                                      <mn>9</mn>
+                                      <mn>5</mn>
+                                    </mfrac>
+                                    <mtext>°C</mtext>
+                                    <mo>+</mo>
+                                    <mn>32.0</mn>
+                                    <mo>=</mo>
+                                    <mrow>
+                                      <mo>(</mo>
+                                      <mrow>
+                                        <mfrac>
+                                          <mn>9</mn>
+                                          <mn>5</mn>
+                                        </mfrac>
+                                        <mspace width="0.2em"/>
+                                        <mo>×</mo>
+                                        <mspace width="0.2em"/>
+                                        <mn>37.0</mn>
+                                      </mrow>
+                                      <mo>)</mo>
+                                    </mrow>
+                                    <mo>+</mo>
+                                    <mn>32.0</mn>
+                                    <mo>=</mo>
+                                    <mn>66.6</mn>
+                                    <mo>+</mo>
+                                    <mn>32.0</mn>
+                                    <mo>=</mo>
+                                    <mtext>98.6 °F</mtext>
+                                  </mrow>
+                                </annotation-xml>
+                              </semantics>
+                            </math>
+                          </div>
+                          <p id="fs-idp16310096">
+                            <span data-type="title">Check Your Learning</span>
+                            Convert 80.92 °C to K and °F.
+                          </p>
+                          <div data-type="note" id="fs-idp2744272">
+                            <h3 class="os-title" data-type="title">
+                              <span
+                                class="os-title-label"
+                                data-type
+                                id="[redacted for uniqueness]"
+                              >Answer:</span>
+                            </h3>
+                            <div class="os-note-body">
+                              <p id="fs-idm203762304">354.07 K, 177.7 °F</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div data-type="example" id="fs-idm309453552">
+                          <h3 class="os-title">
+                            <span class="os-title-label">Example</span>
+                            <span class="os-number">1.12</span>
+                            <span class="os-divider"></span>
+                          </h3>
+                          <p id="fs-idm421846336">
+                            <span data-type="title">Conversion from Fahrenheit</span>
+                            Baking a ready-made pizza calls for an oven temperature of 450 °F. If you are in Europe, and your oven thermometer uses the Celsius scale, what is the setting? What is the kelvin temperature?
+                          </p>
+                          <p id="fs-idm36231872">
+                            <span data-type="title">Solution</span>
+                          </p>
+                          <div data-type="equation" id="fs-idm32912">
+                            <math display="block">
+                              <semantics>
+                                <mrow>
+                                  <mrow>
+                                    <mtext>°C</mtext>
+                                    <mo>=</mo>
+                                    <mspace width="0.2em"/>
+                                    <mfrac>
+                                      <mn>5</mn>
+                                      <mn>9</mn>
+                                    </mfrac>
+                                    <mtext>(°F</mtext>
+                                    <mo>−</mo>
+                                    <mtext>32)</mtext>
+                                    <mo>=</mo>
+                                    <mspace width="0.2em"/>
+                                    <mfrac>
+                                      <mn>5</mn>
+                                      <mn>9</mn>
+                                    </mfrac>
+                                    <mrow>
+                                      <mo>(</mo>
+                                      <mrow>
+                                        <mn>450</mn>
+                                        <mo>−</mo>
+                                        <mn>32</mn>
+                                      </mrow>
+                                      <mo>)</mo>
+                                    </mrow>
+                                    <mo>=</mo>
+                                    <mspace width="0.2em"/>
+                                    <mfrac>
+                                      <mn>5</mn>
+                                      <mn>9</mn>
+                                    </mfrac>
+                                    <mspace width="0.2em"/>
+                                    <mo>×</mo>
+                                    <mspace width="0.2em"/>
+                                    <mn>418</mn>
+                                    <mo>=</mo>
+                                    <mtext>232 °C</mtext>
+                                    <mspace width="0.2em"/>
+                                    <mo stretchy="false">⟶</mo>
+                                    <mspace width="0.2em"/>
+                                    <mtext>set oven to 230 °C</mtext>
+                                    <mspace width="2em"/>
+                                    <mrow>
+                                      <mo>(</mo>
+                                      <mrow>
+                                        <mtext>two significant figures</mtext>
+                                      </mrow>
+                                      <mo>)</mo>
+                                    </mrow>
+                                  </mrow>
+                                </mrow>
+                                <annotation-xml encoding="MathML-Content">
+                                  <mrow>
+                                    <mtext>°C</mtext>
+                                    <mo>=</mo>
+                                    <mspace width="0.2em"/>
+                                    <mfrac>
+                                      <mn>5</mn>
+                                      <mn>9</mn>
+                                    </mfrac>
+                                    <mtext>(°F</mtext>
+                                    <mo>−</mo>
+                                    <mtext>32)</mtext>
+                                    <mo>=</mo>
+                                    <mspace width="0.2em"/>
+                                    <mfrac>
+                                      <mn>5</mn>
+                                      <mn>9</mn>
+                                    </mfrac>
+                                    <mrow>
+                                      <mo>(</mo>
+                                      <mrow>
+                                        <mn>450</mn>
+                                        <mo>−</mo>
+                                        <mn>32</mn>
+                                      </mrow>
+                                      <mo>)</mo>
+                                    </mrow>
+                                    <mo>=</mo>
+                                    <mspace width="0.2em"/>
+                                    <mfrac>
+                                      <mn>5</mn>
+                                      <mn>9</mn>
+                                    </mfrac>
+                                    <mspace width="0.2em"/>
+                                    <mo>×</mo>
+                                    <mspace width="0.2em"/>
+                                    <mn>418</mn>
+                                    <mo>=</mo>
+                                    <mtext>232 °C</mtext>
+                                    <mspace width="0.2em"/>
+                                    <mo stretchy="false">⟶</mo>
+                                    <mspace width="0.2em"/>
+                                    <mtext>set oven to 230 °C</mtext>
+                                    <mspace width="2em"/>
+                                    <mrow>
+                                      <mo>(</mo>
+                                      <mrow>
+                                        <mtext>two significant figures</mtext>
+                                      </mrow>
+                                      <mo>)</mo>
+                                    </mrow>
+                                  </mrow>
+                                </annotation-xml>
+                              </semantics>
+                            </math>
+                          </div>
+                          <div data-type="equation" id="fs-idm144212448">
+                            <math display="block">
+                              <semantics>
+                                <mrow>
+                                  <mrow>
+                                    <mtext>K</mtext>
+                                    <mo>=</mo>
+                                    <mtext>°C</mtext>
+                                    <mo>+</mo>
+                                    <mn>273.15</mn>
+                                    <mo>=</mo>
+                                    <mn>230</mn>
+                                    <mo>+</mo>
+                                    <mn>273</mn>
+                                    <mo>=</mo>
+                                    <mtext>503 K</mtext>
+                                    <mspace width="0.2em"/>
+                                    <mo stretchy="false">⟶</mo>
+                                    <mspace width="0.2em"/>
+                                    <mn>5.0</mn>
+                                    <mspace width="0.2em"/>
+                                    <mo>×</mo>
+                                    <mspace width="0.2em"/>
+                                    <msup>
+                                      <mrow>
+                                        <mn>10</mn>
+                                      </mrow>
+                                      <mn>2</mn>
+                                    </msup>
+                                    <mtext>K</mtext>
+                                    <mspace width="2em"/>
+                                    <mrow>
+                                      <mo>(</mo>
+                                      <mrow>
+                                        <mtext>two significant figures</mtext>
+                                      </mrow>
+                                      <mo>)</mo>
+                                    </mrow>
+                                  </mrow>
+                                </mrow>
+                                <annotation-xml encoding="MathML-Content">
+                                  <mrow>
+                                    <mtext>K</mtext>
+                                    <mo>=</mo>
+                                    <mtext>°C</mtext>
+                                    <mo>+</mo>
+                                    <mn>273.15</mn>
+                                    <mo>=</mo>
+                                    <mn>230</mn>
+                                    <mo>+</mo>
+                                    <mn>273</mn>
+                                    <mo>=</mo>
+                                    <mtext>503 K</mtext>
+                                    <mspace width="0.2em"/>
+                                    <mo stretchy="false">⟶</mo>
+                                    <mspace width="0.2em"/>
+                                    <mn>5.0</mn>
+                                    <mspace width="0.2em"/>
+                                    <mo>×</mo>
+                                    <mspace width="0.2em"/>
+                                    <msup>
+                                      <mrow>
+                                        <mn>10</mn>
+                                      </mrow>
+                                      <mn>2</mn>
+                                    </msup>
+                                    <mtext>K</mtext>
+                                    <mspace width="2em"/>
+                                    <mrow>
+                                      <mo>(</mo>
+                                      <mrow>
+                                        <mtext>two significant figures</mtext>
+                                      </mrow>
+                                      <mo>)</mo>
+                                    </mrow>
+                                  </mrow>
+                                </annotation-xml>
+                              </semantics>
+                            </math>
+                          </div>
+                          <p id="fs-idm296519728">
+                            <span data-type="title">Check Your Learning</span>
+                            Convert 50 °F to °C and K.
+                          </p>
+                          <div data-type="note" id="fs-idm271612080">
+                            <h3 class="os-title" data-type="title">
+                              <span
+                                class="os-title-label"
+                                data-type
+                                id="[redacted for uniqueness]"
+                              >Answer:</span>
+                            </h3>
+                            <div class="os-note-body">
+                              <p id="fs-idm296391568">10 °C, 280 K</p>
+                            </div>
+                          </div>
+                        </div>
+                      </section>
+                    </div>
+                  </div>
+                  

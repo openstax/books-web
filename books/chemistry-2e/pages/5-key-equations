@@ -1,0 +1,235 @@
+
+                    <div
+                      class="os-eoc os-key-equations-container"
+                      data-type="composite-page"
+                      data-uuid-key=".key-equations"
+                    >
+                      <section
+                        class="key-equations"
+                        data-depth="1"
+                        id="fs-idm20711744"
+                      >
+                        <ul data-bullet-style="bullet" id="fs-idm34218688">
+                          <li>
+                            <math display="inline">
+                              <semantics>
+                                <mrow>
+                                  <mrow>
+                                    <mi>q</mi>
+                                    <mo>=</mo>
+                                    <mi>c</mi>
+                                    <mspace width="0.2em"/>
+                                    <mo>×</mo>
+                                    <mspace width="0.2em"/>
+                                    <mi>m</mi>
+                                    <mspace width="0.2em"/>
+                                    <mo>×</mo>
+                                    <mspace width="0.2em"/>
+                                    <mtext>Δ</mtext>
+                                    <mstyle mathvariant="italic">
+                                      <mtext>T</mtext>
+                                    </mstyle>
+                                    <mo>=</mo>
+                                    <mi>c</mi>
+                                    <mspace width="0.2em"/>
+                                    <mo>×</mo>
+                                    <mspace width="0.2em"/>
+                                    <mi>m</mi>
+                                    <mspace width="0.2em"/>
+                                    <mo>×</mo>
+                                    <mspace width="0.2em"/>
+                                    <mo stretchy="false">(</mo>
+                                    <msub>
+                                      <mi>T</mi>
+                                      <mrow>
+                                        <mtext>final</mtext>
+                                      </mrow>
+                                    </msub>
+                                    <mo>−</mo>
+                                    <msub>
+                                      <mi>T</mi>
+                                      <mrow>
+                                        <mtext>initial</mtext>
+                                      </mrow>
+                                    </msub>
+                                    <mo stretchy="false">)</mo>
+                                  </mrow>
+                                </mrow>
+                                <annotation-xml encoding="MathML-Content">
+                                  <mrow>
+                                    <mi>q</mi>
+                                    <mo>=</mo>
+                                    <mi>c</mi>
+                                    <mspace width="0.2em"/>
+                                    <mo>×</mo>
+                                    <mspace width="0.2em"/>
+                                    <mi>m</mi>
+                                    <mspace width="0.2em"/>
+                                    <mo>×</mo>
+                                    <mspace width="0.2em"/>
+                                    <mtext>Δ</mtext>
+                                    <mstyle mathvariant="italic">
+                                      <mtext>T</mtext>
+                                    </mstyle>
+                                    <mo>=</mo>
+                                    <mi>c</mi>
+                                    <mspace width="0.2em"/>
+                                    <mo>×</mo>
+                                    <mspace width="0.2em"/>
+                                    <mi>m</mi>
+                                    <mspace width="0.2em"/>
+                                    <mo>×</mo>
+                                    <mspace width="0.2em"/>
+                                    <mo stretchy="false">(</mo>
+                                    <msub>
+                                      <mi>T</mi>
+                                      <mrow>
+                                        <mtext>final</mtext>
+                                      </mrow>
+                                    </msub>
+                                    <mo>−</mo>
+                                    <msub>
+                                      <mi>T</mi>
+                                      <mrow>
+                                        <mtext>initial</mtext>
+                                      </mrow>
+                                    </msub>
+                                    <mo stretchy="false">)</mo>
+                                  </mrow>
+                                </annotation-xml>
+                              </semantics>
+                            </math>
+                          </li>
+                        </ul>
+                      </section>
+                      <section
+                        class="key-equations"
+                        data-depth="1"
+                        id="fs-idp165577648"
+                      >
+                        <ul data-bullet-style="bullet" id="fs-idp165578528">
+                          <li>
+                            <math display="inline">
+                              <semantics>
+                                <mrow>
+                                  <mtext>Δ</mtext>
+                                  <mi>U</mi>
+                                  <mo>=</mo>
+                                  <mi>q</mi>
+                                  <mo>+</mo>
+                                  <mi>w</mi>
+                                </mrow>
+                                <annotation-xml encoding="MathML-Content">
+                                  <mtext>Δ</mtext>
+                                  <mi>U</mi>
+                                  <mo>=</mo>
+                                  <mi>q</mi>
+                                  <mo>+</mo>
+                                  <mi>w</mi>
+                                </annotation-xml>
+                              </semantics>
+                            </math>
+                          </li>
+                          <li>
+                            <math display="inline">
+                              <semantics>
+                                <mrow>
+                                  <mrow>
+                                    <mtext>Δ</mtext>
+                                    <msubsup>
+                                      <mi>H</mi>
+                                      <mrow>
+                                        <mtext>reaction</mtext>
+                                      </mrow>
+                                      <mo>°</mo>
+                                    </msubsup>
+                                    <mo>=</mo>
+                                    <mstyle displaystyle="true">
+                                      <mo stretchy="false">∑</mo>
+                                      <mrow>
+                                        <mi>n</mi>
+                                        <mspace width="0.2em"/>
+                                        <mo>×</mo>
+                                        <mspace width="0.2em"/>
+                                        <mtext>Δ</mtext>
+                                        <msubsup>
+                                          <mi>H</mi>
+                                          <mtext>f</mtext>
+                                          <mo>°</mo>
+                                        </msubsup>
+                                        <mtext>(products)</mtext>
+                                      </mrow>
+                                    </mstyle>
+                                    <mo>−</mo>
+                                    <mstyle displaystyle="true">
+                                      <mo stretchy="false">∑</mo>
+                                      <mi>n</mi>
+                                    </mstyle>
+                                    <mspace width="0.2em"/>
+                                    <mo>×</mo>
+                                    <mspace width="0.2em"/>
+                                    <mtext>Δ</mtext>
+                                    <msubsup>
+                                      <mi>H</mi>
+                                      <mtext>f</mtext>
+                                      <mo>°</mo>
+                                    </msubsup>
+                                    <mo stretchy="false">(</mo>
+                                    <mtext>reactants</mtext>
+                                    <mo stretchy="false">)</mo>
+                                  </mrow>
+                                </mrow>
+                                <annotation-xml encoding="MathML-Content">
+                                  <mrow>
+                                    <mtext>Δ</mtext>
+                                    <msubsup>
+                                      <mi>H</mi>
+                                      <mrow>
+                                        <mtext>reaction</mtext>
+                                      </mrow>
+                                      <mo>°</mo>
+                                    </msubsup>
+                                    <mo>=</mo>
+                                    <mstyle displaystyle="true">
+                                      <mo stretchy="false">∑</mo>
+                                      <mrow>
+                                        <mi>n</mi>
+                                        <mspace width="0.2em"/>
+                                        <mo>×</mo>
+                                        <mspace width="0.2em"/>
+                                        <mtext>Δ</mtext>
+                                        <msubsup>
+                                          <mi>H</mi>
+                                          <mtext>f</mtext>
+                                          <mo>°</mo>
+                                        </msubsup>
+                                        <mtext>(products)</mtext>
+                                      </mrow>
+                                    </mstyle>
+                                    <mo>−</mo>
+                                    <mstyle displaystyle="true">
+                                      <mo stretchy="false">∑</mo>
+                                      <mi>n</mi>
+                                    </mstyle>
+                                    <mspace width="0.2em"/>
+                                    <mo>×</mo>
+                                    <mspace width="0.2em"/>
+                                    <mtext>Δ</mtext>
+                                    <msubsup>
+                                      <mi>H</mi>
+                                      <mtext>f</mtext>
+                                      <mo>°</mo>
+                                    </msubsup>
+                                    <mo stretchy="false">(</mo>
+                                    <mtext>reactants</mtext>
+                                    <mo stretchy="false">)</mo>
+                                  </mrow>
+                                </annotation-xml>
+                              </semantics>
+                            </math>
+                          </li>
+                        </ul>
+                      </section>
+                    </div>
+                  </div>
+                  

@@ -1,0 +1,23 @@
+---
+platform: linux
+
+image_resource:
+  type: docker-image
+  source:
+    repository: python
+
+inputs:
+- name: rex-web
+- name: test-plans
+- name: unified-issues-milestones
+
+params:
+  TR_PROJECT_ID: ((testrail-project-id))
+  TR_INSTANCE: ((testrail-instance))
+  TR_USERNAME: ((testrail-username))
+  TR_PASSWORD: ((testrail-password))
+  SAUCELABS_USERNAME: ((saucelabs-username))
+  SAUCELABS_API_KEY: ((saucelabs-api-key))
+
+run:
+  path: rex-web/concourse/execute-test-runs/script.bash

@@ -1,0 +1,716 @@
+
+                    <div
+                      data-cnxml-to-html-ver="[redacted for uniqueness]"
+                      data-type="page"
+                      id="5b973783-ed86-4363-9600-4e10fd316b90"
+                    >
+                      <div data-type="abstract" id="[redacted for uniqueness]">
+                        By the end of this section, you will be able to:
+                        <ul>
+                          <li>Describe the structure and properties of aldehydes, ketones, carboxylic acids and esters</li>
+                        </ul>
+                      </div>
+
+                      <p
+                        id="fs-idp53896496"
+                      >Another class of organic molecules contains a carbon atom connected to an oxygen atom by a double bond, commonly called a carbonyl group. The trigonal planar carbon in the carbonyl group can attach to two other substituents leading to several subfamilies (aldehydes, ketones, carboxylic acids and esters) described in this section.</p>
+
+                      <section data-depth="1" id="fs-idp48202688">
+                        <h3 data-type="title">Aldehydes and Ketones</h3>
+                        <p id="fs-idp50721744">
+                          Both
+                          <span
+                            data-type="term"
+                            group-by="a"
+                            id="[redacted for uniqueness]"
+                          >aldehydes</span> and
+                          <span
+                            data-type="term"
+                            group-by="k"
+                            id="[redacted for uniqueness]"
+                          >ketones</span> contain a
+                          <span
+                            data-type="term"
+                            group-by="c"
+                            id="[redacted for uniqueness]"
+                          >carbonyl group</span>, a functional group with a carbon-oxygen double bond. The names for aldehyde and ketone compounds are derived using similar nomenclature rules as for alkanes and alcohols, and include the class-identifying suffixes
+                          <em data-effect="italics">-al</em> and
+                          <em data-effect="italics">-one</em>, respectively:
+                        </p>
+                        <span
+                          class="scaled-down"
+                          data-alt="A C atom is shown with dashes appearing to the left and right. An O atom is double bonded above the C atom."
+                          data-type="media"
+                          id="fs-idm18746560"
+                        >
+                          <img
+                            alt="A C atom is shown with dashes appearing to the left and right. An O atom is double bonded above the C atom."
+                            data-media-type="image/jpeg"
+                            id="[redacted for uniqueness]"
+                            src="/resources/9a8459c91c80b600e3410ac33f0becd0b7ce8a1c"
+                          >
+                        </span>
+                        <p
+                          id="fs-idp87077168"
+                        >In an aldehyde, the carbonyl group is bonded to at least one hydrogen atom. In a ketone, the carbonyl group is bonded to two carbon atoms:</p>
+                        <span
+                          class="scaled-down"
+                          data-alt="Five structures are shown. The first is a C atom with an R group bonded to the left and an H atom to the right. An O atom is double bonded above the C atom. This structure is labeled, “Functional group of an aldehyde.” The second structure shows a C atom with R groups bonded to the left and right. An O atom is double bonded above the C atom. This structure is labeled, “Functional group of a ketone.” The third structure looks exactly like the functional group of a ketone. The fourth structure is labeled C H subscript 3 C H O. It is also labeled, “An aldehyde,” and “ethanal (acetaldehyde).” This structure has a C atom to which 3 H atoms are bonded above, below, and to the left. In red to the right of this C atom, a C atom is attached which has an O atom double bonded above and an H atom bonded to the right. The O atom as two sets of electron dots. The fifth structure is labeled C H subscript 3 C O C H subscript 2 C H subscript 3. It is also labeled, “A ketone,” and “butanone.” This structure has a C atom to which 3 H atoms are bonded above, below, and to the left. To the right of this in red is a C atom to which an O atom is double bonded above. The O atom has two sets of electron dots. Attached to the right of this red C atom in black is a two carbon atom chain with H atoms attached above, below, and to the right."
+                          data-type="media"
+                          id="fs-idp29213312"
+                        >
+                          <img
+                            alt="Five structures are shown. The first is a C atom with an R group bonded to the left and an H atom to the right. An O atom is double bonded above the C atom. This structure is labeled, “Functional group of an aldehyde.” The second structure shows a C atom with R groups bonded to the left and right. An O atom is double bonded above the C atom. This structure is labeled, “Functional group of a ketone.” The third structure looks exactly like the functional group of a ketone. The fourth structure is labeled C H subscript 3 C H O. It is also labeled, “An aldehyde,” and “ethanal (acetaldehyde).” This structure has a C atom to which 3 H atoms are bonded above, below, and to the left. In red to the right of this C atom, a C atom is attached which has an O atom double bonded above and an H atom bonded to the right. The O atom as two sets of electron dots. The fifth structure is labeled C H subscript 3 C O C H subscript 2 C H subscript 3. It is also labeled, “A ketone,” and “butanone.” This structure has a C atom to which 3 H atoms are bonded above, below, and to the left. To the right of this in red is a C atom to which an O atom is double bonded above. The O atom has two sets of electron dots. Attached to the right of this red C atom in black is a two carbon atom chain with H atoms attached above, below, and to the right."
+                            data-media-type="image/jpeg"
+                            id="[redacted for uniqueness]"
+                            src="/resources/e68d08d5415f795b0442dad7ba7f87d32b7053e7"
+                          >
+                        </span>
+                        <span
+                          class="scaled-down"
+                          data-alt="No Alt Text"
+                          data-type="media"
+                          id="fs-idp7703504"
+                        >
+                          <img
+                            alt="No Alt Text"
+                            data-media-type="image/jpeg"
+                            id="[redacted for uniqueness]"
+                            src="/resources/d5f759ab850a78bd87a1cc36422d63c9c2e38132"
+                          >
+                        </span>
+                        <p
+                          id="fs-idp15639776"
+                        >As text, an aldehyde group is represented as –CHO; a ketone is represented as –C(O)– or –CO–.</p>
+                        <p id="fs-idp17452784">
+                          In both aldehydes and ketones, the geometry around the carbon atom in the carbonyl group is trigonal planar; the carbon atom exhibits
+                          <em data-effect="italics">sp</em>
+                          <sup>2</sup> hybridization. Two of the
+                          <em data-effect="italics">sp</em>
+                          <sup>2</sup> orbitals on the carbon atom in the carbonyl group are used to form σ bonds to the other carbon or hydrogen atoms in a molecule. The remaining
+                          <em data-effect="italics">sp</em>
+                          <sup>2</sup> hybrid orbital forms a σ bond to the oxygen atom. The unhybridized
+                          <em data-effect="italics">p</em> orbital on the carbon atom in the carbonyl group overlaps a
+                          <em data-effect="italics">p</em> orbital on the oxygen atom to form the π bond in the double bond.
+                        </p>
+                        <p id="fs-idm60696832">
+                          Like the
+                          <math display="inline">
+                            <semantics>
+                              <mrow>
+                                <mrow>
+                                  <mtext>C</mtext>
+                                  <mo>=</mo>
+                                  <mtext>O</mtext>
+                                </mrow>
+                              </mrow>
+                              <annotation-xml encoding="MathML-Content">
+                                <mrow>
+                                  <mtext>C</mtext>
+                                  <mo>=</mo>
+                                  <mtext>O</mtext>
+                                </mrow>
+                              </annotation-xml>
+                            </semantics>
+                          </math> bond in carbon dioxide, the
+                          <math display="inline">
+                            <semantics>
+                              <mrow>
+                                <mrow>
+                                  <mtext>C</mtext>
+                                  <mo>=</mo>
+                                  <mtext>O</mtext>
+                                </mrow>
+                              </mrow>
+                              <annotation-xml encoding="MathML-Content">
+                                <mrow>
+                                  <mtext>C</mtext>
+                                  <mo>=</mo>
+                                  <mtext>O</mtext>
+                                </mrow>
+                              </annotation-xml>
+                            </semantics>
+                          </math> bond of a carbonyl group is polar (recall that oxygen is significantly more electronegative than carbon, and the shared electrons are pulled toward the oxygen atom and away from the carbon atom). Many of the reactions of aldehydes and ketones start with the reaction between a Lewis base and the carbon atom at the positive end of the polar
+                          <math display="inline">
+                            <semantics>
+                              <mrow>
+                                <mrow>
+                                  <mtext>C</mtext>
+                                  <mo>=</mo>
+                                  <mtext>O</mtext>
+                                </mrow>
+                              </mrow>
+                              <annotation-xml encoding="MathML-Content">
+                                <mrow>
+                                  <mtext>C</mtext>
+                                  <mo>=</mo>
+                                  <mtext>O</mtext>
+                                </mrow>
+                              </annotation-xml>
+                            </semantics>
+                          </math> bond to yield an unstable intermediate that subsequently undergoes one or more structural rearrangements to form the final product (
+                          <a
+                            class="autogenerated-content"
+                            href="#CNX_Chem_20_03_COgeom_img"
+                          >Figure 20.14</a>).
+                        </p>
+                        <div class="os-figure" id="CNX_Chem_20_03_COgeom_img">
+                          <figure
+                            class="scaled-down"
+                            data-id="CNX_Chem_20_03_COgeom_img"
+                          >
+                            <span
+                              data-alt="This structure shows a central C atom to which an O atom is double bonded above. To the lower left, R superscript 1 is bonded and to the lower right, R superscript 2 is bonded. A Greek lowercase delta superscript plus appears to the left of the C and just above the bond with R superscript 1. Similarly, a Greek lowercase delta superscript negative sign appears to the left of the O atom. An arc is drawn from the double bond that links the C atom and the O atom to the bond that links the C atom to the R superscript 2 group. This arc is labeled approximately 120 degrees."
+                              data-type="media"
+                              id="fs-idp28632960"
+                            >
+                              <img
+                                alt="This structure shows a central C atom to which an O atom is double bonded above. To the lower left, R superscript 1 is bonded and to the lower right, R superscript 2 is bonded. A Greek lowercase delta superscript plus appears to the left of the C and just above the bond with R superscript 1. Similarly, a Greek lowercase delta superscript negative sign appears to the left of the O atom. An arc is drawn from the double bond that links the C atom and the O atom to the bond that links the C atom to the R superscript 2 group. This arc is labeled approximately 120 degrees."
+                                data-media-type="image/jpeg"
+                                id="[redacted for uniqueness]"
+                                src="/resources/99f7aea68464f7de252ea5aa0cbea32754106b76"
+                              >
+                            </span>
+                          </figure>
+                          <div class="os-caption-container">
+                            <span class="os-title-label">Figure</span>
+                            <span class="os-number">20.14</span>
+                            <span class="os-divider"></span>
+                            <span class="os-divider"></span>
+                            <span
+                              class="os-caption"
+                            >The carbonyl group is polar, and the geometry of the bonds around the central carbon is trigonal planar.</span>
+                          </div>
+                        </div>
+                        <p
+                          id="fs-idp29962352"
+                        >The importance of molecular structure in the reactivity of organic compounds is illustrated by the reactions that produce aldehydes and ketones. We can prepare a carbonyl group by oxidation of an alcohol—for organic molecules, oxidation of a carbon atom is said to occur when a carbon-hydrogen bond is replaced by a carbon-oxygen bond. The reverse reaction—replacing a carbon-oxygen bond by a carbon-hydrogen bond—is a reduction of that carbon atom. Recall that oxygen is generally assigned a –2 oxidation number unless it is elemental or attached to a fluorine. Hydrogen is generally assigned an oxidation number of +1 unless it is attached to a metal. Since carbon does not have a specific rule, its oxidation number is determined algebraically by factoring the atoms it is attached to and the overall charge of the molecule or ion. In general, a carbon atom attached to an oxygen atom will have a more positive oxidation number and a carbon atom attached to a hydrogen atom will have a more negative oxidation number. This should fit nicely with your understanding of the polarity of C–O and C–H bonds. The other reagents and possible products of these reactions are beyond the scope of this chapter, so we will focus only on the changes to the carbon atoms:</p>
+                        <span
+                          class="scaled-down"
+                          data-alt="A reaction is shown. On the left appears an alcohol and on the right, a carbonyl group. Above the reaction arrow appears the word “oxidation.” The alcohol is represented as a C atom with dashes to the left and below, an H atom bonded above, and an O atom bonded to an H atom in red connected to the right. The O atom has two sets of electron dots. The carbonyl group is indicated in red with a C atom to which an O atom is double bonded above. Dashes appear left and right of the C atom in black. The O atom has two sets of electron dots."
+                          data-type="media"
+                          id="fs-idp41917344"
+                        >
+                          <img
+                            alt="A reaction is shown. On the left appears an alcohol and on the right, a carbonyl group. Above the reaction arrow appears the word “oxidation.” The alcohol is represented as a C atom with dashes to the left and below, an H atom bonded above, and an O atom bonded to an H atom in red connected to the right. The O atom has two sets of electron dots. The carbonyl group is indicated in red with a C atom to which an O atom is double bonded above. Dashes appear left and right of the C atom in black. The O atom has two sets of electron dots."
+                            data-media-type="image/jpeg"
+                            id="[redacted for uniqueness]"
+                            src="/resources/e56ab2234911a04475eb91a9c074a174937f919d"
+                          >
+                        </span>
+                        <div data-type="example" id="fs-idm15460912">
+                          <h3 class="os-title">
+                            <span class="os-title-label">Example</span>
+                            <span class="os-number">20.10</span>
+                            <span class="os-divider"></span>
+                          </h3>
+                          <p id="fs-idp59180000">
+                            <span
+                              data-type="title"
+                            >Oxidation and Reduction in Organic Chemistry</span>
+                            Methane represents the completely reduced form of an organic molecule that contains one carbon atom. Sequentially replacing each of the carbon-hydrogen bonds with a carbon-oxygen bond would lead to an alcohol, then an aldehyde, then a carboxylic acid (discussed later), and, finally, carbon dioxide:
+                          </p>
+                          <div data-type="equation" id="fs-idm257428432">
+                            <math display="block">
+                              <semantics>
+                                <mrow>
+                                  <mrow>
+                                    <msub>
+                                      <mrow>
+                                        <mtext>CH</mtext>
+                                      </mrow>
+                                      <mn>4</mn>
+                                    </msub>
+                                    <mspace width="0.2em"/>
+                                    <mo stretchy="false">⟶</mo>
+                                    <mspace width="0.2em"/>
+                                    <msub>
+                                      <mrow>
+                                        <mtext>CH</mtext>
+                                      </mrow>
+                                      <mn>3</mn>
+                                    </msub>
+                                    <mtext>OH</mtext>
+                                    <mspace width="0.2em"/>
+                                    <mo stretchy="false">⟶</mo>
+                                    <mspace width="0.2em"/>
+                                    <msub>
+                                      <mrow>
+                                        <mtext>CH</mtext>
+                                      </mrow>
+                                      <mn>2</mn>
+                                    </msub>
+                                    <mtext>O</mtext>
+                                    <mspace width="0.2em"/>
+                                    <mo stretchy="false">⟶</mo>
+                                    <mspace width="0.2em"/>
+                                    <msub>
+                                      <mrow>
+                                        <mtext>HCO</mtext>
+                                      </mrow>
+                                      <mn>2</mn>
+                                    </msub>
+                                    <mtext>H</mtext>
+                                    <mspace width="0.2em"/>
+                                    <mo stretchy="false">⟶</mo>
+                                    <mspace width="0.2em"/>
+                                    <msub>
+                                      <mrow>
+                                        <mtext>CO</mtext>
+                                      </mrow>
+                                      <mn>2</mn>
+                                    </msub>
+                                  </mrow>
+                                </mrow>
+                                <annotation-xml encoding="MathML-Content">
+                                  <mrow>
+                                    <msub>
+                                      <mrow>
+                                        <mtext>CH</mtext>
+                                      </mrow>
+                                      <mn>4</mn>
+                                    </msub>
+                                    <mspace width="0.2em"/>
+                                    <mo stretchy="false">⟶</mo>
+                                    <mspace width="0.2em"/>
+                                    <msub>
+                                      <mrow>
+                                        <mtext>CH</mtext>
+                                      </mrow>
+                                      <mn>3</mn>
+                                    </msub>
+                                    <mtext>OH</mtext>
+                                    <mspace width="0.2em"/>
+                                    <mo stretchy="false">⟶</mo>
+                                    <mspace width="0.2em"/>
+                                    <msub>
+                                      <mrow>
+                                        <mtext>CH</mtext>
+                                      </mrow>
+                                      <mn>2</mn>
+                                    </msub>
+                                    <mtext>O</mtext>
+                                    <mspace width="0.2em"/>
+                                    <mo stretchy="false">⟶</mo>
+                                    <mspace width="0.2em"/>
+                                    <msub>
+                                      <mrow>
+                                        <mtext>HCO</mtext>
+                                      </mrow>
+                                      <mn>2</mn>
+                                    </msub>
+                                    <mtext>H</mtext>
+                                    <mspace width="0.2em"/>
+                                    <mo stretchy="false">⟶</mo>
+                                    <mspace width="0.2em"/>
+                                    <msub>
+                                      <mrow>
+                                        <mtext>CO</mtext>
+                                      </mrow>
+                                      <mn>2</mn>
+                                    </msub>
+                                  </mrow>
+                                </annotation-xml>
+                              </semantics>
+                            </math>
+                          </div>
+                          <p
+                            id="fs-idp26912672"
+                          >What are the oxidation numbers for the carbon atoms in the molecules shown here?</p>
+                          <p id="fs-idp48045920">
+                            <span data-type="title">Solution</span>
+                            In this example, we can calculate the oxidation number (review the chapter on oxidation-reduction reactions if necessary) for the carbon atom in each case (note how this would become difficult for larger molecules with additional carbon atoms and hydrogen atoms, which is why organic chemists use the definition dealing with replacing C–H bonds with C–O bonds described). For CH
+                            <sub>4</sub>, the carbon atom carries a –4 oxidation number (the hydrogen atoms are assigned oxidation numbers of +1 and the carbon atom balances that by having an oxidation number of –4). For the alcohol (in this case, methanol), the carbon atom has an oxidation number of –2 (the oxygen atom is assigned –2, the four hydrogen atoms each are assigned +1, and the carbon atom balances the sum by having an oxidation number of –2; note that compared to the carbon atom in CH
+                            <sub>4</sub>, this carbon atom has lost two electrons so it was oxidized); for the aldehyde, the carbon atom’s oxidation number is 0 (–2 for the oxygen atom and +1 for each hydrogen atom already balances to 0, so the oxidation number for the carbon atom is 0); for the carboxylic acid, the carbon atom’s oxidation number is +2 (two oxygen atoms each at –2 and two hydrogen atoms at +1); and for carbon dioxide, the carbon atom’s oxidation number is +4 (here, the carbon atom needs to balance the –4 sum from the two oxygen atoms).
+                          </p>
+                          <p id="fs-idm9814480">
+                            <span data-type="title">Check Your Learning</span>
+                            Indicate whether the marked carbon atoms in the three molecules here are oxidized or reduced relative to the marked carbon atom in ethanol:
+                          </p>
+                          <span
+                            class="scaled-down"
+                            data-alt="A molecular structure is shown. A C H subscript 3 group is bonded up and to the right to a C H subscript 2 group. Bonded to the C H subscript 2 group down and to the right is an O H group."
+                            data-type="media"
+                            id="fs-idp27444048"
+                          >
+                            <img
+                              alt="A molecular structure is shown. A C H subscript 3 group is bonded up and to the right to a C H subscript 2 group. Bonded to the C H subscript 2 group down and to the right is an O H group."
+                              data-media-type="image/jpeg"
+                              id="[redacted for uniqueness]"
+                              src="/resources/c8e94793059fae15039faccc99c8be4c88b1971b"
+                            >
+                          </span>
+                          <p
+                            id="fs-idp44393648"
+                          >There is no need to calculate oxidation states in this case; instead, just compare the types of atoms bonded to the marked carbon atoms:</p>
+                          <span
+                            class="scaled-down"
+                            data-alt="Three molecular structures are shown, each with a red central C atom. In a, a C H subscript 3 group is bonded to the lower left, an H atom is bonded above, and H subscript 2 appears to the right of the central C atom. In b, an O atom is double bonded above the central C atom, a C H subscript 3 group is bonded to the lower left, and an H atom is bonded to the lower right. In c, an O atom is double bonded above the central C atom, a C H subscript 3 group is bonded to the lower left, and an O H group is bonded to the lower right."
+                            data-type="media"
+                            id="fs-idp15315088"
+                          >
+                            <img
+                              alt="Three molecular structures are shown, each with a red central C atom. In a, a C H subscript 3 group is bonded to the lower left, an H atom is bonded above, and H subscript 2 appears to the right of the central C atom. In b, an O atom is double bonded above the central C atom, a C H subscript 3 group is bonded to the lower left, and an H atom is bonded to the lower right. In c, an O atom is double bonded above the central C atom, a C H subscript 3 group is bonded to the lower left, and an O H group is bonded to the lower right."
+                              data-media-type="image/jpeg"
+                              id="[redacted for uniqueness]"
+                              src="/resources/2c82c339d6a5111372d1c96780fe0b68bd8955ae"
+                            >
+                          </span>
+                          <div data-type="note" id="fs-idp31141792">
+                            <h3 class="os-title" data-type="title">
+                              <span
+                                class="os-title-label"
+                                data-type
+                                id="[redacted for uniqueness]"
+                              >Answer:</span>
+                            </h3>
+                            <div class="os-note-body">
+                              <p
+                                id="fs-idm3732048"
+                              >(a) reduced (bond to oxygen atom replaced by bond to hydrogen atom); (b) oxidized (one bond to hydrogen atom replaced by one bond to oxygen atom); (c) oxidized (2 bonds to hydrogen atoms have been replaced by bonds to an oxygen atom)</p>
+                            </div>
+                          </div>
+                        </div>
+                        <p
+                          id="fs-idp30729120"
+                        >Aldehydes are commonly prepared by the oxidation of alcohols whose –OH functional group is located on the carbon atom at the end of the chain of carbon atoms in the alcohol:</p>
+                        <span
+                          class="scaled-down"
+                          data-alt="A reaction is shown. An alcohol appears on the left and an aldehyde on the right of the reaction arrow. The alcohol is shown as C H subscript 3 C H subscript 2 C H subscript 2 O H, and the aldehyde is shown as C H subscript 3 C H subscript 2 C H O. The O H group at the right end of the alcohol structure and the C H O group at the right end of the aldehyde structure are in red."
+                          data-type="media"
+                          id="fs-idp8735120"
+                        >
+                          <img
+                            alt="A reaction is shown. An alcohol appears on the left and an aldehyde on the right of the reaction arrow. The alcohol is shown as C H subscript 3 C H subscript 2 C H subscript 2 O H, and the aldehyde is shown as C H subscript 3 C H subscript 2 C H O. The O H group at the right end of the alcohol structure and the C H O group at the right end of the aldehyde structure are in red."
+                            data-media-type="image/jpeg"
+                            id="[redacted for uniqueness]"
+                            src="/resources/ba8cf7760517bcbf2ea2cd23838a89d46f9a66a2"
+                          >
+                        </span>
+                        <p
+                          id="fs-idp51354096"
+                        >Alcohols that have their –OH groups in the middle of the chain are necessary to synthesize a ketone, which requires the carbonyl group to be bonded to two other carbon atoms:</p>
+                        <span
+                          class="scaled-down"
+                          data-alt="A reaction is shown. An alcohol appears on the left and a ketone on the right of the reaction arrow. The alcohol is shown as C H subscript 3 C H ( O H ) C H subscript 3 and the ketone is shown as C H subscript 3 C O C H subscript 3. The O H group in the alcohol structure and the C O group at the center of the ketone structure are in red."
+                          data-type="media"
+                          id="fs-idp45920128"
+                        >
+                          <img
+                            alt="A reaction is shown. An alcohol appears on the left and a ketone on the right of the reaction arrow. The alcohol is shown as C H subscript 3 C H ( O H ) C H subscript 3 and the ketone is shown as C H subscript 3 C O C H subscript 3. The O H group in the alcohol structure and the C O group at the center of the ketone structure are in red."
+                            data-media-type="image/jpeg"
+                            id="[redacted for uniqueness]"
+                            src="/resources/09550628cc021e653b66f8fa277fb13203d1a5f7"
+                          >
+                        </span>
+                        <p
+                          id="fs-idp56722224"
+                        >An alcohol with its –OH group bonded to a carbon atom that is bonded to no or one other carbon atom will form an aldehyde. An alcohol with its –OH group attached to two other carbon atoms will form a ketone. If three carbons are attached to the carbon bonded to the –OH, the molecule will not have a C–H bond to be replaced, so it will not be susceptible to oxidation.</p>
+                        <p
+                          id="fs-idp36184256"
+                        >Formaldehyde, an aldehyde with the formula HCHO, is a colorless gas with a pungent and irritating odor. It is sold in an aqueous solution called formalin, which contains about 37% formaldehyde by weight. Formaldehyde causes coagulation of proteins, so it kills bacteria (and any other living organism) and stops many of the biological processes that cause tissue to decay. Thus, formaldehyde is used for preserving tissue specimens and embalming bodies. It is also used to sterilize soil or other materials. Formaldehyde is used in the manufacture of Bakelite, a hard plastic having high chemical and electrical resistance.</p>
+                        <p id="fs-idm19232784">
+                          Dimethyl ketone, CH
+                          <sub>3</sub>COCH
+                          <sub>3</sub>, commonly called acetone, is the simplest ketone. It is made commercially by fermenting corn or molasses, or by oxidation of 2-propanol. Acetone is a colorless liquid. Among its many uses are as a solvent for lacquer (including fingernail polish), cellulose acetate, cellulose nitrate, acetylene, plastics, and varnishes; as a paint and varnish remover; and as a solvent in the manufacture of pharmaceuticals and chemicals.
+                        </p>
+                      </section>
+                      <section data-depth="1" id="fs-idm22470576">
+                        <h3 data-type="title">Carboxylic Acids and Esters</h3>
+                        <p id="fs-idp11635888">
+                          The odor of vinegar is caused by the presence of acetic acid, a carboxylic acid, in the vinegar. The odor of ripe bananas and many other fruits is due to the presence of esters, compounds that can be prepared by the reaction of a carboxylic acid with an alcohol. Because esters do not have hydrogen bonds between molecules, they have lower vapor pressures than the alcohols and carboxylic acids from which they are derived (see
+                          <a
+                            class="autogenerated-content"
+                            href="#CNX_Chem_20_03_CarboxEst1_img"
+                          >Figure 20.15</a>).
+                        </p>
+                        <div
+                          class="os-figure"
+                          id="CNX_Chem_20_03_CarboxEst1_img"
+                        >
+                          <figure data-id="CNX_Chem_20_03_CarboxEst1_img">
+                            <span
+                              data-alt="There are nine structures represented in this figure. The first is labeled, “raspberry,” and, “iso-butyl formate.” It shows an H atom with a line going up and to the right which then goes down and to the right. It goes up and to the right again and down and to the right and up and to the right. At the first peak is a double bond to an O atom. At the first trough is an O atom. At the second trough, there is a line going straight down. The second is labeled, “apple,” and, “butyl acetate.” There is a line that goes up and to the right, down and to the right, up and to the right, and down and to the right. At the second peak is a double bond to an O atom. At the end, on the right is O C H subscript 3. The third is labeled, “pineapple,” and, “ethyl butyrate.” It is a line that goes up and to the right, down and to the right, up and to the right, down and to the right, up and to the right, and down and to the right. At the second peak is a double bond to an O atom and at the second trough is an O atom. The fourth is labeled, “rum,” and “propyl isobutyrate.” It shows a line that goes down and to the right, up and to the right, down and to the right, up and to the right, down and to the right and up and to the right. The first complete peak has a double bond to an O atom and the second trough has an O atom. The fifth is labeled, “peach,” and “benzyl acetate.” It shows a line that goes up and to the right, down and to the right, up and to the right and down and to the right. This line connects to a hexagon with a circle inside it. The first peak has a double bond to an O atom and the first trough has an O atom. The sixth is labeled, “orange,” and, “octyl acetate.” It shows a line that goes up and to the right and down and to the right and up and to the right and down and to the right and up and to the right and down and to the right and up and to the right and down and to the right and up and to the right and down and to the right. The first peak has a double bond to an O atom and the first complete trough has and an O atom. The seventh is labeled, “wintergreen,” and “methyl salicylate.” It shows a hexagon with a circle inside of it. On the right, is a bond down and to the right to an O H group. On the right is a bond to a line that goes up and to the right and down and two the right and up and to the right. At the first peak is a double bond to an O atom, the next trough shows and O atom and at the end of the line is a C H subscript 3 group. The eighth is labeled, “honey,” and “methyl phenylacetate.” It shows a hexagon with a circle inside of it. It shows it connecting to a line on the right that goes down and to the right then up and to the right and down and to the right and up and to the right. At the first peak that is not part of the hexagon is a double bond to an O atom. At the last trough is an O atom. The ninth is labeled, “strawberry,” and “ethyl methylphenylglycidate.” This shows a hexagon with a circle inside of it. On the right, it connects to a line that goes up and to the right and down and to the right and up and to the right and down and to the right and up and to the right and down and to the right. At the first peak is a line that extends above and below. Below, it connects to an O atom. At the next trough, the line extends down and to the left to the same O atom. At the next peak is a double bond to an O atom and at the next trough is an O atom."
+                              data-type="media"
+                              id="fs-idp75797824"
+                            >
+                              <img
+                                alt="There are nine structures represented in this figure. The first is labeled, “raspberry,” and, “iso-butyl formate.” It shows an H atom with a line going up and to the right which then goes down and to the right. It goes up and to the right again and down and to the right and up and to the right. At the first peak is a double bond to an O atom. At the first trough is an O atom. At the second trough, there is a line going straight down. The second is labeled, “apple,” and, “butyl acetate.” There is a line that goes up and to the right, down and to the right, up and to the right, and down and to the right. At the second peak is a double bond to an O atom. At the end, on the right is O C H subscript 3. The third is labeled, “pineapple,” and, “ethyl butyrate.” It is a line that goes up and to the right, down and to the right, up and to the right, down and to the right, up and to the right, and down and to the right. At the second peak is a double bond to an O atom and at the second trough is an O atom. The fourth is labeled, “rum,” and “propyl isobutyrate.” It shows a line that goes down and to the right, up and to the right, down and to the right, up and to the right, down and to the right and up and to the right. The first complete peak has a double bond to an O atom and the second trough has an O atom. The fifth is labeled, “peach,” and “benzyl acetate.” It shows a line that goes up and to the right, down and to the right, up and to the right and down and to the right. This line connects to a hexagon with a circle inside it. The first peak has a double bond to an O atom and the first trough has an O atom. The sixth is labeled, “orange,” and, “octyl acetate.” It shows a line that goes up and to the right and down and to the right and up and to the right and down and to the right and up and to the right and down and to the right and up and to the right and down and to the right and up and to the right and down and to the right. The first peak has a double bond to an O atom and the first complete trough has and an O atom. The seventh is labeled, “wintergreen,” and “methyl salicylate.” It shows a hexagon with a circle inside of it. On the right, is a bond down and to the right to an O H group. On the right is a bond to a line that goes up and to the right and down and two the right and up and to the right. At the first peak is a double bond to an O atom, the next trough shows and O atom and at the end of the line is a C H subscript 3 group. The eighth is labeled, “honey,” and “methyl phenylacetate.” It shows a hexagon with a circle inside of it. It shows it connecting to a line on the right that goes down and to the right then up and to the right and down and to the right and up and to the right. At the first peak that is not part of the hexagon is a double bond to an O atom. At the last trough is an O atom. The ninth is labeled, “strawberry,” and “ethyl methylphenylglycidate.” This shows a hexagon with a circle inside of it. On the right, it connects to a line that goes up and to the right and down and to the right and up and to the right and down and to the right and up and to the right and down and to the right. At the first peak is a line that extends above and below. Below, it connects to an O atom. At the next trough, the line extends down and to the left to the same O atom. At the next peak is a double bond to an O atom and at the next trough is an O atom."
+                                data-media-type="image/jpeg"
+                                id="[redacted for uniqueness]"
+                                src="/resources/65fea812c7634905f879ad4631e578ba685102c7"
+                              >
+                            </span>
+                          </figure>
+                          <div class="os-caption-container">
+                            <span class="os-title-label">Figure</span>
+                            <span class="os-number">20.15</span>
+                            <span class="os-divider"></span>
+                            <span class="os-divider"></span>
+                            <span
+                              class="os-caption"
+                            >Esters are responsible for the odors associated with various plants and their fruits.</span>
+                          </div>
+                        </div>
+                        <p id="fs-idp44521216">
+                          Both
+                          <span
+                            data-type="term"
+                            group-by="c"
+                            id="[redacted for uniqueness]"
+                          >carboxylic acids</span> and
+                          <span
+                            data-type="term"
+                            group-by="e"
+                            id="[redacted for uniqueness]"
+                          >esters</span> contain a carbonyl group with a second oxygen atom bonded to the carbon atom in the carbonyl group by a single bond. In a carboxylic acid, the second oxygen atom also bonds to a hydrogen atom. In an ester, the second oxygen atom bonds to another carbon atom. The names for carboxylic acids and esters include prefixes that denote the lengths of the carbon chains in the molecules and are derived following nomenclature rules similar to those for inorganic acids and salts (see these examples):
+                        </p>
+                        <span
+                          class="scaled-down"
+                          data-alt="Two structures are shown. The first structure is labeled, “ethanoic acid,” and, “acetic acid.” This structure indicates a C atom to which H atoms are bonded above, below and to the left. To the right of this in red is a bonded group comprised of a C atom to which an O atom is double bonded above. To the right of the red C atom, an O atom is bonded which has an H atom bonded to its right. Both O atoms have two sets of electron dots. The second structure is labeled, “methyl ethanoate,” and, “methyl acetate.” This structure indicates a C atom to which H atoms are bonded above, below and to the left. In red, bonded to the right is a C atom with a double bonded O atom above and a single bonded O atom to the right. To the right of this last O atom in black is another C atom to which H atoms are bonded above, below and to the right. Both O atoms have two pairs of electron dots."
+                          data-type="media"
+                          id="fs-idm75981808"
+                        >
+                          <img
+                            alt="Two structures are shown. The first structure is labeled, “ethanoic acid,” and, “acetic acid.” This structure indicates a C atom to which H atoms are bonded above, below and to the left. To the right of this in red is a bonded group comprised of a C atom to which an O atom is double bonded above. To the right of the red C atom, an O atom is bonded which has an H atom bonded to its right. Both O atoms have two sets of electron dots. The second structure is labeled, “methyl ethanoate,” and, “methyl acetate.” This structure indicates a C atom to which H atoms are bonded above, below and to the left. In red, bonded to the right is a C atom with a double bonded O atom above and a single bonded O atom to the right. To the right of this last O atom in black is another C atom to which H atoms are bonded above, below and to the right. Both O atoms have two pairs of electron dots."
+                            data-media-type="image/jpeg"
+                            id="[redacted for uniqueness]"
+                            src="/resources/b1047531908b3cf5123f3ffb08e7c51661323f65"
+                          >
+                        </span>
+                        <p
+                          id="fs-idp7408"
+                        >The functional groups for an acid and for an ester are shown in red in these formulas.</p>
+                        <p
+                          id="fs-idp57794672"
+                        >The hydrogen atom in the functional group of a carboxylic acid will react with a base to form an ionic salt:</p>
+                        <span
+                          data-alt="A chemical reaction is shown. On the left, a structure of propionic acid is indicated. This structure includes a 2 carbon hydrocarbon group on the left end in black. Above, below, and to the left, H atoms are bonded. This group is bonded to a red group comprised of a C atom to which an O atom is double bonded above. To the right of the red C atom, an O atom is connected with a single bond. To the right of the O atom, an H atom is bonded. To the right of this structure appears a plus and N a O H. Following the reaction arrow, the propionate ion is shown. This structure is in brackets. Appearing inside the brackets, is a 2 carbon hydrocarbon group on the left end. Above, below, and to the left, H atoms are bonded. To the right of this group, a group in red is attached comprised of a C atom to which an O atom is double bonded above and a second O atom is single bonded to the right. Outside the brackets appears a superscript minus symbol. This is followed by a plus sign, N a superscript plus another plus sign and H subscript 2 O. The singly bonded O atom in the propionate ion structure has 3 pairs of electron dots. All other O atoms have two pairs of electron dots."
+                          data-type="media"
+                          id="fs-idp25667904"
+                        >
+                          <img
+                            alt="A chemical reaction is shown. On the left, a structure of propionic acid is indicated. This structure includes a 2 carbon hydrocarbon group on the left end in black. Above, below, and to the left, H atoms are bonded. This group is bonded to a red group comprised of a C atom to which an O atom is double bonded above. To the right of the red C atom, an O atom is connected with a single bond. To the right of the O atom, an H atom is bonded. To the right of this structure appears a plus and N a O H. Following the reaction arrow, the propionate ion is shown. This structure is in brackets. Appearing inside the brackets, is a 2 carbon hydrocarbon group on the left end. Above, below, and to the left, H atoms are bonded. To the right of this group, a group in red is attached comprised of a C atom to which an O atom is double bonded above and a second O atom is single bonded to the right. Outside the brackets appears a superscript minus symbol. This is followed by a plus sign, N a superscript plus another plus sign and H subscript 2 O. The singly bonded O atom in the propionate ion structure has 3 pairs of electron dots. All other O atoms have two pairs of electron dots."
+                            data-media-type="image/jpeg"
+                            id="[redacted for uniqueness]"
+                            src="/resources/e0684d7906ed3e8fbfa02861ed887de63b5b3c4d"
+                          >
+                        </span>
+                        <p
+                          id="fs-idm12686144"
+                        >Carboxylic acids are weak acids (see the chapter on acids and bases), meaning they are not 100% ionized in water. Generally only about 1% of the molecules of a carboxylic acid dissolved in water are ionized at any given time. The remaining molecules are undissociated in solution.</p>
+                        <p
+                          id="fs-idp17450928"
+                        >We prepare carboxylic acids by the oxidation of aldehydes or alcohols whose –OH functional group is located on the carbon atom at the end of the chain of carbon atoms in the alcohol:</p>
+                        <span
+                          class="scaled-down"
+                          data-alt="A chemical reaction with two arrows is shown. On the left, an alcohol, indicated with a C atom to which an R group is bonded to the left, H atoms are bonded above and below, and in red, a single bonded O atom with an H atom bonded to the right is shown. Following the first reaction arrow, an aldehyde is shown. This structure is represented with an R group bonded to a red C atom to which an H atom is bonded above and to the right, and an O atom is double bonded below and to the right. Appearing to the right of the second arrow, is a carboxylic acid comprised of an R group bonded to a C atom to which, in red, an O atom is single bonded with an H atom bonded to its right side. A red O is double bonded below and to the right. All O atoms have two pairs of electron dots."
+                          data-type="media"
+                          id="fs-idp46862656"
+                        >
+                          <img
+                            alt="A chemical reaction with two arrows is shown. On the left, an alcohol, indicated with a C atom to which an R group is bonded to the left, H atoms are bonded above and below, and in red, a single bonded O atom with an H atom bonded to the right is shown. Following the first reaction arrow, an aldehyde is shown. This structure is represented with an R group bonded to a red C atom to which an H atom is bonded above and to the right, and an O atom is double bonded below and to the right. Appearing to the right of the second arrow, is a carboxylic acid comprised of an R group bonded to a C atom to which, in red, an O atom is single bonded with an H atom bonded to its right side. A red O is double bonded below and to the right. All O atoms have two pairs of electron dots."
+                            data-media-type="image/jpeg"
+                            id="[redacted for uniqueness]"
+                            src="/resources/6820e2d0a6865da516a2765d1f616f4192d0b6b6"
+                          >
+                        </span>
+                        <p id="fs-idm2251408">
+                          Esters are produced by the reaction of acids with alcohols. For example, the ester ethyl acetate, CH
+                          <sub>3</sub>CO
+                          <sub>2</sub>CH
+                          <sub>2</sub>CH
+                          <sub>3</sub>, is formed when acetic acid reacts with ethanol:
+                        </p>
+                        <span
+                          class="scaled-down"
+                          data-alt="A chemical reaction is shown. On the left, a C H subscript 3 group bonded to a red C atom. The C atom forms a double bond with an O atom which is also in red. The C atom is also bonded to an O atom which is bonded to an H atom, also in red. A plus sign is shown, which is followed by H O C H subscript 2 C H subscript 3. The H O group is in red. Following a reaction arrow, a C H subscript 3 group is shown which is bonded to a red C atom with a double bonded O atom and a single bonded O. To the right of this single bonded O atom, a C H subscript 2 C H subscript 3 group is attached and shown in black. This structure is followed by a plus sign and H subscript 2 O. The O atoms in the first structure on the left and the structure following the reaction arrow have two pairs of electron dots."
+                          data-type="media"
+                          id="fs-idp54563712"
+                        >
+                          <img
+                            alt="A chemical reaction is shown. On the left, a C H subscript 3 group bonded to a red C atom. The C atom forms a double bond with an O atom which is also in red. The C atom is also bonded to an O atom which is bonded to an H atom, also in red. A plus sign is shown, which is followed by H O C H subscript 2 C H subscript 3. The H O group is in red. Following a reaction arrow, a C H subscript 3 group is shown which is bonded to a red C atom with a double bonded O atom and a single bonded O. To the right of this single bonded O atom, a C H subscript 2 C H subscript 3 group is attached and shown in black. This structure is followed by a plus sign and H subscript 2 O. The O atoms in the first structure on the left and the structure following the reaction arrow have two pairs of electron dots."
+                            data-media-type="image/jpeg"
+                            id="[redacted for uniqueness]"
+                            src="/resources/b9a3a462aa9dc54ca6b540f791977ee74213508e"
+                          >
+                        </span>
+                        <p id="fs-idp50413488">
+                          The simplest carboxylic acid is formic acid, HCO
+                          <sub>2</sub>H, known since 1670. Its name comes from the Latin word
+                          <em data-effect="italics">formicus</em>,
+                          <em data-effect="italics"></em>which means “ant”; it was first isolated by the distillation of red ants. It is partially responsible for the pain and irritation of ant and wasp stings, and is responsible for a characteristic odor of ants that can be sometimes detected in their nests.
+                        </p>
+                        <p id="fs-idp55932432">
+                          Acetic acid, CH
+                          <sub>3</sub>CO
+                          <sub>2</sub>H, constitutes 3–6% vinegar. Cider vinegar is produced by allowing apple juice to ferment without oxygen present. Yeast cells present in the juice carry out the fermentation reactions. The fermentation reactions change the sugar present in the juice to ethanol, then to acetic acid. Pure acetic acid has a penetrating odor and produces painful burns. It is an excellent solvent for many organic and some inorganic compounds, and it is essential in the production of cellulose acetate, a component of many synthetic fibers such as rayon.
+                        </p>
+                        <p id="fs-idp43651248">
+                          The distinctive and attractive odors and flavors of many flowers, perfumes, and ripe fruits are due to the presence of one or more esters (
+                          <a
+                            class="autogenerated-content"
+                            href="#CNX_Chem_20_03_strawberry"
+                          >Figure 20.16</a>). Among the most important of the natural esters are fats (such as lard, tallow, and butter) and oils (such as linseed, cottonseed, and olive oils), which are esters of the trihydroxyl alcohol glycerine, C
+                          <sub>3</sub>H
+                          <sub>5</sub>(OH)
+                          <sub>3</sub>, with large carboxylic acids, such as palmitic acid, CH
+                          <sub>3</sub>(CH
+                          <sub>2</sub>)
+                          <sub>14</sub>CO
+                          <sub>2</sub>H, stearic acid, CH
+                          <sub>3</sub>(CH
+                          <sub>2</sub>)
+                          <sub>16</sub>CO
+                          <sub>2</sub>H, and oleic acid,
+                          <math display="inline">
+                            <semantics>
+                              <mrow>
+                                <mrow>
+                                  <msub>
+                                    <mrow>
+                                      <mtext>CH</mtext>
+                                    </mrow>
+                                    <mn>3</mn>
+                                  </msub>
+                                  <mo stretchy="false">(</mo>
+                                  <msub>
+                                    <mrow>
+                                      <mtext>C</mtext>
+                                      <msub>
+                                        <mrow>
+                                          <mtext>H</mtext>
+                                        </mrow>
+                                        <mn>2</mn>
+                                      </msub>
+                                      <mo stretchy="false">)</mo>
+                                    </mrow>
+                                    <mn>7</mn>
+                                  </msub>
+                                  <mtext>CH</mtext>
+                                  <mo>=</mo>
+                                  <mtext>CH</mtext>
+                                  <msub>
+                                    <mrow>
+                                      <mo stretchy="false">(</mo>
+                                      <msub>
+                                        <mrow>
+                                          <mtext>CH</mtext>
+                                        </mrow>
+                                        <mn>2</mn>
+                                      </msub>
+                                      <mo stretchy="false">)</mo>
+                                    </mrow>
+                                    <mn>7</mn>
+                                  </msub>
+                                  <mtext>C</mtext>
+                                  <msub>
+                                    <mrow>
+                                      <mtext>O</mtext>
+                                    </mrow>
+                                    <mn>2</mn>
+                                  </msub>
+                                  <mtext>H.</mtext>
+                                </mrow>
+                              </mrow>
+                              <annotation-xml encoding="MathML-Content">
+                                <mrow>
+                                  <msub>
+                                    <mrow>
+                                      <mtext>CH</mtext>
+                                    </mrow>
+                                    <mn>3</mn>
+                                  </msub>
+                                  <mo stretchy="false">(</mo>
+                                  <msub>
+                                    <mrow>
+                                      <mtext>C</mtext>
+                                      <msub>
+                                        <mrow>
+                                          <mtext>H</mtext>
+                                        </mrow>
+                                        <mn>2</mn>
+                                      </msub>
+                                      <mo stretchy="false">)</mo>
+                                    </mrow>
+                                    <mn>7</mn>
+                                  </msub>
+                                  <mtext>CH</mtext>
+                                  <mo>=</mo>
+                                  <mtext>CH</mtext>
+                                  <msub>
+                                    <mrow>
+                                      <mo stretchy="false">(</mo>
+                                      <msub>
+                                        <mrow>
+                                          <mtext>CH</mtext>
+                                        </mrow>
+                                        <mn>2</mn>
+                                      </msub>
+                                      <mo stretchy="false">)</mo>
+                                    </mrow>
+                                    <mn>7</mn>
+                                  </msub>
+                                  <mtext>C</mtext>
+                                  <msub>
+                                    <mrow>
+                                      <mtext>O</mtext>
+                                    </mrow>
+                                    <mn>2</mn>
+                                  </msub>
+                                  <mtext>H.</mtext>
+                                </mrow>
+                              </annotation-xml>
+                            </semantics>
+                          </math> Oleic acid is an unsaturated acid; it contains a
+                          <math display="inline">
+                            <semantics>
+                              <mrow>
+                                <mrow>
+                                  <mtext>C</mtext>
+                                  <mo>=</mo>
+                                  <mtext>C</mtext>
+                                </mrow>
+                              </mrow>
+                              <annotation-xml encoding="MathML-Content">
+                                <mrow>
+                                  <mtext>C</mtext>
+                                  <mo>=</mo>
+                                  <mtext>C</mtext>
+                                </mrow>
+                              </annotation-xml>
+                            </semantics>
+                          </math> double bond. Palmitic and stearic acids are saturated acids that contain no double or triple bonds.
+                        </p>
+                        <div class="os-figure" id="CNX_Chem_20_03_strawberry">
+                          <figure
+                            class="scaled-down"
+                            data-id="CNX_Chem_20_03_strawberry"
+                          >
+                            <span
+                              data-alt="This is a photo of a bright red strawberry being held in a human hand."
+                              data-type="media"
+                              id="fs-idp47411856"
+                            >
+                              <img
+                                alt="This is a photo of a bright red strawberry being held in a human hand."
+                                data-media-type="image/jpeg"
+                                id="[redacted for uniqueness]"
+                                src="/resources/ae63194160768349c8c8c650f1229b000173324b"
+                              >
+                            </span>
+                          </figure>
+                          <div class="os-caption-container">
+                            <span class="os-title-label">Figure</span>
+                            <span class="os-number">20.16</span>
+                            <span class="os-divider"></span>
+                            <span class="os-divider"></span>
+                            <span
+                              class="os-caption"
+                            >Over 350 different volatile molecules (many members of the ester family) have been identified in strawberries. (credit: Rebecca Siegel)</span>
+                          </div>
+                        </div>
+                      </section>
+                    </div>
+                  </div>
+                  

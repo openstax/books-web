@@ -1,0 +1,1111 @@
+
+                    <div
+                      class="os-eob os-solution-container"
+                      data-type="composite-page"
+                      data-uuid-key=".solution12"
+                    >
+                      <div data-type="solution" id="fs-idp114103472-solution">
+                        <a
+                          class="os-number"
+                          href="12-exercises#fs-idp114103472"
+                        >1</a>
+                        <span class="os-divider">.</span>
+                        <div class="os-solution-container">
+                          <p
+                            id="fs-idp3338160"
+                          >A reaction has a natural tendency to occur and takes place without the continual input of energy from an external source.</p>
+                        </div>
+                      </div>
+                      <div data-type="solution" id="fs-idp1018800-solution">
+                        <a class="os-number" href="12-exercises#fs-idp1018800">3</a>
+                        <span class="os-divider">.</span>
+                        <div class="os-solution-container">
+                          <p
+                            id="fs-idm42437472"
+                          >(a) spontaneous; (b) nonspontaneous; (c) spontaneous; (d) nonspontaneous; (e) spontaneous; (f) spontaneous</p>
+                        </div>
+                      </div>
+                      <div data-type="solution" id="fs-idm103719792-solution">
+                        <a
+                          class="os-number"
+                          href="12-exercises#fs-idm103719792"
+                        >5</a>
+                        <span class="os-divider">.</span>
+                        <div class="os-solution-container">
+                          <p
+                            id="fs-idp65039344"
+                          >Although the oxidation of plastics is spontaneous, the rate of oxidation is very slow. Plastics are therefore kinetically stable and do not decompose appreciably even over relatively long periods of time.</p>
+                        </div>
+                      </div>
+                      <div data-type="solution" id="fs-idm145774432-solution">
+                        <a
+                          class="os-number"
+                          href="12-exercises#fs-idm145774432"
+                        >7</a>
+                        <span class="os-divider">.</span>
+                        <div class="os-solution-container">
+                          <p id="fs-idm50785744">
+                            There are four initial microstates and four final microstates.
+                            <span data-type="newline">
+                              <br>
+                            </span>
+                            <math display="inline">
+                              <semantics>
+                                <mrow>
+                                  <mrow>
+                                    <mtext>Δ</mtext>
+                                    <mi>S</mi>
+                                    <mo>=</mo>
+                                    <mi>k</mi>
+                                    <mspace width="0.2em"/>
+                                    <mtext>ln</mtext>
+                                    <mspace width="0.2em"/>
+                                    <mfrac>
+                                      <mrow>
+                                        <msub>
+                                          <mi>W</mi>
+                                          <mtext>f</mtext>
+                                        </msub>
+                                      </mrow>
+                                      <mrow>
+                                        <msub>
+                                          <mi>W</mi>
+                                          <mtext>i</mtext>
+                                        </msub>
+                                      </mrow>
+                                    </mfrac>
+                                    <mspace width="0.2em"/>
+                                    <mo>=</mo>
+                                    <mn>1.38</mn>
+                                    <mspace width="0.2em"/>
+                                    <mo>×</mo>
+                                    <mspace width="0.2em"/>
+                                    <msup>
+                                      <mrow>
+                                        <mtext>10</mtext>
+                                      </mrow>
+                                      <mrow>
+                                        <mn>−23</mn>
+                                      </mrow>
+                                    </msup>
+                                    <mspace width="0.2em"/>
+                                    <mtext>J/K</mtext>
+                                    <mspace width="0.2em"/>
+                                    <mo>×</mo>
+                                    <mspace width="0.2em"/>
+                                    <mtext>ln</mtext>
+                                    <mspace width="0.4em"/>
+                                    <mfrac>
+                                      <mn>4</mn>
+                                      <mn>4</mn>
+                                    </mfrac>
+                                    <mspace width="0.2em"/>
+                                    <mo>=</mo>
+                                    <mn>0</mn>
+                                  </mrow>
+                                </mrow>
+                                <annotation-xml encoding="MathML-Content">
+                                  <mrow>
+                                    <mtext>Δ</mtext>
+                                    <mi>S</mi>
+                                    <mo>=</mo>
+                                    <mi>k</mi>
+                                    <mspace width="0.2em"/>
+                                    <mtext>ln</mtext>
+                                    <mspace width="0.2em"/>
+                                    <mfrac>
+                                      <mrow>
+                                        <msub>
+                                          <mi>W</mi>
+                                          <mtext>f</mtext>
+                                        </msub>
+                                      </mrow>
+                                      <mrow>
+                                        <msub>
+                                          <mi>W</mi>
+                                          <mtext>i</mtext>
+                                        </msub>
+                                      </mrow>
+                                    </mfrac>
+                                    <mspace width="0.2em"/>
+                                    <mo>=</mo>
+                                    <mn>1.38</mn>
+                                    <mspace width="0.2em"/>
+                                    <mo>×</mo>
+                                    <mspace width="0.2em"/>
+                                    <msup>
+                                      <mrow>
+                                        <mtext>10</mtext>
+                                      </mrow>
+                                      <mrow>
+                                        <mn>−23</mn>
+                                      </mrow>
+                                    </msup>
+                                    <mspace width="0.2em"/>
+                                    <mtext>J/K</mtext>
+                                    <mspace width="0.2em"/>
+                                    <mo>×</mo>
+                                    <mspace width="0.2em"/>
+                                    <mtext>ln</mtext>
+                                    <mspace width="0.4em"/>
+                                    <mfrac>
+                                      <mn>4</mn>
+                                      <mn>4</mn>
+                                    </mfrac>
+                                    <mspace width="0.2em"/>
+                                    <mo>=</mo>
+                                    <mn>0</mn>
+                                  </mrow>
+                                </annotation-xml>
+                              </semantics>
+                            </math>
+                          </p>
+                        </div>
+                      </div>
+                      <div data-type="solution" id="fs-idm72753056-solution">
+                        <a
+                          class="os-number"
+                          href="12-exercises#fs-idm72753056"
+                        >9</a>
+                        <span class="os-divider">.</span>
+                        <div class="os-solution-container">
+                          <p id="fs-idm56607328">
+                            The probability for all the particles to be on one side is
+                            <math display="inline">
+                              <semantics>
+                                <mrow>
+                                  <mrow>
+                                    <mfrac>
+                                      <mn>1</mn>
+                                      <mrow>
+                                        <mn>32</mn>
+                                      </mrow>
+                                    </mfrac>
+                                    <mo>.</mo>
+                                  </mrow>
+                                </mrow>
+                                <annotation-xml encoding="MathML-Content">
+                                  <mrow>
+                                    <mfrac>
+                                      <mn>1</mn>
+                                      <mrow>
+                                        <mn>32</mn>
+                                      </mrow>
+                                    </mfrac>
+                                    <mo>.</mo>
+                                  </mrow>
+                                </annotation-xml>
+                              </semantics>
+                            </math> This probability is noticeably lower than the
+                            <math display="inline">
+                              <semantics>
+                                <mrow>
+                                  <mrow>
+                                    <mfrac>
+                                      <mn>1</mn>
+                                      <mn>8</mn>
+                                    </mfrac>
+                                  </mrow>
+                                </mrow>
+                                <annotation-xml encoding="MathML-Content">
+                                  <mrow>
+                                    <mfrac>
+                                      <mn>1</mn>
+                                      <mn>8</mn>
+                                    </mfrac>
+                                  </mrow>
+                                </annotation-xml>
+                              </semantics>
+                            </math> result for the four-particle system. The conclusion we can make is that the probability for all the particles to stay in only one part of the system will decrease rapidly as the number of particles increases, and, for instance, the probability for all molecules of gas to gather in only one side of a room at room temperature and pressure is negligible since the number of gas molecules in the room is very large.
+                          </p>
+                        </div>
+                      </div>
+                      <div data-type="solution" id="fs-idm18362192-solution">
+                        <a
+                          class="os-number"
+                          href="12-exercises#fs-idm18362192"
+                        >11</a>
+                        <span class="os-divider">.</span>
+                        <div class="os-solution-container">
+                          <p id="fs-idp149676672">
+                            There is only one initial state. For the final state, the energy can be contained in pairs A-C, A-D, B-C, or B-D. Thus, there are four final possible states.
+                            <span data-type="newline">
+                              <br>
+                            </span>
+                            <math display="inline">
+                              <semantics>
+                                <mrow>
+                                  <mrow>
+                                    <mtext>Δ</mtext>
+                                    <mi>S</mi>
+                                    <mo>=</mo>
+                                    <mi>k</mi>
+                                    <mspace width="0.3em"/>
+                                    <mtext>ln</mtext>
+                                    <mspace width="0.2em"/>
+                                    <mrow>
+                                      <mo>(</mo>
+                                      <mrow>
+                                        <mfrac>
+                                          <mrow>
+                                            <msub>
+                                              <mi>W</mi>
+                                              <mtext>f</mtext>
+                                            </msub>
+                                          </mrow>
+                                          <mrow>
+                                            <msub>
+                                              <mi>W</mi>
+                                              <mtext>i</mtext>
+                                            </msub>
+                                          </mrow>
+                                        </mfrac>
+                                      </mrow>
+                                      <mo>)</mo>
+                                    </mrow>
+                                    <mo>=</mo>
+                                    <mn>1.38</mn>
+                                    <mspace width="0.2em"/>
+                                    <mo>×</mo>
+                                    <mspace width="0.2em"/>
+                                    <msup>
+                                      <mrow>
+                                        <mn>10</mn>
+                                      </mrow>
+                                      <mrow>
+                                        <mo>−</mo>
+                                        <mn>23</mn>
+                                      </mrow>
+                                    </msup>
+                                    <mspace width="0.2em"/>
+                                    <mtext>J/K</mtext>
+                                    <mspace width="0.2em"/>
+                                    <mo>×</mo>
+                                    <mspace width="0.2em"/>
+                                    <mtext>ln</mtext>
+                                    <mspace width="0.2em"/>
+                                    <mrow>
+                                      <mo>(</mo>
+                                      <mrow>
+                                        <mfrac>
+                                          <mn>4</mn>
+                                          <mn>1</mn>
+                                        </mfrac>
+                                      </mrow>
+                                      <mo>)</mo>
+                                    </mrow>
+                                    <mo>=</mo>
+                                    <mn>1.91</mn>
+                                    <mspace width="0.2em"/>
+                                    <mo>×</mo>
+                                    <mspace width="0.2em"/>
+                                    <msup>
+                                      <mrow>
+                                        <mn>10</mn>
+                                      </mrow>
+                                      <mrow>
+                                        <mo>−</mo>
+                                        <mn>23</mn>
+                                      </mrow>
+                                    </msup>
+                                    <mspace width="0.2em"/>
+                                    <mtext>J/K</mtext>
+                                  </mrow>
+                                </mrow>
+                                <annotation-xml encoding="MathML-Content">
+                                  <mrow>
+                                    <mtext>Δ</mtext>
+                                    <mi>S</mi>
+                                    <mo>=</mo>
+                                    <mi>k</mi>
+                                    <mspace width="0.3em"/>
+                                    <mtext>ln</mtext>
+                                    <mspace width="0.2em"/>
+                                    <mrow>
+                                      <mo>(</mo>
+                                      <mrow>
+                                        <mfrac>
+                                          <mrow>
+                                            <msub>
+                                              <mi>W</mi>
+                                              <mtext>f</mtext>
+                                            </msub>
+                                          </mrow>
+                                          <mrow>
+                                            <msub>
+                                              <mi>W</mi>
+                                              <mtext>i</mtext>
+                                            </msub>
+                                          </mrow>
+                                        </mfrac>
+                                      </mrow>
+                                      <mo>)</mo>
+                                    </mrow>
+                                    <mo>=</mo>
+                                    <mn>1.38</mn>
+                                    <mspace width="0.2em"/>
+                                    <mo>×</mo>
+                                    <mspace width="0.2em"/>
+                                    <msup>
+                                      <mrow>
+                                        <mn>10</mn>
+                                      </mrow>
+                                      <mrow>
+                                        <mo>−</mo>
+                                        <mn>23</mn>
+                                      </mrow>
+                                    </msup>
+                                    <mspace width="0.2em"/>
+                                    <mtext>J/K</mtext>
+                                    <mspace width="0.2em"/>
+                                    <mo>×</mo>
+                                    <mspace width="0.2em"/>
+                                    <mtext>ln</mtext>
+                                    <mspace width="0.2em"/>
+                                    <mrow>
+                                      <mo>(</mo>
+                                      <mrow>
+                                        <mfrac>
+                                          <mn>4</mn>
+                                          <mn>1</mn>
+                                        </mfrac>
+                                      </mrow>
+                                      <mo>)</mo>
+                                    </mrow>
+                                    <mo>=</mo>
+                                    <mn>1.91</mn>
+                                    <mspace width="0.2em"/>
+                                    <mo>×</mo>
+                                    <mspace width="0.2em"/>
+                                    <msup>
+                                      <mrow>
+                                        <mn>10</mn>
+                                      </mrow>
+                                      <mrow>
+                                        <mo>−</mo>
+                                        <mn>23</mn>
+                                      </mrow>
+                                    </msup>
+                                    <mspace width="0.2em"/>
+                                    <mtext>J/K</mtext>
+                                  </mrow>
+                                </annotation-xml>
+                              </semantics>
+                            </math>
+                          </p>
+                        </div>
+                      </div>
+                      <div data-type="solution" id="fs-idm215000480-solution">
+                        <a
+                          class="os-number"
+                          href="12-exercises#fs-idm215000480"
+                        >13</a>
+                        <span class="os-divider">.</span>
+                        <div class="os-solution-container">
+                          <p id="fs-idm213636080">
+                            The masses of these molecules would suggest the opposite trend in their entropies. The observed trend is a result of the more significant variation of entropy with a physical state. At room temperature, I
+                            <sub>2</sub> is a solid, Br
+                            <sub>2</sub> is a liquid, and Cl
+                            <sub>2</sub> is a gas.
+                          </p>
+                        </div>
+                      </div>
+                      <div data-type="solution" id="fs-idm136809856-solution">
+                        <a
+                          class="os-number"
+                          href="12-exercises#fs-idm136809856"
+                        >15</a>
+                        <span class="os-divider">.</span>
+                        <div class="os-solution-container">
+                          <p id="fs-idm99883024">
+                            (a) C
+                            <sub>3</sub>H
+                            <sub>7</sub>OH(
+                            <em data-effect="italics">l</em>) as it is a larger molecule (more complex and more massive), and so more microstates describing its motions are available at any given temperature. (b) C
+                            <sub>2</sub>H
+                            <sub>5</sub>OH(
+                            <em data-effect="italics">g</em>) as it is in the gaseous state. (c) 2H(
+                            <em data-effect="italics">g</em>), since entropy is an extensive property, and so two H atoms (or two moles of H atoms) possess twice as much entropy as one atom (or one mole of atoms).
+                          </p>
+                        </div>
+                      </div>
+                      <div data-type="solution" id="fs-idm203140096-solution">
+                        <a
+                          class="os-number"
+                          href="12-exercises#fs-idm203140096"
+                        >17</a>
+                        <span class="os-divider">.</span>
+                        <div class="os-solution-container">
+                          <p
+                            id="fs-idm194079920"
+                          >(a) Negative. The relatively ordered solid precipitating decreases the number of mobile ions in solution. (b) Negative. There is a net loss of three moles of gas from reactants to products. (c) Positive. There is a net increase of seven moles of gas from reactants to products.</p>
+                        </div>
+                      </div>
+                      <div data-type="solution" id="fs-idp19392560-solution">
+                        <a
+                          class="os-number"
+                          href="12-exercises#fs-idp19392560"
+                        >19</a>
+                        <span class="os-divider">.</span>
+                        <div class="os-solution-container">
+                          <p id="fs-idm4241680">
+                            <math display="inline">
+                              <semantics>
+                                <mrow>
+                                  <mrow>
+                                    <msub>
+                                      <mtext>C</mtext>
+                                      <mn>6</mn>
+                                    </msub>
+                                    <msub>
+                                      <mtext>H</mtext>
+                                      <mn>6</mn>
+                                    </msub>
+                                    <mo stretchy="false">(</mo>
+                                    <mi>l</mi>
+                                    <mo stretchy="false">)</mo>
+                                    <mo>+</mo>
+                                    <mn>7.5</mn>
+                                    <msub>
+                                      <mtext>O</mtext>
+                                      <mn>2</mn>
+                                    </msub>
+                                    <mo stretchy="false">(</mo>
+                                    <mi>g</mi>
+                                    <mo stretchy="false">)</mo>
+                                    <mspace width="0.2em"/>
+                                    <mo stretchy="false">⟶</mo>
+                                    <msub>
+                                      <mrow>
+                                        <mtext>3H</mtext>
+                                      </mrow>
+                                      <mn>2</mn>
+                                    </msub>
+                                    <mtext>O(</mtext>
+                                    <mi>g</mi>
+                                    <mo stretchy="false">)</mo>
+                                    <mo>+</mo>
+                                    <msub>
+                                      <mrow>
+                                        <mtext>6CO</mtext>
+                                      </mrow>
+                                      <mn>2</mn>
+                                    </msub>
+                                    <mo stretchy="false">(</mo>
+                                    <mi>g</mi>
+                                    <mo stretchy="false">)</mo>
+                                  </mrow>
+                                </mrow>
+                                <annotation-xml encoding="MathML-Content">
+                                  <mrow>
+                                    <msub>
+                                      <mtext>C</mtext>
+                                      <mn>6</mn>
+                                    </msub>
+                                    <msub>
+                                      <mtext>H</mtext>
+                                      <mn>6</mn>
+                                    </msub>
+                                    <mo stretchy="false">(</mo>
+                                    <mi>l</mi>
+                                    <mo stretchy="false">)</mo>
+                                    <mo>+</mo>
+                                    <mn>7.5</mn>
+                                    <msub>
+                                      <mtext>O</mtext>
+                                      <mn>2</mn>
+                                    </msub>
+                                    <mo stretchy="false">(</mo>
+                                    <mi>g</mi>
+                                    <mo stretchy="false">)</mo>
+                                    <mspace width="0.2em"/>
+                                    <mo stretchy="false">⟶</mo>
+                                    <msub>
+                                      <mrow>
+                                        <mtext>3H</mtext>
+                                      </mrow>
+                                      <mn>2</mn>
+                                    </msub>
+                                    <mtext>O(</mtext>
+                                    <mi>g</mi>
+                                    <mo stretchy="false">)</mo>
+                                    <mo>+</mo>
+                                    <msub>
+                                      <mrow>
+                                        <mtext>6CO</mtext>
+                                      </mrow>
+                                      <mn>2</mn>
+                                    </msub>
+                                    <mo stretchy="false">(</mo>
+                                    <mi>g</mi>
+                                    <mo stretchy="false">)</mo>
+                                  </mrow>
+                                </annotation-xml>
+                              </semantics>
+                            </math>
+                            <span data-type="newline">
+                              <br>
+                            </span>
+                            There are 7.5 moles of gas initially, and 3 + 6 = 9 moles of gas in the end. Therefore, it is likely that the entropy increases as a result of this reaction, and Δ
+                            <em data-effect="italics">S</em> is positive.
+                          </p>
+                        </div>
+                      </div>
+                      <div data-type="solution" id="fs-idp33735696-solution">
+                        <a
+                          class="os-number"
+                          href="12-exercises#fs-idp33735696"
+                        >21</a>
+                        <span class="os-divider">.</span>
+                        <div class="os-solution-container">
+                          <p
+                            id="fs-idp90404752"
+                          >(a) 107 J/K; (b) −86.4 J/K; (c) 133.2 J/K; (d) 118.8 J/K; (e) −326.6 J/K; (f) −171.9 J/K; (g) −7.2 J/K</p>
+                        </div>
+                      </div>
+                      <div data-type="solution" id="fs-idp170448352-solution">
+                        <a
+                          class="os-number"
+                          href="12-exercises#fs-idp170448352"
+                        >23</a>
+                        <span class="os-divider">.</span>
+                        <div class="os-solution-container">
+                          <p id="fs-idp87090368">100.6 J/K</p>
+                        </div>
+                      </div>
+                      <div data-type="solution" id="fs-idp175070256-solution">
+                        <a
+                          class="os-number"
+                          href="12-exercises#fs-idp175070256"
+                        >25</a>
+                        <span class="os-divider">.</span>
+                        <div class="os-solution-container">
+                          <p id="fs-idm38610384">(a) −198.1 J/K; (b) −348.9 J/K</p>
+                        </div>
+                      </div>
+                      <div data-type="solution" id="fs-idp194136688-solution">
+                        <a
+                          class="os-number"
+                          href="12-exercises#fs-idp194136688"
+                        >27</a>
+                        <span class="os-divider">.</span>
+                        <div class="os-solution-container">
+                          <p id="fs-idp13901792">
+                            As Δ
+                            <em data-effect="italics">S</em>
+                            <sub>univ</sub> &lt; 0 at each of these temperatures, melting is not spontaneous at either of them. The given values for entropy and enthalpy are for NaCl at 298 K. It is assumed that these do not change significantly at the higher temperatures used in the problem.
+                          </p>
+                        </div>
+                      </div>
+                      <div data-type="solution" id="fs-idp127896592-solution">
+                        <a
+                          class="os-number"
+                          href="12-exercises#fs-idp127896592"
+                        >29</a>
+                        <span class="os-divider">.</span>
+                        <div class="os-solution-container">
+                          <p
+                            id="fs-idp209528944"
+                          >(a) 2.86 J/K; (b) 24.8 J/K; (c) −113.2 J/K; (d) −24.7 J/K; (e) 15.5 J/K; (f) 290.0 J/K</p>
+                        </div>
+                      </div>
+                      <div data-type="solution" id="fs-idm203151232-solution">
+                        <a
+                          class="os-number"
+                          href="12-exercises#fs-idm203151232"
+                        >31</a>
+                        <span class="os-divider">.</span>
+                        <div class="os-solution-container">
+                          <p id="fs-idm274575376">
+                            The reaction is nonspontaneous at room temperature.
+                            <span data-type="newline">
+                              <br>
+                            </span>
+                            Above 400 K, Δ
+                            <em data-effect="italics">G</em> will become negative, and the reaction will become spontaneous.
+                          </p>
+                        </div>
+                      </div>
+                      <div data-type="solution" id="fs-idm195989408-solution">
+                        <a
+                          class="os-number"
+                          href="12-exercises#fs-idm195989408"
+                        >33</a>
+                        <span class="os-divider">.</span>
+                        <div class="os-solution-container">
+                          <p
+                            id="fs-idm353662112"
+                          >(a) 465.1 kJ nonspontaneous; (b) −106.86 kJ spontaneous; (c) −53.6 kJ spontaneous; (d) −83.4 kJ spontaneous; (e) −406.7 kJ spontaneous; (f) −30.0 kJ spontaneous</p>
+                        </div>
+                      </div>
+                      <div data-type="solution" id="fs-idm260990256-solution">
+                        <a
+                          class="os-number"
+                          href="12-exercises#fs-idm260990256"
+                        >35</a>
+                        <span class="os-divider">.</span>
+                        <div class="os-solution-container">
+                          <p id="fs-idm175856832">
+                            (a) The standard free energy of formation is –1124.3 kJ/mol. (b) The calculation agrees with the value in
+                            <a
+                              class="target-chapter"
+                              href="g-standard-thermodynamic-properties-for-selected-substances"
+                            >Appendix G</a> because free energy is a state function (just like the enthalpy and entropy), so its change depends only on the initial and final states, not the path between them.
+                          </p>
+                        </div>
+                      </div>
+                      <div data-type="solution" id="fs-idm207879392-solution">
+                        <a
+                          class="os-number"
+                          href="12-exercises#fs-idm207879392"
+                        >37</a>
+                        <span class="os-divider">.</span>
+                        <div class="os-solution-container">
+                          <p
+                            id="fs-idm286778336"
+                          >(a) The reaction is nonspontaneous; (b) Above 566 °C the process is spontaneous.</p>
+                        </div>
+                      </div>
+                      <div data-type="solution" id="fs-idm21106912-solution">
+                        <a
+                          class="os-number"
+                          href="12-exercises#fs-idm21106912"
+                        >39</a>
+                        <span class="os-divider">.</span>
+                        <div class="os-solution-container">
+                          <p id="fs-idm127623088">
+                            (a) 1.5
+                            <math display="inline">
+                              <semantics>
+                                <mrow>
+                                  <mo>×</mo>
+                                </mrow>
+                                <annotation-xml encoding="MathML-Content">
+                                  <mo>×</mo>
+                                </annotation-xml>
+                              </semantics>
+                            </math> 10
+                            <sup>2</sup> kJ; (b) −21.9 kJ; (c) −5.34 kJ; (d) −0.383 kJ; (e) 18 kJ; (f) 71 kJ
+                          </p>
+                        </div>
+                      </div>
+                      <div data-type="solution" id="fs-idm128725552-solution">
+                        <a
+                          class="os-number"
+                          href="12-exercises#fs-idm128725552"
+                        >41</a>
+                        <span class="os-divider">.</span>
+                        <div class="os-solution-container">
+                          <p id="fs-idm235430432">
+                            (a)
+                            <em data-effect="italics">K</em> = 41; (b)
+                            <em data-effect="italics">K</em> = 0.053; (c)
+                            <em data-effect="italics">K</em> = 6.9
+                            <math display="inline">
+                              <semantics>
+                                <mrow>
+                                  <mo>×</mo>
+                                </mrow>
+                                <annotation-xml encoding="MathML-Content">
+                                  <mo>×</mo>
+                                </annotation-xml>
+                              </semantics>
+                            </math> 10
+                            <sup>13</sup>; (d)
+                            <em data-effect="italics">K</em> = 1.9; (e)
+                            <em data-effect="italics">K</em> = 0.04
+                          </p>
+                        </div>
+                      </div>
+                      <div data-type="solution" id="fs-idm62833440-solution">
+                        <a
+                          class="os-number"
+                          href="12-exercises#fs-idm62833440"
+                        >42</a>
+                        <span class="os-divider">.</span>
+                        <div class="os-solution-container">
+                          <p id="fs-idm12494736">
+                            (a) 22.1 kJ;
+                            <span data-type="newline">
+                              <br>
+                            </span>(b) 61.6 kJ/mol
+                          </p>
+                        </div>
+                      </div>
+                      <div data-type="solution" id="fs-idm193107712-solution">
+                        <a
+                          class="os-number"
+                          href="12-exercises#fs-idm193107712"
+                        >44</a>
+                        <span class="os-divider">.</span>
+                        <div class="os-solution-container">
+                          <p id="fs-idm121372048">90 kJ/mol</p>
+                        </div>
+                      </div>
+                      <div data-type="solution" id="fs-idm208071680-solution">
+                        <a
+                          class="os-number"
+                          href="12-exercises#fs-idm208071680"
+                        >46</a>
+                        <span class="os-divider">.</span>
+                        <div class="os-solution-container">
+                          <p id="fs-idm150009152">
+                            (a) Under standard thermodynamic conditions, the evaporation is nonspontaneous; (b)
+                            <em data-effect="italics">
+                              K
+                              <sub>p</sub>
+                            </em> = 0.031; (c) The evaporation of water is spontaneous; (d)
+                            <math display="inline">
+                              <semantics>
+                                <mrow>
+                                  <mrow>
+                                    <msub>
+                                      <mi>P</mi>
+                                      <mrow>
+                                        <msub>
+                                          <mtext>H</mtext>
+                                          <mn>2</mn>
+                                        </msub>
+                                        <mtext>O</mtext>
+                                      </mrow>
+                                    </msub>
+                                  </mrow>
+                                </mrow>
+                                <annotation-xml encoding="MathML-Content">
+                                  <mrow>
+                                    <msub>
+                                      <mi>P</mi>
+                                      <mrow>
+                                        <msub>
+                                          <mtext>H</mtext>
+                                          <mn>2</mn>
+                                        </msub>
+                                        <mtext>O</mtext>
+                                      </mrow>
+                                    </msub>
+                                  </mrow>
+                                </annotation-xml>
+                              </semantics>
+                            </math> must always be less than
+                            <em data-effect="italics">
+                              K
+                              <sub>p</sub>
+                            </em> or less than 0.031 atm. 0.031 atm represents air saturated with water vapor at 25 °C, or 100% humidity.
+                          </p>
+                        </div>
+                      </div>
+                      <div data-type="solution" id="fs-idm222211904-solution">
+                        <a
+                          class="os-number"
+                          href="12-exercises#fs-idm222211904"
+                        >48</a>
+                        <span class="os-divider">.</span>
+                        <div class="os-solution-container">
+                          <p id="fs-idm46488912">
+                            (a) Nonspontaneous as
+                            <math display="inline">
+                              <semantics>
+                                <mrow>
+                                  <mrow>
+                                    <mtext>Δ</mtext>
+                                    <mi>G</mi>
+                                    <mtext>°</mtext>
+                                    <mo>&gt;</mo>
+                                    <mn>0</mn>
+                                    <mo>;</mo>
+                                  </mrow>
+                                </mrow>
+                                <annotation-xml encoding="MathML-Content">
+                                  <mrow>
+                                    <mtext>Δ</mtext>
+                                    <mi>G</mi>
+                                    <mtext>°</mtext>
+                                    <mo>&gt;</mo>
+                                    <mn>0</mn>
+                                    <mo>;</mo>
+                                  </mrow>
+                                </annotation-xml>
+                              </semantics>
+                            </math>
+                            (b)
+                            <math display="inline">
+                              <semantics>
+                                <mrow>
+                                  <mrow>
+                                    <mtext>Δ</mtext>
+                                    <mi>G</mi>
+                                    <mtext>°</mtext>
+                                    <mo>=</mo>
+                                    <mtext>Δ</mtext>
+                                    <msup>
+                                      <mi>G</mi>
+                                      <mo>°</mo>
+                                    </msup>
+                                    <mtext>+</mtext>
+                                    <mi>R</mi>
+                                    <mi>T</mi>
+                                    <mspace width="0.2em"/>
+                                    <mtext>ln</mtext>
+                                    <mspace width="0.2em"/>
+                                    <mi>Q</mi>
+                                    <mo>,</mo>
+                                  </mrow>
+                                </mrow>
+                                <annotation-xml encoding="MathML-Content">
+                                  <mrow>
+                                    <mtext>Δ</mtext>
+                                    <mi>G</mi>
+                                    <mtext>°</mtext>
+                                    <mo>=</mo>
+                                    <mtext>Δ</mtext>
+                                    <msup>
+                                      <mi>G</mi>
+                                      <mo>°</mo>
+                                    </msup>
+                                    <mtext>+</mtext>
+                                    <mi>R</mi>
+                                    <mi>T</mi>
+                                    <mspace width="0.2em"/>
+                                    <mtext>ln</mtext>
+                                    <mspace width="0.2em"/>
+                                    <mi>Q</mi>
+                                    <mo>,</mo>
+                                  </mrow>
+                                </annotation-xml>
+                              </semantics>
+                            </math>
+                            <math display="inline">
+                              <semantics>
+                                <mrow>
+                                  <mrow>
+                                    <mtext>Δ</mtext>
+                                    <mi>G</mi>
+                                    <mo>=</mo>
+                                    <mn>1.7</mn>
+                                    <mspace width="0.2em"/>
+                                    <mo>×</mo>
+                                    <mspace width="0.2em"/>
+                                    <msup>
+                                      <mrow>
+                                        <mn>10</mn>
+                                      </mrow>
+                                      <mn>3</mn>
+                                    </msup>
+                                    <mo>+</mo>
+                                    <mspace width="0.2em"/>
+                                    <mrow>
+                                      <mo>(</mo>
+                                      <mrow>
+                                        <mn>8.314</mn>
+                                        <mspace width="0.2em"/>
+                                        <mo>×</mo>
+                                        <mspace width="0.2em"/>
+                                        <mn>335</mn>
+                                        <mspace width="0.2em"/>
+                                        <mo>×</mo>
+                                        <mspace width="0.2em"/>
+                                        <mtext>ln</mtext>
+                                        <mspace width="0.4em"/>
+                                        <mfrac>
+                                          <mrow>
+                                            <mn>28</mn>
+                                          </mrow>
+                                          <mrow>
+                                            <mn>128</mn>
+                                          </mrow>
+                                        </mfrac>
+                                      </mrow>
+                                      <mo>)</mo>
+                                    </mrow>
+                                    <mspace width="0.2em"/>
+                                    <mo>=</mo>
+                                    <mtext>−2.5 kJ</mtext>
+                                    <mo>.</mo>
+                                  </mrow>
+                                </mrow>
+                                <annotation-xml encoding="MathML-Content">
+                                  <mrow>
+                                    <mtext>Δ</mtext>
+                                    <mi>G</mi>
+                                    <mo>=</mo>
+                                    <mn>1.7</mn>
+                                    <mspace width="0.2em"/>
+                                    <mo>×</mo>
+                                    <mspace width="0.2em"/>
+                                    <msup>
+                                      <mrow>
+                                        <mn>10</mn>
+                                      </mrow>
+                                      <mn>3</mn>
+                                    </msup>
+                                    <mo>+</mo>
+                                    <mspace width="0.2em"/>
+                                    <mrow>
+                                      <mo>(</mo>
+                                      <mrow>
+                                        <mn>8.314</mn>
+                                        <mspace width="0.2em"/>
+                                        <mo>×</mo>
+                                        <mspace width="0.2em"/>
+                                        <mn>335</mn>
+                                        <mspace width="0.2em"/>
+                                        <mo>×</mo>
+                                        <mspace width="0.2em"/>
+                                        <mtext>ln</mtext>
+                                        <mspace width="0.4em"/>
+                                        <mfrac>
+                                          <mrow>
+                                            <mn>28</mn>
+                                          </mrow>
+                                          <mrow>
+                                            <mn>128</mn>
+                                          </mrow>
+                                        </mfrac>
+                                      </mrow>
+                                      <mo>)</mo>
+                                    </mrow>
+                                    <mspace width="0.2em"/>
+                                    <mo>=</mo>
+                                    <mtext>−2.5 kJ</mtext>
+                                    <mo>.</mo>
+                                  </mrow>
+                                </annotation-xml>
+                              </semantics>
+                            </math> The forward reaction to produce F6P is spontaneous under these conditions.
+                          </p>
+                        </div>
+                      </div>
+                      <div data-type="solution" id="fs-idm114483936-solution">
+                        <a
+                          class="os-number"
+                          href="12-exercises#fs-idm114483936"
+                        >50</a>
+                        <span class="os-divider">.</span>
+                        <div class="os-solution-container">
+                          <p id="fs-idm114480416">
+                            Δ
+                            <em data-effect="italics">G</em> is negative as the process is spontaneous. Δ
+                            <em data-effect="italics">H</em> is positive as with the solution becoming cold, the dissolving must be endothermic. Δ
+                            <em data-effect="italics">S</em> must be positive as this drives the process, and it is expected for the dissolution of any soluble ionic compound.
+                          </p>
+                        </div>
+                      </div>
+                      <div data-type="solution" id="fs-idm153799616-solution">
+                        <a
+                          class="os-number"
+                          href="12-exercises#fs-idm153799616"
+                        >52</a>
+                        <span class="os-divider">.</span>
+                        <div class="os-solution-container">
+                          <p id="fs-idm71264128">
+                            (a) Increasing
+                            <math display="inline">
+                              <semantics>
+                                <mrow>
+                                  <mrow>
+                                    <msub>
+                                      <mi>P</mi>
+                                      <mrow>
+                                        <msub>
+                                          <mtext>O</mtext>
+                                          <mtext>2</mtext>
+                                        </msub>
+                                      </mrow>
+                                    </msub>
+                                  </mrow>
+                                </mrow>
+                                <annotation-xml encoding="MathML-Content">
+                                  <mrow>
+                                    <msub>
+                                      <mi>P</mi>
+                                      <mrow>
+                                        <msub>
+                                          <mtext>O</mtext>
+                                          <mtext>2</mtext>
+                                        </msub>
+                                      </mrow>
+                                    </msub>
+                                  </mrow>
+                                </annotation-xml>
+                              </semantics>
+                            </math> will shift the equilibrium toward the products, which increases the value of
+                            <em data-effect="italics">K</em>. Δ
+                            <em data-effect="italics">G</em>° therefore becomes more negative.
+                            <span data-type="newline">
+                              <br>
+                            </span>
+                            (b) Increasing
+                            <math display="inline">
+                              <semantics>
+                                <mrow>
+                                  <mrow>
+                                    <msub>
+                                      <mi>P</mi>
+                                      <mrow>
+                                        <msub>
+                                          <mtext>O</mtext>
+                                          <mtext>2</mtext>
+                                        </msub>
+                                      </mrow>
+                                    </msub>
+                                  </mrow>
+                                </mrow>
+                                <annotation-xml encoding="MathML-Content">
+                                  <mrow>
+                                    <msub>
+                                      <mi>P</mi>
+                                      <mrow>
+                                        <msub>
+                                          <mtext>O</mtext>
+                                          <mtext>2</mtext>
+                                        </msub>
+                                      </mrow>
+                                    </msub>
+                                  </mrow>
+                                </annotation-xml>
+                              </semantics>
+                            </math> will shift the equilibrium toward the products, which increases the value of
+                            <em data-effect="italics">K</em>. Δ
+                            <em data-effect="italics">G</em>° therefore becomes more negative.
+                            <span data-type="newline">
+                              <br>
+                            </span>
+                            (c) Increasing
+                            <math display="inline">
+                              <semantics>
+                                <mrow>
+                                  <mrow>
+                                    <msub>
+                                      <mi>P</mi>
+                                      <mrow>
+                                        <msub>
+                                          <mtext>O</mtext>
+                                          <mtext>2</mtext>
+                                        </msub>
+                                      </mrow>
+                                    </msub>
+                                  </mrow>
+                                </mrow>
+                                <annotation-xml encoding="MathML-Content">
+                                  <mrow>
+                                    <msub>
+                                      <mi>P</mi>
+                                      <mrow>
+                                        <msub>
+                                          <mtext>O</mtext>
+                                          <mtext>2</mtext>
+                                        </msub>
+                                      </mrow>
+                                    </msub>
+                                  </mrow>
+                                </annotation-xml>
+                              </semantics>
+                            </math> will shift the equilibrium the reactants, which decreases the value of
+                            <em data-effect="italics">K</em>. Δ
+                            <em data-effect="italics">G</em>° therefore becomes more positive.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  

@@ -1,0 +1,611 @@
+
+                    <div
+                      data-cnxml-to-html-ver="[redacted for uniqueness]"
+                      data-type="page"
+                      id="4121db69-abc4-44ab-b659-373f244a35bc"
+                    >
+                      <div data-type="abstract" id="[redacted for uniqueness]">
+                        By the end of this section, you will be able to:
+                        <ul>
+                          <li>Describe the properties, preparation, and uses of phosphorus</li>
+                        </ul>
+                      </div>
+
+                      <p
+                        id="fs-idp52194704"
+                      >The industrial preparation of phosphorus is by heating calcium phosphate, obtained from phosphate rock, with sand and coke:</p>
+
+                      <div data-type="equation" id="fs-idp51821104">
+                        <math display="block">
+                          <semantics>
+                            <mrow>
+                              <mrow>
+                                <msub>
+                                  <mrow>
+                                    <mtext>2Ca</mtext>
+                                  </mrow>
+                                  <mn>3</mn>
+                                </msub>
+                                <msub>
+                                  <mrow>
+                                    <mo stretchy="false">(</mo>
+                                    <msub>
+                                      <mrow>
+                                        <mtext>PO</mtext>
+                                      </mrow>
+                                      <mn>4</mn>
+                                    </msub>
+                                    <mo stretchy="false">)</mo>
+                                  </mrow>
+                                  <mn>2</mn>
+                                </msub>
+                                <mo stretchy="false">(</mo>
+                                <mi>s</mi>
+                                <mo stretchy="false">)</mo>
+                                <mo>+</mo>
+                                <msub>
+                                  <mrow>
+                                    <mtext>6SiO</mtext>
+                                  </mrow>
+                                  <mn>2</mn>
+                                </msub>
+                                <mo stretchy="false">(</mo>
+                                <mi>s</mi>
+                                <mo stretchy="false">)</mo>
+                                <mo>+</mo>
+                                <mtext>10C</mtext>
+                                <mo stretchy="false">(</mo>
+                                <mi>s</mi>
+                                <mo stretchy="false">)</mo>
+                                <mspace width="0.2em"/>
+                                <mover>
+                                  <mo>→</mo>
+                                  <mrow>
+                                    <mspace width="0.4em"/>
+                                    <mtext>Δ</mtext>
+                                    <mspace width="0.4em"/>
+                                  </mrow>
+                                </mover>
+                                <mspace width="0.2em"/>
+                                <msub>
+                                  <mrow>
+                                    <mtext>6CaSiO</mtext>
+                                  </mrow>
+                                  <mn>3</mn>
+                                </msub>
+                                <mo stretchy="false">(</mo>
+                                <mi>l</mi>
+                                <mo stretchy="false">)</mo>
+                                <mo>+</mo>
+                                <mtext>10CO</mtext>
+                                <mo stretchy="false">(</mo>
+                                <mi>g</mi>
+                                <mo stretchy="false">)</mo>
+                                <mo>+</mo>
+                                <msub>
+                                  <mtext>P</mtext>
+                                  <mn>4</mn>
+                                </msub>
+                                <mo stretchy="false">(</mo>
+                                <mi>g</mi>
+                                <mo stretchy="false">)</mo>
+                              </mrow>
+                            </mrow>
+                            <annotation-xml encoding="MathML-Content">
+                              <mrow>
+                                <msub>
+                                  <mrow>
+                                    <mtext>2Ca</mtext>
+                                  </mrow>
+                                  <mn>3</mn>
+                                </msub>
+                                <msub>
+                                  <mrow>
+                                    <mo stretchy="false">(</mo>
+                                    <msub>
+                                      <mrow>
+                                        <mtext>PO</mtext>
+                                      </mrow>
+                                      <mn>4</mn>
+                                    </msub>
+                                    <mo stretchy="false">)</mo>
+                                  </mrow>
+                                  <mn>2</mn>
+                                </msub>
+                                <mo stretchy="false">(</mo>
+                                <mi>s</mi>
+                                <mo stretchy="false">)</mo>
+                                <mo>+</mo>
+                                <msub>
+                                  <mrow>
+                                    <mtext>6SiO</mtext>
+                                  </mrow>
+                                  <mn>2</mn>
+                                </msub>
+                                <mo stretchy="false">(</mo>
+                                <mi>s</mi>
+                                <mo stretchy="false">)</mo>
+                                <mo>+</mo>
+                                <mtext>10C</mtext>
+                                <mo stretchy="false">(</mo>
+                                <mi>s</mi>
+                                <mo stretchy="false">)</mo>
+                                <mspace width="0.2em"/>
+                                <mover>
+                                  <mo>→</mo>
+                                  <mrow>
+                                    <mspace width="0.4em"/>
+                                    <mtext>Δ</mtext>
+                                    <mspace width="0.4em"/>
+                                  </mrow>
+                                </mover>
+                                <mspace width="0.2em"/>
+                                <msub>
+                                  <mrow>
+                                    <mtext>6CaSiO</mtext>
+                                  </mrow>
+                                  <mn>3</mn>
+                                </msub>
+                                <mo stretchy="false">(</mo>
+                                <mi>l</mi>
+                                <mo stretchy="false">)</mo>
+                                <mo>+</mo>
+                                <mtext>10CO</mtext>
+                                <mo stretchy="false">(</mo>
+                                <mi>g</mi>
+                                <mo stretchy="false">)</mo>
+                                <mo>+</mo>
+                                <msub>
+                                  <mtext>P</mtext>
+                                  <mn>4</mn>
+                                </msub>
+                                <mo stretchy="false">(</mo>
+                                <mi>g</mi>
+                                <mo stretchy="false">)</mo>
+                              </mrow>
+                            </annotation-xml>
+                          </semantics>
+                        </math>
+                      </div>
+
+                      <p id="fs-idp5816832">
+                        The phosphorus distills out of the furnace and is condensed into a solid or burned to form P
+                        <sub>4</sub>O
+                        <sub>10</sub>. The preparation of many other phosphorus compounds begins with P
+                        <sub>4</sub>O
+                        <sub>10</sub>. The acids and phosphates are useful as fertilizers and in the chemical industry. Other uses are in the manufacture of special alloys such as ferrophosphorus and phosphor bronze. Phosphorus is important in making pesticides, matches, and some plastics. Phosphorus is an active nonmetal. In compounds, phosphorus usually occurs in oxidation states of 3−, 3+, and 5+. Phosphorus exhibits oxidation numbers that are unusual for a group 15 element in compounds that contain phosphorus-phosphorus bonds; examples include diphosphorus tetrahydride, H
+                        <sub>2</sub>P-PH
+                        <sub>2</sub>, and tetraphosphorus trisulfide, P
+                        <sub>4</sub>S
+                        <sub>3</sub>, illustrated in
+                        <a
+                          class="autogenerated-content"
+                          href="#CNX_Chem_18_08_P4S3"
+                        >Figure 18.39</a>.
+                      </p>
+
+                      <div class="os-figure" id="CNX_Chem_18_08_P4S3">
+                        <figure
+                          class="scaled-down"
+                          data-id="CNX_Chem_18_08_P4S3"
+                        >
+                          <span
+                            data-alt="A ball-and-stick model is shown. Three orange atoms labeled “P” are single bonded together in a triangle shape. Each “P” is single bonded to yellow atoms labeled “S,” which are each single bonded to one other orange atom labeled “P.”"
+                            data-type="media"
+                            id="fs-idm5144976"
+                          >
+                            <img
+                              alt="A ball-and-stick model is shown. Three orange atoms labeled “P” are single bonded together in a triangle shape. Each “P” is single bonded to yellow atoms labeled “S,” which are each single bonded to one other orange atom labeled “P.”"
+                              data-media-type="image/jpeg"
+                              id="[redacted for uniqueness]"
+                              src="/resources/b8112b896ce280025973e5a37c7159be865dbded"
+                            >
+                          </span>
+                        </figure>
+                        <div class="os-caption-container">
+                          <span class="os-title-label">Figure</span>
+                          <span class="os-number">18.39</span>
+                          <span class="os-divider"></span>
+                          <span class="os-divider"></span>
+                          <span class="os-caption">
+                            P
+                            <sub>4</sub>S
+                            <sub>3</sub> is a component of the heads of strike-anywhere matches.
+                          </span>
+                        </div>
+                      </div>
+
+                      <section data-depth="1" id="fs-idm31898272">
+                        <h3 data-type="title">Phosphorus Oxygen Compounds</h3>
+                        <p id="fs-idp85748768">
+                          Phosphorus forms two common oxides, phosphorus(III) oxide (or tetraphosphorus hexaoxide), P
+                          <sub>4</sub>O
+                          <sub>6</sub>, and phosphorus(V) oxide (or tetraphosphorus decaoxide), P
+                          <sub>4</sub>O
+                          <sub>10</sub>, both shown in
+                          <a
+                            class="autogenerated-content"
+                            href="#CNX_Chem_18_08_P4O6P4O10"
+                          >Figure 18.40</a>. Phosphorus(III) oxide is a white crystalline solid with a garlic-like odor. Its vapor is very poisonous. It oxidizes slowly in air and inflames when heated to 70 °C, forming P
+                          <sub>4</sub>O
+                          <sub>10</sub>. Phosphorus(III) oxide dissolves slowly in cold water to form phosphorous acid, H
+                          <sub>3</sub>PO
+                          <sub>3</sub>.
+                        </p>
+                        <div class="os-figure" id="CNX_Chem_18_08_P4O6P4O10">
+                          <figure
+                            class="scaled-down"
+                            data-id="CNX_Chem_18_08_P4O6P4O10"
+                          >
+                            <span
+                              data-alt="Two ball-and-stick models are shown. In the left model, three orange atoms labeled, “P,” are single bonded to red atoms labeled, “O,” in an alternating, six-sided ring structure. Each of the orange atoms are also single bonded to another red atom, which are in turn single bonded to a single orange atom. The right model shows three orange atoms labeled, “P,” single bonded to red atoms labeled, “O,” in an alternating, six-sided ring structure. Each of the orange atoms are also single bonded to two more red atoms, one in an upward position and one facing the outside of the molecule. The upward red atoms are single bonded to a single orange atom which is single bonded to a final red atom."
+                              data-type="media"
+                              id="fs-idp57250912"
+                            >
+                              <img
+                                alt="Two ball-and-stick models are shown. In the left model, three orange atoms labeled, “P,” are single bonded to red atoms labeled, “O,” in an alternating, six-sided ring structure. Each of the orange atoms are also single bonded to another red atom, which are in turn single bonded to a single orange atom. The right model shows three orange atoms labeled, “P,” single bonded to red atoms labeled, “O,” in an alternating, six-sided ring structure. Each of the orange atoms are also single bonded to two more red atoms, one in an upward position and one facing the outside of the molecule. The upward red atoms are single bonded to a single orange atom which is single bonded to a final red atom."
+                                data-media-type="image/jpeg"
+                                id="[redacted for uniqueness]"
+                                src="/resources/e9c20696b7020ad167869afad4fdb4db057c692c"
+                              >
+                            </span>
+                          </figure>
+                          <div class="os-caption-container">
+                            <span class="os-title-label">Figure</span>
+                            <span class="os-number">18.40</span>
+                            <span class="os-divider"></span>
+                            <span class="os-divider"></span>
+                            <span class="os-caption">
+                              This image shows the molecular structures of P
+                              <sub>4</sub>O
+                              <sub>6</sub> (left) and P
+                              <sub>4</sub>O
+                              <sub>10</sub> (right).
+                            </span>
+                          </div>
+                        </div>
+                        <p id="fs-idm7162480">
+                          Phosphorus(V) oxide, P
+                          <sub>4</sub>O
+                          <sub>10</sub>, is a white powder that is prepared by burning phosphorus in excess oxygen. Its enthalpy of formation is very high (−2984 kJ), and it is quite stable and a very poor oxidizing agent. Dropping P
+                          <sub>4</sub>O
+                          <sub>10</sub> into water produces a hissing sound, heat, and orthophosphoric acid:
+                        </p>
+                        <div data-type="equation" id="fs-idp704592">
+                          <math display="block">
+                            <semantics>
+                              <mrow>
+                                <mrow>
+                                  <msub>
+                                    <mtext>P</mtext>
+                                    <mn>4</mn>
+                                  </msub>
+                                  <msub>
+                                    <mtext>O</mtext>
+                                    <mrow>
+                                      <mn>10</mn>
+                                    </mrow>
+                                  </msub>
+                                  <mo stretchy="false">(</mo>
+                                  <mi>s</mi>
+                                  <mo stretchy="false">)</mo>
+                                  <mo>+</mo>
+                                  <msub>
+                                    <mrow>
+                                      <mtext>6H</mtext>
+                                    </mrow>
+                                    <mn>2</mn>
+                                  </msub>
+                                  <mtext>O</mtext>
+                                  <mo stretchy="false">(</mo>
+                                  <mi>l</mi>
+                                  <mo stretchy="false">)</mo>
+                                  <mspace width="0.2em"/>
+                                  <mo stretchy="false">⟶</mo>
+                                  <mspace width="0.2em"/>
+                                  <msub>
+                                    <mrow>
+                                      <mtext>4H</mtext>
+                                    </mrow>
+                                    <mn>3</mn>
+                                  </msub>
+                                  <msub>
+                                    <mrow>
+                                      <mtext>PO</mtext>
+                                    </mrow>
+                                    <mn>4</mn>
+                                  </msub>
+                                  <mo stretchy="false">(</mo>
+                                  <mi>a</mi>
+                                  <mi>q</mi>
+                                  <mo stretchy="false">)</mo>
+                                </mrow>
+                              </mrow>
+                              <annotation-xml encoding="MathML-Content">
+                                <mrow>
+                                  <msub>
+                                    <mtext>P</mtext>
+                                    <mn>4</mn>
+                                  </msub>
+                                  <msub>
+                                    <mtext>O</mtext>
+                                    <mrow>
+                                      <mn>10</mn>
+                                    </mrow>
+                                  </msub>
+                                  <mo stretchy="false">(</mo>
+                                  <mi>s</mi>
+                                  <mo stretchy="false">)</mo>
+                                  <mo>+</mo>
+                                  <msub>
+                                    <mrow>
+                                      <mtext>6H</mtext>
+                                    </mrow>
+                                    <mn>2</mn>
+                                  </msub>
+                                  <mtext>O</mtext>
+                                  <mo stretchy="false">(</mo>
+                                  <mi>l</mi>
+                                  <mo stretchy="false">)</mo>
+                                  <mspace width="0.2em"/>
+                                  <mo stretchy="false">⟶</mo>
+                                  <mspace width="0.2em"/>
+                                  <msub>
+                                    <mrow>
+                                      <mtext>4H</mtext>
+                                    </mrow>
+                                    <mn>3</mn>
+                                  </msub>
+                                  <msub>
+                                    <mrow>
+                                      <mtext>PO</mtext>
+                                    </mrow>
+                                    <mn>4</mn>
+                                  </msub>
+                                  <mo stretchy="false">(</mo>
+                                  <mi>a</mi>
+                                  <mi>q</mi>
+                                  <mo stretchy="false">)</mo>
+                                </mrow>
+                              </annotation-xml>
+                            </semantics>
+                          </math>
+                        </div>
+                        <p
+                          id="fs-idm64278832"
+                        >Because of its great affinity for water, phosphorus(V) oxide is an excellent drying agent for gases and solvents, and for removing water from many compounds.</p>
+                      </section>
+
+                      <section data-depth="1" id="fs-idm11573280">
+                        <h3 data-type="title">Phosphorus Halogen Compounds</h3>
+                        <p id="fs-idp70568512">
+                          Phosphorus will react directly with the halogens, forming trihalides, PX
+                          <sub>3</sub>, and pentahalides, PX
+                          <sub>5</sub>. The trihalides are much more stable than the corresponding nitrogen trihalides; nitrogen pentahalides do not form because of nitrogen’s inability to form more than four bonds.
+                        </p>
+                        <p id="fs-idp182518880">
+                          The chlorides PCl
+                          <sub>3</sub> and PCl
+                          <sub>5</sub>, both shown in
+                          <a
+                            class="autogenerated-content"
+                            href="#CNX_Chem_18_08_PCl3PCl5"
+                          >Figure 18.41</a>, are the most important halides of phosphorus. Phosphorus trichloride is a colorless liquid that is prepared by passing chlorine over molten phosphorus. Phosphorus pentachloride is an off-white solid that is prepared by oxidizing the trichloride with excess chlorine. The pentachloride sublimes when warmed and forms an equilibrium with the trichloride and chlorine when heated.
+                        </p>
+                        <div class="os-figure" id="CNX_Chem_18_08_PCl3PCl5">
+                          <figure
+                            class="scaled-down"
+                            data-id="CNX_Chem_18_08_PCl3PCl5"
+                          >
+                            <span
+                              data-alt="Two ball-and-stick models are shown. In the left model, an orange atom labeled, “P,” is single bonded to three green atoms labeled, “C l.” The right model shows an orange atom labeled, “P,” single bonded to five green atoms labeled, “C l.”"
+                              data-type="media"
+                              id="fs-idp189314192"
+                            >
+                              <img
+                                alt="Two ball-and-stick models are shown. In the left model, an orange atom labeled, “P,” is single bonded to three green atoms labeled, “C l.” The right model shows an orange atom labeled, “P,” single bonded to five green atoms labeled, “C l.”"
+                                data-media-type="image/jpeg"
+                                id="[redacted for uniqueness]"
+                                src="/resources/0bb928354ba68ff5d268669ed19c771f8891e186"
+                              >
+                            </span>
+                          </figure>
+                          <div class="os-caption-container">
+                            <span class="os-title-label">Figure</span>
+                            <span class="os-number">18.41</span>
+                            <span class="os-divider"></span>
+                            <span class="os-divider"></span>
+                            <span class="os-caption">
+                              This image shows the molecular structure of PCl
+                              <sub>3</sub> (left) and PCl
+                              <sub>5</sub> (right) in the gas phase.
+                            </span>
+                          </div>
+                        </div>
+                        <p id="fs-idp21181152">
+                          Like most other nonmetal halides, both phosphorus chlorides react with an excess of water and yield hydrogen chloride and an oxyacid: PCl
+                          <sub>3</sub> yields phosphorous acid H
+                          <sub>3</sub>PO
+                          <sub>3</sub> and PCl
+                          <sub>5</sub> yields phosphoric acid, H
+                          <sub>3</sub>PO
+                          <sub>4</sub>.
+                        </p>
+                        <p id="fs-idm44217280">
+                          The pentahalides of phosphorus are Lewis acids because of the empty valence
+                          <em data-effect="italics">d</em> orbitals of phosphorus. These compounds readily react with halide ions (Lewis bases) to give the anion
+                          <math display="inline">
+                            <semantics>
+                              <mrow>
+                                <mrow>
+                                  <msub>
+                                    <mrow>
+                                      <mtext>PX</mtext>
+                                    </mrow>
+                                    <mn>6</mn>
+                                  </msub>
+                                  <msup>
+                                    <mrow/>
+                                    <mtext>−</mtext>
+                                  </msup>
+                                  <mo>.</mo>
+                                </mrow>
+                              </mrow>
+                              <annotation-xml encoding="MathML-Content">
+                                <mrow>
+                                  <msub>
+                                    <mrow>
+                                      <mtext>PX</mtext>
+                                    </mrow>
+                                    <mn>6</mn>
+                                  </msub>
+                                  <msup>
+                                    <mrow/>
+                                    <mtext>−</mtext>
+                                  </msup>
+                                  <mo>.</mo>
+                                </mrow>
+                              </annotation-xml>
+                            </semantics>
+                          </math> Whereas phosphorus pentafluoride is a molecular compound in all states, X-ray studies show that solid phosphorus pentachloride is an ionic compound,
+                          <math display="inline">
+                            <semantics>
+                              <mrow>
+                                <mrow>
+                                  <msub>
+                                    <mrow>
+                                      <mo stretchy="false">[</mo>
+                                      <mtext>PCl</mtext>
+                                    </mrow>
+                                    <mn>4</mn>
+                                  </msub>
+                                  <msup>
+                                    <mrow/>
+                                    <mtext>+</mtext>
+                                  </msup>
+                                  <mo stretchy="false">]</mo>
+                                  <mo stretchy="false">[</mo>
+                                  <msub>
+                                    <mrow>
+                                      <mtext>PCl</mtext>
+                                    </mrow>
+                                    <mn>6</mn>
+                                  </msub>
+                                  <msup>
+                                    <mrow/>
+                                    <mtext>−</mtext>
+                                  </msup>
+                                  <mo stretchy="false">]</mo>
+                                  <mo>,</mo>
+                                </mrow>
+                              </mrow>
+                              <annotation-xml encoding="MathML-Content">
+                                <mrow>
+                                  <msub>
+                                    <mrow>
+                                      <mo stretchy="false">[</mo>
+                                      <mtext>PCl</mtext>
+                                    </mrow>
+                                    <mn>4</mn>
+                                  </msub>
+                                  <msup>
+                                    <mrow/>
+                                    <mtext>+</mtext>
+                                  </msup>
+                                  <mo stretchy="false">]</mo>
+                                  <mo stretchy="false">[</mo>
+                                  <msub>
+                                    <mrow>
+                                      <mtext>PCl</mtext>
+                                    </mrow>
+                                    <mn>6</mn>
+                                  </msub>
+                                  <msup>
+                                    <mrow/>
+                                    <mtext>−</mtext>
+                                  </msup>
+                                  <mo stretchy="false">]</mo>
+                                  <mo>,</mo>
+                                </mrow>
+                              </annotation-xml>
+                            </semantics>
+                          </math> as are phosphorus pentabromide,
+                          <math display="inline">
+                            <semantics>
+                              <mrow>
+                                <mrow>
+                                  <msub>
+                                    <mrow>
+                                      <mo stretchy="false">[</mo>
+                                      <mtext>PBr</mtext>
+                                    </mrow>
+                                    <mn>4</mn>
+                                  </msub>
+                                  <msup>
+                                    <mrow/>
+                                    <mtext>+</mtext>
+                                  </msup>
+                                  <mo stretchy="false">]</mo>
+                                </mrow>
+                              </mrow>
+                              <annotation-xml encoding="MathML-Content">
+                                <mrow>
+                                  <msub>
+                                    <mrow>
+                                      <mo stretchy="false">[</mo>
+                                      <mtext>PBr</mtext>
+                                    </mrow>
+                                    <mn>4</mn>
+                                  </msub>
+                                  <msup>
+                                    <mrow/>
+                                    <mtext>+</mtext>
+                                  </msup>
+                                  <mo stretchy="false">]</mo>
+                                </mrow>
+                              </annotation-xml>
+                            </semantics>
+                          </math>[Br
+                          <sup>−</sup>], and phosphorus pentaiodide,
+                          <math display="inline">
+                            <semantics>
+                              <mrow>
+                                <mrow>
+                                  <msub>
+                                    <mrow>
+                                      <mo stretchy="false">[</mo>
+                                      <mtext>PI</mtext>
+                                    </mrow>
+                                    <mn>4</mn>
+                                  </msub>
+                                  <msup>
+                                    <mrow/>
+                                    <mtext>+</mtext>
+                                  </msup>
+                                  <mo stretchy="false">]</mo>
+                                </mrow>
+                              </mrow>
+                              <annotation-xml encoding="MathML-Content">
+                                <mrow>
+                                  <msub>
+                                    <mrow>
+                                      <mo stretchy="false">[</mo>
+                                      <mtext>PI</mtext>
+                                    </mrow>
+                                    <mn>4</mn>
+                                  </msub>
+                                  <msup>
+                                    <mrow/>
+                                    <mtext>+</mtext>
+                                  </msup>
+                                  <mo stretchy="false">]</mo>
+                                </mrow>
+                              </annotation-xml>
+                            </semantics>
+                          </math>[I
+                          <sup>−</sup>].
+                        </p>
+                      </section>
+                    </div>
+                  </div>
+                  

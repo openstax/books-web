@@ -1,0 +1,85 @@
+
+                    <div
+                      class="os-eoc os-summary-container"
+                      data-type="composite-page"
+                      data-uuid-key=".summary"
+                    >
+                      <section
+                        class="summary"
+                        data-depth="1"
+                        id="fs-idp111264480"
+                      >
+                        <h3 data-type="document-title" id="[redacted for uniqueness]">
+                          <span class="os-number">8.1</span>
+                          <span class="os-divider"></span>
+                          <span class="os-text">Valence Bond Theory</span>
+                        </h3>
+                        <p
+                          id="fs-idp52352272"
+                        >Valence bond theory describes bonding as a consequence of the overlap of two separate atomic orbitals on different atoms that creates a region with one pair of electrons shared between the two atoms. When the orbitals overlap along an axis containing the nuclei, they form a σ bond. When they overlap in a fashion that creates a node along this axis, they form a π bond.</p>
+                      </section>
+                      <section
+                        class="summary"
+                        data-depth="1"
+                        id="fs-idm69243360"
+                      >
+                        <h3 data-type="document-title" id="[redacted for uniqueness]">
+                          <span class="os-number">8.2</span>
+                          <span class="os-divider"></span>
+                          <span class="os-text">Hybrid Atomic Orbitals</span>
+                        </h3>
+                        <p id="fs-idm25402912">
+                          We can use hybrid orbitals, which are mathematical combinations of some or all of the valence atomic orbitals, to describe the electron density around covalently bonded atoms. These hybrid orbitals either form sigma (σ) bonds directed toward other atoms of the molecule or contain lone pairs of electrons. We can determine the type of hybridization around a central atom from the geometry of the regions of electron density about it. Two such regions imply
+                          <em data-effect="italics">sp</em> hybridization; three,
+                          <em data-effect="italics">sp</em>
+                          <sup>2</sup> hybridization; four,
+                          <em data-effect="italics">sp</em>
+                          <sup>3</sup> hybridization; five,
+                          <em data-effect="italics">sp</em>
+                          <sup>3</sup>
+                          <em data-effect="italics">d</em> hybridization; and six,
+                          <em data-effect="italics">sp</em>
+                          <sup>3</sup>
+                          <em data-effect="italics">d</em>
+                          <sup>2</sup> hybridization. Pi (π) bonds are formed from unhybridized atomic orbitals (
+                          <em data-effect="italics">p</em> or
+                          <em data-effect="italics">d</em> orbitals).
+                        </p>
+                      </section>
+                      <section
+                        class="summary"
+                        data-depth="1"
+                        id="fs-idp38327968"
+                      >
+                        <h3 data-type="document-title" id="[redacted for uniqueness]">
+                          <span class="os-number">8.3</span>
+                          <span class="os-divider"></span>
+                          <span class="os-text">Multiple Bonds</span>
+                        </h3>
+                        <p
+                          id="fs-idp78398192"
+                        >Multiple bonds consist of a σ bond located along the axis between two atoms and one or two π bonds. The σ bonds are usually formed by the overlap of hybridized atomic orbitals, while the π bonds are formed by the side-by-side overlap of unhybridized orbitals. Resonance occurs when there are multiple unhybridized orbitals with the appropriate alignment to overlap, so the placement of π bonds can vary.</p>
+                      </section>
+                      <section
+                        class="summary"
+                        data-depth="1"
+                        id="fs-idp114974944"
+                      >
+                        <h3 data-type="document-title" id="[redacted for uniqueness]">
+                          <span class="os-number">8.4</span>
+                          <span class="os-divider"></span>
+                          <span class="os-text">Molecular Orbital Theory</span>
+                        </h3>
+                        <p id="fs-idm157944352">
+                          Molecular orbital (MO) theory describes the behavior of electrons in a molecule in terms of combinations of the atomic wave functions. The resulting molecular orbitals may extend over all the atoms in the molecule. Bonding molecular orbitals are formed by in-phase combinations of atomic wave functions, and electrons in these orbitals stabilize a molecule. Antibonding molecular orbitals result from out-of-phase combinations of atomic wave functions and electrons in these orbitals make a molecule less stable. Molecular orbitals located along an internuclear axis are called σ MOs. They can be formed from
+                          <em data-effect="italics">s</em> orbitals or from
+                          <em data-effect="italics">p</em> orbitals oriented in an end-to-end fashion. Molecular orbitals formed from
+                          <em data-effect="italics">p</em> orbitals oriented in a side-by-side fashion have electron density on opposite sides of the internuclear axis and are called π orbitals.
+                        </p>
+                        <p
+                          id="fs-idm113162704"
+                        >We can describe the electronic structure of diatomic molecules by applying molecular orbital theory to the valence electrons of the atoms. Electrons fill molecular orbitals following the same rules that apply to filling atomic orbitals; Hund’s rule and the Aufbau principle tell us that lower-energy orbitals will fill first, electrons will spread out before they pair up, and each orbital can hold a maximum of two electrons with opposite spins. Materials with unpaired electrons are paramagnetic and attracted to a magnetic field, while those with all-paired electrons are diamagnetic and repelled by a magnetic field. Correctly predicting the magnetic properties of molecules is in advantage of molecular orbital theory over Lewis structures and valence bond theory.</p>
+                      </section>
+                    </div>
+                  </div>
+                  

@@ -1,0 +1,77 @@
+// Constants from bootstrap/less/variables.less
+@gray-base:             #000;
+@gray-dark:             lighten(@gray-base, 20%);   // #333
+@gray:                  lighten(@gray-base, 33.5%); // #555
+@gray-medium:           #606163;
+@gray-light:            #cdcdcd;
+@gray-lighter:          gainsboro;
+@gray-lightest:         #ededed;
+@font-size-base:        14px;
+@line-height-base:      1.428571429; // 20/14
+@line-height-computed:  floor((@font-size-base * @line-height-base)); // ~20px
+@table-bg:              transparent;
+@table-border-color:    #ddd;
+@body-bg:               #fff;
+@table-bg-accent:       #f9f9f9;
+@screen-sm:             768px;
+@screen-sm-min:         @screen-sm;
+@screen-xs-max:         (@screen-sm-min - 1);
+
+#main-content {
+  @import "./content-baked.less";
+
+  // gray is used for text color
+  @gray: #424242;
+
+  font-size: @font-size-base;
+  line-height: @line-height-computed;
+
+  sup {
+    top: -.5em;
+  }
+  h3 {
+    font-size: 2.1rem;
+  }
+  h4 {
+    font-size: 1.6rem;
+  }
+  sub, sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+  }
+  .os-figure .os-caption-container {
+    line-height: 1.7rem;
+  }
+  .os-glossary-container {
+    dt {
+      font-weight: 700;
+    }
+    dd {
+      margin-left: 0;
+      margin-inline-start: 0;
+    }
+  }
+  [data-type="composite-page"] [data-type="exercise"] [data-type="problem"] p:first-of-type a {
+    font-weight: 700;
+    margin-right: .5em;
+  }
+  code {
+    color: #c7254e;
+    background-color: #f9f2f4;
+    border-radius: 4px;
+  }
+  blockquote {
+    padding: 1rem 2rem;
+    margin: 1rem 0 2rem;
+    border-left: 0.5rem solid #dcdcdc;
+  }
+  figure {
+    margin: 0;
+  }
+  table {
+    border-collapse: collapse;
+    border-spacing: 0;
+  }
+}

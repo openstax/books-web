@@ -1,0 +1,75 @@
+
+                    <div
+                      class="os-eoc os-key-equations-container"
+                      data-type="composite-page"
+                      data-uuid-key=".key-equations"
+                    >
+                      <section
+                        class="key-equations"
+                        data-depth="1"
+                        id="fs-idm7298256"
+                      >
+                        <ul data-bullet-style="bullet" id="fs-idm175910672">
+                          <li>
+                            <math display="inline">
+                              <semantics>
+                                <mrow>
+                                  <mrow>
+                                    <mtext>average mass</mtext>
+                                    <mo>=</mo>
+                                    <mstyle displaystyle="true">
+                                      <munder>
+                                        <mo>∑</mo>
+                                        <mi>i</mi>
+                                      </munder>
+                                      <mrow>
+                                        <msub>
+                                          <mrow>
+                                            <mo stretchy="false">(</mo>
+                                            <mtext>fractional abundance</mtext>
+                                            <mspace width="0.2em"/>
+                                            <mo>×</mo>
+                                            <mspace width="0.2em"/>
+                                            <mtext>isotopic mass</mtext>
+                                            <mo stretchy="false">)</mo>
+                                          </mrow>
+                                          <mi>i</mi>
+                                        </msub>
+                                      </mrow>
+                                    </mstyle>
+                                  </mrow>
+                                </mrow>
+                                <annotation-xml encoding="MathML-Content">
+                                  <mrow>
+                                    <mtext>average mass</mtext>
+                                    <mo>=</mo>
+                                    <mstyle displaystyle="true">
+                                      <munder>
+                                        <mo>∑</mo>
+                                        <mi>i</mi>
+                                      </munder>
+                                      <mrow>
+                                        <msub>
+                                          <mrow>
+                                            <mo stretchy="false">(</mo>
+                                            <mtext>fractional abundance</mtext>
+                                            <mspace width="0.2em"/>
+                                            <mo>×</mo>
+                                            <mspace width="0.2em"/>
+                                            <mtext>isotopic mass</mtext>
+                                            <mo stretchy="false">)</mo>
+                                          </mrow>
+                                          <mi>i</mi>
+                                        </msub>
+                                      </mrow>
+                                    </mstyle>
+                                  </mrow>
+                                </annotation-xml>
+                              </semantics>
+                            </math>
+                          </li>
+                        </ul>
+                      </section>
+                    </div>
+                  </div>
+                  

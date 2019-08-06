@@ -1,0 +1,609 @@
+
+                    <div
+                      class="preface"
+                      data-cnxml-to-html-ver="[redacted for uniqueness]"
+                      data-type="page"
+                      id="541d7d79-a70e-42c2-b765-d55586648390"
+                    >
+                      <p id="eip-420">
+                        Welcome to
+                        <em data-effect="italics">Chemistry: Atoms First 2e</em>, an OpenStax resource. This textbook was written to increase student access to high-quality learning materials, maintaining the highest standards of academic rigor at little or no cost.
+                      </p>
+                      <section data-depth="1" id="eip-260">
+                        <h3 data-type="title">About OpenStax</h3>
+                        <p id="eip-616">
+                          OpenStax is a nonprofit based at Rice University, and it’s our mission to improve student access to education. Our first openly licensed college textbook was published in 2012, and our library has since scaled to over 30 books for college and AP
+                          <sup>®</sup> courses used by hundreds of thousands of students. OpenStax Tutor, our low-cost personalized learning tool, is being used in college courses throughout the country. Through our partnerships with philanthropic foundations and our alliance with other educational resource organizations, OpenStax is breaking down the most common barriers to learning and empowering students and instructors to succeed.
+                        </p>
+                      </section>
+
+                      <section data-depth="1" id="eip-479">
+                        <h3 data-type="title">About OpenStax resources</h3>
+                        <section data-depth="2" id="eip-idm1168584800">
+                          <h4 data-type="title">Customization</h4>
+                          <p id="eip-idm1227394688">
+                            <em data-effect="italics">Chemistry: Atoms First 2e</em> is licensed under a Creative Commons Attribution 4.0 International (CC BY) license, which means that you can distribute, remix, and build upon the content, as long as you provide attribution to OpenStax and its content contributors.
+                          </p>
+                          <p
+                            id="eip-idm943614128"
+                          >Because our books are openly licensed, you are free to use the entire book or pick and choose the sections that are most relevant to the needs of your course. Feel free to remix the content by assigning your students certain chapters and sections in your syllabus, in the order that you prefer. You can even provide a direct link in your syllabus to the sections in the web view of your book.</p>
+                          <p
+                            id="eip-idm925262032"
+                          >Instructors also have the option of creating a customized version of their OpenStax book. The custom version can be made available to students in low-cost print or digital form through their campus bookstore. Visit the Instructor Resources section of your book page on openstax.org for more information.</p>
+                        </section>
+                        <section data-depth="2" id="eip-574">
+                          <h4 data-type="title">Errata</h4>
+                          <p
+                            id="eip-850"
+                          >All OpenStax textbooks undergo a rigorous review process. However, like any professional-grade textbook, errors sometimes occur. Since our books are web based, we can make updates periodically when deemed pedagogically necessary. If you have a correction to suggest, submit it through the link on your book page on openstax.org. Subject matter experts review all errata suggestions. OpenStax is committed to remaining transparent about all updates, so you will also find a list of past errata changes on your book page on openstax.org.</p>
+                        </section>
+                        <section data-depth="2" id="eip-idm1183448192">
+                          <h4 data-type="title">Format</h4>
+                          <p
+                            id="eip-idm1362312752"
+                          >You can access this textbook for free in web view or PDF through openstax.org, and for a low cost in print.</p>
+                        </section>
+                      </section>
+                      <section data-depth="1" id="eip-905">
+                        <h3 data-type="title">
+                          About
+                          <em data-effect="italics">Chemistry: Atoms First 2e</em>
+                        </h3>
+                        <p id="eip-35">
+                          This text is an atoms-first adaptation of OpenStax
+                          <em data-effect="italics">Chemistry 2e</em>. The intention of “atoms-first” involves a few basic principles: first, it introduces atomic and molecular structure much earlier than the traditional approach, and it threads these themes through subsequent chapters. This approach may be chosen as a way to delay the introduction of material such as stoichiometry that students traditionally find abstract and difficult, thereby allowing students time to acclimate their study skills to chemistry. Additionally, it gives students a basis for understanding the application of quantitative principles to the chemistry that underlies the entire course. It also aims to center the study of chemistry on the atomic foundation that many will expand upon in a later course covering organic chemistry, easing that transition when the time arrives.
+                        </p>
+                        <p
+                          id="fs-idm216340928"
+                        >The second edition has been revised to incorporate clearer, more current, and more dynamic explanations, while maintaining the same organization as the first edition. Substantial improvements have been made in the figures, illustrations, and example exercises that support the text narrative.</p>
+                        <section data-depth="2" id="eip-idm1365965104">
+                          <h4 data-type="title">Coverage and scope</h4>
+                          <p id="eip-idm1174342624">
+                            In
+                            <em data-effect="italics">Chemistry: Atoms First 2e</em>, we strive to make chemistry, as a discipline, interesting and accessible to students. With this objective in mind, the content of this textbook has been developed and arranged to provide a logical progression from fundamental to more advanced concepts of chemical science. All of the material included in a traditional general chemistry course is here. It has been reorganized in an atoms-first approach and, where necessary, new material has been added to allow for continuity and to improve the flow of topics. The text can be used for a traditional two-semester introduction to chemistry or for a three-semester introduction, an approach becoming more common at many institutions. The goal is to provide a progressive, graduated introduction to chemistry that focuses on the fundamentally atom-focused nature of the subject. Topics are introduced within the context of familiar experiences whenever possible, treated with an appropriate rigor to satisfy the intellect of the learner, and reinforced in subsequent discussions of related content. The organization and pedagogical features were developed and vetted with feedback from chemistry educators dedicated to the project.
+                          </p>
+                        </section>
+                        <section data-depth="2" id="fs-idm237287280">
+                          <h4 data-type="title">Changes to the second edition</h4>
+                          <p id="fs-idm224547520">
+                            OpenStax only undertakes second editions when significant modifications to the text are necessary. In the case of
+                            <em data-effect="italics">Chemistry: Atoms First 2e</em>, user feedback indicated that we needed to focus on a few key areas, which we have done in the following ways:
+                          </p>
+                          <ul id="fs-idm215000608">
+                            <li>
+                              <strong
+                                data-effect="bold"
+                              >Content revisions for clarity and accuracy.</strong> The revision plan varied by chapter based on need. About five chapters were extensively rewritten and another twelve chapters were substantially revised to improve the readability and clarity of the narrative.
+                            </li>
+                            <li>
+                              <strong
+                                data-effect="bold"
+                              >Example and end-of-chapter exercises.</strong> The example and end-of-chapter exercises in several chapters were subjected to a rigorous accuracy check and revised to correct any errors, and additional exercises were added to several chapters to more fully support chapter content.
+                            </li>
+                            <li>
+                              <strong data-effect="bold">Art and illustrations.</strong> Under the guidance of the authors and expert scientific illustrators, especially those well-versed in creating accessible art, the OpenStax team made changes to much of the art in the first edition of
+                              <em data-effect="italics">Chemistry: Atoms First</em>. The revisions included correcting errors, redesigning illustrations to improve understanding, and recoloring for overall consistency.
+                            </li>
+                            <li>
+                              <strong
+                                data-effect="bold"
+                              >Accessibility improvements.</strong> As with all OpenStax books, the first edition of
+                              <em data-effect="italics">Chemistry: Atoms First</em> was created with a focus on accessibility. We have emphasized and improved that approach in the second edition. To accommodate users of specific assistive technologies, all alternative text was reviewed and revised for comprehensiveness and clarity. Many illustrations were revised to improve the color contrast, which is important for some visually impaired students. Overall, the OpenStax platform has been continually upgraded to improve accessibility.
+                            </li>
+                          </ul>
+                        </section>
+                        <section data-depth="2" id="eip-idm375982960">
+                          <h4
+                            data-type="title"
+                          >Partnership with University of Connecticut and UConn Undergraduate Student Government</h4>
+                          <p id="eip-idm1203183552">
+                            <em data-effect="italics">Chemistry: Atoms First 2e</em> is a peer-reviewed, openly licensed introductory textbook produced through a collaborative publishing partnership between OpenStax and the University of Connecticut and UConn Undergraduate Student Government Association.
+                          </p>
+                        </section>
+                        <section data-depth="2" id="eip-idm1242318304">
+                          <h4 data-type="title">Pedagogical foundation</h4>
+                          <p id="eip-idm1174555152">
+                            Throughout
+                            <em data-effect="italics">Chemistry: Atoms First 2e</em>, you will find features that draw the students into scientific inquiry by taking selected topics a step further. Students and educators alike will appreciate discussions in these feature boxes.
+                          </p>
+                          <ul id="eip-806">
+                            <li>
+                              <strong
+                                data-effect="bold"
+                              >Chemistry in Everyday Life</strong> ties chemistry concepts to everyday issues and real-world applications of science that students encounter in their lives. Topics include cell phones, solar thermal energy power plants, plastics recycling, and measuring blood pressure.
+                            </li>
+                            <li>
+                              <strong
+                                data-effect="bold"
+                              >How Sciences Interconnect</strong> feature boxes discuss chemistry in context of its interconnectedness with other scientific disciplines. Topics include neurotransmitters, greenhouse gases and climate change, and proteins and enzymes.
+                            </li>
+                            <li>
+                              <strong data-effect="bold">Portrait of a Chemist</strong> features present a short bio and an introduction to the work of prominent figures from history and present day so that students can see the “faces” of contributors in this field as well as science in action.
+                            </li>
+                          </ul>
+                        </section>
+                        <section data-depth="2" id="eip-idm1253497776">
+                          <h4 data-type="title">Comprehensive art program</h4>
+                          <p
+                            id="eip-idm378974512"
+                          >Our art program is designed to enhance students’ understanding of concepts through clear, effective illustrations, diagrams, and photographs.</p>
+                          <span
+                            data-alt=".."
+                            data-type="media"
+                            id="Chem_Preface_01"
+                          >
+                            <img
+                              alt=".."
+                              data-media-type="image/jpg"
+                              id="[redacted for uniqueness]"
+                              src="/resources/8a9dbdef9a6d7a62ea4da8fb4adb2f3f2d7566af"
+                            >
+                          </span>
+                          <span
+                            data-alt=".."
+                            data-type="media"
+                            id="Chem_Preface_02"
+                          >
+                            <img
+                              alt=".."
+                              data-media-type="image/jpg"
+                              id="[redacted for uniqueness]"
+                              src="/resources/2b721b0944b10dcfed1a88cb056a233b350838a9"
+                            >
+                          </span>
+                          <span
+                            data-alt=".."
+                            data-type="media"
+                            id="Chem_Preface_03"
+                          >
+                            <img
+                              alt=".."
+                              data-media-type="image/jpg"
+                              id="[redacted for uniqueness]"
+                              src="/resources/a2429091fdcae9cd8629f7300bc98515efc7d3e2"
+                            >
+                          </span>
+                          <span
+                            data-alt=".."
+                            data-type="media"
+                            id="Chem_Preface_04"
+                          >
+                            <img
+                              alt=".."
+                              data-media-type="image/jpg"
+                              id="[redacted for uniqueness]"
+                              src="/resources/327c34078f002af621d6034ce19b6b1020691d97"
+                            >
+                          </span>
+                          <span
+                            data-alt=".."
+                            data-type="media"
+                            id="Chem_Preface_05"
+                          >
+                            <img
+                              alt=".."
+                              data-media-type="image/jpg"
+                              id="[redacted for uniqueness]"
+                              src="CNX_Chem_20_01_alkanes.jpg"
+                            >
+                          </span>
+                          <span
+                            data-alt=".."
+                            data-type="media"
+                            id="Chem_Preface_06"
+                          >
+                            <img
+                              alt=".."
+                              data-media-type="image/jpg"
+                              id="[redacted for uniqueness]"
+                              src="/resources/7301a48ed1da0ae6efb8b066667e5642d282b614"
+                            >
+                          </span>
+                          <span
+                            data-alt=".."
+                            data-type="media"
+                            id="Chem_Preface_07"
+                          >
+                            <img
+                              alt=".."
+                              data-media-type="image/jpg"
+                              id="[redacted for uniqueness]"
+                              src="/resources/e663114220f562dac52ebc7e3b1849b3362f52a2"
+                            >
+                          </span>
+                        </section>
+                        <section data-depth="2" id="eip-idm341155856">
+                          <h4 data-type="title">Interactives that engage</h4>
+                          <p id="eip-idm1149190448">
+                            <em data-effect="italics">Chemistry: Atoms First 2e</em> incorporates links to relevant interactive exercises and animations that help bring topics to life through our
+                            <strong data-effect="bold">Link to Learning</strong> feature. Examples include:
+                          </p>
+                          <ul id="eip-id1165023493302">
+                            <li>PhET simulations</li>
+                            <li>IUPAC data and interactives</li>
+                            <li>TED talks</li>
+                          </ul>
+                        </section>
+                        <section data-depth="2" id="eip-idm397294848">
+                          <h4
+                            data-type="title"
+                          >Assessments that reinforce key concepts</h4>
+                          <p id="eip-idm1175501728">
+                            In-chapter
+                            <strong data-effect="bold">Examples</strong> walk students through problems by posing a question, stepping out a solution, and then asking students to practice the skill with a “Check Your Learning” component. The book also includes assessments at the end of each chapter so students can apply what they’ve learned through practice problems.
+                          </p>
+                        </section>
+                      </section>
+                      <section data-depth="1" id="eip-138">
+                        <h3 data-type="title">Additional resources</h3>
+                        <section data-depth="2" id="eip-235">
+                          <h4 data-type="title">Student and instructor resources</h4>
+                          <p
+                            id="eip-339"
+                          >We’ve compiled additional resources for both students and instructors, including Getting Started Guides, PowerPoint slides, and an instructor answer guide. Instructor resources require a verified instructor account, which you can apply for when you log in or create your account on openstax.org. Take advantage of these resources to supplement your OpenStax book.</p>
+                        </section>
+                        <section data-depth="2" id="eip-146">
+                          <h4 data-type="title">Community Hubs</h4>
+                          <p
+                            id="eip-812"
+                          >OpenStax partners with the Institute for the Study of Knowledge Management in Education (ISKME) to offer Community Hubs on OER Commons—a platform for instructors to share community-created resources that support OpenStax books, free of charge. Through our Community Hubs, instructors can upload their own materials or download resources to use in their own courses, including additional ancillaries, teaching material, multimedia, and relevant course content. We encourage instructors to join the hubs for the subjects most relevant to your teaching and research as an opportunity both to enrich your courses and to engage with other faculty.</p>
+                          <p id="eip-idm1303869328">
+                            To reach the Community Hubs, visit
+                            <a
+                              href="www.oercommons.org/hubs/OpenStax"
+                            >www.oercommons.org/hubs/OpenStax</a>.
+                          </p>
+                        </section>
+                        <section data-depth="2" id="eip-715">
+                          <h4 data-type="title">Technology partners</h4>
+                          <p
+                            id="eip-991"
+                          >As allies in making high-quality learning materials accessible, our technology partners offer optional low-cost tools that are integrated with OpenStax books. To access the technology options for your text, visit your book page on openstax.org.</p>
+                        </section>
+                      </section>
+                      <section data-depth="1" id="eip-114">
+                        <h3
+                          data-type="title"
+                        >About the University of Connecticut</h3>
+                        <p
+                          id="eip-214"
+                        >The University of Connecticut is one of the top public research universities in the nation, with more than 30,000 students pursuing answers to critical questions in labs, lecture halls, and the community. Knowledge exploration throughout the University’s network of campuses is united by a culture of innovation. An unprecedented commitment from the state of Connecticut ensures UConn attracts internationally renowned faculty and the world’s brightest students. A tradition of coaching winning athletes makes UConn a standout in Division l sports and fuels our academic spirit. As a vibrant, progressive leader, UConn fosters a diverse and dynamic culture that meets the challenges of a changing global society.</p>
+                      </section>
+                      <section data-depth="1" id="eip-384">
+                        <h3 data-type="title">About our team</h3>
+                        <section
+                          class="sr-contrib-auth"
+                          data-depth="2"
+                          id="eip-id1167823406305"
+                        >
+                          <h4 data-type="title">Senior contributing authors</h4>
+                          <p id="eip-id1167822707142">
+                            <strong>Paul Flowers, University of North Carolina–Pembroke</strong>
+                            <span data-type="newline">
+                              <br>
+                            </span>
+                            Dr. Paul Flowers earned a BS in Chemistry from St. Andrews Presbyterian College in 1983 and a PhD in Analytical Chemistry from the University of Tennessee in 1988. After a one-year postdoctoral appointment at Los Alamos National Laboratory, he joined the University of North Carolina–Pembroke in the fall of 1989. Dr. Flowers teaches courses in general and analytical chemistry, and conducts experimental research involving the development of new devices and methods for microscale chemical analysis.
+                          </p>
+
+                          <p id="eip-id1167823573396">
+                            <strong>Klaus Theopold, University of Delaware</strong>
+                            <span data-type="newline">
+                              <br>
+                            </span>
+                            Dr. Klaus Theopold (born in Berlin, Germany) received his Vordiplom from the Universität Hamburg in 1977. He then decided to pursue his graduate studies in the United States, where he received his PhD in inorganic chemistry from UC Berkeley in 1982. After a year of postdoctoral research at MIT, he joined the faculty at Cornell University. In 1990, he moved to the University of Delaware, where he is a Professor in the Department of Chemistry and Biochemistry and serves as an Associate Director of the University’s Center for Catalytic Science and Technology. Dr. Theopold regularly teaches graduate courses in inorganic and organometallic chemistry as well as General Chemistry.
+                          </p>
+
+                          <p id="eip-id1167824745136">
+                            <strong>Richard Langley, Stephen F. Austin State University</strong>
+                            <span data-type="newline">
+                              <br>
+                            </span>
+                            Dr. Richard Langley earned BS degrees in Chemistry and Mineralogy from Miami University of Ohio in the early 1970s and went on to receive his PhD in Chemistry from the University of Nebraska in 1977. After a postdoctoral fellowship at the Arizona State University Center for Solid State Studies, Dr. Langley taught in the University of Wisconsin system and participated in research at Argonne National Laboratory. Moving to Stephen F. Austin State University in 1982, Dr. Langley today serves as Professor of Chemistry. His areas of specialization are solid state chemistry, synthetic inorganic chemistry, fluorine chemistry, and chemical education.
+                          </p>
+
+                          <p id="eip-id1167823410112">
+                            <strong>
+                              Edward J. Neth, University of Connecticut (
+                              <em data-effect="italics">Chemistry: Atoms First</em>)
+                            </strong>
+                            <span data-type="newline">
+                              <br>
+                            </span>
+                            Dr. Edward J. Neth earned his BS in Chemistry (minor in Politics) at Fairfield University in 1985 and his MS (1988) and PhD (1995; Inorganic/Materials Chemistry) at the University of Connecticut. He joined the University of Connecticut in 2004 as a lecturer and currently teaches general and inorganic chemistry; his background includes having worked as a network engineer in both corporate and university settings, and he has served as Director of Academic Computing at New Haven University. He currently teaches a three-semester, introductory chemistry sequence at UConn and is involved with training and coordinating teaching assistants.
+                          </p>
+                          <p id="eip-id1167823421212">
+                            <strong>William R. Robinson, PhD</strong>
+                          </p>
+                        </section>
+                        <section
+                          class="contrib-auth"
+                          data-depth="2"
+                          id="eip-id1167822656465"
+                        >
+                          <h4 data-type="title">Contributing authors</h4>
+                          <p id="eip-id1167823482129">
+                            Mark Blaser, Shasta College
+                            <span data-type="newline">
+                              <br>
+                            </span>
+                            Simon Bott, University of Houston
+                            <span data-type="newline">
+                              <br>
+                            </span>
+                            Donald Carpenetti, Craven Community College
+                            <span data-type="newline">
+                              <br>
+                            </span>
+                            Andrew Eklund, Alfred University
+                            <span data-type="newline">
+                              <br>
+                            </span>
+                            Emad El-Giar, University of Louisiana at Monroe
+                            <span data-type="newline">
+                              <br>
+                            </span>
+                            Don Frantz, Wilfrid Laurier University
+                            <span data-type="newline">
+                              <br>
+                            </span>
+                            Paul Hooker, Westminster College
+                            <span data-type="newline">
+                              <br>
+                            </span>
+                            Jennifer Look, Mercer University
+                            <span data-type="newline">
+                              <br>
+                            </span>
+                            George Kaminski, Worcester Polytechnic Institute
+                            <span data-type="newline">
+                              <br>
+                            </span>
+                            Carol Martinez, Central New Mexico Community College
+                            <span data-type="newline">
+                              <br>
+                            </span>
+                            Troy Milliken, Jackson State University
+                            <span data-type="newline">
+                              <br>
+                            </span>
+                            Vicki Moravec, Trine University
+                            <span data-type="newline">
+                              <br>
+                            </span>
+                            Jason Powell, Ferrum College
+                            <span data-type="newline">
+                              <br>
+                            </span>
+                            Thomas Sorensen, University of Wisconsin–Milwaukee
+                            <span data-type="newline">
+                              <br>
+                            </span>
+                            Allison Soult, University of Kentucky
+                          </p>
+                        </section>
+
+                        <section data-depth="2" id="eip-id1167823592013">
+                          <h4 data-type="title">Reviewers</h4>
+                          <p id="eip-id1167823538422">
+                            Casey Akin, College Station Independent School District
+                            <span data-type="newline">
+                              <br>
+                            </span>
+                            Lara AL-Hariri, University of Massachusetts–Amherst
+                            <span data-type="newline">
+                              <br>
+                            </span>
+                            Sahar Atwa, University of Louisiana at Monroe
+                            <span data-type="newline">
+                              <br>
+                            </span>
+                            Todd Austell, University of North Carolina–Chapel Hill
+                            <span data-type="newline">
+                              <br>
+                            </span>
+                            Bobby Bailey, University of Maryland–University College
+                            <span data-type="newline">
+                              <br>
+                            </span>
+                            Robert Baker, Trinity College
+                            <span data-type="newline">
+                              <br>
+                            </span>
+                            Jeffrey Bartz, Kalamazoo College
+                            <span data-type="newline">
+                              <br>
+                            </span>
+                            Greg Baxley, Cuesta College
+                            <span data-type="newline">
+                              <br>
+                            </span>
+                            Ashley Beasley Green, National Institute of Standards and Technology
+                            <span data-type="newline">
+                              <br>
+                            </span>
+                            Patricia Bianconi, University of Massachusetts
+                            <span data-type="newline">
+                              <br>
+                            </span>
+                            Lisa Blank, Lyme Central School District
+                            <span data-type="newline">
+                              <br>
+                            </span>
+                            Daniel Branan, Colorado Community College System
+                            <span data-type="newline">
+                              <br>
+                            </span>
+                            Dorian Canelas, Duke University
+                            <span data-type="newline">
+                              <br>
+                            </span>
+                            Emmanuel Chang, York College
+                            <span data-type="newline">
+                              <br>
+                            </span>
+                            Carolyn Collins, College of Southern Nevada
+                            <span data-type="newline">
+                              <br>
+                            </span>
+                            Colleen Craig, University of Washington
+                            <span data-type="newline">
+                              <br>
+                            </span>
+                            Yasmine Daniels, Montgomery College–Germantown
+                            <span data-type="newline">
+                              <br>
+                            </span>
+                            Patricia Dockham, Grand Rapids Community College
+                            <span data-type="newline">
+                              <br>
+                            </span>
+                            Erick Fuoco, Richard J. Daley College
+                            <span data-type="newline">
+                              <br>
+                            </span>
+                            Andrea Geyer, University of Saint Francis
+                            <span data-type="newline">
+                              <br>
+                            </span>
+                            Daniel Goebbert, University of Alabama
+                            <span data-type="newline">
+                              <br>
+                            </span>
+                            John Goodwin, Coastal Carolina University
+                            <span data-type="newline">
+                              <br>
+                            </span>
+                            Stephanie Gould, Austin College
+                            <span data-type="newline">
+                              <br>
+                            </span>
+                            Patrick Holt, Bellarmine University
+                            <span data-type="newline">
+                              <br>
+                            </span>
+                            Kevin Kolack, Queensborough Community College
+                            <span data-type="newline">
+                              <br>
+                            </span>
+                            Amy Kovach, Roberts Wesleyan College
+                            <span data-type="newline">
+                              <br>
+                            </span>
+                            Judit Kovacs Beagle, University of Dayton
+                            <span data-type="newline">
+                              <br>
+                            </span>
+                            Krzysztof Kuczera, University of Kansas
+                            <span data-type="newline">
+                              <br>
+                            </span>
+                            Marcus Lay, University of Georgia
+                            <span data-type="newline">
+                              <br>
+                            </span>
+                            Pamela Lord, University of Saint Francis
+                            <span data-type="newline">
+                              <br>
+                            </span>
+                            Oleg Maksimov, Excelsior College
+                            <span data-type="newline">
+                              <br>
+                            </span>
+                            John Matson, Virginia Tech
+                            <span data-type="newline">
+                              <br>
+                            </span>
+                            Katrina Miranda, University of Arizona
+                            <span data-type="newline">
+                              <br>
+                            </span>
+                            Douglas Mulford, Emory University
+                            <span data-type="newline">
+                              <br>
+                            </span>
+                            Mark Ott, Jackson College
+                            <span data-type="newline">
+                              <br>
+                            </span>
+                            Adrienne Oxley, Columbia College
+                            <span data-type="newline">
+                              <br>
+                            </span>
+                            Richard Pennington, Georgia Gwinnett College
+                            <span data-type="newline">
+                              <br>
+                            </span>
+                            Rodney Powell, Coastal Carolina Community College
+                            <span data-type="newline">
+                              <br>
+                            </span>
+                            Jeanita Pritchett, Montgomery College–Rockville
+                            <span data-type="newline">
+                              <br>
+                            </span>
+                            Aheda Saber, University of Illinois at Chicago
+                            <span data-type="newline">
+                              <br>
+                            </span>
+                            Raymond Sadeghi, University of Texas at San Antonio
+                            <span data-type="newline">
+                              <br>
+                            </span>
+                            Nirmala Shankar, Rutgers University
+                            <span data-type="newline">
+                              <br>
+                            </span>
+                            Jonathan Smith, Temple University
+                            <span data-type="newline">
+                              <br>
+                            </span>
+                            Bryan Spiegelberg, Rider University
+                            <span data-type="newline">
+                              <br>
+                            </span>
+                            Ron Sternfels, Roane State Community College
+                            <span data-type="newline">
+                              <br>
+                            </span>
+                            Cynthia Strong, Cornell College
+                            <span data-type="newline">
+                              <br>
+                            </span>
+                            Kris Varazo, Francis Marion University
+                            <span data-type="newline">
+                              <br>
+                            </span>
+                            Victor Vilchiz, Virginia State University
+                            <span data-type="newline">
+                              <br>
+                            </span>
+                            Alex Waterson, Vanderbilt University
+                            <span data-type="newline">
+                              <br>
+                            </span>
+                            Juchao Yan, Eastern New Mexico University
+                            <span data-type="newline">
+                              <br>
+                            </span>
+                            Mustafa Yatin, Salem State University
+                            <span data-type="newline">
+                              <br>
+                            </span>
+                            Kazushige Yokoyama, State University of New York at Geneseo
+                            <span data-type="newline">
+                              <br>
+                            </span>
+                            Curtis Zaleski, Shippensburg University
+                            <span data-type="newline">
+                              <br>
+                            </span>
+                            Wei Zhang, University of Colorado–Boulder
+                            <span data-type="newline">
+                              <br>
+                            </span>
+                          </p>
+                        </section>
+                      </section>
+                    </div>
+                  </div>
+                  

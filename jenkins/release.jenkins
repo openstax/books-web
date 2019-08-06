@@ -1,0 +1,55 @@
+pipeline {
+  agent { label 'docker' }
+  parameters {
+      string(name: 'BUCKET', defaultValue: 'openstax-sandbox-rex-primary', description: 'the bucket to add to. This should not change frequently')
+      string(name: 'RELEASE_ID', description: 'A unique ID for the release. Can be anything but the CloudFormation -> Origins -> RexS3PrimaryOrigin will need to be updated when the build is complete')
+      string(name: 'CODE_VERSION', defaultValue: 'master', description: 'the branch or tag to build')
+      string(name: 'BOOKS', defaultValue: '{"031da8d3-b525-429c-80cf-6c8ed997733a":{"defaultVersion":"14.4"}}', description: 'Configuration of which books to prerender')
+  }
+  stages {
+    stage('install aws') {
+      steps {
+        sh 'curl "https://s3.amazonaws.com/aws-cli/awscli-bundle.zip" -o "awscli-bundle.zip"'
+        sh 'unzip awscli-bundle.zip'
+        sh './awscli-bundle/install -b ./bin/aws'
+      }
+    }
+    stage('build') {
+      environment {
+        PUBLIC_URL = "/rex/releases/${params.RELEASE_ID}"
+      }
+      steps {
+        sh 'docker build -t openstax/rex-web --build-arg PUBLIC_URL="$PUBLIC_URL" .'
+        sh 'docker run -td --name=$BUILD_TAG openstax/rex-web cat'
+      }
+    }
+    stage('render') {
+      steps {
+        sh """
+          docker exec \
+            -e REACT_APP_ENV=production \
+            -e BOOKS="${params.BOOKS.replace('"', '\\"')}" \
+            -e CODE_VERSION="$GIT_COMMIT" \
+            -e RELEASE_ID="${params.RELEASE_ID}" \
+            $BUILD_TAG yarn prerender
+        """
+      }
+    }
+    stage('upload') {
+      environment {
+        AWS_ACCESS_KEY_ID     = credentials('jenkins-dev-aws-secret-key-id')
+        AWS_SECRET_ACCESS_KEY = credentials('jenkins-dev-aws-secret-access-key')
+      }
+      steps {
+        sh "docker cp $BUILD_TAG:/code/build ."
+        sh "./bin/aws s3 sync --exclude 'books/*' build/ s3://${params.BUCKET}/rex/releases/${params.RELEASE_ID}"
+        sh "./bin/aws s3 sync --content-type 'text/html' build/books/ s3://${params.BUCKET}/rex/releases/${params.RELEASE_ID}/books"
+      }
+    }
+  }
+  post {
+    always {
+      sh 'docker stop $BUILD_TAG'
+    }
+  }
+}

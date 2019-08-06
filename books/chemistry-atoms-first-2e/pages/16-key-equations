@@ -1,0 +1,528 @@
+
+                    <div
+                      class="os-eoc os-key-equations-container"
+                      data-type="composite-page"
+                      data-uuid-key=".key-equations"
+                    >
+                      <section
+                        class="key-equations"
+                        data-depth="1"
+                        id="fs-idm175821376"
+                      >
+                        <ul data-bullet-style="bullet" id="fs-idm25340928">
+                          <li>
+                            <math display="inline">
+                              <semantics>
+                                <mrow>
+                                  <mrow>
+                                    <msubsup>
+                                      <mi>E</mi>
+                                      <mrow>
+                                        <mtext>cell</mtext>
+                                      </mrow>
+                                      <mo>°</mo>
+                                    </msubsup>
+                                    <mo>=</mo>
+                                    <msubsup>
+                                      <mi>E</mi>
+                                      <mrow>
+                                        <mtext>cathode</mtext>
+                                      </mrow>
+                                      <mo>°</mo>
+                                    </msubsup>
+                                    <mo>−</mo>
+                                    <msubsup>
+                                      <mi>E</mi>
+                                      <mrow>
+                                        <mtext>anode</mtext>
+                                      </mrow>
+                                      <mo>°</mo>
+                                    </msubsup>
+                                  </mrow>
+                                </mrow>
+                                <annotation-xml encoding="MathML-Content">
+                                  <mrow>
+                                    <msubsup>
+                                      <mi>E</mi>
+                                      <mrow>
+                                        <mtext>cell</mtext>
+                                      </mrow>
+                                      <mo>°</mo>
+                                    </msubsup>
+                                    <mo>=</mo>
+                                    <msubsup>
+                                      <mi>E</mi>
+                                      <mrow>
+                                        <mtext>cathode</mtext>
+                                      </mrow>
+                                      <mo>°</mo>
+                                    </msubsup>
+                                    <mo>−</mo>
+                                    <msubsup>
+                                      <mi>E</mi>
+                                      <mrow>
+                                        <mtext>anode</mtext>
+                                      </mrow>
+                                      <mo>°</mo>
+                                    </msubsup>
+                                  </mrow>
+                                </annotation-xml>
+                              </semantics>
+                            </math>
+                          </li>
+                        </ul>
+                      </section>
+                      <section
+                        class="key-equations"
+                        data-depth="1"
+                        id="fs-idp39495232"
+                      >
+                        <ul data-bullet-style="bullet" id="fs-idm17893664">
+                          <li>
+                            <math display="inline">
+                              <semantics>
+                                <mrow>
+                                  <mrow>
+                                    <msubsup>
+                                      <mi>E</mi>
+                                      <mrow>
+                                        <mtext>cell</mtext>
+                                      </mrow>
+                                      <mo>°</mo>
+                                    </msubsup>
+                                    <mo>=</mo>
+                                    <mspace width="0.2em"/>
+                                    <mfrac>
+                                      <mrow>
+                                        <mi>R</mi>
+                                        <mi>T</mi>
+                                      </mrow>
+                                      <mrow>
+                                        <mi>n</mi>
+                                        <mi>F</mi>
+                                      </mrow>
+                                    </mfrac>
+                                    <mspace width="0.4em"/>
+                                    <mtext>ln</mtext>
+                                    <mspace width="0.3em"/>
+                                    <mi>K</mi>
+                                  </mrow>
+                                </mrow>
+                                <annotation-xml encoding="MathML-Content">
+                                  <mrow>
+                                    <msubsup>
+                                      <mi>E</mi>
+                                      <mrow>
+                                        <mtext>cell</mtext>
+                                      </mrow>
+                                      <mo>°</mo>
+                                    </msubsup>
+                                    <mo>=</mo>
+                                    <mspace width="0.2em"/>
+                                    <mfrac>
+                                      <mrow>
+                                        <mi>R</mi>
+                                        <mi>T</mi>
+                                      </mrow>
+                                      <mrow>
+                                        <mi>n</mi>
+                                        <mi>F</mi>
+                                      </mrow>
+                                    </mfrac>
+                                    <mspace width="0.4em"/>
+                                    <mtext>ln</mtext>
+                                    <mspace width="0.3em"/>
+                                    <mi>K</mi>
+                                  </mrow>
+                                </annotation-xml>
+                              </semantics>
+                            </math>
+                          </li>
+                          <li>
+                            <math display="inline">
+                              <semantics>
+                                <mrow>
+                                  <mrow>
+                                    <msubsup>
+                                      <mi>E</mi>
+                                      <mrow>
+                                        <mtext>cell</mtext>
+                                      </mrow>
+                                      <mo>°</mo>
+                                    </msubsup>
+                                    <mo>=</mo>
+                                    <mspace width="0.2em"/>
+                                    <mfrac>
+                                      <mrow>
+                                        <mn>0.02</mn>
+                                        <mtext>57 V</mtext>
+                                      </mrow>
+                                      <mi>n</mi>
+                                    </mfrac>
+                                    <mspace width="0.2em"/>
+                                    <mtext>ln</mtext>
+                                    <mspace width="0.2em"/>
+                                    <mi>K</mi>
+                                    <mo>=</mo>
+                                    <mspace width="0.2em"/>
+                                    <mfrac>
+                                      <mrow>
+                                        <mn>0.0</mn>
+                                        <mtext>592 V</mtext>
+                                      </mrow>
+                                      <mi>n</mi>
+                                    </mfrac>
+                                    <mspace width="0.2em"/>
+                                    <mtext>log</mtext>
+                                    <mspace width="0.2em"/>
+                                    <mi>K</mi>
+                                    <mspace width="5em"/>
+                                    <mo stretchy="false">(</mo>
+                                    <mtext>at 298.15</mtext>
+                                    <mspace width="0.2em"/>
+                                    <mi>K</mi>
+                                    <mo stretchy="false">)</mo>
+                                  </mrow>
+                                </mrow>
+                                <annotation-xml encoding="MathML-Content">
+                                  <mrow>
+                                    <msubsup>
+                                      <mi>E</mi>
+                                      <mrow>
+                                        <mtext>cell</mtext>
+                                      </mrow>
+                                      <mo>°</mo>
+                                    </msubsup>
+                                    <mo>=</mo>
+                                    <mspace width="0.2em"/>
+                                    <mfrac>
+                                      <mrow>
+                                        <mn>0.02</mn>
+                                        <mtext>57 V</mtext>
+                                      </mrow>
+                                      <mi>n</mi>
+                                    </mfrac>
+                                    <mspace width="0.2em"/>
+                                    <mtext>ln</mtext>
+                                    <mspace width="0.2em"/>
+                                    <mi>K</mi>
+                                    <mo>=</mo>
+                                    <mspace width="0.2em"/>
+                                    <mfrac>
+                                      <mrow>
+                                        <mn>0.0</mn>
+                                        <mtext>592 V</mtext>
+                                      </mrow>
+                                      <mi>n</mi>
+                                    </mfrac>
+                                    <mspace width="0.2em"/>
+                                    <mtext>log</mtext>
+                                    <mspace width="0.2em"/>
+                                    <mi>K</mi>
+                                    <mspace width="5em"/>
+                                    <mo stretchy="false">(</mo>
+                                    <mtext>at 298.15</mtext>
+                                    <mspace width="0.2em"/>
+                                    <mi>K</mi>
+                                    <mo stretchy="false">)</mo>
+                                  </mrow>
+                                </annotation-xml>
+                              </semantics>
+                            </math>
+                          </li>
+                          <li>
+                            <math display="inline">
+                              <semantics>
+                                <mrow>
+                                  <mrow>
+                                    <msub>
+                                      <mi>E</mi>
+                                      <mrow>
+                                        <mtext>cell</mtext>
+                                      </mrow>
+                                    </msub>
+                                    <mo>=</mo>
+                                    <msubsup>
+                                      <mi>E</mi>
+                                      <mrow>
+                                        <mtext>cell</mtext>
+                                      </mrow>
+                                      <mo>°</mo>
+                                    </msubsup>
+                                    <mo>−</mo>
+                                    <mspace width="0.2em"/>
+                                    <mfrac>
+                                      <mrow>
+                                        <mi>R</mi>
+                                        <mi>T</mi>
+                                      </mrow>
+                                      <mrow>
+                                        <mi>n</mi>
+                                        <mi>F</mi>
+                                      </mrow>
+                                    </mfrac>
+                                    <mspace width="0.4em"/>
+                                    <mtext>ln</mtext>
+                                    <mspace width="0.3em"/>
+                                    <mi>Q</mi>
+                                    <mspace width="5em"/>
+                                    <mtext>(Nernst equation)</mtext>
+                                  </mrow>
+                                </mrow>
+                                <annotation-xml encoding="MathML-Content">
+                                  <mrow>
+                                    <msub>
+                                      <mi>E</mi>
+                                      <mrow>
+                                        <mtext>cell</mtext>
+                                      </mrow>
+                                    </msub>
+                                    <mo>=</mo>
+                                    <msubsup>
+                                      <mi>E</mi>
+                                      <mrow>
+                                        <mtext>cell</mtext>
+                                      </mrow>
+                                      <mo>°</mo>
+                                    </msubsup>
+                                    <mo>−</mo>
+                                    <mspace width="0.2em"/>
+                                    <mfrac>
+                                      <mrow>
+                                        <mi>R</mi>
+                                        <mi>T</mi>
+                                      </mrow>
+                                      <mrow>
+                                        <mi>n</mi>
+                                        <mi>F</mi>
+                                      </mrow>
+                                    </mfrac>
+                                    <mspace width="0.4em"/>
+                                    <mtext>ln</mtext>
+                                    <mspace width="0.3em"/>
+                                    <mi>Q</mi>
+                                    <mspace width="5em"/>
+                                    <mtext>(Nernst equation)</mtext>
+                                  </mrow>
+                                </annotation-xml>
+                              </semantics>
+                            </math>
+                          </li>
+                          <li>
+                            <math display="inline">
+                              <semantics>
+                                <mrow>
+                                  <mrow>
+                                    <msubsup>
+                                      <mi>E</mi>
+                                      <mrow>
+                                        <mtext>cell</mtext>
+                                      </mrow>
+                                      <mo>°</mo>
+                                    </msubsup>
+                                    <mo>−</mo>
+                                    <mspace width="0.2em"/>
+                                    <mfrac>
+                                      <mrow>
+                                        <mn>0.05</mn>
+                                        <mtext>92 V</mtext>
+                                      </mrow>
+                                      <mi>n</mi>
+                                    </mfrac>
+                                    <mspace width="0.2em"/>
+                                    <mtext>log</mtext>
+                                    <mspace width="0.2em"/>
+                                    <mi>Q</mi>
+                                    <mspace width="5em"/>
+                                    <mo stretchy="false">(</mo>
+                                    <mtext>at 298.15</mtext>
+                                    <mspace width="0.2em"/>
+                                    <mi>K</mi>
+                                    <mo stretchy="false">)</mo>
+                                  </mrow>
+                                </mrow>
+                                <annotation-xml encoding="MathML-Content">
+                                  <mrow>
+                                    <msubsup>
+                                      <mi>E</mi>
+                                      <mrow>
+                                        <mtext>cell</mtext>
+                                      </mrow>
+                                      <mo>°</mo>
+                                    </msubsup>
+                                    <mo>−</mo>
+                                    <mspace width="0.2em"/>
+                                    <mfrac>
+                                      <mrow>
+                                        <mn>0.05</mn>
+                                        <mtext>92 V</mtext>
+                                      </mrow>
+                                      <mi>n</mi>
+                                    </mfrac>
+                                    <mspace width="0.2em"/>
+                                    <mtext>log</mtext>
+                                    <mspace width="0.2em"/>
+                                    <mi>Q</mi>
+                                    <mspace width="5em"/>
+                                    <mo stretchy="false">(</mo>
+                                    <mtext>at 298.15</mtext>
+                                    <mspace width="0.2em"/>
+                                    <mi>K</mi>
+                                    <mo stretchy="false">)</mo>
+                                  </mrow>
+                                </annotation-xml>
+                              </semantics>
+                            </math>
+                          </li>
+                          <li>
+                            Δ
+                            <em data-effect="italics">G</em> = −
+                            <em data-effect="italics">nFE</em>
+                            <sub>cell</sub>
+                          </li>
+                          <li>
+                            <math display="inline">
+                              <semantics>
+                                <mrow>
+                                  <mrow>
+                                    <mtext>Δ</mtext>
+                                    <msup>
+                                      <mi>G</mi>
+                                      <mo>°</mo>
+                                    </msup>
+                                    <mo>=</mo>
+                                    <mtext>−</mtext>
+                                    <mi>n</mi>
+                                    <mi>F</mi>
+                                    <msubsup>
+                                      <mi>E</mi>
+                                      <mrow>
+                                        <mtext>cell</mtext>
+                                      </mrow>
+                                      <mo>°</mo>
+                                    </msubsup>
+                                  </mrow>
+                                </mrow>
+                                <annotation-xml encoding="MathML-Content">
+                                  <mrow>
+                                    <mtext>Δ</mtext>
+                                    <msup>
+                                      <mi>G</mi>
+                                      <mo>°</mo>
+                                    </msup>
+                                    <mo>=</mo>
+                                    <mtext>−</mtext>
+                                    <mi>n</mi>
+                                    <mi>F</mi>
+                                    <msubsup>
+                                      <mi>E</mi>
+                                      <mrow>
+                                        <mtext>cell</mtext>
+                                      </mrow>
+                                      <mo>°</mo>
+                                    </msubsup>
+                                  </mrow>
+                                </annotation-xml>
+                              </semantics>
+                            </math>
+                          </li>
+                          <li>
+                            <math display="inline">
+                              <semantics>
+                                <mrow>
+                                  <mrow>
+                                    <msub>
+                                      <mi>w</mi>
+                                      <mrow>
+                                        <mtext>ele</mtext>
+                                      </mrow>
+                                    </msub>
+                                    <mo>=</mo>
+                                    <msub>
+                                      <mi>w</mi>
+                                      <mrow>
+                                        <mtext>max</mtext>
+                                      </mrow>
+                                    </msub>
+                                    <mo>=</mo>
+                                    <mtext>−</mtext>
+                                    <mi>n</mi>
+                                    <mi>F</mi>
+                                    <msub>
+                                      <mi>E</mi>
+                                      <mrow>
+                                        <mtext>cell</mtext>
+                                      </mrow>
+                                    </msub>
+                                  </mrow>
+                                </mrow>
+                                <annotation-xml encoding="MathML-Content">
+                                  <mrow>
+                                    <msub>
+                                      <mi>w</mi>
+                                      <mrow>
+                                        <mtext>ele</mtext>
+                                      </mrow>
+                                    </msub>
+                                    <mo>=</mo>
+                                    <msub>
+                                      <mi>w</mi>
+                                      <mrow>
+                                        <mtext>max</mtext>
+                                      </mrow>
+                                    </msub>
+                                    <mo>=</mo>
+                                    <mtext>−</mtext>
+                                    <mi>n</mi>
+                                    <mi>F</mi>
+                                    <msub>
+                                      <mi>E</mi>
+                                      <mrow>
+                                        <mtext>cell</mtext>
+                                      </mrow>
+                                    </msub>
+                                  </mrow>
+                                </annotation-xml>
+                              </semantics>
+                            </math>
+                          </li>
+                        </ul>
+                      </section>
+                      <section
+                        class="key-equations"
+                        data-depth="1"
+                        id="fs-idm102923952"
+                      >
+                        <ul data-bullet-style="bullet" id="fs-idm151238256">
+                          <li>
+                            <em data-effect="italics">Q</em> =
+                            <em data-effect="italics">I</em>
+                            <math display="inline">
+                              <semantics>
+                                <mrow>
+                                  <mo>×</mo>
+                                </mrow>
+                                <annotation-xml encoding="MathML-Content">
+                                  <mo>×</mo>
+                                </annotation-xml>
+                              </semantics>
+                            </math>
+                            <em data-effect="italics">t</em> =
+                            <em data-effect="italics">n</em>
+                            <math display="inline">
+                              <semantics>
+                                <mrow>
+                                  <mo>×</mo>
+                                </mrow>
+                                <annotation-xml encoding="MathML-Content">
+                                  <mo>×</mo>
+                                </annotation-xml>
+                              </semantics>
+                            </math>
+                            <em data-effect="italics">F</em>
+                          </li>
+                        </ul>
+                      </section>
+                    </div>
+                  </div>
+                  

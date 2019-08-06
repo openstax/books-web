@@ -1,0 +1,10 @@
+{
+  "groups": {
+    "default": {
+      "packages": [
+        "concourse/create-test-plan-configs/package.json",
+        "package.json"
+      ]
+    }
+  }
+}

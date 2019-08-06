@@ -1,0 +1,3313 @@
+
+                    <div
+                      data-cnxml-to-html-ver="[redacted for uniqueness]"
+                      data-type="page"
+                      id="8027ad43-75a9-47d8-8ee6-da2125ceb96f"
+                    >
+                      <div data-type="abstract" id="[redacted for uniqueness]">
+                        By the end of this section, you will be able to:
+                        <ul>
+                          <li>Explain the relations between potential, free energy change, and equilibrium constants</li>
+                          <li>Perform calculations involving the relations between cell potentials, free energy changes, and equilibrium</li>
+                          <li>Use the Nernst equation to determine cell potentials under nonstandard conditions</li>
+                        </ul>
+                      </div>
+
+                      <p id="fs-idm222137520">
+                        So far in this chapter, the relationship between the cell potential and reaction
+                        <em data-effect="italics">spontaneity</em> has been described, suggesting a link to the free energy change for the reaction (see chapter on thermodynamics). The interpretation of potentials as measures of oxidant
+                        <em data-effect="italics">strength</em> was presented, bringing to mind similar measures of acid-base strength as reflected in equilibrium constants (see the chapter on acid-base equilibria). This section provides a summary of the relationships between potential and the related thermodynamic properties ΔG and K.
+                      </p>
+
+                      <section data-depth="1" id="fs-idm248064976">
+                        <h3 data-type="title">E° and ΔG°</h3>
+                        <p id="fs-idm215301376">
+                          The standard free energy change of a process, Δ
+                          <em data-effect="italics">G</em>°, was defined in a previous chapter as the maximum work that could be performed by a system,
+                          <em data-effect="italics">w</em>
+                          <sub>max</sub>. In the case of a redox reaction taking place within a galvanic cell under standard state conditions, essentially all the work is associated with transferring the electrons from reductant-to-oxidant,
+                          <em data-effect="italics">w</em>
+                          <sub>elec</sub>:
+                        </p>
+                        <div data-type="equation" id="fs-idm215765968">
+                          <math display="block">
+                            <semantics>
+                              <mrow>
+                                <mrow>
+                                  <mtext>Δ</mtext>
+                                  <mi>G</mi>
+                                  <mtext>°</mtext>
+                                  <mo>=</mo>
+                                  <msub>
+                                    <mi>w</mi>
+                                    <mrow>
+                                      <mtext>max</mtext>
+                                    </mrow>
+                                  </msub>
+                                  <mo>=</mo>
+                                  <msub>
+                                    <mi>w</mi>
+                                    <mrow>
+                                      <mtext>elec</mtext>
+                                    </mrow>
+                                  </msub>
+                                </mrow>
+                              </mrow>
+                              <annotation-xml encoding="MathML-Content">
+                                <mrow>
+                                  <mtext>Δ</mtext>
+                                  <mi>G</mi>
+                                  <mtext>°</mtext>
+                                  <mo>=</mo>
+                                  <msub>
+                                    <mi>w</mi>
+                                    <mrow>
+                                      <mtext>max</mtext>
+                                    </mrow>
+                                  </msub>
+                                  <mo>=</mo>
+                                  <msub>
+                                    <mi>w</mi>
+                                    <mrow>
+                                      <mtext>elec</mtext>
+                                    </mrow>
+                                  </msub>
+                                </mrow>
+                              </annotation-xml>
+                            </semantics>
+                          </math>
+                        </div>
+                        <p
+                          id="fs-idm233319952"
+                        >The work associated with transferring electrons is determined by the total amount of charge (coulombs) transferred and the cell potential:</p>
+                        <div data-type="equation" id="fs-idm655964560">
+                          <math display="block">
+                            <semantics>
+                              <mrow>
+                                <mrow>
+                                  <mtable>
+                                    <mtr>
+                                      <mtd columnalign="right">
+                                        <mrow>
+                                          <mtext>Δ</mtext>
+                                          <mi>G</mi>
+                                          <mtext>°</mtext>
+                                          <mo>=</mo>
+                                          <msub>
+                                            <mi>w</mi>
+                                            <mrow>
+                                              <mtext>elec</mtext>
+                                            </mrow>
+                                          </msub>
+                                        </mrow>
+                                      </mtd>
+                                      <mtd columnalign="left">
+                                        <mo>=</mo>
+                                      </mtd>
+                                      <mtd columnalign="left">
+                                        <mrow>
+                                          <mtext>−</mtext>
+                                          <mi>n</mi>
+                                          <mi>F</mi>
+                                          <msubsup>
+                                            <mi>E</mi>
+                                            <mrow>
+                                              <mtext>cell</mtext>
+                                            </mrow>
+                                            <mtext>°</mtext>
+                                          </msubsup>
+                                        </mrow>
+                                      </mtd>
+                                    </mtr>
+                                    <mtr>
+                                      <mtd columnalign="right">
+                                        <mrow>
+                                          <mtext>Δ</mtext>
+                                          <mi>G</mi>
+                                          <mtext>°</mtext>
+                                        </mrow>
+                                      </mtd>
+                                      <mtd columnalign="left">
+                                        <mo>=</mo>
+                                      </mtd>
+                                      <mtd columnalign="left">
+                                        <mrow>
+                                          <mtext>−</mtext>
+                                          <mi>n</mi>
+                                          <mi>F</mi>
+                                          <msubsup>
+                                            <mi>E</mi>
+                                            <mrow>
+                                              <mtext>cell</mtext>
+                                            </mrow>
+                                            <mtext>°</mtext>
+                                          </msubsup>
+                                        </mrow>
+                                      </mtd>
+                                    </mtr>
+                                  </mtable>
+                                </mrow>
+                              </mrow>
+                              <annotation-xml encoding="MathML-Content">
+                                <mrow>
+                                  <mtable>
+                                    <mtr>
+                                      <mtd columnalign="right">
+                                        <mrow>
+                                          <mtext>Δ</mtext>
+                                          <mi>G</mi>
+                                          <mtext>°</mtext>
+                                          <mo>=</mo>
+                                          <msub>
+                                            <mi>w</mi>
+                                            <mrow>
+                                              <mtext>elec</mtext>
+                                            </mrow>
+                                          </msub>
+                                        </mrow>
+                                      </mtd>
+                                      <mtd columnalign="left">
+                                        <mo>=</mo>
+                                      </mtd>
+                                      <mtd columnalign="left">
+                                        <mrow>
+                                          <mtext>−</mtext>
+                                          <mi>n</mi>
+                                          <mi>F</mi>
+                                          <msubsup>
+                                            <mi>E</mi>
+                                            <mrow>
+                                              <mtext>cell</mtext>
+                                            </mrow>
+                                            <mtext>°</mtext>
+                                          </msubsup>
+                                        </mrow>
+                                      </mtd>
+                                    </mtr>
+                                    <mtr>
+                                      <mtd columnalign="right">
+                                        <mrow>
+                                          <mtext>Δ</mtext>
+                                          <mi>G</mi>
+                                          <mtext>°</mtext>
+                                        </mrow>
+                                      </mtd>
+                                      <mtd columnalign="left">
+                                        <mo>=</mo>
+                                      </mtd>
+                                      <mtd columnalign="left">
+                                        <mrow>
+                                          <mtext>−</mtext>
+                                          <mi>n</mi>
+                                          <mi>F</mi>
+                                          <msubsup>
+                                            <mi>E</mi>
+                                            <mrow>
+                                              <mtext>cell</mtext>
+                                            </mrow>
+                                            <mtext>°</mtext>
+                                          </msubsup>
+                                        </mrow>
+                                      </mtd>
+                                    </mtr>
+                                  </mtable>
+                                </mrow>
+                              </annotation-xml>
+                            </semantics>
+                          </math>
+                        </div>
+                        <p id="fs-idm648263408">
+                          where
+                          <em data-effect="italics">n</em> is the number of moles of electrons transferred,
+                          <em data-effect="italics">F</em> is
+                          <strong data-effect="bold">Faraday’s constant</strong>, and
+                          <em data-effect="italics">E</em>°
+                          <sub>cell</sub> is the standard cell potential. The relation between free energy change and standard cell potential confirms the sign conventions and spontaneity criteria previously discussed for both of these properties: spontaneous redox reactions exhibit positive potentials and negative free energy changes.
+                        </p>
+                      </section>
+
+                      <section data-depth="1" id="fs-idm218866032">
+                        <h3 data-type="title">E° and K</h3>
+                        <p id="fs-idm242158160">
+                          Combining a previously derived relation between ΔG° and K (see the chapter on thermodynamics) and the equation above relating ΔG° and
+                          <em data-effect="italics">E</em>°
+                          <sub>cell</sub> yields the following:
+                        </p>
+                        <div data-type="equation" id="fs-idm205421792">
+                          <math display="block">
+                            <semantics>
+                              <mrow>
+                                <mrow>
+                                  <mtable>
+                                    <mtr>
+                                      <mtd columnalign="right">
+                                        <mrow>
+                                          <mtext>Δ</mtext>
+                                          <mi>G</mi>
+                                          <mtext>°</mtext>
+                                        </mrow>
+                                      </mtd>
+                                      <mtd columnalign="left">
+                                        <mo>=</mo>
+                                      </mtd>
+                                      <mtd columnalign="left">
+                                        <mrow>
+                                          <mtext>−</mtext>
+                                          <mi>R</mi>
+                                          <mi>T</mi>
+                                          <mspace width="0.2em"/>
+                                          <mtext>ln</mtext>
+                                          <mspace width="0.2em"/>
+                                          <mi>K</mi>
+                                          <mo>=</mo>
+                                          <mtext>−</mtext>
+                                          <mi>n</mi>
+                                          <mi>F</mi>
+                                          <msubsup>
+                                            <mi>E</mi>
+                                            <mrow>
+                                              <mtext>cell</mtext>
+                                            </mrow>
+                                            <mtext>°</mtext>
+                                          </msubsup>
+                                        </mrow>
+                                      </mtd>
+                                    </mtr>
+                                    <mtr>
+                                      <mtd columnalign="right">
+                                        <mrow>
+                                          <msubsup>
+                                            <mi>E</mi>
+                                            <mrow>
+                                              <mtext>cell</mtext>
+                                            </mrow>
+                                            <mtext>°</mtext>
+                                          </msubsup>
+                                        </mrow>
+                                      </mtd>
+                                      <mtd columnalign="left">
+                                        <mo>=</mo>
+                                      </mtd>
+                                      <mtd columnalign="left">
+                                        <mrow>
+                                          <mo>(</mo>
+                                          <mfrac>
+                                            <mrow>
+                                              <mi>R</mi>
+                                              <mi>T</mi>
+                                            </mrow>
+                                            <mrow>
+                                              <mi>n</mi>
+                                              <mi>F</mi>
+                                            </mrow>
+                                          </mfrac>
+                                          <mo>)</mo>
+                                          <mspace width="0.2em"/>
+                                          <mtext>ln</mtext>
+                                          <mspace width="0.2em"/>
+                                          <mi>K</mi>
+                                        </mrow>
+                                      </mtd>
+                                    </mtr>
+                                  </mtable>
+                                </mrow>
+                              </mrow>
+                              <annotation-xml encoding="MathML-Content">
+                                <mrow>
+                                  <mtable>
+                                    <mtr>
+                                      <mtd columnalign="right">
+                                        <mrow>
+                                          <mtext>Δ</mtext>
+                                          <mi>G</mi>
+                                          <mtext>°</mtext>
+                                        </mrow>
+                                      </mtd>
+                                      <mtd columnalign="left">
+                                        <mo>=</mo>
+                                      </mtd>
+                                      <mtd columnalign="left">
+                                        <mrow>
+                                          <mtext>−</mtext>
+                                          <mi>R</mi>
+                                          <mi>T</mi>
+                                          <mspace width="0.2em"/>
+                                          <mtext>ln</mtext>
+                                          <mspace width="0.2em"/>
+                                          <mi>K</mi>
+                                          <mo>=</mo>
+                                          <mtext>−</mtext>
+                                          <mi>n</mi>
+                                          <mi>F</mi>
+                                          <msubsup>
+                                            <mi>E</mi>
+                                            <mrow>
+                                              <mtext>cell</mtext>
+                                            </mrow>
+                                            <mtext>°</mtext>
+                                          </msubsup>
+                                        </mrow>
+                                      </mtd>
+                                    </mtr>
+                                    <mtr>
+                                      <mtd columnalign="right">
+                                        <mrow>
+                                          <msubsup>
+                                            <mi>E</mi>
+                                            <mrow>
+                                              <mtext>cell</mtext>
+                                            </mrow>
+                                            <mtext>°</mtext>
+                                          </msubsup>
+                                        </mrow>
+                                      </mtd>
+                                      <mtd columnalign="left">
+                                        <mo>=</mo>
+                                      </mtd>
+                                      <mtd columnalign="left">
+                                        <mrow>
+                                          <mo>(</mo>
+                                          <mfrac>
+                                            <mrow>
+                                              <mi>R</mi>
+                                              <mi>T</mi>
+                                            </mrow>
+                                            <mrow>
+                                              <mi>n</mi>
+                                              <mi>F</mi>
+                                            </mrow>
+                                          </mfrac>
+                                          <mo>)</mo>
+                                          <mspace width="0.2em"/>
+                                          <mtext>ln</mtext>
+                                          <mspace width="0.2em"/>
+                                          <mi>K</mi>
+                                        </mrow>
+                                      </mtd>
+                                    </mtr>
+                                  </mtable>
+                                </mrow>
+                              </annotation-xml>
+                            </semantics>
+                          </math>
+                        </div>
+                        <p id="fs-idm242471888">
+                          This equation indicates redox reactions with large (positive) standard cell potentials will proceed far towards completion, reaching equilibrium when the majority of reactant has been converted to product. A summary of the relations between
+                          <em data-effect="italics">E</em>°, Δ
+                          <em data-effect="italics">G</em>° and
+                          <em data-effect="italics">K</em> is depicted in
+                          <a
+                            class="autogenerated-content"
+                            href="#CNX_Chem_17_04_Relation"
+                          >Figure 17.7</a>, and a table correlating reaction spontaneity to values of these properties is provided in
+                          <a
+                            class="autogenerated-content"
+                            href="#fs-idm241340256"
+                          >Table 17.2</a>.
+                        </p>
+                        <div class="os-figure" id="CNX_Chem_17_04_Relation">
+                          <figure
+                            class="scaled-down"
+                            data-id="CNX_Chem_17_04_Relation"
+                          >
+                            <span
+                              data-alt="A diagram is shown that involves three double headed arrows positioned in the shape of an equilateral triangle. The vertices are labeled in red. The top vertex is labeled “K.“ The vertex at the lower left is labeled “delta G superscript degree symbol.” The vertex at the lower right is labeled “E superscript degree symbol subscript cell.” The right side of the triangle is labeled “E superscript degree symbol subscript cell equals ( R T divided by n  F ) l n K.” The lower side of the triangle is labeled “delta G superscript degree symbol equals negative n F E superscript degree symbol subscript cell.” The left side of the triangle is labeled “delta G superscript degree symbol equals negative R T l n K.”"
+                              data-type="media"
+                              id="fs-idp78132768"
+                            >
+                              <img
+                                alt="A diagram is shown that involves three double headed arrows positioned in the shape of an equilateral triangle. The vertices are labeled in red. The top vertex is labeled “K.“ The vertex at the lower left is labeled “delta G superscript degree symbol.” The vertex at the lower right is labeled “E superscript degree symbol subscript cell.” The right side of the triangle is labeled “E superscript degree symbol subscript cell equals ( R T divided by n  F ) l n K.” The lower side of the triangle is labeled “delta G superscript degree symbol equals negative n F E superscript degree symbol subscript cell.” The left side of the triangle is labeled “delta G superscript degree symbol equals negative R T l n K.”"
+                                data-media-type="image/jpeg"
+                                id="[redacted for uniqueness]"
+                                src="/resources/69a1f2bc09eecddd44a880839e1ded370958a900"
+                              >
+                            </span>
+                          </figure>
+                          <div class="os-caption-container">
+                            <span class="os-title-label">Figure</span>
+                            <span class="os-number">17.7</span>
+                            <span class="os-divider"></span>
+                            <span class="os-divider"></span>
+                            <span
+                              class="os-caption"
+                            >Graphic depicting the relation between three important thermodynamic properties.</span>
+                          </div>
+                        </div>
+                        <div class="os-table" id="fs-idm241340256">
+                          <table
+                            data-id="fs-idm241340256"
+                            summary="Table 17.2  "
+                          >
+                            <tbody>
+                              <tr valign="top">
+                                <td data-align="left" data-valign="top">
+                                  <em data-effect="italics">K</em>
+                                </td>
+                                <td data-align="left" data-valign="top">
+                                  Δ
+                                  <em data-effect="italics">G</em>°
+                                </td>
+                                <td data-align="left" data-valign="top">
+                                  <em data-effect="italics">E</em>°
+                                  <sub>cell</sub>
+                                </td>
+                                <td data-align="left" data-valign="top"></td>
+                              </tr>
+                              <tr valign="top">
+                                <td data-align="left" data-valign="top">&gt; 1</td>
+                                <td data-align="left" data-valign="top">&lt; 0</td>
+                                <td data-align="left" data-valign="top">&gt; 0</td>
+                                <td data-align="left" data-valign="top">
+                                  <p
+                                    id="fs-idm239811792"
+                                  >Reaction is spontaneous under standard conditions</p>
+                                  <p
+                                    id="fs-idm218962512"
+                                  >Products more abundant at equilibrium</p>
+                                </td>
+                              </tr>
+                              <tr valign="top">
+                                <td data-align="left" data-valign="top">&lt; 1</td>
+                                <td data-align="left" data-valign="top">&gt; 0</td>
+                                <td data-align="left" data-valign="top">&lt; 0</td>
+                                <td data-align="left" data-valign="top">
+                                  <p
+                                    id="fs-idm248001280"
+                                  >Reaction is non-spontaneous under standard conditions</p>
+                                  <p
+                                    id="fs-idm197346624"
+                                  >Reactants more abundant at equilibrium</p>
+                                </td>
+                              </tr>
+                              <tr valign="top">
+                                <td data-align="left" data-valign="top">= 1</td>
+                                <td data-align="left" data-valign="top">= 0</td>
+                                <td data-align="left" data-valign="top">= 0</td>
+                                <td data-align="left" data-valign="top">
+                                  <p
+                                    id="fs-idm249738032"
+                                  >Reaction is at equilibrium under standard conditions</p>
+                                  <p
+                                    id="fs-idm197184048"
+                                  >Reactants and products equally abundant</p>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                          <div class="os-caption-container">
+                            <span class="os-title-label">Table</span>
+                            <span class="os-number">17.2</span>
+                            <span class="os-divider"></span>
+                            <span class="os-divider"></span>
+                          </div>
+                        </div>
+                        <div data-type="example" id="fs-idp16667568">
+                          <h3 class="os-title">
+                            <span class="os-title-label">Example</span>
+                            <span class="os-number">17.6</span>
+                            <span class="os-divider"></span>
+                          </h3>
+                          <p id="fs-idp58864784">
+                            <span
+                              data-type="title"
+                            >Equilibrium Constants, Standard Cell Potentials, and Standard Free Energy Changes</span>
+                            Use data from
+                            <a
+                              class="target-chapter"
+                              href="l-standard-electrode-half-cell-potentials"
+                            >Appendix L</a> to calculate the standard cell potential, standard free energy change, and equilibrium constant for the following reaction at 25 °C. Comment on the spontaneity of the forward reaction and the composition of an equilibrium mixture of reactants and products.
+                          </p>
+                          <div data-type="equation" id="fs-idm89214592">
+                            <math display="block">
+                              <semantics>
+                                <mrow>
+                                  <mrow>
+                                    <mn>2</mn>
+                                    <msup>
+                                      <mrow>
+                                        <mtext>Ag</mtext>
+                                      </mrow>
+                                      <mtext>+</mtext>
+                                    </msup>
+                                    <mo stretchy="false">(</mo>
+                                    <mi>a</mi>
+                                    <mi>q</mi>
+                                    <mo stretchy="false">)</mo>
+                                    <mo>+</mo>
+                                    <mtext>Fe</mtext>
+                                    <mo stretchy="false">(</mo>
+                                    <mi>s</mi>
+                                    <mo stretchy="false">)</mo>
+                                    <mo stretchy="false">⇌</mo>
+                                    <mtext>2Ag</mtext>
+                                    <mo stretchy="false">(</mo>
+                                    <mi>s</mi>
+                                    <mo stretchy="false">)</mo>
+                                    <mo>+</mo>
+                                    <msup>
+                                      <mrow>
+                                        <mtext>Fe</mtext>
+                                      </mrow>
+                                      <mrow>
+                                        <mn>2+</mn>
+                                      </mrow>
+                                    </msup>
+                                    <mo stretchy="false">(</mo>
+                                    <mi>a</mi>
+                                    <mi>q</mi>
+                                    <mo stretchy="false">)</mo>
+                                  </mrow>
+                                </mrow>
+                                <annotation-xml encoding="MathML-Content">
+                                  <mrow>
+                                    <mn>2</mn>
+                                    <msup>
+                                      <mrow>
+                                        <mtext>Ag</mtext>
+                                      </mrow>
+                                      <mtext>+</mtext>
+                                    </msup>
+                                    <mo stretchy="false">(</mo>
+                                    <mi>a</mi>
+                                    <mi>q</mi>
+                                    <mo stretchy="false">)</mo>
+                                    <mo>+</mo>
+                                    <mtext>Fe</mtext>
+                                    <mo stretchy="false">(</mo>
+                                    <mi>s</mi>
+                                    <mo stretchy="false">)</mo>
+                                    <mo stretchy="false">⇌</mo>
+                                    <mtext>2Ag</mtext>
+                                    <mo stretchy="false">(</mo>
+                                    <mi>s</mi>
+                                    <mo stretchy="false">)</mo>
+                                    <mo>+</mo>
+                                    <msup>
+                                      <mrow>
+                                        <mtext>Fe</mtext>
+                                      </mrow>
+                                      <mrow>
+                                        <mn>2+</mn>
+                                      </mrow>
+                                    </msup>
+                                    <mo stretchy="false">(</mo>
+                                    <mi>a</mi>
+                                    <mi>q</mi>
+                                    <mo stretchy="false">)</mo>
+                                  </mrow>
+                                </annotation-xml>
+                              </semantics>
+                            </math>
+                          </div>
+                          <p id="fs-idp148405856">
+                            <span data-type="title">Solution</span>
+                            The reaction involves an oxidation-reduction reaction, so the standard cell potential can be calculated using the data in
+                            <a
+                              class="target-chapter"
+                              href="l-standard-electrode-half-cell-potentials"
+                            >Appendix L</a>.
+                          </p>
+                          <div data-type="equation" id="fs-idm7297840">
+                            <math display="block">
+                              <semantics>
+                                <mrow>
+                                  <mtable>
+                                    <mtr/>
+                                    <mtr>
+                                      <mtd columnalign="left">
+                                        <mtext>anode (oxidation):</mtext>
+                                      </mtd>
+                                      <mtd columnalign="left">
+                                        <mtext>Fe</mtext>
+                                        <mo stretchy="false">(</mo>
+                                        <mi>s</mi>
+                                        <mo stretchy="false">)</mo>
+                                        <mspace width="0.2em"/>
+                                        <mo stretchy="false">⟶</mo>
+                                        <mspace width="0.2em"/>
+                                        <msup>
+                                          <mtext>Fe</mtext>
+                                          <mrow>
+                                            <mn>2+</mn>
+                                          </mrow>
+                                        </msup>
+                                        <mo stretchy="false">(</mo>
+                                        <mi>a</mi>
+                                        <mi>q</mi>
+                                        <mo stretchy="false">)</mo>
+                                        <mo>+</mo>
+                                        <msup>
+                                          <mtext>2e</mtext>
+                                          <mtext>−</mtext>
+                                        </msup>
+                                      </mtd>
+                                      <mtd columnalign="right">
+                                        <msubsup>
+                                          <mi>E</mi>
+                                          <mrow>
+                                            <msup>
+                                              <mrow>
+                                                <mtext>Fe</mtext>
+                                              </mrow>
+                                              <mrow>
+                                                <mn>2+</mn>
+                                              </mrow>
+                                            </msup>
+                                            <mtext>/Fe</mtext>
+                                          </mrow>
+                                          <mo>°</mo>
+                                        </msubsup>
+                                      </mtd>
+                                      <mtd columnalign="left">
+                                        <mo>=</mo>
+                                      </mtd>
+                                      <mtd columnalign="left">
+                                        <mtext>−0.447 V</mtext>
+                                      </mtd>
+                                    </mtr>
+                                    <mtr>
+                                      <mtd columnalign="left">
+                                        <mtext>cathode (reduction):</mtext>
+                                      </mtd>
+                                      <mtd columnalign="left">
+                                        <mn>2</mn>
+                                        <mspace width="0.2em"/>
+                                        <mo>×</mo>
+                                        <mspace width="0.2em"/>
+                                        <mo stretchy="false">(</mo>
+                                        <msup>
+                                          <mtext>Ag</mtext>
+                                          <mtext>+</mtext>
+                                        </msup>
+                                        <mo stretchy="false">(</mo>
+                                        <mi>a</mi>
+                                        <mi>q</mi>
+                                        <mo stretchy="false">)</mo>
+                                        <mo>+</mo>
+                                        <msup>
+                                          <mtext>e</mtext>
+                                          <mtext>−</mtext>
+                                        </msup>
+                                        <mspace width="0.2em"/>
+                                        <mo stretchy="false">⟶</mo>
+                                        <mspace width="0.2em"/>
+                                        <mtext>Ag</mtext>
+                                        <mo stretchy="false">(</mo>
+                                        <mi>s</mi>
+                                        <mo stretchy="false">)</mo>
+                                        <mo stretchy="false">)</mo>
+                                      </mtd>
+                                      <mtd columnalign="right">
+                                        <msubsup>
+                                          <mi>E</mi>
+                                          <mrow>
+                                            <msup>
+                                              <mrow>
+                                                <mtext>Ag</mtext>
+                                              </mrow>
+                                              <mtext>+</mtext>
+                                            </msup>
+                                            <mtext>/Ag</mtext>
+                                          </mrow>
+                                          <mo>°</mo>
+                                        </msubsup>
+                                      </mtd>
+                                      <mtd columnalign="left">
+                                        <mo>=</mo>
+                                      </mtd>
+                                      <mtd columnalign="left">
+                                        <mtext>0.7996 V</mtext>
+                                      </mtd>
+                                    </mtr>
+                                    <mtr>
+                                      <mtd/>
+                                      <mtd columnalign="left">
+                                        <msubsup>
+                                          <mi>E</mi>
+                                          <mrow>
+                                            <mtext>cell</mtext>
+                                          </mrow>
+                                          <mo>°</mo>
+                                        </msubsup>
+                                        <mo>=</mo>
+                                        <msubsup>
+                                          <mi>E</mi>
+                                          <mrow>
+                                            <mtext>cathode</mtext>
+                                          </mrow>
+                                          <mo>°</mo>
+                                        </msubsup>
+                                        <mo>−</mo>
+                                        <msubsup>
+                                          <mi>E</mi>
+                                          <mrow>
+                                            <mtext>anode</mtext>
+                                          </mrow>
+                                          <mo>°</mo>
+                                        </msubsup>
+                                        <mo>=</mo>
+                                      </mtd>
+                                      <mtd columnalign="right">
+                                        <msubsup>
+                                          <mi>E</mi>
+                                          <mrow>
+                                            <msup>
+                                              <mrow>
+                                                <mtext>Ag</mtext>
+                                              </mrow>
+                                              <mtext>+</mtext>
+                                            </msup>
+                                            <mtext>/Ag</mtext>
+                                          </mrow>
+                                          <mo>°</mo>
+                                        </msubsup>
+                                        <mo>−</mo>
+                                        <msubsup>
+                                          <mi>E</mi>
+                                          <mrow>
+                                            <msup>
+                                              <mrow>
+                                                <mtext>Fe</mtext>
+                                              </mrow>
+                                              <mrow>
+                                                <mn>2+</mn>
+                                              </mrow>
+                                            </msup>
+                                            <mtext>/Fe</mtext>
+                                          </mrow>
+                                          <mo>°</mo>
+                                        </msubsup>
+                                      </mtd>
+                                      <mtd columnalign="left">
+                                        <mo>=</mo>
+                                      </mtd>
+                                      <mtd columnalign="left">
+                                        <mtext>+1.247 V</mtext>
+                                      </mtd>
+                                    </mtr>
+                                  </mtable>
+                                </mrow>
+                                <annotation-xml encoding="MathML-Content">
+                                  <mtable>
+                                    <mtr/>
+                                    <mtr>
+                                      <mtd columnalign="left">
+                                        <mtext>anode (oxidation):</mtext>
+                                      </mtd>
+                                      <mtd columnalign="left">
+                                        <mtext>Fe</mtext>
+                                        <mo stretchy="false">(</mo>
+                                        <mi>s</mi>
+                                        <mo stretchy="false">)</mo>
+                                        <mspace width="0.2em"/>
+                                        <mo stretchy="false">⟶</mo>
+                                        <mspace width="0.2em"/>
+                                        <msup>
+                                          <mtext>Fe</mtext>
+                                          <mrow>
+                                            <mn>2+</mn>
+                                          </mrow>
+                                        </msup>
+                                        <mo stretchy="false">(</mo>
+                                        <mi>a</mi>
+                                        <mi>q</mi>
+                                        <mo stretchy="false">)</mo>
+                                        <mo>+</mo>
+                                        <msup>
+                                          <mtext>2e</mtext>
+                                          <mtext>−</mtext>
+                                        </msup>
+                                      </mtd>
+                                      <mtd columnalign="right">
+                                        <msubsup>
+                                          <mi>E</mi>
+                                          <mrow>
+                                            <msup>
+                                              <mrow>
+                                                <mtext>Fe</mtext>
+                                              </mrow>
+                                              <mrow>
+                                                <mn>2+</mn>
+                                              </mrow>
+                                            </msup>
+                                            <mtext>/Fe</mtext>
+                                          </mrow>
+                                          <mo>°</mo>
+                                        </msubsup>
+                                      </mtd>
+                                      <mtd columnalign="left">
+                                        <mo>=</mo>
+                                      </mtd>
+                                      <mtd columnalign="left">
+                                        <mtext>−0.447 V</mtext>
+                                      </mtd>
+                                    </mtr>
+                                    <mtr>
+                                      <mtd columnalign="left">
+                                        <mtext>cathode (reduction):</mtext>
+                                      </mtd>
+                                      <mtd columnalign="left">
+                                        <mn>2</mn>
+                                        <mspace width="0.2em"/>
+                                        <mo>×</mo>
+                                        <mspace width="0.2em"/>
+                                        <mo stretchy="false">(</mo>
+                                        <msup>
+                                          <mtext>Ag</mtext>
+                                          <mtext>+</mtext>
+                                        </msup>
+                                        <mo stretchy="false">(</mo>
+                                        <mi>a</mi>
+                                        <mi>q</mi>
+                                        <mo stretchy="false">)</mo>
+                                        <mo>+</mo>
+                                        <msup>
+                                          <mtext>e</mtext>
+                                          <mtext>−</mtext>
+                                        </msup>
+                                        <mspace width="0.2em"/>
+                                        <mo stretchy="false">⟶</mo>
+                                        <mspace width="0.2em"/>
+                                        <mtext>Ag</mtext>
+                                        <mo stretchy="false">(</mo>
+                                        <mi>s</mi>
+                                        <mo stretchy="false">)</mo>
+                                        <mo stretchy="false">)</mo>
+                                      </mtd>
+                                      <mtd columnalign="right">
+                                        <msubsup>
+                                          <mi>E</mi>
+                                          <mrow>
+                                            <msup>
+                                              <mrow>
+                                                <mtext>Ag</mtext>
+                                              </mrow>
+                                              <mtext>+</mtext>
+                                            </msup>
+                                            <mtext>/Ag</mtext>
+                                          </mrow>
+                                          <mo>°</mo>
+                                        </msubsup>
+                                      </mtd>
+                                      <mtd columnalign="left">
+                                        <mo>=</mo>
+                                      </mtd>
+                                      <mtd columnalign="left">
+                                        <mtext>0.7996 V</mtext>
+                                      </mtd>
+                                    </mtr>
+                                    <mtr>
+                                      <mtd/>
+                                      <mtd columnalign="left">
+                                        <msubsup>
+                                          <mi>E</mi>
+                                          <mrow>
+                                            <mtext>cell</mtext>
+                                          </mrow>
+                                          <mo>°</mo>
+                                        </msubsup>
+                                        <mo>=</mo>
+                                        <msubsup>
+                                          <mi>E</mi>
+                                          <mrow>
+                                            <mtext>cathode</mtext>
+                                          </mrow>
+                                          <mo>°</mo>
+                                        </msubsup>
+                                        <mo>−</mo>
+                                        <msubsup>
+                                          <mi>E</mi>
+                                          <mrow>
+                                            <mtext>anode</mtext>
+                                          </mrow>
+                                          <mo>°</mo>
+                                        </msubsup>
+                                        <mo>=</mo>
+                                      </mtd>
+                                      <mtd columnalign="right">
+                                        <msubsup>
+                                          <mi>E</mi>
+                                          <mrow>
+                                            <msup>
+                                              <mrow>
+                                                <mtext>Ag</mtext>
+                                              </mrow>
+                                              <mtext>+</mtext>
+                                            </msup>
+                                            <mtext>/Ag</mtext>
+                                          </mrow>
+                                          <mo>°</mo>
+                                        </msubsup>
+                                        <mo>−</mo>
+                                        <msubsup>
+                                          <mi>E</mi>
+                                          <mrow>
+                                            <msup>
+                                              <mrow>
+                                                <mtext>Fe</mtext>
+                                              </mrow>
+                                              <mrow>
+                                                <mn>2+</mn>
+                                              </mrow>
+                                            </msup>
+                                            <mtext>/Fe</mtext>
+                                          </mrow>
+                                          <mo>°</mo>
+                                        </msubsup>
+                                      </mtd>
+                                      <mtd columnalign="left">
+                                        <mo>=</mo>
+                                      </mtd>
+                                      <mtd columnalign="left">
+                                        <mtext>+1.247 V</mtext>
+                                      </mtd>
+                                    </mtr>
+                                  </mtable>
+                                </annotation-xml>
+                              </semantics>
+                            </math>
+                          </div>
+                          <p id="fs-idp199399072">
+                            With
+                            <em data-effect="italics">n</em> = 2, the equilibrium constant is then
+                          </p>
+                          <div data-type="equation" id="fs-idp2572928">
+                            <math display="block">
+                              <semantics>
+                                <mrow>
+                                  <mtable>
+                                    <mtr>
+                                      <mtd columnalign="right">
+                                        <msubsup>
+                                          <mi>E</mi>
+                                          <mrow>
+                                            <mtext>cell</mtext>
+                                          </mrow>
+                                          <mo>°</mo>
+                                        </msubsup>
+                                      </mtd>
+                                      <mtd columnalign="left">
+                                        <mo>=</mo>
+                                      </mtd>
+                                      <mtd columnalign="left">
+                                        <mfrac>
+                                          <mrow>
+                                            <mtext>0.0592 V</mtext>
+                                          </mrow>
+                                          <mi>n</mi>
+                                        </mfrac>
+                                        <mspace width="0.2em"/>
+                                        <mtext>log</mtext>
+                                        <mspace width="0.2em"/>
+                                        <mi>K</mi>
+                                      </mtd>
+                                    </mtr>
+                                    <mtr>
+                                      <mtd columnalign="right">
+                                        <mi>K</mi>
+                                      </mtd>
+                                      <mtd columnalign="left">
+                                        <mo>=</mo>
+                                      </mtd>
+                                      <mtd columnalign="left">
+                                        <msup>
+                                          <mrow>
+                                            <mn>10</mn>
+                                          </mrow>
+                                          <mrow>
+                                            <mi>n</mi>
+                                            <mspace width="0.2em"/>
+                                            <mo>×</mo>
+                                            <mspace width="0.2em"/>
+                                            <msubsup>
+                                              <mi>E</mi>
+                                              <mrow>
+                                                <mtext>cell</mtext>
+                                              </mrow>
+                                              <mo>°</mo>
+                                            </msubsup>
+                                            <mtext>/</mtext>
+                                            <mtext>0.0592 V</mtext>
+                                          </mrow>
+                                        </msup>
+                                      </mtd>
+                                    </mtr>
+                                    <mtr>
+                                      <mtd columnalign="right">
+                                        <mi>K</mi>
+                                      </mtd>
+                                      <mtd columnalign="left">
+                                        <mo>=</mo>
+                                      </mtd>
+                                      <mtd columnalign="left">
+                                        <msup>
+                                          <mrow>
+                                            <mn>10</mn>
+                                          </mrow>
+                                          <mrow>
+                                            <mn>2</mn>
+                                            <mspace width="0.2em"/>
+                                            <mo>×</mo>
+                                            <mspace width="0.2em"/>
+                                            <mtext>1.247 V/0.0592 V</mtext>
+                                          </mrow>
+                                        </msup>
+                                      </mtd>
+                                    </mtr>
+                                    <mtr>
+                                      <mtd columnalign="right">
+                                        <mi>K</mi>
+                                      </mtd>
+                                      <mtd columnalign="left">
+                                        <mo>=</mo>
+                                      </mtd>
+                                      <mtd columnalign="left">
+                                        <msup>
+                                          <mrow>
+                                            <mn>10</mn>
+                                          </mrow>
+                                          <mrow>
+                                            <mn>42.128</mn>
+                                          </mrow>
+                                        </msup>
+                                      </mtd>
+                                    </mtr>
+                                    <mtr>
+                                      <mtd columnalign="right">
+                                        <mi>K</mi>
+                                      </mtd>
+                                      <mtd columnalign="left">
+                                        <mo>=</mo>
+                                      </mtd>
+                                      <mtd columnalign="left">
+                                        <mn>1.3</mn>
+                                        <mspace width="0.2em"/>
+                                        <mo>×</mo>
+                                        <mspace width="0.2em"/>
+                                        <msup>
+                                          <mrow>
+                                            <mn>10</mn>
+                                          </mrow>
+                                          <mrow>
+                                            <mn>42</mn>
+                                          </mrow>
+                                        </msup>
+                                      </mtd>
+                                    </mtr>
+                                  </mtable>
+                                </mrow>
+                                <annotation-xml encoding="MathML-Content">
+                                  <mtable>
+                                    <mtr>
+                                      <mtd columnalign="right">
+                                        <msubsup>
+                                          <mi>E</mi>
+                                          <mrow>
+                                            <mtext>cell</mtext>
+                                          </mrow>
+                                          <mo>°</mo>
+                                        </msubsup>
+                                      </mtd>
+                                      <mtd columnalign="left">
+                                        <mo>=</mo>
+                                      </mtd>
+                                      <mtd columnalign="left">
+                                        <mfrac>
+                                          <mrow>
+                                            <mtext>0.0592 V</mtext>
+                                          </mrow>
+                                          <mi>n</mi>
+                                        </mfrac>
+                                        <mspace width="0.2em"/>
+                                        <mtext>log</mtext>
+                                        <mspace width="0.2em"/>
+                                        <mi>K</mi>
+                                      </mtd>
+                                    </mtr>
+                                    <mtr>
+                                      <mtd columnalign="right">
+                                        <mi>K</mi>
+                                      </mtd>
+                                      <mtd columnalign="left">
+                                        <mo>=</mo>
+                                      </mtd>
+                                      <mtd columnalign="left">
+                                        <msup>
+                                          <mrow>
+                                            <mn>10</mn>
+                                          </mrow>
+                                          <mrow>
+                                            <mi>n</mi>
+                                            <mspace width="0.2em"/>
+                                            <mo>×</mo>
+                                            <mspace width="0.2em"/>
+                                            <msubsup>
+                                              <mi>E</mi>
+                                              <mrow>
+                                                <mtext>cell</mtext>
+                                              </mrow>
+                                              <mo>°</mo>
+                                            </msubsup>
+                                            <mtext>/</mtext>
+                                            <mtext>0.0592 V</mtext>
+                                          </mrow>
+                                        </msup>
+                                      </mtd>
+                                    </mtr>
+                                    <mtr>
+                                      <mtd columnalign="right">
+                                        <mi>K</mi>
+                                      </mtd>
+                                      <mtd columnalign="left">
+                                        <mo>=</mo>
+                                      </mtd>
+                                      <mtd columnalign="left">
+                                        <msup>
+                                          <mrow>
+                                            <mn>10</mn>
+                                          </mrow>
+                                          <mrow>
+                                            <mn>2</mn>
+                                            <mspace width="0.2em"/>
+                                            <mo>×</mo>
+                                            <mspace width="0.2em"/>
+                                            <mtext>1.247 V/0.0592 V</mtext>
+                                          </mrow>
+                                        </msup>
+                                      </mtd>
+                                    </mtr>
+                                    <mtr>
+                                      <mtd columnalign="right">
+                                        <mi>K</mi>
+                                      </mtd>
+                                      <mtd columnalign="left">
+                                        <mo>=</mo>
+                                      </mtd>
+                                      <mtd columnalign="left">
+                                        <msup>
+                                          <mrow>
+                                            <mn>10</mn>
+                                          </mrow>
+                                          <mrow>
+                                            <mn>42.128</mn>
+                                          </mrow>
+                                        </msup>
+                                      </mtd>
+                                    </mtr>
+                                    <mtr>
+                                      <mtd columnalign="right">
+                                        <mi>K</mi>
+                                      </mtd>
+                                      <mtd columnalign="left">
+                                        <mo>=</mo>
+                                      </mtd>
+                                      <mtd columnalign="left">
+                                        <mn>1.3</mn>
+                                        <mspace width="0.2em"/>
+                                        <mo>×</mo>
+                                        <mspace width="0.2em"/>
+                                        <msup>
+                                          <mrow>
+                                            <mn>10</mn>
+                                          </mrow>
+                                          <mrow>
+                                            <mn>42</mn>
+                                          </mrow>
+                                        </msup>
+                                      </mtd>
+                                    </mtr>
+                                  </mtable>
+                                </annotation-xml>
+                              </semantics>
+                            </math>
+                          </div>
+                          <p
+                            id="fs-idp101330240"
+                          >The standard free energy is then</p>
+                          <div data-type="equation" id="fs-idp126961280">
+                            <math display="block">
+                              <semantics>
+                                <mrow>
+                                  <mtable>
+                                    <mtr>
+                                      <mtd columnalign="right">
+                                        <mtext>Δ</mtext>
+                                        <msup>
+                                          <mi>G</mi>
+                                          <mo>°</mo>
+                                        </msup>
+                                      </mtd>
+                                      <mtd columnalign="left">
+                                        <mo>=</mo>
+                                      </mtd>
+                                      <mtd columnalign="left">
+                                        <mtext>−</mtext>
+                                        <mi>n</mi>
+                                        <mi>F</mi>
+                                        <msubsup>
+                                          <mi>E</mi>
+                                          <mrow>
+                                            <mtext>cell</mtext>
+                                          </mrow>
+                                          <mo>°</mo>
+                                        </msubsup>
+                                      </mtd>
+                                    </mtr>
+                                    <mtr>
+                                      <mtd columnalign="right">
+                                        <mtext>Δ</mtext>
+                                        <mi>G</mi>
+                                        <mtext>°</mtext>
+                                      </mtd>
+                                      <mtd columnalign="left">
+                                        <mo>=</mo>
+                                      </mtd>
+                                      <mtd columnalign="left">
+                                        <mn>−2</mn>
+                                        <mspace width="0.2em"/>
+                                        <mo>×</mo>
+                                        <mspace width="0.2em"/>
+                                        <mn>96,485</mn>
+                                        <mspace width="0.4em"/>
+                                        <mfrac>
+                                          <mtext>C</mtext>
+                                          <mrow>
+                                            <mtext>mol</mtext>
+                                          </mrow>
+                                        </mfrac>
+                                        <mspace width="0.2em"/>
+                                        <mo>×</mo>
+                                        <mspace width="0.2em"/>
+                                        <mn>1.247</mn>
+                                        <mspace width="0.4em"/>
+                                        <mfrac>
+                                          <mtext>J</mtext>
+                                          <mrow>
+                                            <mtext>C</mtext>
+                                          </mrow>
+                                        </mfrac>
+                                        <mo>=</mo>
+                                        <mn>−240.6</mn>
+                                        <mspace width="0.4em"/>
+                                        <mfrac>
+                                          <mrow>
+                                            <mtext>kJ</mtext>
+                                          </mrow>
+                                          <mrow>
+                                            <mtext>mol</mtext>
+                                          </mrow>
+                                        </mfrac>
+                                      </mtd>
+                                    </mtr>
+                                  </mtable>
+                                </mrow>
+                                <annotation-xml encoding="MathML-Content">
+                                  <mtable>
+                                    <mtr>
+                                      <mtd columnalign="right">
+                                        <mtext>Δ</mtext>
+                                        <msup>
+                                          <mi>G</mi>
+                                          <mo>°</mo>
+                                        </msup>
+                                      </mtd>
+                                      <mtd columnalign="left">
+                                        <mo>=</mo>
+                                      </mtd>
+                                      <mtd columnalign="left">
+                                        <mtext>−</mtext>
+                                        <mi>n</mi>
+                                        <mi>F</mi>
+                                        <msubsup>
+                                          <mi>E</mi>
+                                          <mrow>
+                                            <mtext>cell</mtext>
+                                          </mrow>
+                                          <mo>°</mo>
+                                        </msubsup>
+                                      </mtd>
+                                    </mtr>
+                                    <mtr>
+                                      <mtd columnalign="right">
+                                        <mtext>Δ</mtext>
+                                        <mi>G</mi>
+                                        <mtext>°</mtext>
+                                      </mtd>
+                                      <mtd columnalign="left">
+                                        <mo>=</mo>
+                                      </mtd>
+                                      <mtd columnalign="left">
+                                        <mn>−2</mn>
+                                        <mspace width="0.2em"/>
+                                        <mo>×</mo>
+                                        <mspace width="0.2em"/>
+                                        <mn>96,485</mn>
+                                        <mspace width="0.4em"/>
+                                        <mfrac>
+                                          <mtext>C</mtext>
+                                          <mrow>
+                                            <mtext>mol</mtext>
+                                          </mrow>
+                                        </mfrac>
+                                        <mspace width="0.2em"/>
+                                        <mo>×</mo>
+                                        <mspace width="0.2em"/>
+                                        <mn>1.247</mn>
+                                        <mspace width="0.4em"/>
+                                        <mfrac>
+                                          <mtext>J</mtext>
+                                          <mrow>
+                                            <mtext>C</mtext>
+                                          </mrow>
+                                        </mfrac>
+                                        <mo>=</mo>
+                                        <mn>−240.6</mn>
+                                        <mspace width="0.4em"/>
+                                        <mfrac>
+                                          <mrow>
+                                            <mtext>kJ</mtext>
+                                          </mrow>
+                                          <mrow>
+                                            <mtext>mol</mtext>
+                                          </mrow>
+                                        </mfrac>
+                                      </mtd>
+                                    </mtr>
+                                  </mtable>
+                                </annotation-xml>
+                              </semantics>
+                            </math>
+                          </div>
+                          <p id="fs-idm8503104">
+                            The reaction is spontaneous, as indicated by a negative free energy change and a positive cell potential. The
+                            <em data-effect="italics">K</em> value is very large, indicating the reaction proceeds to near completion to yield an equilibrium mixture containing mostly products.
+                          </p>
+                          <p id="fs-idp110872768">
+                            <span data-type="title">Check Your Learning</span>
+                            What is the standard free energy change and the equilibrium constant for the following reaction at room temperature? Is the reaction spontaneous?
+                          </p>
+                          <div data-type="equation" id="fs-idp7040368">
+                            <math display="block">
+                              <semantics>
+                                <mrow>
+                                  <mrow>
+                                    <mtext>Sn</mtext>
+                                    <mo stretchy="false">(</mo>
+                                    <mi>s</mi>
+                                    <mo stretchy="false">)</mo>
+                                    <mo>+</mo>
+                                    <mn>2</mn>
+                                    <msup>
+                                      <mrow>
+                                        <mtext>Cu</mtext>
+                                      </mrow>
+                                      <mrow>
+                                        <mn>2+</mn>
+                                      </mrow>
+                                    </msup>
+                                    <mo stretchy="false">(</mo>
+                                    <mi>a</mi>
+                                    <mi>q</mi>
+                                    <mo stretchy="false">)</mo>
+                                    <mo stretchy="false">⇌</mo>
+                                    <msup>
+                                      <mrow>
+                                        <mtext>Sn</mtext>
+                                      </mrow>
+                                      <mrow>
+                                        <mn>2+</mn>
+                                      </mrow>
+                                    </msup>
+                                    <mo stretchy="false">(</mo>
+                                    <mi>a</mi>
+                                    <mi>q</mi>
+                                    <mo stretchy="false">)</mo>
+                                    <mo>+</mo>
+                                    <mn>2</mn>
+                                    <msup>
+                                      <mrow>
+                                        <mtext>Cu</mtext>
+                                      </mrow>
+                                      <mtext>+</mtext>
+                                    </msup>
+                                    <mo stretchy="false">(</mo>
+                                    <mi>a</mi>
+                                    <mi>q</mi>
+                                    <mo stretchy="false">)</mo>
+                                  </mrow>
+                                </mrow>
+                                <annotation-xml encoding="MathML-Content">
+                                  <mrow>
+                                    <mtext>Sn</mtext>
+                                    <mo stretchy="false">(</mo>
+                                    <mi>s</mi>
+                                    <mo stretchy="false">)</mo>
+                                    <mo>+</mo>
+                                    <mn>2</mn>
+                                    <msup>
+                                      <mrow>
+                                        <mtext>Cu</mtext>
+                                      </mrow>
+                                      <mrow>
+                                        <mn>2+</mn>
+                                      </mrow>
+                                    </msup>
+                                    <mo stretchy="false">(</mo>
+                                    <mi>a</mi>
+                                    <mi>q</mi>
+                                    <mo stretchy="false">)</mo>
+                                    <mo stretchy="false">⇌</mo>
+                                    <msup>
+                                      <mrow>
+                                        <mtext>Sn</mtext>
+                                      </mrow>
+                                      <mrow>
+                                        <mn>2+</mn>
+                                      </mrow>
+                                    </msup>
+                                    <mo stretchy="false">(</mo>
+                                    <mi>a</mi>
+                                    <mi>q</mi>
+                                    <mo stretchy="false">)</mo>
+                                    <mo>+</mo>
+                                    <mn>2</mn>
+                                    <msup>
+                                      <mrow>
+                                        <mtext>Cu</mtext>
+                                      </mrow>
+                                      <mtext>+</mtext>
+                                    </msup>
+                                    <mo stretchy="false">(</mo>
+                                    <mi>a</mi>
+                                    <mi>q</mi>
+                                    <mo stretchy="false">)</mo>
+                                  </mrow>
+                                </annotation-xml>
+                              </semantics>
+                            </math>
+                          </div>
+                          <div data-type="note" id="fs-idp195905712">
+                            <h3 class="os-title" data-type="title">
+                              <span
+                                class="os-title-label"
+                                data-type
+                                id="[redacted for uniqueness]"
+                              >Answer:</span>
+                            </h3>
+                            <div class="os-note-body">
+                              <p id="fs-idp101579952">
+                                Spontaneous;
+                                <em data-effect="italics">n</em> = 2;
+                                <math display="inline">
+                                  <semantics>
+                                    <mrow>
+                                      <mrow>
+                                        <msubsup>
+                                          <mi>E</mi>
+                                          <mrow>
+                                            <mtext>cell</mtext>
+                                          </mrow>
+                                          <mo>°</mo>
+                                        </msubsup>
+                                        <mo>=</mo>
+                                        <mtext>+0.291 V</mtext>
+                                        <mo>;</mo>
+                                      </mrow>
+                                    </mrow>
+                                    <annotation-xml encoding="MathML-Content">
+                                      <mrow>
+                                        <msubsup>
+                                          <mi>E</mi>
+                                          <mrow>
+                                            <mtext>cell</mtext>
+                                          </mrow>
+                                          <mo>°</mo>
+                                        </msubsup>
+                                        <mo>=</mo>
+                                        <mtext>+0.291 V</mtext>
+                                        <mo>;</mo>
+                                      </mrow>
+                                    </annotation-xml>
+                                  </semantics>
+                                </math>
+                                <math display="inline">
+                                  <semantics>
+                                    <mrow>
+                                      <mrow>
+                                        <mtext>Δ</mtext>
+                                        <mi>G</mi>
+                                        <mtext>°</mtext>
+                                        <mo>=</mo>
+                                        <mn>−56.2</mn>
+                                        <mspace width="0.2em"/>
+                                        <mfrac>
+                                          <mrow>
+                                            <mtext>kJ</mtext>
+                                          </mrow>
+                                          <mrow>
+                                            <mtext>mol</mtext>
+                                          </mrow>
+                                        </mfrac>
+                                        <mo>;</mo>
+                                      </mrow>
+                                    </mrow>
+                                    <annotation-xml encoding="MathML-Content">
+                                      <mrow>
+                                        <mtext>Δ</mtext>
+                                        <mi>G</mi>
+                                        <mtext>°</mtext>
+                                        <mo>=</mo>
+                                        <mn>−56.2</mn>
+                                        <mspace width="0.2em"/>
+                                        <mfrac>
+                                          <mrow>
+                                            <mtext>kJ</mtext>
+                                          </mrow>
+                                          <mrow>
+                                            <mtext>mol</mtext>
+                                          </mrow>
+                                        </mfrac>
+                                        <mo>;</mo>
+                                      </mrow>
+                                    </annotation-xml>
+                                  </semantics>
+                                </math>
+                                <em data-effect="italics">K</em> = 6.8
+                                <math display="inline">
+                                  <semantics>
+                                    <mrow>
+                                      <mo>×</mo>
+                                    </mrow>
+                                    <annotation-xml encoding="MathML-Content">
+                                      <mo>×</mo>
+                                    </annotation-xml>
+                                  </semantics>
+                                </math> 10
+                                <sup>9</sup>.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </section>
+
+                      <section data-depth="1" id="fs-idm251393488">
+                        <h3
+                          data-type="title"
+                        >Potentials at Nonstandard Conditions: The Nernst Equation</h3>
+                        <p
+                          id="fs-idp76396192"
+                        >Most of the redox processes that interest science and society do not occur under standard state conditions, and so the potentials of these systems under nonstandard conditions are a property worthy of attention. Having established the relationship between potential and free energy change in this section, the previously discussed relation between free energy change and reaction mixture composition can be used for this purpose.</p>
+                        <div data-type="equation" id="fs-idp76596960">
+                          <math display="block">
+                            <semantics>
+                              <mrow>
+                                <mrow>
+                                  <mtext>Δ</mtext>
+                                  <mi>G</mi>
+                                  <mo>=</mo>
+                                  <mtext>Δ</mtext>
+                                  <mi>G</mi>
+                                  <mtext>°</mtext>
+                                  <mo>+</mo>
+                                  <mi>R</mi>
+                                  <mi>T</mi>
+                                  <mspace width="0.2em"/>
+                                  <mtext>ln</mtext>
+                                  <mspace width="0.2em"/>
+                                  <mi>Q</mi>
+                                </mrow>
+                              </mrow>
+                              <annotation-xml encoding="MathML-Content">
+                                <mrow>
+                                  <mtext>Δ</mtext>
+                                  <mi>G</mi>
+                                  <mo>=</mo>
+                                  <mtext>Δ</mtext>
+                                  <mi>G</mi>
+                                  <mtext>°</mtext>
+                                  <mo>+</mo>
+                                  <mi>R</mi>
+                                  <mi>T</mi>
+                                  <mspace width="0.2em"/>
+                                  <mtext>ln</mtext>
+                                  <mspace width="0.2em"/>
+                                  <mi>Q</mi>
+                                </mrow>
+                              </annotation-xml>
+                            </semantics>
+                          </math>
+                        </div>
+                        <p id="fs-idm983728">
+                          Notice the reaction quotient,
+                          <em data-effect="italics">Q</em>, appears in this equation, making the free energy change dependent upon the composition of the reaction mixture. Substituting the equation relating free energy change to cell potential yields the
+                          <span
+                            data-type="term"
+                            group-by="N"
+                            id="[redacted for uniqueness]"
+                          >Nernst equation</span>:
+                        </p>
+                        <div data-type="equation" id="fs-idp17520176">
+                          <math display="block">
+                            <semantics>
+                              <mrow>
+                                <mrow>
+                                  <mtext>−</mtext>
+                                  <mi>n</mi>
+                                  <mi>F</mi>
+                                  <msub>
+                                    <mi>E</mi>
+                                    <mrow>
+                                      <mtext>cell</mtext>
+                                    </mrow>
+                                  </msub>
+                                  <mo>=</mo>
+                                  <mtext>−</mtext>
+                                  <mi>n</mi>
+                                  <mi>F</mi>
+                                  <msubsup>
+                                    <mi>E</mi>
+                                    <mrow>
+                                      <mtext>cell</mtext>
+                                    </mrow>
+                                    <mo>°</mo>
+                                  </msubsup>
+                                  <mo>+</mo>
+                                  <mi>R</mi>
+                                  <mi>T</mi>
+                                  <mspace width="0.2em"/>
+                                  <mtext>ln</mtext>
+                                  <mspace width="0.2em"/>
+                                  <mi>Q</mi>
+                                </mrow>
+                              </mrow>
+                              <annotation-xml encoding="MathML-Content">
+                                <mrow>
+                                  <mtext>−</mtext>
+                                  <mi>n</mi>
+                                  <mi>F</mi>
+                                  <msub>
+                                    <mi>E</mi>
+                                    <mrow>
+                                      <mtext>cell</mtext>
+                                    </mrow>
+                                  </msub>
+                                  <mo>=</mo>
+                                  <mtext>−</mtext>
+                                  <mi>n</mi>
+                                  <mi>F</mi>
+                                  <msubsup>
+                                    <mi>E</mi>
+                                    <mrow>
+                                      <mtext>cell</mtext>
+                                    </mrow>
+                                    <mo>°</mo>
+                                  </msubsup>
+                                  <mo>+</mo>
+                                  <mi>R</mi>
+                                  <mi>T</mi>
+                                  <mspace width="0.2em"/>
+                                  <mtext>ln</mtext>
+                                  <mspace width="0.2em"/>
+                                  <mi>Q</mi>
+                                </mrow>
+                              </annotation-xml>
+                            </semantics>
+                          </math>
+                        </div>
+                        <div data-type="equation" id="fs-idm642366960">
+                          <math display="block">
+                            <semantics>
+                              <mrow>
+                                <mrow>
+                                  <msub>
+                                    <mi>E</mi>
+                                    <mrow>
+                                      <mtext>cell</mtext>
+                                    </mrow>
+                                  </msub>
+                                  <mo>=</mo>
+                                  <msubsup>
+                                    <mi>E</mi>
+                                    <mrow>
+                                      <mtext>cell</mtext>
+                                    </mrow>
+                                    <mo>°</mo>
+                                  </msubsup>
+                                  <mo>−</mo>
+                                  <mspace width="0.2em"/>
+                                  <mfrac>
+                                    <mrow>
+                                      <mi>R</mi>
+                                      <mi>T</mi>
+                                    </mrow>
+                                    <mrow>
+                                      <mi>n</mi>
+                                      <mi>F</mi>
+                                    </mrow>
+                                  </mfrac>
+                                  <mspace width="0.4em"/>
+                                  <mtext>ln</mtext>
+                                  <mspace width="0.3em"/>
+                                  <mi>Q</mi>
+                                </mrow>
+                              </mrow>
+                              <annotation-xml encoding="MathML-Content">
+                                <mrow>
+                                  <msub>
+                                    <mi>E</mi>
+                                    <mrow>
+                                      <mtext>cell</mtext>
+                                    </mrow>
+                                  </msub>
+                                  <mo>=</mo>
+                                  <msubsup>
+                                    <mi>E</mi>
+                                    <mrow>
+                                      <mtext>cell</mtext>
+                                    </mrow>
+                                    <mo>°</mo>
+                                  </msubsup>
+                                  <mo>−</mo>
+                                  <mspace width="0.2em"/>
+                                  <mfrac>
+                                    <mrow>
+                                      <mi>R</mi>
+                                      <mi>T</mi>
+                                    </mrow>
+                                    <mrow>
+                                      <mi>n</mi>
+                                      <mi>F</mi>
+                                    </mrow>
+                                  </mfrac>
+                                  <mspace width="0.4em"/>
+                                  <mtext>ln</mtext>
+                                  <mspace width="0.3em"/>
+                                  <mi>Q</mi>
+                                </mrow>
+                              </annotation-xml>
+                            </semantics>
+                          </math>
+                        </div>
+                        <p id="fs-idp24059424">
+                          This equation describes how the potential of a redox system (such as a galvanic cell) varies from its standard state value, specifically, showing it to be a function of the number of electrons transferred,
+                          <em data-effect="italics">n</em>, the temperature,
+                          <em data-effect="italics">T</em>, and the reaction mixture composition as reflected in
+                          <em data-effect="italics">Q</em>. A convenient form of the Nernst equation for most work is one in which values for the fundamental constants (R and F) and a factor converting from natural to base-10 logarithms have been included:
+                        </p>
+                        <div data-type="equation" id="fs-idp195072512">
+                          <math display="block">
+                            <semantics>
+                              <mrow>
+                                <mrow>
+                                  <msub>
+                                    <mi>E</mi>
+                                    <mrow>
+                                      <mtext>cell</mtext>
+                                    </mrow>
+                                  </msub>
+                                  <mo>=</mo>
+                                  <msubsup>
+                                    <mrow>
+                                      <mtext>−</mtext>
+                                      <mi>E</mi>
+                                    </mrow>
+                                    <mrow>
+                                      <mtext>cell</mtext>
+                                    </mrow>
+                                    <mo>°</mo>
+                                  </msubsup>
+                                  <mo>−</mo>
+                                  <mspace width="0.2em"/>
+                                  <mfrac>
+                                    <mrow>
+                                      <mn>0.0592</mn>
+                                      <mtext>V</mtext>
+                                    </mrow>
+                                    <mi>n</mi>
+                                  </mfrac>
+                                  <mspace width="0.2em"/>
+                                  <mtext>ln</mtext>
+                                  <mspace width="0.2em"/>
+                                  <mi>Q</mi>
+                                </mrow>
+                              </mrow>
+                              <annotation-xml encoding="MathML-Content">
+                                <mrow>
+                                  <msub>
+                                    <mi>E</mi>
+                                    <mrow>
+                                      <mtext>cell</mtext>
+                                    </mrow>
+                                  </msub>
+                                  <mo>=</mo>
+                                  <msubsup>
+                                    <mrow>
+                                      <mtext>−</mtext>
+                                      <mi>E</mi>
+                                    </mrow>
+                                    <mrow>
+                                      <mtext>cell</mtext>
+                                    </mrow>
+                                    <mo>°</mo>
+                                  </msubsup>
+                                  <mo>−</mo>
+                                  <mspace width="0.2em"/>
+                                  <mfrac>
+                                    <mrow>
+                                      <mn>0.0592</mn>
+                                      <mtext>V</mtext>
+                                    </mrow>
+                                    <mi>n</mi>
+                                  </mfrac>
+                                  <mspace width="0.2em"/>
+                                  <mtext>ln</mtext>
+                                  <mspace width="0.2em"/>
+                                  <mi>Q</mi>
+                                </mrow>
+                              </annotation-xml>
+                            </semantics>
+                          </math>
+                        </div>
+                        <div data-type="example" id="fs-idm240817536">
+                          <h3 class="os-title">
+                            <span class="os-title-label">Example</span>
+                            <span class="os-number">17.7</span>
+                            <span class="os-divider"></span>
+                          </h3>
+                          <p id="fs-idp23262432">
+                            <span
+                              data-type="title"
+                            >Predicting Redox Spontaneity Under Nonstandard Conditions</span>
+                            Use the Nernst equation to predict the spontaneity of the redox reaction shown below.
+                          </p>
+                          <div data-type="equation" id="fs-idm365472">
+                            <math display="block">
+                              <semantics>
+                                <mrow>
+                                  <mrow>
+                                    <mtext>Co</mtext>
+                                    <mo stretchy="false">(</mo>
+                                    <mi>s</mi>
+                                    <mo stretchy="false">)</mo>
+                                    <mo>+</mo>
+                                    <msup>
+                                      <mrow>
+                                        <mtext>Fe</mtext>
+                                      </mrow>
+                                      <mrow>
+                                        <mn>2+</mn>
+                                      </mrow>
+                                    </msup>
+                                    <mo stretchy="false">(</mo>
+                                    <mi>a</mi>
+                                    <mi>q</mi>
+                                    <mo>,</mo>
+                                    <mspace width="0.2em"/>
+                                    <mn>1.94</mn>
+                                    <mspace width="0.2em"/>
+                                    <mi>M</mi>
+                                    <mo stretchy="false">)</mo>
+                                    <mspace width="0.2em"/>
+                                    <mo stretchy="false">⟶</mo>
+                                    <mspace width="0.2em"/>
+                                    <msup>
+                                      <mrow>
+                                        <mtext>Co</mtext>
+                                      </mrow>
+                                      <mrow>
+                                        <mn>2+</mn>
+                                      </mrow>
+                                    </msup>
+                                    <mo stretchy="false">(</mo>
+                                    <mi>a</mi>
+                                    <mi>q</mi>
+                                    <mtext>, 0.15</mtext>
+                                    <mspace width="0.2em"/>
+                                    <mi>M</mi>
+                                    <mo stretchy="false">)</mo>
+                                    <mo>+</mo>
+                                    <mtext>Fe</mtext>
+                                    <mo stretchy="false">(</mo>
+                                    <mi>s</mi>
+                                    <mo stretchy="false">)</mo>
+                                  </mrow>
+                                </mrow>
+                                <annotation-xml encoding="MathML-Content">
+                                  <mrow>
+                                    <mtext>Co</mtext>
+                                    <mo stretchy="false">(</mo>
+                                    <mi>s</mi>
+                                    <mo stretchy="false">)</mo>
+                                    <mo>+</mo>
+                                    <msup>
+                                      <mrow>
+                                        <mtext>Fe</mtext>
+                                      </mrow>
+                                      <mrow>
+                                        <mn>2+</mn>
+                                      </mrow>
+                                    </msup>
+                                    <mo stretchy="false">(</mo>
+                                    <mi>a</mi>
+                                    <mi>q</mi>
+                                    <mo>,</mo>
+                                    <mspace width="0.2em"/>
+                                    <mn>1.94</mn>
+                                    <mspace width="0.2em"/>
+                                    <mi>M</mi>
+                                    <mo stretchy="false">)</mo>
+                                    <mspace width="0.2em"/>
+                                    <mo stretchy="false">⟶</mo>
+                                    <mspace width="0.2em"/>
+                                    <msup>
+                                      <mrow>
+                                        <mtext>Co</mtext>
+                                      </mrow>
+                                      <mrow>
+                                        <mn>2+</mn>
+                                      </mrow>
+                                    </msup>
+                                    <mo stretchy="false">(</mo>
+                                    <mi>a</mi>
+                                    <mi>q</mi>
+                                    <mtext>, 0.15</mtext>
+                                    <mspace width="0.2em"/>
+                                    <mi>M</mi>
+                                    <mo stretchy="false">)</mo>
+                                    <mo>+</mo>
+                                    <mtext>Fe</mtext>
+                                    <mo stretchy="false">(</mo>
+                                    <mi>s</mi>
+                                    <mo stretchy="false">)</mo>
+                                  </mrow>
+                                </annotation-xml>
+                              </semantics>
+                            </math>
+                          </div>
+                          <p id="fs-idp102277360">
+                            <span data-type="title">Solution</span>
+                            Collecting information from
+                            <a
+                              class="target-chapter"
+                              href="l-standard-electrode-half-cell-potentials"
+                            >Appendix L</a> and the problem,
+                          </p>
+                          <div data-type="equation" id="fs-idp61630144">
+                            <math display="block">
+                              <semantics>
+                                <mrow>
+                                  <mtable>
+                                    <mtr/>
+                                    <mtr>
+                                      <mtd columnalign="left">
+                                        <mtext>Anode (oxidation):</mtext>
+                                      </mtd>
+                                      <mtd columnalign="left">
+                                        <mtext>Co</mtext>
+                                        <mo stretchy="false">(</mo>
+                                        <mi>s</mi>
+                                        <mo stretchy="false">)</mo>
+                                        <mspace width="0.2em"/>
+                                        <mo stretchy="false">⟶</mo>
+                                        <mspace width="0.2em"/>
+                                        <msup>
+                                          <mtext>Co</mtext>
+                                          <mrow>
+                                            <mn>2+</mn>
+                                          </mrow>
+                                        </msup>
+                                        <mo stretchy="false">(</mo>
+                                        <mi>a</mi>
+                                        <mi>q</mi>
+                                        <mo stretchy="false">)</mo>
+                                        <mo>+</mo>
+                                        <msup>
+                                          <mtext>2e</mtext>
+                                          <mtext>−</mtext>
+                                        </msup>
+                                      </mtd>
+                                      <mtd columnalign="right">
+                                        <msubsup>
+                                          <mi>E</mi>
+                                          <mrow>
+                                            <msup>
+                                              <mrow>
+                                                <mtext>Co</mtext>
+                                              </mrow>
+                                              <mrow>
+                                                <mn>2+</mn>
+                                              </mrow>
+                                            </msup>
+                                            <mtext>/Co</mtext>
+                                          </mrow>
+                                          <mo>°</mo>
+                                        </msubsup>
+                                      </mtd>
+                                      <mtd columnalign="left">
+                                        <mo>=</mo>
+                                      </mtd>
+                                      <mtd columnalign="left">
+                                        <mtext>−0.28 V</mtext>
+                                      </mtd>
+                                    </mtr>
+                                    <mtr>
+                                      <mtd columnalign="left">
+                                        <mtext>Cathode (reduction):</mtext>
+                                      </mtd>
+                                      <mtd columnalign="left">
+                                        <msup>
+                                          <mtext>Fe</mtext>
+                                          <mrow>
+                                            <mn>2+</mn>
+                                          </mrow>
+                                        </msup>
+                                        <mo stretchy="false">(</mo>
+                                        <mi>a</mi>
+                                        <mi>q</mi>
+                                        <mo stretchy="false">)</mo>
+                                        <mo>+</mo>
+                                        <msup>
+                                          <mtext>2e</mtext>
+                                          <mtext>−</mtext>
+                                        </msup>
+                                        <mspace width="0.2em"/>
+                                        <mo stretchy="false">⟶</mo>
+                                        <mspace width="0.2em"/>
+                                        <mtext>Fe</mtext>
+                                        <mo stretchy="false">(</mo>
+                                        <mi>s</mi>
+                                        <mo stretchy="false">)</mo>
+                                      </mtd>
+                                      <mtd columnalign="right">
+                                        <msubsup>
+                                          <mi>E</mi>
+                                          <mrow>
+                                            <msup>
+                                              <mrow>
+                                                <mtext>Fe</mtext>
+                                              </mrow>
+                                              <mrow>
+                                                <mn>2+</mn>
+                                              </mrow>
+                                            </msup>
+                                            <mtext>/Fe</mtext>
+                                          </mrow>
+                                          <mo>°</mo>
+                                        </msubsup>
+                                      </mtd>
+                                      <mtd columnalign="left">
+                                        <mo>=</mo>
+                                      </mtd>
+                                      <mtd columnalign="left">
+                                        <mtext>−0.447 V</mtext>
+                                      </mtd>
+                                    </mtr>
+                                    <mtr>
+                                      <mtd/>
+                                      <mtd columnalign="left">
+                                        <msubsup>
+                                          <mi>E</mi>
+                                          <mrow>
+                                            <mtext>cell</mtext>
+                                          </mrow>
+                                          <mo>°</mo>
+                                        </msubsup>
+                                        <mo>=</mo>
+                                        <msubsup>
+                                          <mi>E</mi>
+                                          <mrow>
+                                            <mtext>cathode</mtext>
+                                          </mrow>
+                                          <mo>°</mo>
+                                        </msubsup>
+                                        <mo>−</mo>
+                                        <msubsup>
+                                          <mi>E</mi>
+                                          <mrow>
+                                            <mtext>anode</mtext>
+                                          </mrow>
+                                          <mo>°</mo>
+                                        </msubsup>
+                                        <mo>=</mo>
+                                      </mtd>
+                                      <mtd columnalign="right">
+                                        <mtext>−0.447 V</mtext>
+                                        <mo>−</mo>
+                                        <mo stretchy="false">(</mo>
+                                        <mtext>−0.28 V</mtext>
+                                        <mo stretchy="false">)</mo>
+                                      </mtd>
+                                      <mtd columnalign="left">
+                                        <mo>=</mo>
+                                      </mtd>
+                                      <mtd columnalign="left">
+                                        <mtext>−0.17 V</mtext>
+                                      </mtd>
+                                    </mtr>
+                                  </mtable>
+                                </mrow>
+                                <annotation-xml encoding="MathML-Content">
+                                  <mtable>
+                                    <mtr/>
+                                    <mtr>
+                                      <mtd columnalign="left">
+                                        <mtext>Anode (oxidation):</mtext>
+                                      </mtd>
+                                      <mtd columnalign="left">
+                                        <mtext>Co</mtext>
+                                        <mo stretchy="false">(</mo>
+                                        <mi>s</mi>
+                                        <mo stretchy="false">)</mo>
+                                        <mspace width="0.2em"/>
+                                        <mo stretchy="false">⟶</mo>
+                                        <mspace width="0.2em"/>
+                                        <msup>
+                                          <mtext>Co</mtext>
+                                          <mrow>
+                                            <mn>2+</mn>
+                                          </mrow>
+                                        </msup>
+                                        <mo stretchy="false">(</mo>
+                                        <mi>a</mi>
+                                        <mi>q</mi>
+                                        <mo stretchy="false">)</mo>
+                                        <mo>+</mo>
+                                        <msup>
+                                          <mtext>2e</mtext>
+                                          <mtext>−</mtext>
+                                        </msup>
+                                      </mtd>
+                                      <mtd columnalign="right">
+                                        <msubsup>
+                                          <mi>E</mi>
+                                          <mrow>
+                                            <msup>
+                                              <mrow>
+                                                <mtext>Co</mtext>
+                                              </mrow>
+                                              <mrow>
+                                                <mn>2+</mn>
+                                              </mrow>
+                                            </msup>
+                                            <mtext>/Co</mtext>
+                                          </mrow>
+                                          <mo>°</mo>
+                                        </msubsup>
+                                      </mtd>
+                                      <mtd columnalign="left">
+                                        <mo>=</mo>
+                                      </mtd>
+                                      <mtd columnalign="left">
+                                        <mtext>−0.28 V</mtext>
+                                      </mtd>
+                                    </mtr>
+                                    <mtr>
+                                      <mtd columnalign="left">
+                                        <mtext>Cathode (reduction):</mtext>
+                                      </mtd>
+                                      <mtd columnalign="left">
+                                        <msup>
+                                          <mtext>Fe</mtext>
+                                          <mrow>
+                                            <mn>2+</mn>
+                                          </mrow>
+                                        </msup>
+                                        <mo stretchy="false">(</mo>
+                                        <mi>a</mi>
+                                        <mi>q</mi>
+                                        <mo stretchy="false">)</mo>
+                                        <mo>+</mo>
+                                        <msup>
+                                          <mtext>2e</mtext>
+                                          <mtext>−</mtext>
+                                        </msup>
+                                        <mspace width="0.2em"/>
+                                        <mo stretchy="false">⟶</mo>
+                                        <mspace width="0.2em"/>
+                                        <mtext>Fe</mtext>
+                                        <mo stretchy="false">(</mo>
+                                        <mi>s</mi>
+                                        <mo stretchy="false">)</mo>
+                                      </mtd>
+                                      <mtd columnalign="right">
+                                        <msubsup>
+                                          <mi>E</mi>
+                                          <mrow>
+                                            <msup>
+                                              <mrow>
+                                                <mtext>Fe</mtext>
+                                              </mrow>
+                                              <mrow>
+                                                <mn>2+</mn>
+                                              </mrow>
+                                            </msup>
+                                            <mtext>/Fe</mtext>
+                                          </mrow>
+                                          <mo>°</mo>
+                                        </msubsup>
+                                      </mtd>
+                                      <mtd columnalign="left">
+                                        <mo>=</mo>
+                                      </mtd>
+                                      <mtd columnalign="left">
+                                        <mtext>−0.447 V</mtext>
+                                      </mtd>
+                                    </mtr>
+                                    <mtr>
+                                      <mtd/>
+                                      <mtd columnalign="left">
+                                        <msubsup>
+                                          <mi>E</mi>
+                                          <mrow>
+                                            <mtext>cell</mtext>
+                                          </mrow>
+                                          <mo>°</mo>
+                                        </msubsup>
+                                        <mo>=</mo>
+                                        <msubsup>
+                                          <mi>E</mi>
+                                          <mrow>
+                                            <mtext>cathode</mtext>
+                                          </mrow>
+                                          <mo>°</mo>
+                                        </msubsup>
+                                        <mo>−</mo>
+                                        <msubsup>
+                                          <mi>E</mi>
+                                          <mrow>
+                                            <mtext>anode</mtext>
+                                          </mrow>
+                                          <mo>°</mo>
+                                        </msubsup>
+                                        <mo>=</mo>
+                                      </mtd>
+                                      <mtd columnalign="right">
+                                        <mtext>−0.447 V</mtext>
+                                        <mo>−</mo>
+                                        <mo stretchy="false">(</mo>
+                                        <mtext>−0.28 V</mtext>
+                                        <mo stretchy="false">)</mo>
+                                      </mtd>
+                                      <mtd columnalign="left">
+                                        <mo>=</mo>
+                                      </mtd>
+                                      <mtd columnalign="left">
+                                        <mtext>−0.17 V</mtext>
+                                      </mtd>
+                                    </mtr>
+                                  </mtable>
+                                </annotation-xml>
+                              </semantics>
+                            </math>
+                          </div>
+                          <p
+                            id="fs-idm15620288"
+                          >Notice the negative value of the standard cell potential indicates the process is not spontaneous under standard conditions. Substitution of the Nernst equation terms for the nonstandard conditions yields:</p>
+                          <div data-type="equation" id="fs-idp99119696">
+                            <math display="block">
+                              <semantics>
+                                <mrow>
+                                  <mtable>
+                                    <mtr>
+                                      <mtd columnalign="right">
+                                        <mi>Q</mi>
+                                      </mtd>
+                                      <mtd columnalign="left">
+                                        <mo>=</mo>
+                                      </mtd>
+                                      <mtd columnalign="left">
+                                        <mfrac>
+                                          <mrow>
+                                            <msup>
+                                              <mrow>
+                                                <mo stretchy="false">[</mo>
+                                                <mtext>Co</mtext>
+                                              </mrow>
+                                              <mrow>
+                                                <mn>2+</mn>
+                                              </mrow>
+                                            </msup>
+                                            <mo stretchy="false">]</mo>
+                                          </mrow>
+                                          <mrow>
+                                            <msup>
+                                              <mrow>
+                                                <mo stretchy="false">[</mo>
+                                                <mtext>Fe</mtext>
+                                              </mrow>
+                                              <mrow>
+                                                <mn>2+</mn>
+                                              </mrow>
+                                            </msup>
+                                            <mo stretchy="false">]</mo>
+                                          </mrow>
+                                        </mfrac>
+                                        <mspace width="0.2em"/>
+                                        <mo>=</mo>
+                                        <mspace width="0.2em"/>
+                                        <mfrac>
+                                          <mrow>
+                                            <mn>0.15</mn>
+                                            <mspace width="0.2em"/>
+                                            <mi>M</mi>
+                                          </mrow>
+                                          <mrow>
+                                            <mn>1.94</mn>
+                                            <mspace width="0.2em"/>
+                                            <mi>M</mi>
+                                          </mrow>
+                                        </mfrac>
+                                        <mspace width="0.2em"/>
+                                        <mo>=</mo>
+                                        <mn>0.077</mn>
+                                      </mtd>
+                                    </mtr>
+                                    <mtr>
+                                      <mtd columnalign="right">
+                                        <msub>
+                                          <mi>E</mi>
+                                          <mrow>
+                                            <mtext>cell</mtext>
+                                          </mrow>
+                                        </msub>
+                                      </mtd>
+                                      <mtd columnalign="left">
+                                        <mo>=</mo>
+                                      </mtd>
+                                      <mtd columnalign="left">
+                                        <msubsup>
+                                          <mi>E</mi>
+                                          <mrow>
+                                            <mtext>cell</mtext>
+                                          </mrow>
+                                          <mo>°</mo>
+                                        </msubsup>
+                                        <mo>−</mo>
+                                        <mspace width="0.2em"/>
+                                        <mfrac>
+                                          <mrow>
+                                            <mn>0.0592 V</mn>
+                                          </mrow>
+                                          <mi>n</mi>
+                                        </mfrac>
+                                        <mspace width="0.4em"/>
+                                        <mtext>log</mtext>
+                                        <mspace width="0.2em"/>
+                                        <mi>Q</mi>
+                                      </mtd>
+                                    </mtr>
+                                    <mtr>
+                                      <mtd columnalign="right">
+                                        <msub>
+                                          <mi>E</mi>
+                                          <mrow>
+                                            <mtext>cell</mtext>
+                                          </mrow>
+                                        </msub>
+                                      </mtd>
+                                      <mtd columnalign="left">
+                                        <mo>=</mo>
+                                      </mtd>
+                                      <mtd columnalign="left">
+                                        <mn>−0.1</mn>
+                                        <mtext>7 V</mtext>
+                                        <mo>−</mo>
+                                        <mspace width="0.2em"/>
+                                        <mfrac>
+                                          <mrow>
+                                            <mn>0.0592 V</mn>
+                                          </mrow>
+                                          <mn>2</mn>
+                                        </mfrac>
+                                        <mspace width="0.4em"/>
+                                        <mtext>log</mtext>
+                                        <mspace width="0.2em"/>
+                                        <mn>0.077</mn>
+                                      </mtd>
+                                    </mtr>
+                                    <mtr>
+                                      <mtd columnalign="right">
+                                        <msub>
+                                          <mi>E</mi>
+                                          <mrow>
+                                            <mtext>cell</mtext>
+                                          </mrow>
+                                        </msub>
+                                      </mtd>
+                                      <mtd columnalign="left">
+                                        <mo>=</mo>
+                                      </mtd>
+                                      <mtd columnalign="left">
+                                        <mtext>−0.17 V</mtext>
+                                        <mo>+</mo>
+                                        <mn>0.033 V</mn>
+                                        <mo>=</mo>
+                                        <mn>−0.014 V</mn>
+                                      </mtd>
+                                    </mtr>
+                                  </mtable>
+                                </mrow>
+                                <annotation-xml encoding="MathML-Content">
+                                  <mtable>
+                                    <mtr>
+                                      <mtd columnalign="right">
+                                        <mi>Q</mi>
+                                      </mtd>
+                                      <mtd columnalign="left">
+                                        <mo>=</mo>
+                                      </mtd>
+                                      <mtd columnalign="left">
+                                        <mfrac>
+                                          <mrow>
+                                            <msup>
+                                              <mrow>
+                                                <mo stretchy="false">[</mo>
+                                                <mtext>Co</mtext>
+                                              </mrow>
+                                              <mrow>
+                                                <mn>2+</mn>
+                                              </mrow>
+                                            </msup>
+                                            <mo stretchy="false">]</mo>
+                                          </mrow>
+                                          <mrow>
+                                            <msup>
+                                              <mrow>
+                                                <mo stretchy="false">[</mo>
+                                                <mtext>Fe</mtext>
+                                              </mrow>
+                                              <mrow>
+                                                <mn>2+</mn>
+                                              </mrow>
+                                            </msup>
+                                            <mo stretchy="false">]</mo>
+                                          </mrow>
+                                        </mfrac>
+                                        <mspace width="0.2em"/>
+                                        <mo>=</mo>
+                                        <mspace width="0.2em"/>
+                                        <mfrac>
+                                          <mrow>
+                                            <mn>0.15</mn>
+                                            <mspace width="0.2em"/>
+                                            <mi>M</mi>
+                                          </mrow>
+                                          <mrow>
+                                            <mn>1.94</mn>
+                                            <mspace width="0.2em"/>
+                                            <mi>M</mi>
+                                          </mrow>
+                                        </mfrac>
+                                        <mspace width="0.2em"/>
+                                        <mo>=</mo>
+                                        <mn>0.077</mn>
+                                      </mtd>
+                                    </mtr>
+                                    <mtr>
+                                      <mtd columnalign="right">
+                                        <msub>
+                                          <mi>E</mi>
+                                          <mrow>
+                                            <mtext>cell</mtext>
+                                          </mrow>
+                                        </msub>
+                                      </mtd>
+                                      <mtd columnalign="left">
+                                        <mo>=</mo>
+                                      </mtd>
+                                      <mtd columnalign="left">
+                                        <msubsup>
+                                          <mi>E</mi>
+                                          <mrow>
+                                            <mtext>cell</mtext>
+                                          </mrow>
+                                          <mo>°</mo>
+                                        </msubsup>
+                                        <mo>−</mo>
+                                        <mspace width="0.2em"/>
+                                        <mfrac>
+                                          <mrow>
+                                            <mn>0.0592 V</mn>
+                                          </mrow>
+                                          <mi>n</mi>
+                                        </mfrac>
+                                        <mspace width="0.4em"/>
+                                        <mtext>log</mtext>
+                                        <mspace width="0.2em"/>
+                                        <mi>Q</mi>
+                                      </mtd>
+                                    </mtr>
+                                    <mtr>
+                                      <mtd columnalign="right">
+                                        <msub>
+                                          <mi>E</mi>
+                                          <mrow>
+                                            <mtext>cell</mtext>
+                                          </mrow>
+                                        </msub>
+                                      </mtd>
+                                      <mtd columnalign="left">
+                                        <mo>=</mo>
+                                      </mtd>
+                                      <mtd columnalign="left">
+                                        <mn>−0.1</mn>
+                                        <mtext>7 V</mtext>
+                                        <mo>−</mo>
+                                        <mspace width="0.2em"/>
+                                        <mfrac>
+                                          <mrow>
+                                            <mn>0.0592 V</mn>
+                                          </mrow>
+                                          <mn>2</mn>
+                                        </mfrac>
+                                        <mspace width="0.4em"/>
+                                        <mtext>log</mtext>
+                                        <mspace width="0.2em"/>
+                                        <mn>0.077</mn>
+                                      </mtd>
+                                    </mtr>
+                                    <mtr>
+                                      <mtd columnalign="right">
+                                        <msub>
+                                          <mi>E</mi>
+                                          <mrow>
+                                            <mtext>cell</mtext>
+                                          </mrow>
+                                        </msub>
+                                      </mtd>
+                                      <mtd columnalign="left">
+                                        <mo>=</mo>
+                                      </mtd>
+                                      <mtd columnalign="left">
+                                        <mtext>−0.17 V</mtext>
+                                        <mo>+</mo>
+                                        <mn>0.033 V</mn>
+                                        <mo>=</mo>
+                                        <mn>−0.014 V</mn>
+                                      </mtd>
+                                    </mtr>
+                                  </mtable>
+                                </annotation-xml>
+                              </semantics>
+                            </math>
+                          </div>
+                          <p
+                            id="fs-idp160381408"
+                          >The cell potential remains negative (slightly) under the specified conditions, and so the reaction remains nonspontaneous.</p>
+                          <p id="fs-idp72968608">
+                            <span data-type="title">Check Your Learning</span>
+                            For the cell schematic below, identify values for
+                            <em data-effect="italics">n</em> and
+                            <em data-effect="italics">Q</em>, and calculate the cell potential,
+                            <em data-effect="italics">E</em>
+                            <sub>cell</sub>.
+                          </p>
+                          <div data-type="equation" id="fs-idp18135232">
+                            <math display="block">
+                              <semantics>
+                                <mrow>
+                                  <mrow>
+                                    <mtext>Al</mtext>
+                                    <mo stretchy="false">(</mo>
+                                    <mi>s</mi>
+                                    <mo stretchy="false">)</mo>
+                                    <mo>│</mo>
+                                    <msup>
+                                      <mrow>
+                                        <mtext>Al</mtext>
+                                      </mrow>
+                                      <mrow>
+                                        <mn>3+</mn>
+                                      </mrow>
+                                    </msup>
+                                    <mo stretchy="false">(</mo>
+                                    <mi>a</mi>
+                                    <mi>q</mi>
+                                    <mo>,</mo>
+                                    <mspace width="0.2em"/>
+                                    <mn>0.15</mn>
+                                    <mspace width="0.2em"/>
+                                    <mi>M</mi>
+                                    <mo stretchy="false">)</mo>
+                                    <mo>║</mo>
+                                    <msup>
+                                      <mrow>
+                                        <mtext>Cu</mtext>
+                                      </mrow>
+                                      <mrow>
+                                        <mn>2+</mn>
+                                      </mrow>
+                                    </msup>
+                                    <mo stretchy="false">(</mo>
+                                    <mi>a</mi>
+                                    <mi>q</mi>
+                                    <mo>,</mo>
+                                    <mspace width="0.2em"/>
+                                    <mn>0.025</mn>
+                                    <mspace width="0.2em"/>
+                                    <mi>M</mi>
+                                    <mo stretchy="false">)</mo>
+                                    <mo>│</mo>
+                                    <mtext>Cu</mtext>
+                                    <mo stretchy="false">(</mo>
+                                    <mi>s</mi>
+                                    <mo stretchy="false">)</mo>
+                                  </mrow>
+                                </mrow>
+                                <annotation-xml encoding="MathML-Content">
+                                  <mrow>
+                                    <mtext>Al</mtext>
+                                    <mo stretchy="false">(</mo>
+                                    <mi>s</mi>
+                                    <mo stretchy="false">)</mo>
+                                    <mo>│</mo>
+                                    <msup>
+                                      <mrow>
+                                        <mtext>Al</mtext>
+                                      </mrow>
+                                      <mrow>
+                                        <mn>3+</mn>
+                                      </mrow>
+                                    </msup>
+                                    <mo stretchy="false">(</mo>
+                                    <mi>a</mi>
+                                    <mi>q</mi>
+                                    <mo>,</mo>
+                                    <mspace width="0.2em"/>
+                                    <mn>0.15</mn>
+                                    <mspace width="0.2em"/>
+                                    <mi>M</mi>
+                                    <mo stretchy="false">)</mo>
+                                    <mo>║</mo>
+                                    <msup>
+                                      <mrow>
+                                        <mtext>Cu</mtext>
+                                      </mrow>
+                                      <mrow>
+                                        <mn>2+</mn>
+                                      </mrow>
+                                    </msup>
+                                    <mo stretchy="false">(</mo>
+                                    <mi>a</mi>
+                                    <mi>q</mi>
+                                    <mo>,</mo>
+                                    <mspace width="0.2em"/>
+                                    <mn>0.025</mn>
+                                    <mspace width="0.2em"/>
+                                    <mi>M</mi>
+                                    <mo stretchy="false">)</mo>
+                                    <mo>│</mo>
+                                    <mtext>Cu</mtext>
+                                    <mo stretchy="false">(</mo>
+                                    <mi>s</mi>
+                                    <mo stretchy="false">)</mo>
+                                  </mrow>
+                                </annotation-xml>
+                              </semantics>
+                            </math>
+                          </div>
+                          <div data-type="note" id="fs-idp84594464">
+                            <h3 class="os-title" data-type="title">
+                              <span
+                                class="os-title-label"
+                                data-type
+                                id="[redacted for uniqueness]"
+                              >Answer:</span>
+                            </h3>
+                            <div class="os-note-body">
+                              <p id="fs-idp34686320">
+                                <em data-effect="italics">n</em> = 6;
+                                <em data-effect="italics">Q</em> = 1440;
+                                <em data-effect="italics">E</em>
+                                <sub>cell</sub> = +1.97 V, spontaneous.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <p id="fs-idp264674608">
+                          A
+                          <span
+                            data-type="term"
+                            group-by="c"
+                            id="[redacted for uniqueness]"
+                          >concentration cell</span> is constructed by connecting two nearly identical half-cells, each based on the same half-reaction and using the same electrode, varying only in the concentration of one redox species. The potential of a concentration cell, therefore, is determined only by the difference in concentration of the chosen redox species. The example problem below illustrates the use of the Nernst equation in calculations involving concentration cells.
+                        </p>
+                        <div data-type="example" id="fs-idp211103648">
+                          <h3 class="os-title">
+                            <span class="os-title-label">Example</span>
+                            <span class="os-number">17.8</span>
+                            <span class="os-divider"></span>
+                          </h3>
+                          <p id="fs-idp40117744">
+                            <span data-type="title">Concentration Cells</span>
+                            What is the cell potential of the concentration cell described by
+                          </p>
+                          <div data-type="equation" id="fs-idp85858736">
+                            <math display="block">
+                              <semantics>
+                                <mrow>
+                                  <mrow>
+                                    <mtext>Zn</mtext>
+                                    <mo stretchy="false">(</mo>
+                                    <mi>s</mi>
+                                    <mo stretchy="false">)</mo>
+                                    <mo>│</mo>
+                                    <msup>
+                                      <mrow>
+                                        <mtext>Zn</mtext>
+                                      </mrow>
+                                      <mrow>
+                                        <mn>2+</mn>
+                                      </mrow>
+                                    </msup>
+                                    <mo stretchy="false">(</mo>
+                                    <mi>a</mi>
+                                    <mi>q</mi>
+                                    <mtext>, 0.10</mtext>
+                                    <mspace width="0.2em"/>
+                                    <mi>M</mi>
+                                    <mo stretchy="false">)</mo>
+                                    <mo>║</mo>
+                                    <msup>
+                                      <mrow>
+                                        <mtext>Zn</mtext>
+                                      </mrow>
+                                      <mrow>
+                                        <mn>2+</mn>
+                                      </mrow>
+                                    </msup>
+                                    <mo stretchy="false">(</mo>
+                                    <mi>a</mi>
+                                    <mi>q</mi>
+                                    <mtext>, 0.50</mtext>
+                                    <mspace width="0.2em"/>
+                                    <mi>M</mi>
+                                    <mo stretchy="false">)</mo>
+                                    <mo>│</mo>
+                                    <mtext>Zn</mtext>
+                                    <mo stretchy="false">(</mo>
+                                    <mi>s</mi>
+                                    <mo stretchy="false">)</mo>
+                                  </mrow>
+                                </mrow>
+                                <annotation-xml encoding="MathML-Content">
+                                  <mrow>
+                                    <mtext>Zn</mtext>
+                                    <mo stretchy="false">(</mo>
+                                    <mi>s</mi>
+                                    <mo stretchy="false">)</mo>
+                                    <mo>│</mo>
+                                    <msup>
+                                      <mrow>
+                                        <mtext>Zn</mtext>
+                                      </mrow>
+                                      <mrow>
+                                        <mn>2+</mn>
+                                      </mrow>
+                                    </msup>
+                                    <mo stretchy="false">(</mo>
+                                    <mi>a</mi>
+                                    <mi>q</mi>
+                                    <mtext>, 0.10</mtext>
+                                    <mspace width="0.2em"/>
+                                    <mi>M</mi>
+                                    <mo stretchy="false">)</mo>
+                                    <mo>║</mo>
+                                    <msup>
+                                      <mrow>
+                                        <mtext>Zn</mtext>
+                                      </mrow>
+                                      <mrow>
+                                        <mn>2+</mn>
+                                      </mrow>
+                                    </msup>
+                                    <mo stretchy="false">(</mo>
+                                    <mi>a</mi>
+                                    <mi>q</mi>
+                                    <mtext>, 0.50</mtext>
+                                    <mspace width="0.2em"/>
+                                    <mi>M</mi>
+                                    <mo stretchy="false">)</mo>
+                                    <mo>│</mo>
+                                    <mtext>Zn</mtext>
+                                    <mo stretchy="false">(</mo>
+                                    <mi>s</mi>
+                                    <mo stretchy="false">)</mo>
+                                  </mrow>
+                                </annotation-xml>
+                              </semantics>
+                            </math>
+                          </div>
+                          <p id="fs-idp142711536">
+                            <span data-type="title">Solution</span>
+                            From the information given:
+                          </p>
+                          <div data-type="equation" id="fs-idp5275888">
+                            <math display="block">
+                              <semantics>
+                                <mrow>
+                                  <mtable>
+                                    <mtr/>
+                                    <mtr>
+                                      <mtd columnalign="left">
+                                        <munder accentunder="true">
+                                          <mtable>
+                                            <mtr>
+                                              <mtd columnalign="left">
+                                                <mtext>Anode:</mtext>
+                                              </mtd>
+                                              <mtd/>
+                                              <mtd/>
+                                              <mtd columnalign="left">
+                                                <mtext>Zn</mtext>
+                                                <mo stretchy="false">(</mo>
+                                                <mi>s</mi>
+                                                <mo stretchy="false">)</mo>
+                                                <mspace width="0.2em"/>
+                                                <mo stretchy="false">⟶</mo>
+                                                <mspace width="0.2em"/>
+                                                <msup>
+                                                  <mtext>Zn</mtext>
+                                                  <mrow>
+                                                    <mn>2+</mn>
+                                                  </mrow>
+                                                </msup>
+                                                <mo stretchy="false">(</mo>
+                                                <mi>a</mi>
+                                                <mi>q</mi>
+                                                <mtext>, 0.10</mtext>
+                                                <mspace width="0.2em"/>
+                                                <mi>M</mi>
+                                                <mo stretchy="false">)</mo>
+                                                <mo>+</mo>
+                                                <msup>
+                                                  <mtext>2e</mtext>
+                                                  <mtext>−</mtext>
+                                                </msup>
+                                              </mtd>
+                                              <mtd/>
+                                              <mtd/>
+                                              <mtd columnalign="right">
+                                                <msubsup>
+                                                  <mi>E</mi>
+                                                  <mrow>
+                                                    <mtext>anode</mtext>
+                                                  </mrow>
+                                                  <mo>°</mo>
+                                                </msubsup>
+                                              </mtd>
+                                              <mtd columnalign="left">
+                                                <mo>=</mo>
+                                              </mtd>
+                                              <mtd columnalign="left">
+                                                <mtext>−0.7618 V</mtext>
+                                              </mtd>
+                                            </mtr>
+                                            <mtr>
+                                              <mtd columnalign="left">
+                                                <mtext>Cathode:</mtext>
+                                              </mtd>
+                                              <mtd/>
+                                              <mtd/>
+                                              <mtd columnalign="left">
+                                                <msup>
+                                                  <mtext>Zn</mtext>
+                                                  <mn>2+</mn>
+                                                </msup>
+                                                <mo stretchy="false">(</mo>
+                                                <mi>a</mi>
+                                                <mi>q</mi>
+                                                <mtext>, 0.50</mtext>
+                                                <mspace width="0.2em"/>
+                                                <mi>M</mi>
+                                                <mo stretchy="false">)</mo>
+                                                <mo>+</mo>
+                                                <msup>
+                                                  <mtext>2e</mtext>
+                                                  <mtext>−</mtext>
+                                                </msup>
+                                                <mspace width="0.2em"/>
+                                                <mo stretchy="false">⟶</mo>
+                                                <mspace width="0.2em"/>
+                                                <mtext>Zn</mtext>
+                                                <mo stretchy="false">(</mo>
+                                                <mi>s</mi>
+                                                <mo stretchy="false">)</mo>
+                                              </mtd>
+                                              <mtd/>
+                                              <mtd/>
+                                              <mtd columnalign="right">
+                                                <msubsup>
+                                                  <mi>E</mi>
+                                                  <mrow>
+                                                    <mtext>cathode</mtext>
+                                                  </mrow>
+                                                  <mo>°</mo>
+                                                </msubsup>
+                                              </mtd>
+                                              <mtd columnalign="left">
+                                                <mo>=</mo>
+                                              </mtd>
+                                              <mtd columnalign="left">
+                                                <mtext>−0.7618 V</mtext>
+                                              </mtd>
+                                            </mtr>
+                                          </mtable>
+                                          <mo stretchy="true">¯</mo>
+                                        </munder>
+                                      </mtd>
+                                    </mtr>
+                                    <mtr>
+                                      <mtd columnalign="left">
+                                        <mtable>
+                                          <mtr>
+                                            <mtd columnalign="left">
+                                              <mtext>Overall:</mtext>
+                                            </mtd>
+                                            <mtd/>
+                                            <mtd/>
+                                            <mtd columnalign="left">
+                                              <msup>
+                                                <mtext>Zn</mtext>
+                                                <mrow>
+                                                  <mn>2+</mn>
+                                                </mrow>
+                                              </msup>
+                                              <mo stretchy="false">(</mo>
+                                              <mi>a</mi>
+                                              <mi>q</mi>
+                                              <mtext>, 0.50</mtext>
+                                              <mspace width="0.2em"/>
+                                              <mi>M</mi>
+                                              <mo stretchy="false">)</mo>
+                                              <mspace width="0.2em"/>
+                                              <mo stretchy="false">⟶</mo>
+                                              <mspace width="0.2em"/>
+                                              <msup>
+                                                <mtext>Zn</mtext>
+                                                <mrow>
+                                                  <mn>2+</mn>
+                                                </mrow>
+                                              </msup>
+                                              <mo stretchy="false">(</mo>
+                                              <mi>a</mi>
+                                              <mi>q</mi>
+                                              <mtext>, 0.10</mtext>
+                                              <mspace width="0.2em"/>
+                                              <mi>M</mi>
+                                              <mo stretchy="false">)</mo>
+                                            </mtd>
+                                            <mtd/>
+                                            <mtd/>
+                                            <mtd columnalign="right">
+                                              <msubsup>
+                                                <mi>E</mi>
+                                                <mrow>
+                                                  <mtext>cell</mtext>
+                                                </mrow>
+                                                <mo>°</mo>
+                                              </msubsup>
+                                            </mtd>
+                                            <mtd columnalign="left">
+                                              <mo>=</mo>
+                                            </mtd>
+                                            <mtd columnalign="left">
+                                              <mtext>0.000 V</mtext>
+                                            </mtd>
+                                          </mtr>
+                                        </mtable>
+                                      </mtd>
+                                    </mtr>
+                                  </mtable>
+                                </mrow>
+                                <annotation-xml encoding="MathML-Content">
+                                  <mtable>
+                                    <mtr/>
+                                    <mtr>
+                                      <mtd columnalign="left">
+                                        <munder accentunder="true">
+                                          <mtable>
+                                            <mtr>
+                                              <mtd columnalign="left">
+                                                <mtext>Anode:</mtext>
+                                              </mtd>
+                                              <mtd/>
+                                              <mtd/>
+                                              <mtd columnalign="left">
+                                                <mtext>Zn</mtext>
+                                                <mo stretchy="false">(</mo>
+                                                <mi>s</mi>
+                                                <mo stretchy="false">)</mo>
+                                                <mspace width="0.2em"/>
+                                                <mo stretchy="false">⟶</mo>
+                                                <mspace width="0.2em"/>
+                                                <msup>
+                                                  <mtext>Zn</mtext>
+                                                  <mrow>
+                                                    <mn>2+</mn>
+                                                  </mrow>
+                                                </msup>
+                                                <mo stretchy="false">(</mo>
+                                                <mi>a</mi>
+                                                <mi>q</mi>
+                                                <mtext>, 0.10</mtext>
+                                                <mspace width="0.2em"/>
+                                                <mi>M</mi>
+                                                <mo stretchy="false">)</mo>
+                                                <mo>+</mo>
+                                                <msup>
+                                                  <mtext>2e</mtext>
+                                                  <mtext>−</mtext>
+                                                </msup>
+                                              </mtd>
+                                              <mtd/>
+                                              <mtd/>
+                                              <mtd columnalign="right">
+                                                <msubsup>
+                                                  <mi>E</mi>
+                                                  <mrow>
+                                                    <mtext>anode</mtext>
+                                                  </mrow>
+                                                  <mo>°</mo>
+                                                </msubsup>
+                                              </mtd>
+                                              <mtd columnalign="left">
+                                                <mo>=</mo>
+                                              </mtd>
+                                              <mtd columnalign="left">
+                                                <mtext>−0.7618 V</mtext>
+                                              </mtd>
+                                            </mtr>
+                                            <mtr>
+                                              <mtd columnalign="left">
+                                                <mtext>Cathode:</mtext>
+                                              </mtd>
+                                              <mtd/>
+                                              <mtd/>
+                                              <mtd columnalign="left">
+                                                <msup>
+                                                  <mtext>Zn</mtext>
+                                                  <mn>2+</mn>
+                                                </msup>
+                                                <mo stretchy="false">(</mo>
+                                                <mi>a</mi>
+                                                <mi>q</mi>
+                                                <mtext>, 0.50</mtext>
+                                                <mspace width="0.2em"/>
+                                                <mi>M</mi>
+                                                <mo stretchy="false">)</mo>
+                                                <mo>+</mo>
+                                                <msup>
+                                                  <mtext>2e</mtext>
+                                                  <mtext>−</mtext>
+                                                </msup>
+                                                <mspace width="0.2em"/>
+                                                <mo stretchy="false">⟶</mo>
+                                                <mspace width="0.2em"/>
+                                                <mtext>Zn</mtext>
+                                                <mo stretchy="false">(</mo>
+                                                <mi>s</mi>
+                                                <mo stretchy="false">)</mo>
+                                              </mtd>
+                                              <mtd/>
+                                              <mtd/>
+                                              <mtd columnalign="right">
+                                                <msubsup>
+                                                  <mi>E</mi>
+                                                  <mrow>
+                                                    <mtext>cathode</mtext>
+                                                  </mrow>
+                                                  <mo>°</mo>
+                                                </msubsup>
+                                              </mtd>
+                                              <mtd columnalign="left">
+                                                <mo>=</mo>
+                                              </mtd>
+                                              <mtd columnalign="left">
+                                                <mtext>−0.7618 V</mtext>
+                                              </mtd>
+                                            </mtr>
+                                          </mtable>
+                                          <mo stretchy="true">¯</mo>
+                                        </munder>
+                                      </mtd>
+                                    </mtr>
+                                    <mtr>
+                                      <mtd columnalign="left">
+                                        <mtable>
+                                          <mtr>
+                                            <mtd columnalign="left">
+                                              <mtext>Overall:</mtext>
+                                            </mtd>
+                                            <mtd/>
+                                            <mtd/>
+                                            <mtd columnalign="left">
+                                              <msup>
+                                                <mtext>Zn</mtext>
+                                                <mrow>
+                                                  <mn>2+</mn>
+                                                </mrow>
+                                              </msup>
+                                              <mo stretchy="false">(</mo>
+                                              <mi>a</mi>
+                                              <mi>q</mi>
+                                              <mtext>, 0.50</mtext>
+                                              <mspace width="0.2em"/>
+                                              <mi>M</mi>
+                                              <mo stretchy="false">)</mo>
+                                              <mspace width="0.2em"/>
+                                              <mo stretchy="false">⟶</mo>
+                                              <mspace width="0.2em"/>
+                                              <msup>
+                                                <mtext>Zn</mtext>
+                                                <mrow>
+                                                  <mn>2+</mn>
+                                                </mrow>
+                                              </msup>
+                                              <mo stretchy="false">(</mo>
+                                              <mi>a</mi>
+                                              <mi>q</mi>
+                                              <mtext>, 0.10</mtext>
+                                              <mspace width="0.2em"/>
+                                              <mi>M</mi>
+                                              <mo stretchy="false">)</mo>
+                                            </mtd>
+                                            <mtd/>
+                                            <mtd/>
+                                            <mtd columnalign="right">
+                                              <msubsup>
+                                                <mi>E</mi>
+                                                <mrow>
+                                                  <mtext>cell</mtext>
+                                                </mrow>
+                                                <mo>°</mo>
+                                              </msubsup>
+                                            </mtd>
+                                            <mtd columnalign="left">
+                                              <mo>=</mo>
+                                            </mtd>
+                                            <mtd columnalign="left">
+                                              <mtext>0.000 V</mtext>
+                                            </mtd>
+                                          </mtr>
+                                        </mtable>
+                                      </mtd>
+                                    </mtr>
+                                  </mtable>
+                                </annotation-xml>
+                              </semantics>
+                            </math>
+                          </div>
+                          <p
+                            id="fs-idp2148576"
+                          >Substituting into the Nernst equation,</p>
+                          <div data-type="equation" id="fs-idp235695968">
+                            <math display="block">
+                              <semantics>
+                                <mrow>
+                                  <mrow>
+                                    <msub>
+                                      <mi>E</mi>
+                                      <mrow>
+                                        <mtext>cell</mtext>
+                                      </mrow>
+                                    </msub>
+                                    <mo>=</mo>
+                                    <mtext>0.000 V</mtext>
+                                    <mo>−</mo>
+                                    <mspace width="0.2em"/>
+                                    <mfrac>
+                                      <mrow>
+                                        <mtext>0.0592 V</mtext>
+                                      </mrow>
+                                      <mn>2</mn>
+                                    </mfrac>
+                                    <mspace width="0.4em"/>
+                                    <mtext>log</mtext>
+                                    <mspace width="0.4em"/>
+                                    <mfrac>
+                                      <mrow>
+                                        <mn>0.10</mn>
+                                      </mrow>
+                                      <mrow>
+                                        <mn>0.50</mn>
+                                      </mrow>
+                                    </mfrac>
+                                    <mspace width="0.2em"/>
+                                    <mo>=</mo>
+                                    <mn>+0.021 V</mn>
+                                  </mrow>
+                                </mrow>
+                                <annotation-xml encoding="MathML-Content">
+                                  <mrow>
+                                    <msub>
+                                      <mi>E</mi>
+                                      <mrow>
+                                        <mtext>cell</mtext>
+                                      </mrow>
+                                    </msub>
+                                    <mo>=</mo>
+                                    <mtext>0.000 V</mtext>
+                                    <mo>−</mo>
+                                    <mspace width="0.2em"/>
+                                    <mfrac>
+                                      <mrow>
+                                        <mtext>0.0592 V</mtext>
+                                      </mrow>
+                                      <mn>2</mn>
+                                    </mfrac>
+                                    <mspace width="0.4em"/>
+                                    <mtext>log</mtext>
+                                    <mspace width="0.4em"/>
+                                    <mfrac>
+                                      <mrow>
+                                        <mn>0.10</mn>
+                                      </mrow>
+                                      <mrow>
+                                        <mn>0.50</mn>
+                                      </mrow>
+                                    </mfrac>
+                                    <mspace width="0.2em"/>
+                                    <mo>=</mo>
+                                    <mn>+0.021 V</mn>
+                                  </mrow>
+                                </annotation-xml>
+                              </semantics>
+                            </math>
+                          </div>
+                          <p id="fs-idp47526144">
+                            The positive value for cell potential indicates the overall cell reaction (see above) is spontaneous. This spontaneous reaction is one in which the zinc ion concentration in the cathode falls (it is reduced to elemental zinc) while that in the anode rises (it is produced by oxidation of the zinc anode). A greater driving force for zinc reduction is present in the cathode, where the zinc(II) ion concentration is greater (
+                            <em data-effect="italics">E</em>
+                            <sub>cathode</sub> &gt;
+                            <em data-effect="italics">E</em>
+                            <sub>anode</sub>).
+                          </p>
+                          <p id="fs-idm11024080">
+                            <span data-type="title">Check Your Learning</span>
+                            The concentration cell above was allowed to operate until the cell reaction reached equilibrium. What are the cell potential and the concentrations of zinc(II) in each half-cell for the cell now?
+                          </p>
+                          <div data-type="note" id="fs-idm1444240">
+                            <h3 class="os-title" data-type="title">
+                              <span
+                                class="os-title-label"
+                                data-type
+                                id="[redacted for uniqueness]"
+                              >Answer:</span>
+                            </h3>
+                            <div class="os-note-body">
+                              <p id="fs-idp18466656">
+                                <em data-effect="italics">E</em>
+                                <sub>cell</sub> = 0.000 V; [Zn
+                                <sup>2+</sup>]
+                                <sub>cathode</sub> = [Zn
+                                <sup>2+</sup>]
+                                <sub>anode</sub> = 0.30
+                                <em data-effect="italics">M</em>
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </section>
+                    </div>
+                  </div>
+                  

@@ -1,0 +1,2390 @@
+
+                    <div
+                      data-cnxml-to-html-ver="[redacted for uniqueness]"
+                      data-type="page"
+                      id="c63c9485-0971-4fce-a831-9d1b2ace526a"
+                    >
+                      <div data-type="abstract" id="[redacted for uniqueness]">
+                        By the end of this section, you will be able to:
+                        <ul>
+                          <li>Use the postulates of collision theory to explain the effects of physical state, temperature, and concentration on reaction rates</li>
+                          <li>Define the concepts of activation energy and transition state</li>
+                          <li>Use the Arrhenius equation in calculations relating rate constants to temperature</li>
+                        </ul>
+                      </div>
+
+                      <p
+                        id="fs-idm107951360"
+                      >We should not be surprised that atoms, molecules, or ions must collide before they can react with each other. Atoms must be close together to form chemical bonds. This simple premise is the basis for a very powerful theory that explains many observations regarding chemical kinetics, including factors affecting reaction rates.</p>
+
+                      <p id="fs-idm148062976">
+                        <span
+                          data-type="term"
+                          group-by="C"
+                          id="[redacted for uniqueness]"
+                        >Collision theory</span> is based on the following postulates:
+                      </p>
+
+                      <ol id="fs-idm90348816" type="1">
+                        <li>
+                          <p
+                            id="fs-idm136564352"
+                          >The rate of a reaction is proportional to the rate of reactant collisions:</p>
+                          <div data-type="equation" id="fs-idm98497056">
+                            <math display="block">
+                              <semantics>
+                                <mrow>
+                                  <mrow>
+                                    <mtext>reaction rate</mtext>
+                                    <mspace width="0.2em"/>
+                                    <mo>∝</mo>
+                                    <mspace width="0.2em"/>
+                                    <mfrac>
+                                      <mrow>
+                                        <mo>#</mo>
+                                        <mspace width="0.2em"/>
+                                        <mtext>collisions</mtext>
+                                      </mrow>
+                                      <mrow>
+                                        <mtext>time</mtext>
+                                      </mrow>
+                                    </mfrac>
+                                  </mrow>
+                                </mrow>
+                                <annotation-xml encoding="MathML-Content">
+                                  <mrow>
+                                    <mtext>reaction rate</mtext>
+                                    <mspace width="0.2em"/>
+                                    <mo>∝</mo>
+                                    <mspace width="0.2em"/>
+                                    <mfrac>
+                                      <mrow>
+                                        <mo>#</mo>
+                                        <mspace width="0.2em"/>
+                                        <mtext>collisions</mtext>
+                                      </mrow>
+                                      <mrow>
+                                        <mtext>time</mtext>
+                                      </mrow>
+                                    </mfrac>
+                                  </mrow>
+                                </annotation-xml>
+                              </semantics>
+                            </math>
+                          </div>
+                        </li>
+                        <li>
+                          <p
+                            id="fs-idm124479808"
+                          >The reacting species must collide in an orientation that allows contact between the atoms that will become bonded together in the product.</p>
+                        </li>
+                        <li>
+                          <p
+                            id="fs-idm122867808"
+                          >The collision must occur with adequate energy to permit mutual penetration of the reacting species’ valence shells so that the electrons can rearrange and form new bonds (and new chemical species).</p>
+                        </li>
+                      </ol>
+
+                      <p
+                        id="fs-idm60879872"
+                      >We can see the importance of the two physical factors noted in postulates 2 and 3, the orientation and energy of collisions, when we consider the reaction of carbon monoxide with oxygen:</p>
+
+                      <div data-type="equation" id="fs-idm160481344">
+                        <math display="block">
+                          <semantics>
+                            <mrow>
+                              <mrow>
+                                <mn>2</mn>
+                                <mspace width="0.2em"/>
+                                <mtext>CO(</mtext>
+                                <mi>g</mi>
+                                <mo stretchy="false">)</mo>
+                                <mo>+</mo>
+                                <msub>
+                                  <mtext>O</mtext>
+                                  <mtext>2</mtext>
+                                </msub>
+                                <mo stretchy="false">(</mo>
+                                <mi>g</mi>
+                                <mo stretchy="false">)</mo>
+                                <mspace width="0.2em"/>
+                                <mo stretchy="false">⟶</mo>
+                                <mspace width="0.2em"/>
+                                <mn>2</mn>
+                                <mspace width="0.2em"/>
+                                <msub>
+                                  <mrow>
+                                    <mtext>CO</mtext>
+                                  </mrow>
+                                  <mtext>2</mtext>
+                                </msub>
+                                <mo stretchy="false">(</mo>
+                                <mi>g</mi>
+                                <mo stretchy="false">)</mo>
+                              </mrow>
+                            </mrow>
+                            <annotation-xml encoding="MathML-Content">
+                              <mrow>
+                                <mn>2</mn>
+                                <mspace width="0.2em"/>
+                                <mtext>CO(</mtext>
+                                <mi>g</mi>
+                                <mo stretchy="false">)</mo>
+                                <mo>+</mo>
+                                <msub>
+                                  <mtext>O</mtext>
+                                  <mtext>2</mtext>
+                                </msub>
+                                <mo stretchy="false">(</mo>
+                                <mi>g</mi>
+                                <mo stretchy="false">)</mo>
+                                <mspace width="0.2em"/>
+                                <mo stretchy="false">⟶</mo>
+                                <mspace width="0.2em"/>
+                                <mn>2</mn>
+                                <mspace width="0.2em"/>
+                                <msub>
+                                  <mrow>
+                                    <mtext>CO</mtext>
+                                  </mrow>
+                                  <mtext>2</mtext>
+                                </msub>
+                                <mo stretchy="false">(</mo>
+                                <mi>g</mi>
+                                <mo stretchy="false">)</mo>
+                              </mrow>
+                            </annotation-xml>
+                          </semantics>
+                        </math>
+                      </div>
+
+                      <p
+                        id="fs-idp29940560"
+                      >Carbon monoxide is a pollutant produced by the combustion of hydrocarbon fuels. To reduce this pollutant, automobiles have catalytic converters that use a catalyst to carry out this reaction. It is also a side reaction of the combustion of gunpowder that results in muzzle flash for many firearms. If carbon monoxide and oxygen are present in sufficient amounts, the reaction will occur at high temperature and pressure.</p>
+
+                      <p
+                        id="fs-idm121786272"
+                      >The first step in the gas-phase reaction between carbon monoxide and oxygen is a collision between the two molecules:</p>
+
+                      <div data-type="equation" id="fs-idm53948736">
+                        <math display="block">
+                          <semantics>
+                            <mrow>
+                              <mrow>
+                                <mtext>CO(</mtext>
+                                <mi>g</mi>
+                                <mo stretchy="false">)</mo>
+                                <mo>+</mo>
+                                <msub>
+                                  <mtext>O</mtext>
+                                  <mtext>2</mtext>
+                                </msub>
+                                <mo stretchy="false">(</mo>
+                                <mi>g</mi>
+                                <mo stretchy="false">)</mo>
+                                <mspace width="0.2em"/>
+                                <mo stretchy="false">⟶</mo>
+                                <mspace width="0.2em"/>
+                                <msub>
+                                  <mrow>
+                                    <mtext>CO</mtext>
+                                  </mrow>
+                                  <mtext>2</mtext>
+                                </msub>
+                                <mo stretchy="false">(</mo>
+                                <mi>g</mi>
+                                <mo stretchy="false">)</mo>
+                                <mo>+</mo>
+                                <mtext>O(</mtext>
+                                <mi>g</mi>
+                                <mo stretchy="false">)</mo>
+                              </mrow>
+                            </mrow>
+                            <annotation-xml encoding="MathML-Content">
+                              <mrow>
+                                <mtext>CO(</mtext>
+                                <mi>g</mi>
+                                <mo stretchy="false">)</mo>
+                                <mo>+</mo>
+                                <msub>
+                                  <mtext>O</mtext>
+                                  <mtext>2</mtext>
+                                </msub>
+                                <mo stretchy="false">(</mo>
+                                <mi>g</mi>
+                                <mo stretchy="false">)</mo>
+                                <mspace width="0.2em"/>
+                                <mo stretchy="false">⟶</mo>
+                                <mspace width="0.2em"/>
+                                <msub>
+                                  <mrow>
+                                    <mtext>CO</mtext>
+                                  </mrow>
+                                  <mtext>2</mtext>
+                                </msub>
+                                <mo stretchy="false">(</mo>
+                                <mi>g</mi>
+                                <mo stretchy="false">)</mo>
+                                <mo>+</mo>
+                                <mtext>O(</mtext>
+                                <mi>g</mi>
+                                <mo stretchy="false">)</mo>
+                              </mrow>
+                            </annotation-xml>
+                          </semantics>
+                        </math>
+                      </div>
+
+                      <p id="fs-idm34761136">
+                        Although there are many different possible orientations the two molecules can have relative to each other, consider the two presented in
+                        <a
+                          class="autogenerated-content"
+                          href="#CNX_Chem_12_05_COandO2"
+                        >Figure 12.13</a>. In the first case, the oxygen side of the carbon monoxide molecule collides with the oxygen molecule. In the second case, the carbon side of the carbon monoxide molecule collides with the oxygen molecule. The second case is clearly more likely to result in the formation of carbon dioxide, which has a central carbon atom bonded to two oxygen atoms
+                        <math display="inline">
+                          <semantics>
+                            <mrow>
+                              <mrow>
+                                <mo stretchy="false">(</mo>
+                                <mtext>O</mtext>
+                                <mo>=</mo>
+                                <mtext>C</mtext>
+                                <mo>=</mo>
+                                <mtext>O</mtext>
+                                <mo stretchy="false">)</mo>
+                                <mo>.</mo>
+                              </mrow>
+                            </mrow>
+                            <annotation-xml encoding="MathML-Content">
+                              <mrow>
+                                <mo stretchy="false">(</mo>
+                                <mtext>O</mtext>
+                                <mo>=</mo>
+                                <mtext>C</mtext>
+                                <mo>=</mo>
+                                <mtext>O</mtext>
+                                <mo stretchy="false">)</mo>
+                                <mo>.</mo>
+                              </mrow>
+                            </annotation-xml>
+                          </semantics>
+                        </math> This is a rather simple example of how important the orientation of the collision is in terms of creating the desired product of the reaction.
+                      </p>
+
+                      <div class="os-figure" id="CNX_Chem_12_05_COandO2">
+                        <figure
+                          class="scaled-down"
+                          data-id="CNX_Chem_12_05_COandO2"
+                        >
+                          <span
+                            data-alt="A diagram is shown that illustrates two possible collisions between C O and O subscript 2. In the diagram, oxygen atoms are represented as red spheres and carbon atoms are represented as black spheres. The diagram is divided into upper and lower halves by a horizontal dashed line. At the top left, a C O molecule is shown striking an O subscript 2 molecule such that the O atom from the C O molecule is at the point of collision. Surrounding this collision are a mix of molecules of C O, and O subscript 2 of varying sizes. At the top middle region of the figure, two separated O atoms are shown as red spheres with the label, “Oxygen to oxygen,” beneath them. To the upper right, “No reaction” is written. Similarly in the lower left of the diagram, a C O molecule is shown striking an O subscript 2 molecule such that the C atom from the C O molecule is at the point of collision. Surrounding this collision are a mix of molecules of C O, and O subscript 2 of varying sizes. At the lower middle region of the figure, a black sphere and a red spheres are shown with the label, “Carbon to oxygen,” beneath them. To the lower right, “More C O subscript 2 formation” is written and three models of C O subscript 2 composed each of a single central black sphere and two red spheres in a linear arrangement are shown."
+                            data-type="media"
+                            id="fs-idm101946976"
+                          >
+                            <img
+                              alt="A diagram is shown that illustrates two possible collisions between C O and O subscript 2. In the diagram, oxygen atoms are represented as red spheres and carbon atoms are represented as black spheres. The diagram is divided into upper and lower halves by a horizontal dashed line. At the top left, a C O molecule is shown striking an O subscript 2 molecule such that the O atom from the C O molecule is at the point of collision. Surrounding this collision are a mix of molecules of C O, and O subscript 2 of varying sizes. At the top middle region of the figure, two separated O atoms are shown as red spheres with the label, “Oxygen to oxygen,” beneath them. To the upper right, “No reaction” is written. Similarly in the lower left of the diagram, a C O molecule is shown striking an O subscript 2 molecule such that the C atom from the C O molecule is at the point of collision. Surrounding this collision are a mix of molecules of C O, and O subscript 2 of varying sizes. At the lower middle region of the figure, a black sphere and a red spheres are shown with the label, “Carbon to oxygen,” beneath them. To the lower right, “More C O subscript 2 formation” is written and three models of C O subscript 2 composed each of a single central black sphere and two red spheres in a linear arrangement are shown."
+                              data-media-type="image/jpeg"
+                              id="[redacted for uniqueness]"
+                              src="/resources/144afbd51f5819746ec419c80245c903d296a16e"
+                            >
+                          </span>
+                        </figure>
+                        <div class="os-caption-container">
+                          <span class="os-title-label">Figure</span>
+                          <span class="os-number">12.13</span>
+                          <span class="os-divider"></span>
+                          <span class="os-divider"></span>
+                          <span
+                            class="os-caption"
+                          >Illustrated are two collisions that might take place between carbon monoxide and oxygen molecules. The orientation of the colliding molecules partially determines whether a reaction between the two molecules will occur.</span>
+                        </div>
+                      </div>
+
+                      <p id="fs-idm58992896">
+                        If the collision does take place with the correct orientation, there is still no guarantee that the reaction will proceed to form carbon dioxide. In addition to a proper orientation, the collision must also occur with sufficient energy to result in product formation. When reactant species collide with both proper orientation and adequate energy, they combine to form an unstable species called an
+                        <span
+                          data-type="term"
+                          group-by="a"
+                          id="[redacted for uniqueness]"
+                        >activated complex</span> or a
+                        <span
+                          data-type="term"
+                          group-by="t"
+                          id="[redacted for uniqueness]"
+                        >transition state</span>. These species are very short lived and usually undetectable by most analytical instruments. In some cases, sophisticated spectral measurements have been used to observe transition states.
+                      </p>
+
+                      <p
+                        id="fs-idm207258608"
+                      >Collision theory explains why most reaction rates increase as concentrations increase. With an increase in the concentration of any reacting substance, the chances for collisions between molecules are increased because there are more molecules per unit of volume. More collisions mean a faster reaction rate, assuming the energy of the collisions is adequate.</p>
+
+                      <section data-depth="1" id="fs-idm122484320">
+                        <h3
+                          data-type="title"
+                        >Activation Energy and the Arrhenius Equation</h3>
+                        <p id="fs-idm102149680">
+                          The minimum energy necessary to form a product during a collision between reactants is called the
+                          <span data-type="term" group-by="a" id="[redacted for uniqueness]">
+                            activation energy (
+                            <em data-effect="italics">E</em>
+                            <sub>a</sub>)
+                          </span>. How this energy compares to the kinetic energy provided by colliding reactant molecules is a primary factor affecting the rate of a chemical reaction. If the activation energy is much larger than the average kinetic energy of the molecules, the reaction will occur slowly since only a few fast-moving molecules will have enough energy to react. If the activation energy is much smaller than the average kinetic energy of the molecules, a large fraction of molecules will be adequately energetic and the reaction will proceed rapidly.
+                        </p>
+                        <p id="fs-idm3588352">
+                          <a
+                            class="autogenerated-content"
+                            href="#CNX_Chem_12_05_RCooDgm"
+                          >Figure 12.14</a> shows how the energy of a chemical system changes as it undergoes a reaction converting reactants to products according to the equation
+                        </p>
+                        <div data-type="equation" id="fs-idm156839952">
+                          <math display="block">
+                            <semantics>
+                              <mrow>
+                                <mrow>
+                                  <mi>A</mi>
+                                  <mo>+</mo>
+                                  <mi>B</mi>
+                                  <mspace width="0.2em"/>
+                                  <mo stretchy="false">⟶</mo>
+                                  <mspace width="0.2em"/>
+                                  <mi>C</mi>
+                                  <mo>+</mo>
+                                  <mi>D</mi>
+                                </mrow>
+                              </mrow>
+                              <annotation-xml encoding="MathML-Content">
+                                <mrow>
+                                  <mi>A</mi>
+                                  <mo>+</mo>
+                                  <mi>B</mi>
+                                  <mspace width="0.2em"/>
+                                  <mo stretchy="false">⟶</mo>
+                                  <mspace width="0.2em"/>
+                                  <mi>C</mi>
+                                  <mo>+</mo>
+                                  <mi>D</mi>
+                                </mrow>
+                              </annotation-xml>
+                            </semantics>
+                          </math>
+                        </div>
+                        <p id="fs-idm92123120">
+                          These
+                          <span
+                            data-type="term"
+                            group-by="r"
+                            id="[redacted for uniqueness]"
+                          >reaction diagrams</span> are widely used in chemical kinetics to illustrate various properties of the reaction of interest. Viewing the diagram from left to right, the system initially comprises reactants only,
+                          <em data-effect="italics">A</em> +
+                          <em data-effect="italics">B</em>. Reactant molecules with sufficient energy can collide to form a high-energy activated complex or transition state. The unstable transition state can then subsequently decay to yield stable products,
+                          <em data-effect="italics">C</em> +
+                          <em data-effect="italics">D</em>. The diagram depicts the reaction's activation energy,
+                          <em data-effect="italics">
+                            E
+                            <sub>a</sub>
+                          </em>, as the energy difference between the reactants and the transition state. Using a specific energy, the
+                          <em data-effect="italics">enthalpy</em> (see chapter on thermochemistry), the enthalpy change of the reaction, Δ
+                          <em data-effect="italics">H</em>, is estimated as the energy difference between the reactants and products. In this case, the reaction is exothermic (Δ
+                          <em data-effect="italics">H</em> &lt; 0) since it yields a decrease in system enthalpy.
+                        </p>
+                        <div class="os-figure" id="CNX_Chem_12_05_RCooDgm">
+                          <figure
+                            class="scaled-down"
+                            data-id="CNX_Chem_12_05_RCooDgm"
+                          >
+                            <span
+                              data-alt="A graph is shown with the label, “Extent of reaction,” bon the x-axis and the label, “Energy,” on the y-axis. Above the x-axis, a portion of a curve is labeled “A plus B.” From the right end of this region, the concave down curve continues upward to reach a maximum near the height of the y-axis. The peak of this curve is labeled, “Transition state.” A double sided arrow extends from a dashed red horizontal line that originates at the y-axis at a common endpoint with the curve to the peak of the curve. This arrow is labeled “E subscript a.” A second horizontal red dashed line segment is drawn from the right end of the black curve left to the vertical axis at a level significantly lower than the initial “A plus B” labeled end of the curve. The end of the curve that is shared with this segment is labeled, “C plus D.” The curve, which was initially dashed, continues as a solid curve from the maximum to its endpoint at the right side of the diagram. A second double sided arrow is shown. This arrow extends between the two dashed horizontal lines and is labeled, “capital delta H.”"
+                              data-type="media"
+                              id="fs-idp10189104"
+                            >
+                              <img
+                                alt="A graph is shown with the label, “Extent of reaction,” bon the x-axis and the label, “Energy,” on the y-axis. Above the x-axis, a portion of a curve is labeled “A plus B.” From the right end of this region, the concave down curve continues upward to reach a maximum near the height of the y-axis. The peak of this curve is labeled, “Transition state.” A double sided arrow extends from a dashed red horizontal line that originates at the y-axis at a common endpoint with the curve to the peak of the curve. This arrow is labeled “E subscript a.” A second horizontal red dashed line segment is drawn from the right end of the black curve left to the vertical axis at a level significantly lower than the initial “A plus B” labeled end of the curve. The end of the curve that is shared with this segment is labeled, “C plus D.” The curve, which was initially dashed, continues as a solid curve from the maximum to its endpoint at the right side of the diagram. A second double sided arrow is shown. This arrow extends between the two dashed horizontal lines and is labeled, “capital delta H.”"
+                                data-media-type="image/jpeg"
+                                id="[redacted for uniqueness]"
+                                src="/resources/c6711e3ad1036181079d6a0018566d990f483003"
+                              >
+                            </span>
+                          </figure>
+                          <div class="os-caption-container">
+                            <span class="os-title-label">Figure</span>
+                            <span class="os-number">12.14</span>
+                            <span class="os-divider"></span>
+                            <span class="os-divider"></span>
+                            <span class="os-caption">
+                              Reaction diagram for the exothermic reaction
+                              <math display="inline">
+                                <semantics>
+                                  <mrow>
+                                    <mrow>
+                                      <mi>A</mi>
+                                      <mo>+</mo>
+                                      <mi>B</mi>
+                                      <mspace width="0.2em"/>
+                                      <mo stretchy="false">⟶</mo>
+                                      <mspace width="0.2em"/>
+                                      <mi>C</mi>
+                                      <mo>+</mo>
+                                      <mi>D</mi>
+                                      <mo>.</mo>
+                                    </mrow>
+                                  </mrow>
+                                  <annotation-xml encoding="MathML-Content">
+                                    <mrow>
+                                      <mi>A</mi>
+                                      <mo>+</mo>
+                                      <mi>B</mi>
+                                      <mspace width="0.2em"/>
+                                      <mo stretchy="false">⟶</mo>
+                                      <mspace width="0.2em"/>
+                                      <mi>C</mi>
+                                      <mo>+</mo>
+                                      <mi>D</mi>
+                                      <mo>.</mo>
+                                    </mrow>
+                                  </annotation-xml>
+                                </semantics>
+                              </math>
+                            </span>
+                          </div>
+                        </div>
+                        <p id="fs-idm93458160">
+                          The
+                          <span
+                            data-type="term"
+                            group-by="A"
+                            id="[redacted for uniqueness]"
+                          >Arrhenius equation</span> relates the activation energy and the rate constant,
+                          <em data-effect="italics">k</em>, for many chemical reactions:
+                        </p>
+                        <div data-type="equation" id="fs-idm62676240">
+                          <math display="block">
+                            <semantics>
+                              <mrow>
+                                <mrow>
+                                  <mi>k</mi>
+                                  <mo>=</mo>
+                                  <mi>A</mi>
+                                  <msup>
+                                    <mi>e</mi>
+                                    <mrow>
+                                      <mtext>−</mtext>
+                                      <msub>
+                                        <mi>E</mi>
+                                        <mtext>a</mtext>
+                                      </msub>
+                                      <mtext>/</mtext>
+                                      <mi>R</mi>
+                                      <mi>T</mi>
+                                    </mrow>
+                                  </msup>
+                                </mrow>
+                              </mrow>
+                              <annotation-xml encoding="MathML-Content">
+                                <mrow>
+                                  <mi>k</mi>
+                                  <mo>=</mo>
+                                  <mi>A</mi>
+                                  <msup>
+                                    <mi>e</mi>
+                                    <mrow>
+                                      <mtext>−</mtext>
+                                      <msub>
+                                        <mi>E</mi>
+                                        <mtext>a</mtext>
+                                      </msub>
+                                      <mtext>/</mtext>
+                                      <mi>R</mi>
+                                      <mi>T</mi>
+                                    </mrow>
+                                  </msup>
+                                </mrow>
+                              </annotation-xml>
+                            </semantics>
+                          </math>
+                        </div>
+                        <p id="fs-idp69522176">
+                          In this equation,
+                          <em data-effect="italics">R</em> is the ideal gas constant, which has a value 8.314 J/mol/K, T is temperature on the Kelvin scale,
+                          <em data-effect="italics">E</em>
+                          <sub>a</sub> is the activation energy in joules per mole,
+                          <em data-effect="italics">e</em> is the constant 2.7183, and
+                          <em data-effect="italics">A</em> is a constant called the
+                          <span
+                            data-type="term"
+                            group-by="f"
+                            id="[redacted for uniqueness]"
+                          >frequency factor</span>, which is related to the frequency of collisions and the orientation of the reacting molecules.
+                        </p>
+                        <p id="fs-idm378964576">
+                          Postulates of collision theory are nicely accommodated by the Arrhenius equation. The frequency factor,
+                          <em data-effect="italics">A</em>, reflects how well the reaction conditions favor properly oriented collisions between reactant molecules. An increased probability of effectively oriented collisions results in larger values for
+                          <em data-effect="italics">A</em> and faster reaction rates.
+                        </p>
+                        <p id="fs-idm493145248">
+                          The exponential term,
+                          <em data-effect="italics">
+                            e
+                            <sup>−Ea/RT</sup>
+                          </em>, describes the effect of activation energy on reaction rate. According to kinetic molecular theory (see chapter on gases), the temperature of matter is a measure of the average kinetic energy of its constituent atoms or molecules. The distribution of energies among the molecules composing a sample of matter at any given temperature is described by the plot shown in
+                          <a
+                            class="autogenerated-content"
+                            href="#CNX_Chem_12_05_SuccessR"
+                          >Figure 12.15</a>(
+                          <strong>a</strong>). Two shaded areas under the curve represent the numbers of molecules possessing adequate energy (
+                          <em data-effect="italics">RT</em>) to overcome the activation barriers (
+                          <em data-effect="italics">
+                            E
+                            <sub>a</sub>
+                          </em>). A lower activation energy results in a greater fraction of adequately energized molecules and a faster reaction.
+                        </p>
+                        <p id="fs-idm494984112">
+                          The exponential term also describes the effect of temperature on reaction rate. A higher temperature represents a correspondingly greater fraction of molecules possessing sufficient energy (
+                          <em data-effect="italics">RT</em>) to overcome the activation barrier (
+                          <em data-effect="italics">
+                            E
+                            <sub>a</sub>
+                          </em>), as shown in
+                          <a
+                            class="autogenerated-content"
+                            href="#CNX_Chem_12_05_SuccessR"
+                          >Figure 12.15</a>(
+                          <strong>b</strong>). This yields a greater value for the rate constant and a correspondingly faster reaction rate.
+                        </p>
+                        <div class="os-figure" id="CNX_Chem_12_05_SuccessR">
+                          <figure
+                            class="scaled-down"
+                            data-id="CNX_Chem_12_05_SuccessR"
+                          >
+                            <span
+                              data-alt="Two graphs are shown each with an x-axis label of “Kinetic energy” and a y-axis label of “Fraction of molecules.” Each contains a positively skewed curve indicated in red that begins at the origin and approaches the x-axis at the right side of the graph. In a, a small area under the far right end of the curve is shaded orange. An arrow points down from above the curve to the left end of this region where the shading begins. This arrow is labeled, “Higher activation energy, E subscript a.” In b, the same red curve appears, and a second curve is drawn in black. It is also positively skewed, but reaches a lower maximum value and takes on a broadened appearance as compared to the curve in red. In this graph, the red curve is labeled, “T subscript 1” and the black curve is labeled, “T subscript 2.” In the open space at the upper right on the graph is the label, “T subscript 1 less than T subscript 2.” As with the first graph, the region under the curves at the far right is shaded orange and a downward arrow labeled “E subscript a” points to the left end of this shaded region."
+                              data-type="media"
+                              id="fs-idm214984320"
+                            >
+                              <img
+                                alt="Two graphs are shown each with an x-axis label of “Kinetic energy” and a y-axis label of “Fraction of molecules.” Each contains a positively skewed curve indicated in red that begins at the origin and approaches the x-axis at the right side of the graph. In a, a small area under the far right end of the curve is shaded orange. An arrow points down from above the curve to the left end of this region where the shading begins. This arrow is labeled, “Higher activation energy, E subscript a.” In b, the same red curve appears, and a second curve is drawn in black. It is also positively skewed, but reaches a lower maximum value and takes on a broadened appearance as compared to the curve in red. In this graph, the red curve is labeled, “T subscript 1” and the black curve is labeled, “T subscript 2.” In the open space at the upper right on the graph is the label, “T subscript 1 less than T subscript 2.” As with the first graph, the region under the curves at the far right is shaded orange and a downward arrow labeled “E subscript a” points to the left end of this shaded region."
+                                data-media-type="image/jpeg"
+                                id="[redacted for uniqueness]"
+                                src="/resources/2f83ee59874e6d78a5a300039ab038fe34360ab1"
+                              >
+                            </span>
+                          </figure>
+                          <div class="os-caption-container">
+                            <span class="os-title-label">Figure</span>
+                            <span class="os-number">12.15</span>
+                            <span class="os-divider"></span>
+                            <span class="os-divider"></span>
+                            <span
+                              class="os-caption"
+                            >Molecular energy distributions showing numbers of molecules with energies exceeding (a) two different activation energies at a given temperature, and (b) a given activation energy at two different temperatures.</span>
+                          </div>
+                        </div>
+                        <p id="fs-idm217118448">
+                          A convenient approach for determining
+                          <em data-effect="italics">E</em>
+                          <sub>a</sub> for a reaction involves the measurement of
+                          <em data-effect="italics">k</em> at two or more different temperatures and using an alternate version of the Arrhenius equation that takes the form of a linear equation
+                        </p>
+                        <div data-type="equation" id="fs-idm197895136">
+                          <math display="block">
+                            <semantics>
+                              <mrow>
+                                <mtable>
+                                  <mtr>
+                                    <mtd columnalign="right">
+                                      <mtext>ln</mtext>
+                                      <mspace width="0.2em"/>
+                                      <mi>k</mi>
+                                    </mtd>
+                                    <mtd>
+                                      <mo>=</mo>
+                                    </mtd>
+                                    <mtd columnalign="left">
+                                      <mrow>
+                                        <mo>(</mo>
+                                        <mrow>
+                                          <mfrac>
+                                            <mrow>
+                                              <mtext>−</mtext>
+                                              <msub>
+                                                <mi>E</mi>
+                                                <mtext>a</mtext>
+                                              </msub>
+                                            </mrow>
+                                            <mi>R</mi>
+                                          </mfrac>
+                                        </mrow>
+                                        <mo>)</mo>
+                                      </mrow>
+                                      <mrow>
+                                        <mo>(</mo>
+                                        <mrow>
+                                          <mfrac>
+                                            <mn>1</mn>
+                                            <mi>T</mi>
+                                          </mfrac>
+                                        </mrow>
+                                        <mo>)</mo>
+                                      </mrow>
+                                      <mo>+</mo>
+                                      <mtext>ln</mtext>
+                                      <mspace width="0.2em"/>
+                                      <mi>A</mi>
+                                    </mtd>
+                                  </mtr>
+                                  <mtr>
+                                    <mtd columnalign="right">
+                                      <mi>y</mi>
+                                    </mtd>
+                                    <mtd>
+                                      <mo>=</mo>
+                                    </mtd>
+                                    <mtd columnalign="left">
+                                      <mi>m</mi>
+                                      <mi>x</mi>
+                                      <mo>+</mo>
+                                      <mi>b</mi>
+                                    </mtd>
+                                  </mtr>
+                                </mtable>
+                              </mrow>
+                              <annotation-xml encoding="MathML-Content">
+                                <mtable>
+                                  <mtr>
+                                    <mtd columnalign="right">
+                                      <mtext>ln</mtext>
+                                      <mspace width="0.2em"/>
+                                      <mi>k</mi>
+                                    </mtd>
+                                    <mtd>
+                                      <mo>=</mo>
+                                    </mtd>
+                                    <mtd columnalign="left">
+                                      <mrow>
+                                        <mo>(</mo>
+                                        <mrow>
+                                          <mfrac>
+                                            <mrow>
+                                              <mtext>−</mtext>
+                                              <msub>
+                                                <mi>E</mi>
+                                                <mtext>a</mtext>
+                                              </msub>
+                                            </mrow>
+                                            <mi>R</mi>
+                                          </mfrac>
+                                        </mrow>
+                                        <mo>)</mo>
+                                      </mrow>
+                                      <mrow>
+                                        <mo>(</mo>
+                                        <mrow>
+                                          <mfrac>
+                                            <mn>1</mn>
+                                            <mi>T</mi>
+                                          </mfrac>
+                                        </mrow>
+                                        <mo>)</mo>
+                                      </mrow>
+                                      <mo>+</mo>
+                                      <mtext>ln</mtext>
+                                      <mspace width="0.2em"/>
+                                      <mi>A</mi>
+                                    </mtd>
+                                  </mtr>
+                                  <mtr>
+                                    <mtd columnalign="right">
+                                      <mi>y</mi>
+                                    </mtd>
+                                    <mtd>
+                                      <mo>=</mo>
+                                    </mtd>
+                                    <mtd columnalign="left">
+                                      <mi>m</mi>
+                                      <mi>x</mi>
+                                      <mo>+</mo>
+                                      <mi>b</mi>
+                                    </mtd>
+                                  </mtr>
+                                </mtable>
+                              </annotation-xml>
+                            </semantics>
+                          </math>
+                        </div>
+                        <p id="fs-idm161357136">
+                          A plot of ln
+                          <em data-effect="italics">k</em> versus
+                          <math display="inline">
+                            <semantics>
+                              <mrow>
+                                <mrow>
+                                  <mfrac>
+                                    <mn>1</mn>
+                                    <mi>T</mi>
+                                  </mfrac>
+                                </mrow>
+                              </mrow>
+                              <annotation-xml encoding="MathML-Content">
+                                <mrow>
+                                  <mfrac>
+                                    <mn>1</mn>
+                                    <mi>T</mi>
+                                  </mfrac>
+                                </mrow>
+                              </annotation-xml>
+                            </semantics>
+                          </math> is linear with a slope equal to
+                          <math display="inline">
+                            <semantics>
+                              <mrow>
+                                <mrow>
+                                  <mfrac>
+                                    <mrow>
+                                      <mtext>−</mtext>
+                                      <msub>
+                                        <mi>E</mi>
+                                        <mtext>a</mtext>
+                                      </msub>
+                                    </mrow>
+                                    <mi>R</mi>
+                                  </mfrac>
+                                </mrow>
+                              </mrow>
+                              <annotation-xml encoding="MathML-Content">
+                                <mrow>
+                                  <mfrac>
+                                    <mrow>
+                                      <mtext>−</mtext>
+                                      <msub>
+                                        <mi>E</mi>
+                                        <mtext>a</mtext>
+                                      </msub>
+                                    </mrow>
+                                    <mi>R</mi>
+                                  </mfrac>
+                                </mrow>
+                              </annotation-xml>
+                            </semantics>
+                          </math> and a
+                          <em data-effect="italics">y</em>-intercept equal to ln
+                          <em data-effect="italics">A</em>.
+                        </p>
+                        <div data-type="example" id="fs-idm160727824">
+                          <h3 class="os-title">
+                            <span class="os-title-label">Example</span>
+                            <span class="os-number">12.13</span>
+                            <span class="os-divider"></span>
+                          </h3>
+                          <p id="fs-idp108035392">
+                            <span data-type="title">
+                              Determination of
+                              <em data-effect="italics">E</em>
+                              <sub>a</sub>
+                            </span>
+                            The variation of the rate constant with temperature for the decomposition of HI(
+                            <em data-effect="italics">g</em>) to H
+                            <sub>2</sub>(
+                            <em data-effect="italics">g</em>) and I
+                            <sub>2</sub>(
+                            <em data-effect="italics">g</em>) is given here. What is the activation energy for the reaction?
+                          </p>
+                          <div data-type="equation" id="fs-idm205868496">
+                            <math display="block">
+                              <semantics>
+                                <mrow>
+                                  <mrow>
+                                    <mtext>2HI(</mtext>
+                                    <mi>g</mi>
+                                    <mo stretchy="false">)</mo>
+                                    <mspace width="0.2em"/>
+                                    <mo stretchy="false">⟶</mo>
+                                    <mspace width="0.2em"/>
+                                    <msub>
+                                      <mtext>H</mtext>
+                                      <mn>2</mn>
+                                    </msub>
+                                    <mo stretchy="false">(</mo>
+                                    <mi>g</mi>
+                                    <mo stretchy="false">)</mo>
+                                    <mo>+</mo>
+                                    <msub>
+                                      <mtext>I</mtext>
+                                      <mn>2</mn>
+                                    </msub>
+                                    <mo stretchy="false">(</mo>
+                                    <mi>g</mi>
+                                    <mo stretchy="false">)</mo>
+                                  </mrow>
+                                </mrow>
+                                <annotation-xml encoding="MathML-Content">
+                                  <mrow>
+                                    <mtext>2HI(</mtext>
+                                    <mi>g</mi>
+                                    <mo stretchy="false">)</mo>
+                                    <mspace width="0.2em"/>
+                                    <mo stretchy="false">⟶</mo>
+                                    <mspace width="0.2em"/>
+                                    <msub>
+                                      <mtext>H</mtext>
+                                      <mn>2</mn>
+                                    </msub>
+                                    <mo stretchy="false">(</mo>
+                                    <mi>g</mi>
+                                    <mo stretchy="false">)</mo>
+                                    <mo>+</mo>
+                                    <msub>
+                                      <mtext>I</mtext>
+                                      <mn>2</mn>
+                                    </msub>
+                                    <mo stretchy="false">(</mo>
+                                    <mi>g</mi>
+                                    <mo stretchy="false">)</mo>
+                                  </mrow>
+                                </annotation-xml>
+                              </semantics>
+                            </math>
+                          </div>
+                          <div class="os-table" id="fs-idm125968016">
+                            <table
+                              class="medium unnumbered"
+                              data-id="fs-idm125968016"
+                              data-label
+                              summary="Table 12.2  "
+                            >
+                              <thead>
+                                <tr valign="middle">
+                                  <th data-align="left">
+                                    <em data-effect="italics">T</em> (K)
+                                  </th>
+                                  <th data-align="left">
+                                    <em data-effect="italics">k</em> (L/mol/s)
+                                  </th>
+                                </tr>
+                              </thead>
+                              <tbody>
+                                <tr valign="middle">
+                                  <td data-align="left">555</td>
+                                  <td data-align="left">
+                                    3.52
+                                    <math display="inline">
+                                      <semantics>
+                                        <mrow>
+                                          <mo>×</mo>
+                                        </mrow>
+                                        <annotation-xml
+                                          encoding="MathML-Content"
+                                        >
+                                          <mo>×</mo>
+                                        </annotation-xml>
+                                      </semantics>
+                                    </math> 10
+                                    <sup>−7</sup>
+                                  </td>
+                                </tr>
+                                <tr valign="middle">
+                                  <td data-align="left">575</td>
+                                  <td data-align="left">
+                                    1.22
+                                    <math display="inline">
+                                      <semantics>
+                                        <mrow>
+                                          <mo>×</mo>
+                                        </mrow>
+                                        <annotation-xml
+                                          encoding="MathML-Content"
+                                        >
+                                          <mo>×</mo>
+                                        </annotation-xml>
+                                      </semantics>
+                                    </math> 10
+                                    <sup>−6</sup>
+                                  </td>
+                                </tr>
+                                <tr valign="middle">
+                                  <td data-align="left">645</td>
+                                  <td data-align="left">
+                                    8.59
+                                    <math display="inline">
+                                      <semantics>
+                                        <mrow>
+                                          <mo>×</mo>
+                                        </mrow>
+                                        <annotation-xml
+                                          encoding="MathML-Content"
+                                        >
+                                          <mo>×</mo>
+                                        </annotation-xml>
+                                      </semantics>
+                                    </math> 10
+                                    <sup>−5</sup>
+                                  </td>
+                                </tr>
+                                <tr valign="middle">
+                                  <td data-align="left">700</td>
+                                  <td data-align="left">
+                                    1.16
+                                    <math display="inline">
+                                      <semantics>
+                                        <mrow>
+                                          <mo>×</mo>
+                                        </mrow>
+                                        <annotation-xml
+                                          encoding="MathML-Content"
+                                        >
+                                          <mo>×</mo>
+                                        </annotation-xml>
+                                      </semantics>
+                                    </math> 10
+                                    <sup>−3</sup>
+                                  </td>
+                                </tr>
+                                <tr valign="middle">
+                                  <td data-align="left">781</td>
+                                  <td data-align="left">
+                                    3.95
+                                    <math display="inline">
+                                      <semantics>
+                                        <mrow>
+                                          <mo>×</mo>
+                                        </mrow>
+                                        <annotation-xml
+                                          encoding="MathML-Content"
+                                        >
+                                          <mo>×</mo>
+                                        </annotation-xml>
+                                      </semantics>
+                                    </math> 10
+                                    <sup>−2</sup>
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </div>
+                          <p id="fs-idm178775392">
+                            <span data-type="title">Solution</span>
+                            Use the provided data to derive values of
+                            <math display="inline">
+                              <semantics>
+                                <mrow>
+                                  <mrow>
+                                    <mfrac>
+                                      <mn>1</mn>
+                                      <mi>T</mi>
+                                    </mfrac>
+                                  </mrow>
+                                </mrow>
+                                <annotation-xml encoding="MathML-Content">
+                                  <mrow>
+                                    <mfrac>
+                                      <mn>1</mn>
+                                      <mi>T</mi>
+                                    </mfrac>
+                                  </mrow>
+                                </annotation-xml>
+                              </semantics>
+                            </math> and ln
+                            <em data-effect="italics">k</em>:
+                          </p>
+                          <div class="os-table" id="fs-idp10812288">
+                            <table
+                              class="medium unnumbered"
+                              data-id="fs-idp10812288"
+                              data-label
+                              summary="Table 12.2  "
+                            >
+                              <thead>
+                                <tr valign="middle">
+                                  <th data-align="left">
+                                    <math display="inline">
+                                      <semantics>
+                                        <mrow>
+                                          <mrow>
+                                            <mfrac>
+                                              <mn>1</mn>
+                                              <mtext>T</mtext>
+                                            </mfrac>
+                                            <mspace width="0.4em"/>
+                                            <mo stretchy="false">(</mo>
+                                            <msup>
+                                              <mtext>K</mtext>
+                                              <mrow>
+                                                <mn>−1</mn>
+                                              </mrow>
+                                            </msup>
+                                            <mo stretchy="false">)</mo>
+                                          </mrow>
+                                        </mrow>
+                                        <annotation-xml
+                                          encoding="MathML-Content"
+                                        >
+                                          <mrow>
+                                            <mfrac>
+                                              <mn>1</mn>
+                                              <mtext>T</mtext>
+                                            </mfrac>
+                                            <mspace width="0.4em"/>
+                                            <mo stretchy="false">(</mo>
+                                            <msup>
+                                              <mtext>K</mtext>
+                                              <mrow>
+                                                <mn>−1</mn>
+                                              </mrow>
+                                            </msup>
+                                            <mo stretchy="false">)</mo>
+                                          </mrow>
+                                        </annotation-xml>
+                                      </semantics>
+                                    </math>
+                                  </th>
+                                  <th data-align="left">
+                                    ln
+                                    <em data-effect="italics">k</em>
+                                  </th>
+                                </tr>
+                              </thead>
+                              <tbody>
+                                <tr valign="middle">
+                                  <td data-align="left">
+                                    1.80
+                                    <math display="inline">
+                                      <semantics>
+                                        <mrow>
+                                          <mo>×</mo>
+                                        </mrow>
+                                        <annotation-xml
+                                          encoding="MathML-Content"
+                                        >
+                                          <mo>×</mo>
+                                        </annotation-xml>
+                                      </semantics>
+                                    </math> 10
+                                    <sup>−3</sup>
+                                  </td>
+                                  <td data-align="left">−14.860</td>
+                                </tr>
+                                <tr valign="middle">
+                                  <td data-align="left">
+                                    1.74
+                                    <math display="inline">
+                                      <semantics>
+                                        <mrow>
+                                          <mo>×</mo>
+                                        </mrow>
+                                        <annotation-xml
+                                          encoding="MathML-Content"
+                                        >
+                                          <mo>×</mo>
+                                        </annotation-xml>
+                                      </semantics>
+                                    </math> 10
+                                    <sup>−3</sup>
+                                  </td>
+                                  <td data-align="left">−13.617</td>
+                                </tr>
+                                <tr valign="middle">
+                                  <td data-align="left">
+                                    1.55
+                                    <math display="inline">
+                                      <semantics>
+                                        <mrow>
+                                          <mo>×</mo>
+                                        </mrow>
+                                        <annotation-xml
+                                          encoding="MathML-Content"
+                                        >
+                                          <mo>×</mo>
+                                        </annotation-xml>
+                                      </semantics>
+                                    </math> 10
+                                    <sup>−3</sup>
+                                  </td>
+                                  <td data-align="left">−9.362</td>
+                                </tr>
+                                <tr valign="middle">
+                                  <td data-align="left">
+                                    1.43
+                                    <math display="inline">
+                                      <semantics>
+                                        <mrow>
+                                          <mo>×</mo>
+                                        </mrow>
+                                        <annotation-xml
+                                          encoding="MathML-Content"
+                                        >
+                                          <mo>×</mo>
+                                        </annotation-xml>
+                                      </semantics>
+                                    </math> 10
+                                    <sup>−3</sup>
+                                  </td>
+                                  <td data-align="left">−6.759</td>
+                                </tr>
+                                <tr valign="middle">
+                                  <td data-align="left">
+                                    1.28
+                                    <math display="inline">
+                                      <semantics>
+                                        <mrow>
+                                          <mo>×</mo>
+                                        </mrow>
+                                        <annotation-xml
+                                          encoding="MathML-Content"
+                                        >
+                                          <mo>×</mo>
+                                        </annotation-xml>
+                                      </semantics>
+                                    </math> 10
+                                    <sup>−3</sup>
+                                  </td>
+                                  <td data-align="left">−3.231</td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </div>
+                          <p id="fs-idm197951232">
+                            <a
+                              class="autogenerated-content"
+                              href="#CNX_Chem_12_05_ArrhPlot"
+                            >Figure 12.16</a> is a graph of ln
+                            <em data-effect="italics">k</em> versus
+                            <math display="inline">
+                              <semantics>
+                                <mrow>
+                                  <mrow>
+                                    <mfrac>
+                                      <mn>1</mn>
+                                      <mi>T</mi>
+                                    </mfrac>
+                                    <mo>.</mo>
+                                  </mrow>
+                                </mrow>
+                                <annotation-xml encoding="MathML-Content">
+                                  <mrow>
+                                    <mfrac>
+                                      <mn>1</mn>
+                                      <mi>T</mi>
+                                    </mfrac>
+                                    <mo>.</mo>
+                                  </mrow>
+                                </annotation-xml>
+                              </semantics>
+                            </math> In practice, the equation of the line (slope and
+                            <em data-effect="italics">y</em>-intercept) that best fits these plotted data points would be derived using a statistical process called regression. This is helpful for most experimental data because a perfect fit of each data point with the line is rarely encountered. For the data here, the fit is nearly perfect and the slope may be estimated using any two of the provided data pairs. Using the first and last data points permits estimation of the slope.
+                          </p>
+                          <div class="os-figure" id="CNX_Chem_12_05_ArrhPlot">
+                            <figure
+                              class="scaled-down"
+                              data-id="CNX_Chem_12_05_ArrhPlot"
+                            >
+                              <span
+                                data-alt="A graph is shown with the label “1 divided by T ( K superscript negative 1 )” on the x-axis and “l n k” on the y-axis. The horizontal axis has markings at 1.4 times 10 superscript negative 3, 1.6 times 10 superscript negative 3, and 1.8 times 10 superscript negative 3. The y-axis shows markings at intervals of 2 from negative 14 through negative 2. A decreasing linear trend line is drawn through five points at the coordinates: (1.28 times 10 superscript negative 3, negative 3.231), (1.43 times 10 superscript negative 3, negative 6.759), (1.55 times 10 superscript negative 3, negative 9.362), (1.74 times 10 superscript negative 3, negative 13.617), and (1.80 times 10 superscript negative 3, negative 14.860). A vertical dashed line is drawn from a point just left of the data point nearest the y-axis. Similarly, a horizontal dashed line is draw from a point just above the data point closest to the x-axis. These dashed lines intersect to form a right triangle with a vertical leg label of “capital delta l n k” and a horizontal leg label of “capital delta 1 divided by T.”"
+                                data-type="media"
+                                id="fs-idp9885216"
+                              >
+                                <img
+                                  alt="A graph is shown with the label “1 divided by T ( K superscript negative 1 )” on the x-axis and “l n k” on the y-axis. The horizontal axis has markings at 1.4 times 10 superscript negative 3, 1.6 times 10 superscript negative 3, and 1.8 times 10 superscript negative 3. The y-axis shows markings at intervals of 2 from negative 14 through negative 2. A decreasing linear trend line is drawn through five points at the coordinates: (1.28 times 10 superscript negative 3, negative 3.231), (1.43 times 10 superscript negative 3, negative 6.759), (1.55 times 10 superscript negative 3, negative 9.362), (1.74 times 10 superscript negative 3, negative 13.617), and (1.80 times 10 superscript negative 3, negative 14.860). A vertical dashed line is drawn from a point just left of the data point nearest the y-axis. Similarly, a horizontal dashed line is draw from a point just above the data point closest to the x-axis. These dashed lines intersect to form a right triangle with a vertical leg label of “capital delta l n k” and a horizontal leg label of “capital delta 1 divided by T.”"
+                                  data-media-type="image/jpeg"
+                                  id="[redacted for uniqueness]"
+                                  src="/resources/b72c7a27f12f268aa493f6df2b65873ae39feecd"
+                                >
+                              </span>
+                            </figure>
+                            <div class="os-caption-container">
+                              <span class="os-title-label">Figure</span>
+                              <span class="os-number">12.16</span>
+                              <span class="os-divider"></span>
+                              <span class="os-divider"></span>
+                              <span class="os-caption">
+                                This graph shows the linear relationship between ln
+                                <em data-effect="italics">k</em> and
+                                <math display="inline">
+                                  <semantics>
+                                    <mrow>
+                                      <mrow>
+                                        <mfrac>
+                                          <mn>1</mn>
+                                          <mi>T</mi>
+                                        </mfrac>
+                                      </mrow>
+                                    </mrow>
+                                    <annotation-xml encoding="MathML-Content">
+                                      <mrow>
+                                        <mfrac>
+                                          <mn>1</mn>
+                                          <mi>T</mi>
+                                        </mfrac>
+                                      </mrow>
+                                    </annotation-xml>
+                                  </semantics>
+                                </math> for the reaction
+                                <math display="inline">
+                                  <semantics>
+                                    <mrow>
+                                      <mrow>
+                                        <mtext>2HI</mtext>
+                                        <mspace width="0.2em"/>
+                                        <mo stretchy="false">⟶</mo>
+                                        <mspace width="0.2em"/>
+                                        <msub>
+                                          <mtext>H</mtext>
+                                          <mn>2</mn>
+                                        </msub>
+                                        <mo>+</mo>
+                                        <msub>
+                                          <mtext>I</mtext>
+                                          <mn>2</mn>
+                                        </msub>
+                                      </mrow>
+                                    </mrow>
+                                    <annotation-xml encoding="MathML-Content">
+                                      <mrow>
+                                        <mtext>2HI</mtext>
+                                        <mspace width="0.2em"/>
+                                        <mo stretchy="false">⟶</mo>
+                                        <mspace width="0.2em"/>
+                                        <msub>
+                                          <mtext>H</mtext>
+                                          <mn>2</mn>
+                                        </msub>
+                                        <mo>+</mo>
+                                        <msub>
+                                          <mtext>I</mtext>
+                                          <mn>2</mn>
+                                        </msub>
+                                      </mrow>
+                                    </annotation-xml>
+                                  </semantics>
+                                </math> according to the Arrhenius equation.
+                              </span>
+                            </div>
+                          </div>
+                          <div data-type="equation" id="fs-idm185373632">
+                            <math display="block">
+                              <semantics>
+                                <mrow>
+                                  <mtable>
+                                    <mtr>
+                                      <mtd columnalign="right">
+                                        <mtext>Slope</mtext>
+                                      </mtd>
+                                      <mtd columnalign="left">
+                                        <mo>=</mo>
+                                      </mtd>
+                                      <mtd columnalign="left">
+                                        <mfrac>
+                                          <mrow>
+                                            <mtext>Δ</mtext>
+                                            <mo stretchy="false">(</mo>
+                                            <mtext>ln</mtext>
+                                            <mspace width="0.2em"/>
+                                            <mi>k</mi>
+                                            <mo stretchy="false">)</mo>
+                                          </mrow>
+                                          <mrow>
+                                            <mtext>Δ</mtext>
+                                            <mrow>
+                                              <mo>(</mo>
+                                              <mrow>
+                                                <mfrac>
+                                                  <mn>1</mn>
+                                                  <mi>T</mi>
+                                                </mfrac>
+                                              </mrow>
+                                              <mo>)</mo>
+                                            </mrow>
+                                          </mrow>
+                                        </mfrac>
+                                      </mtd>
+                                    </mtr>
+                                    <mtr>
+                                      <mtd/>
+                                      <mtd columnalign="left">
+                                        <mo>=</mo>
+                                      </mtd>
+                                      <mtd columnalign="left">
+                                        <mfrac>
+                                          <mrow>
+                                            <mrow>
+                                              <mo>(</mo>
+                                              <mrow>
+                                                <mn>−14.860</mn>
+                                              </mrow>
+                                              <mo>)</mo>
+                                            </mrow>
+                                            <mspace width="0.2em"/>
+                                            <mo>−</mo>
+                                            <mspace width="0.2em"/>
+                                            <mo stretchy="false">(</mo>
+                                            <mn>−3.231</mn>
+                                            <mo stretchy="false">)</mo>
+                                          </mrow>
+                                          <mrow>
+                                            <mrow>
+                                              <mo>(</mo>
+                                              <mrow>
+                                                <mn>1.80</mn>
+                                                <mspace width="0.2em"/>
+                                                <mo>×</mo>
+                                                <mspace width="0.2em"/>
+                                                <msup>
+                                                  <mrow>
+                                                    <mn>10</mn>
+                                                  </mrow>
+                                                  <mrow>
+                                                    <mn>−3</mn>
+                                                  </mrow>
+                                                </msup>
+                                                <mspace width="0.2em"/>
+                                                <msup>
+                                                  <mtext>K</mtext>
+                                                  <mrow>
+                                                    <mn>−1</mn>
+                                                  </mrow>
+                                                </msup>
+                                              </mrow>
+                                              <mo>)</mo>
+                                            </mrow>
+                                            <mspace width="0.2em"/>
+                                            <mo>−</mo>
+                                            <mspace width="0.2em"/>
+                                            <mrow>
+                                              <mo>(</mo>
+                                              <mrow>
+                                                <mn>1.28</mn>
+                                                <mspace width="0.2em"/>
+                                                <mo>×</mo>
+                                                <mspace width="0.2em"/>
+                                                <msup>
+                                                  <mrow>
+                                                    <mn>10</mn>
+                                                  </mrow>
+                                                  <mrow>
+                                                    <mn>−3</mn>
+                                                  </mrow>
+                                                </msup>
+                                                <mspace width="0.2em"/>
+                                                <msup>
+                                                  <mtext>K</mtext>
+                                                  <mrow>
+                                                    <mn>−1</mn>
+                                                  </mrow>
+                                                </msup>
+                                              </mrow>
+                                              <mo>)</mo>
+                                            </mrow>
+                                          </mrow>
+                                        </mfrac>
+                                      </mtd>
+                                    </mtr>
+                                    <mtr>
+                                      <mtd/>
+                                      <mtd columnalign="left">
+                                        <mo>=</mo>
+                                      </mtd>
+                                      <mtd columnalign="left">
+                                        <mfrac>
+                                          <mrow>
+                                            <mn>−11.629</mn>
+                                          </mrow>
+                                          <mrow>
+                                            <mn>0.52</mn>
+                                            <mspace width="0.2em"/>
+                                            <mo>×</mo>
+                                            <mspace width="0.2em"/>
+                                            <msup>
+                                              <mrow>
+                                                <mn>10</mn>
+                                              </mrow>
+                                              <mrow>
+                                                <mn>−3</mn>
+                                              </mrow>
+                                            </msup>
+                                            <mspace width="0.2em"/>
+                                            <msup>
+                                              <mtext>K</mtext>
+                                              <mrow>
+                                                <mn>−1</mn>
+                                              </mrow>
+                                            </msup>
+                                          </mrow>
+                                        </mfrac>
+                                        <mspace width="0.1em"/>
+                                        <mo>=</mo>
+                                        <mn>2.2</mn>
+                                        <mspace width="0.2em"/>
+                                        <mo>×</mo>
+                                        <mspace width="0.2em"/>
+                                        <msup>
+                                          <mn>10</mn>
+                                          <mn>4</mn>
+                                        </msup>
+                                        <mspace width="0.2em"/>
+                                        <mtext>K</mtext>
+                                      </mtd>
+                                    </mtr>
+                                    <mtr>
+                                      <mtd/>
+                                      <mtd columnalign="left">
+                                        <mo>=</mo>
+                                      </mtd>
+                                      <mtd columnalign="left">
+                                        <mo>−</mo>
+                                        <mfrac>
+                                          <mrow>
+                                            <msub>
+                                              <mi>E</mi>
+                                              <mtext>a</mtext>
+                                            </msub>
+                                          </mrow>
+                                          <mi>R</mi>
+                                        </mfrac>
+                                      </mtd>
+                                    </mtr>
+                                    <mtr>
+                                      <mtd columnalign="right">
+                                        <msub>
+                                          <mi>E</mi>
+                                          <mtext>a</mtext>
+                                        </msub>
+                                      </mtd>
+                                      <mtd columnalign="left">
+                                        <mo>=</mo>
+                                      </mtd>
+                                      <mtd columnalign="left">
+                                        <mtext>−slope</mtext>
+                                        <mspace width="0.2em"/>
+                                        <mo>×</mo>
+                                        <mspace width="0.2em"/>
+                                        <mi>R</mi>
+                                        <mo>=</mo>
+                                        <mo>−</mo>
+                                        <mo stretchy="false">(</mo>
+                                        <mn>−2.2</mn>
+                                        <mspace width="0.2em"/>
+                                        <mo>×</mo>
+                                        <mspace width="0.2em"/>
+                                        <msup>
+                                          <mn>10</mn>
+                                          <mn>4</mn>
+                                        </msup>
+                                        <mspace width="0.2em"/>
+                                        <mtext>K</mtext>
+                                        <mspace width="0.2em"/>
+                                        <mo>×</mo>
+                                        <mspace width="0.2em"/>
+                                        <msup>
+                                          <mtext>8.314 J mol</mtext>
+                                          <mrow>
+                                            <mn>−1</mn>
+                                          </mrow>
+                                        </msup>
+                                        <mspace width="0.2em"/>
+                                        <msup>
+                                          <mtext>K</mtext>
+                                          <mrow>
+                                            <mn>−1</mn>
+                                          </mrow>
+                                        </msup>
+                                        <mo stretchy="false">)</mo>
+                                      </mtd>
+                                    </mtr>
+                                    <mtr>
+                                      <mtd/>
+                                      <mtd/>
+                                      <mtd columnalign="left">
+                                        <mn>1.8</mn>
+                                        <mspace width="0.2em"/>
+                                        <mo>×</mo>
+                                        <mspace width="0.2em"/>
+                                        <msup>
+                                          <mn>10</mn>
+                                          <mn>5</mn>
+                                        </msup>
+                                        <mspace width="0.2em"/>
+                                        <mtext>J</mtext>
+                                        <mspace width="0.2em"/>
+                                        <msup>
+                                          <mtext>mol</mtext>
+                                          <mn>−1</mn>
+                                        </msup>
+                                        <mspace width="0.2em"/>
+                                        <mtext>or</mtext>
+                                        <mspace width="0.2em"/>
+                                        <mn>180</mn>
+                                        <mspace width="0.2em"/>
+                                        <mtext>kJ</mtext>
+                                        <mspace width="0.2em"/>
+                                        <msup>
+                                          <mtext>mol</mtext>
+                                          <mn>−1</mn>
+                                        </msup>
+                                      </mtd>
+                                    </mtr>
+                                  </mtable>
+                                </mrow>
+                                <annotation-xml encoding="MathML-Content">
+                                  <mtable>
+                                    <mtr>
+                                      <mtd columnalign="right">
+                                        <mtext>Slope</mtext>
+                                      </mtd>
+                                      <mtd columnalign="left">
+                                        <mo>=</mo>
+                                      </mtd>
+                                      <mtd columnalign="left">
+                                        <mfrac>
+                                          <mrow>
+                                            <mtext>Δ</mtext>
+                                            <mo stretchy="false">(</mo>
+                                            <mtext>ln</mtext>
+                                            <mspace width="0.2em"/>
+                                            <mi>k</mi>
+                                            <mo stretchy="false">)</mo>
+                                          </mrow>
+                                          <mrow>
+                                            <mtext>Δ</mtext>
+                                            <mrow>
+                                              <mo>(</mo>
+                                              <mrow>
+                                                <mfrac>
+                                                  <mn>1</mn>
+                                                  <mi>T</mi>
+                                                </mfrac>
+                                              </mrow>
+                                              <mo>)</mo>
+                                            </mrow>
+                                          </mrow>
+                                        </mfrac>
+                                      </mtd>
+                                    </mtr>
+                                    <mtr>
+                                      <mtd/>
+                                      <mtd columnalign="left">
+                                        <mo>=</mo>
+                                      </mtd>
+                                      <mtd columnalign="left">
+                                        <mfrac>
+                                          <mrow>
+                                            <mrow>
+                                              <mo>(</mo>
+                                              <mrow>
+                                                <mn>−14.860</mn>
+                                              </mrow>
+                                              <mo>)</mo>
+                                            </mrow>
+                                            <mspace width="0.2em"/>
+                                            <mo>−</mo>
+                                            <mspace width="0.2em"/>
+                                            <mo stretchy="false">(</mo>
+                                            <mn>−3.231</mn>
+                                            <mo stretchy="false">)</mo>
+                                          </mrow>
+                                          <mrow>
+                                            <mrow>
+                                              <mo>(</mo>
+                                              <mrow>
+                                                <mn>1.80</mn>
+                                                <mspace width="0.2em"/>
+                                                <mo>×</mo>
+                                                <mspace width="0.2em"/>
+                                                <msup>
+                                                  <mrow>
+                                                    <mn>10</mn>
+                                                  </mrow>
+                                                  <mrow>
+                                                    <mn>−3</mn>
+                                                  </mrow>
+                                                </msup>
+                                                <mspace width="0.2em"/>
+                                                <msup>
+                                                  <mtext>K</mtext>
+                                                  <mrow>
+                                                    <mn>−1</mn>
+                                                  </mrow>
+                                                </msup>
+                                              </mrow>
+                                              <mo>)</mo>
+                                            </mrow>
+                                            <mspace width="0.2em"/>
+                                            <mo>−</mo>
+                                            <mspace width="0.2em"/>
+                                            <mrow>
+                                              <mo>(</mo>
+                                              <mrow>
+                                                <mn>1.28</mn>
+                                                <mspace width="0.2em"/>
+                                                <mo>×</mo>
+                                                <mspace width="0.2em"/>
+                                                <msup>
+                                                  <mrow>
+                                                    <mn>10</mn>
+                                                  </mrow>
+                                                  <mrow>
+                                                    <mn>−3</mn>
+                                                  </mrow>
+                                                </msup>
+                                                <mspace width="0.2em"/>
+                                                <msup>
+                                                  <mtext>K</mtext>
+                                                  <mrow>
+                                                    <mn>−1</mn>
+                                                  </mrow>
+                                                </msup>
+                                              </mrow>
+                                              <mo>)</mo>
+                                            </mrow>
+                                          </mrow>
+                                        </mfrac>
+                                      </mtd>
+                                    </mtr>
+                                    <mtr>
+                                      <mtd/>
+                                      <mtd columnalign="left">
+                                        <mo>=</mo>
+                                      </mtd>
+                                      <mtd columnalign="left">
+                                        <mfrac>
+                                          <mrow>
+                                            <mn>−11.629</mn>
+                                          </mrow>
+                                          <mrow>
+                                            <mn>0.52</mn>
+                                            <mspace width="0.2em"/>
+                                            <mo>×</mo>
+                                            <mspace width="0.2em"/>
+                                            <msup>
+                                              <mrow>
+                                                <mn>10</mn>
+                                              </mrow>
+                                              <mrow>
+                                                <mn>−3</mn>
+                                              </mrow>
+                                            </msup>
+                                            <mspace width="0.2em"/>
+                                            <msup>
+                                              <mtext>K</mtext>
+                                              <mrow>
+                                                <mn>−1</mn>
+                                              </mrow>
+                                            </msup>
+                                          </mrow>
+                                        </mfrac>
+                                        <mspace width="0.1em"/>
+                                        <mo>=</mo>
+                                        <mn>2.2</mn>
+                                        <mspace width="0.2em"/>
+                                        <mo>×</mo>
+                                        <mspace width="0.2em"/>
+                                        <msup>
+                                          <mn>10</mn>
+                                          <mn>4</mn>
+                                        </msup>
+                                        <mspace width="0.2em"/>
+                                        <mtext>K</mtext>
+                                      </mtd>
+                                    </mtr>
+                                    <mtr>
+                                      <mtd/>
+                                      <mtd columnalign="left">
+                                        <mo>=</mo>
+                                      </mtd>
+                                      <mtd columnalign="left">
+                                        <mo>−</mo>
+                                        <mfrac>
+                                          <mrow>
+                                            <msub>
+                                              <mi>E</mi>
+                                              <mtext>a</mtext>
+                                            </msub>
+                                          </mrow>
+                                          <mi>R</mi>
+                                        </mfrac>
+                                      </mtd>
+                                    </mtr>
+                                    <mtr>
+                                      <mtd columnalign="right">
+                                        <msub>
+                                          <mi>E</mi>
+                                          <mtext>a</mtext>
+                                        </msub>
+                                      </mtd>
+                                      <mtd columnalign="left">
+                                        <mo>=</mo>
+                                      </mtd>
+                                      <mtd columnalign="left">
+                                        <mtext>−slope</mtext>
+                                        <mspace width="0.2em"/>
+                                        <mo>×</mo>
+                                        <mspace width="0.2em"/>
+                                        <mi>R</mi>
+                                        <mo>=</mo>
+                                        <mo>−</mo>
+                                        <mo stretchy="false">(</mo>
+                                        <mn>−2.2</mn>
+                                        <mspace width="0.2em"/>
+                                        <mo>×</mo>
+                                        <mspace width="0.2em"/>
+                                        <msup>
+                                          <mn>10</mn>
+                                          <mn>4</mn>
+                                        </msup>
+                                        <mspace width="0.2em"/>
+                                        <mtext>K</mtext>
+                                        <mspace width="0.2em"/>
+                                        <mo>×</mo>
+                                        <mspace width="0.2em"/>
+                                        <msup>
+                                          <mtext>8.314 J mol</mtext>
+                                          <mrow>
+                                            <mn>−1</mn>
+                                          </mrow>
+                                        </msup>
+                                        <mspace width="0.2em"/>
+                                        <msup>
+                                          <mtext>K</mtext>
+                                          <mrow>
+                                            <mn>−1</mn>
+                                          </mrow>
+                                        </msup>
+                                        <mo stretchy="false">)</mo>
+                                      </mtd>
+                                    </mtr>
+                                    <mtr>
+                                      <mtd/>
+                                      <mtd/>
+                                      <mtd columnalign="left">
+                                        <mn>1.8</mn>
+                                        <mspace width="0.2em"/>
+                                        <mo>×</mo>
+                                        <mspace width="0.2em"/>
+                                        <msup>
+                                          <mn>10</mn>
+                                          <mn>5</mn>
+                                        </msup>
+                                        <mspace width="0.2em"/>
+                                        <mtext>J</mtext>
+                                        <mspace width="0.2em"/>
+                                        <msup>
+                                          <mtext>mol</mtext>
+                                          <mn>−1</mn>
+                                        </msup>
+                                        <mspace width="0.2em"/>
+                                        <mtext>or</mtext>
+                                        <mspace width="0.2em"/>
+                                        <mn>180</mn>
+                                        <mspace width="0.2em"/>
+                                        <mtext>kJ</mtext>
+                                        <mspace width="0.2em"/>
+                                        <msup>
+                                          <mtext>mol</mtext>
+                                          <mn>−1</mn>
+                                        </msup>
+                                      </mtd>
+                                    </mtr>
+                                  </mtable>
+                                </annotation-xml>
+                              </semantics>
+                            </math>
+                          </div>
+                          <p
+                            id="fs-idm158222928"
+                          >Alternative approach: A more expedient approach involves deriving activation energy from measurements of the rate constant at just two temperatures. In this approach, the Arrhenius equation is rearranged to a convenient two-point form:</p>
+                          <div data-type="equation" id="fs-idm43403824">
+                            <math display="block">
+                              <semantics>
+                                <mrow>
+                                  <mrow>
+                                    <mtext>ln</mtext>
+                                    <mspace width="0.2em"/>
+                                    <mfrac>
+                                      <mrow>
+                                        <msub>
+                                          <mi>k</mi>
+                                          <mn>1</mn>
+                                        </msub>
+                                      </mrow>
+                                      <mrow>
+                                        <msub>
+                                          <mi>k</mi>
+                                          <mn>2</mn>
+                                        </msub>
+                                      </mrow>
+                                    </mfrac>
+                                    <mspace width="0.1em"/>
+                                    <mo>=</mo>
+                                    <mspace width="0.1em"/>
+                                    <mfrac>
+                                      <mrow>
+                                        <msub>
+                                          <mi>E</mi>
+                                          <mtext>a</mtext>
+                                        </msub>
+                                      </mrow>
+                                      <mi>R</mi>
+                                    </mfrac>
+                                    <mspace width="0.2em"/>
+                                    <mrow>
+                                      <mo>(</mo>
+                                      <mrow>
+                                        <mfrac>
+                                          <mn>1</mn>
+                                          <mrow>
+                                            <msub>
+                                              <mi>T</mi>
+                                              <mn>2</mn>
+                                            </msub>
+                                          </mrow>
+                                        </mfrac>
+                                        <mspace width="0.2em"/>
+                                        <mo>−</mo>
+                                        <mspace width="0.2em"/>
+                                        <mfrac>
+                                          <mn>1</mn>
+                                          <mrow>
+                                            <msub>
+                                              <mi>T</mi>
+                                              <mn>1</mn>
+                                            </msub>
+                                          </mrow>
+                                        </mfrac>
+                                      </mrow>
+                                      <mo>)</mo>
+                                    </mrow>
+                                  </mrow>
+                                </mrow>
+                                <annotation-xml encoding="MathML-Content">
+                                  <mrow>
+                                    <mtext>ln</mtext>
+                                    <mspace width="0.2em"/>
+                                    <mfrac>
+                                      <mrow>
+                                        <msub>
+                                          <mi>k</mi>
+                                          <mn>1</mn>
+                                        </msub>
+                                      </mrow>
+                                      <mrow>
+                                        <msub>
+                                          <mi>k</mi>
+                                          <mn>2</mn>
+                                        </msub>
+                                      </mrow>
+                                    </mfrac>
+                                    <mspace width="0.1em"/>
+                                    <mo>=</mo>
+                                    <mspace width="0.1em"/>
+                                    <mfrac>
+                                      <mrow>
+                                        <msub>
+                                          <mi>E</mi>
+                                          <mtext>a</mtext>
+                                        </msub>
+                                      </mrow>
+                                      <mi>R</mi>
+                                    </mfrac>
+                                    <mspace width="0.2em"/>
+                                    <mrow>
+                                      <mo>(</mo>
+                                      <mrow>
+                                        <mfrac>
+                                          <mn>1</mn>
+                                          <mrow>
+                                            <msub>
+                                              <mi>T</mi>
+                                              <mn>2</mn>
+                                            </msub>
+                                          </mrow>
+                                        </mfrac>
+                                        <mspace width="0.2em"/>
+                                        <mo>−</mo>
+                                        <mspace width="0.2em"/>
+                                        <mfrac>
+                                          <mn>1</mn>
+                                          <mrow>
+                                            <msub>
+                                              <mi>T</mi>
+                                              <mn>1</mn>
+                                            </msub>
+                                          </mrow>
+                                        </mfrac>
+                                      </mrow>
+                                      <mo>)</mo>
+                                    </mrow>
+                                  </mrow>
+                                </annotation-xml>
+                              </semantics>
+                            </math>
+                          </div>
+                          <p
+                            id="fs-idm47402880"
+                          >Rearranging this equation to isolate activation energy yields:</p>
+                          <div data-type="equation" id="fs-idm153647280">
+                            <math display="block">
+                              <semantics>
+                                <mrow>
+                                  <mrow>
+                                    <msub>
+                                      <mi>E</mi>
+                                      <mtext>a</mtext>
+                                    </msub>
+                                    <mo>=</mo>
+                                    <mtext>−</mtext>
+                                    <mi>R</mi>
+                                    <mspace width="0.2em"/>
+                                    <mrow>
+                                      <mo>(</mo>
+                                      <mrow>
+                                        <mfrac>
+                                          <mrow>
+                                            <mtext>ln</mtext>
+                                            <mspace width="0.2em"/>
+                                            <msub>
+                                              <mi>k</mi>
+                                              <mn>2</mn>
+                                            </msub>
+                                            <mspace width="0.2em"/>
+                                            <mo>−</mo>
+                                            <mspace width="0.2em"/>
+                                            <mtext>ln</mtext>
+                                            <mspace width="0.2em"/>
+                                            <msub>
+                                              <mi>k</mi>
+                                              <mn>1</mn>
+                                            </msub>
+                                          </mrow>
+                                          <mrow>
+                                            <mrow>
+                                              <mo>(</mo>
+                                              <mrow>
+                                                <mfrac>
+                                                  <mn>1</mn>
+                                                  <mrow>
+                                                    <msub>
+                                                      <mi>T</mi>
+                                                      <mn>2</mn>
+                                                    </msub>
+                                                  </mrow>
+                                                </mfrac>
+                                              </mrow>
+                                              <mo>)</mo>
+                                            </mrow>
+                                            <mspace width="0.2em"/>
+                                            <mo>−</mo>
+                                            <mspace width="0.2em"/>
+                                            <mrow>
+                                              <mo>(</mo>
+                                              <mrow>
+                                                <mfrac>
+                                                  <mn>1</mn>
+                                                  <mrow>
+                                                    <msub>
+                                                      <mi>T</mi>
+                                                      <mn>1</mn>
+                                                    </msub>
+                                                  </mrow>
+                                                </mfrac>
+                                              </mrow>
+                                              <mo>)</mo>
+                                            </mrow>
+                                          </mrow>
+                                        </mfrac>
+                                      </mrow>
+                                      <mo>)</mo>
+                                    </mrow>
+                                  </mrow>
+                                </mrow>
+                                <annotation-xml encoding="MathML-Content">
+                                  <mrow>
+                                    <msub>
+                                      <mi>E</mi>
+                                      <mtext>a</mtext>
+                                    </msub>
+                                    <mo>=</mo>
+                                    <mtext>−</mtext>
+                                    <mi>R</mi>
+                                    <mspace width="0.2em"/>
+                                    <mrow>
+                                      <mo>(</mo>
+                                      <mrow>
+                                        <mfrac>
+                                          <mrow>
+                                            <mtext>ln</mtext>
+                                            <mspace width="0.2em"/>
+                                            <msub>
+                                              <mi>k</mi>
+                                              <mn>2</mn>
+                                            </msub>
+                                            <mspace width="0.2em"/>
+                                            <mo>−</mo>
+                                            <mspace width="0.2em"/>
+                                            <mtext>ln</mtext>
+                                            <mspace width="0.2em"/>
+                                            <msub>
+                                              <mi>k</mi>
+                                              <mn>1</mn>
+                                            </msub>
+                                          </mrow>
+                                          <mrow>
+                                            <mrow>
+                                              <mo>(</mo>
+                                              <mrow>
+                                                <mfrac>
+                                                  <mn>1</mn>
+                                                  <mrow>
+                                                    <msub>
+                                                      <mi>T</mi>
+                                                      <mn>2</mn>
+                                                    </msub>
+                                                  </mrow>
+                                                </mfrac>
+                                              </mrow>
+                                              <mo>)</mo>
+                                            </mrow>
+                                            <mspace width="0.2em"/>
+                                            <mo>−</mo>
+                                            <mspace width="0.2em"/>
+                                            <mrow>
+                                              <mo>(</mo>
+                                              <mrow>
+                                                <mfrac>
+                                                  <mn>1</mn>
+                                                  <mrow>
+                                                    <msub>
+                                                      <mi>T</mi>
+                                                      <mn>1</mn>
+                                                    </msub>
+                                                  </mrow>
+                                                </mfrac>
+                                              </mrow>
+                                              <mo>)</mo>
+                                            </mrow>
+                                          </mrow>
+                                        </mfrac>
+                                      </mrow>
+                                      <mo>)</mo>
+                                    </mrow>
+                                  </mrow>
+                                </annotation-xml>
+                              </semantics>
+                            </math>
+                          </div>
+                          <p
+                            id="fs-idm208269280"
+                          >Any two data pairs may be substituted into this equation—for example, the first and last entries from the above data table:</p>
+                          <div data-type="equation" id="fs-idm152804224">
+                            <math display="block">
+                              <semantics>
+                                <mrow>
+                                  <mrow>
+                                    <msub>
+                                      <mi>E</mi>
+                                      <mtext>a</mtext>
+                                    </msub>
+                                    <mo>=</mo>
+                                    <mn>−8.314</mn>
+                                    <mspace width="0.2em"/>
+                                    <mtext>J</mtext>
+                                    <mspace width="0.2em"/>
+                                    <msup>
+                                      <mrow>
+                                        <mtext>mol</mtext>
+                                      </mrow>
+                                      <mrow>
+                                        <mn>−1</mn>
+                                      </mrow>
+                                    </msup>
+                                    <mspace width="0.2em"/>
+                                    <msup>
+                                      <mtext>K</mtext>
+                                      <mrow>
+                                        <mn>−1</mn>
+                                      </mrow>
+                                    </msup>
+                                    <mrow>
+                                      <mo>(</mo>
+                                      <mrow>
+                                        <mfrac>
+                                          <mrow>
+                                            <mn>−3.231</mn>
+                                            <mo>−</mo>
+                                            <mo stretchy="false">(</mo>
+                                            <mn>−14.860</mn>
+                                            <mo stretchy="false">)</mo>
+                                          </mrow>
+                                          <mrow>
+                                            <mn>1.28</mn>
+                                            <mspace width="0.2em"/>
+                                            <mo>×</mo>
+                                            <mspace width="0.2em"/>
+                                            <msup>
+                                              <mrow>
+                                                <mn>10</mn>
+                                              </mrow>
+                                              <mrow>
+                                                <mn>−3</mn>
+                                              </mrow>
+                                            </msup>
+                                            <mspace width="0.2em"/>
+                                            <msup>
+                                              <mtext>K</mtext>
+                                              <mrow>
+                                                <mn>−1</mn>
+                                              </mrow>
+                                            </msup>
+                                            <mspace width="0.2em"/>
+                                            <mo>−</mo>
+                                            <mspace width="0.2em"/>
+                                            <mn>1.80</mn>
+                                            <mspace width="0.2em"/>
+                                            <mo>×</mo>
+                                            <mspace width="0.2em"/>
+                                            <msup>
+                                              <mrow>
+                                                <mn>10</mn>
+                                              </mrow>
+                                              <mrow>
+                                                <mn>−3</mn>
+                                              </mrow>
+                                            </msup>
+                                            <mspace width="0.2em"/>
+                                            <msup>
+                                              <mtext>K</mtext>
+                                              <mrow>
+                                                <mn>−1</mn>
+                                              </mrow>
+                                            </msup>
+                                          </mrow>
+                                        </mfrac>
+                                      </mrow>
+                                      <mo>)</mo>
+                                    </mrow>
+                                  </mrow>
+                                </mrow>
+                                <annotation-xml encoding="MathML-Content">
+                                  <mrow>
+                                    <msub>
+                                      <mi>E</mi>
+                                      <mtext>a</mtext>
+                                    </msub>
+                                    <mo>=</mo>
+                                    <mn>−8.314</mn>
+                                    <mspace width="0.2em"/>
+                                    <mtext>J</mtext>
+                                    <mspace width="0.2em"/>
+                                    <msup>
+                                      <mrow>
+                                        <mtext>mol</mtext>
+                                      </mrow>
+                                      <mrow>
+                                        <mn>−1</mn>
+                                      </mrow>
+                                    </msup>
+                                    <mspace width="0.2em"/>
+                                    <msup>
+                                      <mtext>K</mtext>
+                                      <mrow>
+                                        <mn>−1</mn>
+                                      </mrow>
+                                    </msup>
+                                    <mrow>
+                                      <mo>(</mo>
+                                      <mrow>
+                                        <mfrac>
+                                          <mrow>
+                                            <mn>−3.231</mn>
+                                            <mo>−</mo>
+                                            <mo stretchy="false">(</mo>
+                                            <mn>−14.860</mn>
+                                            <mo stretchy="false">)</mo>
+                                          </mrow>
+                                          <mrow>
+                                            <mn>1.28</mn>
+                                            <mspace width="0.2em"/>
+                                            <mo>×</mo>
+                                            <mspace width="0.2em"/>
+                                            <msup>
+                                              <mrow>
+                                                <mn>10</mn>
+                                              </mrow>
+                                              <mrow>
+                                                <mn>−3</mn>
+                                              </mrow>
+                                            </msup>
+                                            <mspace width="0.2em"/>
+                                            <msup>
+                                              <mtext>K</mtext>
+                                              <mrow>
+                                                <mn>−1</mn>
+                                              </mrow>
+                                            </msup>
+                                            <mspace width="0.2em"/>
+                                            <mo>−</mo>
+                                            <mspace width="0.2em"/>
+                                            <mn>1.80</mn>
+                                            <mspace width="0.2em"/>
+                                            <mo>×</mo>
+                                            <mspace width="0.2em"/>
+                                            <msup>
+                                              <mrow>
+                                                <mn>10</mn>
+                                              </mrow>
+                                              <mrow>
+                                                <mn>−3</mn>
+                                              </mrow>
+                                            </msup>
+                                            <mspace width="0.2em"/>
+                                            <msup>
+                                              <mtext>K</mtext>
+                                              <mrow>
+                                                <mn>−1</mn>
+                                              </mrow>
+                                            </msup>
+                                          </mrow>
+                                        </mfrac>
+                                      </mrow>
+                                      <mo>)</mo>
+                                    </mrow>
+                                  </mrow>
+                                </annotation-xml>
+                              </semantics>
+                            </math>
+                          </div>
+                          <p id="fs-idm101188896">
+                            and the result is
+                            <em data-effect="italics">E</em>
+                            <sub>a</sub>
+                            <em data-effect="italics"></em> = 1.8
+                            <math display="inline">
+                              <semantics>
+                                <mrow>
+                                  <mo>×</mo>
+                                </mrow>
+                                <annotation-xml encoding="MathML-Content">
+                                  <mo>×</mo>
+                                </annotation-xml>
+                              </semantics>
+                            </math> 10
+                            <sup>5</sup> J mol
+                            <sup>−1</sup> or 180 kJ mol
+                            <sup>−1</sup>
+                          </p>
+                          <p
+                            id="fs-idm65968064"
+                          >This approach yields the same result as the more rigorous graphical approach used above, as expected. In practice, the graphical approach typically provides more reliable results when working with actual experimental data.</p>
+                          <p id="fs-idm90823520">
+                            <span data-type="title">Check Your Learning</span>
+                            The rate constant for the rate of decomposition of N
+                            <sub>2</sub>O
+                            <sub>5</sub> to NO and O
+                            <sub>2</sub> in the gas phase is 1.66 L/mol/s at 650 K and 7.39 L/mol/s at 700 K:
+                          </p>
+                          <div data-type="equation" id="fs-idm184015216">
+                            <math display="block">
+                              <semantics>
+                                <mrow>
+                                  <mrow>
+                                    <msub>
+                                      <mrow>
+                                        <mtext>2N</mtext>
+                                      </mrow>
+                                      <mn>2</mn>
+                                    </msub>
+                                    <msub>
+                                      <mtext>O</mtext>
+                                      <mn>5</mn>
+                                    </msub>
+                                    <mo stretchy="false">(</mo>
+                                    <mi>g</mi>
+                                    <mo stretchy="false">)</mo>
+                                    <mspace width="0.2em"/>
+                                    <mo stretchy="false">⟶</mo>
+                                    <mspace width="0.2em"/>
+                                    <mn>4</mn>
+                                    <mtext>NO</mtext>
+                                    <mo stretchy="false">(</mo>
+                                    <mi>g</mi>
+                                    <mo stretchy="false">)</mo>
+                                    <mo>+</mo>
+                                    <msub>
+                                      <mrow>
+                                        <mtext>3O</mtext>
+                                      </mrow>
+                                      <mn>2</mn>
+                                    </msub>
+                                    <mo stretchy="false">(</mo>
+                                    <mi>g</mi>
+                                    <mo stretchy="false">)</mo>
+                                  </mrow>
+                                </mrow>
+                                <annotation-xml encoding="MathML-Content">
+                                  <mrow>
+                                    <msub>
+                                      <mrow>
+                                        <mtext>2N</mtext>
+                                      </mrow>
+                                      <mn>2</mn>
+                                    </msub>
+                                    <msub>
+                                      <mtext>O</mtext>
+                                      <mn>5</mn>
+                                    </msub>
+                                    <mo stretchy="false">(</mo>
+                                    <mi>g</mi>
+                                    <mo stretchy="false">)</mo>
+                                    <mspace width="0.2em"/>
+                                    <mo stretchy="false">⟶</mo>
+                                    <mspace width="0.2em"/>
+                                    <mn>4</mn>
+                                    <mtext>NO</mtext>
+                                    <mo stretchy="false">(</mo>
+                                    <mi>g</mi>
+                                    <mo stretchy="false">)</mo>
+                                    <mo>+</mo>
+                                    <msub>
+                                      <mrow>
+                                        <mtext>3O</mtext>
+                                      </mrow>
+                                      <mn>2</mn>
+                                    </msub>
+                                    <mo stretchy="false">(</mo>
+                                    <mi>g</mi>
+                                    <mo stretchy="false">)</mo>
+                                  </mrow>
+                                </annotation-xml>
+                              </semantics>
+                            </math>
+                          </div>
+                          <p
+                            id="fs-idm93319152"
+                          >Assuming the kinetics of this reaction are consistent with the Arrhenius equation, calculate the activation energy for this decomposition.</p>
+                          <div data-type="note" id="fs-idp70913968">
+                            <h3 class="os-title" data-type="title">
+                              <span
+                                class="os-title-label"
+                                data-type
+                                id="[redacted for uniqueness]"
+                              >Answer:</span>
+                            </h3>
+                            <div class="os-note-body">
+                              <p id="fs-idm147992368">
+                                1.1
+                                <math display="inline">
+                                  <semantics>
+                                    <mrow>
+                                      <mo>×</mo>
+                                    </mrow>
+                                    <annotation-xml encoding="MathML-Content">
+                                      <mo>×</mo>
+                                    </annotation-xml>
+                                  </semantics>
+                                </math> 10
+                                <sup>5</sup> J mol
+                                <sup>−1</sup> or 110 kJ mol
+                                <sup>−1</sup>
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </section>
+                    </div>
+                  </div>
+                  

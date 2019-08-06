@@ -1,0 +1,212 @@
+
+                    <div
+                      class="os-eoc os-glossary-container"
+                      data-type="composite-page"
+                      data-uuid-key="glossary"
+                    >
+                      <dl id="fs-idm26650176">
+                        <dt id="[redacted for uniqueness]">acid ionization</dt>
+                        <dd
+                          id="fs-idm26649536"
+                        >reaction involving the transfer of a proton from an acid to water, yielding hydronium ions and the conjugate base of the acid</dd>
+                      </dl>
+                      <dl id="fs-idp86058640">
+                        <dt id="[redacted for uniqueness]">
+                          acid ionization constant (
+                          <em data-effect="italics">K</em>
+                          <sub>a</sub>)
+                        </dt>
+                        <dd
+                          id="fs-idp86060160"
+                        >equilibrium constant for an acid ionization reaction</dd>
+                      </dl>
+                      <dl id="fs-idp67176144">
+                        <dt id="[redacted for uniqueness]">acid-base indicator</dt>
+                        <dd
+                          id="fs-idp67176784"
+                        >weak acid or base whose conjugate partner imparts a different solution color; used in visual assessments of solution pH</dd>
+                      </dl>
+                      <dl id="fs-idm64563696">
+                        <dt id="[redacted for uniqueness]">acidic</dt>
+                        <dd id="fs-idm110209904">
+                          a solution in which [H
+                          <sub>3</sub>O
+                          <sup>+</sup>] &gt; [OH
+                          <sup>−</sup>]
+                        </dd>
+                      </dl>
+                      <dl id="fs-idp140545888">
+                        <dt id="[redacted for uniqueness]">amphiprotic</dt>
+                        <dd
+                          id="fs-idp140546528"
+                        >species that may either donate or accept a proton in a Bronsted-Lowry acid-base reaction</dd>
+                      </dl>
+                      <dl id="fs-idp12571968">
+                        <dt id="[redacted for uniqueness]">amphoteric</dt>
+                        <dd
+                          id="fs-idp12572608"
+                        >species that can act as either an acid or a base</dd>
+                      </dl>
+                      <dl id="fs-idp12573120">
+                        <dt id="[redacted for uniqueness]">autoionization</dt>
+                        <dd
+                          id="fs-idp46882848"
+                        >reaction between identical species yielding ionic products; for water, this reaction involves transfer of protons to yield hydronium and hydroxide ions</dd>
+                      </dl>
+                      <dl id="fs-idp46883520">
+                        <dt id="[redacted for uniqueness]">base ionization</dt>
+                        <dd
+                          id="fs-idp43873840"
+                        >reaction involving the transfer of a proton from water to a base, yielding hydroxide ions and the conjugate acid of the base</dd>
+                      </dl>
+                      <dl id="fs-idp86060672">
+                        <dt id="[redacted for uniqueness]">
+                          base ionization constant (
+                          <em data-effect="italics">K</em>
+                          <sub>b</sub>)
+                        </dt>
+                        <dd
+                          id="fs-idm94081232"
+                        >equilibrium constant for a base ionization reaction</dd>
+                      </dl>
+                      <dl id="fs-idm111671584">
+                        <dt id="[redacted for uniqueness]">basic</dt>
+                        <dd id="fs-idp49209968">
+                          a solution in which [H
+                          <sub>3</sub>O
+                          <sup>+</sup>] &lt; [OH
+                          <sup>−</sup>]
+                        </dd>
+                      </dl>
+                      <dl id="fs-idp43874496">
+                        <dt id="[redacted for uniqueness]">Brønsted-Lowry acid</dt>
+                        <dd id="fs-idp43875136">proton donor</dd>
+                      </dl>
+                      <dl id="fs-idp89677040">
+                        <dt id="[redacted for uniqueness]">Brønsted-Lowry base</dt>
+                        <dd id="fs-idp89677680">proton acceptor</dd>
+                      </dl>
+                      <dl id="fs-idp88495904">
+                        <dt id="[redacted for uniqueness]">buffer</dt>
+                        <dd
+                          id="fs-idp88496416"
+                        >mixture of appreciable amounts of a weak acid-base pair the pH of a buffer resists change when small amounts of acid or base are added</dd>
+                      </dl>
+                      <dl id="fs-idp88494848">
+                        <dt id="[redacted for uniqueness]">buffer capacity</dt>
+                        <dd
+                          id="fs-idp88495360"
+                        >amount of an acid or base that can be added to a volume of a buffer solution before its pH changes significantly (usually by one pH unit)</dd>
+                      </dl>
+                      <dl id="fs-idp67177296">
+                        <dt id="[redacted for uniqueness]">color-change interval</dt>
+                        <dd
+                          id="fs-idp67177936"
+                        >range in pH over which the color change of an indicator is observed</dd>
+                      </dl>
+                      <dl id="fs-idp41345504">
+                        <dt id="[redacted for uniqueness]">conjugate acid</dt>
+                        <dd
+                          id="fs-idp41346144"
+                        >substance formed when a base gains a proton</dd>
+                      </dl>
+                      <dl id="fs-idp41346656">
+                        <dt id="[redacted for uniqueness]">conjugate base</dt>
+                        <dd
+                          id="fs-idp9778112"
+                        >substance formed when an acid loses a proton</dd>
+                      </dl>
+                      <dl id="fs-idp88439392">
+                        <dt id="[redacted for uniqueness]">diprotic acid</dt>
+                        <dd
+                          id="fs-idm78080384"
+                        >acid containing two ionizable hydrogen atoms per molecule</dd>
+                      </dl>
+                      <dl id="fs-idm124847888">
+                        <dt id="[redacted for uniqueness]">diprotic base</dt>
+                        <dd
+                          id="fs-idm9186768"
+                        >base capable of accepting two protons</dd>
+                      </dl>
+                      <dl id="fs-idm71412016">
+                        <dt id="[redacted for uniqueness]">Henderson-Hasselbalch equation</dt>
+                        <dd
+                          id="fs-idm71411504"
+                        >logarithmic version of the acid ionization constant expression, conveniently formatted for calculating the pH of buffer solutions</dd>
+                      </dl>
+                      <dl id="fs-idp9778624">
+                        <dt id="[redacted for uniqueness]">
+                          ion-product constant for water (
+                          <em data-effect="italics">K</em>
+                          <sub>w</sub>)
+                        </dt>
+                        <dd
+                          id="fs-idp108529200"
+                        >equilibrium constant for the autoionization of water</dd>
+                      </dl>
+                      <dl id="fs-idm94080720">
+                        <dt id="[redacted for uniqueness]">leveling effect</dt>
+                        <dd
+                          id="fs-idm94080080"
+                        >observation that acid-base strength of solutes in a given solvent is limited to that of the solvent’s characteristic acid and base species (in water, hydronium and hydroxide ions, respectively)</dd>
+                      </dl>
+                      <dl id="fs-idp98784944">
+                        <dt id="[redacted for uniqueness]">monoprotic acid</dt>
+                        <dd
+                          id="fs-idm45309456"
+                        >acid containing one ionizable hydrogen atom per molecule</dd>
+                      </dl>
+                      <dl id="fs-idp143891408">
+                        <dt id="[redacted for uniqueness]">neutral</dt>
+                        <dd id="fs-idm153784960">
+                          describes a solution in which [H
+                          <sub>3</sub>O
+                          <sup>+</sup>] = [OH
+                          <sup>−</sup>]
+                        </dd>
+                      </dl>
+                      <dl id="fs-idm94074528">
+                        <dt id="[redacted for uniqueness]">oxyacid</dt>
+                        <dd
+                          id="fs-idm94073888"
+                        >ternary compound with acidic properties, molecules of which contain a central nonmetallic atom bonded to one or more O atoms, at least one of which is bonded to an ionizable H atom</dd>
+                      </dl>
+                      <dl id="fs-idm94073376">
+                        <dt id="[redacted for uniqueness]">percent ionization</dt>
+                        <dd
+                          id="fs-idm94072736"
+                        >ratio of the concentration of ionized acid to initial acid concentration expressed as a percentage</dd>
+                      </dl>
+                      <dl id="fs-idm103907536">
+                        <dt id="[redacted for uniqueness]">pH</dt>
+                        <dd
+                          id="fs-idm14698528"
+                        >logarithmic measure of the concentration of hydronium ions in a solution</dd>
+                      </dl>
+                      <dl id="fs-idp46966768">
+                        <dt id="[redacted for uniqueness]">pOH</dt>
+                        <dd
+                          id="fs-idm67584528"
+                        >logarithmic measure of the concentration of hydroxide ions in a solution</dd>
+                      </dl>
+                      <dl id="fs-idm63142976">
+                        <dt id="[redacted for uniqueness]">stepwise ionization</dt>
+                        <dd
+                          id="fs-idp167601376"
+                        >process in which a polyprotic acid is ionized by losing protons sequentially</dd>
+                      </dl>
+                      <dl id="fs-idp67179744">
+                        <dt id="[redacted for uniqueness]">titration curve</dt>
+                        <dd
+                          id="fs-idp67180384"
+                        >plot of some sample property (such as pH) versus volume of added titrant</dd>
+                      </dl>
+                      <dl id="fs-idm25629392">
+                        <dt id="[redacted for uniqueness]">triprotic acid</dt>
+                        <dd
+                          id="fs-idm16347328"
+                        >acid that contains three ionizable hydrogen atoms per molecule</dd>
+                      </dl>
+                    </div>
+                  </div>
+                  

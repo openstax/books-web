@@ -1,0 +1,1208 @@
+
+                    <div
+                      class="os-eob os-solution-container"
+                      data-type="composite-page"
+                      data-uuid-key=".solution12"
+                    >
+                      <div data-type="solution" id="fs-idp53700320-solution">
+                        <a
+                          class="os-number"
+                          href="12-exercises#fs-idp53700320"
+                        >1</a>
+                        <span class="os-divider">.</span>
+                        <div class="os-solution-container">
+                          <p
+                            id="fs-idp24328736"
+                          >The instantaneous rate is the rate of a reaction at any particular point in time, a period of time that is so short that the concentrations of reactants and products change by a negligible amount. The initial rate is the instantaneous rate of reaction as it starts (as product just begins to form). Average rate is the average of the instantaneous rates over a time period.</p>
+                        </div>
+                      </div>
+                      <div data-type="solution" id="fs-idm82430624-solution">
+                        <a
+                          class="os-number"
+                          href="12-exercises#fs-idm82430624"
+                        >3</a>
+                        <span class="os-divider">.</span>
+                        <div class="os-solution-container">
+                          <p id="fs-idp8330592">
+                            <math display="inline">
+                              <semantics>
+                                <mrow>
+                                  <mrow>
+                                    <mtext>rate</mtext>
+                                    <mo>=</mo>
+                                    <mo>+</mo>
+                                    <mfrac>
+                                      <mn>1</mn>
+                                      <mn>2</mn>
+                                    </mfrac>
+                                    <mspace width="0.2em"/>
+                                    <mfrac>
+                                      <mrow>
+                                        <mtext>Δ</mtext>
+                                        <mrow>
+                                          <mo stretchy="false">[</mo>
+                                          <mrow>
+                                            <msub>
+                                              <mrow>
+                                                <mtext>CIF</mtext>
+                                              </mrow>
+                                              <mn>3</mn>
+                                            </msub>
+                                          </mrow>
+                                          <mo stretchy="false">]</mo>
+                                        </mrow>
+                                      </mrow>
+                                      <mrow>
+                                        <mtext>Δ</mtext>
+                                        <mi>t</mi>
+                                      </mrow>
+                                    </mfrac>
+                                    <mspace width="0.1em"/>
+                                    <mo>=</mo>
+                                    <mo>−</mo>
+                                    <mfrac>
+                                      <mrow>
+                                        <mtext>Δ</mtext>
+                                        <mrow>
+                                          <mo stretchy="false">[</mo>
+                                          <mrow>
+                                            <msub>
+                                              <mrow>
+                                                <mtext>Cl</mtext>
+                                              </mrow>
+                                              <mn>2</mn>
+                                            </msub>
+                                          </mrow>
+                                          <mo stretchy="false">]</mo>
+                                        </mrow>
+                                      </mrow>
+                                      <mrow>
+                                        <mtext>Δ</mtext>
+                                        <mi>t</mi>
+                                      </mrow>
+                                    </mfrac>
+                                    <mspace width="0.1em"/>
+                                    <mo>=</mo>
+                                    <mo>−</mo>
+                                    <mfrac>
+                                      <mn>1</mn>
+                                      <mn>3</mn>
+                                    </mfrac>
+                                    <mspace width="0.2em"/>
+                                    <mfrac>
+                                      <mrow>
+                                        <mtext>Δ</mtext>
+                                        <mrow>
+                                          <mo stretchy="false">[</mo>
+                                          <mrow>
+                                            <msub>
+                                              <mtext>F</mtext>
+                                              <mn>2</mn>
+                                            </msub>
+                                          </mrow>
+                                          <mo stretchy="false">]</mo>
+                                        </mrow>
+                                      </mrow>
+                                      <mrow>
+                                        <mtext>Δ</mtext>
+                                        <mi>t</mi>
+                                      </mrow>
+                                    </mfrac>
+                                  </mrow>
+                                </mrow>
+                                <annotation-xml encoding="MathML-Content">
+                                  <mrow>
+                                    <mtext>rate</mtext>
+                                    <mo>=</mo>
+                                    <mo>+</mo>
+                                    <mfrac>
+                                      <mn>1</mn>
+                                      <mn>2</mn>
+                                    </mfrac>
+                                    <mspace width="0.2em"/>
+                                    <mfrac>
+                                      <mrow>
+                                        <mtext>Δ</mtext>
+                                        <mrow>
+                                          <mo stretchy="false">[</mo>
+                                          <mrow>
+                                            <msub>
+                                              <mrow>
+                                                <mtext>CIF</mtext>
+                                              </mrow>
+                                              <mn>3</mn>
+                                            </msub>
+                                          </mrow>
+                                          <mo stretchy="false">]</mo>
+                                        </mrow>
+                                      </mrow>
+                                      <mrow>
+                                        <mtext>Δ</mtext>
+                                        <mi>t</mi>
+                                      </mrow>
+                                    </mfrac>
+                                    <mspace width="0.1em"/>
+                                    <mo>=</mo>
+                                    <mo>−</mo>
+                                    <mfrac>
+                                      <mrow>
+                                        <mtext>Δ</mtext>
+                                        <mrow>
+                                          <mo stretchy="false">[</mo>
+                                          <mrow>
+                                            <msub>
+                                              <mrow>
+                                                <mtext>Cl</mtext>
+                                              </mrow>
+                                              <mn>2</mn>
+                                            </msub>
+                                          </mrow>
+                                          <mo stretchy="false">]</mo>
+                                        </mrow>
+                                      </mrow>
+                                      <mrow>
+                                        <mtext>Δ</mtext>
+                                        <mi>t</mi>
+                                      </mrow>
+                                    </mfrac>
+                                    <mspace width="0.1em"/>
+                                    <mo>=</mo>
+                                    <mo>−</mo>
+                                    <mfrac>
+                                      <mn>1</mn>
+                                      <mn>3</mn>
+                                    </mfrac>
+                                    <mspace width="0.2em"/>
+                                    <mfrac>
+                                      <mrow>
+                                        <mtext>Δ</mtext>
+                                        <mrow>
+                                          <mo stretchy="false">[</mo>
+                                          <mrow>
+                                            <msub>
+                                              <mtext>F</mtext>
+                                              <mn>2</mn>
+                                            </msub>
+                                          </mrow>
+                                          <mo stretchy="false">]</mo>
+                                        </mrow>
+                                      </mrow>
+                                      <mrow>
+                                        <mtext>Δ</mtext>
+                                        <mi>t</mi>
+                                      </mrow>
+                                    </mfrac>
+                                  </mrow>
+                                </annotation-xml>
+                              </semantics>
+                            </math>
+                          </p>
+                        </div>
+                      </div>
+                      <div data-type="solution" id="fs-idm57147216-solution">
+                        <a
+                          class="os-number"
+                          href="12-exercises#fs-idm57147216"
+                        >5</a>
+                        <span class="os-divider">.</span>
+                        <div class="os-solution-container">
+                          <p id="fs-idm15349328">
+                            (a) average rate, 0 − 10 s = 0.0375 mol L
+                            <sup>−1</sup> s
+                            <sup>−1</sup>; average rate, 10 − 20 s = 0.0265 mol L
+                            <sup>−1</sup> s
+                            <sup>−1</sup>; (b) instantaneous rate, 15 s = 0.023 mol L
+                            <sup>−1</sup> s
+                            <sup>−1</sup>; (c) average rate for B formation = 0.0188 mol L
+                            <sup>−1</sup> s
+                            <sup>−1</sup>; instantaneous rate for B formation = 0.012 mol L
+                            <sup>−1</sup> s
+                            <sup>−1</sup>
+                          </p>
+                        </div>
+                      </div>
+                      <div data-type="solution" id="fs-idm30837936-solution">
+                        <a
+                          class="os-number"
+                          href="12-exercises#fs-idm30837936"
+                        >7</a>
+                        <span class="os-divider">.</span>
+                        <div class="os-solution-container">
+                          <p
+                            id="fs-idm120667552"
+                          >Higher molarity increases the rate of the reaction. Higher temperature increases the rate of the reaction. Smaller pieces of magnesium metal will react more rapidly than larger pieces because more reactive surface exists.</p>
+                        </div>
+                      </div>
+                      <div data-type="solution" id="fs-idm66513728-solution">
+                        <a
+                          class="os-number"
+                          href="12-exercises#fs-idm66513728"
+                        >9</a>
+                        <span class="os-divider">.</span>
+                        <div class="os-solution-container">
+                          <p
+                            id="fs-idp85957568"
+                          >(a) Depending on the angle selected, the atom may take a long time to collide with the molecule and, when a collision does occur, it may not result in the breaking of the bond and the forming of the other. (b) Particles of reactant must come into contact with each other before they can react.</p>
+                        </div>
+                      </div>
+                      <div data-type="solution" id="fs-idm49710224-solution">
+                        <a
+                          class="os-number"
+                          href="12-exercises#fs-idm49710224"
+                        >11</a>
+                        <span class="os-divider">.</span>
+                        <div class="os-solution-container">
+                          <p id="fs-idm111616960">
+                            (a) very slow; (b) As the temperature is increased, the reaction proceeds at a faster rate. The amount of reactants decreases, and the amount of products increases. After a while, there is a roughly equal amount of
+                            <em data-effect="italics">BC</em>,
+                            <em data-effect="italics">AB</em>, and
+                            <em data-effect="italics">C</em> in the mixture and a slight excess of
+                            <em data-effect="italics">A</em>.
+                          </p>
+                        </div>
+                      </div>
+                      <div data-type="solution" id="fs-idm256410736-solution">
+                        <a
+                          class="os-number"
+                          href="12-exercises#fs-idm256410736"
+                        >13</a>
+                        <span class="os-divider">.</span>
+                        <div class="os-solution-container">
+                          <p id="fs-idm221624896">(a) 2; (b) 1</p>
+                        </div>
+                      </div>
+                      <div data-type="solution" id="fs-idm291799584-solution">
+                        <a
+                          class="os-number"
+                          href="12-exercises#fs-idm291799584"
+                        >15</a>
+                        <span class="os-divider">.</span>
+                        <div class="os-solution-container">
+                          <p
+                            id="fs-idm107041296"
+                          >(a) The process reduces the rate by a factor of 4. (b) Since CO does not appear in the rate law, the rate is not affected.</p>
+                        </div>
+                      </div>
+                      <div data-type="solution" id="fs-idm222164384-solution">
+                        <a
+                          class="os-number"
+                          href="12-exercises#fs-idm222164384"
+                        >17</a>
+                        <span class="os-divider">.</span>
+                        <div class="os-solution-container">
+                          <p id="fs-idm220241088">
+                            4.3
+                            <math display="inline">
+                              <semantics>
+                                <mrow>
+                                  <mo>×</mo>
+                                </mrow>
+                                <annotation-xml encoding="MathML-Content">
+                                  <mo>×</mo>
+                                </annotation-xml>
+                              </semantics>
+                            </math> 10
+                            <sup>−5</sup> mol/L/s
+                          </p>
+                        </div>
+                      </div>
+                      <div data-type="solution" id="fs-idm140350624-solution">
+                        <a
+                          class="os-number"
+                          href="12-exercises#fs-idm140350624"
+                        >19</a>
+                        <span class="os-divider">.</span>
+                        <div class="os-solution-container">
+                          <p id="fs-idm333817728">
+                            7.9
+                            <math display="inline">
+                              <semantics>
+                                <mrow>
+                                  <mo>×</mo>
+                                </mrow>
+                                <annotation-xml encoding="MathML-Content">
+                                  <mo>×</mo>
+                                </annotation-xml>
+                              </semantics>
+                            </math> 10
+                            <sup>−13</sup> mol/L/year
+                          </p>
+                        </div>
+                      </div>
+                      <div data-type="solution" id="fs-idm32841312-solution">
+                        <a
+                          class="os-number"
+                          href="12-exercises#fs-idm32841312"
+                        >21</a>
+                        <span class="os-divider">.</span>
+                        <div class="os-solution-container">
+                          <p id="fs-idm204335424">
+                            rate =
+                            <em data-effect="italics">k</em>;
+                            <em data-effect="italics">k</em> = 2.0
+                            <math display="inline">
+                              <semantics>
+                                <mrow>
+                                  <mo>×</mo>
+                                </mrow>
+                                <annotation-xml encoding="MathML-Content">
+                                  <mo>×</mo>
+                                </annotation-xml>
+                              </semantics>
+                            </math> 10
+                            <sup>−2</sup> mol L
+                            <sup>−1</sup> h
+                            <sup>−1</sup> (about 0.9 g L
+                            <sup>−1</sup> h
+                            <sup>−1</sup> for the average male); The reaction is zero order.
+                          </p>
+                        </div>
+                      </div>
+                      <div data-type="solution" id="fs-idm263803776-solution">
+                        <a
+                          class="os-number"
+                          href="12-exercises#fs-idm263803776"
+                        >23</a>
+                        <span class="os-divider">.</span>
+                        <div class="os-solution-container">
+                          <p id="fs-idp5189312">
+                            rate =
+                            <em data-effect="italics">k</em>[NOCl]
+                            <sup>2</sup>;
+                            <em data-effect="italics">k</em> = 8.0
+                            <math display="inline">
+                              <semantics>
+                                <mrow>
+                                  <mo>×</mo>
+                                </mrow>
+                                <annotation-xml encoding="MathML-Content">
+                                  <mo>×</mo>
+                                </annotation-xml>
+                              </semantics>
+                            </math> 10
+                            <sup>−8</sup> L/mol/h; second order
+                          </p>
+                        </div>
+                      </div>
+                      <div data-type="solution" id="fs-idm238094880-solution">
+                        <a
+                          class="os-number"
+                          href="12-exercises#fs-idm238094880"
+                        >25</a>
+                        <span class="os-divider">.</span>
+                        <div class="os-solution-container">
+                          <p id="fs-idm174039344">
+                            rate =
+                            <em data-effect="italics">k</em>[NO]
+                            <sup>2</sup>[Cl
+                            <sub>2</sub>];
+                            <em data-effect="italics">k</em> = 9.1 L
+                            <sup>2</sup> mol
+                            <sup>−2</sup> h
+                            <sup>−1</sup>; second order in NO; first order in Cl
+                            <sub>2</sub>
+                          </p>
+                        </div>
+                      </div>
+                      <div data-type="solution" id="fs-idm49483024-solution">
+                        <a
+                          class="os-number"
+                          href="12-exercises#fs-idm49483024"
+                        >27</a>
+                        <span class="os-divider">.</span>
+                        <div class="os-solution-container">
+                          <p id="fs-idm168970144">
+                            (a) The rate law is second order in A and is written as rate =
+                            <em data-effect="italics">k</em>[
+                            <em data-effect="italics">A</em>]
+                            <sup>2</sup>. (b)
+                            <em data-effect="italics">k</em> = 7.88
+                            <math display="inline">
+                              <semantics>
+                                <mrow>
+                                  <mo>×</mo>
+                                </mrow>
+                                <annotation-xml encoding="MathML-Content">
+                                  <mo>×</mo>
+                                </annotation-xml>
+                              </semantics>
+                            </math> 10
+                            <sup>−3</sup> L mol
+                            <sup>−1</sup> s
+                            <sup>−1</sup>
+                          </p>
+                        </div>
+                      </div>
+                      <div data-type="solution" id="fs-idm57376432-solution">
+                        <a
+                          class="os-number"
+                          href="12-exercises#fs-idm57376432"
+                        >29</a>
+                        <span class="os-divider">.</span>
+                        <div class="os-solution-container">
+                          <p id="fs-idm180347168">
+                            (a) 2.5
+                            <math display="inline">
+                              <semantics>
+                                <mrow>
+                                  <mo>×</mo>
+                                </mrow>
+                                <annotation-xml encoding="MathML-Content">
+                                  <mo>×</mo>
+                                </annotation-xml>
+                              </semantics>
+                            </math> 10
+                            <sup>−4</sup> mol/L/min
+                          </p>
+                        </div>
+                      </div>
+                      <div data-type="solution" id="fs-idm237267424-solution">
+                        <a
+                          class="os-number"
+                          href="12-exercises#fs-idm237267424"
+                        >31</a>
+                        <span class="os-divider">.</span>
+                        <div class="os-solution-container">
+                          <p id="fs-idm220253504">
+                            rate =
+                            <em data-effect="italics">k</em>[I
+                            <sup>−</sup>][OCl
+                            <sup>−</sup>];
+                            <em data-effect="italics">k</em> = 6.1
+                            <math display="inline">
+                              <semantics>
+                                <mrow>
+                                  <mo>×</mo>
+                                </mrow>
+                                <annotation-xml encoding="MathML-Content">
+                                  <mo>×</mo>
+                                </annotation-xml>
+                              </semantics>
+                            </math> 10
+                            <sup>−2</sup> L mol
+                            <sup>−1</sup> s
+                            <sup>−1</sup>
+                          </p>
+                        </div>
+                      </div>
+                      <div data-type="solution" id="fs-idp145037952-solution">
+                        <a
+                          class="os-number"
+                          href="12-exercises#fs-idp145037952"
+                        >33</a>
+                        <span class="os-divider">.</span>
+                        <div class="os-solution-container">
+                          <p id="fs-idp6601344">
+                            Plotting a graph of ln[SO
+                            <sub>2</sub>Cl
+                            <sub>2</sub>] versus
+                            <em data-effect="italics">t</em> reveals a linear trend; therefore we know this is a first-order reaction:
+                            <span data-type="newline">
+                              <br>
+                            </span>
+                          </p>
+                          <span
+                            data-alt="A graph is shown with the label “Time ( s )” on the x-axis and “l n [ S O subscript 2 C l subscript 2 ] M” on the y-axis. The x-axis begins at 0 and extends to 4.00 times 10 superscript 4 with markings every 1.00 times 10 superscript 4. The y-axis shows markings extending from negative 3.5 to negative 2.5. A decreasing linear trend line is drawn through seven points at the approximate coordinates: (0, negative 2.3), (0.5 times 10 superscript 4, negative 2.4), (1.0 times 10 superscript 4, negative 2.5), (1.5 times 10 superscript 4, negative 2.6), (2.0 times 10 superscript 4, negative 2.9), (2.5 times 10 superscript 4, negative 3.0), and (3.0 times 10 superscript 4, negative 3.2)."
+                            data-type="media"
+                            id="fs-idm141495696"
+                          >
+                            <img
+                              alt="A graph is shown with the label “Time ( s )” on the x-axis and “l n [ S O subscript 2 C l subscript 2 ] M” on the y-axis. The x-axis begins at 0 and extends to 4.00 times 10 superscript 4 with markings every 1.00 times 10 superscript 4. The y-axis shows markings extending from negative 3.5 to negative 2.5. A decreasing linear trend line is drawn through seven points at the approximate coordinates: (0, negative 2.3), (0.5 times 10 superscript 4, negative 2.4), (1.0 times 10 superscript 4, negative 2.5), (1.5 times 10 superscript 4, negative 2.6), (2.0 times 10 superscript 4, negative 2.9), (2.5 times 10 superscript 4, negative 3.0), and (3.0 times 10 superscript 4, negative 3.2)."
+                              data-media-type="image/jpeg"
+                              id="[redacted for uniqueness]"
+                              src="/resources/03ad49ad1f672c97274e6c37b24ea78af892ec3c"
+                            >
+                          </span>
+                          <p id="[redacted for uniqueness]">
+                            <span data-type="newline">
+                              <br>
+                            </span>
+                            <em data-effect="italics">k</em> = −2.20
+                            <math display="inline">
+                              <semantics>
+                                <mrow>
+                                  <mo>×</mo>
+                                </mrow>
+                                <annotation-xml encoding="MathML-Content">
+                                  <mo>×</mo>
+                                </annotation-xml>
+                              </semantics>
+                            </math> 10
+                            <sup>5</sup> s
+                            <sup>−1</sup>
+                          </p>
+                        </div>
+                      </div>
+                      <div data-type="solution" id="fs-idp27819360-solution">
+                        <a
+                          class="os-number"
+                          href="12-exercises#fs-idp27819360"
+                        >34</a>
+                        <span class="os-divider">.</span>
+                        <div class="os-solution-container">
+                          <span
+                            data-alt="A graph is shown with the label, “t ( h ,)” on the x-axis and, “1 divided by [ O subscript 3 ] M,” on the y-axis. The x-axis shows markings at 0, 2 times 10 superscript 3, 6 times 10 superscript 3, 10 time 10 superscript 3, 14 times 10 superscript 3, and 18 times 10 superscript 3. The y-axis shows markings beginning at 0, increasing by 1 up to and including 9. An increasing linear trend line is drawn through seven points at the coordinates: (0, 1.00), (2.0 times 10 superscript 3, 2.01), (7.6 times 10 superscript 3, 4.83), (1.00 times 10 superscript 4, 6.02), (1.23 times 10 superscript 4 , 6.02), (1.43 times 10 superscript 4, 8.20) and (1.70 times 10 superscript 4, 9.52). A horizontal line segment is drawn through the first point and a vertical line segment is similarly drawn through the last point to make a right triangle on the graph. The horizontal leg of the triangle is labeled “ capital delta t.” The vertical leg is labeled “capital delta 1 divided by [ O subscript 3 ].”"
+                            data-type="media"
+                            id="fs-idm95556784"
+                          >
+                            <img
+                              alt="A graph is shown with the label, “t ( h ,)” on the x-axis and, “1 divided by [ O subscript 3 ] M,” on the y-axis. The x-axis shows markings at 0, 2 times 10 superscript 3, 6 times 10 superscript 3, 10 time 10 superscript 3, 14 times 10 superscript 3, and 18 times 10 superscript 3. The y-axis shows markings beginning at 0, increasing by 1 up to and including 9. An increasing linear trend line is drawn through seven points at the coordinates: (0, 1.00), (2.0 times 10 superscript 3, 2.01), (7.6 times 10 superscript 3, 4.83), (1.00 times 10 superscript 4, 6.02), (1.23 times 10 superscript 4 , 6.02), (1.43 times 10 superscript 4, 8.20) and (1.70 times 10 superscript 4, 9.52). A horizontal line segment is drawn through the first point and a vertical line segment is similarly drawn through the last point to make a right triangle on the graph. The horizontal leg of the triangle is labeled “ capital delta t.” The vertical leg is labeled “capital delta 1 divided by [ O subscript 3 ].”"
+                              data-media-type="image/jpeg"
+                              id="[redacted for uniqueness]"
+                              src="/resources/1f10b3bdfde36580ac83e3895fed99820104e794"
+                            >
+                          </span>
+                          <p id="[redacted for uniqueness]">
+                            <span data-type="newline">
+                              <br>
+                            </span>
+                            The plot is nicely linear, so the reaction is second order.
+                            <em data-effect="italics">k</em> = 50.1 L mol
+                            <sup>−1</sup> h
+                            <sup>−1</sup>
+                          </p>
+                        </div>
+                      </div>
+                      <div data-type="solution" id="fs-idm81821952-solution">
+                        <a
+                          class="os-number"
+                          href="12-exercises#fs-idm81821952"
+                        >36</a>
+                        <span class="os-divider">.</span>
+                        <div class="os-solution-container">
+                          <p id="fs-idm96856080">14.3 d</p>
+                        </div>
+                      </div>
+                      <div data-type="solution" id="fs-idm86787888-solution">
+                        <a
+                          class="os-number"
+                          href="12-exercises#fs-idm86787888"
+                        >38</a>
+                        <span class="os-divider">.</span>
+                        <div class="os-solution-container">
+                          <p id="fs-idm23381360">
+                            8.3
+                            <math display="inline">
+                              <semantics>
+                                <mrow>
+                                  <mo>×</mo>
+                                </mrow>
+                                <annotation-xml encoding="MathML-Content">
+                                  <mo>×</mo>
+                                </annotation-xml>
+                              </semantics>
+                            </math> 10
+                            <sup>7</sup> s
+                          </p>
+                        </div>
+                      </div>
+                      <div data-type="solution" id="fs-idm110943344-solution">
+                        <a
+                          class="os-number"
+                          href="12-exercises#fs-idm110943344"
+                        >40</a>
+                        <span class="os-divider">.</span>
+                        <div class="os-solution-container">
+                          <p id="fs-idm46875440">0.826 s</p>
+                        </div>
+                      </div>
+                      <div data-type="solution" id="fs-idp55838576-solution">
+                        <a
+                          class="os-number"
+                          href="12-exercises#fs-idp55838576"
+                        >42</a>
+                        <span class="os-divider">.</span>
+                        <div class="os-solution-container">
+                          <p id="fs-idp69326720">
+                            The reaction is first order.
+                            <em data-effect="italics">k</em> = 1.0
+                            <math display="inline">
+                              <semantics>
+                                <mrow>
+                                  <mo>×</mo>
+                                </mrow>
+                                <annotation-xml encoding="MathML-Content">
+                                  <mo>×</mo>
+                                </annotation-xml>
+                              </semantics>
+                            </math> 10
+                            <sup>7</sup> L mol
+                            <sup>−1</sup> min
+                            <sup>−1</sup>
+                          </p>
+                        </div>
+                      </div>
+                      <div data-type="solution" id="fs-idm84405632-solution">
+                        <a
+                          class="os-number"
+                          href="12-exercises#fs-idm84405632"
+                        >44</a>
+                        <span class="os-divider">.</span>
+                        <div class="os-solution-container">
+                          <p id="fs-idp5273216">
+                            1.67 × 10
+                            <sup>3</sup> s ; 20% remains
+                          </p>
+                        </div>
+                      </div>
+                      <div data-type="solution" id="fs-idp89138768-solution">
+                        <a
+                          class="os-number"
+                          href="12-exercises#fs-idp89138768"
+                        >46</a>
+                        <span class="os-divider">.</span>
+                        <div class="os-solution-container">
+                          <p id="fs-idp89141488">252 days</p>
+                        </div>
+                      </div>
+                      <div data-type="solution" id="fs-idp157675232-solution">
+                        <a
+                          class="os-number"
+                          href="12-exercises#fs-idp157675232"
+                        >48</a>
+                        <span class="os-divider">.</span>
+                        <div class="os-solution-container">
+                          <div class="os-table" id="fs-idm247275488">
+                            <table
+                              class="medium unnumbered"
+                              data-id="fs-idm247275488"
+                              data-label
+                              summary="Table M1  "
+                            >
+                              <thead>
+                                <tr valign="middle">
+                                  <th data-align="left">
+                                    [
+                                    <em data-effect="italics">A</em>]
+                                    <sub>0</sub> (
+                                    <em data-effect="italics">M</em>)
+                                  </th>
+                                  <th data-align="left">
+                                    <em data-effect="italics">k</em>
+                                    <math display="inline">
+                                      <semantics>
+                                        <mrow>
+                                          <mo>×</mo>
+                                        </mrow>
+                                        <annotation-xml
+                                          encoding="MathML-Content"
+                                        >
+                                          <mo>×</mo>
+                                        </annotation-xml>
+                                      </semantics>
+                                    </math> 10
+                                    <sup>3</sup> (s
+                                    <sup>−1</sup>)
+                                  </th>
+                                </tr>
+                              </thead>
+                              <tbody>
+                                <tr>
+                                  <td data-align="left">4.88</td>
+                                  <td data-align="left">2.45</td>
+                                </tr>
+                                <tr>
+                                  <td data-align="left">3.52</td>
+                                  <td data-align="left">2.51</td>
+                                </tr>
+                                <tr>
+                                  <td data-align="left">2.29</td>
+                                  <td data-align="left">2.53</td>
+                                </tr>
+                                <tr>
+                                  <td data-align="left">1.81</td>
+                                  <td data-align="left">2.58</td>
+                                </tr>
+                                <tr>
+                                  <td data-align="left">5.33</td>
+                                  <td data-align="left">2.36</td>
+                                </tr>
+                                <tr>
+                                  <td data-align="left">4.05</td>
+                                  <td data-align="left">2.47</td>
+                                </tr>
+                                <tr>
+                                  <td data-align="left">2.95</td>
+                                  <td data-align="left">2.48</td>
+                                </tr>
+                                <tr>
+                                  <td data-align="left">1.72</td>
+                                  <td data-align="left">2.43</td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </div>
+                        </div>
+                      </div>
+                      <div data-type="solution" id="fs-idp801808-solution">
+                        <a class="os-number" href="12-exercises#fs-idp801808">50</a>
+                        <span class="os-divider">.</span>
+                        <div class="os-solution-container">
+                          <p
+                            id="fs-idm120309360"
+                          >The reactants either may be moving too slowly to have enough kinetic energy to exceed the activation energy for the reaction, or the orientation of the molecules when they collide may prevent the reaction from occurring.</p>
+                        </div>
+                      </div>
+                      <div data-type="solution" id="fs-idm141471856-solution">
+                        <a
+                          class="os-number"
+                          href="12-exercises#fs-idm141471856"
+                        >52</a>
+                        <span class="os-divider">.</span>
+                        <div class="os-solution-container">
+                          <p
+                            id="fs-idm218647200"
+                          >The activation energy is the minimum amount of energy necessary to form the activated complex in a reaction. It is usually expressed as the energy necessary to form one mole of activated complex.</p>
+                        </div>
+                      </div>
+                      <div data-type="solution" id="fs-idm162997840-solution">
+                        <a
+                          class="os-number"
+                          href="12-exercises#fs-idm162997840"
+                        >54</a>
+                        <span class="os-divider">.</span>
+                        <div class="os-solution-container">
+                          <p id="fs-idp8882000">
+                            After finding
+                            <em data-effect="italics">k</em> at several different temperatures, a plot of ln
+                            <em data-effect="italics">k</em> versus
+                            <math display="inline">
+                              <semantics>
+                                <mrow>
+                                  <mrow>
+                                    <mfrac>
+                                      <mn>1</mn>
+                                      <mi>T</mi>
+                                    </mfrac>
+                                    <mo>,</mo>
+                                  </mrow>
+                                </mrow>
+                                <annotation-xml encoding="MathML-Content">
+                                  <mrow>
+                                    <mfrac>
+                                      <mn>1</mn>
+                                      <mi>T</mi>
+                                    </mfrac>
+                                    <mo>,</mo>
+                                  </mrow>
+                                </annotation-xml>
+                              </semantics>
+                            </math> gives a straight line with the slope
+                            <math display="inline">
+                              <semantics>
+                                <mrow>
+                                  <mrow>
+                                    <mfrac>
+                                      <mrow>
+                                        <mtext>−</mtext>
+                                        <msub>
+                                          <mi>E</mi>
+                                          <mtext>a</mtext>
+                                        </msub>
+                                      </mrow>
+                                      <mi>R</mi>
+                                    </mfrac>
+                                  </mrow>
+                                </mrow>
+                                <annotation-xml encoding="MathML-Content">
+                                  <mrow>
+                                    <mfrac>
+                                      <mrow>
+                                        <mtext>−</mtext>
+                                        <msub>
+                                          <mi>E</mi>
+                                          <mtext>a</mtext>
+                                        </msub>
+                                      </mrow>
+                                      <mi>R</mi>
+                                    </mfrac>
+                                  </mrow>
+                                </annotation-xml>
+                              </semantics>
+                            </math>
+                            from which
+                            <em data-effect="italics">E</em>
+                            <sub>a</sub> may be determined.
+                          </p>
+                        </div>
+                      </div>
+                      <div data-type="solution" id="fs-idm166001648-solution">
+                        <a
+                          class="os-number"
+                          href="12-exercises#fs-idm166001648"
+                        >56</a>
+                        <span class="os-divider">.</span>
+                        <div class="os-solution-container">
+                          <p
+                            id="fs-idm162680736"
+                          >(a) 4-times faster (b) 128-times faster</p>
+                        </div>
+                      </div>
+                      <div data-type="solution" id="fs-idm128511072-solution">
+                        <a
+                          class="os-number"
+                          href="12-exercises#fs-idm128511072"
+                        >58</a>
+                        <span class="os-divider">.</span>
+                        <div class="os-solution-container">
+                          <p id="fs-idm183272112">
+                            <math display="inline">
+                              <semantics>
+                                <mrow>
+                                  <mrow>
+                                    <mn>3.9</mn>
+                                    <mspace width="0.2em"/>
+                                    <mo>×</mo>
+                                    <mspace width="0.2em"/>
+                                    <msup>
+                                      <mrow>
+                                        <mn>10</mn>
+                                      </mrow>
+                                      <mrow>
+                                        <mn>15</mn>
+                                      </mrow>
+                                    </msup>
+                                    <mspace width="0.2em"/>
+                                    <msup>
+                                      <mtext>s</mtext>
+                                      <mrow>
+                                        <mn>−1</mn>
+                                      </mrow>
+                                    </msup>
+                                  </mrow>
+                                </mrow>
+                                <annotation-xml encoding="MathML-Content">
+                                  <mrow>
+                                    <mn>3.9</mn>
+                                    <mspace width="0.2em"/>
+                                    <mo>×</mo>
+                                    <mspace width="0.2em"/>
+                                    <msup>
+                                      <mrow>
+                                        <mn>10</mn>
+                                      </mrow>
+                                      <mrow>
+                                        <mn>15</mn>
+                                      </mrow>
+                                    </msup>
+                                    <mspace width="0.2em"/>
+                                    <msup>
+                                      <mtext>s</mtext>
+                                      <mrow>
+                                        <mn>−1</mn>
+                                      </mrow>
+                                    </msup>
+                                  </mrow>
+                                </annotation-xml>
+                              </semantics>
+                            </math>
+                          </p>
+                        </div>
+                      </div>
+                      <div data-type="solution" id="fs-idm131383728-solution">
+                        <a
+                          class="os-number"
+                          href="12-exercises#fs-idm131383728"
+                        >60</a>
+                        <span class="os-divider">.</span>
+                        <div class="os-solution-container">
+                          <p id="fs-idm91585968">43.0 kJ/mol</p>
+                        </div>
+                      </div>
+                      <div data-type="solution" id="fs-idm58458096-solution">
+                        <a
+                          class="os-number"
+                          href="12-exercises#fs-idm58458096"
+                        >62</a>
+                        <span class="os-divider">.</span>
+                        <div class="os-solution-container">
+                          <p id="fs-idm124657264">177 kJ/mol</p>
+                        </div>
+                      </div>
+                      <div data-type="solution" id="fs-idm167771040-solution">
+                        <a
+                          class="os-number"
+                          href="12-exercises#fs-idm167771040"
+                        >64</a>
+                        <span class="os-divider">.</span>
+                        <div class="os-solution-container">
+                          <p id="fs-idm112507760">
+                            <em data-effect="italics">E</em>
+                            <sub>a</sub> = 108 kJ;
+                            <em data-effect="italics">A</em> = 2.0
+                            <math display="inline">
+                              <semantics>
+                                <mrow>
+                                  <mo>×</mo>
+                                </mrow>
+                                <annotation-xml encoding="MathML-Content">
+                                  <mo>×</mo>
+                                </annotation-xml>
+                              </semantics>
+                            </math> 10
+                            <sup>8</sup> s
+                            <sup>−1</sup>;
+                            <em data-effect="italics">k</em> = 3.2
+                            <math display="inline">
+                              <semantics>
+                                <mrow>
+                                  <mo>×</mo>
+                                </mrow>
+                                <annotation-xml encoding="MathML-Content">
+                                  <mo>×</mo>
+                                </annotation-xml>
+                              </semantics>
+                            </math> 10
+                            <sup>−10</sup> s
+                            <sup>−1</sup>; (b) 1.81
+                            <math display="inline">
+                              <semantics>
+                                <mrow>
+                                  <mo>×</mo>
+                                </mrow>
+                                <annotation-xml encoding="MathML-Content">
+                                  <mo>×</mo>
+                                </annotation-xml>
+                              </semantics>
+                            </math> 10
+                            <sup>8</sup> h or 7.6
+                            <math display="inline">
+                              <semantics>
+                                <mrow>
+                                  <mo>×</mo>
+                                </mrow>
+                                <annotation-xml encoding="MathML-Content">
+                                  <mo>×</mo>
+                                </annotation-xml>
+                              </semantics>
+                            </math> 10
+                            <sup>6</sup> day; (c) Assuming that the reaction is irreversible simplifies the calculation because we do not have to account for any reactant that, having been converted to product, returns to the original state.
+                          </p>
+                        </div>
+                      </div>
+                      <div data-type="solution" id="fs-idp11390128-solution">
+                        <a
+                          class="os-number"
+                          href="12-exercises#fs-idp11390128"
+                        >66</a>
+                        <span class="os-divider">.</span>
+                        <div class="os-solution-container">
+                          <p id="fs-idm206557120">
+                            The
+                            <em data-effect="italics">A</em> atom has enough energy to react with
+                            <em data-effect="italics">BC</em>; however, the different angles at which it bounces off of
+                            <em data-effect="italics">BC</em> without reacting indicate that the orientation of the molecule is an important part of the reaction kinetics and determines whether a reaction will occur.
+                          </p>
+                        </div>
+                      </div>
+                      <div data-type="solution" id="fs-idp146992064-solution">
+                        <a
+                          class="os-number"
+                          href="12-exercises#fs-idp146992064"
+                        >68</a>
+                        <span class="os-divider">.</span>
+                        <div class="os-solution-container">
+                          <p id="fs-idp153239360">
+                            No. In general, for the overall reaction, we cannot predict the effect of changing the concentration without knowing the rate law. Yes. If the reaction is an elementary reaction, then doubling the concentration of
+                            <em data-effect="italics">A</em> doubles the rate.
+                          </p>
+                        </div>
+                      </div>
+                      <div data-type="solution" id="fs-idm4441216-solution">
+                        <a
+                          class="os-number"
+                          href="12-exercises#fs-idm4441216"
+                        >70</a>
+                        <span class="os-divider">.</span>
+                        <div class="os-solution-container">
+                          <p id="fs-idp74514816">
+                            Rate =
+                            <em data-effect="italics">k</em>[
+                            <em data-effect="italics">A</em>][
+                            <em data-effect="italics">B</em>]
+                            <sup>2</sup>; Rate =
+                            <em data-effect="italics">k</em>[
+                            <em data-effect="italics">A</em>]
+                            <sup>3</sup>
+                          </p>
+                        </div>
+                      </div>
+                      <div data-type="solution" id="fs-idp199466816-solution">
+                        <a
+                          class="os-number"
+                          href="12-exercises#fs-idp199466816"
+                        >72</a>
+                        <span class="os-divider">.</span>
+                        <div class="os-solution-container">
+                          <p id="fs-idm1295248">
+                            (a) Rate
+                            <sub>1</sub> =
+                            <em data-effect="italics">k</em>[O
+                            <sub>3</sub>]; (b) Rate
+                            <sub>2</sub> =
+                            <em data-effect="italics">k</em>[O
+                            <sub>3</sub>][Cl]; (c) Rate
+                            <sub>3</sub> =
+                            <em data-effect="italics">k</em>[ClO][O]; (d) Rate
+                            <sub>2</sub> =
+                            <em data-effect="italics">k</em>[O
+                            <sub>3</sub>][NO]; (e) Rate
+                            <sub>3</sub> =
+                            <em data-effect="italics">k</em>[NO
+                            <sub>2</sub>][O]
+                          </p>
+                        </div>
+                      </div>
+                      <div data-type="solution" id="fs-idm20987200-solution">
+                        <a
+                          class="os-number"
+                          href="12-exercises#fs-idm20987200"
+                        >74</a>
+                        <span class="os-divider">.</span>
+                        <div class="os-solution-container">
+                          <p id="fs-idp77008528">
+                            (a) Doubling [H
+                            <sub>2</sub>] doubles the rate. [H
+                            <sub>2</sub>] must enter the rate law to the first power. Doubling [NO] increases the rate by a factor of 4. [NO] must enter the rate law to the second power. (b) Rate =
+                            <em data-effect="italics">k</em> [NO]
+                            <sup>2</sup>[H
+                            <sub>2</sub>]; (c)
+                            <em data-effect="italics">k</em> = 5.0
+                            <math display="inline">
+                              <semantics>
+                                <mrow>
+                                  <mo>×</mo>
+                                </mrow>
+                                <annotation-xml encoding="MathML-Content">
+                                  <mo>×</mo>
+                                </annotation-xml>
+                              </semantics>
+                            </math> 10
+                            <sup>3</sup> mol
+                            <sup>−2</sup> L
+                            <sup>−2</sup> min
+                            <sup>−1</sup>; (d) 0.0050 mol/L; (e) Step II is the rate-determining step. If step I gives N
+                            <sub>2</sub>O
+                            <sub>2</sub> in adequate amount, steps 1 and 2 combine to give
+                            <math display="inline">
+                              <semantics>
+                                <mrow>
+                                  <mrow>
+                                    <mn>2</mn>
+                                    <mtext>NO</mtext>
+                                    <mo>+</mo>
+                                    <msub>
+                                      <mtext>H</mtext>
+                                      <mn>2</mn>
+                                    </msub>
+                                    <mspace width="0.2em"/>
+                                    <mo stretchy="false">⟶</mo>
+                                    <mspace width="0.2em"/>
+                                    <msub>
+                                      <mtext>H</mtext>
+                                      <mn>2</mn>
+                                    </msub>
+                                    <mtext>O</mtext>
+                                    <mo>+</mo>
+                                    <msub>
+                                      <mtext>N</mtext>
+                                      <mn>2</mn>
+                                    </msub>
+                                    <mtext>O</mtext>
+                                    <mo>.</mo>
+                                  </mrow>
+                                </mrow>
+                                <annotation-xml encoding="MathML-Content">
+                                  <mrow>
+                                    <mn>2</mn>
+                                    <mtext>NO</mtext>
+                                    <mo>+</mo>
+                                    <msub>
+                                      <mtext>H</mtext>
+                                      <mn>2</mn>
+                                    </msub>
+                                    <mspace width="0.2em"/>
+                                    <mo stretchy="false">⟶</mo>
+                                    <mspace width="0.2em"/>
+                                    <msub>
+                                      <mtext>H</mtext>
+                                      <mn>2</mn>
+                                    </msub>
+                                    <mtext>O</mtext>
+                                    <mo>+</mo>
+                                    <msub>
+                                      <mtext>N</mtext>
+                                      <mn>2</mn>
+                                    </msub>
+                                    <mtext>O</mtext>
+                                    <mo>.</mo>
+                                  </mrow>
+                                </annotation-xml>
+                              </semantics>
+                            </math> This reaction corresponds to the observed rate law. Combine steps 1 and 2 with step 3, which occurs by supposition in a rapid fashion, to give the appropriate stoichiometry.
+                          </p>
+                        </div>
+                      </div>
+                      <div data-type="solution" id="fs-idm121944048-solution">
+                        <a
+                          class="os-number"
+                          href="12-exercises#fs-idm121944048"
+                        >76</a>
+                        <span class="os-divider">.</span>
+                        <div class="os-solution-container">
+                          <p
+                            id="fs-idm276597024"
+                          >The general mode of action for a catalyst is to provide a mechanism by which the reactants can unite more readily by taking a path with a lower reaction energy. The rates of both the forward and the reverse reactions are increased, leading to a faster achievement of equilibrium.</p>
+                        </div>
+                      </div>
+                      <div data-type="solution" id="fs-idm268031984-solution">
+                        <a
+                          class="os-number"
+                          href="12-exercises#fs-idm268031984"
+                        >78</a>
+                        <span class="os-divider">.</span>
+                        <div class="os-solution-container">
+                          <p
+                            id="fs-idm226654304"
+                          >(a) Chlorine atoms are a catalyst because they react in the second step but are regenerated in the third step. Thus, they are not used up, which is a characteristic of catalysts. (b) NO is a catalyst for the same reason as in part (a).</p>
+                        </div>
+                      </div>
+                      <div data-type="solution" id="fs-idm219276192-solution">
+                        <a
+                          class="os-number"
+                          href="12-exercises#fs-idm219276192"
+                        >80</a>
+                        <span class="os-divider">.</span>
+                        <div class="os-solution-container">
+                          <p
+                            id="fs-idm222281872"
+                          >The lowering of the transition state energy indicates the effect of a catalyst. (a) B; (b) B</p>
+                        </div>
+                      </div>
+                      <div data-type="solution" id="fs-idm218836096-solution">
+                        <a
+                          class="os-number"
+                          href="12-exercises#fs-idm218836096"
+                        >82</a>
+                        <span class="os-divider">.</span>
+                        <div class="os-solution-container">
+                          <p
+                            id="fs-idm35117840"
+                          >The energy needed to go from the initial state to the transition state is (a) 10 kJ; (b) 10 kJ.</p>
+                        </div>
+                      </div>
+                      <div data-type="solution" id="fs-idm225889216-solution">
+                        <a
+                          class="os-number"
+                          href="12-exercises#fs-idm225889216"
+                        >84</a>
+                        <span class="os-divider">.</span>
+                        <div class="os-solution-container">
+                          <p
+                            id="fs-idm218832672"
+                          >Both diagrams describe two-step, exothermic reactions, but with different changes in enthalpy, suggesting the diagrams depict two different overall reactions.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  

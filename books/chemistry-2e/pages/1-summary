@@ -1,0 +1,105 @@
+
+                    <div
+                      class="os-eoc os-summary-container"
+                      data-type="composite-page"
+                      data-uuid-key=".summary"
+                    >
+                      <section
+                        class="summary"
+                        data-depth="1"
+                        id="fs-idm40478192"
+                      >
+                        <h3 data-type="document-title" id="[redacted for uniqueness]">
+                          <span class="os-number">1.1</span>
+                          <span class="os-divider"></span>
+                          <span class="os-text">Chemistry in Context</span>
+                        </h3>
+                        <p
+                          id="fs-idm14698032"
+                        >Chemistry deals with the composition, structure, and properties of matter, and the ways by which various forms of matter may be interconverted. Thus, it occupies a central place in the study and practice of science and technology. Chemists use the scientific method to perform experiments, pose hypotheses, and formulate laws and develop theories, so that they can better understand the behavior of the natural world. To do so, they operate in the macroscopic, microscopic, and symbolic domains. Chemists measure, analyze, purify, and synthesize a wide variety of substances that are important to our lives.</p>
+                      </section>
+                      <section
+                        class="summary"
+                        data-depth="1"
+                        id="fs-idp11969024"
+                      >
+                        <h3 data-type="document-title" id="[redacted for uniqueness]">
+                          <span class="os-number">1.2</span>
+                          <span class="os-divider"></span>
+                          <span
+                            class="os-text"
+                          >Phases and Classification of Matter</span>
+                        </h3>
+                        <p
+                          id="fs-idp42086864"
+                        >Matter is anything that occupies space and has mass. The basic building block of matter is the atom, the smallest unit of an element that can enter into combinations with atoms of the same or other elements. In many substances, atoms are combined into molecules. On earth, matter commonly exists in three states: solids, of fixed shape and volume; liquids, of variable shape but fixed volume; and gases, of variable shape and volume. Under high-temperature conditions, matter also can exist as a plasma. Most matter is a mixture: It is composed of two or more types of matter that can be present in varying amounts and can be separated by physical means. Heterogeneous mixtures vary in composition from point to point; homogeneous mixtures have the same composition from point to point. Pure substances consist of only one type of matter. A pure substance can be an element, which consists of only one type of atom and cannot be broken down by a chemical change, or a compound, which consists of two or more types of atoms.</p>
+                      </section>
+                      <section
+                        class="summary"
+                        data-depth="1"
+                        id="fs-idp74996960"
+                      >
+                        <h3 data-type="document-title" id="[redacted for uniqueness]">
+                          <span class="os-number">1.3</span>
+                          <span class="os-divider"></span>
+                          <span class="os-text">Physical and Chemical Properties</span>
+                        </h3>
+                        <p
+                          id="fs-idp236281408"
+                        >All substances have distinct physical and chemical properties, and may undergo physical or chemical changes. Physical properties, such as hardness and boiling point, and physical changes, such as melting or freezing, do not involve a change in the composition of matter. Chemical properties, such flammability and acidity, and chemical changes, such as rusting, involve production of matter that differs from that present beforehand.</p>
+                        <p
+                          id="fs-idp132347232"
+                        >Measurable properties fall into one of two categories. Extensive properties depend on the amount of matter present, for example, the mass of gold. Intensive properties do not depend on the amount of matter present, for example, the density of gold. Heat is an example of an extensive property, and temperature is an example of an intensive property.</p>
+                      </section>
+                      <section
+                        class="summary"
+                        data-depth="1"
+                        id="fs-idm333536464"
+                      >
+                        <h3 data-type="document-title" id="[redacted for uniqueness]">
+                          <span class="os-number">1.4</span>
+                          <span class="os-divider"></span>
+                          <span class="os-text">Measurements</span>
+                        </h3>
+                        <p id="fs-idm330017088">
+                          Measurements provide quantitative information that is critical in studying and practicing chemistry. Each measurement has an amount, a unit for comparison, and an uncertainty. Measurements can be represented in either decimal or scientific notation. Scientists primarily use SI (International System) units such as meters, seconds, and kilograms, as well as derived units, such as liters (for volume) and g/cm
+                          <sup>3</sup> (for density). In many cases, it is convenient to use prefixes that yield fractional and multiple units, such as microseconds (10
+                          <sup>−6</sup> seconds) and megahertz (10
+                          <sup>6</sup> hertz), respectively.
+                        </p>
+                      </section>
+                      <section
+                        class="summary"
+                        data-depth="1"
+                        id="fs-idp223627024"
+                      >
+                        <h3 data-type="document-title" id="[redacted for uniqueness]">
+                          <span class="os-number">1.5</span>
+                          <span class="os-divider"></span>
+                          <span
+                            class="os-text"
+                          >Measurement Uncertainty, Accuracy, and Precision</span>
+                        </h3>
+                        <p
+                          id="fs-idp108718096"
+                        >Quantities can be defined or measured. Measured quantities have an associated uncertainty that is represented by the number of significant figures in the quantity’s number. The uncertainty of a calculated quantity depends on the uncertainties in the quantities used in the calculation and is reflected in how the value is rounded. Quantities are characterized with regard to accuracy (closeness to a true or accepted value) and precision (variation among replicate measurement results).</p>
+                      </section>
+                      <section
+                        class="summary"
+                        data-depth="1"
+                        id="fs-idm292051392"
+                      >
+                        <h3 data-type="document-title" id="[redacted for uniqueness]">
+                          <span class="os-number">1.6</span>
+                          <span class="os-divider"></span>
+                          <span
+                            class="os-text"
+                          >Mathematical Treatment of Measurement Results</span>
+                        </h3>
+                        <p
+                          id="fs-idm126307616"
+                        >Measurements are made using a variety of units. It is often useful or necessary to convert a measured quantity from one unit into another. These conversions are accomplished using unit conversion factors, which are derived by simple applications of a mathematical approach called the factor-label method or dimensional analysis. This strategy is also employed to calculate sought quantities using measured quantities and appropriate mathematical relations.</p>
+                      </section>
+                    </div>
+                  </div>
+                  

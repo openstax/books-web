@@ -1,0 +1,95 @@
+
+                    <div
+                      class="os-eoc os-summary-container"
+                      data-type="composite-page"
+                      data-uuid-key=".summary"
+                    >
+                      <section
+                        class="summary"
+                        data-depth="1"
+                        id="fs-idm20865904"
+                      >
+                        <h3 data-type="document-title" id="[redacted for uniqueness]">
+                          <span class="os-number">7.1</span>
+                          <span class="os-divider"></span>
+                          <span class="os-text">Ionic Bonding</span>
+                        </h3>
+                        <p
+                          id="fs-idm91340640"
+                        >Atoms gain or lose electrons to form ions with particularly stable electron configurations. The charges of cations formed by the representative metals may be determined readily because, with few exceptions, the electronic structures of these ions have either a noble gas configuration or a completely filled electron shell. The charges of anions formed by the nonmetals may also be readily determined because these ions form when nonmetal atoms gain enough electrons to fill their valence shells.</p>
+                      </section>
+                      <section
+                        class="summary"
+                        data-depth="1"
+                        id="fs-idm4705056"
+                      >
+                        <h3 data-type="document-title" id="[redacted for uniqueness]">
+                          <span class="os-number">7.2</span>
+                          <span class="os-divider"></span>
+                          <span class="os-text">Covalent Bonding</span>
+                        </h3>
+                        <p
+                          id="fs-idp86079584"
+                        >Covalent bonds form when electrons are shared between atoms and are attracted by the nuclei of both atoms. In pure covalent bonds, the electrons are shared equally. In polar covalent bonds, the electrons are shared unequally, as one atom exerts a stronger force of attraction on the electrons than the other. The ability of an atom to attract a pair of electrons in a chemical bond is called its electronegativity. The difference in electronegativity between two atoms determines how polar a bond will be. In a diatomic molecule with two identical atoms, there is no difference in electronegativity, so the bond is nonpolar or pure covalent. When the electronegativity difference is very large, as is the case between metals and nonmetals, the bonding is characterized as ionic.</p>
+                      </section>
+                      <section
+                        class="summary"
+                        data-depth="1"
+                        id="fs-idm103622960"
+                      >
+                        <h3 data-type="document-title" id="[redacted for uniqueness]">
+                          <span class="os-number">7.3</span>
+                          <span class="os-divider"></span>
+                          <span class="os-text">Lewis Symbols and Structures</span>
+                        </h3>
+                        <p
+                          id="fs-idm18966656"
+                        >Valence electronic structures can be visualized by drawing Lewis symbols (for atoms and monatomic ions) and Lewis structures (for molecules and polyatomic ions). Lone pairs, unpaired electrons, and single, double, or triple bonds are used to indicate where the valence electrons are located around each atom in a Lewis structure. Most structures—especially those containing second row elements—obey the octet rule, in which every atom (except H) is surrounded by eight electrons. Exceptions to the octet rule occur for odd-electron molecules (free radicals), electron-deficient molecules, and hypervalent molecules.</p>
+                      </section>
+                      <section
+                        class="summary"
+                        data-depth="1"
+                        id="fs-idm30786384"
+                      >
+                        <h3 data-type="document-title" id="[redacted for uniqueness]">
+                          <span class="os-number">7.4</span>
+                          <span class="os-divider"></span>
+                          <span class="os-text">Formal Charges and Resonance</span>
+                        </h3>
+                        <p
+                          id="fs-idp91470432"
+                        >In a Lewis structure, formal charges can be assigned to each atom by treating each bond as if one-half of the electrons are assigned to each atom. These hypothetical formal charges are a guide to determining the most appropriate Lewis structure. A structure in which the formal charges are as close to zero as possible is preferred. Resonance occurs in cases where two or more Lewis structures with identical arrangements of atoms but different distributions of electrons can be written. The actual distribution of electrons (the resonance hybrid) is an average of the distribution indicated by the individual Lewis structures (the resonance forms).</p>
+                      </section>
+                      <section
+                        class="summary"
+                        data-depth="1"
+                        id="fs-idp234492208"
+                      >
+                        <h3 data-type="document-title" id="[redacted for uniqueness]">
+                          <span class="os-number">7.5</span>
+                          <span class="os-divider"></span>
+                          <span
+                            class="os-text"
+                          >Strengths of Ionic and Covalent Bonds</span>
+                        </h3>
+                        <p
+                          id="fs-idm21693280"
+                        >The strength of a covalent bond is measured by its bond dissociation energy, that is, the amount of energy required to break that particular bond in a mole of molecules. Multiple bonds are stronger than single bonds between the same atoms. The enthalpy of a reaction can be estimated based on the energy input required to break bonds and the energy released when new bonds are formed. For ionic bonds, the lattice energy is the energy required to separate one mole of a compound into its gas phase ions. Lattice energy increases for ions with higher charges and shorter distances between ions. Lattice energies are often calculated using the Born-Haber cycle, a thermochemical cycle including all of the energetic steps involved in converting elements into an ionic compound.</p>
+                      </section>
+                      <section
+                        class="summary"
+                        data-depth="1"
+                        id="fs-idp238464336"
+                      >
+                        <h3 data-type="document-title" id="[redacted for uniqueness]">
+                          <span class="os-number">7.6</span>
+                          <span class="os-divider"></span>
+                          <span class="os-text">Molecular Structure and Polarity</span>
+                        </h3>
+                        <p
+                          id="fs-idp12666320"
+                        >VSEPR theory predicts the three-dimensional arrangement of atoms in a molecule. It states that valence electrons will assume an electron-pair geometry that minimizes repulsions between areas of high electron density (bonds and/or lone pairs). Molecular structure, which refers only to the placement of atoms in a molecule and not the electrons, is equivalent to electron-pair geometry only when there are no lone electron pairs around the central atom. A dipole moment measures a separation of charge. For one bond, the bond dipole moment is determined by the difference in electronegativity between the two atoms. For a molecule, the overall dipole moment is determined by both the individual bond moments and how these dipoles are arranged in the molecular structure. Polar molecules (those with an appreciable dipole moment) interact with electric fields, whereas nonpolar molecules do not.</p>
+                      </section>
+                    </div>
+                  </div>
+                  

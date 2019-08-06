@@ -1,0 +1,2450 @@
+
+                    <div
+                      data-cnxml-to-html-ver="[redacted for uniqueness]"
+                      data-type="page"
+                      id="9b866cac-4fb8-4db9-a92c-2cb4cabeefd0"
+                    >
+                      <div data-type="abstract" id="[redacted for uniqueness]">
+                        By the end of this section, you will be able to:
+                        <ul>
+                          <li>Explain the characterization of aqueous solutions as acidic, basic, or neutral</li>
+                          <li>Express hydronium and hydroxide ion concentrations on the pH and pOH scales</li>
+                          <li>Perform calculations relating pH and pOH</li>
+                        </ul>
+                      </div>
+
+                      <p id="fs-idp11137424">
+                        As discussed earlier, hydronium and hydroxide ions are present both in pure water and in all aqueous solutions, and their concentrations are inversely proportional as determined by the ion product of water (
+                        <em data-effect="italics">K</em>
+                        <sub>w</sub>). The concentrations of these ions in a solution are often critical determinants of the solution’s properties and the chemical behaviors of its other solutes, and specific vocabulary has been developed to describe these concentrations in relative terms. A solution is
+                        <span data-type="term" group-by="n" id="[redacted for uniqueness]">neutral</span> if it contains equal concentrations of hydronium and hydroxide ions;
+                        <span data-type="term" group-by="a" id="[redacted for uniqueness]">acidic</span> if it contains a greater concentration of hydronium ions than hydroxide ions; and
+                        <span data-type="term" group-by="b" id="[redacted for uniqueness]">basic</span> if it contains a lesser concentration of hydronium ions than hydroxide ions.
+                      </p>
+
+                      <p
+                        id="fs-idm21650320"
+                      >A common means of expressing quantities that may span many orders of magnitude is to use a logarithmic scale. One such scale that is very popular for chemical concentrations and equilibrium constants is based on the p-function, defined as shown where “X” is the quantity of interest and “log” is the base-10 logarithm:</p>
+
+                      <div data-type="equation" id="fs-idp27819744">
+                        <math display="block">
+                          <semantics>
+                            <mrow>
+                              <mrow>
+                                <mtext>pX</mtext>
+                                <mo>=</mo>
+                                <mtext>−log X</mtext>
+                              </mrow>
+                            </mrow>
+                            <annotation-xml encoding="MathML-Content">
+                              <mrow>
+                                <mtext>pX</mtext>
+                                <mo>=</mo>
+                                <mtext>−log X</mtext>
+                              </mrow>
+                            </annotation-xml>
+                          </semantics>
+                        </math>
+                      </div>
+
+                      <p id="fs-idm40569744">
+                        The
+                        <span data-type="term" group-by="p" id="[redacted for uniqueness]">pH</span> of a solution is therefore defined as shown here, where [H
+                        <sub>3</sub>O
+                        <sup>+</sup>] is the molar concentration of hydronium ion in the solution:
+                      </p>
+
+                      <div data-type="equation" id="fs-idm104306928">
+                        <math display="block">
+                          <semantics>
+                            <mrow>
+                              <mrow>
+                                <mtext>pH</mtext>
+                                <mo>=</mo>
+                                <mtext>−log</mtext>
+                                <mrow>
+                                  <mo stretchy="false">[</mo>
+                                  <mrow>
+                                    <msub>
+                                      <mtext>H</mtext>
+                                      <mn>3</mn>
+                                    </msub>
+                                    <msup>
+                                      <mtext>O</mtext>
+                                      <mtext>+</mtext>
+                                    </msup>
+                                  </mrow>
+                                  <mo stretchy="false">]</mo>
+                                </mrow>
+                              </mrow>
+                            </mrow>
+                            <annotation-xml encoding="MathML-Content">
+                              <mrow>
+                                <mtext>pH</mtext>
+                                <mo>=</mo>
+                                <mtext>−log</mtext>
+                                <mrow>
+                                  <mo stretchy="false">[</mo>
+                                  <mrow>
+                                    <msub>
+                                      <mtext>H</mtext>
+                                      <mn>3</mn>
+                                    </msub>
+                                    <msup>
+                                      <mtext>O</mtext>
+                                      <mtext>+</mtext>
+                                    </msup>
+                                  </mrow>
+                                  <mo stretchy="false">]</mo>
+                                </mrow>
+                              </mrow>
+                            </annotation-xml>
+                          </semantics>
+                        </math>
+                      </div>
+
+                      <p
+                        id="fs-idm112635600"
+                      >Rearranging this equation to isolate the hydronium ion molarity yields the equivalent expression:</p>
+
+                      <div data-type="equation" id="fs-idm34387328">
+                        <math display="block">
+                          <semantics>
+                            <mrow>
+                              <mrow>
+                                <mrow>
+                                  <mo stretchy="false">[</mo>
+                                  <mrow>
+                                    <msub>
+                                      <mtext>H</mtext>
+                                      <mn>3</mn>
+                                    </msub>
+                                    <msup>
+                                      <mtext>O</mtext>
+                                      <mtext>+</mtext>
+                                    </msup>
+                                  </mrow>
+                                  <mo stretchy="false">]</mo>
+                                </mrow>
+                                <mo>=</mo>
+                                <msup>
+                                  <mrow>
+                                    <mn>10</mn>
+                                  </mrow>
+                                  <mrow>
+                                    <mtext>−pH</mtext>
+                                  </mrow>
+                                </msup>
+                              </mrow>
+                            </mrow>
+                            <annotation-xml encoding="MathML-Content">
+                              <mrow>
+                                <mrow>
+                                  <mo stretchy="false">[</mo>
+                                  <mrow>
+                                    <msub>
+                                      <mtext>H</mtext>
+                                      <mn>3</mn>
+                                    </msub>
+                                    <msup>
+                                      <mtext>O</mtext>
+                                      <mtext>+</mtext>
+                                    </msup>
+                                  </mrow>
+                                  <mo stretchy="false">]</mo>
+                                </mrow>
+                                <mo>=</mo>
+                                <msup>
+                                  <mrow>
+                                    <mn>10</mn>
+                                  </mrow>
+                                  <mrow>
+                                    <mtext>−pH</mtext>
+                                  </mrow>
+                                </msup>
+                              </mrow>
+                            </annotation-xml>
+                          </semantics>
+                        </math>
+                      </div>
+
+                      <p id="fs-idp55544688">
+                        Likewise, the hydroxide ion molarity may be expressed as a p-function, or
+                        <span data-type="term" group-by="p" id="[redacted for uniqueness]">pOH</span>:
+                      </p>
+
+                      <div data-type="equation" id="fs-idp66748048">
+                        <math display="block">
+                          <semantics>
+                            <mrow>
+                              <mrow>
+                                <mtext>pOH</mtext>
+                                <mo>=</mo>
+                                <mtext>−log</mtext>
+                                <mrow>
+                                  <mo stretchy="false">[</mo>
+                                  <mrow>
+                                    <msup>
+                                      <mrow>
+                                        <mtext>OH</mtext>
+                                      </mrow>
+                                      <mtext>−</mtext>
+                                    </msup>
+                                  </mrow>
+                                  <mo stretchy="false">]</mo>
+                                </mrow>
+                              </mrow>
+                            </mrow>
+                            <annotation-xml encoding="MathML-Content">
+                              <mrow>
+                                <mtext>pOH</mtext>
+                                <mo>=</mo>
+                                <mtext>−log</mtext>
+                                <mrow>
+                                  <mo stretchy="false">[</mo>
+                                  <mrow>
+                                    <msup>
+                                      <mrow>
+                                        <mtext>OH</mtext>
+                                      </mrow>
+                                      <mtext>−</mtext>
+                                    </msup>
+                                  </mrow>
+                                  <mo stretchy="false">]</mo>
+                                </mrow>
+                              </mrow>
+                            </annotation-xml>
+                          </semantics>
+                        </math>
+                      </div>
+
+                      <p id="fs-idp67153952">or</p>
+
+                      <div data-type="equation" id="fs-idp102994080">
+                        <math display="block">
+                          <semantics>
+                            <mrow>
+                              <mrow>
+                                <mrow>
+                                  <mo>[</mo>
+                                  <mrow>
+                                    <msup>
+                                      <mrow>
+                                        <mtext>OH</mtext>
+                                      </mrow>
+                                      <mtext>−</mtext>
+                                    </msup>
+                                  </mrow>
+                                  <mo>]</mo>
+                                </mrow>
+                                <mo>=</mo>
+                                <msup>
+                                  <mrow>
+                                    <mn>10</mn>
+                                  </mrow>
+                                  <mrow>
+                                    <mtext>−pOH</mtext>
+                                  </mrow>
+                                </msup>
+                              </mrow>
+                            </mrow>
+                            <annotation-xml encoding="MathML-Content">
+                              <mrow>
+                                <mrow>
+                                  <mo>[</mo>
+                                  <mrow>
+                                    <msup>
+                                      <mrow>
+                                        <mtext>OH</mtext>
+                                      </mrow>
+                                      <mtext>−</mtext>
+                                    </msup>
+                                  </mrow>
+                                  <mo>]</mo>
+                                </mrow>
+                                <mo>=</mo>
+                                <msup>
+                                  <mrow>
+                                    <mn>10</mn>
+                                  </mrow>
+                                  <mrow>
+                                    <mtext>−pOH</mtext>
+                                  </mrow>
+                                </msup>
+                              </mrow>
+                            </annotation-xml>
+                          </semantics>
+                        </math>
+                      </div>
+
+                      <p id="fs-idm97029664">
+                        Finally, the relation between these two ion concentration expressed as p-functions is easily derived from the
+                        <em data-effect="italics">K</em>
+                        <sub>w</sub> expression:
+                      </p>
+
+                      <div data-type="equation" id="fs-idp158230176">
+                        <math display="block">
+                          <semantics>
+                            <mrow>
+                              <mrow>
+                                <msub>
+                                  <mi>K</mi>
+                                  <mtext>w</mtext>
+                                </msub>
+                                <mo>=</mo>
+                                <mrow>
+                                  <mo stretchy="false">[</mo>
+                                  <mrow>
+                                    <msub>
+                                      <mtext>H</mtext>
+                                      <mn>3</mn>
+                                    </msub>
+                                    <msup>
+                                      <mtext>O</mtext>
+                                      <mtext>+</mtext>
+                                    </msup>
+                                  </mrow>
+                                  <mo stretchy="false">]</mo>
+                                </mrow>
+                                <mrow>
+                                  <mo>[</mo>
+                                  <mrow>
+                                    <msup>
+                                      <mrow>
+                                        <mtext>OH</mtext>
+                                      </mrow>
+                                      <mtext>−</mtext>
+                                    </msup>
+                                  </mrow>
+                                  <mo>]</mo>
+                                </mrow>
+                              </mrow>
+                            </mrow>
+                            <annotation-xml encoding="MathML-Content">
+                              <mrow>
+                                <msub>
+                                  <mi>K</mi>
+                                  <mtext>w</mtext>
+                                </msub>
+                                <mo>=</mo>
+                                <mrow>
+                                  <mo stretchy="false">[</mo>
+                                  <mrow>
+                                    <msub>
+                                      <mtext>H</mtext>
+                                      <mn>3</mn>
+                                    </msub>
+                                    <msup>
+                                      <mtext>O</mtext>
+                                      <mtext>+</mtext>
+                                    </msup>
+                                  </mrow>
+                                  <mo stretchy="false">]</mo>
+                                </mrow>
+                                <mrow>
+                                  <mo>[</mo>
+                                  <mrow>
+                                    <msup>
+                                      <mrow>
+                                        <mtext>OH</mtext>
+                                      </mrow>
+                                      <mtext>−</mtext>
+                                    </msup>
+                                  </mrow>
+                                  <mo>]</mo>
+                                </mrow>
+                              </mrow>
+                            </annotation-xml>
+                          </semantics>
+                        </math>
+                      </div>
+
+                      <div data-type="equation" id="fs-idp50288944">
+                        <math display="block">
+                          <semantics>
+                            <mrow>
+                              <mrow>
+                                <mtext>−log</mtext>
+                                <mspace width="0.2em"/>
+                                <msub>
+                                  <mi>K</mi>
+                                  <mtext>w</mtext>
+                                </msub>
+                                <mo>=</mo>
+                                <mtext>−log</mtext>
+                                <mrow>
+                                  <mo>(</mo>
+                                  <mrow>
+                                    <mrow>
+                                      <mo stretchy="false">[</mo>
+                                      <mrow>
+                                        <msub>
+                                          <mtext>H</mtext>
+                                          <mn>3</mn>
+                                        </msub>
+                                        <msup>
+                                          <mtext>O</mtext>
+                                          <mtext>+</mtext>
+                                        </msup>
+                                      </mrow>
+                                      <mo stretchy="false">]</mo>
+                                    </mrow>
+                                    <mrow>
+                                      <mo>[</mo>
+                                      <mrow>
+                                        <msup>
+                                          <mrow>
+                                            <mtext>OH</mtext>
+                                          </mrow>
+                                          <mtext>−</mtext>
+                                        </msup>
+                                      </mrow>
+                                      <mo>]</mo>
+                                    </mrow>
+                                  </mrow>
+                                  <mo>)</mo>
+                                </mrow>
+                                <mo>=</mo>
+                                <mtext>−log</mtext>
+                                <mrow>
+                                  <mo stretchy="false">[</mo>
+                                  <mrow>
+                                    <msub>
+                                      <mtext>H</mtext>
+                                      <mn>3</mn>
+                                    </msub>
+                                    <msup>
+                                      <mtext>O</mtext>
+                                      <mtext>+</mtext>
+                                    </msup>
+                                  </mrow>
+                                  <mo stretchy="false">]</mo>
+                                </mrow>
+                                <mo>+</mo>
+                                <mtext>−log</mtext>
+                                <mrow>
+                                  <mo stretchy="false">[</mo>
+                                  <mrow>
+                                    <msup>
+                                      <mrow>
+                                        <mtext>OH</mtext>
+                                      </mrow>
+                                      <mtext>−</mtext>
+                                    </msup>
+                                  </mrow>
+                                  <mo stretchy="false">]</mo>
+                                </mrow>
+                              </mrow>
+                            </mrow>
+                            <annotation-xml encoding="MathML-Content">
+                              <mrow>
+                                <mtext>−log</mtext>
+                                <mspace width="0.2em"/>
+                                <msub>
+                                  <mi>K</mi>
+                                  <mtext>w</mtext>
+                                </msub>
+                                <mo>=</mo>
+                                <mtext>−log</mtext>
+                                <mrow>
+                                  <mo>(</mo>
+                                  <mrow>
+                                    <mrow>
+                                      <mo stretchy="false">[</mo>
+                                      <mrow>
+                                        <msub>
+                                          <mtext>H</mtext>
+                                          <mn>3</mn>
+                                        </msub>
+                                        <msup>
+                                          <mtext>O</mtext>
+                                          <mtext>+</mtext>
+                                        </msup>
+                                      </mrow>
+                                      <mo stretchy="false">]</mo>
+                                    </mrow>
+                                    <mrow>
+                                      <mo>[</mo>
+                                      <mrow>
+                                        <msup>
+                                          <mrow>
+                                            <mtext>OH</mtext>
+                                          </mrow>
+                                          <mtext>−</mtext>
+                                        </msup>
+                                      </mrow>
+                                      <mo>]</mo>
+                                    </mrow>
+                                  </mrow>
+                                  <mo>)</mo>
+                                </mrow>
+                                <mo>=</mo>
+                                <mtext>−log</mtext>
+                                <mrow>
+                                  <mo stretchy="false">[</mo>
+                                  <mrow>
+                                    <msub>
+                                      <mtext>H</mtext>
+                                      <mn>3</mn>
+                                    </msub>
+                                    <msup>
+                                      <mtext>O</mtext>
+                                      <mtext>+</mtext>
+                                    </msup>
+                                  </mrow>
+                                  <mo stretchy="false">]</mo>
+                                </mrow>
+                                <mo>+</mo>
+                                <mtext>−log</mtext>
+                                <mrow>
+                                  <mo stretchy="false">[</mo>
+                                  <mrow>
+                                    <msup>
+                                      <mrow>
+                                        <mtext>OH</mtext>
+                                      </mrow>
+                                      <mtext>−</mtext>
+                                    </msup>
+                                  </mrow>
+                                  <mo stretchy="false">]</mo>
+                                </mrow>
+                              </mrow>
+                            </annotation-xml>
+                          </semantics>
+                        </math>
+                      </div>
+
+                      <div data-type="equation" id="fs-idm65790448">
+                        <math display="block">
+                          <semantics>
+                            <mrow>
+                              <mrow>
+                                <mtext>p</mtext>
+                                <msub>
+                                  <mi>K</mi>
+                                  <mtext>w</mtext>
+                                </msub>
+                                <mo>=</mo>
+                                <mtext>pH</mtext>
+                                <mo>+</mo>
+                                <mtext>pOH</mtext>
+                              </mrow>
+                            </mrow>
+                            <annotation-xml encoding="MathML-Content">
+                              <mrow>
+                                <mtext>p</mtext>
+                                <msub>
+                                  <mi>K</mi>
+                                  <mtext>w</mtext>
+                                </msub>
+                                <mo>=</mo>
+                                <mtext>pH</mtext>
+                                <mo>+</mo>
+                                <mtext>pOH</mtext>
+                              </mrow>
+                            </annotation-xml>
+                          </semantics>
+                        </math>
+                      </div>
+
+                      <p id="fs-idp11266224">
+                        At 25 °C, the value of
+                        <em data-effect="italics">K</em>
+                        <sub>w</sub> is 1.0
+                        <math display="inline">
+                          <semantics>
+                            <mrow>
+                              <mo>×</mo>
+                            </mrow>
+                            <annotation-xml encoding="MathML-Content">
+                              <mo>×</mo>
+                            </annotation-xml>
+                          </semantics>
+                        </math> 10
+                        <sup>−14</sup>, and so:
+                      </p>
+
+                      <div data-type="equation" id="fs-idm26101984">
+                        <math display="block">
+                          <semantics>
+                            <mrow>
+                              <mrow>
+                                <mn>14.00</mn>
+                                <mo>=</mo>
+                                <mtext>pH</mtext>
+                                <mo>+</mo>
+                                <mtext>pOH</mtext>
+                              </mrow>
+                            </mrow>
+                            <annotation-xml encoding="MathML-Content">
+                              <mrow>
+                                <mn>14.00</mn>
+                                <mo>=</mo>
+                                <mtext>pH</mtext>
+                                <mo>+</mo>
+                                <mtext>pOH</mtext>
+                              </mrow>
+                            </annotation-xml>
+                          </semantics>
+                        </math>
+                      </div>
+
+                      <p id="fs-idm103103632">
+                        As was shown in
+                        <a
+                          class="autogenerated-content"
+                          href="14-1-bronsted-lowry-acids-and-bases#fs-idm123712192"
+                        >Example 14.1</a>, the hydronium ion molarity in pure water (or any neutral solution) is 1.0
+                        <math display="inline">
+                          <semantics>
+                            <mrow>
+                              <mo>×</mo>
+                            </mrow>
+                            <annotation-xml encoding="MathML-Content">
+                              <mo>×</mo>
+                            </annotation-xml>
+                          </semantics>
+                        </math> 10
+                        <sup>−7</sup>
+                        <em data-effect="italics">M</em> at 25 °C. The pH and pOH of a neutral solution at this temperature are therefore:
+                      </p>
+
+                      <div data-type="equation" id="fs-idp111835440">
+                        <math display="block">
+                          <semantics>
+                            <mrow>
+                              <mrow>
+                                <mtext>pH</mtext>
+                                <mo>=</mo>
+                                <mtext>−log</mtext>
+                                <mrow>
+                                  <mo stretchy="false">[</mo>
+                                  <mrow>
+                                    <msub>
+                                      <mtext>H</mtext>
+                                      <mn>3</mn>
+                                    </msub>
+                                    <msup>
+                                      <mtext>O</mtext>
+                                      <mtext>+</mtext>
+                                    </msup>
+                                  </mrow>
+                                  <mo stretchy="false">]</mo>
+                                </mrow>
+                                <mo>=</mo>
+                                <mtext>−log</mtext>
+                                <mrow>
+                                  <mo stretchy="false">(</mo>
+                                  <mrow>
+                                    <mn>1.0</mn>
+                                    <mspace width="0.2em"/>
+                                    <mo>×</mo>
+                                    <mspace width="0.2em"/>
+                                    <mn>1</mn>
+                                    <msup>
+                                      <mn>0</mn>
+                                      <mrow>
+                                        <mn>−7</mn>
+                                      </mrow>
+                                    </msup>
+                                  </mrow>
+                                  <mo stretchy="false">)</mo>
+                                </mrow>
+                                <mo>=</mo>
+                                <mn>7.00</mn>
+                              </mrow>
+                            </mrow>
+                            <annotation-xml encoding="MathML-Content">
+                              <mrow>
+                                <mtext>pH</mtext>
+                                <mo>=</mo>
+                                <mtext>−log</mtext>
+                                <mrow>
+                                  <mo stretchy="false">[</mo>
+                                  <mrow>
+                                    <msub>
+                                      <mtext>H</mtext>
+                                      <mn>3</mn>
+                                    </msub>
+                                    <msup>
+                                      <mtext>O</mtext>
+                                      <mtext>+</mtext>
+                                    </msup>
+                                  </mrow>
+                                  <mo stretchy="false">]</mo>
+                                </mrow>
+                                <mo>=</mo>
+                                <mtext>−log</mtext>
+                                <mrow>
+                                  <mo stretchy="false">(</mo>
+                                  <mrow>
+                                    <mn>1.0</mn>
+                                    <mspace width="0.2em"/>
+                                    <mo>×</mo>
+                                    <mspace width="0.2em"/>
+                                    <mn>1</mn>
+                                    <msup>
+                                      <mn>0</mn>
+                                      <mrow>
+                                        <mn>−7</mn>
+                                      </mrow>
+                                    </msup>
+                                  </mrow>
+                                  <mo stretchy="false">)</mo>
+                                </mrow>
+                                <mo>=</mo>
+                                <mn>7.00</mn>
+                              </mrow>
+                            </annotation-xml>
+                          </semantics>
+                        </math>
+                      </div>
+
+                      <div data-type="equation" id="fs-idm65159184">
+                        <math display="block">
+                          <semantics>
+                            <mrow>
+                              <mrow>
+                                <mtext>pOH</mtext>
+                                <mo>=</mo>
+                                <mtext>−log</mtext>
+                                <mrow>
+                                  <mo stretchy="false">[</mo>
+                                  <mrow>
+                                    <msup>
+                                      <mrow>
+                                        <mtext>OH</mtext>
+                                      </mrow>
+                                      <mtext>−</mtext>
+                                    </msup>
+                                  </mrow>
+                                  <mo stretchy="false">]</mo>
+                                </mrow>
+                                <mo>=</mo>
+                                <mtext>−log</mtext>
+                                <mrow>
+                                  <mo stretchy="false">(</mo>
+                                  <mrow>
+                                    <mn>1.0</mn>
+                                    <mspace width="0.2em"/>
+                                    <mo>×</mo>
+                                    <mspace width="0.2em"/>
+                                    <mn>1</mn>
+                                    <msup>
+                                      <mn>0</mn>
+                                      <mrow>
+                                        <mn>−7</mn>
+                                      </mrow>
+                                    </msup>
+                                  </mrow>
+                                  <mo stretchy="false">)</mo>
+                                </mrow>
+                                <mo>=</mo>
+                                <mn>7.00</mn>
+                              </mrow>
+                            </mrow>
+                            <annotation-xml encoding="MathML-Content">
+                              <mrow>
+                                <mtext>pOH</mtext>
+                                <mo>=</mo>
+                                <mtext>−log</mtext>
+                                <mrow>
+                                  <mo stretchy="false">[</mo>
+                                  <mrow>
+                                    <msup>
+                                      <mrow>
+                                        <mtext>OH</mtext>
+                                      </mrow>
+                                      <mtext>−</mtext>
+                                    </msup>
+                                  </mrow>
+                                  <mo stretchy="false">]</mo>
+                                </mrow>
+                                <mo>=</mo>
+                                <mtext>−log</mtext>
+                                <mrow>
+                                  <mo stretchy="false">(</mo>
+                                  <mrow>
+                                    <mn>1.0</mn>
+                                    <mspace width="0.2em"/>
+                                    <mo>×</mo>
+                                    <mspace width="0.2em"/>
+                                    <mn>1</mn>
+                                    <msup>
+                                      <mn>0</mn>
+                                      <mrow>
+                                        <mn>−7</mn>
+                                      </mrow>
+                                    </msup>
+                                  </mrow>
+                                  <mo stretchy="false">)</mo>
+                                </mrow>
+                                <mo>=</mo>
+                                <mn>7.00</mn>
+                              </mrow>
+                            </annotation-xml>
+                          </semantics>
+                        </math>
+                      </div>
+
+                      <p id="fs-idp108462720">
+                        And so,
+                        <em data-effect="italics">at this temperature</em>, acidic solutions are those with hydronium ion molarities greater than 1.0
+                        <math display="inline">
+                          <semantics>
+                            <mrow>
+                              <mo>×</mo>
+                            </mrow>
+                            <annotation-xml encoding="MathML-Content">
+                              <mo>×</mo>
+                            </annotation-xml>
+                          </semantics>
+                        </math> 10
+                        <sup>−7</sup>
+                        <em data-effect="italics">M</em> and hydroxide ion molarities less than 1.0
+                        <math display="inline">
+                          <semantics>
+                            <mrow>
+                              <mo>×</mo>
+                            </mrow>
+                            <annotation-xml encoding="MathML-Content">
+                              <mo>×</mo>
+                            </annotation-xml>
+                          </semantics>
+                        </math> 10
+                        <sup>−7</sup>
+                        <em data-effect="italics">M</em> (corresponding to pH values less than 7.00 and pOH values greater than 7.00). Basic solutions are those with hydronium ion molarities less than 1.0
+                        <math display="inline">
+                          <semantics>
+                            <mrow>
+                              <mo>×</mo>
+                            </mrow>
+                            <annotation-xml encoding="MathML-Content">
+                              <mo>×</mo>
+                            </annotation-xml>
+                          </semantics>
+                        </math> 10
+                        <sup>−7</sup>
+                        <em data-effect="italics">M</em> and hydroxide ion molarities greater than 1.0
+                        <math display="inline">
+                          <semantics>
+                            <mrow>
+                              <mo>×</mo>
+                            </mrow>
+                            <annotation-xml encoding="MathML-Content">
+                              <mo>×</mo>
+                            </annotation-xml>
+                          </semantics>
+                        </math> 10
+                        <sup>−7</sup>
+                        <em data-effect="italics">M</em> (corresponding to pH values greater than 7.00 and pOH values less than 7.00).
+                      </p>
+
+                      <p id="fs-idm84564368">
+                        Since the autoionization constant
+                        <em data-effect="italics">K</em>
+                        <sub>w</sub> is temperature dependent, these correlations between pH values and the acidic/neutral/basic adjectives will be different at temperatures other than 25 °C. For example, the “Check Your Learning” exercise accompanying
+                        <a
+                          class="autogenerated-content"
+                          href="14-1-bronsted-lowry-acids-and-bases#fs-idm123712192"
+                        >Example 14.1</a> showed the hydronium molarity of pure water at 80 °C is 4.9
+                        <math display="inline">
+                          <semantics>
+                            <mrow>
+                              <mo>×</mo>
+                            </mrow>
+                            <annotation-xml encoding="MathML-Content">
+                              <mo>×</mo>
+                            </annotation-xml>
+                          </semantics>
+                        </math> 10
+                        <sup>−7</sup>
+                        <em data-effect="italics">M</em>, which corresponds to pH and pOH values of:
+                      </p>
+
+                      <div data-type="equation" id="fs-idm62771680">
+                        <math display="block">
+                          <semantics>
+                            <mrow>
+                              <mrow>
+                                <mtext>pH</mtext>
+                                <mo>=</mo>
+                                <mtext>−log</mtext>
+                                <mrow>
+                                  <mo stretchy="false">[</mo>
+                                  <mrow>
+                                    <msub>
+                                      <mtext>H</mtext>
+                                      <mn>3</mn>
+                                    </msub>
+                                    <msup>
+                                      <mtext>O</mtext>
+                                      <mtext>+</mtext>
+                                    </msup>
+                                  </mrow>
+                                  <mo stretchy="false">]</mo>
+                                </mrow>
+                                <mo>=</mo>
+                                <mtext>−log</mtext>
+                                <mrow>
+                                  <mo stretchy="false">(</mo>
+                                  <mrow>
+                                    <mn>4.9</mn>
+                                    <mspace width="0.2em"/>
+                                    <mo>×</mo>
+                                    <mspace width="0.2em"/>
+                                    <msup>
+                                      <mrow>
+                                        <mn>10</mn>
+                                      </mrow>
+                                      <mrow>
+                                        <mn>−7</mn>
+                                      </mrow>
+                                    </msup>
+                                  </mrow>
+                                  <mo stretchy="false">)</mo>
+                                </mrow>
+                                <mo>=</mo>
+                                <mn>6.31</mn>
+                              </mrow>
+                            </mrow>
+                            <annotation-xml encoding="MathML-Content">
+                              <mrow>
+                                <mtext>pH</mtext>
+                                <mo>=</mo>
+                                <mtext>−log</mtext>
+                                <mrow>
+                                  <mo stretchy="false">[</mo>
+                                  <mrow>
+                                    <msub>
+                                      <mtext>H</mtext>
+                                      <mn>3</mn>
+                                    </msub>
+                                    <msup>
+                                      <mtext>O</mtext>
+                                      <mtext>+</mtext>
+                                    </msup>
+                                  </mrow>
+                                  <mo stretchy="false">]</mo>
+                                </mrow>
+                                <mo>=</mo>
+                                <mtext>−log</mtext>
+                                <mrow>
+                                  <mo stretchy="false">(</mo>
+                                  <mrow>
+                                    <mn>4.9</mn>
+                                    <mspace width="0.2em"/>
+                                    <mo>×</mo>
+                                    <mspace width="0.2em"/>
+                                    <msup>
+                                      <mrow>
+                                        <mn>10</mn>
+                                      </mrow>
+                                      <mrow>
+                                        <mn>−7</mn>
+                                      </mrow>
+                                    </msup>
+                                  </mrow>
+                                  <mo stretchy="false">)</mo>
+                                </mrow>
+                                <mo>=</mo>
+                                <mn>6.31</mn>
+                              </mrow>
+                            </annotation-xml>
+                          </semantics>
+                        </math>
+                      </div>
+
+                      <div data-type="equation" id="fs-idm102114704">
+                        <math display="block">
+                          <semantics>
+                            <mrow>
+                              <mrow>
+                                <mtext>pOH</mtext>
+                                <mo>=</mo>
+                                <mtext>−log</mtext>
+                                <mrow>
+                                  <mo stretchy="false">[</mo>
+                                  <mrow>
+                                    <msup>
+                                      <mrow>
+                                        <mtext>OH</mtext>
+                                      </mrow>
+                                      <mtext>−</mtext>
+                                    </msup>
+                                  </mrow>
+                                  <mo stretchy="false">]</mo>
+                                </mrow>
+                                <mo>=</mo>
+                                <mtext>−log</mtext>
+                                <mrow>
+                                  <mo stretchy="false">(</mo>
+                                  <mrow>
+                                    <mn>4.9</mn>
+                                    <mspace width="0.2em"/>
+                                    <mo>×</mo>
+                                    <mspace width="0.2em"/>
+                                    <msup>
+                                      <mn>10</mn>
+                                      <mrow>
+                                        <mn>−7</mn>
+                                      </mrow>
+                                    </msup>
+                                  </mrow>
+                                  <mo stretchy="false">)</mo>
+                                </mrow>
+                                <mo>=</mo>
+                                <mn>6.31</mn>
+                              </mrow>
+                            </mrow>
+                            <annotation-xml encoding="MathML-Content">
+                              <mrow>
+                                <mtext>pOH</mtext>
+                                <mo>=</mo>
+                                <mtext>−log</mtext>
+                                <mrow>
+                                  <mo stretchy="false">[</mo>
+                                  <mrow>
+                                    <msup>
+                                      <mrow>
+                                        <mtext>OH</mtext>
+                                      </mrow>
+                                      <mtext>−</mtext>
+                                    </msup>
+                                  </mrow>
+                                  <mo stretchy="false">]</mo>
+                                </mrow>
+                                <mo>=</mo>
+                                <mtext>−log</mtext>
+                                <mrow>
+                                  <mo stretchy="false">(</mo>
+                                  <mrow>
+                                    <mn>4.9</mn>
+                                    <mspace width="0.2em"/>
+                                    <mo>×</mo>
+                                    <mspace width="0.2em"/>
+                                    <msup>
+                                      <mn>10</mn>
+                                      <mrow>
+                                        <mn>−7</mn>
+                                      </mrow>
+                                    </msup>
+                                  </mrow>
+                                  <mo stretchy="false">)</mo>
+                                </mrow>
+                                <mo>=</mo>
+                                <mn>6.31</mn>
+                              </mrow>
+                            </annotation-xml>
+                          </semantics>
+                        </math>
+                      </div>
+
+                      <p id="fs-idm67617872">
+                        At this temperature, then, neutral solutions exhibit pH = pOH = 6.31, acidic solutions exhibit pH less than 6.31 and pOH greater than 6.31, whereas basic solutions exhibit pH greater than 6.31 and pOH less than 6.31. This distinction can be important when studying certain processes that occur at other temperatures, such as enzyme reactions in warm-blooded organisms at a temperature around 36–40 °C. Unless otherwise noted, references to pH values are presumed to be those at 25 °C (
+                        <a
+                          class="autogenerated-content"
+                          href="#fs-idp56820128"
+                        >Table 14.1</a>).
+                      </p>
+
+                      <div class="os-table" id="fs-idp56820128">
+                        <table
+                          class="top-titled"
+                          data-id="fs-idp56820128"
+                          summary="Table 14.1  "
+                        >
+                          <thead>
+                            <tr>
+                              <th
+                                colspan="3"
+                                data-align="center"
+                              >Summary of Relations for Acidic, Basic and Neutral Solutions</th>
+                            </tr>
+                            <tr valign="top">
+                              <th data-align="center">Classification</th>
+                              <th
+                                data-align="center"
+                              >Relative Ion Concentrations</th>
+                              <th data-align="center">pH at 25 °C</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr valign="top">
+                              <td data-align="center">acidic</td>
+                              <td data-align="center">
+                                [H
+                                <sub>3</sub>O
+                                <sup>+</sup>] &gt; [OH
+                                <sup>−</sup>]
+                              </td>
+                              <td data-align="center">pH &lt; 7</td>
+                            </tr>
+                            <tr valign="top">
+                              <td data-align="center">neutral</td>
+                              <td data-align="center">
+                                [H
+                                <sub>3</sub>O
+                                <sup>+</sup>] = [OH
+                                <sup>−</sup>]
+                              </td>
+                              <td data-align="center">pH = 7</td>
+                            </tr>
+                            <tr valign="top">
+                              <td data-align="center">basic</td>
+                              <td data-align="center">
+                                [H
+                                <sub>3</sub>O
+                                <sup>+</sup>] &lt; [OH
+                                <sup>−</sup>]
+                              </td>
+                              <td data-align="center">pH &gt; 7</td>
+                            </tr>
+                          </tbody>
+                        </table>
+                        <div class="os-caption-container">
+                          <span class="os-title-label">Table</span>
+                          <span class="os-number">14.1</span>
+                          <span class="os-divider"></span>
+                          <span class="os-divider"></span>
+                        </div>
+                      </div>
+
+                      <p id="fs-idp96882128">
+                        <a
+                          class="autogenerated-content"
+                          href="#CNX_Chem_14_02_phscale"
+                        >Figure 14.2</a> shows the relationships between [H
+                        <sub>3</sub>O
+                        <sup>+</sup>], [OH
+                        <sup>−</sup>], pH, and pOH for solutions classified as acidic, basic, and neutral.
+                      </p>
+
+                      <div class="os-figure" id="CNX_Chem_14_02_phscale">
+                        <figure data-id="CNX_Chem_14_02_phscale">
+                          <span
+                            data-alt="A table is provided with 5 columns. The first column is labeled “left bracket H subscript 3 O superscript plus right bracket (M).” Powers of ten are listed in the column beginning at 10 superscript 1, including 10 superscript 0 or 1, 10 superscript negative 1, decreasing by single powers of 10 to 10 superscript negative 15. The second column is labeled “left bracket O H superscript negative right bracket (M).” Powers of ten are listed in the column beginning at 10 superscript negative 15, increasing by single powers of 10 to including 10 superscript 0 or 1, and 10 superscript 1. The third column is labeled “p H.” Values listed in this column are integers beginning at negative 1, increasing by ones up to 14. The fourth column is labeled “p O H.” Values in this column are integers beginning at 15, decreasing by ones up to negative 1. The fifth column is labeled “Sample Solution.” A vertical line at the left of the column has tick marks corresponding to each p H level in the table. Substances are listed next to this line segment with line segments connecting them to the line to show approximate p H and p O H values. 1 M H C l is listed at a p H of 0. Gastric juices are listed at a p H of about 1.5. Lime juice is listed at a p H of about 2, followed by 1 M C H subscript 3 C O subscript 2 H, followed by stomach acid at a p H value of nearly 3. Wine is listed around 3.5. Coffee is listed just past 5. Pure water is listed at a p H of 7. Pure blood is just beyond 7. Milk of Magnesia is listed just past a p H of 10.5. Household ammonia is listed just before a pH of 12. 1 M N a O H is listed at a p H of 0. To the right of this labeled arrow is an arrow that points up and down through the height of the column. A beige strip passes through the table and to this double headed arrow at p H 7. To the left of the double headed arrow in this beige strip is the label “neutral.” A narrow beige strip runs through the arrow. Just above and below this region, the arrow is purple. It gradually turns to a bright red as it extends upward. At the top of the arrow, near the head of the arrow is the label “acidic.” Similarly, the lower region changes color from purple to blue moving to the bottom of the column. The head at this end of the arrow is labeled “basic.”"
+                            data-type="media"
+                            id="fs-idm15160336"
+                          >
+                            <img
+                              alt="A table is provided with 5 columns. The first column is labeled “left bracket H subscript 3 O superscript plus right bracket (M).” Powers of ten are listed in the column beginning at 10 superscript 1, including 10 superscript 0 or 1, 10 superscript negative 1, decreasing by single powers of 10 to 10 superscript negative 15. The second column is labeled “left bracket O H superscript negative right bracket (M).” Powers of ten are listed in the column beginning at 10 superscript negative 15, increasing by single powers of 10 to including 10 superscript 0 or 1, and 10 superscript 1. The third column is labeled “p H.” Values listed in this column are integers beginning at negative 1, increasing by ones up to 14. The fourth column is labeled “p O H.” Values in this column are integers beginning at 15, decreasing by ones up to negative 1. The fifth column is labeled “Sample Solution.” A vertical line at the left of the column has tick marks corresponding to each p H level in the table. Substances are listed next to this line segment with line segments connecting them to the line to show approximate p H and p O H values. 1 M H C l is listed at a p H of 0. Gastric juices are listed at a p H of about 1.5. Lime juice is listed at a p H of about 2, followed by 1 M C H subscript 3 C O subscript 2 H, followed by stomach acid at a p H value of nearly 3. Wine is listed around 3.5. Coffee is listed just past 5. Pure water is listed at a p H of 7. Pure blood is just beyond 7. Milk of Magnesia is listed just past a p H of 10.5. Household ammonia is listed just before a pH of 12. 1 M N a O H is listed at a p H of 0. To the right of this labeled arrow is an arrow that points up and down through the height of the column. A beige strip passes through the table and to this double headed arrow at p H 7. To the left of the double headed arrow in this beige strip is the label “neutral.” A narrow beige strip runs through the arrow. Just above and below this region, the arrow is purple. It gradually turns to a bright red as it extends upward. At the top of the arrow, near the head of the arrow is the label “acidic.” Similarly, the lower region changes color from purple to blue moving to the bottom of the column. The head at this end of the arrow is labeled “basic.”"
+                              data-media-type="image/jpeg"
+                              id="[redacted for uniqueness]"
+                              src="/resources/378eb2088eee1b167e86904fdefea2aaa67db3a5"
+                            >
+                          </span>
+                        </figure>
+                        <div class="os-caption-container">
+                          <span class="os-title-label">Figure</span>
+                          <span class="os-number">14.2</span>
+                          <span class="os-divider"></span>
+                          <span class="os-divider"></span>
+                          <span class="os-caption">
+                            The pH and pOH scales represent concentrations of H
+                            <sub>3</sub>O
+                            <sup>+</sup> and OH
+                            <sup>−</sup>, respectively. The pH and pOH values of some common substances at 25 °C are shown in this chart.
+                          </span>
+                        </div>
+                      </div>
+
+                      <div data-type="example" id="fs-idp62701056">
+                        <h3 class="os-title">
+                          <span class="os-title-label">Example</span>
+                          <span class="os-number">14.4</span>
+                          <span class="os-divider"></span>
+                        </h3>
+                        <p id="fs-idp97421056">
+                          <span data-type="title">
+                            Calculation of pH from [H
+                            <sub>3</sub>O
+                            <sup>+</sup>]
+                          </span>
+                          What is the pH of stomach acid, a solution of HCl with a hydronium ion concentration of 1.2
+                          <math display="inline">
+                            <semantics>
+                              <mrow>
+                                <mo>×</mo>
+                              </mrow>
+                              <annotation-xml encoding="MathML-Content">
+                                <mo>×</mo>
+                              </annotation-xml>
+                            </semantics>
+                          </math> 10
+                          <sup>−3</sup>
+                          <em data-effect="italics">M</em>?
+                        </p>
+                        <p id="fs-idm103954896">
+                          <span data-type="title">Solution</span>
+                        </p>
+                        <div data-type="equation" id="fs-idm98702480">
+                          <math display="block">
+                            <semantics>
+                              <mrow>
+                                <mrow>
+                                  <mtext>pH</mtext>
+                                  <mo>=</mo>
+                                  <mtext>−log</mtext>
+                                  <mrow>
+                                    <mo stretchy="false">[</mo>
+                                    <mrow>
+                                      <msub>
+                                        <mtext>H</mtext>
+                                        <mn>3</mn>
+                                      </msub>
+                                      <msup>
+                                        <mtext>O</mtext>
+                                        <mtext>+</mtext>
+                                      </msup>
+                                    </mrow>
+                                    <mo stretchy="false">]</mo>
+                                  </mrow>
+                                </mrow>
+                              </mrow>
+                              <annotation-xml encoding="MathML-Content">
+                                <mrow>
+                                  <mtext>pH</mtext>
+                                  <mo>=</mo>
+                                  <mtext>−log</mtext>
+                                  <mrow>
+                                    <mo stretchy="false">[</mo>
+                                    <mrow>
+                                      <msub>
+                                        <mtext>H</mtext>
+                                        <mn>3</mn>
+                                      </msub>
+                                      <msup>
+                                        <mtext>O</mtext>
+                                        <mtext>+</mtext>
+                                      </msup>
+                                    </mrow>
+                                    <mo stretchy="false">]</mo>
+                                  </mrow>
+                                </mrow>
+                              </annotation-xml>
+                            </semantics>
+                          </math>
+                        </div>
+                        <div data-type="equation" id="fs-idm79624528">
+                          <math display="block">
+                            <semantics>
+                              <mrow>
+                                <mrow>
+                                  <mo>=</mo>
+                                  <mtext>−log(</mtext>
+                                  <mn>1.2</mn>
+                                  <mspace width="0.2em"/>
+                                  <mo>×</mo>
+                                  <mspace width="0.2em"/>
+                                  <msup>
+                                    <mrow>
+                                      <mn>10</mn>
+                                    </mrow>
+                                    <mrow>
+                                      <mn>−3</mn>
+                                    </mrow>
+                                  </msup>
+                                  <mo stretchy="false">)</mo>
+                                </mrow>
+                              </mrow>
+                              <annotation-xml encoding="MathML-Content">
+                                <mrow>
+                                  <mo>=</mo>
+                                  <mtext>−log(</mtext>
+                                  <mn>1.2</mn>
+                                  <mspace width="0.2em"/>
+                                  <mo>×</mo>
+                                  <mspace width="0.2em"/>
+                                  <msup>
+                                    <mrow>
+                                      <mn>10</mn>
+                                    </mrow>
+                                    <mrow>
+                                      <mn>−3</mn>
+                                    </mrow>
+                                  </msup>
+                                  <mo stretchy="false">)</mo>
+                                </mrow>
+                              </annotation-xml>
+                            </semantics>
+                          </math>
+                        </div>
+                        <div data-type="equation" id="fs-idm7356256">
+                          <math display="block">
+                            <semantics>
+                              <mrow>
+                                <mrow>
+                                  <mo>=</mo>
+                                  <mtext>−</mtext>
+                                  <mrow>
+                                    <mo stretchy="false">(</mo>
+                                    <mrow>
+                                      <mn>−2.92</mn>
+                                    </mrow>
+                                    <mo stretchy="false">)</mo>
+                                  </mrow>
+                                  <mo>=</mo>
+                                  <mn>2.92</mn>
+                                </mrow>
+                              </mrow>
+                              <annotation-xml encoding="MathML-Content">
+                                <mrow>
+                                  <mo>=</mo>
+                                  <mtext>−</mtext>
+                                  <mrow>
+                                    <mo stretchy="false">(</mo>
+                                    <mrow>
+                                      <mn>−2.92</mn>
+                                    </mrow>
+                                    <mo stretchy="false">)</mo>
+                                  </mrow>
+                                  <mo>=</mo>
+                                  <mn>2.92</mn>
+                                </mrow>
+                              </annotation-xml>
+                            </semantics>
+                          </math>
+                        </div>
+                        <p id="[redacted for uniqueness]">
+                          <span data-type="newline">
+                            <br>
+                          </span>
+                          (The use of logarithms is explained in
+                          <a
+                            class="target-chapter"
+                            href="a-the-periodic-table"
+                          >Appendix B</a>. When taking the log of a value, keep as many decimal places in the result as there are significant figures in the value.)
+                        </p>
+                        <p id="fs-idp57469360">
+                          <span data-type="title">Check Your Learning</span>
+                          Water exposed to air contains carbonic acid, H
+                          <sub>2</sub>CO
+                          <sub>3</sub>, due to the reaction between carbon dioxide and water:
+                        </p>
+                        <div data-type="equation" id="fs-idm45568144">
+                          <math display="block">
+                            <semantics>
+                              <mrow>
+                                <mrow>
+                                  <msub>
+                                    <mrow>
+                                      <mtext>CO</mtext>
+                                    </mrow>
+                                    <mn>2</mn>
+                                  </msub>
+                                  <mo stretchy="false">(</mo>
+                                  <mi>a</mi>
+                                  <mi>q</mi>
+                                  <mo stretchy="false">)</mo>
+                                  <mo>+</mo>
+                                  <msub>
+                                    <mtext>H</mtext>
+                                    <mn>2</mn>
+                                  </msub>
+                                  <mtext>O(</mtext>
+                                  <mi>l</mi>
+                                  <mo stretchy="false">)</mo>
+                                  <mspace width="0.2em"/>
+                                  <mo stretchy="false">⇌</mo>
+                                  <mspace width="0.2em"/>
+                                  <msub>
+                                    <mtext>H</mtext>
+                                    <mn>2</mn>
+                                  </msub>
+                                  <msub>
+                                    <mrow>
+                                      <mtext>CO</mtext>
+                                    </mrow>
+                                    <mn>3</mn>
+                                  </msub>
+                                  <mo stretchy="false">(</mo>
+                                  <mi>a</mi>
+                                  <mi>q</mi>
+                                  <mo stretchy="false">)</mo>
+                                </mrow>
+                              </mrow>
+                              <annotation-xml encoding="MathML-Content">
+                                <mrow>
+                                  <msub>
+                                    <mrow>
+                                      <mtext>CO</mtext>
+                                    </mrow>
+                                    <mn>2</mn>
+                                  </msub>
+                                  <mo stretchy="false">(</mo>
+                                  <mi>a</mi>
+                                  <mi>q</mi>
+                                  <mo stretchy="false">)</mo>
+                                  <mo>+</mo>
+                                  <msub>
+                                    <mtext>H</mtext>
+                                    <mn>2</mn>
+                                  </msub>
+                                  <mtext>O(</mtext>
+                                  <mi>l</mi>
+                                  <mo stretchy="false">)</mo>
+                                  <mspace width="0.2em"/>
+                                  <mo stretchy="false">⇌</mo>
+                                  <mspace width="0.2em"/>
+                                  <msub>
+                                    <mtext>H</mtext>
+                                    <mn>2</mn>
+                                  </msub>
+                                  <msub>
+                                    <mrow>
+                                      <mtext>CO</mtext>
+                                    </mrow>
+                                    <mn>3</mn>
+                                  </msub>
+                                  <mo stretchy="false">(</mo>
+                                  <mi>a</mi>
+                                  <mi>q</mi>
+                                  <mo stretchy="false">)</mo>
+                                </mrow>
+                              </annotation-xml>
+                            </semantics>
+                          </math>
+                        </div>
+                        <p id="fs-idm106049328">
+                          Air-saturated water has a hydronium ion concentration caused by the dissolved CO
+                          <sub>2</sub> of 2.0
+                          <math display="inline">
+                            <semantics>
+                              <mrow>
+                                <mo>×</mo>
+                              </mrow>
+                              <annotation-xml encoding="MathML-Content">
+                                <mo>×</mo>
+                              </annotation-xml>
+                            </semantics>
+                          </math> 10
+                          <sup>−6</sup>
+                          <em data-effect="italics">M</em>, about 20-times larger than that of pure water. Calculate the pH of the solution at 25 °C.
+                        </p>
+                        <div data-type="note" id="fs-idm61631152">
+                          <h3 class="os-title" data-type="title">
+                            <span
+                              class="os-title-label"
+                              data-type
+                              id="[redacted for uniqueness]"
+                            >Answer:</span>
+                          </h3>
+                          <div class="os-note-body">
+                            <p id="fs-idm99369680">5.70</p>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div data-type="example" id="fs-idp57695872">
+                        <h3 class="os-title">
+                          <span class="os-title-label">Example</span>
+                          <span class="os-number">14.5</span>
+                          <span class="os-divider"></span>
+                        </h3>
+                        <p id="fs-idm102910496">
+                          <span
+                            data-type="title"
+                          >Calculation of Hydronium Ion Concentration from pH</span>
+                          Calculate the hydronium ion concentration of blood, the pH of which is 7.3.
+                        </p>
+                        <p id="fs-idp11945040">
+                          <span data-type="title">Solution</span>
+                        </p>
+                        <div data-type="equation" id="fs-idm108531776">
+                          <math display="block">
+                            <semantics>
+                              <mrow>
+                                <mrow>
+                                  <mtext>pH</mtext>
+                                  <mo>=</mo>
+                                  <mtext>−log</mtext>
+                                  <mrow>
+                                    <mo stretchy="false">[</mo>
+                                    <mrow>
+                                      <msub>
+                                        <mtext>H</mtext>
+                                        <mn>3</mn>
+                                      </msub>
+                                      <msup>
+                                        <mtext>O</mtext>
+                                        <mtext>+</mtext>
+                                      </msup>
+                                    </mrow>
+                                    <mo stretchy="false">]</mo>
+                                  </mrow>
+                                  <mo>=</mo>
+                                  <mn>7.3</mn>
+                                </mrow>
+                              </mrow>
+                              <annotation-xml encoding="MathML-Content">
+                                <mrow>
+                                  <mtext>pH</mtext>
+                                  <mo>=</mo>
+                                  <mtext>−log</mtext>
+                                  <mrow>
+                                    <mo stretchy="false">[</mo>
+                                    <mrow>
+                                      <msub>
+                                        <mtext>H</mtext>
+                                        <mn>3</mn>
+                                      </msub>
+                                      <msup>
+                                        <mtext>O</mtext>
+                                        <mtext>+</mtext>
+                                      </msup>
+                                    </mrow>
+                                    <mo stretchy="false">]</mo>
+                                  </mrow>
+                                  <mo>=</mo>
+                                  <mn>7.3</mn>
+                                </mrow>
+                              </annotation-xml>
+                            </semantics>
+                          </math>
+                        </div>
+                        <div data-type="equation" id="fs-idm49363536">
+                          <math display="block">
+                            <semantics>
+                              <mrow>
+                                <mrow>
+                                  <mtext>log</mtext>
+                                  <mrow>
+                                    <mo stretchy="false">[</mo>
+                                    <mrow>
+                                      <msub>
+                                        <mtext>H</mtext>
+                                        <mn>3</mn>
+                                      </msub>
+                                      <msup>
+                                        <mtext>O</mtext>
+                                        <mtext>+</mtext>
+                                      </msup>
+                                    </mrow>
+                                    <mo stretchy="false">]</mo>
+                                  </mrow>
+                                  <mo>=</mo>
+                                  <mn>−7.3</mn>
+                                </mrow>
+                              </mrow>
+                              <annotation-xml encoding="MathML-Content">
+                                <mrow>
+                                  <mtext>log</mtext>
+                                  <mrow>
+                                    <mo stretchy="false">[</mo>
+                                    <mrow>
+                                      <msub>
+                                        <mtext>H</mtext>
+                                        <mn>3</mn>
+                                      </msub>
+                                      <msup>
+                                        <mtext>O</mtext>
+                                        <mtext>+</mtext>
+                                      </msup>
+                                    </mrow>
+                                    <mo stretchy="false">]</mo>
+                                  </mrow>
+                                  <mo>=</mo>
+                                  <mn>−7.3</mn>
+                                </mrow>
+                              </annotation-xml>
+                            </semantics>
+                          </math>
+                        </div>
+                        <div data-type="equation" id="fs-idp46442128">
+                          <math display="block">
+                            <semantics>
+                              <mrow>
+                                <mrow>
+                                  <mrow>
+                                    <mo stretchy="false">[</mo>
+                                    <mrow>
+                                      <msub>
+                                        <mtext>H</mtext>
+                                        <mn>3</mn>
+                                      </msub>
+                                      <msup>
+                                        <mtext>O</mtext>
+                                        <mtext>+</mtext>
+                                      </msup>
+                                    </mrow>
+                                    <mo stretchy="false">]</mo>
+                                  </mrow>
+                                  <mo>=</mo>
+                                  <msup>
+                                    <mrow>
+                                      <mn>10</mn>
+                                    </mrow>
+                                    <mrow>
+                                      <mn>−7.3</mn>
+                                    </mrow>
+                                  </msup>
+                                  <mspace width="0.2em"/>
+                                  <mtext>or</mtext>
+                                  <mspace width="0.4em"/>
+                                  <mrow>
+                                    <mo stretchy="false">[</mo>
+                                    <mrow>
+                                      <msub>
+                                        <mtext>H</mtext>
+                                        <mn>3</mn>
+                                      </msub>
+                                      <msup>
+                                        <mtext>O</mtext>
+                                        <mtext>+</mtext>
+                                      </msup>
+                                    </mrow>
+                                    <mo stretchy="false">]</mo>
+                                  </mrow>
+                                  <mo>=</mo>
+                                  <mtext>antilog of −7.3</mtext>
+                                </mrow>
+                              </mrow>
+                              <annotation-xml encoding="MathML-Content">
+                                <mrow>
+                                  <mrow>
+                                    <mo stretchy="false">[</mo>
+                                    <mrow>
+                                      <msub>
+                                        <mtext>H</mtext>
+                                        <mn>3</mn>
+                                      </msub>
+                                      <msup>
+                                        <mtext>O</mtext>
+                                        <mtext>+</mtext>
+                                      </msup>
+                                    </mrow>
+                                    <mo stretchy="false">]</mo>
+                                  </mrow>
+                                  <mo>=</mo>
+                                  <msup>
+                                    <mrow>
+                                      <mn>10</mn>
+                                    </mrow>
+                                    <mrow>
+                                      <mn>−7.3</mn>
+                                    </mrow>
+                                  </msup>
+                                  <mspace width="0.2em"/>
+                                  <mtext>or</mtext>
+                                  <mspace width="0.4em"/>
+                                  <mrow>
+                                    <mo stretchy="false">[</mo>
+                                    <mrow>
+                                      <msub>
+                                        <mtext>H</mtext>
+                                        <mn>3</mn>
+                                      </msub>
+                                      <msup>
+                                        <mtext>O</mtext>
+                                        <mtext>+</mtext>
+                                      </msup>
+                                    </mrow>
+                                    <mo stretchy="false">]</mo>
+                                  </mrow>
+                                  <mo>=</mo>
+                                  <mtext>antilog of −7.3</mtext>
+                                </mrow>
+                              </annotation-xml>
+                            </semantics>
+                          </math>
+                        </div>
+                        <div data-type="equation" id="fs-idm58086272">
+                          <math display="block">
+                            <semantics>
+                              <mrow>
+                                <mrow>
+                                  <mrow>
+                                    <mo stretchy="false">[</mo>
+                                    <mrow>
+                                      <msub>
+                                        <mtext>H</mtext>
+                                        <mn>3</mn>
+                                      </msub>
+                                      <msup>
+                                        <mtext>O</mtext>
+                                        <mtext>+</mtext>
+                                      </msup>
+                                    </mrow>
+                                    <mo stretchy="false">]</mo>
+                                  </mrow>
+                                  <mo>=</mo>
+                                  <mn>5</mn>
+                                  <mspace width="0.2em"/>
+                                  <mo>×</mo>
+                                  <mspace width="0.2em"/>
+                                  <msup>
+                                    <mrow>
+                                      <mn>10</mn>
+                                    </mrow>
+                                    <mrow>
+                                      <mn>−8</mn>
+                                    </mrow>
+                                  </msup>
+                                  <mspace width="0.2em"/>
+                                  <mi>M</mi>
+                                </mrow>
+                              </mrow>
+                              <annotation-xml encoding="MathML-Content">
+                                <mrow>
+                                  <mrow>
+                                    <mo stretchy="false">[</mo>
+                                    <mrow>
+                                      <msub>
+                                        <mtext>H</mtext>
+                                        <mn>3</mn>
+                                      </msub>
+                                      <msup>
+                                        <mtext>O</mtext>
+                                        <mtext>+</mtext>
+                                      </msup>
+                                    </mrow>
+                                    <mo stretchy="false">]</mo>
+                                  </mrow>
+                                  <mo>=</mo>
+                                  <mn>5</mn>
+                                  <mspace width="0.2em"/>
+                                  <mo>×</mo>
+                                  <mspace width="0.2em"/>
+                                  <msup>
+                                    <mrow>
+                                      <mn>10</mn>
+                                    </mrow>
+                                    <mrow>
+                                      <mn>−8</mn>
+                                    </mrow>
+                                  </msup>
+                                  <mspace width="0.2em"/>
+                                  <mi>M</mi>
+                                </mrow>
+                              </annotation-xml>
+                            </semantics>
+                          </math>
+                        </div>
+                        <p id="[redacted for uniqueness]">
+                          <span data-type="newline">
+                            <br>
+                          </span>
+                          (On a calculator take the antilog, or the “inverse” log, of −7.3, or calculate 10
+                          <sup>−7.3</sup>.)
+                        </p>
+                        <p id="fs-idp487584">
+                          <span data-type="title">Check Your Learning</span>
+                          Calculate the hydronium ion concentration of a solution with a pH of −1.07.
+                        </p>
+                        <div data-type="note" id="fs-idp89672320">
+                          <h3 class="os-title" data-type="title">
+                            <span
+                              class="os-title-label"
+                              data-type
+                              id="[redacted for uniqueness]"
+                            >Answer:</span>
+                          </h3>
+                          <div class="os-note-body">
+                            <p id="fs-idm9452560">
+                              12
+                              <em data-effect="italics">M</em>
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div
+                        class="chemistry sciences-interconnect"
+                        data-type="note"
+                        id="fs-idp48828576"
+                      >
+                        <h3 class="os-title" data-type="title">
+                          <span class="os-title-label">How Sciences Interconnect</span>
+                        </h3>
+                        <div class="os-note-body">
+                          <h4 class="os-subtitle" data-type="title" id="[redacted for uniqueness]">
+                            <span
+                              class="os-subtitle-label"
+                            >Environmental Science</span>
+                          </h4>
+                          <p id="fs-idm116727232">
+                            Normal rainwater has a pH between 5 and 6 due to the presence of dissolved CO
+                            <sub>2</sub> which forms carbonic acid:
+                          </p>
+                          <div data-type="equation" id="fs-idp66992000">
+                            <math display="block">
+                              <semantics>
+                                <mrow>
+                                  <mrow>
+                                    <msub>
+                                      <mtext>H</mtext>
+                                      <mn>2</mn>
+                                    </msub>
+                                    <mtext>O</mtext>
+                                    <mo stretchy="false">(</mo>
+                                    <mi>l</mi>
+                                    <mo stretchy="false">)</mo>
+                                    <mo>+</mo>
+                                    <msub>
+                                      <mrow>
+                                        <mtext>CO</mtext>
+                                      </mrow>
+                                      <mn>2</mn>
+                                    </msub>
+                                    <mo stretchy="false">(</mo>
+                                    <mi>g</mi>
+                                    <mo stretchy="false">)</mo>
+                                    <mspace width="0.2em"/>
+                                    <mo stretchy="false">⟶</mo>
+                                    <mspace width="0.2em"/>
+                                    <msub>
+                                      <mtext>H</mtext>
+                                      <mn>2</mn>
+                                    </msub>
+                                    <msub>
+                                      <mrow>
+                                        <mtext>CO</mtext>
+                                      </mrow>
+                                      <mn>3</mn>
+                                    </msub>
+                                    <mo stretchy="false">(</mo>
+                                    <mi>a</mi>
+                                    <mi>q</mi>
+                                    <mo stretchy="false">)</mo>
+                                  </mrow>
+                                </mrow>
+                                <annotation-xml encoding="MathML-Content">
+                                  <mrow>
+                                    <msub>
+                                      <mtext>H</mtext>
+                                      <mn>2</mn>
+                                    </msub>
+                                    <mtext>O</mtext>
+                                    <mo stretchy="false">(</mo>
+                                    <mi>l</mi>
+                                    <mo stretchy="false">)</mo>
+                                    <mo>+</mo>
+                                    <msub>
+                                      <mrow>
+                                        <mtext>CO</mtext>
+                                      </mrow>
+                                      <mn>2</mn>
+                                    </msub>
+                                    <mo stretchy="false">(</mo>
+                                    <mi>g</mi>
+                                    <mo stretchy="false">)</mo>
+                                    <mspace width="0.2em"/>
+                                    <mo stretchy="false">⟶</mo>
+                                    <mspace width="0.2em"/>
+                                    <msub>
+                                      <mtext>H</mtext>
+                                      <mn>2</mn>
+                                    </msub>
+                                    <msub>
+                                      <mrow>
+                                        <mtext>CO</mtext>
+                                      </mrow>
+                                      <mn>3</mn>
+                                    </msub>
+                                    <mo stretchy="false">(</mo>
+                                    <mi>a</mi>
+                                    <mi>q</mi>
+                                    <mo stretchy="false">)</mo>
+                                  </mrow>
+                                </annotation-xml>
+                              </semantics>
+                            </math>
+                          </div>
+                          <div data-type="equation" id="fs-idm103550896">
+                            <math display="block">
+                              <semantics>
+                                <mrow>
+                                  <mrow>
+                                    <msub>
+                                      <mtext>H</mtext>
+                                      <mn>2</mn>
+                                    </msub>
+                                    <msub>
+                                      <mrow>
+                                        <mtext>CO</mtext>
+                                      </mrow>
+                                      <mn>3</mn>
+                                    </msub>
+                                    <mo stretchy="false">(</mo>
+                                    <mi>a</mi>
+                                    <mi>q</mi>
+                                    <mo stretchy="false">)</mo>
+                                    <mspace width="0.2em"/>
+                                    <mo stretchy="false">⇌</mo>
+                                    <mspace width="0.2em"/>
+                                    <msup>
+                                      <mtext>H</mtext>
+                                      <mtext>+</mtext>
+                                    </msup>
+                                    <mo stretchy="false">(</mo>
+                                    <mi>a</mi>
+                                    <mi>q</mi>
+                                    <mo stretchy="false">)</mo>
+                                    <mo>+</mo>
+                                    <msub>
+                                      <mrow>
+                                        <mtext>HCO</mtext>
+                                      </mrow>
+                                      <mn>3</mn>
+                                    </msub>
+                                    <msup>
+                                      <mrow/>
+                                      <mtext>−</mtext>
+                                    </msup>
+                                    <mo stretchy="false">(</mo>
+                                    <mi>a</mi>
+                                    <mi>q</mi>
+                                    <mo stretchy="false">)</mo>
+                                  </mrow>
+                                </mrow>
+                                <annotation-xml encoding="MathML-Content">
+                                  <mrow>
+                                    <msub>
+                                      <mtext>H</mtext>
+                                      <mn>2</mn>
+                                    </msub>
+                                    <msub>
+                                      <mrow>
+                                        <mtext>CO</mtext>
+                                      </mrow>
+                                      <mn>3</mn>
+                                    </msub>
+                                    <mo stretchy="false">(</mo>
+                                    <mi>a</mi>
+                                    <mi>q</mi>
+                                    <mo stretchy="false">)</mo>
+                                    <mspace width="0.2em"/>
+                                    <mo stretchy="false">⇌</mo>
+                                    <mspace width="0.2em"/>
+                                    <msup>
+                                      <mtext>H</mtext>
+                                      <mtext>+</mtext>
+                                    </msup>
+                                    <mo stretchy="false">(</mo>
+                                    <mi>a</mi>
+                                    <mi>q</mi>
+                                    <mo stretchy="false">)</mo>
+                                    <mo>+</mo>
+                                    <msub>
+                                      <mrow>
+                                        <mtext>HCO</mtext>
+                                      </mrow>
+                                      <mn>3</mn>
+                                    </msub>
+                                    <msup>
+                                      <mrow/>
+                                      <mtext>−</mtext>
+                                    </msup>
+                                    <mo stretchy="false">(</mo>
+                                    <mi>a</mi>
+                                    <mi>q</mi>
+                                    <mo stretchy="false">)</mo>
+                                  </mrow>
+                                </annotation-xml>
+                              </semantics>
+                            </math>
+                          </div>
+                          <p id="fs-idp13883280">
+                            Acid rain is rainwater that has a pH of less than 5, due to a variety of nonmetal oxides, including CO
+                            <sub>2</sub>, SO
+                            <sub>2</sub>, SO
+                            <sub>3</sub>, NO, and NO
+                            <sub>2</sub> being dissolved in the water and reacting with it to form not only carbonic acid, but sulfuric acid and nitric acid. The formation and subsequent ionization of sulfuric acid are shown here:
+                          </p>
+                          <div data-type="equation" id="fs-idp39536896">
+                            <math display="block">
+                              <semantics>
+                                <mrow>
+                                  <mrow>
+                                    <msub>
+                                      <mtext>H</mtext>
+                                      <mn>2</mn>
+                                    </msub>
+                                    <mtext>O</mtext>
+                                    <mo stretchy="false">(</mo>
+                                    <mi>l</mi>
+                                    <mo stretchy="false">)</mo>
+                                    <mo>+</mo>
+                                    <msub>
+                                      <mrow>
+                                        <mtext>SO</mtext>
+                                      </mrow>
+                                      <mn>3</mn>
+                                    </msub>
+                                    <mo stretchy="false">(</mo>
+                                    <mi>g</mi>
+                                    <mo stretchy="false">)</mo>
+                                    <mspace width="0.2em"/>
+                                    <mo stretchy="false">⟶</mo>
+                                    <mspace width="0.2em"/>
+                                    <msub>
+                                      <mtext>H</mtext>
+                                      <mn>2</mn>
+                                    </msub>
+                                    <msub>
+                                      <mrow>
+                                        <mtext>SO</mtext>
+                                      </mrow>
+                                      <mn>4</mn>
+                                    </msub>
+                                    <mo stretchy="false">(</mo>
+                                    <mi>a</mi>
+                                    <mi>q</mi>
+                                    <mo stretchy="false">)</mo>
+                                  </mrow>
+                                </mrow>
+                                <annotation-xml encoding="MathML-Content">
+                                  <mrow>
+                                    <msub>
+                                      <mtext>H</mtext>
+                                      <mn>2</mn>
+                                    </msub>
+                                    <mtext>O</mtext>
+                                    <mo stretchy="false">(</mo>
+                                    <mi>l</mi>
+                                    <mo stretchy="false">)</mo>
+                                    <mo>+</mo>
+                                    <msub>
+                                      <mrow>
+                                        <mtext>SO</mtext>
+                                      </mrow>
+                                      <mn>3</mn>
+                                    </msub>
+                                    <mo stretchy="false">(</mo>
+                                    <mi>g</mi>
+                                    <mo stretchy="false">)</mo>
+                                    <mspace width="0.2em"/>
+                                    <mo stretchy="false">⟶</mo>
+                                    <mspace width="0.2em"/>
+                                    <msub>
+                                      <mtext>H</mtext>
+                                      <mn>2</mn>
+                                    </msub>
+                                    <msub>
+                                      <mrow>
+                                        <mtext>SO</mtext>
+                                      </mrow>
+                                      <mn>4</mn>
+                                    </msub>
+                                    <mo stretchy="false">(</mo>
+                                    <mi>a</mi>
+                                    <mi>q</mi>
+                                    <mo stretchy="false">)</mo>
+                                  </mrow>
+                                </annotation-xml>
+                              </semantics>
+                            </math>
+                          </div>
+                          <div data-type="equation" id="fs-idp62631392">
+                            <math display="block">
+                              <semantics>
+                                <mrow>
+                                  <mrow>
+                                    <msub>
+                                      <mtext>H</mtext>
+                                      <mn>2</mn>
+                                    </msub>
+                                    <msub>
+                                      <mrow>
+                                        <mtext>SO</mtext>
+                                      </mrow>
+                                      <mn>4</mn>
+                                    </msub>
+                                    <mo stretchy="false">(</mo>
+                                    <mi>a</mi>
+                                    <mi>q</mi>
+                                    <mo stretchy="false">)</mo>
+                                    <mspace width="0.2em"/>
+                                    <mo stretchy="false">⟶</mo>
+                                    <mspace width="0.2em"/>
+                                    <msup>
+                                      <mtext>H</mtext>
+                                      <mtext>+</mtext>
+                                    </msup>
+                                    <mo stretchy="false">(</mo>
+                                    <mi>a</mi>
+                                    <mi>q</mi>
+                                    <mo stretchy="false">)</mo>
+                                    <mo>+</mo>
+                                    <msub>
+                                      <mrow>
+                                        <mtext>HSO</mtext>
+                                      </mrow>
+                                      <mn>4</mn>
+                                    </msub>
+                                    <msup>
+                                      <mrow/>
+                                      <mtext>−</mtext>
+                                    </msup>
+                                    <mo stretchy="false">(</mo>
+                                    <mi>a</mi>
+                                    <mi>q</mi>
+                                    <mo stretchy="false">)</mo>
+                                  </mrow>
+                                </mrow>
+                                <annotation-xml encoding="MathML-Content">
+                                  <mrow>
+                                    <msub>
+                                      <mtext>H</mtext>
+                                      <mn>2</mn>
+                                    </msub>
+                                    <msub>
+                                      <mrow>
+                                        <mtext>SO</mtext>
+                                      </mrow>
+                                      <mn>4</mn>
+                                    </msub>
+                                    <mo stretchy="false">(</mo>
+                                    <mi>a</mi>
+                                    <mi>q</mi>
+                                    <mo stretchy="false">)</mo>
+                                    <mspace width="0.2em"/>
+                                    <mo stretchy="false">⟶</mo>
+                                    <mspace width="0.2em"/>
+                                    <msup>
+                                      <mtext>H</mtext>
+                                      <mtext>+</mtext>
+                                    </msup>
+                                    <mo stretchy="false">(</mo>
+                                    <mi>a</mi>
+                                    <mi>q</mi>
+                                    <mo stretchy="false">)</mo>
+                                    <mo>+</mo>
+                                    <msub>
+                                      <mrow>
+                                        <mtext>HSO</mtext>
+                                      </mrow>
+                                      <mn>4</mn>
+                                    </msub>
+                                    <msup>
+                                      <mrow/>
+                                      <mtext>−</mtext>
+                                    </msup>
+                                    <mo stretchy="false">(</mo>
+                                    <mi>a</mi>
+                                    <mi>q</mi>
+                                    <mo stretchy="false">)</mo>
+                                  </mrow>
+                                </annotation-xml>
+                              </semantics>
+                            </math>
+                          </div>
+                          <p
+                            id="fs-idp93018416"
+                          >Carbon dioxide is naturally present in the atmosphere because most organisms produce it as a waste product of metabolism. Carbon dioxide is also formed when fires release carbon stored in vegetation or fossil fuels. Sulfur trioxide in the atmosphere is naturally produced by volcanic activity, but it also originates from burning fossil fuels, which have traces of sulfur, and from the process of “roasting” ores of metal sulfides in metal-refining processes. Oxides of nitrogen are formed in internal combustion engines where the high temperatures make it possible for the nitrogen and oxygen in air to chemically combine.</p>
+                          <p id="fs-idm22038432">
+                            Acid rain is a particular problem in industrial areas where the products of combustion and smelting are released into the air without being stripped of sulfur and nitrogen oxides. In North America and Europe until the 1980s, it was responsible for the destruction of forests and freshwater lakes, when the acidity of the rain actually killed trees, damaged soil, and made lakes uninhabitable for all but the most acid-tolerant species. Acid rain also corrodes statuary and building facades that are made of marble and limestone (
+                            <a
+                              class="autogenerated-content"
+                              href="#CNX_Chem_14_02_AcidRain"
+                            >Figure 14.3</a>). Regulations limiting the amount of sulfur and nitrogen oxides that can be released into the atmosphere by industry and automobiles have reduced the severity of acid damage to both natural and manmade environments in North America and Europe. It is now a growing problem in industrial areas of China and India.
+                          </p>
+                          <p id="fs-idm22123696">
+                            For further information on acid rain, visit this
+                            <a
+                              href="http://openstaxcollege.org/l/16EPA"
+                              rel="noopener nofollow"
+                              target="_blank"
+                            >website</a> hosted by the US Environmental Protection Agency.
+                          </p>
+                          <div class="os-figure" id="CNX_Chem_14_02_AcidRain">
+                            <figure
+                              class="scaled-down"
+                              data-id="CNX_Chem_14_02_AcidRain"
+                            >
+                              <span
+                                data-alt="Two photos are shown. Photograph a on the left shows the upper portion of trees against a bright blue sky. The tops of several trees at the center of the photograph have bare branches and appear to be dead. Image b shows a statue of a man that appears to from the revolutionary war era in either marble or limestone."
+                                data-type="media"
+                                id="fs-idp11790976"
+                              >
+                                <img
+                                  alt="Two photos are shown. Photograph a on the left shows the upper portion of trees against a bright blue sky. The tops of several trees at the center of the photograph have bare branches and appear to be dead. Image b shows a statue of a man that appears to from the revolutionary war era in either marble or limestone."
+                                  data-media-type="image/jpeg"
+                                  id="[redacted for uniqueness]"
+                                  src="/resources/48d9e7a14847c80fb3fb5358f7ba77a3b93db64b"
+                                >
+                              </span>
+                            </figure>
+                            <div class="os-caption-container">
+                              <span class="os-title-label">Figure</span>
+                              <span class="os-number">14.3</span>
+                              <span class="os-divider"></span>
+                              <span class="os-divider"></span>
+                              <span
+                                class="os-caption"
+                              >(a) Acid rain makes trees more susceptible to drought and insect infestation, and depletes nutrients in the soil. (b) It also is corrodes statues that are carved from marble or limestone. (credit a: modification of work by Chris M Morris; credit b: modification of work by “Eden, Janine and Jim”/Flickr)</span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div data-type="example" id="fs-idm90070400">
+                        <h3 class="os-title">
+                          <span class="os-title-label">Example</span>
+                          <span class="os-number">14.6</span>
+                          <span class="os-divider"></span>
+                        </h3>
+                        <p id="fs-idp57499040">
+                          <span data-type="title">Calculation of pOH</span>
+                          What are the pOH and the pH of a 0.0125-
+                          <em data-effect="italics">M</em> solution of potassium hydroxide, KOH?
+                        </p>
+                        <p id="fs-idm55606544">
+                          <span data-type="title">Solution</span>
+                          Potassium hydroxide is a highly soluble ionic compound and completely dissociates when dissolved in dilute solution, yielding [OH
+                          <sup>−</sup>] = 0.0125
+                          <em data-effect="italics">M</em>:
+                        </p>
+                        <div data-type="equation" id="fs-idp97197664">
+                          <math display="block">
+                            <semantics>
+                              <mrow>
+                                <mrow>
+                                  <mtext>pOH</mtext>
+                                  <mo>=</mo>
+                                  <mtext>−log</mtext>
+                                  <mrow>
+                                    <mo stretchy="false">[</mo>
+                                    <mrow>
+                                      <msup>
+                                        <mrow>
+                                          <mtext>OH</mtext>
+                                        </mrow>
+                                        <mtext>−</mtext>
+                                      </msup>
+                                    </mrow>
+                                    <mo stretchy="false">]</mo>
+                                  </mrow>
+                                  <mo>=</mo>
+                                  <mtext>−log</mtext>
+                                  <mspace width="0.2em"/>
+                                  <mn>0.0125</mn>
+                                </mrow>
+                              </mrow>
+                              <annotation-xml encoding="MathML-Content">
+                                <mrow>
+                                  <mtext>pOH</mtext>
+                                  <mo>=</mo>
+                                  <mtext>−log</mtext>
+                                  <mrow>
+                                    <mo stretchy="false">[</mo>
+                                    <mrow>
+                                      <msup>
+                                        <mrow>
+                                          <mtext>OH</mtext>
+                                        </mrow>
+                                        <mtext>−</mtext>
+                                      </msup>
+                                    </mrow>
+                                    <mo stretchy="false">]</mo>
+                                  </mrow>
+                                  <mo>=</mo>
+                                  <mtext>−log</mtext>
+                                  <mspace width="0.2em"/>
+                                  <mn>0.0125</mn>
+                                </mrow>
+                              </annotation-xml>
+                            </semantics>
+                          </math>
+                        </div>
+                        <div data-type="equation" id="fs-idp138082848">
+                          <math display="block">
+                            <semantics>
+                              <mrow>
+                                <mrow>
+                                  <mo>=</mo>
+                                  <mrow>
+                                    <mtext>−</mtext>
+                                    <mo>(</mo>
+                                    <mrow>
+                                      <mo>−</mo>
+                                      <mn>1.903</mn>
+                                    </mrow>
+                                    <mo>)</mo>
+                                  </mrow>
+                                  <mo>=</mo>
+                                  <mn>1.903</mn>
+                                </mrow>
+                              </mrow>
+                              <annotation-xml encoding="MathML-Content">
+                                <mrow>
+                                  <mo>=</mo>
+                                  <mrow>
+                                    <mtext>−</mtext>
+                                    <mo>(</mo>
+                                    <mrow>
+                                      <mo>−</mo>
+                                      <mn>1.903</mn>
+                                    </mrow>
+                                    <mo>)</mo>
+                                  </mrow>
+                                  <mo>=</mo>
+                                  <mn>1.903</mn>
+                                </mrow>
+                              </annotation-xml>
+                            </semantics>
+                          </math>
+                        </div>
+                        <p id="fs-idm11584304">The pH can be found from the pOH:</p>
+                        <div data-type="equation" id="fs-idm77730624">
+                          <math display="block">
+                            <semantics>
+                              <mrow>
+                                <mrow>
+                                  <mtext>pH</mtext>
+                                  <mo>+</mo>
+                                  <mtext>pOH</mtext>
+                                  <mo>=</mo>
+                                  <mn>14.00</mn>
+                                </mrow>
+                              </mrow>
+                              <annotation-xml encoding="MathML-Content">
+                                <mrow>
+                                  <mtext>pH</mtext>
+                                  <mo>+</mo>
+                                  <mtext>pOH</mtext>
+                                  <mo>=</mo>
+                                  <mn>14.00</mn>
+                                </mrow>
+                              </annotation-xml>
+                            </semantics>
+                          </math>
+                        </div>
+                        <div data-type="equation" id="fs-idm71245120">
+                          <math display="block">
+                            <semantics>
+                              <mrow>
+                                <mrow>
+                                  <mtext>pH</mtext>
+                                  <mo>=</mo>
+                                  <mn>14.00</mn>
+                                  <mo>−</mo>
+                                  <mtext>pOH</mtext>
+                                  <mo>=</mo>
+                                  <mn>14.00</mn>
+                                  <mo>−</mo>
+                                  <mn>1.903</mn>
+                                  <mo>=</mo>
+                                  <mn>12.10</mn>
+                                </mrow>
+                              </mrow>
+                              <annotation-xml encoding="MathML-Content">
+                                <mrow>
+                                  <mtext>pH</mtext>
+                                  <mo>=</mo>
+                                  <mn>14.00</mn>
+                                  <mo>−</mo>
+                                  <mtext>pOH</mtext>
+                                  <mo>=</mo>
+                                  <mn>14.00</mn>
+                                  <mo>−</mo>
+                                  <mn>1.903</mn>
+                                  <mo>=</mo>
+                                  <mn>12.10</mn>
+                                </mrow>
+                              </annotation-xml>
+                            </semantics>
+                          </math>
+                        </div>
+                        <p id="fs-idm147912592">
+                          <span data-type="title">Check Your Learning</span>
+                          The hydronium ion concentration of vinegar is approximately 4
+                          <math display="inline">
+                            <semantics>
+                              <mrow>
+                                <mo>×</mo>
+                              </mrow>
+                              <annotation-xml encoding="MathML-Content">
+                                <mo>×</mo>
+                              </annotation-xml>
+                            </semantics>
+                          </math> 10
+                          <sup>−3</sup>
+                          <em data-effect="italics">M</em>. What are the corresponding values of pOH and pH?
+                        </p>
+                        <div data-type="note" id="fs-idm58824960">
+                          <h3 class="os-title" data-type="title">
+                            <span
+                              class="os-title-label"
+                              data-type
+                              id="[redacted for uniqueness]"
+                            >Answer:</span>
+                          </h3>
+                          <div class="os-note-body">
+                            <p id="fs-idm165995920">pOH = 11.6, pH = 2.4</p>
+                          </div>
+                        </div>
+                      </div>
+
+                      <p id="fs-idm165634608">
+                        The acidity of a solution is typically assessed experimentally by measurement of its pH. The pOH of a solution is not usually measured, as it is easily calculated from an experimentally determined pH value. The pH of a solution can be directly measured using a pH meter (
+                        <a
+                          class="autogenerated-content"
+                          href="#CNX_Chem_14_02_pHMeter"
+                        >Figure 14.4</a>).
+                      </p>
+
+                      <div class="os-figure" id="CNX_Chem_14_02_pHMeter">
+                        <figure data-id="CNX_Chem_14_02_pHMeter">
+                          <span
+                            data-alt="This figure contains two images. The first, image a, is of an analytical digital p H meter on a laboratory counter. The second, image b, is of a portable hand held digital p H meter."
+                            data-type="media"
+                            id="fs-idp134372032"
+                          >
+                            <img
+                              alt="This figure contains two images. The first, image a, is of an analytical digital p H meter on a laboratory counter. The second, image b, is of a portable hand held digital p H meter."
+                              data-media-type="image/jpeg"
+                              id="[redacted for uniqueness]"
+                              src="/resources/b00098526ae9e693df74acd7d72b6f243ca9a7bb"
+                            >
+                          </span>
+                        </figure>
+                        <div class="os-caption-container">
+                          <span class="os-title-label">Figure</span>
+                          <span class="os-number">14.4</span>
+                          <span class="os-divider"></span>
+                          <span class="os-divider"></span>
+                          <span
+                            class="os-caption"
+                          >(a) A research-grade pH meter used in a laboratory can have a resolution of 0.001 pH units, an accuracy of ± 0.002 pH units, and may cost in excess of $1000. (b) A portable pH meter has lower resolution (0.01 pH units), lower accuracy (± 0.2 pH units), and a far lower price tag. (credit b: modification of work by Jacopo Werther)</span>
+                        </div>
+                      </div>
+
+                      <p id="fs-idp57700960">
+                        The pH of a solution may also be visually estimated using colored indicators (
+                        <a
+                          class="autogenerated-content"
+                          href="#CNX_Chem_14_02_indicator"
+                        >Figure 14.5</a>). The acid-base equilibria that enable use of these indicator dyes for pH measurements are described in a later section of this chapter.
+                      </p>
+
+                      <div class="os-figure" id="CNX_Chem_14_02_indicator">
+                        <figure data-id="CNX_Chem_14_02_indicator">
+                          <span
+                            data-alt="This figure contains two images. The first shows a variety of colors of solutions in labeled beakers. A red solution in a beaker is labeled “0.10 M H C l.” An orange solution is labeled “0.10 M C H subscript 3 C O O H.” A yellow-orange solution is labeled “0.1 M N H subscript 4 C l.” A yellow solution is labeled “deionized water.” A second solution beaker is labeled “0.10 M K C l.” A green solution is labeled “0.10 M aniline.” A blue solution is labeled “0.10 M N H subscript 4 C l (a q).” A final beaker containing a dark blue solution is labeled “0.10 M N a O H.” Image b shows pHydrion paper that is used for measuring pH in the range of p H from 1 to 12. The color scale for identifying p H based on color is shown along with several of the test strips used to evaluate p H."
+                            data-type="media"
+                            id="fs-idp11928656"
+                          >
+                            <img
+                              alt="This figure contains two images. The first shows a variety of colors of solutions in labeled beakers. A red solution in a beaker is labeled “0.10 M H C l.” An orange solution is labeled “0.10 M C H subscript 3 C O O H.” A yellow-orange solution is labeled “0.1 M N H subscript 4 C l.” A yellow solution is labeled “deionized water.” A second solution beaker is labeled “0.10 M K C l.” A green solution is labeled “0.10 M aniline.” A blue solution is labeled “0.10 M N H subscript 4 C l (a q).” A final beaker containing a dark blue solution is labeled “0.10 M N a O H.” Image b shows pHydrion paper that is used for measuring pH in the range of p H from 1 to 12. The color scale for identifying p H based on color is shown along with several of the test strips used to evaluate p H."
+                              data-media-type="image/jpeg"
+                              id="[redacted for uniqueness]"
+                              src="/resources/f2e04ebbfa5236f597d26810fee860916431e642"
+                            >
+                          </span>
+                        </figure>
+                        <div class="os-caption-container">
+                          <span class="os-title-label">Figure</span>
+                          <span class="os-number">14.5</span>
+                          <span class="os-divider"></span>
+                          <span class="os-divider"></span>
+                          <span
+                            class="os-caption"
+                          >(a) A solution containing a dye mixture, called universal indicator, takes on different colors depending upon its pH. (b) Convenient test strips, called pH paper, contain embedded indicator dyes that yield pH-dependent color changes on contact with aqueous solutions.(credit: modification of work by Sahar Atwa)</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  

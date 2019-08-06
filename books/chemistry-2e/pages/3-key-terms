@@ -1,0 +1,153 @@
+
+                    <div
+                      class="os-eoc os-glossary-container"
+                      data-type="composite-page"
+                      data-uuid-key="glossary"
+                    >
+                      <dl id="fs-idm26450752">
+                        <dt id="[redacted for uniqueness]">aqueous solution</dt>
+                        <dd
+                          id="fs-idm26450112"
+                        >solution for which water is the solvent</dd>
+                      </dl>
+                      <dl id="fs-idp40901280">
+                        <dt id="[redacted for uniqueness]">
+                          Avogadro’s number (
+                          <em data-effect="italics">
+                            N
+                            <sub>A</sub>
+                          </em>)
+                        </dt>
+                        <dd id="fs-idp40901920">
+                          experimentally determined value of the number of entities comprising 1 mole of substance, equal to 6.022
+                          <math display="inline">
+                            <semantics>
+                              <mrow>
+                                <mo>×</mo>
+                              </mrow>
+                              <annotation-xml encoding="MathML-Content">
+                                <mo>×</mo>
+                              </annotation-xml>
+                            </semantics>
+                          </math> 10
+                          <sup>23</sup> mol
+                          <sup>−1</sup>
+                        </dd>
+                      </dl>
+                      <dl id="fs-idm26449216">
+                        <dt id="[redacted for uniqueness]">concentrated</dt>
+                        <dd
+                          id="fs-idm26448576"
+                        >qualitative term for a solution containing solute at a relatively high concentration</dd>
+                      </dl>
+                      <dl id="fs-idm26447680">
+                        <dt id="[redacted for uniqueness]">concentration</dt>
+                        <dd
+                          id="fs-idm26447040"
+                        >quantitative measure of the relative amounts of solute and solvent present in a solution</dd>
+                      </dl>
+                      <dl id="fs-idm26674336">
+                        <dt id="[redacted for uniqueness]">dilute</dt>
+                        <dd
+                          id="fs-idm26673696"
+                        >qualitative term for a solution containing solute at a relatively low concentration</dd>
+                      </dl>
+                      <dl id="fs-idm26672800">
+                        <dt id="[redacted for uniqueness]">dilution</dt>
+                        <dd
+                          id="fs-idm26672160"
+                        >process of adding solvent to a solution in order to lower the concentration of solutes</dd>
+                      </dl>
+                      <dl id="fs-idm26671264">
+                        <dt id="[redacted for uniqueness]">dissolved</dt>
+                        <dd
+                          id="fs-idm26670624"
+                        >describes the process by which solute components are dispersed in a solvent</dd>
+                      </dl>
+                      <dl id="fs-idp78258880">
+                        <dt id="[redacted for uniqueness]">empirical formula mass</dt>
+                        <dd
+                          id="fs-idp78259520"
+                        >sum of average atomic masses for all atoms represented in an empirical formula</dd>
+                      </dl>
+                      <dl id="fs-idp40905984">
+                        <dt id="[redacted for uniqueness]">formula mass</dt>
+                        <dd
+                          id="fs-idp40906624"
+                        >sum of the average masses for all atoms represented in a chemical formula; for covalent compounds, this is also the molecular mass</dd>
+                      </dl>
+                      <dl id="fs-idp13058656">
+                        <dt id="[redacted for uniqueness]">mass percentage</dt>
+                        <dd
+                          id="fs-idp19445280"
+                        >ratio of solute-to-solution mass expressed as a percentage</dd>
+                      </dl>
+                      <dl id="fs-idm12309360">
+                        <dt id="[redacted for uniqueness]">mass-volume percent</dt>
+                        <dd
+                          id="fs-idp44837024"
+                        >ratio of solute mass to solution volume, expressed as a percentage</dd>
+                      </dl>
+                      <dl id="fs-idp40907280">
+                        <dt id="[redacted for uniqueness]">molar mass</dt>
+                        <dd
+                          id="fs-idp40907920"
+                        >mass in grams of 1 mole of a substance</dd>
+                      </dl>
+                      <dl id="fs-idm26669728">
+                        <dt id="[redacted for uniqueness]">
+                          molarity (
+                          <em data-effect="italics">M</em>)
+                        </dt>
+                        <dd
+                          id="fs-idm26668576"
+                        >unit of concentration, defined as the number of moles of solute dissolved in 1 liter of solution</dd>
+                      </dl>
+                      <dl id="fs-idp40908432">
+                        <dt id="[redacted for uniqueness]">mole</dt>
+                        <dd id="fs-idp40909072">
+                          amount of substance containing the same number of atoms, molecules, ions, or other entities as the number of atoms in exactly 12 grams of
+                          <sup>12</sup>C
+                        </dd>
+                      </dl>
+                      <dl id="fs-idp23298832">
+                        <dt id="[redacted for uniqueness]">parts per billion (ppb)</dt>
+                        <dd id="fs-idp65638576">
+                          ratio of solute-to-solution mass multiplied by 10
+                          <sup>9</sup>
+                        </dd>
+                      </dl>
+                      <dl id="fs-idm85251264">
+                        <dt id="[redacted for uniqueness]">parts per million (ppm)</dt>
+                        <dd id="fs-idp60135056">
+                          ratio of solute-to-solution mass multiplied by 10
+                          <sup>6</sup>
+                        </dd>
+                      </dl>
+                      <dl id="fs-idp78260032">
+                        <dt id="[redacted for uniqueness]">percent composition</dt>
+                        <dd
+                          id="fs-idp78260672"
+                        >percentage by mass of the various elements in a compound</dd>
+                      </dl>
+                      <dl id="fs-idm26667568">
+                        <dt id="[redacted for uniqueness]">solute</dt>
+                        <dd
+                          id="fs-idm26666928"
+                        >solution component present in a concentration less than that of the solvent</dd>
+                      </dl>
+                      <dl id="fs-idm26666032">
+                        <dt id="[redacted for uniqueness]">solvent</dt>
+                        <dd
+                          id="fs-idm26665392"
+                        >solution component present in a concentration that is higher relative to other components</dd>
+                      </dl>
+                      <dl id="fs-idp17597424">
+                        <dt id="[redacted for uniqueness]">volume percentage</dt>
+                        <dd
+                          id="fs-idp17598064"
+                        >ratio of solute-to-solution volume expressed as a percentage</dd>
+                      </dl>
+                    </div>
+                  </div>
+                  

@@ -1,0 +1,128 @@
+
+                    <div
+                      class="os-eoc os-summary-container"
+                      data-type="composite-page"
+                      data-uuid-key=".summary"
+                    >
+                      <section
+                        class="summary"
+                        data-depth="1"
+                        id="fs-idp210820912"
+                      >
+                        <h3 data-type="document-title" id="[redacted for uniqueness]">
+                          <span class="os-number">17.1</span>
+                          <span class="os-divider"></span>
+                          <span class="os-text">Review of Redox Chemistry</span>
+                        </h3>
+                        <p id="fs-idp204073392">
+                          Redox reactions are defined by changes in reactant oxidation numbers, and those most relevant to electrochemistry involve actual transfer of electrons. Aqueous phase redox processes often involve water or its characteristic ions, H
+                          <sup>+</sup> and OH
+                          <sup>−</sup>, as reactants in addition to the oxidant and reductant, and equations representing these reactions can be challenging to balance. The half-reaction method is a systematic approach to balancing such equations that involves separate treatment of the oxidation and reduction half-reactions.
+                        </p>
+                      </section>
+                      <section
+                        class="summary"
+                        data-depth="1"
+                        id="fs-idm89705136"
+                      >
+                        <h3 data-type="document-title" id="[redacted for uniqueness]">
+                          <span class="os-number">17.2</span>
+                          <span class="os-divider"></span>
+                          <span class="os-text">Galvanic Cells</span>
+                        </h3>
+                        <p
+                          id="fs-idm71248464"
+                        >Galvanic cells are devices in which a spontaneous redox reaction occurs indirectly, with the oxidant and reductant redox couples contained in separate half-cells. Electrons are transferred from the reductant (in the anode half-cell) to the oxidant (in the cathode half-cell) through an external circuit, and inert solution phase ions are transferred between half-cells, through a salt bridge, to maintain charge neutrality. The construction and composition of a galvanic cell may be succinctly represented using chemical formulas and others symbols in the form of a cell schematic (cell notation).</p>
+                      </section>
+                      <section
+                        class="summary"
+                        data-depth="1"
+                        id="fs-idp47245120"
+                      >
+                        <h3 data-type="document-title" id="[redacted for uniqueness]">
+                          <span class="os-number">17.3</span>
+                          <span class="os-divider"></span>
+                          <span class="os-text">Electrode and Cell Potentials</span>
+                        </h3>
+                        <p id="fs-idp43740416">
+                          The property of potential,
+                          <em data-effect="italics">E</em>, is the energy associated with the separation/transfer of charge. In electrochemistry, the potentials of cells and half-cells are thermodynamic quantities that reflect the driving force or the spontaneity of their redox processes. The cell potential of an electrochemical cell is the difference in between its cathode and anode. To permit easy sharing of half-cell potential data, the standard hydrogen electrode (SHE) is assigned a potential of exactly 0 V and used to define a single electrode potential for any given half-cell. The electrode potential of a half-cell,
+                          <em data-effect="italics">
+                            E
+                            <sub>X</sub>
+                          </em>, is the cell potential of said half-cell acting as a cathode when connected to a SHE acting as an anode. When the half-cell is operating under standard state conditions, its potential is the standard electrode potential,
+                          <em data-effect="italics">E</em>°
+                          <sub>X</sub>. Standard electrode potentials reflect the relative oxidizing strength of the half-reaction’s reactant, with stronger oxidants exhibiting larger (more positive)
+                          <em data-effect="italics">
+                            E°
+                            <sub>X</sub>
+                          </em> values. Tabulations of standard electrode potentials may be used to compute standard cell potentials,
+                          <em data-effect="italics">
+                            E°
+                            <sub>cell</sub>
+                          </em>, for many redox reactions. The arithmetic sign of a cell potential indicates the spontaneity of the cell reaction, with positive values for spontaneous reactions and negative values for nonspontaneous reactions (spontaneous in the reverse direction).
+                        </p>
+                      </section>
+                      <section
+                        class="summary"
+                        data-depth="1"
+                        id="fs-idp160224496"
+                      >
+                        <h3 data-type="document-title" id="[redacted for uniqueness]">
+                          <span class="os-number">17.4</span>
+                          <span class="os-divider"></span>
+                          <span
+                            class="os-text"
+                          >Potential, Free Energy, and Equilibrium</span>
+                        </h3>
+                        <p id="fs-idp58835888">
+                          Potential is a thermodynamic quantity reflecting the intrinsic driving force of a redox process, and it is directly related to the free energy change and equilibrium constant for the process. For redox processes taking place in electrochemical cells, the maximum (electrical) work done by the system is easily computed from the cell potential and the reaction stoichiometry and is equal to the free energy change for the process. The equilibrium constant for a redox reaction is logarithmically related to the reaction’s cell potential, with larger (more positive) potentials indicating reactions with greater driving force that equilibrate when the reaction has proceeded far towards completion (large value of
+                          <em data-effect="italics">K</em>). Finally, the potential of a redox process varies with the composition of the reaction mixture, being related to the reactions standard potential and the value of its reaction quotient,
+                          <em data-effect="italics">Q</em>, as described by the Nernst equation.
+                        </p>
+                      </section>
+                      <section
+                        class="summary"
+                        data-depth="1"
+                        id="fs-idm12033136"
+                      >
+                        <h3 data-type="document-title" id="[redacted for uniqueness]">
+                          <span class="os-number">17.5</span>
+                          <span class="os-divider"></span>
+                          <span class="os-text">Batteries and Fuel Cells</span>
+                        </h3>
+                        <p
+                          id="fs-idp25116816"
+                        >Galvanic cells designed specifically to function as electrical power supplies are called batteries. A variety of both single-use batteries (primary cells) and rechargeable batteries (secondary cells) are commercially available to serve a variety of applications, with important specifications including voltage, size, and lifetime. Fuel cells, sometimes called flow batteries, are devices that harness the energy of spontaneous redox reactions normally associated with combustion processes. Like batteries, fuel cells enable the reaction’s electron transfer via an external circuit, but they require continuous input of the redox reactants (fuel and oxidant) from an external reservoir. Fuel cells are typically much more efficient in converting the energy released by the reaction to useful work in comparison to internal combustion engines.</p>
+                      </section>
+                      <section
+                        class="summary"
+                        data-depth="1"
+                        id="fs-idm148527888"
+                      >
+                        <h3 data-type="document-title" id="[redacted for uniqueness]">
+                          <span class="os-number">17.6</span>
+                          <span class="os-divider"></span>
+                          <span class="os-text">Corrosion</span>
+                        </h3>
+                        <p
+                          id="fs-idp43911248"
+                        >Spontaneous oxidation of metals by natural electrochemical processes is called corrosion, familiar examples including the rusting of iron and the tarnishing of silver. Corrosion process involve the creation of a galvanic cell in which different sites on the metal object function as anode and cathode, with the corrosion taking place at the anodic site. Approaches to preventing corrosion of metals include use of a protective coating of zinc (galvanization) and the use of sacrificial anodes connected to the metal object (cathodic protection).</p>
+                      </section>
+                      <section
+                        class="summary"
+                        data-depth="1"
+                        id="fs-idp28955808"
+                      >
+                        <h3 data-type="document-title" id="[redacted for uniqueness]">
+                          <span class="os-number">17.7</span>
+                          <span class="os-divider"></span>
+                          <span class="os-text">Electrolysis</span>
+                        </h3>
+                        <p
+                          id="fs-idm118987184"
+                        >Nonspontaneous redox processes may be forced to occur in electrochemical cells by the application of an appropriate potential using an external power source—a process known as electrolysis. Electrolysis is the basis for certain ore refining processes, the industrial production of many chemical commodities, and the electroplating of metal coatings on various products. Measurement of the current flow during electrolysis permits stoichiometric calculations.</p>
+                      </section>
+                    </div>
+                  </div>
+                  

@@ -1,0 +1,24 @@
+{
+  "name": "rex-web",
+  "scripts": {
+  },
+  "env": {
+    "NODE_ENV": "development",
+    "REACT_APP_ENV": "development",
+    "REACT_APP_RELEASE_ID": "heroku",
+    "REACT_APP_CODE_VERSION": "heroku"
+  },
+  "formation": {
+    "web": {
+      "size": "free"
+    }
+  },
+  "addons": [
+
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    }
+  ]
+}

@@ -1,0 +1,407 @@
+
+                    <div
+                      class="os-eoc os-key-equations-container"
+                      data-type="composite-page"
+                      data-uuid-key=".key-equations"
+                    >
+                      <section
+                        class="key-equations"
+                        data-depth="1"
+                        id="fs-idp8373504"
+                      >
+                        <ul data-bullet-style="bullet" id="fs-idp136605408">
+                          <li>
+                            <em data-effect="italics">c</em> =
+                            <em data-effect="italics">λν</em>
+                          </li>
+                          <li>
+                            <math display="inline">
+                              <semantics>
+                                <mrow>
+                                  <mrow>
+                                    <mi>E</mi>
+                                    <mo>=</mo>
+                                    <mi>h</mi>
+                                    <mi>ν</mi>
+                                    <mo>=</mo>
+                                    <mspace width="0.2em"/>
+                                    <mfrac>
+                                      <mrow>
+                                        <mi>h</mi>
+                                        <mi>c</mi>
+                                      </mrow>
+                                      <mi>λ</mi>
+                                    </mfrac>
+                                    <mo>,</mo>
+                                  </mrow>
+                                </mrow>
+                                <annotation-xml encoding="MathML-Content">
+                                  <mrow>
+                                    <mi>E</mi>
+                                    <mo>=</mo>
+                                    <mi>h</mi>
+                                    <mi>ν</mi>
+                                    <mo>=</mo>
+                                    <mspace width="0.2em"/>
+                                    <mfrac>
+                                      <mrow>
+                                        <mi>h</mi>
+                                        <mi>c</mi>
+                                      </mrow>
+                                      <mi>λ</mi>
+                                    </mfrac>
+                                    <mo>,</mo>
+                                  </mrow>
+                                </annotation-xml>
+                              </semantics>
+                            </math> where
+                            <em data-effect="italics">h</em> = 6.626
+                            <math display="inline">
+                              <semantics>
+                                <mrow>
+                                  <mo>×</mo>
+                                </mrow>
+                                <annotation-xml encoding="MathML-Content">
+                                  <mo>×</mo>
+                                </annotation-xml>
+                              </semantics>
+                            </math> 10
+                            <sup>−34</sup> J s
+                          </li>
+                          <li>
+                            <math display="inline">
+                              <semantics>
+                                <mrow>
+                                  <mrow>
+                                    <mspace width="0.2em"/>
+                                    <mfrac>
+                                      <mn>1</mn>
+                                      <mi>λ</mi>
+                                    </mfrac>
+                                    <mspace width="0.2em"/>
+                                    <mo>=</mo>
+                                    <msub>
+                                      <mi>R</mi>
+                                      <mi>∞</mi>
+                                    </msub>
+                                    <mrow>
+                                      <mo>(</mo>
+                                      <mrow>
+                                        <mspace width="0.2em"/>
+                                        <mfrac>
+                                          <mn>1</mn>
+                                          <mrow>
+                                            <msubsup>
+                                              <mi>n</mi>
+                                              <mn>1</mn>
+                                              <mn>2</mn>
+                                            </msubsup>
+                                          </mrow>
+                                        </mfrac>
+                                        <mspace width="0.2em"/>
+                                        <mo>−</mo>
+                                        <mspace width="0.2em"/>
+                                        <mfrac>
+                                          <mn>1</mn>
+                                          <mrow>
+                                            <msubsup>
+                                              <mi>n</mi>
+                                              <mn>2</mn>
+                                              <mn>2</mn>
+                                            </msubsup>
+                                          </mrow>
+                                        </mfrac>
+                                        <mspace width="0.2em"/>
+                                      </mrow>
+                                      <mo>)</mo>
+                                    </mrow>
+                                  </mrow>
+                                </mrow>
+                                <annotation-xml encoding="MathML-Content">
+                                  <mrow>
+                                    <mspace width="0.2em"/>
+                                    <mfrac>
+                                      <mn>1</mn>
+                                      <mi>λ</mi>
+                                    </mfrac>
+                                    <mspace width="0.2em"/>
+                                    <mo>=</mo>
+                                    <msub>
+                                      <mi>R</mi>
+                                      <mi>∞</mi>
+                                    </msub>
+                                    <mrow>
+                                      <mo>(</mo>
+                                      <mrow>
+                                        <mspace width="0.2em"/>
+                                        <mfrac>
+                                          <mn>1</mn>
+                                          <mrow>
+                                            <msubsup>
+                                              <mi>n</mi>
+                                              <mn>1</mn>
+                                              <mn>2</mn>
+                                            </msubsup>
+                                          </mrow>
+                                        </mfrac>
+                                        <mspace width="0.2em"/>
+                                        <mo>−</mo>
+                                        <mspace width="0.2em"/>
+                                        <mfrac>
+                                          <mn>1</mn>
+                                          <mrow>
+                                            <msubsup>
+                                              <mi>n</mi>
+                                              <mn>2</mn>
+                                              <mn>2</mn>
+                                            </msubsup>
+                                          </mrow>
+                                        </mfrac>
+                                        <mspace width="0.2em"/>
+                                      </mrow>
+                                      <mo>)</mo>
+                                    </mrow>
+                                  </mrow>
+                                </annotation-xml>
+                              </semantics>
+                            </math>
+                          </li>
+                        </ul>
+                      </section>
+                      <section
+                        class="key-equations"
+                        data-depth="1"
+                        id="fs-idp212850576"
+                      >
+                        <ul data-bullet-style="bullet" id="fs-idp39012096">
+                          <li>
+                            <math display="inline">
+                              <semantics>
+                                <mrow>
+                                  <mrow>
+                                    <msub>
+                                      <mi>E</mi>
+                                      <mi>n</mi>
+                                    </msub>
+                                    <mo>=</mo>
+                                    <mo>−</mo>
+                                    <mfrac>
+                                      <mrow>
+                                        <mi>k</mi>
+                                        <msup>
+                                          <mi>Z</mi>
+                                          <mn>2</mn>
+                                        </msup>
+                                      </mrow>
+                                      <mrow>
+                                        <msup>
+                                          <mi>n</mi>
+                                          <mn>2</mn>
+                                        </msup>
+                                      </mrow>
+                                    </mfrac>
+                                    <mspace width="0.2em"/>
+                                    <mo>,</mo>
+                                    <mspace width="0.2em"/>
+                                    <mi>n</mi>
+                                    <mo>=</mo>
+                                    <mn>1</mn>
+                                    <mo>,</mo>
+                                    <mspace width="0.2em"/>
+                                    <mn>2</mn>
+                                    <mo>,</mo>
+                                    <mspace width="0.2em"/>
+                                    <mn>3</mn>
+                                    <mo>,</mo>
+                                    <mspace width="0.2em"/>
+                                    <mo>…</mo>
+                                  </mrow>
+                                </mrow>
+                                <annotation-xml encoding="MathML-Content">
+                                  <mrow>
+                                    <msub>
+                                      <mi>E</mi>
+                                      <mi>n</mi>
+                                    </msub>
+                                    <mo>=</mo>
+                                    <mo>−</mo>
+                                    <mfrac>
+                                      <mrow>
+                                        <mi>k</mi>
+                                        <msup>
+                                          <mi>Z</mi>
+                                          <mn>2</mn>
+                                        </msup>
+                                      </mrow>
+                                      <mrow>
+                                        <msup>
+                                          <mi>n</mi>
+                                          <mn>2</mn>
+                                        </msup>
+                                      </mrow>
+                                    </mfrac>
+                                    <mspace width="0.2em"/>
+                                    <mo>,</mo>
+                                    <mspace width="0.2em"/>
+                                    <mi>n</mi>
+                                    <mo>=</mo>
+                                    <mn>1</mn>
+                                    <mo>,</mo>
+                                    <mspace width="0.2em"/>
+                                    <mn>2</mn>
+                                    <mo>,</mo>
+                                    <mspace width="0.2em"/>
+                                    <mn>3</mn>
+                                    <mo>,</mo>
+                                    <mspace width="0.2em"/>
+                                    <mo>…</mo>
+                                  </mrow>
+                                </annotation-xml>
+                              </semantics>
+                            </math>
+                          </li>
+                          <li>
+                            <math display="inline">
+                              <semantics>
+                                <mrow>
+                                  <mrow>
+                                    <mtext>Δ</mtext>
+                                    <mi>E</mi>
+                                    <mo>=</mo>
+                                    <mi>k</mi>
+                                    <msup>
+                                      <mi>Z</mi>
+                                      <mn>2</mn>
+                                    </msup>
+                                    <mrow>
+                                      <mo>(</mo>
+                                      <mrow>
+                                        <mspace width="0.2em"/>
+                                        <mfrac>
+                                          <mn>1</mn>
+                                          <mrow>
+                                            <msubsup>
+                                              <mi>n</mi>
+                                              <mn>1</mn>
+                                              <mn>2</mn>
+                                            </msubsup>
+                                          </mrow>
+                                        </mfrac>
+                                        <mspace width="0.2em"/>
+                                        <mo>−</mo>
+                                        <mspace width="0.2em"/>
+                                        <mfrac>
+                                          <mn>1</mn>
+                                          <mrow>
+                                            <msubsup>
+                                              <mi>n</mi>
+                                              <mn>2</mn>
+                                              <mn>2</mn>
+                                            </msubsup>
+                                          </mrow>
+                                        </mfrac>
+                                        <mspace width="0.2em"/>
+                                      </mrow>
+                                      <mo>)</mo>
+                                    </mrow>
+                                  </mrow>
+                                </mrow>
+                                <annotation-xml encoding="MathML-Content">
+                                  <mrow>
+                                    <mtext>Δ</mtext>
+                                    <mi>E</mi>
+                                    <mo>=</mo>
+                                    <mi>k</mi>
+                                    <msup>
+                                      <mi>Z</mi>
+                                      <mn>2</mn>
+                                    </msup>
+                                    <mrow>
+                                      <mo>(</mo>
+                                      <mrow>
+                                        <mspace width="0.2em"/>
+                                        <mfrac>
+                                          <mn>1</mn>
+                                          <mrow>
+                                            <msubsup>
+                                              <mi>n</mi>
+                                              <mn>1</mn>
+                                              <mn>2</mn>
+                                            </msubsup>
+                                          </mrow>
+                                        </mfrac>
+                                        <mspace width="0.2em"/>
+                                        <mo>−</mo>
+                                        <mspace width="0.2em"/>
+                                        <mfrac>
+                                          <mn>1</mn>
+                                          <mrow>
+                                            <msubsup>
+                                              <mi>n</mi>
+                                              <mn>2</mn>
+                                              <mn>2</mn>
+                                            </msubsup>
+                                          </mrow>
+                                        </mfrac>
+                                        <mspace width="0.2em"/>
+                                      </mrow>
+                                      <mo>)</mo>
+                                    </mrow>
+                                  </mrow>
+                                </annotation-xml>
+                              </semantics>
+                            </math>
+                          </li>
+                          <li>
+                            <math display="inline">
+                              <semantics>
+                                <mrow>
+                                  <mrow>
+                                    <mi>r</mi>
+                                    <mo>=</mo>
+                                    <mspace width="0.2em"/>
+                                    <mfrac>
+                                      <mrow>
+                                        <msup>
+                                          <mi>n</mi>
+                                          <mn>2</mn>
+                                        </msup>
+                                      </mrow>
+                                      <mi>Z</mi>
+                                    </mfrac>
+                                    <mspace width="0.2em"/>
+                                    <msub>
+                                      <mi>a</mi>
+                                      <mn>0</mn>
+                                    </msub>
+                                  </mrow>
+                                </mrow>
+                                <annotation-xml encoding="MathML-Content">
+                                  <mrow>
+                                    <mi>r</mi>
+                                    <mo>=</mo>
+                                    <mspace width="0.2em"/>
+                                    <mfrac>
+                                      <mrow>
+                                        <msup>
+                                          <mi>n</mi>
+                                          <mn>2</mn>
+                                        </msup>
+                                      </mrow>
+                                      <mi>Z</mi>
+                                    </mfrac>
+                                    <mspace width="0.2em"/>
+                                    <msub>
+                                      <mi>a</mi>
+                                      <mn>0</mn>
+                                    </msub>
+                                  </mrow>
+                                </annotation-xml>
+                              </semantics>
+                            </math>
+                          </li>
+                        </ul>
+                      </section>
+                    </div>
+                  </div>
+                  

@@ -1,0 +1,46 @@
+// Skeleton for constructing the blockish elements
+// This contains all the selectors for the styling
+
+// Helper mixin for expanding all the selectors
+.make-block(@type) {
+  #blockish>.style(@type);
+
+  // There are 3 cases for a label:
+  // - none   : The attribute is not on the element so show the default label
+  // - empty  : The attribute is present and it is the empty string; the default label should be suppressed
+  // - custom : The attribute contains a custom string that should be displayed instead of the default label
+
+  // Puts in the text of the label. Depending on if there is a title
+  // it will be added either as a `:before` on the blockish element or on the title element
+  .format-label(@type; @label-type; @has-title) { }
+  .format-label(@type; none;        false) { #blockish>.default-label(@type; false); }
+  .format-label(@type; empty;       false) { } // Nothing will show up
+  .format-label(@type; custom;      false) { content: attr(data-label); }
+  .format-label(@type; none;        true)  { #blockish>.default-label(@type; true); }
+  .format-label(@type; empty;       true)  { } // Only the title will show up
+  .format-label(@type; custom;      true)  { content: attr(data-label-parent) ': '; }
+
+  // Add the label to the title element (if one exists) or to the blockish element
+  .place-label(@type; @label-type) {
+    // A title exists so style it and put the label in `.title::before`
+    // FIXME: Remove the following line.
+    // Aloha and webview have slightly different places for the title
+    &.ui-has-child-title > header > [data-type="title"],
+    &.ui-has-child-title > [data-type="title"],
+    &.ui-has-child-title > header > .title,
+    &.ui-has-child-title > header > .os-title,
+    &.ui-has-child-title > .title,
+    &.ui-has-child-title .solution > section > [data-type="solution-title"] {
+      #blockish>.title(@type);
+      &::before { display: none; }
+    }
+  }
+
+  // Decide which case of the label we are dealing with
+  &:not([data-label])                 { .place-label(@type; none); }
+  &[data-label='']                    { .place-label(@type; empty); }
+  &[data-label]:not([data-label=''])  { .place-label(@type; custom); }
+
+  // Style the Body
+  > section         { #blockish>.body(@type); }
+}

@@ -1,0 +1,127 @@
+
+                    <div
+                      class="os-eoc os-glossary-container"
+                      data-type="composite-page"
+                      data-uuid-key="glossary"
+                    >
+                      <dl id="fs-idm225836896">
+                        <dt id="[redacted for uniqueness]">
+                          entropy (
+                          <em data-effect="italics">S</em>)
+                        </dt>
+                        <dd
+                          id="fs-idm216701616"
+                        >state function that is a measure of the matter and/or energy dispersal within a system, determined by the number of system microstates; often described as a measure of the disorder of the system</dd>
+                      </dl>
+                      <dl id="fs-idm119810368">
+                        <dt id="[redacted for uniqueness]">
+                          Gibbs free energy change (
+                          <em data-effect="italics">G</em>)
+                        </dt>
+                        <dd id="fs-idm119809104">
+                          thermodynamic property defined in terms of system enthalpy and entropy; all spontaneous processes involve a decrease in
+                          <em data-effect="italics">G</em>
+                        </dd>
+                      </dl>
+                      <dl id="fs-idm228328464">
+                        <dt id="[redacted for uniqueness]">microstate</dt>
+                        <dd
+                          id="fs-idm63939616"
+                        >possible configuration or arrangement of matter and energy within a system</dd>
+                      </dl>
+                      <dl id="fs-idp119850016">
+                        <dt id="[redacted for uniqueness]">nonspontaneous process</dt>
+                        <dd
+                          id="fs-idp63462144"
+                        >process that requires continual input of energy from an external source</dd>
+                      </dl>
+                      <dl id="fs-idp48318480">
+                        <dt id="[redacted for uniqueness]">reversible process</dt>
+                        <dd
+                          id="fs-idm216005888"
+                        >process that takes place so slowly as to be capable of reversing direction in response to an infinitesimally small change in conditions; hypothetical construct that can only be approximated by real processes</dd>
+                      </dl>
+                      <dl id="fs-idp194754048">
+                        <dt id="[redacted for uniqueness]">second law of thermodynamics</dt>
+                        <dd
+                          id="fs-idp194754688"
+                        >all spontaneous processes involve an increase in the entropy of the universe</dd>
+                      </dl>
+                      <dl id="fs-idm57405936">
+                        <dt id="[redacted for uniqueness]">spontaneous change</dt>
+                        <dd
+                          id="fs-idm37549712"
+                        >process that takes place without a continuous input of energy from an external source</dd>
+                      </dl>
+                      <dl id="fs-idp170415152">
+                        <dt id="[redacted for uniqueness]">
+                          standard entropy (
+                          <em data-effect="italics">S</em>°)
+                        </dt>
+                        <dd
+                          id="fs-idp170416304"
+                        >entropy for one mole of a substance at 1 bar pressure; tabulated values are usually determined at 298.15 K</dd>
+                      </dl>
+                      <dl id="fs-idp85418944">
+                        <dt id="[redacted for uniqueness]">
+                          standard entropy change (Δ
+                          <em data-effect="italics">S</em>°)
+                        </dt>
+                        <dd
+                          id="fs-idp85420096"
+                        >change in entropy for a reaction calculated using the standard entropies</dd>
+                      </dl>
+                      <dl id="fs-idm119807952">
+                        <dt id="[redacted for uniqueness]">
+                          standard free energy change (Δ
+                          <em data-effect="italics">G</em>°)
+                        </dt>
+                        <dd
+                          id="fs-idm119806688"
+                        >change in free energy for a process occurring under standard conditions (1 bar pressure for gases, 1 M concentration for solutions)</dd>
+                      </dl>
+                      <dl id="fs-idm119806032">
+                        <dt id="[redacted for uniqueness]">
+                          standard free energy of formation
+                          <math display="inline">
+                            <semantics>
+                              <mrow>
+                                <mrow>
+                                  <mo stretchy="false">(</mo>
+                                  <mtext>Δ</mtext>
+                                  <msubsup>
+                                    <mi>G</mi>
+                                    <mtext>f</mtext>
+                                    <mo>°</mo>
+                                  </msubsup>
+                                  <mo stretchy="false">)</mo>
+                                </mrow>
+                              </mrow>
+                              <annotation-xml encoding="MathML-Content">
+                                <mrow>
+                                  <mo stretchy="false">(</mo>
+                                  <mtext>Δ</mtext>
+                                  <msubsup>
+                                    <mi>G</mi>
+                                    <mtext>f</mtext>
+                                    <mo>°</mo>
+                                  </msubsup>
+                                  <mo stretchy="false">)</mo>
+                                </mrow>
+                              </annotation-xml>
+                            </semantics>
+                          </math>
+                        </dt>
+                        <dd
+                          id="fs-idm185413520"
+                        >change in free energy accompanying the formation of one mole of substance from its elements in their standard states</dd>
+                      </dl>
+                      <dl id="fs-idp90512720">
+                        <dt id="[redacted for uniqueness]">third law of thermodynamics</dt>
+                        <dd
+                          id="fs-idp90513360"
+                        >entropy of a perfect crystal at absolute zero (0 K) is zero</dd>
+                      </dl>
+                    </div>
+                  </div>
+                  

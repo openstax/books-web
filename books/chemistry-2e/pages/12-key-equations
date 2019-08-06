@@ -1,0 +1,809 @@
+
+                    <div
+                      class="os-eoc os-key-equations-container"
+                      data-type="composite-page"
+                      data-uuid-key=".key-equations"
+                    >
+                      <section
+                        class="key-equations"
+                        data-depth="1"
+                        id="fs-idp13917664"
+                      >
+                        <ul data-bullet-style="bullet" id="fs-idm42027872">
+                          <li>
+                            <math display="inline">
+                              <semantics>
+                                <mrow>
+                                  <mrow>
+                                    <mtext>relative reaction rates for</mtext>
+                                    <mspace width="0.2em"/>
+                                    <mi>a</mi>
+                                    <mtext>A</mtext>
+                                    <mspace width="0.2em"/>
+                                    <mo stretchy="false">⟶</mo>
+                                    <mspace width="0.2em"/>
+                                    <mi>b</mi>
+                                    <mtext>B</mtext>
+                                    <mo>=</mo>
+                                    <mo>−</mo>
+                                    <mspace width="0.2em"/>
+                                    <mfrac>
+                                      <mn>1</mn>
+                                      <mi>a</mi>
+                                    </mfrac>
+                                    <mspace width="0.2em"/>
+                                    <mfrac>
+                                      <mrow>
+                                        <mtext>Δ</mtext>
+                                        <mrow>
+                                          <mo stretchy="false">[</mo>
+                                          <mtext>A</mtext>
+                                          <mo stretchy="false">]</mo>
+                                        </mrow>
+                                      </mrow>
+                                      <mrow>
+                                        <mtext>Δ</mtext>
+                                        <mi>t</mi>
+                                      </mrow>
+                                    </mfrac>
+                                    <mspace width="0.1em"/>
+                                    <mo>=</mo>
+                                    <mspace width="0.1em"/>
+                                    <mfrac>
+                                      <mn>1</mn>
+                                      <mi>b</mi>
+                                    </mfrac>
+                                    <mspace width="0.2em"/>
+                                    <mfrac>
+                                      <mrow>
+                                        <mtext>Δ</mtext>
+                                        <mrow>
+                                          <mo stretchy="false">[</mo>
+                                          <mtext>B</mtext>
+                                          <mo stretchy="false">]</mo>
+                                        </mrow>
+                                      </mrow>
+                                      <mrow>
+                                        <mtext>Δ</mtext>
+                                        <mi>t</mi>
+                                      </mrow>
+                                    </mfrac>
+                                  </mrow>
+                                </mrow>
+                                <annotation-xml encoding="MathML-Content">
+                                  <mrow>
+                                    <mtext>relative reaction rates for</mtext>
+                                    <mspace width="0.2em"/>
+                                    <mi>a</mi>
+                                    <mtext>A</mtext>
+                                    <mspace width="0.2em"/>
+                                    <mo stretchy="false">⟶</mo>
+                                    <mspace width="0.2em"/>
+                                    <mi>b</mi>
+                                    <mtext>B</mtext>
+                                    <mo>=</mo>
+                                    <mo>−</mo>
+                                    <mspace width="0.2em"/>
+                                    <mfrac>
+                                      <mn>1</mn>
+                                      <mi>a</mi>
+                                    </mfrac>
+                                    <mspace width="0.2em"/>
+                                    <mfrac>
+                                      <mrow>
+                                        <mtext>Δ</mtext>
+                                        <mrow>
+                                          <mo stretchy="false">[</mo>
+                                          <mtext>A</mtext>
+                                          <mo stretchy="false">]</mo>
+                                        </mrow>
+                                      </mrow>
+                                      <mrow>
+                                        <mtext>Δ</mtext>
+                                        <mi>t</mi>
+                                      </mrow>
+                                    </mfrac>
+                                    <mspace width="0.1em"/>
+                                    <mo>=</mo>
+                                    <mspace width="0.1em"/>
+                                    <mfrac>
+                                      <mn>1</mn>
+                                      <mi>b</mi>
+                                    </mfrac>
+                                    <mspace width="0.2em"/>
+                                    <mfrac>
+                                      <mrow>
+                                        <mtext>Δ</mtext>
+                                        <mrow>
+                                          <mo stretchy="false">[</mo>
+                                          <mtext>B</mtext>
+                                          <mo stretchy="false">]</mo>
+                                        </mrow>
+                                      </mrow>
+                                      <mrow>
+                                        <mtext>Δ</mtext>
+                                        <mi>t</mi>
+                                      </mrow>
+                                    </mfrac>
+                                  </mrow>
+                                </annotation-xml>
+                              </semantics>
+                            </math>
+                          </li>
+                        </ul>
+                      </section>
+                      <section
+                        class="key-equations"
+                        data-depth="1"
+                        id="fs-idm150818384"
+                      >
+                        <ul data-bullet-style="bullet" id="fs-idm45705808">
+                          <li>
+                            integrated rate law for zero-order reactions:
+                            <math display="inline">
+                              <semantics>
+                                <mrow>
+                                  <mrow>
+                                    <mrow>
+                                      <mo>[</mo>
+                                      <mi>A</mi>
+                                      <msub>
+                                        <mo>]</mo>
+                                        <mi>t</mi>
+                                      </msub>
+                                    </mrow>
+                                    <mo>=</mo>
+                                    <mtext>−</mtext>
+                                    <mi>k</mi>
+                                    <mi>t</mi>
+                                    <mo>+</mo>
+                                    <msub>
+                                      <mrow>
+                                        <mrow>
+                                          <mo>[</mo>
+                                          <mi>A</mi>
+                                          <mo>]</mo>
+                                        </mrow>
+                                      </mrow>
+                                      <mn>0</mn>
+                                    </msub>
+                                    <mo>,</mo>
+                                  </mrow>
+                                </mrow>
+                                <annotation-xml encoding="MathML-Content">
+                                  <mrow>
+                                    <mrow>
+                                      <mo>[</mo>
+                                      <mi>A</mi>
+                                      <msub>
+                                        <mo>]</mo>
+                                        <mi>t</mi>
+                                      </msub>
+                                    </mrow>
+                                    <mo>=</mo>
+                                    <mtext>−</mtext>
+                                    <mi>k</mi>
+                                    <mi>t</mi>
+                                    <mo>+</mo>
+                                    <msub>
+                                      <mrow>
+                                        <mrow>
+                                          <mo>[</mo>
+                                          <mi>A</mi>
+                                          <mo>]</mo>
+                                        </mrow>
+                                      </mrow>
+                                      <mn>0</mn>
+                                    </msub>
+                                    <mo>,</mo>
+                                  </mrow>
+                                </annotation-xml>
+                              </semantics>
+                            </math>
+                          </li>
+                          <li>
+                            half-life for a ___-order reaction
+                            <math display="inline">
+                              <semantics>
+                                <mrow>
+                                  <mrow>
+                                    <msub>
+                                      <mi>t</mi>
+                                      <mrow>
+                                        <mn>1</mn>
+                                        <mtext>/</mtext>
+                                        <mn>2</mn>
+                                      </mrow>
+                                    </msub>
+                                    <mo>=</mo>
+                                    <mspace width="0.1em"/>
+                                    <mfrac>
+                                      <mrow>
+                                        <msub>
+                                          <mrow>
+                                            <mrow>
+                                              <mo>[</mo>
+                                              <mi>A</mi>
+                                              <mo>]</mo>
+                                            </mrow>
+                                          </mrow>
+                                          <mn>0</mn>
+                                        </msub>
+                                      </mrow>
+                                      <mrow>
+                                        <mn>2</mn>
+                                        <mi>k</mi>
+                                      </mrow>
+                                    </mfrac>
+                                  </mrow>
+                                </mrow>
+                                <annotation-xml encoding="MathML-Content">
+                                  <mrow>
+                                    <msub>
+                                      <mi>t</mi>
+                                      <mrow>
+                                        <mn>1</mn>
+                                        <mtext>/</mtext>
+                                        <mn>2</mn>
+                                      </mrow>
+                                    </msub>
+                                    <mo>=</mo>
+                                    <mspace width="0.1em"/>
+                                    <mfrac>
+                                      <mrow>
+                                        <msub>
+                                          <mrow>
+                                            <mrow>
+                                              <mo>[</mo>
+                                              <mi>A</mi>
+                                              <mo>]</mo>
+                                            </mrow>
+                                          </mrow>
+                                          <mn>0</mn>
+                                        </msub>
+                                      </mrow>
+                                      <mrow>
+                                        <mn>2</mn>
+                                        <mi>k</mi>
+                                      </mrow>
+                                    </mfrac>
+                                  </mrow>
+                                </annotation-xml>
+                              </semantics>
+                            </math>
+                          </li>
+                          <li>
+                            integrated rate law for first-order reactions:
+                            <math display="inline">
+                              <semantics>
+                                <mrow>
+                                  <mrow>
+                                    <mtext>ln</mtext>
+                                    <mrow>
+                                      <mo>[</mo>
+                                      <mi>A</mi>
+                                      <msub>
+                                        <mo>]</mo>
+                                        <mi>t</mi>
+                                      </msub>
+                                    </mrow>
+                                    <mo>=</mo>
+                                    <mtext>−</mtext>
+                                    <mi>k</mi>
+                                    <mi>t</mi>
+                                    <mo>+</mo>
+                                    <mtext>ln</mtext>
+                                    <msub>
+                                      <mrow>
+                                        <mrow>
+                                          <mo>[</mo>
+                                          <mi>A</mi>
+                                          <mo>]</mo>
+                                        </mrow>
+                                      </mrow>
+                                      <mn>0</mn>
+                                    </msub>
+                                    <mo>,</mo>
+                                  </mrow>
+                                </mrow>
+                                <annotation-xml encoding="MathML-Content">
+                                  <mrow>
+                                    <mtext>ln</mtext>
+                                    <mrow>
+                                      <mo>[</mo>
+                                      <mi>A</mi>
+                                      <msub>
+                                        <mo>]</mo>
+                                        <mi>t</mi>
+                                      </msub>
+                                    </mrow>
+                                    <mo>=</mo>
+                                    <mtext>−</mtext>
+                                    <mi>k</mi>
+                                    <mi>t</mi>
+                                    <mo>+</mo>
+                                    <mtext>ln</mtext>
+                                    <msub>
+                                      <mrow>
+                                        <mrow>
+                                          <mo>[</mo>
+                                          <mi>A</mi>
+                                          <mo>]</mo>
+                                        </mrow>
+                                      </mrow>
+                                      <mn>0</mn>
+                                    </msub>
+                                    <mo>,</mo>
+                                  </mrow>
+                                </annotation-xml>
+                              </semantics>
+                            </math>
+                          </li>
+                          <li>
+                            half-life for a ___-order reaction
+                            <math display="inline">
+                              <semantics>
+                                <mrow>
+                                  <mrow>
+                                    <msub>
+                                      <mi>t</mi>
+                                      <mrow>
+                                        <mn>1</mn>
+                                        <mtext>/</mtext>
+                                        <mn>2</mn>
+                                      </mrow>
+                                    </msub>
+                                    <mo>=</mo>
+                                    <mspace width="0.1em"/>
+                                    <mfrac>
+                                      <mrow>
+                                        <mn>0.693</mn>
+                                      </mrow>
+                                      <mi>k</mi>
+                                    </mfrac>
+                                  </mrow>
+                                </mrow>
+                                <annotation-xml encoding="MathML-Content">
+                                  <mrow>
+                                    <msub>
+                                      <mi>t</mi>
+                                      <mrow>
+                                        <mn>1</mn>
+                                        <mtext>/</mtext>
+                                        <mn>2</mn>
+                                      </mrow>
+                                    </msub>
+                                    <mo>=</mo>
+                                    <mspace width="0.1em"/>
+                                    <mfrac>
+                                      <mrow>
+                                        <mn>0.693</mn>
+                                      </mrow>
+                                      <mi>k</mi>
+                                    </mfrac>
+                                  </mrow>
+                                </annotation-xml>
+                              </semantics>
+                            </math>
+                          </li>
+                          <li>
+                            integrated rate law for second-order reactions:
+                            <math display="inline">
+                              <semantics>
+                                <mrow>
+                                  <mrow>
+                                    <mfrac>
+                                      <mn>1</mn>
+                                      <mrow>
+                                        <mrow>
+                                          <mo>[</mo>
+                                          <mi>A</mi>
+                                          <msub>
+                                            <mo>]</mo>
+                                            <mi>t</mi>
+                                          </msub>
+                                        </mrow>
+                                      </mrow>
+                                    </mfrac>
+                                    <mspace width="0.1em"/>
+                                    <mo>=</mo>
+                                    <mi>k</mi>
+                                    <mi>t</mi>
+                                    <mo>+</mo>
+                                    <mspace width="0.2em"/>
+                                    <mfrac>
+                                      <mn>1</mn>
+                                      <mrow>
+                                        <msub>
+                                          <mrow>
+                                            <mrow>
+                                              <mo>[</mo>
+                                              <mi>A</mi>
+                                              <mo>]</mo>
+                                            </mrow>
+                                          </mrow>
+                                          <mn>0</mn>
+                                        </msub>
+                                      </mrow>
+                                    </mfrac>
+                                    <mo>,</mo>
+                                  </mrow>
+                                </mrow>
+                                <annotation-xml encoding="MathML-Content">
+                                  <mrow>
+                                    <mfrac>
+                                      <mn>1</mn>
+                                      <mrow>
+                                        <mrow>
+                                          <mo>[</mo>
+                                          <mi>A</mi>
+                                          <msub>
+                                            <mo>]</mo>
+                                            <mi>t</mi>
+                                          </msub>
+                                        </mrow>
+                                      </mrow>
+                                    </mfrac>
+                                    <mspace width="0.1em"/>
+                                    <mo>=</mo>
+                                    <mi>k</mi>
+                                    <mi>t</mi>
+                                    <mo>+</mo>
+                                    <mspace width="0.2em"/>
+                                    <mfrac>
+                                      <mn>1</mn>
+                                      <mrow>
+                                        <msub>
+                                          <mrow>
+                                            <mrow>
+                                              <mo>[</mo>
+                                              <mi>A</mi>
+                                              <mo>]</mo>
+                                            </mrow>
+                                          </mrow>
+                                          <mn>0</mn>
+                                        </msub>
+                                      </mrow>
+                                    </mfrac>
+                                    <mo>,</mo>
+                                  </mrow>
+                                </annotation-xml>
+                              </semantics>
+                            </math>
+                          </li>
+                          <li>
+                            half-life for a ___-order reaction
+                            <math display="inline">
+                              <semantics>
+                                <mrow>
+                                  <mrow>
+                                    <msub>
+                                      <mi>t</mi>
+                                      <mrow>
+                                        <mn>1</mn>
+                                        <mtext>/</mtext>
+                                        <mn>2</mn>
+                                      </mrow>
+                                    </msub>
+                                    <mo>=</mo>
+                                    <mspace width="0.1em"/>
+                                    <mfrac>
+                                      <mn>1</mn>
+                                      <mrow>
+                                        <msub>
+                                          <mrow>
+                                            <mrow>
+                                              <mo>[</mo>
+                                              <mi>A</mi>
+                                              <mo>]</mo>
+                                            </mrow>
+                                          </mrow>
+                                          <mn>0</mn>
+                                        </msub>
+                                        <mi>k</mi>
+                                      </mrow>
+                                    </mfrac>
+                                  </mrow>
+                                </mrow>
+                                <annotation-xml encoding="MathML-Content">
+                                  <mrow>
+                                    <msub>
+                                      <mi>t</mi>
+                                      <mrow>
+                                        <mn>1</mn>
+                                        <mtext>/</mtext>
+                                        <mn>2</mn>
+                                      </mrow>
+                                    </msub>
+                                    <mo>=</mo>
+                                    <mspace width="0.1em"/>
+                                    <mfrac>
+                                      <mn>1</mn>
+                                      <mrow>
+                                        <msub>
+                                          <mrow>
+                                            <mrow>
+                                              <mo>[</mo>
+                                              <mi>A</mi>
+                                              <mo>]</mo>
+                                            </mrow>
+                                          </mrow>
+                                          <mn>0</mn>
+                                        </msub>
+                                        <mi>k</mi>
+                                      </mrow>
+                                    </mfrac>
+                                  </mrow>
+                                </annotation-xml>
+                              </semantics>
+                            </math>
+                          </li>
+                        </ul>
+                      </section>
+                      <section
+                        class="key-equations"
+                        data-depth="1"
+                        id="fs-idp2946768"
+                      >
+                        <ul data-bullet-style="bullet" id="fs-idm161647744">
+                          <li>
+                            <math display="inline">
+                              <semantics>
+                                <mrow>
+                                  <mrow>
+                                    <mi>k</mi>
+                                    <mo>=</mo>
+                                    <mi>A</mi>
+                                    <msup>
+                                      <mi>e</mi>
+                                      <mrow>
+                                        <mtext>−</mtext>
+                                        <msub>
+                                          <mi>E</mi>
+                                          <mtext>a</mtext>
+                                        </msub>
+                                        <mtext>/</mtext>
+                                        <mi>R</mi>
+                                        <mi>T</mi>
+                                      </mrow>
+                                    </msup>
+                                  </mrow>
+                                </mrow>
+                                <annotation-xml encoding="MathML-Content">
+                                  <mrow>
+                                    <mi>k</mi>
+                                    <mo>=</mo>
+                                    <mi>A</mi>
+                                    <msup>
+                                      <mi>e</mi>
+                                      <mrow>
+                                        <mtext>−</mtext>
+                                        <msub>
+                                          <mi>E</mi>
+                                          <mtext>a</mtext>
+                                        </msub>
+                                        <mtext>/</mtext>
+                                        <mi>R</mi>
+                                        <mi>T</mi>
+                                      </mrow>
+                                    </msup>
+                                  </mrow>
+                                </annotation-xml>
+                              </semantics>
+                            </math>
+                          </li>
+                          <li>
+                            <math display="inline">
+                              <semantics>
+                                <mrow>
+                                  <mrow>
+                                    <mtext>ln</mtext>
+                                    <mspace width="0.2em"/>
+                                    <mi>k</mi>
+                                    <mo>=</mo>
+                                    <mrow>
+                                      <mo>(</mo>
+                                      <mrow>
+                                        <mfrac>
+                                          <mrow>
+                                            <mtext>−</mtext>
+                                            <msub>
+                                              <mi>E</mi>
+                                              <mtext>a</mtext>
+                                            </msub>
+                                          </mrow>
+                                          <mi>R</mi>
+                                        </mfrac>
+                                      </mrow>
+                                      <mo>)</mo>
+                                    </mrow>
+                                    <mspace width="0.2em"/>
+                                    <mrow>
+                                      <mo>(</mo>
+                                      <mrow>
+                                        <mfrac>
+                                          <mn>1</mn>
+                                          <mi>T</mi>
+                                        </mfrac>
+                                      </mrow>
+                                      <mo>)</mo>
+                                    </mrow>
+                                    <mo>+</mo>
+                                    <mtext>ln</mtext>
+                                    <mspace width="0.2em"/>
+                                    <mi>A</mi>
+                                  </mrow>
+                                </mrow>
+                                <annotation-xml encoding="MathML-Content">
+                                  <mrow>
+                                    <mtext>ln</mtext>
+                                    <mspace width="0.2em"/>
+                                    <mi>k</mi>
+                                    <mo>=</mo>
+                                    <mrow>
+                                      <mo>(</mo>
+                                      <mrow>
+                                        <mfrac>
+                                          <mrow>
+                                            <mtext>−</mtext>
+                                            <msub>
+                                              <mi>E</mi>
+                                              <mtext>a</mtext>
+                                            </msub>
+                                          </mrow>
+                                          <mi>R</mi>
+                                        </mfrac>
+                                      </mrow>
+                                      <mo>)</mo>
+                                    </mrow>
+                                    <mspace width="0.2em"/>
+                                    <mrow>
+                                      <mo>(</mo>
+                                      <mrow>
+                                        <mfrac>
+                                          <mn>1</mn>
+                                          <mi>T</mi>
+                                        </mfrac>
+                                      </mrow>
+                                      <mo>)</mo>
+                                    </mrow>
+                                    <mo>+</mo>
+                                    <mtext>ln</mtext>
+                                    <mspace width="0.2em"/>
+                                    <mi>A</mi>
+                                  </mrow>
+                                </annotation-xml>
+                              </semantics>
+                            </math>
+                          </li>
+                          <li>
+                            <math display="inline">
+                              <semantics>
+                                <mrow>
+                                  <mrow>
+                                    <mtext>ln</mtext>
+                                    <mspace width="0.2em"/>
+                                    <mfrac>
+                                      <mrow>
+                                        <msub>
+                                          <mi>k</mi>
+                                          <mn>1</mn>
+                                        </msub>
+                                      </mrow>
+                                      <mrow>
+                                        <msub>
+                                          <mi>k</mi>
+                                          <mn>2</mn>
+                                        </msub>
+                                      </mrow>
+                                    </mfrac>
+                                    <mspace width="0.1em"/>
+                                    <mo>=</mo>
+                                    <mspace width="0.1em"/>
+                                    <mfrac>
+                                      <mrow>
+                                        <msub>
+                                          <mi>E</mi>
+                                          <mtext>a</mtext>
+                                        </msub>
+                                      </mrow>
+                                      <mi>R</mi>
+                                    </mfrac>
+                                    <mspace width="0.2em"/>
+                                    <mrow>
+                                      <mo>(</mo>
+                                      <mrow>
+                                        <mfrac>
+                                          <mn>1</mn>
+                                          <mrow>
+                                            <msub>
+                                              <mi>T</mi>
+                                              <mn>2</mn>
+                                            </msub>
+                                          </mrow>
+                                        </mfrac>
+                                        <mspace width="0.2em"/>
+                                        <mo>−</mo>
+                                        <mspace width="0.2em"/>
+                                        <mfrac>
+                                          <mn>1</mn>
+                                          <mrow>
+                                            <msub>
+                                              <mi>T</mi>
+                                              <mn>1</mn>
+                                            </msub>
+                                          </mrow>
+                                        </mfrac>
+                                      </mrow>
+                                      <mo>)</mo>
+                                    </mrow>
+                                  </mrow>
+                                </mrow>
+                                <annotation-xml encoding="MathML-Content">
+                                  <mrow>
+                                    <mtext>ln</mtext>
+                                    <mspace width="0.2em"/>
+                                    <mfrac>
+                                      <mrow>
+                                        <msub>
+                                          <mi>k</mi>
+                                          <mn>1</mn>
+                                        </msub>
+                                      </mrow>
+                                      <mrow>
+                                        <msub>
+                                          <mi>k</mi>
+                                          <mn>2</mn>
+                                        </msub>
+                                      </mrow>
+                                    </mfrac>
+                                    <mspace width="0.1em"/>
+                                    <mo>=</mo>
+                                    <mspace width="0.1em"/>
+                                    <mfrac>
+                                      <mrow>
+                                        <msub>
+                                          <mi>E</mi>
+                                          <mtext>a</mtext>
+                                        </msub>
+                                      </mrow>
+                                      <mi>R</mi>
+                                    </mfrac>
+                                    <mspace width="0.2em"/>
+                                    <mrow>
+                                      <mo>(</mo>
+                                      <mrow>
+                                        <mfrac>
+                                          <mn>1</mn>
+                                          <mrow>
+                                            <msub>
+                                              <mi>T</mi>
+                                              <mn>2</mn>
+                                            </msub>
+                                          </mrow>
+                                        </mfrac>
+                                        <mspace width="0.2em"/>
+                                        <mo>−</mo>
+                                        <mspace width="0.2em"/>
+                                        <mfrac>
+                                          <mn>1</mn>
+                                          <mrow>
+                                            <msub>
+                                              <mi>T</mi>
+                                              <mn>1</mn>
+                                            </msub>
+                                          </mrow>
+                                        </mfrac>
+                                      </mrow>
+                                      <mo>)</mo>
+                                    </mrow>
+                                  </mrow>
+                                </annotation-xml>
+                              </semantics>
+                            </math>
+                          </li>
+                        </ul>
+                      </section>
+                    </div>
+                  </div>
+                  

@@ -1,0 +1,647 @@
+// Styles for the contents of a page.
+// This should **only** be imported inside a containing selector like:
+//
+//     #content { @import 'this_file.less'; }
+
+@import "./content-common.less";
+@import "./_make-block.less";
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 1.5rem 0 1rem 0;
+  font-weight: bold;
+}
+
+h3 + section {
+  margin-top: 0;
+}
+
+ul, ol {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  color: @gray;
+}
+
+.stepwise {
+  list-style-type: none;
+  padding-left: 0;
+  > li {
+    display: flex;
+    .os-stepwise-token {
+      white-space: pre;
+    }
+    .os-stepwise-content {
+      > ul, ol {
+        padding-left: 1rem;
+      }
+    }
+  }
+}
+
+.os-stepwise {
+  list-style-type: none;
+  padding-left: 0;
+  > li {
+    display: flex;
+    .os-stepwise-token {
+      white-space: pre;
+    }
+    .os-stepwise-content {
+      > ul, ol {
+        padding-left: 1rem;
+      }
+    }
+  }
+}
+
+.os-abstract {
+  list-style-type: none;
+  padding-left: 2rem;
+}
+
+.circled {
+  list-style-type: none;
+  padding-left: 1rem;
+}
+
+[data-bullet-style="none"] {
+  list-style-type: none;
+}
+
+iframe {
+  display: block;
+  margin: 3rem auto;
+}
+
+.centered-text {
+  display: block;
+  font-weight: normal;
+  text-align: center;
+}
+
+.os-chapter-outline {
+  ul {
+    margin-top: 0;
+  }
+}
+
+.colored-text {
+  color: #CC0000;
+}
+
+.no-emphasis {
+  font-weight: normal; //to ensure that all terms with this tag will display unbolded
+}
+
+// It is already displayed at the top of the page in blue
+// the `>` is because collated titles (like Key Concepts) contain descendent
+// document-title elements.
+// [data-type="page"],
+// [data-type="composite-page"] {
+//   > [data-type="document-title"] {
+//     display: none;
+//   }
+// }
+
+> section,
+> figure,
+> [data-type="glossary"],
+> [data-type="footnote-refs"] {
+  margin-top: 6rem;
+
+  > ol > li::before {
+    content: "" !important;
+  }
+}
+
+.splash {
+  margin-top: 0;
+  &:not([data-orient="vertical"]) {
+    display: block;
+    img {
+      width: 100%;
+    }
+  }
+}
+
+figure.splash.unnumbered {
+  display: table;
+  margin: 3rem auto;
+  figcaption {
+    text-align: left;
+    padding-left: 0rem;
+  }
+}
+
+span[data-type="media"] img {
+  display: block;
+}
+
+.os-figure {
+  display: table;
+  margin: 3rem auto;
+  .os-caption-container {
+    display: table-caption;
+    padding-top: 1rem;
+    color: @gray;
+    font-size: 1.2rem;
+    caption-side: bottom;
+    .os-title-label {
+      font-weight: bold;
+    }
+    .os-number {
+      font-weight: bold;
+    }
+    .os-title {
+      font-weight: bold;
+    }
+  }
+
+  figure {
+    // Subfigures
+    > figure {
+      &.ui-has-child-figcaption > figcaption::before {
+        //font-weight: bold;
+        //content: counter(figure) counter(subfigure,lower-alpha) ': ';
+      }
+
+      &:not(.ui-has-child-figcaption)::after {
+        //content: '(' counter(subfigure,lower-alpha) ')';
+      }
+    }
+  }
+}
+
+// By default, figures are laid out horizontally
+// unless they have the data-orient="vertical" attribute.
+// figure:not([data-orient="vertical"]) {
+// }
+
+// --------------------------------
+// Blockish things (note, example, exercise)
+// --------------------------------
+
+// Slots for various blockish pieces of content (things with a label, title, and body)
+// This **ONLY** contains rules, no selectors.
+#blockish {
+  .style(note) {
+    margin: 3rem 0;
+    padding: 1.5rem;
+    border: 0.2rem solid @gray-lighter;
+    background-color: @gray-lightest;
+
+    > p {
+      margin-top: 0;
+    }
+
+    :last-child {
+      //  margin-bottom: 0;
+    }
+  }
+  .title(note) {
+    display: block;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    padding: 0rem 1.5rem 1rem 1.5rem;
+    border-bottom: 0.2rem solid @gray-lighter;
+    color: @gray;
+    font-size: 1.5rem;
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+  }
+  .body(note) {
+    padding: 0rem 1.5rem;
+    border-top: none;
+    background-color: @gray-lightest;
+    color: @gray;
+
+    span[data-type="media"] {
+      display: block;
+      margin: 1rem 0;
+    }
+  }
+  .style(example) {
+    .style(note);
+  }
+  .title(example) {
+    .title(note);
+  }
+  .body(example) {
+    .body(note);
+  }
+}
+
+// TODO refactor this
+h1.example-title .text {
+  padding-left: 1rem;
+}
+
+.exercise-number() {
+  font-weight: bold;
+  text-decoration: none;
+}
+
+// [data-type="composite-page"] [data-type="solution"] p {
+//   display: inline;
+// }
+
+[data-type="note"],
+.note {
+  .make-block(note);
+}
+[data-type="example"],
+.example {
+  .make-block(example);
+}
+[data-type="problem"],
+[data-type="solution"],
+.problem,
+.solution {
+  padding: 0;
+}
+
+.os-eoc, .os-eob, .section-exercises {
+  .os-problem-container,
+  .os-solution-container {
+    display: inline;
+    > :first-child:not(ul):not(ol):not([data-type="note"]):not(.os-figure) {
+      display: inline;
+    }
+    > ul, > ol, [data-type="note"] {
+      margin-top: 0;
+    }
+    .os-figure {
+      margin: 3rem 0;
+    }
+  }
+}
+
+.os-eob, .os-eos {
+  .os-solution-container, .os-problem-container {
+    img {
+      display: block;
+    }
+  }
+}
+
+.review-questions,
+.os-review-questions-container {
+  [type="a"] {
+    list-style-type: upper-alpha;
+  }
+}
+
+// [data-type="composite-page"] {
+//   [data-type="exercise"] {
+//     [data-type="problem"] {
+//       p:first-of-type {
+//         a {
+//           font-weight: bold;
+//           margin-right: 0.5em;
+//         }
+//       }
+//     }
+//   }
+// }
+
+[data-type="exercise"] {
+  [data-type="problem"] {
+    p:first-of-type {
+      display: inline-block;
+    }
+  }
+}
+
+// solutions of notes, exercises, and examples have a top-border to separate the solution
+[data-type="note"],
+[data-type="exercise"],
+[data-type="example"] {
+  [data-type="solution"],
+  .solution {
+    border-top: 0.1rem solid @gray-lighter;
+  }
+}
+
+[data-type="example"] {
+  .os-solution-container {
+    margin-top: 1rem;
+    p {
+      margin-top: 1rem;
+    }
+  }
+}
+
+// Equations
+// --------------------------------------------------
+.equation,
+[data-type="equation"] {
+  display: table;
+  width: 100%;
+  .os-equation-number {
+    display: table-cell;
+    width: 5%;
+    vertical-align: middle;
+    .os-number {
+      padding: 5px;
+      border: black solid 1px;
+      text-align: center;
+      vertical-align: middle;
+    }
+  }
+  [data-type="title"] {
+    display: block;
+    font-weight: bold;
+    text-align: center;
+  }
+}
+
+// Notes
+// --------------------------------------------------
+.os-note-body {
+  img {
+    display: block;
+  }
+}
+
+//
+// MathJax_Display override
+// --------------------------------------------------
+.os-table table thead tr th .MathJax_Display {
+  width: auto !important;
+  margin: 0px;
+  float: left !important;
+}
+
+// Tables
+// --------------------------------------------------
+.swipe-table {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Chrome / Opera */
+  cursor: -webkit-grab;
+}
+.os-table {
+  overflow-x: auto;
+  margin: @line-height-computed 0;
+  .os-table-title {
+    padding-bottom: 1em;
+    font-weight: bold;
+    text-align: center;
+  }
+  table {
+    margin: 0;
+    &.has-images {
+      table-layout: fixed;
+    }
+    tr {
+      td, th {
+        padding: @table-cell-padding;
+      }
+      td {
+        vertical-align: middle;
+      }
+      [data-valign="top"] {
+        vertical-align: top;
+      }
+      [data-align="center"] {
+        text-align: center;
+      }
+    }
+    ul, ol{
+      padding-left: 1.5em;
+      &[data-bullet-style="none"] {
+        margin: 0;
+        padding: 0;
+        li {
+          list-style: none;
+        }
+      }
+    }
+    .os-figure {
+      margin: 0;
+      img {
+        margin: 0;
+      }
+      .os-caption-container {
+        padding: 1rem 0 0 0;
+      }
+    }
+  }
+  .os-caption-container {
+    padding: 8px;
+    border-top: 0.1rem solid @gray-lighter;
+    font-size: 0.9em;
+
+    .os-title-label,
+    .os-number {
+      display: inline-block;
+      padding-right: 0.25em;
+      font-weight: bold;
+    }
+  }
+}
+
+//
+// End of Chapter/End of Book
+// --------------------------------------------------
+
+.os-eoc,
+.os-eob {
+  .os-problem-container,
+  .os-solution-container {
+    display: inline;
+    > :first-child:not(ul):not(ol):not([data-type="note"]):not(.os-figure) {
+      display: inline;
+    }
+    > ul, > ol, [data-type="note"] {
+      margin-top: 0;
+    }
+    .os-figure {
+      margin: 3rem 0;
+    }
+  }
+  h2[data-type="document-title"],
+  h2.os-title {
+    font-size: 2.1rem;
+    font-weight: bold;
+  }
+  .os-number {
+    font-weight: bold;
+    text-decoration: none;
+  }
+
+  .group-by .os-index-item {
+    &:not(:first-of-type) {
+      margin-top: 0.5rem;
+    }
+    .os-term {
+      padding-right: 0.5rem;
+      font-weight: bold;
+    }
+  }
+
+  .group-label {
+    display: block;
+    margin: 1.5rem 0 1rem 0;
+    font-size: 2.1rem;
+    font-weight: bold;
+  }
+
+  &.os-reference-container > .os-chapter-area > .reference span.os-reference-number,
+  &.os-references-container .references .os-note-body > a {
+    margin-right: 10px;
+  }
+
+  [data-type="list"],
+  .list {
+    > [data-type="title"],
+    > .title {
+      margin-top: 15px;
+    }
+  }
+
+  [data-type="solution"] {
+    ol {
+      display: inline-grid;
+    }
+    span[data-type="media"] {
+      display: block;
+    }
+    table {
+      margin-top: 0;
+    }
+  }
+}
+
+.os-reference-number {
+  font-weight: bold;
+}
+
+.os-eoc [data-type="exercise"],
+.os-eoc .exercise {
+  [data-type="problem"] > .number {
+    .exercise-number();
+  }
+
+  img {
+    display: block;
+    margin-bottom: 1em;
+  }
+}
+
+.os-eob {
+  .os-solution-container {
+    img {
+      display: block;
+    }
+  }
+}
+
+.os-solutions-container {
+  // TODO: Fix this selector; it should be similar to the problem number one
+  [data-type="solution"] {
+    padding: 0.5em 0.25em 0.5em 0;
+    //display: inline;
+    > a /*> .number*/ {
+      .exercise-number();
+    }
+    p {
+      display: inline;
+      &::before {
+        content: " ";
+      }
+    }
+  }
+}
+
+.os-chapter-area [data-type="solution"] p {
+  display: inline;
+}
+
+.preface ul {
+  list-style-type: none;
+}
+
+.appendix [data-type="list"] {
+  margin-top: 1rem;
+}
+
+.appendix [data-type="exercise"] .os-problem-container p {
+  margin-top: 0;
+}
+
+figure {
+  &.scaled-down {
+    width: 60%;
+    margin: auto;
+
+    ~ .os-caption-container {
+      width: 60%;
+      margin: auto;
+    }
+  }
+  &.scaled-down-30 {
+    width: 30%;
+    margin: auto;
+
+    ~ .os-caption-container {
+      width: 30%;
+      margin: auto;
+    }
+  }
+}
+
+:not(figure) > [data-type="media"] {
+  &.scaled-down {
+    display: block;
+    text-align: center;
+
+    img {
+      width: 60%;
+    }
+  }
+  &.scaled-down-30 {
+    display: block;
+    text-align: center;
+
+    img {
+      width: 30%;
+    }
+  }
+}
+
+.learning-objectives {
+  margin: 3rem 0;
+  padding: 1.5rem;
+  border: .2rem solid #dcdcdc;
+  background-color: #ededed;
+  [data-type="title"] {
+    display: block;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    padding: 0 1.5rem 1rem;
+    border-bottom: .2rem solid #dcdcdc;
+    color: #555;
+    font-size: 1.5rem;
+    font-weight: 700;
+    letter-spacing: .1rem;
+    text-transform: uppercase;
+  }
+  p {
+    margin: 0 0 1rem 1.5rem;
+    color: #555;
+  }
+}
+
+// FIXME: hiding in baked books until a fix is made on CNX
+.not-converted-yet {
+  visibility: hidden;
+}

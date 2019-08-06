@@ -1,0 +1,2609 @@
+
+                    <div
+                      data-cnxml-to-html-ver="[redacted for uniqueness]"
+                      data-type="page"
+                      id="23c22d4a-5468-45b5-a3ee-616ae2549e96"
+                    >
+                      <div data-type="abstract" id="[redacted for uniqueness]">
+                        By the end of this section, you will be able to:
+                        <ul>
+                          <li>Explain the concept of stoichiometry as it pertains to chemical reactions</li>
+                          <li>Use balanced chemical equations to derive stoichiometric factors relating amounts of reactants and products</li>
+                          <li>Perform stoichiometric calculations involving mass, moles, and solution molarity</li>
+                        </ul>
+                      </div>
+
+                      <p id="fs-idp65325120">
+                        A balanced chemical equation provides a great deal of information in a very succinct format. Chemical formulas provide the identities of the reactants and products involved in the chemical change, allowing classification of the reaction. Coefficients provide the relative numbers of these chemical species, allowing a quantitative assessment of the relationships between the amounts of substances consumed and produced by the reaction. These quantitative relationships are known as the reaction’s
+                        <span
+                          data-type="term"
+                          group-by="s"
+                          id="[redacted for uniqueness]"
+                        >stoichiometry</span>, a term derived from the Greek words
+                        <em data-effect="italics">stoicheion</em> (meaning “element”) and
+                        <em data-effect="italics">metron</em> (meaning “measure”). In this module, the use of balanced chemical equations for various stoichiometric applications is explored.
+                      </p>
+
+                      <p id="fs-idp92593072">
+                        The general approach to using stoichiometric relationships is similar in concept to the way people go about many common activities. Food preparation, for example, offers an appropriate comparison. A recipe for making eight pancakes calls for 1 cup pancake mix,
+                        <math display="inline">
+                          <semantics>
+                            <mrow>
+                              <mrow>
+                                <mfrac>
+                                  <mn>3</mn>
+                                  <mn>4</mn>
+                                </mfrac>
+                              </mrow>
+                            </mrow>
+                            <annotation-xml encoding="MathML-Content">
+                              <mrow>
+                                <mfrac>
+                                  <mn>3</mn>
+                                  <mn>4</mn>
+                                </mfrac>
+                              </mrow>
+                            </annotation-xml>
+                          </semantics>
+                        </math> cup milk, and one egg. The “equation” representing the preparation of pancakes per this recipe is
+                      </p>
+
+                      <div data-type="equation" id="fs-idp116126928">
+                        <math display="block">
+                          <semantics>
+                            <mrow>
+                              <mrow>
+                                <mn>1</mn>
+                                <mspace width="0.2em"/>
+                                <mtext>cup mix</mtext>
+                                <mo>+</mo>
+                                <mspace width="0.2em"/>
+                                <mfrac>
+                                  <mn>3</mn>
+                                  <mn>4</mn>
+                                </mfrac>
+                                <mspace width="0.2em"/>
+                                <mtext>cup milk</mtext>
+                                <mo>+</mo>
+                                <mn>1</mn>
+                                <mspace width="0.2em"/>
+                                <mtext>egg</mtext>
+                                <mspace width="0.2em"/>
+                                <mo stretchy="false">⟶</mo>
+                                <mspace width="0.2em"/>
+                                <mn>8</mn>
+                                <mspace width="0.2em"/>
+                                <mtext>pancakes</mtext>
+                              </mrow>
+                            </mrow>
+                            <annotation-xml encoding="MathML-Content">
+                              <mrow>
+                                <mn>1</mn>
+                                <mspace width="0.2em"/>
+                                <mtext>cup mix</mtext>
+                                <mo>+</mo>
+                                <mspace width="0.2em"/>
+                                <mfrac>
+                                  <mn>3</mn>
+                                  <mn>4</mn>
+                                </mfrac>
+                                <mspace width="0.2em"/>
+                                <mtext>cup milk</mtext>
+                                <mo>+</mo>
+                                <mn>1</mn>
+                                <mspace width="0.2em"/>
+                                <mtext>egg</mtext>
+                                <mspace width="0.2em"/>
+                                <mo stretchy="false">⟶</mo>
+                                <mspace width="0.2em"/>
+                                <mn>8</mn>
+                                <mspace width="0.2em"/>
+                                <mtext>pancakes</mtext>
+                              </mrow>
+                            </annotation-xml>
+                          </semantics>
+                        </math>
+                      </div>
+
+                      <p
+                        id="fs-idp78338704"
+                      >If two dozen pancakes are needed for a big family breakfast, the ingredient amounts must be increased proportionally according to the amounts given in the recipe. For example, the number of eggs required to make 24 pancakes is</p>
+
+                      <div data-type="equation" id="fs-idp58586688">
+                        <math display="block">
+                          <semantics>
+                            <mrow>
+                              <mrow>
+                                <mn>24</mn>
+                                <mspace width="0.2em"/>
+                                <menclose notation="horizontalstrike">
+                                  <mrow>
+                                    <mtext>pancakes</mtext>
+                                  </mrow>
+                                </menclose>
+                                <mspace width="0.2em"/>
+                                <mo>×</mo>
+                                <mspace width="0.2em"/>
+                                <mfrac>
+                                  <mrow>
+                                    <mn>1</mn>
+                                    <mspace width="0.2em"/>
+                                    <mtext>egg</mtext>
+                                  </mrow>
+                                  <mrow>
+                                    <mn>8</mn>
+                                    <mspace width="0.2em"/>
+                                    <menclose notation="horizontalstrike">
+                                      <mrow>
+                                        <mtext>pancakes</mtext>
+                                      </mrow>
+                                    </menclose>
+                                  </mrow>
+                                </mfrac>
+                                <mspace width="0.2em"/>
+                                <mo>=</mo>
+                                <mn>3</mn>
+                                <mspace width="0.2em"/>
+                                <mtext>eggs</mtext>
+                              </mrow>
+                            </mrow>
+                            <annotation-xml encoding="MathML-Content">
+                              <mrow>
+                                <mn>24</mn>
+                                <mspace width="0.2em"/>
+                                <menclose notation="horizontalstrike">
+                                  <mrow>
+                                    <mtext>pancakes</mtext>
+                                  </mrow>
+                                </menclose>
+                                <mspace width="0.2em"/>
+                                <mo>×</mo>
+                                <mspace width="0.2em"/>
+                                <mfrac>
+                                  <mrow>
+                                    <mn>1</mn>
+                                    <mspace width="0.2em"/>
+                                    <mtext>egg</mtext>
+                                  </mrow>
+                                  <mrow>
+                                    <mn>8</mn>
+                                    <mspace width="0.2em"/>
+                                    <menclose notation="horizontalstrike">
+                                      <mrow>
+                                        <mtext>pancakes</mtext>
+                                      </mrow>
+                                    </menclose>
+                                  </mrow>
+                                </mfrac>
+                                <mspace width="0.2em"/>
+                                <mo>=</mo>
+                                <mn>3</mn>
+                                <mspace width="0.2em"/>
+                                <mtext>eggs</mtext>
+                              </mrow>
+                            </annotation-xml>
+                          </semantics>
+                        </math>
+                      </div>
+
+                      <p id="fs-idp98270672">
+                        Balanced chemical equations are used in much the same fashion to determine the amount of one reactant required to react with a given amount of another reactant, or to yield a given amount of product, and so forth. The coefficients in the balanced equation are used to derive
+                        <span
+                          data-type="term"
+                          group-by="s"
+                          id="[redacted for uniqueness]"
+                        >stoichiometric factors</span> that permit computation of the desired quantity. To illustrate this idea, consider the production of ammonia by reaction of hydrogen and nitrogen:
+                      </p>
+
+                      <div data-type="equation" id="fs-idp124603552">
+                        <math display="block">
+                          <semantics>
+                            <mrow>
+                              <mrow>
+                                <msub>
+                                  <mtext>N</mtext>
+                                  <mn>2</mn>
+                                </msub>
+                                <mo stretchy="false">(</mo>
+                                <mi>g</mi>
+                                <mo stretchy="false">)</mo>
+                                <mo>+</mo>
+                                <mn>3</mn>
+                                <msub>
+                                  <mtext>H</mtext>
+                                  <mn>2</mn>
+                                </msub>
+                                <mo stretchy="false">(</mo>
+                                <mi>g</mi>
+                                <mo stretchy="false">)</mo>
+                                <mspace width="0.2em"/>
+                                <mo stretchy="false">⟶</mo>
+                                <mspace width="0.2em"/>
+                                <mn>2</mn>
+                                <msub>
+                                  <mrow>
+                                    <mtext>NH</mtext>
+                                  </mrow>
+                                  <mn>3</mn>
+                                </msub>
+                                <mo stretchy="false">(</mo>
+                                <mi>g</mi>
+                                <mo stretchy="false">)</mo>
+                              </mrow>
+                            </mrow>
+                            <annotation-xml encoding="MathML-Content">
+                              <mrow>
+                                <msub>
+                                  <mtext>N</mtext>
+                                  <mn>2</mn>
+                                </msub>
+                                <mo stretchy="false">(</mo>
+                                <mi>g</mi>
+                                <mo stretchy="false">)</mo>
+                                <mo>+</mo>
+                                <mn>3</mn>
+                                <msub>
+                                  <mtext>H</mtext>
+                                  <mn>2</mn>
+                                </msub>
+                                <mo stretchy="false">(</mo>
+                                <mi>g</mi>
+                                <mo stretchy="false">)</mo>
+                                <mspace width="0.2em"/>
+                                <mo stretchy="false">⟶</mo>
+                                <mspace width="0.2em"/>
+                                <mn>2</mn>
+                                <msub>
+                                  <mrow>
+                                    <mtext>NH</mtext>
+                                  </mrow>
+                                  <mn>3</mn>
+                                </msub>
+                                <mo stretchy="false">(</mo>
+                                <mi>g</mi>
+                                <mo stretchy="false">)</mo>
+                              </mrow>
+                            </annotation-xml>
+                          </semantics>
+                        </math>
+                      </div>
+
+                      <p
+                        id="fs-idp124955072"
+                      >This equation shows ammonia molecules are produced from hydrogen molecules in a 2:3 ratio, and stoichiometric factors may be derived using any amount (number) unit:</p>
+
+                      <div data-type="equation" id="fs-idp64965808">
+                        <math display="block">
+                          <semantics>
+                            <mrow>
+                              <mrow>
+                                <mfrac>
+                                  <mrow>
+                                    <mn>2</mn>
+                                    <mspace width="0.2em"/>
+                                    <msub>
+                                      <mtext>NH</mtext>
+                                      <mn>3</mn>
+                                    </msub>
+                                    <mspace width="0.2em"/>
+                                    <mtext>molecules</mtext>
+                                  </mrow>
+                                  <mrow>
+                                    <mn>3</mn>
+                                    <mspace width="0.2em"/>
+                                    <msub>
+                                      <mtext>H</mtext>
+                                      <mn>2</mn>
+                                    </msub>
+                                    <mspace width="0.2em"/>
+                                    <mtext>molecules</mtext>
+                                  </mrow>
+                                </mfrac>
+                                <mspace width="0.4em"/>
+                                <mtext>or</mtext>
+                                <mspace width="0.4em"/>
+                                <mfrac>
+                                  <mrow>
+                                    <mtext>2 doz</mtext>
+                                    <mspace width="0.2em"/>
+                                    <msub>
+                                      <mtext>NH</mtext>
+                                      <mn>3</mn>
+                                    </msub>
+                                    <mspace width="0.2em"/>
+                                    <mtext>molecules</mtext>
+                                  </mrow>
+                                  <mrow>
+                                    <mtext>3 doz</mtext>
+                                    <mspace width="0.2em"/>
+                                    <msub>
+                                      <mtext>H</mtext>
+                                      <mn>2</mn>
+                                    </msub>
+                                    <mspace width="0.2em"/>
+                                    <mtext>molecules</mtext>
+                                  </mrow>
+                                </mfrac>
+                                <mspace width="0.4em"/>
+                                <mtext>or</mtext>
+                                <mspace width="0.4em"/>
+                                <mfrac>
+                                  <mrow>
+                                    <mtext>2 mol</mtext>
+                                    <mspace width="0.2em"/>
+                                    <msub>
+                                      <mrow>
+                                        <mtext>NH</mtext>
+                                      </mrow>
+                                      <mn>3</mn>
+                                    </msub>
+                                    <mspace width="0.2em"/>
+                                    <mtext>molecules</mtext>
+                                  </mrow>
+                                  <mrow>
+                                    <mtext>3 mol</mtext>
+                                    <mspace width="0.2em"/>
+                                    <msub>
+                                      <mtext>H</mtext>
+                                      <mn>2</mn>
+                                    </msub>
+                                    <mspace width="0.2em"/>
+                                    <mtext>molecules</mtext>
+                                  </mrow>
+                                </mfrac>
+                              </mrow>
+                            </mrow>
+                            <annotation-xml encoding="MathML-Content">
+                              <mrow>
+                                <mfrac>
+                                  <mrow>
+                                    <mn>2</mn>
+                                    <mspace width="0.2em"/>
+                                    <msub>
+                                      <mtext>NH</mtext>
+                                      <mn>3</mn>
+                                    </msub>
+                                    <mspace width="0.2em"/>
+                                    <mtext>molecules</mtext>
+                                  </mrow>
+                                  <mrow>
+                                    <mn>3</mn>
+                                    <mspace width="0.2em"/>
+                                    <msub>
+                                      <mtext>H</mtext>
+                                      <mn>2</mn>
+                                    </msub>
+                                    <mspace width="0.2em"/>
+                                    <mtext>molecules</mtext>
+                                  </mrow>
+                                </mfrac>
+                                <mspace width="0.4em"/>
+                                <mtext>or</mtext>
+                                <mspace width="0.4em"/>
+                                <mfrac>
+                                  <mrow>
+                                    <mtext>2 doz</mtext>
+                                    <mspace width="0.2em"/>
+                                    <msub>
+                                      <mtext>NH</mtext>
+                                      <mn>3</mn>
+                                    </msub>
+                                    <mspace width="0.2em"/>
+                                    <mtext>molecules</mtext>
+                                  </mrow>
+                                  <mrow>
+                                    <mtext>3 doz</mtext>
+                                    <mspace width="0.2em"/>
+                                    <msub>
+                                      <mtext>H</mtext>
+                                      <mn>2</mn>
+                                    </msub>
+                                    <mspace width="0.2em"/>
+                                    <mtext>molecules</mtext>
+                                  </mrow>
+                                </mfrac>
+                                <mspace width="0.4em"/>
+                                <mtext>or</mtext>
+                                <mspace width="0.4em"/>
+                                <mfrac>
+                                  <mrow>
+                                    <mtext>2 mol</mtext>
+                                    <mspace width="0.2em"/>
+                                    <msub>
+                                      <mrow>
+                                        <mtext>NH</mtext>
+                                      </mrow>
+                                      <mn>3</mn>
+                                    </msub>
+                                    <mspace width="0.2em"/>
+                                    <mtext>molecules</mtext>
+                                  </mrow>
+                                  <mrow>
+                                    <mtext>3 mol</mtext>
+                                    <mspace width="0.2em"/>
+                                    <msub>
+                                      <mtext>H</mtext>
+                                      <mn>2</mn>
+                                    </msub>
+                                    <mspace width="0.2em"/>
+                                    <mtext>molecules</mtext>
+                                  </mrow>
+                                </mfrac>
+                              </mrow>
+                            </annotation-xml>
+                          </semantics>
+                        </math>
+                      </div>
+
+                      <p
+                        id="fs-idp56404080"
+                      >These stoichiometric factors can be used to compute the number of ammonia molecules produced from a given number of hydrogen molecules, or the number of hydrogen molecules required to produce a given number of ammonia molecules. Similar factors may be derived for any pair of substances in any chemical equation.</p>
+
+                      <div data-type="example" id="fs-idp48900096">
+                        <h3 class="os-title">
+                          <span class="os-title-label">Example</span>
+                          <span class="os-number">7.8</span>
+                          <span class="os-divider"></span>
+                        </h3>
+                        <p id="fs-idp77269456">
+                          <span
+                            data-type="title"
+                          >Moles of Reactant Required in a Reaction</span>
+                          How many moles of I
+                          <sub>2</sub> are required to react with 0.429 mol of Al according to the following equation (see
+                          <a
+                            class="autogenerated-content"
+                            href="#CNX_Chem_04_03_iodine"
+                          >Figure 7.10</a>)?
+                        </p>
+                        <div data-type="equation" id="fs-idp147980704">
+                          <math display="block">
+                            <semantics>
+                              <mrow>
+                                <mrow>
+                                  <mn>2</mn>
+                                  <mtext>Al</mtext>
+                                  <mo>+</mo>
+                                  <mn>3</mn>
+                                  <msub>
+                                    <mtext>I</mtext>
+                                    <mn>2</mn>
+                                  </msub>
+                                  <mspace width="0.2em"/>
+                                  <mo stretchy="false">⟶</mo>
+                                  <mspace width="0.2em"/>
+                                  <mn>2</mn>
+                                  <msub>
+                                    <mrow>
+                                      <mtext>AlI</mtext>
+                                    </mrow>
+                                    <mn>3</mn>
+                                  </msub>
+                                </mrow>
+                              </mrow>
+                              <annotation-xml encoding="MathML-Content">
+                                <mrow>
+                                  <mn>2</mn>
+                                  <mtext>Al</mtext>
+                                  <mo>+</mo>
+                                  <mn>3</mn>
+                                  <msub>
+                                    <mtext>I</mtext>
+                                    <mn>2</mn>
+                                  </msub>
+                                  <mspace width="0.2em"/>
+                                  <mo stretchy="false">⟶</mo>
+                                  <mspace width="0.2em"/>
+                                  <mn>2</mn>
+                                  <msub>
+                                    <mrow>
+                                      <mtext>AlI</mtext>
+                                    </mrow>
+                                    <mn>3</mn>
+                                  </msub>
+                                </mrow>
+                              </annotation-xml>
+                            </semantics>
+                          </math>
+                        </div>
+                        <div class="os-figure" id="CNX_Chem_04_03_iodine">
+                          <figure
+                            class="scaled-down"
+                            data-id="CNX_Chem_04_03_iodine"
+                          >
+                            <span
+                              data-alt="This figure shows three photos with an arrow leading from one to the next. The first photo shows a small pile of iodine and aluminum on a white surface. The second photo shows a small amount of purple smoke coming from the pile. The third photo shows a large amount of purple and gray smoke coming from the pile."
+                              data-type="media"
+                              id="fs-idp52310320"
+                            >
+                              <img
+                                alt="This figure shows three photos with an arrow leading from one to the next. The first photo shows a small pile of iodine and aluminum on a white surface. The second photo shows a small amount of purple smoke coming from the pile. The third photo shows a large amount of purple and gray smoke coming from the pile."
+                                data-media-type="image/jpeg"
+                                id="[redacted for uniqueness]"
+                                src="/resources/5b573449d4de616040b11602f4d724c3ef75b149"
+                              >
+                            </span>
+                          </figure>
+                          <div class="os-caption-container">
+                            <span class="os-title-label">Figure</span>
+                            <span class="os-number">7.10</span>
+                            <span class="os-divider"></span>
+                            <span class="os-divider"></span>
+                            <span
+                              class="os-caption"
+                            >Aluminum and iodine react to produce aluminum iodide. The heat of the reaction vaporizes some of the solid iodine as a purple vapor. (credit: modification of work by Mark Ott)</span>
+                          </div>
+                        </div>
+                        <p id="fs-idm34598272">
+                          <span data-type="title">Solution</span>
+                          Referring to the balanced chemical equation, the stoichiometric factor relating the two substances of interest is
+                          <math display="inline">
+                            <semantics>
+                              <mrow>
+                                <mrow>
+                                  <mfrac>
+                                    <mrow>
+                                      <mtext>3 mol</mtext>
+                                      <mspace width="0.2em"/>
+                                      <msub>
+                                        <mtext>I</mtext>
+                                        <mn>2</mn>
+                                      </msub>
+                                    </mrow>
+                                    <mtext>2 mol Al</mtext>
+                                  </mfrac>
+                                  <mo>.</mo>
+                                </mrow>
+                              </mrow>
+                              <annotation-xml encoding="MathML-Content">
+                                <mrow>
+                                  <mfrac>
+                                    <mrow>
+                                      <mtext>3 mol</mtext>
+                                      <mspace width="0.2em"/>
+                                      <msub>
+                                        <mtext>I</mtext>
+                                        <mn>2</mn>
+                                      </msub>
+                                    </mrow>
+                                    <mtext>2 mol Al</mtext>
+                                  </mfrac>
+                                  <mo>.</mo>
+                                </mrow>
+                              </annotation-xml>
+                            </semantics>
+                          </math> The molar amount of iodine is derived by multiplying the provided molar amount of aluminum by this factor:
+                        </p>
+                        <span
+                          data-alt="This figure shows two pink rectangles. The first is labeled, “Moles of A l.” This rectangle is followed by an arrow pointing right to a second rectangle labeled, “Moles of I subscript 2.”"
+                          data-type="media"
+                          id="fs-idp136092800"
+                        >
+                          <img
+                            alt="This figure shows two pink rectangles. The first is labeled, “Moles of A l.” This rectangle is followed by an arrow pointing right to a second rectangle labeled, “Moles of I subscript 2.”"
+                            data-media-type="image/jpeg"
+                            id="[redacted for uniqueness]"
+                            src="/resources/c9a0affea6a742421b155a376f152ce73b61ab20"
+                          >
+                        </span>
+                        <div data-type="equation" id="fs-idp102857120">
+                          <math display="block">
+                            <semantics>
+                              <mrow>
+                                <mtable columnalign="left">
+                                  <mtr>
+                                    <mtd columnalign="right">
+                                      <msub>
+                                        <mtext>mol I</mtext>
+                                        <mn>2</mn>
+                                      </msub>
+                                    </mtd>
+                                    <mtd>
+                                      <mo>=</mo>
+                                      <mn>0.429</mn>
+                                      <mspace width="0.2em"/>
+                                      <menclose notation="horizontalstrike">
+                                        <mrow>
+                                          <mtext>mol Al</mtext>
+                                        </mrow>
+                                      </menclose>
+                                      <mspace width="0.2em"/>
+                                      <mo>×</mo>
+                                      <mspace width="0.2em"/>
+                                      <mfrac>
+                                        <mrow>
+                                          <mtext>3 mol</mtext>
+                                          <mspace width="0.2em"/>
+                                          <msub>
+                                            <mtext>I</mtext>
+                                            <mn>2</mn>
+                                          </msub>
+                                        </mrow>
+                                        <mrow>
+                                          <mn>2</mn>
+                                          <mspace width="0.2em"/>
+                                          <menclose notation="horizontalstrike">
+                                            <mrow>
+                                              <mtext>mol Al</mtext>
+                                            </mrow>
+                                          </menclose>
+                                        </mrow>
+                                      </mfrac>
+                                    </mtd>
+                                  </mtr>
+                                  <mtr>
+                                    <mtd/>
+                                    <mtd>
+                                      <mo>=</mo>
+                                      <mtext>0.644 mol</mtext>
+                                      <mspace width="0.2em"/>
+                                      <msub>
+                                        <mtext>I</mtext>
+                                        <mn>2</mn>
+                                      </msub>
+                                    </mtd>
+                                  </mtr>
+                                </mtable>
+                              </mrow>
+                              <annotation-xml encoding="MathML-Content">
+                                <mtable columnalign="left">
+                                  <mtr>
+                                    <mtd columnalign="right">
+                                      <msub>
+                                        <mtext>mol I</mtext>
+                                        <mn>2</mn>
+                                      </msub>
+                                    </mtd>
+                                    <mtd>
+                                      <mo>=</mo>
+                                      <mn>0.429</mn>
+                                      <mspace width="0.2em"/>
+                                      <menclose notation="horizontalstrike">
+                                        <mrow>
+                                          <mtext>mol Al</mtext>
+                                        </mrow>
+                                      </menclose>
+                                      <mspace width="0.2em"/>
+                                      <mo>×</mo>
+                                      <mspace width="0.2em"/>
+                                      <mfrac>
+                                        <mrow>
+                                          <mtext>3 mol</mtext>
+                                          <mspace width="0.2em"/>
+                                          <msub>
+                                            <mtext>I</mtext>
+                                            <mn>2</mn>
+                                          </msub>
+                                        </mrow>
+                                        <mrow>
+                                          <mn>2</mn>
+                                          <mspace width="0.2em"/>
+                                          <menclose notation="horizontalstrike">
+                                            <mrow>
+                                              <mtext>mol Al</mtext>
+                                            </mrow>
+                                          </menclose>
+                                        </mrow>
+                                      </mfrac>
+                                    </mtd>
+                                  </mtr>
+                                  <mtr>
+                                    <mtd/>
+                                    <mtd>
+                                      <mo>=</mo>
+                                      <mtext>0.644 mol</mtext>
+                                      <mspace width="0.2em"/>
+                                      <msub>
+                                        <mtext>I</mtext>
+                                        <mn>2</mn>
+                                      </msub>
+                                    </mtd>
+                                  </mtr>
+                                </mtable>
+                              </annotation-xml>
+                            </semantics>
+                          </math>
+                        </div>
+                        <p id="fs-idp30742160">
+                          <span data-type="title">Check Your Learning</span>
+                          How many moles of Ca(OH)
+                          <sub>2</sub> are required to react with 1.36 mol of H
+                          <sub>3</sub>PO
+                          <sub>4</sub> to produce Ca
+                          <sub>3</sub>(PO
+                          <sub>4</sub>)
+                          <sub>2</sub> according to the equation
+                          <math display="inline">
+                            <semantics>
+                              <mrow>
+                                <mrow>
+                                  <mn>3</mn>
+                                  <mtext>Ca</mtext>
+                                  <msub>
+                                    <mrow>
+                                      <mrow>
+                                        <mo stretchy="false">(</mo>
+                                        <mrow>
+                                          <mtext>OH</mtext>
+                                        </mrow>
+                                        <mo stretchy="false">)</mo>
+                                      </mrow>
+                                    </mrow>
+                                    <mn>2</mn>
+                                  </msub>
+                                  <mo>+</mo>
+                                  <mn>2</mn>
+                                  <msub>
+                                    <mtext>H</mtext>
+                                    <mn>3</mn>
+                                  </msub>
+                                  <msub>
+                                    <mrow>
+                                      <mtext>PO</mtext>
+                                    </mrow>
+                                    <mn>4</mn>
+                                  </msub>
+                                  <mspace width="0.2em"/>
+                                  <mo stretchy="false">⟶</mo>
+                                  <mspace width="0.2em"/>
+                                  <msub>
+                                    <mrow>
+                                      <mtext>Ca</mtext>
+                                    </mrow>
+                                    <mn>3</mn>
+                                  </msub>
+                                  <msub>
+                                    <mrow>
+                                      <mrow>
+                                        <mo stretchy="false">(</mo>
+                                        <mrow>
+                                          <msub>
+                                            <mrow>
+                                              <mtext>PO</mtext>
+                                            </mrow>
+                                            <mn>4</mn>
+                                          </msub>
+                                        </mrow>
+                                        <mo stretchy="false">)</mo>
+                                      </mrow>
+                                    </mrow>
+                                    <mn>2</mn>
+                                  </msub>
+                                  <mo>+</mo>
+                                  <mn>6</mn>
+                                  <msub>
+                                    <mtext>H</mtext>
+                                    <mn>2</mn>
+                                  </msub>
+                                  <mtext>O?</mtext>
+                                </mrow>
+                              </mrow>
+                              <annotation-xml encoding="MathML-Content">
+                                <mrow>
+                                  <mn>3</mn>
+                                  <mtext>Ca</mtext>
+                                  <msub>
+                                    <mrow>
+                                      <mrow>
+                                        <mo stretchy="false">(</mo>
+                                        <mrow>
+                                          <mtext>OH</mtext>
+                                        </mrow>
+                                        <mo stretchy="false">)</mo>
+                                      </mrow>
+                                    </mrow>
+                                    <mn>2</mn>
+                                  </msub>
+                                  <mo>+</mo>
+                                  <mn>2</mn>
+                                  <msub>
+                                    <mtext>H</mtext>
+                                    <mn>3</mn>
+                                  </msub>
+                                  <msub>
+                                    <mrow>
+                                      <mtext>PO</mtext>
+                                    </mrow>
+                                    <mn>4</mn>
+                                  </msub>
+                                  <mspace width="0.2em"/>
+                                  <mo stretchy="false">⟶</mo>
+                                  <mspace width="0.2em"/>
+                                  <msub>
+                                    <mrow>
+                                      <mtext>Ca</mtext>
+                                    </mrow>
+                                    <mn>3</mn>
+                                  </msub>
+                                  <msub>
+                                    <mrow>
+                                      <mrow>
+                                        <mo stretchy="false">(</mo>
+                                        <mrow>
+                                          <msub>
+                                            <mrow>
+                                              <mtext>PO</mtext>
+                                            </mrow>
+                                            <mn>4</mn>
+                                          </msub>
+                                        </mrow>
+                                        <mo stretchy="false">)</mo>
+                                      </mrow>
+                                    </mrow>
+                                    <mn>2</mn>
+                                  </msub>
+                                  <mo>+</mo>
+                                  <mn>6</mn>
+                                  <msub>
+                                    <mtext>H</mtext>
+                                    <mn>2</mn>
+                                  </msub>
+                                  <mtext>O?</mtext>
+                                </mrow>
+                              </annotation-xml>
+                            </semantics>
+                          </math>
+                        </p>
+                        <div data-type="note" id="fs-idp5038208">
+                          <h3 class="os-title" data-type="title">
+                            <span
+                              class="os-title-label"
+                              data-type
+                              id="[redacted for uniqueness]"
+                            >Answer:</span>
+                          </h3>
+                          <div class="os-note-body">
+                            <p id="fs-idp115249152">2.04 mol</p>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div data-type="example" id="fs-idp9124448">
+                        <h3 class="os-title">
+                          <span class="os-title-label">Example</span>
+                          <span class="os-number">7.9</span>
+                          <span class="os-divider"></span>
+                        </h3>
+                        <p id="fs-idp157170976">
+                          <span
+                            data-type="title"
+                          >Number of Product Molecules Generated by a Reaction</span>
+                          How many carbon dioxide molecules are produced when 0.75 mol of propane is combusted according to this equation?
+                        </p>
+                        <div data-type="equation" id="fs-idp116053696">
+                          <math display="block">
+                            <semantics>
+                              <mrow>
+                                <mrow>
+                                  <msub>
+                                    <mtext>C</mtext>
+                                    <mn>3</mn>
+                                  </msub>
+                                  <msub>
+                                    <mtext>H</mtext>
+                                    <mn>8</mn>
+                                  </msub>
+                                  <mo>+</mo>
+                                  <mn>5</mn>
+                                  <msub>
+                                    <mtext>O</mtext>
+                                    <mn>2</mn>
+                                  </msub>
+                                  <mspace width="0.2em"/>
+                                  <mo stretchy="false">⟶</mo>
+                                  <mspace width="0.2em"/>
+                                  <mn>3</mn>
+                                  <msub>
+                                    <mrow>
+                                      <mtext>CO</mtext>
+                                    </mrow>
+                                    <mn>2</mn>
+                                  </msub>
+                                  <mo>+</mo>
+                                  <mn>4</mn>
+                                  <msub>
+                                    <mtext>H</mtext>
+                                    <mn>2</mn>
+                                  </msub>
+                                  <mtext>O</mtext>
+                                </mrow>
+                              </mrow>
+                              <annotation-xml encoding="MathML-Content">
+                                <mrow>
+                                  <msub>
+                                    <mtext>C</mtext>
+                                    <mn>3</mn>
+                                  </msub>
+                                  <msub>
+                                    <mtext>H</mtext>
+                                    <mn>8</mn>
+                                  </msub>
+                                  <mo>+</mo>
+                                  <mn>5</mn>
+                                  <msub>
+                                    <mtext>O</mtext>
+                                    <mn>2</mn>
+                                  </msub>
+                                  <mspace width="0.2em"/>
+                                  <mo stretchy="false">⟶</mo>
+                                  <mspace width="0.2em"/>
+                                  <mn>3</mn>
+                                  <msub>
+                                    <mrow>
+                                      <mtext>CO</mtext>
+                                    </mrow>
+                                    <mn>2</mn>
+                                  </msub>
+                                  <mo>+</mo>
+                                  <mn>4</mn>
+                                  <msub>
+                                    <mtext>H</mtext>
+                                    <mn>2</mn>
+                                  </msub>
+                                  <mtext>O</mtext>
+                                </mrow>
+                              </annotation-xml>
+                            </semantics>
+                          </math>
+                        </div>
+                        <p id="fs-idp121952928">
+                          <span data-type="title">Solution</span>
+                          The approach here is the same as for
+                          <a
+                            class="autogenerated-content"
+                            href="#fs-idp48900096"
+                          >Example 7.8</a>, though the absolute number of molecules is requested, not the number of moles of molecules. This will simply require use of the moles-to-numbers conversion factor, Avogadro’s number.
+                        </p>
+                        <p
+                          id="fs-idp229756528"
+                        >The balanced equation shows that carbon dioxide is produced from propane in a 3:1 ratio:</p>
+                        <div data-type="equation" id="fs-idp114307520">
+                          <math display="block">
+                            <semantics>
+                              <mrow>
+                                <mrow>
+                                  <mfrac>
+                                    <mrow>
+                                      <mtext>3 mol</mtext>
+                                      <mspace width="0.2em"/>
+                                      <msub>
+                                        <mrow>
+                                          <mtext>CO</mtext>
+                                        </mrow>
+                                        <mn>2</mn>
+                                      </msub>
+                                    </mrow>
+                                    <mrow>
+                                      <mtext>1 mol</mtext>
+                                      <mspace width="0.2em"/>
+                                      <msub>
+                                        <mtext>C</mtext>
+                                        <mn>3</mn>
+                                      </msub>
+                                      <msub>
+                                        <mtext>H</mtext>
+                                        <mn>8</mn>
+                                      </msub>
+                                    </mrow>
+                                  </mfrac>
+                                </mrow>
+                              </mrow>
+                              <annotation-xml encoding="MathML-Content">
+                                <mrow>
+                                  <mfrac>
+                                    <mrow>
+                                      <mtext>3 mol</mtext>
+                                      <mspace width="0.2em"/>
+                                      <msub>
+                                        <mrow>
+                                          <mtext>CO</mtext>
+                                        </mrow>
+                                        <mn>2</mn>
+                                      </msub>
+                                    </mrow>
+                                    <mrow>
+                                      <mtext>1 mol</mtext>
+                                      <mspace width="0.2em"/>
+                                      <msub>
+                                        <mtext>C</mtext>
+                                        <mn>3</mn>
+                                      </msub>
+                                      <msub>
+                                        <mtext>H</mtext>
+                                        <mn>8</mn>
+                                      </msub>
+                                    </mrow>
+                                  </mfrac>
+                                </mrow>
+                              </annotation-xml>
+                            </semantics>
+                          </math>
+                        </div>
+                        <p
+                          id="fs-idp83056800"
+                        >Using this stoichiometric factor, the provided molar amount of propane, and Avogadro’s number,</p>
+                        <span
+                          data-alt="This figure shows two pink rectangles. The first is labeled, “Moles of C subscript 3 H subscript 8.” This rectangle is followed by an arrow pointing right to a second rectangle labeled, “Moles of C O subscript 2.”"
+                          data-type="media"
+                          id="fs-idp94375456"
+                        >
+                          <img
+                            alt="This figure shows two pink rectangles. The first is labeled, “Moles of C subscript 3 H subscript 8.” This rectangle is followed by an arrow pointing right to a second rectangle labeled, “Moles of C O subscript 2.”"
+                            data-media-type="image/jpeg"
+                            id="[redacted for uniqueness]"
+                            src="/resources/d54b6901609f3ce2be802f94d255e83059b14f81"
+                          >
+                        </span>
+                        <div data-type="equation" id="fs-idp52373104">
+                          <math display="block">
+                            <semantics>
+                              <mrow>
+                                <mrow>
+                                  <mn>0.75</mn>
+                                  <mspace width="0.2em"/>
+                                  <menclose notation="horizontalstrike">
+                                    <mrow>
+                                      <mtext>mol</mtext>
+                                      <mspace width="0.2em"/>
+                                      <msub>
+                                        <mtext>C</mtext>
+                                        <mn>3</mn>
+                                      </msub>
+                                      <msub>
+                                        <mtext>H</mtext>
+                                        <mn>8</mn>
+                                      </msub>
+                                    </mrow>
+                                  </menclose>
+                                  <mspace width="0.2em"/>
+                                  <mo>×</mo>
+                                  <mspace width="0.2em"/>
+                                  <mfrac>
+                                    <mrow>
+                                      <mn>3</mn>
+                                      <mspace width="0.2em"/>
+                                      <menclose notation="horizontalstrike">
+                                        <mrow>
+                                          <mtext>mol</mtext>
+                                          <mspace width="0.2em"/>
+                                          <msub>
+                                            <mrow>
+                                              <mtext>CO</mtext>
+                                            </mrow>
+                                            <mn>2</mn>
+                                          </msub>
+                                        </mrow>
+                                      </menclose>
+                                    </mrow>
+                                    <mrow>
+                                      <mn>1</mn>
+                                      <mspace width="0.2em"/>
+                                      <menclose notation="horizontalstrike">
+                                        <mrow>
+                                          <mtext>mol</mtext>
+                                          <mspace width="0.2em"/>
+                                          <msub>
+                                            <mtext>C</mtext>
+                                            <mn>3</mn>
+                                          </msub>
+                                          <msub>
+                                            <mtext>H</mtext>
+                                            <mn>8</mn>
+                                          </msub>
+                                        </mrow>
+                                      </menclose>
+                                    </mrow>
+                                  </mfrac>
+                                  <mspace width="0.2em"/>
+                                  <mo>×</mo>
+                                  <mspace width="0.2em"/>
+                                  <mfrac>
+                                    <mrow>
+                                      <mn>6.022</mn>
+                                      <mspace width="0.2em"/>
+                                      <mo>×</mo>
+                                      <mspace width="0.2em"/>
+                                      <msup>
+                                        <mrow>
+                                          <mn>10</mn>
+                                        </mrow>
+                                        <mrow>
+                                          <mn>23</mn>
+                                        </mrow>
+                                      </msup>
+                                      <mspace width="0.2em"/>
+                                      <msub>
+                                        <mrow>
+                                          <mtext>CO</mtext>
+                                        </mrow>
+                                        <mn>2</mn>
+                                      </msub>
+                                      <mspace width="0.2em"/>
+                                      <mtext>molecules</mtext>
+                                    </mrow>
+                                    <mrow>
+                                      <menclose notation="horizontalstrike">
+                                        <mrow>
+                                          <mtext>mol</mtext>
+                                          <mspace width="0.2em"/>
+                                          <msub>
+                                            <mrow>
+                                              <mtext>CO</mtext>
+                                            </mrow>
+                                            <mn>2</mn>
+                                          </msub>
+                                        </mrow>
+                                      </menclose>
+                                    </mrow>
+                                  </mfrac>
+                                  <mspace width="0.2em"/>
+                                  <mo>=</mo>
+                                  <mn>1.4</mn>
+                                  <mspace width="0.2em"/>
+                                  <mo>×</mo>
+                                  <mspace width="0.2em"/>
+                                  <msup>
+                                    <mrow>
+                                      <mn>10</mn>
+                                    </mrow>
+                                    <mrow>
+                                      <mn>24</mn>
+                                    </mrow>
+                                  </msup>
+                                  <mspace width="0.2em"/>
+                                  <msub>
+                                    <mrow>
+                                      <mtext>CO</mtext>
+                                    </mrow>
+                                    <mn>2</mn>
+                                  </msub>
+                                  <mspace width="0.2em"/>
+                                  <mtext>molecules</mtext>
+                                </mrow>
+                              </mrow>
+                              <annotation-xml encoding="MathML-Content">
+                                <mrow>
+                                  <mn>0.75</mn>
+                                  <mspace width="0.2em"/>
+                                  <menclose notation="horizontalstrike">
+                                    <mrow>
+                                      <mtext>mol</mtext>
+                                      <mspace width="0.2em"/>
+                                      <msub>
+                                        <mtext>C</mtext>
+                                        <mn>3</mn>
+                                      </msub>
+                                      <msub>
+                                        <mtext>H</mtext>
+                                        <mn>8</mn>
+                                      </msub>
+                                    </mrow>
+                                  </menclose>
+                                  <mspace width="0.2em"/>
+                                  <mo>×</mo>
+                                  <mspace width="0.2em"/>
+                                  <mfrac>
+                                    <mrow>
+                                      <mn>3</mn>
+                                      <mspace width="0.2em"/>
+                                      <menclose notation="horizontalstrike">
+                                        <mrow>
+                                          <mtext>mol</mtext>
+                                          <mspace width="0.2em"/>
+                                          <msub>
+                                            <mrow>
+                                              <mtext>CO</mtext>
+                                            </mrow>
+                                            <mn>2</mn>
+                                          </msub>
+                                        </mrow>
+                                      </menclose>
+                                    </mrow>
+                                    <mrow>
+                                      <mn>1</mn>
+                                      <mspace width="0.2em"/>
+                                      <menclose notation="horizontalstrike">
+                                        <mrow>
+                                          <mtext>mol</mtext>
+                                          <mspace width="0.2em"/>
+                                          <msub>
+                                            <mtext>C</mtext>
+                                            <mn>3</mn>
+                                          </msub>
+                                          <msub>
+                                            <mtext>H</mtext>
+                                            <mn>8</mn>
+                                          </msub>
+                                        </mrow>
+                                      </menclose>
+                                    </mrow>
+                                  </mfrac>
+                                  <mspace width="0.2em"/>
+                                  <mo>×</mo>
+                                  <mspace width="0.2em"/>
+                                  <mfrac>
+                                    <mrow>
+                                      <mn>6.022</mn>
+                                      <mspace width="0.2em"/>
+                                      <mo>×</mo>
+                                      <mspace width="0.2em"/>
+                                      <msup>
+                                        <mrow>
+                                          <mn>10</mn>
+                                        </mrow>
+                                        <mrow>
+                                          <mn>23</mn>
+                                        </mrow>
+                                      </msup>
+                                      <mspace width="0.2em"/>
+                                      <msub>
+                                        <mrow>
+                                          <mtext>CO</mtext>
+                                        </mrow>
+                                        <mn>2</mn>
+                                      </msub>
+                                      <mspace width="0.2em"/>
+                                      <mtext>molecules</mtext>
+                                    </mrow>
+                                    <mrow>
+                                      <menclose notation="horizontalstrike">
+                                        <mrow>
+                                          <mtext>mol</mtext>
+                                          <mspace width="0.2em"/>
+                                          <msub>
+                                            <mrow>
+                                              <mtext>CO</mtext>
+                                            </mrow>
+                                            <mn>2</mn>
+                                          </msub>
+                                        </mrow>
+                                      </menclose>
+                                    </mrow>
+                                  </mfrac>
+                                  <mspace width="0.2em"/>
+                                  <mo>=</mo>
+                                  <mn>1.4</mn>
+                                  <mspace width="0.2em"/>
+                                  <mo>×</mo>
+                                  <mspace width="0.2em"/>
+                                  <msup>
+                                    <mrow>
+                                      <mn>10</mn>
+                                    </mrow>
+                                    <mrow>
+                                      <mn>24</mn>
+                                    </mrow>
+                                  </msup>
+                                  <mspace width="0.2em"/>
+                                  <msub>
+                                    <mrow>
+                                      <mtext>CO</mtext>
+                                    </mrow>
+                                    <mn>2</mn>
+                                  </msub>
+                                  <mspace width="0.2em"/>
+                                  <mtext>molecules</mtext>
+                                </mrow>
+                              </annotation-xml>
+                            </semantics>
+                          </math>
+                        </div>
+                        <p id="fs-idm14771264">
+                          <span data-type="title">Check Your Learning</span>
+                          How many NH
+                          <sub>3</sub> molecules are produced by the reaction of 4.0 mol of Ca(OH)
+                          <sub>2</sub> according to the following equation:
+                        </p>
+                        <div data-type="equation" id="fs-idp166213360">
+                          <math display="block">
+                            <semantics>
+                              <mrow>
+                                <mrow>
+                                  <msub>
+                                    <mrow>
+                                      <mrow>
+                                        <mo stretchy="false">(</mo>
+                                        <mrow>
+                                          <msub>
+                                            <mrow>
+                                              <mtext>NH</mtext>
+                                            </mrow>
+                                            <mn>4</mn>
+                                          </msub>
+                                        </mrow>
+                                        <mo stretchy="false">)</mo>
+                                      </mrow>
+                                    </mrow>
+                                    <mn>2</mn>
+                                  </msub>
+                                  <msub>
+                                    <mrow>
+                                      <mtext>SO</mtext>
+                                    </mrow>
+                                    <mn>4</mn>
+                                  </msub>
+                                  <mo>+</mo>
+                                  <mtext>Ca</mtext>
+                                  <msub>
+                                    <mrow>
+                                      <mrow>
+                                        <mo stretchy="false">(</mo>
+                                        <mrow>
+                                          <mtext>OH</mtext>
+                                        </mrow>
+                                        <mo stretchy="false">)</mo>
+                                      </mrow>
+                                    </mrow>
+                                    <mn>2</mn>
+                                  </msub>
+                                  <mspace width="0.2em"/>
+                                  <mo stretchy="false">⟶</mo>
+                                  <mspace width="0.2em"/>
+                                  <mn>2</mn>
+                                  <msub>
+                                    <mrow>
+                                      <mtext>NH</mtext>
+                                    </mrow>
+                                    <mn>3</mn>
+                                  </msub>
+                                  <mo>+</mo>
+                                  <msub>
+                                    <mrow>
+                                      <mtext>CaSO</mtext>
+                                    </mrow>
+                                    <mn>4</mn>
+                                  </msub>
+                                  <mo>+</mo>
+                                  <mn>2</mn>
+                                  <msub>
+                                    <mtext>H</mtext>
+                                    <mn>2</mn>
+                                  </msub>
+                                  <mtext>O</mtext>
+                                </mrow>
+                              </mrow>
+                              <annotation-xml encoding="MathML-Content">
+                                <mrow>
+                                  <msub>
+                                    <mrow>
+                                      <mrow>
+                                        <mo stretchy="false">(</mo>
+                                        <mrow>
+                                          <msub>
+                                            <mrow>
+                                              <mtext>NH</mtext>
+                                            </mrow>
+                                            <mn>4</mn>
+                                          </msub>
+                                        </mrow>
+                                        <mo stretchy="false">)</mo>
+                                      </mrow>
+                                    </mrow>
+                                    <mn>2</mn>
+                                  </msub>
+                                  <msub>
+                                    <mrow>
+                                      <mtext>SO</mtext>
+                                    </mrow>
+                                    <mn>4</mn>
+                                  </msub>
+                                  <mo>+</mo>
+                                  <mtext>Ca</mtext>
+                                  <msub>
+                                    <mrow>
+                                      <mrow>
+                                        <mo stretchy="false">(</mo>
+                                        <mrow>
+                                          <mtext>OH</mtext>
+                                        </mrow>
+                                        <mo stretchy="false">)</mo>
+                                      </mrow>
+                                    </mrow>
+                                    <mn>2</mn>
+                                  </msub>
+                                  <mspace width="0.2em"/>
+                                  <mo stretchy="false">⟶</mo>
+                                  <mspace width="0.2em"/>
+                                  <mn>2</mn>
+                                  <msub>
+                                    <mrow>
+                                      <mtext>NH</mtext>
+                                    </mrow>
+                                    <mn>3</mn>
+                                  </msub>
+                                  <mo>+</mo>
+                                  <msub>
+                                    <mrow>
+                                      <mtext>CaSO</mtext>
+                                    </mrow>
+                                    <mn>4</mn>
+                                  </msub>
+                                  <mo>+</mo>
+                                  <mn>2</mn>
+                                  <msub>
+                                    <mtext>H</mtext>
+                                    <mn>2</mn>
+                                  </msub>
+                                  <mtext>O</mtext>
+                                </mrow>
+                              </annotation-xml>
+                            </semantics>
+                          </math>
+                        </div>
+                        <div data-type="note" id="fs-idp15879648">
+                          <h3 class="os-title" data-type="title">
+                            <span
+                              class="os-title-label"
+                              data-type
+                              id="[redacted for uniqueness]"
+                            >Answer:</span>
+                          </h3>
+                          <div class="os-note-body">
+                            <p id="fs-idp160971824">
+                              4.8
+                              <math display="inline">
+                                <semantics>
+                                  <mrow>
+                                    <mrow>
+                                      <mo>×</mo>
+                                    </mrow>
+                                  </mrow>
+                                  <annotation-xml encoding="MathML-Content">
+                                    <mrow>
+                                      <mo>×</mo>
+                                    </mrow>
+                                  </annotation-xml>
+                                </semantics>
+                              </math> 10
+                              <sup>24</sup> NH
+                              <sub>3</sub> molecules
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+
+                      <p
+                        id="fs-idp222914448"
+                      >These examples illustrate the ease with which the amounts of substances involved in a chemical reaction of known stoichiometry may be related. Directly measuring numbers of atoms and molecules is, however, not an easy task, and the practical application of stoichiometry requires that we use the more readily measured property of mass.</p>
+
+                      <div data-type="example" id="fs-idp113495744">
+                        <h3 class="os-title">
+                          <span class="os-title-label">Example</span>
+                          <span class="os-number">7.10</span>
+                          <span class="os-divider"></span>
+                        </h3>
+                        <p id="fs-idp56844080">
+                          <span
+                            data-type="title"
+                          >Relating Masses of Reactants and Products</span>
+                          What mass of sodium hydroxide, NaOH, would be required to produce 16 g of the antacid milk of magnesia [magnesium hydroxide, Mg(OH)
+                          <sub>2</sub>] by the following reaction?
+                        </p>
+                        <div data-type="equation" id="fs-idp158099664">
+                          <math display="block">
+                            <semantics>
+                              <mrow>
+                                <mrow>
+                                  <msub>
+                                    <mrow>
+                                      <mtext>MgCl</mtext>
+                                    </mrow>
+                                    <mn>2</mn>
+                                  </msub>
+                                  <mo stretchy="false">(</mo>
+                                  <mi>a</mi>
+                                  <mi>q</mi>
+                                  <mo stretchy="false">)</mo>
+                                  <mo>+</mo>
+                                  <mn>2</mn>
+                                  <mtext>NaOH</mtext>
+                                  <mrow>
+                                    <mo stretchy="false">(</mo>
+                                    <mrow>
+                                      <mi>a</mi>
+                                      <mi>q</mi>
+                                    </mrow>
+                                    <mo stretchy="false">)</mo>
+                                  </mrow>
+                                  <mspace width="0.2em"/>
+                                  <mo stretchy="false">⟶</mo>
+                                  <mspace width="0.2em"/>
+                                  <mtext>Mg</mtext>
+                                  <msub>
+                                    <mtext>(OH)</mtext>
+                                    <mn>2</mn>
+                                  </msub>
+                                  <mo stretchy="false">(</mo>
+                                  <mi>s</mi>
+                                  <mo stretchy="false">)</mo>
+                                  <mo>+</mo>
+                                  <mn>2</mn>
+                                  <mtext>NaCl</mtext>
+                                  <mrow>
+                                    <mo stretchy="false">(</mo>
+                                    <mrow>
+                                      <mi>a</mi>
+                                      <mi>q</mi>
+                                    </mrow>
+                                    <mo stretchy="false">)</mo>
+                                  </mrow>
+                                </mrow>
+                              </mrow>
+                              <annotation-xml encoding="MathML-Content">
+                                <mrow>
+                                  <msub>
+                                    <mrow>
+                                      <mtext>MgCl</mtext>
+                                    </mrow>
+                                    <mn>2</mn>
+                                  </msub>
+                                  <mo stretchy="false">(</mo>
+                                  <mi>a</mi>
+                                  <mi>q</mi>
+                                  <mo stretchy="false">)</mo>
+                                  <mo>+</mo>
+                                  <mn>2</mn>
+                                  <mtext>NaOH</mtext>
+                                  <mrow>
+                                    <mo stretchy="false">(</mo>
+                                    <mrow>
+                                      <mi>a</mi>
+                                      <mi>q</mi>
+                                    </mrow>
+                                    <mo stretchy="false">)</mo>
+                                  </mrow>
+                                  <mspace width="0.2em"/>
+                                  <mo stretchy="false">⟶</mo>
+                                  <mspace width="0.2em"/>
+                                  <mtext>Mg</mtext>
+                                  <msub>
+                                    <mtext>(OH)</mtext>
+                                    <mn>2</mn>
+                                  </msub>
+                                  <mo stretchy="false">(</mo>
+                                  <mi>s</mi>
+                                  <mo stretchy="false">)</mo>
+                                  <mo>+</mo>
+                                  <mn>2</mn>
+                                  <mtext>NaCl</mtext>
+                                  <mrow>
+                                    <mo stretchy="false">(</mo>
+                                    <mrow>
+                                      <mi>a</mi>
+                                      <mi>q</mi>
+                                    </mrow>
+                                    <mo stretchy="false">)</mo>
+                                  </mrow>
+                                </mrow>
+                              </annotation-xml>
+                            </semantics>
+                          </math>
+                        </div>
+                        <p id="fs-idm3520480">
+                          <span data-type="title">Solution</span>
+                          The approach used previously in
+                          <a
+                            class="autogenerated-content"
+                            href="#fs-idp48900096"
+                          >Example 7.8</a> and
+                          <a
+                            class="autogenerated-content"
+                            href="#fs-idp9124448"
+                          >Example 7.9</a> is likewise used here; that is, we must derive an appropriate stoichiometric factor from the balanced chemical equation and use it to relate the amounts of the two substances of interest. In this case, however, masses (not molar amounts) are provided and requested, so additional steps of the sort learned in the previous chapter are required. The calculations required are outlined in this flowchart:
+                        </p>
+                        <span
+                          data-alt="This figure shows four rectangles. The first is shaded yellow and is labeled, “Mass of M g ( O H ) subscript 2.” This rectangle is followed by an arrow pointing right to a second rectangle which is shaded pink and is labeled, “Moles of M g ( O H ) subscript 2.” This rectangle is followed by an arrow pointing right to a third rectangle which is shaded pink and is labeled, “Moles of N a O H.” This rectangle is followed by an arrow pointing right to a fourth rectangle which is shaded yellow and is labeled, “Mass of N a O H.”"
+                          data-type="media"
+                          id="fs-idp38697232"
+                        >
+                          <img
+                            alt="This figure shows four rectangles. The first is shaded yellow and is labeled, “Mass of M g ( O H ) subscript 2.” This rectangle is followed by an arrow pointing right to a second rectangle which is shaded pink and is labeled, “Moles of M g ( O H ) subscript 2.” This rectangle is followed by an arrow pointing right to a third rectangle which is shaded pink and is labeled, “Moles of N a O H.” This rectangle is followed by an arrow pointing right to a fourth rectangle which is shaded yellow and is labeled, “Mass of N a O H.”"
+                            data-media-type="image/jpeg"
+                            id="[redacted for uniqueness]"
+                            src="/resources/a41a1af95a2ec3502391c0326010d6eca3aad587"
+                          >
+                        </span>
+                        <div data-type="equation" id="fs-idp122145840">
+                          <math display="block">
+                            <semantics>
+                              <mrow>
+                                <mrow>
+                                  <mn>16</mn>
+                                  <mspace width="0.2em"/>
+                                  <menclose notation="horizontalstrike">
+                                    <mrow>
+                                      <mtext>g Mg</mtext>
+                                      <msub>
+                                        <mrow>
+                                          <mrow>
+                                            <mo stretchy="false">(</mo>
+                                            <mrow>
+                                              <mtext>OH</mtext>
+                                            </mrow>
+                                            <mo stretchy="false">)</mo>
+                                          </mrow>
+                                        </mrow>
+                                        <mn>2</mn>
+                                      </msub>
+                                    </mrow>
+                                  </menclose>
+                                  <mspace width="0.2em"/>
+                                  <mo>×</mo>
+                                  <mspace width="0.2em"/>
+                                  <mfrac>
+                                    <mrow>
+                                      <mn>1</mn>
+                                      <mspace width="0.2em"/>
+                                      <menclose notation="horizontalstrike">
+                                        <mrow>
+                                          <mtext>mol Mg</mtext>
+                                          <msub>
+                                            <mrow>
+                                              <mrow>
+                                                <mo stretchy="false">(</mo>
+                                                <mrow>
+                                                  <mtext>OH</mtext>
+                                                </mrow>
+                                                <mo stretchy="false">)</mo>
+                                              </mrow>
+                                            </mrow>
+                                            <mn>2</mn>
+                                          </msub>
+                                        </mrow>
+                                      </menclose>
+                                    </mrow>
+                                    <mrow>
+                                      <mn>58.3</mn>
+                                      <mspace width="0.2em"/>
+                                      <menclose notation="horizontalstrike">
+                                        <mrow>
+                                          <mtext>g Mg</mtext>
+                                          <msub>
+                                            <mrow>
+                                              <mrow>
+                                                <mo stretchy="false">(</mo>
+                                                <mrow>
+                                                  <mtext>OH</mtext>
+                                                </mrow>
+                                                <mo stretchy="false">)</mo>
+                                              </mrow>
+                                            </mrow>
+                                            <mn>2</mn>
+                                          </msub>
+                                        </mrow>
+                                      </menclose>
+                                    </mrow>
+                                  </mfrac>
+                                  <mspace width="0.2em"/>
+                                  <mo>×</mo>
+                                  <mspace width="0.2em"/>
+                                  <mfrac>
+                                    <mrow>
+                                      <mn>2</mn>
+                                      <mspace width="0.2em"/>
+                                      <menclose notation="horizontalstrike">
+                                        <mrow>
+                                          <mtext>mol NaOH</mtext>
+                                        </mrow>
+                                      </menclose>
+                                    </mrow>
+                                    <mrow>
+                                      <mn>1</mn>
+                                      <mspace width="0.2em"/>
+                                      <menclose notation="horizontalstrike">
+                                        <mrow>
+                                          <mtext>mol Mg</mtext>
+                                          <msub>
+                                            <mrow>
+                                              <mrow>
+                                                <mo stretchy="false">(</mo>
+                                                <mrow>
+                                                  <mtext>OH</mtext>
+                                                </mrow>
+                                                <mo stretchy="false">)</mo>
+                                              </mrow>
+                                            </mrow>
+                                            <mn>2</mn>
+                                          </msub>
+                                        </mrow>
+                                      </menclose>
+                                    </mrow>
+                                  </mfrac>
+                                  <mspace width="0.2em"/>
+                                  <mo>×</mo>
+                                  <mspace width="0.2em"/>
+                                  <mfrac>
+                                    <mrow>
+                                      <mtext>40.0 g NaOH</mtext>
+                                    </mrow>
+                                    <mrow>
+                                      <menclose notation="horizontalstrike">
+                                        <mrow>
+                                          <mtext>mol NaOH</mtext>
+                                        </mrow>
+                                      </menclose>
+                                    </mrow>
+                                  </mfrac>
+                                  <mspace width="0.2em"/>
+                                  <mo>=</mo>
+                                  <mtext>22 g NaOH</mtext>
+                                </mrow>
+                              </mrow>
+                              <annotation-xml encoding="MathML-Content">
+                                <mrow>
+                                  <mn>16</mn>
+                                  <mspace width="0.2em"/>
+                                  <menclose notation="horizontalstrike">
+                                    <mrow>
+                                      <mtext>g Mg</mtext>
+                                      <msub>
+                                        <mrow>
+                                          <mrow>
+                                            <mo stretchy="false">(</mo>
+                                            <mrow>
+                                              <mtext>OH</mtext>
+                                            </mrow>
+                                            <mo stretchy="false">)</mo>
+                                          </mrow>
+                                        </mrow>
+                                        <mn>2</mn>
+                                      </msub>
+                                    </mrow>
+                                  </menclose>
+                                  <mspace width="0.2em"/>
+                                  <mo>×</mo>
+                                  <mspace width="0.2em"/>
+                                  <mfrac>
+                                    <mrow>
+                                      <mn>1</mn>
+                                      <mspace width="0.2em"/>
+                                      <menclose notation="horizontalstrike">
+                                        <mrow>
+                                          <mtext>mol Mg</mtext>
+                                          <msub>
+                                            <mrow>
+                                              <mrow>
+                                                <mo stretchy="false">(</mo>
+                                                <mrow>
+                                                  <mtext>OH</mtext>
+                                                </mrow>
+                                                <mo stretchy="false">)</mo>
+                                              </mrow>
+                                            </mrow>
+                                            <mn>2</mn>
+                                          </msub>
+                                        </mrow>
+                                      </menclose>
+                                    </mrow>
+                                    <mrow>
+                                      <mn>58.3</mn>
+                                      <mspace width="0.2em"/>
+                                      <menclose notation="horizontalstrike">
+                                        <mrow>
+                                          <mtext>g Mg</mtext>
+                                          <msub>
+                                            <mrow>
+                                              <mrow>
+                                                <mo stretchy="false">(</mo>
+                                                <mrow>
+                                                  <mtext>OH</mtext>
+                                                </mrow>
+                                                <mo stretchy="false">)</mo>
+                                              </mrow>
+                                            </mrow>
+                                            <mn>2</mn>
+                                          </msub>
+                                        </mrow>
+                                      </menclose>
+                                    </mrow>
+                                  </mfrac>
+                                  <mspace width="0.2em"/>
+                                  <mo>×</mo>
+                                  <mspace width="0.2em"/>
+                                  <mfrac>
+                                    <mrow>
+                                      <mn>2</mn>
+                                      <mspace width="0.2em"/>
+                                      <menclose notation="horizontalstrike">
+                                        <mrow>
+                                          <mtext>mol NaOH</mtext>
+                                        </mrow>
+                                      </menclose>
+                                    </mrow>
+                                    <mrow>
+                                      <mn>1</mn>
+                                      <mspace width="0.2em"/>
+                                      <menclose notation="horizontalstrike">
+                                        <mrow>
+                                          <mtext>mol Mg</mtext>
+                                          <msub>
+                                            <mrow>
+                                              <mrow>
+                                                <mo stretchy="false">(</mo>
+                                                <mrow>
+                                                  <mtext>OH</mtext>
+                                                </mrow>
+                                                <mo stretchy="false">)</mo>
+                                              </mrow>
+                                            </mrow>
+                                            <mn>2</mn>
+                                          </msub>
+                                        </mrow>
+                                      </menclose>
+                                    </mrow>
+                                  </mfrac>
+                                  <mspace width="0.2em"/>
+                                  <mo>×</mo>
+                                  <mspace width="0.2em"/>
+                                  <mfrac>
+                                    <mrow>
+                                      <mtext>40.0 g NaOH</mtext>
+                                    </mrow>
+                                    <mrow>
+                                      <menclose notation="horizontalstrike">
+                                        <mrow>
+                                          <mtext>mol NaOH</mtext>
+                                        </mrow>
+                                      </menclose>
+                                    </mrow>
+                                  </mfrac>
+                                  <mspace width="0.2em"/>
+                                  <mo>=</mo>
+                                  <mtext>22 g NaOH</mtext>
+                                </mrow>
+                              </annotation-xml>
+                            </semantics>
+                          </math>
+                        </div>
+                        <p id="fs-idp52759328">
+                          <span data-type="title">Check Your Learning</span>
+                          What mass of gallium oxide, Ga
+                          <sub>2</sub>O
+                          <sub>3</sub>, can be prepared from 29.0 g of gallium metal? The equation for the reaction is
+                          <math display="inline">
+                            <semantics>
+                              <mrow>
+                                <mrow>
+                                  <mn>4</mn>
+                                  <mtext>Ga</mtext>
+                                  <mo>+</mo>
+                                  <mn>3</mn>
+                                  <msub>
+                                    <mtext>O</mtext>
+                                    <mn>2</mn>
+                                  </msub>
+                                  <mspace width="0.2em"/>
+                                  <mo stretchy="false">⟶</mo>
+                                  <mspace width="0.2em"/>
+                                  <mn>2</mn>
+                                  <msub>
+                                    <mrow>
+                                      <mtext>Ga</mtext>
+                                    </mrow>
+                                    <mn>2</mn>
+                                  </msub>
+                                  <msub>
+                                    <mtext>O</mtext>
+                                    <mn>3</mn>
+                                  </msub>
+                                  <mo>.</mo>
+                                </mrow>
+                              </mrow>
+                              <annotation-xml encoding="MathML-Content">
+                                <mrow>
+                                  <mn>4</mn>
+                                  <mtext>Ga</mtext>
+                                  <mo>+</mo>
+                                  <mn>3</mn>
+                                  <msub>
+                                    <mtext>O</mtext>
+                                    <mn>2</mn>
+                                  </msub>
+                                  <mspace width="0.2em"/>
+                                  <mo stretchy="false">⟶</mo>
+                                  <mspace width="0.2em"/>
+                                  <mn>2</mn>
+                                  <msub>
+                                    <mrow>
+                                      <mtext>Ga</mtext>
+                                    </mrow>
+                                    <mn>2</mn>
+                                  </msub>
+                                  <msub>
+                                    <mtext>O</mtext>
+                                    <mn>3</mn>
+                                  </msub>
+                                  <mo>.</mo>
+                                </mrow>
+                              </annotation-xml>
+                            </semantics>
+                          </math>
+                        </p>
+                        <div data-type="note" id="fs-idp214975456">
+                          <h3 class="os-title" data-type="title">
+                            <span
+                              class="os-title-label"
+                              data-type
+                              id="[redacted for uniqueness]"
+                            >Answer:</span>
+                          </h3>
+                          <div class="os-note-body">
+                            <p id="fs-idp3589264">39.0 g</p>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div data-type="example" id="fs-idp274853984">
+                        <h3 class="os-title">
+                          <span class="os-title-label">Example</span>
+                          <span class="os-number">7.11</span>
+                          <span class="os-divider"></span>
+                        </h3>
+                        <p id="fs-idp64260528">
+                          <span data-type="title">Relating Masses of Reactants</span>
+                          What mass of oxygen gas, O
+                          <sub>2</sub>, from the air is consumed in the combustion of 702 g of octane, C
+                          <sub>8</sub>H
+                          <sub>18</sub>, one of the principal components of gasoline?
+                        </p>
+                        <div data-type="equation" id="fs-idp87206624">
+                          <math display="block">
+                            <semantics>
+                              <mrow>
+                                <mrow>
+                                  <mn>2</mn>
+                                  <msub>
+                                    <mtext>C</mtext>
+                                    <mn>8</mn>
+                                  </msub>
+                                  <msub>
+                                    <mtext>H</mtext>
+                                    <mrow>
+                                      <mn>18</mn>
+                                    </mrow>
+                                  </msub>
+                                  <mo>+</mo>
+                                  <mn>25</mn>
+                                  <msub>
+                                    <mtext>O</mtext>
+                                    <mn>2</mn>
+                                  </msub>
+                                  <mspace width="0.2em"/>
+                                  <mo stretchy="false">⟶</mo>
+                                  <mspace width="0.2em"/>
+                                  <mn>16</mn>
+                                  <msub>
+                                    <mrow>
+                                      <mtext>CO</mtext>
+                                    </mrow>
+                                    <mn>2</mn>
+                                  </msub>
+                                  <mo>+</mo>
+                                  <mn>18</mn>
+                                  <msub>
+                                    <mtext>H</mtext>
+                                    <mn>2</mn>
+                                  </msub>
+                                  <mtext>O</mtext>
+                                </mrow>
+                              </mrow>
+                              <annotation-xml encoding="MathML-Content">
+                                <mrow>
+                                  <mn>2</mn>
+                                  <msub>
+                                    <mtext>C</mtext>
+                                    <mn>8</mn>
+                                  </msub>
+                                  <msub>
+                                    <mtext>H</mtext>
+                                    <mrow>
+                                      <mn>18</mn>
+                                    </mrow>
+                                  </msub>
+                                  <mo>+</mo>
+                                  <mn>25</mn>
+                                  <msub>
+                                    <mtext>O</mtext>
+                                    <mn>2</mn>
+                                  </msub>
+                                  <mspace width="0.2em"/>
+                                  <mo stretchy="false">⟶</mo>
+                                  <mspace width="0.2em"/>
+                                  <mn>16</mn>
+                                  <msub>
+                                    <mrow>
+                                      <mtext>CO</mtext>
+                                    </mrow>
+                                    <mn>2</mn>
+                                  </msub>
+                                  <mo>+</mo>
+                                  <mn>18</mn>
+                                  <msub>
+                                    <mtext>H</mtext>
+                                    <mn>2</mn>
+                                  </msub>
+                                  <mtext>O</mtext>
+                                </mrow>
+                              </annotation-xml>
+                            </semantics>
+                          </math>
+                        </div>
+                        <p id="fs-idp35508016">
+                          <span data-type="title">Solution</span>
+                          The approach required here is the same as for the
+                          <a
+                            class="autogenerated-content"
+                            href="#fs-idp113495744"
+                          >Example 7.10</a>, differing only in that the provided and requested masses are both for reactant species.
+                        </p>
+                        <span
+                          data-alt="This figure shows four rectangles. The first is shaded yellow and is labeled, “Mass of C subscript 8 H subscript 18.” This rectangle is followed by an arrow pointing right to a second rectangle which is shaded pink and is labeled, “Moles of C subscript 8 H subscript 18.” This rectangle is followed by an arrow pointing right to a third rectangle which is shaded pink and is labeled, “Moles of O subscript 2.” This rectangle is followed by an arrow pointing right to a fourth rectangle which is shaded yellow and is labeled, “Mass of O subscript 2.”"
+                          data-type="media"
+                          id="fs-idp56087040"
+                        >
+                          <img
+                            alt="This figure shows four rectangles. The first is shaded yellow and is labeled, “Mass of C subscript 8 H subscript 18.” This rectangle is followed by an arrow pointing right to a second rectangle which is shaded pink and is labeled, “Moles of C subscript 8 H subscript 18.” This rectangle is followed by an arrow pointing right to a third rectangle which is shaded pink and is labeled, “Moles of O subscript 2.” This rectangle is followed by an arrow pointing right to a fourth rectangle which is shaded yellow and is labeled, “Mass of O subscript 2.”"
+                            data-media-type="image/jpeg"
+                            id="[redacted for uniqueness]"
+                            src="/resources/26615cedaa34ad90cce0ef36e52c9ee6816f6ad6"
+                          >
+                        </span>
+                        <div data-type="equation" id="fs-idm56417376">
+                          <math display="block">
+                            <semantics>
+                              <mrow>
+                                <mrow>
+                                  <mn>702</mn>
+                                  <mspace width="0.2em"/>
+                                  <menclose notation="horizontalstrike">
+                                    <mrow>
+                                      <mtext>g</mtext>
+                                      <mspace width="0.2em"/>
+                                      <msub>
+                                        <mtext>C</mtext>
+                                        <mn>8</mn>
+                                      </msub>
+                                      <msub>
+                                        <mtext>H</mtext>
+                                        <mrow>
+                                          <mn>18</mn>
+                                        </mrow>
+                                      </msub>
+                                    </mrow>
+                                  </menclose>
+                                  <mspace width="0.2em"/>
+                                  <mo>×</mo>
+                                  <mspace width="0.2em"/>
+                                  <mfrac>
+                                    <mrow>
+                                      <mn>1</mn>
+                                      <mspace width="0.2em"/>
+                                      <menclose notation="horizontalstrike">
+                                        <mrow>
+                                          <mtext>mol</mtext>
+                                          <mspace width="0.2em"/>
+                                          <msub>
+                                            <mtext>C</mtext>
+                                            <mn>8</mn>
+                                          </msub>
+                                          <msub>
+                                            <mtext>H</mtext>
+                                            <mrow>
+                                              <mn>18</mn>
+                                            </mrow>
+                                          </msub>
+                                        </mrow>
+                                      </menclose>
+                                    </mrow>
+                                    <mrow>
+                                      <mn>114.23</mn>
+                                      <mspace width="0.2em"/>
+                                      <menclose notation="horizontalstrike">
+                                        <mrow>
+                                          <mtext>g</mtext>
+                                          <mspace width="0.2em"/>
+                                          <msub>
+                                            <mtext>C</mtext>
+                                            <mn>8</mn>
+                                          </msub>
+                                          <msub>
+                                            <mtext>H</mtext>
+                                            <mrow>
+                                              <mn>18</mn>
+                                            </mrow>
+                                          </msub>
+                                        </mrow>
+                                      </menclose>
+                                    </mrow>
+                                  </mfrac>
+                                  <mspace width="0.2em"/>
+                                  <mo>×</mo>
+                                  <mspace width="0.2em"/>
+                                  <mfrac>
+                                    <mrow>
+                                      <mn>25</mn>
+                                      <mspace width="0.2em"/>
+                                      <menclose notation="horizontalstrike">
+                                        <mrow>
+                                          <mtext>mol</mtext>
+                                          <mspace width="0.2em"/>
+                                          <msub>
+                                            <mtext>O</mtext>
+                                            <mn>2</mn>
+                                          </msub>
+                                        </mrow>
+                                      </menclose>
+                                    </mrow>
+                                    <mrow>
+                                      <mn>2</mn>
+                                      <mspace width="0.2em"/>
+                                      <menclose notation="horizontalstrike">
+                                        <mrow>
+                                          <mtext>mol</mtext>
+                                          <mspace width="0.2em"/>
+                                          <msub>
+                                            <mtext>C</mtext>
+                                            <mn>8</mn>
+                                          </msub>
+                                          <msub>
+                                            <mtext>H</mtext>
+                                            <mrow>
+                                              <mn>18</mn>
+                                            </mrow>
+                                          </msub>
+                                        </mrow>
+                                      </menclose>
+                                    </mrow>
+                                  </mfrac>
+                                  <mspace width="0.2em"/>
+                                  <mo>×</mo>
+                                  <mspace width="0.2em"/>
+                                  <mfrac>
+                                    <mrow>
+                                      <mtext>32.00 g</mtext>
+                                      <mspace width="0.2em"/>
+                                      <msub>
+                                        <mtext>O</mtext>
+                                        <mn>2</mn>
+                                      </msub>
+                                    </mrow>
+                                    <mrow>
+                                      <menclose notation="horizontalstrike">
+                                        <mrow>
+                                          <mtext>mol</mtext>
+                                          <mspace width="0.2em"/>
+                                          <msub>
+                                            <mtext>O</mtext>
+                                            <mn>2</mn>
+                                          </msub>
+                                        </mrow>
+                                      </menclose>
+                                    </mrow>
+                                  </mfrac>
+                                  <mspace width="0.2em"/>
+                                  <mo>=</mo>
+                                  <mn>2.46</mn>
+                                  <mspace width="0.2em"/>
+                                  <mo>×</mo>
+                                  <mspace width="0.2em"/>
+                                  <msup>
+                                    <mrow>
+                                      <mn>10</mn>
+                                    </mrow>
+                                    <mn>3</mn>
+                                  </msup>
+                                  <mspace width="0.2em"/>
+                                  <mtext>g</mtext>
+                                  <mspace width="0.2em"/>
+                                  <msub>
+                                    <mtext>O</mtext>
+                                    <mn>2</mn>
+                                  </msub>
+                                </mrow>
+                              </mrow>
+                              <annotation-xml encoding="MathML-Content">
+                                <mrow>
+                                  <mn>702</mn>
+                                  <mspace width="0.2em"/>
+                                  <menclose notation="horizontalstrike">
+                                    <mrow>
+                                      <mtext>g</mtext>
+                                      <mspace width="0.2em"/>
+                                      <msub>
+                                        <mtext>C</mtext>
+                                        <mn>8</mn>
+                                      </msub>
+                                      <msub>
+                                        <mtext>H</mtext>
+                                        <mrow>
+                                          <mn>18</mn>
+                                        </mrow>
+                                      </msub>
+                                    </mrow>
+                                  </menclose>
+                                  <mspace width="0.2em"/>
+                                  <mo>×</mo>
+                                  <mspace width="0.2em"/>
+                                  <mfrac>
+                                    <mrow>
+                                      <mn>1</mn>
+                                      <mspace width="0.2em"/>
+                                      <menclose notation="horizontalstrike">
+                                        <mrow>
+                                          <mtext>mol</mtext>
+                                          <mspace width="0.2em"/>
+                                          <msub>
+                                            <mtext>C</mtext>
+                                            <mn>8</mn>
+                                          </msub>
+                                          <msub>
+                                            <mtext>H</mtext>
+                                            <mrow>
+                                              <mn>18</mn>
+                                            </mrow>
+                                          </msub>
+                                        </mrow>
+                                      </menclose>
+                                    </mrow>
+                                    <mrow>
+                                      <mn>114.23</mn>
+                                      <mspace width="0.2em"/>
+                                      <menclose notation="horizontalstrike">
+                                        <mrow>
+                                          <mtext>g</mtext>
+                                          <mspace width="0.2em"/>
+                                          <msub>
+                                            <mtext>C</mtext>
+                                            <mn>8</mn>
+                                          </msub>
+                                          <msub>
+                                            <mtext>H</mtext>
+                                            <mrow>
+                                              <mn>18</mn>
+                                            </mrow>
+                                          </msub>
+                                        </mrow>
+                                      </menclose>
+                                    </mrow>
+                                  </mfrac>
+                                  <mspace width="0.2em"/>
+                                  <mo>×</mo>
+                                  <mspace width="0.2em"/>
+                                  <mfrac>
+                                    <mrow>
+                                      <mn>25</mn>
+                                      <mspace width="0.2em"/>
+                                      <menclose notation="horizontalstrike">
+                                        <mrow>
+                                          <mtext>mol</mtext>
+                                          <mspace width="0.2em"/>
+                                          <msub>
+                                            <mtext>O</mtext>
+                                            <mn>2</mn>
+                                          </msub>
+                                        </mrow>
+                                      </menclose>
+                                    </mrow>
+                                    <mrow>
+                                      <mn>2</mn>
+                                      <mspace width="0.2em"/>
+                                      <menclose notation="horizontalstrike">
+                                        <mrow>
+                                          <mtext>mol</mtext>
+                                          <mspace width="0.2em"/>
+                                          <msub>
+                                            <mtext>C</mtext>
+                                            <mn>8</mn>
+                                          </msub>
+                                          <msub>
+                                            <mtext>H</mtext>
+                                            <mrow>
+                                              <mn>18</mn>
+                                            </mrow>
+                                          </msub>
+                                        </mrow>
+                                      </menclose>
+                                    </mrow>
+                                  </mfrac>
+                                  <mspace width="0.2em"/>
+                                  <mo>×</mo>
+                                  <mspace width="0.2em"/>
+                                  <mfrac>
+                                    <mrow>
+                                      <mtext>32.00 g</mtext>
+                                      <mspace width="0.2em"/>
+                                      <msub>
+                                        <mtext>O</mtext>
+                                        <mn>2</mn>
+                                      </msub>
+                                    </mrow>
+                                    <mrow>
+                                      <menclose notation="horizontalstrike">
+                                        <mrow>
+                                          <mtext>mol</mtext>
+                                          <mspace width="0.2em"/>
+                                          <msub>
+                                            <mtext>O</mtext>
+                                            <mn>2</mn>
+                                          </msub>
+                                        </mrow>
+                                      </menclose>
+                                    </mrow>
+                                  </mfrac>
+                                  <mspace width="0.2em"/>
+                                  <mo>=</mo>
+                                  <mn>2.46</mn>
+                                  <mspace width="0.2em"/>
+                                  <mo>×</mo>
+                                  <mspace width="0.2em"/>
+                                  <msup>
+                                    <mrow>
+                                      <mn>10</mn>
+                                    </mrow>
+                                    <mn>3</mn>
+                                  </msup>
+                                  <mspace width="0.2em"/>
+                                  <mtext>g</mtext>
+                                  <mspace width="0.2em"/>
+                                  <msub>
+                                    <mtext>O</mtext>
+                                    <mn>2</mn>
+                                  </msub>
+                                </mrow>
+                              </annotation-xml>
+                            </semantics>
+                          </math>
+                        </div>
+                        <p id="fs-idp24638432">
+                          <span data-type="title">Check Your Learning</span>
+                          What mass of CO is required to react with 25.13 g of Fe
+                          <sub>2</sub>O
+                          <sub>3</sub> according to the equation
+                          <math display="inline">
+                            <semantics>
+                              <mrow>
+                                <mrow>
+                                  <msub>
+                                    <mrow>
+                                      <mtext>Fe</mtext>
+                                    </mrow>
+                                    <mn>2</mn>
+                                  </msub>
+                                  <msub>
+                                    <mtext>O</mtext>
+                                    <mn>3</mn>
+                                  </msub>
+                                  <mo>+</mo>
+                                  <mn>3</mn>
+                                  <mtext>CO</mtext>
+                                  <mspace width="0.2em"/>
+                                  <mo stretchy="false">⟶</mo>
+                                  <mspace width="0.2em"/>
+                                  <mn>2</mn>
+                                  <mtext>Fe</mtext>
+                                  <mo>+</mo>
+                                  <mn>3</mn>
+                                  <msub>
+                                    <mrow>
+                                      <mtext>CO</mtext>
+                                    </mrow>
+                                    <mn>2</mn>
+                                  </msub>
+                                  <mo>?</mo>
+                                </mrow>
+                              </mrow>
+                              <annotation-xml encoding="MathML-Content">
+                                <mrow>
+                                  <msub>
+                                    <mrow>
+                                      <mtext>Fe</mtext>
+                                    </mrow>
+                                    <mn>2</mn>
+                                  </msub>
+                                  <msub>
+                                    <mtext>O</mtext>
+                                    <mn>3</mn>
+                                  </msub>
+                                  <mo>+</mo>
+                                  <mn>3</mn>
+                                  <mtext>CO</mtext>
+                                  <mspace width="0.2em"/>
+                                  <mo stretchy="false">⟶</mo>
+                                  <mspace width="0.2em"/>
+                                  <mn>2</mn>
+                                  <mtext>Fe</mtext>
+                                  <mo>+</mo>
+                                  <mn>3</mn>
+                                  <msub>
+                                    <mrow>
+                                      <mtext>CO</mtext>
+                                    </mrow>
+                                    <mn>2</mn>
+                                  </msub>
+                                  <mo>?</mo>
+                                </mrow>
+                              </annotation-xml>
+                            </semantics>
+                          </math>
+                        </p>
+                        <div data-type="note" id="fs-idp58164000">
+                          <h3 class="os-title" data-type="title">
+                            <span
+                              class="os-title-label"
+                              data-type
+                              id="[redacted for uniqueness]"
+                            >Answer:</span>
+                          </h3>
+                          <div class="os-note-body">
+                            <p id="fs-idp38243856">13.22 g</p>
+                          </div>
+                        </div>
+                      </div>
+
+                      <p id="fs-idp90689472">
+                        These examples illustrate just a few instances of reaction stoichiometry calculations. Numerous variations on the beginning and ending computational steps are possible depending upon what particular quantities are provided and sought (volumes, solution concentrations, and so forth). Regardless of the details, all these calculations share a common essential component: the use of stoichiometric factors derived from balanced chemical equations.
+                        <a
+                          class="autogenerated-content"
+                          href="#CNX_Chem_04_03_flowchart"
+                        >Figure 7.11</a> provides a general outline of the various computational steps associated with many reaction stoichiometry calculations.
+                      </p>
+
+                      <div class="os-figure" id="CNX_Chem_04_03_flowchart">
+                        <figure data-id="CNX_Chem_04_03_flowchart">
+                          <span
+                            data-alt="This flowchart shows 10 rectangles connected by double headed arrows. To the upper left, a rectangle is shaded lavender and is labeled, “Volume of pure substance A.” This rectangle is followed by a horizontal double headed arrow labeled, “Density.” It connects to a second rectangle which is shaded yellow and is labeled, “Mass of A.” This rectangle is followed by a double headed arrow which is labeled, “Molar Mass,” that connects to a third rectangle which is shaded pink and is labeled, “Moles of A.” To the left of this rectangle is a horizontal double headed arrow labeled, “Molarity,” which connects to a lavender rectangle which is labeled, “Volume of solution A.” The pink, “Moles of A,” rectangle is also connected with a double headed arrow below and to the left. This arrow is labeled “Avogadro’s number.” It connects to a green shaded rectangle that is labeled, “Number of particles of A.” To the right of the pink “Moles of A,” rectangle is a horizontal double headed arrow which is labeled, “Stoichiometric factor.” It connects to a second pink rectangle which is labeled, “Moles of B.” A double headed arrow which is labeled, “Molar mass,” extends from the top of this rectangle above and to the right to a yellow shaded rectangle labeled, “Mass of B.” A horizontal double headed arrow which is labeled, “Density” links to a lavender rectangle labeled, “Volume of substance B,” to the right. A horizontal double headed arrow labeled, “Molarity,” extends right to the of the pink “Moles of B” rectangle. This arrow connects to a lavender rectangle that is labeled, “Volume of substance B.” Another double headed arrow extends below and to the right of the pink “Moles of B” rectangle. This arrow is labeled “Avogadro’s number,” and it extends to a green rectangle which is labeled, “Number of particles of B.”"
+                            data-type="media"
+                            id="fs-idp53443040"
+                          >
+                            <img
+                              alt="This flowchart shows 10 rectangles connected by double headed arrows. To the upper left, a rectangle is shaded lavender and is labeled, “Volume of pure substance A.” This rectangle is followed by a horizontal double headed arrow labeled, “Density.” It connects to a second rectangle which is shaded yellow and is labeled, “Mass of A.” This rectangle is followed by a double headed arrow which is labeled, “Molar Mass,” that connects to a third rectangle which is shaded pink and is labeled, “Moles of A.” To the left of this rectangle is a horizontal double headed arrow labeled, “Molarity,” which connects to a lavender rectangle which is labeled, “Volume of solution A.” The pink, “Moles of A,” rectangle is also connected with a double headed arrow below and to the left. This arrow is labeled “Avogadro’s number.” It connects to a green shaded rectangle that is labeled, “Number of particles of A.” To the right of the pink “Moles of A,” rectangle is a horizontal double headed arrow which is labeled, “Stoichiometric factor.” It connects to a second pink rectangle which is labeled, “Moles of B.” A double headed arrow which is labeled, “Molar mass,” extends from the top of this rectangle above and to the right to a yellow shaded rectangle labeled, “Mass of B.” A horizontal double headed arrow which is labeled, “Density” links to a lavender rectangle labeled, “Volume of substance B,” to the right. A horizontal double headed arrow labeled, “Molarity,” extends right to the of the pink “Moles of B” rectangle. This arrow connects to a lavender rectangle that is labeled, “Volume of substance B.” Another double headed arrow extends below and to the right of the pink “Moles of B” rectangle. This arrow is labeled “Avogadro’s number,” and it extends to a green rectangle which is labeled, “Number of particles of B.”"
+                              data-media-type="image/jpeg"
+                              id="[redacted for uniqueness]"
+                              src="/resources/808356928dd8effcf7d3638921e13388959bbf71"
+                            >
+                          </span>
+                        </figure>
+                        <div class="os-caption-container">
+                          <span class="os-title-label">Figure</span>
+                          <span class="os-number">7.11</span>
+                          <span class="os-divider"></span>
+                          <span class="os-divider"></span>
+                          <span
+                            class="os-caption"
+                          >The flowchart depicts the various computational steps involved in most reaction stoichiometry calculations.</span>
+                        </div>
+                      </div>
+
+                      <div
+                        class="chemistry everyday-life"
+                        data-type="note"
+                        id="fs-idp84121360"
+                      >
+                        <h3 class="os-title" data-type="title">
+                          <span
+                            class="os-title-label"
+                          >Chemistry in Everyday Life</span>
+                        </h3>
+                        <div class="os-note-body">
+                          <h4 class="os-subtitle" data-type="title" id="[redacted for uniqueness]">
+                            <span class="os-subtitle-label">Airbags</span>
+                          </h4>
+                          <p id="fs-idp124943600">
+                            Airbags (
+                            <a
+                              class="autogenerated-content"
+                              href="#CNX_Chem_04_03_airbag"
+                            >Figure 7.12</a>) are a safety feature provided in most automobiles since the 1990s. The effective operation of an airbag requires that it be rapidly inflated with an appropriate amount (volume) of gas when the vehicle is involved in a collision. This requirement is satisfied in many automotive airbag systems through use of explosive chemical reactions, one common choice being the decomposition of sodium azide, NaN
+                            <sub>3</sub>. When sensors in the vehicle detect a collision, an electrical current is passed through a carefully measured amount of NaN
+                            <sub>3</sub> to initiate its decomposition:
+                          </p>
+                          <div data-type="equation" id="fs-idp113504400">
+                            <math display="block">
+                              <semantics>
+                                <mrow>
+                                  <mrow>
+                                    <mn>2</mn>
+                                    <msub>
+                                      <mrow>
+                                        <mtext>NaN</mtext>
+                                      </mrow>
+                                      <mn>3</mn>
+                                    </msub>
+                                    <mo stretchy="false">(</mo>
+                                    <mi>s</mi>
+                                    <mo stretchy="false">)</mo>
+                                    <mspace width="0.2em"/>
+                                    <mo stretchy="false">⟶</mo>
+                                    <mspace width="0.2em"/>
+                                    <mn>3</mn>
+                                    <msub>
+                                      <mtext>N</mtext>
+                                      <mn>2</mn>
+                                    </msub>
+                                    <mo stretchy="false">(</mo>
+                                    <mi>g</mi>
+                                    <mo stretchy="false">)</mo>
+                                    <mo>+</mo>
+                                    <mn>2</mn>
+                                    <mtext>Na</mtext>
+                                    <mrow>
+                                      <mo stretchy="false">(</mo>
+                                      <mi>s</mi>
+                                      <mo stretchy="false">)</mo>
+                                    </mrow>
+                                  </mrow>
+                                </mrow>
+                                <annotation-xml encoding="MathML-Content">
+                                  <mrow>
+                                    <mn>2</mn>
+                                    <msub>
+                                      <mrow>
+                                        <mtext>NaN</mtext>
+                                      </mrow>
+                                      <mn>3</mn>
+                                    </msub>
+                                    <mo stretchy="false">(</mo>
+                                    <mi>s</mi>
+                                    <mo stretchy="false">)</mo>
+                                    <mspace width="0.2em"/>
+                                    <mo stretchy="false">⟶</mo>
+                                    <mspace width="0.2em"/>
+                                    <mn>3</mn>
+                                    <msub>
+                                      <mtext>N</mtext>
+                                      <mn>2</mn>
+                                    </msub>
+                                    <mo stretchy="false">(</mo>
+                                    <mi>g</mi>
+                                    <mo stretchy="false">)</mo>
+                                    <mo>+</mo>
+                                    <mn>2</mn>
+                                    <mtext>Na</mtext>
+                                    <mrow>
+                                      <mo stretchy="false">(</mo>
+                                      <mi>s</mi>
+                                      <mo stretchy="false">)</mo>
+                                    </mrow>
+                                  </mrow>
+                                </annotation-xml>
+                              </semantics>
+                            </math>
+                          </div>
+                          <p id="fs-idp9645888">
+                            This reaction is very rapid, generating gaseous nitrogen that can deploy and fully inflate a typical airbag in a fraction of a second (~0.03–0.1 s). Among many engineering considerations, the amount of sodium azide used must be appropriate for generating enough nitrogen gas to fully inflate the air bag and ensure its proper function. For example, a small mass (~100 g) of NaN
+                            <sub>3</sub> will generate approximately 50 L of N
+                            <sub>2</sub>.
+                          </p>
+                          <div class="os-figure" id="CNX_Chem_04_03_airbag">
+                            <figure
+                              class="scaled-down"
+                              data-id="CNX_Chem_04_03_airbag"
+                            >
+                              <span
+                                data-alt="This photograph shows the inside of an automobile from the driver’s side area. The image shows inflated airbags positioned just in front of the driver’s and passenger’s seats and along the length of the passenger side over the windows. A large, round airbag covers the steering wheel."
+                                data-type="media"
+                                id="fs-idp103197840"
+                              >
+                                <img
+                                  alt="This photograph shows the inside of an automobile from the driver’s side area. The image shows inflated airbags positioned just in front of the driver’s and passenger’s seats and along the length of the passenger side over the windows. A large, round airbag covers the steering wheel."
+                                  data-media-type="image/jpeg"
+                                  id="[redacted for uniqueness]"
+                                  src="/resources/102cf9ecc1c1423a1a26842761adac159203920f"
+                                >
+                              </span>
+                            </figure>
+                            <div class="os-caption-container">
+                              <span class="os-title-label">Figure</span>
+                              <span class="os-number">7.12</span>
+                              <span class="os-divider"></span>
+                              <span class="os-divider"></span>
+                              <span
+                                class="os-caption"
+                              >Airbags deploy upon impact to minimize serious injuries to passengers. (credit: Jon Seidman)</span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  
