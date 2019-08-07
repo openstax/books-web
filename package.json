@@ -4,7 +4,7 @@
   "private": true,
   "dependencies": {
     "@openstax/open-search-client": "./open-search-client/",
-    "@sentry/browser": "^5.5.0",
+    "@sentry/browser": "5.5.0",
     "@types/pretty": "^2.0.0",
     "@types/redux-sentry-middleware": "^0.1.0",
     "ally.js": "^1.4.1",
