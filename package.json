@@ -136,7 +136,7 @@
     "pretty": "^2.0.0",
     "progress": "^2.0.3",
     "puppeteer": "^1.10.0",
-    "react-test-renderer": "^16.6.1",
+    "react-test-renderer": "^16.9.0",
     "serve-static": "^1.13.2",
     "sitemap": "^3.2.2",
     "stylelint": "^10.1.0",
