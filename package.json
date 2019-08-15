@@ -108,7 +108,7 @@
     "@types/react-dom": "^16.0.9",
     "@types/react-intl": "^2.3.11",
     "@types/react-loadable": "^5.5.0",
-    "@types/react-redux": "^7.1.1",
+    "@types/react-redux": "^7.1.2",
     "@types/react-test-renderer": "^16.8.2",
     "@types/serve-static": "^1.13.2",
     "@types/stacktrace-js": "^0.0.32",
