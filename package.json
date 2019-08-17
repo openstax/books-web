@@ -131,7 +131,7 @@
     "md5-file": "^4.0.0",
     "node-fetch": "^2.3.0",
     "pify": "^4.0.1",
-    "portfinder": "^1.0.19",
+    "portfinder": "^1.0.22",
     "prettier": "^1.16.4",
     "pretty": "^2.0.0",
     "progress": "^2.0.3",
