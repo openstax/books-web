@@ -2,14 +2,13 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { AppState, Dispatch } from '../../../../types';
 import * as select from '../../../selectors';
-import { Book, Page } from '../../../types';
+import { Book } from '../../../types';
 import { clearSearch, closeSearchResultsMobile } from '../../actions';
 import * as selectSearch from '../../selectors';
 import { SearchResultContainer } from '../../types';
 import { SearchResultsBarWrapper } from './SearchResultsBarWrapper';
 
 interface Props {
-  currentPage: Page | undefined;
   book?: Book;
   query: string | null;
   totalHits: number | null;
@@ -61,7 +60,6 @@ export class SearchResultsSidebar extends Component<Props, State> {
 export default connect(
   (state: AppState) => ({
     book: select.book(state),
-    currentPage: select.page(state),
     query: selectSearch.query(state),
     results: selectSearch.results(state),
     searchResultsOpen: selectSearch.searchResultsOpen(state),

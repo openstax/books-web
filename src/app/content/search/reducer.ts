@@ -7,6 +7,7 @@ import * as actions from './actions';
 import { State } from './types';
 
 export const initialState = {
+  currentExcerpt: null,
   loading: false,
   mobileOpen: false,
   query: null,
@@ -36,6 +37,9 @@ const reducer: Reducer<State, AnyAction> = (state = initialState, action) => {
     }
     case getType(actions.closeSearchResultsMobile): {
       return {...state, mobileOpen: false};
+    }
+    case getType(actions.setCurrentExcerpt): {
+      return {...state, currentExcerpt: action.payload};
     }
     default:
       return state;

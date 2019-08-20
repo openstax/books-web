@@ -185,6 +185,14 @@ export const SectionContentPreview = styled(ContentLinkComponent)`
     font-weight: bold;
   }
 
+  ::before{
+    content: '... '
+  }
+
+  ::after {
+    content: ' ...'
+  }
+
   ${theme.breakpoints.mobile(css`
     margin-left: 5rem;
   `)}
@@ -275,4 +283,12 @@ export const HeaderQuery = styled.div`
 // tslint:disable-next-line:variable-name
 export const ListItem = styled.li`
   display: block;
+`;
+
+// tslint:disable-next-line:variable-name
+export const ExcerptWrapper = styled.div`
+  &:focus-within,
+  &.ally-focus-within {
+    background: ${theme.color.neutral.darker};
+  }
 `;

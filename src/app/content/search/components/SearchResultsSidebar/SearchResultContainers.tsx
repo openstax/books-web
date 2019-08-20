@@ -1,10 +1,12 @@
 import { SearchResultHit } from '@openstax/open-search-client';
 import React from 'react';
 import { FormattedMessage } from 'react-intl';
+import { connect } from 'react-redux';
 import { Details, ExpandIcon } from '../../../../components/Details';
+import { AppState } from '../../../../types';
 import { CollapseIcon, SummaryTitle, SummaryWrapper } from '../../../components/Sidebar/styled';
+import * as select from '../../../selectors';
 import { Book, Page } from '../../../types';
-import { archiveTreeContainsNode } from '../../../utils/archiveTreeUtils';
 import { stripIdVersion } from '../../../utils/idUtils';
 import { isSearchResultChapter } from '../../guards';
 import { SearchResultChapter, SearchResultContainer, SearchResultPage } from '../../types';
@@ -18,7 +20,7 @@ interface SearchResultContainersProps {
   activeSectionRef: HTMLElement;
 }
 // tslint:disable-next-line:variable-name
-export const SearchResultContainers = ({containers, ...props}: SearchResultContainersProps) => (
+const SearchResultContainers = ({containers, ...props}: SearchResultContainersProps) => (
   <React.Fragment>
     {containers.map((node: SearchResultContainer) =>
       isSearchResultChapter(node) ? (
@@ -54,6 +56,7 @@ const SearchResult = (props: {
 }) => {
   const active = props.page && props.currentPage
     && stripIdVersion(props.currentPage.id) === stripIdVersion(props.page.id);
+
   return <Styled.NavItem ref={active ? props.activeSectionRef : null }>
     <FormattedMessage id='i18n:search-results:bar:current-page'>
       {(msg: Element | string) =>
@@ -67,14 +70,14 @@ const SearchResult = (props: {
     {props.page.results.map((hit: SearchResultHit) =>
       hit.source && hit.highlight && hit.highlight.visibleContent
         ? hit.highlight.visibleContent.map((highlight: string, index: number) => {
-            return <Styled.SectionContentPreview
+            return<Styled.ExcerptWrapper onClick={props.closeSearchResults}>
+              <Styled.SectionContentPreview
               data-testid='search-result'
               key={index}
               book={props.book}
               page={props.page}
-              onClick={props.closeSearchResults}
               dangerouslySetInnerHTML={{ __html: highlight }}
-            />;
+            /></Styled.ExcerptWrapper>;
           })
         : []
     )}
@@ -89,11 +92,8 @@ const SearchResultsDropdown = (props: {
   closeSearchResults: () => void;
   activeSectionRef: HTMLElement;
 }) => {
-
-  const active = props.currentPage && props.chapter
-    && archiveTreeContainsNode(props.chapter, props.currentPage.id);
   return <Styled.ListItem>
-    <Details {...(active ? {open: true} : {})}>
+    <Details open>
       <Styled.SearchBarSummary>
         <SummaryWrapper>
           <ExpandIcon />
@@ -115,3 +115,9 @@ const SearchResultsDropdown = (props: {
     </Details>
   </Styled.ListItem>;
 };
+
+export default connect(
+  (state: AppState) => ({
+    currentPage: select.page(state),
+  })
+)(SearchResultContainers);

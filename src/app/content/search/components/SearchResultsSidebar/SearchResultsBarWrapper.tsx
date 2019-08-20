@@ -3,30 +3,38 @@ import React, { Component } from 'react';
 import { FormattedMessage } from 'react-intl';
 import Loader from '../../../../components/Loader';
 import { assertDefined } from '../../../../utils';
-import { Book, Page } from '../../../types';
+import { Book } from '../../../types';
 import {
   scrollSidebarSectionIntoView,
   setSidebarHeight
 } from '../../../utils/domUtils';
 import { SearchResultContainer } from '../../types';
-import { SearchResultContainers } from './SearchResultContainers';
+import SearchResultContainers from './SearchResultContainers';
 import * as Styled from './styled';
 
 interface ResultsSidebarProps {
   closed: boolean;
-  currentPage: Page | undefined;
   query: string | null;
   results: SearchResultContainer[] | null;
   onClose: () => void;
   closeSearchResults: () => void;
   searchResultsOpen: boolean;
   book?: Book;
+  totalHits: number | null;
 }
 
 export class SearchResultsBarWrapper extends Component<ResultsSidebarProps> {
 
   private searchSidebar = React.createRef<HTMLElement>();
   private activeSection = React.createRef<HTMLElement>();
+
+  public translationForResultsNumber = (translationId: string) =>
+    <FormattedMessage id={translationId}>
+      {(msg: Element | string) => <Styled.HeaderQuery>
+        {this.props.totalHits} {msg}{' '}
+        <strong> &lsquo;{this.props.query}&rsquo;</strong>
+      </Styled.HeaderQuery>}
+    </FormattedMessage>;
 
   public loadindState = () => <FormattedMessage id='i18n:search-results:bar:loading-state'>
     {(msg: Element | string) => <Styled.LoadingWrapper aria-label={msg}>
@@ -40,23 +48,19 @@ export class SearchResultsBarWrapper extends Component<ResultsSidebarProps> {
   </FormattedMessage>;
 
   public totalResults = () => <Styled.SearchQueryWrapper>
-    <FormattedMessage id='i18n:search-results:bar:query:results'>
-      {(msg: Element | string) => (
-        <Styled.SearchQuery>
-          <Styled.SearchIconInsideBar />
-          <Styled.HeaderQuery>
-            {this.props.results && this.props.results.length} {msg}{' '}
-            <strong> &lsquo;{this.props.query}&rsquo;</strong>
-          </Styled.HeaderQuery>
-          <Styled.CloseIconButton
-            onClick={this.props.onClose}
-            data-testid='close-search'
-          >
-            <Styled.CloseIcon />
-          </Styled.CloseIconButton>
-        </Styled.SearchQuery>
-      )}
-    </FormattedMessage>
+    <Styled.SearchQuery>
+      <Styled.SearchIconInsideBar />
+        {(this.props.totalHits === 1) ?
+          this.translationForResultsNumber('i18n:search-results:bar:query:one-result')
+          : this.translationForResultsNumber('i18n:search-results:bar:query:multi-results')
+        }
+        <Styled.CloseIconButton
+          onClick={this.props.onClose}
+          data-testid='close-search'
+        >
+        <Styled.CloseIcon />
+      </Styled.CloseIconButton>
+    </Styled.SearchQuery>
   </Styled.SearchQueryWrapper>;
 
   public noResults = () => <div>
@@ -78,7 +82,6 @@ export class SearchResultsBarWrapper extends Component<ResultsSidebarProps> {
 
   public resultContainers = (book: Book, results: SearchResultContainer[]) => <Styled.NavOl>
     <SearchResultContainers
-      currentPage={this.props.currentPage}
       activeSectionRef={this.activeSection}
       containers={results}
       book={book}
@@ -126,6 +129,7 @@ export class SearchResultsBarWrapper extends Component<ResultsSidebarProps> {
     this.scrollToSelectedPage();
 
     const activeSection = this.activeSection.current;
+
     if (activeSection) {
       const firstResult = assertDefined(activeSection.querySelector('a'),
         'there should always be at least one result if there is an active section'

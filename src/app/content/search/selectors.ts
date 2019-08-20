@@ -27,3 +27,8 @@ export const searchResultsOpen = createSelector(
   localState,
   (state) => state.mobileOpen
 );
+
+export const currentExcerpt = createSelector(
+  localState,
+  (state) => state.currentExcerpt
+);
