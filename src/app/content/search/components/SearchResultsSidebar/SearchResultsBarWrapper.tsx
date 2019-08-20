@@ -13,8 +13,8 @@ import SearchResultContainers from './SearchResultContainers';
 import * as Styled from './styled';
 
 interface ResultsSidebarProps {
-  closed: boolean;
   query: string | null;
+  hasQuery: boolean;
   results: SearchResultContainer[] | null;
   onClose: () => void;
   closeSearchResults: () => void;
@@ -90,15 +90,15 @@ export class SearchResultsBarWrapper extends Component<ResultsSidebarProps> {
   </Styled.NavOl>;
 
   public render() {
-    const { results, book, searchResultsOpen, closed } = this.props;
+    const { results, book, searchResultsOpen, hasQuery } = this.props;
 
     return (
       <FormattedMessage id='i18n:search-results:bar'>
         {(msg: Element | string) => (
           <Styled.SearchResultsBar
-            closed={closed}
             aria-label={msg}
             searchResultsOpen={searchResultsOpen}
+            hasQuery={hasQuery}
             ref={this.searchSidebar}
             data-testid='search-results-sidebar'
           >
@@ -129,7 +129,6 @@ export class SearchResultsBarWrapper extends Component<ResultsSidebarProps> {
     this.scrollToSelectedPage();
 
     const activeSection = this.activeSection.current;
-
     if (activeSection) {
       const firstResult = assertDefined(activeSection.querySelector('a'),
         'there should always be at least one result if there is an active section'

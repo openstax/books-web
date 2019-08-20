@@ -1,6 +1,8 @@
 import React from 'react';
+import { FlattenSimpleInterpolation } from 'styled-components';
 import styled, { css, keyframes } from 'styled-components/macro';
 import { Search } from 'styled-icons/fa-solid/Search';
+import { Details as BaseDetails, Summary } from '../../../../components/Details';
 import { navDesktopHeight } from '../../../../components/NavBar';
 import Times from '../../../../components/Times';
 import {
@@ -12,12 +14,12 @@ import {
     bookBannerDesktopMiniHeight,
     searchResultsBarDesktopWidth,
     searchSidebarTopOffset,
+    sidebarTransitionTime,
     toolbarDesktopHeight,
     toolbarIconColor,
   } from '../../../components/constants';
 import ContentLinkComponent from '../../../components/ContentLink';
-import { Summary, SummaryTitle } from '../../../components/Sidebar/styled';
-import { toolbarIconStyles } from '../../../components/Toolbar';
+import { toolbarIconStyles } from '../../../components/Toolbar/styled';
 import { disablePrint } from '../../../components/utils/disablePrint';
 
 const borderColor = '#d5d5d5';
@@ -47,25 +49,48 @@ export const CloseIcon = styled((props) => <Times {...props} aria-hidden='true' 
 
 // tslint:disable-next-line:variable-name
 export const NavOl = styled.ol`
+  overflow: visible;
+
   .os-divider {
     width: 0.4rem;
   }
 `;
 
-const animateIn = keyframes`
-  from {
-    opacity: 0;
-    transform: translateX(-100%);
+const sidebarOpenAnimation = keyframes`
+  0% {
+    transform: translateX(0);
   }
 
-  to {
-    opacity: 1;
+  100% {
+    transform: translateX(100%);
+  }
+`;
+
+const sidebarHideAnimation = keyframes`
+  0% {
+    transform: translateX(100%);
+  }
+
+  99% {
     transform: translateX(0);
+  }
+
+  100% {
+    visibility: hidden;
+    transform: translateX(0);
+  }
+`;
+
+export const styleWhenSearchClosed = (closedStyle: FlattenSimpleInterpolation) => css`
+  ${(props: {searchResultsOpen: boolean}) => !props.searchResultsOpen && theme.breakpoints.mobile(closedStyle)}
+  ${(props: {searchResultsOpen: boolean, hasQuery: boolean}) =>
+    !props.searchResultsOpen && !props.hasQuery && closedStyle
   }
 `;
 
 // tslint:disable-next-line:variable-name
 export const SearchResultsBar = styled.div`
+  overflow-x: visible;
   top: ${bookBannerDesktopMiniHeight + toolbarDesktopHeight}rem;
   margin-top: 0;
   padding: 0;
@@ -75,25 +100,17 @@ export const SearchResultsBar = styled.div`
   box-shadow: 0.2rem 0 0.2rem 0 rgba(0, 0, 0, 0.1);
   z-index: 1;
   height: calc(100vh - ${navDesktopHeight + bookBannerDesktopMiniHeight + toolbarDesktopHeight}rem);
-  ${(props: {searchResultsOpen: boolean}) => !props.searchResultsOpen && theme.breakpoints.mobile(css`
-    display: none;
+  margin-left: -${searchResultsBarDesktopWidth}rem;
+  animation: ${sidebarOpenAnimation} ${sidebarTransitionTime}ms forwards;
+  ${styleWhenSearchClosed(css`
+    animation: ${sidebarHideAnimation} ${sidebarTransitionTime}ms forwards;
   `)}
-
-  transition: margin-left 300ms;
-  margin-left: 0;
-  ${(props: {closed: boolean}) => props.closed && css`
-    margin-left: -${searchResultsBarDesktopWidth}rem;
-  `}
-
   ${theme.breakpoints.mobile(css`
+    margin-left: -100%;
     width: 100%;
     margin-top: 0;
     top: ${searchSidebarTopOffset}rem;
     padding: 0;
-
-    ${(props: {closed: boolean}) => props.closed && css`
-      display: none;
-    `}
   `)}
 
   > ${NavOl} {
@@ -105,7 +122,6 @@ export const SearchResultsBar = styled.div`
     padding: 0;
   }
 
-  animation: ${animateIn} 5s;
   ${disablePrint}
 `;
 
@@ -133,20 +149,25 @@ export const SearchQueryWrapper = styled.div`
 `;
 
 // tslint:disable-next-line:variable-name
-export const SearchBarSummary = styled(Summary)`
-  min-height: 3.8rem;
+export const SummaryTitle = styled.span`
+  ${labelStyle}
+  font-weight: bold;
+  padding-right: ${theme.padding.page.desktop}rem;
+  line-height: 1.3;
+`;
+
+// tslint:disable-next-line:variable-name
+export const Details = styled(BaseDetails)`
+  overflow: visible;
+`;
+
+// tslint:disable-next-line:variable-name
+export const SearchBarSummaryContainer = styled.div`
   display: flex;
   align-items: center;
   background: ${backgroundColor};
-  border-top: solid 0.1rem ${borderColor};
   padding: 1rem 0 1rem ${theme.padding.page.desktop}rem;
-
-  ${SummaryTitle} {
-    font-weight: bold;
-    padding-right: ${theme.padding.page.desktop}rem;
-    line-height: 1.3;
-  }
-
+  border-top: solid 0.1rem ${borderColor};
   ${theme.breakpoints.mobile(css`
     padding-left: ${theme.padding.page.mobile}rem;
 
@@ -154,6 +175,15 @@ export const SearchBarSummary = styled(Summary)`
       padding-right: ${theme.padding.page.mobile}rem;
     }
   `)}
+`;
+
+// tslint:disable-next-line:variable-name
+export const SearchBarSummary = styled(Summary)`
+  min-height: 3.8rem;
+
+  > * {
+    outline: none;
+  }
 `;
 
 // tslint:disable-next-line:variable-name
@@ -191,6 +221,12 @@ export const SectionContentPreview = styled(ContentLinkComponent)`
 
   ::after {
     content: ' ...'
+  > * {
+    outline: none;
+  }
+
+  em {
+    font-weight: bold;
   }
 
   ${theme.breakpoints.mobile(css`
@@ -214,11 +250,13 @@ export const LinkWrapper = styled.div`
 
 // tslint:disable-next-line:variable-name
 export const DetailsOl = styled.ol`
+  overflow: visible;
   padding: 0;
 `;
 
 // tslint:disable-next-line:variable-name
 export const NavItem = styled.li`
+  overflow: visible;
   background: ${theme.color.primary.gray.foreground};
 `;
 
@@ -249,6 +287,7 @@ export const CloseIconButton = styled.button`
 
 // tslint:disable-next-line:variable-name
 export const CloseIconWrapper = styled.div`
+  overflow: visible;
   display: flex;
   justify-content: flex-end;
   margin: 1.4rem 1.4rem 0 0;
@@ -282,6 +321,7 @@ export const HeaderQuery = styled.div`
 
 // tslint:disable-next-line:variable-name
 export const ListItem = styled.li`
+  overflow: visible;
   display: block;
 `;
 

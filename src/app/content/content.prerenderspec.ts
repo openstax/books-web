@@ -32,11 +32,12 @@ describe('content', () => {
       // these attributes are intended to be changed on page load
       [
         ['[data-testid="toc"]', 'style'],
+        ['[data-testid="search-results-sidebar"]', 'style'],
+        ['[data-testid="loader"] path', 'style'],
       ].forEach(([selector, attribute]) => {
-        const element = root.querySelector(selector);
-        if (element) {
-          element.removeAttribute(attribute);
-        }
+        root.querySelectorAll(selector).forEach((element) =>
+          element.removeAttribute(attribute)
+        );
       });
 
       // react-dom and react-dom/server handle empty value attributes

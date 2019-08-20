@@ -66,7 +66,7 @@ describe('SearchResultsSidebar', () => {
     const component = renderer.create(render());
     const findById = makeFindByTestId(component.root);
 
-    expect(findById('search-results-sidebar').props.closed).toBe(true);
+    expect(findById('search-results-sidebar').props.searchResultsOpen).toBe(false);
   });
 
   it('shows sidebar with loading state if there is a search', () => {

@@ -64,9 +64,13 @@ describe('search', () => {
 
     const event = makeEvent();
 
-    findById('mobile-toggle').props.onClick(event);
+    renderer.act(() => {
+      findById('mobile-toggle').props.onClick(event);
+    });
     expect(() => findById('mobile-search')).not.toThrow();
-    findById('mobile-toggle').props.onClick(event);
+    renderer.act(() => {
+      findById('mobile-toggle').props.onClick(event);
+    });
     expect(() => findById('mobile-search')).toThrow();
     expect(event.preventDefault).toHaveBeenCalledTimes(2);
   });
@@ -76,10 +80,14 @@ describe('search', () => {
     const findById = makeFindByTestId(component.root);
 
     const inputEvent = makeInputEvent('');
-    findById('desktop-search-input').props.onChange(inputEvent);
+    renderer.act(() => {
+      findById('desktop-search-input').props.onChange(inputEvent);
+    });
 
     const event = makeEvent();
-    findById('desktop-search').props.onSubmit(event);
+    renderer.act(() => {
+      findById('desktop-search').props.onSubmit(event);
+    });
     expect(event.preventDefault).toHaveBeenCalled();
 
     expect(dispatch).not.toHaveBeenCalledWith(requestSearch('cool search'));
@@ -102,7 +110,9 @@ describe('search', () => {
     const findById = makeFindByTestId(component.root);
 
     const inputEvent = makeInputEvent('cool search');
-    findById('desktop-search-input').props.onChange(inputEvent);
+    renderer.act(() => {
+      findById('desktop-search-input').props.onChange(inputEvent);
+    });
 
     const htmlelement = document.createElement('div');
     Object.defineProperty(document, 'activeElement', {value: htmlelement, writable: true});
@@ -129,12 +139,16 @@ describe('search', () => {
     renderer.act(() => findById('desktop-search').props.onSubmit(event));
     expect(event.preventDefault).toHaveBeenCalled();
 
-    expect(dispatch).toHaveBeenCalledWith(requestSearch('cool search'));
+    renderer.act(() => {
+      expect(dispatch).toHaveBeenCalledWith(requestSearch('cool search'));
+    });
 
     expect(findById('desktop-search-input').props.value).toEqual('cool search');
 
     const clearClick = makeEvent();
-    findById('desktop-clear-search').props.onClick(clearClick);
+    renderer.act(() => {
+      findById('desktop-clear-search').props.onClick(clearClick);
+    });
     expect(clearClick.preventDefault).toHaveBeenCalled();
 
     expect(findById('desktop-search-input').props.value).toEqual('');
@@ -144,21 +158,29 @@ describe('search', () => {
     const component = render();
     const findById = makeFindByTestId(component.root);
 
-    findById('mobile-toggle').props.onClick(makeEvent());
+    renderer.act(() => {
+      findById('mobile-toggle').props.onClick(makeEvent());
+    });
 
     const inputEvent = makeInputEvent('cool search');
-    findById('mobile-search-input').props.onChange(inputEvent);
+    renderer.act(() => {
+      findById('mobile-search-input').props.onChange(inputEvent);
+    });
 
     const event = makeEvent();
     renderer.act(() => findById('mobile-search').props.onSubmit(event));
     expect(event.preventDefault).toHaveBeenCalled();
 
-    expect(dispatch).toHaveBeenCalledWith(requestSearch('cool search'));
+    renderer.act(() => {
+      expect(dispatch).toHaveBeenCalledWith(requestSearch('cool search'));
+    });
 
     expect(findById('mobile-search-input').props.value).toEqual('cool search');
 
     const clearClick = makeEvent();
-    findById('mobile-clear-search').props.onClick(clearClick);
+    renderer.act(() => {
+      findById('mobile-clear-search').props.onClick(clearClick);
+    });
     expect(clearClick.preventDefault).toHaveBeenCalled();
 
     expect(findById('mobile-search-input').props.value).toEqual('');
@@ -204,15 +226,19 @@ describe('search', () => {
     const findById = makeFindByTestId(component.root);
 
     const desktopInputEvent = makeInputEvent('cool search');
-    findById('desktop-search-input').props.onChange(desktopInputEvent);
+    renderer.act(() => {
+      findById('desktop-search-input').props.onChange(desktopInputEvent);
 
-    findById('mobile-toggle').props.onClick(makeEvent());
+      findById('mobile-toggle').props.onClick(makeEvent());
+    });
 
     expect(findById('mobile-search-input').props.value).toEqual('cool search');
     const inputEvent = makeInputEvent('asdf');
-    findById('mobile-search-input').props.onChange(inputEvent);
+    renderer.act(() => {
+      findById('mobile-search-input').props.onChange(inputEvent);
 
-    findById('mobile-toggle').props.onClick(makeEvent());
+      findById('mobile-toggle').props.onClick(makeEvent());
+    });
 
     expect(findById('desktop-search-input').props.value).toEqual('asdf');
   });

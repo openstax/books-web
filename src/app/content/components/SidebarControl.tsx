@@ -10,7 +10,7 @@ import * as actions from '../actions';
 import * as selectors from '../selectors';
 import { State } from '../types';
 import { toolbarIconColor } from './constants';
-import { toolbarIconStyles } from './Toolbar';
+import { toolbarIconStyles } from './Toolbar/styled';
 
 interface InnerProps {
   message: string;

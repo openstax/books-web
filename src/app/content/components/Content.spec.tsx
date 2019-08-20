@@ -12,7 +12,7 @@ import { openToc } from '../actions';
 import { Book } from '../types';
 import { formatBookData } from '../utils';
 import Content from './Content';
-import { TableOfContents } from './Sidebar';
+import { TableOfContents } from './TableOfContents';
 
 describe('content', () => {
   let archiveLoader: ReturnType<typeof mockArchiveLoader>;

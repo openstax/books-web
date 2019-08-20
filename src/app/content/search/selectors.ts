@@ -7,6 +7,16 @@ export const localState = createSelector(
   (parentState) => parentState.search
 );
 
+export const searchResultsOpen = createSelector(
+  localState,
+  (state) => !!state.query && state.sidebarOpen
+);
+
+export const hasResults = createSelector(
+  localState,
+  (state) => !!state.results
+);
+
 export const query = createSelector(
   localState,
   (state) => state.query
@@ -23,12 +33,7 @@ export const results = createSelector(
   (state, book) => !!state.results && !!book ? getFormattedSearchResults(book.tree, state.results) : null
 );
 
-export const searchResultsOpen = createSelector(
+export const mobileToolbarOpen = createSelector(
   localState,
-  (state) => state.mobileOpen
-);
-
-export const currentExcerpt = createSelector(
-  localState,
-  (state) => state.currentExcerpt
+  (state) => state.mobileToolbarOpen
 );

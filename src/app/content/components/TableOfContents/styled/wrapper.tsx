@@ -15,7 +15,7 @@ import {
   toolbarMobileHeight
 } from '../../constants';
 import { CloseSidebarControl, ToCButtonText } from '../../SidebarControl';
-import { toolbarIconStyles } from '../../Toolbar';
+import { toolbarIconStyles } from '../../Toolbar/styled';
 import { disablePrint } from '../../utils/disablePrint';
 import { styleWhenSidebarClosed } from '../../utils/sidebar';
 

@@ -6,6 +6,8 @@ exports[`wrapper matches snapshot 1`] = `
   padding: 0 3.2rem;
   position: relative;
   overflow: visible;
+  -webkit-transition: margin-left 300ms;
+  transition: margin-left 300ms;
 }
 
 @media screen and (max-width:75em) {
@@ -19,6 +21,12 @@ exports[`wrapper matches snapshot 1`] = `
     -webkit-flex: 1;
     -ms-flex: 1;
     flex: 1;
+  }
+}
+
+@media screen and (max-width:75em) {
+  .c0 {
+    margin-left: 0;
   }
 }
 
@@ -33,6 +41,9 @@ exports[`wrapper matches snapshot with search open 1`] = `
   padding: 0 3.2rem;
   position: relative;
   overflow: visible;
+  -webkit-transition: margin-left 300ms;
+  transition: margin-left 300ms;
+  margin-left: 44rem;
 }
 
 @media screen and (max-width:75em) {
@@ -51,7 +62,7 @@ exports[`wrapper matches snapshot with search open 1`] = `
 
 @media screen and (max-width:75em) {
   .c0 {
-    display: none;
+    margin-left: 0;
   }
 }
 

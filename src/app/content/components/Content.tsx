@@ -22,7 +22,7 @@ import {
 import ContentPane from './ContentPane';
 import Page from './Page';
 import PrevNextBar from './PrevNextBar';
-import TableOfContents from './Sidebar';
+import TableOfContents from './TableOfContents';
 import Toolbar from './Toolbar';
 import { isOpenConnector, styleWhenSidebarClosed } from './utils/sidebar';
 import Wrapper from './Wrapper';

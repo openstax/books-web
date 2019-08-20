@@ -11,6 +11,7 @@ import { SearchResultsBarWrapper } from './SearchResultsBarWrapper';
 interface Props {
   book?: Book;
   query: string | null;
+  hasQuery: boolean;
   totalHits: number | null;
   results: SearchResultContainer[] | null;
   onClose: () => void;
@@ -19,7 +20,6 @@ interface Props {
 }
 
 interface State {
-  closed: boolean;
   results: SearchResultContainer[] | null;
   query: string | null;
   totalHits: number | null;
@@ -27,7 +27,6 @@ interface State {
 
 export class SearchResultsSidebar extends Component<Props, State> {
   public state: State = {
-    closed: true,
     query: null,
     results: null,
     totalHits: null,
@@ -36,30 +35,32 @@ export class SearchResultsSidebar extends Component<Props, State> {
   public constructor(props: Props) {
     super(props);
 
-    this.state = {
-      closed: this.state.closed,
-      query: props.query,
-      results: props.results,
-      totalHits: props.totalHits,
-    };
+    this.state = this.getStateProps(props);
   }
 
   public componentWillReceiveProps(newProps: Props) {
-    if (this.state.results && !newProps.results) {
-      this.setState({closed: true});
-    } else {
-      this.setState({...newProps, closed: !newProps.query});
+    if (newProps.results) {
+      this.setState(this.getStateProps(newProps));
     }
   }
 
   public render() {
     return <SearchResultsBarWrapper {...this.props} {...this.state} />;
   }
+
+  private getStateProps(props: Props) {
+    return {
+      query: props.query,
+      results: props.results,
+      totalHits: props.totalHits,
+    };
+  }
 }
 
 export default connect(
   (state: AppState) => ({
     book: select.book(state),
+    hasQuery: !!selectSearch.query(state),
     query: selectSearch.query(state),
     results: selectSearch.results(state),
     searchResultsOpen: selectSearch.searchResultsOpen(state),

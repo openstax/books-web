@@ -1,7 +1,6 @@
 import { FlattenSimpleInterpolation } from 'styled-components';
 import { css } from 'styled-components/macro';
 // based on https://sketchviewer.com/sketches/59766aabb57e8900114c89ce/latest/
-
 export interface ColorSet {
   base: string;
   foreground: string;
