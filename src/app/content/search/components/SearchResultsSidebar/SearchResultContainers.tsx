@@ -3,12 +3,13 @@ import React from 'react';
 import { FormattedMessage } from 'react-intl';
 import { connect } from 'react-redux';
 import { CollapseIcon, ExpandIcon } from '../../../../components/Details';
-import { AppState } from '../../../../types';
+import { AppState, Dispatch } from '../../../../types';
 import * as select from '../../../selectors';
 import { Book, Page } from '../../../types';
-import { archiveTreeContainsNode } from '../../../utils/archiveTreeUtils';
 import { stripIdVersion } from '../../../utils/idUtils';
+import { setCurrentExcerpt } from '../../actions';
 import { isSearchResultChapter } from '../../guards';
+import * as selectSearch from '../../selectors';
 import { SearchResultChapter, SearchResultContainer, SearchResultPage } from '../../types';
 import * as Styled from './styled';
 
@@ -18,6 +19,8 @@ interface SearchResultContainersProps {
   book: Book;
   closeSearchResults: () => void;
   activeSectionRef: HTMLElement;
+  currentExcerpt: string | null;
+  setCurrentExcerpt: (highlight: string) => void;
 }
 // tslint:disable-next-line:variable-name
 const SearchResultContainers = ({containers, ...props}: SearchResultContainersProps) => (
@@ -31,6 +34,8 @@ const SearchResultContainers = ({containers, ...props}: SearchResultContainersPr
           closeSearchResults={props.closeSearchResults}
           activeSectionRef={props.activeSectionRef}
           key={node.id}
+          currentExcerpt={props.currentExcerpt}
+          setCurrentExcerpt={props.setCurrentExcerpt}
         />
       ) : (
         <SearchResult
@@ -40,6 +45,8 @@ const SearchResultContainers = ({containers, ...props}: SearchResultContainersPr
           closeSearchResults={props.closeSearchResults}
           activeSectionRef={props.activeSectionRef}
           key={node.id}
+          currentExcerpt={props.currentExcerpt}
+          setCurrentExcerpt={props.setCurrentExcerpt}
         />
       )
     )}
@@ -53,6 +60,8 @@ const SearchResult = (props: {
   book: Book;
   closeSearchResults: () => void;
   activeSectionRef: HTMLElement;
+  currentExcerpt: string | null;
+  setCurrentExcerpt: (highlight: string) => void;
 }) => {
   const active = props.page && props.currentPage
     && stripIdVersion(props.currentPage.id) === stripIdVersion(props.page.id);
@@ -69,16 +78,18 @@ const SearchResult = (props: {
     {props.page.results.map((hit: SearchResultHit) =>
       hit.source && hit.highlight && hit.highlight.visibleContent
       ? hit.highlight.visibleContent.map((highlight: string, index: number) => {
-        return <Styled.ExcerptWrapper onClick={props.closeSearchResults}>
-            <Styled.SectionContentPreview
-              data-testid='search-result'
-              key={index}
-              book={props.book}
-              page={props.page}
-            >
+        return <Styled.ExcerptWrapper onClick={() => {props.closeSearchResults();
+                                                      props.setCurrentExcerpt(highlight); }}>
+          <Styled.SectionContentPreview
+            data-testid='search-result'
+            key={index}
+            book={props.book}
+            page={props.page}
+            {...((highlight === props.currentExcerpt) ? {currentExcerpt: true} : {})}
+          >
             <span tabIndex={-1} dangerouslySetInnerHTML={{ __html: highlight }}></span>
           </Styled.SectionContentPreview>
-          </Styled.ExcerptWrapper>;
+        </Styled.ExcerptWrapper>;
       }) : []
     )}
   </Styled.NavItem>;
@@ -91,11 +102,11 @@ const SearchResultsDropdown = (props: {
   book: Book;
   closeSearchResults: () => void;
   activeSectionRef: HTMLElement;
+  currentExcerpt: string | null;
+  setCurrentExcerpt: (highlight: string) => void;
 }) => {
-  const active = props.currentPage && props.chapter
-    && archiveTreeContainsNode(props.chapter, props.currentPage.id);
   return <Styled.ListItem>
-    <Styled.Details {...(active ? {open: true} : {})}>
+    <Styled.Details open>
       <Styled.SearchBarSummary tabIndex={0}>
         <Styled.SearchBarSummaryContainer tabIndex={-1}>
           <ExpandIcon />
@@ -112,6 +123,8 @@ const SearchResultsDropdown = (props: {
           book={props.book}
           closeSearchResults={props.closeSearchResults}
           activeSectionRef={props.activeSectionRef}
+          currentExcerpt={props.currentExcerpt}
+          setCurrentExcerpt={props.setCurrentExcerpt}
         />
       </Styled.DetailsOl>
     </Styled.Details>
@@ -120,6 +133,12 @@ const SearchResultsDropdown = (props: {
 
 export default connect(
   (state: AppState) => ({
+    currentExcerpt: selectSearch.getCurrentExcerpt(state),
     currentPage: select.page(state),
+  }),
+  (dispatch: Dispatch) => ({
+    setCurrentExcerpt: (highlight: string) => {
+      dispatch(setCurrentExcerpt(highlight));
+    },
   })
 )(SearchResultContainers);

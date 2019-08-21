@@ -13,3 +13,4 @@ export const clearSearch = createStandardAction('Content/Search/clear')();
 export const openMobileToolbar = createStandardAction('Content/Search/openMobileToolbar')();
 export const openSearchResultsMobile = createStandardAction('Content/Search/open')();
 export const closeSearchResultsMobile = createStandardAction('Content/Search/close')();
+export const setCurrentExcerpt = createStandardAction('Content/Search/excerpt')<string>();

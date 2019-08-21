@@ -37,3 +37,8 @@ export const mobileToolbarOpen = createSelector(
   localState,
   (state) => state.mobileToolbarOpen
 );
+
+export const getCurrentExcerpt = createSelector(
+  localState,
+  (state) => state.currentExcerpt
+);

@@ -3,6 +3,7 @@ import { SearchResultHit } from '@openstax/open-search-client/dist/models/Search
 import { ArchiveTree, ArchiveTreeSection } from '../types';
 
 export interface State {
+  currentExcerpt: string | null;
   loading: boolean;
   mobileToolbarOpen: boolean;
   query: null | string;
