@@ -23,7 +23,7 @@
     "react-redux": "^7.1.0",
     "react-scripts": "3.0.1",
     "redux": "^4.0.1",
-    "redux-sentry-middleware": "^0.0.15",
+    "redux-sentry-middleware": "^0.1.1",
     "reselect": "^4.0.0",
     "scroll-to-element": "^2.0.2",
     "stacktrace-js": "^2.0.0",
