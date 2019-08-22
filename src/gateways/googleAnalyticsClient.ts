@@ -27,7 +27,6 @@ class GoogleAnalyticsClient {
 
   public gaProxy(commandName: string, ...params: any[]) {
     const command: Command = {name: commandName, params};
-
     if (this.isReadyForCommands()) {
       this.commandEachTracker(command);
     } else {
