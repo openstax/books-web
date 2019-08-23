@@ -22,7 +22,7 @@ class PendingCommand {
   }
 
   // The real, low-level Google Analytics function
-  private GA(command_name: string, ...params: any[]) {
+  private ga(command_name: string, ...params: any[]) {
     return assertWindow().ga(command_name, ...params);
 }
 
