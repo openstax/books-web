@@ -19,6 +19,11 @@ class PendingCommand {
   public queueTime() {
     return (new Date()).getTime() - this.savedAt.getTime();
   }
+  }
+
+  // The real, low-level Google Analytics function
+  private GA(command_name: string, ...params: any[]) {
+    return assertWindow().ga(command_name, ...params);
 }
 
 class GoogleAnalyticsClient {
