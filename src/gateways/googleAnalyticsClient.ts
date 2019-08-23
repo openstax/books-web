@@ -19,6 +19,18 @@ class PendingCommand {
   public queueTime() {
     return (new Date()).getTime() - this.savedAt.getTime();
   }
+}
+
+
+  constructor(command: Command, savedAt: Date = new Date()) {
+    this.command = command;
+    this.savedAt = savedAt;
+  }
+
+  public queueTime() {
+    return (new Date()).getTime() - this.savedAt.getTime();
+      this.ga(trackerName + '.' + 'set', 'queueTime', queueTime);
+  }
   }
 
   // The real, low-level Google Analytics function
