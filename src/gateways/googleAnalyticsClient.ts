@@ -21,23 +21,16 @@ class PendingCommand {
   }
 }
 
+  private trackerNames: string[] = [];
+  private pendingCommands: PendingCommand[] = [];
 
   constructor(command: Command, savedAt: Date = new Date()) {
     this.command = command;
     this.savedAt = savedAt;
-  }
-
   public queueTime() {
     return (new Date()).getTime() - this.savedAt.getTime();
-      this.ga(trackerName + '.' + 'set', 'queueTime', queueTime);
   }
-  }
-
-  // The real, low-level Google Analytics function
-  private ga(command_name: string, ...params: any[]) {
-    return assertWindow().ga(command_name, ...params);
 }
-
 class GoogleAnalyticsClient {
   private trackerNames: string[] = [];
   private pendingCommands: PendingCommand[] = [];
