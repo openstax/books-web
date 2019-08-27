@@ -21,16 +21,6 @@ class PendingCommand {
   }
 }
 
-  private trackerNames: string[] = [];
-  private pendingCommands: PendingCommand[] = [];
-
-  constructor(command: Command, savedAt: Date = new Date()) {
-    this.command = command;
-    this.savedAt = savedAt;
-  public queueTime() {
-    return (new Date()).getTime() - this.savedAt.getTime();
-  }
-}
 class GoogleAnalyticsClient {
   private trackerNames: string[] = [];
   private pendingCommands: PendingCommand[] = [];

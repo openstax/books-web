@@ -44,7 +44,6 @@ const processEnvironment = (store: Store, environment: Environment) => {
 };
 
 const processReleaseId = (store: Store, environment: Environment) => {
-const processReleaseId = (store: Store, environment: Environment) => {
   const releaseId = environment.release_id;
 
   if (

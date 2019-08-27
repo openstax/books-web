@@ -136,19 +136,6 @@ describe('poll updates', () => {
       expect(mock).toHaveBeenCalledWith(['UA-0000000-1']);
     });
 
-    it('initializes google analytics', async() => {
-      const mock = jest.fn(() => ({}));
-      googleAnalyticsClient.setTrackingIds = mock;
-
-      cancel = pollUpdates(store);
-      jest.runOnlyPendingTimers();
-
-      await Promise.resolve(); // clear promise queue for the async poll function
-      await Promise.resolve(); // clear promise queue for the mockfetch
-
-      expect(mock).toHaveBeenCalledWith(['UA-0000000-1']);
-    });
-
     it('doesn\'t initialize google analytics when there are no ids', async() => {
       fetchSpy.mockReturnValue(mockFetchResponse(200, {
         configs: {

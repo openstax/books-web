@@ -7,6 +7,7 @@ export interface AccountsUser {
   first_name: string;
   last_name: string;
   full_name: string;
+  is_not_gdpr_location: boolean;
 }
 
 export default (url: string) => {
