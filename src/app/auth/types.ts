@@ -1,5 +1,6 @@
 export interface User {
   firstName: string;
+  isNotGdprLocation: boolean;
 }
 
 export interface State {

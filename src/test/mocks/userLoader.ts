@@ -6,6 +6,7 @@ export const testAccountsUser: AccountsUser = {
   id: 1,
   last_name: 'mctesterson',
   name: 'test',
+  is_not_gdpr_location: true,
 };
 
 export default (): ReturnType<typeof createUserLoader> => ({
