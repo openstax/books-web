@@ -1,6 +1,7 @@
 import { rejectResponse } from '../helpers/fetch';
 
 export interface AccountsUser {
+  uuid: string;
   id: number;
   name: string;
   first_name: string;
