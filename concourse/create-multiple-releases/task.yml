@@ -1,0 +1,21 @@
+---
+platform: linux
+
+inputs:
+- name: rex-web
+- name: rex-build-branches
+outputs:
+- name: releases
+
+image: docker
+
+run:
+  path: rex-web/concourse/create-multiple-releases/script.bash
+
+  run:
+  path: /bin/sh
+  args:
+    - -c
+    - |
+      apk add bash
+      bash rex-web/concourse/create-multiple-releases/script.bash
