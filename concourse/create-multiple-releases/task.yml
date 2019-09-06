@@ -3,7 +3,7 @@ platform: linux
 
 inputs:
 - name: rex-web
-- name: rex-build-branches
+- name: rex-web-build-branches
 outputs:
 - name: releases
 
