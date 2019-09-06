@@ -1,0 +1,19 @@
+---
+platform: linux
+
+inputs:
+- name: releases 
+- name: rex-web 
+outputs:
+- name: environment-configs
+
+image: alipine 
+
+run:
+  run:
+  path: /bin/sh
+  args:
+    - -c
+    - |
+      apk add jq bash
+      bash rex-web/concourse/config-release-environments/script.bash

@@ -10,8 +10,6 @@ outputs:
 image: docker
 
 run:
-  path: rex-web/concourse/create-multiple-releases/script.bash
-
   run:
   path: /bin/sh
   args:
