@@ -16,11 +16,11 @@ const AppMessage = ({dismiss, notification}: {dismiss: () => void, notification:
     </FormattedMessage>
     <P dangerouslySetInnerHTML={{__html: notification.payload.html}} />
   </Group>
-  {!!notification.payload.dismissable && <ButtonGroup>
+  <ButtonGroup>
     <FormattedMessage id='i18n:notification:appmessage:dismiss'>
       {(txt) => <Button variant='primary' onClick={dismiss}>{txt}</Button>}
     </FormattedMessage>
-  </ButtonGroup>}
+  </ButtonGroup>
 </Body>;
 
 export default connect(

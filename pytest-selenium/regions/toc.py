@@ -1,14 +1,16 @@
 from selenium.webdriver.common.by import By
-from selenium.webdriver.common.keys import Keys
 
-from pages import content
-from pages.base import Page
 from regions.base import Region
 
 
 class TableOfContents(Region):
     _root_locator = (By.CSS_SELECTOR, "ol")
     _section_link_locator = (By.CSS_SELECTOR, "ol li a")
+    _active_section_locator = (By.CSS_SELECTOR, "[aria-label='Current Page']")
+
+    @property
+    def active_section(self):
+        return self.find_element(*self._active_section_locator)
 
     @property
     def sections(self):

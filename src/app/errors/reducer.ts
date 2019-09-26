@@ -13,7 +13,7 @@ const reducer: Reducer<State, AnyAction> = (state = {}, action) => {
     case getType(clearCurrentError):
       return initialState;
     case getType(recordError):
-      return { ...state, error: action.payload };
+      return { ...state, error: action.payload, code: 500 };
     case getType(navigation.actions.locationChange):
       return navigation.utils.matchForRoute(notFound, action.payload.match)
         || action.payload.match === undefined

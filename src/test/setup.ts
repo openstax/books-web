@@ -14,8 +14,6 @@ expect.extend({
   toMatchImageSnapshot,
 });
 
-resetModules();
-
 const ignoreConsoleMessages = [
   /*
    * jsdom chokes on cnx-recipes styles and produces large nasty
@@ -52,6 +50,11 @@ let matchMedia: jest.SpyInstance;
 let scrollTo: jest.SpyInstance;
 let scrollBy: jest.SpyInstance;
 let mockGa: any;
+
+resetModules();
+afterAll(async() => {
+  resetModules();
+});
 
 beforeEach(() => {
   if (typeof(window) === 'undefined') {

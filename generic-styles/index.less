@@ -77,4 +77,38 @@
     border-collapse: collapse;
     border-spacing: 0;
   }
+
+  .btn-link, .btn-link:hover, .btn-link:focus, .btn-link:active {
+      border-color: transparent;
+  }
+  .btn-link, .btn-link:active, .btn-link.active, .btn-link[disabled], fieldset[disabled] .btn-link {
+      background-color: transparent;
+      -webkit-box-shadow: none;
+      box-shadow: none;
+  }
+  .btn-link {
+      color: #21366b;
+      font-weight: 400;
+      border-radius: 0;
+  }
+  input, button, select, textarea {
+      font-family: inherit;
+      font-size: inherit;
+      line-height: inherit;
+  }
+  button, html input[type="button"], input[type="reset"], input[type="submit"] {
+      -webkit-appearance: button;
+      cursor: pointer;
+  }
+  button, select {
+      text-transform: none;
+  }
+  button {
+      overflow: visible;
+  }
+  button, input, optgroup, select, textarea {
+      color: inherit;
+      font: inherit;
+      margin: 0;
+  }
 }

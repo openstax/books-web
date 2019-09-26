@@ -19,7 +19,7 @@ const Notifications = ({updateAvailable, error, sendMessages}: Props) => {
   const [showError, setError] = useState(false);
 
   if (showError) {
-    throw new Error();
+    throw new Error('test error');
   }
 
   return <Panel title='Notifications'>

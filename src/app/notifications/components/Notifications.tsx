@@ -42,7 +42,7 @@ const Notifications = ({notifications, className}: Props) => notifications.lengt
 
 const connector = connect(
   (state: AppState) => ({
-    notifications: select.notifications(state),
+    notifications: select.notificationsForDisplay(state),
   })
 );
 

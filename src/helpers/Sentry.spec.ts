@@ -25,12 +25,12 @@ describe('Sentry error logging', () => {
 
   it('initializes Sentry library', () => {
     expect(SentryLibrary.init).not.toHaveBeenCalled();
+    config.SENTRY_ENABLED = true;
 
     // ensure methods can be called before initialize without errors
     Sentry.captureException(new Error('test'));
     expect(SentryLibrary.captureException).not.toHaveBeenCalled();
 
-    config.SENTRY_ENABLED = true;
     const middleware = Sentry.initializeWithMiddleware();
     expect(middleware).toBeDefined();
 
@@ -57,7 +57,7 @@ describe('Sentry error logging', () => {
     config.SENTRY_ENABLED = false;
     Sentry.initializeWithMiddleware();
     expect(Sentry.isEnabled).toBe(false);
-    Sentry.captureException(new Error('this is bad'));
+    expect(() => Sentry.captureException(new Error('this is bad'))).toThrow();
     expect(SentryLibrary.captureException).not.toHaveBeenCalled();
 
     config.SENTRY_ENABLED = true;

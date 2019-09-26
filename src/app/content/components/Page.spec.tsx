@@ -1,7 +1,8 @@
 import { Highlight } from '@openstax/highlighter';
-import { Document } from '@openstax/types/lib.dom';
+import { Document, HTMLElement } from '@openstax/types/lib.dom';
 import React from 'react';
 import ReactDOM from 'react-dom';
+import ReactTestUtils from 'react-dom/test-utils';
 import { Provider } from 'react-redux';
 import renderer from 'react-test-renderer';
 import * as mathjax from '../../../helpers/mathjax';
@@ -26,7 +27,7 @@ import * as routes from '../routes';
 import { receiveSearchResults, requestSearch, selectSearchResult } from '../search/actions';
 import * as searchUtils from '../search/utils';
 import { formatBookData } from '../utils';
-import ConnectedPage from './Page';
+import ConnectedPage, { PageComponent } from './Page';
 import allImagesLoaded from './utils/allImagesLoaded';
 
 jest.mock('./utils/allImagesLoaded', () => jest.fn());
@@ -37,6 +38,14 @@ jest.mock('../../utils', () => ({
   ...(jest as any).requireActual('../../utils'),
   scrollTo: jest.fn(),
 }));
+
+const makeEvent = (doc: Document) => {
+  const event = doc.createEvent('MouseEvents');
+  event.initEvent('click', true, false);
+  event.preventDefault();
+  event.preventDefault = jest.fn();
+  return event;
+};
 
 describe('Page', () => {
   let archiveLoader: ReturnType<typeof mockArchiveLoader>;
@@ -79,10 +88,12 @@ describe('Page', () => {
         <a href="/content/link">some link</a>
         some more text
         <a href="/rando/link">another link</a>
+        some more text
         text
         <button>asdf</button>
         text
         <a href="">link with empty href</a>
+        <a href="#hash">hash link</a>
       `,
     };
     archiveLoader.mockPage(book, pageWithRefereces, 'unused?1');
@@ -116,6 +127,8 @@ describe('Page', () => {
   };
 
   describe('Content tweaks for generic styles', () => {
+    let pageElement: HTMLElement;
+
     const htmlHelper = (html: string) => {
       archiveLoader.mock.cachedPage.mockImplementation(() => ({
         ...page,
@@ -132,11 +145,13 @@ describe('Page', () => {
           </MessageProvider>
         </Provider>
       );
-      const pageElement = root.querySelector('#main-content');
+      const query = root.querySelector<HTMLElement>('#main-content');
 
-      if (!pageElement) {
-        return expect(pageElement).toBeTruthy();
+      if (!query) {
+        return expect(query).toBeTruthy();
       }
+      pageElement = query;
+
       return pageElement.innerHTML;
     };
 
@@ -269,6 +284,104 @@ describe('Page', () => {
       `);
     });
 
+    describe('solutions', () => {
+      it('are transformed', () => {
+        expect(htmlHelper(`
+          <div data-type="exercise" id="exercise1" data-element-type="check-understanding">
+            <h3 class="os-title"><span class="os-title-label">Check Your Understanding</span></h3>
+            <div data-type="problem" id="problem1"><div class="os-problem-container">
+              <p id="paragraph1">blah blah blah</p>
+            </div></div>
+            <div data-type="solution" id="fs-id2913818" data-print-placement="here">
+              <h4 data-type="title" class="solution-title"><span class="os-text">Solution</span></h4>
+              <div class="os-solution-container">
+                <p id="paragraph2">answer answer answer.</p>
+              </div>
+            </div>
+          </div>
+        `)).toEqual(`
+          <div data-type="exercise" id="exercise1" data-element-type="check-understanding"` +
+          ` class="ui-has-child-title">` +
+          `<header><h3 class="os-title"><span class="os-title-label">Check Your Understanding</span></h3></header>` +
+          `<section>
+            ` + `
+            <div data-type="problem" id="problem1"><div class="os-problem-container">
+              <p id="paragraph1">blah blah blah</p>
+            </div></div>
+            <div data-type="solution" id="fs-id2913818" data-print-placement="here">
+        <div class="ui-toggle-wrapper">
+          <button class="btn-link ui-toggle" title="Show/Hide Solution"></button>
+        </div>
+        <section class="ui-body" role="alert">
+              <h4 data-type="title" class="solution-title"><span class="os-text">Solution</span></h4>
+              <div class="os-solution-container">
+                <p id="paragraph2">answer answer answer.</p>
+              </div>
+            </section>
+      </div>
+          </section></div>
+        `);
+      });
+
+      it('can be opened and closed', () => {
+        htmlHelper(`
+          <div data-type="exercise" id="exercise1" data-element-type="check-understanding">
+            <h3 class="os-title"><span class="os-title-label">Check Your Understanding</span></h3>
+            <div data-type="problem" id="problem1"><div class="os-problem-container">
+              <p id="paragraph1">blah blah blah</p>
+            </div></div>
+            <div data-type="solution" id="fs-id2913818" data-print-placement="here">
+              <h4 data-type="title" class="solution-title"><span class="os-text">Solution</span></h4>
+              <div class="os-solution-container">
+                <p id="paragraph2">answer answer answer.</p>
+              </div>
+            </div>
+          </div>
+        `);
+
+        const button = pageElement.querySelector('[data-type="solution"] > .ui-toggle-wrapper > .ui-toggle');
+        const solution = pageElement.querySelector('[data-type="solution"]');
+
+        if (!button || !solution) {
+          return expect(false).toBe(true);
+        }
+
+        expect(solution.matches('.ui-solution-visible')).toBe(false);
+        button.dispatchEvent(makeEvent(pageElement.ownerDocument!));
+        expect(solution.matches('.ui-solution-visible')).toBe(true);
+        button.dispatchEvent(makeEvent(pageElement.ownerDocument!));
+        expect(solution.matches('.ui-solution-visible')).toBe(false);
+      });
+
+      it('doesn\'t throw when badly formatted', () => {
+        htmlHelper(`
+          <div data-type="exercise" id="exercise1" data-element-type="check-understanding">
+            <h3 class="os-title"><span class="os-title-label">Check Your Understanding</span></h3>
+            <div data-type="problem" id="problem1"><div class="os-problem-container">
+              <p id="paragraph1">blah blah blah</p>
+            </div></div>
+            <div data-type="solution" id="fs-id2913818" data-print-placement="here">
+              <h4 data-type="title" class="solution-title"><span class="os-text">Solution</span></h4>
+              <div class="os-solution-container">
+                <p id="paragraph2">answer answer answer.</p>
+              </div>
+            </div>
+          </div>
+        `);
+
+        const button = pageElement.querySelector('[data-type="solution"] > .ui-toggle-wrapper > .ui-toggle');
+        const solution = pageElement.querySelector('[data-type="solution"]');
+
+        if (!button || !solution) {
+          return expect(false).toBe(true);
+        }
+
+        Object.defineProperty(button.parentElement, 'parentElement', {value: null, writable: true});
+        expect(() => button.dispatchEvent(makeEvent(pageElement.ownerDocument!))).not.toThrow();
+        Object.defineProperty(button, 'parentElement', {value: null, writable: true});
+        expect(() => button.dispatchEvent(makeEvent(pageElement.ownerDocument!))).not.toThrow();
+      });
+    });
   });
 
   it('updates content link with new hrefs', () => {
@@ -298,14 +411,6 @@ describe('Page', () => {
       expect(button).toBeTruthy();
       return;
     }
-
-    const makeEvent = (doc: Document) => {
-      const event = doc.createEvent('MouseEvents');
-      event.initEvent('click', true, false);
-      event.preventDefault();
-      event.preventDefault = jest.fn();
-      return event;
-    };
 
     const evt1 = makeEvent(document);
     const evt2 = makeEvent(document);
@@ -349,14 +454,6 @@ describe('Page', () => {
       return expect(firstLink).toBeTruthy();
     }
 
-    const makeEvent = (doc: Document) => {
-      const event = doc.createEvent('MouseEvents');
-      event.initEvent('click', true, false);
-      event.preventDefault();
-      event.preventDefault = jest.fn();
-      return event;
-    };
-
     const evt1 = makeEvent(document);
 
     firstLink.dispatchEvent(evt1);
@@ -379,6 +476,32 @@ describe('Page', () => {
     }));
   });
 
+  it('passes search when clicking hash links', () => {
+    store.dispatch(requestSearch('asdf'));
+    const {root} = renderDomWithReferences();
+    const hashLink = root.querySelector('#main-content a[href="#hash"]');
+
+    if (!hashLink || !document) {
+      expect(document).toBeTruthy();
+      return expect(hashLink).toBeTruthy();
+    }
+
+    const evt1 = makeEvent(document);
+
+    hashLink.dispatchEvent(evt1);
+
+    expect(dispatch).toHaveBeenCalledWith(push({
+      params: expect.anything(),
+      route: routes.content,
+      state: expect.objectContaining({
+        search: expect.objectContaining({query: 'asdf'}),
+      }),
+    }, {
+      hash: '#hash',
+      search: '',
+    }));
+  });
+
   it('does not intercept clicking content links when meta key is pressed', () => {
     const {root} = renderDomWithReferences();
     dispatch.mockReset();
@@ -390,7 +513,7 @@ describe('Page', () => {
       return;
     }
 
-    const makeEvent = (doc: Document) => {
+    const makeMetaEvent = (doc: Document) => {
       const event = doc.createEvent('MouseEvents');
       event.initMouseEvent('click',
         event.cancelBubble,
@@ -411,7 +534,7 @@ describe('Page', () => {
       return event;
     };
 
-    const evt1 = makeEvent(document);
+    const evt1 = makeMetaEvent(document);
 
     firstLink.dispatchEvent(evt1);
 
@@ -804,6 +927,40 @@ describe('Page', () => {
       expect(target.getAttribute('scope')).toEqual('col');
     } else {
       expect(target).toBeTruthy();
+    }
+  });
+
+  it('does not focus main content on initial load', () => {
+    state.content = initialState;
+
+    const {tree} = renderToDom(
+      <Provider store={store}>
+        <MessageProvider>
+          <SkipToContentWrapper>
+            <Services.Provider value={services}>
+              <ConnectedPage />
+            </Services.Provider>
+          </SkipToContentWrapper>
+        </MessageProvider>
+      </Provider>
+    );
+
+    store.dispatch(receivePage({...shortPage, references: []}));
+
+    const wrapper = ReactTestUtils.findRenderedComponentWithType(tree, PageComponent);
+
+    if (!window) {
+      expect(window).toBeTruthy();
+    } else if (!wrapper) {
+      expect(wrapper).toBeTruthy();
+    } else {
+      const mainContent = wrapper.container.current;
+
+      if (!mainContent) {
+        return expect(mainContent).toBeTruthy();
+      }
+      const spyFocus = jest.spyOn(mainContent, 'focus');
+      expect(spyFocus).toHaveBeenCalledTimes(0);
     }
   });
 

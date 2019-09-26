@@ -1,12 +1,8 @@
 import { HTMLElement } from '@openstax/types/lib.dom';
 
-export const findFirstScrollableParent = (element: HTMLElement | null): HTMLElement | null => {
-  if (!element || element.scrollHeight > element.offsetHeight) {
-    return element;
-  }
-
-  return findFirstScrollableParent(element.parentElement);
-};
+if (typeof(document) !== 'undefined') {
+  import(/* webpackChunkName: "Node.children" */ 'mdn-polyfills/Node.prototype.children');
+}
 
 export const findFirstScrollableChild = (element: HTMLElement | null): HTMLElement | null => {
   if (!element || element.scrollHeight > element.offsetHeight) {
@@ -74,7 +70,8 @@ export const expandCurrentChapter = (activeSection: HTMLElement | null) => {
 export const setSidebarHeight = (sidebar: HTMLElement, window: Window) => {
   const scrollHandlerCallback = () => {
     const top = sidebar.getBoundingClientRect().top;
-    sidebar.style.setProperty('height', `calc(100vh - ${top}px)`);
+    const height = window.innerHeight;
+    sidebar.style.setProperty('height', `${height - top}px`);
   };
 
   const animation = () => requestAnimationFrame(scrollHandlerCallback);

@@ -1,4 +1,5 @@
-import { resetModules } from '../test/utils';
+import createTestServices from '../test/createTestServices';
+import { reactAndFriends, resetModules } from '../test/utils';
 import { notFound } from './errors/routes';
 import { AnyMatch } from './navigation/types';
 import { AppServices } from './types';
@@ -16,14 +17,14 @@ describe('create app', () => {
   let createApp = require('./index').default;
   let createBrowserHistory: jest.SpyInstance;
   let createMemoryHistory: jest.SpyInstance;
-  const services = {} as AppServices;
+  let services: AppServices;
 
   beforeEach(() => {
     jest.resetAllMocks();
     resetModules();
-    React = require('react');
-    renderer = require('react-test-renderer');
+    ({React, renderer} = reactAndFriends());
     history = require('history');
+    services = createTestServices();
 
     createBrowserHistory = jest.spyOn(history, 'createBrowserHistory');
     createMemoryHistory = jest.spyOn(history, 'createMemoryHistory');

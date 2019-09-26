@@ -9,6 +9,7 @@ import { mockCmsBook } from '../../../../test/mocks/osWebLoader';
 import { renderToDom } from '../../../../test/reactutils';
 import MessageProvider from '../../../MessageProvider';
 import { AppState, Store } from '../../../types';
+import { assertWindow } from '../../../utils';
 import * as actions from '../../actions';
 import { initialState } from '../../reducer';
 import { formatBookData } from '../../utils';
@@ -85,7 +86,9 @@ describe('TableOfContents', () => {
       <ConnectedTableOfContents />
     </Provider></MessageProvider>);
 
-    component.root.findAllByType('a')[0].props.onClick({preventDefault: () => null});
+    renderer.act(() => {
+      component.root.findAllByType('a')[0].props.onClick({preventDefault: () => null});
+    });
     expect(dispatchSpy).toHaveBeenCalledWith(actions.resetToc());
   });
 
@@ -104,7 +107,9 @@ describe('TableOfContents', () => {
 
     const event = document.createEvent('UIEvents');
     event.initEvent('scroll', true, false);
-    window.dispatchEvent(event);
+    renderer.act(() => {
+      assertWindow().dispatchEvent(event);
+    });
 
     expect(spy).toHaveBeenCalledWith('height', expect.anything());
   });

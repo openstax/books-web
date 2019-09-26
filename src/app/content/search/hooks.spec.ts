@@ -11,7 +11,7 @@ import { receiveBook, receivePage } from '../actions';
 import { content } from '../routes';
 import { formatBookData } from '../utils';
 import { clearSearch, receiveSearchResults, requestSearch, selectSearchResult } from './actions';
-import { receiveSearchHook, requestSearchHook, syncSearch } from './hooks';
+import { clearSearchHook, receiveSearchHook, requestSearchHook, syncSearch } from './hooks';
 
 describe('hooks', () => {
   let store: Store;
@@ -59,6 +59,26 @@ describe('hooks', () => {
       expect(dispatch).toHaveBeenCalledWith(
         receiveSearchResults('searchresults' as any)
       );
+    });
+  });
+
+  describe('clearSearchHook', () => {
+    let hook: ReturnType<typeof clearSearchHook>;
+
+    beforeEach(() => {
+      hook = clearSearchHook(helpers);
+    });
+
+    it('clears search state', () => {
+      helpers.history.replace({
+        state: {
+          search: {query: 'foo'},
+        },
+      });
+
+      hook(clearSearch());
+
+      expect(helpers.history.location.state.search).toBe(null);
     });
   });
 

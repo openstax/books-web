@@ -10,6 +10,7 @@ exports[`SearchResultsSidebar matches snapshot for no search results 1`] = `
 }
 
 .c0 {
+  -webkit-overflow-scrolling: touch;
   overflow-x: visible;
   top: 12rem;
   margin-top: 0;
@@ -19,7 +20,7 @@ exports[`SearchResultsSidebar matches snapshot for no search results 1`] = `
   width: 44rem;
   background-color: #f1f1f1;
   box-shadow: 0.2rem 0 0.2rem 0 rgba(0,0,0,0.1);
-  z-index: 1;
+  z-index: 4;
   height: calc(100vh - 18rem);
   margin-left: -44rem;
   -webkit-animation: jnNuMv 300ms forwards;
@@ -234,6 +235,7 @@ exports[`SearchResultsSidebar matches snapshot with results 1`] = `
 }
 
 .c0 {
+  -webkit-overflow-scrolling: touch;
   overflow-x: visible;
   top: 12rem;
   margin-top: 0;
@@ -243,7 +245,7 @@ exports[`SearchResultsSidebar matches snapshot with results 1`] = `
   width: 44rem;
   background-color: #f1f1f1;
   box-shadow: 0.2rem 0 0.2rem 0 rgba(0,0,0,0.1);
-  z-index: 1;
+  z-index: 4;
   height: calc(100vh - 18rem);
   margin-left: -44rem;
   -webkit-animation: jnNuMv 300ms forwards;
@@ -380,6 +382,45 @@ exports[`SearchResultsSidebar matches snapshot with results 1`] = `
   line-height: 1.3;
 }
 
+.c26 {
+  font-family: Neue Helvetica W01;
+  color: #424242;
+  font-size: 1.4rem;
+  line-height: 1.6rem;
+  font-weight: normal;
+  cursor: pointer;
+  min-height: 3.7rem;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: block;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  line-height: 1.3;
+  padding: 0 0 0 6.6rem;
+}
+
+.c26:not(:last-child) > div {
+  border-bottom: solid 0.1rem #f1f1f1;
+}
+
+.c26 > div {
+  padding: 1.2rem 1.6rem 1.2rem 0;
+}
+
+.c26 > div::before {
+  content: '... ';
+}
+
+.c26 > div::after {
+  content: ' ...';
+}
+
+.c26 > * {
+  outline: none;
+}
+
 .c14 {
   font-family: Neue Helvetica W01;
   color: #424242;
@@ -417,45 +458,6 @@ exports[`SearchResultsSidebar matches snapshot with results 1`] = `
 }
 
 .c14 > * {
-  outline: none;
-}
-
-.c26 {
-  font-family: Neue Helvetica W01;
-  color: #424242;
-  font-size: 1.4rem;
-  line-height: 1.6rem;
-  font-weight: normal;
-  cursor: pointer;
-  min-height: 3.7rem;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  display: block;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  line-height: 1.3;
-  padding: 0 0 0 6.6rem;
-}
-
-.c26:not(:last-child) > div {
-  border-bottom: solid 0.1rem #f1f1f1;
-}
-
-.c26 > div {
-  padding: 1.2rem 1.6rem 1.2rem 0;
-}
-
-.c26 > div::before {
-  content: '... ';
-}
-
-.c26 > div::after {
-  content: ' ...';
-}
-
-.c26 > * {
   outline: none;
 }
 
@@ -551,13 +553,13 @@ exports[`SearchResultsSidebar matches snapshot with results 1`] = `
 }
 
 @media screen and (max-width:75em) {
-  .c14 {
+  .c26 {
     padding-left: 5rem;
   }
 }
 
 @media screen and (max-width:75em) {
-  .c26 {
+  .c14 {
     padding-left: 5rem;
   }
 }
@@ -602,9 +604,7 @@ exports[`SearchResultsSidebar matches snapshot with results 1`] = `
       >
         3
          
-        <span>
-          search results for 
-        </span>
+        search results for 
         <strong>
            ‘
           cool search
@@ -941,6 +941,7 @@ exports[`SearchResultsSidebar shows sidebar with loading state if there is a sea
 }
 
 .c0 {
+  -webkit-overflow-scrolling: touch;
   overflow-x: visible;
   top: 12rem;
   margin-top: 0;
@@ -950,7 +951,7 @@ exports[`SearchResultsSidebar shows sidebar with loading state if there is a sea
   width: 44rem;
   background-color: #f1f1f1;
   box-shadow: 0.2rem 0 0.2rem 0 rgba(0,0,0,0.1);
-  z-index: 1;
+  z-index: 4;
   height: calc(100vh - 18rem);
   margin-left: -44rem;
   -webkit-animation: jnNuMv 300ms forwards;

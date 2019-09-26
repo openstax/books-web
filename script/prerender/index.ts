@@ -12,6 +12,7 @@
  */
 import * as fs from 'fs';
 import ignoreStyles, { DEFAULT_EXTENSIONS, noOp } from 'ignore-styles';
+import { JSDOM } from 'jsdom';
 import md5File from 'md5-file';
 import mime from 'mime';
 import * as path from 'path';
@@ -44,6 +45,8 @@ ignoreStyles(DEFAULT_EXTENSIONS, (mod, filename) => {
     }
   }
 });
+
+(global as any).DOMParser = new JSDOM().window.DOMParser;
 
 // tslint:disable-next-line:no-var-requires for some reason this doesn't work as an import
 require('./prerender');

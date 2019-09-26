@@ -70,10 +70,6 @@ class Content(Page):
         return self.Attribution(self)
 
     @property
-    def section_url_within_attribution(self):
-        return self.find_element(*self._section_url_locator)
-
-    @property
     def sidebar_width_offset(self):
         sidebar_width = self.width(self.sidebar.root)
         sidebar_width_left_offset = self.sidebar.root.get_attribute("offsetLeft")

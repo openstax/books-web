@@ -16,7 +16,31 @@ describe('Notifications', () => {
 
   it('matches snapshot', () => {
     store.dispatch(updateAvailable());
+
+    const component = renderer.create(<Provider store={store}>
+      <MessageProvider>
+        <ConnectedNotifications />
+      </MessageProvider>
+    </Provider>);
+
+    const tree = component.toJSON();
+    expect(tree).toMatchSnapshot();
+  });
+
+  it('matches snapshot', () => {
     store.dispatch(acceptCookies());
+
+    const component = renderer.create(<Provider store={store}>
+      <MessageProvider>
+        <ConnectedNotifications />
+      </MessageProvider>
+    </Provider>);
+
+    const tree = component.toJSON();
+    expect(tree).toMatchSnapshot();
+  });
+
+  it('matches snapshot', () => {
     store.dispatch(receiveMessages([{
       dismissable: false,
       end_at: null,

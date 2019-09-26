@@ -39,6 +39,7 @@ describe('poll updates', () => {
       return null;
     }
     MockDate.prototype.getTime = jest.fn(() => (new dateBackup()).getTime());
+    MockDate.now = jest.fn(() => (new dateBackup()).getTime());
     (global as any).Date = MockDate;
   });
 
@@ -62,7 +63,7 @@ describe('poll updates', () => {
         APP_ENV: 'production',
         RELEASE_ID: 'releaseid',
       }));
-      jest.resetModules();
+      resetModules();
       pollUpdates = require('./pollUpdates').default;
       googleAnalyticsClient = require('../gateways/googleAnalyticsClient').default;
     });

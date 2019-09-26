@@ -4,7 +4,7 @@ import { Store } from '../types';
 import { assertWindow } from '../utils';
 import { receiveMessages } from './actions';
 import { appMessageType } from './reducer';
-import { notifications } from './selectors';
+import { notificationsForDisplay } from './selectors';
 
 describe('notifications', () => {
   let store: Store;
@@ -56,12 +56,12 @@ describe('notifications', () => {
       },
     ];
     store.dispatch(receiveMessages([
-      ...matchingMessages,
       ...notMachingMessages,
+      ...matchingMessages,
     ]));
 
-    expect(notifications(store.getState())).toEqual(
-      matchingMessages.map((payload) => ({payload, type: appMessageType}))
+    expect(notificationsForDisplay(store.getState())).toEqual(
+      matchingMessages.map((payload) => ({payload, type: appMessageType})).slice(0, 1)
     );
   });
 });

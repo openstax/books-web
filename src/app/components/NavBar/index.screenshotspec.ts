@@ -17,7 +17,7 @@ describe('navbar when logged in', () => {
     await page.deleteCookie({domain: 'localhost', name: 'session'});
   });
 
-  it.skip('looks right when logged in on desktop', async() => {
+  it('looks right when logged in on desktop', async() => {
     setDesktopViewport(page);
     await navigate(page, TEST_SIMPLE_PAGE_URL);
     await finishRender(page);
@@ -30,7 +30,7 @@ describe('navbar when logged in', () => {
     });
   });
 
-  it.skip('looks right when logged in on mobile', async() => {
+  it('looks right when logged in on mobile', async() => {
     setMobileViewport(page);
     await page.setCookie({domain: 'localhost', name: 'session', value: 'logged in'});
     await navigate(page, TEST_SIMPLE_PAGE_URL);
@@ -46,7 +46,7 @@ describe('navbar when logged in', () => {
     });
   });
 
-  it.skip('looks right when logged in on mobile', async() => {
+  it('looks right when logged in on mobile', async() => {
     setMobileViewport(page);
     await navigate(page, TEST_SIMPLE_PAGE_URL);
     await finishRender(page);
@@ -59,7 +59,7 @@ describe('navbar when logged in', () => {
     });
   });
 
-  it.skip('user menu looks right on mobile', async() => {
+  it('user menu looks right on mobile', async() => {
     setMobileViewport(page);
     await navigate(page, TEST_SIMPLE_PAGE_URL);
     await finishRender(page);

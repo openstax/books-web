@@ -44,10 +44,9 @@ class Page(pypom.Page):
     def wait_for_region_to_display(self, region):
         self.wait.until(lambda _: region.is_displayed)
         return self
-    
+
     def click_and_wait_for_load(self, element: WebElement):
         """Clicks an offscreen element and waits for title to load.
-
         Clicks the given element, even if it is offscreen, by sending the ENTER key.
         Returns after loading the last element (title) of the page).
         """

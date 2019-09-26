@@ -47,6 +47,7 @@ const matchingThreshold = 4;
 const pageLoadScrollChecks = 3;
 
 export default class ScrollOffset extends React.Component<ScrollOffsetProps> {
+  public state = { componentMounted: false };
 
   public getOffset = (window: Window) => -(window.matchMedia(theme.breakpoints.mobileQuery).matches
     ? remsToPx(this.props.mobileOffset)
@@ -54,23 +55,33 @@ export default class ScrollOffset extends React.Component<ScrollOffsetProps> {
   );
 
   public componentDidMount() {
+    if (typeof window === 'undefined') {
+      return;
+    }
     // hashchange event is unreliable because it is not sent
     // when clicking the same link twice
-    assertWindow().addEventListener('click', this.clickHandler);
-    assertWindow().addEventListener('resize', this.resizeHandler);
+    window.addEventListener('click', this.clickHandler);
+    // but listen to hashchange anyway to catch manually editing the url hash
+    window.addEventListener('hashchange', this.hashchangeHandler);
+    window.addEventListener('resize', this.resizeHandler);
 
     this.resizeHandler();
     this.checkScroll(pageLoadScrollChecks);
+
+    this.setState({componentMounted : true});
   }
 
   public componentWillUnmount() {
-    const window = assertWindow();
+    if (typeof(window) === 'undefined') {
+      return;
+    }
     window.removeEventListener('click', this.clickHandler);
+    window.removeEventListener('hashchange', this.hashchangeHandler);
     window.removeEventListener('resize', this.resizeHandler);
   }
 
   public render() {
-    return <GlobalStyle {...this.props} />;
+    return this.state.componentMounted ? null : <GlobalStyle {...this.props} />;
   }
 
   public componentDidUpdate() {
@@ -78,10 +89,16 @@ export default class ScrollOffset extends React.Component<ScrollOffsetProps> {
   }
 
   private resizeHandler = () => {
-    const window = assertWindow();
+    if (typeof window === 'undefined') {
+      return;
+    }
     const body = window.document.body;
 
     body.setAttribute('data-scroll-padding', String(this.getOffset(window)));
+  };
+
+  private hashchangeHandler = () => {
+    this.checkScroll();
   };
 
   private clickHandler = (e: MouseEvent) => {

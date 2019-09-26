@@ -16,9 +16,9 @@ const EXPECTED_SCROLL_TOPS: { [testCase: string]: number[] } = {
 describe('Content', () => {
   for (const testCase of Object.keys(TEST_CASES)) {
     describe(testCase, () => {
-      beforeEach(() => {
+      beforeEach(async() => {
         const setViewport = TEST_CASES[testCase];
-        setViewport(page);
+        await setViewport(page);
       });
 
       it('scrolls correctly to all elements', async() => {

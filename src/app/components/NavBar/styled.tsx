@@ -156,21 +156,23 @@ export const OverlayHeading = styled.h4`
   `)}
 `;
 
-const visuallyHidden = css`
+const visuallyShown = css`
+  height: unset;
+  width: unset;
+  clip: unset;
+  overflow: visible;
+`;
+
+// tslint:disable-next-line:variable-name
+export const DropdownList = styled.ul`
   position: absolute;
   height: 1px;
   width: 1px;
   overflow: hidden;
   clip: rect(1px, 1px, 1px, 1px);
-`;
-
-// tslint:disable-next-line:variable-name
-export const DropdownList = styled.ul`
   box-shadow: 0 0.5rem 0.5rem 0 rgba(0, 0, 0, 0.1);
-  overflow: visible;
   margin: 0;
   padding: 0.6rem 0;
-  position: absolute;
   background: ${theme.color.neutral.base};
   top: calc(100% - 0.4rem);
   right: 0;
@@ -196,21 +198,31 @@ export const DropdownList = styled.ul`
   }
 
   ${theme.breakpoints.mobile(css`
-    box-shadow: none;
     position: static;
+    box-shadow: none;
     border: none;
     background: none;
   `)}
 
   ${/* suppress invalid stylelint errors */ css`
-    ${DropdownContainer}:not(:hover):not(.ally-focus-within) & {
-      ${visuallyHidden}
+    ${DropdownContainer}.focus-within &,
+    ${DropdownContainer}:hover & {
+      ${visuallyShown}
     }
 
-    ${DropdownContainer}:not(:hover):not(:focus-within) & {
-      ${visuallyHidden}
+    ${DropdownContainer}:focus-within & {
+      ${visuallyShown}
     }
   `}
+`;
+
+const overlayShown = css`
+  padding-top: 40%;
+  background: ${Color(theme.color.neutral.base).alpha(0.98).string()};
+  height: auto;
+  width: auto;
+  right: 0;
+  bottom: -100%;
 `;
 
 // tslint:disable-next-line:variable-name
@@ -230,14 +242,13 @@ export const DropdownOverlay = styled.div`
     overflow: hidden;
 
     &:focus,
-    &.ally-focus-within,
+    &.focus-within,
     ${DropdownToggle}:focus ~ & {
-      padding-top: 40%;
-      background: ${Color(theme.color.neutral.base).alpha(0.98).string()};
-      height: auto;
-      width: auto;
-      right: 0;
-      bottom: -100%;
+      ${overlayShown}
+    }
+
+    &:focus-within {
+      ${overlayShown}
     }
 
     > div {
@@ -263,7 +274,7 @@ export const TimesIcon = styled((props) => <button tabIndex={-1} aria-hidden='tr
   ${theme.breakpoints.mobile(css`
     ${DropdownToggle}:focus ~ &,
     ${DropdownOverlay}:focus ~ &,
-    ${DropdownOverlay}.ally-focus-within ~ & {
+    ${DropdownOverlay}.focus-within ~ & {
       display: block;
     }
   `)}

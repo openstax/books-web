@@ -1,17 +1,18 @@
-import { Document, Element, MediaQueryList } from '@openstax/types/lib.dom';
-import ReactType, { ComponentType } from 'react';
-import { unmountComponentAtNode } from 'react-dom';
+import { Document, Element, HTMLElement, MediaQueryList } from '@openstax/types/lib.dom';
+import { ComponentType } from 'react';
 import rendererType from 'react-test-renderer';
-import { renderToDom } from '../../test/reactutils';
-import { resetModules } from '../../test/utils';
+import { reactAndFriends, resetModules } from '../../test/utils';
 
 describe('MobileScrollLock', () => {
+  let React: ReturnType<typeof reactAndFriends>['React']; // tslint:disable-line:variable-name
+  let renderToDom: ReturnType<typeof reactAndFriends>['renderToDom'];
+  let ReactDOM: ReturnType<typeof reactAndFriends>['ReactDOM']; // tslint:disable-line:variable-name
 
   describe('in browser', () => {
     let MobileScrollLock: ComponentType; // tslint:disable-line:variable-name
-    let React: typeof ReactType; // tslint:disable-line:variable-name
     beforeEach(() => {
-      React = require('react');
+      resetModules();
+      ({React, renderToDom, ReactDOM} = reactAndFriends());
       MobileScrollLock = require('./MobileScrollLock').default;
     });
 
@@ -21,20 +22,24 @@ describe('MobileScrollLock', () => {
       }
 
       const {root} = renderToDom(<MobileScrollLock />);
-      expect(() => unmountComponentAtNode(root)).not.toThrow();
+      expect(() => ReactDOM.unmountComponentAtNode(root)).not.toThrow();
     });
 
     describe('when scrolling', () => {
-      let scrollyElement: Element;
+      let scrollyElement: HTMLElement;
       let nonScrollyElement: Element;
       let doc: Document;
       let win: Window;
 
-      const touchEvent = (target: Element) => {
+      const touchEvent = (target: Element | null, height: number, eventType: string = 'touchmove') => {
         const event = doc.createEvent('TouchEvent');
-        event.initEvent('touchmove', true, true);
+        event.initEvent(eventType, true, true);
         const spy = jest.spyOn(event, 'preventDefault');
 
+        Object.defineProperty(event, 'touches', {
+          value: [{clientY: height, clientX: 0}],
+          writable: false,
+        });
         Object.defineProperty(event, 'target', {
           value: target,
           writable: false,
@@ -53,6 +58,7 @@ describe('MobileScrollLock', () => {
         win = window;
 
         scrollyElement = document.createElement('div');
+        scrollyElement.style.overflow = 'scroll';
         Object.defineProperty(scrollyElement, 'offsetHeight', {
           value: 1000,
           writable: false,
@@ -81,13 +87,52 @@ describe('MobileScrollLock', () => {
         });
 
         it('prevents touchmove events when there is no scrollable parent (scrolling the window)', () => {
-          const {spy} = touchEvent(nonScrollyElement);
+          touchEvent(nonScrollyElement, 10, 'touchstart');
+          const {spy} = touchEvent(nonScrollyElement, 5);
           expect(spy).toHaveBeenCalled();
         });
 
         it('allows touchmove events when there is a scrollable parent (scrolling an element on page)', () => {
-          const {spy} = touchEvent(scrollyElement);
+          touchEvent(scrollyElement, 10, 'touchstart');
+          const {spy} = touchEvent(scrollyElement, 5);
           expect(spy).not.toHaveBeenCalled();
+        });
+
+        it('does nothing if the element isnull', () => {
+          touchEvent(null, 10, 'touchstart');
+          const {spy} = touchEvent(null, 10);
+          expect(spy).not.toHaveBeenCalled();
+        });
+
+        it('does nothing on touch without scroll', () => {
+          touchEvent(scrollyElement, 10, 'touchstart');
+          const {spy} = touchEvent(scrollyElement, 10);
+          expect(spy).not.toHaveBeenCalled();
+        });
+
+        it('blocks touchmove events when the element is at its scroll limit', () => {
+          Object.defineProperty(scrollyElement, 'scrollTop', {
+            value: 4000,
+            writable: false,
+          });
+          touchEvent(scrollyElement, 10, 'touchstart');
+          const {spy} = touchEvent(scrollyElement, 5);
+          expect(spy).toHaveBeenCalled();
+        });
+
+        it('allows scrolling back after reaching the end', () => {
+          Object.defineProperty(scrollyElement, 'scrollTop', {
+            value: 4000,
+            writable: false,
+          });
+          touchEvent(scrollyElement, 10, 'touchstart');
+          const spy1 = touchEvent(scrollyElement, 5).spy;
+          expect(spy1).toHaveBeenCalled();
+          touchEvent(scrollyElement, 5, 'touchend');
+
+          touchEvent(scrollyElement, 5, 'touchstart');
+          const spy2 = touchEvent(scrollyElement, 10).spy;
+          expect(spy2).not.toHaveBeenCalled();
         });
       });
 
@@ -97,7 +142,7 @@ describe('MobileScrollLock', () => {
         });
 
         it('allows touchmove events', () => {
-          const {spy} = touchEvent(nonScrollyElement);
+          const {spy} = touchEvent(nonScrollyElement, 5);
           expect(spy).not.toHaveBeenCalled();
         });
       });
@@ -110,20 +155,18 @@ describe('MobileScrollLock', () => {
 
     let renderer: typeof rendererType;
     let MobileScrollLock: ComponentType; // tslint:disable-line:variable-name
-    let React: typeof ReactType; // tslint:disable-line:variable-name
 
     beforeEach(() => {
-      resetModules();
       delete (global as any).window;
       delete (global as any).document;
+      resetModules();
+      ({React, renderToDom, renderer} = reactAndFriends());
 
       const styled = require('styled-components');
       // this is broken when unmounting without a dom
       styled.createGlobalStyle = () => () => null;
 
       MobileScrollLock = require('./MobileScrollLock').default;
-      React = require('react');
-      renderer = require('react-test-renderer');
     });
 
     afterEach(() => {

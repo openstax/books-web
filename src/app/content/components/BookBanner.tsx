@@ -8,7 +8,7 @@ import { maxNavWidth } from '../../components/NavBar';
 import { h3MobileLineHeight, h3Style, h4Style, textRegularLineHeight } from '../../components/Typography';
 import theme from '../../theme';
 import { AppState } from '../../types';
-import { assertDefined, assertDocument } from '../../utils';
+import { assertDefined } from '../../utils';
 import * as select from '../selectors';
 import { ArchiveTreeSection, Book, Page } from '../types';
 import { findArchiveTreeNode } from '../utils/archiveTreeUtils';
@@ -185,7 +185,9 @@ export class BookBanner extends Component<PropTypes, {scrollTransition: boolean}
   };
 
   public componentDidMount() {
-    const document = assertDocument();
+    if (typeof document === 'undefined') {
+      return;
+    }
     document.addEventListener('scroll', this.handleScroll);
     this.handleScroll();
   }

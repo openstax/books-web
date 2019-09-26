@@ -120,23 +120,23 @@ Array [
   overflow: hidden;
 }
 
-.c94 {
+.c88 {
   height: 1em;
 }
 
-.c95 {
+.c89 {
   height: 1em;
 }
 
-.c97 {
+.c91 {
   height: 1em;
 }
 
-.c96 {
+.c90 {
   height: 1em;
 }
 
-.c78 {
+.c72 {
   font-family: Neue Helvetica W01;
   color: #424242;
   font-size: 1.6rem;
@@ -147,16 +147,16 @@ Array [
   transition: opacity 0.2s;
 }
 
-.c79 {
+.c73 {
   color: #d5d5d5;
   display: grid;
 }
 
-.c80 {
+.c74 {
   background-color: #424242;
 }
 
-.c81 {
+.c75 {
   max-width: 131rem;
   -webkit-align-items: center;
   -webkit-box-align: center;
@@ -178,32 +178,32 @@ Array [
   overflow: visible;
 }
 
-.c82 {
+.c76 {
   grid-area: headline;
 }
 
-.c83 {
+.c77 {
   grid-area: mission;
 }
 
-.c83 a {
+.c77 a {
   color: inherit;
   font-weight: bold;
   text-underline-position: under;
 }
 
-.c86 {
+.c80 {
   color: inherit;
   -webkit-text-decoration: none;
   text-decoration: none;
 }
 
-.c86:hover {
+.c80:hover {
   -webkit-text-decoration: underline;
   text-decoration: underline;
 }
 
-.c98 {
+.c92 {
   color: inherit;
   display: inline-grid;
   grid-auto-flow: column;
@@ -211,28 +211,28 @@ Array [
   overflow: hidden;
 }
 
-.c84 {
+.c78 {
   display: grid;
   grid-gap: 0.5rem;
   overflow: visible;
   grid-area: col1;
 }
 
-.c87 {
+.c81 {
   display: grid;
   grid-gap: 0.5rem;
   overflow: visible;
   grid-area: col2;
 }
 
-.c88 {
+.c82 {
   display: grid;
   grid-gap: 0.5rem;
   overflow: visible;
   grid-area: col3;
 }
 
-.c85 {
+.c79 {
   font-size: 1.8rem;
   font-weight: bold;
   -webkit-letter-spacing: -0.072rem;
@@ -242,7 +242,7 @@ Array [
   line-height: normal;
 }
 
-.c89 {
+.c83 {
   font-size: 1.2rem;
   font-weight: normal;
   -webkit-letter-spacing: normal;
@@ -253,7 +253,7 @@ Array [
   background-color: #3b3b3b;
 }
 
-.c90 {
+.c84 {
   max-width: 131rem;
   -webkit-align-items: center;
   -webkit-box-align: center;
@@ -275,22 +275,22 @@ Array [
   overflow: visible;
 }
 
-.c91 {
+.c85 {
   display: grid;
   grid-gap: 1rem;
   overflow: visible;
 }
 
-.c91 [data-html="copyright"] {
+.c85 [data-html="copyright"] {
   overflow: visible;
 }
 
-.c91 a {
+.c85 a {
   color: inherit;
   overflow: visible;
 }
 
-.c91 sup {
+.c85 sup {
   font-size: 66%;
   margin-left: 0.1rem;
   position: relative;
@@ -298,7 +298,7 @@ Array [
   vertical-align: top;
 }
 
-.c92 {
+.c86 {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -313,7 +313,7 @@ Array [
   overflow: visible;
 }
 
-.c93 {
+.c87 {
   color: inherit;
   font-size: 1.6rem;
   line-height: 2.5rem;
@@ -332,7 +332,7 @@ Array [
   width: 3rem;
 }
 
-.c99 {
+.c93 {
   height: 4rem;
   -webkit-transform: translateY(0.2rem);
   -ms-transform: translateY(0.2rem);
@@ -443,7 +443,7 @@ Array [
   box-shadow: 0 0 4px 0 rgba(13,192,220,0.5);
 }
 
-.c19.ally-focus-within {
+.c19.focus-within {
   border: solid 0.1rem #0dc0dc;
   box-shadow: 0 0 4px 0 rgba(13,192,220,0.5);
 }
@@ -451,12 +451,10 @@ Array [
 .c20 {
   font-family: Neue Helvetica W01;
   color: #424242;
-  font-size: 1.4rem;
-  line-height: 1.6rem;
-  font-weight: normal;
   -webkit-appearance: textfield;
   -moz-appearance: textfield;
   appearance: textfield;
+  font-size: 1.6rem;
   line-height: 2;
   margin: 0 1rem 0 1rem;
   height: 3.2rem;
@@ -479,43 +477,19 @@ Array [
 }
 
 .c20::-webkit-input-placeholder {
-  font-family: Neue Helvetica W01;
-  color: #424242;
-  font-size: 1.4rem;
-  line-height: 1.6rem;
-  font-weight: normal;
   color: #6f6f6f;
-  line-height: inherit;
 }
 
 .c20::-moz-placeholder {
-  font-family: Neue Helvetica W01;
-  color: #424242;
-  font-size: 1.4rem;
-  line-height: 1.6rem;
-  font-weight: normal;
   color: #6f6f6f;
-  line-height: inherit;
 }
 
 .c20:-ms-input-placeholder {
-  font-family: Neue Helvetica W01;
-  color: #424242;
-  font-size: 1.4rem;
-  line-height: 1.6rem;
-  font-weight: normal;
   color: #6f6f6f;
-  line-height: inherit;
 }
 
 .c20::placeholder {
-  font-family: Neue Helvetica W01;
-  color: #424242;
-  font-size: 1.4rem;
-  line-height: 1.6rem;
-  font-weight: normal;
   color: #6f6f6f;
-  line-height: inherit;
 }
 
 .c17 {
@@ -568,198 +542,51 @@ Array [
   height: 5rem;
 }
 
-.c34 {
-  enable-background: new 0 0 57.6 39.1;
-  -webkit-animation: iuEIAH 0.3s forwards 0.3s;
-  animation: iuEIAH 0.3s forwards 0.3s;
-  display: block;
-  height: 100%;
-  margin: 0 auto;
-  opacity: 0;
-  position: relative;
-  -webkit-transform: scale(0);
-  -ms-transform: scale(0);
-  transform: scale(0);
-  -webkit-transform-origin: center;
-  -ms-transform-origin: center;
-  transform-origin: center;
-  width: 5rem;
+.c29 {
+  width: 100%;
+  padding: 0 3.2rem;
 }
 
-.c34 * {
-  -webkit-animation: fadeIn 0.3s forwards;
-  animation: fadeIn 0.3s forwards;
-}
-
-.c34 .os-green,
-.c34 .os-orange,
-.c34 .os-gray,
-.c34 .os-yellow,
-.c34 .os-blue {
-  -webkit-animation-delay: 0.5s;
-  animation-delay: 0.5s;
-}
-
-.c34 .os-green {
-  -webkit-animation: hkCfKg 0.6s cubic-bezier(0.81,0.41,0.13,0.74) 0.5s infinite alternate;
-  animation: hkCfKg 0.6s cubic-bezier(0.81,0.41,0.13,0.74) 0.5s infinite alternate;
-  -webkit-transform-origin: center left;
-  -ms-transform-origin: center left;
-  transform-origin: center left;
-}
-
-.c34 .os-orange {
-  -webkit-animation: kSacDd 0.6s cubic-bezier(0.81,0.41,0.13,0.74) 0.5s infinite alternate;
-  animation: kSacDd 0.6s cubic-bezier(0.81,0.41,0.13,0.74) 0.5s infinite alternate;
-  -webkit-transform-origin: center right;
-  -ms-transform-origin: center right;
-  transform-origin: center right;
-}
-
-.c34 .os-gray {
-  -webkit-animation: fXlVAV 0.6s cubic-bezier(0.81,0.41,0.13,0.74) 0.5s infinite alternate;
-  animation: fXlVAV 0.6s cubic-bezier(0.81,0.41,0.13,0.74) 0.5s infinite alternate;
-  -webkit-transform-origin: center right;
-  -ms-transform-origin: center right;
-  transform-origin: center right;
-}
-
-.c34 .os-yellow {
-  -webkit-animation: hbytGi 0.6s cubic-bezier(0.81,0.41,0.13,0.74) 0.6s infinite alternate;
-  animation: hbytGi 0.6s cubic-bezier(0.81,0.41,0.13,0.74) 0.6s infinite alternate;
-  -webkit-transform-origin: center right;
-  -ms-transform-origin: center right;
-  transform-origin: center right;
-}
-
-.c34 .os-blue {
-  -webkit-animation: jfsUaa 0.6s cubic-bezier(0.81,0.41,0.13,0.74) 0.5s infinite alternate;
-  animation: jfsUaa 0.6s cubic-bezier(0.81,0.41,0.13,0.74) 0.5s infinite alternate;
-  -webkit-transform-origin: center;
-  -ms-transform-origin: center;
-  transform-origin: center;
-}
-
-.c53 {
+.c47 {
   height: 1.7rem;
   width: 1.7rem;
 }
 
-.c55 {
+.c49 {
   height: 1.7rem;
   width: 1.7rem;
 }
 
-.c74 {
+.c68 {
   list-style: none;
   cursor: pointer;
 }
 
-.c74::before {
+.c68::before {
   display: none;
 }
 
-.c74::-moz-list-bullet {
+.c68::-moz-list-bullet {
   list-style-type: none;
 }
 
-.c74::-webkit-details-marker {
+.c68::-webkit-details-marker {
   display: none;
 }
 
-.c48[open] > summary .c52 {
+.c42[open] > summary .c46 {
   display: none;
 }
 
-.c48:not([open]) > summary .c54 {
+.c42:not([open]) > summary .c48 {
   display: none;
 }
 
-.c33 {
-  color: #818181;
-}
-
-.c33:hover {
-  color: #5e6062;
-}
-
-.c28 {
-  overflow-x: visible;
-  top: 12rem;
-  margin-top: 0;
-  padding: 0;
-  position: -webkit-sticky;
-  position: sticky;
-  width: 44rem;
-  background-color: #f1f1f1;
-  box-shadow: 0.2rem 0 0.2rem 0 rgba(0,0,0,0.1);
-  z-index: 1;
-  height: calc(100vh - 18rem);
-  margin-left: -44rem;
-  -webkit-animation: jnNuMv 300ms forwards;
-  animation: jnNuMv 300ms forwards;
-  -webkit-animation: iVVDrC 300ms forwards;
-  animation: iVVDrC 300ms forwards;
-}
-
-.c28 > .c100 {
-  margin: 0;
-  padding: 0;
-}
-
-.c28 > .c100::before {
-  display: none;
-}
-
-.c32 {
-  height: 2.5rem;
-  width: 2.5rem;
-  padding: 0.4rem;
-  cursor: pointer;
-  border: none;
-  padding: 0;
-  margin: 0.3rem;
-  background: transparent;
-  overflow: visible;
-  height: 3.7rem;
-  width: 3.7rem;
-}
-
-.c30 {
-  overflow: visible;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: end;
-  -webkit-justify-content: flex-end;
-  -ms-flex-pack: end;
-  justify-content: flex-end;
-  margin: 1.4rem 1.4rem 0 0;
-}
-
-.c30 .c31 {
-  margin: 0;
-}
-
-.c29 {
-  overflow: hidden;
-  right: 0;
-  top: 0;
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background-color: #f1f1f1;
-  -webkit-transition: opacity 0.5s 0.3s,-webkit-transform 0.2s 0.2s;
-  -webkit-transition: opacity 0.5s 0.3s,transform 0.2s 0.2s;
-  transition: opacity 0.5s 0.3s,transform 0.2s 0.2s;
-}
-
-.c65 {
+.c59 {
   outline: none;
 }
 
-.c64 {
+.c58 {
   font-family: Neue Helvetica W01;
   color: #424242;
   font-size: 1.6rem;
@@ -767,44 +594,42 @@ Array [
   overflow: visible;
 }
 
-.c64 a {
+.c58 a {
   color: #027EB5;
   cursor: pointer;
   -webkit-text-decoration: underline;
   text-decoration: underline;
 }
 
-.c64 a:hover {
+.c58 a:hover {
   color: #0064A0;
 }
 
-.c64 .os-figure,
-.c64 .os-figure:last-child {
+.c58 .os-figure,
+.c58 .os-figure:last-child {
   margin-bottom: 5px;
 }
 
-.c64 * {
+.c58 * {
   overflow: initial;
 }
 
-.c35 {
-  width: 100%;
-  padding: 0 3.2rem;
+.c28 {
   position: relative;
   overflow: visible;
   -webkit-transition: margin-left 300ms;
   transition: margin-left 300ms;
 }
 
-.c75 {
+.c69 {
   margin-left: -0.3rem;
 }
 
-.c76 {
+.c70 {
   margin-left: -0.3rem;
 }
 
-.c73 {
+.c67 {
   font-family: Neue Helvetica W01;
   color: #424242;
   font-size: 1.6rem;
@@ -813,19 +638,19 @@ Array [
   list-style: none;
 }
 
-.c73 a {
+.c67 a {
   color: #027EB5;
   cursor: pointer;
   -webkit-text-decoration: underline;
   text-decoration: underline;
 }
 
-.c73 a:hover {
+.c67 a:hover {
   color: #0064A0;
 }
 
-.c73,
-.c73 span {
+.c67,
+.c67 span {
   font-family: Neue Helvetica W01;
   color: #424242;
   font-size: 1.6rem;
@@ -836,46 +661,24 @@ Array [
   text-decoration: none;
 }
 
-.c73 a,
-.c73 span a {
+.c67 a,
+.c67 span a {
   color: #027EB5;
   cursor: pointer;
   -webkit-text-decoration: underline;
   text-decoration: underline;
 }
 
-.c73 a:hover,
-.c73 span a:hover {
+.c67 a:hover,
+.c67 span a:hover {
   color: #0064A0;
 }
 
-.c73:hover,
-.c73 span:hover {
+.c67:hover,
+.c67 span:hover {
   -webkit-text-decoration: underline;
   text-decoration: underline;
   color: #0064A0;
-}
-
-.c77 {
-  font-family: Neue Helvetica W01;
-  color: #424242;
-  font-size: 1.6rem;
-  line-height: 2.5rem;
-}
-
-.c77 a {
-  color: #027EB5;
-  cursor: pointer;
-  -webkit-text-decoration: underline;
-  text-decoration: underline;
-}
-
-.c77 a:hover {
-  color: #0064A0;
-}
-
-.c77 blockquote {
-  margin-left: 0;
 }
 
 .c71 {
@@ -883,19 +686,6 @@ Array [
   color: #424242;
   font-size: 1.6rem;
   line-height: 2.5rem;
-  box-shadow: 0 -1rem 1rem -1rem rgba(0,0,0,0.1);
-  margin: 2rem 0 0 0;
-  min-height: 6rem;
-  padding: 0 3.2rem;
-  padding-top: 1.8rem;
-}
-
-.c71[open] > summary .c52 {
-  display: none;
-}
-
-.c71:not([open]) > summary .c54 {
-  display: none;
 }
 
 .c71 a {
@@ -909,11 +699,46 @@ Array [
   color: #0064A0;
 }
 
-.c71 > .c72 {
+.c71 blockquote {
+  margin-left: 0;
+}
+
+.c65 {
+  font-family: Neue Helvetica W01;
+  color: #424242;
+  font-size: 1.6rem;
+  line-height: 2.5rem;
+  box-shadow: 0 -1rem 1rem -1rem rgba(0,0,0,0.1);
+  margin: 2rem 0 0 0;
+  min-height: 6rem;
+  padding: 0 3.2rem;
+  padding-top: 1.8rem;
+}
+
+.c65[open] > summary .c46 {
+  display: none;
+}
+
+.c65:not([open]) > summary .c48 {
+  display: none;
+}
+
+.c65 a {
+  color: #027EB5;
+  cursor: pointer;
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+}
+
+.c65 a:hover {
+  color: #0064A0;
+}
+
+.c65 > .c66 {
   margin-bottom: 1.8rem;
 }
 
-.c71 li {
+.c65 li {
   margin-bottom: 1rem;
   overflow: visible;
 }
@@ -1084,44 +909,44 @@ Array [
   margin-top: -7rem;
 }
 
-.c68 {
+.c62 {
   height: 2.5rem;
   width: 2.5rem;
 }
 
-.c70 {
+.c64 {
   height: 2.5rem;
   width: 2.5rem;
   margin-top: 0.1rem;
 }
 
-.c67 {
+.c61 {
   color: #027EB5;
   cursor: pointer;
   -webkit-text-decoration: none;
   text-decoration: none;
 }
 
-.c67:hover {
+.c61:hover {
   -webkit-text-decoration: underline;
   text-decoration: underline;
   color: #0064A0;
 }
 
-.c69 {
+.c63 {
   color: #027EB5;
   cursor: pointer;
   -webkit-text-decoration: none;
   text-decoration: none;
 }
 
-.c69:hover {
+.c63:hover {
   -webkit-text-decoration: underline;
   text-decoration: underline;
   color: #0064A0;
 }
 
-.c66 {
+.c60 {
   font-family: Neue Helvetica W01;
   color: #424242;
   font-size: 1.6rem;
@@ -1146,7 +971,7 @@ Array [
   border-bottom: solid 0.1rem #e5e5e5;
 }
 
-.c66 a {
+.c60 a {
   border: none;
   display: -webkit-box;
   display: -webkit-flex;
@@ -1192,18 +1017,19 @@ Array [
   color: #424242;
 }
 
-.c37 {
+.c31 {
   position: -webkit-sticky;
   position: sticky;
   top: 7rem;
   margin-top: -5rem;
   overflow-y: auto;
   height: calc(100vh - 13rem);
+  max-height: calc(100vh - 7rem);
   -webkit-transition: -webkit-transform 300ms ease-in-out,box-shadow 300ms ease-in-out,background-color 300ms ease-in-out;
   -webkit-transition: transform 300ms ease-in-out,box-shadow 300ms ease-in-out,background-color 300ms ease-in-out;
   transition: transform 300ms ease-in-out,box-shadow 300ms ease-in-out,background-color 300ms ease-in-out;
   background-color: #fafafa;
-  z-index: 3;
+  z-index: 4;
   margin-left: -50vw;
   padding-left: 50vw;
   width: calc(50vw + 33.5rem);
@@ -1218,7 +1044,7 @@ Array [
   flex-direction: column;
 }
 
-.c37 > ol {
+.c31 > ol {
   -webkit-overflow-scrolling: touch;
   position: relative;
   padding: 1.8rem 1.8rem 1.8rem 0.2rem;
@@ -1227,11 +1053,11 @@ Array [
   flex: 1;
 }
 
-.c37 > ol > li:first-child {
+.c31 > ol > li:first-child {
   margin-top: 0;
 }
 
-.c37 > ol::before {
+.c31 > ol::before {
   content: "";
   background: #fafafa;
   display: block;
@@ -1239,13 +1065,13 @@ Array [
   margin: -1.8rem -1.8rem 0 -1.8rem;
 }
 
-.c37 > * {
+.c31 > * {
   -webkit-transition: all 300ms;
   transition: all 300ms;
   opacity: 1;
 }
 
-.c39 {
+.c33 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1259,7 +1085,7 @@ Array [
   box-shadow: 0 1rem 1rem -1rem rgba(0,0,0,0.14);
 }
 
-.c41 {
+.c35 {
   height: 2.5rem;
   width: 2.5rem;
   padding: 0.4rem;
@@ -1268,11 +1094,11 @@ Array [
   color: #818181;
 }
 
-.c41:hover {
+.c35:hover {
   color: #5e6062;
 }
 
-.c40 {
+.c34 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1283,15 +1109,15 @@ Array [
   flex: 1;
 }
 
-.c40 .c15,
-.c40 .c38 {
+.c34 .c15,
+.c34 .c32 {
   -webkit-flex: 1;
   -ms-flex: 1;
   flex: 1;
   text-align: left;
 }
 
-.c57 {
+.c51 {
   font-family: Neue Helvetica W01;
   color: #424242;
   font-size: 1.4rem;
@@ -1306,7 +1132,7 @@ Array [
   flex: 1;
 }
 
-.c46 {
+.c40 {
   font-family: Neue Helvetica W01;
   color: #424242;
   font-size: 1.4rem;
@@ -1321,185 +1147,185 @@ Array [
   text-decoration: none;
 }
 
-li[aria-label="Current Page"] .c46 {
+li[aria-label="Current Page"] .c40 {
   font-weight: 600;
 }
 
-.c46:focus,
-.c46:hover {
+.c40:focus,
+.c40:hover {
   outline: none;
   color: #000;
   -webkit-text-decoration: underline;
   text-decoration: underline;
 }
 
-.c44 {
+.c38 {
   list-style: none;
   overflow: visible;
   margin: 1.2rem 0 0 0;
 }
 
-.c50 {
+.c44 {
   list-style: none;
   cursor: pointer;
 }
 
-.c50::before {
+.c44::before {
   display: none;
 }
 
-.c50::-moz-list-bullet {
+.c44::-moz-list-bullet {
   list-style-type: none;
 }
 
-.c50::-webkit-details-marker {
+.c44::-webkit-details-marker {
   display: none;
 }
 
-.c50:focus {
+.c44:focus {
   outline: none;
 }
 
-.c50:hover .c56,
-.c50:focus .c56 {
+.c44:hover .c50,
+.c44:focus .c50 {
   color: #000;
   -webkit-text-decoration: underline;
   text-decoration: underline;
 }
 
-.c51 {
+.c45 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
 }
 
-.c42 {
+.c36 {
   margin: 0;
   padding: 0;
 }
 
-.c42 > .c43 > details > summary .os-number,
-.c42 > .c43 > .c45 .os-number {
+.c36 > .c37 > details > summary .os-number,
+.c36 > .c37 > .c39 .os-number {
   width: 1.559375rem;
   overflow: hidden;
 }
 
-.c42 > .c43 > details > summary .os-divider,
-.c42 > .c43 > .c45 .os-divider {
+.c36 > .c37 > details > summary .os-divider,
+.c36 > .c37 > .c39 .os-divider {
   width: 0.8rem;
   text-align: center;
   overflow: hidden;
 }
 
-.c42 > .c43 > details > summary .os-text,
-.c42 > .c43 > .c45 .os-text {
+.c36 > .c37 > details > summary .os-text,
+.c36 > .c37 > .c39 .os-text {
   -webkit-flex: 1;
   -ms-flex: 1;
   flex: 1;
   overflow: hidden;
 }
 
-.c42 > .c43 > details > ol {
-  margin-left: 2.059375rem;
+.c36 > .c37 > details > ol {
+  margin-left: 2.359375rem;
 }
 
-.c58 {
+.c52 {
   margin: 0;
   padding: 0;
 }
 
-.c58 > .c43 > details > summary .os-number,
-.c58 > .c43 > .c45 .os-number {
+.c52 > .c37 > details > summary .os-number,
+.c52 > .c37 > .c39 .os-number {
   width: 3.509375rem;
   overflow: hidden;
 }
 
-.c58 > .c43 > details > summary .os-divider,
-.c58 > .c43 > .c45 .os-divider {
+.c52 > .c37 > details > summary .os-divider,
+.c52 > .c37 > .c39 .os-divider {
   width: 0.8rem;
   text-align: center;
   overflow: hidden;
 }
 
-.c58 > .c43 > details > summary .os-text,
-.c58 > .c43 > .c45 .os-text {
+.c52 > .c37 > details > summary .os-text,
+.c52 > .c37 > .c39 .os-text {
   -webkit-flex: 1;
   -ms-flex: 1;
   flex: 1;
   overflow: hidden;
 }
 
-.c58 > .c43 > details > ol {
-  margin-left: 4.009375rem;
+.c52 > .c37 > details > ol {
+  margin-left: 4.309375rem;
 }
 
-.c59 {
+.c53 {
   margin: 0;
   padding: 0;
 }
 
-.c59 > .c43 > details > summary .os-number,
-.c59 > .c43 > .c45 .os-number {
+.c53 > .c37 > details > summary .os-number,
+.c53 > .c37 > .c39 .os-number {
   width: 0rem;
   overflow: hidden;
 }
 
-.c59 > .c43 > details > summary .os-divider,
-.c59 > .c43 > .c45 .os-divider {
+.c53 > .c37 > details > summary .os-divider,
+.c53 > .c37 > .c39 .os-divider {
   width: 0.8rem;
   text-align: center;
   overflow: hidden;
 }
 
-.c59 > .c43 > details > summary .os-text,
-.c59 > .c43 > .c45 .os-text {
+.c53 > .c37 > details > summary .os-text,
+.c53 > .c37 > .c39 .os-text {
   -webkit-flex: 1;
   -ms-flex: 1;
   flex: 1;
   overflow: hidden;
 }
 
-.c59 > .c43 > details > ol {
-  margin-left: 0.5rem;
+.c53 > .c37 > details > ol {
+  margin-left: 0.8rem;
 }
 
-.c47 {
+.c41 {
   overflow: visible;
 }
 
-.c36 {
+.c30 {
   overflow: visible;
   margin: 0 auto;
   max-width: 128rem;
 }
 
 @media print {
-  .c78 {
+  .c72 {
     display: none;
   }
 }
 
 @media (min-width:60.1em) {
-  .c80 {
+  .c74 {
     padding: 7rem 0;
   }
 }
 
 @media (max-width:37.5em) {
-  .c80 {
+  .c74 {
     padding: 2rem 0;
   }
 }
 
 @media (max-width:60.1em) and (min-width:37.6em) {
-  .c80 {
+  .c74 {
     padding: 4rem 0;
   }
 }
 
 @media (min-width:37.6em) {
-  .c81 {
+  .c75 {
     -webkit-align-items: start;
     -webkit-box-align: start;
     -ms-flex-align: start;
@@ -1510,19 +1336,19 @@ li[aria-label="Current Page"] .c46 {
 }
 
 @media (max-width:37.5em) {
-  .c81 {
+  .c75 {
     grid-template: "headline" "mission" "col1" "col2" "col3";
   }
 }
 
 @media (min-width:60.1em) {
-  .c81 {
+  .c75 {
     grid-column-gap: 8rem;
   }
 }
 
 @media (min-width:37.6em) {
-  .c82 {
+  .c76 {
     font-size: 2.4rem;
     font-weight: bold;
     -webkit-letter-spacing: -0.096rem;
@@ -1534,7 +1360,7 @@ li[aria-label="Current Page"] .c46 {
 }
 
 @media (max-width:37.5em) {
-  .c82 {
+  .c76 {
     font-size: 2rem;
     font-weight: bold;
     -webkit-letter-spacing: -0.08rem;
@@ -1546,7 +1372,7 @@ li[aria-label="Current Page"] .c46 {
 }
 
 @media (min-width:37.6em) {
-  .c83 {
+  .c77 {
     font-size: 1.8rem;
     font-weight: normal;
     -webkit-letter-spacing: normal;
@@ -1558,37 +1384,37 @@ li[aria-label="Current Page"] .c46 {
 }
 
 @media (max-width:37.5em) {
-  .c86 {
+  .c80 {
     line-height: 4.5rem;
   }
 }
 
 @media (max-width:37.5em) {
-  .c85 {
+  .c79 {
     line-height: 4.5rem;
   }
 }
 
 @media (min-width:37.6em) {
-  .c89 {
+  .c83 {
     padding: 2.5rem 0;
   }
 }
 
 @media (max-width:37.5em) {
-  .c89 {
+  .c83 {
     padding: 1.5rem;
   }
 }
 
 @media (min-width:37.6em) {
-  .c90 {
+  .c84 {
     grid-auto-flow: column;
   }
 }
 
 @media (max-width:37.5em) {
-  .c90 {
+  .c84 {
     padding: 0;
   }
 }
@@ -1662,75 +1488,40 @@ li[aria-label="Current Page"] .c46 {
 }
 
 @media screen and (max-width:75em) {
-  .c28 {
-    -webkit-animation: iVVDrC 300ms forwards;
-    animation: iVVDrC 300ms forwards;
-  }
-}
-
-@media screen and (max-width:75em) {
-  .c28 {
-    margin-left: -100%;
-    width: 100%;
-    margin-top: 0;
-    top: 15.3rem;
-    padding: 0;
-  }
-}
-
-@media print {
-  .c28 {
-    display: none;
-  }
-}
-
-@media screen and (max-width:75em) {
-  .c32 {
-    display: none;
-  }
-}
-
-@media screen and (max-width:75em) {
-  .c30 {
-    display: none;
+  .c29 {
+    padding: 0 1.6rem;
   }
 }
 
 @media screen {
-  .c64 {
+  .c58 {
     max-width: 82.5rem;
     margin: 0 auto;
   }
 }
 
 @media screen {
-  .c64 {
+  .c58 {
     margin-top: 3.2rem;
   }
 }
 
 @media screen {
-  .c64 .search-highlight {
+  .c58 .search-highlight {
     background-color: #ffd17e;
   }
 
-  .c64 .search-highlight.focus {
+  .c58 .search-highlight.focus {
     background-color: #ff9e4b;
   }
 
-  .c64 .search-highlight.focus .search-highlight {
+  .c58 .search-highlight.focus .search-highlight {
     background-color: unset;
   }
 }
 
-@media screen and (max-width:75em) {
-  .c35 {
-    padding: 0 1.6rem;
-  }
-}
-
 @media screen {
-  .c35 {
+  .c28 {
     -webkit-flex: 1;
     -ms-flex: 1;
     flex: 1;
@@ -1738,38 +1529,38 @@ li[aria-label="Current Page"] .c46 {
 }
 
 @media screen {
-  .c73 {
+  .c67 {
     max-width: 82.5rem;
     margin: 0 auto;
   }
 }
 
 @media screen {
-  .c77 {
+  .c71 {
     max-width: 82.5rem;
     margin: 0 auto;
   }
 }
 
 @media screen and (max-width:75em) {
-  .c71 {
+  .c65 {
     padding: 0 1.6rem;
   }
 }
 
 @media screen and (max-width:75em) {
-  .c71 {
+  .c65 {
     min-height: 4rem;
     padding-top: 0.8rem;
   }
 
-  .c71 > .c49 {
+  .c65 > .c43 {
     margin-bottom: 0.8rem;
   }
 }
 
 @media print {
-  .c71 {
+  .c65 {
     display: none;
   }
 }
@@ -1922,7 +1713,7 @@ li[aria-label="Current Page"] .c46 {
 }
 
 @media screen {
-  .c60 {
+  .c54 {
     -webkit-flex: 1;
     -ms-flex: 1;
     flex: 1;
@@ -1934,42 +1725,43 @@ li[aria-label="Current Page"] .c46 {
 }
 
 @media screen and (max-width:75em) {
-  .c67 {
+  .c61 {
     margin-left: -0.8rem;
   }
 }
 
 @media screen and (max-width:75em) {
-  .c69 {
+  .c63 {
     margin-right: -0.8rem;
   }
 }
 
 @media print {
-  .c66 {
+  .c60 {
     display: none;
   }
 }
 
 @media screen and (max-width:75em) {
-  .c66 {
+  .c60 {
     margin: 3.5rem auto 3.7rem auto;
     border: 0;
   }
 }
 
 @media screen and (max-width:75em) {
-  .c37 {
+  .c31 {
     width: calc(50vw + 28.8rem);
     min-width: calc(50vw + 28.8rem);
     margin-top: -4rem;
     top: 6rem;
     height: calc(100vh - 11.2rem);
+    max-height: calc(100vh - 6rem);
   }
 }
 
 @media screen and (max-width:75em) {
-  .c37 {
+  .c31 {
     overflow-y: hidden;
     -webkit-transform: translateX(-33.5rem);
     -ms-transform: translateX(-33.5rem);
@@ -1977,27 +1769,28 @@ li[aria-label="Current Page"] .c46 {
     box-shadow: none;
     background-color: transparent;
     pointer-events: none;
+    visibility: hidden;
   }
 
-  .c37 > * {
+  .c31 > * {
     opacity: 0;
   }
 }
 
 @media print {
-  .c37 {
+  .c31 {
     display: none;
   }
 }
 
 @media screen and (max-width:75em) {
-  .c39 {
+  .c33 {
     height: 4rem;
   }
 }
 
 @media screen and (max-width:75em) {
-  .c44 {
+  .c38 {
     margin-top: 1.7rem;
   }
 }
@@ -2020,7 +1813,7 @@ li[aria-label="Current Page"] .c46 {
 }
 
 @media screen {
-  .c36 {
+  .c30 {
     min-height: 100%;
     display: -webkit-box;
     display: -webkit-flex;
@@ -2033,7 +1826,7 @@ li[aria-label="Current Page"] .c46 {
 }
 
 @media screen {
-  .c61 {
+  .c55 {
     overflow: visible;
     min-height: 100%;
     display: -webkit-box;
@@ -2048,7 +1841,7 @@ li[aria-label="Current Page"] .c46 {
 }
 
 @media screen {
-  .c62 {
+  .c56 {
     -webkit-flex: 1;
     -ms-flex: 1;
     flex: 1;
@@ -2069,7 +1862,7 @@ li[aria-label="Current Page"] .c46 {
 }
 
 @media screen {
-  .c63 {
+  .c57 {
     -webkit-flex: 1;
     -ms-flex: 1;
     flex: 1;
@@ -2277,142 +2070,23 @@ li[aria-label="Current Page"] .c46 {
       className="c27"
     >
       <div
-        aria-label="Search results sidebar"
-        className="c28"
-        data-testid="search-results-sidebar"
+        className="c28 c29"
       >
         <div
-          aria-label="Loading results"
-          className="c29"
-        >
-          <div
-            className="c30"
-          >
-            <button
-              className="c31 c32"
-              onClick={[Function]}
-            >
-              <svg
-                aria-hidden="true"
-                className="c33"
-                focusable="false"
-                height="15px"
-                version="1.1"
-                viewBox="0 0 15 15"
-                width="15px"
-              >
-                <g
-                  fill="none"
-                  fillRule="evenodd"
-                  stroke="none"
-                  strokeWidth="1"
-                >
-                  <g
-                    fill="currentColor"
-                    transform="translate(-302.000000, -18.000000)"
-                  >
-                    <g
-                      transform="translate(302.000000, 18.000000)"
-                    >
-                      <path
-                        d="M7.5,5.41522791 L12.0331524,0.579865364 C12.3077536,0.286957429 12.7165503,0.24816296 12.946282,0.493210121 L13.9861449,1.60239723 C14.2158766,1.84744439 14.1795068,2.28349422 13.9049056,2.57640216 L9.37175324,7.41176471 L13.9049056,12.2471273 C14.1795068,12.5400352 14.2158766,12.976085 13.9861449,13.2211322 L12.946282,14.3303193 C12.7165503,14.5753665 12.3077536,14.536572 12.0331524,14.243664 L7.5,9.4083015 L2.96684761,14.243664 C2.69224642,14.536572 2.2834497,14.5753665 2.05371799,14.3303193 L1.01385508,13.2211322 C0.784123363,12.976085 0.820493178,12.5400352 1.09509437,12.2471273 L5.62824676,7.41176471 L1.09509437,2.57640216 C0.820493178,2.28349422 0.784123363,1.84744439 1.01385508,1.60239723 L2.05371799,0.493210121 C2.2834497,0.24816296 2.69224642,0.286957429 2.96684761,0.579865364 L7.5,5.41522791 Z"
-                      />
-                    </g>
-                  </g>
-                </g>
-              </svg>
-            </button>
-          </div>
-          <svg
-            className="c34"
-            data-testid="loader"
-            id="Layer_1"
-            version="1.1"
-            viewBox="0 0 57.6 39.1"
-            x="0px"
-            y="0px"
-          >
-            <path
-              className="os-blue"
-              d="M38.4,22c0,0.4-0.3,0.7-0.7,0.7H13.5c-0.4,0-0.7-0.3-0.7-0.7v-1.4c0-0.4,0.3-0.7,0.7-0.7h24.2 c0.4,0,0.7,0.3,0.7,0.7V22z"
-              id="os-blue"
-              style={
-                Object {
-                  "fill": "#00246a",
-                }
-              }
-            />
-            <path
-              className="os-yellow"
-              d="M41.8,17.8c0,0.4-0.3,0.7-0.7,0.7l-25.4,0.8c-0.4,0-0.7-0.3-0.7-0.7l-0.1-2.1 c0-0.4,0.3-0.7,0.7-0.7L41,15c0.4,0,0.7,0.3,0.7,0.7L41.8,17.8z"
-              id="os-yellow"
-              style={
-                Object {
-                  "fill": "#f4d019",
-                }
-              }
-            />
-            <path
-              className="os-gray"
-              d="M34.8,14c0,0.4-0.3,0.7-0.7,0.7H11.6c-0.4,0-0.7-0.3-0.7-0.7v-3.5c0-0.4,0.3-0.7,0.7-0.7h22.5 c0.4,0,0.7,0.3,0.7,0.7V14z"
-              id="os-gray"
-              style={
-                Object {
-                  "fill": "#5e6062",
-                }
-              }
-            />
-            <path
-              className="os-orange"
-              d="M39,8.1c0,0.3-0.4,0.5-1,0.5H8.6c-0.5,0-1-0.2-1-0.5V6.9c0-0.3,0.4-0.5,1-0.5H38 c0.5,0,1,0.2,1,0.5V8.1z"
-              id="os-orange"
-              style={
-                Object {
-                  "fill": "#f47641",
-                }
-              }
-            />
-            <path
-              className="os-green"
-              d="M43.9,5c0,0.7-0.6,1.2-1.2,1.1L15,4.8c-0.7,0-1.2-0.6-1.1-1.2L14,1.1c0-0.7,0.6-1.2,1.2-1.1 l27.7,1.3c0.7,0,1.2,0.6,1.1,1.2L43.9,5z"
-              id="os-green"
-              style={
-                Object {
-                  "fill": "#77af42",
-                }
-              }
-            />
-            <path
-              className="os-type"
-              d="M3.1,30.2c-1.8,0-3.1,1.3-3.1,3.1c0,1.8,1.3,3.1,3.1,3.1c1.8,0,3.1-1.3,3.1-3.1 C6.2,31.5,4.9,30.2,3.1,30.2z M3.1,35.7c-1.4,0-2.3-1.1-2.3-2.4c0-1.3,0.9-2.4,2.3-2.4c1.4,0,2.3,1.1,2.3,2.4 C5.4,34.6,4.5,35.7,3.1,35.7z M10.9,30.2c-0.9,0-1.9,0.4-2.4,1.2h0v-1H7.7v8.8h0.8v-3.9h0C9,36,10,36.4,10.9,36.4 c1.8,0,3.1-1.3,3.1-3.1C14,31.5,12.7,30.2,10.9,30.2z M10.9,35.7c-1.4,0-2.5-1.1-2.5-2.4c0-1.3,1.1-2.4,2.5-2.4 c1.4,0,2.3,1.1,2.3,2.4C13.2,34.6,12.3,35.7,10.9,35.7z M18.3,30.2c-1.7,0-2.9,1.3-2.9,3.1c0,1.8,1.2,3.1,3,3.1c1,0,2-0.4,2.6-1.3 l-0.6-0.5c-0.4,0.6-1.2,1-2,1c-1.8,0-2.2-1.6-2.2-2.2h5v-0.5C21.1,31.6,20.1,30.2,18.3,30.2z M16.1,32.8c0-0.3,0.5-1.9,2.1-1.9 c1.1,0,2,0.9,2,1.9H16.1z M27.9,32.7v3.5h-0.8v-3.5c0-1-0.3-1.9-1.5-1.9c-1.1,0-2,0.8-2,2.4v2.9h-0.8V32c0-0.4-0.1-1.4-0.1-1.7h0.8 c0,0.4,0,0.9,0.1,1h0c0.3-0.7,1.1-1.2,2-1.2C27.4,30.2,27.9,31.4,27.9,32.7z M34.2,34.4c0,1.5-1.4,2-2.6,2c-0.9,0-1.8-0.2-2.4-0.9 l1-1c0.4,0.4,0.8,0.8,1.5,0.8c0.4,0,1-0.2,1-0.7c0-1.3-3.3-0.3-3.3-2.6c0-1.4,1.2-2,2.5-2c0.8,0,1.7,0.3,2.2,0.9l-1,0.9 c-0.3-0.4-0.7-0.6-1.2-0.6c-0.4,0-0.9,0.2-0.9,0.7C30.9,32.9,34.2,32,34.2,34.4z M37.5,30.1h1.7v1.3h-1.7v2.7c0,0.6,0.2,1,0.9,1 c0.3,0,0.6-0.1,0.8-0.2v1.3c-0.3,0.2-0.9,0.2-1.2,0.2c-1.6,0-2-0.7-2-2.2v-2.8h-1.3v-1.3H36v-1.8h1.5V30.1z M43,30 c-1,0-1.9,0.3-2.6,1l0.8,0.8c0.4-0.4,1-0.6,1.6-0.6c0.8,0,1.4,0.4,1.4,1.1v0.2h-0.4c-1.5,0-3.9,0.1-3.9,2.1c0,1.2,1.1,1.8,2.2,1.8 c0.8,0,1.5-0.3,2-1h0v0.8h1.4v-3.5C45.6,31.8,45.6,30,43,30z M44.1,33.8c0,0.9-0.5,1.4-1.5,1.4c-0.5,0-1.1-0.2-1.1-0.8 c0-0.9,1.5-0.9,2.3-0.9h0.3V33.8z M50.8,32.9l2.5,3.3h-1.9L49.8,34l-1.6,2.2h-1.8l2.5-3.3l-2.1-2.8h1.9l1.2,1.8l1.3-1.8h1.7 L50.8,32.9z M57.6,30.1v1.7h-0.3v-1.5h0l-0.6,1.5h-0.2l-0.6-1.5h0v1.5h-0.3v-1.7h0.4l0.5,1.3l0.5-1.3H57.6z M53.9,30.1h1.4v0.3h-0.5 v1.5h-0.3v-1.5h-0.5V30.1z"
-              id="os-type"
-              style={
-                Object {
-                  "fill": "#5e6062",
-                }
-              }
-            />
-          </svg>
-        </div>
-      </div>
-      <div
-        className="c35"
-      >
-        <div
-          className="c36"
+          className="c30"
         >
           <div
             aria-label="Table of Contents"
-            className="c37"
+            className="c31"
             data-testid="toc"
           >
             <div
-              className="c38 c39"
+              className="c32 c33"
               data-testid="tocheader"
             >
               <button
                 aria-label="Click to close the Table of Contents"
-                className="c40 c12"
+                className="c34 c12"
                 onClick={[Function]}
               >
                 <svg
@@ -2434,7 +2108,7 @@ li[aria-label="Current Page"] .c46 {
                 </span>
                 <svg
                   aria-hidden="true"
-                  className="c41"
+                  className="c35"
                   focusable="false"
                   height="15px"
                   version="1.1"
@@ -2464,13 +2138,13 @@ li[aria-label="Current Page"] .c46 {
               </button>
             </div>
             <ol
-              className="c42"
+              className="c36"
             >
               <li
-                className="c43 c44"
+                className="c37 c38"
               >
                 <a
-                  className="c45 c46"
+                  className="c39 c40"
                   dangerouslySetInnerHTML={
                     Object {
                       "__html": "<span class=\\"os-text\\">Test Page 1</span>",
@@ -2481,20 +2155,20 @@ li[aria-label="Current Page"] .c46 {
                 />
               </li>
               <li
-                className="c43 c44"
+                className="c37 c38"
               >
                 <details
-                  className="c47 c48"
+                  className="c41 c42"
                 >
                   <summary
-                    className="c49 c50"
+                    className="c43 c44"
                   >
                     <div
-                      className="c51"
+                      className="c45"
                     >
                       <svg
                         aria-hidden="true"
-                        className="c52 c53 c14"
+                        className="c46 c47 c14"
                         fill="currentColor"
                         focusable="false"
                         viewBox="0 0 192 512"
@@ -2506,7 +2180,7 @@ li[aria-label="Current Page"] .c46 {
                       </svg>
                       <svg
                         aria-hidden="true"
-                        className="c54 c55 c14"
+                        className="c48 c49 c14"
                         fill="currentColor"
                         focusable="false"
                         viewBox="0 0 320 512"
@@ -2517,7 +2191,7 @@ li[aria-label="Current Page"] .c46 {
                         />
                       </svg>
                       <span
-                        className="c56 c57"
+                        className="c50 c51"
                         dangerouslySetInnerHTML={
                           Object {
                             "__html": "<span class=\\"os-number\\">1</span><span class=\\"os-divider\\"> </span><span class=\\"os-text\\">Test Chapter 1</span>",
@@ -2527,23 +2201,23 @@ li[aria-label="Current Page"] .c46 {
                     </div>
                   </summary>
                   <ol
-                    className="c58"
+                    className="c52"
                   >
                     <li
-                      className="c43 c44"
+                      className="c37 c38"
                     >
                       <details
-                        className="c47 c48"
+                        className="c41 c42"
                       >
                         <summary
-                          className="c49 c50"
+                          className="c43 c44"
                         >
                           <div
-                            className="c51"
+                            className="c45"
                           >
                             <svg
                               aria-hidden="true"
-                              className="c52 c53 c14"
+                              className="c46 c47 c14"
                               fill="currentColor"
                               focusable="false"
                               viewBox="0 0 192 512"
@@ -2555,7 +2229,7 @@ li[aria-label="Current Page"] .c46 {
                             </svg>
                             <svg
                               aria-hidden="true"
-                              className="c54 c55 c14"
+                              className="c48 c49 c14"
                               fill="currentColor"
                               focusable="false"
                               viewBox="0 0 320 512"
@@ -2566,7 +2240,7 @@ li[aria-label="Current Page"] .c46 {
                               />
                             </svg>
                             <span
-                              className="c56 c57"
+                              className="c50 c51"
                               dangerouslySetInnerHTML={
                                 Object {
                                   "__html": "<span class=\\"os-number\\">1</span><span class=\\"os-divider\\"> </span><span class=\\"os-text\\">Test Chapter 1.1</span>",
@@ -2576,13 +2250,13 @@ li[aria-label="Current Page"] .c46 {
                           </div>
                         </summary>
                         <ol
-                          className="c59"
+                          className="c53"
                         >
                           <li
-                            className="c43 c44"
+                            className="c37 c38"
                           >
                             <a
-                              className="c45 c46"
+                              className="c39 c40"
                               dangerouslySetInnerHTML={
                                 Object {
                                   "__html": "<span class=\\"os-text\\">Introduction to Science and the Realm of Physics, Physical Quantities, and Units</span>",
@@ -2596,10 +2270,10 @@ li[aria-label="Current Page"] .c46 {
                       </details>
                     </li>
                     <li
-                      className="c43 c44"
+                      className="c37 c38"
                     >
                       <a
-                        className="c45 c46"
+                        className="c39 c40"
                         dangerouslySetInnerHTML={
                           Object {
                             "__html": "<span class=\\"os-number\\">1.1</span><span class=\\"os-divider\\"> </span><span class=\\"os-text\\">Physics: An Introduction</span></span>",
@@ -2610,10 +2284,10 @@ li[aria-label="Current Page"] .c46 {
                       />
                     </li>
                     <li
-                      className="c43 c44"
+                      className="c37 c38"
                     >
                       <a
-                        className="c45 c46"
+                        className="c39 c40"
                         dangerouslySetInnerHTML={
                           Object {
                             "__html": "<span class=\\"os-number\\">23.12</span><span class=\\"os-divider\\"> </span><span class=\\"os-text\\">RLC Series AC Circuits</span></span>",
@@ -2627,20 +2301,20 @@ li[aria-label="Current Page"] .c46 {
                 </details>
               </li>
               <li
-                className="c43 c44"
+                className="c37 c38"
               >
                 <details
-                  className="c47 c48"
+                  className="c41 c42"
                 >
                   <summary
-                    className="c49 c50"
+                    className="c43 c44"
                   >
                     <div
-                      className="c51"
+                      className="c45"
                     >
                       <svg
                         aria-hidden="true"
-                        className="c52 c53 c14"
+                        className="c46 c47 c14"
                         fill="currentColor"
                         focusable="false"
                         viewBox="0 0 192 512"
@@ -2652,7 +2326,7 @@ li[aria-label="Current Page"] .c46 {
                       </svg>
                       <svg
                         aria-hidden="true"
-                        className="c54 c55 c14"
+                        className="c48 c49 c14"
                         fill="currentColor"
                         focusable="false"
                         viewBox="0 0 320 512"
@@ -2663,7 +2337,7 @@ li[aria-label="Current Page"] .c46 {
                         />
                       </svg>
                       <span
-                        className="c56 c57"
+                        className="c50 c51"
                         dangerouslySetInnerHTML={
                           Object {
                             "__html": "<span class=\\"os-number\\">2</span><span class=\\"os-divider\\"> </span><span class=\\"os-text\\">Test Chapter 2</span>",
@@ -2673,13 +2347,13 @@ li[aria-label="Current Page"] .c46 {
                     </div>
                   </summary>
                   <ol
-                    className="c59"
+                    className="c53"
                   >
                     <li
-                      className="c43 c44"
+                      className="c37 c38"
                     >
                       <a
-                        className="c45 c46"
+                        className="c39 c40"
                         dangerouslySetInnerHTML={
                           Object {
                             "__html": "<span class=\\"os-text\\">Test Page 3</span>",
@@ -2693,21 +2367,21 @@ li[aria-label="Current Page"] .c46 {
                 </details>
               </li>
               <li
-                className="c43 c44"
+                className="c37 c38"
               >
                 <details
-                  className="c47 c48"
+                  className="c41 c42"
                   open={true}
                 >
                   <summary
-                    className="c49 c50"
+                    className="c43 c44"
                   >
                     <div
-                      className="c51"
+                      className="c45"
                     >
                       <svg
                         aria-hidden="true"
-                        className="c52 c53 c14"
+                        className="c46 c47 c14"
                         fill="currentColor"
                         focusable="false"
                         viewBox="0 0 192 512"
@@ -2719,7 +2393,7 @@ li[aria-label="Current Page"] .c46 {
                       </svg>
                       <svg
                         aria-hidden="true"
-                        className="c54 c55 c14"
+                        className="c48 c49 c14"
                         fill="currentColor"
                         focusable="false"
                         viewBox="0 0 320 512"
@@ -2730,7 +2404,7 @@ li[aria-label="Current Page"] .c46 {
                         />
                       </svg>
                       <span
-                        className="c56 c57"
+                        className="c50 c51"
                         dangerouslySetInnerHTML={
                           Object {
                             "__html": "<span class=\\"os-number\\">3</span><span class=\\"os-divider\\"> </span><span class=\\"os-text\\">Test Chapter 3</span>",
@@ -2740,14 +2414,14 @@ li[aria-label="Current Page"] .c46 {
                     </div>
                   </summary>
                   <ol
-                    className="c59"
+                    className="c53"
                   >
                     <li
                       aria-label="Current Page"
-                      className="c43 c44"
+                      className="c37 c38"
                     >
                       <a
-                        className="c45 c46"
+                        className="c39 c40"
                         dangerouslySetInnerHTML={
                           Object {
                             "__html": "<span class=\\"os-text\\">Test Page 4</span>",
@@ -2761,20 +2435,20 @@ li[aria-label="Current Page"] .c46 {
                 </details>
               </li>
               <li
-                className="c43 c44"
+                className="c37 c38"
               >
                 <details
-                  className="c47 c48"
+                  className="c41 c42"
                 >
                   <summary
-                    className="c49 c50"
+                    className="c43 c44"
                   >
                     <div
-                      className="c51"
+                      className="c45"
                     >
                       <svg
                         aria-hidden="true"
-                        className="c52 c53 c14"
+                        className="c46 c47 c14"
                         fill="currentColor"
                         focusable="false"
                         viewBox="0 0 192 512"
@@ -2786,7 +2460,7 @@ li[aria-label="Current Page"] .c46 {
                       </svg>
                       <svg
                         aria-hidden="true"
-                        className="c54 c55 c14"
+                        className="c48 c49 c14"
                         fill="currentColor"
                         focusable="false"
                         viewBox="0 0 320 512"
@@ -2797,7 +2471,7 @@ li[aria-label="Current Page"] .c46 {
                         />
                       </svg>
                       <span
-                        className="c56 c57"
+                        className="c50 c51"
                         dangerouslySetInnerHTML={
                           Object {
                             "__html": "<span class=\\"os-number\\">4</span><span class=\\"os-divider\\"> </span><span class=\\"os-text\\">Test Chapter 4</span>",
@@ -2807,13 +2481,13 @@ li[aria-label="Current Page"] .c46 {
                     </div>
                   </summary>
                   <ol
-                    className="c59"
+                    className="c53"
                   >
                     <li
-                      className="c43 c44"
+                      className="c37 c38"
                     >
                       <a
-                        className="c45 c46"
+                        className="c39 c40"
                         dangerouslySetInnerHTML={
                           Object {
                             "__html": "<span class=\\"os-text\\">Test Page 5</span>",
@@ -2827,20 +2501,20 @@ li[aria-label="Current Page"] .c46 {
                 </details>
               </li>
               <li
-                className="c43 c44"
+                className="c37 c38"
               >
                 <details
-                  className="c47 c48"
+                  className="c41 c42"
                 >
                   <summary
-                    className="c49 c50"
+                    className="c43 c44"
                   >
                     <div
-                      className="c51"
+                      className="c45"
                     >
                       <svg
                         aria-hidden="true"
-                        className="c52 c53 c14"
+                        className="c46 c47 c14"
                         fill="currentColor"
                         focusable="false"
                         viewBox="0 0 192 512"
@@ -2852,7 +2526,7 @@ li[aria-label="Current Page"] .c46 {
                       </svg>
                       <svg
                         aria-hidden="true"
-                        className="c54 c55 c14"
+                        className="c48 c49 c14"
                         fill="currentColor"
                         focusable="false"
                         viewBox="0 0 320 512"
@@ -2863,7 +2537,7 @@ li[aria-label="Current Page"] .c46 {
                         />
                       </svg>
                       <span
-                        className="c56 c57"
+                        className="c50 c51"
                         dangerouslySetInnerHTML={
                           Object {
                             "__html": "<span class=\\"os-number\\">10</span><span class=\\"os-divider\\"> </span><span class=\\"os-text\\">Test Chapter 5</span>",
@@ -2873,13 +2547,13 @@ li[aria-label="Current Page"] .c46 {
                     </div>
                   </summary>
                   <ol
-                    className="c59"
+                    className="c53"
                   >
                     <li
-                      className="c43 c44"
+                      className="c37 c38"
                     >
                       <a
-                        className="c45 c46"
+                        className="c39 c40"
                         dangerouslySetInnerHTML={
                           Object {
                             "__html": "<span class=\\"os-text\\">Test Page 6</span>",
@@ -2893,20 +2567,20 @@ li[aria-label="Current Page"] .c46 {
                 </details>
               </li>
               <li
-                className="c43 c44"
+                className="c37 c38"
               >
                 <details
-                  className="c47 c48"
+                  className="c41 c42"
                 >
                   <summary
-                    className="c49 c50"
+                    className="c43 c44"
                   >
                     <div
-                      className="c51"
+                      className="c45"
                     >
                       <svg
                         aria-hidden="true"
-                        className="c52 c53 c14"
+                        className="c46 c47 c14"
                         fill="currentColor"
                         focusable="false"
                         viewBox="0 0 192 512"
@@ -2918,7 +2592,7 @@ li[aria-label="Current Page"] .c46 {
                       </svg>
                       <svg
                         aria-hidden="true"
-                        className="c54 c55 c14"
+                        className="c48 c49 c14"
                         fill="currentColor"
                         focusable="false"
                         viewBox="0 0 320 512"
@@ -2929,7 +2603,7 @@ li[aria-label="Current Page"] .c46 {
                         />
                       </svg>
                       <span
-                        className="c56 c57"
+                        className="c50 c51"
                         dangerouslySetInnerHTML={
                           Object {
                             "__html": "<span class=\\"os-number\\">12</span><span class=\\"os-divider\\"> </span><span class=\\"os-text\\">Test Chapter 6</span>",
@@ -2939,13 +2613,13 @@ li[aria-label="Current Page"] .c46 {
                     </div>
                   </summary>
                   <ol
-                    className="c59"
+                    className="c53"
                   >
                     <li
-                      className="c43 c44"
+                      className="c37 c38"
                     >
                       <a
-                        className="c45 c46"
+                        className="c39 c40"
                         dangerouslySetInnerHTML={
                           Object {
                             "__html": "<span class=\\"os-text\\">Test Page 7</span>",
@@ -2959,10 +2633,10 @@ li[aria-label="Current Page"] .c46 {
                 </details>
               </li>
               <li
-                className="c43 c44"
+                className="c37 c38"
               >
                 <a
-                  className="c45 c46"
+                  className="c39 c40"
                   dangerouslySetInnerHTML={
                     Object {
                       "__html": "<span class=\\"os-number\\">A</span><span class=\\"os-divider\\"> | </span><span class=\\"os-text\\">Atomic Masses</span></a>",
@@ -2973,10 +2647,10 @@ li[aria-label="Current Page"] .c46 {
                 />
               </li>
               <li
-                className="c43 c44"
+                className="c37 c38"
               >
                 <a
-                  className="c45 c46"
+                  className="c39 c40"
                   dangerouslySetInnerHTML={
                     Object {
                       "__html": "<span class=\\"os-number\\">D</span><span class=\\"os-divider\\"> | </span><span class=\\"os-text\\">Glossary of Key Symbols and Notation</span></a>",
@@ -2987,10 +2661,10 @@ li[aria-label="Current Page"] .c46 {
                 />
               </li>
               <li
-                className="c43 c44"
+                className="c37 c38"
               >
                 <a
-                  className="c45 c46"
+                  className="c39 c40"
                   dangerouslySetInnerHTML={
                     Object {
                       "__html": "<span class=\\"os-text\\">Test Page for Generic Styles</span>",
@@ -3003,23 +2677,23 @@ li[aria-label="Current Page"] .c46 {
             </ol>
           </div>
           <div
-            className="c60"
+            className="c54"
           >
             <div
-              className="c61"
+              className="c55"
             >
               <div
-                className="c62"
+                className="c56"
               >
                 <div
-                  className="c63"
+                  className="c57"
                 >
                   <div
-                    className="c64"
+                    className="c58"
                     tabIndex={0}
                   >
                     <div
-                      className="c65"
+                      className="c59"
                       dangerouslySetInnerHTML={
                         Object {
                           "__html": "<div xmlns:m=\\"http://www.w3.org/1998/Math/MathML\\" xmlns:ns2=\\"urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0\\" class=\\"introduction\\" data-cnxml-to-html-ver=\\"1.3.2\\" data-type=\\"page\\" id=\\"1d1fd537-77fb-4eac-8a8a-60bbaa747b6d\\">this is a test page</div>",
@@ -3030,17 +2704,17 @@ li[aria-label="Current Page"] .c46 {
                     />
                   </div>
                   <div
-                    className="c66"
+                    className="c60"
                   >
                     <a
                       aria-label="Previous Page"
-                      className="c67"
+                      className="c61"
                       href="2-test-page-3"
                       onClick={[Function]}
                     >
                       <svg
                         aria-hidden="true"
-                        className="c68 c5"
+                        className="c62 c5"
                         fill="currentColor"
                         focusable="false"
                         viewBox="0 0 24 24"
@@ -3053,14 +2727,14 @@ li[aria-label="Current Page"] .c46 {
                     </a>
                     <a
                       aria-label="Next Page"
-                      className="c69"
+                      className="c63"
                       href="4-test-page-5"
                       onClick={[Function]}
                     >
                       Next
                       <svg
                         aria-hidden="true"
-                        className="c70 c5"
+                        className="c64 c5"
                         fill="currentColor"
                         focusable="false"
                         viewBox="0 0 24 24"
@@ -3073,16 +2747,16 @@ li[aria-label="Current Page"] .c46 {
                   </div>
                 </div>
                 <details
-                  className="c71"
+                  className="c65"
                   data-testid="attribution-details"
                 >
                   <summary
                     aria-label="Citation/Attribution"
-                    className="c72 c73 c49 c74"
+                    className="c66 c67 c43 c68"
                   >
                     <svg
                       aria-hidden="true"
-                      className="c75 c52 c53 c14"
+                      className="c69 c46 c47 c14"
                       fill="currentColor"
                       focusable="false"
                       viewBox="0 0 192 512"
@@ -3094,7 +2768,7 @@ li[aria-label="Current Page"] .c46 {
                     </svg>
                     <svg
                       aria-hidden="true"
-                      className="c76 c54 c55 c14"
+                      className="c70 c48 c49 c14"
                       fill="currentColor"
                       focusable="false"
                       viewBox="0 0 320 512"
@@ -3109,7 +2783,7 @@ li[aria-label="Current Page"] .c46 {
                     </span>
                   </summary>
                   <div
-                    className="c77"
+                    className="c71"
                     dangerouslySetInnerHTML={
                       Object {
                         "__html": "
@@ -3180,26 +2854,26 @@ li[aria-label="Current Page"] .c46 {
                   />
                 </details>
                 <footer
-                  className="c78"
+                  className="c72"
                 >
                   <div
-                    className="c79"
+                    className="c73"
                   >
                     <div
-                      className="c80"
+                      className="c74"
                     >
                       <div
-                        className="c81"
+                        className="c75"
                       >
                         <div
                           aria-level={2}
-                          className="c82"
+                          className="c76"
                           role="heading"
                         >
                           OpenStax at Rice University is a 501(c)(3) nonprofit charity
                         </div>
                         <div
-                          className="c83"
+                          className="c77"
                           dangerouslySetInnerHTML={
                             Object {
                               "__html": "
@@ -3210,15 +2884,15 @@ li[aria-label="Current Page"] .c46 {
                           }
                         />
                         <div
-                          className="c84"
+                          className="c78"
                         >
                           <div
-                            className="c85"
+                            className="c79"
                           >
                             Help
                           </div>
                           <a
-                            className="c86"
+                            className="c80"
                             href="/contact"
                             rel=""
                             target="_self"
@@ -3226,7 +2900,7 @@ li[aria-label="Current Page"] .c46 {
                             Contact Us
                           </a>
                           <a
-                            className="c86"
+                            className="c80"
                             href="https://openstax.secure.force.com/help"
                             rel="noopener"
                             target="_blank"
@@ -3234,7 +2908,7 @@ li[aria-label="Current Page"] .c46 {
                             Support Center
                           </a>
                           <a
-                            className="c86"
+                            className="c80"
                             href="/faq"
                             rel=""
                             target="_self"
@@ -3243,15 +2917,15 @@ li[aria-label="Current Page"] .c46 {
                           </a>
                         </div>
                         <div
-                          className="c87"
+                          className="c81"
                         >
                           <div
-                            className="c85"
+                            className="c79"
                           >
                             OpenStax
                           </div>
                           <a
-                            className="c86"
+                            className="c80"
                             href="/press"
                             rel=""
                             target="_self"
@@ -3259,7 +2933,7 @@ li[aria-label="Current Page"] .c46 {
                             Press
                           </a>
                           <a
-                            className="c86"
+                            className="c80"
                             href="http://www2.openstax.org/l/218812/2016-10-04/lvk"
                             rel="noopener"
                             target="_blank"
@@ -3267,7 +2941,7 @@ li[aria-label="Current Page"] .c46 {
                             Newsletter
                           </a>
                           <a
-                            className="c86"
+                            className="c80"
                             href="/careers"
                             rel=""
                             target="_self"
@@ -3276,15 +2950,15 @@ li[aria-label="Current Page"] .c46 {
                           </a>
                         </div>
                         <div
-                          className="c88"
+                          className="c82"
                         >
                           <div
-                            className="c85"
+                            className="c79"
                           >
                             Policies
                           </div>
                           <a
-                            className="c86"
+                            className="c80"
                             href="/accessibility-statement"
                             rel=""
                             target="_self"
@@ -3292,7 +2966,7 @@ li[aria-label="Current Page"] .c46 {
                             Accessibility Statement
                           </a>
                           <a
-                            className="c86"
+                            className="c80"
                             href="/tos"
                             rel=""
                             target="_self"
@@ -3300,7 +2974,7 @@ li[aria-label="Current Page"] .c46 {
                             Terms of Use
                           </a>
                           <a
-                            className="c86"
+                            className="c80"
                             href="/license"
                             rel=""
                             target="_self"
@@ -3308,7 +2982,7 @@ li[aria-label="Current Page"] .c46 {
                             Licensing
                           </a>
                           <a
-                            className="c86"
+                            className="c80"
                             href="/privacy-policy"
                             rel=""
                             target="_self"
@@ -3319,13 +2993,13 @@ li[aria-label="Current Page"] .c46 {
                       </div>
                     </div>
                     <div
-                      className="c89"
+                      className="c83"
                     >
                       <div
-                        className="c90"
+                        className="c84"
                       >
                         <div
-                          className="c91"
+                          className="c85"
                           dangerouslySetInnerHTML={
                             Object {
                               "__html": "
@@ -3343,19 +3017,19 @@ li[aria-label="Current Page"] .c46 {
                           }
                         />
                         <div
-                          className="c92"
+                          className="c86"
                           role="directory"
                         >
                           <a
                             aria-label="facebook"
-                            className="c93"
+                            className="c87"
                             href="https://www.facebook.com/openstax"
                             rel="noopener"
                             target="_blank"
                           >
                             <svg
                               aria-hidden="true"
-                              className="c94 c14"
+                              className="c88 c14"
                               fill="currentColor"
                               focusable="false"
                               viewBox="0 0 320 512"
@@ -3368,14 +3042,14 @@ li[aria-label="Current Page"] .c46 {
                           </a>
                           <a
                             aria-label="twitter"
-                            className="c93"
+                            className="c87"
                             href="https://twitter.com/openstax"
                             rel="noopener"
                             target="_blank"
                           >
                             <svg
                               aria-hidden="true"
-                              className="c95 c14"
+                              className="c89 c14"
                               fill="currentColor"
                               focusable="false"
                               viewBox="0 0 512 512"
@@ -3388,14 +3062,14 @@ li[aria-label="Current Page"] .c46 {
                           </a>
                           <a
                             aria-label="linkedin"
-                            className="c93"
+                            className="c87"
                             href="https://www.linkedin.com/company/openstax"
                             rel="noopener"
                             target="_blank"
                           >
                             <svg
                               aria-hidden="true"
-                              className="c96 c14"
+                              className="c90 c14"
                               fill="currentColor"
                               focusable="false"
                               viewBox="0 0 448 512"
@@ -3408,14 +3082,14 @@ li[aria-label="Current Page"] .c46 {
                           </a>
                           <a
                             aria-label="instagram"
-                            className="c93"
+                            className="c87"
                             href="https://www.instagram.com/openstax/"
                             rel="noopener"
                             target="_blank"
                           >
                             <svg
                               aria-hidden="true"
-                              className="c97 c14"
+                              className="c91 c14"
                               fill="currentColor"
                               focusable="false"
                               viewBox="0 0 448 512"
@@ -3427,14 +3101,14 @@ li[aria-label="Current Page"] .c46 {
                             </svg>
                           </a>
                           <a
-                            className="c98"
+                            className="c92"
                             href="http://www.rice.edu"
                             rel="noopener"
                             target="_blank"
                           >
                             <img
                               alt="Rice University logo"
-                              className="c99"
+                              className="c93"
                               src="rice-white-text.png"
                             />
                           </a>
@@ -3567,23 +3241,23 @@ Array [
   overflow: hidden;
 }
 
-.c68 {
+.c62 {
   height: 1em;
 }
 
-.c69 {
+.c63 {
   height: 1em;
 }
 
-.c71 {
+.c65 {
   height: 1em;
 }
 
-.c70 {
+.c64 {
   height: 1em;
 }
 
-.c52 {
+.c46 {
   font-family: Neue Helvetica W01;
   color: #424242;
   font-size: 1.6rem;
@@ -3594,16 +3268,16 @@ Array [
   transition: opacity 0.2s;
 }
 
-.c53 {
+.c47 {
   color: #d5d5d5;
   display: grid;
 }
 
-.c54 {
+.c48 {
   background-color: #424242;
 }
 
-.c55 {
+.c49 {
   max-width: 131rem;
   -webkit-align-items: center;
   -webkit-box-align: center;
@@ -3625,32 +3299,32 @@ Array [
   overflow: visible;
 }
 
-.c56 {
+.c50 {
   grid-area: headline;
 }
 
-.c57 {
+.c51 {
   grid-area: mission;
 }
 
-.c57 a {
+.c51 a {
   color: inherit;
   font-weight: bold;
   text-underline-position: under;
 }
 
-.c60 {
+.c54 {
   color: inherit;
   -webkit-text-decoration: none;
   text-decoration: none;
 }
 
-.c60:hover {
+.c54:hover {
   -webkit-text-decoration: underline;
   text-decoration: underline;
 }
 
-.c72 {
+.c66 {
   color: inherit;
   display: inline-grid;
   grid-auto-flow: column;
@@ -3658,28 +3332,28 @@ Array [
   overflow: hidden;
 }
 
-.c58 {
+.c52 {
   display: grid;
   grid-gap: 0.5rem;
   overflow: visible;
   grid-area: col1;
 }
 
-.c61 {
+.c55 {
   display: grid;
   grid-gap: 0.5rem;
   overflow: visible;
   grid-area: col2;
 }
 
-.c62 {
+.c56 {
   display: grid;
   grid-gap: 0.5rem;
   overflow: visible;
   grid-area: col3;
 }
 
-.c59 {
+.c53 {
   font-size: 1.8rem;
   font-weight: bold;
   -webkit-letter-spacing: -0.072rem;
@@ -3689,7 +3363,7 @@ Array [
   line-height: normal;
 }
 
-.c63 {
+.c57 {
   font-size: 1.2rem;
   font-weight: normal;
   -webkit-letter-spacing: normal;
@@ -3700,7 +3374,7 @@ Array [
   background-color: #3b3b3b;
 }
 
-.c64 {
+.c58 {
   max-width: 131rem;
   -webkit-align-items: center;
   -webkit-box-align: center;
@@ -3722,22 +3396,22 @@ Array [
   overflow: visible;
 }
 
-.c65 {
+.c59 {
   display: grid;
   grid-gap: 1rem;
   overflow: visible;
 }
 
-.c65 [data-html="copyright"] {
+.c59 [data-html="copyright"] {
   overflow: visible;
 }
 
-.c65 a {
+.c59 a {
   color: inherit;
   overflow: visible;
 }
 
-.c65 sup {
+.c59 sup {
   font-size: 66%;
   margin-left: 0.1rem;
   position: relative;
@@ -3745,7 +3419,7 @@ Array [
   vertical-align: top;
 }
 
-.c66 {
+.c60 {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -3760,7 +3434,7 @@ Array [
   overflow: visible;
 }
 
-.c67 {
+.c61 {
   color: inherit;
   font-size: 1.6rem;
   line-height: 2.5rem;
@@ -3779,7 +3453,7 @@ Array [
   width: 3rem;
 }
 
-.c73 {
+.c67 {
   height: 4rem;
   -webkit-transform: translateY(0.2rem);
   -ms-transform: translateY(0.2rem);
@@ -3890,7 +3564,7 @@ Array [
   box-shadow: 0 0 4px 0 rgba(13,192,220,0.5);
 }
 
-.c11.ally-focus-within {
+.c11.focus-within {
   border: solid 0.1rem #0dc0dc;
   box-shadow: 0 0 4px 0 rgba(13,192,220,0.5);
 }
@@ -3898,12 +3572,10 @@ Array [
 .c12 {
   font-family: Neue Helvetica W01;
   color: #424242;
-  font-size: 1.4rem;
-  line-height: 1.6rem;
-  font-weight: normal;
   -webkit-appearance: textfield;
   -moz-appearance: textfield;
   appearance: textfield;
+  font-size: 1.6rem;
   line-height: 2;
   margin: 0 1rem 0 1rem;
   height: 3.2rem;
@@ -3926,43 +3598,19 @@ Array [
 }
 
 .c12::-webkit-input-placeholder {
-  font-family: Neue Helvetica W01;
-  color: #424242;
-  font-size: 1.4rem;
-  line-height: 1.6rem;
-  font-weight: normal;
   color: #6f6f6f;
-  line-height: inherit;
 }
 
 .c12::-moz-placeholder {
-  font-family: Neue Helvetica W01;
-  color: #424242;
-  font-size: 1.4rem;
-  line-height: 1.6rem;
-  font-weight: normal;
   color: #6f6f6f;
-  line-height: inherit;
 }
 
 .c12:-ms-input-placeholder {
-  font-family: Neue Helvetica W01;
-  color: #424242;
-  font-size: 1.4rem;
-  line-height: 1.6rem;
-  font-weight: normal;
   color: #6f6f6f;
-  line-height: inherit;
 }
 
 .c12::placeholder {
-  font-family: Neue Helvetica W01;
-  color: #424242;
-  font-size: 1.4rem;
-  line-height: 1.6rem;
-  font-weight: normal;
   color: #6f6f6f;
-  line-height: inherit;
 }
 
 .c9 {
@@ -4015,198 +3663,51 @@ Array [
   height: 5rem;
 }
 
-.c26 {
-  enable-background: new 0 0 57.6 39.1;
-  -webkit-animation: iuEIAH 0.3s forwards 0.3s;
-  animation: iuEIAH 0.3s forwards 0.3s;
-  display: block;
-  height: 100%;
-  margin: 0 auto;
-  opacity: 0;
-  position: relative;
-  -webkit-transform: scale(0);
-  -ms-transform: scale(0);
-  transform: scale(0);
-  -webkit-transform-origin: center;
-  -ms-transform-origin: center;
-  transform-origin: center;
-  width: 5rem;
+.c21 {
+  width: 100%;
+  padding: 0 3.2rem;
 }
 
-.c26 * {
-  -webkit-animation: fadeIn 0.3s forwards;
-  animation: fadeIn 0.3s forwards;
-}
-
-.c26 .os-green,
-.c26 .os-orange,
-.c26 .os-gray,
-.c26 .os-yellow,
-.c26 .os-blue {
-  -webkit-animation-delay: 0.5s;
-  animation-delay: 0.5s;
-}
-
-.c26 .os-green {
-  -webkit-animation: hkCfKg 0.6s cubic-bezier(0.81,0.41,0.13,0.74) 0.5s infinite alternate;
-  animation: hkCfKg 0.6s cubic-bezier(0.81,0.41,0.13,0.74) 0.5s infinite alternate;
-  -webkit-transform-origin: center left;
-  -ms-transform-origin: center left;
-  transform-origin: center left;
-}
-
-.c26 .os-orange {
-  -webkit-animation: kSacDd 0.6s cubic-bezier(0.81,0.41,0.13,0.74) 0.5s infinite alternate;
-  animation: kSacDd 0.6s cubic-bezier(0.81,0.41,0.13,0.74) 0.5s infinite alternate;
-  -webkit-transform-origin: center right;
-  -ms-transform-origin: center right;
-  transform-origin: center right;
-}
-
-.c26 .os-gray {
-  -webkit-animation: fXlVAV 0.6s cubic-bezier(0.81,0.41,0.13,0.74) 0.5s infinite alternate;
-  animation: fXlVAV 0.6s cubic-bezier(0.81,0.41,0.13,0.74) 0.5s infinite alternate;
-  -webkit-transform-origin: center right;
-  -ms-transform-origin: center right;
-  transform-origin: center right;
-}
-
-.c26 .os-yellow {
-  -webkit-animation: hbytGi 0.6s cubic-bezier(0.81,0.41,0.13,0.74) 0.6s infinite alternate;
-  animation: hbytGi 0.6s cubic-bezier(0.81,0.41,0.13,0.74) 0.6s infinite alternate;
-  -webkit-transform-origin: center right;
-  -ms-transform-origin: center right;
-  transform-origin: center right;
-}
-
-.c26 .os-blue {
-  -webkit-animation: jfsUaa 0.6s cubic-bezier(0.81,0.41,0.13,0.74) 0.5s infinite alternate;
-  animation: jfsUaa 0.6s cubic-bezier(0.81,0.41,0.13,0.74) 0.5s infinite alternate;
-  -webkit-transform-origin: center;
-  -ms-transform-origin: center;
-  transform-origin: center;
-}
-
-.c48 {
-  height: 1.7rem;
-  width: 1.7rem;
-}
-
-.c51 {
+.c42 {
   height: 1.7rem;
   width: 1.7rem;
 }
 
 .c45 {
+  height: 1.7rem;
+  width: 1.7rem;
+}
+
+.c39 {
   list-style: none;
   cursor: pointer;
 }
 
-.c45::before {
+.c39::before {
   display: none;
 }
 
-.c45::-moz-list-bullet {
+.c39::-moz-list-bullet {
   list-style-type: none;
 }
 
-.c45::-webkit-details-marker {
+.c39::-webkit-details-marker {
   display: none;
 }
 
-.c74[open] > summary .c47 {
+.c68[open] > summary .c41 {
   display: none;
 }
 
-.c74:not([open]) > summary .c50 {
+.c68:not([open]) > summary .c44 {
   display: none;
 }
 
-.c25 {
-  color: #818181;
-}
-
-.c25:hover {
-  color: #5e6062;
-}
-
-.c20 {
-  overflow-x: visible;
-  top: 12rem;
-  margin-top: 0;
-  padding: 0;
-  position: -webkit-sticky;
-  position: sticky;
-  width: 44rem;
-  background-color: #f1f1f1;
-  box-shadow: 0.2rem 0 0.2rem 0 rgba(0,0,0,0.1);
-  z-index: 1;
-  height: calc(100vh - 18rem);
-  margin-left: -44rem;
-  -webkit-animation: jnNuMv 300ms forwards;
-  animation: jnNuMv 300ms forwards;
-  -webkit-animation: iVVDrC 300ms forwards;
-  animation: iVVDrC 300ms forwards;
-}
-
-.c20 > .c75 {
-  margin: 0;
-  padding: 0;
-}
-
-.c20 > .c75::before {
-  display: none;
-}
-
-.c24 {
-  height: 2.5rem;
-  width: 2.5rem;
-  padding: 0.4rem;
-  cursor: pointer;
-  border: none;
-  padding: 0;
-  margin: 0.3rem;
-  background: transparent;
-  overflow: visible;
-  height: 3.7rem;
-  width: 3.7rem;
-}
-
-.c22 {
-  overflow: visible;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: end;
-  -webkit-justify-content: flex-end;
-  -ms-flex-pack: end;
-  justify-content: flex-end;
-  margin: 1.4rem 1.4rem 0 0;
-}
-
-.c22 .c23 {
-  margin: 0;
-}
-
-.c21 {
-  overflow: hidden;
-  right: 0;
-  top: 0;
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background-color: #f1f1f1;
-  -webkit-transition: opacity 0.5s 0.3s,-webkit-transform 0.2s 0.2s;
-  -webkit-transition: opacity 0.5s 0.3s,transform 0.2s 0.2s;
-  transition: opacity 0.5s 0.3s,transform 0.2s 0.2s;
-}
-
-.c39 {
+.c33 {
   outline: none;
 }
 
-.c38 {
+.c32 {
   font-family: Neue Helvetica W01;
   color: #424242;
   font-size: 1.6rem;
@@ -4214,44 +3715,42 @@ Array [
   overflow: visible;
 }
 
-.c38 a {
+.c32 a {
   color: #027EB5;
   cursor: pointer;
   -webkit-text-decoration: underline;
   text-decoration: underline;
 }
 
-.c38 a:hover {
+.c32 a:hover {
   color: #0064A0;
 }
 
-.c38 .os-figure,
-.c38 .os-figure:last-child {
+.c32 .os-figure,
+.c32 .os-figure:last-child {
   margin-bottom: 5px;
 }
 
-.c38 * {
+.c32 * {
   overflow: initial;
 }
 
-.c27 {
-  width: 100%;
-  padding: 0 3.2rem;
+.c20 {
   position: relative;
   overflow: visible;
   -webkit-transition: margin-left 300ms;
   transition: margin-left 300ms;
 }
 
-.c46 {
-  margin-left: -0.3rem;
-}
-
-.c49 {
+.c40 {
   margin-left: -0.3rem;
 }
 
 .c43 {
+  margin-left: -0.3rem;
+}
+
+.c37 {
   font-family: Neue Helvetica W01;
   color: #424242;
   font-size: 1.6rem;
@@ -4260,19 +3759,19 @@ Array [
   list-style: none;
 }
 
-.c43 a {
+.c37 a {
   color: #027EB5;
   cursor: pointer;
   -webkit-text-decoration: underline;
   text-decoration: underline;
 }
 
-.c43 a:hover {
+.c37 a:hover {
   color: #0064A0;
 }
 
-.c43,
-.c43 span {
+.c37,
+.c37 span {
   font-family: Neue Helvetica W01;
   color: #424242;
   font-size: 1.6rem;
@@ -4283,27 +3782,27 @@ Array [
   text-decoration: none;
 }
 
-.c43 a,
-.c43 span a {
+.c37 a,
+.c37 span a {
   color: #027EB5;
   cursor: pointer;
   -webkit-text-decoration: underline;
   text-decoration: underline;
 }
 
-.c43 a:hover,
-.c43 span a:hover {
+.c37 a:hover,
+.c37 span a:hover {
   color: #0064A0;
 }
 
-.c43:hover,
-.c43 span:hover {
+.c37:hover,
+.c37 span:hover {
   -webkit-text-decoration: underline;
   text-decoration: underline;
   color: #0064A0;
 }
 
-.c41 {
+.c35 {
   font-family: Neue Helvetica W01;
   color: #424242;
   font-size: 1.6rem;
@@ -4315,30 +3814,30 @@ Array [
   padding-top: 1.8rem;
 }
 
-.c41[open] > summary .c47 {
+.c35[open] > summary .c41 {
   display: none;
 }
 
-.c41:not([open]) > summary .c50 {
+.c35:not([open]) > summary .c44 {
   display: none;
 }
 
-.c41 a {
+.c35 a {
   color: #027EB5;
   cursor: pointer;
   -webkit-text-decoration: underline;
   text-decoration: underline;
 }
 
-.c41 a:hover {
+.c35 a:hover {
   color: #0064A0;
 }
 
-.c41 > .c42 {
+.c35 > .c36 {
   margin-bottom: 1.8rem;
 }
 
-.c41 li {
+.c35 li {
   margin-bottom: 1rem;
   overflow: visible;
 }
@@ -4364,7 +3863,7 @@ Array [
   overflow: hidden;
 }
 
-.c40 {
+.c34 {
   font-family: Neue Helvetica W01;
   color: #424242;
   font-size: 1.6rem;
@@ -4389,7 +3888,7 @@ Array [
   border-bottom: solid 0.1rem #e5e5e5;
 }
 
-.c40 a {
+.c34 a {
   border: none;
   display: -webkit-box;
   display: -webkit-flex;
@@ -4435,18 +3934,19 @@ Array [
   color: #424242;
 }
 
-.c29 {
+.c23 {
   position: -webkit-sticky;
   position: sticky;
   top: 7rem;
   margin-top: -5rem;
   overflow-y: auto;
   height: calc(100vh - 13rem);
+  max-height: calc(100vh - 7rem);
   -webkit-transition: -webkit-transform 300ms ease-in-out,box-shadow 300ms ease-in-out,background-color 300ms ease-in-out;
   -webkit-transition: transform 300ms ease-in-out,box-shadow 300ms ease-in-out,background-color 300ms ease-in-out;
   transition: transform 300ms ease-in-out,box-shadow 300ms ease-in-out,background-color 300ms ease-in-out;
   background-color: #fafafa;
-  z-index: 3;
+  z-index: 4;
   margin-left: -50vw;
   padding-left: 50vw;
   width: calc(50vw + 33.5rem);
@@ -4461,7 +3961,7 @@ Array [
   flex-direction: column;
 }
 
-.c29 > ol {
+.c23 > ol {
   -webkit-overflow-scrolling: touch;
   position: relative;
   padding: 1.8rem 1.8rem 1.8rem 0.2rem;
@@ -4470,11 +3970,11 @@ Array [
   flex: 1;
 }
 
-.c29 > ol > li:first-child {
+.c23 > ol > li:first-child {
   margin-top: 0;
 }
 
-.c29 > ol::before {
+.c23 > ol::before {
   content: "";
   background: #fafafa;
   display: block;
@@ -4482,13 +3982,13 @@ Array [
   margin: -1.8rem -1.8rem 0 -1.8rem;
 }
 
-.c29 > * {
+.c23 > * {
   -webkit-transition: all 300ms;
   transition: all 300ms;
   opacity: 1;
 }
 
-.c31 {
+.c25 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -4502,7 +4002,7 @@ Array [
   box-shadow: 0 1rem 1rem -1rem rgba(0,0,0,0.14);
 }
 
-.c33 {
+.c27 {
   height: 2.5rem;
   width: 2.5rem;
   padding: 0.4rem;
@@ -4511,11 +4011,11 @@ Array [
   color: #818181;
 }
 
-.c33:hover {
+.c27:hover {
   color: #5e6062;
 }
 
-.c32 {
+.c26 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -4526,46 +4026,46 @@ Array [
   flex: 1;
 }
 
-.c32 .c7,
-.c32 .c30 {
+.c26 .c7,
+.c26 .c24 {
   -webkit-flex: 1;
   -ms-flex: 1;
   flex: 1;
   text-align: left;
 }
 
-.c28 {
+.c22 {
   overflow: visible;
   margin: 0 auto;
   max-width: 128rem;
 }
 
 @media print {
-  .c52 {
+  .c46 {
     display: none;
   }
 }
 
 @media (min-width:60.1em) {
-  .c54 {
+  .c48 {
     padding: 7rem 0;
   }
 }
 
 @media (max-width:37.5em) {
-  .c54 {
+  .c48 {
     padding: 2rem 0;
   }
 }
 
 @media (max-width:60.1em) and (min-width:37.6em) {
-  .c54 {
+  .c48 {
     padding: 4rem 0;
   }
 }
 
 @media (min-width:37.6em) {
-  .c55 {
+  .c49 {
     -webkit-align-items: start;
     -webkit-box-align: start;
     -ms-flex-align: start;
@@ -4576,19 +4076,19 @@ Array [
 }
 
 @media (max-width:37.5em) {
-  .c55 {
+  .c49 {
     grid-template: "headline" "mission" "col1" "col2" "col3";
   }
 }
 
 @media (min-width:60.1em) {
-  .c55 {
+  .c49 {
     grid-column-gap: 8rem;
   }
 }
 
 @media (min-width:37.6em) {
-  .c56 {
+  .c50 {
     font-size: 2.4rem;
     font-weight: bold;
     -webkit-letter-spacing: -0.096rem;
@@ -4600,7 +4100,7 @@ Array [
 }
 
 @media (max-width:37.5em) {
-  .c56 {
+  .c50 {
     font-size: 2rem;
     font-weight: bold;
     -webkit-letter-spacing: -0.08rem;
@@ -4612,7 +4112,7 @@ Array [
 }
 
 @media (min-width:37.6em) {
-  .c57 {
+  .c51 {
     font-size: 1.8rem;
     font-weight: normal;
     -webkit-letter-spacing: normal;
@@ -4624,37 +4124,37 @@ Array [
 }
 
 @media (max-width:37.5em) {
-  .c60 {
+  .c54 {
     line-height: 4.5rem;
   }
 }
 
 @media (max-width:37.5em) {
-  .c59 {
+  .c53 {
     line-height: 4.5rem;
   }
 }
 
 @media (min-width:37.6em) {
-  .c63 {
+  .c57 {
     padding: 2.5rem 0;
   }
 }
 
 @media (max-width:37.5em) {
-  .c63 {
+  .c57 {
     padding: 1.5rem;
   }
 }
 
 @media (min-width:37.6em) {
-  .c64 {
+  .c58 {
     grid-auto-flow: column;
   }
 }
 
 @media (max-width:37.5em) {
-  .c64 {
+  .c58 {
     padding: 0;
   }
 }
@@ -4728,75 +4228,40 @@ Array [
 }
 
 @media screen and (max-width:75em) {
-  .c20 {
-    -webkit-animation: iVVDrC 300ms forwards;
-    animation: iVVDrC 300ms forwards;
-  }
-}
-
-@media screen and (max-width:75em) {
-  .c20 {
-    margin-left: -100%;
-    width: 100%;
-    margin-top: 0;
-    top: 15.3rem;
-    padding: 0;
-  }
-}
-
-@media print {
-  .c20 {
-    display: none;
-  }
-}
-
-@media screen and (max-width:75em) {
-  .c24 {
-    display: none;
-  }
-}
-
-@media screen and (max-width:75em) {
-  .c22 {
-    display: none;
+  .c21 {
+    padding: 0 1.6rem;
   }
 }
 
 @media screen {
-  .c38 {
+  .c32 {
     max-width: 82.5rem;
     margin: 0 auto;
   }
 }
 
 @media screen {
-  .c38 {
+  .c32 {
     margin-top: 3.2rem;
   }
 }
 
 @media screen {
-  .c38 .search-highlight {
+  .c32 .search-highlight {
     background-color: #ffd17e;
   }
 
-  .c38 .search-highlight.focus {
+  .c32 .search-highlight.focus {
     background-color: #ff9e4b;
   }
 
-  .c38 .search-highlight.focus .search-highlight {
+  .c32 .search-highlight.focus .search-highlight {
     background-color: unset;
   }
 }
 
-@media screen and (max-width:75em) {
-  .c27 {
-    padding: 0 1.6rem;
-  }
-}
-
 @media screen {
-  .c27 {
+  .c20 {
     -webkit-flex: 1;
     -ms-flex: 1;
     flex: 1;
@@ -4804,31 +4269,31 @@ Array [
 }
 
 @media screen {
-  .c43 {
+  .c37 {
     max-width: 82.5rem;
     margin: 0 auto;
   }
 }
 
 @media screen and (max-width:75em) {
-  .c41 {
+  .c35 {
     padding: 0 1.6rem;
   }
 }
 
 @media screen and (max-width:75em) {
-  .c41 {
+  .c35 {
     min-height: 4rem;
     padding-top: 0.8rem;
   }
 
-  .c41 > .c44 {
+  .c35 > .c38 {
     margin-bottom: 0.8rem;
   }
 }
 
 @media print {
-  .c41 {
+  .c35 {
     display: none;
   }
 }
@@ -4847,7 +4312,7 @@ Array [
 }
 
 @media screen {
-  .c34 {
+  .c28 {
     -webkit-flex: 1;
     -ms-flex: 1;
     flex: 1;
@@ -4859,30 +4324,31 @@ Array [
 }
 
 @media print {
-  .c40 {
+  .c34 {
     display: none;
   }
 }
 
 @media screen and (max-width:75em) {
-  .c40 {
+  .c34 {
     margin: 3.5rem auto 3.7rem auto;
     border: 0;
   }
 }
 
 @media screen and (max-width:75em) {
-  .c29 {
+  .c23 {
     width: calc(50vw + 28.8rem);
     min-width: calc(50vw + 28.8rem);
     margin-top: -4rem;
     top: 6rem;
     height: calc(100vh - 11.2rem);
+    max-height: calc(100vh - 6rem);
   }
 }
 
 @media screen and (max-width:75em) {
-  .c29 {
+  .c23 {
     overflow-y: hidden;
     -webkit-transform: translateX(-33.5rem);
     -ms-transform: translateX(-33.5rem);
@@ -4890,21 +4356,22 @@ Array [
     box-shadow: none;
     background-color: transparent;
     pointer-events: none;
+    visibility: hidden;
   }
 
-  .c29 > * {
+  .c23 > * {
     opacity: 0;
   }
 }
 
 @media print {
-  .c29 {
+  .c23 {
     display: none;
   }
 }
 
 @media screen and (max-width:75em) {
-  .c31 {
+  .c25 {
     height: 4rem;
   }
 }
@@ -4927,7 +4394,7 @@ Array [
 }
 
 @media screen {
-  .c28 {
+  .c22 {
     min-height: 100%;
     display: -webkit-box;
     display: -webkit-flex;
@@ -4940,7 +4407,7 @@ Array [
 }
 
 @media screen {
-  .c35 {
+  .c29 {
     overflow: visible;
     min-height: 100%;
     display: -webkit-box;
@@ -4955,7 +4422,7 @@ Array [
 }
 
 @media screen {
-  .c36 {
+  .c30 {
     -webkit-flex: 1;
     -ms-flex: 1;
     flex: 1;
@@ -4976,7 +4443,7 @@ Array [
 }
 
 @media screen {
-  .c37 {
+  .c31 {
     -webkit-flex: 1;
     -ms-flex: 1;
     flex: 1;
@@ -5120,142 +4587,23 @@ Array [
       className="c19"
     >
       <div
-        aria-label="Search results sidebar"
-        className="c20"
-        data-testid="search-results-sidebar"
+        className="c20 c21"
       >
         <div
-          aria-label="Loading results"
-          className="c21"
-        >
-          <div
-            className="c22"
-          >
-            <button
-              className="c23 c24"
-              onClick={[Function]}
-            >
-              <svg
-                aria-hidden="true"
-                className="c25"
-                focusable="false"
-                height="15px"
-                version="1.1"
-                viewBox="0 0 15 15"
-                width="15px"
-              >
-                <g
-                  fill="none"
-                  fillRule="evenodd"
-                  stroke="none"
-                  strokeWidth="1"
-                >
-                  <g
-                    fill="currentColor"
-                    transform="translate(-302.000000, -18.000000)"
-                  >
-                    <g
-                      transform="translate(302.000000, 18.000000)"
-                    >
-                      <path
-                        d="M7.5,5.41522791 L12.0331524,0.579865364 C12.3077536,0.286957429 12.7165503,0.24816296 12.946282,0.493210121 L13.9861449,1.60239723 C14.2158766,1.84744439 14.1795068,2.28349422 13.9049056,2.57640216 L9.37175324,7.41176471 L13.9049056,12.2471273 C14.1795068,12.5400352 14.2158766,12.976085 13.9861449,13.2211322 L12.946282,14.3303193 C12.7165503,14.5753665 12.3077536,14.536572 12.0331524,14.243664 L7.5,9.4083015 L2.96684761,14.243664 C2.69224642,14.536572 2.2834497,14.5753665 2.05371799,14.3303193 L1.01385508,13.2211322 C0.784123363,12.976085 0.820493178,12.5400352 1.09509437,12.2471273 L5.62824676,7.41176471 L1.09509437,2.57640216 C0.820493178,2.28349422 0.784123363,1.84744439 1.01385508,1.60239723 L2.05371799,0.493210121 C2.2834497,0.24816296 2.69224642,0.286957429 2.96684761,0.579865364 L7.5,5.41522791 Z"
-                      />
-                    </g>
-                  </g>
-                </g>
-              </svg>
-            </button>
-          </div>
-          <svg
-            className="c26"
-            data-testid="loader"
-            id="Layer_1"
-            version="1.1"
-            viewBox="0 0 57.6 39.1"
-            x="0px"
-            y="0px"
-          >
-            <path
-              className="os-blue"
-              d="M38.4,22c0,0.4-0.3,0.7-0.7,0.7H13.5c-0.4,0-0.7-0.3-0.7-0.7v-1.4c0-0.4,0.3-0.7,0.7-0.7h24.2 c0.4,0,0.7,0.3,0.7,0.7V22z"
-              id="os-blue"
-              style={
-                Object {
-                  "fill": "#00246a",
-                }
-              }
-            />
-            <path
-              className="os-yellow"
-              d="M41.8,17.8c0,0.4-0.3,0.7-0.7,0.7l-25.4,0.8c-0.4,0-0.7-0.3-0.7-0.7l-0.1-2.1 c0-0.4,0.3-0.7,0.7-0.7L41,15c0.4,0,0.7,0.3,0.7,0.7L41.8,17.8z"
-              id="os-yellow"
-              style={
-                Object {
-                  "fill": "#f4d019",
-                }
-              }
-            />
-            <path
-              className="os-gray"
-              d="M34.8,14c0,0.4-0.3,0.7-0.7,0.7H11.6c-0.4,0-0.7-0.3-0.7-0.7v-3.5c0-0.4,0.3-0.7,0.7-0.7h22.5 c0.4,0,0.7,0.3,0.7,0.7V14z"
-              id="os-gray"
-              style={
-                Object {
-                  "fill": "#5e6062",
-                }
-              }
-            />
-            <path
-              className="os-orange"
-              d="M39,8.1c0,0.3-0.4,0.5-1,0.5H8.6c-0.5,0-1-0.2-1-0.5V6.9c0-0.3,0.4-0.5,1-0.5H38 c0.5,0,1,0.2,1,0.5V8.1z"
-              id="os-orange"
-              style={
-                Object {
-                  "fill": "#f47641",
-                }
-              }
-            />
-            <path
-              className="os-green"
-              d="M43.9,5c0,0.7-0.6,1.2-1.2,1.1L15,4.8c-0.7,0-1.2-0.6-1.1-1.2L14,1.1c0-0.7,0.6-1.2,1.2-1.1 l27.7,1.3c0.7,0,1.2,0.6,1.1,1.2L43.9,5z"
-              id="os-green"
-              style={
-                Object {
-                  "fill": "#77af42",
-                }
-              }
-            />
-            <path
-              className="os-type"
-              d="M3.1,30.2c-1.8,0-3.1,1.3-3.1,3.1c0,1.8,1.3,3.1,3.1,3.1c1.8,0,3.1-1.3,3.1-3.1 C6.2,31.5,4.9,30.2,3.1,30.2z M3.1,35.7c-1.4,0-2.3-1.1-2.3-2.4c0-1.3,0.9-2.4,2.3-2.4c1.4,0,2.3,1.1,2.3,2.4 C5.4,34.6,4.5,35.7,3.1,35.7z M10.9,30.2c-0.9,0-1.9,0.4-2.4,1.2h0v-1H7.7v8.8h0.8v-3.9h0C9,36,10,36.4,10.9,36.4 c1.8,0,3.1-1.3,3.1-3.1C14,31.5,12.7,30.2,10.9,30.2z M10.9,35.7c-1.4,0-2.5-1.1-2.5-2.4c0-1.3,1.1-2.4,2.5-2.4 c1.4,0,2.3,1.1,2.3,2.4C13.2,34.6,12.3,35.7,10.9,35.7z M18.3,30.2c-1.7,0-2.9,1.3-2.9,3.1c0,1.8,1.2,3.1,3,3.1c1,0,2-0.4,2.6-1.3 l-0.6-0.5c-0.4,0.6-1.2,1-2,1c-1.8,0-2.2-1.6-2.2-2.2h5v-0.5C21.1,31.6,20.1,30.2,18.3,30.2z M16.1,32.8c0-0.3,0.5-1.9,2.1-1.9 c1.1,0,2,0.9,2,1.9H16.1z M27.9,32.7v3.5h-0.8v-3.5c0-1-0.3-1.9-1.5-1.9c-1.1,0-2,0.8-2,2.4v2.9h-0.8V32c0-0.4-0.1-1.4-0.1-1.7h0.8 c0,0.4,0,0.9,0.1,1h0c0.3-0.7,1.1-1.2,2-1.2C27.4,30.2,27.9,31.4,27.9,32.7z M34.2,34.4c0,1.5-1.4,2-2.6,2c-0.9,0-1.8-0.2-2.4-0.9 l1-1c0.4,0.4,0.8,0.8,1.5,0.8c0.4,0,1-0.2,1-0.7c0-1.3-3.3-0.3-3.3-2.6c0-1.4,1.2-2,2.5-2c0.8,0,1.7,0.3,2.2,0.9l-1,0.9 c-0.3-0.4-0.7-0.6-1.2-0.6c-0.4,0-0.9,0.2-0.9,0.7C30.9,32.9,34.2,32,34.2,34.4z M37.5,30.1h1.7v1.3h-1.7v2.7c0,0.6,0.2,1,0.9,1 c0.3,0,0.6-0.1,0.8-0.2v1.3c-0.3,0.2-0.9,0.2-1.2,0.2c-1.6,0-2-0.7-2-2.2v-2.8h-1.3v-1.3H36v-1.8h1.5V30.1z M43,30 c-1,0-1.9,0.3-2.6,1l0.8,0.8c0.4-0.4,1-0.6,1.6-0.6c0.8,0,1.4,0.4,1.4,1.1v0.2h-0.4c-1.5,0-3.9,0.1-3.9,2.1c0,1.2,1.1,1.8,2.2,1.8 c0.8,0,1.5-0.3,2-1h0v0.8h1.4v-3.5C45.6,31.8,45.6,30,43,30z M44.1,33.8c0,0.9-0.5,1.4-1.5,1.4c-0.5,0-1.1-0.2-1.1-0.8 c0-0.9,1.5-0.9,2.3-0.9h0.3V33.8z M50.8,32.9l2.5,3.3h-1.9L49.8,34l-1.6,2.2h-1.8l2.5-3.3l-2.1-2.8h1.9l1.2,1.8l1.3-1.8h1.7 L50.8,32.9z M57.6,30.1v1.7h-0.3v-1.5h0l-0.6,1.5h-0.2l-0.6-1.5h0v1.5h-0.3v-1.7h0.4l0.5,1.3l0.5-1.3H57.6z M53.9,30.1h1.4v0.3h-0.5 v1.5h-0.3v-1.5h-0.5V30.1z"
-              id="os-type"
-              style={
-                Object {
-                  "fill": "#5e6062",
-                }
-              }
-            />
-          </svg>
-        </div>
-      </div>
-      <div
-        className="c27"
-      >
-        <div
-          className="c28"
+          className="c22"
         >
           <div
             aria-label="Table of Contents"
-            className="c29"
+            className="c23"
             data-testid="toc"
           >
             <div
-              className="c30 c31"
+              className="c24 c25"
               data-testid="tocheader"
             >
               <button
                 aria-label="Click to close the Table of Contents"
-                className="c32 c4"
+                className="c26 c4"
                 onClick={[Function]}
               >
                 <svg
@@ -5277,7 +4625,7 @@ Array [
                 </span>
                 <svg
                   aria-hidden="true"
-                  className="c33"
+                  className="c27"
                   focusable="false"
                   height="15px"
                   version="1.1"
@@ -5308,23 +4656,23 @@ Array [
             </div>
           </div>
           <div
-            className="c34"
+            className="c28"
           >
             <div
-              className="c35"
+              className="c29"
             >
               <div
-                className="c36"
+                className="c30"
               >
                 <div
-                  className="c37"
+                  className="c31"
                 >
                   <div
-                    className="c38"
+                    className="c32"
                     tabIndex={0}
                   >
                     <div
-                      className="c39"
+                      className="c33"
                       dangerouslySetInnerHTML={
                         Object {
                           "__html": "",
@@ -5335,7 +4683,7 @@ Array [
                     />
                   </div>
                   <div
-                    className="c40"
+                    className="c34"
                   >
                     <span
                       aria-hidden={true}
@@ -5346,16 +4694,16 @@ Array [
                   </div>
                 </div>
                 <details
-                  className="c41"
+                  className="c35"
                   data-testid="attribution-details"
                 >
                   <summary
                     aria-label="Citation/Attribution"
-                    className="c42 c43 c44 c45"
+                    className="c36 c37 c38 c39"
                   >
                     <svg
                       aria-hidden="true"
-                      className="c46 c47 c48 c6"
+                      className="c40 c41 c42 c6"
                       fill="currentColor"
                       focusable="false"
                       viewBox="0 0 192 512"
@@ -5367,7 +4715,7 @@ Array [
                     </svg>
                     <svg
                       aria-hidden="true"
-                      className="c49 c50 c51 c6"
+                      className="c43 c44 c45 c6"
                       fill="currentColor"
                       focusable="false"
                       viewBox="0 0 320 512"
@@ -5383,26 +4731,26 @@ Array [
                   </summary>
                 </details>
                 <footer
-                  className="c52"
+                  className="c46"
                 >
                   <div
-                    className="c53"
+                    className="c47"
                   >
                     <div
-                      className="c54"
+                      className="c48"
                     >
                       <div
-                        className="c55"
+                        className="c49"
                       >
                         <div
                           aria-level={2}
-                          className="c56"
+                          className="c50"
                           role="heading"
                         >
                           OpenStax at Rice University is a 501(c)(3) nonprofit charity
                         </div>
                         <div
-                          className="c57"
+                          className="c51"
                           dangerouslySetInnerHTML={
                             Object {
                               "__html": "
@@ -5413,15 +4761,15 @@ Array [
                           }
                         />
                         <div
-                          className="c58"
+                          className="c52"
                         >
                           <div
-                            className="c59"
+                            className="c53"
                           >
                             Help
                           </div>
                           <a
-                            className="c60"
+                            className="c54"
                             href="/contact"
                             rel=""
                             target="_self"
@@ -5429,7 +4777,7 @@ Array [
                             Contact Us
                           </a>
                           <a
-                            className="c60"
+                            className="c54"
                             href="https://openstax.secure.force.com/help"
                             rel="noopener"
                             target="_blank"
@@ -5437,7 +4785,7 @@ Array [
                             Support Center
                           </a>
                           <a
-                            className="c60"
+                            className="c54"
                             href="/faq"
                             rel=""
                             target="_self"
@@ -5446,15 +4794,15 @@ Array [
                           </a>
                         </div>
                         <div
-                          className="c61"
+                          className="c55"
                         >
                           <div
-                            className="c59"
+                            className="c53"
                           >
                             OpenStax
                           </div>
                           <a
-                            className="c60"
+                            className="c54"
                             href="/press"
                             rel=""
                             target="_self"
@@ -5462,7 +4810,7 @@ Array [
                             Press
                           </a>
                           <a
-                            className="c60"
+                            className="c54"
                             href="http://www2.openstax.org/l/218812/2016-10-04/lvk"
                             rel="noopener"
                             target="_blank"
@@ -5470,7 +4818,7 @@ Array [
                             Newsletter
                           </a>
                           <a
-                            className="c60"
+                            className="c54"
                             href="/careers"
                             rel=""
                             target="_self"
@@ -5479,15 +4827,15 @@ Array [
                           </a>
                         </div>
                         <div
-                          className="c62"
+                          className="c56"
                         >
                           <div
-                            className="c59"
+                            className="c53"
                           >
                             Policies
                           </div>
                           <a
-                            className="c60"
+                            className="c54"
                             href="/accessibility-statement"
                             rel=""
                             target="_self"
@@ -5495,7 +4843,7 @@ Array [
                             Accessibility Statement
                           </a>
                           <a
-                            className="c60"
+                            className="c54"
                             href="/tos"
                             rel=""
                             target="_self"
@@ -5503,7 +4851,7 @@ Array [
                             Terms of Use
                           </a>
                           <a
-                            className="c60"
+                            className="c54"
                             href="/license"
                             rel=""
                             target="_self"
@@ -5511,7 +4859,7 @@ Array [
                             Licensing
                           </a>
                           <a
-                            className="c60"
+                            className="c54"
                             href="/privacy-policy"
                             rel=""
                             target="_self"
@@ -5522,13 +4870,13 @@ Array [
                       </div>
                     </div>
                     <div
-                      className="c63"
+                      className="c57"
                     >
                       <div
-                        className="c64"
+                        className="c58"
                       >
                         <div
-                          className="c65"
+                          className="c59"
                           dangerouslySetInnerHTML={
                             Object {
                               "__html": "
@@ -5546,19 +4894,19 @@ Array [
                           }
                         />
                         <div
-                          className="c66"
+                          className="c60"
                           role="directory"
                         >
                           <a
                             aria-label="facebook"
-                            className="c67"
+                            className="c61"
                             href="https://www.facebook.com/openstax"
                             rel="noopener"
                             target="_blank"
                           >
                             <svg
                               aria-hidden="true"
-                              className="c68 c6"
+                              className="c62 c6"
                               fill="currentColor"
                               focusable="false"
                               viewBox="0 0 320 512"
@@ -5571,14 +4919,14 @@ Array [
                           </a>
                           <a
                             aria-label="twitter"
-                            className="c67"
+                            className="c61"
                             href="https://twitter.com/openstax"
                             rel="noopener"
                             target="_blank"
                           >
                             <svg
                               aria-hidden="true"
-                              className="c69 c6"
+                              className="c63 c6"
                               fill="currentColor"
                               focusable="false"
                               viewBox="0 0 512 512"
@@ -5591,14 +4939,14 @@ Array [
                           </a>
                           <a
                             aria-label="linkedin"
-                            className="c67"
+                            className="c61"
                             href="https://www.linkedin.com/company/openstax"
                             rel="noopener"
                             target="_blank"
                           >
                             <svg
                               aria-hidden="true"
-                              className="c70 c6"
+                              className="c64 c6"
                               fill="currentColor"
                               focusable="false"
                               viewBox="0 0 448 512"
@@ -5611,14 +4959,14 @@ Array [
                           </a>
                           <a
                             aria-label="instagram"
-                            className="c67"
+                            className="c61"
                             href="https://www.instagram.com/openstax/"
                             rel="noopener"
                             target="_blank"
                           >
                             <svg
                               aria-hidden="true"
-                              className="c71 c6"
+                              className="c65 c6"
                               fill="currentColor"
                               focusable="false"
                               viewBox="0 0 448 512"
@@ -5630,14 +4978,14 @@ Array [
                             </svg>
                           </a>
                           <a
-                            className="c72"
+                            className="c66"
                             href="http://www.rice.edu"
                             rel="noopener"
                             target="_blank"
                           >
                             <img
                               alt="Rice University logo"
-                              className="c73"
+                              className="c67"
                               src="rice-white-text.png"
                             />
                           </a>

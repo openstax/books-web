@@ -13,8 +13,13 @@ export const getBookPageUrlAndParams = (book: Book, page: Pick<Page, 'id' | 'sho
     book: book.slug,
     page: getUrlParamForPageId(book, page.shortId),
   };
+  const state = {
+    bookUid: book.id,
+    bookVersion: book.version,
+    pageUid: stripIdVersion(page.id),
+  };
 
-  return {params, url: contentRoute.getUrl(params)};
+  return {params, state, url: contentRoute.getUrl(params)};
 };
 
 const getUrlParamForPageIdCache = new Map();

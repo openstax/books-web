@@ -20,12 +20,19 @@ export const findTextInRange = (
     withinRange: withinRange.cloneRange(),
   });
 
+  // no matches, or matches were outside the given range boundaries
   if (!foundMatch || !range.intersectsRange(withinRange)) {
     return [];
   }
 
   const match = range.cloneRange();
   range.collapse(false);
+
+  // if we're outside the given range boundaries after collapsing, don't
+  // check for more matches
+  if (!range.intersectsRange(withinRange)) {
+    return [match];
+  }
 
   return [
     match,

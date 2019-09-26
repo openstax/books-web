@@ -1,8 +1,9 @@
 import React from 'react';
 import { Provider } from 'react-redux';
 import renderer from 'react-test-renderer';
+import createTestServices from '../../../test/createTestServices';
 import createTestStore from '../../../test/createTestStore';
-import mockArchiveLoader, {
+import {
   book,
   shortPage
 } from '../../../test/mocks/archiveLoader';
@@ -11,8 +12,8 @@ import MobileScrollLock from '../../components/MobileScrollLock';
 import ScrollOffset from '../../components/ScrollOffset';
 import * as Services from '../../context/Services';
 import MessageProvider from '../../MessageProvider';
-import { AppServices, AppState, Store } from '../../types';
-import { openToc } from '../actions';
+import { Store } from '../../types';
+import { openToc, receiveBook, receivePage } from '../actions';
 import { openMobileToolbar } from '../search/actions';
 import { Book } from '../types';
 import { formatBookData } from '../utils';
@@ -20,10 +21,8 @@ import Content from './Content';
 import { TableOfContents } from './TableOfContents';
 
 describe('content', () => {
-  let archiveLoader: ReturnType<typeof mockArchiveLoader>;
-  let state: AppState;
   let store: Store;
-  const services = {} as AppServices;
+  let services: ReturnType<typeof createTestServices>;
   const bookState: Book = formatBookData(book, mockCmsBook);
 
   beforeEach(() => {
@@ -32,15 +31,12 @@ describe('content', () => {
         'https://localhost/books/book-slug-1/pages/doesnotmatter'
       ),
     });
-    state = store.getState();
-
-    archiveLoader = mockArchiveLoader();
-    (services as any).archiveLoader = archiveLoader;
+    services = createTestServices();
   });
 
   it('matches snapshot', () => {
-    state.content.book = bookState;
-    state.content.page = shortPage;
+    store.dispatch(receiveBook(bookState));
+    store.dispatch(receivePage({...shortPage, references: []}));
 
     const component = renderer.create(
       <Provider store={store}>
@@ -116,8 +112,8 @@ describe('content', () => {
   });
 
   it('gets page content out of cached archive query', () => {
-    state.content.book = bookState;
-    state.content.page = shortPage;
+    store.dispatch(receiveBook(bookState));
+    store.dispatch(receivePage({...shortPage, references: []}));
 
     renderer.create(
       <Provider store={store}>
@@ -129,8 +125,8 @@ describe('content', () => {
       </Provider>
     );
 
-    expect(archiveLoader.mock.cachedPage).toHaveBeenCalledTimes(1);
-    expect(archiveLoader.mock.cachedPage).toHaveBeenCalledWith(
+    expect(services.archiveLoader.mock.cachedPage).toHaveBeenCalledTimes(1);
+    expect(services.archiveLoader.mock.cachedPage).toHaveBeenCalledWith(
       'testbook1-uuid',
       '1.0',
       'testbook1-testpage4-uuid'
@@ -138,10 +134,10 @@ describe('content', () => {
   });
 
   it('page element is still rendered if archive content is unavailable', () => {
-    state.content.book = bookState;
-    state.content.page = shortPage;
+    store.dispatch(receiveBook(bookState));
+    store.dispatch(receivePage({...shortPage, references: []}));
 
-    archiveLoader.mock.cachedPage.mockReturnValue(undefined);
+    services.archiveLoader.mock.cachedPage.mockReturnValue(undefined);
 
     const component = renderer.create(
       <Provider store={store}>

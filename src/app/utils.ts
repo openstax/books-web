@@ -4,6 +4,7 @@ import { getType } from 'typesafe-actions';
 import Sentry from '../helpers/Sentry';
 import { recordError } from './errors/actions';
 
+import { Document } from '@openstax/types/lib.dom';
 import {
   ActionHookBody,
   AnyAction,
@@ -130,4 +131,12 @@ export const getAllRegexMatches = (regex: RegExp) => {
     }
     return matches;
   };
+};
+
+export const resetTabIndex = (document: Document) => {
+  const index = document.body.tabIndex;
+  document.body.tabIndex = 0;
+
+  document.body.focus();
+  document.body.tabIndex = index;
 };

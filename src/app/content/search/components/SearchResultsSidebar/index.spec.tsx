@@ -14,6 +14,7 @@ import { mockCmsBook } from '../../../../../test/mocks/osWebLoader';
 import {
   makeEvent,
   makeFindByTestId,
+  makeFindOrNullByTestId,
   renderToDom
 } from '../../../../../test/reactutils';
 import {
@@ -63,8 +64,24 @@ describe('SearchResultsSidebar', () => {
     expect(() => unmountComponentAtNode(root)).not.toThrow();
   });
 
-  it('is closed when there is no search', () => {
+  it('is initially null when there is no search', () => {
     const component = renderer.create(render());
+    const findById = makeFindOrNullByTestId(component.root);
+
+    expect(findById('search-results-sidebar')).toBe(null);
+  });
+
+  it('is hidden after search is cleared', () => {
+    const component = renderer.create(render());
+
+    renderer.act(() => {
+      store.dispatch(requestSearch('cool search'));
+      store.dispatch(receiveSearchResults(makeSearchResults()));
+    });
+    renderer.act(() => {
+      store.dispatch(clearSearch());
+    });
+
     const findById = makeFindByTestId(component.root);
 
     expect(findById('search-results-sidebar').props.searchResultsOpen).toBe(false);

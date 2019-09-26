@@ -5,10 +5,11 @@ import { FormattedMessage } from 'react-intl';
 import { connect } from 'react-redux';
 import { isHtmlElement } from '../../../guards';
 import { AppState, Dispatch } from '../../../types';
-import { assertDocument, assertString, assertWindow } from '../../../utils';
+import { assertDocument, assertString } from '../../../utils';
 import { clearSearch, openMobileToolbar, openSearchResultsMobile, requestSearch } from '../../search/actions';
 import * as selectSearch from '../../search/selectors';
 import { OpenSidebarControl } from '../SidebarControl';
+import PrintButton from './PrintButton';
 import * as Styled from './styled';
 
 interface Props {
@@ -49,11 +50,6 @@ class Toolbar extends React.Component<Props, State> {
       }
     };
 
-    const onChange = (e: React.FormEvent<HTMLInputElement>) => {
-      e.preventDefault();
-      this.setState({ query: e.currentTarget.value, formSubmitted: false });
-    };
-
     const onClear = (e: React.FormEvent) => {
       e.preventDefault();
       this.setState({ query: '', formSubmitted: false });
@@ -74,6 +70,10 @@ class Toolbar extends React.Component<Props, State> {
       this.props.openSearchResults();
     };
 
+    const onChange = (e: React.FormEvent<HTMLInputElement>) => {
+      this.setState({ query: e.currentTarget.value, formSubmitted: false });
+    };
+
     return <Styled.BarWrapper>
       <Styled.TopBar data-testid='toolbar'>
         <OpenSidebarControl />
@@ -84,7 +84,8 @@ class Toolbar extends React.Component<Props, State> {
             data-testid='desktop-search'
           >
             <Styled.SearchInput desktop type='search' data-testid='desktop-search-input'
-              onChange={onChange} value={this.state.query}/>
+              onChange={onChange}
+              value={this.state.query}/>
             <FormattedMessage id='i18n:toolbar:search:toggle'>
               {(msg) => <FormattedMessage id='i18n:search-results:bar:search-icon:value'>
                 {(val) => <Styled.SearchButton mobile
@@ -103,19 +104,7 @@ class Toolbar extends React.Component<Props, State> {
               <Styled.CloseButton desktop type='button' onClick={onClear} data-testid='desktop-clear-search' />
             }
           </Styled.SearchInputWrapper>
-          <FormattedMessage id='i18n:toolbar:print:text'>
-            {(msg: Element | string) => <FormattedMessage id='i18n:toolbar:print:aria-label'>
-              {(label: Element | string) =>
-                <Styled.PrintOptWrapper
-                  onClick={() => assertWindow().print()}
-                  aria-label={label}
-                  data-testid='print'
-                >
-                  <Styled.PrintIcon /><Styled.PrintOptions>{msg}</Styled.PrintOptions>
-                </Styled.PrintOptWrapper>
-              }</FormattedMessage>
-            }
-          </FormattedMessage>
+          <PrintButton/>
         </Styled.SearchPrintWrapper>
       </Styled.TopBar>
       {this.props.mobileToolbarOpen && <Styled.MobileSearchWrapper>

@@ -41,13 +41,13 @@ export class SearchResultsSidebar extends Component<Props, State> {
   }
 
   public componentWillReceiveProps(newProps: Props) {
-    if (newProps.results) {
+    if (newProps.results || (newProps.query !== this.state.query && !this.state.query)) {
       this.setState(this.getStateProps(newProps));
     }
   }
 
   public render() {
-    return <SearchResultsBarWrapper {...this.props} {...this.state} />;
+    return this.state.query ? <SearchResultsBarWrapper {...this.props} {...this.state} /> : null;
   }
 
   private getStateProps(props: Props) {

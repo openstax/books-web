@@ -512,11 +512,15 @@ exports[`content in browser when logged in matches snapshot 1`] = `
 }
 
 .c14 {
+  position: absolute;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+  -webkit-clip: rect(1px,1px,1px,1px);
+  clip: rect(1px,1px,1px,1px);
   box-shadow: 0 0.5rem 0.5rem 0 rgba(0,0,0,0.1);
-  overflow: visible;
   margin: 0;
   padding: 0.6rem 0;
-  position: absolute;
   background: #fff;
   top: calc(100% - 0.4rem);
   right: 0;
@@ -546,22 +550,21 @@ exports[`content in browser when logged in matches snapshot 1`] = `
   color: #0064A0;
 }
 
-.c3:not(:hover):not(.ally-focus-within) .c14 {
-  position: absolute;
-  height: 1px;
-  width: 1px;
-  overflow: hidden;
-  -webkit-clip: rect(1px,1px,1px,1px);
-  clip: rect(1px,1px,1px,1px);
+.c3.focus-within .c14,
+.c3:hover .c14 {
+  height: unset;
+  width: unset;
+  -webkit-clip: unset;
+  clip: unset;
+  overflow: visible;
 }
 
-.c3:not(:hover):not(:focus-within) .c14 {
-  position: absolute;
-  height: 1px;
-  width: 1px;
-  overflow: hidden;
-  -webkit-clip: rect(1px,1px,1px,1px);
-  clip: rect(1px,1px,1px,1px);
+.c3:focus-within .c14 {
+  height: unset;
+  width: unset;
+  -webkit-clip: unset;
+  clip: unset;
+  overflow: visible;
 }
 
 .c11 {
@@ -673,8 +676,8 @@ exports[`content in browser when logged in matches snapshot 1`] = `
 
 @media screen and (max-width:75em) {
   .c14 {
-    box-shadow: none;
     position: static;
+    box-shadow: none;
     border: none;
     background: none;
   }
@@ -705,8 +708,17 @@ exports[`content in browser when logged in matches snapshot 1`] = `
   }
 
   .c11:focus,
-  .c11.ally-focus-within,
+  .c11.focus-within,
   .c5:focus ~ .c11 {
+    padding-top: 40%;
+    background: rgba(255,255,255,0.98);
+    height: auto;
+    width: auto;
+    right: 0;
+    bottom: -100%;
+  }
+
+  .c11:focus-within {
     padding-top: 40%;
     background: rgba(255,255,255,0.98);
     height: auto;
@@ -726,7 +738,7 @@ exports[`content in browser when logged in matches snapshot 1`] = `
 @media screen and (max-width:75em) {
   .c5:focus ~ .c15,
   .c10:focus ~ .c15,
-  .c10.ally-focus-within ~ .c15 {
+  .c10.focus-within ~ .c15 {
     display: block;
   }
 }

@@ -1,21 +1,20 @@
-import ReactType from 'react';
-import rendererType from 'react-test-renderer';
-import { resetModules } from '../../../test/utils';
-import MessageProvider from '../../MessageProvider';
-import UpdatesAvailable from './UpdatesAvailable';
+import { reactAndFriends, resetModules } from '../../../test/utils';
 
 describe('UpdatesAvailable', () => {
+  let React: ReturnType<typeof reactAndFriends>['React']; // tslint:disable-line:variable-name
+  let renderer: ReturnType<typeof reactAndFriends>['renderer'];
+  let MessageProvider: ReturnType<typeof reactAndFriends>['MessageProvider']; // tslint:disable-line:variable-name
+  let UpdatesAvailable = require('./UpdatesAvailable').default; // tslint:disable-line:variable-name
+
   describe('in browser', () => {
     const reloadBackup = window!.location.reload;
     let reload: jest.SpyInstance;
-    let renderer: typeof rendererType;
-    let React: typeof ReactType; // tslint:disable-line:variable-name
 
     beforeEach(() => {
-      React = require('react');
-      renderer = require('react-test-renderer');
-
       reload = window!.location.reload = jest.fn();
+      resetModules();
+      ({React, renderer, MessageProvider} = reactAndFriends());
+      UpdatesAvailable = require('./UpdatesAvailable').default; // tslint:disable-line:variable-name
     });
 
     afterEach(() => {
@@ -33,15 +32,12 @@ describe('UpdatesAvailable', () => {
     const windowBackup = window;
     const documentBackup = document;
 
-    let renderer: typeof rendererType;
-    let React: typeof ReactType; // tslint:disable-line:variable-name
-
     beforeEach(() => {
-      resetModules();
       delete (global as any).window;
       delete (global as any).document;
-      React = require('react');
-      renderer = require('react-test-renderer');
+      resetModules();
+      ({React, renderer, MessageProvider} = reactAndFriends());
+      UpdatesAvailable = require('./UpdatesAvailable').default; // tslint:disable-line:variable-name
     });
 
     afterEach(() => {

@@ -70,7 +70,7 @@ const resolveBookReference = async(
   const bookSlug = match.params.book;
   const currentBook = select.book(state);
 
-  if (match.state) {
+  if (match.state && match.state.bookUid && match.state.bookVersion) {
     return [bookSlug, match.state.bookUid, match.state.bookVersion];
   }
 
@@ -106,7 +106,9 @@ const resolvePage = async(
 ) => {
   const {getState} = services;
   const state = getState();
-  const pageId = match.state ? match.state.pageUid : getPageIdFromUrlParam(book, match.params.page);
+  const pageId = match.state && match.state.pageUid
+    ? match.state.pageUid
+    : getPageIdFromUrlParam(book, match.params.page);
 
   if (!pageId) {
     // TODO - 404 handling

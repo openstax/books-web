@@ -25,6 +25,7 @@ export * from './wrapper';
 const numberCharacterWidth = .7796875;
 const letterCharacterWidth = 1.0375;
 const numberPeriodWidth = .390625;
+const dividerWidth = .8;
 
 const activeState = css`
   color: ${theme.color.text.black};
@@ -131,7 +132,7 @@ export const NavOl = styled.ol<{section: ArchiveTree}>`
         }
 
         .os-divider {
-          width: 0.8rem;
+          width: ${dividerWidth}rem;
           text-align: center;
           overflow: hidden;
         }
@@ -143,7 +144,7 @@ export const NavOl = styled.ol<{section: ArchiveTree}>`
       }
 
       & > ${NavItem} > details > ol {
-        margin-left: ${numberWidth + 0.5}rem;
+        margin-left: ${numberWidth + dividerWidth}rem;
       }
     `;
   }}

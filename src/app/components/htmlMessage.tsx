@@ -1,8 +1,8 @@
 import React, { ComponentType, HTMLAttributes } from 'react';
-import { FormattedHTMLMessage, MessageValue } from 'react-intl';
+import { FormattedHTMLMessage } from 'react-intl';
 import { assertString } from '../utils';
 
-interface Props {values?: {[key: string]: MessageValue}; }
+type Props = Pick<React.ComponentProps<typeof FormattedHTMLMessage>, 'values'>;
 
 // tslint:disable-next-line:variable-name
 type Type = <T extends any>(messageKey: string, Component: ComponentType<HTMLAttributes<T>>) =>

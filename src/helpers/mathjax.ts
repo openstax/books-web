@@ -30,6 +30,12 @@ const MATHJAX_CONFIG = {
   },
 };
 
+const findProcessedMath = (root: Element): Element[] => Array.from(root.querySelectorAll('.MathJax math'));
+const findUnprocessedMath = (root: Element): Element[] => {
+  const processedMath = findProcessedMath(root);
+  return Array.from(root.querySelectorAll('math')).filter((node) => processedMath.indexOf(node) === -1);
+};
+
 const findLatexNodes = (root: Element): Element[] => {
   const latexNodes: Element[] = [];
   for (const node of Array.from(root.querySelectorAll(MATH_DATA_SELECTOR))) {
@@ -58,7 +64,7 @@ const typesetLatexNodes = (latexNodes: Element[], windowImpl: Window) => () => {
 };
 
 const typesetMathMLNodes = (root: Element, windowImpl: Window) => () => {
-  const mathMLNodes = Array.from(root.querySelectorAll(MATH_ML_SELECTOR));
+  const mathMLNodes = findUnprocessedMath(root);
 
   if (isEmpty(mathMLNodes)) {
     return;

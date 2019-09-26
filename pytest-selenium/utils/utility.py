@@ -11,3 +11,8 @@ class Library(object):
 
     def random_book_slug(self):
         return random.choice(self.books)
+
+
+class FontProperties(object):
+    def is_bold(self, element):
+        return element.value_of_css_property("font-weight") == "400"

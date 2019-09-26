@@ -59,4 +59,27 @@ describe('findTextInRange', () => {
     expect(result[0]).toBe(firstMatch);
     expect(result[1]).toBe(secondMatch);
   });
+
+  it('doesn\'t look for more matches if outside given range', () => {
+    const withinRange = mockRange();
+    const searchRange = mockRange();
+
+    searchRange.findText.mockReturnValue(true);
+
+    searchRange.intersectsRange
+      .mockReturnValue(false)
+      .mockReturnValueOnce(true)
+    ;
+
+    const firstMatch = mockRange();
+
+    searchRange.cloneRange.mockReturnValue(firstMatch);
+
+    rangy.createRange.mockReturnValueOnce(searchRange);
+
+    const result = findTextInRange(withinRange as unknown as RangyRange, 'cool text');
+
+    expect(result.length).toBe(1);
+    expect(searchRange.findText).toHaveBeenCalledTimes(1);
+  });
 });

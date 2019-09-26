@@ -18,16 +18,6 @@ function stripToContent() {
   do
     path=$REPLY
 
-    # this bug is fixed, but the broken content still exists in some old releases
-    # and it breaks prettyhtml, remove this line when we no longer care about
-    # those older releases
-    sed -Ei '' \
-      -e '1h;2,$H;$!d;g' \
-      -e 's/a target="_blank" rel="noopener nofollow"nn/ann/' \
-      "$path"
-
-    prettyhtml --sortAttributes "$path"
-
     sed -Ei '' \
       -e '1h;2,$H;$!d;g' \
       -e 's/^.*id="main-content"[^>]*>(.*)<div class="PrevNextBar.*$/\1/' \

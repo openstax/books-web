@@ -7,13 +7,13 @@ import { Search } from 'styled-icons/fa-solid/Search';
 import { TimesCircle } from 'styled-icons/fa-solid/TimesCircle';
 import { maxNavWidth } from '../../../components/NavBar/styled';
 import {
+  contentFont,
   decoratedLinkStyle,
-  labelStyle,
   textRegularLineHeight,
   textRegularSize,
-  textRegularStyle
+  textRegularStyle,
+  textStyle
 } from '../../../components/Typography';
-import { contentFont } from '../../../components/Typography/base';
 import theme from '../../../theme';
 import { assertString } from '../../../utils';
 import {
@@ -147,7 +147,7 @@ export const SearchInputWrapper = styled.form`
     box-shadow: 0 0 4px 0 rgba(13, 192, 220, 0.5);
   }
 
-  &.ally-focus-within {
+  &.focus-within {
     border: solid 0.1rem ${theme.color.secondary.lightBlue.base};
     box-shadow: 0 0 4px 0 rgba(13, 192, 220, 0.5);
   }
@@ -176,8 +176,9 @@ export const SearchInput = styled(({desktop, mobile, ...props}) =>
       placeholder={assertString(msg, 'placeholder must be a string')}
     />}
   </FormattedMessage>)`
-    ${labelStyle}
+    ${textStyle}
     ${hideSearchChrome}
+    font-size: 1.6rem;
     line-height: 2;
     margin: 0 1rem 0 1rem;
     height: ${toolbarSearchInputHeight}rem;
@@ -187,9 +188,7 @@ export const SearchInput = styled(({desktop, mobile, ...props}) =>
     appearance: textfield;
 
     ::placeholder {
-      ${labelStyle}
       color: ${theme.color.text.label};
-      line-height: inherit;
     }
 
     ${(props) => props.desktop && theme.breakpoints.mobile(css`

@@ -1,26 +1,24 @@
 import { ComponentClass } from 'react';
-import ReactDOM from 'react-dom';
 import ReactTestUtils from 'react-dom/test-utils';
 import createTestStore from '../../../test/createTestStore';
-import { resetModules } from '../../../test/utils';
+import { reactAndFriends, resetModules } from '../../../test/utils';
 import { receiveLoggedOut, receiveUser } from '../../auth/actions';
 import { User } from '../../auth/types';
-import MessageProvider from '../../MessageProvider';
 import { Store } from '../../types';
 import { assertWindow } from '../../utils';
-let React: any; // tslint:disable-line:variable-name
-let renderer: any;
-let Provider: any; // tslint:disable-line:variable-name
-let renderToDom: any;
 
 describe('content', () => {
+  let React: ReturnType<typeof reactAndFriends>['React']; // tslint:disable-line:variable-name
+  let renderer: ReturnType<typeof reactAndFriends>['renderer'];
+  let Provider: ReturnType<typeof reactAndFriends>['Provider']; // tslint:disable-line:variable-name
+  let renderToDom: ReturnType<typeof reactAndFriends>['renderToDom'];
+  let ReactDOM: ReturnType<typeof reactAndFriends>['ReactDOM']; // tslint:disable-line:variable-name
+  let MessageProvider: ReturnType<typeof reactAndFriends>['MessageProvider']; // tslint:disable-line:variable-name
+
   beforeEach(() => {
     resetModules();
     jest.resetAllMocks();
-    React = require('react');
-    Provider = require('react-redux').Provider;
-    renderer = require('react-test-renderer');
-    renderToDom = require('../../../test/reactutils').renderToDom;
+    ({React, Provider, renderer, ReactDOM, renderToDom, MessageProvider} = reactAndFriends());
   });
 
   describe('in browser', () => {
@@ -32,10 +30,10 @@ describe('content', () => {
     let user: User;
 
     beforeEach(() => {
+      user = {firstName: 'test', isNotGdprLocation: true, uuid: 'some_uuid'};
       store = createTestStore();
       NavBar = require('.').default;
       Dropdown = require('.').Dropdown;
-      user = {firstName: 'test', isNotGdprLocation: true, uuid: 'some_uuid'};
     });
 
     const render = () => <Provider store={store}>
@@ -46,8 +44,9 @@ describe('content', () => {
 
     it('matches snapshot for null state', () => {
       const component = renderer.create(render());
-
       const tree = component.toJSON();
+      component.unmount();
+
       expect(tree).toMatchSnapshot();
     });
 
@@ -58,8 +57,9 @@ describe('content', () => {
 
       it('matches snapshot', () => {
         const component = renderer.create(render());
-
         const tree = component.toJSON();
+        component.unmount();
+
         expect(tree).toMatchSnapshot();
       });
 
@@ -89,12 +89,12 @@ describe('content', () => {
     });
 
     it('matches snapshot for logged out', () => {
-
       store.dispatch(receiveLoggedOut());
 
       const component = renderer.create(render());
-
       const tree = component.toJSON();
+      component.unmount();
+
       expect(tree).toMatchSnapshot();
     });
 
@@ -153,6 +153,21 @@ describe('content', () => {
         expect(getComputedStyle).toHaveBeenCalledWith(overlay);
         expect(preventDefault).not.toHaveBeenCalled();
       });
+
+      it('noops without a dom', () => {
+        const element = renderer.create(render());
+        const OnScroll = require('../OnScroll').default; // tslint:disable-line:variable-name
+        const onScroll = element.root.findByType(OnScroll);
+
+        const event = window.document.createEvent('UIEvents');
+        event.initEvent('scroll', true, false);
+        const preventDefault = jest.spyOn(event, 'preventDefault');
+
+        onScroll.props.callback(event);
+
+        expect(getComputedStyle).not.toHaveBeenCalled();
+        expect(preventDefault).not.toHaveBeenCalled();
+      });
     });
   });
 
@@ -162,14 +177,15 @@ describe('content', () => {
     beforeEach(() => {
       loaded = false;
 
-      jest.mock('ally.js/style/focus-within', () => {
+      jest.doMock('focus-within-polyfill', () => {
         loaded = true;
       });
     });
 
     describe('inside browser', () => {
       it('loads', async() => {
-        await import('.');
+        require('.');
+        await Promise.resolve();
         expect(loaded).toBe(true);
       });
     });
@@ -189,7 +205,8 @@ describe('content', () => {
       });
 
       it('doesn\'t load', async() => {
-        await import('.');
+        require('.');
+        await Promise.resolve();
         expect(loaded).toBe(false);
       });
     });

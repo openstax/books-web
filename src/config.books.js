@@ -10,9 +10,6 @@ const books = {
   /* College Algebra */ '9b08c294-057f-4201-9f48-5d6ad992740d': {defaultVersion: '13.10'},
   /* Alg & Trig */ '13ac107a-f15f-49d2-97e8-60ab2e3b519c': {defaultVersion: '17.12'},
   /* PreCalculus */ 'fd53eae1-fa23-47c7-bb1b-972349835c3c': {defaultVersion: '11.14'},
-  /* Fizyka dla szkół wyższych. Tom 1 */ '4eaa8f03-88a8-485a-a777-dd3602f6c13e': {defaultVersion: '1.153'},
-  /* Fizyka dla szkół wyższych. Tom 2 */ '16ab5b96-4598-45f9-993c-b8d78d82b0c6': {defaultVersion: '2.180'},
-  /* Fizyka dla szkół wyższych. Tom 3 */ 'bb62933e-f20a-4ffc-90aa-97b36c296c3e': {defaultVersion: '3.37'},
 };
 
 module.exports = books;

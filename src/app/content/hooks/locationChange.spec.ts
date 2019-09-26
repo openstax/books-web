@@ -1,14 +1,12 @@
 import { Location } from 'history';
 import { OSWebBook } from '../../../gateways/createOSWebLoader';
-import FontCollector from '../../../helpers/FontCollector';
-import PromiseCollector from '../../../helpers/PromiseCollector';
+import createTestServices from '../../../test/createTestServices';
 import createTestStore from '../../../test/createTestStore';
-import mockArchiveLoader, { book, page } from '../../../test/mocks/archiveLoader';
-import mockOSWebLoader from '../../../test/mocks/osWebLoader';
+import { book, page } from '../../../test/mocks/archiveLoader';
 import { mockCmsBook } from '../../../test/mocks/osWebLoader';
 import { resetModules } from '../../../test/utils';
 import { Match } from '../../navigation/types';
-import { AppServices, MiddlewareAPI, Store } from '../../types';
+import { MiddlewareAPI, Store } from '../../types';
 import * as actions from '../actions';
 import { receiveBook, receivePage } from '../actions';
 import * as routes from '../routes';
@@ -22,29 +20,22 @@ jest.doMock('../../../config', () => mockConfig);
 
 describe('locationChange', () => {
   let store: Store;
-  let archiveLoader: ReturnType<typeof mockArchiveLoader>;
-  let osWebLoader: ReturnType<typeof mockOSWebLoader>;
   let dispatch: jest.SpyInstance;
-  let helpers: MiddlewareAPI & AppServices;
+  let helpers: ReturnType<typeof createTestServices> & MiddlewareAPI;
   let payload: {location: Location, match: Match<typeof routes.content>};
   let hook = require('./locationChange').default;
 
   beforeEach(() => {
+    resetModules();
     store = createTestStore();
 
-    archiveLoader = mockArchiveLoader();
-    osWebLoader = mockOSWebLoader();
-
-    dispatch = jest.fn((action) => store.dispatch(action));
-
     helpers = {
-      archiveLoader,
-      dispatch,
-      fontCollector: new FontCollector(),
+      ...createTestServices(),
+      dispatch: store.dispatch,
       getState: store.getState,
-      osWebLoader,
-      promiseCollector: new PromiseCollector(),
-    } as any as MiddlewareAPI & AppServices;
+    };
+
+    dispatch = jest.spyOn(helpers, 'dispatch');
 
     payload = {
       location: {} as Location,
@@ -60,25 +51,21 @@ describe('locationChange', () => {
     hook = (require('./locationChange').default)(helpers);
   });
 
-  afterEach(() => {
-    resetModules();
-  });
-
   it('loads book', async() => {
     await hook(payload);
     expect(dispatch).toHaveBeenCalledWith(actions.requestBook('book-slug-1'));
-    expect(archiveLoader.mock.loadBook).toHaveBeenCalledWith('testbook1-uuid', '1.0');
+    expect(helpers.archiveLoader.mock.loadBook).toHaveBeenCalledWith('testbook1-uuid', '1.0');
   });
 
   it('doesn\'t load book if its already loaded', async() => {
     store.dispatch(receiveBook({...formatBookData(book, mockCmsBook), slug: 'book'}));
     await hook(payload);
     expect(dispatch).not.toHaveBeenCalledWith(actions.requestBook('book'));
-    expect(archiveLoader.mock.loadBook).not.toHaveBeenCalled();
+    expect(helpers.archiveLoader.mock.loadBook).not.toHaveBeenCalled();
   });
 
   it('doesn\'t load book if its already loading', async() => {
-    archiveLoader.mock.loadBook.mockImplementation(
+    helpers.archiveLoader.mock.loadBook.mockImplementation(
       () => new Promise((resolve) => setTimeout(() => resolve(book), 100))
     );
 
@@ -98,7 +85,8 @@ describe('locationChange', () => {
   it('loads page', async() => {
     await hook(payload);
     expect(dispatch).toHaveBeenCalledWith(actions.requestPage('test-page-1'));
-    expect(archiveLoader.mock.loadPage).toHaveBeenCalledWith('testbook1-uuid', '1.0', 'testbook1-testpage1-uuid');
+    expect(helpers.archiveLoader.mock.loadPage)
+      .toHaveBeenCalledWith('testbook1-uuid', '1.0', 'testbook1-testpage1-uuid');
   });
 
   it('doesn\'t load page if its already loaded', async() => {
@@ -106,9 +94,9 @@ describe('locationChange', () => {
 
     await hook(payload);
     expect(dispatch).not.toHaveBeenCalledWith(actions.requestPage(expect.anything()));
-    expect(archiveLoader.mock.loadPage).not.toHaveBeenCalled();
-    expect(archiveLoader.mock.loadBook).not.toHaveBeenCalledWith('page', expect.anything());
-    expect(archiveLoader.mock.loadBook).not.toHaveBeenCalledWith('pagelongid', expect.anything());
+    expect(helpers.archiveLoader.mock.loadPage).not.toHaveBeenCalled();
+    expect(helpers.archiveLoader.mock.loadBook).not.toHaveBeenCalledWith('page', expect.anything());
+    expect(helpers.archiveLoader.mock.loadBook).not.toHaveBeenCalledWith('pagelongid', expect.anything());
   });
 
   it('doesn\'t load page if its already loading', async() => {
@@ -125,7 +113,7 @@ describe('locationChange', () => {
     expect(dispatch).toHaveBeenNthCalledWith(3, actions.requestPage('test-page-1'));
     expect(dispatch).toHaveBeenNthCalledWith(4, actions.receivePage(expect.anything()));
 
-    expect(archiveLoader.mock.loadPage).toHaveBeenCalledTimes(1);
+    expect(helpers.archiveLoader.mock.loadPage).toHaveBeenCalledTimes(1);
   });
 
   it('loads more specific data when available', async() => {
@@ -136,12 +124,13 @@ describe('locationChange', () => {
     };
 
     await hook(payload);
-    expect(archiveLoader.mock.loadBook).toHaveBeenCalledWith('testbook1-uuid', '1.0');
-    expect(archiveLoader.mock.loadPage).toHaveBeenCalledWith('testbook1-uuid', '1.0', 'testbook1-testpage1-uuid');
+    expect(helpers.archiveLoader.mock.loadBook).toHaveBeenCalledWith('testbook1-uuid', '1.0');
+    expect(helpers.archiveLoader.mock.loadPage)
+      .toHaveBeenCalledWith('testbook1-uuid', '1.0', 'testbook1-testpage1-uuid');
   });
 
   it('loads a page with a content reference', async() => {
-    archiveLoader.mockPage(book, {
+    helpers.archiveLoader.mockPage(book, {
       abstract: '',
       content: 'rando content',
       id: 'rando-page-id',
@@ -150,7 +139,7 @@ describe('locationChange', () => {
       title: 'rando page',
       version: '0',
     }, 'rando-page');
-    archiveLoader.mockPage(book, {
+    helpers.archiveLoader.mockPage(book, {
       abstract: '',
       content: 'some <a href="/contents/rando-page-id"></a> content',
       id: 'asdfasfasdfasdf',
@@ -250,11 +239,11 @@ describe('locationChange', () => {
     };
 
     beforeEach(() => {
-      archiveLoader.mockBook(mockOtherBook);
-      archiveLoader.mockPage(mockOtherBook, mockPageInOtherBook, 'page-in-a-new-book');
+      helpers.archiveLoader.mockBook(mockOtherBook);
+      helpers.archiveLoader.mockPage(mockOtherBook, mockPageInOtherBook, 'page-in-a-new-book');
       mockConfig.BOOKS.newbookid = {defaultVersion: '0'};
 
-      archiveLoader.mockPage(book, {
+      helpers.archiveLoader.mockPage(book, {
         abstract: '',
         content: 'some <a href="/contents/newbookpageid"></a> content',
         id: 'pageid',
@@ -274,13 +263,13 @@ describe('locationChange', () => {
     });
 
     it('load', async() => {
-      archiveLoader.mock.getBookIdsForPage.mockReturnValue(Promise.resolve(['newbookid']));
-      osWebLoader.getBookFromId.mockReturnValue(Promise.resolve(mockCmsOtherBook));
+      helpers.archiveLoader.mock.getBookIdsForPage.mockReturnValue(Promise.resolve(['newbookid']));
+      helpers.osWebLoader.getBookFromId.mockReturnValue(Promise.resolve(mockCmsOtherBook));
 
       await hook(payload);
 
-      expect(archiveLoader.mock.getBookIdsForPage).toHaveBeenCalledWith('newbookpageid');
-      expect(osWebLoader.getBookFromId).toHaveBeenCalledWith('newbookid');
+      expect(helpers.archiveLoader.mock.getBookIdsForPage).toHaveBeenCalledWith('newbookpageid');
+      expect(helpers.osWebLoader.getBookFromId).toHaveBeenCalledWith('newbookid');
 
       expect(dispatch).toHaveBeenCalledWith(expect.objectContaining({payload: expect.objectContaining({references: [{
         match: '/contents/newbookpageid',
@@ -297,7 +286,7 @@ describe('locationChange', () => {
     });
 
     it('error when the page is not in any configured book', async() => {
-      archiveLoader.mock.getBookIdsForPage.mockReturnValue(Promise.resolve(['garbagebookid']));
+      helpers.archiveLoader.mock.getBookIdsForPage.mockReturnValue(Promise.resolve(['garbagebookid']));
 
       let message: string | undefined;
 
@@ -314,7 +303,7 @@ describe('locationChange', () => {
     });
 
     it('error when archive returns a book that doesn\'t actually contain the page', async() => {
-      archiveLoader.mockBook({
+      helpers.archiveLoader.mockBook({
         id: 'garbagebookid',
         license: {name: '', version: ''},
         shortId: 'garbagebookshortid',
@@ -328,9 +317,9 @@ describe('locationChange', () => {
         },
         version: '0',
       });
-      archiveLoader.mock.getBookIdsForPage.mockReturnValue(Promise.resolve(['garbagebookid']));
+      helpers.archiveLoader.mock.getBookIdsForPage.mockReturnValue(Promise.resolve(['garbagebookid']));
       mockConfig.BOOKS.garbagebookid = {defaultVersion: '0'};
-      osWebLoader.getBookFromId.mockReturnValue(Promise.resolve(mockCmsOtherBook));
+      helpers.osWebLoader.getBookFromId.mockReturnValue(Promise.resolve(mockCmsOtherBook));
 
       let message: string | undefined;
 
