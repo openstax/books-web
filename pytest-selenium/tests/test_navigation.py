@@ -47,3 +47,32 @@ def test_next_link_hidden_on_last_page(selenium, base_url, book_slug, page_slug)
 
     # AND: The "previous" link should not be hidden
     assert content.previous_link.is_displayed
+
+
+@markers.test_case("C477319")
+@markers.parametrize("page_slug", [("preface")])
+@markers.nondestructive
+def test_next_button_nexts(selenium, base_url, book_slug, page_slug):
+
+    # GIVEN: The page is loaded
+    content = Content(selenium, base_url, book_slug=book_slug, page_slug=page_slug).open()
+
+    # WHEN: the "next" link is clicked
+    content.click_next_link()
+
+    # THEN: the new page scrolls to the top
+    assert content.is_scrolled_to_top()
+
+
+@markers.test_case("C477320")
+@markers.parametrize("page_slug", [("index")])
+@markers.nondestructive
+def test_previous_button_previouses(selenium, base_url, book_slug, page_slug):
+    # GIVEN: The page is loaded
+    content = Content(selenium, base_url, book_slug=book_slug, page_slug=page_slug).open()
+
+    # WHEN: The "previous" link is clicked
+    content.click_previous_link()
+
+    # THEN: The new page scrolls to the top
+    assert content.is_scrolled_to_top()

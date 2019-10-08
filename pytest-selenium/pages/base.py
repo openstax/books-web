@@ -44,7 +44,7 @@ class Page(pypom.Page):
     def wait_for_region_to_display(self, region):
         self.wait.until(lambda _: region.is_displayed)
         return self
-    
+
     def click_and_wait_for_load(self, element: WebElement):
         """Clicks an offscreen element and waits for title to load.
 
@@ -76,3 +76,9 @@ class Page(pypom.Page):
                 "return window.getComputedStyle(arguments[0]).height;", element
             )
         ).strip("px")
+
+    def is_scrolled_to_top(self):
+        if self.driver.execute_script("return window.pageYOffset;") == 0:
+            return True
+        else:
+            print("content is not scrolled to top")
