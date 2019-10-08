@@ -9,16 +9,16 @@ const TEST_CASES: { [testCase: string]: (target: Page) => Promise<void> } = {
   Desktop: setDesktopViewport, Mobile: setMobileViewport,
 };
 const EXPECTED_SCROLL_TOPS: { [testCase: string]: number[] } = {
-  Desktop: [265, 152, 152, 265, 354, 584, 671, 1172, 1478],
-  Mobile: [239, 126, 126, 239, 448, 998, 1105, 1454, 1780],
+  Desktop: [265, 120, 152, 265, 354, 584, 671, 1172, 1478],
+  Mobile: [239, 96, 126, 239, 448, 998, 1105, 1454, 1780],
 };
 
 describe('Content', () => {
   for (const testCase of Object.keys(TEST_CASES)) {
     describe(testCase, () => {
-      beforeEach(() => {
+      beforeEach(async() => {
         const setViewport = TEST_CASES[testCase];
-        setViewport(page);
+        await setViewport(page);
       });
 
       it('scrolls correctly to all elements', async() => {

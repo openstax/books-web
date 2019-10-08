@@ -6,7 +6,8 @@
     "NODE_ENV": "development",
     "REACT_APP_ENV": "development",
     "REACT_APP_RELEASE_ID": "heroku",
-    "REACT_APP_CODE_VERSION": "heroku"
+    "REACT_APP_CODE_VERSION": "heroku",
+    "REACT_APP_SENTRY_ENABLED": "true"
   },
   "formation": {
     "web": {

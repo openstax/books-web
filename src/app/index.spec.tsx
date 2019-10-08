@@ -1,44 +1,44 @@
-import { Middleware } from 'redux';
+import createTestServices from '../test/createTestServices';
+import { reactAndFriends, resetModules } from '../test/utils';
 import { notFound } from './errors/routes';
 import { AnyMatch } from './navigation/types';
 import { AppServices } from './types';
 let React: any; // tslint:disable-line:variable-name
 let renderer: any;
 
-// tslint:disable-next-line
-var mockedSentry = { // var is needed so that the mock is hoisted
-  initializeWithMiddleware: jest.fn(
-    (() => () => (next) => (action: any) => { next(action); }) as Middleware
-  ),
-  isEnabled: false,
-};
-jest.mock('../helpers/Sentry', () => mockedSentry);
+jest.mock('../config', () => ({
+  DEPLOYED_ENV: 'test',
+  RELEASE_ID: '1234',
+  SENTRY_ENABLED: false,
+}));
 
 describe('create app', () => {
   let history = require('history');
   let createApp = require('./index').default;
   let createBrowserHistory: jest.SpyInstance;
   let createMemoryHistory: jest.SpyInstance;
-  const services = {} as AppServices;
+  let services: AppServices;
 
   beforeEach(() => {
-    jest.resetModules();
-    React = require('react');
-    renderer = require('react-test-renderer');
+    jest.resetAllMocks();
+    resetModules();
+    ({React, renderer} = reactAndFriends());
     history = require('history');
-    createApp = require('./index').default;
+    services = createTestServices();
 
     createBrowserHistory = jest.spyOn(history, 'createBrowserHistory');
     createMemoryHistory = jest.spyOn(history, 'createMemoryHistory');
   });
 
   it('uses browser history in the browser', () => {
+    createApp = require('./index').default;
     createApp({services});
     expect(createBrowserHistory).toHaveBeenCalled();
     expect(createMemoryHistory).not.toHaveBeenCalled();
   });
 
   it('initializes the location state when initialEntries is passed', () => {
+    createApp = require('./index').default;
     const match = {state: 'asdf'} as unknown as AnyMatch;
     const app = createApp({services, initialEntries: [match]});
 
@@ -57,12 +57,14 @@ describe('create app', () => {
     });
 
     it('uses memory history', () => {
+      createApp = require('./index').default;
       createApp({services});
       expect(createBrowserHistory).not.toHaveBeenCalled();
       expect(createMemoryHistory).toHaveBeenCalled();
     });
 
     it('initializes the location url when initialEntries is passed', () => {
+      createApp = require('./index').default;
       const match = {route: {getUrl: jest.fn(() => 'url')}} as unknown as AnyMatch;
       const app = createApp({services, initialEntries: [match]});
 
@@ -70,11 +72,28 @@ describe('create app', () => {
       expect(match.route.getUrl).toHaveBeenCalled();
     });
 
-    it('adds sentry middleware when it is enabled', () => {
-      mockedSentry.isEnabled = true;
+    it('doesn\'t add sentry middleware when not enabled', () => {
+      jest.doMock('../config', () => ({
+        DEPLOYED_ENV: 'test',
+        RELEASE_ID: '1234',
+        SENTRY_ENABLED: false,
+      }));
+      const initializeWithMiddleware = jest.spyOn(require('../helpers/Sentry').default, 'initializeWithMiddleware');
+      createApp = require('./index').default;
       createApp({services});
-      expect(mockedSentry.initializeWithMiddleware).toHaveBeenCalled();
-      mockedSentry.isEnabled = false;
+      expect(initializeWithMiddleware).not.toHaveBeenCalled();
+    });
+
+    it('adds sentry middleware when it is enabled', () => {
+      jest.doMock('../config', () => ({
+        DEPLOYED_ENV: 'test',
+        RELEASE_ID: '1234',
+        SENTRY_ENABLED: true,
+      }));
+      const initializeWithMiddleware = jest.spyOn(require('../helpers/Sentry').default, 'initializeWithMiddleware');
+      createApp = require('./index').default;
+      createApp({services});
+      expect(initializeWithMiddleware).toHaveBeenCalled();
     });
   });
 
@@ -90,6 +109,7 @@ describe('create app', () => {
       delete window.location;
       window.location = newLocation;
 
+      createApp = require('./index').default;
       const app = createApp({
         initialEntries: [
           {code: 404, page: {route: notFound}},

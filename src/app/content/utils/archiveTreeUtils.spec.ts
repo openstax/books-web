@@ -1,5 +1,6 @@
+import { book, page } from '../../../test/mocks/archiveLoader';
 import { treeWithoutUnits, treeWithUnits } from '../../../test/trees';
-import { ArchiveTree, ArchiveTreeSection } from '../types';
+import { ArchiveTree, ArchiveTreeSection, Page } from '../types';
 import {
   archiveTreeSectionIsBook,
   archiveTreeSectionIsChapter,
@@ -7,7 +8,8 @@ import {
   archiveTreeSectionIsUnit,
   findArchiveTreeNode,
   findDefaultBookPage,
-  splitTitleParts,
+  getPageSlug,
+  splitTitleParts
 } from './archiveTreeUtils';
 
 const makeArchiveSection = (title: string): ArchiveTreeSection => ({
@@ -16,7 +18,10 @@ const makeArchiveSection = (title: string): ArchiveTreeSection => ({
   slug: `${title}-slug`,
   title,
 });
-const makeArchiveTree = (title: string, contents: ArchiveTree['contents']): ArchiveTree => ({
+const makeArchiveTree = (
+  title: string,
+  contents: ArchiveTree['contents']
+): ArchiveTree => ({
   ...makeArchiveSection(title),
   contents,
 });
@@ -24,41 +29,41 @@ const makeArchiveTree = (title: string, contents: ArchiveTree['contents']): Arch
 describe('findDefaultBookPage', () => {
   it('returns first page if there are no chapters', () => {
     const firstPage = makeArchiveSection('page1');
-    const book: {tree: ArchiveTree} = {tree: makeArchiveTree('book', [
-      firstPage,
-      makeArchiveSection('page2'),
-    ])};
+    const testBook: { tree: ArchiveTree } = {
+      tree: makeArchiveTree('book', [firstPage, makeArchiveSection('page2')]),
+    };
 
-    expect(findDefaultBookPage(book)).toBe(firstPage);
+    expect(findDefaultBookPage(testBook)).toBe(firstPage);
   });
 
   it('returns first page of the first chapter if there are chapters', () => {
     const firstPage = makeArchiveSection('page1');
-    const book: {tree: ArchiveTree} = {tree: makeArchiveTree('book', [
-      makeArchiveTree('chapter1', [
-        firstPage,
-        makeArchiveSection('page2'),
+    const testBook: { tree: ArchiveTree } = {
+      tree: makeArchiveTree('book', [
+        makeArchiveTree('chapter1', [firstPage, makeArchiveSection('page2')]),
+        makeArchiveSection('page3'),
       ]),
-      makeArchiveSection('page3'),
-    ])};
+    };
 
-    expect(findDefaultBookPage(book)).toBe(firstPage);
+    expect(findDefaultBookPage(testBook)).toBe(firstPage);
   });
 
   it('returns first page of the first nested chapter if there are nested chapters', () => {
     const firstPage = makeArchiveSection('page1');
-    const book: {tree: ArchiveTree} = {tree: makeArchiveTree('book', [
-      makeArchiveTree('chapter1', [
-        makeArchiveTree('chapter1.1', [
-          firstPage,
-          makeArchiveSection('page2'),
+    const testBook: { tree: ArchiveTree } = {
+      tree: makeArchiveTree('book', [
+        makeArchiveTree('chapter1', [
+          makeArchiveTree('chapter1.1', [
+            firstPage,
+            makeArchiveSection('page2'),
+          ]),
+          makeArchiveSection('page3'),
         ]),
-        makeArchiveSection('page3'),
+        makeArchiveSection('page4'),
       ]),
-      makeArchiveSection('page4'),
-    ])};
+    };
 
-    expect(findDefaultBookPage(book)).toBe(firstPage);
+    expect(findDefaultBookPage(testBook)).toBe(firstPage);
   });
 });
 
@@ -113,5 +118,23 @@ describe('tree section identifiers', () => {
     expect(archiveTreeSectionIsPage(unit)).toBe(false);
     expect(archiveTreeSectionIsUnit(unit)).toBe(true);
     expect(archiveTreeSectionIsChapter(unit)).toBe(false);
+  });
+});
+
+describe('getPageSlug', () => {
+  it('throws when node is not found', () => {
+    expect(() =>
+      getPageSlug(book, { ...page, id: 'asdf' })
+    ).toThrowErrorMatchingInlineSnapshot(
+      `"trying to find slug of page, got undefined, pageid: asdf, bookid: testbook1-uuid"`
+    );
+  });
+  it('throws when node is not found', () => {
+    expect(() =>
+      getPageSlug(book, { id: 'testbook1-testchapter1-uuid' } as Page)
+    ).toThrowErrorMatchingInlineSnapshot(
+      // tslint:disable-next-line:max-line-length
+      `"trying to find slug of page, found node that was not a page, pageid: testbook1-testchapter1-uuid, bookid: testbook1-uuid"`
+    );
   });
 });

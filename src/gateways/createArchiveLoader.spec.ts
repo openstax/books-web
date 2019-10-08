@@ -1,4 +1,5 @@
 import { AppServices } from '../app/types';
+import { resetModules } from '../test/utils';
 
 const mockFetch = (code: number, data: any) => jest.fn(() => Promise.resolve({
   json: () => Promise.resolve(data),
@@ -15,7 +16,7 @@ describe('archiveLoader', () => {
   });
 
   afterEach(() => {
-    jest.resetModules();
+    resetModules();
     (global as any).fetch = fetchBackup;
   });
 
@@ -65,13 +66,13 @@ describe('archiveLoader', () => {
         expect(fetch).toHaveBeenCalledWith('url/contents/coolid@version:pageid');
       });
 
-      it('memoizes requests', () => {
-        archiveLoader.book('coolid', undefined).load();
-        archiveLoader.book('coolid2', undefined).load();
-        archiveLoader.book('coolid', undefined).load();
-        archiveLoader.book('coolid1', undefined).load();
-        archiveLoader.book('coolid', undefined).load();
-        archiveLoader.book('coolid2', undefined).load();
+      it('memoizes requests', async() => {
+        await archiveLoader.book('coolid', undefined).load();
+        await archiveLoader.book('coolid2', undefined).load();
+        await archiveLoader.book('coolid', undefined).load();
+        await archiveLoader.book('coolid1', undefined).load();
+        await archiveLoader.book('coolid', undefined).load();
+        await archiveLoader.book('coolid2', undefined).load();
 
         expect(fetch).toHaveBeenCalledTimes(3);
       });

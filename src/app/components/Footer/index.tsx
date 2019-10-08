@@ -11,7 +11,7 @@ const instagramUrl = 'https://www.instagram.com/openstax/';
 const linkedInUrl = 'https://www.linkedin.com/company/openstax';
 const riceUrl = 'http://www.rice.edu';
 const copyrightLink = 'https://creativecommons.org/licenses/by/4.0/';
-const supportCenterLink = 'https://openstax.secure.force.com/help';
+export const supportCenterLink = 'https://openstax.secure.force.com/help';
 const newsletterLink = 'http://www2.openstax.org/l/218812/2016-10-04/lvk';
 
 // tslint:disable-next-line:variable-name

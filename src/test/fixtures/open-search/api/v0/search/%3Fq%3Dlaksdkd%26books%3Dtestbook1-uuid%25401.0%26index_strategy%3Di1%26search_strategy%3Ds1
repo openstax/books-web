@@ -1,0 +1,17 @@
+{
+   "overall_took":114,
+   "took":4,
+   "timed_out":false,
+   "_shards":{
+      "total":1,
+      "successful":1,
+      "skipped":0,
+      "failed":0
+   },
+   "hits":{
+      "total":0,
+      "hits":[
+
+      ]
+   }
+}

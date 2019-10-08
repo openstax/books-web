@@ -1,11 +1,13 @@
 import { rejectResponse } from '../helpers/fetch';
 
 export interface AccountsUser {
+  uuid: string;
   id: number;
   name: string;
   first_name: string;
   last_name: string;
   full_name: string;
+  is_not_gdpr_location: boolean;
 }
 
 export default (url: string) => {

@@ -5,8 +5,7 @@ import { basename } from 'path';
 import ProgressBar from 'progress';
 import puppeteer from 'puppeteer';
 import { Book } from '../src/app/content/types';
-import { flattenArchiveTree, getBookPageUrlAndParams } from '../src/app/content/utils';
-import { getBooks } from '../src/app/developer/components/utils';
+import { flattenArchiveTree, getBookPageUrlAndParams, makeUnifiedBookLoader } from '../src/app/content/utils';
 import config from '../src/config';
 import createArchiveLoader from '../src/gateways/createArchiveLoader';
 import createOSWebLoader from '../src/gateways/createOSWebLoader';
@@ -78,7 +77,7 @@ run().then(null, (err) => {
 async function findBooks() {
   // Get the book config whether the server is prerendered or dev mode
   const resp = await fetch(`${rootUrl}/rex/release.json`);
-  let bookConfig;
+  let bookConfig: typeof config.BOOKS;
   // dev server also returns a 200 but says 'not found'
   try {
     bookConfig = (await resp.json()).books;
@@ -89,7 +88,10 @@ async function findBooks() {
   const archiveLoader = createArchiveLoader(`${rootUrl}${config.REACT_APP_ARCHIVE_URL}`);
   const osWebLoader = createOSWebLoader(`${rootUrl}${config.REACT_APP_OS_WEB_API_URL}`);
 
-  const books = await getBooks(archiveLoader, osWebLoader, Object.entries(bookConfig));
+  const bookLoader = makeUnifiedBookLoader(archiveLoader, osWebLoader);
+  const books = await Promise.all(Object.entries(bookConfig).map(([bookId, {defaultVersion}]) =>
+    bookLoader(bookId, defaultVersion)
+  ));
   return books.filter((book) => onlyOneBook ? book.slug === onlyOneBook : true);
 }
 

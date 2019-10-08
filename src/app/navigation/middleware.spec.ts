@@ -50,7 +50,6 @@ describe('navigation middleware', () => {
       bookUid: '',
       bookVersion: '',
       pageUid: '',
-      search: '',
     };
 
     const pushSpy = jest.spyOn(history, 'push');

@@ -1,92 +1,171 @@
-import cloneDeep from 'lodash/fp/cloneDeep';
-import { book as archiveBook, page } from '../../../test/mocks/archiveLoader';
+import { CANONICAL_MAP } from '../../../canonicalBookMap';
+import createTestServices from '../../../test/createTestServices';
+import createTestStore from '../../../test/createTestStore';
+import { book, page } from '../../../test/mocks/archiveLoader';
 import { mockCmsBook } from '../../../test/mocks/osWebLoader';
-import { ActionHookBody, AppServices, AppState, MiddlewareAPI } from '../../types';
-import { receiveBook, receivePage } from '../actions';
-import { initialState } from '../reducer';
-import { Book, Page, State } from '../types';
+import { setHead } from '../../head/actions';
+import { AppServices, MiddlewareAPI, Store } from '../../types';
+import { receiveBook, receivePage, requestBook, requestPage } from '../actions';
 import { formatBookData } from '../utils';
 
-const book = formatBookData(archiveBook, mockCmsBook);
+const mockConfig = {BOOKS: {
+ [book.id]: {defaultVersion: book.version},
+} as {[key: string]: {defaultVersion: string}}};
+
+jest.doMock('../../../config', () => mockConfig);
 
 describe('setHead hook', () => {
-  let hookBody: ActionHookBody<typeof receiveBook | typeof receivePage>;
-  let mockSetHead: jest.SpyInstance;
-  let localState: State;
-  const helpers = {} as MiddlewareAPI & AppServices;
+  let getCanonicalUrlParams: typeof import ('../utils/canonicalUrl').getCanonicalUrlParams;
+  const combinedBook = formatBookData(book, mockCmsBook);
+  let hook: ReturnType<typeof import ('./receiveContent').default>;
+  let store: Store;
+  let dispatch: jest.SpyInstance;
+  let helpers: MiddlewareAPI & AppServices;
 
   beforeEach(() => {
-    mockSetHead = jest.fn();
+    getCanonicalUrlParams = require('../utils/canonicalUrl').getCanonicalUrlParams;
+    store = createTestStore();
 
-    localState = cloneDeep(initialState);
+    dispatch = jest.spyOn(store, 'dispatch');
 
-    helpers.dispatch = jest.fn();
-    helpers.getState = () => ({content: localState} as AppState);
+    helpers = {
+      ...createTestServices(),
+      dispatch: store.dispatch,
+      getState: store.getState,
+    };
 
-    jest.mock('../../head/actions', () => ({
-      setHead: mockSetHead,
-    }));
-
-    hookBody = require('./receiveContent').default;
+    hook = require('./receiveContent').default(helpers);
   });
 
-  it('dispatches setHead when receiveBook is dispatched', () => {
-    const head = {some: 'data'};
-    mockSetHead.mockImplementation(() => head);
+  it('dispatches setHead when receivePage is dispatched', async() => {
+    store.dispatch(receiveBook(combinedBook));
+    store.dispatch(receivePage({...page, references: []}));
 
-    localState.book = book;
-    localState.page = page;
+    await hook(receivePage({...page, references: []}));
 
-    hookBody(helpers)(receiveBook(book));
-
-    expect(helpers.dispatch).toHaveBeenCalledWith(head);
+    expect(dispatch).toHaveBeenCalledWith(setHead(expect.anything()));
   });
 
-  it('dispatches setHead when receivePage is dispatched', () => {
-    const head = {some: 'data'};
-    mockSetHead.mockImplementation(() => head);
+  it('does nothing if book is loading', async() => {
+    store.dispatch(receiveBook(combinedBook));
+    store.dispatch(receivePage({...page, references: []}));
+    store.dispatch(requestBook('asdf'));
 
-    localState.book = book;
-    localState.page = page;
+    await hook(receivePage({...page, references: []}));
 
-    hookBody(helpers)(receivePage({...page, references: []}));
-
-    expect(helpers.dispatch).toHaveBeenCalledWith(head);
+    expect(dispatch).not.toHaveBeenCalledWith(setHead(expect.anything()));
   });
 
-  it('does nothing if book is loading', () => {
-    localState.book = { title: 'book', id: 'book' } as Book;
-    localState.page = { title: 'page', id: 'page' } as Page;
-    localState.loading.book = 'book2';
+  it('does nothing if page is loading', async() => {
+    store.dispatch(receiveBook(combinedBook));
+    store.dispatch(receivePage({...page, references: []}));
+    store.dispatch(requestPage('asdf'));
 
-    hookBody(helpers)(receiveBook(book));
+    await hook(receivePage({...page, references: []}));
 
-    expect(helpers.dispatch).not.toHaveBeenCalled();
+    expect(dispatch).not.toHaveBeenCalledWith(setHead(expect.anything()));
   });
 
-  it('does nothing if page is loading', () => {
-    localState.book = { title: 'book', id: 'book' } as Book;
-    localState.page = { title: 'page', id: 'page' } as Page;
-    localState.loading.page = 'page2';
+  it('does nothing if page is not loaded', async() => {
+    store.dispatch(receiveBook(combinedBook));
 
-    hookBody(helpers)(receiveBook({} as Book));
+    await hook(receivePage({...page, references: []}));
 
-    expect(helpers.dispatch).not.toHaveBeenCalled();
+    expect(dispatch).not.toHaveBeenCalledWith(setHead(expect.anything()));
   });
 
-  it('does nothing if page is not loaded', () => {
-    localState.book = { title: 'book', id: 'book' } as Book;
+  it('does nothing if book is not loaded', async() => {
+    store.dispatch(receivePage({...page, references: []}));
 
-    hookBody(helpers)(receiveBook(book));
+    await hook(receivePage({...page, references: []}));
 
-    expect(helpers.dispatch).not.toHaveBeenCalled();
+    expect(dispatch).not.toHaveBeenCalledWith(setHead(expect.anything()));
   });
 
-  it('does nothing if book is not loaded', () => {
-    localState.page = { title: 'page', id: 'page' } as Page;
+  describe('meta description', () => {
+    it('dispatches sethead with description tags', async() => {
+      store.dispatch(receiveBook(combinedBook));
+      store.dispatch(receivePage({
+        ...page,
+        abstract: 'foobar',
+        references: [],
+      }));
+      const bookId = book.id;
+      CANONICAL_MAP[bookId] = [ bookId ];
 
-    hookBody(helpers)(receiveBook(book));
+      await hook(receivePage({
+        ...page,
+        abstract: 'foobar',
+        references: [],
+      }));
 
-    expect(helpers.dispatch).not.toHaveBeenCalled();
+      expect(dispatch).toHaveBeenCalledWith(setHead(expect.objectContaining({
+        meta: expect.arrayContaining([
+          {name: 'description', content: 'foobar'},
+          {property: 'og:description', content: 'foobar'},
+        ]),
+      })));
+    });
+    it('always dispatches sethead with description tags', async() => {
+      store.dispatch(receiveBook(combinedBook));
+      store.dispatch(receivePage({
+        ...page,
+        abstract: undefined as any as string,
+        references: [],
+      }));
+      const bookId = book.id;
+      CANONICAL_MAP[bookId] = [ bookId ];
+
+      await hook(receivePage({
+        ...page,
+        abstract: undefined as any as string,
+        references: [],
+      }));
+
+      expect(dispatch).toHaveBeenCalledWith(setHead(expect.objectContaining({
+        meta: expect.arrayContaining([
+          expect.objectContaining({name: 'description'}),
+          expect.objectContaining({property: 'og:description'}),
+        ]),
+      })));
+    });
+  });
+
+  describe('getCanonicalURL', () => {
+
+    it('returns the current book when the book does not have a canonical book entry', async() => {
+      const bookId = book.id;
+      const pageShortId = page.shortId;
+      const x = await getCanonicalUrlParams(helpers.archiveLoader, helpers.osWebLoader, bookId, pageShortId);
+      expect(x).toEqual({book: 'book-slug-1', page: 'test-page-1'});
+    });
+
+    it('finds a canonical book for a page', async() => {
+      const bookId = book.id;
+      const pageShortId = page.shortId;
+      CANONICAL_MAP[bookId] = [ bookId ];
+      const x = await getCanonicalUrlParams(helpers.archiveLoader, helpers.osWebLoader, bookId, pageShortId);
+      expect(x).toEqual({book: 'book-slug-1', page: 'test-page-1'});
+    });
+
+    it('returns nothing when the page is only in the current book (not in the canonical book)', async() => {
+      const bookId = book.id;
+      const pageShortId = 'unique-snowflake-page';
+      CANONICAL_MAP[bookId] = [ bookId ];
+      const x = await getCanonicalUrlParams(helpers.archiveLoader, helpers.osWebLoader, bookId, pageShortId);
+      expect(x).toBeNull();
+    });
+
+    it('adds <link rel="canonical">', async() => {
+      const bookId = book.id;
+      CANONICAL_MAP[bookId] = [ bookId ];
+
+      store.dispatch(receiveBook(combinedBook));
+      store.dispatch(receivePage({...page, references: []}));
+
+      await hook(receivePage({...page, references: []}));
+
+      expect(dispatch).toHaveBeenCalledWith(setHead(expect.anything()));
+    });
   });
 });

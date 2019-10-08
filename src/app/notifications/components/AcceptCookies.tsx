@@ -5,6 +5,7 @@ import { ActionType } from 'typesafe-actions';
 import Button, { ButtonGroup } from '../../components/Button';
 import { Dispatch } from '../../types';
 import { assertString } from '../../utils';
+import { doAcceptCookies } from '../acceptCookies';
 import { acceptCookies, dismissNotification } from '../actions';
 import { Body, Group, Header, P } from './Card';
 
@@ -31,6 +32,9 @@ export default connect(
   () => ({
   }),
   (dispatch: Dispatch, ownProps: {notification: ActionType<typeof acceptCookies>}) => ({
-    dismiss: () => dispatch(dismissNotification(ownProps.notification)),
+    dismiss: () => {
+      dispatch(dismissNotification(ownProps.notification));
+      doAcceptCookies();
+    },
   })
 )(AcceptCookies);

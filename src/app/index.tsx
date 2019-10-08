@@ -1,6 +1,7 @@
 import { createBrowserHistory, createMemoryHistory } from 'history';
 import React from 'react';
 import { Provider } from 'react-redux';
+import config from '../config';
 import createStore from '../helpers/createStore';
 import FontCollector from '../helpers/FontCollector';
 import PromiseCollector from '../helpers/PromiseCollector';
@@ -10,9 +11,9 @@ import * as content from './content';
 import * as Services from './context/Services';
 import * as developer from './developer';
 import * as errors from './errors';
+import ErrorBoundary from './errors/components/ErrorBoundary';
 import * as head from './head';
 import MessageProvider from './MessageProvider';
-import stackTraceMiddleware from './middleware/stackTraceMiddleware';
 import * as navigation from './navigation';
 import { hasState } from './navigation/guards';
 import { AnyMatch } from './navigation/types';
@@ -47,6 +48,8 @@ const init = [
 const hooks = [
   ...content.hooks,
   ...Object.values(head.hooks),
+  ...Object.values(notifications.hooks),
+  ...Object.values(auth.hooks),
 ];
 
 const defaultServices = () => ({
@@ -89,13 +92,8 @@ export default (options: AppOptions) => {
     ...hooks.map((hook) => hook(services)),
   ];
 
-  if (Sentry.isEnabled) {
+  if (config.SENTRY_ENABLED) {
     middleware.push(Sentry.initializeWithMiddleware());
-  }
-
-  /* istanbul ignore next */
-  if (process.env.REACT_APP_ENV === 'development') {
-    middleware.unshift(stackTraceMiddleware);
   }
 
   const store = createStore({
@@ -104,13 +102,17 @@ export default (options: AppOptions) => {
     reducer,
   });
 
-  const container = () => <Provider store={store}>
-    <MessageProvider>
-      <Services.Provider value={services} >
-        <navigation.components.NavigationProvider routes={routes} />
-      </Services.Provider>
-    </MessageProvider>
-  </Provider>;
+  const container = () => (
+    <Provider store={store}>
+      <ErrorBoundary>
+        <MessageProvider>
+          <Services.Provider value={services} >
+            <navigation.components.NavigationProvider routes={routes} />
+          </Services.Provider>
+        </MessageProvider>
+      </ErrorBoundary>
+    </Provider>
+  );
 
   navigation.utils.changeToLocation(routes, store.dispatch, history.location, 'POP');
 

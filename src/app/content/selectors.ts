@@ -1,6 +1,6 @@
 import { createSelector } from 'reselect';
 import * as parentSelectors from '../selectors';
-import { prevNextBookPage } from './utils/archiveTreeUtils';
+import { findArchiveTreeNodeBySlug, prevNextBookPage } from './utils/archiveTreeUtils';
 
 export const localState = createSelector(
   parentSelectors.localState,
@@ -9,7 +9,7 @@ export const localState = createSelector(
 
 export const tocOpen = createSelector(
   localState,
-  (state) => state.tocOpen
+  (state) => !state.search.query && state.tocOpen
 );
 
 export const book = createSelector(
@@ -34,12 +34,23 @@ export const loading = createSelector(
 
 export const loadingBook = createSelector(
   loading,
-  (ids) => ids.book
+  (slugs) => slugs.book
 );
 
 export const loadingPage = createSelector(
   loading,
-  (ids) => ids.page
+  (slugs) => slugs.page
+);
+
+export const pageParam = createSelector(
+  localState,
+  (state) => state.params.page
+);
+
+export const pageNode = createSelector(
+  book,
+  pageParam,
+  (selectedBook, slug) => selectedBook && slug ? findArchiveTreeNodeBySlug(selectedBook.tree, slug) : undefined
 );
 
 export const bookAndPage = createSelector(
@@ -53,5 +64,5 @@ export const prevNextPage = createSelector(
   page,
   (selectedBook, selectedPage) => selectedBook && selectedPage
     ? prevNextBookPage(selectedBook, selectedPage.id)
-    : {}
+    : null
 );

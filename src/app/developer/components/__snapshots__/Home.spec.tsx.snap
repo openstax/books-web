@@ -147,7 +147,7 @@ Array [
   margin: 0;
 }
 
-.c7 {
+.c8 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -161,9 +161,9 @@ Array [
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
+  white-space: nowrap;
   font-family: Neue Helvetica W01;
   border-radius: 0.2rem;
-  white-space: nowrap;
   min-width: 12rem;
   font-size: 1.6rem;
   height: 4rem;
@@ -174,12 +174,20 @@ Array [
   font-weight: regular;
 }
 
-.c7:hover {
+.c8:hover {
   background-color: #fafafa;
 }
 
-.c7:active {
+.c8:active {
   background-color: #e5e5e5;
+}
+
+.c7 {
+  display: grid;
+  overflow: visible;
+  grid-auto-columns: min-content;
+  grid-auto-flow: column;
+  grid-gap: 1rem;
 }
 
 .c6 {
@@ -288,12 +296,38 @@ Array [
         <div
           className="c4"
         >
-          <button
+          <div
             className="c7"
-            onClick={[Function]}
           >
-            update available
-          </button>
+            <button
+              className="c8"
+              data-testid="trigger-updates-available"
+              onClick={[Function]}
+            >
+              update available
+            </button>
+            <button
+              className="c8"
+              data-testid="trigger-messages"
+              onClick={[Function]}
+            >
+              app messages
+            </button>
+            <button
+              className="c8"
+              data-testid="trigger-inline-error"
+              onClick={[Function]}
+            >
+              inline error
+            </button>
+            <button
+              className="c8"
+              data-testid="trigger-modal-error"
+              onClick={[Function]}
+            >
+              modal error
+            </button>
+          </div>
         </div>
       </div>
       <div>

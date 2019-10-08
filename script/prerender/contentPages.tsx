@@ -6,8 +6,8 @@ import Loadable from 'react-loadable';
 import { EnumChangefreq } from 'sitemap';
 import { ServerStyleSheet, StyleSheetManager } from 'styled-components/macro';
 import asyncPool from 'tiny-async-pool';
-import { AppOptions } from '../../src/app';
 import createApp from '../../src/app';
+import { AppOptions } from '../../src/app';
 import { content } from '../../src/app/content/routes';
 import { Book } from '../../src/app/content/types';
 import { formatBookData, stripIdVersion } from '../../src/app/content/utils';
@@ -15,7 +15,7 @@ import { findTreePages } from '../../src/app/content/utils/archiveTreeUtils';
 import { notFound } from '../../src/app/errors/routes';
 import * as errorSelectors from '../../src/app/errors/selectors';
 import * as headSelectors from '../../src/app/head/selectors';
-import { Meta } from '../../src/app/head/types';
+import { Link, Meta } from '../../src/app/head/types';
 import * as navigationSelectors from '../../src/app/navigation/selectors';
 import { AnyMatch, Match } from '../../src/app/navigation/types';
 import { matchUrl } from '../../src/app/navigation/utils';
@@ -91,6 +91,7 @@ const renderHtml: RenderHtml = (styles, app, state) => {
       </StyleSheetManager>
     ),
     fonts: app.services.fontCollector.fonts,
+    links: headSelectors.links(state),
     meta: headSelectors.meta(state),
     modules,
     state,
@@ -191,11 +192,12 @@ interface Options {
   styles: ServerStyleSheet;
   fonts: FontCollector['fonts'];
   meta: Meta[];
+  links: Link[];
   state: AppState;
   modules: string[];
   title: string;
 }
-function injectHTML(html: string, {body, styles, state, fonts, meta, modules, title}: Options) {
+function injectHTML(html: string, {body, styles, state, fonts, meta, links, modules, title}: Options) {
 
   const assetManifest = JSON.parse(readAssetFile('asset-manifest.json'));
 
@@ -235,6 +237,9 @@ function injectHTML(html: string, {body, styles, state, fonts, meta, modules, ti
     fonts.map((font) => `<link rel="stylesheet" href="${font}">`).join('') +
     meta.map(
       (tag) => `<meta ${Object.entries(tag).map(([name, value]) => `${name}="${value}"`).join(' ')} />`).join(''
+    ) +
+    links.map(
+      (tag) => `<link ${Object.entries(tag).map(([name, value]) => `${name}="${value}"`).join(' ')} />`).join(''
     ) +
     styles.getStyleTags() +
     '</head>'

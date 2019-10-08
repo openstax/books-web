@@ -1,0 +1,79 @@
+{
+   "overall_took":67,
+   "took":1,
+   "timed_out":false,
+   "_shards":{
+      "total":1,
+      "successful":1,
+      "skipped":0,
+      "failed":0
+   },
+   "hits":{
+      "total":3,
+      "max_score":12.126484,
+      "hits":[
+         {
+            "_index":"testbook1-uuid@1.0_i1",
+            "_score":12.126484,
+            "_source":{
+               "page_id":"testbook1-testpage4-uuid@1.0",
+               "element_type":"paragraph",
+               "element_id":"fs-idm270779504",
+               "page_position":97
+            },
+            "highlight":{
+               "visible_content":[
+                  "(a) the mass of the \u003cstrong\u003emoon\u003c/strong\u003e"
+               ]
+            }
+         },
+         {
+            "_index":"testbook1-uuid@1.0_i1",
+            "_score":6.6578474,
+            "_source":{
+               "page_id":"testbook1-testpage5-uuid@1.0",
+               "element_type":"paragraph",
+               "element_id":"fs-idp63221808",
+               "page_position":8
+            },
+            "highlight":{
+               "visible_content":[
+                  "An astronaut’s mass does not change just because she goes to the \u003cstrong\u003emoon\u003c/strong\u003e.",
+                  "But her weight on the \u003cstrong\u003emoon\u003c/strong\u003e is only one-sixth her earth-bound weight because the moon’s gravity is only"
+               ]
+            }
+         },
+         {
+            "_index":"testbook1-uuid@1.0_i1",
+            "_score":6.6578474,
+            "_source":{
+               "page_id":"testbook1-testpage6-uuid@1.0",
+               "element_type":"paragraph",
+               "element_id":"fs-idp63221808",
+               "page_position":8
+            },
+            "highlight":{
+               "visible_content":[
+                  "An astronaut’s mass does not change just because she goes to the \u003cstrong\u003emoon\u003c/strong\u003e.",
+                  "But her weight on the \u003cstrong\u003emoon\u003c/strong\u003e is only one-sixth her earth-bound weight because the moon’s gravity is only"
+               ]
+            }
+         },
+         {
+            "_index":"testbook1-uuid@1.0_i1",
+            "_score":3.5641706,
+            "_source":{
+               "page_id":"testbook1-testpage3-uuid@1.0",
+               "element_type":"paragraph",
+               "element_id":"fs-idm76786544",
+               "page_position":36
+            },
+            "highlight":{
+               "visible_content":[
+                  "to the relatively recent discovery that it is a component of the atmospheres of Venus and of Io, a \u003cstrong\u003emoon\u003c/strong\u003e"
+               ]
+            }
+         }
+      ]
+   }
+}

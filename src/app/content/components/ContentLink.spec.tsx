@@ -52,7 +52,7 @@ describe('ContentLink', () => {
     expect(dispatch).toHaveBeenCalledWith(push({
       params: {book: BOOK_SLUG, page: PAGE_SLUG},
       route: content,
-      state: { bookUid: 'testbook1-uuid', bookVersion: '1.0', pageUid: 'testbook1-testpage1-uuid', search: null },
+      state: { bookUid: 'testbook1-uuid', bookVersion: '1.0', pageUid: 'testbook1-testpage1-uuid' },
     }));
     expect(event.preventDefault).toHaveBeenCalled();
   });
@@ -69,7 +69,12 @@ describe('ContentLink', () => {
     expect(dispatch).toHaveBeenCalledWith(push({
       params: {book: BOOK_SLUG, page: PAGE_SLUG},
       route: content,
-      state: { bookUid: 'testbook1-uuid', bookVersion: '1.0', pageUid: 'testbook1-testpage1-uuid', search: 'asdf' },
+      state: {
+        bookUid: 'testbook1-uuid',
+        bookVersion: '1.0',
+        pageUid: 'testbook1-testpage1-uuid',
+        search: expect.objectContaining({query: 'asdf'}),
+      },
     }));
     expect(event.preventDefault).toHaveBeenCalled();
   });
@@ -86,7 +91,7 @@ describe('ContentLink', () => {
     expect(dispatch).toHaveBeenCalledWith(push({
       params: {book: BOOK_SLUG, page: PAGE_SLUG},
       route: content,
-      state: { bookUid: 'testbook1-uuid', bookVersion: '1.0', pageUid: 'testbook1-testpage1-uuid', search: null },
+      state: { bookUid: 'testbook1-uuid', bookVersion: '1.0', pageUid: 'testbook1-testpage1-uuid' },
     }));
     expect(event.preventDefault).toHaveBeenCalled();
   });
@@ -102,7 +107,7 @@ describe('ContentLink', () => {
     expect(dispatch).toHaveBeenCalledWith(push({
       params: {book: BOOK_SLUG, page: PAGE_SLUG},
       route: content,
-      state: { bookUid: 'testbook1-uuid', bookVersion: '1.0', pageUid: 'testbook1-testpage1-uuid', search: null },
+      state: { bookUid: 'testbook1-uuid', bookVersion: '1.0', pageUid: 'testbook1-testpage1-uuid' },
     }));
     expect(event.preventDefault).toHaveBeenCalled();
     expect(clickSpy).toHaveBeenCalled();

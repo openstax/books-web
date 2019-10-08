@@ -1,12 +1,8 @@
 import { HTMLElement } from '@openstax/types/lib.dom';
 
-export const findFirstScrollableParent = (element: HTMLElement | null): HTMLElement | null => {
-  if (!element || element.scrollHeight > element.offsetHeight) {
-    return element;
-  }
-
-  return findFirstScrollableParent(element.parentElement);
-};
+if (typeof(document) !== 'undefined') {
+  import(/* webpackChunkName: "Node.children" */ 'mdn-polyfills/Node.prototype.children');
+}
 
 export const findFirstScrollableChild = (element: HTMLElement | null): HTMLElement | null => {
   if (!element || element.scrollHeight > element.offsetHeight) {
@@ -46,7 +42,7 @@ const determineScrollTarget = (
     : activeSection;
 };
 
-export const scrollTocSectionIntoView = (sidebar: HTMLElement | null, activeSection: HTMLElement | null) => {
+export const scrollSidebarSectionIntoView = (sidebar: HTMLElement | null, activeSection: HTMLElement | null) => {
   const scrollable = findFirstScrollableChild(sidebar);
   if (!activeSection || !scrollable || tocSectionIsVisible(scrollable, activeSection)) {
     return;
@@ -69,4 +65,25 @@ export const expandCurrentChapter = (activeSection: HTMLElement | null) => {
 
     focus = focus.parentElement;
   }
+};
+
+export const setSidebarHeight = (sidebar: HTMLElement, window: Window) => {
+  const scrollHandlerCallback = () => {
+    const top = sidebar.getBoundingClientRect().top;
+    const height = window.innerHeight;
+    sidebar.style.setProperty('height', `${height - top}px`);
+  };
+
+  const animation = () => requestAnimationFrame(scrollHandlerCallback);
+
+  window.addEventListener('scroll', animation, { passive: true });
+  window.addEventListener('resize', animation, { passive: true });
+
+  return {
+    callback: scrollHandlerCallback,
+    deregister: () => {
+      window.removeEventListener('scroll', animation);
+      window.removeEventListener('resize', animation);
+    },
+  };
 };

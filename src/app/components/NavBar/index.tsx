@@ -14,8 +14,7 @@ import * as Styled from './styled';
 export { maxNavWidth, navDesktopHeight, navMobileHeight } from './styled';
 
 if (typeof(window) !== 'undefined') {
-  import(/* webpackChunkName: "focus-within-polyfill" */ 'ally.js/style/focus-within')
-    .then((module) => module.default());
+  import(/* webpackChunkName: "focus-within-polyfill" */ 'focus-within-polyfill');
 }
 
 export class Dropdown extends React.Component<{user: User, currentPath: string}> {

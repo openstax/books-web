@@ -1,0 +1,26 @@
+[
+  {
+    "id": "1",
+    "html": "check out bio 2e for message that only shows up on certain urls",
+    "dismissable": true,
+    "start_at": null,
+    "end_at": null,
+    "url_regex": null
+  },
+  {
+    "id": "2",
+    "html": "asdf ladfkja sdfkljsad flkj asdf ladfkja <a href=\"https://openstax.org\">sdfkljsad</a> flkjasdf ladfkja sdfkljsad flkj asdf ladfkja sdfkljsad flkj",
+    "dismissable": true,
+    "start_at": null,
+    "end_at": null,
+    "url_regex": null
+  },
+  {
+    "id": "3",
+    "html": "this shows on bio 2e book pages",
+    "dismissable": true,
+    "start_at": null,
+    "end_at": null,
+    "url_regex": "/books/biology-2e"
+  }
+]

@@ -32,6 +32,7 @@ exports[`PrevNextBar renders \`null\` when passed a page that isn't in the book 
   font-size: 1.6rem;
   line-height: 2.5rem;
   overflow: visible;
+  width: 100%;
   max-width: 82.5rem;
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
@@ -106,64 +107,7 @@ exports[`PrevNextBar renders \`null\` when passed a page that isn't in the book 
 </div>
 `;
 
-exports[`PrevNextBar renders \`null\` with no page or book 1`] = `
-.c0 {
-  font-family: Neue Helvetica W01;
-  color: #424242;
-  font-size: 1.6rem;
-  line-height: 2.5rem;
-  overflow: visible;
-  max-width: 82.5rem;
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-  height: 4rem;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  margin: 5rem auto 4rem auto;
-  border-top: solid 0.1rem #e5e5e5;
-  border-bottom: solid 0.1rem #e5e5e5;
-}
-
-.c0 a {
-  border: none;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-@media print {
-  .c0 {
-    display: none;
-  }
-}
-
-@media screen and (max-width:75em) {
-  .c0 {
-    margin: 3.5rem auto 3.7rem auto;
-    border: 0;
-  }
-}
-
-<div
-  className="c0"
->
-  <span
-    aria-hidden={true}
-  />
-  <span
-    aria-hidden={true}
-  />
-</div>
-`;
+exports[`PrevNextBar renders \`null\` with no page or book 1`] = `null`;
 
 exports[`PrevNextBar renders correctly when you pass a page and book 1`] = `
 .c3 {
@@ -215,6 +159,7 @@ exports[`PrevNextBar renders correctly when you pass a page and book 1`] = `
   font-size: 1.6rem;
   line-height: 2.5rem;
   overflow: visible;
+  width: 100%;
   max-width: 82.5rem;
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
@@ -343,6 +288,7 @@ exports[`PrevNextBar renders only \`next\` element correctly 1`] = `
   font-size: 1.6rem;
   line-height: 2.5rem;
   overflow: visible;
+  width: 100%;
   max-width: 82.5rem;
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
@@ -448,6 +394,7 @@ exports[`PrevNextBar renders only \`prev\` element correctly 1`] = `
   font-size: 1.6rem;
   line-height: 2.5rem;
   overflow: visible;
+  width: 100%;
   max-width: 82.5rem;
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;

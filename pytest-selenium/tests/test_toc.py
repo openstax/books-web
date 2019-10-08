@@ -1,9 +1,10 @@
 import pytest
 from pages.content import Content
 from . import markers
+from utils import utility
 
 
-@markers.test_case("C250849")
+@markers.test_case("C250849", "C242270")
 @markers.parametrize("page_slug", ["preface"])
 @markers.nondestructive
 def test_toc_toggle_button_opens_and_closes(selenium, base_url, book_slug, page_slug):
@@ -18,45 +19,54 @@ def test_toc_toggle_button_opens_and_closes(selenium, base_url, book_slug, page_
 
     """
     # GIVEN: The selenium driver, base_url, book_slug, and page_slug
+    # WHEN: The book and page URL is loaded
     content = Content(selenium, base_url, book_slug=book_slug, page_slug=page_slug).open()
 
     toolbar = content.toolbar
     sidebar = content.sidebar
+    toc = content.sidebar.toc
+    font = utility.FontProperties()
 
     # AND: Window width is 1024 or greater (Desktop)
     if content.is_desktop:
 
-        # Sidebar is open by default
+        # THEN: Sidebar is open by default
         assert sidebar.header.is_displayed
 
+        # AND: The page name in the sidebar is bolded to indicate that its selected
+        assert font.is_bold(toc.active_section)
+
         # WHEN: The toc button on the sidebar is clicked
-        # THEN: The sidebar area has been closed
-        # AND: The toc button on the toolbar is clicked
-        # AND: The side bar is opened again
         sidebar.header.click_toc_toggle_button()
 
+        # THEN: The sidebar area has been closed
         assert not sidebar.header.is_displayed
 
+        # WHEN: The toc button on the toolbar is clicked
         toolbar.click_toc_toggle_button()
 
+        # THEN: The side bar is opened again
         assert sidebar.header.is_displayed
 
     # AND: Window Size is Mobile
     elif content.is_mobile:
 
-        # Sidebar is closed by default
+        # THEN: Sidebar is closed by default
         assert not sidebar.header.is_displayed
 
         # WHEN: The toc button on the toolbar is clicked
-        # THEN: The sidebar area is opened
-        # AND: The toc button on the sidebar is clicked
-        # AND: the sidebar area is closed
         toolbar.click_toc_toggle_button()
 
+        # THEN: The sidebar area is opened
         assert sidebar.header.is_displayed
 
+        # AND: The page name in the sidebar is bolded to indicate that its selected
+        assert font.is_bold(toc.active_section)
+
+        # WHEN: The toc button on the sidebar is clicked
         sidebar.header.click_toc_toggle_button()
 
+        # THEN: the sidebar area is closed
         assert not sidebar.header.is_displayed
 
     else:
@@ -101,3 +111,26 @@ def test_toc_disables_interacting_with_content_on_mobile(selenium, base_url, boo
 
     assert not sidebar.is_displayed
     assert selenium.current_url == initial_url
+
+
+@markers.test_case("C476819")
+@markers.parametrize("page_slug", ["preface"])
+@markers.nondestructive
+@markers.mobile_only
+def test_toc_closes_after_selecting_page_in_mobile(selenium, base_url, book_slug, page_slug):
+
+    # GIVEN: The page_slug is opened in mobile resolution
+    content = Content(selenium, base_url, book_slug=book_slug, page_slug=page_slug).open()
+    toolbar = content.toolbar
+    sidebar = content.sidebar
+    toc = sidebar.toc
+
+    # AND: The TOC is opened
+    toolbar.click_toc_toggle_button()
+
+    # WHEN: The page in the TOC is clicked
+    section = toc.sections[-1]
+    section.click()
+
+    # THEN: The TOC is automatically closed
+    assert not sidebar.is_displayed

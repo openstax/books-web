@@ -56,6 +56,7 @@ const BarWrapper = styled.div`
   ${disablePrint}
   ${textRegularStyle}
   overflow: visible;
+  width: 100%;
   max-width: ${contentTextWidth}rem;
   justify-content: space-between;
   height: 4rem;
@@ -78,14 +79,14 @@ const BarWrapper = styled.div`
 
 interface PropTypes {
   book?: Book;
-  prevNext: {
+  prevNext: null | {
     prev?: ArchiveTreeSection;
     next?: ArchiveTreeSection;
   };
 }
 
 // tslint:disable-next-line:variable-name
-const PrevNextBar = ({book, prevNext}: PropTypes) => <BarWrapper>
+const PrevNextBar = ({book, prevNext}: PropTypes) => prevNext && <BarWrapper>
   <FormattedMessage id='i18n:prevnext:prev:aria-label'>
     {(ariaLabel: Element | string) =>
     <HidingContentLink side='left' book={book} page={prevNext.prev} aria-label={ariaLabel}>

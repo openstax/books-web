@@ -1,10 +1,18 @@
+import omit from 'lodash/fp/omit';
+import { book as archiveBook, page as archivePage } from '../../test/mocks/archiveLoader';
+import { mockCmsBook } from '../../test/mocks/osWebLoader';
+import { locationChange } from '../navigation/actions';
 import { AnyAction, FirstArgumentType } from '../types';
+import { assertWindow } from '../utils';
 import * as actions from './actions';
 import reducer, { initialState } from './reducer';
+import { content } from './routes';
 import searchReducer from './search/reducer';
-import { Book } from './types';
+import { formatBookData } from './utils';
 
-jest.mock('./search/reducer');
+jest.mock('./search/reducer', () => jest.fn((state: any) => state));
+
+const book = formatBookData(archiveBook, mockCmsBook);
 
 describe('content reducer', () => {
 
@@ -46,15 +54,14 @@ describe('content reducer', () => {
   });
 
   it('reduces receiveBook', () => {
-    const book = { id: 'bookId', content: 'fooobarcontent' } as any as Book;
     const state = {
       ...initialState,
-      loading: {book: 'bookId'},
+      loading: {book: book.id},
     };
     const newState = reducer(state, actions.receiveBook(book));
     expect(newState.loading.book).not.toBeDefined();
     if (newState.book) {
-      expect(newState.book.id).toEqual('bookId');
+      expect(newState.book.id).toEqual(book.id);
       expect((newState.book as any).content).not.toBeDefined();
     } else {
       expect(newState.book).toBeTruthy();
@@ -75,6 +82,103 @@ describe('content reducer', () => {
     } else {
       expect(newState.page).toBeTruthy();
     }
+  });
+
+  it('resets state when location changes to a new book', () => {
+    const state = {
+      ...initialState,
+      params: {
+        book: 'foo',
+        page: 'bar',
+      },
+      tocOpen: true,
+    };
+    const newState = reducer(state, locationChange({
+      action: 'PUSH',
+      location: {
+        ...assertWindow().location,
+        state: {},
+      },
+      match: {
+        params: {
+          book: 'newbook',
+          page: 'bar',
+        },
+        route: content,
+      },
+    }));
+    expect(newState).toEqual({
+      ...initialState,
+      params: {
+        book: 'newbook',
+        page: 'bar',
+      },
+    });
+  });
+
+  it('resets page when location changes to new page', () => {
+    const state = {
+      ...initialState,
+      book,
+      page: {...archivePage, references: []},
+      params: {
+        book: 'foo',
+        page: 'bar',
+      },
+      tocOpen: true,
+    };
+    const newState = reducer(state, locationChange({
+      action: 'PUSH',
+      location: {
+        ...assertWindow().location,
+        state: {},
+      },
+      match: {
+        params: {
+          book: 'foo',
+          page: 'new page',
+        },
+        route: content,
+      },
+    }));
+    expect(newState).toEqual({
+      ...omit('page', state),
+      params: {
+        book: 'foo',
+        page: 'new page',
+      },
+    });
+  });
+
+  it('adds params on location change', () => {
+    const state = {
+      ...initialState,
+      params: {
+        book: book.slug,
+        page: 'foo',
+      },
+    };
+    const newState = reducer(state, locationChange({
+      action: 'PUSH',
+      location: {
+        ...assertWindow().location,
+        state: {},
+      },
+      match: {
+        params: {
+          book: book.slug,
+          page: 'new page',
+        },
+        route: content,
+      },
+    }));
+    expect(newState).toEqual({
+      ...initialState,
+      params: {
+        book: book.slug,
+        page: 'new page',
+      },
+    });
   });
 
   it('composes searchReducer', () => {

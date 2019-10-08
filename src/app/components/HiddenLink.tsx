@@ -1,4 +1,5 @@
 import styled from 'styled-components/macro';
+import theme from '../theme';
 
 export default styled.a`
   /* Hide the link when it is not focused */
@@ -17,6 +18,6 @@ export default styled.a`
     clip: auto;
     height: auto;
     width: auto;
-    z-index: 20;
+    z-index: ${theme.zIndex.focusedHiddenLink};
   }
 `;

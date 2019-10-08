@@ -411,46 +411,6 @@ Array [
 ]
 `;
 
-exports[`BookBanner renders empty state when passed a page that isn't in the book tree 1`] = `
-.c0 {
-  top: 0;
-  padding: 0 3.2rem;
-  box-shadow: 0 0.2rem 0.2rem 0 rgba(0,0,0,0.1);
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  height: 13rem;
-  -webkit-transition: -webkit-transform 200ms;
-  -webkit-transition: transform 200ms;
-  transition: transform 200ms;
-  position: relative;
-  z-index: 4;
-  overflow: hidden;
-}
-
-@media print {
-  .c0 {
-    display: none;
-  }
-}
-
-@media screen and (max-width:75em) {
-  .c0 {
-    padding: 1.6rem;
-    height: 10.4rem;
-  }
-}
-
-<div
-  className="c0"
-/>
-`;
-
 exports[`BookBanner renders empty state with no page or book 1`] = `
 .c0 {
   top: 0;

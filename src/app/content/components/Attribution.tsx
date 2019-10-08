@@ -4,7 +4,7 @@ import { FormattedHTMLMessage, FormattedMessage } from 'react-intl';
 import { connect } from 'react-redux';
 import styled, { css } from 'styled-components/macro';
 import { CollapseIcon, Details, ExpandIcon, Summary } from '../../components/Details';
-import { bodyCopyRegularStyle, decoratedLinkStyle } from '../../components/Typography';
+import { bodyCopyRegularStyle, decoratedLinkStyle, textRegularLineHeight } from '../../components/Typography';
 import * as selectNavigation from '../../navigation/selectors';
 import theme from '../../theme';
 import { AppState } from '../../types';
@@ -15,6 +15,12 @@ import { findDefaultBookPage, getBookPageUrlAndParams } from '../utils';
 import { contentTextStyle } from './Page';
 import { disablePrint } from './utils/disablePrint';
 import { wrapperPadding } from './Wrapper';
+
+const detailsMarginTop = 2;
+const desktopSpacing = 1.8;
+const mobileSpacing = 0.8;
+export const desktopAttributionHeight = detailsMarginTop + textRegularLineHeight + desktopSpacing * 2;
+export const mobileAttributionHeight = detailsMarginTop + textRegularLineHeight + mobileSpacing * 2;
 
 const summaryIconStyle = css`
   margin-left: -0.3rem;
@@ -55,21 +61,21 @@ const Content = styled.div`
 const AttributionDetails = styled(Details)`
   ${bodyCopyRegularStyle}
   box-shadow: 0 -1rem 1rem -1rem rgba(0, 0, 0, 0.1);
-  margin: 2rem 0 0 0;
+  margin: ${detailsMarginTop}rem 0 0 0;
   min-height: 6rem;
   ${wrapperPadding}
-  padding-top: 1.8rem;
+  padding-top: ${desktopSpacing}rem;
 
   > ${AttributionSummary} {
-    margin-bottom: 1.8rem;
+    margin-bottom: ${desktopSpacing}rem;
   }
 
   ${theme.breakpoints.mobile(css`
     min-height: 4rem;
-    padding-top: 0.8rem;
+    padding-top: ${mobileSpacing}rem;
 
     > ${Summary} {
-      margin-bottom: 0.8rem;
+      margin-bottom: ${mobileSpacing}rem;
     }
   `)}
 
@@ -143,8 +149,10 @@ class Attribution extends Component<Props> {
     // this compensates
     bookPublishDate.setMinutes(bookPublishDate.getMinutes() + bookPublishDate.getTimezoneOffset());
 
+    const seniorAuthors = book.authors.filter((author) => author.value.senior_author);
+
     return {
-      bookAuthors: book.authors.map(({value: {name}}) => name).join(', '),
+      bookAuthors: seniorAuthors.map(({value: {name}}) => name).join(', '),
       bookLicenseName: book.license.name,
       bookLicenseVersion: book.license.version,
       bookPublishDate,

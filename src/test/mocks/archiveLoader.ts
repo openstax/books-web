@@ -15,6 +15,14 @@ export const shortPage = JSON.parse(
   fs.readFileSync(path.resolve(__dirname, '../fixtures/contents/testbook1-shortid:testpage4-shortid'), 'utf8')
 ) as ArchivePage;
 
+export const pageInChapter = JSON.parse(
+  fs.readFileSync(path.resolve(__dirname, '../fixtures/contents/testbook1-shortid:testpage6-shortid'), 'utf8')
+) as ArchivePage;
+
+export const pageInOtherChapter = JSON.parse(
+  fs.readFileSync(path.resolve(__dirname, '../fixtures/contents/testbook1-shortid:testpage7-shortid'), 'utf8')
+) as ArchivePage;
+
 export const lastPage = JSON.parse(
   fs.readFileSync(path.resolve(__dirname, '../fixtures/contents/testbook1-shortid:testpage12-shortid'), 'utf8')
 ) as ArchivePage;
@@ -38,7 +46,7 @@ export default () => {
 
   const loadBook = jest.fn((bookId, bookVersion) => {
     const bookData = resolveBook(bookId, bookVersion);
-    return bookData ? Promise.resolve(bookData) : Promise.reject();
+    return bookData ? Promise.resolve(bookData) : Promise.reject(new Error('failed to load book data'));
   });
   const loadPage = jest.fn((bookId, bookVersion, pageId) => {
     const pages = localBookPages[`${bookId}@${bookVersion}`];

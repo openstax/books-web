@@ -10,5 +10,4 @@ export default [
   ...searchHooks,
   routeHook(routes.content, locationChangeBody),
   actionHook(actions.receivePage, receiveContentBody),
-  actionHook(actions.receiveBook, receiveContentBody),
 ];

@@ -1,4 +1,5 @@
 import cloneDeep from 'lodash/cloneDeep';
+import { resetModules } from '../../test/utils';
 import { Book } from './types';
 import {
   getContentPageReferences,
@@ -67,7 +68,7 @@ describe('getUrlParamForPageId', () => {
   let getUrlParamForPageId: any;
 
   beforeEach(() => {
-    jest.resetModules();
+    resetModules();
     getUrlParamForPageId = require('./utils').getUrlParamForPageId;
 
     book = cloneDeep({

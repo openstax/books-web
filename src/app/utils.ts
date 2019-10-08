@@ -1,6 +1,10 @@
 import { Ref } from 'react';
 import scrollToElement from 'scroll-to-element';
 import { getType } from 'typesafe-actions';
+import Sentry from '../helpers/Sentry';
+import { recordError } from './errors/actions';
+
+import { Document } from '@openstax/types/lib.dom';
 import {
   ActionHookBody,
   AnyAction,
@@ -23,13 +27,19 @@ export const actionHook = <C extends AnyActionCreator>(actionCreator: C, body: A
       const result = next(action);
 
       if (matches(action)) {
-        const promise = boundHook(action);
-
-        if (promise) {
-          services.promiseCollector.add(promise);
+        const catchError = (e: Error) => {
+          Sentry.captureException(e);
+          stateHelpers.dispatch(recordError(e));
+        };
+        try {
+          const promise = boundHook(action);
+          if (promise) {
+            services.promiseCollector.add(promise.catch(catchError));
+          }
+        } catch (e) {
+          catchError(e);
         }
       }
-
       return result;
     };
   };
@@ -106,4 +116,27 @@ export const remsToPx = (rems: number) => {
     : parseFloat(window.getComputedStyle(window.document.body).fontSize || '') || 10;
 
   return rems * bodyFontSize;
+};
+
+export const getAllRegexMatches = (regex: RegExp) => {
+  if (!regex.global) {
+    throw new Error('getAllRegexMatches must be used with the global flag');
+  }
+
+  return (string: string) => {
+    const matches: RegExpExecArray[] = [];
+    let match: RegExpExecArray | null;
+    while ((match = regex.exec(string)) ) { // tslint:disable-line:no-conditional-assignment
+      matches.push(match);
+    }
+    return matches;
+  };
+};
+
+export const resetTabIndex = (document: Document) => {
+  const index = document.body.tabIndex;
+  document.body.tabIndex = 0;
+
+  document.body.focus();
+  document.body.tabIndex = index;
 };

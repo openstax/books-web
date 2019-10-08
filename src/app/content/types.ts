@@ -9,7 +9,7 @@ export interface Params {
 
 export interface State {
   tocOpen: boolean | null;
-  params?: Params;
+  params: Partial<Params>;
   loading: {
     book?: string;
     page?: string;
@@ -45,11 +45,13 @@ export interface Book {
   authors: Array<{
     value: {
       name: string;
+      senior_author: boolean;
     }
   }>;
 }
 
 export interface Page {
+  abstract: string;
   id: string;
   shortId: string;
   title: string;
@@ -92,6 +94,7 @@ export interface ArchiveBook {
 }
 
 export interface ArchivePage {
+  abstract: string;
   id: string;
   shortId: string;
   content: string;

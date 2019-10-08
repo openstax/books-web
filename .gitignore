@@ -76,3 +76,6 @@ ui-test.html
 src/content.css
 src/content.css.map
 open-search-client
+
+# development environment.json
+public/rex/environment.json

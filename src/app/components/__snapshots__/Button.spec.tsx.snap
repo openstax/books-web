@@ -15,9 +15,9 @@ exports[`Button matches snapshot - default 1`] = `
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
+  white-space: nowrap;
   font-family: Neue Helvetica W01;
   border-radius: 0.2rem;
-  white-space: nowrap;
   min-width: 12rem;
   font-size: 1.6rem;
   height: 4rem;
@@ -56,9 +56,9 @@ exports[`Button matches snapshot - large 1`] = `
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
+  white-space: nowrap;
   font-family: Neue Helvetica W01;
   border-radius: 0.2rem;
-  white-space: nowrap;
   font-size: 1.6rem;
   height: 5rem;
   padding: 0 3rem;
@@ -97,9 +97,9 @@ exports[`Button matches snapshot - medium 1`] = `
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
+  white-space: nowrap;
   font-family: Neue Helvetica W01;
   border-radius: 0.2rem;
-  white-space: nowrap;
   min-width: 12rem;
   font-size: 1.6rem;
   height: 4rem;
@@ -139,9 +139,9 @@ exports[`Button matches snapshot - primary 1`] = `
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
+  white-space: nowrap;
   font-family: Neue Helvetica W01;
   border-radius: 0.2rem;
-  white-space: nowrap;
   min-width: 12rem;
   font-size: 1.6rem;
   height: 4rem;
@@ -180,9 +180,9 @@ exports[`Button matches snapshot - secondary 1`] = `
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
+  white-space: nowrap;
   font-family: Neue Helvetica W01;
   border-radius: 0.2rem;
-  white-space: nowrap;
   min-width: 12rem;
   font-size: 1.6rem;
   height: 4rem;
@@ -221,9 +221,9 @@ exports[`Button matches snapshot - small 1`] = `
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
+  white-space: nowrap;
   font-family: Neue Helvetica W01;
   border-radius: 0.2rem;
-  white-space: nowrap;
   font-size: 1.4rem;
   height: 3rem;
   padding: 0 2rem;

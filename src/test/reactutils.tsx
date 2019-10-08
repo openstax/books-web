@@ -2,6 +2,7 @@ import { HTMLElement } from '@openstax/types/lib.dom';
 import React, { Component } from 'react';
 import { ComponentType, ReactElement } from 'react';
 import ReactDOM from 'react-dom';
+import renderer from 'react-test-renderer';
 
 // JSDom logs to console.error when an Error is thrown.
 // Disable the console just in this instance, and re-enable after.
@@ -48,3 +49,17 @@ export function renderToDom<C extends ComponentType>(subject: ReactElement<C>, c
     tree: c,
   };
 }
+
+export const makeFindByTestId = (instance: renderer.ReactTestInstance) =>
+  (id: string) => instance.findByProps({'data-testid': id});
+
+export const makeFindOrNullByTestId = (instance: renderer.ReactTestInstance) =>
+  (id: string): renderer.ReactTestInstance | null => instance.findAllByProps({'data-testid': id})[0] || null;
+
+export const makeEvent = () => ({
+  preventDefault: jest.fn(),
+});
+export const makeInputEvent = (value: string) => ({
+  currentTarget: {value},
+  preventDefault: jest.fn(),
+});

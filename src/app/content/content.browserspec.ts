@@ -40,7 +40,7 @@ describe('content', () => {
     - and doesn't close the sidebar
   `, async() => {
     // set a viewport where the sidebar scrolls but "Test Page 3" is visible
-    page.setViewport({height: 300, width: desktopWidth});
+    page.setViewport({height: 400, width: desktopWidth});
     await navigate(page, TEST_PAGE_URL);
 
     // assert initial state

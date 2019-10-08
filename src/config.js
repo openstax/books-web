@@ -26,6 +26,7 @@ let config = {
   REACT_APP_OS_WEB_API_URL: '/apps/cms/api',
   REACT_APP_SEARCH_URL: '/open-search/api/v0',
   BOOKS: process.env.REACT_APP_BOOKS || require('./config.books'),
+  SENTRY_ENABLED: process.env.REACT_APP_SENTRY_ENABLED || false,
 };
 
 if (process.env.REACT_APP_ENV === 'production') {

@@ -1,7 +1,8 @@
 import { HTMLDivElement } from '@openstax/types/lib.dom';
 import React, { Component } from 'react';
 import { FormattedMessage } from 'react-intl';
-import { MAIN_CONTENT_ID, Provider } from '../context/SkipToContent';
+import { MAIN_CONTENT_ID } from '../context/constants';
+import { Provider } from '../context/SkipToContent';
 import { scrollTo } from '../utils';
 import HiddenLink from './HiddenLink';
 

@@ -24,7 +24,7 @@ export const Group = styled.div`
 // tslint:disable-next-line:variable-name
 export const P = styled.p`
   ${bodyCopyRegularStyle}
-  margin: 0;
+  margin: 1rem 0 0 0;
   padding: 1rem;
 
   @media (max-width: ${inlineDisplayBreak}) {
@@ -70,7 +70,6 @@ export const Header = styled.div`
   font-weight: bold;
   background-color: ${theme.color.neutral.darker};
   line-height: 4rem;
-  margin-bottom: 1rem;
 
   @media (max-width: ${inlineDisplayBreak}) {
     padding: 0;

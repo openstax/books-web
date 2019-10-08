@@ -6,6 +6,11 @@ export const localState = createSelector(
   (parentState) => parentState.errors
 );
 
+export const currentError = createSelector(
+  localState,
+  (state) => state.error
+);
+
 export const code = createSelector(
   localState,
   (state) => state.code

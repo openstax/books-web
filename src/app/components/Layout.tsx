@@ -1,13 +1,18 @@
 import React, { SFC } from 'react';
 import styled, { css } from 'styled-components/macro';
+import ErrorBoundary from '../errors/components/ErrorBoundary';
+import ErrorModal from '../errors/components/ErrorModal';
 import theme from '../theme';
 import NavBar from './NavBar';
 import SkipToContentWrapper from './SkipToContentWrapper';
 
 // tslint:disable-next-line:variable-name
-const Layout: SFC = ({children}) => <SkipToContentWrapper>
+const Layout: SFC = ({ children }) => <SkipToContentWrapper>
   <NavBar />
-  {children}
+  <ErrorModal />
+  <ErrorBoundary>
+    {children}
+  </ErrorBoundary>
 </SkipToContentWrapper>;
 
 export const wrapperPadding = css`

@@ -1,4 +1,5 @@
 import { AppServices } from '../app/types';
+import { resetModules } from '../test/utils';
 import { fields } from './createOSWebLoader';
 
 const mockFetch = (code: number, data: any) => jest.fn(() => Promise.resolve({
@@ -16,7 +17,7 @@ describe('osWebLoader', () => {
   });
 
   afterEach(() => {
-    jest.resetModules();
+    resetModules();
     (global as any).fetch = fetchBackup;
   });
 
@@ -108,6 +109,20 @@ describe('osWebLoader', () => {
       const result = await osWebLoader.getBookFromId('qwer');
       expect(fetch).toHaveBeenCalledWith(`url/v2/pages?type=books.Book&fields=${fields}&cnx_id=qwer`);
       expect(result).toEqual(book);
+    });
+
+    it('memoizes', async() => {
+      book.cnx_id = 'cnx_id1';
+      book.meta = {slug: 'slug1'};
+      await osWebLoader.getBookFromId('cnx_id1');
+      await osWebLoader.getBookFromId('cnx_id1');
+      await osWebLoader.getBookFromId('cnx_id1');
+      book.cnx_id = 'cnx_id2';
+      book.meta = {slug: 'slug2'};
+      await osWebLoader.getBookFromId('cnx_id2');
+      await osWebLoader.getBookFromId('cnx_id2');
+      await osWebLoader.getBookFromId('cnx_id2');
+      expect(fetch).toHaveBeenCalledTimes(2);
     });
   });
 });

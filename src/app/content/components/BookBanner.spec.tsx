@@ -4,9 +4,11 @@ import { book as archiveBook, shortPage } from '../../../test/mocks/archiveLoade
 import { mockCmsBook } from '../../../test/mocks/osWebLoader';
 import { renderToDom } from '../../../test/reactutils';
 import { formatBookData } from '../utils';
+import { findArchiveTreeNode } from '../utils/archiveTreeUtils';
 import { BarWrapper, BookBanner } from './BookBanner';
 
 const book = formatBookData(archiveBook, mockCmsBook);
+const pageNode = findArchiveTreeNode(archiveBook.tree, shortPage.id)!;
 
 describe('BookBanner', () => {
 
@@ -18,22 +20,14 @@ describe('BookBanner', () => {
   });
 
   it('renders correctly when you pass a page and book', () => {
-    const component = renderer.create(<BookBanner page={shortPage} book={book} />);
-
-    const tree = component.toJSON();
-    expect(tree).toMatchSnapshot();
-  });
-
-  it('renders empty state when passed a page that isn\'t in the book tree', () => {
-    const pageNotInTree = {...shortPage, id: 'asdfasdfasd'};
-    const component = renderer.create(<BookBanner page={pageNotInTree} book={book} />);
+    const component = renderer.create(<BookBanner pageNode={pageNode} book={book} />);
 
     const tree = component.toJSON();
     expect(tree).toMatchSnapshot();
   });
 
   it('mounts in a dom', () => {
-    expect(() => renderToDom(<BookBanner page={shortPage} book={book} />)).not.toThrow();
+    expect(() => renderToDom(<BookBanner pageNode={pageNode} book={book} />)).not.toThrow();
   });
 
   it('wrapper transition matches snapshot', () => {

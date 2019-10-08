@@ -1,6 +1,6 @@
 interface Config {
   APP_ENV: 'development' | 'test' | 'production';
-  IS_PRODUCTION: boolean;
+  SENTRY_ENABLED: boolean;
   REACT_APP_ACCOUNTS_URL: string;
   ARCHIVE_URL: string;
   REACT_APP_ARCHIVE_URL: string;

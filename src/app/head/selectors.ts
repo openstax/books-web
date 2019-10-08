@@ -11,6 +11,11 @@ export const meta = createSelector(
   (state) => state.meta
 );
 
+export const links = createSelector(
+  localState,
+  (state) => state.links
+);
+
 export const title = createSelector(
   localState,
   (state) => state.title

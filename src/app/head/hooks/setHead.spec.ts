@@ -6,12 +6,25 @@ describe('setHead hook', () => {
   let hookBody: ActionHookBody<typeof setHead>;
   const helpers = {} as MiddlewareAPI & AppServices;
   const action = setHead({
+    links: [{rel: 'canonical', href: 'justfortesting'}],
     meta: [{name: 'fake', content: 'meta'}],
     title: 'cool title',
   });
 
   beforeEach(() => {
     hookBody = require('./setHead').hookBody;
+    assertDefined(assertDefined(document, 'document must be defined').head, 'document must have a head').innerHTML = '';
+  });
+
+  it('adds link', () => {
+    if (typeof(document) === 'undefined') {
+      return expect(document).toBeTruthy();
+    }
+    const head = assertDefined(document.head, 'document must have a head');
+
+    expect(head.querySelectorAll('link[data-rex-page]').length).toEqual(0);
+    hookBody(helpers)(action);
+    expect(head.querySelectorAll('link[data-rex-page]').length).toEqual(1);
   });
 
   it('adds meta', () => {

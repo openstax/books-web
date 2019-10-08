@@ -15,9 +15,9 @@ exports[`Notifications matches snapshot 1`] = `
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
+  white-space: nowrap;
   font-family: Neue Helvetica W01;
   border-radius: 0.2rem;
-  white-space: nowrap;
   min-width: 12rem;
   font-size: 1.6rem;
   height: 4rem;
@@ -38,6 +38,8 @@ exports[`Notifications matches snapshot 1`] = `
 
 .c6 {
   display: grid;
+  overflow: visible;
+  grid-auto-flow: column;
   grid-gap: 1rem;
 }
 
@@ -55,7 +57,7 @@ exports[`Notifications matches snapshot 1`] = `
   color: #424242;
   font-size: 1.6rem;
   line-height: 2.5rem;
-  margin: 0;
+  margin: 1rem 0 0 0;
   padding: 1rem;
 }
 
@@ -104,7 +106,6 @@ exports[`Notifications matches snapshot 1`] = `
   font-weight: bold;
   background-color: #fafafa;
   line-height: 4rem;
-  margin-bottom: 1rem;
 }
 
 .c3 a {
@@ -214,6 +215,196 @@ exports[`Notifications matches snapshot 1`] = `
       </button>
     </div>
   </div>
+</div>
+`;
+
+exports[`Notifications matches snapshot 2`] = `
+.c7 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  cursor: pointer;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  white-space: nowrap;
+  font-family: Neue Helvetica W01;
+  border-radius: 0.2rem;
+  min-width: 12rem;
+  font-size: 1.6rem;
+  height: 4rem;
+  padding: 0 3rem;
+  color: #fff;
+  background-color: #f36b32;
+  font-weight: bold;
+  border: none;
+}
+
+.c7:hover {
+  background-color: #e96128;
+}
+
+.c7:active {
+  background-color: #df571e;
+}
+
+.c6 {
+  display: grid;
+  overflow: visible;
+  grid-auto-flow: column;
+  grid-gap: 1rem;
+}
+
+.c2 {
+  width: 100%;
+}
+
+.c2 .c5 {
+  padding: 1rem;
+  margin: 0;
+}
+
+.c4 {
+  font-family: Neue Helvetica W01;
+  color: #424242;
+  font-size: 1.6rem;
+  line-height: 2.5rem;
+  margin: 1rem 0 0 0;
+  padding: 1rem;
+}
+
+.c4 a {
+  color: #027EB5;
+  cursor: pointer;
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+}
+
+.c4 a:hover {
+  color: #0064A0;
+}
+
+.c1 {
+  margin: 0.5rem;
+  background-color: #fff;
+  border-style: solid;
+  border-color: #e5e5e5;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-basis: 100%;
+  -ms-flex-preferred-size: 100%;
+  flex-basis: 100%;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  border-width: thin;
+  box-shadow: 0 1rem 2rem 0 rgba(0,0,0,0.2);
+  overflow: visible;
+}
+
+.c1 > .c5 {
+  padding: 1rem;
+  margin: 0;
+}
+
+.c3 {
+  font-family: Neue Helvetica W01;
+  color: #424242;
+  font-size: 1.6rem;
+  line-height: 2.5rem;
+  padding: 0.5rem 1rem;
+  font-weight: bold;
+  background-color: #fafafa;
+  line-height: 4rem;
+}
+
+.c3 a {
+  color: #027EB5;
+  cursor: pointer;
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+}
+
+.c3 a:hover {
+  color: #0064A0;
+}
+
+.c0 {
+  width: 30rem;
+  height: 0;
+  margin-left: calc(100% - 30rem);
+  top: 0;
+  overflow: visible;
+  position: -webkit-sticky;
+  position: sticky;
+  padding-top: 1px;
+  margin-top: -1px;
+}
+
+@media (max-width:75em) {
+  .c2 > .c5 {
+    display: block;
+    padding: 1.6rem 0 0 0;
+  }
+}
+
+@media (max-width:75em) {
+  .c4 {
+    padding: 0;
+  }
+}
+
+@media (max-width:75em) {
+  .c1 {
+    margin: 1.6rem;
+    box-shadow: none;
+    border: none;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    background-color: initial;
+  }
+
+  .c1 > .c5 {
+    padding: 0;
+  }
+}
+
+@media (max-width:75em) {
+  .c3 {
+    padding: 0;
+    line-height: 2rem;
+    background-color: initial;
+  }
+}
+
+@media (max-width:75em) {
+  .c0 {
+    box-shadow: inset 0 -0.2rem 0.2rem 0 rgba(0,0,0,0.14);
+    background-color: #fafafa;
+    margin: 0;
+    height: auto;
+    width: 100%;
+  }
+}
+
+@media print {
+  .c0 {
+    display: none;
+  }
+}
+
+<div
+  className="c0"
+>
   <div
     className="c1"
   >
@@ -243,6 +434,227 @@ exports[`Notifications matches snapshot 1`] = `
           Got it!
         </button>
       </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Notifications matches snapshot 3`] = `
+.c7 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  cursor: pointer;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  white-space: nowrap;
+  font-family: Neue Helvetica W01;
+  border-radius: 0.2rem;
+  min-width: 12rem;
+  font-size: 1.6rem;
+  height: 4rem;
+  padding: 0 3rem;
+  color: #fff;
+  background-color: #f36b32;
+  font-weight: bold;
+  border: none;
+}
+
+.c7:hover {
+  background-color: #e96128;
+}
+
+.c7:active {
+  background-color: #df571e;
+}
+
+.c6 {
+  display: grid;
+  overflow: visible;
+  grid-auto-flow: column;
+  grid-gap: 1rem;
+}
+
+.c2 {
+  width: 100%;
+}
+
+.c2 .c5 {
+  padding: 1rem;
+  margin: 0;
+}
+
+.c4 {
+  font-family: Neue Helvetica W01;
+  color: #424242;
+  font-size: 1.6rem;
+  line-height: 2.5rem;
+  margin: 1rem 0 0 0;
+  padding: 1rem;
+}
+
+.c4 a {
+  color: #027EB5;
+  cursor: pointer;
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+}
+
+.c4 a:hover {
+  color: #0064A0;
+}
+
+.c1 {
+  margin: 0.5rem;
+  background-color: #fff;
+  border-style: solid;
+  border-color: #e5e5e5;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-basis: 100%;
+  -ms-flex-preferred-size: 100%;
+  flex-basis: 100%;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  border-width: thin;
+  box-shadow: 0 1rem 2rem 0 rgba(0,0,0,0.2);
+  overflow: visible;
+}
+
+.c1 > .c5 {
+  padding: 1rem;
+  margin: 0;
+}
+
+.c3 {
+  font-family: Neue Helvetica W01;
+  color: #424242;
+  font-size: 1.6rem;
+  line-height: 2.5rem;
+  padding: 0.5rem 1rem;
+  font-weight: bold;
+  background-color: #fafafa;
+  line-height: 4rem;
+}
+
+.c3 a {
+  color: #027EB5;
+  cursor: pointer;
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+}
+
+.c3 a:hover {
+  color: #0064A0;
+}
+
+.c0 {
+  width: 30rem;
+  height: 0;
+  margin-left: calc(100% - 30rem);
+  top: 0;
+  overflow: visible;
+  position: -webkit-sticky;
+  position: sticky;
+  padding-top: 1px;
+  margin-top: -1px;
+}
+
+@media (max-width:75em) {
+  .c2 > .c5 {
+    display: block;
+    padding: 1.6rem 0 0 0;
+  }
+}
+
+@media (max-width:75em) {
+  .c4 {
+    padding: 0;
+  }
+}
+
+@media (max-width:75em) {
+  .c1 {
+    margin: 1.6rem;
+    box-shadow: none;
+    border: none;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    background-color: initial;
+  }
+
+  .c1 > .c5 {
+    padding: 0;
+  }
+}
+
+@media (max-width:75em) {
+  .c3 {
+    padding: 0;
+    line-height: 2rem;
+    background-color: initial;
+  }
+}
+
+@media (max-width:75em) {
+  .c0 {
+    box-shadow: inset 0 -0.2rem 0.2rem 0 rgba(0,0,0,0.14);
+    background-color: #fafafa;
+    margin: 0;
+    height: auto;
+    width: 100%;
+  }
+}
+
+@media print {
+  .c0 {
+    display: none;
+  }
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1"
+  >
+    <div
+      className="c2"
+    >
+      <div
+        className="c3"
+      >
+        Notification
+      </div>
+      <p
+        className="c4"
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "asdf",
+          }
+        }
+      />
+    </div>
+    <div
+      className="c5 c6"
+    >
+      <button
+        className="c7"
+        onClick={[Function]}
+      >
+        OK
+      </button>
     </div>
   </div>
 </div>

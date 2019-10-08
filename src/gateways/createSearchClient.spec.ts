@@ -1,3 +1,4 @@
+import { resetModules } from '../test/utils';
 import createSearchClient from './createSearchClient';
 
 describe('createSearchClient', () => {
@@ -5,7 +6,7 @@ describe('createSearchClient', () => {
   let fetchSpy: jest.SpyInstance;
 
   beforeEach(() => {
-    jest.resetModules();
+    resetModules();
     fetchSpy = (global as any).fetch = jest.fn(() =>
       Promise.resolve({
         json: () => ({

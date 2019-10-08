@@ -1,9 +1,9 @@
 import { HTMLElement } from '@openstax/types/lib.dom';
 import {
-  expandCurrentChapter, scrollTocSectionIntoView,
+  expandCurrentChapter, scrollSidebarSectionIntoView,
 } from './domUtils';
 
-describe('scrollTocSectionIntoView', () => {
+describe('scrollSidebarSectionIntoView', () => {
   let activeSection: HTMLElement;
   let activeChapter: HTMLElement;
   let sidebar: HTMLElement;
@@ -28,25 +28,25 @@ describe('scrollTocSectionIntoView', () => {
   });
 
   it('does nothing if activeSection is undefined', () => {
-    scrollTocSectionIntoView(sidebar, null);
+    scrollSidebarSectionIntoView(sidebar, null);
     expect(sidebar.scrollTop).toBe(0);
   });
 
   it('does nothing if sidebar is undefined', () => {
     expect(() =>
-      scrollTocSectionIntoView(null, activeSection)
+      scrollSidebarSectionIntoView(null, activeSection)
     ).not.toThrow();
   });
 
   it('does nothing if section is already visible', () => {
     Object.defineProperty(activeSection, 'offsetTop', { value: 500 });
-    scrollTocSectionIntoView(sidebar, activeSection);
+    scrollSidebarSectionIntoView(sidebar, activeSection);
     expect(sidebar.scrollTop).toBe(0);
   });
 
   it('udpates scroll position if the section is not visible', () => {
     Object.defineProperty(activeSection, 'offsetTop', { value: 1500 });
-    scrollTocSectionIntoView(sidebar, activeSection);
+    scrollSidebarSectionIntoView(sidebar, activeSection);
     expect(sidebar.scrollTop).toBe(1500);
   });
 
@@ -57,7 +57,7 @@ describe('scrollTocSectionIntoView', () => {
       value: activeChapter,
     });
 
-    scrollTocSectionIntoView(sidebar, activeSection);
+    scrollSidebarSectionIntoView(sidebar, activeSection);
     expect(sidebar.scrollTop).toBe(1400);
   });
 
@@ -68,7 +68,7 @@ describe('scrollTocSectionIntoView', () => {
       value: activeChapter,
     });
 
-    scrollTocSectionIntoView(sidebar, activeSection);
+    scrollSidebarSectionIntoView(sidebar, activeSection);
     expect(sidebar.scrollTop).toBe(2500);
   });
 
@@ -80,7 +80,7 @@ describe('scrollTocSectionIntoView', () => {
     randoElement1.appendChild(sidebar);
 
     Object.defineProperty(activeSection, 'offsetTop', { value: 1500 });
-    scrollTocSectionIntoView(randoElement1, activeSection);
+    scrollSidebarSectionIntoView(randoElement1, activeSection);
     expect(sidebar.scrollTop).toBe(1500);
   });
 
@@ -103,7 +103,7 @@ describe('scrollTocSectionIntoView', () => {
       value: activeChapter,
     });
 
-    scrollTocSectionIntoView(sidebar, activeSection);
+    scrollSidebarSectionIntoView(sidebar, activeSection);
     expect(sidebar.scrollTop).toBe(1400);
   });
 
@@ -125,7 +125,7 @@ describe('scrollTocSectionIntoView', () => {
     Object.defineProperty(randoElement1, 'parentElement', { value: sidebar });
     Object.defineProperty(sidebar, 'parentElement', { value: activeChapter });
 
-    scrollTocSectionIntoView(sidebar, activeSection);
+    scrollSidebarSectionIntoView(sidebar, activeSection);
     expect(sidebar.scrollTop).toBe(1500);
   });
 });

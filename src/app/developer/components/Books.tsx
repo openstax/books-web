@@ -3,11 +3,10 @@ import { BOOKS } from '../../../config';
 import { H3 } from '../../components/Typography';
 import { StyledContentLink } from '../../content/components/ContentLink';
 import { Book } from '../../content/types';
-import { findDefaultBookPage } from '../../content/utils';
+import { findDefaultBookPage, makeUnifiedBookLoader } from '../../content/utils';
 import withServices from '../../context/Services';
 import { AppServices } from '../../types';
 import Panel from './Panel';
-import { getBooks } from './utils';
 
 interface Props {
   services: AppServices;
@@ -23,8 +22,11 @@ class Books extends React.Component<Props, State> {
 
   public async componentDidMount() {
     const {archiveLoader, osWebLoader} = this.props.services;
-    const bookEntries = Object.entries(BOOKS);
-    const books: State['books'] = await getBooks(archiveLoader, osWebLoader, bookEntries);
+    const bookLoader = makeUnifiedBookLoader(archiveLoader, osWebLoader);
+
+    const books = await Promise.all(Object.entries(BOOKS).map(([bookId, {defaultVersion}]) =>
+      bookLoader(bookId, defaultVersion)
+    ));
 
     this.setState({books});
   }

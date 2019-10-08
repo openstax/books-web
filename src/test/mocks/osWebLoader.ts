@@ -1,7 +1,7 @@
 import { OSWebBook } from '../../gateways/createOSWebLoader';
 
 export const mockCmsBook: OSWebBook = {
-  authors: [{value: {name: 'Bam Bammerson'}}],
+  authors: [{value: {name: 'Bam Bammerson', senior_author: true}}],
   cnx_id: '3',
   cover_color: 'blue',
   meta: {

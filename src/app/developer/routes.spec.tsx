@@ -1,22 +1,28 @@
-import React from 'react';
-import createApp from '../index';
-import { AppServices } from '../types';
-import { developerHome } from './routes';
+import createTestServices from '../../test/createTestServices';
+import { reactAndFriends, resetModules } from '../../test/utils';
 
 describe('developer route', () => {
+  let React: any; // tslint:disable-line:variable-name
+  let renderer: any;
+  let createApp: any;
+  let developerHome: any;
+
   it('makes a url', () => {
+    developerHome = require('./routes').developerHome;
     expect(developerHome.getUrl()).toEqual(developerHome.paths[0]);
   });
 
   describe('route renders', () => {
     const windowBackup = window;
     const documentBackup = document;
-    let renderer: any;
 
     beforeEach(() => {
       delete (global as any).window;
       delete (global as any).document;
-      renderer = require('react-test-renderer');
+      resetModules();
+      ({React, renderer} = reactAndFriends());
+      createApp = require('../index').default;
+      developerHome = require('./routes').developerHome;
     });
 
     afterEach(() => {
@@ -25,8 +31,7 @@ describe('developer route', () => {
     });
 
     it('renders a component', () => {
-      const services = {
-      } as AppServices;
+      const services = createTestServices();
 
       const match = {
         route: developerHome,
