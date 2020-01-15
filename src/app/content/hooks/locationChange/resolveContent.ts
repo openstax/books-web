@@ -189,12 +189,23 @@ const loadContentReference = async(
     ? book
     : await resolveExternalBookReference(services, book, page, reference.pageUid);
 
+  const sharedParams = {
+    page: getUrlParamForPageId(targetBook, reference.pageUid),
+    version: targetBook.version,
+  };
+
+  const params = targetBook.slug
+    ? {
+      book: targetBook.slug,
+      ...sharedParams,
+    } : {
+      uuid: targetBook.id,
+      ...sharedParams,
+    };
+
   return {
     match: reference.match,
-    params: {
-      book: targetBook.slug,
-      page: getUrlParamForPageId(targetBook, reference.pageUid),
-    },
+    params,
     state: {
       bookUid: targetBook.id,
       bookVersion: targetBook.version,
