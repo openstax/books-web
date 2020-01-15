@@ -23,6 +23,7 @@ export interface State {
   params: Params | null;
   loading: {
     book?: string;
+    uuid?: string;
     page?: string;
   };
   search: SearchState;
@@ -41,20 +42,30 @@ export interface PageReference {
   params: RouteParams<typeof content>;
 }
 
+interface RequestBookByUuid {
+  uuid: string;
+}
+
+interface RequestBookBySlug {
+  book: string;
+}
+
+export type RequestBook = RequestBookByUuid | RequestBookBySlug;
+
 export interface Book {
   id: string;
   shortId: string;
   title: string;
-  theme: 'blue' | 'green' | 'gray' | 'yellow' | 'deep-green' | 'light-blue' | 'orange' | 'red';
+  theme?: 'blue' | 'green' | 'gray' | 'yellow' | 'deep-green' | 'light-blue' | 'orange' | 'red';
   tree: ArchiveTree;
   version: string;
-  slug: string;
+  slug?: string;
   license: {
     name: string;
     version: string;
   };
-  publish_date: string;
-  authors: Array<{
+  publish_date?: string;
+  authors?: Array<{
     value: {
       name: string;
       senior_author: boolean;

@@ -40,6 +40,11 @@ export const loadingBook = createSelector(
   (slugs) => slugs.book
 );
 
+export const loadingUuid = createSelector(
+  loading,
+  (slugs) => slugs.uuid
+);
+
 export const loadingPage = createSelector(
   loading,
   (slugs) => slugs.page

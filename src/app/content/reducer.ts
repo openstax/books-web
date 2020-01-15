@@ -54,7 +54,7 @@ function reduceContent(state: State, action: AnyAction) {
     case getType(actions.resetToc):
       return {...state, tocOpen: null};
     case getType(actions.requestBook):
-      return {...state, loading: {...state.loading, book: action.payload}};
+      return {...state, loading: {...state.loading, ...action.payload}};
     case getType(actions.receiveBook): {
       return reduceReceiveBook(state, action);
     }

@@ -28,9 +28,9 @@ const getBookResponse = async(
   osWebLoader: AppServices['osWebLoader'],
   archiveLoader: AppServices['archiveLoader'],
   loader: ReturnType<AppServices['archiveLoader']['book']>,
-  bookSlug: string
+  bookSlug?: string
 ): Promise<[Book, ReturnType<AppServices['archiveLoader']['book']>]>  => {
-  const osWebBook = await osWebLoader.getBookFromSlug(bookSlug);
+  const osWebBook = bookSlug ? await osWebLoader.getBookFromSlug(bookSlug) : undefined;
   const archiveBook = await loader.load();
   const newBook = formatBookData(archiveBook, osWebBook);
   return [newBook, archiveLoader.book(newBook.id, newBook.version)];
@@ -41,7 +41,7 @@ const resolveBook = async(
   match: Match<typeof content>
 ): Promise<[Book, ReturnType<AppServices['archiveLoader']['book']>]> => {
   const {dispatch, getState, archiveLoader, osWebLoader} = services;
-  const [bookSlug, bookId, bookVersion] = await resolveBookReference(services, match);
+  const [bookId, bookSlug, bookVersion] = await resolveBookReference(services, match);
 
   const loader = archiveLoader.book(bookId, bookVersion);
   const state = getState();
@@ -52,8 +52,13 @@ const resolveBook = async(
     return [book, loader];
   }
 
-  if (bookSlug !== select.loadingBook(state)) {
-    dispatch(requestBook(bookSlug));
+  if (bookSlug !== select.loadingBook(state) && bookId !== select.loadingUuid(state)) {
+    if (bookSlug) {
+      dispatch(requestBook({book: bookSlug}));
+    } else {
+      dispatch(requestBook({uuid: bookId}));
+    }
+
     const response = await getBookResponse(osWebLoader, archiveLoader, loader, bookSlug);
     dispatch(receiveBook(response[0]));
     return response;
@@ -65,7 +70,7 @@ const resolveBook = async(
 const resolveBookReference = async(
   {osWebLoader, getState}: AppServices & MiddlewareAPI,
   match: Match<typeof content>
-): Promise<[string, string, string | undefined]> => {
+): Promise<[string, string?, string?]> => {
   const state = getState();
   const currentBook = select.book(state);
 
@@ -76,25 +81,31 @@ const resolveBookReference = async(
       : await osWebLoader.getBookSlugFromId(match.params.uuid);
 
   if (match.state && match.state.bookUid && match.state.bookVersion) {
-    return [bookSlug, match.state.bookUid, match.state.bookVersion];
+    return [match.state.bookUid, bookSlug,  match.state.bookVersion];
   }
 
   const bookUid  = 'uuid' in match.params
     ? match.params.uuid
     : currentBook && currentBook.slug === bookSlug
       ? currentBook.id
-      : await osWebLoader.getBookIdFromSlug(bookSlug);
+      : bookSlug && await osWebLoader.getBookIdFromSlug(bookSlug);
+
+  if (!bookUid) {
+    throw new Error(`No uuid provided or ${bookSlug} doesn't have one`);
+  }
 
   const bookVersion = 'version' in match.params
     ? match.params.version === 'latest'
       ? undefined
       : match.params.version
-    : assertDefined(
+    : bookUid
+      ? assertDefined(
         BOOKS[bookUid],
         `BUG: ${bookSlug} (${bookUid}) is not in BOOKS configuration`
-      ).defaultVersion;
+      ).defaultVersion
+      : undefined;
 
-  return [bookSlug, bookUid, bookVersion];
+  return [bookUid, bookSlug, bookVersion];
 };
 
 const loadPage = async(

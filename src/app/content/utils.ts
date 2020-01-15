@@ -19,13 +19,16 @@ export const getContentPageReferences = (content: string) =>
       };
     });
 
-export const formatBookData = (archiveBook: ArchiveBook, osWebBook: OSWebBook): Book => ({
-  ...archiveBook,
-  authors: osWebBook.authors,
-  publish_date: osWebBook.publish_date,
-  slug: osWebBook.meta.slug,
-  theme: osWebBook.cover_color,
-});
+export const formatBookData = (archiveBook: ArchiveBook, osWebBook?: OSWebBook): Book =>
+  osWebBook ?
+    {
+      ...archiveBook,
+      authors: osWebBook.authors,
+      publish_date: osWebBook.publish_date,
+      slug: osWebBook.meta.slug,
+      theme: osWebBook.cover_color,
+    }
+  : archiveBook;
 
 export const makeUnifiedBookLoader = (
   archiveLoader: AppServices['archiveLoader'],
