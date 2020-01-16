@@ -5,7 +5,7 @@ import theme from '../../theme';
 import { ActionHookBody } from '../../types';
 import { assertDefined } from '../../utils';
 import { receivePage } from '../actions';
-import { hasOSWebData } from '../guards'
+import { hasOSWebData } from '../guards';
 import { content as contentRoute } from '../routes';
 import * as select from '../selectors';
 import { getCanonicalUrlParams } from '../utils/canonicalUrl';

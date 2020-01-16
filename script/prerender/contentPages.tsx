@@ -8,6 +8,7 @@ import { ServerStyleSheet, StyleSheetManager } from 'styled-components/macro';
 import asyncPool from 'tiny-async-pool';
 import createApp from '../../src/app';
 import { AppOptions } from '../../src/app';
+import { hasOSWebData } from '../../src/app/content/guards';
 import { content } from '../../src/app/content/routes';
 import { Book, BookWithOSWebData } from '../../src/app/content/types';
 import { formatBookData, stripIdVersion } from '../../src/app/content/utils';
@@ -23,14 +24,13 @@ import { AppServices, AppState } from '../../src/app/types';
 import { assertDefined } from '../../src/app/utils';
 import { BOOKS } from '../../src/config';
 import FontCollector from '../../src/helpers/FontCollector';
-import { hasOSWebData } from '../../src/app/content/guards';
 import { assetDirectoryExists, readAssetFile, writeAssetFile } from './fileUtils';
 
 export async function prepareContentPage(
   bookLoader: ReturnType<AppServices['archiveLoader']['book']>,
   book: Book | BookWithOSWebData,
   pageId: string,
-  pageSlug: string,
+  pageSlug: string
 ) {
   const loadedBook = await bookLoader.load();
   const page = await bookLoader.page(pageId).load();
@@ -44,7 +44,7 @@ export async function prepareContentPage(
       page: pageSlug,
       uuid: book.id,
       version: book.version,
-    }
+    };
 
   const action: Match<typeof content> = {
     params,

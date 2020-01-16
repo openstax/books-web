@@ -11,7 +11,7 @@ import { AppState } from '../../types';
 import { assertDefined } from '../../utils';
 import { hasOSWebData } from '../guards';
 import * as select from '../selectors';
-import { ArchiveTreeSection , BookWithOSWebData} from '../types';
+import { ArchiveTreeSection , BookWithOSWebData } from '../types';
 import { bookDetailsUrl } from '../utils/urlUtils';
 import {
   bookBannerDesktopBigHeight,

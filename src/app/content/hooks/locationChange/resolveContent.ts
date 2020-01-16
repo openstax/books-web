@@ -3,10 +3,10 @@ import { Match } from '../../../navigation/types';
 import { AppServices, MiddlewareAPI } from '../../../types';
 import { assertDefined } from '../../../utils';
 import { receiveBook, receivePage, requestBook, requestPage } from '../../actions';
-import { hasOSWebData } from '../../guards'
+import { hasOSWebData } from '../../guards';
 import { content } from '../../routes';
 import * as select from '../../selectors';
-import { ArchivePage, Book, PageReferenceMap, BookWithOSWebData } from '../../types';
+import { ArchivePage, Book, BookWithOSWebData, PageReferenceMap } from '../../types';
 import {
   formatBookData,
   getContentPageReferences,
@@ -53,7 +53,7 @@ const resolveBook = async(
     return [book, loader];
   }
 
-  if (bookSlug !== select.loadingBook(state) && bookId !== select.loadingUuid(state)) {
+  if (bookSlug !== select.loadingBook(state) || bookId !== select.loadingUuid(state)) {
     if (bookSlug) {
       dispatch(requestBook({book: bookSlug}));
     } else {
@@ -192,7 +192,6 @@ const loadContentReference = async(
 
   const sharedParams = {
     page: getUrlParamForPageId(targetBook, reference.pageUid),
-    version: targetBook.version,
   };
 
   const params = hasOSWebData(targetBook)
@@ -201,6 +200,7 @@ const loadContentReference = async(
       ...sharedParams,
     } : {
       uuid: targetBook.id,
+      version: targetBook.version,
       ...sharedParams,
     };
 

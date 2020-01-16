@@ -5,10 +5,10 @@ import { push } from '../../../navigation/actions';
 import * as selectNavigation from '../../../navigation/selectors';
 import { AppState, Dispatch } from '../../../types';
 import { assertWindow } from '../../../utils';
-import { hasOSWebData } from '../../guards'
+import { hasOSWebData } from '../../guards';
 import { content } from '../../routes';
 import * as select from '../../selectors';
-import { BookWithOSWebData, PageReferenceMap } from '../../types';
+import { Book, BookWithOSWebData, PageReferenceMap } from '../../types';
 import { getBookPageUrlAndParams, toRelativeUrl } from '../../utils/urlUtils';
 
 export const mapStateToContentLinkProp = (state: AppState) => ({
@@ -30,10 +30,10 @@ export const reduceReferences = ({references, currentPath}: ContentLinkProp) => 
     pageContent
   );
 
-const isPathRefernceForBook = (pathname: string, book: BookWithOSWebData) => (ref: PageReferenceMap) =>
+const isPathRefernceForBook = (pathname: string, book: Book | BookWithOSWebData) => (ref: PageReferenceMap) =>
   content.getUrl(ref.params) === pathname
     && (
-      ('book' in ref.params && ref.params.book === book.slug)
+      ('book' in ref.params && hasOSWebData(book) && ref.params.book === book.slug)
       || ('uuid' in ref.params && ref.params.uuid === book.id)
     );
 
@@ -46,8 +46,7 @@ export const contentLinkHandler = (anchor: HTMLAnchorElement, getProps: () => Co
   }
 
   const {hash, search, pathname} = new URL(href, assertWindow().location.href);
-  const reference = hasOSWebData(book) && references.find(isPathRefernceForBook(pathname, book));
-
+  const reference = references.find(isPathRefernceForBook(pathname, book));
   if (reference) {
     e.preventDefault();
     // defer to allow other handlers to execute before nav happens

@@ -1,5 +1,5 @@
 import { createSelector } from 'reselect';
-import { hasOSWebData } from '../../app/content/guards'
+import { hasOSWebData } from '../../app/content/guards';
 import * as selectContent from '../../app/content/selectors';
 import * as selectNavigation from '../../app/navigation/selectors';
 import { AnalyticsEvent } from './event';

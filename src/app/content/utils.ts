@@ -1,8 +1,7 @@
 import { OSWebBook } from '../../gateways/createOSWebLoader';
 import { AppServices } from '../types';
-import { ArchiveBook, Book, BookWithOSWebData} from './types';
+import { ArchiveBook, Book, BookWithOSWebData } from './types';
 import { stripIdVersion } from './utils/idUtils';
-
 export { findDefaultBookPage, flattenArchiveTree } from './utils/archiveTreeUtils';
 export { getBookPageUrlAndParams, getPageIdFromUrlParam, getUrlParamForPageId, toRelativeUrl } from './utils/urlUtils';
 export { stripIdVersion } from './utils/idUtils';
