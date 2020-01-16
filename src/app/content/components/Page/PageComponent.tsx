@@ -88,7 +88,6 @@ export default class PageComponent extends Component<PagePropTypes> {
 
   private renderContent = () => {
     const html = this.getCleanContent() || this.getPrerenderedContent();
-
     return <PageContent
       key='main-content'
       ref={this.container}

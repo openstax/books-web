@@ -11,7 +11,7 @@ import { AppState } from '../../types';
 import { assertDefined } from '../../utils';
 import { hasOSWebData } from '../guards';
 import * as select from '../selectors';
-import { ArchiveTreeSection , BookWithOSWebData } from '../types';
+import { ArchiveTreeSection , Book, BookWithOSWebData  } from '../types';
 import { bookDetailsUrl } from '../utils/urlUtils';
 import {
   bookBannerDesktopBigHeight,
@@ -48,7 +48,7 @@ const LeftArrow = styled(ChevronLeft)`
 
 interface PropTypes {
   pageNode?: ArchiveTreeSection;
-  book?: BookWithOSWebData;
+  book?: BookWithOSWebData | Book;
 }
 
 // tslint:disable-next-line:variable-name
@@ -197,17 +197,22 @@ export class BookBanner extends Component<PropTypes, {scrollTransition: boolean}
 
   public render() {
     const {pageNode, book} = this.props;
+    const defaultTheme = 'blue' as const;
 
     if (!book || !pageNode) {
       return <BarWrapper colorSchema={undefined} up={false} />;
     }
 
-    const bookUrl = bookDetailsUrl(book);
+    const bookUrl = hasOSWebData(book) ? bookDetailsUrl(book) : '/errors/404';
 
-    return this.renderBars(book, bookUrl, pageNode);
+    return this.renderBars({theme: defaultTheme, ...book}, bookUrl, pageNode);
   }
 
-  private renderBars = (book: BookWithOSWebData, bookUrl: string, treeSection: ArchiveTreeSection) => ([
+  private renderBars = (
+    book: Book & {theme: BookWithOSWebData['theme']},
+    bookUrl: string,
+    treeSection: ArchiveTreeSection) =>
+  ([
     <BarWrapper
       colorSchema={book.theme}
       key='expanded-nav'
@@ -242,9 +247,8 @@ export class BookBanner extends Component<PropTypes, {scrollTransition: boolean}
 
 export default connect(
   (state: AppState) => {
-    const book = select.book(state);
     return {
-      book: book && hasOSWebData(book) ? book : undefined ,
+      book: select.book(state),
       pageNode: select.pageNode(state),
     };
   }
