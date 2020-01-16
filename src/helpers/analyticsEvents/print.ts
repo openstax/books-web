@@ -1,4 +1,5 @@
 import { createSelector } from 'reselect';
+import { hasOSWebData } from '../../app/content/guards'
 import * as selectContent from '../../app/content/selectors';
 import * as selectNavigation from '../../app/navigation/selectors';
 import { AnalyticsEvent } from './event';
@@ -14,7 +15,7 @@ export const selector = createSelector(
 export const track = (
   {book, pathname}: ReturnType<typeof selector>
 ): AnalyticsEvent | void => {
-  const slug = book ? book.slug : 'unknown';
+  const slug = book && hasOSWebData(book) ? book.slug : 'unknown';
 
   return {
     getGoogleAnalyticsPayload: () => ({

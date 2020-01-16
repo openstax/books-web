@@ -36,7 +36,7 @@ class Books extends React.Component<Props, State> {
 
     return <Panel title='Books'>
       <ul>
-        {books.map((book) => <li key={book.slug}>
+        {books.map((book) => <li key={book.id}>
           {this.renderBookLink(book)}
         </li>)}
       </ul>

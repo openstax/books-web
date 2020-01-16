@@ -2,6 +2,7 @@ import { CANONICAL_MAP } from '../../../canonicalBookMap';
 import { BOOKS } from '../../../config';
 import { AppServices } from '../../types';
 import { assertDefined } from '../../utils';
+import { hasOSWebData } from '../guards';
 import { makeUnifiedBookLoader } from '../utils';
 import { findArchiveTreeNode } from './archiveTreeUtils';
 
@@ -22,7 +23,7 @@ export async function getCanonicalUrlParams(
 
     const canonicalBook = await getBook(id, version);
     const treeSection = findArchiveTreeNode(canonicalBook.tree, pageShortId);
-    if (treeSection) {
+    if (treeSection && hasOSWebData(canonicalBook)) {
       const pageInBook = assertDefined(treeSection.slug, 'Expected page to have slug.');
       return {book: canonicalBook.slug, page: pageInBook};
     }

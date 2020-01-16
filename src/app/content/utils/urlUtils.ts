@@ -1,22 +1,29 @@
 import { BOOKS } from '../../../config';
 import { assertDefined } from '../../utils';
+import { hasOSWebData } from '../guards';
 import { content as contentRoute } from '../routes';
-import { Book, Page, Params } from '../types';
+import { Book, BookWithOSWebData, Page, Params } from '../types';
 import { findArchiveTreeNode, flattenArchiveTree } from './archiveTreeUtils';
 import { stripIdVersion } from './idUtils';
 
-export function bookDetailsUrl(book: Book) {
+export function bookDetailsUrl(book: BookWithOSWebData) {
   return `/details/books/${book.slug}`;
 }
 
 export const getBookPageUrlAndParams = (
-  book: Pick<Book, 'id' | 'tree' | 'title' | 'slug' | 'version'>,
+  book: Book | BookWithOSWebData,
   page: Pick<Page, 'id' | 'shortId' | 'title'>
 ) => {
-  const params: Params = {
-    book: book.slug,
-    page: getUrlParamForPageId(book, page.shortId),
-  };
+  const params: Params = hasOSWebData(book)
+    ? {
+      book: book.slug,
+      page: getUrlParamForPageId(book, page.shortId),
+    }
+    : {
+      page: getUrlParamForPageId(book, page.shortId),
+      uuid: book.id,
+      version: book.version,
+    };
   const state = {
     bookUid: book.id,
     bookVersion: book.version,

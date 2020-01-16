@@ -1,4 +1,5 @@
 import { createSelector } from 'reselect';
+import { hasOSWebData } from '../../app/content/guards';
 import * as selectContent from '../../app/content/selectors';
 import { AnalyticsEvent } from './event';
 
@@ -14,7 +15,7 @@ export const track = (
   search: string,
   isResultReload: boolean
 ): AnalyticsEvent | void => {
-  const slug = book ? book.slug : 'unknown';
+  const slug = book && hasOSWebData(book) ? book.slug : 'unknown';
 
   if (isResultReload) {
     return;

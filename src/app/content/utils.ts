@@ -1,6 +1,6 @@
 import { OSWebBook } from '../../gateways/createOSWebLoader';
 import { AppServices } from '../types';
-import { ArchiveBook, Book } from './types';
+import { ArchiveBook, Book, BookWithOSWebData} from './types';
 import { stripIdVersion } from './utils/idUtils';
 
 export { findDefaultBookPage, flattenArchiveTree } from './utils/archiveTreeUtils';
@@ -19,7 +19,7 @@ export const getContentPageReferences = (content: string) =>
       };
     });
 
-export const formatBookData = (archiveBook: ArchiveBook, osWebBook?: OSWebBook): Book =>
+export const formatBookData = (archiveBook: ArchiveBook, osWebBook?: OSWebBook): Book | BookWithOSWebData  =>
   osWebBook ?
     {
       ...archiveBook,

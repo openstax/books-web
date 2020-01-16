@@ -1,4 +1,4 @@
-import { Book } from '../app/content/types';
+import { BookWithOSWebData } from '../app/content/types';
 import { acceptStatus } from '../helpers/fetch';
 
 export interface OSWebBook {
@@ -12,7 +12,7 @@ export interface OSWebBook {
       senior_author: boolean;
     }
   }>;
-  cover_color: Book['theme'];
+  cover_color: BookWithOSWebData['theme'];
   cnx_id: string;
 }
 

@@ -1,6 +1,7 @@
 import fetch from 'node-fetch';
 import portfinder from 'portfinder';
 import Loadable from 'react-loadable';
+import { hasOSWebData } from '../../src/app/content/guards';
 import {
   BOOKS,
   CODE_VERSION,
@@ -55,7 +56,9 @@ async function render() {
   for (const {loader, book} of books) {
     const bookPages = await prepareBookPages(loader, book);
 
-    renderSitemap(book.slug, await getBookSitemap(loader, bookPages));
+    if (hasOSWebData(book)) {
+      renderSitemap(book.slug, await getBookSitemap(loader, bookPages));
+    }
     await renderPages(renderHelpers, bookPages);
   }
 

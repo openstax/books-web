@@ -3,9 +3,10 @@ import { Match } from '../../../navigation/types';
 import { AppServices, MiddlewareAPI } from '../../../types';
 import { assertDefined } from '../../../utils';
 import { receiveBook, receivePage, requestBook, requestPage } from '../../actions';
+import { hasOSWebData } from '../../guards'
 import { content } from '../../routes';
 import * as select from '../../selectors';
-import { ArchivePage, Book, PageReferenceMap } from '../../types';
+import { ArchivePage, Book, PageReferenceMap, BookWithOSWebData } from '../../types';
 import {
   formatBookData,
   getContentPageReferences,
@@ -76,7 +77,7 @@ const resolveBookReference = async(
 
   const bookSlug = 'book' in match.params
     ? match.params.book
-    : currentBook && currentBook.id === match.params.uuid
+    : currentBook && hasOSWebData(currentBook) && currentBook.id === match.params.uuid
       ? currentBook.slug
       : await osWebLoader.getBookSlugFromId(match.params.uuid);
 
@@ -86,7 +87,7 @@ const resolveBookReference = async(
 
   const bookUid  = 'uuid' in match.params
     ? match.params.uuid
-    : currentBook && currentBook.slug === bookSlug
+    : currentBook && hasOSWebData(currentBook) && currentBook.slug === bookSlug
       ? currentBook.id
       : bookSlug && await osWebLoader.getBookIdFromSlug(bookSlug);
 
@@ -181,7 +182,7 @@ const resolveExternalBookReference = async(
 
 const loadContentReference = async(
   services: AppServices & MiddlewareAPI,
-  book: Book,
+  book: Book | BookWithOSWebData,
   page: ArchivePage,
   reference: ReturnType<typeof getContentPageReferences>[0]
 ) => {
@@ -194,7 +195,7 @@ const loadContentReference = async(
     version: targetBook.version,
   };
 
-  const params = targetBook.slug
+  const params = hasOSWebData(targetBook)
     ? {
       book: targetBook.slug,
       ...sharedParams,

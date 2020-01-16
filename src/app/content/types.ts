@@ -28,7 +28,7 @@ export interface State {
   };
   search: SearchState;
   highlights: HighlightState;
-  book?: Book;
+  book?: Book | BookWithOSWebData;
   page?: Page;
   references: PageReferenceMap[];
 }
@@ -56,16 +56,19 @@ export interface Book {
   id: string;
   shortId: string;
   title: string;
-  theme?: 'blue' | 'green' | 'gray' | 'yellow' | 'deep-green' | 'light-blue' | 'orange' | 'red';
   tree: ArchiveTree;
   version: string;
-  slug?: string;
   license: {
     name: string;
     version: string;
   };
-  publish_date?: string;
-  authors?: Array<{
+}
+
+export interface BookWithOSWebData extends Book {
+  theme: 'blue' | 'green' | 'gray' | 'yellow' | 'deep-green' | 'light-blue' | 'orange' | 'red';
+  slug: string;
+  publish_date: string;
+  authors: Array<{
     value: {
       name: string;
       senior_author: boolean;

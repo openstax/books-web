@@ -5,9 +5,10 @@ import { push } from '../../../navigation/actions';
 import * as selectNavigation from '../../../navigation/selectors';
 import { AppState, Dispatch } from '../../../types';
 import { assertWindow } from '../../../utils';
+import { hasOSWebData } from '../../guards'
 import { content } from '../../routes';
 import * as select from '../../selectors';
-import { Book, PageReferenceMap } from '../../types';
+import { BookWithOSWebData, PageReferenceMap } from '../../types';
 import { getBookPageUrlAndParams, toRelativeUrl } from '../../utils/urlUtils';
 
 export const mapStateToContentLinkProp = (state: AppState) => ({
@@ -29,7 +30,7 @@ export const reduceReferences = ({references, currentPath}: ContentLinkProp) => 
     pageContent
   );
 
-const isPathRefernceForBook = (pathname: string, book: Book) => (ref: PageReferenceMap) =>
+const isPathRefernceForBook = (pathname: string, book: BookWithOSWebData) => (ref: PageReferenceMap) =>
   content.getUrl(ref.params) === pathname
     && (
       ('book' in ref.params && ref.params.book === book.slug)
@@ -45,7 +46,7 @@ export const contentLinkHandler = (anchor: HTMLAnchorElement, getProps: () => Co
   }
 
   const {hash, search, pathname} = new URL(href, assertWindow().location.href);
-  const reference = references.find(isPathRefernceForBook(pathname, book));
+  const reference = hasOSWebData(book) && references.find(isPathRefernceForBook(pathname, book));
 
   if (reference) {
     e.preventDefault();

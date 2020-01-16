@@ -5,6 +5,7 @@ import theme from '../../theme';
 import { ActionHookBody } from '../../types';
 import { assertDefined } from '../../utils';
 import { receivePage } from '../actions';
+import { hasOSWebData } from '../guards'
 import { content as contentRoute } from '../routes';
 import * as select from '../selectors';
 import { getCanonicalUrlParams } from '../utils/canonicalUrl';
@@ -30,7 +31,7 @@ const hookBody: ActionHookBody<typeof receivePage> = ({
   const loadingPage = select.loadingPage(state);
   const pathname = selectNavigation.pathname(state);
 
-  if (!book || !page) {
+  if (!book || !page || !hasOSWebData(book)) {
     return;
   }
   if (loadingBook) {
