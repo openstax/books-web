@@ -1,4 +1,6 @@
 import isEqual from 'lodash/fp/isEqual';
+import { recordError } from '../../../errors/actions';
+import { searchReducer } from '../../../errors/types';
 import { push, replace } from '../../../navigation/actions';
 import { RouteHookBody } from '../../../navigation/types';
 import { ActionHookBody } from '../../../types';
@@ -22,14 +24,17 @@ export const requestSearchHook: ActionHookBody<typeof requestSearch> = (services
     return;
   }
 
-  const results = await services.searchClient.search({
-    books: [`${book.id}@${book.version}`],
-    indexStrategy: 'i1',
-    q: payload,
-    searchStrategy: 's1',
-  });
-
-  services.dispatch(receiveSearchResults(results, meta));
+  try {
+    const results = await services.searchClient.search({
+      books: [`${book.id}@${book.version}`],
+      indexStrategy: 'i1',
+      q: payload,
+      searchStrategy: 's1',
+    });
+    services.dispatch(receiveSearchResults(results, meta));
+  } catch (error) {
+    services.dispatch(recordError({targetReducer: searchReducer, error}));
+  }
 };
 
 export const receiveSearchHook: ActionHookBody<typeof receiveSearchResults> = (services) => ({payload, meta}) => {

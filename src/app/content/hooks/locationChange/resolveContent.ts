@@ -1,4 +1,5 @@
 import { BOOKS } from '../../../../config';
+import { recordError } from '../../../errors/actions';
 import { Match } from '../../../navigation/types';
 import { AppServices, MiddlewareAPI } from '../../../types';
 import { assertDefined } from '../../../utils';
@@ -136,13 +137,9 @@ const resolvePage = async(
     : getPageIdFromUrlParam(book, match.params.page);
 
   if (!pageId) {
-    // TODO - 404 handling
-    // content links within the content are audited before they're clicked
-    // and other content links come from the ToC, so if we've gotten
-    // this far and the page is not found an exception is probably fine.
-    // maybe just a _better_ exception
-    throw new Error('Page not found');
-  }
+    services.dispatch(recordError({error: new Error('page not found')}));
+    return;
+    }
 
   const pageState = select.page(state);
   if (pageState && pageState.id === pageId) {
