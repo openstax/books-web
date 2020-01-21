@@ -32,7 +32,7 @@ export const formatBookData = (archiveBook: ArchiveBook, osWebBook?: OSWebBook):
 export const makeUnifiedBookLoader = (
   archiveLoader: AppServices['archiveLoader'],
   osWebLoader: AppServices['osWebLoader']
-) => async(bookId: string, bookVersion: string) => {
+) => async(bookId: string, bookVersion?: string) => {
   const bookLoader = archiveLoader.book(bookId, bookVersion);
   const osWebBook = await osWebLoader.getBookFromId(bookId);
   const archiveBook = await bookLoader.load();

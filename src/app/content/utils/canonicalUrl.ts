@@ -19,7 +19,7 @@ export async function getCanonicalUrlParams(
   ];
 
   for (const id of canonicals) {
-    const version = assertDefined(BOOKS[id], `Could not find ${id} in BOOKS config`).defaultVersion;
+    const version = BOOKS[id] ? BOOKS[id].defaultVersion : undefined;
 
     const canonicalBook = await getBook(id, version);
     const treeSection = findArchiveTreeNode(canonicalBook.tree, pageShortId);
