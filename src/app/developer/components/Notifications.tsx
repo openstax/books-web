@@ -42,7 +42,7 @@ export default connect<{}, React.ComponentProps<typeof Notifications>>(
   () => ({}),
   (dispatch: Dispatch): Props => ({
     acceptCookies: flow(notifications.acceptCookies, dispatch),
-    error: flow(recordError, dispatch),
+    error: (error: Error) => dispatch(recordError({error})) ,
     sendMessages: () => dispatch(notifications.receiveMessages(demoAppMessages)),
     updateAvailable: flow(notifications.updateAvailable, dispatch),
   })

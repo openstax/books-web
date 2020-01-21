@@ -1,5 +1,8 @@
 import { Reducer } from 'redux';
 import { getType } from 'typesafe-actions';
+import { recordError } from '../../errors/actions';
+import { searchReducer } from '../../errors/types';
+import { hasError } from '../../errors/utils';
 import { locationChange } from '../../navigation/actions';
 import { AnyAction } from '../../types';
 import { openToc } from '../actions';
@@ -14,6 +17,8 @@ export const initialState: State = {
   selectedResult: null,
   sidebarOpen: false,
 };
+
+const errorHere = hasError(searchReducer);
 
 const reducer: Reducer<State, AnyAction> = (state = initialState, action) => {
 
@@ -45,6 +50,10 @@ const reducer: Reducer<State, AnyAction> = (state = initialState, action) => {
     case getType(actions.closeSearchResultsMobile): {
       return {...state, sidebarOpen: false};
     }
+    case getType(recordError): {
+      return errorHere(action.payload.targetReducer) ? initialState : state;
+    }
+
     default:
       return state;
   }
