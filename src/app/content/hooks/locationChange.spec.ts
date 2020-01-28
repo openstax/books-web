@@ -5,6 +5,7 @@ import createTestStore from '../../../test/createTestStore';
 import { book, page } from '../../../test/mocks/archiveLoader';
 import { mockCmsBook } from '../../../test/mocks/osWebLoader';
 import { resetModules } from '../../../test/utils';
+import { recordError } from '../../errors/actions';
 import { Match } from '../../navigation/types';
 import { MiddlewareAPI, Store } from '../../types';
 import * as actions from '../actions';
@@ -140,15 +141,9 @@ describe('locationChange', () => {
 
   it('throws on unknown id', async() => {
     payload.match.params.page = 'garbage';
-    let message: string | undefined;
+    await hook(payload);
 
-    try {
-      await hook(payload);
-    } catch (e) {
-      message = e.message;
-    }
-
-    expect(message).toEqual('Page not found');
+    expect(dispatch).toHaveBeenCalledWith(recordError({error: new Error('page not found')}));
   });
 
   it('loads book details from osweb', async() => {

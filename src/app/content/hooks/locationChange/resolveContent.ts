@@ -138,7 +138,7 @@ const resolvePage = async(
   if (!pageId) {
     services.dispatch(recordError({error: new Error('page not found')}));
     return;
-    }
+  }
 
   const pageState = select.page(state);
   if (pageState && pageState.id === pageId) {

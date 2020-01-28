@@ -51,7 +51,7 @@ const reducer: Reducer<State, AnyAction> = (state = initialState, action) => {
       return {...state, sidebarOpen: false};
     }
     case getType(recordError): {
-      return errorHere(action.payload.targetReducer) ? initialState : state;
+      return errorHere(action.payload) ? initialState : state;
     }
 
     default:
