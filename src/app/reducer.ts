@@ -6,6 +6,7 @@ import errors, {initialState as errorsInitialState } from './errors/reducer';
 import head, {initialState as headInitialState } from './head/reducer';
 import navigation from './navigation/reducer';
 import notifications, {initialState as notificationsInitialState } from './notifications/reducer';
+import platform, {initialState as platformInitialState } from './platform/reducer';
 import { AnyAction, AppState } from './types';
 
 export const initialState = {
@@ -14,6 +15,7 @@ export const initialState = {
   errors: errorsInitialState,
   head: headInitialState,
   notifications: notificationsInitialState,
+  platform: platformInitialState,
 };
 
 export default (history: History) => combineReducers<AppState, AnyAction>({
@@ -23,4 +25,5 @@ export default (history: History) => combineReducers<AppState, AnyAction>({
   head,
   navigation: navigation(history.location),
   notifications,
+  platform,
 });

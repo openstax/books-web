@@ -20,6 +20,7 @@ import { hasState } from './navigation/guards';
 import { AnyMatch } from './navigation/types';
 import { matchUrl } from './navigation/utils';
 import * as notifications from './notifications';
+import * as platform from './platform';
 import createReducer from './reducer';
 import { AppServices, AppState, Middleware } from './types';
 
@@ -31,6 +32,7 @@ export const actions = {
   head: head.actions,
   navigation: navigation.actions,
   notifications: notifications.actions,
+  platform: platform.actions,
 };
 
 export const routes = [

@@ -4,6 +4,7 @@ import { connect } from 'react-redux';
 import Button, { ButtonGroup } from '../../components/Button';
 import { recordError } from '../../errors/actions';
 import * as notifications from '../../notifications/actions';
+import { setPlatform } from '../../platform/actions';
 import { Dispatch } from '../../types';
 import demoAppMessages from '../sample-app-messages.json';
 import Panel from './Panel';
@@ -13,10 +14,11 @@ interface Props {
   error: (error: Error) => void;
   sendMessages: () => void;
   acceptCookies: () => void;
+  becomeNative: () => void;
 }
 
 // tslint:disable-next-line:variable-name
-const Notifications = ({updateAvailable, error, sendMessages, acceptCookies}: Props) => {
+const Notifications = ({updateAvailable, error, sendMessages, acceptCookies, becomeNative}: Props) => {
   const [showError, setError] = useState(false);
 
   if (showError) {
@@ -34,6 +36,9 @@ const Notifications = ({updateAvailable, error, sendMessages, acceptCookies}: Pr
       <Button onClick={() => error(new Error('this is an error'))} data-testid='trigger-modal-error'>
         modal error
       </Button>
+      <Button onClick={becomeNative} data-testid='trigger-native'>
+        native
+      </Button>
     </ButtonGroup>
   </Panel>;
 };
@@ -42,6 +47,7 @@ export default connect<{}, React.ComponentProps<typeof Notifications>>(
   () => ({}),
   (dispatch: Dispatch): Props => ({
     acceptCookies: flow(notifications.acceptCookies, dispatch),
+    becomeNative: () => dispatch(setPlatform('android')),
     error: flow(recordError, dispatch),
     sendMessages: () => dispatch(notifications.receiveMessages(demoAppMessages)),
     updateAvailable: flow(notifications.updateAvailable, dispatch),

@@ -21,6 +21,7 @@ import { State as errorsState } from './errors/types';
 import { State as headState } from './head/types';
 import { State as navigationState } from './navigation/types';
 import { State as notificationState } from './notifications/types';
+import { State as platformState } from './platform/types';
 
 export interface AppState {
   content: contentState;
@@ -29,6 +30,7 @@ export interface AppState {
   auth: authState;
   navigation: navigationState;
   notifications: notificationState;
+  platform: platformState;
 }
 
 export interface AppServices {

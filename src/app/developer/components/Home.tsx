@@ -7,6 +7,7 @@ import { contentWrapperMaxWidth } from '../../content/components/constants';
 import DisplayNotifications from '../../notifications/components/Notifications';
 import Books from './Books';
 import Notifications from './Notifications';
+import Platforms from './Platforms';
 import Routes from './Routes';
 
 // tslint:disable-next-line:variable-name
@@ -31,6 +32,7 @@ const Home: React.SFC = () => <Layout>
       <H1>REX Developer Homepage</H1>
       <Books />
       <Notifications />
+      <Platforms />
       <Routes />
     </HomeStyle>
   </Wrapper>

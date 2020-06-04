@@ -1,11 +1,12 @@
 import { HTMLElement } from '@openstax/types/lib.dom';
 import React, { SFC } from 'react';
 import { FormattedMessage } from 'react-intl';
-import { connect } from 'react-redux';
+import { connect, useSelector } from 'react-redux';
 import openstaxLogo from '../../../assets/logo.svg';
 import * as authSelect from '../../auth/selectors';
 import { User } from '../../auth/types';
 import * as selectNavigation from '../../navigation/selectors';
+import * as selectPlatform from '../../platform/selectors';
 import { AppState } from '../../types';
 import { assertString } from '../../utils';
 import OnScroll, { OnScrollCallback } from '../OnScroll';
@@ -98,18 +99,28 @@ interface NavigationBarProps {
   currentPath: string;
 }
 // tslint:disable-next-line:variable-name
-const NavigationBar = ({user, loggedOut, currentPath}: NavigationBarProps) =>
-  <Styled.BarWrapper data-analytics-region='openstax-navbar'>
+const NavigationBar = ({user, loggedOut, currentPath}: NavigationBarProps) => {
+  const isNative = useSelector(selectPlatform.isNative);
+
+  return <Styled.BarWrapper data-analytics-region='openstax-navbar'>
     <Styled.TopBar data-testid='navbar'>
-      <FormattedMessage id='i18n:nav:logo:alt'>
-        {(msg: Element | string) => <a href='/'>
-          <Styled.HeaderImage role='img' src={openstaxLogo} alt={assertString(msg, 'alt text must be a string')} />
-        </a>}
-      </FormattedMessage>
-      {loggedOut && <LoggedOutState currentPath={currentPath} />}
+      {isNative
+        ? <FormattedMessage id='i18n:nav:logo:alt'>
+          {(msg: Element | string) =>
+            <Styled.HeaderImage role='img' src={openstaxLogo} alt={assertString(msg, 'alt text must be a string')} />
+          }
+        </FormattedMessage>
+        : <FormattedMessage id='i18n:nav:logo:alt'>
+          {(msg: Element | string) => <a href='/'>
+            <Styled.HeaderImage role='img' src={openstaxLogo} alt={assertString(msg, 'alt text must be a string')} />
+          </a>}
+        </FormattedMessage>
+      }
+      {loggedOut && !isNative && <LoggedOutState currentPath={currentPath} />}
       {user && <LoggedInState user={user} currentPath={currentPath} />}
     </Styled.TopBar>
   </Styled.BarWrapper>;
+};
 
 export default connect(
   (state: AppState) => ({

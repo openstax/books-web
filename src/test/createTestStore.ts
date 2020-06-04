@@ -7,6 +7,7 @@ import errors, {initialState as errorState } from '../app/errors/reducer';
 import head, {initialState as headState } from '../app/head/reducer';
 import createNavigationReducer from '../app/navigation/reducer';
 import notifications, {initialState as notificationState } from '../app/notifications/reducer';
+import platform, {initialState as platformState } from '../app/platform/reducer';
 import { AnyAction, AppState } from '../app/types';
 
 export default function(initialState: Partial<AppState> = {}) {
@@ -20,6 +21,7 @@ export default function(initialState: Partial<AppState> = {}) {
     head,
     navigation,
     notifications,
+    platform,
   });
 
   return createStore(reducer, cloneDeep({
@@ -28,6 +30,7 @@ export default function(initialState: Partial<AppState> = {}) {
     errors: errorState,
     head: headState,
     notifications: notificationState,
+    platform: platformState,
     ...initialState,
   }));
 }
