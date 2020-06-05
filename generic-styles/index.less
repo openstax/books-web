@@ -115,9 +115,12 @@ body {
       font: inherit;
       margin: 0;
   }
-  [data-type="footnote-ref-content"]:before {
+  [role="doc-noteref"] {
+    vertical-align: super;
+  }
+  [role="doc-backlink"] {
     /* In previous version there was a whitespace in the content */
-    content: " ";
+    margin-right: 1rem;
   }
 }
 

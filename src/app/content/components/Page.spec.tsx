@@ -396,41 +396,32 @@ describe('Page', () => {
       const input = await htmlHelper('<div id="content">' +
         '<p>Some text <a href="#1" role="doc-noteref">1</a></p>' +
         '<aside id="1" role="doc-footnote">' +
-          '<p><span class="footnote-number">1</span>Footnote text</p>' +
+          '<p><span data-type="footnote-number">1</span>Footnote text</p>' +
         '</aside>' +
-        '<p>Another text <a href="#2" role="doc-noteref">2</a></p>' +
+        '<p>Another text <a id="back2" href="#2" role="doc-noteref">2</a></p>' +
         '<aside id="2" role="doc-footnote">' +
-          '<p>Another <strong>footnote</strong> text</p>' +
+          '<p><a href="#back2" role="doc-backlink">2</a> Another footnote but with a backlink</p>' +
         '</aside>' +
       '</div>');
       const expectedOutput = '<div id="content">' +
         '<p>' +
           'Some text ' +
-          '<sup id="footnote-ref1" data-type="footnote-number">' +
-            '<a href="#1" role="doc-noteref" data-type="footnote-link">1</a>' +
-          '</sup>' +
+          '<a href="#1" role="doc-noteref" id="autogen-ui-footnote-ref0">1</a>' +
         '</p>' +
         '<p>' +
           'Another text ' +
-          '<sup id="footnote-ref2" data-type="footnote-number">' +
-            '<a href="#2" role="doc-noteref" data-type="footnote-link">2</a>' +
-          '</sup>' +
+          '<a id="back2" href="#2" role="doc-noteref">2</a>' +
         '</p>' +
       '</div>' +
       '<div data-type="footnote-refs">' +
         '<h3 data-type="footnote-refs-title">Footnotes</h3>' +
         '<ul data-list-type="bulleted" data-bullet-style="none">' +
           '<li id="1" data-type="footnote-ref">' +
-            '<a data-type="footnote-ref-link" href="#footnote-ref1">1</a>' +
-            '<span data-type="footnote-ref-content">' +
-              '<p>Footnote text</p>' +
-            '</span>' +
+            '<a role="doc-backlink" title="Go to note reference" href="#autogen-ui-footnote-ref0">1</a>' +
+            '<p>Footnote text</p>' +
           '</li>' +
           '<li id="2" data-type="footnote-ref">' +
-            '<a data-type="footnote-ref-link" href="#footnote-ref2">2</a>' +
-            '<span data-type="footnote-ref-content">' +
-            '<p>Another <strong>footnote</strong> text</p>' +
-            '</span>' +
+            '<p><a href="#back2" role="doc-backlink">2</a> Another footnote but with a backlink</p>' +
           '</li>' +
         '</ul>' +
       '</div>';

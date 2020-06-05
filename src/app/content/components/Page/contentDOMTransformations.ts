@@ -1,7 +1,7 @@
 import { Document, HTMLButtonElement, HTMLElement, HTMLImageElement } from '@openstax/types/lib.dom';
 import { IntlShape } from 'react-intl';
 import { REACT_APP_ARCHIVE_URL } from '../../../../config';
-import { assertNotNull } from '../../../utils';
+import { assertDefined, assertNotNull } from '../../../utils';
 
 // from https://github.com/openstax/webview/blob/f95b1d0696a70f0b61d83a85c173102e248354cd
 // .../src/scripts/modules/media/body/body.coffee#L123
@@ -144,27 +144,31 @@ function moveFootnotes(document: Document, rootEl: HTMLElement, intl: IntlShape)
   list.setAttribute('data-list-type', 'bulleted');
   list.setAttribute('data-bullet-style', 'none');
 
-  for (const [index, footnote] of Array.from(footnotes).entries()) {
-    const counter = index + 1;
-
+  for (const [counter, footnote] of Array.from(footnotes).entries()) {
     const item = document.createElement('li');
     item.setAttribute('id', assertNotNull(footnote.getAttribute('id'), 'id of footnote was not found'));
     item.setAttribute('data-type', 'footnote-ref');
 
-    const anchor = document.createElement('a');
-    anchor.setAttribute('data-type', 'footnote-ref-link');
-    anchor.setAttribute('href', `#footnote-ref${counter}`);
-    anchor.innerHTML = counter.toString();
+    // Construct a backlink if one is not available
+    // https://kb.daisy.org/publishing/docs/html/notes.html#ex-04
+    if (!footnote.querySelector('a[role="doc-backlink"]')) {
+      footnote.setAttribute('id', `autogen-ui-footnote-ref${counter}`);
 
-    const content = document.createElement('span');
-    content.setAttribute('data-type', 'footnote-ref-content');
-    content.innerHTML = footnote.innerHTML;
+      const backlink = document.createElement('a');
+      backlink.setAttribute('role', 'doc-backlink');
+      backlink.setAttribute('title', 'Go to note reference');
+      backlink.setAttribute('href', `#autogen-ui-footnote-ref${counter}`);
 
-    const number = content.querySelector('.footnote-number');
-    if (number) { number.remove(); }
+      const blNumber = footnote.querySelector('.footnote-number, [data-type="footnote-number"]');
+      const backlinkNumber = assertNotNull(assertDefined(blNumber, 'could not find footnote number'), 'could not find footnote number');
+      backlink.textContent = backlinkNumber.textContent;
+      backlinkNumber.remove();
 
-    item.appendChild(anchor);
-    item.appendChild(content);
+      item.innerHTML = footnote.innerHTML;
+      item.prepend(backlink);
+    } else {
+      item.innerHTML = footnote.innerHTML;
+    }
 
     list.appendChild(item);
     footnote.remove();
@@ -174,17 +178,9 @@ function moveFootnotes(document: Document, rootEl: HTMLElement, intl: IntlShape)
   rootEl.appendChild(container);
 
   const footnoteLinks = document.querySelectorAll('[role="doc-noteref"]');
-
-  for (const [index, link] of Array.from(footnoteLinks).entries()) {
-    const counter = index + 1;
-
-    const sup = document.createElement('sup');
-    sup.setAttribute('id', `footnote-ref${counter}`);
-    sup.setAttribute('data-type', 'footnote-number');
-
-    link.setAttribute('data-type', 'footnote-link');
-
-    link.replaceWith(sup);
-    sup.appendChild(link);
+  for (const [counter, link] of Array.from(footnoteLinks).entries()) {
+    if (!link.getAttribute('id')) {
+      link.setAttribute('id', `autogen-ui-footnote-ref${counter}`);
+    }
   }
 }
