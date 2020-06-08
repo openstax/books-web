@@ -12,4 +12,4 @@ outputs:
 - name: build-configs
 
 run:
-  path: rex-web/concourse/create-master-build-configs/script.js 
+  path: rex-web/concourse/create-build-configs/script.js 
