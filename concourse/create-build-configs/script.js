@@ -16,6 +16,7 @@ const handleErr = err => {
 fs.readFile(versionFile, 'utf8', function(err, commit) {
   const date = new Date().toISOString().split('T')[0];
   const releaseId = `${date}/${commit}`;
+  const tag = releaseId.replace('/', '-');
   const args = {
     PUBLIC_URL: `/rex/releases/${releaseId}`,
     REACT_APP_CODE_VERSION: commit,
@@ -32,6 +33,6 @@ fs.readFile(versionFile, 'utf8', function(err, commit) {
   console.log(`Generating release id file with: ${releaseId}`);
   fs.writeFile(releaseFile, releaseId, handleErr);
 
-  console.log(`Generating tag file with: ${releaseId}`);
-  fs.writeFile(tagFile, releaseId, handleErr);
+  console.log(`Generating tag file with: ${tag}`);
+  fs.writeFile(tagFile, tag, handleErr);
 });
