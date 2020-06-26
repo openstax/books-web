@@ -14,11 +14,9 @@ import {
 } from '../../search/actions';
 import * as selectSearch from '../../search/selectors';
 import NudgeStudyTools from '../NudgeStudyTools';
-import { nudgeStudyToolsTargetId } from '../NudgeStudyTools/constants';
-import HighlightButton from './HighlightButton';
 import PrintButton from './PrintButton';
-import StudyGuidesButton from './StudyGuidesButton';
 import * as Styled from './styled';
+import { NudgeBackground } from '../NudgeStudyTools/styles';
 
 interface Props {
   search: typeof requestSearch;
@@ -118,12 +116,9 @@ class Toolbar extends React.Component<Props, State> {
             }
           </Styled.SearchInputWrapper>
         </Styled.SearchPrintWrapper>
-        <Styled.NudgeElementTarget id={nudgeStudyToolsTargetId}>
-          <StudyGuidesButton />
-          <HighlightButton />
-        </Styled.NudgeElementTarget>
-        <PrintButton />
         <NudgeStudyTools />
+        <PrintButton />
+        <NudgeBackground />
       </Styled.TopBar>
       {this.props.mobileToolbarOpen && <Styled.MobileSearchWrapper>
         <Styled.Hr />

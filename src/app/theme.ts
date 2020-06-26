@@ -105,7 +105,6 @@ export default {
     'highlightInlineCard',
     'contentNotifications',
     'searchSidebar',
-    'toolbar',
     'overlay',
     'sidebar',
     'navbar',
@@ -114,6 +113,9 @@ export default {
     'nudgeOverlay',
     'errorPopup',
     'focusedHiddenLink',
+    // it doesn't have to be done this way, just the zindex on toolbar needs to be highest
+    // when overlay is displayed
+    'toolbar',
   ].reduce((result, key, index) => {
     result[key] = (index + 1) * 10;
     return result;

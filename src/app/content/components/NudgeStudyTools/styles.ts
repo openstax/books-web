@@ -13,15 +13,12 @@ export const NudgeWrapper = styled.div`
 
 // tslint:disable-next-line: variable-name
 export const NudgeContentWrapper = styled.div`
-  position: fixed;
   z-index: ${theme.zIndex.nudgeOverlay + 1};
-  ${(props: { top: number, right: number }) => `
-    top: ${props.top}px;
-    right: ${props.right}px;
-  `}
+  position: absolute;
+  width: max-content;
+  top: 100%;
   ${theme.breakpoints.mobile(css`
     right: auto;
-    width: 100%;
     text-align: center;
     padding: 0 2rem;
   `)}
@@ -31,6 +28,35 @@ export const NudgeContentWrapper = styled.div`
 export const NudgeContent = styled.div`
   position: relative;
 `;
+
+export const Container = styled.div`
+  display:flex;
+  flex-direction:column;
+  overflow:visible;
+  /*just needs to be higher than the cover*/
+  z-index: 9999;
+  position: relative;
+`
+
+export const FittingSizeContainer = styled.div`
+  width: 100%;
+`
+
+export const Spotlight = styled.div`
+  background: white;
+  display: flex;
+  padding: 10px;
+`
+
+export const InnerContainer = styled.div`
+  display:flex;
+  position: absolute;
+  flex-direction:column;
+  align-items:flex-end;
+  width: 100%;
+  overflow: visible;
+  top: 100%;
+`
 
 // tslint:disable-next-line: variable-name
 const NudgeHeadingStyles = styled.h2`
@@ -76,14 +102,10 @@ export const NudgeText = htmlMessage('i18n:nudge:study-tools:text', NudgeTextSty
 
 // tslint:disable-next-line: variable-name
 export const NudgeArrow = styled.img`
-  position: fixed;
   z-index: ${theme.zIndex.nudgeOverlay + 1};
   display: block;
   height: ${arrowDesktopHeight}rem;
-  ${(props: { top: number, left: number }) => `
-    top: ${props.top}px;
-    left: ${props.left}px;
-  `}
+
   ${theme.breakpoints.mobile(css`
     height: ${arrowMobileHeight}rem;
   `)}
@@ -97,12 +119,7 @@ export const NudgeCloseIcon = styled(Times)`
 
 // tslint:disable-next-line: variable-name
 export const NudgeCloseButton = styled(PlainButton)`
-  position: fixed;
   z-index: ${theme.zIndex.nudgeOverlay + 1};
-  ${(props: { top: number, left: number }) => `
-    top: ${props.top}px;
-    left: ${props.left}px;
-  `}
   width: 4rem;
   height: 4rem;
   padding: 1rem;
@@ -111,7 +128,9 @@ export const NudgeCloseButton = styled(PlainButton)`
   display: flex;
   align-items: center;
   justify-content: center;
-
+  position: absolute;
+  right: 0;
+  transform:translateY(-100%);
   ${theme.breakpoints.mobile(css`
     left: auto;
     top: ${remsToPx(closeButtonMobileMargin)}px;
@@ -121,31 +140,18 @@ export const NudgeCloseButton = styled(PlainButton)`
 
 // tslint:disable-next-line: variable-name
 export const NudgeBackground = styled.div`
-  position: fixed;
-  width: 100%;
-  height: 100%;
-  z-index: ${theme.zIndex.nudgeOverlay};
+  position: absolute;
+  width: 200vw;
+  height: 200vh;
+  left: 0%;
+  z-index: ${theme.zIndex.nudgeOverlay + 2};
   inset: 0px;
   opacity: 0.9;
   background-color: ${theme.color.black};
-  mix-blend-mode: hard-light;
 `;
-
-interface NudgeSpotlightProps {
-  top: number;
-  left: number;
-  height: number;
-  width: number;
-}
 
 // tslint:disable-next-line: variable-name
 export const NudgeSpotlight = styled.div`
   position: fixed;
   background-color: gray;
-  ${(props: NudgeSpotlightProps) => `
-    top: ${props.top}px;
-    left: ${props.left}px;
-    width: ${props.width}px;
-    height: ${props.height}px;
-  `}
 `;
