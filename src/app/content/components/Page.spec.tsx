@@ -5,7 +5,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import ReactTestUtils from 'react-dom/test-utils';
 import { Provider } from 'react-redux';
-import renderer, { act } from 'react-test-renderer';
+import renderer from 'react-test-renderer';
 import * as mathjax from '../../../helpers/mathjax';
 import createTestServices from '../../../test/createTestServices';
 import createTestStore from '../../../test/createTestStore';
@@ -23,7 +23,6 @@ import { AppServices, AppState, MiddlewareAPI, Store } from '../../types';
 import { assertDocument, assertWindow } from '../../utils';
 import * as actions from '../actions';
 import { receivePage } from '../actions';
-import { createHighlight } from '../highlights/actions';
 import { initialState } from '../reducer';
 import * as routes from '../routes';
 import { receiveSearchResults, requestSearch, selectSearchResult } from '../search/actions';
@@ -34,7 +33,6 @@ import * as highlightUtils from './Page/highlightUtils';
 import allImagesLoaded from './utils/allImagesLoaded';
 
 jest.mock('./utils/allImagesLoaded', () => jest.fn());
-jest.mock('./utils/attachHighlight', () => jest.fn());
 jest.mock('../highlights/components/utils/showConfirmation', () => () => new Promise((resolve) => resolve(false)));
 
 // https://github.com/facebook/jest/issues/936#issuecomment-463644784
@@ -893,20 +891,21 @@ describe('Page', () => {
     expect(scrollTo).toHaveBeenCalledWith(highlightElement);
   });
 
-  it('doesn\'t render error modal for the same result twice', async() => {
+  it.only('doesn\'t render error modal for the same result twice', async() => {
     const {root} = renderDomWithReferences();
 
     // page lifecycle hooks
     await Promise.resolve();
 
     const highlightResults = jest.spyOn(searchUtils, 'highlightResults');
-    const hit = makeSearchResultHit({book, page});
-    const searchResultToSelect = {result: hit, highlight: 0};
+    const hit1 = makeSearchResultHit({book, page});
+    const hit2 = makeSearchResultHit({book, page});
+    const searchResultToSelect = {result: hit1, highlight: 0};
 
     highlightResults.mockReturnValue([]);
 
     store.dispatch(requestSearch('asdf'));
-    store.dispatch(receiveSearchResults(makeSearchResults([hit])));
+    store.dispatch(receiveSearchResults(makeSearchResults([hit1, hit2])));
     store.dispatch(selectSearchResult(searchResultToSelect));
 
     // page lifecycle hooks
@@ -926,15 +925,15 @@ describe('Page', () => {
 
     expect(root.querySelector('[data-testid=banner-body]')).toBeFalsy();
 
-    const highlightData = jest.spyOn(highlightUtils, 'highlightData').mockReturnValueOnce(() => ({} as any));
+    const highlightData = jest.spyOn(highlightUtils, 'highlightData').mockReturnValueOnce(() => undefined);
 
     // normally, search result selection handler would noop if the
     // search result is the same. This makes it think that a new highlight was
     // added and will force reselection
 
     renderer.act(() => {
-      store.dispatch(createHighlight({} as any, {} as any));
-      store.dispatch(selectSearchResult(searchResultToSelect));
+      // store.dispatch(createHighlight({} as any, {} as any));
+      store.dispatch(selectSearchResult({result: hit2, highlight: 0}));
     });
 
     // page lifecycle hooks
@@ -946,7 +945,6 @@ describe('Page', () => {
     highlightData.mockRestore();
     highlightResults.mockRestore();
   });
-
 
   it('mounts, updates, and unmounts without a dom', () => {
     const element = renderer.create(
