@@ -27,6 +27,8 @@ const archivePaths = [
   '/specials',
 ];
 
+console.log(ARCHIVE_URL);
+
 module.exports = function(app) {
   FIXTURES
     ? setupTestProxy(app)
@@ -105,9 +107,14 @@ function setupTestProxy(app) {
 
 function archiveProxy(app) {
   archivePaths.forEach(path => app.use(proxy(path, {
-    target: `${ARCHIVE_URL}${path}`,
-    prependPath: false,
+    target: ARCHIVE_URL,
+    prependPath: true,
     changeOrigin: true,
+    onProxyReq: (preq, req, res) => {
+      console.log(ARCHIVE_URL);
+      console.log(preq.path);
+      console.log(req.path);
+    }
   })));
 }
 

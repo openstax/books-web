@@ -18,7 +18,7 @@ let config = {
   IS_PRODUCTION: process.env.REACT_APP_ENV === 'production',
   DEPLOYED_ENV: typeof(window) === 'undefined' ? 'server' : window.location.hostname,
   ACCOUNTS_URL: process.env.ACCOUNTS_URL || 'https://openstax.org',
-  ARCHIVE_URL: process.env.ARCHIVE_URL || 'https://openstax.org',
+  ARCHIVE_URL: process.env.ARCHIVE_URL || 'https://openstax.org/apps/archive/20201029.133542',
   OS_WEB_URL: process.env.OS_WEB_URL || 'https://openstax.org',
   SEARCH_URL: process.env.SEARCH_URL || 'https://openstax.org',
   HIGHLIGHTS_URL: process.env.HIGHLIGHTS_URL || 'https://openstax.org',
