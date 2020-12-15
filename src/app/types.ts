@@ -9,6 +9,7 @@ import {
 import { ActionType } from 'typesafe-actions';
 import { actions } from '.';
 import createArchiveLoader from '../gateways/createArchiveLoader';
+import createBuyPrintConfigLoader from '../gateways/createBuyPrintConfigLoader';
 import createHighlightClient from '../gateways/createHighlightClient';
 import createOSWebLoader from '../gateways/createOSWebLoader';
 import createPracticeQuestionsLoader from '../gateways/createPracticeQuestionsLoader';
@@ -34,18 +35,19 @@ export interface AppState {
 }
 
 export interface AppServices {
-  serviceWorker?: ServiceWorkerRegistration;
   analytics: typeof analytics;
-  highlightClient: ReturnType<typeof createHighlightClient>;
   archiveLoader: ReturnType<typeof createArchiveLoader>;
+  buyPrintConfigLoader: ReturnType<typeof createBuyPrintConfigLoader>;
   fontCollector: FontCollector;
+  highlightClient: ReturnType<typeof createHighlightClient>;
   history: History;
   osWebLoader: ReturnType<typeof createOSWebLoader>;
+  practiceQuestionsLoader: ReturnType<typeof createPracticeQuestionsLoader>;
   prerenderedContent?: string;
   promiseCollector: PromiseCollector;
   searchClient: ReturnType<typeof createSearchClient>;
+  serviceWorker?: ServiceWorkerRegistration;
   userLoader: ReturnType<typeof createUserLoader>;
-  practiceQuestionsLoader: ReturnType<typeof createPracticeQuestionsLoader>;
 }
 
 type ActionCreator<T extends string = string> = (...args: any[]) => { type: T };

@@ -14,6 +14,8 @@ export const openToc = createStandardAction('Content/openToc')<void>();
 export const closeToc = createStandardAction('Content/closeToc')<void>();
 export const resetToc = createStandardAction('Content/resetToc')<void>();
 
+export const receiveBuyPrintConfig = createStandardAction('Content/receiveBuyPrintConfig')<State['buyPrint']>();
+
 export const requestBook = createStandardAction('Content/requestBook')<Params['book']>();
 export const receiveBook = createStandardAction('Content/receiveBook')<Book>();
 

@@ -7,6 +7,7 @@ import { loadPracticeQuestions } from '../../practiceQuestions/hooks';
 import { content } from '../../routes';
 import { syncSearch } from '../../search/hooks';
 import { loadStudyGuides } from '../../studyGuides/hooks';
+import loadBuyPrintConfig from './buyPrintConfig';
 import resolveContent from './resolveContent';
 
 const hookBody: RouteHookBody<typeof content> = (services) => async(action) => {
@@ -17,12 +18,14 @@ const hookBody: RouteHookBody<typeof content> = (services) => async(action) => {
   googleAnalyticsClient.trackPageView(pathname, query);
 
   await resolveContent(services, action.match);
-  const search = syncSearch(services)(action);
-  const highlights = loadHighlights(services)(locationChange(action));
-  const studyGuides = loadStudyGuides(services)();
-  const practiceQuestions = loadPracticeQuestions(services)();
 
-  await Promise.all([search, highlights, studyGuides, practiceQuestions]);
+  await Promise.all([
+    syncSearch(services)(action),
+    loadBuyPrintConfig(services)(),
+    loadHighlights(services)(locationChange(action)),
+    loadStudyGuides(services)(),
+    loadPracticeQuestions(services)(),
+  ]);
 };
 
 export default hookBody;

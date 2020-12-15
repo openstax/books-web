@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BuyBook renders when config is available 1`] = `
+<div
+  className="BuyBook__BuyBookAlignment-s2exzh-0 dsrSOQ"
+>
+  <a
+    aria-label="Buy book"
+    className="BuyBook__BuyBookLink-s2exzh-1 hNBOXB"
+    data-analytics-label="buy-book"
+    href="https://example.com"
+    rel="noopener"
+    target="_blank"
+  >
+    Order a print copy
+  </a>
+  <p
+    className="BuyBook__BuyPrintDisclosure-s2exzh-2 dPPdHn"
+  >
+    asdf
+  </p>
+</div>
+`;
+
+exports[`BuyBook returns null 1`] = `null`;

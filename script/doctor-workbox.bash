@@ -19,6 +19,18 @@ head -n 39 "$worker".bak > "$worker"
 
 cat >> "$worker" <<- EOM
 workbox.routing.registerRoute(
+  /https:\/\/buyprint\.openstax\.org/,
+  new workbox.strategies.StaleWhileRevalidate({ // can't use cachefirst because responses are opaque
+    cacheName: 'buy-print',
+    plugins: [
+      new workbox.expiration.Plugin({
+        maxEntries: 20,
+      }),
+    ],
+  })
+);
+
+workbox.routing.registerRoute(
   /https:\/\/cdnjs\.cloudflare\.com\/ajax\/libs\/mathjax\//,
   new workbox.strategies.StaleWhileRevalidate({ // can't use cachefirst because responses are opaque
     cacheName: 'cdn-assets',

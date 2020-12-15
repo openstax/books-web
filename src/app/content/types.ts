@@ -1,3 +1,4 @@
+import { BuyPrintResponse } from '../../gateways/createBuyPrintConfigLoader';
 import { RouteParams, RouteState } from '../navigation/types';
 import { State as HighlightState } from './highlights/types';
 import { State as PracticeQuestionsState } from './practiceQuestions/types';
@@ -37,6 +38,7 @@ export interface State {
   book?: Book;
   page?: Page;
   references: PageReferenceMap[];
+  buyPrint: Pick<BuyPrintResponse['buy_urls'][number], 'url' | 'disclosure'> | null;
 }
 
 export interface PageReferenceMap extends PageReference {

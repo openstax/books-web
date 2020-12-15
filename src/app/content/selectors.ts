@@ -23,9 +23,9 @@ export const book = createSelector(
   (state) => state.book
 );
 
-export const buyBookLink = createSelector(
-  book,
-  (data) => hasOSWebData(data) ? data.amazon_link : ''
+export const buyPrintConfig = createSelector(
+  localState,
+  (state) => state.buyPrint
 );
 
 export const bookTheme = createSelector(
