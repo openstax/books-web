@@ -119,7 +119,7 @@ describe('create app', () => {
         pathname: notFound.getUrl({url: 'url'}),
         replace: jest.fn(),
       };
-      delete window.location;
+      delete (window as any).location;
       window.location = newLocation;
 
       createApp = require('./index').default;

@@ -66,7 +66,7 @@ describe('highlightManager', () => {
   });
 
   afterEach(() => {
-    delete window.document.getSelection;
+    delete (window.document as any).getSelection;
   });
 
   it('CardList is rendered initially', () => {

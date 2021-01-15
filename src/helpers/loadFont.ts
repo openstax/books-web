@@ -1,5 +1,5 @@
 
-export default (url: string) => new Promise((resolve) => {
+export default (url: string) => new Promise<void>((resolve) => {
   if (typeof(document) === 'undefined' || !document.head) {
     throw new Error('fonts can only be loaded in the browser');
   }
@@ -12,6 +12,6 @@ export default (url: string) => new Promise((resolve) => {
   const link = document.createElement('link');
   link.setAttribute('rel', 'stylesheet');
   link.setAttribute('href', url);
-  link.onload = resolve;
+  link.onload = () => resolve();
   document.head.appendChild(link);
 });

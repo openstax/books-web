@@ -70,7 +70,7 @@ describe('getUrlParamForPageId', () => {
   });
 
   it('returns uuid param if tree is missing a slug', () => {
-    delete book.tree.contents[0].slug;
+    delete (book.tree.contents[0] as any).slug;
 
     expect(getUrlParamForPageId(book, 'pagelongid@1')).toEqual({uuid: 'pagelongid'});
   });
@@ -94,7 +94,7 @@ describe('getUrlParamForPageId', () => {
     });
 
     it('throws if tree is missing a slug and env is production', () => {
-      delete book.tree.contents[0].slug;
+      delete (book.tree.contents[0] as any).slug;
       expect(() =>
         getUrlParamForPageId(book, 'pagelongid@1')
       ).toThrowErrorMatchingInlineSnapshot(

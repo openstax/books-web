@@ -26,7 +26,7 @@ describe('BookBanner', () => {
     resetModules();
 
     window = assertWindow();
-    delete window.location;
+    delete (window as any).location;
 
     window.location = {
       assign: jest.fn(),

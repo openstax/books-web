@@ -91,7 +91,7 @@ describe('findAndInstallServiceWorkerUpdate', () => {
     const sw = {update: update as ServiceWorkerRegistration['update']} as ServiceWorkerRegistration;
 
     let finishUpdate: () => void = () => null;
-    update.mockReturnValue(new Promise((resolve) => finishUpdate = resolve));
+    update.mockReturnValue(new Promise<void>((resolve) => finishUpdate = resolve));
 
     helpers.findAndInstallServiceWorkerUpdate(sw, cb);
 
@@ -119,7 +119,7 @@ describe('findAndInstallServiceWorkerUpdate', () => {
     };
 
     let finishUpdate: () => void = () => null;
-    update.mockReturnValue(new Promise((resolve) => finishUpdate = resolve));
+    update.mockReturnValue(new Promise<void>((resolve) => finishUpdate = resolve));
 
     let stateChangeHandler: () => void = () => null;
     addEventListener.mockImplementation((_event, handler) => stateChangeHandler = handler);
