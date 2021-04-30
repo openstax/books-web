@@ -1,13 +1,12 @@
 import { HighlightColorEnum } from '@openstax/highlighter/dist/api';
 import React from 'react';
-import { Provider } from 'react-redux';
 import renderer from 'react-test-renderer';
 import createTestServices from '../../../../test/createTestServices';
 import createTestStore from '../../../../test/createTestStore';
 import { book as archiveBook, pageInChapter } from '../../../../test/mocks/archiveLoader';
 import { mockCmsBook } from '../../../../test/mocks/osWebLoader';
+import TestContainer from '../../../../test/TestContainer';
 import { DropdownToggle } from '../../../components/Dropdown';
-import MessageProvider from '../../../MessageProvider';
 import { MiddlewareAPI, Store } from '../../../types';
 import { assertDefined } from '../../../utils';
 import { receiveBook, receivePage } from '../../actions';
@@ -53,22 +52,18 @@ describe('Filters', () => {
         [HighlightColorEnum.Purple]: 1,
       },
     }, new Map()));
-    const component = renderer.create(<Provider store={store}>
-      <MessageProvider>
-        <Filters />
-      </MessageProvider>
-    </Provider>);
+    const component = renderer.create(<TestContainer store={store}>
+      <Filters />
+    </TestContainer>);
 
     const tree = component.toJSON();
     expect(tree).toMatchSnapshot();
   });
 
   it('matches snapshot when open color filters', () => {
-    const component = renderer.create(<Provider store={store}>
-      <MessageProvider>
-        <Filters/>
-      </MessageProvider>
-    </Provider>);
+    const component = renderer.create(<TestContainer store={store}>
+      <Filters/>
+    </TestContainer>);
 
     renderer.act(() => {
       const [, colorFiltersToggle] = component.root.findAllByType(DropdownToggle);
@@ -103,11 +98,9 @@ describe('Filters', () => {
       locationIds: [],
     }));
 
-    const component = renderer.create(<Provider store={store}>
-      <MessageProvider>
-        <Filters />
-      </MessageProvider>
-    </Provider>);
+    const component = renderer.create(<TestContainer store={store}>
+      <Filters />
+    </TestContainer>);
 
     let chapterFilters = component.root.findAllByType(FiltersListChapter);
     let colorFilters = component.root.findAllByType(FiltersListColor);
@@ -150,11 +143,9 @@ describe('Filters', () => {
     dispatch.mockClear();
     storeDispatch.mockClear();
 
-    const component = renderer.create(<Provider store={store}>
-      <MessageProvider>
-        <Filters />
-      </MessageProvider>
-    </Provider>);
+    const component = renderer.create(<TestContainer store={store}>
+      <Filters />
+    </TestContainer>);
 
     let chapterFilters = component.root.findAllByType(FiltersListChapter);
     let colorFilters = component.root.findAllByType(FiltersListColor);

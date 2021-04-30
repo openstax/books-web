@@ -12,19 +12,17 @@ describe('Attribution', () => {
   let React: any; // tslint:disable-line:variable-name
   let ReactDOM: any; // tslint:disable-line:variable-name
   let renderer: any;
-  let Provider: any; // tslint:disable-line:variable-name
   let renderToDom: any;
-  let MessageProvider = require('../../MessageProvider').default; // tslint:disable-line:variable-name
+  let TestContainer = require('../../../test/TestContainer').default; // tslint:disable-line:variable-name
 
   beforeEach(() => {
     jest.resetAllMocks();
     resetModules();
     React = require('react');
     ReactDOM = require('react-dom');
-    Provider = require('react-redux').Provider;
     renderer = require('react-test-renderer');
     renderToDom = require('../../../test/reactutils').renderToDom;
-    MessageProvider = require('../../MessageProvider').default;
+    TestContainer = require('../../../test/TestContainer').default;
   });
 
   describe('in browser', () => {
@@ -51,11 +49,9 @@ describe('Attribution', () => {
       store = createTestStore(state);
     });
 
-    const render = () => <Provider store={store}>
-      <MessageProvider>
-        <Attribution />
-      </MessageProvider>
-    </Provider>;
+    const render = () => <TestContainer store={store}>
+      <Attribution />
+    </TestContainer>;
 
     it('removes listener when it unmounts', () => {
       const { root, node } = renderToDom(render());

@@ -140,13 +140,13 @@ describe('Page', () => {
 
     return renderToDom(
       <Provider store={store}>
-        <MessageProvider>
-          <Services.Provider value={services}>
+        <Services.Provider value={services}>
+          <MessageProvider>
             <AccessibilityButtonsWrapper>
               <ConnectedPage />
             </AccessibilityButtonsWrapper>
-          </Services.Provider>
-        </MessageProvider>
+          </MessageProvider>
+        </Services.Provider>
       </Provider>
     );
   };
@@ -162,13 +162,13 @@ describe('Page', () => {
 
       const {root} = renderToDom(
         <Provider store={store}>
-          <MessageProvider>
-            <Services.Provider value={services}>
+          <Services.Provider value={services}>
+            <MessageProvider>
               <AccessibilityButtonsWrapper>
                 <ConnectedPage />
               </AccessibilityButtonsWrapper>
-            </Services.Provider>
-          </MessageProvider>
+            </MessageProvider>
+          </Services.Provider>
         </Provider>
       );
       const query = root.querySelector<HTMLElement>('#main-content');
@@ -1122,13 +1122,13 @@ describe('Page', () => {
   it('mounts, updates, and unmounts without a dom', () => {
     const element = renderer.create(
       <Provider store={store}>
-        <MessageProvider>
-          <AccessibilityButtonsWrapper>
-            <Services.Provider value={services}>
+        <Services.Provider value={services}>
+          <MessageProvider>
+            <AccessibilityButtonsWrapper>
               <ConnectedPage />
-            </Services.Provider>
-          </AccessibilityButtonsWrapper>
-        </MessageProvider>
+            </AccessibilityButtonsWrapper>
+          </MessageProvider>
+        </Services.Provider>
       </Provider>
     );
 
@@ -1156,13 +1156,13 @@ describe('Page', () => {
 
     renderToDom(
       <Provider store={store}>
-        <MessageProvider>
-          <AccessibilityButtonsWrapper>
-            <Services.Provider value={services}>
-              <ConnectedPage />
-            </Services.Provider>
-          </AccessibilityButtonsWrapper>
-        </MessageProvider>
+        <Services.Provider value={services}>
+          <MessageProvider>
+            <AccessibilityButtonsWrapper>
+                <ConnectedPage />
+            </AccessibilityButtonsWrapper>
+          </MessageProvider>
+        </Services.Provider>
       </Provider>
     );
 
@@ -1200,13 +1200,13 @@ describe('Page', () => {
 
     const {root} = renderToDom(
       <Provider store={store}>
-        <MessageProvider>
-          <AccessibilityButtonsWrapper>
-            <Services.Provider value={services}>
-              <ConnectedPage />
-            </Services.Provider>
-          </AccessibilityButtonsWrapper>
-        </MessageProvider>
+        <Services.Provider value={services}>
+          <MessageProvider>
+            <AccessibilityButtonsWrapper>
+                <ConnectedPage />
+            </AccessibilityButtonsWrapper>
+          </MessageProvider>
+        </Services.Provider>
       </Provider>
     );
 
@@ -1261,13 +1261,13 @@ describe('Page', () => {
 
     const {root} = renderToDom(
       <Provider store={store}>
-        <MessageProvider>
-          <AccessibilityButtonsWrapper>
-            <Services.Provider value={services}>
-              <ConnectedPage />
-            </Services.Provider>
-          </AccessibilityButtonsWrapper>
-        </MessageProvider>
+        <Services.Provider value={services}>
+          <MessageProvider>
+            <AccessibilityButtonsWrapper>
+                <ConnectedPage />
+            </AccessibilityButtonsWrapper>
+          </MessageProvider>
+        </Services.Provider>
       </Provider>
     );
 
@@ -1296,13 +1296,13 @@ describe('Page', () => {
 
     const {root} = renderToDom(
       <Provider store={store}>
-        <MessageProvider>
-          <AccessibilityButtonsWrapper>
-            <Services.Provider value={services}>
-              <ConnectedPage />
-            </Services.Provider>
-          </AccessibilityButtonsWrapper>
-        </MessageProvider>
+        <Services.Provider value={services}>
+          <MessageProvider>
+            <AccessibilityButtonsWrapper>
+                <ConnectedPage />
+            </AccessibilityButtonsWrapper>
+          </MessageProvider>
+        </Services.Provider>
       </Provider>
     );
 
@@ -1335,13 +1335,13 @@ describe('Page', () => {
 
     renderer.create(
       <Provider store={store}>
-        <MessageProvider>
-          <AccessibilityButtonsWrapper>
-            <Services.Provider value={services}>
-              <ConnectedPage />
-            </Services.Provider>
-          </AccessibilityButtonsWrapper>
-        </MessageProvider>
+        <Services.Provider value={services}>
+          <MessageProvider>
+            <AccessibilityButtonsWrapper>
+                <ConnectedPage />
+            </AccessibilityButtonsWrapper>
+          </MessageProvider>
+        </Services.Provider>
       </Provider>
     );
 
@@ -1368,13 +1368,13 @@ describe('Page', () => {
 
     const {root} = renderToDom(
       <Provider store={store}>
-        <MessageProvider>
-          <AccessibilityButtonsWrapper>
-            <Services.Provider value={services}>
-              <ConnectedPage />
-            </Services.Provider>
-          </AccessibilityButtonsWrapper>
-        </MessageProvider>
+        <Services.Provider value={services}>
+          <MessageProvider>
+            <AccessibilityButtonsWrapper>
+                <ConnectedPage />
+            </AccessibilityButtonsWrapper>
+          </MessageProvider>
+        </Services.Provider>
       </Provider>
     );
 
@@ -1392,13 +1392,13 @@ describe('Page', () => {
 
     const {tree} = renderToDom(
       <Provider store={store}>
-        <MessageProvider>
-          <AccessibilityButtonsWrapper>
-            <Services.Provider value={services}>
-              <ConnectedPage />
-            </Services.Provider>
-          </AccessibilityButtonsWrapper>
-        </MessageProvider>
+        <Services.Provider value={services}>
+          <MessageProvider>
+            <AccessibilityButtonsWrapper>
+                <ConnectedPage />
+            </AccessibilityButtonsWrapper>
+          </MessageProvider>
+        </Services.Provider>
       </Provider>
     );
 
@@ -1427,13 +1427,13 @@ describe('Page', () => {
 
     const component = renderer.create(
       <Provider store={store}>
-        <MessageProvider>
-          <AccessibilityButtonsWrapper>
-            <Services.Provider value={services}>
-              <ConnectedPage />
-            </Services.Provider>
-          </AccessibilityButtonsWrapper>
-        </MessageProvider>
+        <Services.Provider value={services}>
+          <MessageProvider>
+            <AccessibilityButtonsWrapper>
+                <ConnectedPage />
+            </AccessibilityButtonsWrapper>
+          </MessageProvider>
+        </Services.Provider>
       </Provider>);
 
     expect(component.root.findByType(PageNotFound)).toBeTruthy();
@@ -1454,13 +1454,13 @@ describe('Page', () => {
 
       const {root} = renderToDom(
         <Provider store={store}>
-          <MessageProvider>
-            <AccessibilityButtonsWrapper>
-              <Services.Provider value={services}>
-                <ConnectedPage />
-              </Services.Provider>
-            </AccessibilityButtonsWrapper>
-          </MessageProvider>
+          <Services.Provider value={services}>
+            <MessageProvider>
+              <AccessibilityButtonsWrapper>
+                  <ConnectedPage />
+              </AccessibilityButtonsWrapper>
+            </MessageProvider>
+          </Services.Provider>
         </Provider>
       );
 
@@ -1478,13 +1478,13 @@ describe('Page', () => {
 
       const {root} = renderToDom(
         <Provider store={store}>
-          <MessageProvider>
-            <AccessibilityButtonsWrapper>
-              <Services.Provider value={services}>
-                <ConnectedPage />
-              </Services.Provider>
-            </AccessibilityButtonsWrapper>
-          </MessageProvider>
+          <Services.Provider value={services}>
+            <MessageProvider>
+              <AccessibilityButtonsWrapper>
+                  <ConnectedPage />
+              </AccessibilityButtonsWrapper>
+            </MessageProvider>
+          </Services.Provider>
         </Provider>
       );
 

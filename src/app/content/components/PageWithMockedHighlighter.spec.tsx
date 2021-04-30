@@ -124,13 +124,13 @@ describe('Page', () => {
 
     return renderToDom(
       <Provider store={store}>
-        <MessageProvider>
-          <Services.Provider value={services}>
-            <AccessibilityButtonsWrapper>
-              <ConnectedPage />
-            </AccessibilityButtonsWrapper>
-          </Services.Provider>
-        </MessageProvider>
+        <Services.Provider value={services}>
+          <MessageProvider>
+              <AccessibilityButtonsWrapper>
+                <ConnectedPage />
+              </AccessibilityButtonsWrapper>
+          </MessageProvider>
+        </Services.Provider>
       </Provider>
     );
   };

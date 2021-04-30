@@ -1,10 +1,9 @@
 import noop from 'lodash/fp/noop';
 import React from 'react';
-import { Provider } from 'react-redux';
 import renderer from 'react-test-renderer';
 import createTestStore from '../../../../test/createTestStore';
+import TestContainer from '../../../../test/TestContainer';
 import { resetModules } from '../../../../test/utils';
-import MessageProvider from '../../../MessageProvider';
 import { Store } from '../../../types';
 import { assertWindow } from '../../../utils';
 import { printSummaryHighlights, receiveSummaryHighlights } from '../../highlights/actions';
@@ -26,11 +25,9 @@ describe('HighlightsPrintButton', () => {
   });
 
   it('matches snapshot', () => {
-    const component = renderer.create(<Provider store={store}>
-      <MessageProvider>
-        <ConnectedPrintButton />
-      </MessageProvider>
-    </Provider>);
+    const component = renderer.create(<TestContainer store={store}>
+      <ConnectedPrintButton />
+    </TestContainer>);
 
     const tree = component.toJSON();
     expect(tree).toMatchSnapshot();
@@ -39,11 +36,9 @@ describe('HighlightsPrintButton', () => {
   it('dispatches action to print highlights', () => {
     store.dispatch(receiveSummaryHighlights({}, {pagination: {} as any}));
 
-    const component = renderer.create(<Provider store={store}>
-      <MessageProvider>
-        <ConnectedPrintButton />
-      </MessageProvider>
-    </Provider>);
+    const component = renderer.create(<TestContainer store={store}>
+      <ConnectedPrintButton />
+    </TestContainer>);
 
     storeDispatch.mockClear();
 
@@ -60,11 +55,9 @@ describe('HighlightsPrintButton', () => {
     store.dispatch(receiveSummaryHighlights({}, {} as any));
     store.dispatch(printSummaryHighlights());
 
-    const component = renderer.create(<Provider store={store}>
-      <MessageProvider>
-        <ConnectedPrintButton />
-      </MessageProvider>
-    </Provider>);
+    const component = renderer.create(<TestContainer store={store}>
+      <ConnectedPrintButton />
+    </TestContainer>);
 
     storeDispatch.mockClear();
 
@@ -77,11 +70,9 @@ describe('HighlightsPrintButton', () => {
       pagination: null,
     }));
 
-    const component = renderer.create(<Provider store={store}>
-      <MessageProvider>
-        <ConnectedPrintButton />
-      </MessageProvider>
-    </Provider>);
+    const component = renderer.create(<TestContainer store={store}>
+      <ConnectedPrintButton />
+    </TestContainer>);
 
     storeDispatch.mockClear();
 

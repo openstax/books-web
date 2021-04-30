@@ -1,6 +1,7 @@
 import { shouldPolyfill } from '@formatjs/intl-pluralrules/should-polyfill';
 import React from 'react';
-import { IntlProvider } from 'react-intl';
+import { createIntl, createIntlCache, RawIntlProvider } from 'react-intl';
+import { useServices } from './context/Services';
 import enMessages from './messages/en';
 
 // https://formatjs.io/docs/polyfills/intl-pluralrules/#dynamic-import--capability-detection
@@ -17,8 +18,17 @@ async function polyfill(locale: 'en') {
 
 polyfill('en');
 
+const cache = createIntlCache();
+
+export const intl = createIntl({
+  locale: 'en',
+  messages: enMessages,
+}, cache);
+
 // tslint:disable-next-line:variable-name
-const MessageProvider: React.SFC<{onError?: () => void}> = (props) =>
-  <IntlProvider onError={props.onError} locale='en' messages={enMessages}>{props.children}</IntlProvider>;
+const MessageProvider: React.FC<{}> = (props) =>
+  <RawIntlProvider value={useServices().intl}>
+    {props.children}
+  </RawIntlProvider>;
 
 export default MessageProvider;

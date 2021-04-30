@@ -1,11 +1,10 @@
 import React from 'react';
-import { Provider } from 'react-redux';
 import renderer from 'react-test-renderer';
 import { routes } from '..';
 import createTestStore from '../../../test/createTestStore';
 import { book } from '../../../test/mocks/archiveLoader';
 import { mockCmsBook } from '../../../test/mocks/osWebLoader';
-import MessageProvider from '../../MessageProvider';
+import TestContainer from '../../../test/TestContainer';
 import { Store } from '../../types';
 import { receiveBook } from '../actions';
 import { LinkedArchiveTreeSection } from '../types';
@@ -24,15 +23,13 @@ describe('ContentExcerpt', () => {
   const mockSection = findArchiveTreeNodeById(book.tree, 'testbook1-testpage1-uuid') as LinkedArchiveTreeSection;
 
   const render = (sourcePage: string | LinkedArchiveTreeSection, content: string) => renderer.create(
-    <Provider store={store}>
-      <MessageProvider>
-        <ContentExcerpt
-          content={content}
-          source={sourcePage}
-          className='class1'
-        />
-      </MessageProvider>
-    </Provider>
+    <TestContainer store={store}>
+      <ContentExcerpt
+        content={content}
+        source={sourcePage}
+        className='class1'
+      />
+    </TestContainer>
   );
 
   it('fixes urls in content using addTargetBlank and resolveRelative', () => {

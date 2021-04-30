@@ -1,8 +1,7 @@
 import React from 'react';
-import { Provider } from 'react-redux';
 import renderer from 'react-test-renderer';
 import createTestStore from '../../../../test/createTestStore';
-import MessageProvider from '../../../MessageProvider';
+import TestContainer from '../../../../test/TestContainer';
 import { Store } from '../../../types';
 import { openToc } from '../../actions';
 import { tocOpen } from '../../selectors';
@@ -17,11 +16,9 @@ describe('PageNotFound', () => {
   });
 
   it('renders correctly', () => {
-    const { root } = renderer.create(<Provider store={store}>
-      <MessageProvider>
-        <PageNotFound />
-      </MessageProvider>
-    </Provider>);
+    const { root } = renderer.create(<TestContainer store={store}>
+      <PageNotFound />
+    </TestContainer>);
 
     expect(root.findByProps({ id: 'i18n:page-not-found:heading' })).toBeTruthy();
     expect(root.findByProps({ id: 'i18n:page-not-found:text-before-button' })).toBeTruthy();
@@ -31,11 +28,9 @@ describe('PageNotFound', () => {
   it('opens toc when clicking on the button', () => {
     const dispatch = jest.spyOn(store, 'dispatch');
 
-    const component = renderer.create(<Provider store={store}>
-      <MessageProvider>
-        <PageNotFound />
-      </MessageProvider>
-    </Provider>);
+    const component = renderer.create(<TestContainer store={store}>
+      <PageNotFound />
+    </TestContainer>);
 
     renderer.act(() => {
       component.root.findByProps({ 'data-testid': 'toc-button' }).props.onClick();
@@ -47,11 +42,9 @@ describe('PageNotFound', () => {
   it('clicking multiple times on the button does not close toc', () => {
     const dispatch = jest.spyOn(store, 'dispatch');
 
-    const component = renderer.create(<Provider store={store}>
-      <MessageProvider>
-        <PageNotFound />
-      </MessageProvider>
-    </Provider>);
+    const component = renderer.create(<TestContainer store={store}>
+      <PageNotFound />
+    </TestContainer>);
 
     expect(tocOpen(store.getState())).toEqual(null);
 

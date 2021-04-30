@@ -1,13 +1,12 @@
 import React from 'react';
 import { unmountComponentAtNode } from 'react-dom';
-import { Provider } from 'react-redux';
 import renderer from 'react-test-renderer';
 import ConnectedTableOfContents, { TableOfContents } from '.';
 import createTestStore from '../../../../test/createTestStore';
 import { book as archiveBook, page, shortPage } from '../../../../test/mocks/archiveLoader';
 import { mockCmsBook } from '../../../../test/mocks/osWebLoader';
 import { renderToDom } from '../../../../test/reactutils';
-import MessageProvider from '../../../MessageProvider';
+import TestContainer from '../../../../test/TestContainer';
 import { AppState, Store } from '../../../types';
 import { assertWindow } from '../../../utils';
 import * as actions from '../../actions';
@@ -31,16 +30,16 @@ describe('TableOfContents', () => {
   });
 
   it('mounts and unmounts without a dom', () => {
-    const component = renderer.create(<MessageProvider><Provider store={store}>
+    const component = renderer.create(<TestContainer store={store}>
       <ConnectedTableOfContents />
-    </Provider></MessageProvider>);
+    </TestContainer>);
     expect(() => component.unmount()).not.toThrow();
   });
 
   it('mounts and unmmounts with a dom', () => {
-    const {root} = renderToDom(<MessageProvider><Provider store={store}>
+    const {root} = renderToDom(<TestContainer store={store}>
       <ConnectedTableOfContents />
-    </Provider></MessageProvider>);
+    </TestContainer>);
     expect(() => unmountComponentAtNode(root)).not.toThrow();
   });
 
@@ -48,9 +47,9 @@ describe('TableOfContents', () => {
     const scrollSidebarSectionIntoView = jest.spyOn(domUtils, 'scrollSidebarSectionIntoView');
     const expandCurrentChapter = jest.spyOn(domUtils, 'expandCurrentChapter');
 
-    renderer.create(<MessageProvider><Provider store={store}>
+    renderer.create(<TestContainer store={store}>
       <ConnectedTableOfContents />
-    </Provider></MessageProvider>);
+    </TestContainer>);
 
     expect(expandCurrentChapter).not.toHaveBeenCalled();
     expect(scrollSidebarSectionIntoView).toHaveBeenCalledTimes(1);
@@ -64,9 +63,9 @@ describe('TableOfContents', () => {
   });
 
   it('opens and closes', () => {
-    const component = renderer.create(<MessageProvider><Provider store={store}>
+    const component = renderer.create(<TestContainer store={store}>
       <ConnectedTableOfContents />
-    </Provider></MessageProvider>);
+    </TestContainer>);
 
     expect(component.root.findByType(TableOfContents).props.isOpen).toBe(null);
     renderer.act(() => {
@@ -82,9 +81,9 @@ describe('TableOfContents', () => {
   it('resets toc on navigate', () => {
     const dispatchSpy = jest.spyOn(store, 'dispatch');
 
-    const component = renderer.create(<MessageProvider><Provider store={store}>
+    const component = renderer.create(<TestContainer store={store}>
       <ConnectedTableOfContents />
-    </Provider></MessageProvider>);
+    </TestContainer>);
 
     renderer.act(() => {
       component.root.findAllByType('a')[0].props.onClick({preventDefault: () => null});
@@ -98,9 +97,9 @@ describe('TableOfContents', () => {
       return expect(document).toBeTruthy();
     }
 
-    const render = () => <MessageProvider><Provider store={store}>
+    const render = () => <TestContainer store={store}>
       <ConnectedTableOfContents />
-    </Provider></MessageProvider>;
+    </TestContainer>;
 
     const {node} = renderToDom(render());
     const spy = jest.spyOn(node.style, 'setProperty');

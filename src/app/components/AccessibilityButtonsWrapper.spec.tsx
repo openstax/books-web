@@ -2,16 +2,15 @@ import { HTMLElement } from '@openstax/types/lib.dom';
 import React from 'react';
 import ReactTestUtils from 'react-dom/test-utils';
 import { expectError, renderToDom } from '../../test/reactutils';
-import MessageProvider from '../MessageProvider';
+import TestContainer from '../../test/TestContainer';
 import AccessibilityButtonsWrapper from './AccessibilityButtonsWrapper';
 import MainContent from './MainContent';
 
 describe('AccessibilityButtonsWrapper', () => {
-
     it('errors when no main content is provided', () => {
-        const {node} = renderToDom(<MessageProvider>
-            <AccessibilityButtonsWrapper/>
-        </MessageProvider>);
+        const {node} = renderToDom(<TestContainer>
+          <AccessibilityButtonsWrapper/>
+        </TestContainer>);
         const breaks = () => ReactTestUtils.Simulate.click(node);
         expectError(
             'BUG: Expected mainComponent to be defined. Does AccessibilityButtonsWrapper contain a MainContent?',
@@ -19,29 +18,29 @@ describe('AccessibilityButtonsWrapper', () => {
     });
 
     it('fails when main is not wrapped in a AccessibilityButtonsWrapper', () => {
-        const breaks = () => renderToDom(<MessageProvider>
-            <MainContent/>
-        </MessageProvider>);
+        const breaks = () => renderToDom(<TestContainer>
+          <MainContent/>
+        </TestContainer>);
         expectError('BUG: MainContent must be inside AccessibilityButtonsWrapper', breaks);
     });
 
     it('succeeds when main content is provided', () => {
-        const {node} = renderToDom(<MessageProvider>
+        const {node} = renderToDom(<TestContainer>
             <AccessibilityButtonsWrapper>
-                <MainContent/>
+              <MainContent/>
             </AccessibilityButtonsWrapper>
-        </MessageProvider>);
+        </TestContainer>);
 
         const works = () => ReactTestUtils.Simulate.click(node);
         expect(works).not.toThrow();
     });
 
     it('scrolls and moves focus to mainContent when clicked (a11y)', () => {
-        const {node, tree} = renderToDom(<MessageProvider>
-            <AccessibilityButtonsWrapper>
-                <MainContent/>
-            </AccessibilityButtonsWrapper>
-        </MessageProvider>);
+        const {node, tree} = renderToDom(<TestContainer>
+          <AccessibilityButtonsWrapper>
+              <MainContent/>
+          </AccessibilityButtonsWrapper>
+        </TestContainer>);
 
         const wrapper = ReactTestUtils.findRenderedComponentWithType(tree, AccessibilityButtonsWrapper);
 
