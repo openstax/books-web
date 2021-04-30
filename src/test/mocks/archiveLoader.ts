@@ -2,7 +2,7 @@
 import fs from 'fs';
 import cloneDeep from 'lodash/fp/cloneDeep';
 import path from 'path';
-import { ArchiveBook, ArchivePage } from '../../app/content/types'
+import { ArchiveBook, ArchivePage } from '../../app/content/types';
 
 export const book = JSON.parse(
   fs.readFileSync(path.resolve(__dirname, '../fixtures/apps/archive/codeversion/contents/testbook1-shortid.json'), 'utf8')
