@@ -1,22 +1,22 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
-import MessageProvider from '../../../MessageProvider';
+import TestContainer from '../../../../test/TestContainer';
 import TruncatedText from './TruncatedText';
 
 describe('TruncatedText', () => {
   it('matches snapshot', () => {
-    const component = renderer.create(<MessageProvider onError={() => null}>
+    const component = renderer.create(<TestContainer>
       <TruncatedText text='asdf' isActive={false} onChange={() => null} />
-    </MessageProvider>);
+    </TestContainer>);
 
     const tree = component.toJSON();
     expect(tree).toMatchSnapshot();
   });
 
   it('matches snapshot when focused', () => {
-    const component = renderer.create(<MessageProvider onError={() => null}>
+    const component = renderer.create(<TestContainer>
       <TruncatedText text='asdf' isActive={true} onChange={() => null} />
-    </MessageProvider>);
+    </TestContainer>);
 
     const tree = component.toJSON();
     expect(tree).toMatchSnapshot();
@@ -28,13 +28,13 @@ describe('TruncatedText', () => {
       scrollHeight: 100,
     });
 
-    const component = renderer.create(<MessageProvider onError={() => null}>
+    const component = renderer.create(<TestContainer>
       <TruncatedText text='asdf' isActive={true} onChange={() => null} />
-    </MessageProvider>, {createNodeMock});
+    </TestContainer>, {createNodeMock});
 
-    component.update(<MessageProvider onError={() => null}>
+    component.update(<TestContainer>
       <TruncatedText text='asdf' isActive={true} onChange={() => null} />
-    </MessageProvider>);
+    </TestContainer>);
 
     expect(() => component.root.findByType('span')).not.toThrow();
   });
@@ -42,13 +42,13 @@ describe('TruncatedText', () => {
   it('calls onChange when state changes', () => {
     const onChange = jest.fn();
 
-    renderer.create(<MessageProvider onError={() => null}>
+    renderer.create(<TestContainer>
       <TruncatedText text='asdf' isActive={false} onChange={onChange} />
-    </MessageProvider>);
+    </TestContainer>);
 
-    renderer.create(<MessageProvider onError={() => null}>
+    renderer.create(<TestContainer>
       <TruncatedText text='asdf' isActive={true} onChange={onChange} />
-    </MessageProvider>);
+    </TestContainer>);
 
     expect(onChange).toHaveBeenCalledTimes(1);
   });

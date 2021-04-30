@@ -1,13 +1,11 @@
 import React from 'react';
-import { Provider } from 'react-redux';
 import renderer, { act } from 'react-test-renderer';
 import * as mathjaxHelpers from '../../../../helpers/mathjax';
 import createTestServices from '../../../../test/createTestServices';
 import createTestStore from '../../../../test/createTestStore';
 import { book } from '../../../../test/mocks/archiveLoader';
+import TestContainer from '../../../../test/TestContainer';
 import Button from '../../../components/Button';
-import * as Services from '../../../context/Services';
-import MessageProvider from '../../../MessageProvider';
 import { Store } from '../../../types';
 import { assertDefined } from '../../../utils';
 import { assertDocument, assertWindow } from '../../../utils/browser-assertions';
@@ -55,13 +53,9 @@ describe('Question', () => {
     store.dispatch(receiveBook(book));
     jest.spyOn(bookPageUtils, 'getBookPageUrlAndParams')
       .mockReturnValue({ url: 'asdf' } as any);
-    render = () => <Provider store={store}>
-      <Services.Provider value={services}>
-        <MessageProvider>
+    render = () => <TestContainer services={services} store={store}>
           <Question />
-        </MessageProvider>
-      </Services.Provider>
-    </Provider>;
+    </TestContainer>;
     linkedArchiveTreeSection = assertDefined(
       findArchiveTreeNodeById(book.tree, 'testbook1-testpage2-uuid'),
       'mock file has been changed'

@@ -1,12 +1,9 @@
 import React from 'react';
-import { Provider } from 'react-redux';
 import renderer from 'react-test-renderer';
-import createTestServices from '../../../../test/createTestServices';
 import createTestStore from '../../../../test/createTestStore';
 import { book } from '../../../../test/mocks/archiveLoader';
+import TestContainer from '../../../../test/TestContainer';
 import { DropdownToggle } from '../../../components/Dropdown';
-import * as Services from '../../../context/Services';
-import MessageProvider from '../../../MessageProvider';
 import { Store } from '../../../types';
 import { receiveBook } from '../../actions';
 import { StyledDetails, StyledSectionItem, StyledSummary } from '../../components/popUp/ChapterFilter';
@@ -18,7 +15,6 @@ import Filters from './Filters';
 
 describe('Filters', () => {
   let store: Store;
-  let services: ReturnType<typeof createTestServices>;
   let dispatch: jest.SpyInstance;
   let render: () => JSX.Element;
   const mockLocationFilters = new Map([
@@ -37,15 +33,10 @@ describe('Filters', () => {
 
   beforeEach(() => {
     store = createTestStore();
-    services = createTestServices();
     dispatch = jest.spyOn(store, 'dispatch');
-    render = () => <Provider store={store}>
-      <Services.Provider value={services}>
-        <MessageProvider>
-          <Filters />
-        </MessageProvider>
-      </Services.Provider>
-    </Provider>;
+    render = () => <TestContainer store={store}>
+      <Filters />
+    </TestContainer>;
   });
 
   it('ChapterFilter matches snapshot when it is closed', () => {

@@ -1,14 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import ReactTestUtils from 'react-dom/test-utils';
-import { Provider } from 'react-redux';
 import renderer from 'react-test-renderer';
-import createTestServices from '../../../../test/createTestServices';
 import createTestStore from '../../../../test/createTestStore';
 import { renderToDom } from '../../../../test/reactutils';
+import TestContainer from '../../../../test/TestContainer';
 import GoToTopButton from '../../../components/GoToTopButton';
-import * as Services from '../../../context/Services';
-import MessageProvider from '../../../MessageProvider';
 import { Store } from '../../../types';
 import { assertWindow } from '../../../utils';
 import { loadMoreStudyGuides } from '../actions';
@@ -18,11 +15,9 @@ import ShowStudyGuides, { StudyGuidesBody } from './ShowStudyGuides';
 describe('ShowStudyGuides', () => {
   let store: Store;
   let window: Window;
-  let services: ReturnType<typeof createTestServices>;
 
   beforeEach(() => {
     store = createTestStore();
-    services = createTestServices();
 
     window = assertWindow();
   });
@@ -34,13 +29,9 @@ describe('ShowStudyGuides', () => {
     jest.spyOn(selectors, 'hasMoreResults')
       .mockReturnValue(true);
 
-    const component = renderer.create(<Provider store={store}>
-      <Services.Provider value={services} >
-        <MessageProvider>
-          <ShowStudyGuides />
-        </MessageProvider>
-      </Services.Provider>
-    </Provider>, { createNodeMock: () => container });
+    const component = renderer.create(<TestContainer store={store}>
+      <ShowStudyGuides />
+    </TestContainer>, { createNodeMock: () => container });
 
     Object.defineProperty(container, 'scrollHeight', { value: 1000 });
     Object.defineProperty(container, 'offsetHeight', { value: 100 });
@@ -62,13 +53,9 @@ describe('ShowStudyGuides', () => {
     jest.spyOn(selectors, 'hasMoreResults')
       .mockReturnValue(true);
 
-    const component = renderer.create(<Provider store={store}>
-      <Services.Provider value={services}>
-        <MessageProvider>
-          <ShowStudyGuides />
-        </MessageProvider>
-      </Services.Provider>
-    </Provider>, { createNodeMock: () => container});
+    const component = renderer.create(<TestContainer store={store}>
+      <ShowStudyGuides />
+    </TestContainer>, { createNodeMock: () => container});
 
     Object.defineProperty(container, 'scrollHeight', { value: 1000 });
     Object.defineProperty(container, 'offsetHeight', { value: 100 });
@@ -90,13 +77,9 @@ describe('ShowStudyGuides', () => {
     jest.spyOn(selectors, 'hasMoreResults')
       .mockReturnValue(false);
 
-    const component = renderer.create(<Provider store={store}>
-      <Services.Provider value={services}>
-        <MessageProvider>
-          <ShowStudyGuides />
-        </MessageProvider>
-      </Services.Provider>
-    </Provider>, { createNodeMock: () => container});
+    const component = renderer.create(<TestContainer store={store}>
+      <ShowStudyGuides />
+    </TestContainer>, { createNodeMock: () => container});
 
     Object.defineProperty(container, 'scrollHeight', { value: 1000 });
     Object.defineProperty(container, 'offsetHeight', { value: 100 });
@@ -121,13 +104,9 @@ describe('ShowStudyGuides', () => {
     jest.spyOn(selectors, 'hasMoreResults')
       .mockReturnValue(true);
 
-    const component = renderer.create(<Provider store={store}>
-      <Services.Provider value={services}>
-        <MessageProvider>
-          <ShowStudyGuides />
-        </MessageProvider>
-      </Services.Provider>
-    </Provider>, { createNodeMock: () => container});
+    const component = renderer.create(<TestContainer store={store}>
+      <ShowStudyGuides />
+    </TestContainer>, { createNodeMock: () => container});
 
     Object.defineProperty(container, 'scrollHeight', { value: 1000 });
     Object.defineProperty(container, 'offsetHeight', { value: 100 });
@@ -151,13 +130,9 @@ describe('ShowStudyGuides', () => {
   it('shows back to top button on scroll and works on click', async() => {
     const container = window.document.createElement('div');
 
-    const component = renderer.create(<Provider store={store}>
-      <Services.Provider value={services} >
-        <MessageProvider>
-          <ShowStudyGuides />
-        </MessageProvider>
-      </Services.Provider>
-    </Provider>, { createNodeMock: () => container });
+    const component = renderer.create(<TestContainer store={store}>
+      <ShowStudyGuides />
+    </TestContainer>, { createNodeMock: () => container });
 
     Object.defineProperty(container, 'height', { value: 1000 });
     Object.defineProperty(container, 'scrollTop', { value: 10, writable: true });
@@ -181,13 +156,9 @@ describe('ShowStudyGuides', () => {
   });
 
   it('does not scroll to top without ref', () => {
-    const {root} = renderToDom(<Provider store={store}>
-      <Services.Provider value={createTestServices()} >
-        <MessageProvider>
-          <ShowStudyGuides />
-        </MessageProvider>
-      </Services.Provider>
-    </Provider>);
+    const {root} = renderToDom(<TestContainer store={store}>
+      <ShowStudyGuides />
+    </TestContainer>);
 
     const target = root.querySelector('[data-testid="show-studyguides-body"]');
     if (!target) {

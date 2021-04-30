@@ -1,7 +1,6 @@
 import React from 'react';
 import { unmountComponentAtNode } from 'react-dom';
 import ReactTestUtils from 'react-dom/test-utils';
-import { Provider } from 'react-redux';
 import renderer from 'react-test-renderer';
 import SearchResultsSidebar from '.';
 import createTestStore from '../../../../../test/createTestStore';
@@ -22,7 +21,7 @@ import {
   makeSearchResultHit,
   makeSearchResults
 } from '../../../../../test/searchResults';
-import MessageProvider from '../../../../MessageProvider';
+import TestContainer from '../../../../../test/TestContainer';
 import { Store } from '../../../../types';
 import { assertDocument, assertWindow } from '../../../../utils';
 import { receiveBook, receivePage } from '../../../actions';
@@ -53,11 +52,9 @@ describe('SearchResultsSidebar', () => {
   });
 
   const render = () => (
-    <MessageProvider>
-      <Provider store={store}>
-        <SearchResultsSidebar/>
-      </Provider>
-    </MessageProvider>
+    <TestContainer store={store}>
+      <SearchResultsSidebar/>
+    </TestContainer>
   );
 
   it('mounts and unmounts without a dom', () => {

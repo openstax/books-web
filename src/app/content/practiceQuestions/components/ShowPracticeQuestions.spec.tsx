@@ -1,11 +1,8 @@
 import React from 'react';
-import { Provider } from 'react-redux';
 import renderer, { act } from 'react-test-renderer';
-import createTestServices from '../../../../test/createTestServices';
 import createTestStore from '../../../../test/createTestStore';
 import { book } from '../../../../test/mocks/archiveLoader';
-import * as Services from '../../../context/Services';
-import MessageProvider from '../../../MessageProvider';
+import TestContainer from '../../../../test/TestContainer';
 import { locationChange } from '../../../navigation/actions';
 import { Store } from '../../../types';
 import { assertDefined } from '../../../utils';
@@ -36,21 +33,15 @@ jest.mock('./FinalScreen', () => (props: any) => <div data-mock-final-section {.
 
 describe('ShowPracticeQuestions', () => {
   let store: Store;
-  let services: ReturnType<typeof createTestServices>;
   let render: () => JSX.Element;
   let linkedArchiveTreeSection: LinkedArchiveTreeSection;
   let linkedArchiveTreeSection2: LinkedArchiveTreeSection;
 
   beforeEach(() => {
     store = createTestStore();
-    services = createTestServices();
-    render = () => <Provider store={store}>
-      <Services.Provider value={services}>
-        <MessageProvider>
-          <ShowPracticeQuestions />
-        </MessageProvider>
-      </Services.Provider>
-    </Provider>;
+    render = () => <TestContainer store={store}>
+      <ShowPracticeQuestions />
+    </TestContainer>;
     linkedArchiveTreeSection = assertDefined(
       findArchiveTreeNodeById(book.tree, 'testbook1-testpage2-uuid'),
       'mock file has been changed'

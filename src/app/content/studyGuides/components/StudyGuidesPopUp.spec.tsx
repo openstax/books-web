@@ -1,14 +1,12 @@
 import React from 'react';
 import ReactTestUtils from 'react-dom/test-utils';
-import { Provider } from 'react-redux';
 import renderer, { act } from 'react-test-renderer';
 import createTestServices from '../../../../test/createTestServices';
 import createTestStore from '../../../../test/createTestStore';
 import { renderToDom } from '../../../../test/reactutils';
+import TestContainer from '../../../../test/TestContainer';
 import { receiveUser } from '../../../auth/actions';
 import { User } from '../../../auth/types';
-import * as Services from '../../../context/Services';
-import MessageProvider from '../../../MessageProvider';
 import { Store } from '../../../types';
 import * as utils from '../../../utils';
 import { assertNotNull } from '../../../utils';
@@ -44,13 +42,9 @@ describe('Study Guides button and PopUp', () => {
   });
 
   it('closes pop up with close button', async() => {
-    const component = renderer.create(<Provider store={store}>
-      <Services.Provider value={services}>
-        <MessageProvider>
-          <StudyguidesPopUp />
-        </MessageProvider>
-      </Services.Provider>
-    </Provider>);
+    const component = renderer.create(<TestContainer services={services} store={store}>
+      <StudyguidesPopUp />
+    </TestContainer>);
 
     act(() => { store.dispatch(openStudyGuides()); });
     act(() => {
@@ -65,13 +59,9 @@ describe('Study Guides button and PopUp', () => {
     store.dispatch(openStudyGuides());
     store.dispatch(receiveUser(user));
 
-    const { node } = renderToDom(<Provider store={store}>
-      <Services.Provider value={services}>
-        <MessageProvider>
-          <StudyguidesPopUp />
-        </MessageProvider>
-      </Services.Provider>
-    </Provider>);
+    const { node } = renderToDom(<TestContainer services={services} store={store}>
+      <StudyguidesPopUp />
+    </TestContainer>);
 
     const track = jest.spyOn(services.analytics.openCloseStudyGuides, 'track');
     const element = assertNotNull(node.querySelector('[data-testid=\'studyguides-popup-wrapper\']'), '');
@@ -87,13 +77,9 @@ describe('Study Guides button and PopUp', () => {
     store.dispatch(openStudyGuides());
     store.dispatch(receiveUser(user));
 
-    const { node } = renderToDom(<Provider store={store}>
-      <Services.Provider value={services}>
-        <MessageProvider>
-          <StudyguidesPopUp />
-        </MessageProvider>
-      </Services.Provider>
-    </Provider>);
+    const { node } = renderToDom(<TestContainer services={services} store={store}>
+      <StudyguidesPopUp />
+    </TestContainer>);
 
     const track = jest.spyOn(services.analytics.openCloseStudyGuides, 'track');
     const element = assertNotNull(node.querySelector('[data-testid=\'scroll-lock-overlay\']'), '');

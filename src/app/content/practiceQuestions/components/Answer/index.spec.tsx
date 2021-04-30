@@ -1,7 +1,7 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
 import Answer from '.';
-import MessageProvider from '../../../../MessageProvider';
+import TestContainer from '../../../../../test/TestContainer';
 import { assertDocument } from '../../../../utils/browser-assertions';
 import { PracticeQuestion } from '../../types';
 
@@ -31,7 +31,7 @@ describe('Answer', () => {
     const container = assertDocument().createElement('div');
     const spyFocus = jest.spyOn(container, 'focus');
 
-    renderer.create(<MessageProvider>
+    renderer.create(<TestContainer>
       <Answer
         question={mockQuestion}
         isSelected={false}
@@ -42,7 +42,7 @@ describe('Answer', () => {
         onSelect={jest.fn()}
         source={{} as any}
       />
-    </MessageProvider>, { createNodeMock: () => container });
+    </TestContainer>, { createNodeMock: () => container });
 
     // Run initial useEffect hook
     // tslint:disable-next-line: no-empty
@@ -55,7 +55,7 @@ describe('Answer', () => {
     const container = assertDocument().createElement('div');
     const spyFocus = jest.spyOn(container, 'focus');
 
-    renderer.create(<MessageProvider>
+    renderer.create(<TestContainer>
       <Answer
         question={mockQuestion}
         isSelected={false}
@@ -66,7 +66,7 @@ describe('Answer', () => {
         onSelect={jest.fn()}
         source={{} as any}
       />
-    </MessageProvider>, { createNodeMock: () => container });
+    </TestContainer>, { createNodeMock: () => container });
 
     // Run initial useEffect hook
     // tslint:disable-next-line: no-empty
