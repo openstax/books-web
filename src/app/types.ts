@@ -1,5 +1,6 @@
 import { ServiceWorkerRegistration } from '@openstax/types/lib.dom';
 import { History } from 'history';
+import { IntlShape } from 'react-intl';
 import {
   Dispatch as ReduxDispatch,
   Middleware as ReduxMiddleware,
@@ -41,6 +42,7 @@ export interface AppServices {
   fontCollector: FontCollector;
   highlightClient: ReturnType<typeof createHighlightClient>;
   history: History;
+  intl: IntlShape;
   osWebLoader: ReturnType<typeof createOSWebLoader>;
   practiceQuestionsLoader: ReturnType<typeof createPracticeQuestionsLoader>;
   prerenderedContent?: string;

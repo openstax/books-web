@@ -1,10 +1,10 @@
 import React from 'react';
-import { connect, Provider } from 'react-redux';
+import { connect } from 'react-redux';
 import renderer from 'react-test-renderer';
 import ToastNotificationsComponent from '.';
 import createTestStore from '../../../../test/createTestStore';
+import TestContainer from '../../../../test/TestContainer';
 import { resetModules } from '../../../../test/utils';
-import MessageProvider from '../../../MessageProvider';
 import { AppState, Store } from '../../../types';
 import { addToast, dismissNotification } from '../../actions';
 import { toastNotifications } from '../../selectors';
@@ -38,11 +38,9 @@ describe('ToastNotifications', () => {
   });
 
   it('matches snapshot for no notifications', () => {
-    const component = renderer.create(<Provider store={store}>
-      <MessageProvider>
-        <ToastNotifications />
-      </MessageProvider>
-    </Provider>);
+    const component = renderer.create(<TestContainer store={store}>
+      <ToastNotifications />
+    </TestContainer>);
 
     expect(component.toJSON()).toMatchSnapshot();
   });
@@ -55,11 +53,9 @@ describe('ToastNotifications', () => {
     store.dispatch(addToast(toastMessageKeys.higlights.failure.create, {destination}));
     store.dispatch(addToast(toastMessageKeys.higlights.failure.delete, {destination}));
 
-    const component = renderer.create(<Provider store={store}>
-      <MessageProvider>
-        <ToastNotifications />
-      </MessageProvider>
-    </Provider>);
+    const component = renderer.create(<TestContainer store={store}>
+      <ToastNotifications />
+    </TestContainer>);
 
     expect(component.toJSON()).toMatchSnapshot();
   });
@@ -70,11 +66,9 @@ describe('ToastNotifications', () => {
 
     store.dispatch(addToast(firstNotificationMessage, {destination}));
 
-    const {root} = renderer.create(<Provider store={store}>
-      <MessageProvider>
-        <ToastNotifications />
-      </MessageProvider>
-    </Provider>);
+    const {root} = renderer.create(<TestContainer store={store}>
+      <ToastNotifications />
+    </TestContainer>);
 
     expect(root.findAllByType(BannerBodyWrapper)).toHaveLength(1);
 
@@ -118,11 +112,9 @@ describe('ToastNotifications', () => {
     store.dispatch(firstNotification);
     store.dispatch(secondNotification);
 
-    const {root} = renderer.create(<Provider store={store}>
-      <MessageProvider>
-        <ToastNotifications />
-      </MessageProvider>
-    </Provider>);
+    const {root} = renderer.create(<TestContainer store={store}>
+      <ToastNotifications />
+    </TestContainer>);
 
     let [firstToast, secondToast] = root.findAllByType(Toast);
 
