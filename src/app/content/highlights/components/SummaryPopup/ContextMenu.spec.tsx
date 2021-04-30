@@ -1,60 +1,48 @@
 import { Highlight, HighlightColorEnum } from '@openstax/highlighter/dist/api';
 import React from 'react';
-import { Provider } from 'react-redux';
 import renderer from 'react-test-renderer';
-import createTestStore from '../../../../../test/createTestStore';
-import MessageProvider from '../../../../MessageProvider';
-import { Store } from '../../../../types';
+import TestContainer from '../../../../../test/TestContainer';
 import ColorPicker from '../ColorPicker';
 import MenuToggle from '../MenuToggle';
 import ContextMenu from './ContextMenu';
 
 describe('ContextMenu', () => {
-  let store: Store;
   const highlight = {
     color: HighlightColorEnum.Blue,
     id: 'hlid',
   } as Highlight;
 
-  beforeEach(() => {
-    store = createTestStore();
-  });
-
   it('match snapshot when closed', () => {
-    const component = renderer.create(<Provider store={store}>
-      <MessageProvider>
-        <ContextMenu
-          highlight={highlight}
-          linkToHighlight='/link/to/highlight'
-          // tslint:disable-next-line: no-empty
-          onEdit={() => {}}
-          // tslint:disable-next-line: no-empty
-          onDelete={() => {}}
-          // tslint:disable-next-line: no-empty
-          onColorChange={() => {}}
-        />
-      </MessageProvider>
-    </Provider>);
+    const component = renderer.create(<TestContainer>
+      <ContextMenu
+        highlight={highlight}
+        linkToHighlight='/link/to/highlight'
+        // tslint:disable-next-line: no-empty
+        onEdit={() => {}}
+        // tslint:disable-next-line: no-empty
+        onDelete={() => {}}
+        // tslint:disable-next-line: no-empty
+        onColorChange={() => {}}
+      />
+    </TestContainer>);
 
     const tree = component.toJSON();
     expect(tree).toMatchSnapshot();
   });
 
   it('match snapshot when open', () => {
-    const component = renderer.create(<Provider store={store}>
-      <MessageProvider>
-        <ContextMenu
-          highlight={highlight}
-          linkToHighlight='/link/to/highlight'
-          // tslint:disable-next-line: no-empty
-          onEdit={() => {}}
-          // tslint:disable-next-line: no-empty
-          onDelete={() => {}}
-          // tslint:disable-next-line: no-empty
-          onColorChange={() => {}}
-        />
-      </MessageProvider>
-    </Provider>);
+    const component = renderer.create(<TestContainer>
+      <ContextMenu
+        highlight={highlight}
+        linkToHighlight='/link/to/highlight'
+        // tslint:disable-next-line: no-empty
+        onEdit={() => {}}
+        // tslint:disable-next-line: no-empty
+        onDelete={() => {}}
+        // tslint:disable-next-line: no-empty
+        onColorChange={() => {}}
+      />
+    </TestContainer>);
 
     renderer.act(() => {
       const openButton = component.root.findByType(MenuToggle);
@@ -69,18 +57,16 @@ describe('ContextMenu', () => {
     let editClicked = false;
     let deleteClicked = false;
 
-    const component = renderer.create(<Provider store={store}>
-      <MessageProvider>
-        <ContextMenu
-          highlight={highlight}
-          linkToHighlight='/link/to/highlight'
-          onEdit={() => { editClicked = true; }}
-          onDelete={() => { deleteClicked = true; }}
-          // tslint:disable-next-line: no-empty
-          onColorChange={() => {}}
-        />
-      </MessageProvider>
-    </Provider>);
+    const component = renderer.create(<TestContainer>
+      <ContextMenu
+        highlight={highlight}
+        linkToHighlight='/link/to/highlight'
+        onEdit={() => { editClicked = true; }}
+        onDelete={() => { deleteClicked = true; }}
+        // tslint:disable-next-line: no-empty
+        onColorChange={() => {}}
+      />
+    </TestContainer>);
 
     renderer.act(() => {
       const openButton = component.root.findByType(MenuToggle);
@@ -101,20 +87,18 @@ describe('ContextMenu', () => {
   it('properly fire onColorChange props', () => {
     let color = HighlightColorEnum.Blue;
 
-    const component = renderer.create(<Provider store={store}>
-      <MessageProvider>
-        <ContextMenu
-          highlight={highlight}
-          linkToHighlight='/link/to/highlight'
-          // tslint:disable-next-line: no-empty
-          onEdit={() => {}}
-          // tslint:disable-next-line: no-empty
-          onDelete={() => {}}
-          // tslint:disable-next-line: no-empty
-          onColorChange={(newColor) => { color = newColor as HighlightColorEnum; }}
-        />
-      </MessageProvider>
-    </Provider>);
+    const component = renderer.create(<TestContainer>
+      <ContextMenu
+        highlight={highlight}
+        linkToHighlight='/link/to/highlight'
+        // tslint:disable-next-line: no-empty
+        onEdit={() => {}}
+        // tslint:disable-next-line: no-empty
+        onDelete={() => {}}
+        // tslint:disable-next-line: no-empty
+        onColorChange={(newColor) => { color = newColor as HighlightColorEnum; }}
+      />
+    </TestContainer>);
 
     renderer.act(() => {
       const openButton = component.root.findByType(MenuToggle);

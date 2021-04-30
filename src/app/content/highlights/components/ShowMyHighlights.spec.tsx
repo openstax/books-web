@@ -2,18 +2,15 @@ import { Highlight, HighlightColorEnum } from '@openstax/highlighter/dist/api';
 import React from 'react';
 import ReactDOM from 'react-dom';
 import ReactTestUtils from 'react-dom/test-utils';
-import { Provider } from 'react-redux';
 import renderer, { act } from 'react-test-renderer';
-import createTestServices from '../../../../test/createTestServices';
 import createTestStore from '../../../../test/createTestStore';
 import { book as archiveBook } from '../../../../test/mocks/archiveLoader';
 import createMockHighlight from '../../../../test/mocks/highlight';
 import { mockCmsBook } from '../../../../test/mocks/osWebLoader';
 import { renderToDom } from '../../../../test/reactutils';
+import TestContainer from '../../../../test/TestContainer';
 import { receiveUser } from '../../../auth/actions';
 import { User } from '../../../auth/types';
-import * as Services from '../../../context/Services';
-import MessageProvider from '../../../MessageProvider';
 import { Store } from '../../../types';
 import { assertDefined, assertWindow } from '../../../utils';
 import { receiveBook } from '../../actions';
@@ -78,13 +75,9 @@ describe('Show my highlights', () => {
       }));
     });
 
-    const component = renderer.create(<Provider store={store}>
-      <Services.Provider value={createTestServices()}>
-        <MessageProvider>
-          <HighlightsPopUp/>
-        </MessageProvider>
-      </Services.Provider>
-    </Provider>);
+    const component = renderer.create(<TestContainer store={store}>
+      <HighlightsPopUp/>
+    </TestContainer>);
 
     act(() => { store.dispatch(openMyHighlights()); });
 
@@ -105,11 +98,9 @@ describe('Show my highlights', () => {
     });
 
     const render = () => {
-      renderer.create(<Provider store={store}>
-        <MessageProvider>
-          <ShowMyHighlights/>
-        </MessageProvider>
-      </Provider>);
+      renderer.create(<TestContainer store={store}>
+        <ShowMyHighlights/>
+      </TestContainer>);
     };
 
     expect(() => render()).not.toThrow();
@@ -120,13 +111,9 @@ describe('Show my highlights', () => {
 
     const dispatch = jest.spyOn(store, 'dispatch');
 
-    const {root} = renderToDom(<Provider store={store}>
-      <Services.Provider value={createTestServices()} >
-        <MessageProvider>
-          <ShowMyHighlights/>
-        </MessageProvider>
-      </Services.Provider>
-    </Provider>);
+    const {root} = renderToDom(<TestContainer store={store}>
+      <ShowMyHighlights/>
+    </TestContainer>);
     const target = root.querySelector('[data-testid="show-myhighlights-body"]');
     if (!target) {
       return expect(target).toBeTruthy();
@@ -166,13 +153,9 @@ describe('Show my highlights', () => {
 
     const dispatch = jest.spyOn(store, 'dispatch');
 
-    const {root} = renderToDom(<Provider store={store}>
-      <Services.Provider value={createTestServices()}>
-        <MessageProvider>
-          <ShowMyHighlights/>
-        </MessageProvider>
-      </Services.Provider>
-    </Provider>);
+    const {root} = renderToDom(<TestContainer store={store}>
+      <ShowMyHighlights/>
+    </TestContainer>);
     const target = root.querySelector('[data-testid="show-myhighlights-body"]');
     if (!target) {
       return expect(target).toBeTruthy();
@@ -196,13 +179,9 @@ describe('Show my highlights', () => {
 
     const dispatch = spyOn(store, 'dispatch');
 
-    const {root} = renderToDom(<Provider store={store}>
-      <Services.Provider value={createTestServices()}>
-        <MessageProvider>
-          <ShowMyHighlights/>
-        </MessageProvider>
-      </Services.Provider>
-    </Provider>);
+    const {root} = renderToDom(<TestContainer store={store}>
+      <ShowMyHighlights/>
+    </TestContainer>);
 
     const target = root.querySelector('[data-testid="show-myhighlights-body"]');
     if (!target) {
@@ -243,13 +222,9 @@ describe('Show my highlights', () => {
 
     const dispatch = jest.spyOn(store, 'dispatch');
 
-    const {root} = renderToDom(<Provider store={store}>
-      <Services.Provider value={createTestServices()}>
-        <MessageProvider>
-          <ShowMyHighlights/>
-        </MessageProvider>
-      </Services.Provider>
-    </Provider>);
+    const {root} = renderToDom(<TestContainer store={store}>
+      <ShowMyHighlights/>
+    </TestContainer>);
     const target = root.querySelector('[data-testid="show-myhighlights-body"]');
     if (!target) {
       return expect(target).toBeTruthy();
@@ -292,13 +267,9 @@ describe('Show my highlights', () => {
       }));
     });
 
-    const {root} = renderToDom(<Provider store={store}>
-      <Services.Provider value={createTestServices()} >
-        <MessageProvider>
-          <ShowMyHighlights/>
-        </MessageProvider>
-      </Services.Provider>
-    </Provider>);
+    const {root} = renderToDom(<TestContainer store={store}>
+      <ShowMyHighlights/>
+    </TestContainer>);
 
     const target = root.querySelector('[data-testid="show-myhighlights-body"]');
 
@@ -352,13 +323,9 @@ describe('Show my highlights', () => {
       }));
     });
 
-    const {root} = renderToDom(<Provider store={store}>
-      <Services.Provider value={createTestServices()} >
-        <MessageProvider>
-          <ShowMyHighlights/>
-        </MessageProvider>
-      </Services.Provider>
-    </Provider>);
+    const {root} = renderToDom(<TestContainer store={store}>
+      <ShowMyHighlights/>
+    </TestContainer>);
 
     const target = root.querySelector('[data-testid="show-myhighlights-body"]');
 
@@ -411,11 +378,9 @@ describe('Show my highlights', () => {
       }));
     });
 
-    const component = renderer.create(<Provider store={store}>
-      <MessageProvider>
-        <ShowMyHighlights/>
-      </MessageProvider>
-    </Provider>);
+    const component = renderer.create(<TestContainer store={store}>
+      <ShowMyHighlights/>
+    </TestContainer>);
 
     expect(() => component.unmount()).not.toThrow();
   });

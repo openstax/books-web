@@ -1,17 +1,15 @@
 import { Highlight } from '@openstax/highlighter';
 import { HighlightUpdateColorEnum } from '@openstax/highlighter/dist/api';
 import React, { ReactElement } from 'react';
-import { Provider } from 'react-redux';
 import renderer from 'react-test-renderer';
 import createTestServices from '../../../../test/createTestServices';
 import createTestStore from '../../../../test/createTestStore';
 import createMockHighlight from '../../../../test/mocks/highlight';
 import { testAccountsUser } from '../../../../test/mocks/userLoader';
 import { makeFindByTestId } from '../../../../test/reactutils';
+import TestContainer from '../../../../test/TestContainer';
 import * as selectAuth from '../../../auth/selectors';
 import { formatUser } from '../../../auth/utils';
-import * as Services from '../../../context/Services';
-import MessageProvider from '../../../MessageProvider';
 import { assertDocument } from '../../../utils';
 import { highlightStyles } from '../../constants';
 import { updateHighlight } from '../actions';
@@ -51,13 +49,9 @@ describe('EditCard', () => {
       ...highlightData,
     };
     const component = renderer.create(
-      <Provider store={store}>
-        <Services.Provider value={services}>
-          <MessageProvider onError={() => null}>
-            <EditCard {...editCardProps} data={data} isActive={true} />
-          </MessageProvider>
-        </Services.Provider>
-      </Provider>
+      <TestContainer services={services} store={store}>
+        <EditCard {...editCardProps} data={data} isActive={true} />
+      </TestContainer>
     );
 
     const tree = component.toJSON();
@@ -66,13 +60,9 @@ describe('EditCard', () => {
 
   it('matches snapshot with data', () => {
     const component = renderer.create(
-      <Provider store={store}>
-        <Services.Provider value={services}>
-          <MessageProvider onError={() => null}>
-            <EditCard {...editCardProps} isActive={true} />
-          </MessageProvider>
-        </Services.Provider>
-      </Provider>
+      <TestContainer services={services} store={store}>
+        <EditCard {...editCardProps} isActive={true} />
+      </TestContainer>
     );
 
     const tree = component.toJSON();
@@ -82,17 +72,13 @@ describe('EditCard', () => {
   it('matches snapshot when editing', () => {
     highlight.getStyle.mockReturnValue('red');
     const component = renderer.create(
-      <Provider store={store}>
-        <Services.Provider value={services}>
-          <MessageProvider onError={() => null}>
-            <EditCard
-              {...editCardProps}
-              data={highlightData}
-              isActive={true}
-            />
-          </MessageProvider>
-        </Services.Provider>
-      </Provider>
+      <TestContainer services={services} store={store}>
+        <EditCard
+          {...editCardProps}
+          data={highlightData}
+          isActive={true}
+        />
+      </TestContainer>
     );
 
     const note = component.root.findByType(Note);
@@ -106,13 +92,9 @@ describe('EditCard', () => {
 
   it('matches snapshot without data', () => {
     const component = renderer.create(
-      <Provider store={store}>
-        <Services.Provider value={services}>
-          <MessageProvider onError={() => null}>
-            <EditCard {...editCardProps} isActive={true} />
-          </MessageProvider>
-        </Services.Provider>
-      </Provider>
+      <TestContainer services={services} store={store}>
+        <EditCard {...editCardProps} isActive={true} />
+      </TestContainer>
     );
 
     const tree = component.toJSON();
@@ -125,17 +107,13 @@ describe('EditCard', () => {
       annotation: '',
     };
     const component = renderer.create(
-      <Provider store={store}>
-        <Services.Provider value={services}>
-          <MessageProvider onError={() => null}>
-            <EditCard
-              {...editCardProps}
-              isActive={true}
-              data={data}
-            />
-          </MessageProvider>
-        </Services.Provider>
-      </Provider>
+      <TestContainer services={services} store={store}>
+        <EditCard
+          {...editCardProps}
+          isActive={true}
+          data={data}
+        />
+      </TestContainer>
     );
 
     const picker = component.root.findByType(ColorPicker);
@@ -152,13 +130,9 @@ describe('EditCard', () => {
       annotation: 'asdf',
     };
     const component = renderer.create(
-      <Provider store={store}>
-        <Services.Provider value={services}>
-          <MessageProvider onError={() => null}>
+      <TestContainer services={services} store={store}>
             <EditCard {...editCardProps} data={data} isActive={true} />
-          </MessageProvider>
-        </Services.Provider>
-      </Provider>
+      </TestContainer>
     );
 
     const picker = component.root.findByType(ColorPicker);
@@ -176,17 +150,13 @@ describe('EditCard', () => {
       annotation: '',
     };
     const component = renderer.create(
-      <Provider store={store}>
-        <Services.Provider value={services}>
-          <MessageProvider onError={() => null}>
-            <EditCard
-              {...editCardProps}
-              data={data}
-              isActive={true}
-            />
-          </MessageProvider>
-        </Services.Provider>
-      </Provider>
+      <TestContainer services={services} store={store}>
+        <EditCard
+          {...editCardProps}
+          data={data}
+          isActive={true}
+        />
+      </TestContainer>
     );
 
     const note = component.root.findByType(Note);
@@ -209,17 +179,13 @@ describe('EditCard', () => {
       annotation: 'qwer',
     };
     const component = renderer.create(
-      <Provider store={store}>
-        <Services.Provider value={services}>
-          <MessageProvider onError={() => null}>
-            <EditCard
-              {...editCardProps}
-              data={data}
-              isActive={true}
-            />
-          </MessageProvider>
-        </Services.Provider>
-      </Provider>
+      <TestContainer services={services} store={store}>
+        <EditCard
+          {...editCardProps}
+          data={data}
+          isActive={true}
+        />
+      </TestContainer>
     );
     const findByTestId = makeFindByTestId(component.root);
 
@@ -243,20 +209,16 @@ describe('EditCard', () => {
 
   it('save saves', () => {
     const component = renderer.create(
-      <Provider store={store}>
-        <Services.Provider value={services}>
-          <MessageProvider onError={() => null}>
-            <EditCard
-              {...editCardProps}
-              data={highlightData}
-              locationFilterId='locationId'
-              pageId='pageId'
-              isActive={true}
-              onCreate={jest.fn()}
-            />
-          </MessageProvider>
-        </Services.Provider>
-      </Provider>
+      <TestContainer services={services} store={store}>
+        <EditCard
+          {...editCardProps}
+          data={highlightData}
+          locationFilterId='locationId'
+          pageId='pageId'
+          isActive={true}
+          onCreate={jest.fn()}
+        />
+      </TestContainer>
     );
     const findByTestId = makeFindByTestId(component.root);
 
@@ -295,17 +257,13 @@ describe('EditCard', () => {
       annotation: 'qwer',
     };
     const component = renderer.create(
-      <Provider store={store}>
-        <Services.Provider value={services}>
-          <MessageProvider onError={() => null}>
-            <EditCard
-              {...editCardProps}
-              data={data}
-              isActive={true}
-            />
-          </MessageProvider>
-        </Services.Provider>
-      </Provider>
+      <TestContainer services={services} store={store}>
+        <EditCard
+          {...editCardProps}
+          data={data}
+          isActive={true}
+        />
+      </TestContainer>
     );
     const findByTestId = makeFindByTestId(component.root);
 
@@ -328,19 +286,15 @@ describe('EditCard', () => {
       annotation: 'qwer',
     };
     const component = renderer.create(
-      <Provider store={store}>
-        <Services.Provider value={services}>
-          <MessageProvider onError={() => null}>
-            <EditCard
-              {...editCardProps}
-              locationFilterId='locationId'
-              pageId='pageId'
-              isActive={true}
-              data={data}
-            />
-          </MessageProvider>
-        </Services.Provider>
-      </Provider>
+      <TestContainer services={services} store={store}>
+        <EditCard
+          {...editCardProps}
+          locationFilterId='locationId'
+          pageId='pageId'
+          isActive={true}
+          data={data}
+        />
+      </TestContainer>
     );
     const findByTestId = makeFindByTestId(component.root);
 
@@ -386,17 +340,13 @@ describe('EditCard', () => {
       annotation: 'qwer',
     };
     const component = renderer.create(
-      <Provider store={store}>
-        <Services.Provider value={services}>
-          <MessageProvider onError={() => null}>
-            <EditCard
-              {...editCardProps}
-              data={data}
-              isActive={true}
-            />
-          </MessageProvider>
-        </Services.Provider>
-      </Provider>
+      <TestContainer services={services} store={store}>
+        <EditCard
+          {...editCardProps}
+          data={data}
+          isActive={true}
+        />
+      </TestContainer>
     );
     const findByTestId = makeFindByTestId(component.root);
 
@@ -428,18 +378,14 @@ describe('EditCard', () => {
       annotation: 'qwer',
     };
     const component = renderer.create(
-      <Provider store={store}>
-        <Services.Provider value={services}>
-          <MessageProvider onError={() => null}>
-            <EditCard
-              {...editCardProps}
-              data={data}
-              isActive={true}
-              hasUnsavedHighlight={false}
-            />
-          </MessageProvider>
-        </Services.Provider>
-      </Provider>
+      <TestContainer services={services} store={store}>
+        <EditCard
+          {...editCardProps}
+          data={data}
+          isActive={true}
+          hasUnsavedHighlight={false}
+        />
+      </TestContainer>
     );
     const note = component.root.findByType(Note);
 
@@ -456,18 +402,14 @@ describe('EditCard', () => {
       annotation: 'qwer',
     };
     const component = renderer.create(
-      <Provider store={store}>
-        <Services.Provider value={services}>
-          <MessageProvider onError={() => null}>
-            <EditCard
-              {...editCardProps}
-              data={data}
-              isActive={true}
-              hasUnsavedHighlight={true}
-            />
-          </MessageProvider>
-        </Services.Provider>
-      </Provider>
+      <TestContainer services={services} store={store}>
+        <EditCard
+          {...editCardProps}
+          data={data}
+          isActive={true}
+          hasUnsavedHighlight={true}
+        />
+      </TestContainer>
     );
     const note = component.root.findByType(Note);
 
@@ -479,19 +421,15 @@ describe('EditCard', () => {
 
   it('handles color change when there is data', () => {
     const component = renderer.create(
-      <Provider store={store}>
-        <Services.Provider value={services}>
-          <MessageProvider onError={() => null}>
-            <EditCard
-              {...editCardProps}
-              data={highlightData}
-              locationFilterId='locationId'
-              pageId='pageId'
-              isActive={true}
-            />
-          </MessageProvider>
-        </Services.Provider>
-      </Provider>
+      <TestContainer services={services} store={store}>
+        <EditCard
+          {...editCardProps}
+          data={highlightData}
+          locationFilterId='locationId'
+          pageId='pageId'
+          isActive={true}
+        />
+      </TestContainer>
     );
 
     const picker = component.root.findByType(ColorPicker);
@@ -518,13 +456,9 @@ describe('EditCard', () => {
 
   it('creates when changing color on a new highlight', () => {
     const component = renderer.create(
-      <Provider store={store}>
-        <Services.Provider value={services}>
-          <MessageProvider onError={() => null}>
-            <EditCard {...editCardProps} isActive={true} />
-          </MessageProvider>
-        </Services.Provider>
-      </Provider>
+      <TestContainer services={services} store={store}>
+        <EditCard {...editCardProps} isActive={true} />
+      </TestContainer>
     );
 
     const picker = component.root.findByType(ColorPicker);
@@ -538,13 +472,9 @@ describe('EditCard', () => {
 
   it('sets color and creates when you focus', () => {
     const component = renderer.create(
-      <Provider store={store}>
-        <Services.Provider value={services}>
-          <MessageProvider onError={() => null}>
-            <EditCard {...editCardProps} />
-          </MessageProvider>
-        </Services.Provider>
-      </Provider>
+      <TestContainer services={services} store={store}>
+        <EditCard {...editCardProps} />
+      </TestContainer>
     );
 
     const note = component.root.findByType(Note);
@@ -559,13 +489,9 @@ describe('EditCard', () => {
   it('focusing an existing note does nothing', () => {
     highlight.getStyle.mockReturnValue('red');
     const component = renderer.create(
-      <Provider store={store}>
-        <Services.Provider value={services}>
-          <MessageProvider onError={() => null}>
-            <EditCard {...editCardProps} data={highlightData} />
-          </MessageProvider>
-        </Services.Provider>
-      </Provider>
+      <TestContainer services={services} store={store}>
+        <EditCard {...editCardProps} data={highlightData} />
+      </TestContainer>
     );
 
     const note = component.root.findByType(Note);
@@ -582,13 +508,9 @@ describe('EditCard', () => {
     onClickOutside.mockReturnValue();
 
     const component = renderer.create(
-      <Provider store={store}>
-        <Services.Provider value={services}>
-          <MessageProvider onError={() => null}>
-            <EditCard {...editCardProps} isActive={true} />
-          </MessageProvider>
-        </Services.Provider>
-      </Provider>
+      <TestContainer services={services} store={store}>
+        <EditCard {...editCardProps} isActive={true} />
+      </TestContainer>
     );
 
     onClickOutside.mock.calls[0][2]({} as any);
@@ -605,18 +527,14 @@ describe('EditCard', () => {
     onClickOutside.mockReturnValue();
 
     const component = renderer.create(
-      <Provider store={store}>
-        <Services.Provider value={services}>
-          <MessageProvider onError={() => null}>
-            <EditCard
-              {...editCardProps}
-              isActive={true}
-              data={highlightData}
-              hasUnsavedHighlight={true}
-            />
-          </MessageProvider>
-        </Services.Provider>
-      </Provider>
+      <TestContainer services={services} store={store}>
+        <EditCard
+          {...editCardProps}
+          isActive={true}
+          data={highlightData}
+          hasUnsavedHighlight={true}
+        />
+      </TestContainer>
     );
 
     renderer.act(() => undefined);
@@ -643,17 +561,13 @@ describe('EditCard', () => {
     const spyAnalytics = jest.spyOn(services.analytics.showCreate, 'track');
 
     const component = renderer.create(
-      <Provider store={store}>
-        <Services.Provider value={services}>
-          <MessageProvider onError={() => null}>
-            <EditCard
-              {...editCardProps}
-              isActive={true}
-              data={undefined}
-            />
-          </MessageProvider>
-        </Services.Provider>
-      </Provider>
+      <TestContainer services={services} store={store}>
+        <EditCard
+          {...editCardProps}
+          isActive={true}
+          data={undefined}
+        />
+      </TestContainer>
     );
 
     expect(spyAnalytics).not.toHaveBeenCalled();
@@ -676,17 +590,13 @@ describe('EditCard', () => {
     const createNodeMock = () => assertDocument().createElement('div');
 
     const component = renderer.create(
-      <Provider store={store}>
-        <Services.Provider value={services}>
-          <MessageProvider onError={() => null}>
-            <EditCard
-              {...editCardProps}
-              isActive={true}
-              onHeightChange={onHeightChange}
-            />
-          </MessageProvider>
-        </Services.Provider>
-      </Provider>,
+      <TestContainer services={services} store={store}>
+        <EditCard
+          {...editCardProps}
+          isActive={true}
+          onHeightChange={onHeightChange}
+        />
+      </TestContainer>,
       {createNodeMock}
     );
 
@@ -718,13 +628,9 @@ describe('EditCard', () => {
     const onHeightChange = jest.fn();
 
     renderer.create(
-      <Provider store={store}>
-        <Services.Provider value={services}>
-          <MessageProvider onError={() => null}>
-            <EditCard {...editCardProps} onHeightChange={onHeightChange} shouldFocusCard={true} />
-          </MessageProvider>
-        </Services.Provider>
-      </Provider>,
+      <TestContainer services={services} store={store}>
+        <EditCard {...editCardProps} onHeightChange={onHeightChange} shouldFocusCard={true} />
+      </TestContainer>,
       {createNodeMock}
     );
 

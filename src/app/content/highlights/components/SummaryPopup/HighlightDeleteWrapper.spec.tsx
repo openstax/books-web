@@ -1,25 +1,14 @@
 import React from 'react';
-import { Provider } from 'react-redux';
 import renderer from 'react-test-renderer';
-import createTestStore from '../../../../../test/createTestStore';
-import MessageProvider from '../../../../MessageProvider';
-import { Store } from '../../../../types';
+import TestContainer from '../../../../../test/TestContainer';
 import HighlightDeleteWrapper from './HighlightDeleteWrapper';
 
 describe('HighlightDeleteWrapper', () => {
-  let store: Store;
-
-  beforeEach(() => {
-    store = createTestStore();
-  });
-
   it('match snapshot', () => {
-    const component = renderer.create(<Provider store={store}>
-      <MessageProvider>
-        {/* tslint:disable-next-line: no-empty */}
-        <HighlightDeleteWrapper onCancel={() => {}} onDelete={() => {}} />
-      </MessageProvider>
-    </Provider>);
+    const component = renderer.create(<TestContainer>
+      {/* tslint:disable-next-line: no-empty */}
+      <HighlightDeleteWrapper onCancel={() => {}} onDelete={() => {}} />
+    </TestContainer>);
 
     const tree = component.toJSON();
     expect(tree).toMatchSnapshot();
@@ -29,14 +18,12 @@ describe('HighlightDeleteWrapper', () => {
     let deleteClicked = false;
     let cancelClicked = false;
 
-    const component = renderer.create(<Provider store={store}>
-      <MessageProvider>
-        <HighlightDeleteWrapper
-          onCancel={() => { cancelClicked = true; }}
-          onDelete={() => { deleteClicked = true; }}
-        />
-      </MessageProvider>
-    </Provider>);
+    const component = renderer.create(<TestContainer>
+      <HighlightDeleteWrapper
+        onCancel={() => { cancelClicked = true; }}
+        onDelete={() => { deleteClicked = true; }}
+      />
+    </TestContainer>);
 
     renderer.act(() => {
       const deleteButton = component.root.findByProps({ 'data-testid': 'delete' });
@@ -53,14 +40,12 @@ describe('HighlightDeleteWrapper', () => {
     const focus = jest.fn();
     const createNodeMock = () => ({ focus });
 
-    renderer.create(<Provider store={store}>
-      <MessageProvider>
-        <HighlightDeleteWrapper
-          onCancel={() => null}
-          onDelete={() => null}
-        />
-      </MessageProvider>
-    </Provider>, {createNodeMock});
+    renderer.create(<TestContainer>
+      <HighlightDeleteWrapper
+        onCancel={() => null}
+        onDelete={() => null}
+      />
+    </TestContainer>, {createNodeMock});
 
     // Wait for React.useEffect()
     // tslint:disable-next-line: no-empty

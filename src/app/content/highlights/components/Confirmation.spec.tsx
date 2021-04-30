@@ -1,7 +1,7 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
 import { makeFindByTestId } from '../../../../test/reactutils';
-import MessageProvider from '../../../MessageProvider';
+import TestContainer from '../../../../test/TestContainer';
 import Confirmation from './Confirmation';
 
 // this is a hack because useEffect is currently not called
@@ -15,7 +15,7 @@ jest.mock('react', () => {
 
 describe('Confirmation', () => {
   it('matches snapshot no selection', () => {
-    const component = renderer.create(<MessageProvider onError={() => null}>
+    const component = renderer.create(<TestContainer>
       <Confirmation
         message='message'
         data-analytics-region='region'
@@ -23,19 +23,19 @@ describe('Confirmation', () => {
         onConfirm={() => null}
         onCancel={() => null}
       />
-    </MessageProvider>);
+    </TestContainer>);
     const tree = component.toJSON();
     expect(tree).toMatchSnapshot();
   });
 
   it('prevents default when clicking confirm button', () => {
-    const component = renderer.create(<MessageProvider onError={() => null}>
+    const component = renderer.create(<TestContainer>
       <Confirmation
         message='message'
         confirmMessage='confirm'
         onCancel={() => null}
       />
-    </MessageProvider>);
+    </TestContainer>);
 
     const findByTestId = makeFindByTestId(component.root);
     const button = findByTestId('confirm');
@@ -47,13 +47,13 @@ describe('Confirmation', () => {
   });
 
   it('prevents default when clicking cancel button', () => {
-    const component = renderer.create(<MessageProvider onError={() => null}>
+    const component = renderer.create(<TestContainer>
       <Confirmation
         message='message'
         confirmMessage='confirm'
         onCancel={() => null}
       />
-    </MessageProvider>);
+    </TestContainer>);
 
     const findByTestId = makeFindByTestId(component.root);
     const button = findByTestId('cancel');
@@ -65,14 +65,14 @@ describe('Confirmation', () => {
   });
 
   it('doesn\'t prevent default when clicking confirm link', () => {
-    const component = renderer.create(<MessageProvider onError={() => null}>
+    const component = renderer.create(<TestContainer>
       <Confirmation
         confirmLink='/asdf'
         message='message'
         confirmMessage='confirm'
         onCancel={() => null}
       />
-    </MessageProvider>);
+    </TestContainer>);
 
     const findByTestId = makeFindByTestId(component.root);
     const button = findByTestId('confirm');
@@ -85,14 +85,14 @@ describe('Confirmation', () => {
 
   it('calls onConfirm', () => {
     const onConfirm = jest.fn();
-    const component = renderer.create(<MessageProvider onError={() => null}>
+    const component = renderer.create(<TestContainer>
       <Confirmation
         message='message'
         confirmMessage='confirm'
         onConfirm={onConfirm}
         onCancel={() => null}
       />
-    </MessageProvider>);
+    </TestContainer>);
 
     const findByTestId = makeFindByTestId(component.root);
     const button = findByTestId('confirm');
@@ -103,14 +103,14 @@ describe('Confirmation', () => {
 
   it('calls onCancel', () => {
     const onCancel = jest.fn();
-    const component = renderer.create(<MessageProvider onError={() => null}>
+    const component = renderer.create(<TestContainer>
       <Confirmation
         message='message'
         confirmMessage='confirm'
         onConfirm={() => null}
         onCancel={onCancel}
       />
-    </MessageProvider>);
+    </TestContainer>);
 
     const findByTestId = makeFindByTestId(component.root);
     const button = findByTestId('cancel');
@@ -121,14 +121,14 @@ describe('Confirmation', () => {
 
   it('calls always', () => {
     const always = jest.fn();
-    const component = renderer.create(<MessageProvider onError={() => null}>
+    const component = renderer.create(<TestContainer>
       <Confirmation
         message='message'
         confirmMessage='confirm'
         onCancel={() => null}
         always={always}
       />
-    </MessageProvider>);
+    </TestContainer>);
 
     const findByTestId = makeFindByTestId(component.root);
     findByTestId('confirm').props.onClick({preventDefault: jest.fn()});

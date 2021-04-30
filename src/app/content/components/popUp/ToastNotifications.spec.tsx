@@ -1,30 +1,21 @@
 import React from 'react';
-import { Provider } from 'react-redux';
 import renderer from 'react-test-renderer';
-import createTestStore from '../../../../test/createTestStore';
+import TestContainer from '../../../../test/TestContainer';
 import { resetModules } from '../../../../test/utils';
-import MessageProvider from '../../../MessageProvider';
 import { toastMessageKeys } from '../../../notifications/components/ToastNotifications/constants';
 import Toast from '../../../notifications/components/ToastNotifications/Toast';
 import { ToastNotification } from '../../../notifications/types';
-import { Store } from '../../../types';
 import ToastNotifications from './ToastNotifications';
 
 describe('ToastNotifications', () => {
-  let store: Store;
-
   beforeEach(() => {
     resetModules();
-
-    store = createTestStore();
   });
 
   it('matches snapshot', () => {
-    const component = renderer.create(<Provider store={store}>
-      <MessageProvider>
-        <ToastNotifications />
-      </MessageProvider>
-    </Provider>);
+    const component = renderer.create(<TestContainer>
+      <ToastNotifications />
+    </TestContainer>);
 
     const tree = component.toJSON();
 
@@ -46,11 +37,9 @@ describe('ToastNotifications', () => {
       timestamp: 2,
     }];
 
-    const component = renderer.create(<Provider store={store}>
-      <MessageProvider>
-        <ToastNotifications toasts={toasts} />
-      </MessageProvider>
-    </Provider>);
+    const component = renderer.create(<TestContainer>
+      <ToastNotifications toasts={toasts} />
+    </TestContainer>);
 
     const tree = component.toJSON();
 
