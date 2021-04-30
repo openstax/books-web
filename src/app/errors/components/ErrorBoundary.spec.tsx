@@ -1,10 +1,7 @@
 import React from 'react';
-import { Provider } from 'react-redux';
 import renderer from 'react-test-renderer';
 import Sentry from '../../../helpers/Sentry';
-import createTestStore from '../../../test/createTestStore';
-import MessageProvider from '../../MessageProvider';
-import { Store } from '../../types';
+import TestContainer from '../../../test/TestContainer';
 import ErrorBoundary from './ErrorBoundary';
 
 jest.mock('../../../helpers/Sentry', () => ({
@@ -18,10 +15,8 @@ const Buggy: React.SFC = () => {
 
 describe('ErrorBoundary', () => {
   let consoleError: jest.SpyInstance;
-  let store: Store;
 
   beforeEach(() => {
-    store = createTestStore();
     consoleError = jest
       .spyOn(console, 'error')
       .mockImplementation((msg) => msg);
@@ -34,9 +29,9 @@ describe('ErrorBoundary', () => {
   it('matches snapshot', () => {
     jest.spyOn(Date.prototype, 'getFullYear').mockReturnValue(2021);
     const tree = renderer
-      .create(<MessageProvider><Provider store={store}>
+      .create(<TestContainer>
           <ErrorBoundary><Buggy /></ErrorBoundary>
-        </Provider></MessageProvider>
+        </TestContainer>
       )
       .toJSON();
 

@@ -2,8 +2,8 @@ import React from 'react';
 import ReactTestUtils from 'react-dom/test-utils';
 import renderer from 'react-test-renderer';
 import { renderToDom } from '../../../../test/reactutils';
+import TestContainer from '../../../../test/TestContainer';
 import { resetModules } from '../../../../test/utils';
-import MessageProvider from '../../../MessageProvider';
 import { assertDocument, assertWindow } from '../../../utils';
 import { ToastNotification } from '../../types';
 import { clearErrorAfter, shouldAutoDismissAfter } from './constants';
@@ -45,9 +45,9 @@ describe('Toast', () => {
   });
 
   it('matches snapshot', () => {
-    const component = renderer.create(<MessageProvider>
+    const component = renderer.create(<TestContainer>
       <Toast dismiss={dismiss} notification={toast} positionProps={position} />
-    </MessageProvider>);
+    </TestContainer>);
 
     const tree = component.toJSON();
     component.unmount();
@@ -59,9 +59,9 @@ describe('Toast', () => {
   });
 
   it('manages timeouts', () => {
-    const component = renderer.create(<MessageProvider>
+    const component = renderer.create(<TestContainer>
       <Toast dismiss={dismiss} notification={toast} positionProps={position} />
-    </MessageProvider>);
+    </TestContainer>);
 
     expect(setTimeout).toHaveBeenCalledWith(expect.anything(), clearErrorAfter);
     expect(setTimeout).toHaveBeenCalledWith(expect.anything(), shouldAutoDismissAfter);
@@ -88,9 +88,9 @@ describe('Toast', () => {
   });
 
   it('handles notifications which need to be dismissed manually', () => {
-    const component = renderer.create(<MessageProvider>
+    const component = renderer.create(<TestContainer>
       <Toast dismiss={dismiss} notification={{...toast, shouldAutoDismiss: false}} positionProps={position} />
-    </MessageProvider>);
+    </TestContainer>);
 
     renderer.act(() => {
       jest.runAllTimers();
@@ -104,9 +104,9 @@ describe('Toast', () => {
   });
 
   it('dismisses on animation end', () => {
-    const {root} = renderToDom(<MessageProvider>
+    const {root} = renderToDom(<TestContainer>
       <Toast dismiss={dismiss} notification={toast} positionProps={position}/>
-    </MessageProvider>);
+    </TestContainer>);
     const wrapper = root.querySelector('[data-testid=banner-body]');
 
     if (!wrapper) {
@@ -119,9 +119,9 @@ describe('Toast', () => {
   });
 
   it('dismisses notification on click', () => {
-    const component = renderer.create(<MessageProvider>
+    const component = renderer.create(<TestContainer>
       <Toast dismiss={dismiss} notification={toast} positionProps={position} />
-    </MessageProvider>);
+    </TestContainer>);
 
     renderer.act(() => {
       jest.advanceTimersByTime(shouldAutoDismissAfter);
@@ -141,9 +141,9 @@ describe('Toast', () => {
   });
 
   it('resets when notification\'s timestamp changes', () => {
-    const component = renderer.create(<MessageProvider>
+    const component = renderer.create(<TestContainer>
       <Toast dismiss={dismiss} notification={toast} positionProps={position} />
-    </MessageProvider>);
+    </TestContainer>);
 
     renderer.act(() => {
       jest.advanceTimersByTime(shouldAutoDismissAfter);
@@ -160,9 +160,9 @@ describe('Toast', () => {
     expect(bannerBody.props.isFadingOut).toBe(true);
 
     renderer.act(() => {
-      component.update(<MessageProvider>
+      component.update(<TestContainer>
         <Toast dismiss={dismiss} notification={{...toast, timestamp: Date.now() + 10}} positionProps={position} />
-      </MessageProvider>);
+      </TestContainer>);
     });
 
     expect(bannerBody.props.isFadingOut).toBe(false);

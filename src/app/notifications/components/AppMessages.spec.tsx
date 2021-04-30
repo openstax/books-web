@@ -1,8 +1,7 @@
 import ReactType from 'react';
-import { Provider } from 'react-redux';
 import rendererType from 'react-test-renderer';
 import createTestStore from '../../../test/createTestStore';
-import MessageProvider from '../../MessageProvider';
+import TestContainer from '../../../test/TestContainer';
 import { Store } from '../../types';
 import { dismissNotification } from '../actions';
 import { appMessageType } from '../reducer';
@@ -22,7 +21,7 @@ describe('AppMessage', () => {
     dispatch = jest.spyOn(store, 'dispatch');
   });
 
-  it('dimsises message', () => {
+  it('dismisses message', () => {
     const notification = {
       payload: {
         dismissable: true,
@@ -35,11 +34,9 @@ describe('AppMessage', () => {
       type: appMessageType,
     };
 
-    const component = renderer.create(<Provider store={store}>
-      <MessageProvider>
-        <AppMessage notification={notification} />
-      </MessageProvider>
-    </Provider>);
+    const component = renderer.create(<TestContainer store={store}>
+      <AppMessage notification={notification} />
+    </TestContainer>);
 
     component.root.findByType('button').props.onClick();
 

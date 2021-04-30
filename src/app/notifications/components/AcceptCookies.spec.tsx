@@ -1,8 +1,7 @@
 import ReactType from 'react';
-import { Provider } from 'react-redux';
 import rendererType from 'react-test-renderer';
 import createTestStore from '../../../test/createTestStore';
-import MessageProvider from '../../MessageProvider';
+import TestContainer from '../../../test/TestContainer';
 import { Store } from '../../types';
 import { acceptCookies, dismissNotification } from '../actions';
 import AcceptCookies from './AcceptCookies';
@@ -21,14 +20,12 @@ describe('AcceptCookies', () => {
     dispatch = jest.spyOn(store, 'dispatch');
   });
 
-  it('dimsises notification', () => {
+  it('dismisses notification', () => {
     const notification = acceptCookies();
 
-    const component = renderer.create(<Provider store={store}>
-      <MessageProvider>
-        <AcceptCookies notification={notification} />
-      </MessageProvider>
-    </Provider>);
+    const component = renderer.create(<TestContainer store={store}>
+      <AcceptCookies notification={notification} />
+    </TestContainer>);
 
     component.root.findByType('button').props.onClick();
 

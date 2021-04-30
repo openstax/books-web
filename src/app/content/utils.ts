@@ -61,7 +61,7 @@ export const parseContents = (book: Book, contents: Array<ArchiveTree | ArchiveT
   return contents;
 };
 
-const pickArchvieFields = (archiveBook: ArchiveBook) => ({
+const pickArchiveFields = (archiveBook: ArchiveBook) => ({
   id: archiveBook.id,
   license: archiveBook.license,
   revised: archiveBook.revised,
@@ -79,11 +79,10 @@ export const formatBookData = <O extends OSWebBook | undefined>(
 ): O extends OSWebBook ? BookWithOSWebData : ArchiveBook => {
   if (osWebBook === undefined) {
     // as any necessary https://github.com/Microsoft/TypeScript/issues/13995
-    return pickArchvieFields(archiveBook) as ArchiveBook as any;
+    return pickArchiveFields(archiveBook) as ArchiveBook as any;
   }
-
   return {
-    ...pickArchvieFields(archiveBook),
+    ...pickArchiveFields(archiveBook),
     amazon_link: osWebBook.amazon_link,
     authors: osWebBook.authors,
     book_state: osWebBook.book_state,
@@ -101,7 +100,6 @@ export const makeUnifiedBookLoader = (
   const bookLoader = archiveLoader.book(bookId, bookVersion);
   const osWebBook = await osWebLoader.getBookFromId(bookId);
   const archiveBook = await bookLoader.load();
-
   const book = formatBookData(archiveBook, osWebBook);
 
   if (!hasOSWebData(book)) {
