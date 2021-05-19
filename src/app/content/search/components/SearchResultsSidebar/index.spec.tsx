@@ -1,3 +1,4 @@
+import { SearchResultHitSourceElementTypeEnum } from '@openstax/open-search-client';
 import React from 'react';
 import { unmountComponentAtNode } from 'react-dom';
 import ReactTestUtils from 'react-dom/test-utils';
@@ -125,6 +126,66 @@ describe('SearchResultsSidebar', () => {
 
     const tree = renderer.create(render()).toJSON();
     expect(tree).toMatchSnapshot();
+  });
+
+  it('matches snapshot with related key terms', () => {
+    store.dispatch(receivePage({ ...pageInChapter, references: [] }));
+    store.dispatch(requestSearch('term1'));
+    const selectedResult = makeSearchResultHit({
+      book: archiveBook,
+      elementType: SearchResultHitSourceElementTypeEnum.KeyTerm,
+      highlights: ['descritpion 1'],
+      page,
+      title: 'term1 - selected',
+    });
+    store.dispatch(
+      receiveSearchResults(
+        makeSearchResults([
+          selectedResult,
+          makeSearchResultHit({
+            book: archiveBook,
+            elementType: SearchResultHitSourceElementTypeEnum.KeyTerm,
+            highlights: ['descritpion 2'],
+            page: pageInChapter,
+            title: 'term2',
+          }),
+          makeSearchResultHit({ book: archiveBook, page: pageInOtherChapter }),
+        ])
+      )
+    );
+    store.dispatch(selectSearchResult({result: selectedResult, highlight: 0}));
+
+    const tree = renderer.create(render()).toJSON();
+    expect(tree).toMatchSnapshot();
+  });
+
+  it('closes mobile search results when related key term is is clicked', () => {
+    store.dispatch(receivePage({ ...pageInChapter, references: [] }));
+    store.dispatch(requestSearch('term'));
+    store.dispatch(
+      receiveSearchResults(
+        makeSearchResults([
+          makeSearchResultHit({
+            book: archiveBook,
+            elementType: SearchResultHitSourceElementTypeEnum.KeyTerm,
+            highlights: ['descritpion'],
+            page: pageInChapter,
+            title: 'term',
+          }),
+        ])
+      )
+    );
+
+    const component = renderer.create(render());
+    const findById = makeFindByTestId(component.root);
+
+    expect(dispatch).not.toHaveBeenCalledWith(closeSearchResultsMobile());
+
+    renderer.act(() => {
+      findById('related-key-term-result').props.onClick(makeEvent());
+    });
+
+    expect(dispatch).toHaveBeenCalledWith(closeSearchResultsMobile());
   });
 
   it('doesn\'t move focus when loading without results', () => {

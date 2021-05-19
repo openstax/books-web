@@ -111,7 +111,8 @@ export const syncSearch: RouteHookBody<typeof content> = (services) => async() =
   const scrollTarget = selectNavigation.scrollTarget(state);
   const searchScrollTarget = scrollTarget && isSearchScrollTarget(scrollTarget) ? scrollTarget : null;
   const searchHits = select.hits(state) || [];
-  const targettedHit = searchScrollTarget && findSearchResultHit(searchHits, searchScrollTarget);
+  const keyTermHits = select.keyTermHits(state) || [];
+  const targettedHit = searchScrollTarget && findSearchResultHit([...searchHits, ...keyTermHits], searchScrollTarget);
   const navigationSelectedResult = targettedHit && searchScrollTarget
     ? { result: targettedHit, highlight: searchScrollTarget.index }
     : null;

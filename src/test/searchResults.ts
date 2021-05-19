@@ -7,22 +7,24 @@ const isArchivePage = (thing: ArchivePage | ArchiveTreeSection): thing is Archiv
   !!(thing as ArchivePage).revised;
 
 export const makeSearchResultHit = (
-  {book, page, highlights, sourceId}: {
+  {book, page, highlights, sourceId, elementType, title}: {
     book: ArchiveBook,
+    elementType?: SearchResultHitSourceElementTypeEnum,
     page: ArchivePage | ArchiveTreeSection,
     highlights?: string[],
     sourceId?: string,
+    title?: string,
   } = {
     book: mockArchive.book,
     page: mockArchive.page,
   }
 ): SearchResultHit => ({
-  highlight: { visibleContent: highlights || ['cool <strong>highlight</strong> bruh'] },
+  highlight: { title, visibleContent: highlights || ['cool <strong>highlight</strong> bruh'] },
   index: `${book.id}@${book.version}_i1`,
   score: 2,
   source: {
     elementId: sourceId || 'fs-id1544727',
-    elementType: SearchResultHitSourceElementTypeEnum.Paragraph,
+    elementType: elementType || SearchResultHitSourceElementTypeEnum.Paragraph,
     pageId: `${stripIdVersion(page.id)}@${isArchivePage(page) ? '1.0' : getIdVersion(page.id)}`,
     pagePosition: 60,
   },

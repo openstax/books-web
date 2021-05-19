@@ -64,6 +64,295 @@ exports[`SearchResultsSidebar matches snapshot for no search results 1`] = `
 </div>
 `;
 
+exports[`SearchResultsSidebar matches snapshot with related key terms 1`] = `
+<div
+  aria-label="Search results sidebar"
+  className="styled__SearchResultsBar-as3fh1-3 llsXIP"
+  data-testid="search-results-sidebar"
+>
+  <div
+    className="styled__SearchQueryWrapper-as3fh1-5 gtPURI"
+  >
+    <div
+      className="styled__SearchQuery-as3fh1-4 hPLPan"
+    >
+      <svg
+        aria-hidden="true"
+        className="styled__SearchIconInsideBar-as3fh1-0 dgtBTP StyledIconBase-sc-bdy9j4 cCvWXa"
+        fill="currentColor"
+        focusable="false"
+        viewBox="0 0 512 512"
+      >
+        <path
+          d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"
+          fill="currentColor"
+        />
+      </svg>
+      <div
+        className="styled__HeaderQuery-as3fh1-19 crkhDN"
+      >
+        2 key term results and 1 search result for 
+        <strong>
+           ‘
+          term1
+          ’
+        </strong>
+      </div>
+      <button
+        className="styled__CloseIconButton-as3fh1-16 ehlFTE"
+        data-testid="close-search"
+        onClick={[Function]}
+      >
+        <svg
+          aria-hidden="true"
+          className="styled__CloseIcon-as3fh1-1 gsCQGC"
+          focusable="false"
+          height="15px"
+          version="1.1"
+          viewBox="0 0 15 15"
+          width="15px"
+        >
+          <g
+            fill="none"
+            fillRule="evenodd"
+            stroke="none"
+            strokeWidth="1"
+          >
+            <g
+              fill="currentColor"
+              transform="translate(-302.000000, -18.000000)"
+            >
+              <g
+                transform="translate(302.000000, 18.000000)"
+              >
+                <path
+                  d="M7.5,5.41522791 L12.0331524,0.579865364 C12.3077536,0.286957429 12.7165503,0.24816296 12.946282,0.493210121 L13.9861449,1.60239723 C14.2158766,1.84744439 14.1795068,2.28349422 13.9049056,2.57640216 L9.37175324,7.41176471 L13.9049056,12.2471273 C14.1795068,12.5400352 14.2158766,12.976085 13.9861449,13.2211322 L12.946282,14.3303193 C12.7165503,14.5753665 12.3077536,14.536572 12.0331524,14.243664 L7.5,9.4083015 L2.96684761,14.243664 C2.69224642,14.536572 2.2834497,14.5753665 2.05371799,14.3303193 L1.01385508,13.2211322 C0.784123363,12.976085 0.820493178,12.5400352 1.09509437,12.2471273 L5.62824676,7.41176471 L1.09509437,2.57640216 C0.820493178,2.28349422 0.784123363,1.84744439 1.01385508,1.60239723 L2.05371799,0.493210121 C2.2834497,0.24816296 2.69224642,0.286957429 2.96684761,0.579865364 L7.5,5.41522791 Z"
+                />
+              </g>
+            </g>
+          </g>
+        </svg>
+      </button>
+    </div>
+  </div>
+  <ol
+    className="styled__NavOl-as3fh1-2 jPrtty"
+  >
+    <div
+      className="styled__RelatedKeyTerms-as3fh1-23 gZESx"
+    >
+      <span
+        className="styled__SearchResultsSectionTitle-as3fh1-21 hNWYuy"
+      >
+        Related Key Terms
+      </span>
+      <a
+        className="styled__SectionContentPreview-as3fh1-11 bJhIrl"
+        data-testid="related-key-term-result"
+        href="books/book-slug-1/pages/test-page-1?query=term1&target=%7B%22index%22%3A0%2C%22type%22%3A%22search%22%7Dfs-id1544727"
+        onClick={[Function]}
+        result={
+          Object {
+            "highlight": 0,
+            "result": Object {
+              "highlight": Object {
+                "title": "term1 - selected",
+                "visibleContent": Array [
+                  "descritpion 1",
+                ],
+              },
+              "index": "testbook1-uuid@1.0_i1",
+              "score": 2,
+              "source": Object {
+                "elementId": "fs-id1544727",
+                "elementType": "key_term",
+                "pageId": "testbook1-testpage1-uuid@1.0",
+                "pagePosition": 60,
+              },
+            },
+          }
+        }
+      >
+        <div
+          className="styled__KeyTermContainer-as3fh1-22 jZVQmO"
+          tabIndex={-1}
+        >
+          <span
+            className="styled__KeyTerm-as3fh1-24 iJtAOL"
+          >
+            term1 - selected
+          </span>
+          <div
+            dangerouslySetInnerHTML={
+              Object {
+                "__html": "descritpion 1",
+              }
+            }
+          />
+        </div>
+      </a>
+      <a
+        className="styled__SectionContentPreview-as3fh1-11 fhVukS"
+        data-testid="related-key-term-result"
+        href="books/book-slug-1/pages/10-test-page-6?query=term1&target=%7B%22index%22%3A0%2C%22type%22%3A%22search%22%7Dfs-id1544727"
+        onClick={[Function]}
+        result={
+          Object {
+            "highlight": 0,
+            "result": Object {
+              "highlight": Object {
+                "title": "term2",
+                "visibleContent": Array [
+                  "descritpion 2",
+                ],
+              },
+              "index": "testbook1-uuid@1.0_i1",
+              "score": 2,
+              "source": Object {
+                "elementId": "fs-id1544727",
+                "elementType": "key_term",
+                "pageId": "testbook1-testpage6-uuid@1.0",
+                "pagePosition": 60,
+              },
+            },
+          }
+        }
+      >
+        <div
+          className="styled__KeyTermContainer-as3fh1-22 jZVQmO"
+          tabIndex={-1}
+        >
+          <span
+            className="styled__KeyTerm-as3fh1-24 iJtAOL"
+          >
+            term2
+          </span>
+          <div
+            dangerouslySetInnerHTML={
+              Object {
+                "__html": "descritpion 2",
+              }
+            }
+          />
+        </div>
+      </a>
+    </div>
+    <span
+      className="styled__SearchResultsSectionTitle-as3fh1-21 hNWYuy"
+    >
+      Search Results
+    </span>
+    <li
+      className="styled__ListItem-as3fh1-20 bgLAKc"
+    >
+      <details
+        className="Details-xi326o-3 styled__Details-as3fh1-7 jLcYfE"
+        open={true}
+      >
+        <summary
+          className="Details__Summary-xi326o-2 styled__SearchBarSummary-as3fh1-9 hPtQFE"
+          tabIndex={0}
+        >
+          <div
+            className="styled__SearchBarSummaryContainer-as3fh1-8 eSHSds"
+            tabIndex={-1}
+          >
+            <svg
+              aria-hidden="true"
+              className="Details__ExpandIcon-xi326o-0 cVuUUi StyledIconBase-sc-bdy9j4 cCvWXa"
+              fill="currentColor"
+              focusable="false"
+              viewBox="0 0 192 512"
+            >
+              <path
+                d="M0 384.662V127.338c0-17.818 21.543-26.741 34.142-14.142l128.662 128.662c7.81 7.81 7.81 20.474 0 28.284L34.142 398.804C21.543 411.404 0 402.48 0 384.662z"
+                fill="currentColor"
+              />
+            </svg>
+            <svg
+              aria-hidden="true"
+              className="Details__CollapseIcon-xi326o-1 jsdrhW StyledIconBase-sc-bdy9j4 cCvWXa"
+              fill="currentColor"
+              focusable="false"
+              viewBox="0 0 320 512"
+            >
+              <path
+                d="M31.3 192h257.3c17.8 0 26.7 21.5 14.1 34.1L174.1 354.8c-7.8 7.8-20.5 7.8-28.3 0L17.2 226.1C4.6 213.5 13.5 192 31.3 192z"
+                fill="currentColor"
+              />
+            </svg>
+            <span
+              className="styled__SummaryTitle-as3fh1-6 kQeKbP"
+              dangerouslySetInnerHTML={
+                Object {
+                  "__html": "<span class=\\"os-number\\">12</span><span class=\\"os-divider\\"> </span><span class=\\"os-text\\">Test Chapter 6</span>",
+                }
+              }
+            />
+          </div>
+        </summary>
+        <ol
+          className="styled__DetailsOl-as3fh1-13 ggpsqK"
+        >
+          <li
+            className="styled__NavItem-as3fh1-14 kLrMDD"
+          >
+            <div
+              className="styled__LinkWrapper-as3fh1-12 edDtdw"
+            >
+              <div
+                className="styled__SearchResultsLink-as3fh1-10 hnAJVM"
+                dangerouslySetInnerHTML={
+                  Object {
+                    "__html": "<span class=\\"os-text\\">Test Page 7</span>",
+                  }
+                }
+              />
+            </div>
+            <a
+              className="styled__SectionContentPreview-as3fh1-11 fhVukS"
+              data-testid="search-result"
+              href="books/book-slug-1/pages/12-test-page-7?query=term1&target=%7B%22index%22%3A0%2C%22type%22%3A%22search%22%7Dfs-id1544727"
+              onClick={[Function]}
+              result={
+                Object {
+                  "highlight": 0,
+                  "result": Object {
+                    "highlight": Object {
+                      "title": undefined,
+                      "visibleContent": Array [
+                        "cool <strong>highlight</strong> bruh",
+                      ],
+                    },
+                    "index": "testbook1-uuid@1.0_i1",
+                    "score": 2,
+                    "source": Object {
+                      "elementId": "fs-id1544727",
+                      "elementType": "paragraph",
+                      "pageId": "testbook1-testpage7-uuid@1.0",
+                      "pagePosition": 60,
+                    },
+                  },
+                }
+              }
+            >
+              <div
+                dangerouslySetInnerHTML={
+                  Object {
+                    "__html": "cool <strong>highlight</strong> bruh",
+                  }
+                }
+                tabIndex={-1}
+              />
+            </a>
+          </li>
+        </ol>
+      </details>
+    </li>
+  </ol>
+</div>
+`;
+
 exports[`SearchResultsSidebar matches snapshot with results 1`] = `
 <div
   aria-label="Search results sidebar"
@@ -91,9 +380,7 @@ exports[`SearchResultsSidebar matches snapshot with results 1`] = `
       <div
         className="styled__HeaderQuery-as3fh1-19 crkhDN"
       >
-        3
-         
-        search results for 
+        3 search results for 
         <strong>
            ‘
           cool search
@@ -165,6 +452,7 @@ exports[`SearchResultsSidebar matches snapshot with results 1`] = `
             "highlight": 0,
             "result": Object {
               "highlight": Object {
+                "title": undefined,
                 "visibleContent": Array [
                   "cool <strong>highlight</strong> bruh",
                 ],
@@ -269,6 +557,7 @@ exports[`SearchResultsSidebar matches snapshot with results 1`] = `
                   "highlight": 0,
                   "result": Object {
                     "highlight": Object {
+                      "title": undefined,
                       "visibleContent": Array [
                         "cool <strong>highlight</strong> bruh",
                       ],
@@ -375,6 +664,7 @@ exports[`SearchResultsSidebar matches snapshot with results 1`] = `
                   "highlight": 0,
                   "result": Object {
                     "highlight": Object {
+                      "title": undefined,
                       "visibleContent": Array [
                         "cool <strong>highlight</strong> bruh",
                       ],

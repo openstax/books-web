@@ -7,7 +7,8 @@ import { navDesktopHeight } from '../../../../components/NavBar';
 import Times from '../../../../components/Times';
 import {
   labelStyle,
-  textRegularStyle
+  textRegularStyle,
+  textStyle
 } from '../../../../components/Typography';
 import theme from '../../../../theme';
 import {
@@ -339,4 +340,41 @@ export const HeaderQuery = styled.div`
 export const ListItem = styled.li`
   overflow: visible;
   display: block;
+`;
+
+// tslint:disable-next-line: variable-name
+export const SearchResultsSectionTitle = styled.span`
+  ${textStyle}
+  font-size: 1.8rem;
+  font-weight: bold;
+  display: flex;
+  padding: 1.2rem 3.2rem;
+`;
+
+// tslint:disable-next-line: variable-name
+export const KeyTermContainer = styled.div``;
+
+// tslint:disable-next-line: variable-name
+export const RelatedKeyTerms = styled.div`
+  background-color: ${theme.color.white};
+
+  ${SectionContentPreview} {
+    padding-left: 3.2rem;
+  }
+
+  ${KeyTermContainer} {
+    ::before,
+    ::after {
+      content: none;
+    }
+
+    padding: 1.2rem 0 1.2rem 0;
+    margin-right: 2.4rem;
+  }
+`;
+
+// tslint:disable-next-line: variable-name
+export const KeyTerm = styled.span`
+  display: block;
+  font-weight: bold;
 `;

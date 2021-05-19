@@ -1,5 +1,5 @@
 import Highlighter, { Highlight } from '@openstax/highlighter';
-import { SearchResult, SearchResultHit } from '@openstax/open-search-client';
+import { SearchResult, SearchResultHit, SearchResultHitSourceElementTypeEnum } from '@openstax/open-search-client';
 import { HTMLElement } from '@openstax/types/lib.dom';
 import sortBy from 'lodash/fp/sortBy';
 import rangy, { findTextInRange, RangyRange } from '../../../helpers/rangy';
@@ -32,7 +32,8 @@ export const getFormattedSearchResults = (bookTree: ArchiveTree, searchResults: 
 
 export const getSearchResultsForPage = (page: {id: string}, results: SearchResult) =>
   sortBy('source.pagePosition',
-    results.hits.hits.filter((result) => stripIdVersion(result.source.pageId) ===  stripIdVersion(page.id))
+    results.hits.hits.filter(
+      (result) => stripIdVersion(result.source.pageId) === stripIdVersion(page.id) && !matchKeyTermHit(result))
   );
 
 const filterTreeForSearchResults = (
@@ -175,3 +176,6 @@ export const findSearchResultHit = (
 ): SearchResultHit | undefined => {
   return results.find((result) => result.source.elementId === target.elementId);
 };
+
+export const matchKeyTermHit = (hit: SearchResultHit) =>
+  hit.source.elementType === SearchResultHitSourceElementTypeEnum.KeyTerm;

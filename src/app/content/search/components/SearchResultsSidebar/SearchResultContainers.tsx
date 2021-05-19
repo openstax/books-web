@@ -1,5 +1,3 @@
-import { SearchResultHit } from '@openstax/open-search-client';
-import isEqual from 'lodash/fp/isEqual';
 import React from 'react';
 import { useIntl } from 'react-intl';
 import { connect } from 'react-redux';
@@ -10,8 +8,8 @@ import { Book, Page } from '../../../types';
 import { stripIdVersion } from '../../../utils/idUtils';
 import { closeSearchResultsMobile, selectSearchResult } from '../../actions';
 import { isSearchResultChapter } from '../../guards';
-import { SearchResultChapter, SearchResultContainer,
-  SearchResultPage, SearchScrollTarget, SelectedResult } from '../../types';
+import { SearchResultChapter, SearchResultContainer, SearchResultPage, SelectedResult } from '../../types';
+import SearchResultHits from './SearchResultHits';
 import * as Styled from './styled';
 
 interface SearchResultContainersProps {
@@ -72,30 +70,14 @@ const SearchResult = (props: {
         dangerouslySetInnerHTML={{ __html: props.page.title }}
       />
     </Styled.LinkWrapper>
-    {props.page.results.map((hit: SearchResultHit) =>
-      hit.highlight.visibleContent.map((highlight: string, index: number) => {
-        const thisResult = {result: hit, highlight: index};
-        const isSelected = isEqual(props.selectedResult, thisResult);
-        const target: SearchScrollTarget = {
-          elementId: thisResult.result.source.elementId,
-          index,
-          type: 'search',
-        };
-        return <Styled.SectionContentPreview
-          selectedResult={isSelected}
-          data-testid='search-result'
-          key={index}
-          book={props.book}
-          page={props.page}
-          result={thisResult}
-          scrollTarget={target}
-          onClick={() => props.selectResult(thisResult)}
-          {...isSelected ?  {ref: props.activeSectionRef} : {}}
-        >
-          <div tabIndex={-1} dangerouslySetInnerHTML={{ __html: highlight }} />
-        </Styled.SectionContentPreview>;
-      })
-    )}
+    <SearchResultHits
+      activeSectionRef={props.activeSectionRef}
+      book={props.book}
+      hits={props.page.results}
+      testId='search-result'
+      getPage={() => props.page}
+      onClick={(result) => props.selectResult(result)}
+    />
   </Styled.NavItem>;
 };
 
