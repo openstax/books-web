@@ -28,6 +28,7 @@ export const initialState: State = {
     hasUnsavedHighlight: false,
     highlights: null,
     pageId: null,
+    shouldForceScrollToHiglight: false,
   },
   summary: {
     filters: {colors: defaultColors, locationIds: []},
@@ -199,6 +200,9 @@ const reducer: Reducer<State, AnyAction> = (state = initialState, action) => {
     }
     case getType(actions.clearFocusedHighlight): {
       return {...state, currentPage: omit('focused', {...state.currentPage, hasUnsavedHighlight: false})};
+    }
+    case getType(actions.setForceScrollToHiglight): {
+      return {...state, currentPage: {...state.currentPage, shouldForceScrollToHiglight: action.payload}};
     }
     case getType(actions.setAnnotationChangesPending): {
       return {

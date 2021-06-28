@@ -23,6 +23,7 @@ import {
   receiveHighlights,
   requestDeleteHighlight,
   setAnnotationChangesPending,
+  setForceScrollToHiglight,
 } from '../actions';
 import { highlightLocationFilters } from '../selectors';
 import { HighlightData } from '../types';
@@ -399,7 +400,7 @@ describe('Card', () => {
     expect(showDiscardChangesConfirmation).toHaveBeenCalled();
   });
 
-  it('scroll highlight into view if it is active', () => {
+  it('scroll highlight into view if it is active and after discard changes dialog denial', () => {
     store.dispatch(receiveBook(formatBookData(book, mockCmsBook)));
     store.dispatch(receivePage({...page, references: []}));
     const firstElement = assertDocument().createElement('span');
@@ -428,5 +429,13 @@ describe('Card', () => {
     });
 
     expect(spyScrollIntoView).toHaveBeenCalledWith(firstElement, [secondElement, cardElement]);
+
+    // Fired after discard changes dialog denial
+    renderer.act(() => {
+      store.dispatch(setForceScrollToHiglight(true));
+    });
+
+    expect(spyScrollIntoView).toHaveBeenCalledWith(firstElement, [secondElement, cardElement]);
+    expect(dispatch).toHaveBeenCalledWith(setForceScrollToHiglight(false));
   });
 });

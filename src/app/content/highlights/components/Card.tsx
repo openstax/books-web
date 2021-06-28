@@ -20,6 +20,7 @@ import {
   focusHighlight,
   requestDeleteHighlight,
   setAnnotationChangesPending,
+  setForceScrollToHiglight,
 } from '../actions';
 import { HighlightData } from '../types';
 import { getHighlightLocationFilterForPage } from '../utils';
@@ -42,6 +43,7 @@ export interface CardProps {
   remove: typeof requestDeleteHighlight;
   blur: typeof clearFocusedHighlight;
   setAnnotationChangesPending: typeof setAnnotationChangesPending;
+  setForceScrollToHiglight: typeof setForceScrollToHiglight;
   data?: HighlightData;
   className: string;
   zIndex: number;
@@ -58,6 +60,7 @@ const Card = (props: CardProps) => {
   const [editing, setEditing] = React.useState<boolean>(!annotation);
   const locationFilters = useSelector(selectHighlights.highlightLocationFilters);
   const hasUnsavedHighlight = useSelector(selectHighlights.hasUnsavedHighlight);
+  const shouldForceScrollToHiglight = useSelector(selectHighlights.shouldForceScrollToHiglight);
   const dispatch = useDispatch();
 
   const { isActive, highlight: { id }, focus } = props;
@@ -81,9 +84,13 @@ const Card = (props: CardProps) => {
         elements.push(element.current);
       }
       scrollIntoView(firstElement, elements);
+
+      if (shouldForceScrollToHiglight) {
+        props.setForceScrollToHiglight(false);
+      }
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [element, props.isActive]);
+  }, [element, props.isActive, shouldForceScrollToHiglight]);
 
   React.useEffect(() => {
     if (annotation) {
@@ -186,5 +193,6 @@ export default connect(
     focus: flow(focusHighlight, dispatch),
     remove: flow(requestDeleteHighlight, dispatch),
     setAnnotationChangesPending: flow(setAnnotationChangesPending, dispatch),
+    setForceScrollToHiglight: flow(setForceScrollToHiglight, dispatch),
   })
 )(StyledCard);

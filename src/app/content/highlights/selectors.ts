@@ -49,6 +49,11 @@ export const focused = createSelector(
   (state) => state.currentPage.focused
 );
 
+export const shouldForceScrollToHiglight = createSelector(
+  localState,
+  (state) => state.currentPage.shouldForceScrollToHiglight
+);
+
 export const hasUnsavedHighlight = createSelector(
   localState,
   (state) => state.currentPage.hasUnsavedHighlight

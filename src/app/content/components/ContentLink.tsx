@@ -9,9 +9,7 @@ import { ScrollTarget } from '../../navigation/types';
 import { createNavigationOptions, navigationOptionsToString } from '../../navigation/utils';
 import { AppState, Dispatch } from '../../types';
 import showDiscardChangesConfirmation from '../highlights/components/utils/showDiscardChangesConfirmation';
-import {
-  hasUnsavedHighlight as hasUnsavedHighlightSelector
-} from '../highlights/selectors';
+import { hasUnsavedHighlight as hasUnsavedHighlightSelector } from '../highlights/selectors';
 import { content } from '../routes';
 import * as selectSearch from '../search/selectors';
 import * as select from '../selectors';
