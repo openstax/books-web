@@ -136,6 +136,7 @@ export default class PageComponent extends Component<PagePropTypes> {
         key='main-content'
         ref={this.container}
         dangerouslySetInnerHTML={{ __html: html}}
+        bookSlug={(this.props.book as any).slug}
       />
       <PrevNextBar />
       <BuyBook />

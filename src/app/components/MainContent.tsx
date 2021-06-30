@@ -6,6 +6,7 @@ import { Consumer } from '../context/SkipToContent';
 import { mergeRefs } from '../utils';
 
 interface Props {
+  bookSlug: string;
   className?: string;
   dangerouslySetInnerHTML?: { __html: string; };
 }
@@ -17,7 +18,7 @@ const HideOutline = styled.div`
 
 // tslint:disable-next-line:variable-name
 const MainContent = React.forwardRef<HTMLDivElement, React.PropsWithChildren<Props>>(
-  ({children, className, ...props}, ref) => <Consumer>
+  ({children, className, bookSlug, ...props}, ref) => <Consumer>
     {({registerMainContent}) => <div
       ref={mergeRefs(ref, registerMainContent)}
       className={className}
@@ -26,6 +27,7 @@ const MainContent = React.forwardRef<HTMLDivElement, React.PropsWithChildren<Pro
       <HideOutline
         id={MAIN_CONTENT_ID}
         tabIndex={-1}
+        className={bookSlug}
         {...props}
       >
         {children}
