@@ -1,6 +1,7 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
 import TestContainer from '../../../../../test/TestContainer';
+import { runHooksAsync } from '../../../../../test/utils';
 import HighlightDeleteWrapper from './HighlightDeleteWrapper';
 
 describe('HighlightDeleteWrapper', () => {
@@ -47,9 +48,7 @@ describe('HighlightDeleteWrapper', () => {
       />
     </TestContainer>, {createNodeMock});
 
-    // Wait for React.useEffect()
-    // tslint:disable-next-line: no-empty
-    await renderer.act(async() => {});
+    await runHooksAsync(renderer);
 
     expect(focus).toHaveBeenCalled();
   });

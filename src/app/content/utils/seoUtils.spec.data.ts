@@ -77,6 +77,7 @@ export const emptyPage = {
 export const mockBook = {
   title: 'JavaScript Testing',
   id: '15',
+  language: 'en',
   license: {
     name: '',
     url: '',

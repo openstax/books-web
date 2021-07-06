@@ -50,6 +50,7 @@ describe('locationChange', () => {
   const mockOtherBook = {
     abstract: '',
     id: '13ac107a-f15f-49d2-97e8-60ab2e3other',
+    language: 'en',
     license: {name: '', version: '', url: ''},
     revised: '2012-06-21',
     title: 'newbook',

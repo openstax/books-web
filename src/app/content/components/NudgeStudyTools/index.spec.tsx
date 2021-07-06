@@ -3,10 +3,11 @@ import { Provider } from 'react-redux';
 import renderer from 'react-test-renderer';
 import createTestServices from '../../../../test/createTestServices';
 import createTestStore from '../../../../test/createTestStore';
+import MessageProvider from '../../../../test/MessageProvider';
 import { makeFindByTestId } from '../../../../test/reactutils';
+import { runHooks } from '../../../../test/utils';
 import * as Services from '../../../context/Services';
 import { receiveFeatureFlags } from '../../../featureFlags/actions';
-import MessageProvider from '../../../MessageProvider';
 import * as reactUtils from '../../../reactUtils';
 import { AppServices, Store } from '../../../types';
 import { assertDocument } from '../../../utils';
@@ -61,9 +62,7 @@ describe('NudgeStudyTools', () => {
       </Services.Provider>
     </Provider>);
 
-    // Call useEffect hooks
-    // tslint:disable-next-line: no-empty
-    renderer.act(() => {});
+    runHooks(renderer);
 
     expect(spySetCookies).toHaveBeenCalled();
     expect(spyTrack).toHaveBeenCalled();
@@ -86,9 +85,7 @@ describe('NudgeStudyTools', () => {
       </Services.Provider>
     </Provider>);
 
-    // Call useEffect hooks
-    // tslint:disable-next-line: no-empty
-    renderer.act(() => {});
+    runHooks(renderer);
 
     expect(spySetCookies).toHaveBeenCalled();
     expect(spyTrack).toHaveBeenCalled();
@@ -216,9 +213,7 @@ describe('NudgeStudyTools', () => {
       </Services.Provider>
     </Provider>, { createNodeMock });
 
-    // Call useEffect's
-    // tslint:disable-next-line: no-empty
-    renderer.act(() => {});
+    runHooks(renderer);
 
     expect(spyFocusWrapper).toHaveBeenCalledTimes(1);
   });
@@ -239,9 +234,7 @@ describe('NudgeStudyTools', () => {
       </Services.Provider>
     </Provider>);
 
-    // Call useEffect's
-    // tslint:disable-next-line: no-empty
-    renderer.act(() => {});
+    runHooks(renderer);
 
     expect(() => component.root.findByType(NudgeArrow)).not.toThrow();
 
@@ -256,8 +249,7 @@ describe('NudgeStudyTools', () => {
       </Services.Provider>
     </Provider>);
 
-    // tslint:disable-next-line: no-empty
-    renderer.act(() => {});
+    runHooks(renderer);
 
     expect(assertDocument().body.style.overflow).toEqual('');
   });

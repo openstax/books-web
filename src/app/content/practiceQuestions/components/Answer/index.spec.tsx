@@ -2,6 +2,7 @@ import React from 'react';
 import renderer from 'react-test-renderer';
 import Answer from '.';
 import TestContainer from '../../../../../test/TestContainer';
+import { runHooks } from '../../../../../test/utils';
 import { assertDocument } from '../../../../utils/browser-assertions';
 import { PracticeQuestion } from '../../types';
 
@@ -44,9 +45,7 @@ describe('Answer', () => {
       />
     </TestContainer>, { createNodeMock: () => container });
 
-    // Run initial useEffect hook
-    // tslint:disable-next-line: no-empty
-    renderer.act(() => {});
+    runHooks(renderer);
 
     expect(spyFocus).toHaveBeenCalled();
   });
@@ -68,9 +67,7 @@ describe('Answer', () => {
       />
     </TestContainer>, { createNodeMock: () => container });
 
-    // Run initial useEffect hook
-    // tslint:disable-next-line: no-empty
-    renderer.act(() => {});
+    runHooks(renderer);
 
     expect(spyFocus).not.toHaveBeenCalled();
   });

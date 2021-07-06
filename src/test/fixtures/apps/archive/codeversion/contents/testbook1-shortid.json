@@ -2,6 +2,7 @@
   "id": "testbook1-uuid",
   "version": "1.0",
   "title": "Test Book 1",
+  "language": "en",
   "license": {
     "url": "http://example.com",
     "code": "sl",

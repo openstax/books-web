@@ -114,6 +114,7 @@ export interface ArchiveBook {
   title: string;
   tree: ArchiveTree;
   version: string;
+  language: string;
   license: {
     name: string;
     url: string;

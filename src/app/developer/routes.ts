@@ -12,6 +12,7 @@ export const developerHome: Route = {
     webpack: /* istanbul ignore next */ () => [(require as any).resolveWeak('./components/Home')],
   }),
   getUrl: (): string => pathToRegexp.compile(ROUTES_PATH)(),
+  locale: 'en',
   name: 'Developer Home',
   paths: [ROUTES_PATH, '/books/list'],
 };

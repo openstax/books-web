@@ -63,6 +63,7 @@ export const parseContents = (book: Book, contents: Array<ArchiveTree | ArchiveT
 
 const pickArchiveFields = (archiveBook: ArchiveBook) => ({
   id: archiveBook.id,
+  language: archiveBook.language,
   license: archiveBook.license,
   revised: archiveBook.revised,
   title: archiveBook.title,

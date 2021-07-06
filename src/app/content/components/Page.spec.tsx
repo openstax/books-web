@@ -10,6 +10,7 @@ import renderer from 'react-test-renderer';
 import * as mathjax from '../../../helpers/mathjax';
 import createTestServices from '../../../test/createTestServices';
 import createTestStore from '../../../test/createTestStore';
+import MessageProvider from '../../../test/MessageProvider';
 import mockArchiveLoader, { book, page, shortPage } from '../../../test/mocks/archiveLoader';
 import { mockCmsBook } from '../../../test/mocks/osWebLoader';
 import { renderToDom } from '../../../test/reactutils';
@@ -17,7 +18,6 @@ import { makeSearchResultHit, makeSearchResults } from '../../../test/searchResu
 import AccessibilityButtonsWrapper from '../../components/AccessibilityButtonsWrapper';
 import * as Services from '../../context/Services';
 import { scrollTo } from '../../domUtils';
-import MessageProvider from '../../MessageProvider';
 import { locationChange, push } from '../../navigation/actions';
 import { addToast } from '../../notifications/actions';
 import { toastMessageKeys } from '../../notifications/components/ToastNotifications/constants';

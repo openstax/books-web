@@ -7,6 +7,7 @@ import createTestStore from '../../../../test/createTestStore';
 import { book as archiveBook } from '../../../../test/mocks/archiveLoader';
 import { mockCmsBook } from '../../../../test/mocks/osWebLoader';
 import TestContainer from '../../../../test/TestContainer';
+import { runHooks } from '../../../../test/utils';
 import { receiveLoggedOut, receiveUser } from '../../../auth/actions';
 import Checkbox from '../../../components/Checkbox';
 import { DropdownToggle } from '../../../components/Dropdown';
@@ -282,9 +283,7 @@ describe('Filters', () => {
         <Filters />
       </TestContainer>);
 
-      // wait for hooks
-      // tslint:disable-next-line: no-empty
-      renderer.act(() => {});
+      runHooks(renderer);
 
       const banner = component.root.findByType(UsingThisGuideBanner);
       expect(banner.props.show).toEqual(true);

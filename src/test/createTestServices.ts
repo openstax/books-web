@@ -1,6 +1,5 @@
 import { SearchApi } from '@openstax/open-search-client';
 import { createMemoryHistory } from 'history';
-import { intl } from '../app/MessageProvider';
 import config from '../config';
 import { BuyPrintResponse } from '../gateways/createBuyPrintConfigLoader';
 import createHighlightClient from '../gateways/createHighlightClient';
@@ -8,6 +7,7 @@ import createPracticeQuestionsLoader from '../gateways/createPracticeQuestionsLo
 import analytics from '../helpers/analytics';
 import FontCollector from '../helpers/FontCollector';
 import PromiseCollector from '../helpers/PromiseCollector';
+import createIntl from './createIntl';
 import mockArchiveLoader from './mocks/archiveLoader';
 import mockbookConfigLoader from './mocks/bookConfigLoader';
 import mockOsWebLoader from './mocks/osWebLoader';
@@ -27,7 +27,7 @@ const services = () => ({
   fontCollector: new FontCollector(),
   highlightClient: createHighlightClient('asdf'),
   history: createMemoryHistory(),
-  intl,
+  intl: createIntl(),
   osWebLoader: mockOsWebLoader(),
   practiceQuestionsLoader: createPracticeQuestionsLoader(),
   promiseCollector: new PromiseCollector(),

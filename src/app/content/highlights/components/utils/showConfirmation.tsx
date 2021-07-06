@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import uuid from 'uuid/v4';
-import MessageProvider from '../../../../MessageProvider';
+import MessageProvider from '../../../../messages/MessageProvider';
 import { assertDocument, assertNotNull } from '../../../../utils';
 import ConfirmationModal from '../ConfirmationModal';
 

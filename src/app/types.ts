@@ -1,6 +1,5 @@
 import { ServiceWorkerRegistration } from '@openstax/types/lib.dom';
 import { History } from 'history';
-import { IntlShape } from 'react-intl';
 import {
   Dispatch as ReduxDispatch,
   Middleware as ReduxMiddleware,
@@ -21,11 +20,13 @@ import createUserLoader from '../gateways/createUserLoader';
 import analytics from '../helpers/analytics';
 import FontCollector from '../helpers/FontCollector';
 import PromiseCollector from '../helpers/PromiseCollector';
+import createIntlTest from '../test/createIntl';
 import { State as authState } from './auth/types';
 import { State as contentState } from './content/types';
 import { State as errorsState } from './errors/types';
 import { State as featureFlagsState } from './featureFlags/types';
 import { State as headState } from './head/types';
+import createIntl from './messages/createIntl';
 import { State as navigationState } from './navigation/types';
 import { State as notificationState } from './notifications/types';
 
@@ -47,7 +48,7 @@ export interface AppServices {
   fontCollector: FontCollector;
   highlightClient: ReturnType<typeof createHighlightClient>;
   history: History;
-  intl: IntlShape;
+  intl: ReturnType<typeof createIntl> | ReturnType<typeof createIntlTest>;
   osWebLoader: ReturnType<typeof createOSWebLoader>;
   practiceQuestionsLoader: ReturnType<typeof createPracticeQuestionsLoader>;
   prerenderedContent?: string;

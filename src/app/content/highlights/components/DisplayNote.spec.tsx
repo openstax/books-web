@@ -4,6 +4,7 @@ import renderer from 'react-test-renderer';
 import createTestStore from '../../../../test/createTestStore';
 import { makeFindByTestId } from '../../../../test/reactutils';
 import TestContainer from '../../../../test/TestContainer';
+import { runHooks } from '../../../../test/utils';
 import { DropdownToggle } from '../../../components/Dropdown';
 import { Store } from '../../../types';
 import { assertDocument, assertWindow } from '../../../utils';
@@ -169,8 +170,7 @@ describe('DisplayNote', () => {
       <DisplayNote {...displayNoteProps} isActive={isActive} />
     </TestContainer>);
 
-    // tslint:disable-next-line: no-empty
-    renderer.act(() => {});
+    runHooks(renderer);
 
     expect(() => component.root.findByType(Confirmation)).toThrow();
 
@@ -180,8 +180,7 @@ describe('DisplayNote', () => {
       <DisplayNote {...displayNoteProps} isActive={isActive} />
     </TestContainer>);
 
-    // tslint:disable-next-line: no-empty
-    renderer.act(() => {});
+    runHooks(renderer);
 
     expect(() => component.root.findByType(Confirmation)).toThrow();
   });

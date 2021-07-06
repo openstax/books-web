@@ -1470,8 +1470,80 @@ Array [
     className="Content__Background-sc-1f451g1-0 gEoQaE"
   >
     <div
-      className="BookBanner__BarWrapper-sc-1avy0c0-5 blPrsP"
-    />
+      className="BookBanner__BarWrapper-sc-1avy0c0-5 MNbyW"
+      data-analytics-region="book-banner-expanded"
+      data-testid="bookbanner"
+    >
+      <div
+        className="BookBanner__TopBar-sc-1avy0c0-1 jVswHX"
+      >
+        <a
+          className="BookBanner__BookTitleLink-sc-1avy0c0-3 iGPDns"
+          data-testid="details-link-expanded"
+          href="/details/books/book-slug-1"
+          onClick={[Function]}
+        >
+          <svg
+            aria-hidden="true"
+            className="BookBanner__LeftArrow-sc-1avy0c0-0 jjTVXA StyledIconBase-sc-bdy9j4 jbPeIR"
+            fill="currentColor"
+            focusable="false"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M13.293 6.293L7.586 12l5.707 5.707 1.414-1.414L10.414 12l4.293-4.293z"
+            />
+          </svg>
+          Test Book 1
+        </a>
+        <h1
+          className="BookBanner__BookChapter-sc-1avy0c0-4 kPUGut"
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": "<span class=\\"os-text\\">Test Page 4</span>",
+            }
+          }
+        />
+      </div>
+    </div>
+    <div
+      className="BookBanner__BarWrapper-sc-1avy0c0-5 bheBBm"
+      data-analytics-region="book-banner-collapsed"
+      data-testid="bookbanner-collapsed"
+    >
+      <div
+        className="BookBanner__TopBar-sc-1avy0c0-1 jVswHX"
+      >
+        <a
+          className="BookBanner__BookTitleLink-sc-1avy0c0-3 iJDVtP"
+          data-testid="details-link-collapsed"
+          href="/details/books/book-slug-1"
+          onClick={[Function]}
+          tabIndex={-1}
+        >
+          <svg
+            aria-hidden="true"
+            className="BookBanner__LeftArrow-sc-1avy0c0-0 jjTVXA StyledIconBase-sc-bdy9j4 jbPeIR"
+            fill="currentColor"
+            focusable="false"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M13.293 6.293L7.586 12l5.707 5.707 1.414-1.414L10.414 12l4.293-4.293z"
+            />
+          </svg>
+          Test Book 1
+        </a>
+        <span
+          className="BookBanner__BookChapter-sc-1avy0c0-4 fNXDFo"
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": "<span class=\\"os-text\\">Test Page 4</span>",
+            }
+          }
+        />
+      </div>
+    </div>
     <div
       className="styled__BarWrapper-sc-1119auh-11 cakJKy"
       data-analytics-region="toolbar"
@@ -1782,6 +1854,542 @@ Array [
                 </svg>
               </button>
             </div>
+            <ol
+              className="styled__NavOl-sc-18yti3s-5 cbWkuS"
+            >
+              <li
+                className="styled__NavItem-sc-18yti3s-2 lcPtic"
+              >
+                <a
+                  className="styled__ContentLink-sc-18yti3s-1 eJFaJK"
+                  dangerouslySetInnerHTML={
+                    Object {
+                      "__html": "<span class=\\"os-text\\">Test Page 1</span>",
+                    }
+                  }
+                  href="test-page-1"
+                  onClick={[Function]}
+                />
+              </li>
+              <li
+                className="styled__NavItem-sc-18yti3s-2 lcPtic"
+              >
+                <details
+                  className="styled__NavDetails-sc-18yti3s-6 fFBOM Details-xi326o-3 iboMxh"
+                >
+                  <summary
+                    className="Details__Summary-xi326o-2 styled__Summary-sc-18yti3s-3 hLZWYd"
+                  >
+                    <div
+                      className="styled__SummaryWrapper-sc-18yti3s-4 jeQjgr"
+                    >
+                      <svg
+                        aria-hidden="true"
+                        className="Details__ExpandIcon-xi326o-0 cVuUUi StyledIconBase-sc-bdy9j4 cCvWXa"
+                        fill="currentColor"
+                        focusable="false"
+                        viewBox="0 0 192 512"
+                      >
+                        <path
+                          d="M0 384.662V127.338c0-17.818 21.543-26.741 34.142-14.142l128.662 128.662c7.81 7.81 7.81 20.474 0 28.284L34.142 398.804C21.543 411.404 0 402.48 0 384.662z"
+                          fill="currentColor"
+                        />
+                      </svg>
+                      <svg
+                        aria-hidden="true"
+                        className="Details__CollapseIcon-xi326o-1 jsdrhW StyledIconBase-sc-bdy9j4 cCvWXa"
+                        fill="currentColor"
+                        focusable="false"
+                        viewBox="0 0 320 512"
+                      >
+                        <path
+                          d="M31.3 192h257.3c17.8 0 26.7 21.5 14.1 34.1L174.1 354.8c-7.8 7.8-20.5 7.8-28.3 0L17.2 226.1C4.6 213.5 13.5 192 31.3 192z"
+                          fill="currentColor"
+                        />
+                      </svg>
+                      <span
+                        className="styled__SummaryTitle-sc-18yti3s-0 cpNgr"
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "<span class=\\"os-number\\">1</span><span class=\\"os-divider\\"> </span><span class=\\"os-text\\">Test Chapter 1</span>",
+                          }
+                        }
+                      />
+                    </div>
+                  </summary>
+                  <ol
+                    className="styled__NavOl-sc-18yti3s-5 iFNiTd"
+                  >
+                    <li
+                      className="styled__NavItem-sc-18yti3s-2 lcPtic"
+                    >
+                      <details
+                        className="styled__NavDetails-sc-18yti3s-6 fFBOM Details-xi326o-3 iboMxh"
+                      >
+                        <summary
+                          className="Details__Summary-xi326o-2 styled__Summary-sc-18yti3s-3 hLZWYd"
+                        >
+                          <div
+                            className="styled__SummaryWrapper-sc-18yti3s-4 jeQjgr"
+                          >
+                            <svg
+                              aria-hidden="true"
+                              className="Details__ExpandIcon-xi326o-0 cVuUUi StyledIconBase-sc-bdy9j4 cCvWXa"
+                              fill="currentColor"
+                              focusable="false"
+                              viewBox="0 0 192 512"
+                            >
+                              <path
+                                d="M0 384.662V127.338c0-17.818 21.543-26.741 34.142-14.142l128.662 128.662c7.81 7.81 7.81 20.474 0 28.284L34.142 398.804C21.543 411.404 0 402.48 0 384.662z"
+                                fill="currentColor"
+                              />
+                            </svg>
+                            <svg
+                              aria-hidden="true"
+                              className="Details__CollapseIcon-xi326o-1 jsdrhW StyledIconBase-sc-bdy9j4 cCvWXa"
+                              fill="currentColor"
+                              focusable="false"
+                              viewBox="0 0 320 512"
+                            >
+                              <path
+                                d="M31.3 192h257.3c17.8 0 26.7 21.5 14.1 34.1L174.1 354.8c-7.8 7.8-20.5 7.8-28.3 0L17.2 226.1C4.6 213.5 13.5 192 31.3 192z"
+                                fill="currentColor"
+                              />
+                            </svg>
+                            <span
+                              className="styled__SummaryTitle-sc-18yti3s-0 cpNgr"
+                              dangerouslySetInnerHTML={
+                                Object {
+                                  "__html": "<span class=\\"os-number\\">1</span><span class=\\"os-divider\\"> </span><span class=\\"os-text\\">Test Chapter 1.1</span>",
+                                }
+                              }
+                            />
+                          </div>
+                        </summary>
+                        <ol
+                          className="styled__NavOl-sc-18yti3s-5 jjmdsB"
+                        >
+                          <li
+                            className="styled__NavItem-sc-18yti3s-2 lcPtic"
+                          >
+                            <a
+                              className="styled__ContentLink-sc-18yti3s-1 eJFaJK"
+                              dangerouslySetInnerHTML={
+                                Object {
+                                  "__html": "<span class=\\"os-text\\">Introduction to Science and the Realm of Physics, Physical Quantities, and Units</span>",
+                                }
+                              }
+                              href="1-introduction-to-science-and-the-realm-of-physics-physical-quantities-and-units"
+                              onClick={[Function]}
+                            />
+                          </li>
+                        </ol>
+                      </details>
+                    </li>
+                    <li
+                      className="styled__NavItem-sc-18yti3s-2 lcPtic"
+                    >
+                      <a
+                        className="styled__ContentLink-sc-18yti3s-1 eJFaJK"
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "<span class=\\"os-number\\">1.1</span><span class=\\"os-divider\\"> </span><span class=\\"os-text\\">Physics: An Introduction</span>",
+                          }
+                        }
+                        href="1-1-physics-an-introduction"
+                        onClick={[Function]}
+                      />
+                    </li>
+                    <li
+                      className="styled__NavItem-sc-18yti3s-2 lcPtic"
+                    >
+                      <a
+                        className="styled__ContentLink-sc-18yti3s-1 eJFaJK"
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "<span class=\\"os-number\\">23.12</span><span class=\\"os-divider\\"> </span><span class=\\"os-text\\">RLC Series AC Circuits</span>",
+                          }
+                        }
+                        href="23-12-rlc-series-ac-circuits"
+                        onClick={[Function]}
+                      />
+                    </li>
+                  </ol>
+                </details>
+              </li>
+              <li
+                className="styled__NavItem-sc-18yti3s-2 lcPtic"
+              >
+                <details
+                  className="styled__NavDetails-sc-18yti3s-6 fFBOM Details-xi326o-3 iboMxh"
+                >
+                  <summary
+                    className="Details__Summary-xi326o-2 styled__Summary-sc-18yti3s-3 hLZWYd"
+                  >
+                    <div
+                      className="styled__SummaryWrapper-sc-18yti3s-4 jeQjgr"
+                    >
+                      <svg
+                        aria-hidden="true"
+                        className="Details__ExpandIcon-xi326o-0 cVuUUi StyledIconBase-sc-bdy9j4 cCvWXa"
+                        fill="currentColor"
+                        focusable="false"
+                        viewBox="0 0 192 512"
+                      >
+                        <path
+                          d="M0 384.662V127.338c0-17.818 21.543-26.741 34.142-14.142l128.662 128.662c7.81 7.81 7.81 20.474 0 28.284L34.142 398.804C21.543 411.404 0 402.48 0 384.662z"
+                          fill="currentColor"
+                        />
+                      </svg>
+                      <svg
+                        aria-hidden="true"
+                        className="Details__CollapseIcon-xi326o-1 jsdrhW StyledIconBase-sc-bdy9j4 cCvWXa"
+                        fill="currentColor"
+                        focusable="false"
+                        viewBox="0 0 320 512"
+                      >
+                        <path
+                          d="M31.3 192h257.3c17.8 0 26.7 21.5 14.1 34.1L174.1 354.8c-7.8 7.8-20.5 7.8-28.3 0L17.2 226.1C4.6 213.5 13.5 192 31.3 192z"
+                          fill="currentColor"
+                        />
+                      </svg>
+                      <span
+                        className="styled__SummaryTitle-sc-18yti3s-0 cpNgr"
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "<span class=\\"os-number\\">2</span><span class=\\"os-divider\\"> </span><span class=\\"os-text\\">Test Chapter 2</span>",
+                          }
+                        }
+                      />
+                    </div>
+                  </summary>
+                  <ol
+                    className="styled__NavOl-sc-18yti3s-5 jjmdsB"
+                  >
+                    <li
+                      className="styled__NavItem-sc-18yti3s-2 lcPtic"
+                    >
+                      <a
+                        className="styled__ContentLink-sc-18yti3s-1 eJFaJK"
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "<span class=\\"os-text\\">Test Page 3</span>",
+                          }
+                        }
+                        href="2-test-page-3"
+                        onClick={[Function]}
+                      />
+                    </li>
+                  </ol>
+                </details>
+              </li>
+              <li
+                className="styled__NavItem-sc-18yti3s-2 lcPtic"
+              >
+                <details
+                  className="styled__NavDetails-sc-18yti3s-6 fFBOM Details-xi326o-3 iboMxh"
+                >
+                  <summary
+                    className="Details__Summary-xi326o-2 styled__Summary-sc-18yti3s-3 hLZWYd"
+                  >
+                    <div
+                      className="styled__SummaryWrapper-sc-18yti3s-4 jeQjgr"
+                    >
+                      <svg
+                        aria-hidden="true"
+                        className="Details__ExpandIcon-xi326o-0 cVuUUi StyledIconBase-sc-bdy9j4 cCvWXa"
+                        fill="currentColor"
+                        focusable="false"
+                        viewBox="0 0 192 512"
+                      >
+                        <path
+                          d="M0 384.662V127.338c0-17.818 21.543-26.741 34.142-14.142l128.662 128.662c7.81 7.81 7.81 20.474 0 28.284L34.142 398.804C21.543 411.404 0 402.48 0 384.662z"
+                          fill="currentColor"
+                        />
+                      </svg>
+                      <svg
+                        aria-hidden="true"
+                        className="Details__CollapseIcon-xi326o-1 jsdrhW StyledIconBase-sc-bdy9j4 cCvWXa"
+                        fill="currentColor"
+                        focusable="false"
+                        viewBox="0 0 320 512"
+                      >
+                        <path
+                          d="M31.3 192h257.3c17.8 0 26.7 21.5 14.1 34.1L174.1 354.8c-7.8 7.8-20.5 7.8-28.3 0L17.2 226.1C4.6 213.5 13.5 192 31.3 192z"
+                          fill="currentColor"
+                        />
+                      </svg>
+                      <span
+                        className="styled__SummaryTitle-sc-18yti3s-0 cpNgr"
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "<span class=\\"os-number\\">3</span><span class=\\"os-divider\\"> </span><span class=\\"os-text\\">Test Chapter 3</span>",
+                          }
+                        }
+                      />
+                    </div>
+                  </summary>
+                  <ol
+                    className="styled__NavOl-sc-18yti3s-5 jjmdsB"
+                  >
+                    <li
+                      className="styled__NavItem-sc-18yti3s-2 lcPtic"
+                    >
+                      <a
+                        className="styled__ContentLink-sc-18yti3s-1 eJFaJK"
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "<span class=\\"os-text\\">Test Page 4</span>",
+                          }
+                        }
+                        href="3-test-page-4"
+                        onClick={[Function]}
+                      />
+                    </li>
+                  </ol>
+                </details>
+              </li>
+              <li
+                className="styled__NavItem-sc-18yti3s-2 lcPtic"
+              >
+                <details
+                  className="styled__NavDetails-sc-18yti3s-6 fFBOM Details-xi326o-3 iboMxh"
+                >
+                  <summary
+                    className="Details__Summary-xi326o-2 styled__Summary-sc-18yti3s-3 hLZWYd"
+                  >
+                    <div
+                      className="styled__SummaryWrapper-sc-18yti3s-4 jeQjgr"
+                    >
+                      <svg
+                        aria-hidden="true"
+                        className="Details__ExpandIcon-xi326o-0 cVuUUi StyledIconBase-sc-bdy9j4 cCvWXa"
+                        fill="currentColor"
+                        focusable="false"
+                        viewBox="0 0 192 512"
+                      >
+                        <path
+                          d="M0 384.662V127.338c0-17.818 21.543-26.741 34.142-14.142l128.662 128.662c7.81 7.81 7.81 20.474 0 28.284L34.142 398.804C21.543 411.404 0 402.48 0 384.662z"
+                          fill="currentColor"
+                        />
+                      </svg>
+                      <svg
+                        aria-hidden="true"
+                        className="Details__CollapseIcon-xi326o-1 jsdrhW StyledIconBase-sc-bdy9j4 cCvWXa"
+                        fill="currentColor"
+                        focusable="false"
+                        viewBox="0 0 320 512"
+                      >
+                        <path
+                          d="M31.3 192h257.3c17.8 0 26.7 21.5 14.1 34.1L174.1 354.8c-7.8 7.8-20.5 7.8-28.3 0L17.2 226.1C4.6 213.5 13.5 192 31.3 192z"
+                          fill="currentColor"
+                        />
+                      </svg>
+                      <span
+                        className="styled__SummaryTitle-sc-18yti3s-0 cpNgr"
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "<span class=\\"os-number\\">4</span><span class=\\"os-divider\\"> </span><span class=\\"os-text\\">Test Chapter 4</span>",
+                          }
+                        }
+                      />
+                    </div>
+                  </summary>
+                  <ol
+                    className="styled__NavOl-sc-18yti3s-5 jjmdsB"
+                  >
+                    <li
+                      className="styled__NavItem-sc-18yti3s-2 lcPtic"
+                    >
+                      <a
+                        className="styled__ContentLink-sc-18yti3s-1 eJFaJK"
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "<span class=\\"os-text\\">Test Page 5</span>",
+                          }
+                        }
+                        href="4-test-page-5"
+                        onClick={[Function]}
+                      />
+                    </li>
+                  </ol>
+                </details>
+              </li>
+              <li
+                className="styled__NavItem-sc-18yti3s-2 lcPtic"
+              >
+                <details
+                  className="styled__NavDetails-sc-18yti3s-6 fFBOM Details-xi326o-3 iboMxh"
+                >
+                  <summary
+                    className="Details__Summary-xi326o-2 styled__Summary-sc-18yti3s-3 hLZWYd"
+                  >
+                    <div
+                      className="styled__SummaryWrapper-sc-18yti3s-4 jeQjgr"
+                    >
+                      <svg
+                        aria-hidden="true"
+                        className="Details__ExpandIcon-xi326o-0 cVuUUi StyledIconBase-sc-bdy9j4 cCvWXa"
+                        fill="currentColor"
+                        focusable="false"
+                        viewBox="0 0 192 512"
+                      >
+                        <path
+                          d="M0 384.662V127.338c0-17.818 21.543-26.741 34.142-14.142l128.662 128.662c7.81 7.81 7.81 20.474 0 28.284L34.142 398.804C21.543 411.404 0 402.48 0 384.662z"
+                          fill="currentColor"
+                        />
+                      </svg>
+                      <svg
+                        aria-hidden="true"
+                        className="Details__CollapseIcon-xi326o-1 jsdrhW StyledIconBase-sc-bdy9j4 cCvWXa"
+                        fill="currentColor"
+                        focusable="false"
+                        viewBox="0 0 320 512"
+                      >
+                        <path
+                          d="M31.3 192h257.3c17.8 0 26.7 21.5 14.1 34.1L174.1 354.8c-7.8 7.8-20.5 7.8-28.3 0L17.2 226.1C4.6 213.5 13.5 192 31.3 192z"
+                          fill="currentColor"
+                        />
+                      </svg>
+                      <span
+                        className="styled__SummaryTitle-sc-18yti3s-0 cpNgr"
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "<span class=\\"os-number\\">10</span><span class=\\"os-divider\\"> </span><span class=\\"os-text\\">Test Chapter 5</span>",
+                          }
+                        }
+                      />
+                    </div>
+                  </summary>
+                  <ol
+                    className="styled__NavOl-sc-18yti3s-5 jjmdsB"
+                  >
+                    <li
+                      className="styled__NavItem-sc-18yti3s-2 lcPtic"
+                    >
+                      <a
+                        className="styled__ContentLink-sc-18yti3s-1 eJFaJK"
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "<span class=\\"os-text\\">Test Page 6</span>",
+                          }
+                        }
+                        href="10-test-page-6"
+                        onClick={[Function]}
+                      />
+                    </li>
+                  </ol>
+                </details>
+              </li>
+              <li
+                className="styled__NavItem-sc-18yti3s-2 lcPtic"
+              >
+                <details
+                  className="styled__NavDetails-sc-18yti3s-6 fFBOM Details-xi326o-3 iboMxh"
+                >
+                  <summary
+                    className="Details__Summary-xi326o-2 styled__Summary-sc-18yti3s-3 hLZWYd"
+                  >
+                    <div
+                      className="styled__SummaryWrapper-sc-18yti3s-4 jeQjgr"
+                    >
+                      <svg
+                        aria-hidden="true"
+                        className="Details__ExpandIcon-xi326o-0 cVuUUi StyledIconBase-sc-bdy9j4 cCvWXa"
+                        fill="currentColor"
+                        focusable="false"
+                        viewBox="0 0 192 512"
+                      >
+                        <path
+                          d="M0 384.662V127.338c0-17.818 21.543-26.741 34.142-14.142l128.662 128.662c7.81 7.81 7.81 20.474 0 28.284L34.142 398.804C21.543 411.404 0 402.48 0 384.662z"
+                          fill="currentColor"
+                        />
+                      </svg>
+                      <svg
+                        aria-hidden="true"
+                        className="Details__CollapseIcon-xi326o-1 jsdrhW StyledIconBase-sc-bdy9j4 cCvWXa"
+                        fill="currentColor"
+                        focusable="false"
+                        viewBox="0 0 320 512"
+                      >
+                        <path
+                          d="M31.3 192h257.3c17.8 0 26.7 21.5 14.1 34.1L174.1 354.8c-7.8 7.8-20.5 7.8-28.3 0L17.2 226.1C4.6 213.5 13.5 192 31.3 192z"
+                          fill="currentColor"
+                        />
+                      </svg>
+                      <span
+                        className="styled__SummaryTitle-sc-18yti3s-0 cpNgr"
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "<span class=\\"os-number\\">12</span><span class=\\"os-divider\\"> </span><span class=\\"os-text\\">Test Chapter 6</span>",
+                          }
+                        }
+                      />
+                    </div>
+                  </summary>
+                  <ol
+                    className="styled__NavOl-sc-18yti3s-5 jjmdsB"
+                  >
+                    <li
+                      className="styled__NavItem-sc-18yti3s-2 lcPtic"
+                    >
+                      <a
+                        className="styled__ContentLink-sc-18yti3s-1 eJFaJK"
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "<span class=\\"os-text\\">Test Page 7</span>",
+                          }
+                        }
+                        href="12-test-page-7"
+                        onClick={[Function]}
+                      />
+                    </li>
+                  </ol>
+                </details>
+              </li>
+              <li
+                className="styled__NavItem-sc-18yti3s-2 lcPtic"
+              >
+                <a
+                  className="styled__ContentLink-sc-18yti3s-1 eJFaJK"
+                  dangerouslySetInnerHTML={
+                    Object {
+                      "__html": "<span class=\\"os-number\\">A</span><span class=\\"os-divider\\"> | </span><span class=\\"os-text\\">Atomic Masses</span>",
+                    }
+                  }
+                  href="a-atomic-masses"
+                  onClick={[Function]}
+                />
+              </li>
+              <li
+                className="styled__NavItem-sc-18yti3s-2 lcPtic"
+              >
+                <a
+                  className="styled__ContentLink-sc-18yti3s-1 eJFaJK"
+                  dangerouslySetInnerHTML={
+                    Object {
+                      "__html": "<span class=\\"os-number\\">D</span><span class=\\"os-divider\\"> | </span><span class=\\"os-text\\">Glossary of Key Symbols and Notation</span>",
+                    }
+                  }
+                  href="d-glossary-of-key-symbols-and-notation"
+                  onClick={[Function]}
+                />
+              </li>
+              <li
+                className="styled__NavItem-sc-18yti3s-2 lcPtic"
+              >
+                <a
+                  className="styled__ContentLink-sc-18yti3s-1 eJFaJK"
+                  dangerouslySetInnerHTML={
+                    Object {
+                      "__html": "<span class=\\"os-text\\">Test Page for Generic Styles</span>",
+                    }
+                  }
+                  href="test-page-for-generic-styles"
+                  onClick={[Function]}
+                />
+              </li>
+            </ol>
           </div>
           <div
             className="ContentPane__Wrapper-sc-6et83r-0 kpTBXq"
@@ -1881,6 +2489,115 @@ Array [
                     </div>
                   </div>
                 </div>
+                <details
+                  className="Details-xi326o-3 Attribution__AttributionDetails-sc-11isnv6-4 ecFdAU"
+                  data-analytics-region="attribution"
+                  data-testid="attribution-details"
+                >
+                  <summary
+                    aria-label="Citation/Attribution"
+                    className="Attribution__AttributionSummary-sc-11isnv6-2 gobEtQ Details__Summary-xi326o-2 goqLfs"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      className="Attribution__SummaryClosedIcon-sc-11isnv6-0 gSPJtD Details__ExpandIcon-xi326o-0 cVuUUi StyledIconBase-sc-bdy9j4 cCvWXa"
+                      fill="currentColor"
+                      focusable="false"
+                      viewBox="0 0 192 512"
+                    >
+                      <path
+                        d="M0 384.662V127.338c0-17.818 21.543-26.741 34.142-14.142l128.662 128.662c7.81 7.81 7.81 20.474 0 28.284L34.142 398.804C21.543 411.404 0 402.48 0 384.662z"
+                        fill="currentColor"
+                      />
+                    </svg>
+                    <svg
+                      aria-hidden="true"
+                      className="Attribution__SummaryOpenIcon-sc-11isnv6-1 kRXAve Details__CollapseIcon-xi326o-1 jsdrhW StyledIconBase-sc-bdy9j4 cCvWXa"
+                      fill="currentColor"
+                      focusable="false"
+                      viewBox="0 0 320 512"
+                    >
+                      <path
+                        d="M31.3 192h257.3c17.8 0 26.7 21.5 14.1 34.1L174.1 354.8c-7.8 7.8-20.5 7.8-28.3 0L17.2 226.1C4.6 213.5 13.5 192 31.3 192z"
+                        fill="currentColor"
+                      />
+                    </svg>
+                    <span>
+                      Citation/Attribution
+                    </span>
+                  </summary>
+                  <div
+                    className="Attribution__Content-sc-11isnv6-3 bUUJqd"
+                    dangerouslySetInnerHTML={
+                      Object {
+                        "__html": "
+<p>
+  Want to cite, share, or modify this book? This book is
+  <a target=\\"_blank\\" rel=\\"noopener\\" href=\\"http://example.com\\">
+    Sweet License 1.0
+  </a> and you must attribute OpenStax.
+</p>
+
+<strong>Attribution information</strong>
+<ul>
+  <li>
+    If you are redistributing all or part of this book in a print format,
+    then you must include on every physical page the following attribution:
+    <blockquote>
+      Access for free at https://openstax.org/books/book-slug-1/pages/1-introduction-to-science-and-the-realm-of-physics-physical-quantities-and-units
+    </blockquote>
+  </li>
+  <li>
+    If you are redistributing all or part of this book in a digital format,
+    then you must include on every digital page view the following attribution:
+    <blockquote>
+      Access for free at <a href=\\"https://openstax.org/books/book-slug-1/pages/1-introduction-to-science-and-the-realm-of-physics-physical-quantities-and-units\\">https://openstax.org/books/book-slug-1/pages/1-introduction-to-science-and-the-realm-of-physics-physical-quantities-and-units</a>
+    </blockquote>
+  </li>
+</ul>
+
+<strong>Citation information</strong>
+<ul>
+  <li>
+    Use the information below to generate a citation. We recommend using a
+    citation tool such as
+    <a target=\\"_blank\\" rel=\\"noopener\\" href=\\"https://www.lib.ncsu.edu/citationbuilder/#/default/default\\">this one</a>.
+    <ul>
+      <li>
+        Authors: Bam Bammerson
+      </li>
+      <li>
+        Publisher/website: OpenStax
+      </li>
+      <li>
+        Book title: Test Book 1
+      </li>
+      <li>
+        Publication date: Jun 21, 2012
+      </li>
+      <li>
+        Location: Houston, Texas
+      </li>
+      <li>
+        Book URL: <a href=\\"https://openstax.org/books/book-slug-1/pages/1-introduction-to-science-and-the-realm-of-physics-physical-quantities-and-units\\">https://openstax.org/books/book-slug-1/pages/1-introduction-to-science-and-the-realm-of-physics-physical-quantities-and-units</a>
+      </li>
+      <li>
+        Section URL: <a href=\\"https://openstax.org/books/book-slug-1/pages/doesnotmatter\\">https://openstax.org/books/book-slug-1/pages/doesnotmatter</a>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<p>
+  © Jun 21, 2012 OpenStax. Textbook content produced by OpenStax is licensed under a Sweet License 1.0 license. <strong>The OpenStax name, OpenStax logo, OpenStax book covers, OpenStax CNX name, and OpenStax CNX logo
+  are not subject to the Creative Commons license and may not be reproduced without the prior and express written
+  consent of Rice University.</strong>
+</p>
+",
+                      }
+                    }
+                  />
+                </details>
                 <footer
                   className="styled__FooterWrapper-y5hgq4-4 gprQGv"
                   data-analytics-region="footer"

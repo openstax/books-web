@@ -100,17 +100,19 @@ const getPageDescriptionFromContent = (page: HTMLElement): string | null => {
   return null;
 };
 
-export const getPageDescription = (services: Pick<AppServices, 'archiveLoader' | 'intl'>, book: Book, page: Page) => {
-  const {intl, archiveLoader} = services;
+// tslint:disable-next-line: max-line-length
+export const getPageDescription = async(services: Pick<AppServices, 'archiveLoader' | 'intl'>, book: Book, page: Page): Promise<string> => {
+  const { archiveLoader, intl } = services;
+  const intlObject = await intl.getIntlObject(book.language);
   const cleanContent = getCleanContent(book, page, archiveLoader);
   const doc = domParser.parseFromString(cleanContent, 'text/html');
   const pageNode = doc.body.firstElementChild;
   const pageDescription = pageNode ? getPageDescriptionFromContent(pageNode) : null;
 
-  return pageDescription || intl.formatMessage({id: 'i18n:metadata:description'});
+  return pageDescription || intlObject.formatMessage({id: 'i18n:metadata:description'});
 };
 
-export const createTitle = (page: Page, book: Book, intl: IntlShape): string => {
+export const createTitle = async(page: Page, book: Book, intl: IntlShape): Promise<string> => {
   const node = assertDefined(
     findArchiveTreeNodeById(book.tree, page.id),
     `couldn't find node for a page id: ${page.id}`
