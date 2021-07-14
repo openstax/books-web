@@ -73,7 +73,7 @@ const prepareApp = async(
   const styles = new ServerStyleSheet();
   const pathname = navigationSelectors.pathname(state);
 
-  if (pathname !== url) {
+  if (pathname !== decodeURI(url)) {
     throw new Error(`UNSUPPORTED: url: ${url} caused a redirect.`);
   }
   if (errorSelectors.code(state) !== expectedCode) {
