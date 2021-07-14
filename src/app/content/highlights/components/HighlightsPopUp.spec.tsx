@@ -96,7 +96,18 @@ describe('MyHighlights button and PopUp', () => {
     const addEventListener = jest.fn();
     const removeEventListener = jest.fn();
     const querySelectorAll = jest.fn(() => []);
-    const createNodeMock = () => ({focus, addEventListener, removeEventListener, querySelectorAll});
+    const getAttribute = jest.fn();
+    const setAttribute = jest.fn();
+    const removeAttribute = jest.fn();
+    const createNodeMock = () => ({
+      addEventListener,
+      focus,
+      getAttribute,
+      querySelectorAll,
+      removeAttribute,
+      removeEventListener,
+      setAttribute,
+    });
 
     renderer.create(<TestContainer services={services} store={store}>
       <HighlightsPopUp />
@@ -210,7 +221,18 @@ describe('MyHighlights button and PopUp', () => {
     const addEventListener = jest.fn();
     const removeEventListener = jest.fn();
     const querySelectorAll = jest.fn(() => []);
-    const createNodeMock = () => ({focus, addEventListener, removeEventListener, querySelectorAll});
+    const getAttribute = jest.fn();
+    const setAttribute = jest.fn();
+    const removeAttribute = jest.fn();
+    const createNodeMock = () => ({
+      addEventListener,
+      focus,
+      getAttribute,
+      querySelectorAll,
+      removeAttribute,
+      removeEventListener,
+      setAttribute,
+    });
 
     const component = renderer.create(<TestContainer services={services} store={store}>
       <HighlightsPopUp />
