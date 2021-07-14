@@ -97,7 +97,7 @@ const fadeInAnimation = css`
 `;
 
 export const mainCardStyles = css`
-  ${(props: CardProps) => !props.isActive && (!props.data || !props.data.annotation)
+  ${(props: CardProps) => (!props.isActive && (!props.data || !props.data.annotation)) || props.isHidden
     ? 'display: none;'
     : 'display: block;'}
   ${fadeInAnimation}

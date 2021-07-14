@@ -10,7 +10,7 @@ import { assertDocument, remsToPx } from '../../../utils';
 import { assertWindow } from '../../../utils/browser-assertions';
 import { focusHighlight } from '../actions';
 import { cardMarginBottom, highlightKeyCombination } from '../constants';
-import Card from './Card';
+import Card, { CardProps } from './Card';
 import * as cardUtils from './cardUtils';
 import CardWrapper from './CardWrapper';
 
@@ -83,6 +83,26 @@ describe('CardWrapper', () => {
     </Provider>);
 
     expect(component.root.findAllByType(Card).length).toBe(2);
+  });
+
+  it('set highlight as hidden if it\'s inside a collapsed ancestor', () => {
+    const element = assertDocument().createElement('div');
+    const collapsedAncestor = assertDocument().createElement('div');
+    collapsedAncestor.setAttribute('aria-expanded', 'false');
+    collapsedAncestor.dataset.type = 'solution';
+    collapsedAncestor.appendChild(element);
+    const hiddenHighlight = {
+      ...createMockHighlight(),
+      elements: [element],
+    };
+
+    const component = renderer.create(<Provider store={store}>
+      <CardWrapper container={container} highlights={[createMockHighlight(), hiddenHighlight]} />
+    </Provider>);
+
+    const [card, hiddenCard] = component.root.findAllByType(Card);
+    expect((card.props as CardProps).isHidden).toBe(false);
+    expect((hiddenCard.props as CardProps).isHidden).toBe(true);
   });
 
   it(`handles card's height changes`, () => {
