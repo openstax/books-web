@@ -108,11 +108,6 @@ export const studyGuidesLocationFiltersWithContent = createSelector(
   getHighlightLocationFiltersWithContent
 );
 
-export const filtersHaveBeenSet = createSelector(
-  summaryFilters,
-  (filters) => filters.default === false
-);
-
 export const defaultLocationFilter = createSelector(
   studyGuidesLocationFilters,
   parentSelectors.page,

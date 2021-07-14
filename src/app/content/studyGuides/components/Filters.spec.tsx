@@ -10,18 +10,25 @@ import TestContainer from '../../../../test/TestContainer';
 import { receiveLoggedOut, receiveUser } from '../../../auth/actions';
 import Checkbox from '../../../components/Checkbox';
 import { DropdownToggle } from '../../../components/Dropdown';
+import { locationChange } from '../../../navigation/actions';
 import { Store } from '../../../types';
 import { assertWindow } from '../../../utils';
 import { receiveBook } from '../../actions';
 import FiltersList, { FiltersListColor } from '../../components/popUp/FiltersList';
+import { modalQueryParameterName } from '../../constants';
+import { SummaryFiltersUpdate } from '../../highlights/types';
+import updateSummaryFilters from '../../highlights/utils/updateSummaryFilters';
 import { formatBookData, stripIdVersion } from '../../utils';
 import { findArchiveTreeNodeById } from '../../utils/archiveTreeUtils';
 import {
   printStudyGuides,
   receiveStudyGuidesTotalCounts,
   receiveSummaryStudyGuides,
-  updateSummaryFilters,
+  setSummaryFilters,
+  updateSummaryFilters as updateSummaryFiltersAction,
 } from '../actions';
+import { colorfilterLabels, modalUrlName } from '../constants';
+import * as selectors from '../selectors';
 import Filters from './Filters';
 import { cookieUTG } from './UsingThisGuide/constants';
 import UsingThisGuideBanner from './UsingThisGuide/UsingThisGuideBanner';
@@ -44,9 +51,14 @@ describe('Filters', () => {
   });
 
   it('matches snapshot with UTG banner open (opened initially)', () => {
-    const pageId = stripIdVersion(book.tree.contents[0].id);
+    const chapterId = stripIdVersion(book.tree.contents[2].id);
+    store.dispatch(receiveBook(book));
+    store.dispatch(setSummaryFilters({
+      colors: Array.from(colorfilterLabels),
+      locationIds: [chapterId],
+    }));
     store.dispatch(receiveStudyGuidesTotalCounts({
-      [pageId]: {
+      [chapterId]: {
         [HighlightColorEnum.Green]: 1,
         [HighlightColorEnum.Yellow]: 1,
         [HighlightColorEnum.Blue]: 1,
@@ -70,6 +82,7 @@ describe('Filters', () => {
   });
 
   it('renders correct label keys for color dropdown', () => {
+    store.dispatch(setSummaryFilters({ colors: Array.from(colorfilterLabels) }));
     const pageId = stripIdVersion(book.tree.contents[0].id);
     store.dispatch(receiveStudyGuidesTotalCounts({
       [pageId]: {
@@ -132,6 +145,7 @@ describe('Filters', () => {
 
   it('dispatches updateSummaryFilters action on selecting colors and chapters', () => {
     const chapter = findArchiveTreeNodeById(book.tree, 'testbook1-testchapter1-uuid')!;
+    store.dispatch(setSummaryFilters({ colors: Array.from(colorfilterLabels) }));
     store.dispatch(receiveBook(book));
     store.dispatch(receiveStudyGuidesTotalCounts({
       [chapter.id]: {
@@ -139,6 +153,22 @@ describe('Filters', () => {
         [HighlightColorEnum.Yellow]: 1,
       },
     }));
+
+    // call action that should be triggered by the hook for updateSummaryFilters
+    const updateFilters = (update: SummaryFiltersUpdate) => {
+      renderer.act(() => {
+        const updatedFilters = updateSummaryFilters(selectors.summaryFilters(store.getState()), update);
+        store.dispatch(locationChange({
+          action: 'REPLACE',
+          location: {},
+          query: {
+            [modalQueryParameterName]: modalUrlName,
+            ...updatedFilters,
+          },
+        } as any));
+        store.dispatch(receiveBook(book));
+      });
+    };
 
     const component = renderer.create(<TestContainer services={services} store={store}>
       <Filters />
@@ -156,18 +186,22 @@ describe('Filters', () => {
       yellowCheckbox.props.onChange();
     });
 
-    expect(dispatch).toHaveBeenCalledWith(updateSummaryFilters({
+    const firstUpdate = updateSummaryFiltersAction({
       colors: { new: [], remove: [HighlightColorEnum.Yellow] },
-    }));
+    });
+    expect(dispatch).toHaveBeenCalledWith(firstUpdate);
+    updateFilters(firstUpdate.payload);
 
     renderer.act(() => {
       yellowCheckbox.props.onChange();
       colorFilterToggle.props.onClick();
     });
 
-    expect(dispatch).toHaveBeenCalledWith(updateSummaryFilters({
+    const secondUpdate = updateSummaryFiltersAction({
       colors: { new: [HighlightColorEnum.Yellow], remove: [] },
-    }));
+    });
+    expect(dispatch).toHaveBeenCalledWith(secondUpdate);
+    updateFilters(secondUpdate.payload);
 
     dispatch.mockClear();
 
@@ -181,13 +215,16 @@ describe('Filters', () => {
       ch1.props.onChange();
     });
 
-    expect(dispatch).toHaveBeenCalledWith(updateSummaryFilters({
+    const thirdUpdate = updateSummaryFiltersAction({
       locations: { new: [chapter], remove: [] },
-    }));
+    });
+    expect(dispatch).toHaveBeenCalledWith(thirdUpdate);
+    updateFilters(thirdUpdate.payload);
   });
 
   it('dispatches updateSummaryFilters when removing selected colors from FiltersList', () => {
     store.dispatch(receiveUser({} as any));
+    store.dispatch(setSummaryFilters({ colors: Array.from(colorfilterLabels) }));
     const pageId = stripIdVersion(book.tree.contents[0].id);
     store.dispatch(receiveStudyGuidesTotalCounts({
       [pageId]: {
@@ -208,7 +245,7 @@ describe('Filters', () => {
       green.props.onRemove();
     });
 
-    expect(dispatch).toHaveBeenCalledWith(updateSummaryFilters({
+    expect(dispatch).toHaveBeenCalledWith(updateSummaryFiltersAction({
       colors: { new: [], remove: [HighlightColorEnum.Green] },
     }));
   });

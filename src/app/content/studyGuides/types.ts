@@ -7,7 +7,6 @@ import {
 
 export interface StudyGuidesSummaryFilters {
   colors: HighlightColorEnum[];
-  default: boolean;
   locationIds: string[];
 }
 

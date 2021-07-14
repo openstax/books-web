@@ -2,12 +2,13 @@ import {
   GetHighlightsColorsEnum, GetHighlightsSetsEnum,
 } from '@openstax/highlighter/dist/api';
 import { ensureApplicationErrorType } from '../../../../helpers/applicationMessageError';
+import { locationChange } from '../../../navigation/actions';
 import { ActionHookBody, AppServices, MiddlewareAPI, Unpromisify } from '../../../types';
 import { actionHook } from '../../../utils';
 import { summaryPageSize } from '../../constants';
 import { StudyGuidesPopupLoadError } from '../../highlights/errors';
 import { formatReceivedHighlights, loadUntilPageSize } from '../../highlights/utils/highlightLoadingUtils';
-import { book as bookSelector } from '../../selectors';
+import { book as bookSelector, bookAndPage } from '../../selectors';
 import * as actions from '../actions';
 import * as select from '../selectors';
 
@@ -40,11 +41,14 @@ export const loadMore = async(services: MiddlewareAPI & AppServices, pageSize?: 
 export type LoadMoreResponse = ReturnType<typeof loadMore>;
 
 export const hookBody: ActionHookBody<
-  typeof actions.setDefaultSummaryFilters |
+  typeof locationChange |
   typeof actions.setSummaryFilters |
-  typeof actions.updateSummaryFilters |
   typeof actions.loadMoreStudyGuides
 > = (services) => async() => {
+  const {book, page} = bookAndPage(services.getState());
+
+  if (!book || !page) { return; }
+
   const filters = select.summaryFilters(services.getState());
 
   let response: Unpromisify<LoadMoreResponse>;
@@ -60,7 +64,6 @@ export const hookBody: ActionHookBody<
   services.dispatch(actions.receiveSummaryStudyGuides(formattedHighlights, {pagination, filters}));
 };
 
+export const locationChangeHook = actionHook(locationChange, hookBody);
 export const loadMoreHook = actionHook(actions.loadMoreStudyGuides, hookBody);
 export const setSummaryFiltersHook = actionHook(actions.setSummaryFilters, hookBody);
-export const updateSummaryFiltersHook = actionHook(actions.updateSummaryFilters, hookBody);
-export const setDefaultSummaryFiltersHook = actionHook(actions.setDefaultSummaryFilters, hookBody);

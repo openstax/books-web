@@ -10,6 +10,8 @@ export const summaryPageSize = 20;
 export const loadMoreDistanceFromBottom = 50;
 
 export const modalQueryParameterName = 'modal';
+export const colorFilterQueryParameterName = 'colors';
+export const locationIdsFilterQueryParameterName = 'locationIds';
 
 export const highlightStyles: Array<{label: HighlightColorEnum, passive: string, focused: string}> = [
   {label: HighlightColorEnum.Yellow, passive: '#ffff8a', focused: '#fed200'},

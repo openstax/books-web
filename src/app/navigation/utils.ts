@@ -127,16 +127,19 @@ export const findPathForParams = (params: object, paths: string[]) => {
   });
 };
 
-export const getQueryForParam = (param: string, value: string, existingQuery?: string | OutputParams) => {
+export const updateQuery = (
+  values: Record<string, string | string[]>,
+  existingQuery?: string | OutputParams
+) => {
   if (existingQuery) {
     const parsedExistingQuery = typeof existingQuery === 'string'
       ? queryString.parse(existingQuery)
       : existingQuery;
 
-    return queryString.stringify({...parsedExistingQuery, [param]: value});
+    return queryString.stringify({...parsedExistingQuery, ...values});
   }
 
-  return queryString.stringify({[param]: value});
+  return queryString.stringify(values);
 };
 
 export const isScrollTarget = (

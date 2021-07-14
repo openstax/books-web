@@ -13,9 +13,10 @@ import {
   loadMoreStudyGuides,
   receiveStudyGuidesTotalCounts,
   receiveSummaryStudyGuides,
-  setDefaultSummaryFilters,
+  setSummaryFilters,
   toggleStudyGuidesSummaryLoading,
 } from '../actions';
+import { colorfilterLabels } from '../constants';
 import { summaryFilters } from '../selectors';
 
 const book = formatBookData(archiveBook, mockCmsBook);
@@ -75,9 +76,10 @@ describe('loadMore', () => {
       'testbook1-testpage11-uuid': {[HighlightColorEnum.Green]: highlightsCount['testbook1-testpage11-uuid']},
       'testbook1-testpage8-uuid': {[HighlightColorEnum.Green]: highlightsCount['testbook1-testpage8-uuid']},
     }));
-    store.dispatch(setDefaultSummaryFilters({locationIds: [
-      'testbook1-testchapter1-uuid',
-    ]}));
+    store.dispatch(setSummaryFilters({
+      colors: Array.from(colorfilterLabels),
+      locationIds: ['testbook1-testchapter1-uuid'],
+    }));
 
     const page1 = createTestHighlights({
       amount: highlightsCount['testbook1-testpage2-uuid'],
@@ -182,7 +184,10 @@ describe('loadMore', () => {
     store.dispatch(receiveStudyGuidesTotalCounts({
       'testbook1-testpage2-uuid': {[HighlightColorEnum.Green]: 5},
     }));
-    store.dispatch(setDefaultSummaryFilters({locationIds: ['testbook1-testchapter1-uuid']}));
+    store.dispatch(setSummaryFilters({
+      colors: Array.from(colorfilterLabels),
+      locationIds: ['testbook1-testchapter1-uuid'],
+    }));
 
     const page1 = createTestHighlights({
       amount: 5,
@@ -230,7 +235,10 @@ describe('loadMore', () => {
     store.dispatch(receiveStudyGuidesTotalCounts({
       'testbook1-testpage2-uuid': {[HighlightColorEnum.Green]: 5},
     }));
-    store.dispatch(setDefaultSummaryFilters({locationIds: ['testbook1-testchapter1-uuid']}));
+    store.dispatch(setSummaryFilters({
+      colors: Array.from(colorfilterLabels),
+      locationIds: ['testbook1-testchapter1-uuid'],
+    }));
 
     try {
       await hook(store.dispatch(loadMoreStudyGuides()));
@@ -253,7 +261,10 @@ describe('loadMore', () => {
     store.dispatch(receiveStudyGuidesTotalCounts({
       'testbook1-testpage2-uuid': {[HighlightColorEnum.Green]: 5},
     }));
-    store.dispatch(setDefaultSummaryFilters({locationIds: ['testbook1-testchapter1-uuid']}));
+    store.dispatch(setSummaryFilters({
+      colors: Array.from(colorfilterLabels),
+      locationIds: ['testbook1-testchapter1-uuid'],
+    }));
 
     try {
       await hook(store.dispatch(loadMoreStudyGuides()));
@@ -264,19 +275,25 @@ describe('loadMore', () => {
     }
   });
 
-  it('doesn\'t explode without a page', async() => {
+  it('noops without a page', async() => {
     store.dispatch(receiveBook(book));
-    store.dispatch(receiveStudyGuidesTotalCounts({
-      'testbook1-testpage2-uuid': {[HighlightColorEnum.Green]: 5},
-    }));
 
-    const filters = summaryFilters(store.getState());
     const highlightClient = jest.spyOn(helpers.highlightClient, 'getHighlights');
 
     await hook(store.dispatch(loadMoreStudyGuides()));
 
     expect(highlightClient).not.toHaveBeenCalled();
-    expect(filters.locationIds).toEqual([]);
-    expect(dispatch).toHaveBeenCalledWith(receiveSummaryStudyGuides({}, {pagination: null, filters}));
+    expect(dispatch).not.toHaveBeenCalled();
+  });
+
+  it('noops without a book', async() => {
+    store.dispatch(receivePage(page));
+
+    const highlightClient = jest.spyOn(helpers.highlightClient, 'getHighlights');
+
+    await hook(store.dispatch(loadMoreStudyGuides()));
+
+    expect(highlightClient).not.toHaveBeenCalled();
+    expect(dispatch).not.toHaveBeenCalled();
   });
 });

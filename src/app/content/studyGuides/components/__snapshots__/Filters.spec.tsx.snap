@@ -62,7 +62,250 @@ exports[`Filters matches snapshot with UTG banner open (opened initially) 1`] = 
         </div>
         <div
           className="ChapterFilter__Row-tcdlu-0 nqIYu"
-        />
+        >
+          <div
+            className="ChapterFilter__Column-tcdlu-1 dKPjiE"
+          >
+            <label
+              className="Checkbox-f0dje9-2 gEkNQh"
+            >
+              <input
+                checked={false}
+                disabled={true}
+                onChange={[Function]}
+                type="checkbox"
+              />
+              <span
+                className="Checkbox__CustomCheckbox-f0dje9-1 gLNaiW"
+              >
+                <svg
+                  aria-hidden="true"
+                  className="Checkbox__CheckIcon-f0dje9-0 irsTpS StyledIconBase-sc-bdy9j4 cCvWXa"
+                  fill="currentColor"
+                  focusable="false"
+                  viewBox="0 0 512 512"
+                >
+                  <path
+                    d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"
+                    fill="currentColor"
+                  />
+                </svg>
+              </span>
+              <span
+                className="ChapterFilter__ChapterTitle-tcdlu-2 fmaoPu"
+                dangerouslySetInnerHTML={
+                  Object {
+                    "__html": "<span class=\\"os-number\\">1</span><span class=\\"os-divider\\"> </span><span class=\\"os-text\\">Test Chapter 1</span>",
+                  }
+                }
+              />
+            </label>
+            <label
+              className="Checkbox-f0dje9-2 gEkNQh"
+            >
+              <input
+                checked={false}
+                disabled={true}
+                onChange={[Function]}
+                type="checkbox"
+              />
+              <span
+                className="Checkbox__CustomCheckbox-f0dje9-1 gLNaiW"
+              >
+                <svg
+                  aria-hidden="true"
+                  className="Checkbox__CheckIcon-f0dje9-0 irsTpS StyledIconBase-sc-bdy9j4 cCvWXa"
+                  fill="currentColor"
+                  focusable="false"
+                  viewBox="0 0 512 512"
+                >
+                  <path
+                    d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"
+                    fill="currentColor"
+                  />
+                </svg>
+              </span>
+              <span
+                className="ChapterFilter__ChapterTitle-tcdlu-2 fmaoPu"
+                dangerouslySetInnerHTML={
+                  Object {
+                    "__html": "<span class=\\"os-number\\">1</span><span class=\\"os-divider\\"> </span><span class=\\"os-text\\">Test Chapter 1.1</span>",
+                  }
+                }
+              />
+            </label>
+            <label
+              className="Checkbox-f0dje9-2 ksczzL"
+            >
+              <input
+                checked={true}
+                disabled={false}
+                onChange={[Function]}
+                type="checkbox"
+              />
+              <span
+                className="Checkbox__CustomCheckbox-f0dje9-1 gLNaiW"
+              >
+                <svg
+                  aria-hidden="true"
+                  className="Checkbox__CheckIcon-f0dje9-0 irsTpS StyledIconBase-sc-bdy9j4 cCvWXa"
+                  fill="currentColor"
+                  focusable="false"
+                  viewBox="0 0 512 512"
+                >
+                  <path
+                    d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"
+                    fill="currentColor"
+                  />
+                </svg>
+              </span>
+              <span
+                className="ChapterFilter__ChapterTitle-tcdlu-2 fmaoPu"
+                dangerouslySetInnerHTML={
+                  Object {
+                    "__html": "<span class=\\"os-number\\">2</span><span class=\\"os-divider\\"> </span><span class=\\"os-text\\">Test Chapter 2</span>",
+                  }
+                }
+              />
+            </label>
+            <label
+              className="Checkbox-f0dje9-2 gEkNQh"
+            >
+              <input
+                checked={false}
+                disabled={true}
+                onChange={[Function]}
+                type="checkbox"
+              />
+              <span
+                className="Checkbox__CustomCheckbox-f0dje9-1 gLNaiW"
+              >
+                <svg
+                  aria-hidden="true"
+                  className="Checkbox__CheckIcon-f0dje9-0 irsTpS StyledIconBase-sc-bdy9j4 cCvWXa"
+                  fill="currentColor"
+                  focusable="false"
+                  viewBox="0 0 512 512"
+                >
+                  <path
+                    d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"
+                    fill="currentColor"
+                  />
+                </svg>
+              </span>
+              <span
+                className="ChapterFilter__ChapterTitle-tcdlu-2 fmaoPu"
+                dangerouslySetInnerHTML={
+                  Object {
+                    "__html": "<span class=\\"os-number\\">3</span><span class=\\"os-divider\\"> </span><span class=\\"os-text\\">Test Chapter 3</span>",
+                  }
+                }
+              />
+            </label>
+            <label
+              className="Checkbox-f0dje9-2 gEkNQh"
+            >
+              <input
+                checked={false}
+                disabled={true}
+                onChange={[Function]}
+                type="checkbox"
+              />
+              <span
+                className="Checkbox__CustomCheckbox-f0dje9-1 gLNaiW"
+              >
+                <svg
+                  aria-hidden="true"
+                  className="Checkbox__CheckIcon-f0dje9-0 irsTpS StyledIconBase-sc-bdy9j4 cCvWXa"
+                  fill="currentColor"
+                  focusable="false"
+                  viewBox="0 0 512 512"
+                >
+                  <path
+                    d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"
+                    fill="currentColor"
+                  />
+                </svg>
+              </span>
+              <span
+                className="ChapterFilter__ChapterTitle-tcdlu-2 fmaoPu"
+                dangerouslySetInnerHTML={
+                  Object {
+                    "__html": "<span class=\\"os-number\\">4</span><span class=\\"os-divider\\"> </span><span class=\\"os-text\\">Test Chapter 4</span>",
+                  }
+                }
+              />
+            </label>
+            <label
+              className="Checkbox-f0dje9-2 gEkNQh"
+            >
+              <input
+                checked={false}
+                disabled={true}
+                onChange={[Function]}
+                type="checkbox"
+              />
+              <span
+                className="Checkbox__CustomCheckbox-f0dje9-1 gLNaiW"
+              >
+                <svg
+                  aria-hidden="true"
+                  className="Checkbox__CheckIcon-f0dje9-0 irsTpS StyledIconBase-sc-bdy9j4 cCvWXa"
+                  fill="currentColor"
+                  focusable="false"
+                  viewBox="0 0 512 512"
+                >
+                  <path
+                    d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"
+                    fill="currentColor"
+                  />
+                </svg>
+              </span>
+              <span
+                className="ChapterFilter__ChapterTitle-tcdlu-2 fmaoPu"
+                dangerouslySetInnerHTML={
+                  Object {
+                    "__html": "<span class=\\"os-number\\">10</span><span class=\\"os-divider\\"> </span><span class=\\"os-text\\">Test Chapter 5</span>",
+                  }
+                }
+              />
+            </label>
+            <label
+              className="Checkbox-f0dje9-2 gEkNQh"
+            >
+              <input
+                checked={false}
+                disabled={true}
+                onChange={[Function]}
+                type="checkbox"
+              />
+              <span
+                className="Checkbox__CustomCheckbox-f0dje9-1 gLNaiW"
+              >
+                <svg
+                  aria-hidden="true"
+                  className="Checkbox__CheckIcon-f0dje9-0 irsTpS StyledIconBase-sc-bdy9j4 cCvWXa"
+                  fill="currentColor"
+                  focusable="false"
+                  viewBox="0 0 512 512"
+                >
+                  <path
+                    d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"
+                    fill="currentColor"
+                  />
+                </svg>
+              </span>
+              <span
+                className="ChapterFilter__ChapterTitle-tcdlu-2 fmaoPu"
+                dangerouslySetInnerHTML={
+                  Object {
+                    "__html": "<span class=\\"os-number\\">12</span><span class=\\"os-divider\\"> </span><span class=\\"os-text\\">Test Chapter 6</span>",
+                  }
+                }
+              />
+            </label>
+          </div>
+        </div>
       </div>
     </div>
     <div
@@ -357,10 +600,10 @@ exports[`Filters matches snapshot with UTG banner open (opened initially) 1`] = 
     >
       <button
         aria-label="print"
-        className="styled__PlainButton-sc-1119auh-0 PrintButton-sc-1bdptk0-0 iIYjST styled__PrintOptWrapper-sc-1119auh-1 kbtaBS"
+        className="styled__PlainButton-sc-1119auh-0 PrintButton-sc-1bdptk0-0 DFaYK styled__PrintOptWrapper-sc-1119auh-1 kbtaBS"
         data-analytics-label="print"
         data-testid="print"
-        disabled={false}
+        disabled={true}
         onClick={[Function]}
       >
         <svg
@@ -464,6 +707,51 @@ exports[`Filters matches snapshot with UTG banner open (opened initially) 1`] = 
   <ul
     className="FiltersList-sc-1sdnk9e-3 fQoHdD"
   >
+    <li
+      className="FiltersList__FilterListItem-sc-1sdnk9e-2 hhDKAf"
+    >
+      <button
+        aria-label="Remove breadcrumb for chapter 2 Test Chapter 2"
+        className="Button__PlainButton-ayg7nk-2 FiltersList__StyledPlainButton-sc-1sdnk9e-0 gUsiXX"
+        data-analytics-label="Remove breadcrumb for chapter 2 Test Chapter 2"
+        onClick={[Function]}
+      >
+        <svg
+          height="15px"
+          version="1.1"
+          viewBox="0 0 15 15"
+          width="15px"
+        >
+          <g
+            fill="none"
+            fillRule="evenodd"
+            stroke="none"
+            strokeWidth="1"
+          >
+            <g
+              fill="currentColor"
+              transform="translate(-302.000000, -18.000000)"
+            >
+              <g
+                transform="translate(302.000000, 18.000000)"
+              >
+                <path
+                  d="M7.5,5.41522791 L12.0331524,0.579865364 C12.3077536,0.286957429 12.7165503,0.24816296 12.946282,0.493210121 L13.9861449,1.60239723 C14.2158766,1.84744439 14.1795068,2.28349422 13.9049056,2.57640216 L9.37175324,7.41176471 L13.9049056,12.2471273 C14.1795068,12.5400352 14.2158766,12.976085 13.9861449,13.2211322 L12.946282,14.3303193 C12.7165503,14.5753665 12.3077536,14.536572 12.0331524,14.243664 L7.5,9.4083015 L2.96684761,14.243664 C2.69224642,14.536572 2.2834497,14.5753665 2.05371799,14.3303193 L1.01385508,13.2211322 C0.784123363,12.976085 0.820493178,12.5400352 1.09509437,12.2471273 L5.62824676,7.41176471 L1.09509437,2.57640216 C0.820493178,2.28349422 0.784123363,1.84744439 1.01385508,1.60239723 L2.05371799,0.493210121 C2.2834497,0.24816296 2.69224642,0.286957429 2.96684761,0.579865364 L7.5,5.41522791 Z"
+                />
+              </g>
+            </g>
+          </g>
+        </svg>
+      </button>
+      <span
+        className="FiltersList__ItemLabel-sc-1sdnk9e-1 TUwad"
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "<span class=\\"os-number\\">2</span><span class=\\"os-divider\\"> </span><span class=\\"os-text\\">Test Chapter 2</span>",
+          }
+        }
+      />
+    </li>
     <li
       className="FiltersList__FilterListItem-sc-1sdnk9e-2 hhDKAf"
     >

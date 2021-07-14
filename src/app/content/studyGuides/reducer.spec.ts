@@ -18,6 +18,46 @@ describe('study guides reducer', () => {
     expect(state.summary.open).toBe(true);
   });
 
+  it('updates color filters with passed parameters on location change if colors query is present', () => {
+    const mockState = {
+      ...initialState,
+      summary: {...initialState.summary, open: true, filters: { ...initialState.summary.filters, colors: [] }},
+    };
+
+    let state = reducer(
+      mockState,
+      locationChange({
+        action: 'REPLACE',
+        location: {
+          search: '?modal=SG&colors=green&colors=yellow',
+          state: {pageUid: 'asdf'},
+        },
+      } as any));
+    expect(state.summary.filters.colors).toEqual(['green', 'yellow']);
+
+    state = reducer(
+      mockState,
+      locationChange({
+        action: 'REPLACE',
+        location: {
+          search: '?modal=SG&colors=green',
+          state: {pageUid: 'asdf'},
+        },
+      } as any));
+    expect(state.summary.filters.colors).toEqual(['green']);
+
+    state = reducer(
+      mockState,
+      locationChange({
+        action: 'REPLACE',
+        location: {
+          search: '?modal=SG&colors=wrong-color',
+          state: {pageUid: 'asdf'},
+        },
+      } as any));
+    expect(state.summary.filters.colors).toEqual([]);
+  });
+
   it('receive study guides', () => {
     const summary = {
       location: {
@@ -41,7 +81,6 @@ describe('study guides reducer', () => {
         ...initialState.summary,
         filters: {
           colors: [],
-          default: false,
           locationIds: [],
         },
       },
@@ -65,7 +104,6 @@ describe('study guides reducer', () => {
 
     const staleFilters = {
       colors: initialState.summary.filters.colors,
-      default: initialState.summary.filters.default,
       locationIds: [],
     };
 

@@ -1,6 +1,6 @@
 import { SummaryFilters, SummaryFiltersUpdate } from '../types';
 
-const updateSummaryFilters = (filters: SummaryFilters, update: Partial<SummaryFiltersUpdate>) => {
+const updateSummaryFilters = (filters: SummaryFilters, update: Partial<SummaryFiltersUpdate>): SummaryFilters => {
   const newFilters = {...filters};
   const { colors: colorsChange, locations: locationsChange } = update;
 
