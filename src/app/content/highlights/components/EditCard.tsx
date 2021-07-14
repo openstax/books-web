@@ -24,6 +24,7 @@ import ColorPicker from './ColorPicker';
 import Confirmation from './Confirmation';
 import Note from './Note';
 import { isElementForOnClickOutside, useOnClickOutside } from './utils/onClickOutside';
+import scrollHighlightIntoView from './utils/scrollHighlightIntoView';
 
 export interface EditCardProps {
   isActive: boolean;
@@ -133,7 +134,7 @@ const EditCard = React.forwardRef<HTMLElement, EditCardProps>((props, ref) => {
     }));
     trackEditAnnotation(addedNote, toSave.color);
     props.onCancel();
-    props.highlight.focus();
+    scrollHighlightIntoView(props.highlight, element);
   };
 
   const updateUnsavedHighlightStatus = (newValue: string) => {
