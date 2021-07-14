@@ -1,11 +1,11 @@
 import omit from 'lodash/fp/omit';
 import queryString from 'query-string';
 import React from 'react';
-import { Provider } from 'react-redux';
 import renderer from 'react-test-renderer';
 import createTestStore from '../../../test/createTestStore';
 import { book as archiveBook, page } from '../../../test/mocks/archiveLoader';
 import { mockCmsBook } from '../../../test/mocks/osWebLoader';
+import TestContainer from '../../../test/TestContainer';
 import { push } from '../../navigation/actions';
 import { Store } from '../../types';
 import { receiveBook } from '../actions';
@@ -54,9 +54,9 @@ describe('ContentLink', () => {
     });
 
     it('dispatches navigation action on click', async() => {
-      const component = renderer.create(<Provider store={store}>
+      const component = renderer.create(<TestContainer store={store}>
         <ConnectedContentLink book={book} page={page} />
-      </Provider>);
+      </TestContainer>);
 
       const event = await click(component);
 
@@ -71,9 +71,9 @@ describe('ContentLink', () => {
     it('dispatches navigation action with search if there is a search', async() => {
       store.dispatch(requestSearch('asdf'));
       store.dispatch(receiveBook(book));
-      const component = renderer.create(<Provider store={store}>
+      const component = renderer.create(<TestContainer store={store}>
         <ConnectedContentLink book={book} page={page} />
-      </Provider>);
+      </TestContainer>);
 
       const event = await click(component);
 
@@ -95,9 +95,9 @@ describe('ContentLink', () => {
       const mockSearch = {
         query: 'search-from-direct-prop',
       };
-      const component = renderer.create(<Provider store={store}>
+      const component = renderer.create(<TestContainer store={store}>
         <ConnectedContentLink book={book} page={page} search={mockSearch} />
-      </Provider>);
+      </TestContainer>);
 
       const event = await click(component);
 
@@ -117,9 +117,9 @@ describe('ContentLink', () => {
       const scrollTarget: SearchScrollTarget = { type: 'search', index: 1, elementId: 'anchor' };
       store.dispatch(requestSearch('asdf'));
       store.dispatch(receiveBook(book));
-      const component = renderer.create(<Provider store={store}>
+      const component = renderer.create(<TestContainer store={store}>
         <ConnectedContentLink book={book} page={page} scrollTarget={scrollTarget} />
-      </Provider>);
+      </TestContainer>);
 
       dispatch.mockClear();
 
@@ -146,9 +146,9 @@ describe('ContentLink', () => {
     it('dispatches navigation action without search when linking to a different book', async() => {
       store.dispatch(requestSearch('asdf'));
       store.dispatch(receiveBook({...book, id: 'differentid'}));
-      const component = renderer.create(<Provider store={store}>
+      const component = renderer.create(<TestContainer store={store}>
         <ConnectedContentLink book={book} page={page} />
-      </Provider>);
+      </TestContainer>);
 
       const event = await click(component);
 
@@ -162,9 +162,9 @@ describe('ContentLink', () => {
 
     it('calls onClick when passed', async() => {
       const clickSpy = jest.fn();
-      const component = renderer.create(<Provider store={store}>
+      const component = renderer.create(<TestContainer store={store}>
         <ConnectedContentLink book={book} page={page} onClick={clickSpy} />
-      </Provider>);
+      </TestContainer>);
 
       const event = await click(component);
 
@@ -179,9 +179,9 @@ describe('ContentLink', () => {
 
     it('does not call onClick or dispatch the event when the meta key is pressed', async() => {
       const clickSpy = jest.fn();
-      const component = renderer.create(<Provider store={store}>
+      const component = renderer.create(<TestContainer store={store}>
         <ConnectedContentLink book={book} page={page} onClick={clickSpy} />
-      </Provider>);
+      </TestContainer>);
 
       const event = {
         metaKey: true,
@@ -215,9 +215,9 @@ describe('ContentLink', () => {
     it('does not call onClick or dispatch if user decides not to discard changes' , async() => {
       const clickSpy = jest.fn();
       store.dispatch(setAnnotationChangesPending(true));
-      const component = renderer.create(<Provider store={store}>
+      const component = renderer.create(<TestContainer store={store}>
         <ConnectedContentLink book={book} page={page} onClick={clickSpy} />
-      </Provider>);
+      </TestContainer>);
 
       const event = await click(component);
 
@@ -229,9 +229,9 @@ describe('ContentLink', () => {
     it('calls onClick and dispatch if user decides to discard changes' , async() => {
       const clickSpy = jest.fn();
       store.dispatch(setAnnotationChangesPending(true));
-      const component = renderer.create(<Provider store={store}>
+      const component = renderer.create(<TestContainer store={store}>
         <ConnectedContentLink book={book} page={page} onClick={clickSpy} />
-      </Provider>);
+      </TestContainer>);
 
       const event = await click(component);
 

@@ -11,7 +11,7 @@ describe('ConfirmationModal', () => {
         deny={() => null}
       />
     </TestContainer>);
-    const tree = component.toJSON();
-    expect(tree).toMatchSnapshot();
+
+    expect(component.toJSON()).toMatchSnapshot();
   });
 });

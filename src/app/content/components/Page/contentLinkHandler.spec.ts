@@ -1,5 +1,6 @@
 import { HTMLAnchorElement, MouseEvent } from '@openstax/types/lib.dom';
 import defer from 'lodash/fp/defer';
+import { IntlShape } from 'react-intl';
 import { book as archiveBook, page } from '../../../../test/mocks/archiveLoader';
 import { mockCmsBook } from '../../../../test/mocks/osWebLoader';
 import { resetModules } from '../../../../test/utils';
@@ -17,10 +18,12 @@ describe('contentLinkHandler', () => {
   let handler: (e: MouseEvent) => Promise<void>;
   let prop: ContentLinkProp;
   let anchor: HTMLAnchorElement;
+  let intl: IntlShape;
 
   beforeEach(() => {
     resetModules();
     anchor = assertDocument().createElement('a');
+    intl = { formatMessage: jest.fn() } as any as IntlShape;
 
     prop = {
       book,
@@ -39,7 +42,7 @@ describe('contentLinkHandler', () => {
 
     beforeEach(() => {
       contentRoute = require('../../routes').content;
-      handler = require('./contentLinkHandler').contentLinkHandler(anchor, () => prop);
+      handler = require('./contentLinkHandler').contentLinkHandler(anchor, () => prop, intl);
     });
 
     it('intercepts clicking content links with uuid', async() => {
@@ -293,7 +296,7 @@ describe('contentLinkHandler', () => {
     beforeEach(() => {
       prop.hasUnsavedHighlight = true;
 
-      handler = require('./contentLinkHandler').contentLinkHandler(anchor, () => prop);
+      handler = require('./contentLinkHandler').contentLinkHandler(anchor, () => prop, intl);
 
       const link = `/books/${book.id}@${book.version}/pages/page-title`;
       anchor.setAttribute('href', link);

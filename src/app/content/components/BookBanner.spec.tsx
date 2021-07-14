@@ -1,24 +1,25 @@
 import { DOMRect } from '@openstax/types/lib.dom';
+import { cloneDeep } from 'lodash/fp';
+import createTestStore from '../../../test/createTestStore';
 import { book as archiveBook, shortPage } from '../../../test/mocks/archiveLoader';
 import { mockCmsBook } from '../../../test/mocks/osWebLoader';
-import { renderToDom } from '../../../test/reactutils';
 import { reactAndFriends, resetModules } from '../../../test/utils';
+import { AppState } from '../../types';
 import { assertDocument, assertWindow } from '../../utils';
+import { initialState } from '../reducer';
 import { formatBookData } from '../utils';
-import { findArchiveTreeNodeById } from '../utils/archiveTreeUtils';
-import { BarWrapper, PropTypes } from './BookBanner';
-import { defaultTheme } from './constants';
+import { BarWrapper } from './BookBanner';
 
 const book = formatBookData(archiveBook, mockCmsBook);
+const page = {...shortPage, references: []};
 const bookWithoutOsWebData = formatBookData(archiveBook, undefined);
-const pageNode = findArchiveTreeNodeById(archiveBook.tree, shortPage.id)!;
 
 describe('BookBanner', () => {
   let window: Window;
   let event: React.MouseEvent;
   let assign: jest.SpyInstance;
   // tslint:disable-next-line:variable-name
-  let BookBanner: React.ComponentType<PropTypes>;
+  let BookBanner: React.FC;
 
   beforeEach(() => {
     resetModules();
@@ -37,39 +38,67 @@ describe('BookBanner', () => {
       preventDefault: jest.fn(),
       shiftKey: false,
     } as any as React.MouseEvent;
-
     assign = jest.spyOn(window.location, 'assign');
   });
 
   describe('without unsaved changes', () => {
     let React: any; // tslint:disable-line:variable-name
     let renderer: any;
+    let TestContainer: any; // tslint:disable-line:variable-name
+    let renderToDom: any;
 
     beforeEach(() => {
-      ({React, renderer} = reactAndFriends());
-      BookBanner = require('./BookBanner').BookBanner;
+      ({React, renderer, TestContainer, renderToDom} = reactAndFriends());
+      BookBanner = require('./BookBanner').default;
     });
 
     it('renders empty state with no page or book', () => {
-      const component = renderer.create(<BookBanner bookTheme={defaultTheme} />);
+      const component = renderer.create(<TestContainer><BookBanner /></TestContainer>);
 
       const tree = component.toJSON();
       expect(tree).toMatchSnapshot();
     });
 
     it('renders correctly when you pass a page and book', () => {
-      const component = renderer.create(<BookBanner pageNode={pageNode} book={book} bookTheme={book.theme} />);
-
+      const state = (cloneDeep({
+        content: {
+          ...initialState,
+          book,
+          page,
+          params: {
+            book: {
+              slug: book.slug,
+            },
+            page: {
+              slug: page.slug,
+            },
+          },
+        },
+      }) as any) as AppState;
+      const store = createTestStore(state);
+      const component = renderer.create(<TestContainer store={store}><BookBanner /></TestContainer>);
       const tree = component.toJSON();
       expect(tree).toMatchSnapshot();
     });
 
     it('renders BookTitle instead of BookTitleLink with a link to details page for retired books', () => {
-      const component = renderer.create(<BookBanner
-        pageNode={pageNode}
-        book={{...book, book_state: 'retired'}}
-        bookTheme={book.theme}
-      />);
+      const state = (cloneDeep({
+        content: {
+          ...initialState,
+          book: {...book, book_state: 'retired'},
+          page,
+          params: {
+            book: {
+              slug: book.slug,
+            },
+            page: {
+              slug: page.slug,
+            },
+          },
+        },
+      }) as any) as AppState;
+      const store = createTestStore(state);
+      const component = renderer.create(<TestContainer store={store}><BookBanner /></TestContainer>);
 
       expect(() => component.root.findByProps({ 'data-testid': 'book-title-expanded'})).not.toThrow();
       expect(() => component.root.findByProps({ 'data-testid': 'book-title-collapsed'})).not.toThrow();
@@ -78,30 +107,61 @@ describe('BookBanner', () => {
     });
 
     it('renders correctly without osweb data', () => {
-      const component = renderer.create(<BookBanner
-        pageNode={pageNode}
-        book={bookWithoutOsWebData}
-        bookTheme={defaultTheme}
-      />);
+      const state = (cloneDeep({
+        content: {
+          ...initialState,
+          book: bookWithoutOsWebData,
+          page,
+          params: {
+            book: {
+              slug: book.slug,
+            },
+            page: {
+              slug: page.slug,
+            },
+          },
+        },
+      }) as any) as AppState;
+      const store = createTestStore(state);
+      const component = renderer.create(<TestContainer store={store}><BookBanner /></TestContainer>);
 
       const tree = component.toJSON();
       expect(tree).toMatchSnapshot();
     });
 
     it('renders correctly without pageNode', () => {
-      const component = renderer.create(<BookBanner book={book} bookTheme={defaultTheme} />);
+      const state = (cloneDeep({
+        content: {
+          ...initialState,
+          book,
+          page,
+        },
+      }) as any) as AppState;
+      const store = createTestStore(state);
+      const component = renderer.create(<TestContainer store={store}><BookBanner /></TestContainer>);
 
       const tree = component.toJSON();
       expect(tree).toMatchSnapshot();
     });
 
     it('does not stop default navigation event', async() => {
-      const component = renderer.create(<BookBanner
-        pageNode={pageNode}
-        book={book}
-        bookTheme={book.theme}
-        hasUnsavedHighlight={false}
-      />);
+      const state = (cloneDeep({
+        content: {
+          ...initialState,
+          book,
+          page,
+          params: {
+            book: {
+              slug: book.slug,
+            },
+            page: {
+              slug: page.slug,
+            },
+          },
+        },
+      }) as any) as AppState;
+      const store = createTestStore(state);
+      const component = renderer.create(<TestContainer store={store}><BookBanner /></TestContainer>);
 
       const link = component.root.findByProps({'data-testid': 'details-link-expanded'});
 
@@ -114,7 +174,23 @@ describe('BookBanner', () => {
     });
 
     it('mounts in a dom', () => {
-      expect(() => renderToDom(<BookBanner pageNode={pageNode} book={book} bookTheme={book.theme} />)).not.toThrow();
+      const state = (cloneDeep({
+        content: {
+          ...initialState,
+          book,
+          page,
+          params: {
+            book: {
+              slug: book.slug,
+            },
+            page: {
+              slug: page.slug,
+            },
+          },
+        },
+      }) as any) as AppState;
+      const store = createTestStore(state);
+      expect(() => renderToDom(<TestContainer store={store}><BookBanner /></TestContainer>)).not.toThrow();
     });
 
     it('wrapper transition matches snapshot', () => {
@@ -123,7 +199,23 @@ describe('BookBanner', () => {
     });
 
     it('defaults tab indexes on banner links', () => {
-      const component = renderer.create(<BookBanner pageNode={pageNode} book={book} bookTheme={book.theme} />);
+      const state = (cloneDeep({
+        content: {
+          ...initialState,
+          book,
+          page,
+          params: {
+            book: {
+              slug: book.slug,
+            },
+            page: {
+              slug: page.slug,
+            },
+          },
+        },
+      }) as any) as AppState;
+      const store = createTestStore(state);
+      const component = renderer.create(<TestContainer store={store}><BookBanner /></TestContainer>);
 
       const linkExpanded = component.root.findByProps({'data-testid': 'details-link-expanded'});
       const linkCollapsed = component.root.findByProps({'data-testid': 'details-link-collapsed'});
@@ -149,12 +241,23 @@ describe('BookBanner', () => {
         return null;
       };
 
-      // scroll handler also gets called on component did mount
-      const rectSpy = jest.spyOn(collapsedBannerNode, 'getBoundingClientRect')
-        .mockReturnValueOnce({top: 50} as DOMRect);
-
-      const component = renderer.create(
-        <BookBanner pageNode={pageNode} book={book} bookTheme={book.theme}/>,
+      const state = (cloneDeep({
+        content: {
+          ...initialState,
+          book,
+          page,
+          params: {
+            book: {
+              slug: book.slug,
+            },
+            page: {
+              slug: page.slug,
+            },
+          },
+        },
+      }) as any) as AppState;
+      const store = createTestStore(state);
+      const component = renderer.create(<TestContainer store={store}><BookBanner /></TestContainer>,
         {createNodeMock}
       );
 
@@ -165,7 +268,7 @@ describe('BookBanner', () => {
       scrollEvent.initEvent('scroll', true, false);
 
       // first scroll
-      rectSpy.mockReturnValueOnce({top: 0} as DOMRect);
+      const rectSpy = jest.spyOn(collapsedBannerNode, 'getBoundingClientRect').mockReturnValueOnce({top: 0} as DOMRect);
       renderer.act(() => {
         window.document.dispatchEvent(scrollEvent);
       });
@@ -196,19 +299,36 @@ describe('BookBanner', () => {
 
     let React: any; // tslint:disable-line:variable-name
     let renderer: any;
+    let TestContainer: any; // tslint:disable-line:variable-name
 
     beforeEach(() => {
-      ({React, renderer} = reactAndFriends());
-      BookBanner = require('./BookBanner').BookBanner;
+      ({React, renderer, TestContainer} = reactAndFriends());
+      BookBanner = require('./BookBanner').default;
     });
 
     it('redirects if users chooses to discard', async() => {
-      const component = renderer.create(<BookBanner
-        pageNode={pageNode}
-        book={book}
-        bookTheme={book.theme}
-        hasUnsavedHighlight={true}
-      />);
+      const state = (cloneDeep({
+        content: {
+          ...initialState,
+          book,
+          highlights: {
+            currentPage: {
+              hasUnsavedHighlight: true,
+            },
+          },
+          page,
+          params: {
+            book: {
+              slug: book.slug,
+            },
+            page: {
+              slug: page.slug,
+            },
+          },
+        },
+      }) as any) as AppState;
+      const store = createTestStore(state);
+      const component = renderer.create(<TestContainer store={store}><BookBanner /></TestContainer>);
 
       const link = component.root.findByProps({'data-testid': 'details-link-expanded'});
 
@@ -222,12 +342,28 @@ describe('BookBanner', () => {
     });
 
     it('noops if users chooses not to discard', async() => {
-      const component = renderer.create(<BookBanner
-        pageNode={pageNode}
-        book={book}
-        bookTheme={book.theme}
-        hasUnsavedHighlight={true}
-      />);
+      const state = (cloneDeep({
+        content: {
+          ...initialState,
+          book,
+          highlights: {
+            currentPage: {
+              hasUnsavedHighlight: true,
+            },
+          },
+          page,
+          params: {
+            book: {
+              slug: book.slug,
+            },
+            page: {
+              slug: page.slug,
+            },
+          },
+        },
+      }) as any) as AppState;
+      const store = createTestStore(state);
+      const component = renderer.create(<TestContainer store={store}><BookBanner /></TestContainer>);
 
       const link = component.root.findByProps({'data-testid': 'details-link-collapsed'});
 
@@ -246,11 +382,13 @@ describe('BookBanner', () => {
     const documentBackup = document;
     let React: any; // tslint:disable-line:variable-name
     let renderer: any;
+    let TestContainer: any; // tslint:disable-line:variable-name
 
     beforeEach(() => {
       delete (global as any).window;
       delete (global as any).document;
-      ({React, renderer} = reactAndFriends());
+      ({React, renderer, TestContainer} = reactAndFriends());
+      BookBanner = require('./BookBanner').default;
     });
 
     afterEach(() => {
@@ -259,7 +397,26 @@ describe('BookBanner', () => {
     });
 
     it('renders', () => {
-      const component = renderer.create(<BookBanner pageNode={pageNode} book={book} bookTheme={book.theme} />);
+      const state = (cloneDeep({
+        content: {
+          ...initialState,
+          book,
+          page,
+          params: {
+            book: {
+              slug: book.slug,
+            },
+            page: {
+              slug: page.slug,
+            },
+          },
+        },
+      }) as any) as AppState;
+      const store = createTestStore(state);
+      const component = renderer.create(<TestContainer store={store}><BookBanner /></TestContainer>);
+
+      // tslint:disable-next-line: no-empty
+      renderer.act(() => {});
 
       const tree = component.toJSON();
       expect(tree).toMatchSnapshot();

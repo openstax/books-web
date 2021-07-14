@@ -5,6 +5,7 @@ import flow from 'lodash/fp/flow';
 import React from 'react';
 import { connect, useSelector } from 'react-redux';
 import styled from 'styled-components';
+import { useServices } from '../../../context/Services';
 import { scrollIntoView } from '../../../domUtils';
 import { useFocusIn } from '../../../reactUtils';
 import { AppState, Dispatch } from '../../../types';
@@ -58,14 +59,15 @@ const Card = (props: CardProps) => {
   const [editing, setEditing] = React.useState<boolean>(!annotation);
   const locationFilters = useSelector(selectHighlights.highlightLocationFilters);
   const hasUnsavedHighlight = useSelector(selectHighlights.hasUnsavedHighlight);
+  const services = useServices();
 
   const { isActive, highlight: { id }, focus } = props;
 
   const focusCard = React.useCallback(async() => {
-    if (!isActive && (!hasUnsavedHighlight || await showConfirmation())) {
+    if (!isActive && (!hasUnsavedHighlight || await showConfirmation(services))) {
       focus(id);
     }
-  }, [isActive, hasUnsavedHighlight, id, focus]);
+  }, [isActive, hasUnsavedHighlight, id, focus, services]);
 
   useFocusIn(element, true, focusCard);
 

@@ -32,7 +32,8 @@ import ConnectedPage from './Page';
 import allImagesLoaded from './utils/allImagesLoaded';
 
 jest.mock('./utils/allImagesLoaded', () => jest.fn());
-jest.mock('../highlights/components/utils/showConfirmation', () => () => new Promise((resolve) => resolve(false)));
+jest.mock('../highlights/components/utils/showConfirmation',
+  () => () => new Promise((resolve) => resolve(false)));
 
 // https://github.com/facebook/jest/issues/936#issuecomment-463644784
 jest.mock('../../domUtils', () => ({
