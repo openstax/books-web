@@ -51,6 +51,7 @@ test-rail-sauce: venv
 sauce: venv
 	marker="$(MARKER)" && . .venv/bin/activate && pytest \
 		$${marker:+-m "$$marker"} \
+		--highlighting \
 		--base-url=$(BASE_URL) \
 		--driver SauceLabs \
 		--capability avoidProxy True \

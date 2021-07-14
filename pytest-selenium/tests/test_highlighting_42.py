@@ -17,11 +17,8 @@ from utils.utility import Highlight, Utilities
 
 @markers.test_case("C592636")
 @markers.highlighting
-@markers.parametrize(
-    "book_slug, page_slug",
-    [("chemistry-2e", "1-introduction")]
-)
-@markers.smoke_test
+@markers.parametrize("book_slug, page_slug", [("chemistry-2e", "1-introduction")])
+# @markers.smoke_test
 def test_my_highlights_summary_shows_highlights_and_notes_on_current_page(
     selenium, base_url, book_slug, page_slug
 ):
@@ -164,10 +161,7 @@ def test_my_highlights_summary_shows_highlights_and_notes_on_current_page(
 
 @markers.test_case("C592637")
 @markers.highlighting
-@markers.parametrize(
-    "book_slug, page_slug",
-    [("chemistry-2e", "1-4-measurements")]
-)
+@markers.parametrize("book_slug, page_slug", [("chemistry-2e", "1-4-measurements")])
 def test_my_highlights_summary_shows_all_types_of_content(selenium, base_url, book_slug, page_slug):
     """My Highlights and Notes summary shows all types of page content."""
     # GIVEN: the Chemistry 2e book section 1.4 is displayed
@@ -200,63 +194,72 @@ def test_my_highlights_summary_shows_all_types_of_content(selenium, base_url, bo
         group=book.content.paragraphs,
         offset=Highlight.ENTIRE,
         color=Highlight.random_color(),
-        name="Paragraph")
+        name="Paragraph",
+    )
     Highlight.force_highlight(
         book=book,
         by=random.choice,
         group=book.content.images,
         offset=Highlight.ENTIRE,
         color=Highlight.random_color(),
-        name="Image")
+        name="Image",
+    )
     Highlight.force_highlight(
         book=book,
         by=random.choice,
         group=book.content.figures,
         offset=Highlight.ENTIRE,
         color=Highlight.random_color(),
-        name="Figure")
+        name="Figure",
+    )
     Highlight.force_highlight(
         book=book,
         by=random.choice,
         group=book.content.captions,
         offset=Highlight.ENTIRE,
         color=Highlight.random_color(),
-        name="Caption")
+        name="Caption",
+    )
     Highlight.force_highlight(
         book=book,
         by=random.choice,
         group=book.content.lists,
         offset=Highlight.ENTIRE,
         color=Highlight.random_color(),
-        name="List")
+        name="List",
+    )
     Highlight.force_highlight(
         book=book,
         by=random.choice,
         group=book.content.tables,
         offset=Highlight.ENTIRE,
         color=Highlight.random_color(),
-        name="Table")
+        name="Table",
+    )
     Highlight.force_highlight(
         book=book,
         by=random.choice,
         group=book.content.footnotes,
         offset=Highlight.ENTIRE,
         color=Highlight.random_color(),
-        name="Footnote")
+        name="Footnote",
+    )
     Highlight.force_highlight(
         book=book,
         by=random.choice,
         group=book.content.links,
         offset=Highlight.ENTIRE,
         color=Highlight.random_color(),
-        name="Link")
+        name="Link",
+    )
     Highlight.force_highlight(
         book=book,
         by=random.choice,
         group=book.content.math,
         offset=Highlight.ENTIRE,
         color=Highlight.random_color(),
-        name="Math")
+        name="Math",
+    )
     highlight_ids = set(book.content.highlight_ids)
 
     if width != DESKTOP[0]:
@@ -281,10 +284,7 @@ def test_my_highlights_summary_shows_all_types_of_content(selenium, base_url, bo
 @markers.test_case("C592640")
 @markers.desktop_only
 @markers.highlighting
-@markers.parametrize(
-    "book_slug, page_slug",
-    [("chemistry-2e", "1-introduction")]
-)
+@markers.parametrize("book_slug, page_slug", [("chemistry-2e", "1-introduction")])
 def test_able_to_close_my_highlights_with_keyboard_navigation(
     selenium, base_url, book_slug, page_slug
 ):
@@ -316,10 +316,7 @@ def test_able_to_close_my_highlights_with_keyboard_navigation(
 
 @markers.test_case("C592641")
 @markers.highlighting
-@markers.parametrize(
-    "book_slug, page_slug",
-    [("chemistry-2e", "1-1-chemistry-in-context")]
-)
+@markers.parametrize("book_slug, page_slug", [("chemistry-2e", "1-1-chemistry-in-context")])
 def test_lengthy_highlights_summary_page_has_a_floating_back_to_top_link(
     selenium, base_url, book_slug, page_slug
 ):
@@ -352,7 +349,7 @@ def test_lengthy_highlights_summary_page_has_a_floating_back_to_top_link(
             by=random.choice,
             group=book.content.paragraphs,
             offset=Highlight.ENTIRE,
-            color=Highlight.random_color()
+            color=Highlight.random_color(),
         )
 
     if width != DESKTOP[0]:

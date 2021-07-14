@@ -15,8 +15,7 @@ from utils.utility import Highlight, Color, Utilities
 @markers.desktop_only
 @markers.highlighting
 @markers.parametrize(
-    "book_slug, page_slug",
-    [("organizational-behavior", "1-1-the-nature-of-work")]
+    "book_slug, page_slug", [("organizational-behavior", "1-1-the-nature-of-work")]
 )
 def test_change_color_from_MH_page(selenium, base_url, book_slug, page_slug):
     """Changing highlight color from MH page, updates the highlight in content page."""
@@ -83,8 +82,7 @@ def test_change_color_from_MH_page(selenium, base_url, book_slug, page_slug):
 @markers.desktop_only
 @markers.highlighting
 @markers.parametrize(
-    "book_slug, page_slug",
-    [("organizational-behavior", "1-1-the-nature-of-work")]
+    "book_slug, page_slug", [("organizational-behavior", "1-1-the-nature-of-work")]
 )
 def test_add_note_from_MH_page(selenium, base_url, book_slug, page_slug):
     """Adding note from MH page, updates the highlight in content page."""
@@ -124,7 +122,7 @@ def test_add_note_from_MH_page(selenium, base_url, book_slug, page_slug):
             highlight_id = highlight.mh_highlight_id
 
             highlight.add_note()
-            highlight.note = note_added
+            (ActionChains(selenium).send_keys(note_added).perform())
             highlight.save()
 
             my_highlights.close()
@@ -164,8 +162,7 @@ def test_add_note_from_MH_page(selenium, base_url, book_slug, page_slug):
 @markers.desktop_only
 @markers.highlighting
 @markers.parametrize(
-    "book_slug, page_slug",
-    [("organizational-behavior", "1-1-the-nature-of-work")]
+    "book_slug, page_slug", [("organizational-behavior", "1-1-the-nature-of-work")]
 )
 def test_edit_note_from_MH_page(selenium, base_url, book_slug, page_slug):
     """Editing note from MH page, updates the highlight in content page."""
@@ -204,7 +201,7 @@ def test_edit_note_from_MH_page(selenium, base_url, book_slug, page_slug):
             highlight_id = highlight.mh_highlight_id
 
             highlight.edit_note()
-            highlight.note = note_append
+            (ActionChains(selenium).send_keys(note_append).perform())
 
             # AND: Hit Cancel in the note edit textbox
             highlight.cancel()
@@ -250,7 +247,7 @@ def test_edit_note_from_MH_page(selenium, base_url, book_slug, page_slug):
             highlight_id = highlight.mh_highlight_id
 
             highlight.edit_note()
-            highlight.note = note_append
+            (ActionChains(selenium).send_keys(note_append).perform())
 
             # AND: Hit Save in the note edit textbox
             highlight.save()
@@ -292,8 +289,7 @@ def test_edit_note_from_MH_page(selenium, base_url, book_slug, page_slug):
 @markers.desktop_only
 @markers.highlighting
 @markers.parametrize(
-    "book_slug, page_slug",
-    [("organizational-behavior", "1-1-the-nature-of-work")]
+    "book_slug, page_slug", [("organizational-behavior", "1-1-the-nature-of-work")]
 )
 def test_delete_highlight_from_MH_page(selenium, base_url, book_slug, page_slug):
     """Deleting highlight from MH page, removes the highlight in content page."""
@@ -369,8 +365,7 @@ def test_delete_highlight_from_MH_page(selenium, base_url, book_slug, page_slug)
 @markers.highlighting
 @markers.mobile_only
 @markers.parametrize(
-    "book_slug, page_slug",
-    [("organizational-behavior", "1-1-the-nature-of-work")]
+    "book_slug, page_slug", [("organizational-behavior", "1-1-the-nature-of-work")]
 )
 def test_no_context_menu_in_mobile_MH_page(selenium, base_url, book_slug, page_slug):
     """Mobile MH page does not have context menu."""
@@ -401,8 +396,7 @@ def test_no_context_menu_in_mobile_MH_page(selenium, base_url, book_slug, page_s
 @markers.desktop_only
 @markers.highlighting
 @markers.parametrize(
-    "book_slug, page_slug",
-    [("organizational-behavior", "1-1-the-nature-of-work")]
+    "book_slug, page_slug", [("organizational-behavior", "1-1-the-nature-of-work")]
 )
 def test_toggle_MH_page_context_menu_using_keyboard(selenium, base_url, book_slug, page_slug):
     """Open/close context menu in MH page using keyboard."""
@@ -478,8 +472,7 @@ def test_toggle_MH_page_context_menu_using_keyboard(selenium, base_url, book_slu
 @markers.desktop_only
 @markers.highlighting
 @markers.parametrize(
-    "book_slug, page_slug",
-    [("organizational-behavior", "1-1-the-nature-of-work")]
+    "book_slug, page_slug", [("organizational-behavior", "1-1-the-nature-of-work")]
 )
 def test_change_highlight_color_from_MH_page_context_menu_using_keyboard(
     selenium, base_url, book_slug, page_slug
@@ -544,8 +537,7 @@ def test_change_highlight_color_from_MH_page_context_menu_using_keyboard(
 @markers.desktop_only
 @markers.highlighting
 @markers.parametrize(
-    "book_slug, page_slug",
-    [("organizational-behavior", "1-1-the-nature-of-work")]
+    "book_slug, page_slug", [("organizational-behavior", "1-1-the-nature-of-work")]
 )
 def test_add_note_from_MH_page_using_keyboard_navigation(selenium, base_url, book_slug, page_slug):
     """Add note from MH page using keyboard navigation."""
@@ -633,8 +625,7 @@ def test_add_note_from_MH_page_using_keyboard_navigation(selenium, base_url, boo
 @markers.desktop_only
 @markers.highlighting
 @markers.parametrize(
-    "book_slug, page_slug",
-    [("organizational-behavior", "1-1-the-nature-of-work")]
+    "book_slug, page_slug", [("organizational-behavior", "1-1-the-nature-of-work")]
 )
 def test_edit_note_from_MH_page_using_keyboard_navigation(selenium, base_url, book_slug, page_slug):
     """Edit note from MH page using keyboard navigation."""
@@ -723,8 +714,7 @@ def test_edit_note_from_MH_page_using_keyboard_navigation(selenium, base_url, bo
 @markers.desktop_only
 @markers.highlighting
 @markers.parametrize(
-    "book_slug, page_slug",
-    [("organizational-behavior", "1-1-the-nature-of-work")]
+    "book_slug, page_slug", [("organizational-behavior", "1-1-the-nature-of-work")]
 )
 def test_delete_highlight_from_MH_page_using_keyboard_navigation(
     selenium, base_url, book_slug, page_slug

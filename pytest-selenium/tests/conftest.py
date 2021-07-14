@@ -72,14 +72,8 @@ def pytest_addoption(parser):
 
 def pytest_collection_modifyitems(config, items):
     """Runtime test options."""
-    server = (
-        config.getoption("--base-url") or
-        config.getini("base_url")
-    )
-    dev_system = (
-        "//staging.openstax." not in server and
-        "//openstax." not in server
-    )
+    server = config.getoption("--base-url") or config.getini("base_url")
+    dev_system = "//staging.openstax." not in server and "//openstax." not in server
     heroku_app = "herokuapp" in server
     highlighting = config.getoption("--highlighting")
     if dev_system and not heroku_app and highlighting:
@@ -129,10 +123,7 @@ def chrome_options(chrome_options, pytestconfig, language):
 
     # Set the browser language
     chrome_options.add_argument("--lang={lang}".format(lang=language))
-    chrome_options.add_experimental_option(
-        "prefs",
-        {"intl.accept_languages": language}
-    )
+    chrome_options.add_experimental_option("prefs", {"intl.accept_languages": language})
 
     return chrome_options
 
