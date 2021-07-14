@@ -1,5 +1,4 @@
 import { HTMLAnchorElement, HTMLDivElement, HTMLElement, MouseEvent } from '@openstax/types/lib.dom';
-import queryString from 'query-string';
 import React, { Component } from 'react';
 import WeakMap from 'weak-map';
 import { APP_ENV } from '../../../../config';
@@ -39,12 +38,11 @@ export default class PageComponent extends Component<PagePropTypes> {
   private processing: Promise<void> = Promise.resolve();
 
   public getTransformedContent = () => {
-    const {book, page, services, systemQueryParams} = this.props;
+    const {book, page, services} = this.props;
 
     return getCleanContent(book, page, services.archiveLoader, (content) => {
       const parsedContent = parser.parseFromString(content, 'text/html');
-      const systemQueryString = queryString.stringify(systemQueryParams);
-      contentLinks.reduceReferences(parsedContent, this.props.contentLinks, systemQueryString);
+      contentLinks.reduceReferences(parsedContent, this.props.contentLinks);
 
       transformContent(parsedContent, parsedContent.body, this.props.intl);
 

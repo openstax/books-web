@@ -7,7 +7,7 @@ import { AppServices, AppState } from '../../../types';
 import { merge } from '../../../utils';
 import { mobileToolbarOpen, query } from '../../search/selectors';
 import * as select from '../../selectors';
-import { State } from '../../types';
+import { ContentQueryParams, State, SystemQueryParams } from '../../types';
 import { ContentLinkProp, mapDispatchToContentLinkProp, mapStateToContentLinkProp } from './contentLinkHandler';
 import { HighlightProp, mapDispatchToHighlightProp, mapStateToHighlightProp } from './highlightManager';
 import { mapStateToScrollToTopOrHashProp } from './scrollToTopOrHashManager';
@@ -29,7 +29,8 @@ export interface PagePropTypes {
   highlights: HighlightProp;
   services: AppServices;
   addToast: typeof addToast;
-  systemQueryParams: ReturnType<typeof selectNavigation.systemQueryParameters>;
+  systemQueryParams: SystemQueryParams;
+  persistentQueryParams: ContentQueryParams;
 }
 
 export default connect(

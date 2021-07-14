@@ -68,27 +68,6 @@ describe('ContentLink', () => {
       expect(event.preventDefault).toHaveBeenCalled();
     });
 
-    it('dispatches navigation action with search if there is a search', async() => {
-      store.dispatch(requestSearch('asdf'));
-      store.dispatch(receiveBook(book));
-      const component = renderer.create(<Provider store={store}>
-        <ConnectedContentLink book={book} page={page} />
-      </Provider>);
-
-      const event = await click(component);
-
-      expect(dispatch).toHaveBeenCalledWith(push({
-        params: {book: {slug: BOOK_SLUG}, page: {slug: PAGE_SLUG}},
-        route: content,
-        state: {
-          bookUid: 'testbook1-uuid',
-          bookVersion: '1.0',
-          pageUid: 'testbook1-testpage1-uuid',
-        },
-      }, { search: 'query=asdf' }));
-      expect(event.preventDefault).toHaveBeenCalled();
-    });
-
     it('search passed as prop overwrites search from the redux state', async() => {
       store.dispatch(requestSearch('asdf'));
       store.dispatch(receiveBook(book));
@@ -96,7 +75,7 @@ describe('ContentLink', () => {
         query: 'search-from-direct-prop',
       };
       const component = renderer.create(<Provider store={store}>
-        <ConnectedContentLink book={book} page={page} search={mockSearch} />
+        <ConnectedContentLink book={book} page={page} persistentQueryParams={mockSearch} />
       </Provider>);
 
       const event = await click(component);
@@ -113,12 +92,16 @@ describe('ContentLink', () => {
       expect(event.preventDefault).toHaveBeenCalled();
     });
 
-    it('dispatches navigation action with scroll target data and search if scroll target is passed', async() => {
+    // tslint:disable-next-line: max-line-length
+    it('dispatches navigation action with scroll target data and search if scroll target and search are passed', async() => {
       const scrollTarget: SearchScrollTarget = { type: 'search', index: 1, elementId: 'anchor' };
       store.dispatch(requestSearch('asdf'));
       store.dispatch(receiveBook(book));
+      const mockSearch = {
+        query: 'asdf',
+      };
       const component = renderer.create(<Provider store={store}>
-        <ConnectedContentLink book={book} page={page} scrollTarget={scrollTarget} />
+        <ConnectedContentLink book={book} page={page} persistentQueryParams={mockSearch} scrollTarget={scrollTarget} />
       </Provider>);
 
       dispatch.mockClear();
